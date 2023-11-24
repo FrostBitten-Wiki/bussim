@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    min-height: 100vh;
+    background-color: #080454;
+}
+
+body::-webkit-scrollbar {
+    width: 0em;
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+    background-color: transparent;
+}
+
+@font-face {
+    font-family: 'LexendLight';
+    src: url('https://raw.githubusercontent.com/Bus-Simulator/BusSimulatorWiki/main/resources/fonts/Lexend-Light.ttf');
+}
+
+@font-face {
+    font-family: 'LexendRegular';
+    src: url('https://raw.githubusercontent.com/Bus-Simulator/BusSimulatorWiki/main/resources/fonts/Lexend-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'LexendThin';
+    src: url('https://raw.githubusercontent.com/Bus-Simulator/BusSimulatorWiki/main/resources/fonts/Lexend-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Starbound';
+    src: url('https://raw.githubusercontent.com/Bus-Simulator/BusSimulatorWiki/main/resources/fonts/Starbound.ttf');
+}
+
+
+text {
+    font-family:'LexendLight';
+    color: white;
+}
+
+
+button {
+    font-family: 'LexendRegular';
+    background-color: rgb(39, 30, 207);
+    border: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
