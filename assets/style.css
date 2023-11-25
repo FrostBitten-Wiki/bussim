@@ -22,7 +22,7 @@ body::-webkit-scrollbar-track {
 
 @font-face {
     font-family: 'Starbound';
-    src: url('https://raw.githubusercontent.com/Bus-Simulator/wiki/main/resources/fonts/Starbound.ttf');
+    src: url('https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/fonts/Starbound.ttf');
 }
 
 
@@ -35,7 +35,7 @@ text {
 
 
 button {
-    font-family: 'LexendRegular';
+    font-family: 'Starbound';
     background-color: #271ecf;
     border: none;
     color: white;
