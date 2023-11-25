@@ -2,8 +2,6 @@ from jinja2 import Template
 from fastapi import FastAPI, Request
 from fastapi.responses import FileResponse, HTMLResponse
 
-
-
 from json import load
 from uvicorn import run
 
@@ -27,6 +25,10 @@ async def wiki(request: Request, wikipath: str = ""):
     rendered_html = html_template.render(data)
 
     return HTMLResponse(content=rendered_html)
+
+@app.get("/bussim/sidebar")
+async def sidebar():
+    return FileResponse("sidebar.html")
 
 @app.get("/assets/{filepath:path}")
 async def assets(filepath: str):
