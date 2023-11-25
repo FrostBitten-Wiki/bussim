@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The community-managed Bus Simulator Wiki!">
+    <meta name="keywords" content="bus simulator, bus simulator wiki">
+
+    <title>{{ data.title }} | Bus Simulator Community Wiki</title>
+
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+    <!-- SIDEBAR - DO NOT REMOVE -->
+    <div id="sidebar" style="height: 100%; width: 250px; position: fixed; top: 0; left: 0; background-color: #100996; padding-top: 5px; color: white;">
+        
+    </div>
+
+    <!-- SIDEBAR LOADER -->
+    <script>
+        fetch('/wiki/sidebar')
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('sidebar').innerHTML = html
+        })
+        .catch(error => console.error('Error fetching HTML:', error));
+    </script>
+    <!-- SIDEBAR - DO NOT REMOVE -->
+
+    <div style="margin-left: 250px; padding: 15px; min-height: calc(100vh - 30px);">
+        <div style="margin-bottom: 20px;">
+            <text style="font-size: 30px;">Page Title</text><br>
+            <text>Page Description</text>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <text style="font-size: 20px;">Separator Title</text><br>
+            <text>Separator Description</text>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <text style="font-size: 20px;">Contributions by the community</text><br>
+            <text>no this is a list test. check template.json file.</text>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            {% if data.list %}
+                {% for info in data.list %}
+                    <text style="font-size: 20px;">{{ info[0] }}</text><br>
+                    <text style="font-size: 15px;">{{ info[1] }}</text><br>
+                    <text style="font-size: 10px;">- Contributed by {{ info[2] }}</text><br><br>
+                {% endfor %}
+            {% endif %}
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <text style="font-size: 20px;">Image List</text><br>
+            <text>again, check template.json for reference!!!!! you can put as many columns you want. although not too much</text>
+        </div>
+
+        <div id="givenamehereplz-list">
+            <div style="margin-bottom: 5px; display: grid;  background-color: #070446; width: calc(100% - 10px); padding: 5px; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; padding: 5px;">
+                {% if data.anynamehere_list %}
+                    {% for name in data.anynamehere_list['columns']%}
+                        <text>{{ name }}</text>
+                    {% endfor %}
+                {% endif %}
+            </div>
+
+            {% if data.anynamehere_list %}
+                {% for data in data.anynamehere_list['list']%}
+                    <div style="margin-bottom: 5px; display: grid;  background-color: #070446; width: calc(100% - 10px); padding: 5px; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; padding: 5px;">
+                        <img src="{{ data[0] }}" width="256" height="auto">
+                        <text>{{ data[1] }}</text>
+                        <text>{{ data[2] }}</text>
+                        <text>{{ data[3] }}</text>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+
+
+    </div>
+
+</body>
+</html>

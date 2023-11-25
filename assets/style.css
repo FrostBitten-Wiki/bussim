@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    /* justify-content: center; */
+    /* align-items: center; */
+    min-height: 100vh;
+    background-color: #080454;
+}
+
+body::-webkit-scrollbar {
+    width: 0em;
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+    background-color: transparent;
+}
+
+@font-face {
+    font-family: 'Starbound';
+    src: url('https://raw.githubusercontent.com/Bus-Simulator/wiki/main/resources/fonts/Starbound.ttf');
+}
+
+
+text {
+    font-family:'Starbound';
+    color: white;
+    word-spacing: 5px;
+    text-shadow: 0 1px 0 #000000;
+}
+
+
+button {
+    font-family: 'LexendRegular';
+    background-color: #271ecf;
+    border: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.sideButton {
+    font-family: 'Starbound';
+    color: white;
+    text-shadow: 0 1px 0 #000000;
+    background-color: #100996;
+    padding-top: 7px;
+    text-align: left;
+    word-spacing: 5px;
+    
+    height: 30px;
+    width: 100%;
+}
+
+.sideButton:hover {
+    background-color: #272198;
+    cursor: pointer;
+}
