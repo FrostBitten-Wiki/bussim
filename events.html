@@ -16,7 +16,7 @@
     <!-- SIDEBAR - DO NOT REMOVE -->
     <div id="sidebar" style="height: 100%; width: 250px; position: fixed; top: 0; left: 0; background-color: #100996; padding-top: 5px; color: white;">
         <script>
-            fetch('/bussim-wiki/sidebar')
+            fetch('/bussim/sidebar')
             .then(response => response.text())
             .then(html => {
                 document.getElementById('sidebar').innerHTML = html
