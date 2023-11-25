@@ -45,8 +45,8 @@
             <div style="margin-bottom: 20px;">
                 {% if eventList %}
                     {% for data in eventList %}
-                    <div style="margin-bottom: 5px; display: grid; cursor: pointer; background-color: #070446; width: calc(100% - 10px); padding: 5px; grid-template-columns: 128px 1fr; gap: 10px; padding: 5px;" onclick="location.href='/wiki/events/{{ data[2] }}'">
-                        <img src="{{ data[0] }}" width="128" height="auto">
+                    <div style="margin-bottom: 5px; display: grid; cursor: pointer; background-color: #070446; width: calc(100% - 10px); padding: 5px; grid-template-columns: 150px 1fr; gap: 10px; padding: 5px;" onclick="location.href='/wiki/events/{{ data[2] }}'">
+                        <img src="{{ data[0] }}" width="150" height="150" style="object-fit: cover;">
                         <div>
                             <text>{{ data[1] }}</text><br><br>
                             <text>{{ data[3] }}</text>
@@ -57,7 +57,9 @@
             </div>
         </div>
 
-        <text style="font-size: 10px;">Site Description is copied from the Bus Simulator Wiki (Fandom) with added information from the community.</text>
+        <text style="font-size: 10px;">Site Description is copied from the Bus Simulator Wiki (Fandom) with added information from the community.</text><br>
+        <text style="font-size: 10px;">In-game images Contributed by Nyx (866243123)</text><br>
+        <text style="font-size: 10px;">Community-made icons Contributed by Unknown</text><br>
 
     </div>
 
