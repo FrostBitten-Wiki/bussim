@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The community-managed Bus Simulator Wiki!">
+    <meta name="keywords" content="bus simulator, bus simulator wiki">
+
+    <title>Events - Bus Simulator Community Wiki</title>
+
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+    <!-- SIDEBAR - DO NOT REMOVE -->
+    <div id="sidebar" style="height: 100%; width: 250px; position: fixed; top: 0; left: 0; background-color: #100996; padding-top: 5px; color: white;">
+        <script>
+            fetch('/wiki/sidebar')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('sidebar').innerHTML = html
+            })
+            .catch(error => console.error('Error fetching HTML:', error));
+        </script>
+    </div>
+    <!-- SIDEBAR - DO NOT REMOVE -->
+
+    <div style="margin-left: 250px; padding: 15px; min-height: calc(100vh - 30px);">
+        <div style="margin-bottom: 20px;">
+            <text style="font-size: 30px;">Events</text><br>
+            <text>Events are a main staple in Bus Simulator, happening every 5 minutes after the last, or 4 if the server just started, and can be seen by the blaring red lights accompanied by a siren noise for 15 seconds.</text><br><br>
+            <text>There are a bunch of events in the game. Ranging from smaller events, like looking at a mountain, all the way to time travel. The pages go more in-depth about what goes on in the event, what items could be obtained, etc.</text><br><br>
+            <text>While most of the events shown in this category are displayed officially from within the game, some are perhaps too subtle or completely invisible for it to be properly photographed, so now some of the events will have community-made icons to help represent it properly!</text><br><br>
+            <text style="font-size: 10px;">(Examples may include : Acid Rain, Lava Floor, and a few others. Don't confuse it with the real deal!)</text><br>
+            <text style="font-size: 10px;">Note: If you are to force these events in a VIP server via the !event command, the event names are Case Sensitive. (i.e. Bloxdonalds won't be forced if you spell it with all UPPERCASE or lowercase.)</text>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <text style="font-size: 20px;">Events</text><br>
+            <text>Here's a full list of events that are currently available on the game!</text>
+        </div>
+
+        <div id="event-list">
+            <div style="margin-bottom: 20px;">
+                {% if eventList %}
+                    {% for data in eventList %}
+                    <div style="margin-bottom: 5px; display: grid; cursor: pointer; background-color: #070446; width: calc(100% - 10px); padding: 5px; grid-template-columns: 128px 1fr; gap: 10px; padding: 5px;" onclick="location.href='/wiki/events/{{ data[2] }}'">
+                        <img src="{{ data[0] }}" width="128" height="auto">
+                        <div>
+                            <text>{{ data[1] }}</text><br><br>
+                            <text>{{ data[3] }}</text>
+                        </div>
+                    </div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+
+        <text style="font-size: 10px;">Site Description is copied from the Bus Simulator Wiki (Fandom) with added information from the community.</text>
+
+    </div>
+
+</body>
+</html>

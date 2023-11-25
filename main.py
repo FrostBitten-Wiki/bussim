@@ -21,8 +21,6 @@ async def wiki(request: Request, wikipath: str = ""):
             data = load(data)
     except FileNotFoundError: data = {}
 
-    #return templates.TemplateResponse(f"{wikipath}.html", {"request": request, "data": data})
-
     html_template = Template(html.read())
     rendered_html = html_template.render(data)
 
