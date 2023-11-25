@@ -6,7 +6,7 @@
     <meta name="description" content="The community-managed Bus Simulator Wiki!">
     <meta name="keywords" content="bus simulator, bus simulator wiki">
 
-    <title>{{ data.title }} | Bus Simulator Community Wiki</title>
+    <title>{{ title }} | Bus Simulator Community Wiki</title>
 
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/assets/style.css">
@@ -46,8 +46,8 @@
         </div>
 
         <div style="margin-bottom: 20px;">
-            {% if data.list %}
-                {% for info in data.list %}
+            {% if list %}
+                {% for info in list %}
                     <text style="font-size: 20px;">{{ info[0] }}</text><br>
                     <text style="font-size: 15px;">{{ info[1] }}</text><br>
                     <text style="font-size: 10px;">- Contributed by {{ info[2] }}</text><br><br>
@@ -62,15 +62,15 @@
 
         <div id="givenamehereplz-list">
             <div style="margin-bottom: 5px; display: grid;  background-color: #070446; width: calc(100% - 10px); padding: 5px; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; padding: 5px;">
-                {% if data.anynamehere_list %}
-                    {% for name in data.anynamehere_list['columns']%}
+                {% if anynamehere_list %}
+                    {% for name in anynamehere_list['columns']%}
                         <text>{{ name }}</text>
                     {% endfor %}
                 {% endif %}
             </div>
 
-            {% if data.anynamehere_list %}
-                {% for data in data.anynamehere_list['list']%}
+            {% if anynamehere_list %}
+                {% for data in anynamehere_list['list']%}
                     <div style="margin-bottom: 5px; display: grid;  background-color: #070446; width: calc(100% - 10px); padding: 5px; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; padding: 5px;">
                         <img src="{{ data[0] }}" width="256" height="auto">
                         <text>{{ data[1] }}</text>

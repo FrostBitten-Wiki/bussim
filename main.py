@@ -1,6 +1,6 @@
+from jinja2 import Template
 from fastapi import FastAPI, Request
-from fastapi.templating import Jinja2Templates
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, HTMLResponse
 
 from json import load
 from uvicorn import run
@@ -12,17 +12,21 @@ app = FastAPI(
     redoc_url=None
 )
 
-templates = Jinja2Templates(directory="./")
-
-
 @app.get("/wiki/{wikipath:path}")
 async def wiki(request: Request, wikipath: str = ""):
+    html = open(f"./{wikipath}.html", "r")
+
     try:
         with open(f"./{wikipath}.json", "r") as data:
             data = load(data)
     except FileNotFoundError: data = {}
 
-    return templates.TemplateResponse(f"{wikipath}.html", {"request": request, "data": data})
+    #return templates.TemplateResponse(f"{wikipath}.html", {"request": request, "data": data})
+
+    html_template = Template(html.read())
+    rendered_html = html_template.render(data)
+
+    return HTMLResponse(content=rendered_html)
 
 @app.get("/assets/{filepath:path}")
 async def assets(filepath: str):
