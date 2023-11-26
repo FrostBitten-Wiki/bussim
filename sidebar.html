@@ -1,28 +1,87 @@
-<div style="padding: 10px; text-align: center; user-select: none; cursor: pointer;" onclick="location.href='/bussim/home'">
-    <text style="font-size: 27px;">Bus Simulator</text>
-    <text style="font-size: 15px;">Community Wiki</text>
+<div id="mainMenu" class="sidebarMenu" style="display: block;">
+    <button onclick="location.href='/bussim/home'">
+        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <text type="hoverText">Home</text>
+    </button>
+
+    <button onclick="navigateMenu('wikiCategories')">
+        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <text type="hoverText">Wiki Categories</text>
+    </button>
+
+    <button onclick="navigateMenu('otherStuff')">
+        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <text type="hoverText">Other Stuff</text>
+    </button>
 </div>
 
-<text style="font-size: 15px; padding-left: 6px;">Wiki</text>
-<button class="sideButton" style="font-size: 18px;" onclick="location.href='/bussim/events'">Events</button>
-<button class="sideButton" style="font-size: 18px;" onclick="location.href='/bussim/biomes'">Biomes</button>
-<button class="sideButton" style="font-size: 18px;" onclick="location.href='/bussim/items'">Items</button>
-<button class="sideButton" style="font-size: 18px;" onclick="location.href='/bussim/locations'">Locations</button>
-<button class="sideButton" style="font-size: 18px;" onclick="location.href='/bussim/npcs'">NPCs</button>
-<button class="sideButton" style="font-size: 18px;" onclick="location.href='/bussim/others'">Others</button>
+<div id="wikiCategories" class="sidebarMenu" style="display: none;">
+    <button onclick="navigateMenu('mainMenu')" type="menuBack">
+        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <text type="hoverText">Back to Menu</text>
+    </button>
 
-<br><br>      
+    <button onclick="location.href='/bussim/events'">
+        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <text type="hoverText">Events</text>
+    </button>
 
-<text style="font-size: 15px; padding-left: 6px;">Wiki Stuff</text>
-<button class="sideButton" style="font-size: 18px;" onclick="location.href='/bussim/editing'">Edit a Wiki Page</button>       
-<button class="sideButton" style="font-size: 18px;" onclick="location.href='/bussim/contributors'">Contributors</button>       
-<button class="sideButton" style="font-size: 18px;" onclick="window.open('https://github.com/FrostBitten-Wiki/bussim', '_blank')">Wiki Repository</button>
+    <button onclick="location.href='/bussim/biomes'">
+        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <text type="hoverText">Biomes</text>
+    </button>
 
-<br><br>
+    <button onclick="location.href='/bussim/items'">
+        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <text type="hoverText">Items</text>
+    </button>
 
-<text style="font-size: 15px; padding-left: 6px;">Discord</text>
-<button class="sideButton" style="font-size: 18px;" onclick="window.open('https://discord.gg/frostbitegames', '_blank')">FrostBitten Games</button>
-<button class="sideButton" style="font-size: 18px;" onclick="window.open('https://discord.gg/pNnMKKg', '_blank')">Bus Simulator Discord</button>
+    <button onclick="location.href='/bussim/locations'">
+        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <text type="hoverText">Locations</text>
+    </button>
 
-<div style="position: fixed; bottom: 0; padding: 3px; text-align: center; width: 244px; user-select: none;">
+    <button onclick="location.href='/bussim/npcs'">
+        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <text type="hoverText">NPCs</text>
+    </button>
+
+    <button onclick="location.href='/bussim/others'">
+        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <text type="hoverText">Others</text>
+    </button>
 </div>
+
+<div id="otherStuff" class="sidebarMenu" style="display: none;">
+    <button onclick="navigateMenu('mainMenu')" type="menuBack">
+        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <text type="hoverText">Back to Menu</text>
+    </button>
+
+    <button onclick="location.href='/bussim/editing'">
+        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <text type="hoverText">Wiki Editing</text>
+    </button>
+
+    <button onclick="location.href='/bussim/contributors'">
+        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <text type="hoverText">Contributors</text>
+    </button>
+
+    <button onclick="window.open('https://github.com/FrostBitten-Wiki/bussim', '_blank')">
+        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <text type="hoverText">Wiki Repository</text>
+    </button>
+</div>
+
+<bottomButtons>
+    <button onclick="window.open('https://discord.gg/frostbitegames', '_blank')">
+        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <text type="hoverText">FrostBitten Games</text>
+    </button>
+
+    <button onclick="window.open('https://discord.gg/pNnMKKg', '_blank')">
+        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <text type="hoverText">Bus Simulator Discord</text>
+    </button>
+</bottomButtons>

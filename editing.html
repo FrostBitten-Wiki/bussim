@@ -4,43 +4,49 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The community-managed Bus Simulator Wiki!">
-    <meta name="keywords" content="bus simulator, bus simulator wiki">
+    <meta name="keywords" content="roblox bus simulator, roblox bus simulator wiki">
 
-    <title>Editing - Bus Simulator Community Wiki</title>
+    <title>Wiki Editing - Bus Simulator Community Wiki</title>
 
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
-
-    <!-- SIDEBAR - DO NOT REMOVE -->
-    <div id="sidebar" style="height: 100%; width: 250px; position: fixed; top: 0; left: 0; background-color: #100996; padding-top: 5px; color: white;">
+    <div id="sidebar" class="sidebar">
         <script>
+            var activeMenu = "mainMenu";
+
+            function navigateMenu(menuId) {
+                var menus = document.querySelectorAll('.sidebarMenu');
+                menus.forEach(function(menu) {
+                    menu.style.display = 'none';
+                });
+            
+                var selectedMenu = document.getElementById(menuId);
+                if (selectedMenu) {
+                    selectedMenu.style.display = 'block';
+                    activeMenu = menuId;
+                }
+            }
+
+            navigateMenu(activeMenu);
+        </script>
+        
+        <script id="sidebarLoader">
             fetch('/bussim/sidebar')
             .then(response => response.text())
             .then(html => {
-                document.getElementById('sidebar').innerHTML = html
+                document.getElementById('sidebar').innerHTML = html;
             })
             .catch(error => console.error('Error fetching HTML:', error));
         </script>
     </div>
-    <!-- SIDEBAR - DO NOT REMOVE -->
 
-    <div style="margin-left: 250px; padding: 15px; min-height: calc(100vh - 30px);">
+    <div style="margin-left: 60px; padding: 15px; min-height: calc(100vh - 30px);">
         <div style="margin-bottom: 20px;">
-            <text style="font-size: 30px;">Editing a Wiki Page</text><br>
-            <text>Welcome, future contributors! This page contains all of the information <text style="color: #eb4034;">YOU</text> need on how to edit a Wiki Page!</text>
-        </div>
-
-        <div style="margin-bottom: 20px;">
-            <text style="font-size: 20px;">Editing <text style="color: #eb4034;">HTML</text> Pages</text><br>
-            <text><text style="color: #eb4034;">HTML</text> may sound <text style="color: #eb4034;">way too complicated</text>, although it doesn't mean you can't edit the Wiki because of it! ..and I'm here to teach you how to!</text><br><br>
-            <text>To edit a HTML Page.. or a Wiki Page, you can <text style="color: #eb4034;">Download the entire Repository</text></text><br><br>
-
-            <br><br>
-            <text>Using only HTML to create a wiki is good, although can be <text style="color: #ff1c1c;">horrible</text> when you want to like, create a long list of things. so that's why <text style="color: #eb4034;">Jinja2 Templating</text> is implemented on the server to make things much more easier to manage.</text>
+            <text style="font-size: 30px;">Wiki Editing</text><br>
+            <text>Page Description</text>
         </div>
     </div>
-
 </body>
 </html>

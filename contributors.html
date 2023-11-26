@@ -2,31 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The community-managed Bus Simulator Wiki!">
-    <meta name="keywords" content="bus simulator, bus simulator wiki">
+    <meta name="keywords" content="roblox bus simulator, roblox bus simulator wiki">
 
-    <title>Contributors - Bus Simulator Community Wiki</title>
+    <title>PageTitle - Bus Simulator Community Wiki</title>
 
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
-
-    <!-- SIDEBAR - DO NOT REMOVE -->
-    <div id="sidebar" style="height: 100%; width: 250px; position: fixed; top: 0; left: 0; background-color: #100996; padding-top: 5px; color: white;">
+    <div id="sidebar" class="sidebar">
         <script>
+            var activeMenu = "mainMenu";
+
+            function navigateMenu(menuId) {
+                var menus = document.querySelectorAll('.sidebarMenu');
+                menus.forEach(function(menu) {
+                    menu.style.display = 'none';
+                });
+            
+                var selectedMenu = document.getElementById(menuId);
+                if (selectedMenu) {
+                    selectedMenu.style.display = 'block';
+                    activeMenu = menuId;
+                }
+            }
+
+            navigateMenu(activeMenu);
+        </script>
+        
+        <script id="sidebarLoader">
             fetch('/bussim/sidebar')
             .then(response => response.text())
             .then(html => {
-                document.getElementById('sidebar').innerHTML = html
+                document.getElementById('sidebar').innerHTML = html;
             })
             .catch(error => console.error('Error fetching HTML:', error));
         </script>
     </div>
-    <!-- SIDEBAR - DO NOT REMOVE -->
 
-    <div style="margin-left: 250px; padding: 15px; min-height: calc(100vh - 30px);">
+    <div style="margin-left: 60px; padding: 15px; min-height: calc(100vh - 30px);">
         <div style="margin-bottom: 20px;">
             <text style="font-size: 30px;">Contributors</text><br>
             <text>Here's a full list of all current Contributors of the <text style="color: #eb4034;">Bus Simulator Community Wiki</text>!</text>
@@ -49,6 +65,5 @@
             </div>
         </div>
     </div>
-
 </body>
 </html>

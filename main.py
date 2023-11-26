@@ -1,3 +1,9 @@
+# This python file is used for live-editing the wiki locally.
+# If you have python installed, you can also use this to make edits and see changes easily without waiting for github's cache.
+
+# Copy this to install required libraries:
+# pip install fastapi uvicorn
+
 from jinja2 import Template
 from fastapi import FastAPI, Request
 from fastapi.responses import FileResponse, HTMLResponse
@@ -19,7 +25,7 @@ async def wiki(request: Request, wikipath: str = ""):
     try:
         route = wikipath.split("/")
         filename, route = route.pop(-1), '/'.join(route)
-        
+
         with open(f"./{route}/jinjadata/{filename}.json", "r") as data:
             data = load(data)
     except FileNotFoundError: data = {}
