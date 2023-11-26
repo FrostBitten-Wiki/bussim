@@ -99,6 +99,7 @@ div.container {
     gap: 10px; 
     padding: 5px;
     transition: 500ms;
+    cursor: pointer;
 }
 
 a {
