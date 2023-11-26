@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The community-managed Bus Simulator Wiki!">
+    <meta name="keywords" content="roblox bus simulator, roblox bus simulator wiki">
+
+    <title>PageTitle - Bus Simulator Community Wiki</title>
+
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <div id="sidebar" class="sidebar">
+        
+        <div id="mainMenu" class="sidebarMenu" style="display: block;">
+            <button onclick="location.href='/bussim/home'">
+                <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+                <text type="hoverText">Home</text>
+            </button>
+
+            <button onclick="navigateMenu('wikiCategories')">
+                <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+                <text type="hoverText">Wiki Categories</text>
+            </button>
+    
+            <button onclick="navigateMenu('otherStuff')">
+                <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+                <text type="hoverText">Other Stuff</text>
+            </button>
+        </div>
+
+        <div id="wikiCategories" class="sidebarMenu" style="display: none;">
+            <button onclick="navigateMenu('mainMenu')" type="menuBack">
+                <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+                <text type="hoverText">Back to Menu</text>
+            </button>
+
+            <button onclick="location.href=''">
+                <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+                <text type="hoverText">Events</text>
+            </button>
+
+            <button onclick="location.href=''">
+                <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+                <text type="hoverText">Biomes</text>
+            </button>
+
+            <button onclick="location.href=''">
+                <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+                <text type="hoverText">Items</text>
+            </button>
+
+            <button onclick="location.href=''">
+                <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+                <text type="hoverText">Locations</text>
+            </button>
+
+            <button onclick="location.href=''">
+                <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+                <text type="hoverText">NPCs</text>
+            </button>
+
+            <button onclick="location.href=''">
+                <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+                <text type="hoverText">Others</text>
+            </button>
+        </div>
+
+        <div id="otherStuff" class="sidebarMenu" style="display: none;">
+            <button onclick="navigateMenu('mainMenu')" type="menuBack">
+                <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+                <text type="hoverText">Back to Menu</text>
+            </button>
+
+            <button onclick="location.href='/bussim/editing'">
+                <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+                <text type="hoverText">Wiki Editing</text>
+            </button>
+
+            <button onclick="location.href='/bussim/contributors'">
+                <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+                <text type="hoverText">Contributors</text>
+            </button>
+
+            <button onclick="window.open('https://github.com/FrostBitten-Wiki/bussim', '_blank')">
+                <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+                <text type="hoverText">Wiki Repository</text>
+            </button>
+        </div>
+
+        <bottomButtons>
+            <button onclick="window.open('https://discord.gg/frostbitegames', '_blank')">
+                <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+                <text type="hoverText">FrostBitten Games</text>
+            </button>
+
+            <button onclick="window.open('https://discord.gg/pNnMKKg', '_blank')">
+                <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+                <text type="hoverText">Bus Simulator Discord</text>
+            </button>
+        </bottomButtons>
+
+        <script>
+            var activeMenu = "mainMenu";
+
+            function navigateMenu(menuId) {
+                var menus = document.querySelectorAll('.sidebarMenu');
+                menus.forEach(function(menu) {
+                    menu.style.display = 'none';
+                });
+            
+                var selectedMenu = document.getElementById(menuId);
+                if (selectedMenu) {
+                    selectedMenu.style.display = 'block';
+                    activeMenu = menuId;
+                }
+            }
+
+            navigateMenu(activeMenu);
+        </script>
+        
+        <!-- 
+        <script id="sidebarLoader">
+            fetch('/bussim/sidebar')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('sidebar').innerHTML = html;
+            })
+            .catch(error => console.error('Error fetching HTML:', error));
+        </script>
+        -->
+    </div>
+
+    <div style="margin-left: 60px; padding: 15px; min-height: calc(100vh - 30px);">
+        <div style="margin-bottom: 20px;">
+            <text style="font-size: 30px;">Page Title</text><br>
+            <text>Page Description</text>
+        </div>
+    </div>
+
+</body>
+</html>

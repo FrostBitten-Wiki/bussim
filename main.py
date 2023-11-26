@@ -12,12 +12,15 @@ app = FastAPI(
     redoc_url=None
 )
 
-@app.get("/wiki/{wikipath:path}")
+@app.get("/bussim/{wikipath:path}")
 async def wiki(request: Request, wikipath: str = ""):
     html = open(f"./{wikipath}.html", "r")
 
     try:
-        with open(f"./{wikipath}.json", "r") as data:
+        route = wikipath.split("/")
+        filename, route = route.pop(-1), '/'.join(route)
+        
+        with open(f"./{route}/jinjadata/{filename}.json", "r") as data:
             data = load(data)
     except FileNotFoundError: data = {}
 
