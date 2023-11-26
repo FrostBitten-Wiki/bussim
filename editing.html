@@ -45,8 +45,49 @@
     <div style="margin-left: 60px; padding: 15px; min-height: calc(100vh - 30px);">
         <div style="margin-bottom: 20px;">
             <text style="font-size: 30px;">Wiki Editing</text><br>
-            <text>Page Description</text>
+            <text>Welcome, future contributor! If your looking for a way to make an edit on this Wiki, then this page has everything you need to know about editing!</text>
         </div>
+
+        <div style="margin-bottom: 20px;">
+            <text style="font-size: 25px;">Note</text><br>
+            <text>It is recommended to create edits via a Computer to make editing easier. Editing on a Mobile Device is not worth trying.</text>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <text style="font-size: 25px;">Editing Rules</text><br>
+            <text>Editing rules for this thing.</text><br><br>
+            
+            {% if rules %}
+                {% for data in rules%}
+                    <text><text style="font-size: 20px;">{{ data[0] }}</text><br>{{ data[1] }}</text><br><br>
+                {% endfor %}
+            {% endif%}
+
+            <text style="color: #d81212;">Any violations of the following rules will lead to your edits being declined. Continuous violations will get you blacklisted from creating edits.</text><br>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <text style="font-size: 25px;">Guide Directory</text><br>
+            <text>The full guide of editing a Wiki Page!</text><br>
+        </div>
+
+        <div id="event-list">
+            <div style="margin-bottom: 20px;">
+                {% if guideLinks %}
+                    {% for data in guideLinks %}
+                    <div class="container" style="cursor: pointer;" onclick="location.href='/bussim/editing/{{ data[0] }}'">
+                        <div style="padding: 5px;">
+                            <text style="font-size: 25px;">{{ data[1] }}</text><br>
+                            <text>{{ data[2] }}</text>
+                        </div>
+                    </div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+
+        <text style="font-size: 12px;">Editing Guide provided by Nyx (@nyxical)</text><br>
+        <text style="font-size: 12px;">Please notify me (Nyx) if you want to change something in this Guide. Community Edits (via Pull Requests) is declined immediately.</text><br>
     </div>
 </body>
 </html>

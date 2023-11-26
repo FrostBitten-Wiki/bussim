@@ -35,10 +35,6 @@ async def wiki(request: Request, wikipath: str = ""):
 
     return HTMLResponse(content=rendered_html)
 
-@app.get("/bussim/sidebar")
-async def sidebar():
-    return FileResponse("sidebar.html")
-
 @app.get("/bussim-assets/{filepath:path}") # simulate asset proxy form wiki.wolfdo.gg/bussim-assets/
 async def assets(filepath: str):
     return FileResponse(f"./assets/{filepath}")

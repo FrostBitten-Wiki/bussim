@@ -53,7 +53,7 @@
             <div style="margin-bottom: 20px;">
                 {% if npcsList %}
                     {% for data in npcsList %}
-                    <div class="container" onclick="location.href='/bussim/npcs/{{ data[2] }}'">
+                    <div class="container" style="grid-template-columns: 150px 1fr; gap: 10px; display: grid;" onclick="location.href='/bussim/npcs/{{ data[2] }}'">
                         <img src="{{ data[0] }}" width="150" height="150" style="object-fit: cover;">
                         <div style="padding: 5px;">
                             <text style="font-size: 25px;">{{ data[1] }}</text><br><br>

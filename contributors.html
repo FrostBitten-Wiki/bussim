@@ -43,7 +43,7 @@
     </div>
 
     <div style="margin-left: 60px; padding: 15px; min-height: calc(100vh - 30px);">
-        <div style="margin-bottom: 20px;">
+        <div style="margin-bottom: 30px;">
             <text style="font-size: 30px;">Contributors</text><br>
             <text>Here's a full list of all current Contributors of the <text style="color: #eb4034;">Bus Simulator Community Wiki</text>!</text>
         </div>
@@ -52,7 +52,7 @@
             <div style="margin-bottom: 20px;">
                 {% if contributors %}
                     {% for data in contributors %}
-                    <div style="margin-bottom: 5px; display: grid; background-color: #070446; width: calc(100% - 10px); padding: 5px; grid-template-columns: 150px 1fr; gap: 10px; padding: 5px;"">
+                    <div style="margin-bottom: 5px; display: grid; background-color: #070446; width: calc(100% - 10px); padding: 5px; grid-template-columns: 150px 1fr; gap: 10px; padding: 5px;">
                         <img src="{{ data[0] }}" width="150" height="150" style="object-fit: cover;">
                         <div style="padding: 5px;">
                             <text style="font-size: 25px;">{{ data[1] }}</text><br>

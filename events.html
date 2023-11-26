@@ -53,7 +53,7 @@
         </div>
 
         <div style="margin-bottom: 20px;">
-            <text style="font-size: 20px;">Events List</text><br>
+            <text style="font-size: 25px;">Events List</text><br>
             <text>Here's a full list of events that are currently available on the game!</text>
         </div>
 
@@ -61,7 +61,7 @@
             <div style="margin-bottom: 20px;">
                 {% if eventList %}
                     {% for data in eventList %}
-                    <div class="container" onclick="location.href='/bussim/events/{{ data[2] }}'">
+                    <div class="container" style="grid-template-columns: 150px 1fr; gap: 10px; display: grid;" onclick="location.href='/bussim/events/{{ data[2] }}'">
                         <img src="{{ data[0] }}" width="150" height="150" style="object-fit: cover;">
                         <div style="padding: 5px;">
                             <text style="font-size: 25px;">{{ data[1] }}</text><br><br>
