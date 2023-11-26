@@ -1,0 +1,24 @@
+{
+    "npcsList": [
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/banana.png", "Banana", "banana", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/civilians.png", "Civilians", "civilians", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/d6.png", "D6", "d6", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/disc.png", "Disc", "disc", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/ectta.png", "Ectta", "ectta", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/efeuc.png", "Efeuc", "efeuc", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/entities.png", "Entities", "entities", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/fizzy.png", "Fizzy", "fizzy", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/frostbite.png", "Frostbite", "frostbite", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/green.png", "Green", "green", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/mirocev.png", "MiroCev", "mirocev", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/mlg.png", "MLG", "mlg", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/namerelf.png", "NamerElf", "namerelf", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/noble.png", "NobleReign", "noblereign", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/pear.png", "Pear", "pear", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/red.png", "Red", "red", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/steven.png", "Steven_Scripts", "steven-scripts", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/tazer.png", "Tazer", "tazer", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/teddy.png", "Teddy", "teddy-npc", "No Description."],
+        ["https://raw.githubusercontent.com/Bus-Simulator/wiki/main/assets/images/npcs/zeon.png", "Zeon", "zeon", "No Description."]
+    ]
+}
