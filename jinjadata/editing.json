@@ -1,7 +1,7 @@
 {
     "rules": [
         ["No Misinformative or Unrelated Content", "You many not create edits that could be misinformative and/or not related to the wiki content. Always keep the wiki content informative and related."],
-        ["No off-site Redirects", "You many not link a <a href=\"/bussim/editing/learn-the-basics#reference\">Reference</a> to an off-site website not inside the <a style=\"cursor: default;\">wiki.wolfdo.gg</a> domain."],
+        ["No off-site Redirects", "You many not link a <a href=\"/bussim/editing/learn-the-basics#reference\">Reference</a> to an off-site website not inside the <highlight>wiki.wolfdo.gg</highlight> domain."],
         ["No Vandalism", "You may not vandalize the wiki content. Even on the source of the wiki content. (like HTML comments)"],
         ["Always add Attributions/Sources", "If you ever add new or copied Information to a Wiki, always add Attributions/Sources at the very bottom of the Wiki Page."],
         ["Placeholder", "Placeholder"]
