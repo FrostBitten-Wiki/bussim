@@ -31,6 +31,10 @@ text {
     text-shadow: 0 2px 0 #000000;
 }
 
+highlight {
+    color: #eb4034;
+}
+
 div.sidebar {
     height: calc(100% - 10px);
     width: 50px; position: fixed;

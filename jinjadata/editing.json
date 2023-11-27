@@ -8,8 +8,8 @@
     ],
 
     "guideLinks": [
-        ["learn-the-basics", "Learn The Basics", "Learn the Basics of editing a Wiki Page!"],
-        ["jinja2-templating", "Templating with Jinja2", "Learn how to use Jinja2 Templating to a Wiki Page!"],
-        ["saving-edits", "Saving Changes with Pull Requests", "Learn the process on how to Save your Wiki Page edits!"]
+        ["learn-the-basics", "Part 1: Learn The Basics", "Learn how to Edit a Wiki Page!"],
+        ["jinja2-templating", "Part 2: Learn Jinja2 Templating", "Learn how to use Jinja2 Templating on a Wiki Page!"],
+        ["saving-edits", "Part 3: Saving Wiki Changes", "Learn how to Save your Changes on a Wiki Page!"]
     ]
 }
