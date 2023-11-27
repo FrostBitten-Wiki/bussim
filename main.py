@@ -23,7 +23,6 @@ async def wiki(request: Request, wikipath: str = ""):
     if wikipath == "": wikipath = "home"
     html = open(f"./{wikipath}.html", "r")
 
-
     try:
         route = wikipath.split("/")
         filename, route = route.pop(-1), '/'.join(route)
