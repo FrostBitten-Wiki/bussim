@@ -4,20 +4,20 @@
         <text type="hoverText">Home</text>
     </button>
 
-    <button onclick="navigateMenu('wikiCategories')">
-        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
-        <text type="hoverText">Wiki Categories</text>
+    <button onclick="navigateMenu('wikiPages')">
+        <img src="/assets/books.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+        <text type="hoverText">Wiki</text>
     </button>
 
     <button onclick="navigateMenu('otherStuff')">
-        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <img src="/assets/others.png" style="transform: rotate(180deg); user-select: none; margin-left: 7px;" width="24" height="auto">
         <text type="hoverText">Other Stuff</text>
     </button>
 </div>
 
-<div id="wikiCategories" class="sidebarMenu" style="display: none;">
+<div id="wikiPages" class="sidebarMenu" style="display: none;">
     <button onclick="navigateMenu('mainMenu')" type="menuBack">
-        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <img src="/assets/back.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
         <text type="hoverText">Back to Menu</text>
     </button>
 
@@ -54,34 +54,34 @@
 
 <div id="otherStuff" class="sidebarMenu" style="display: none;">
     <button onclick="navigateMenu('mainMenu')" type="menuBack">
-        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <img src="/assets/back.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
         <text type="hoverText">Back to Menu</text>
     </button>
 
     <button onclick="location.href='/bussim/editing'">
-        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <img src="/assets/edit.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
         <text type="hoverText">Wiki Editing</text>
     </button>
 
     <button onclick="location.href='/bussim/contributors'">
-        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">?</text>
+        <img src="/assets/contributors.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
         <text type="hoverText">Contributors</text>
     </button>
 
     <button onclick="window.open('https://github.com/FrostBitten-Wiki/bussim', '_blank')">
-        <img src="/assets/github.png" style="margin-left: 7px;" width="24" height="auto">
+        <img src="/assets/github.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
         <text type="hoverText">Wiki Repository</text>
     </button>
 </div>
 
 <bottomButtons>
     <button onclick="window.open('https://discord.gg/frostbitegames', '_blank')">
-        <img src="/assets/discord.png" style="margin-left: 7px;" width="24" height="auto">
+        <img src="/assets/discord.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
         <text type="hoverText">FrostBitten Games</text>
     </button>
 
     <button onclick="window.open('https://discord.gg/pNnMKKg', '_blank')">
-        <img src="/assets/discord.png" style="margin-left: 7px;" width="24" height="auto">
+        <img src="/assets/discord.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
         <text type="hoverText">Bus Simulator Discord</text>
     </button>
 </bottomButtons>
