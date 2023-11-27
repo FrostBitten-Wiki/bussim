@@ -1,24 +1,24 @@
 {
     "npcsList": [
         ["/bussim-assets/images/npcs/banana.png", "Banana", "banana", "A .png NPC that can be found in the Backwalls and chases its victims, flinging them around."],
-        ["/bussim-assets/images/npcs/civilians.png", "Civilians", "civilians", "A cluster of NPCs generated randomly using the default Roblox avatars, and appears in multiple events.<br></br>May have a generation bias towards NobleReign's friends."],
+        ["/bussim-assets/images/npcs/civilians.png", "Civilians", "civilians", "A cluster of NPCs generated randomly using the default Roblox avatars, and appears in multiple events.<br></br>Some civilians may also use one of NobleReign's friends!"],
         ["/bussim-assets/images/npcs/d6.png", "D6", "d6", "An unknown figure that sits atop the dumpster behind the Goated Gas Station. Provides wisdom among other things and may kill you without warning.<br></br>D6's also a digital artist himself."],
         ["/bussim-assets/images/npcs/disc.png", "Disc", "disc", "A goat that works as the cashier for the Goated Gas Station, allows you to purchase items along with interesting fun facts as a long-time passenger from The Bus and as a newly hired cashier."],
-        ["/bussim-assets/images/npcs/ectta.png", "Ectta", "ectta", "A black-green snakedragon that goes up to The Bus and asks many different questions in his respective event, Question Time."],
-        ["/bussim-assets/images/npcs/efeuc.png", "Efeuc", "efeuc", "Known as The Best Driver in the Bus Simulator Universe, he now lies down in the void after escaping from the police."],
+        ["/bussim-assets/images/npcs/ectta.png", "Ectta", "ectta", "A black-green snakedragon that goes up to The Bus and asks many different questions in his respective event, Question Time.<br></br>He's also an authenticator and administrator for Bus Simulator."],
+        ["/bussim-assets/images/npcs/efeuc.png", "Efeuc", "efeuc", "A human wearing a Bus Driver outfit that now lies in the void after escaping from the police.<br></br>He's also canonically the Best Driver in the Bus Simulator Universe."],
         ["/bussim-assets/images/npcs/entities.png", "Entities", "entities", "An unknown species that lurks within the Backwalls. Don't try to get in their sight, or you may not make it out alive."],
         ["/bussim-assets/images/npcs/fizzy.png", "Fizzy", "fizzy", "A now deleted NPC that used to reside next to the Bloxdonalds' doors. Its removal is a result from drama originating Fizzy."],
         ["/bussim-assets/images/npcs/frostbite.png", "Frostbite", "frostbite", "An ice wolf that lives in his own den within the Glacier Cave.<br></br>He only tolerates those who enter his den without permission, but maybe you could change that?"],
         ["/bussim-assets/images/npcs/green.png", "Green", "green", "A human with horns that works alongside Disc in the Goated Gas Station, often intercepts Disc in some dialogue and also has many different topics to talk to."],
         ["/bussim-assets/images/npcs/mirocev.png", "MiroCev", "mirocev", "A supposed clone of the original MiroCev that works as a 'seller', giving out Lemon Sodas for free to anyone who wants it."],
-        ["/bussim-assets/images/npcs/mlg.png", "MLG", "mlg", "A human that lives with Zeon as his roommate. Easily won't hold back his wrath on your intrusion however. Well, except for one method."],
+        ["/bussim-assets/images/npcs/mlg.png", "MLG", "mlg", "A human that lives with Zeon as his roommate. Easily won't hold back his wrath on you. Well, except for one method."],
         ["/bussim-assets/images/npcs/namerelf.png", "NamerElf", "namerelf", "The creator of the Glacier Caves, originally stepped out of his podium in the Art Gallery and now has to reside somewhere far away from the wolf."],
         ["/bussim-assets/images/npcs/noble.png", "NobleReign", "noblereign", "The creator of the game, NobleReign himself.<br></br>The only event he is included however is where his house gets crashed in the middle of the road."],
         ["/bussim-assets/images/npcs/pear.png", "Pear", "pear", "A gray cat that's also is a Knitter in this game. Provides many different topics to pass time alongside sponsers to Kit Battle, his clothing among other things."],
-        ["/bussim-assets/images/npcs/red.png", "Red", "red", "A Bloxdonalds cashier that also works for Kit Battle. Gives burgers and is mentally exhausted."],
+        ["/bussim-assets/images/npcs/red.png", "Red", "red", "A Bloxdonalds cashier that also is a main developer for Kit Battle and other games. Gives burgers and is mentally exhausted."],
         ["/bussim-assets/images/npcs/steven.png", "Steven_Scripts", "steven-scripts", "The creator of Bus Stop Simulator, and also provided help in developing Bus Simulator (and its 2nd wiki!)<br></br>He appears in two events, with one as a passenger and the other in a rather suspicious place."],
-        ["/bussim-assets/images/npcs/tazer.png", "Tazer", "tazer", "A protogen that's been sent in detention for speeding using his Mini-Bus and isn't fondly known by the Goated Gas staff.<br></br>He can however provide driver reputation upon satiating his hunger."],
-        ["/bussim-assets/images/npcs/teddy.png", "Teddy", "teddy-npc", "A bunny that appears in both Micspam and Micoff in which he does street concerts out of nowhere, it often ends early however."],
-        ["/bussim-assets/images/npcs/zeon.png", "Zeon", "zeon", "A human that resides in her house, reading a book relating to the Bee Movie script. Also loves to talk about turtle skeletons with D6."]
+        ["/bussim-assets/images/npcs/tazer.png", "Tazer", "tazer", "A protogen that's been sent in detention for speeding with his Mini-Bus and isn't fondly remembered by the Goated Gas staff. He can however, provide driver reputation upon satiating his hunger.<br></br>He's also an administrator for Bus Simulator and Kit Battle."],
+        ["/bussim-assets/images/npcs/teddy.png", "Teddy", "teddy-npc", "A bunny that appears in both Micspam and Micoff, where he does street concerts out of nowhere, it often ends early however."],
+        ["/bussim-assets/images/npcs/zeon.png", "Zeon", "zeon", "A human that resides in her house, reading a book relating to the Bee Movie script. Also loves to talk about turtle skeletons with D6.<br></br>She's also both an authenticator and administrator for both Bus Simulator and Kit Battle."]
     ]
 } 
