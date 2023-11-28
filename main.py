@@ -12,13 +12,11 @@ from json import load
 from uvicorn import run
 
 app = FastAPI(
-    title="Bus Simulator Community Wiki Editor",
-    description="FastAPI server for creating edits to the wiki.",
     docs_url=None,
     redoc_url=None
 )
 
-@app.get("/bussim/{wikipath:path}")
+@app.get("/{any}/{wikipath:path}")
 async def wiki(request: Request, wikipath: str = ""):
     if wikipath == "": wikipath = "home"
     html = open(f"./{wikipath}.html", "r")
@@ -36,7 +34,7 @@ async def wiki(request: Request, wikipath: str = ""):
 
     return HTMLResponse(content=rendered_html)
 
-@app.get("/bussim-assets/{filepath:path}") # simulate asset proxy form wiki.wolfdo.gg/bussim-assets/
+@app.get("/{any}-assets/{filepath:path}") # simulate asset proxy form wiki.wolfdo.gg/<repo>-assets/
 async def assets(filepath: str):
     return FileResponse(f"./assets/{filepath}")
 
