@@ -10,6 +10,26 @@
                 "In the meantime though, Noble's probably planning on fixing it.. maybe. It still works though!"
             ],
             "delay": 3500
+        },
+
+        {
+            "name": "Pear",
+            "image": "/bussim-assets/images/pear.png",
+            "dialogue":[
+                "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?",
+                "You can mute the Bus Horn by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"
+            ],
+            "delay": 3500
+        },
+
+        {
+            "name": "Pear",
+            "image": "/bussim-assets/images/pear.png",
+            "dialogue":[
+                "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?",
+                "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"
+            ],
+            "delay": 3500
         }
     ]
 }
