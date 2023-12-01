@@ -1,8 +1,8 @@
 {
     "page": {
         "title": "Events",
-        "description": "PageDescription",
-        "keywords": "roblox, roblox bus sim, roblox bus simulator, roblox bus sim wiki, wiki, bus sim wiki, roblox bus sim wiki"
+        "description": "Events are a main staple in Bus Simulator, happening every 5 minutes after the last, or 4 if the server just started, and can be seen by the blaring red lights accompanied by a siren noise for 15 seconds.<br></br>There are a bunch of events in the game. Ranging from smaller events, like looking at a mountain, all the way to time travel. The pages go more in-depth about what goes on in the event, what items could be obtained, etc.<br></br>While most of the events shown in this category are displayed officially from within the game, some are perhaps too subtle or completely invisible for it to be properly photographed, so now some of the events will have <text style=\"color: #eb4034;\">community-made icons</text> to help represent it properly!<br></br>Note: If you are to force these events in a VIP server via the !event command, the event names are Case Sensitive. (i.e. Bloxdonalds won't be forced if you spell it with all UPPERCASE or lowercase.)",
+        "keywords": "Roblox Bus Simualator, Main Category, Events"
     },
 
     "attributions": [
@@ -23,16 +23,23 @@
                     "items": [
                         {
                             "listItemImage": "",
-                            "listItemTitle": "ItemTitle",
-                            "listItemDescription": "ItemDescription",
+                            "listItemTitle": "Enabled Events",
+                            "listItemDescription": "These events are able to be forced, and are available in normal gameplay no matter the time.",
                             "listItemRedirect": ""
                         },
 
                         {
+                            "listItemImage": "/bussim-assets/images/events/acid_rain.jpg",
+                            "listItemTitle": "Acid Rain",
+                            "listItemDescription": "Acid Rain is an event where acid starts raining from the sky, damaging everyone as long as they are exposed, whether it'd be outside, by the stairs, or even the third floor. The event ends after a few minutes.",
+                            "listItemRedirect": "/bussim/events/acid_rain",
+                        },
+                        
+                        {
                             "listItemImage": "https://placehold.co/256",
-                            "listItemTitle": "ItemTitle",
-                            "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/home"
+                            "listItemTitle": "Adventure Line",
+                            "listItemDescription": "The Adventure Line is an event based off of the Stanley Parable, and is about the riders of the bus following The Adventure LineTM. The line leads into a sewer grate, and the music is a lower quality version of the original version from the game. The event lasts just short of a minute.",
+                            "listItemRedirect": "/bussim/events/adevnture_line"
                         }
                     ]
                 }

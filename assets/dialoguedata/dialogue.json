@@ -4,9 +4,10 @@
             "name": "Pear",
             "image": "/bussim-assets/images/pear.png",
             "dialogue":[
-                "If you can see this...",
-                "The dialogue data is still empty.",
-                "Try contributing new dialogues for me to say!"
+                "Hey! Did you know that the Ragdoll gamepass does more than it should do?",
+                "A lot of events actually become a piece of cake once you do it, and I heard it even prevents you from no-clipping...",
+                "Just don't try it though during a flood! You might regret it~!",
+                "In the meantime though, Noble's probably planning on fixing it.. maybe. It still works though!"
             ],
             "delay": 3500
         }
