@@ -1,0 +1,42 @@
+{
+    "page": {
+        "title": "Items",
+        "description": "PageDescription",
+        "keywords": "page keyword, another keyword"
+    },
+
+    "attributions": [
+    ],
+
+    "html": {
+        "header": {
+            "title": "Items",
+            "description": "Short description about something",
+            "image": "",
+            "imageBanner": "/bussim-assets/images/banner.jpg"
+        },
+
+        "pageContent": [
+            {
+                "type": "list",
+                "content": {
+                    "items": [
+                        {
+                            "listItemImage": "",
+                            "listItemTitle": "ItemTitle",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": ""
+                        },
+
+                        {
+                            "listItemImage": "https://placehold.co/256",
+                            "listItemTitle": "ItemTitle",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/home"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

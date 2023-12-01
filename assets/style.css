@@ -31,6 +31,37 @@ text {
     text-shadow: 0 2px 0 #000000;
 }
 
+ul {
+    font-family:'Starbound';
+    color: white;
+    word-spacing: 5px;
+    text-shadow: 0 2px 0 #000000;
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 5px 0 5px 25px; /* Remove default padding */
+}
+
+li {
+    font-family:'Starbound';
+    color: white;
+    word-spacing: 5px;
+    text-shadow: 0 2px 0 #000000;
+    list-style-type: none;
+}
+
+li.menu-item {
+    margin:0 0 10px 0;   
+}
+
+li.menu-item:not(:last-child) { 
+    margin-bottom: 5px;  
+}
+
+li::before {
+    content: ">";
+    margin-right: 5px;
+}
+
 highlight {
     color: #eb4034;
 }

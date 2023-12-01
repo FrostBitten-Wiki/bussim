@@ -7,6 +7,8 @@
 from jinja2 import Template
 from fastapi import FastAPI, Request
 from fastapi.responses import FileResponse, HTMLResponse
+from fastapi.templating import Jinja2Templates
+from fastapi.staticfiles import StaticFiles
 
 from json import load
 from uvicorn import run
@@ -16,16 +18,19 @@ app = FastAPI(
     redoc_url=None
 )
 
+template = Jinja2Templates("./")
+app.mount("/bussim-assets", StaticFiles(directory="./assets"), name="assets")
+
 @app.get("/{any}/{wikipath:path}")
 async def wiki(request: Request, wikipath: str = ""):
     if wikipath == "": wikipath = "home"
-    html = open(f"./{wikipath}.html", "r")
+    html = open(f"./template.html", "r")
 
     try:
         route = wikipath.split("/")
         filename, route = route.pop(-1), '/'.join(route)
 
-        with open(f"./{route}/jinjadata/{filename}.json", "r") as data:
+        with open(f"./{route}/pagedata/{filename}.json", "r") as data:
             data = load(data)
     except FileNotFoundError: data = {}
 
@@ -33,10 +38,6 @@ async def wiki(request: Request, wikipath: str = ""):
     rendered_html = html_template.render(data)
 
     return HTMLResponse(content=rendered_html)
-
-@app.get("/{any}-assets/{filepath:path}") # simulate asset proxy form wiki.wolfdo.gg/<repo>-assets/
-async def assets(filepath: str):
-    return FileResponse(f"./assets/{filepath}")
 
 if __name__ == "__main__":
     run("main:app", host="0.0.0.0", port=80, reload=True)
