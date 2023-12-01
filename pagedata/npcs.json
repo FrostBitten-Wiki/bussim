@@ -11,7 +11,7 @@
     "html": {
         "header": {
             "title": "NPCs",
-            "description": "Short description about something",
+            "description": "There are a small handful of NPCs in Bus Simulator that you can interact with, most of them being seen in events. Majority of the NPCs can be interacted with, and have small conversations with them, while others have a small quest behind them, for an item in return.",
             "image": "",
             "imageBanner": "/bussim-assets/images/banner.jpg"
         },

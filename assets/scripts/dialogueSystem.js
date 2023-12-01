@@ -43,7 +43,7 @@ function random(array) {
 }
 
 function randomDialogueEvent(force) {
-    if (force === false) {
+    if (force !== false) {
             if (Math.random() * 100 < 2.5 && dialogueRunning == false) {
                   dialogueRunning = true;
                   fetch("/bussim-assets/dialoguedata/dialogue.json")
@@ -55,14 +55,14 @@ function randomDialogueEvent(force) {
             }
         }
     else if (dialogueRunning == false) {
-                dialogueRunning = true;
-                fetch("/bussim-assets/dialoguedata/dialogue.json")
-                .then(response => response.json())
-                .then(data => {
-                    const speakData = random(data.data)
-                    startSpeaking(speakData.name, speakData.dialogue, speakData.delay);
-                })
-          }
+        dialogueRunning = true;
+        fetch("/bussim-assets/dialoguedata/dialogue.json")
+        .then(response => response.json())
+        .then(data => {
+            const speakData = random(data.data)
+            startSpeaking(speakData.name, speakData.dialogue, speakData.delay);
+        })
+    }
 }
 
 setInterval(randomDialogueEvent, 5000);
