@@ -83,7 +83,7 @@
                 ["/pear/pear_emote3.png", "Hey! Did you know that the normal megaphones and the EX work differently?<br></br>(in terms of cooldown of course~)"],
                 ["/pear/pear_emote3.png", "For both the normal and *that* other variant, each shout regardless of message will always take 30 seconds!"],
                 ["/pear/pear_emote0.png", "The case is different for EX megaphones though.."],
-                ["/pear/pear_emote5.png", "The cooldown for it mainly depends on the quantity of your message, with even a single letter giving miliseconds of cooldown!"],
+                ["/pear/pear_emote5.png", "The cooldown for it mainly depends on the quantity of your message, with even a single letter giving no cooldown!"],
                 ["/pear/pear_emote2.png", "Shouting in a quick succession though will heavily punish you with long cooldown waits~"],
                 ["/pear/pear_emote3.png", "I'd say it's still faster, if you believe that's good enough."]
             ],
