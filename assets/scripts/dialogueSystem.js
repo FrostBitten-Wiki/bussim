@@ -23,7 +23,7 @@ function startSpeaking(name, dialogues, delay) {
     function showNextDialogue() {
         if (index < dialogues.length) {
             playSound("elecping");
-            speakerImage.src = dialogues[index][0];
+            speakerImage.src = "/bussim-assets/images/dialogue" + dialogues[index][0];
             speakerDialogue.innerHTML = dialogues[index][1];
             index++;
             setTimeout(showNextDialogue, delay);
