@@ -33,7 +33,8 @@
                             "listItemTitle": "Acid Rain",
                             "listItemDescription": "Acid Rain is an event where acid starts raining from the sky, damaging everyone as long as they are exposed, whether it'd be outside, by the stairs, or even the third floor. The event ends after a few minutes.",
                             "listItemRedirect": "/bussim/events/acid_rain",
-
+                        },
+                        {
                             "listItemImage": "https://placehold.co/256",
                             "listItemTitle": "Adventure Line",
                             "listItemDescription": "The Adventure Line is an event based off of the Stanley Parable, and is about the riders of the bus following The Adventure LineTM. The line leads into a sewer grate, and the music is a lower quality version of the original version from the game. The event lasts just short of a minute.",
