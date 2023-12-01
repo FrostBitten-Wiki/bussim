@@ -23,7 +23,6 @@ function startSpeaking(name, dialogues, delay) {
     function showNextDialogue() {
         if (index < dialogues.length) {
             playSound("elecping");
-            console.log(dialogues)
             speakerImage.src = dialogues[index][0];
             speakerDialogue.innerHTML = dialogues[index][1];
             index++;
