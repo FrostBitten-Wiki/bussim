@@ -110,7 +110,7 @@
                                         </div>
                                     {% elif item['listItemImage'] != ""%}
                                         <div class="container" style="padding: 10px; display: grid; grid-template-columns: 128px 1fr; gap: 10px;">
-                                            <img src="{{ item['listItemImage'] }}" height="128" width="auto">
+                                            <img src="{{ item['listItemImage'] }}" height="128" width="128" style="object-fit: cover;">
 
                                             <div>
                                                 <text style="font-size: 25px;">{{ item['listItemTitle'] }}</text><br>
@@ -126,7 +126,7 @@
                                         </div>
                                     {% elif item['listItemImage'] != ""%}
                                         <div class="container" style="padding: 10px; cursor: pointer; display: grid; grid-template-columns: 128px 1fr; gap: 10px;" onclick="location.href=`{{ item['listItemRedirect'] }}`">
-                                            <img src="{{ item['listItemImage'] }}" height="128" width="auto">
+                                            <img src="{{ item['listItemImage'] }}" height="128" width="128" style="object-fit: cover;">
 
                                             <div>
                                                 <text style="font-size: 25px;">{{ item['listItemTitle'] }}</text><br>

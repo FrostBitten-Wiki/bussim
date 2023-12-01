@@ -22,17 +22,143 @@
                 "content": {
                     "items": [
                         {
-                            "listItemImage": "",
-                            "listItemTitle": "ItemTitle",
+                            "listItemImage": "/bussim-assets/images/npcs/banana.jpg",
+                            "listItemTitle": "Banana",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": ""
+                            "listItemRedirect": "/bussim/npcs/"
                         },
 
                         {
-                            "listItemImage": "https://placehold.co/256",
-                            "listItemTitle": "ItemTitle",
+                            "listItemImage": "/bussim-assets/images/npcs/civilian.jpg",
+                            "listItemTitle": "Civilian",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/home"
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/d6.jpg",
+                            "listItemTitle": "D6",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/disc.jpg",
+                            "listItemTitle": "Disc",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/ectta.jpg",
+                            "listItemTitle": "Ectta",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/efeuc.jpg",
+                            "listItemTitle": "Efeuc",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/entity.jpg",
+                            "listItemTitle": "Entity",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/fizzy.jpg",
+                            "listItemTitle": "Fizzy",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/frost.jpg",
+                            "listItemTitle": "Frost",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/green.jpg",
+                            "listItemTitle": "Green",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/mirocev.jpg",
+                            "listItemTitle": "MiroCev",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/mlg.jpg",
+                            "listItemTitle": "MLG",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/namerelf.jpg",
+                            "listItemTitle": "NamerElf",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/noble.jpg",
+                            "listItemTitle": "Noble",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/pear.jpg",
+                            "listItemTitle": "Pear",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/red.jpg",
+                            "listItemTitle": "Red",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/steven.jpg",
+                            "listItemTitle": "Steven",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/tazer.jpg",
+                            "listItemTitle": "Tazer",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/teddy.jpg",
+                            "listItemTitle": "Teddy",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
+                        },
+
+                        {
+                            "listItemImage": "/bussim-assets/images/npcs/zeon.jpg",
+                            "listItemTitle": "Zeon",
+                            "listItemDescription": "ItemDescription",
+                            "listItemRedirect": "/bussim/npcs/"
                         }
                     ]
                 }
