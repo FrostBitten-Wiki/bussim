@@ -11,7 +11,7 @@
     "html": {
         "header": {
             "title": "Events",
-            "description": "Events are a main staple in Bus Simulator, happening every 5 minutes after the last, or 4 if the server just started, and can be seen by the blaring red lights accompanied by a siren noise for 15 seconds.",
+            "description": "Events are a main staple in Bus Simulator, happening every 5 minutes after the last, or 4 if the server just started.",
             "image": "",
             "imageBanner": "/bussim-assets/images/banner.jpg"
         },
@@ -20,7 +20,7 @@
             {
                 "type": "text",
                 "content": {
-                    "text": "There are a bunch of events in the game. Ranging from smaller events, like looking at a mountain, all the way to a nuclear explosion and time travel. The pages go more in-depth about what goes on in the event, what items could be obtained, etc.<br></br>While most of the events shown in this category are displayed officially from within the game, some are perhaps too subtle or completely invisible for it to be properly photographed, so now some of the events will have <text style=\"color: #eb4034;\">community-made icons</text> to help represent it properly!<br></br>Note: If you are to force these events in a VIP server via the !event command, the event names are Case Sensitive. (i.e. Bloxdonalds won't be forced if you spell it with all UPPERCASE or lowercase.)<br></br>They will also be provided in (parenthesis) if possible."
+                    "text": "There are a bunch of events in the game. Ranging from smaller events, like looking at a mountain, all the way to a nuclear explosion and time travel. The pages go more in-depth about what goes on in the event, what items could be obtained, etc.<br></br>While most of the events shown in this category are displayed officially from within the game, some are perhaps too subtle or completely invisible for it to be properly photographed, so now some of the events will have <text style=\"color: #eb4034;\">community-made icons</text> to help represent it properly!<br></br>Note: If you are to force these events in a VIP server via the !event command, the event names are Case Sensitive. (i.e. Bloxdonalds won't be forced if you spell it with all UPPERCASE or lowercase.)<br></br>They will also be provided in (parenthesis) if possible.<br>"
                 }
             },
 
