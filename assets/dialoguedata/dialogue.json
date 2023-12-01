@@ -53,7 +53,7 @@
             "sound": "/pear/meow.mp3",
             "dialogue":[
                 ["/pear/pear_emote3.png", "Hey! Did you know that if you have a Mini-Bus, you can accelerate the speed of it temporarily while equipped!"],
-                ["/pear/pear_emote3.png", "If you drift while using it, you'll enter 3 stages of boost!<br></br><text style=\"color: #eb4034;\">Hold space / the jump button and A / D or the left / right to drift!</text>"],
+                ["/pear/pear_emote3.png", "If you drift while using it, you'll enter 3 stages of boost!<br></br><text style=\"color: #eb4034;\">Hold space and A / D to drift!</text>"],
                 ["/pear/pear_emote5.png", "The first emits a blue color, and speeds you up significantly.."],
                 ["/pear/pear_emote5.png", "The second emits a yellow color, and speeds you up drastically.."],
                 ["/pear/pear_emote6.png", "..and I heard that if you drift long enough, you can emit red particles and boost EXTREMELY fast!!"],
