@@ -32,7 +32,7 @@
                             "listItemImage": "/bussim-assets/images/events/acid_rain.jpg",
                             "listItemTitle": "Acid Rain",
                             "listItemDescription": "Acid Rain is an event where acid starts raining from the sky, damaging everyone as long as they are exposed, whether it'd be outside, by the stairs, or even the third floor. The event ends after a few minutes.",
-                            "listItemRedirect": "/bussim/events/acid_rain",
+                            "listItemRedirect": "/bussim/events/acid_rain"
                         },
                         
                         {

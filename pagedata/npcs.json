@@ -38,14 +38,14 @@
                         {
                             "listItemImage": "/bussim-assets/images/npcs/d6.jpg",
                             "listItemTitle": "D6",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "D6 is an NPC in the <highlight>Goat Station</highlight> event, as well as an artist.",
                             "listItemRedirect": "/bussim/npcs/d6"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/disc.jpg",
                             "listItemTitle": "Disc",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "Disc is an NPC that sells you the items in the GOATed Gas Station in exchange for Passenger rep. He is also an admin in the game, like <highlight>Tazer</highlight> and <highlight>Zeon</highlight>. He's also a new hire, with <highlight>Green</highlight> at his side.",
                             "listItemRedirect": "/bussim/npcs/disc"
                         },
 
