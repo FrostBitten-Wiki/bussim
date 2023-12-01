@@ -7,7 +7,7 @@
                 ["/pear/pear_emote0.png", "Hey! Did you know that the Ragdoll gamepass does more than it should do?"],
                 ["/pear/pear_emote3.png", "A lot of events actually become a piece of cake once you do it, and I heard it even prevents you from no-clipping..."],
                 ["/pear/pear_emote5.png", "Just don't try it though during a flood! You might regret it~!"],
-                ["/pear/pear_emote6.png", "In the meantime though, Noble's probably planning on fixing it.. maybe."],
+                ["/pear/pear_emote2.png", "In the meantime though, Noble's probably planning on fixing it.. maybe."],
                 ["/pear/pear_emote3.png", "It still works though!"]
             ],
             "delay": 3500
@@ -44,6 +44,60 @@
                 ["/pear/pear_emote2.png", "...uhm.."],
                 ["/pear/pear_emote2.png", "Y-yeah! All you need is to get lucky enough!"],
                 ["/pear/pear_emote3.png", "Hopefully by then though, you didn't give him a normal ice cream~."]
+            ],
+            "delay": 3500
+        },
+
+        {
+            "name": "Pear",
+            "sound": "/pear/meow.mp3",
+            "dialogue":[
+                ["/pear/pear_emote3.png", "Hey! Did you know that if you have a Mini-Bus, you can accelerate the speed of it temporarily while equipped!"],
+                ["/pear/pear_emote3.png", "If you drift while using it, you'll enter 3 stages of boost!<br></br><text style=\"color: #eb4034;\">Hold space / the jump button and A / D or the left / right to drift!</text>"],
+                ["/pear/pear_emote5.png", "The first emits a blue color, and speeds you up significantly.."],
+                ["/pear/pear_emote5.png", "The second emits a yellow color, and speeds you up drastically.."],
+                ["/pear/pear_emote6.png", "..and I heard that if you drift long enough, you can emit red particles and boost EXTREMELY fast!!"],
+                ["/pear/pear_emote5.png", "Well, not too fast to time-travel, but you get my idea~"]
+            ],
+            "delay": 3500
+        },
+
+        {
+            "name": "Pear",
+            "sound": "/pear/meow.mp3",
+            "dialogue":[
+                ["/pear/pear_emote3.png", "Hey! Did you know that certain items can emit sounds?"],
+                ["/pear/pear_emote2.png", "Well.. I suppose you knew that already, but-"],
+                ["/pear/pear_emote3.png", "-from what I've been told, it seems to lure a lot of commonfolk to the area in which you used it in."],
+                ["/pear/pear_emote5.png", "...I'm not sure what you might do with that information, but at least you know~!"],
+                ["/pear/pear_emote2.png", "Oh and also, it may not work against something more... unfathomable.."],
+                ["/pear/pear_emote2.png", "...where did I get that from..?"]
+            ],
+            "delay": 3500
+        },
+
+        {
+            "name": "Pear",
+            "sound": "/pear/meow.mp3",
+            "dialogue":[
+                ["/pear/pear_emote3.png", "Hey! Did you know that the normal megaphones and the EX work differently?<br></br>(in terms of cooldown of course~)"],
+                ["/pear/pear_emote3.png", "For both the normal and *that* other variant, each shout regardless of message will always take 30 seconds!"],
+                ["/pear/pear_emote0.png", "The case is different for EX megaphones though.."],
+                ["/pear/pear_emote5.png", "The cooldown for it mainly depends on the quantity of your message, with even a single letter giving miliseconds of cooldown!"],
+                ["/pear/pear_emote2.png", "Shouting in a quick succession though will heavily punish you with long cooldown waits~"],
+                ["/pear/pear_emote3.png", "I'd say it's still faster, if you believe that's good enough."]
+            ],
+            "delay": 3500
+        },
+
+        {
+            "name": "Pear",
+            "sound": "/pear/meow.mp3",
+            "dialogue":[
+                ["/pear/pear_emote3.png", "Hey! Did you know that you can survive through some events?"],
+                ["/pear/pear_emote3.png", "I'm not sure if you knew it already, but certain items heal you after consuming them!"],
+                ["/pear/pear_emote2.png", "There <text style=\"color: #eb4034;\">are</text> however, events that <text style=\"color: #eb4034;\">are very unlikely to leave you in one piece doing that...</text>"],
+                ["/pear/pear_emote5.png", "Not that it matters too much though! Well, unless you got something valuable that you don't want to lose."]
             ],
             "delay": 3500
         }
