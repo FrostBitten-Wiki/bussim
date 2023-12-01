@@ -24,141 +24,141 @@
                         {
                             "listItemImage": "/bussim-assets/images/npcs/banana.jpg",
                             "listItemTitle": "Banana",
-                            "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemDescription": "Banana is an NPC that can be found in the <highlight>Backwalls</highlight>. They can be rarely found in the event.",
+                            "listItemRedirect": "/bussim/npcs/banana"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/civilian.jpg",
                             "listItemTitle": "Civilian",
-                            "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemDescription": "The Civilians are minor NPCs that appear in two events, <highlight>No Dough</highlight> and <highlight>Passengers</highlight>, and have no dialogue or do anything important in the game.",
+                            "listItemRedirect": "/bussim/npcs/civilian"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/d6.jpg",
                             "listItemTitle": "D6",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/d6"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/disc.jpg",
                             "listItemTitle": "Disc",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/disc"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/ectta.jpg",
                             "listItemTitle": "Ectta",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/ectta"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/efeuc.jpg",
                             "listItemTitle": "Efeuc",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/efeuc"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/entity.jpg",
                             "listItemTitle": "Entity",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/entity"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/fizzy.jpg",
                             "listItemTitle": "Fizzy",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/fizzy"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/frost.jpg",
                             "listItemTitle": "Frost",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/frost"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/green.jpg",
                             "listItemTitle": "Green",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/green"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/mirocev.jpg",
                             "listItemTitle": "MiroCev",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/mirocev"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/mlg.jpg",
                             "listItemTitle": "MLG",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/mlg"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/namerelf.jpg",
                             "listItemTitle": "NamerElf",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/namerelf"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/noble.jpg",
                             "listItemTitle": "Noble",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/noble"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/pear.jpg",
                             "listItemTitle": "Pear",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/pear"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/red.jpg",
                             "listItemTitle": "Red",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/red"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/steven.jpg",
                             "listItemTitle": "Steven",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/steven"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/tazer.jpg",
                             "listItemTitle": "Tazer",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/tazer"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/teddy.jpg",
                             "listItemTitle": "Teddy",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/teddy"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/npcs/zeon.jpg",
                             "listItemTitle": "Zeon",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/npcs/"
+                            "listItemRedirect": "/bussim/npcs/zeon"
                         }
                     ]
                 }
