@@ -44,7 +44,7 @@ function random(array) {
 
 function randomDialogueEvent(force) {
     if (force === false) {
-            if (Math.random() * 100 < 5 && dialogueRunning == false) {
+            if (Math.random() * 100 < 2.5 && dialogueRunning == false) {
                   dialogueRunning = true;
                   fetch("/bussim-assets/dialoguedata/dialogue.json")
                   .then(response => response.json())
