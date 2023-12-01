@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+    {% if page %}
+        <meta name="description" content="The community-managed Bus Simulator Wiki!">
+        <meta name="keywords" content="{{ page['keywords'] }}">
+
+        <title>{{ page["title"] }} - Bus Simulator Community Wiki</title>
+
+        <link rel="icon" href="/bussim-assets/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/bussim-assets/style.css">
+    {% endif %}
+
+    <audio id="soundSource" controls autoplay style="display: none;">
+        <source type="audio/mp3">
+    </audio>
+</head>
+<body>
+    <div id="sidebar" class="sidebar" style="z-index: 999;">
+        <script>
+            var activeMenu = "mainMenu";
+
+            function navigateMenu(menuId) {
+                var menus = document.querySelectorAll('.sidebarMenu');
+                menus.forEach(function(menu) {
+                    menu.style.display = 'none';
+                });
+            
+                var selectedMenu = document.getElementById(menuId);
+                if (selectedMenu) {
+                    selectedMenu.style.display = 'block';
+                    activeMenu = menuId;
+                }
+            }
+
+            navigateMenu(activeMenu);
+        </script>
+        
+        <script id="sidebarLoader">
+            fetch('/bussim-assets/sidebar.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('sidebar').innerHTML = html;
+            })
+            .catch(error => console.error('Error fetching HTML:', error));
+        </script>
+    </div>
+
+    <div>
+    </div>
+    
+    {% if html %}
+    <div style="margin-left: 60px; min-height: 100vh; overflow-y: auto;">
+        <div style="position: relative; height: 100%; user-select: none;">
+            <img src="{{ html['header']['imageBanner'] }}" width="100%" height="200px" style="object-fit: cover; user-select: none;"> <!-- header banner -->
+            <div style="position: absolute; top: 0; height: 200px; width: calc(100vw - 60px); background: linear-gradient(to bottom, transparent 0%, rgba(8, 4, 83, 1) 50%); z-index: 1;"></div>
+        </div>
+
+        <div style="margin-left: 5vw; margin-right: 5vw;">
+            <div style="position: absolute; top: 75px; z-index: 2;">
+                {% if html['header']['image'] == "" %}
+                    <div>
+                        <text style="font-size: 50px;">{{ html["header"]["title"] }}</text><br>
+                        <text style="font-size: 20px;">{{ html["header"]["description"] }}</text>
+                    </div>
+                {% elif html['header']['image'] != "" %}
+                    <div style="display: grid; grid-template-columns: 66px 1fr; gap: 10px;">
+                        <img src="{{ html['header']['image'] }}" width="66" height="auto">
+                        <div>
+                            <text style="font-size: 50px;">{{ html["header"]["title"] }}</text><br>
+                            <text style="font-size: 20px;">{{ html["header"]["description"] }}</text>
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+
+            <!-- Custom Jinja2 Functions -->
+            {% macro render_tree(node) %}
+                {% if node %}
+                    <ul>
+                        {% for item in node %}
+                            <li>
+                                {{ item["name"] }}
+                                {{ render_tree(item["children"]) }}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            {% endmacro %}
+
+            <div>
+                {% for data in html['pageContent'] %}
+                    {% if data['type'] == "text" %}
+                        <text>{{ data['content']['text'] }}</text>
+                    {% elif data['type'] == "section" %}
+                        <div style="margin-top: 20px; margin-bottom: 20px;">
+                            <text style="font-size: 25px;">{{ data['content']['sectionTitle'] }}</text><br>
+                            <text>{{ data['content']['sectionDescription'] }}</text>
+                        </div>
+                    {% elif data['type'] == "list" %}
+                        <div style="margin-top: 20; margin-bottom: 20px;">
+                            {% for item in data['content']['items'] %}
+                                {% if item['listItemRedirect'] == "" %}
+                                    {% if item['listItemImage'] == "" %}
+                                        <div class="container" style="padding: 10px;">
+                                            <text style="font-size: 25px;">{{ item['listItemTitle'] }}</text><br>
+                                            <text>{{ item['listItemDescription'] }}</text>
+                                        </div>
+                                    {% elif item['listItemImage'] != ""%}
+                                        <div class="container" style="padding: 10px; display: grid; grid-template-columns: 128px 1fr; gap: 10px;">
+                                            <img src="{{ item['listItemImage'] }}" height="128" width="auto">
+
+                                            <div>
+                                                <text style="font-size: 25px;">{{ item['listItemTitle'] }}</text><br>
+                                                <text>{{ item['listItemDescription'] }}</text>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                {% elif item['listItemRedirect'] != "" %}
+                                    {% if item['listItemImage'] == "" %}
+                                        <div class="container" style="padding: 10px; cursor: pointer;" onclick="location.href=`{{ item['listItemRedirect'] }}`">
+                                            <text style="font-size: 25px;">{{ item['listItemTitle'] }}</text><br>
+                                            <text>{{ item['listItemDescription'] }}</text>
+                                        </div>
+                                    {% elif item['listItemImage'] != ""%}
+                                        <div class="container" style="padding: 10px; cursor: pointer; display: grid; grid-template-columns: 128px 1fr; gap: 10px;" onclick="location.href=`{{ item['listItemRedirect'] }}`">
+                                            <img src="{{ item['listItemImage'] }}" height="128" width="auto">
+
+                                            <div>
+                                                <text style="font-size: 25px;">{{ item['listItemTitle'] }}</text><br>
+                                                <text>{{ item['listItemDescription'] }}</text>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    {% elif data['type'] == "infobox" %}
+                        <div class="container" style="padding: 10px;">
+                            <text style="color: {{ data["content"]["infoBoxTitle"][1] }}; font-size: 25px;">{{ data["content"]["infoBoxTitle"][0] }}</text><br>
+                            <text>{{ data["content"]["infoBoxDescription"]}}</text>
+                        </div>
+                    {% elif data['type'] == "tree" %}
+                        <div style="margin-top: 20px; margin-bottom: 20px;">
+                            {{ render_tree(data['content']) }}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+            {% if attributions != [] %}
+            <div style="margin-top: 10px; margin-bottom: 20px;">
+                {% for attr in attributions %}
+                    <text style="font-size: 10px;">{{ attr }}</text><br>
+                {% endfor %}
+            </div>
+            {% endif %}
+            
+        </div>
+    </div>
+    {% endif %}
+
+    <div id="speakerPopup" class="container" style="transition: 1s; position: fixed; bottom: -130px; right: 10px; width: 530px; height: 100px; gap: 10px;" id="tips">
+        <style>
+            #speakerPopup {
+                height: 100%;
+                width: 100%;
+                background: conic-gradient(
+                #0c0674 90deg,
+                #100996 90deg 180deg,
+                #0c0674  180deg 270deg,
+                #100996 270deg
+                );
+                background-repeat: repeat;
+                background-size: 60px 60px;
+                background-position: top left;
+                background-color: blue;
+                animation-name: slide;
+                animation-duration: 10s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes slide {
+                from {background-position: 0px 0px;}
+                to {background-position: -512px 512px;}
+            }
+        </style>
+        
+        <div style="display: grid; grid-template-columns: 1fr 128px;">
+            <div style="padding: 5px;">
+                <text id="speakerName" style="font-size: 20px;"></text><br>
+                <text id="speakerText"></text>
+            </div>
+
+            <img id="speakerImage" src="" width="128" height="auto" style="position: absolute; bottom: 0; right: 0;" >
+        </div>
+
+        <script src="/bussim-assets/scripts/dialogueSystem.js"></script>
+    </div>
+</body>
+</html>
