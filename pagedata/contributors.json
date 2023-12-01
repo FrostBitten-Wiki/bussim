@@ -1,7 +1,7 @@
 {
     "page": {
-        "title": "Items",
-        "description": "PageDescription",
+        "title": "Contributors",
+        "description": "All of the Contributors of the Bus Simulator Wiki!",
         "keywords": "roblox, roblox bus sim, roblox bus simulator, roblox bus sim wiki, wiki, bus sim wiki, roblox bus sim wiki"
     },
 
@@ -10,7 +10,7 @@
 
     "html": {
         "header": {
-            "title": "Items",
+            "title": "Contributors",
             "description": "Short description about something",
             "image": "",
             "imageBanner": "/bussim-assets/images/banner.jpg"
