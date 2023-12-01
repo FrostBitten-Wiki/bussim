@@ -2,32 +2,29 @@
     "data": [
         {
             "name": "Pear",
-            "image": "/bussim-assets/images/pear.png",
             "dialogue":[
-                ["/bussim-assets/images/pear_emote0.png", "Hey! Did you know that the Ragdoll gamepass does more than it should do?"],
-                ["/bussim-assets/images/pear_emote0.png", "A lot of events actually become a piece of cake once you do it, and I heard it even prevents you from no-clipping..."],
-                ["/bussim-assets/images/pear_emote0.png", "Just don't try it though during a flood! You might regret it~!"],
-                ["/bussim-assets/images/pear_emote0.png", "In the meantime though, Noble's probably planning on fixing it.. maybe. It still works though!"]
+                ["/bussim-assets/images/dialogue/pear/pear_emote0.png", "Hey! Did you know that the Ragdoll gamepass does more than it should do?"],
+                ["/bussim-assets/images/dialogue/pear/pear_emote3.png", "A lot of events actually become a piece of cake once you do it, and I heard it even prevents you from no-clipping..."],
+                ["/bussim-assets/images/dialogue/pear/pear_emote5.png", "Just don't try it though during a flood! You might regret it~!"],
+                ["/bussim-assets/images/dialogue/pear/pear_emote6.png", "In the meantime though, Noble's probably planning on fixing it.. maybe. It still works though!"]
             ],
             "delay": 3500
         },
 
         {
             "name": "Pear",
-            "image": "/bussim-assets/images/pear.png",
             "dialogue":[
-                ["/bussim-assets/images/pear_emote0.png", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
-                ["/bussim-assets/images/pear_emote0.png", "You can mute the Bus Horn by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
+                ["/bussim-assets/images/dialogue/pear/pear_emote0.png", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
+                ["/bussim-assets/images/dialogue/pear/pear_emote3.png", "You can mute the Bus Horn by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
             ],
             "delay": 3500
         },
 
         {
             "name": "Pear",
-            "image": "/bussim-assets/images/pear.png",
             "dialogue":[
-                ["/bussim-assets/images/pear_emote0.png", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
-                ["/bussim-assets/images/pear_emote0.png", "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"]
+                ["/bussim-assets/images/dialogue/pear/pear_emote0.png", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
+                ["/bussim-assets/images/dialogue/pear/pear_emote3.png", "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"]
             ],
             "delay": 3500
         }
