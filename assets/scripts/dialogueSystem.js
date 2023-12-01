@@ -1,9 +1,9 @@
-const speakerPopup = document.getElementById("speakerPopup");
-const speakerImage = document.getElementById("speakerImage");
-const speakerName = document.getElementById("speakerName");
-const speakerDialogue = document.getElementById("speakerText");
-const soundSource = document.getElementById("soundSource");
-const dialogueRunning = false;
+var speakerPopup = document.getElementById("speakerPopup");
+var speakerImage = document.getElementById("speakerImage");
+var speakerName = document.getElementById("speakerName");
+var speakerDialogue = document.getElementById("speakerText");
+var soundSource = document.getElementById("soundSource");
+var dialogueRunning = false;
 
 function playSound(soundfile) {
     if (soundSource.src !== `${window.location.protocol + "//" + window.location.host}/bussim-assets/sounds/${soundfile}.mp3`) {
@@ -14,17 +14,18 @@ function playSound(soundfile) {
     }
 }
 
-function startSpeaking(name, image, dialogues, delay) {
+function startSpeaking(name, dialogues, delay) {
     playSound("elecping");
     speakerPopup.style.bottom = "5px";
     speakerName.textContent = name;
-    speakerImage.src = image;
     let index = 0;
-
+    
     function showNextDialogue() {
         if (index < dialogues.length) {
             playSound("elecping");
-            speakerDialogue.innerHTML = dialogues[index];
+            console.log(dialogues)
+            speakerImage.src = dialogues[index][0];
+            speakerDialogue.innerHTML = dialogues[index][1];
             index++;
             setTimeout(showNextDialogue, delay);
         } else {
@@ -43,13 +44,13 @@ function random(array) {
 }
 
 function randomDialogueEvent() {
-    if (Math.random() * 100 < 5 && dialogueRunning == false) {
+    if (Math.random() * 100 < 100 && dialogueRunning == false) {
           dialogueRunning = true;
           fetch("/bussim-assets/dialoguedata/dialogue.json")
           .then(response => response.json())
           .then(data => {
               const speakData = random(data.data)
-              startSpeaking(speakData.name, speakData.image, speakData.dialogue, speakData.delay);
+              startSpeaking(speakData.name, speakData.dialogue, speakData.delay);
           })
     }
 }
