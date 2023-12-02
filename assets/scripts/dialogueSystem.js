@@ -57,7 +57,6 @@ function randomDialogueEvent(force) {
                         speakerPopup.style.setProperty("--color3", speakData.colors[2])
 
                         if (Math.random() * 100 < speakData.rarity) {
-                            console.log(speakData)
                             startSpeaking(speakData.name, speakData.dialogue, speakData.sound);
                         }
                   })
@@ -75,7 +74,6 @@ function randomDialogueEvent(force) {
             speakerPopup.style.setProperty("--color3", speakData.colors[2])
 
             if (Math.random() * 100 < speakData.rarity) {
-                  console.log(speakData)
                   startSpeaking(speakData.name, speakData.dialogue, speakData.sound);
             }
         })

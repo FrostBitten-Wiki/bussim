@@ -102,70 +102,70 @@
                         {
                             "listItemImage": "/bussim-assets/images/events/cave2.jpg",
                             "listItemTitle": "Cave",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "Cave event is an event that takes place in a cave. When this happens, the Driver mentions there is a Cave ahead. Then, within seconds, the map becomes dark and changes to a cave. Then eventually the bus begins to drive through the cave. Then within 50 seconds, the driver mentions they are halfway out and then tells the passengers to hang on tight and then the map becomes darker. And then after that, the map changes to the region the bus was driving on before.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/clone1.jpg",
                             "listItemTitle": "Cloned Bus",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "The Clone Event is an event in Bus Simulator, where the bus gets cloned. Eventually it turns out it's unstable and disappears shortly after.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/cubes2.jpg",
                             "listItemTitle": "Cubes",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "During the event, cubes move all around the bus, playing many xylophone notes. After some time, the driver announces they've convinced the cubes to go back to Nintendo Land. A few moments after that, the event ends.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/ea_sellout.jpg",
                             "listItemTitle": "EA Sellout",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "The EA Sellout or its more technical name, Bought Out is an event where everyone will be forcibly teleported back to the first floor of the Bus after having been bought out by Economic Arcs, a parody of Electronic Arts.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/exploiter.jpg",
                             "listItemTitle": "Exploiter",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "The Exploiter event is an event where an exploiter (of which is not a real exploiter) deletes the road and the terrain. Shortly after some comedic stabs at the creator of the game, the terrain and road restore themselves back to normal, and everything returns back to normal.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/fake_events.jpg",
                             "listItemTitle": "Fake Events",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "The Fake No Gas event is an event where the bus stops, and the driver acts like they're out of gas. Shortly afterwards, pranking the passengers once again, acting as a sequel to the Fake Bus Stop event.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/flash_flood2.jpg",
                             "listItemTitle": "Flash Flood",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "The Flash Flood or just simply called Flood, is an event where the bus becomes flooded slowly until it reaches the third floor. Players will have to swim by holding Q and seek high ground before they drown, those that are in seats will also be automatically dismounted once the water hits them unless they hold Q as mentioned earlier. Eventually, the water will dissipate and the event ends right after.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/gandalf.jpg",
                             "listItemTitle": "Gandalf",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "The Gandalf event is a reference to <highlight>The Lord of the Rings</highlight>, where Gandalf stops the bus while yelling \"YOU SHALL NOT PASS!\"",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/glacier1.jpg",
                             "listItemTitle": "Glacier Cave",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "Glacier Cave is a rare event in Bus Simulator where the Bus stops next to a cave, players are able to enter through the cave through any means of traversal until they are teleported to the interior of the cave. The event ends shortly afterwards.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/glitches.jpg",
                             "listItemTitle": "Glitches",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "The Glitches Event is an event that slowly starts changing biomes, and gets faster per biome change. The event goes through every biome in the game, including one that is only seen via !map in a VIP server, or in the <highlight>Exploiter</highlight> event, the Void biome.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
@@ -179,105 +179,105 @@
                         {
                             "listItemImage": "/bussim-assets/images/events/hyperspeed.jpg",
                             "listItemTitle": "Hyperspeed",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "The Hyperspeed event is an event that causes the bus to suddenly speed up, and a yellow trail is emitted from the tires. As well as this, a portion of the instrumental of <highlight>Running in the 90's by Max Coveri</highlight> plays during the event.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/inthesky2.jpg",
                             "listItemTitle": "In The Sky",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "The In The Sky event, or known as Falling from the Sky event, is an event that teleports the bus instantly into the skies, making the bus fall down at immense speeds. It is highly recommended not to jump or go to the third floor as you will be instantly blown away from the bus. Eventually though, it ends as the bus falls down back on the ground.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/lavafloor.jpg",
                             "listItemTitle": "Lava Floor",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "The Lava Floor, or commonly known as The Floor is Lava event, is a sudden, yet deadly event in Bus Simulator, where for the remainder of around a minute, stepping on any ground at all whether it'd be furniture, floors, or parts will end up swiftly dealing damage. It can be outpaced however by healing items such as <highlight>Cola</highlight>, <highlight>Homemade Coffee</highlight>, and a few others.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/mountains2.jpg",
                             "listItemTitle": "Mountain",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "The Mountain is a pretty basic event in Bus Simulator, where the bus stops at a nearby mountain, after a while the driver tells everyone to get back to the bus, and the event ends. You may encounter ducks in a pond that quack occasionally.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/nodough.jpg",
                             "listItemTitle": "No Dough",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "The No Dough event is an event where the bus runs out of gas, but nobody can afford to buy gas. The bus then pulls up at a house, with the passengers needing to break in via chimney to get some money and escape unnoticed. The house is randomized per event including decoration and furniture, so there is no clear way on how to get to the money every time. You are given 10 minutes to find the stash of money. if somebody finds it, everybody participating in the event is given 5 minutes to return back to the bus via escaping the same way you enter, and people can't re-enter.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/gasup1.jpg",
                             "listItemTitle": "No Gas",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "The No Gas event, or internally known as Gas Up, is the true version of the <highlight>Fake No Gas</highlight>, where instead of the bus driver fooling their passengers again, the bus actually runs out of gas and the players will have to collect 6 gas cans near the road.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/nobleshouse2.jpg",
                             "listItemTitle": "Noble's House",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "Noble's House is an event where the bus ends up crashing onto the house owned and lived by Noble, which coincidentally is in the middle of the road. Afterwards the players can go around the house, finding a <highlight>hidden gameboy link</highlight> behind Noble's Desktop, a <highlight>Cola</highlight> and <highlight>Cold Cola</highlight> from the fridge, and an interact-able TV and remote. Following a few minutes after, the bus driver destroys Noble's house further until the bus breaks past and then the event ends afterwards.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/nothing.jpg",
                             "listItemTitle": "Nothing",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "The nothing event is well... nothing? There isn't much to detail for this event other than a conversation of dialogue between the player and the event, but that's it. There is no hidden features into it, no special dialogue or any happenings, you just wasted 5 minutes of waiting for a single event for nothing, meaning you have to wait another 5 minutes to hopefully not get the same event twice in a row.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/nuke1.jpg",
                             "listItemTitle": "Nuke",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "During the event, the bus would stop for a while, while it's stopped the driver would try to figure out what the object is in the sky until sirens go off. After that, the bus start to driver at a quick pace while the nuke strikes. After a few seconds, the driver manages to drive away from the blast, and slow back down to default speed afterwards.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/obby2.jpg",
                             "listItemTitle": "Obby",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "Obby is a simple event in Bus Simulator, where the bus briefly stops at a small obby next to the sidewalk of the road. The players can choose to complete it in any way possible, being awarded with a can of <highlight>Hyper Soda</highlight> at the end. The event ends shortly afterwards.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/painball2.jpg",
                             "listItemTitle": "Pain Ball",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "The Pain Ball is a short, but very loud event where a ball will be slammed into the windshield, causing screams of pain in the process. Eventually after a while of screaming, the driver finds a way to wipe it off of the windshield, and it succeeds, ending the event.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/passengers2.jpg",
                             "listItemTitle": "Passengers",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "The passenger event is a very simple event, where the bus stops at a stop as passengers hop inside the bus. A player will say \"This feels similar to another game\", a reference to Bus Stop Simulator and the event ends. The NPCs are randomly generated from existing user IDs, and there's a chance you can see NobleReigns friends.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/picnic1.jpg",
                             "listItemTitle": "Picnic",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "The bus would stop and a picnic would spawn, you can obtain the <highlight>Sandwich</highlight> there, after a bit the bus would leave and the event would end.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/police.jpg",
                             "listItemTitle": "Police",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "During the event, it would start immediately with police officers chasing the bus. After a few seconds the bus would speed up and a helicopter would spawn, after a few seconds the bus would outrun the police and the event would end.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/pool2.jpg",
                             "listItemTitle": "Pool",
-                            "listItemDescription": "ItemDescription",
+                            "listItemDescription": "he Pool is a short and simple event, where a pool will magically spawn next to the edge of the third floor in <highlight>The Bus</highlight>, within this pool will contain a few ducks and <highlight>Coffee</highlight>, which acts similarly in function to <highlight>Cola</highlight>.",
                             "listItemRedirect": "/bussim/events/placeholder"
                         },
 
