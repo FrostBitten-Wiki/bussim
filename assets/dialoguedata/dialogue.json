@@ -57,11 +57,18 @@
 
         {
             "name": "Fang",
-            "sound": "",
+            "sound": "ouch",
             "colors": ["#142052", "#000000", "blue"],
-            "rarity": 20,
+            "rarity": 5,
             "dialogue":[
-                [3000, "/fang/fang_emote0.png", "shout out philippines"]
+                [3000, "/fang/fang_emote0.png", "..."],
+                [3000, "/fang/fang_emote6.png", "WH-"],
+                [3000, "/fang/fang_emote2.png", "oh uh.. hey there?"],
+                [3000, "/fang/fang_emote2.png", "didn't expect you to find me here but uhm.."],
+                [3000, "/fang/fang_emote2.png", "i hope you're enjoying this wiki! it's quite hard to still understand how it works but.."],
+                [3000, "/fang/fang_emote0.png", "i've been getting the hang of it. well, i have to go do something in the meantime!"],
+                [3000, "/fang/fang_emote5.png", "oh and uh, before i go..."],
+                [3000, "/fang/fang_emote5.png", "shoutout philippines"]
             ]
         }
     ]
