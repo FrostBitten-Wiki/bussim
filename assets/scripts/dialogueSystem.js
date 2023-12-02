@@ -52,6 +52,7 @@ function randomDialogueEvent(force) {
                   .then(data => {
                       const speakData = random(data.data)
                       if (Math.random() * 100 < speakData.rarity) {
+                            console.log(speakData)
                             startSpeaking(speakData.name, speakData.dialogue, speakData.sound);
                       }
                   })
@@ -63,7 +64,10 @@ function randomDialogueEvent(force) {
         .then(response => response.json())
         .then(data => {
             const speakData = random(data.data)
-            startSpeaking(speakData.name, speakData.dialogue, speakData.delay);
+            if (Math.random() * 100 < speakData.rarity) {
+                  console.log(speakData)
+                  startSpeaking(speakData.name, speakData.dialogue, speakData.sound);
+            }
         })
     }
 }
