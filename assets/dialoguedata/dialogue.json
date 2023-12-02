@@ -24,6 +24,14 @@
         {
             "rarity": 100,
             "dialogue": [
+                [3000, "Pear", "pear_emote0", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
+                [3000, "Fang", "fang_emote3", "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"]
+            ]
+        },
+
+        {
+            "rarity": 100,
+            "dialogue": [
                 [3000, "Pear", "pear_emote0", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
                 [3000, "Pear", "pear_emote3", "You can mute the <highlight>Bus Horn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
             ]
