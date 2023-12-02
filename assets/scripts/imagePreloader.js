@@ -1,4 +1,6 @@
 let imageUrls = [
+    '/bussim-assets/images/banner.jpg',
+
     '/bussim-assets/images/dialogue/pear/pear_emote0.png',
     '/bussim-assets/images/dialogue/pear/pear_emote1.png',
     '/bussim-assets/images/dialogue/pear/pear_emote2.png',
