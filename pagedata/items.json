@@ -39,7 +39,7 @@
                         {
                             "listItemImage": "",
                             "listItemTitle": "Airpods",
-                            "listItemDescription": "The Airpods is an item that allows you to listen to Roblox Audio IDs locally, or syncing them to the Bus Radio, costing R$8.<br></br><text style=\"color: #eb4034;\">Note: This also silences any and all outside noise.</text>",
+                            "listItemDescription": "The Airpods is an item that allows you to listen to Roblox Audio IDs locally, or syncing them to the Bus Radio, costing R$8.<br></br>Note: This also silences any and all outside noise.",
                             "listItemRedirect": "/bussim/items/airpods"
                         },
 
@@ -408,6 +408,13 @@
                             "listItemTitle": "Popsicle",
                             "listItemDescription": "Popsicle is obtained from the 10 Million Event Wheel.<br></br>When used, it'll heal you by a significant amount similarly to Snowcone and can be used rapidly.",
                             "listItemRedirect": "/bussim/items/popsicle"
+                        },
+
+                        {
+                            "listItemImage": "",
+                            "listItemTitle": "Snatch",
+                            "listItemDescription": "The Snatch is an Admin-Exclusive tool that allows you to snatch players similar to the Billies.<br></br>You can also hold down left-click to throw them across the map.",
+                            "listItemRedirect": "/bussim/items/snatch"
                         },
 
                         {
