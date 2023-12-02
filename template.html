@@ -162,23 +162,24 @@
     </div>
     {% endif %}
 
-    <div id="speakerPopup" class="container" style="transition: 1s; position: fixed; bottom: -130px; right: 10px; width: 530px; height: 100px; gap: 10px;" id="tips">
+    <div id="speakerPopup" class="container" style="--color1: #6d6d6d; --color2: #8d8d8d; --color3: white; transition: bottom 1s; position: fixed; bottom: -130px; right: 10px; width: 530px; height: 100px; gap: 10px;" id="tips">
         <style>
             #speakerPopup {
-                height: 100%;
-                width: 100%;
                 background: conic-gradient(
-                #0c0674 90deg,
-                #100996 90deg 180deg,
-                #0c0674  180deg 270deg,
-                #100996 270deg
+                    var(--color1) 90deg,
+                    var(--color2) 90deg 180deg,
+                    var(--color1)  180deg 270deg,
+                    var(--color2) 270deg
                 );
+
+                border: 5px solid var(--color3);
+
                 background-repeat: repeat;
                 background-size: 60px 60px;
                 background-position: top left;
-                background-color: blue;
+                background-color: gray;
                 animation-name: slide;
-                animation-duration: 10s;
+                animation-duration: 20s;
                 animation-timing-function: linear;
                 animation-iteration-count: infinite;
             }

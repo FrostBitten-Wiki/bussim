@@ -50,11 +50,16 @@ function randomDialogueEvent(force) {
                   fetch("/bussim-assets/dialoguedata/dialogue.json")
                   .then(response => response.json())
                   .then(data => {
-                      const speakData = random(data.data)
-                      if (Math.random() * 100 < speakData.rarity) {
+                        const speakData = random(data.data)
+
+                        speakerPopup.style.setProperty("--color1", speakData.colors[0])
+                        speakerPopup.style.setProperty("--color2", speakData.colors[1])
+                        speakerPopup.style.setProperty("--color3", speakData.colors[2])
+
+                        if (Math.random() * 100 < speakData.rarity) {
                             console.log(speakData)
                             startSpeaking(speakData.name, speakData.dialogue, speakData.sound);
-                      }
+                        }
                   })
             }
         }
@@ -64,6 +69,11 @@ function randomDialogueEvent(force) {
         .then(response => response.json())
         .then(data => {
             const speakData = random(data.data)
+
+            speakerPopup.style.setProperty("--color1", speakData.colors[0])
+            speakerPopup.style.setProperty("--color2", speakData.colors[1])
+            speakerPopup.style.setProperty("--color3", speakData.colors[2])
+
             if (Math.random() * 100 < speakData.rarity) {
                   console.log(speakData)
                   startSpeaking(speakData.name, speakData.dialogue, speakData.sound);

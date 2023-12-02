@@ -2,7 +2,8 @@
     "data": [
         {
             "name": "Pear",
-            "sound": "elecping",
+            "sound": "meow",
+            "colors": ["#071907", "#0b260b", "green"],
             "rarity": 100,
             "dialogue":[
                 [2000, "/pear/pear_emote0.png", "Hey! Did you know that the Ragdoll gamepass does more than it should do?"],
@@ -17,27 +18,30 @@
 
         {
             "name": "Pear",
-            "sound": "elecping",
+            "sound": "meow",
+            "colors": ["#071907", "#0b260b", "green"],
             "rarity": 100,
             "dialogue":[
                 [2000, "/pear/pear_emote0.png", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
-                [2000, "/pear/pear_emote3.png", "You can mute the Bus Horn by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
+                [3000, "/pear/pear_emote3.png", "You can mute the <highlight>Bus Horn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
             ]
         },
 
         {
             "name": "Pear",
-            "sound": "elecping",
+            "sound": "meow",
+            "colors": ["#071907", "#0b260b", "green"],
             "rarity": 100,
             "dialogue":[
                 [2000, "/pear/pear_emote0.png", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
-                [2000, "/pear/pear_emote3.png", "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"]
+                [3000, "/pear/pear_emote3.png", "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"]
             ]
         },
         
         {
             "name": "Pear",
-            "sound": "elecping",
+            "sound": "meow",
+            "colors": ["#071907", "#0b260b", "green"],
             "rarity": 100,
             "dialogue":[
                 [2000, "/pear/pear_emote3.png", "Hey! Did you know that you can instantly befriend Frost with this one simple trick?"],
