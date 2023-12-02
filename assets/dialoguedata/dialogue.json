@@ -53,6 +53,16 @@
                 [3000, "/pear/pear_emote2.png", "Y-eah! All you need is to get lucky enough!"],
                 [3000, "/pear/pear_emote3.png", "Hopefully by then though, you didn't give him a normal ice cream~."]
             ]
+        },
+
+        {
+            "name": "Fang",
+            "sound": "",
+            "colors": ["#142052", "#000000", "blue"],
+            "rarity": 20,
+            "dialogue":[
+                [3000, "/fang/fang_emote0.png", "shout out philippines"]
+            ]
         }
     ]
 }
