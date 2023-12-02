@@ -1,9 +1,9 @@
-var speakerPopup = document.getElementById("speakerPopup");
-var speakerImage = document.getElementById("speakerImage");
-var speakerName = document.getElementById("speakerName");
-var speakerDialogue = document.getElementById("speakerText");
-var soundSource = document.getElementById("soundSource");
-var dialogueRunning = false;
+let speakerPopup = document.getElementById("speakerPopup");
+let speakerImage = document.getElementById("speakerImage");
+let speakerName = document.getElementById("speakerName");
+let speakerDialogue = document.getElementById("speakerText");
+let soundSource = document.getElementById("soundSource");
+let dialogueRunning = false;
 
 function playSound(soundfile) {
     if (soundSource.src !== `${window.location.protocol + "//" + window.location.host}/bussim-assets/sounds/${soundfile}.mp3`) {
@@ -14,25 +14,33 @@ function playSound(soundfile) {
     }
 }
 
-function startSpeaking(name, dialogues, sound) {
-    playSound(sound);
-    speakerPopup.style.bottom = "5px";
-    speakerName.textContent = name;
+function startSpeaking(data, characterData) {
     let index = 0;
-    
+
+    speakerPopup.style.bottom = "5px";
     function showNextDialogue() {
-        if (index < dialogues.length) {
-            playSound(sound);
-            dialogueDelay = dialogues[index][0]
-            speakerImage.src = "/bussim-assets/images/dialogue" + dialogues[index][1];
-            speakerDialogue.innerHTML = dialogues[index][2];
+        if (index < data.dialogue.length) {
+            const charData = characterData[data.dialogue[index][1]]
+            
+            playSound(charData["dialogueSfx"]);
+            
+            delay = data.dialogue[index][0];
+            speakerName.innerHTML = data.dialogue[index][1];
+            speakerImage.src = `/bussim-assets/images/dialogue/${charData["dialogueEmoteName"]}/${data.dialogue[index][2]}.png`;
+            speakerDialogue.innerHTML = data.dialogue[index][3];
+
+            speakerPopup.style.setProperty("--color1", charData["dialogueColors"][0])
+            speakerPopup.style.setProperty("--color2", charData["dialogueColors"][1])
+            speakerPopup.style.setProperty("--color3", charData["dialogueColors"][2])
+
             index++;
-            setTimeout(showNextDialogue, dialogueDelay);
+            setTimeout(showNextDialogue, delay);
         } else {
             setTimeout(() => {
+                delay = data.dialogue[index - 1][0];
                 speakerPopup.style.bottom = "-130px";
                 dialogueRunning = false;
-            }, 2000);
+            }, delay);
         }
     }
 
@@ -44,40 +52,32 @@ function random(array) {
 }
 
 function randomDialogueEvent(force) {
-    if (force !== false) {
-            if (Math.random() * 100 < 2.5 && dialogueRunning == false) {
-                  dialogueRunning = true;
-                  fetch("/bussim-assets/dialoguedata/dialogue.json")
-                  .then(response => response.json())
-                  .then(data => {
-                        const speakData = random(data.data)
+    let dialogueProbbability = 2.5
 
-                        speakerPopup.style.setProperty("--color1", speakData.colors[0])
-                        speakerPopup.style.setProperty("--color2", speakData.colors[1])
-                        speakerPopup.style.setProperty("--color3", speakData.colors[2])
-
-                        if (Math.random() * 100 < speakData.rarity) {
-                            startSpeaking(speakData.name, speakData.dialogue, speakData.sound);
-                        }
-                  })
-            }
-        }
-    else if (dialogueRunning == false) {
-        dialogueRunning = true;
+    if (Math.random() * 100 < dialogueProbbability && force !== true && dialogueRunning === false) {
         fetch("/bussim-assets/dialoguedata/dialogue.json")
         .then(response => response.json())
         .then(data => {
-            const speakData = random(data.data)
-
-            speakerPopup.style.setProperty("--color1", speakData.colors[0])
-            speakerPopup.style.setProperty("--color2", speakData.colors[1])
-            speakerPopup.style.setProperty("--color3", speakData.colors[2])
-
+            dialogueRunning = true;
+            
+            const speakData = random(data.dialogueData);
             if (Math.random() * 100 < speakData.rarity) {
-                  startSpeaking(speakData.name, speakData.dialogue, speakData.sound);
+                startSpeaking(speakData, data.characterData);
+            }
+        })
+    } else if (force === true && dialogueRunning === false) {
+        fetch("/bussim-assets/dialoguedata/dialogue.json")
+        .then(response => response.json())
+        .then(data => {
+            dialogueRunning = true;
+    
+            const speakData = random(data.dialogueData);
+            if (Math.random() * 100 < speakData.rarity) {
+                startSpeaking(speakData, data.characterData);
             }
         })
     }
 }
+
 
 setInterval(randomDialogueEvent, 5000);

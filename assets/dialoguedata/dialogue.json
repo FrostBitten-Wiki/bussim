@@ -1,75 +1,78 @@
 {
-    "data": [
+    "dialogueData": [
         {
-            "name": "Pear",
-            "sound": "meow",
-            "colors": ["#071907", "#0b260b", "green"],
             "rarity": 100,
-            "dialogue":[
-                [3000, "/pear/pear_emote0.png", "Hey! Did you know that the <highlight>Ragdoll</highlight> gamepass does more than it should do?"],
-                [3000, "/pear/pear_emote3.png", "A lot of events actually become a piece of cake once you do it, and I heard it even prevents you from no-clipping..."],
-                [2000, "/pear/pear_emote5.png", "Just don't try it though during a flood!"],
-                [2000, "/pear/pear_emote5.png", "You might regret it!~"],
-                [2000, "/pear/pear_emote6.png", "In the meantime though, Noble's probably planning on fixing it..."],
-                [2000, "/pear/pear_emote2.png", "maybe..."],
-                [2000, "/pear/pear_emote3.png", "It still works though!"]
+            "dialogue": [
+                [3000, "Pear", "pear_emote0", "Hey! Did you know that the <highlight>Ragdoll</highlight> Gamepass does more than it should do?"],
+                [3000, "Pear", "pear_emote3", "A lot of events actually become a piece of cake once you ragdoll, and I heard it even prevents you from no-clipping..."],
+                [2000, "Pear", "pear_emote5", "Just don't try it during a flood!"],
+                [2000, "Pear", "pear_emote5", "You might regret it!~"],
+                [2000, "Pear", "pear_emote6", "In the meantime though, Noble's probbably planning on fixing it..."],
+                [2000, "Pear", "pear_emote2", "maybe..."],
+                [2000, "Pear", "pear_emote3", "It still works though!"]
             ]
         },
 
         {
-            "name": "Pear",
-            "sound": "meow",
-            "colors": ["#071907", "#0b260b", "green"],
             "rarity": 100,
-            "dialogue":[
-                [3000, "/pear/pear_emote0.png", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
-                [3000, "/pear/pear_emote3.png", "You can mute the <highlight>Bus Horn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
+            "dialogue": [
+                [3000, "Pear", "pear_emote0", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
+                [3000, "Pear", "pear_emote3", "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"]
             ]
         },
 
         {
-            "name": "Pear",
-            "sound": "meow",
-            "colors": ["#071907", "#0b260b", "green"],
             "rarity": 100,
-            "dialogue":[
-                [3000, "/pear/pear_emote0.png", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
-                [3000, "/pear/pear_emote3.png", "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"]
-            ]
-        },
-        
-        {
-            "name": "Pear",
-            "sound": "meow",
-            "colors": ["#071907", "#0b260b", "green"],
-            "rarity": 100,
-            "dialogue":[
-                [3000, "/pear/pear_emote3.png", "Hey! Did you know that you can instantly befriend Frost with this one simple trick?"],
-                [1500, "/pear/pear_emote3.png", "All you need is a special..."],
-                [1500, "/pear/pear_emote3.png", "exclusive..."],
-                [3000, "/pear/pear_emote6.png", "Spronkbib Popsicle!!"],
-                [3500, "/pear/pear_emote5.png", "Funnily enough, this actually ends up making Frostbite confused enough to think you gave him a special 'token' of-"],
-                [2000, "/pear/pear_emote2.png", "...uhm.."],
-                [3000, "/pear/pear_emote2.png", "Y-eah! All you need is to get lucky enough!"],
-                [3000, "/pear/pear_emote3.png", "Hopefully by then though, you didn't give him a normal ice cream~."]
+            "dialogue": [
+                [3000, "Pear", "pear_emote0", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
+                [3000, "Pear", "pear_emote3", "You can mute the <highlight>Bus Horn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
             ]
         },
 
         {
-            "name": "Fang",
-            "sound": "ouch",
-            "colors": ["#142052", "#000000", "blue"],
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Pear", "pear_emote3", "Hey! Did you know that you can instantly befriend Frost with this one simple trick?"],
+                [1500, "Pear", "pear_emote3", "All you need is a special..."],
+                [1500, "Pear", "pear_emote3", "exclusive..."],
+                [3000, "Pear", "pear_emote6", "Spronkbib Popsicle!!"],
+                [3500, "Pear", "pear_emote5", "Funnily enough, this actually ends up making Frostbite confused enough to think you gave him a special 'token' of-"],
+                [3000, "Pear", "pear_emote2", "...uhm.."],
+                [3000, "Pear", "pear_emote2", "Y-eah! All you need is to get lucky enough!"],
+                [3000, "Pear", "pear_emote3", "Hopefully by then though, you didn't give him a normal ice cream~"]
+            ]
+        },
+
+        {
             "rarity": 5,
-            "dialogue":[
-                [3000, "/fang/fang_emote0.png", "..."],
-                [3000, "/fang/fang_emote6.png", "WH-"],
-                [3000, "/fang/fang_emote2.png", "oh uh.. hey there?"],
-                [3000, "/fang/fang_emote2.png", "didn't expect you to find me here but uhm.."],
-                [3000, "/fang/fang_emote2.png", "i hope you're enjoying this wiki! it's quite hard to still understand how it works but.."],
-                [3000, "/fang/fang_emote0.png", "i've been getting the hang of it. well, i have to go do something in the meantime!"],
-                [3000, "/fang/fang_emote5.png", "oh and uh, before i go..."],
-                [3000, "/fang/fang_emote5.png", "shoutout philippines"]
+            "dialogue": [
+                [2000, "Fang", "fang_emote0", "..."],
+                [2000, "Fang", "fang_emote6", "WH-"],
+                [3000, "Fang", "fang_emote2", "oh uh.. hey there?"],
+                [3000, "Fang", "fang_emote2", "didn't expect you to find me here but uhm.."],
+                [3000, "Fang", "fang_emote2", "I hope you're enjoying this wiki! It's quite hard to still understand how it works but..."],
+                [3000, "Fang", "fang_emote0", "I've been getting the hang of it. well, I have to go do something in the meantime!"],
+                [3000, "Fang", "fang_emote5", "oh and uh, before i go..."],
+                [3000, "Fang", "fang_emote5", "Shoutout to the Philippines"]
             ]
         }
+    ],
+
+    "characterData": {
+        "Pear": {
+            "dialogueSfx": "meow",
+            "dialogueColors": ["#071907", "#0b260b", "green"],
+            "dialogueEmoteName": "pear"
+        },
+
+        "Fang": {
+            "dialogueSfx": "ouch",
+            "dialogueColors": ["#142052", "black", "blue"],
+            "dialogueEmoteName": "fang"
+        }
+    },
+
+    "characterImagePreload": [
+
     ]
 }

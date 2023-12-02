@@ -97,7 +97,7 @@
         </div>
         
         <bottomButtons>
-            <button onclick="randomDialogueEvent(false)">
+            <button onclick="randomDialogueEvent(true)">
                 <img src="/assets/books.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                 <text type="hoverText">Force Dialogue</text>
             </button>
@@ -247,34 +247,7 @@
     </div>
     {% endif %}
 
-    <div id="speakerPopup" class="container" style="user-select: none; --color1: #6d6d6d; --color2: #8d8d8d; --color3: white; transition: bottom 1s; position: fixed; bottom: -130px; right: 10px; width: 530px; height: 100px; gap: 10px;" id="tips">
-        <style>
-            #speakerPopup {
-                background: conic-gradient(
-                    var(--color1) 90deg,
-                    var(--color2) 90deg 180deg,
-                    var(--color1)  180deg 270deg,
-                    var(--color2) 270deg
-                );
-
-                border: 5px solid var(--color3);
-
-                background-repeat: repeat;
-                background-size: 60px 60px;
-                background-position: top left;
-                background-color: gray;
-                animation-name: slide;
-                animation-duration: 20s;
-                animation-timing-function: linear;
-                animation-iteration-count: infinite;
-            }
-
-            @keyframes slide {
-                from {background-position: 0px 0px;}
-                to {background-position: -512px 512px;}
-            }
-        </style>
-        
+    <div id="speakerPopup" class="container checkBg" style="user-select: none; --color1: #6d6d6d; --color2: #8d8d8d; --color3: white; transition: 1s; position: fixed; bottom: -130px; right: 10px; width: 530px; height: 100px; gap: 10px;" id="tips">
         <div style="display: grid; grid-template-columns: 1fr 128px;">
             <div style="padding: 5px;">
                 <text id="speakerName" style="font-size: 20px;"></text><br>
