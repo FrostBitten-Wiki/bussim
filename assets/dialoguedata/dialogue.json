@@ -10,7 +10,7 @@
                 [2000, "/pear/pear_emote5.png", "Just don't try it though during a flood!"],
                 [2000, "/pear/pear_emote5.png", "You might regret it!~"],
                 [2000, "/pear/pear_emote6.png", "In the meantime though, Noble's probably planning on fixing it..."],
-                [1000, "/pear/pear_emote6.png", "maybe..."],
+                [2000, "/pear/pear_emote6.png", "maybe..."],
                 [2000, "/pear/pear_emote3.png", "It still works though!"]
             ]
         },
@@ -46,8 +46,7 @@
                 [2500, "/pear/pear_emote6.png", "Spronkbib Popsicle!!"],
                 [3500, "/pear/pear_emote5.png", "Funnily enough, this actually ends up making Frostbite confused enough to think you gave him a special 'token' of-"],
                 [2000, "/pear/pear_emote2.png", "...uhm.."],
-                [500, "/pear/pear_emote2.png", "Y-"],
-                [1000, "/pear/pear_emote2.png", "Yeah! All you need is to get lucky enough!"],
+                [1000, "/pear/pear_emote2.png", "Y-eah! All you need is to get lucky enough!"],
                 [2000, "/pear/pear_emote3.png", "Hopefully by then though, you didn't give him a normal ice cream~."]
             ]
         }
