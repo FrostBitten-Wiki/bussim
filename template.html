@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.6">
+
     {% if page %}
         <meta name="description" content="The community-managed Bus Simulator Wiki!">
         <meta name="keywords" content="{{ page['keywords'] }}">
@@ -194,7 +195,7 @@
                                         </div>
                                     {% elif item['listItemImage'] != ""%}
                                         <div class="container" style="padding: 10px; display: grid; grid-template-columns: 128px 1fr; gap: 10px;">
-                                            <img src="{{ item['listItemImage'] }}" height="128" width="128" style="object-fit: cover;">
+                                            <img src="{{ item['listItemImage'] }}" height="128" width="128" style="object-fit: cover;" loading="lazy">
 
                                             <div>
                                                 <text style="font-size: 25px;">{{ item['listItemTitle'] }}</text><br>
@@ -210,7 +211,7 @@
                                         </div>
                                     {% elif item['listItemImage'] != ""%}
                                         <div class="container" style="padding: 10px; cursor: pointer; display: grid; grid-template-columns: 128px 1fr; gap: 10px;" onclick="location.href=`{{ item['listItemRedirect'] }}`">
-                                            <img src="{{ item['listItemImage'] }}" height="128" width="128" style="object-fit: cover;">
+                                            <img src="{{ item['listItemImage'] }}" height="128" width="128" style="object-fit: cover;" loading="lazy">
 
                                             <div>
                                                 <text style="font-size: 25px;">{{ item['listItemTitle'] }}</text><br>
@@ -285,7 +286,24 @@
 
     </div>
 
-    <script src="/bussim-assets/scripts/imagePreloader.js"></script>
-    <script src="/bussim-assets/scripts/dialogueSystem.js"></script>
+    <script async>
+        function preloadImages() {
+            imageUrls.forEach(function (imageUrl) {
+                let linkElement = document.createElement('link');
+                linkElement.rel = 'preload';
+                linkElement.href = imageUrl;
+                linkElement.as = 'image';
+                linkElement.type = 'image/png';
+                document.head.appendChild(linkElement);
+            });
+        
+            console.log("Images Preloaded!");
+        }
+
+        console.log("Preloading Images...");
+        window.addEventListener('load', preloadImages);
+    </script>
+
+    <script src="/bussim-assets/scripts/dialogueSystem.js" defer></script>
 </body>
 </html>
