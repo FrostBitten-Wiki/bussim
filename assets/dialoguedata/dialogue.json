@@ -24,14 +24,6 @@
         {
             "rarity": 100,
             "dialogue": [
-                [3000, "Pear", "pear_emote0", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
-                [3000, "Fang", "fang_emote3", "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"]
-            ]
-        },
-
-        {
-            "rarity": 100,
-            "dialogue": [
                 [3000, "Pear", "pear_emote0", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
                 [3000, "Pear", "pear_emote3", "You can mute the <highlight>Bus Horn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
             ]
@@ -41,8 +33,8 @@
             "rarity": 100,
             "dialogue": [
                 [3000, "Pear", "pear_emote3", "Hey! Did you know that you can instantly befriend Frost with this one simple trick?"],
-                [1500, "Pear", "pear_emote3", "All you need is a special..."],
-                [1500, "Pear", "pear_emote3", "exclusive..."],
+                [1000, "Pear", "pear_emote3", "All you need is a special..."],
+                [1000, "Pear", "pear_emote3", "exclusive..."],
                 [3000, "Pear", "pear_emote6", "Spronkbib Popsicle!!"],
                 [3500, "Pear", "pear_emote5", "Funnily enough, this actually ends up making Frostbite confused enough to think you gave him a special 'token' of-"],
                 [3000, "Pear", "pear_emote2", "...uhm.."],
@@ -67,6 +59,12 @@
     ],
 
     "characterData": {
+        "Placeholder": {
+            "dialogueSfx": "button",
+            "dialogueColors": ["#6d6d6d", "#9d9d9d", "white"],
+            "dialogueEmoteName": "placeholder"
+        },
+
         "Pear": {
             "dialogueSfx": "meow",
             "dialogueColors": ["#071907", "#0b260b", "green"],

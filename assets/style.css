@@ -20,7 +20,7 @@ body::-webkit-scrollbar-track {
 
 @font-face {
     font-family: 'Starbound';
-    src: url('https://frostbitten-wiki.github.io/bussim/assets/fonts/Starbound.ttf');
+    src: url('/bussim-assets/fonts/Starbound.ttf');
 }
 
 
@@ -29,6 +29,7 @@ text {
     color: white;
     word-spacing: 5px;
     text-shadow: 0 2px 0 #000000;
+    font-display: swap;
 }
 
 ul {
@@ -70,7 +71,7 @@ highlight {
     background: conic-gradient(
         var(--color1) 90deg,
         var(--color2) 90deg 180deg,
-        var(--color1)  180deg 270deg,
+        var(--color1) 180deg 270deg,
         var(--color2) 270deg
     );
 
@@ -87,8 +88,13 @@ highlight {
 }
 
 @keyframes slide {
-    from {background-position: 0px 0px;}
-    to {background-position: -512px 512px;}
+    from {
+        background-position: 0px 0px;
+    }
+
+    to {
+        background-position: 512px 512px;
+    }
 }
 
 div.sidebar {

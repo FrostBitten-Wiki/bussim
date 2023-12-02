@@ -38,8 +38,9 @@ function startSpeaking(data, characterData) {
         } else {
             setTimeout(() => {
                 delay = data.dialogue[index - 1][0];
-                speakerPopup.style.bottom = "-130px";
+                speakerPopup.style.bottom = "-165px";
                 dialogueRunning = false;
+                console.log(dialogueRunning);
             }, delay);
         }
     }
@@ -59,6 +60,7 @@ function randomDialogueEvent(force) {
         .then(response => response.json())
         .then(data => {
             dialogueRunning = true;
+            console.log(dialogueRunning);
             
             const speakData = random(data.dialogueData);
             if (Math.random() * 100 < speakData.rarity) {
@@ -70,7 +72,8 @@ function randomDialogueEvent(force) {
         .then(response => response.json())
         .then(data => {
             dialogueRunning = true;
-    
+            console.log(dialogueRunning);
+            
             const speakData = random(data.dialogueData);
             if (Math.random() * 100 < speakData.rarity) {
                 startSpeaking(speakData, data.characterData);

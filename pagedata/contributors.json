@@ -22,17 +22,10 @@
                 "content": {
                     "items": [
                         {
-                            "listItemImage": "",
-                            "listItemTitle": "ItemTitle",
-                            "listItemDescription": "ItemDescription",
-                            "listItemRedirect": ""
-                        },
-
-                        {
                             "listItemImage": "https://placehold.co/256",
                             "listItemTitle": "ItemTitle",
                             "listItemDescription": "ItemDescription",
-                            "listItemRedirect": "/bussim/home"
+                            "listItemRedirect": ""
                         }
                     ]
                 }

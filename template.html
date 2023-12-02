@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="/bussim-assets/style.css">
     {% endif %}
 
+    <link rel="preload" as="image" href="/bussim-assets/images/banner.jpg">
+
     <audio id="soundSource" controls autoplay style="display: none;">
         <source type="audio/mp3">
     </audio>
@@ -247,16 +249,15 @@
     </div>
     {% endif %}
 
-    <div id="speakerPopup" class="container checkBg" style="user-select: none; --color1: #6d6d6d; --color2: #8d8d8d; --color3: white; transition: 1s; position: fixed; bottom: -130px; right: 10px; width: 530px; height: 100px; gap: 10px;" id="tips">
-        <div style="display: grid; grid-template-columns: 1fr 128px;">
+    <div id="speakerPopup" class="container checkBg" style="user-select: none; --color1: #6d6d6d; --color2: #9d9d9d; --color3: white; transition: 1s; position: fixed; bottom: -165px; right: 10px; width: 530px; height: 100px; gap: 10px;" id="tips">
+        <div id="" style="display: grid; grid-template-columns: 1fr 128px;">
             <div style="padding: 5px;">
-                <text id="speakerName" style="font-size: 20px;"></text><br>
+                <text id="speakerName" style="font-size: 23px;"></text><br>
                 <text id="speakerText"></text>
             </div>
 
-            <img id="speakerImage" src="" width="128" height="auto" style="position: absolute; bottom: 0; right: 0;" >
+            <img id="speakerImage" src="" width="150" height="150" style="object-fit: cover; position: absolute; bottom: 0; right: 0;" >
         </div>
-
     </div>
 
     <script src="/bussim-assets/scripts/imagePreloader.js" async></script>
