@@ -14,15 +14,15 @@ function playSound(soundfile) {
     }
 }
 
-function startSpeaking(name, dialogues) {
-    playSound("elecping");
+function startSpeaking(name, dialogues, sound) {
+    playSound(sound);
     speakerPopup.style.bottom = "5px";
     speakerName.textContent = name;
     let index = 0;
     
     function showNextDialogue() {
         if (index < dialogues.length) {
-            playSound("elecping");
+            playSound(sound);
             dialogueDelay = dialogues[index][0]
             speakerImage.src = "/bussim-assets/images/dialogue" + dialogues[index][1];
             speakerDialogue.innerHTML = dialogues[index][2];
@@ -51,7 +51,9 @@ function randomDialogueEvent(force) {
                   .then(response => response.json())
                   .then(data => {
                       const speakData = random(data.data)
-                      startSpeaking(speakData.name, speakData.dialogue);
+                      if (Math.random() * 100 < speakData.rarity) {
+                            startSpeaking(speakData.name, speakData.dialogue, speakData.sound);
+                      }
                   })
             }
         }

@@ -2,7 +2,7 @@
     "data": [
         {
             "name": "Pear",
-            "sound": "/pear/meow.mp3",
+            "sound": "elecping",
             "rarity": 100,
             "dialogue":[
                 [2000, "/pear/pear_emote0.png", "Hey! Did you know that the Ragdoll gamepass does more than it should do?"],
@@ -17,7 +17,7 @@
 
         {
             "name": "Pear",
-            "sound": "/pear/meow.mp3",
+            "sound": "elecping",
             "rarity": 100,
             "dialogue":[
                 [2000, "/pear/pear_emote0.png", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
@@ -27,7 +27,7 @@
 
         {
             "name": "Pear",
-            "sound": "/pear/meow.mp3",
+            "sound": "elecping",
             "rarity": 100,
             "dialogue":[
                 [2000, "/pear/pear_emote0.png", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
@@ -37,7 +37,7 @@
         
         {
             "name": "Pear",
-            "sound": "/pear/meow.mp3",
+            "sound": "elecping",
             "rarity": 100,
             "dialogue":[
                 [2000, "/pear/pear_emote3.png", "Hey! Did you know that you can instantly befriend Frost with this one simple trick?"],
