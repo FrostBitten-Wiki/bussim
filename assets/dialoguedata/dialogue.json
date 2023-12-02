@@ -5,11 +5,13 @@
             "sound": "/pear/meow.mp3",
             "rarity": 100,
             "dialogue":[
-                [3500, "/pear/pear_emote0.png", "Hey! Did you know that the Ragdoll gamepass does more than it should do?"],
-                [3500, "/pear/pear_emote3.png", "A lot of events actually become a piece of cake once you do it, and I heard it even prevents you from no-clipping..."],
-                [3500, "/pear/pear_emote5.png", "Just don't try it though during a flood! You might regret it~!"],
-                [3500, "/pear/pear_emote6.png", "In the meantime though, Noble's probably planning on fixing it.. maybe."],
-                [3500, "/pear/pear_emote3.png", "It still works though!"]
+                [2000, "/pear/pear_emote0.png", "Hey! Did you know that the Ragdoll gamepass does more than it should do?"],
+                [3000, "/pear/pear_emote3.png", "A lot of events actually become a piece of cake once you do it, and I heard it even prevents you from no-clipping..."],
+                [1500, "/pear/pear_emote5.png", "Just don't try it though during a flood!"],
+                [1000, "/pear/pear_emote5.png", "You might regret it!~"],
+                [2000, "/pear/pear_emote6.png", "In the meantime though, Noble's probably planning on fixing it..."],
+                [1000, "/pear/pear_emote6.png", "maybe..."],
+                [2000, "/pear/pear_emote3.png", "It still works though!"]
             ]
         },
 
@@ -18,8 +20,8 @@
             "sound": "/pear/meow.mp3",
             "rarity": 100,
             "dialogue":[
-                [3500, "/pear/pear_emote0.png", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
-                [3500, "/pear/pear_emote3.png", "You can mute the Bus Horn by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
+                [2000, "/pear/pear_emote0.png", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
+                [2000, "/pear/pear_emote3.png", "You can mute the Bus Horn by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
             ]
         },
 
@@ -28,8 +30,8 @@
             "sound": "/pear/meow.mp3",
             "rarity": 100,
             "dialogue":[
-                [3500, "/pear/pear_emote0.png", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
-                [3500, "/pear/pear_emote3.png", "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"]
+                [2000, "/pear/pear_emote0.png", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
+                [2000, "/pear/pear_emote3.png", "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"]
             ]
         },
         
@@ -38,13 +40,15 @@
             "sound": "/pear/meow.mp3",
             "rarity": 100,
             "dialogue":[
-                [3500, "/pear/pear_emote3.png", "Hey! Did you know that you can instantly befriend Frost with this one simple trick?"],
-                [3500, "/pear/pear_emote3.png", "All you need is a special... exclusive..."],
-                [3500, "/pear/pear_emote6.png", "Spronkbib Popsicle!!"],
+                [2000, "/pear/pear_emote3.png", "Hey! Did you know that you can instantly befriend Frost with this one simple trick?"],
+                [1000, "/pear/pear_emote3.png", "All you need is a special..."],
+                [1000, "/pear/pear_emote3.png", "exclusive..."],
+                [2500, "/pear/pear_emote6.png", "Spronkbib Popsicle!!"],
                 [3500, "/pear/pear_emote5.png", "Funnily enough, this actually ends up making Frostbite confused enough to think you gave him a special 'token' of-"],
-                [3500, "/pear/pear_emote2.png", "...uhm.."],
-                [3500, "/pear/pear_emote2.png", "Y-yeah! All you need is to get lucky enough!"],
-                [3500, "/pear/pear_emote3.png", "Hopefully by then though, you didn't give him a normal ice cream~."]
+                [2000, "/pear/pear_emote2.png", "...uhm.."],
+                [500, "/pear/pear_emote2.png", "Y-"],
+                [1000, "/pear/pear_emote2.png", "Yeah! All you need is to get lucky enough!"],
+                [2000, "/pear/pear_emote3.png", "Hopefully by then though, you didn't give him a normal ice cream~."]
             ]
         }
     ]
