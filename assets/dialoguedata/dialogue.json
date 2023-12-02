@@ -6,7 +6,7 @@
             "colors": ["#071907", "#0b260b", "green"],
             "rarity": 100,
             "dialogue":[
-                [2000, "/pear/pear_emote0.png", "Hey! Did you know that the Ragdoll gamepass does more than it should do?"],
+                [3000, "/pear/pear_emote0.png", "Hey! Did you know that the <highlight>Ragdoll</highlight> gamepass does more than it should do?"],
                 [3000, "/pear/pear_emote3.png", "A lot of events actually become a piece of cake once you do it, and I heard it even prevents you from no-clipping..."],
                 [2000, "/pear/pear_emote5.png", "Just don't try it though during a flood!"],
                 [2000, "/pear/pear_emote5.png", "You might regret it!~"],
@@ -22,7 +22,7 @@
             "colors": ["#071907", "#0b260b", "green"],
             "rarity": 100,
             "dialogue":[
-                [2000, "/pear/pear_emote0.png", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
+                [3000, "/pear/pear_emote0.png", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
                 [3000, "/pear/pear_emote3.png", "You can mute the <highlight>Bus Horn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
             ]
         },
@@ -33,7 +33,7 @@
             "colors": ["#071907", "#0b260b", "green"],
             "rarity": 100,
             "dialogue":[
-                [2000, "/pear/pear_emote0.png", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
+                [3000, "/pear/pear_emote0.png", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
                 [3000, "/pear/pear_emote3.png", "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"]
             ]
         },
@@ -44,14 +44,14 @@
             "colors": ["#071907", "#0b260b", "green"],
             "rarity": 100,
             "dialogue":[
-                [2000, "/pear/pear_emote3.png", "Hey! Did you know that you can instantly befriend Frost with this one simple trick?"],
-                [1000, "/pear/pear_emote3.png", "All you need is a special..."],
-                [1000, "/pear/pear_emote3.png", "exclusive..."],
-                [2500, "/pear/pear_emote6.png", "Spronkbib Popsicle!!"],
+                [3000, "/pear/pear_emote3.png", "Hey! Did you know that you can instantly befriend Frost with this one simple trick?"],
+                [1500, "/pear/pear_emote3.png", "All you need is a special..."],
+                [1500, "/pear/pear_emote3.png", "exclusive..."],
+                [3000, "/pear/pear_emote6.png", "Spronkbib Popsicle!!"],
                 [3500, "/pear/pear_emote5.png", "Funnily enough, this actually ends up making Frostbite confused enough to think you gave him a special 'token' of-"],
                 [2000, "/pear/pear_emote2.png", "...uhm.."],
-                [2000, "/pear/pear_emote2.png", "Y-eah! All you need is to get lucky enough!"],
-                [2000, "/pear/pear_emote3.png", "Hopefully by then though, you didn't give him a normal ice cream~."]
+                [3000, "/pear/pear_emote2.png", "Y-eah! All you need is to get lucky enough!"],
+                [3000, "/pear/pear_emote3.png", "Hopefully by then though, you didn't give him a normal ice cream~."]
             ]
         }
     ]
