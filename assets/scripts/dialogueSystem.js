@@ -14,7 +14,7 @@ function playSound(soundfile) {
     }
 }
 
-function startSpeaking(name, dialogues, delay) {
+function startSpeaking(name, dialogues) {
     playSound("elecping");
     speakerPopup.style.bottom = "5px";
     speakerName.textContent = name;
@@ -23,15 +23,17 @@ function startSpeaking(name, dialogues, delay) {
     function showNextDialogue() {
         if (index < dialogues.length) {
             playSound("elecping");
-            speakerImage.src = "/bussim-assets/images/dialogue" + dialogues[index][0];
-            speakerDialogue.innerHTML = dialogues[index][1];
+            console.log("Delay: " + dialogues[index][0], "Image:" + dialogues[index][1], "Dialogue:" + dialogues[index][2])
+            dialogueDelay = dialogues[index][0]
+            speakerImage.src = "/bussim-assets/images/dialogue" + dialogues[index][1];
+            speakerDialogue.innerHTML = dialogues[index][2];
             index++;
-            setTimeout(showNextDialogue, delay);
+            setTimeout(showNextDialogue, dialogueDelay);
         } else {
             setTimeout(() => {
                 speakerPopup.style.bottom = "-130px";
                 dialogueRunning = false;
-            }, delay);
+            }, 2000);
         }
     }
 
@@ -50,7 +52,7 @@ function randomDialogueEvent(force) {
                   .then(response => response.json())
                   .then(data => {
                       const speakData = random(data.data)
-                      startSpeaking(speakData.name, speakData.dialogue, speakData.delay);
+                      startSpeaking(speakData.name, speakData.dialogue);
                   })
             }
         }
