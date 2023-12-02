@@ -330,6 +330,121 @@
                             "listItemRedirect": "/bussim/items/tool"
                         }
                     ]
+                    
+                }
+            },
+
+            {
+                "type": "infobox",
+                "content": {
+                    "infoBoxTitle": ["Limited / Unobtainable Items", "#9e9e9e"],
+                    "infoBoxDescription": "The following items are only obtainable in special conditions or are no longer obtainable by normal means."
+                }
+            },
+
+            {
+                "type": "list",
+                "content": {
+                    "items": [
+                        {
+                            "listItemImage": "",
+                            "listItemTitle": "Avian Potion",
+                            "listItemDescription": "The Avian Potion is a consumable that can only be obtained by admin commands.<br></br>When used, you'll be given the ability to mash space mid-air for a tiny loft.",
+                            "listItemRedirect": "/bussim/items/avian-potion"
+                        },
+
+                        {
+                            "listItemImage": "",
+                            "listItemTitle": "Bus Birthday Cake",
+                            "listItemDescription": "The Bus Birthday Cake was a limited-edition variant of the Free-modelled Cake, added to celebrate Bus Simulator's 5th Birthday.<br></br>When used, it'll restore a tiny amount. Just don't pair it with Cola.",
+                            "listItemRedirect": "/bussim/items/bus-birthday-cake"
+                        },
+
+                        
+                        {
+                            "listItemImage": "",
+                            "listItemTitle": "Candied Cane",
+                            "listItemDescription": "The Candied Cane is a healing item given by obtaining The Bringer of Gifts badge from the Santa's Gone event.<br></br>When used, you'll be given a speed boost and significant regeneration, on top of the passive boost from holding it.",
+                            "listItemRedirect": "/bussim/items/candied-cane"
+                        },
+
+                        {
+                            "listItemImage": "",
+                            "listItemTitle": "Cone Soda",
+                            "listItemDescription": "The Cone Soda is an unused item that is purely cosmetic, and has no effects.",
+                            "listItemRedirect": "/bussim/items/cone-soda"
+                        },
+
+                        {
+                            "listItemImage": "",
+                            "listItemTitle": "Edit",
+                            "listItemDescription": "Edit is an item that cannot be obtained via events or from the bus/gamepass, as only VIP server owners and admins can obtain it, and give it to other people.<br></br>When equipped, you'll be able to modify the game's parts.",
+                            "listItemRedirect": "/bussim/items/edit"
+                        },
+
+                        {
+                            "listItemImage": "",
+                            "listItemTitle": "Hoverboots",
+                            "listItemDescription": "The Hoverboots is a pair of boots that allows you to fly, similar to the Helicopter item. It was only available during the 10 Million Visits Update via the wheel.<br></br>When used, you'll be able to fly, and clicking allows you to boost.",
+                            "listItemRedirect": "/bussim/items/hoverboots"
+                        },
+
+                        {
+                            "listItemImage": "",
+                            "listItemTitle": "Million Colas",
+                            "listItemDescription": "The Million Colas are a set of colas obtainable during their respective event.<br></br>They mostly do nothing, and moreso just a cola with added flair and effects.",
+                            "listItemRedirect": "/bussim/items/million-colas"
+                        },
+
+                        {
+                            "listItemImage": "",
+                            "listItemTitle": "Party Popper",
+                            "listItemDescription": "The Party Popper is a cosmetic item obtained from the 10 Million Visits Wheel.<br></br>When used, it'll make a small blast of confetti, and has a cooldown of 2 seconds.",
+                            "listItemRedirect": "/bussim/items/party-popper"
+                        },
+
+                        {
+                            "listItemImage": "",
+                            "listItemTitle": "Popsicle",
+                            "listItemDescription": "Popsicle is obtained from the 10 Million Event Wheel.<br></br>When used, it'll heal you by a significant amount similarly to Snowcone and can be used rapidly.",
+                            "listItemRedirect": "/bussim/items/popsicle"
+                        },
+
+                        {
+                            "listItemImage": "",
+                            "listItemTitle": "Snowcone",
+                            "listItemDescription": "The Snowcone is a permanent healing item obtainable from either the 2019 Christmas event or the 20 Million Visits Update.<br></br>When used, it'll restore a significant part of your health.",
+                            "listItemRedirect": "/bussim/items/snowcone"
+                        },
+
+                        {
+                            "listItemImage": "",
+                            "listItemTitle": "Snowglobe",
+                            "listItemDescription": "The Snowglobe is an item obtained by joining during either the 2019 Christmas event, or the 20 Million Visits Update.<br></br>When used, it'll produce sparkles out of it.",
+                            "listItemRedirect": "/bussim/items/snowglobe"
+                        },
+
+                        {
+                            "listItemImage": "",
+                            "listItemTitle": "Sparkler",
+                            "listItemDescription": "The sparkler is a limited-time item that is only given out from December 30th - Jan 1st, to celebrate New Years, and has multiple colors to choose from.<br></br>There's also one given to only VR players too.",
+                            "listItemRedirect": "/bussim/items/sparkler"
+                        },
+
+                        {
+                            "listItemImage": "",
+                            "listItemTitle": "Spray Bottle",
+                            "listItemDescription": "The spray bottle can be only obtained through VIP/Admin commands.<br></br>When used, it temporarily blinds any player unfortunate enough to be in its range.",
+                            "listItemRedirect": "/bussim/items/spray-bottle"
+                        },
+
+                        {
+                            "listItemImage": "",
+                            "listItemTitle": "Starter Box",
+                            "listItemDescription": "The Starter Box is an obtainable item from the 10 Million Visits Wheel.<br></br>When used, it'll provide all of the items obtainable from The Bus, instantly.",
+                            "listItemRedirect": "/bussim/items/starter-box"
+                        }
+                    ]
                 }
             }
         ]
