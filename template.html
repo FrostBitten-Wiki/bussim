@@ -286,24 +286,7 @@
 
     </div>
 
-    <script async>
-        function preloadImages() {
-            imageUrls.forEach(function (imageUrl) {
-                let linkElement = document.createElement('link');
-                linkElement.rel = 'preload';
-                linkElement.href = imageUrl;
-                linkElement.as = 'image';
-                linkElement.type = 'image/png';
-                document.head.appendChild(linkElement);
-            });
-        
-            console.log("Images Preloaded!");
-        }
-
-        console.log("Preloading Images...");
-        window.addEventListener('load', preloadImages);
-    </script>
-
+    <script src="/bussim-assets/scripts/imagePreloader.js" async></script>
     <script src="/bussim-assets/scripts/dialogueSystem.js" defer></script>
 </body>
 </html>
