@@ -150,6 +150,13 @@
                 [3000, "Zeon", "point", "tell them I said they can come over! We still need to talk about those fictional turtle skeletons."],
                 [3000, "Zeon", "point", "They're so rad..."]
             ]
+        },
+
+        "zeon012": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Zeon", "close", "michael"]
+            ]
         }
     },
 

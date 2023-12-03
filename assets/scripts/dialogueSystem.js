@@ -1,5 +1,6 @@
 let speakerPopup = document.getElementById("speakerPopup");
 let speakerImage = document.getElementById("speakerImage");
+let speakerId = document.getElementById("speakerId");
 let speakerName = document.getElementById("speakerName");
 let speakerDialogue = document.getElementById("speakerText");
 let soundSource = document.getElementById("soundSource");
@@ -62,8 +63,10 @@ function randomDialogueEvent(force, id) {
         let speakData;
 
         if (id && data.dialogueData[id]) {
+            speakerId.innerText = `dialogueId: ${id}`;
             speakData = data.dialogueData[id];
         } else {
+            speakerId.innerText = ``;
             speakData = random(data.dialogueData);
         }
 
