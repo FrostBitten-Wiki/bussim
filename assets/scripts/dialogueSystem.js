@@ -15,7 +15,6 @@ function playSound(soundfile) {
 }
 
 function startSpeaking(data, characterData) {
-    console.log(data, characterData);
     let index = 0;
 
     speakerPopup.style.bottom = "5px";
@@ -41,7 +40,6 @@ function startSpeaking(data, characterData) {
                 delay = data.dialogue[index - 1][0];
                 speakerPopup.style.bottom = "-165px";
                 dialogueRunning = false;
-                console.log(dialogueRunning);
             }, delay);
         }
     }
