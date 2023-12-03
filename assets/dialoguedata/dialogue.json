@@ -3,43 +3,43 @@
         "pear001": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Pear", "pear_emote0", "Hey! Did you know that the <highlight>Ragdoll</highlight> Gamepass does more than it should do?"],
-                [3000, "Pear", "pear_emote3", "A lot of events actually become a piece of cake once you ragdoll, and I heard it even prevents you from no-clipping..."],
-                [2000, "Pear", "pear_emote5", "Just don't try it during a flood!"],
-                [2000, "Pear", "pear_emote5", "You might regret it!~"],
-                [2000, "Pear", "pear_emote6", "In the meantime though, Noble's probbably planning on fixing it..."],
-                [2000, "Pear", "pear_emote2", "maybe..."],
-                [2000, "Pear", "pear_emote3", "It still works though!"]
+                [3000, "Pear", "point", "Hey! Did you know that the <highlight>Ragdoll</highlight> Gamepass does more than it should do?"],
+                [3000, "Pear", "think", "A lot of events actually become a piece of cake once you ragdoll, and I heard it even prevents you from no-clipping..."],
+                [2000, "Pear", "sweat", "Just don't try it during a flood!"],
+                [2000, "Pear", "lean", "You might regret it!~"],
+                [2000, "Pear", "sweat", "In the meantime though, Noble's probbably planning on fixing it..."],
+                [2000, "Pear", "sweat", "maybe..."],
+                [2000, "Pear", "shock", "It still works though!"]
             ]
         },
 
         "pear002": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Pear", "pear_emote0", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
-                [3000, "Pear", "pear_emote3", "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"]
+                [3000, "Pear", "angry", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
+                [3000, "Pear", "point", "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"]
             ]
         },
 
         "pear003": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Pear", "pear_emote0", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
-                [3000, "Pear", "pear_emote3", "You can mute the <highlight>Bus Horn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
+                [3000, "Pear", "angry", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
+                [3000, "Pear", "point", "You can mute the <highlight>Bus Horn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
             ]
         },
 
         "pear004": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Pear", "pear_emote3", "Hey! Did you know that you can instantly befriend Frost with this one simple trick?"],
-                [1000, "Pear", "pear_emote3", "All you need is a special..."],
-                [1000, "Pear", "pear_emote3", "exclusive..."],
-                [3000, "Pear", "pear_emote6", "Spronkbib Popsicle!!"],
-                [3500, "Pear", "pear_emote5", "Funnily enough, this actually ends up making Frostbite confused enough to think you gave him a special 'token' of-"],
-                [3000, "Pear", "pear_emote2", "...uhm.."],
-                [3000, "Pear", "pear_emote2", "Y-eah! All you need is to get lucky enough!"],
-                [3000, "Pear", "pear_emote3", "Hopefully by then though, you didn't give him a normal ice cream~"]
+                [3000, "Pear", "point", "Hey! Did you know that you can instantly befriend Frost with this one simple trick?"],
+                [1000, "Pear", "think", "All you need is a special..."],
+                [1000, "Pear", "think", "exclusive..."],
+                [3000, "Pear", "shock", "Spronkbib Popsicle!!"],
+                [3500, "Pear", "point", "Funnily enough, this actually ends up making Frostbite confused enough to think you gave him a special 'token' of-"],
+                [3000, "Pear", "sweat", "...uhm.."],
+                [3000, "Pear", "sweat", "Y-eah! All you need is to get lucky enough!"],
+                [3000, "Pear", "lean", "Hopefully by then though, you didn't give him a normal ice cream~"]
             ]
         },
         
@@ -48,14 +48,14 @@
         "fang001": {
             "rarity": 5,
             "dialogue": [
-                [2000, "Fang", "fang_emote0", "..."],
-                [2000, "Fang", "fang_emote6", "WH-"],
-                [3000, "Fang", "fang_emote2", "oh uh.. hey there?"],
-                [3000, "Fang", "fang_emote2", "didn't expect you to find me here but uhm.."],
-                [3000, "Fang", "fang_emote2", "I hope you're enjoying this wiki! It's quite hard to still understand how it works but..."],
-                [3000, "Fang", "fang_emote0", "I've been getting the hang of it. well, I have to go do something in the meantime!"],
-                [3000, "Fang", "fang_emote5", "oh and uh, before i go..."],
-                [3000, "Fang", "fang_emote5", "Shoutout to the Philippines"]
+                [2000, "Fang", "", "..."],
+                [2000, "Fang", "", "WH-"],
+                [3000, "Fang", "", "oh uh.. hey there?"],
+                [3000, "Fang", "", "didn't expect you to find me here but uhm.."],
+                [3000, "Fang", "", "I hope you're enjoying this wiki! It's quite hard to still understand how it works but..."],
+                [3000, "Fang", "", "I've been getting the hang of it. well, I have to go do something in the meantime!"],
+                [3000, "Fang", "", "oh and uh, before i go..."],
+                [3000, "Fang", "", "Shoutout to the Philippines"]
             ]
         },
 
@@ -64,91 +64,91 @@
         "zeon001": {
             "rarity": 100,
             "dialogue": [
-                [2000, "Zeon", "", "Hey, thanks for checking us out!"],
-                [2000, "Zeon", "", "Just remember your common sense"],
-                [3000, "Zeon", "", "and DON'T break into people's houses. Even if it's just for RAM..."]
+                [2000, "Zeon", "default", "Hey, thanks for checking us out!"],
+                [2000, "Zeon", "point", "Just remember your common sense"],
+                [3000, "Zeon", "angry", "and DON'T break into people's houses. Even if it's just for RAM..."]
             ]
         },
 
         "zeon002": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Zeon", "", "Be sure to like, comment and-"],
-                [1000, "Zeon", "", "Wait..."],
-                [2000, "Zeon", "", "wrong place.."],
-                [3000, "Zeon", "", "Just enjoy expanding your knowledge!"]
+                [3000, "Zeon", "close", "Be sure to like, comment and-"],
+                [1000, "Zeon", "default", "Wait..."],
+                [2000, "Zeon", "default", "wrong place.."],
+                [3000, "Zeon", "point", "Just enjoy expanding your knowledge!"]
             ]
         },
 
         "zeon003": {
             "rarity": 100,
             "dialogue": [
-                [2000, "Zeon", "", "Wait..."],
-                [3000, "Zeon", "", "You seem familiar..."],
-                [3000, "Zeon", "", "Didn't you break into my house before?"]
+                [2000, "Zeon", "default", "Wait..."],
+                [3000, "Zeon", "close", "You seem familiar..."],
+                [3000, "Zeon", "point", "Didn't you break into my house before?"]
             ]
         },
 
         "zeon004": {
             "rarity": 0,
             "dialogue": [
-                [2000, "Zeon", "", "Wait..."],
-                [3000, "Zeon", "", "You seem familiar..."],
-                [3000, "Zeon", "", "Didn't you give me my favorite drink before?"],
-                [3000, "Zeon", "", "That was kind of you...!"]
+                [2000, "Zeon", "default", "Wait..."],
+                [3000, "Zeon", "close", "You seem familiar..."],
+                [3000, "Zeon", "point", "Didn't you give me my favorite drink before?"],
+                [3000, "Zeon", "shock", "That was kind of you...!"]
             ]
         },
 
         "zeon005": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Zeon", "", "Pro Tip: I heard a cat sells some knitted sweaters! You should talk to him some time!"]
+                [3000, "Zeon", "point", "Pro Tip: I heard a cat sells some knitted sweaters! You should talk to him some time!"]
             ]
         },
 
         "zeon006": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Zeon", "", "Remember to support local businesses!"]
+                [3000, "Zeon", "point", "Remember to support local businesses!"]
             ]
         },
 
         "zeon007": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Zeon", "", "You can also survive the Flash Food by some quick-healing items!"],
-                [3000, "Zeon", "", "Just hope it doesn't taste soggy..."]
+                [3000, "Zeon", "point", "You can also survive the Flash Food by some quick-healing items!"],
+                [3000, "Zeon", "close", "Just hope it doesn't taste soggy..."]
             ]
         },
 
         "zeon008": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Zeon", "", "Don't forget!"],
-                [3000, "Zeon", "", "<text style=\"color: red;\">You're here forever.</text>"]
+                [3000, "Zeon", "point", "Don't forget!"],
+                [3000, "Zeon", "close", "<text style=\"color: red;\">You're here forever.</text>"]
             ]
         },
 
         "zeon009": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Zeon", "", "My dialogue <highlight>michael</highlight> is related to both the cat and a zombie-horde survival game based off of said cat meme!"]
+                [3000, "Zeon", "point", "My dialogue <highlight>michael</highlight> is related to both the cat and a zombie-horde survival game based off of said cat meme!"]
             ]
         },
 
         "zeon010": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Zeon", "", "king my beloved"]
+                [3000, "Zeon", "close", "king my beloved"]
             ]
         },
 
         "zeon011": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Zeon", "", "Hey, if you see somebody in a dumpster behind the gas station..."],
-                [3000, "Zeon", "", "tell them I said they can come over! We still need to talk about those fictional turtle skeletons."],
-                [3000, "Zeon", "", "They're so rad..."]
+                [3000, "Zeon", "point", "Hey, if you see somebody in a dumpster behind the gas station..."],
+                [3000, "Zeon", "point", "tell them I said they can come over! We still need to talk about those fictional turtle skeletons."],
+                [3000, "Zeon", "point", "They're so rad..."]
             ]
         }
     },
