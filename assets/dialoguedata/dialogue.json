@@ -42,6 +42,14 @@
                 [3000, "Pear", "lean", "Hopefully by then though, you didn't give him a normal ice cream~"]
             ]
         },
+
+        "pear005": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Pear", "call", ""]
+
+            ]
+        },
         
 
         
