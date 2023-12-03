@@ -8,7 +8,7 @@
                 [2000, "Pear", "sweat", "Just don't try it during a flood!"],
                 [2000, "Pear", "lean", "You might regret it!~"],
                 [2000, "Pear", "sweat", "In the meantime though, Noble's probbably planning on fixing it..."],
-                [2000, "Pear", "sweat", "maybe..."],
+                [1000, "Pear", "sweat", "maybe..."],
                 [2000, "Pear", "shock", "It still works though!"]
             ]
         },
@@ -60,7 +60,7 @@
         },
 
 
-
+        
         "zeon001": {
             "rarity": 100,
             "dialogue": [
