@@ -1,6 +1,6 @@
 {
-    "dialogueData": [
-        {
+    "dialogueData": {
+        "pear001": {
             "rarity": 100,
             "dialogue": [
                 [3000, "Pear", "pear_emote0", "Hey! Did you know that the <highlight>Ragdoll</highlight> Gamepass does more than it should do?"],
@@ -13,7 +13,7 @@
             ]
         },
 
-        {
+        "pear002": {
             "rarity": 100,
             "dialogue": [
                 [3000, "Pear", "pear_emote0", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
@@ -21,22 +21,7 @@
             ]
         },
 
-        {
-            "rarity": 100,
-            "dialogue": [
-                [3000, "Placeholder", "", ""],
-                [3000, "Pear", "", ""],
-                [3000, "Green", "", ""],
-                [3000, "Disc", "", ""],
-                [3000, "Tazer", "", ""],
-                [3000, "Zeon", "", ""],
-                [3000, "D6", "", ""],
-                [3000, "MLG", "", ""],
-                [3000, "Fang", "", ""]
-            ]
-        },
-
-        {
+        "pear003": {
             "rarity": 100,
             "dialogue": [
                 [3000, "Pear", "pear_emote0", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
@@ -44,7 +29,7 @@
             ]
         },
 
-        {
+        "pear004": {
             "rarity": 100,
             "dialogue": [
                 [3000, "Pear", "pear_emote3", "Hey! Did you know that you can instantly befriend Frost with this one simple trick?"],
@@ -57,8 +42,10 @@
                 [3000, "Pear", "pear_emote3", "Hopefully by then though, you didn't give him a normal ice cream~"]
             ]
         },
+        
 
-        {
+        
+        "fang001": {
             "rarity": 5,
             "dialogue": [
                 [2000, "Fang", "fang_emote0", "..."],
@@ -70,57 +57,177 @@
                 [3000, "Fang", "fang_emote5", "oh and uh, before i go..."],
                 [3000, "Fang", "fang_emote5", "Shoutout to the Philippines"]
             ]
+        },
+
+
+
+        "zeon001": {
+            "rarity": 100,
+            "dialogue": [
+                [2000, "Zeon", "", "Hey, thanks for checking us out!"],
+                [2000, "Zeon", "", "Just remember your common sense"],
+                [3000, "Zeon", "", "and DON'T break into people's houses. Even if it's just for RAM..."]
+            ]
+        },
+
+        "zeon002": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Zeon", "", "Be sure to like, comment and-"],
+                [1000, "Zeon", "", "Wait..."],
+                [2000, "Zeon", "", "wrong place.."],
+                [3000, "Zeon", "", "Just enjoy expanding your knowledge!"]
+            ]
+        },
+
+        "zeon003": {
+            "rarity": 100,
+            "dialogue": [
+                [2000, "Zeon", "", "Wait..."],
+                [3000, "Zeon", "", "You seem familiar..."],
+                [3000, "Zeon", "", "Didn't you break into my house before?"]
+            ]
+        },
+
+        "zeon004": {
+            "rarity": 0,
+            "dialogue": [
+                [2000, "Zeon", "", "Wait..."],
+                [3000, "Zeon", "", "You seem familiar..."],
+                [3000, "Zeon", "", "Didn't you give me my favorite drink before?"],
+                [3000, "Zeon", "", "That was kind of you...!"]
+            ]
+        },
+
+        "zeon005": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Zeon", "", "Pro Tip: I heard a cat sells some knitted sweaters! You should talk to him some time!"]
+            ]
+        },
+
+        "zeon006": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Zeon", "", "Remember to support local businesses!"]
+            ]
+        },
+
+        "zeon007": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Zeon", "", "You can also survive the Flash Food by some quick-healing items!"],
+                [3000, "Zeon", "", "Just hope it doesn't taste soggy..."]
+            ]
+        },
+
+        "zeon008": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Zeon", "", "Don't forget!"],
+                [3000, "Zeon", "", "<text style=\"color: red;\">You're here forever.</text>"]
+            ]
+        },
+
+        "zeon009": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Zeon", "", "My dialogue <highlight>michael</highlight> is related to both the cat and a zombie-horde survival game based off of said cat meme!"]
+            ]
+        },
+
+        "zeon010": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Zeon", "", "king my beloved"]
+            ]
+        },
+
+        "zeon011": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Zeon", "", "Hey, if you see somebody in a dumpster behind the gas station..."],
+                [3000, "Zeon", "", "tell them I said they can come over! We still need to talk about those fictional turtle skeletons."],
+                [3000, "Zeon", "", "They're so rad..."]
+            ]
         }
-    ],
+    },
 
     "characterData": {
         "Placeholder": {
             "dialogueSfx": "button",
-            "dialogueColors": ["#6d6d6d", "#9d9d9d", "white"],
-            "dialogueEmoteName": "placeholder"
+            "dialogueColors": ["#6d6d6d", "#9d9d9d", "white"]
         },
-
-        "Pear": {
-            "dialogueSfx": "meow",
-            "dialogueColors": ["#071907", "#0b260b", "green"],
-            "dialogueEmoteName": "pear"
-        },
-
-        "Green": {
+        
+        "Main Game NPCs": "Character Data for Current Game NPCs (Interactable)",
+        
+        "D6": {
             "dialogueSfx": "button",
-            "dialogueColors": ["#071907", "#0b260b", "green"],
-            "dialogueEmoteName": "green"
+            "dialogueColors": ["#15150a", "#21200f", "#ddd666"],
+            "dialogueEmoteName": "d6"
         },
-
         "Disc": {
             "dialogueSfx": "button",
-            "dialogueColors": ["#0b0d15", "#111420", "#7289da"],
+            "dialogueColors": ["#0b0d15", "#081106", "#7289da"],
             "dialogueEmoteName": "disc"
         },
-
+        "Ectta": {
+            "dialogueSfx": "button",
+            "dialogueColors": ["#000c02", "#001303", "#018116"],
+            "dialogueEmoteName": "ectta"
+        },
+        "Efeuc": {
+            "dialogueSfx": "button",
+            "dialogueColors": ["#190000", "#260000", "red"],
+            "dialogueEmoteName": "efeuc"
+        },
+        "Frostbite": {
+            "dialogueSfx": "button",
+            "dialogueColors": ["#131619", "#1d2226", "#c4e6ff"],
+            "dialogueEmoteName": "frost"
+        },
+        "Green": {
+            "dialogueSfx": "button",
+            "dialogueColors": ["#050b04", "#0b260b", "#367328"],
+            "dialogueEmoteName": "green"
+        },
+        "MiroCev": {
+            "dialogueSfx": "button",
+            "dialogueColors": ["#050b04", "#0b260b", "#367328"],
+            "dialogueEmoteName": "mirocev"
+        },
+        "MLG": {
+            "dialogueSfx": "button",
+            "dialogueColors": ["#191000", "#261900", "#ffaa00"],
+            "dialogueEmoteName": "mlg"
+        },
+        "Pear": {
+            "dialogueSfx": "meow",
+            "dialogueColors": ["#071907", "#0b260b", "#4cff4c"],
+            "dialogueEmoteName": "pear"
+        },
+        "Red": {
+            "dialogueSfx": "meow",
+            "dialogueColors": ["#071907", "#0b260b", "#4cff4c"],
+            "dialogueEmoteName": "pear"
+        },
+        "Steven": {
+            "dialogueSfx": "meow",
+            "dialogueColors": ["#071907", "#0b260b", "#4cff4c"],
+            "dialogueEmoteName": "pear"
+        },
         "Tazer": {
             "dialogueSfx": "button",
             "dialogueColors": ["#190019", "#260026", "#ff00ff"],
             "dialogueEmoteName": "tazer"
         },
-
         "Zeon": {
             "dialogueSfx": "button",
             "dialogueColors": ["#0b0412", "#12061b", "#7625b8"],
             "dialogueEmoteName": "zeon"
         },
 
-        "D6": {
-            "dialogueSfx": "button",
-            "dialogueColors": ["#15150a", "#21200f", "#ddd666"],
-            "dialogueEmoteName": "d6"
-        },
-
-        "MLG": {
-            "dialogueSfx": "button",
-            "dialogueColors": ["#191000", "#261900", "#ffaa00"],
-            "dialogueEmoteName": "mlg"
-        },
+        "Contributors": "Character Data for Contributors",
 
         "Fang": {
             "dialogueSfx": "ouch",

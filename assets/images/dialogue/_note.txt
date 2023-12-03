@@ -1,0 +1,3 @@
+If you want to add another avatar to be used on the Dialogue System, you must name the files <character>_<emote>
+All iamge files must be WEBP for better compression.
+

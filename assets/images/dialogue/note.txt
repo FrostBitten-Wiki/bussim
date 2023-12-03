@@ -1,1 +1,0 @@
-If you want to add another avatar to be used on the Dialogue System, make sure to add a new folder containing the name of the character!!

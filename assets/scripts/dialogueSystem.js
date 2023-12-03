@@ -15,6 +15,7 @@ function playSound(soundfile) {
 }
 
 function startSpeaking(data, characterData) {
+    console.log(data, characterData);
     let index = 0;
 
     speakerPopup.style.bottom = "5px";
@@ -26,7 +27,7 @@ function startSpeaking(data, characterData) {
             
             delay = data.dialogue[index][0];
             speakerName.innerHTML = data.dialogue[index][1];
-            speakerImage.src = `/bussim-assets/images/dialogue/${charData["dialogueEmoteName"]}/${data.dialogue[index][2]}.webp`;
+            speakerImage.src = `/bussim-assets/images/dialogue/${charData["dialogueEmoteName"]}_${data.dialogue[index][2]}.webp`;
             speakerDialogue.innerHTML = data.dialogue[index][3];
 
             speakerPopup.style.setProperty("--color1", charData["dialogueColors"][0])
@@ -48,41 +49,44 @@ function startSpeaking(data, characterData) {
     showNextDialogue();
 }
 
-function random(array) {
-    return array[Math.floor(Math.random() * array.length)];
+function random(data) {
+    const keys = Object.keys(data);
+    const randomKey = keys[Math.floor(Math.random() * keys.length)];
+    return data[randomKey];
 }
 
-function randomDialogueEvent(force) {
-    let dialogueProbbability = 2.5
+function randomDialogueEvent(force, id) {
+    const dialogueProbbability = 2.5;
 
-    if (Math.random() * 100 < dialogueProbbability && force !== true && dialogueRunning === false) {
+    const handleResponse = (data) => {
+        dialogueRunning = true;
+
+        let speakData;
+
+        if (id && data.dialogueData[id]) {
+            speakData = data.dialogueData[id];
+        } else {
+            speakData = random(data.dialogueData);
+        }
+
+        if (Math.random() * 100 < speakData.rarity) {
+            startSpeaking(speakData, data.characterData);
+        } else {
+            dialogueRunning = false;
+        }
+    };
+
+    const fetchData = () => {
         fetch("/bussim-assets/dialoguedata/dialogue.json")
-        .then(response => response.json())
-        .then(data => {
-            dialogueRunning = true;
-            console.log(dialogueRunning);
-            
-            const speakData = random(data.dialogueData);
-            if (Math.random() * 100 < speakData.rarity) {
-                startSpeaking(speakData, data.characterData);
-            }
-        })
-    } else if (force === true && dialogueRunning === false) {
-        fetch("/bussim-assets/dialoguedata/dialogue.json")
-        .then(response => response.json())
-        .then(data => {
-            dialogueRunning = true;
-            console.log(dialogueRunning);
-            
-            const speakData = random(data.dialogueData);
-            if (Math.random() * 100 < speakData.rarity) {
-                startSpeaking(speakData, data.characterData);
-            } else {
-                dialogueRunning = false;
-            }
-        })
+            .then((response) => response.json())
+            .then(handleResponse);
+    };
+
+    if (Math.random() * 100 < dialogueProbbability && force !== true && !dialogueRunning) {
+        fetchData();
+    } else if (force === true && !dialogueRunning) {
+        fetchData();
     }
 }
-
 
 setInterval(randomDialogueEvent, 5000);
