@@ -55,7 +55,7 @@
                 [3000, "Fang", "", "I hope you're enjoying this wiki! It's quite hard to still understand how it works but..."],
                 [3000, "Fang", "", "I've been getting the hang of it. well, I have to go do something in the meantime!"],
                 [3000, "Fang", "", "oh and uh, before i go..."],
-                [3000, "Fang", "", "Shoutout to the Philippines"]
+                [3000, "Fang", "", "shoutout philippines"]
             ]
         },
 
@@ -74,8 +74,9 @@
             "dialogue": [
                 [2000, "Tazer", "point", "Did you know?"],
                 [4000, "Tazer", "default", "You can drift with the <highlight>Mini Bus</highlight> by holding the <highlight>SPACE</highlight> key!"],
-                [2000, "Green", "angry", "just..."],
-                [3000, "Green", "angry", "Try not to drift inside the station like what Tazer did!"]
+                [2000, "Green", "angry", "Just..."],
+                [3000, "Green", "angry", "Try not to drift inside the station like what Tazer did!"],
+                [4000, "Tazer", "sweat", "Hey! Don't call me out like that!"]
             ]
         },
 
@@ -85,8 +86,8 @@
             "rarity": 100,
             "dialogue": [
                 [2000, "Zeon", "default", "Hey, thanks for checking us out!"],
-                [2000, "Zeon", "point", "Just remember your common sense"],
-                [3000, "Zeon", "angry", "and DON'T break into people's houses. Even if it's just for RAM..."]
+                [2000, "Zeon", "point", "Just remember your common sense.."],
+                [3000, "Zeon", "angry", "..and DON'T break into people's houses. Even if it's just for RAM..."]
             ]
         },
 
@@ -136,7 +137,7 @@
         "zeon007": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Zeon", "point", "You can also survive the Flash Food by some quick-healing items!"],
+                [3000, "Zeon", "point", "You can survive the Flash Flood by eating some quick-healing items!"],
                 [3000, "Zeon", "close", "Just hope it doesn't taste soggy..."]
             ]
         },
