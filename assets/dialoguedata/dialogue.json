@@ -3,7 +3,7 @@
         "pear001": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Pear", "point", "Hey! Did you know that the <highlight>Ragdoll</highlight> Gamepass does more than it should do?"],
+                [3000, "Pear", "pointLeft", "Hey! Did you know that the <highlight>Ragdoll</highlight> Gamepass does more than it should do?"],
                 [3000, "Pear", "think", "A lot of events actually become a piece of cake once you ragdoll, and I heard it even prevents you from no-clipping..."],
                 [2000, "Pear", "sweat", "Just don't try it during a flood!"],
                 [2000, "Pear", "lean", "You might regret it!~"],
@@ -17,7 +17,7 @@
             "rarity": 100,
             "dialogue": [
                 [3000, "Pear", "angry", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
-                [3000, "Pear", "point", "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"]
+                [3000, "Pear", "pointLeft", "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"]
             ]
         },
 
@@ -25,18 +25,18 @@
             "rarity": 100,
             "dialogue": [
                 [3000, "Pear", "angry", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
-                [3000, "Pear", "point", "You can mute the <highlight>Bus Horn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
+                [3000, "Pear", "pointLeft", "You can mute the <highlight>Bus Horn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
             ]
         },
 
         "pear004": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Pear", "point", "Hey! Did you know that you can instantly befriend Frost with this one simple trick?"],
+                [3000, "Pear", "pointLeft", "Hey! Did you know that you can instantly befriend Frost with this one simple trick?"],
                 [1000, "Pear", "think", "All you need is a special..."],
                 [1000, "Pear", "think", "exclusive..."],
                 [3000, "Pear", "shock", "Spronkbib Popsicle!!"],
-                [3500, "Pear", "point", "Funnily enough, this actually ends up making Frostbite confused enough to think you gave him a special 'token' of-"],
+                [3500, "Pear", "pointRight", "Funnily enough, this actually ends up making Frostbite confused enough to think you gave him a special 'token' of-"],
                 [3000, "Pear", "sweat", "...uhm.."],
                 [3000, "Pear", "sweat", "Y-eah! All you need is to get lucky enough!"],
                 [3000, "Pear", "lean", "Hopefully by then though, you didn't give him a normal ice cream~"]
