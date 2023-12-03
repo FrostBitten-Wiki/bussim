@@ -146,14 +146,14 @@
             {% if html['header']['image'] == "" %}
                 <div style="position: absolute; top: 60px; margin-left: 5vw; margin-right: 5vw; z-index: 2;">
                     <text style="font-size: 50px;">{{ html["header"]["title"] }}</text><br>
-                    <text style="font-size: 20px;">{{ html["header"]["description"] }}</text>
+                    <text style="font-size: 17px;">{{ html["header"]["description"] }}</text>
                 </div>
             {% elif html['header']['image'] != "" %}
                 <div style="position: absolute; top: 60px; margin-left: 5vw; margin-right: 5vw; z-index: 2; display: grid; grid-template-columns: 66px 1fr; gap: 10px;">
                     <img src="{{ html['header']['image'] }}" width="66" height="auto">
                     <div>
                         <text style="font-size: 50px;">{{ html["header"]["title"] }}</text><br>
-                        <text style="font-size: 20px;">{{ html["header"]["description"] }}</text>
+                        <text style="font-size: 17px;">{{ html["header"]["description"] }}</text>
                     </div>
                 </div>
             {% endif %}

@@ -60,6 +60,26 @@
         },
 
 
+
+        "tazer001a": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Tazer", "point", "Did you know?"],
+                [4000, "Tazer", "default", "You can drift with the <highlight>Mini Bus</highlight> by holding the <highlight>SPACE</highlight> key!"]
+            ]
+        },
+
+        "tazer001b": {
+            "rarity": 100,
+            "dialogue": [
+                [2000, "Tazer", "point", "Did you know?"],
+                [4000, "Tazer", "default", "You can drift with the <highlight>Mini Bus</highlight> by holding the <highlight>SPACE</highlight> key!"],
+                [2000, "Green", "angry", "just..."],
+                [3000, "Green", "angry", "Try not to drift inside the station like what Tazer did!"]
+            ]
+        },
+
+
         
         "zeon001": {
             "rarity": 100,
@@ -129,10 +149,18 @@
             ]
         },
 
-        "zeon009": {
+        "zeon009a": {
             "rarity": 100,
             "dialogue": [
                 [3000, "Zeon", "point", "My dialogue <highlight>michael</highlight> is related to both the cat and a zombie-horde survival game based off of said cat meme!"]
+            ]
+        },
+
+        "zeon009b": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Zeon", "point", "My dialogue <highlight>michael</highlight> is related to both the cat and a zombie-horde survival game based off of said cat meme!"],
+                [3000, "Zeon", "close", "michael"]
             ]
         },
 
@@ -147,7 +175,7 @@
             "rarity": 100,
             "dialogue": [
                 [3000, "Zeon", "point", "Hey, if you see somebody in a dumpster behind the gas station..."],
-                [3000, "Zeon", "point", "tell them I said they can come over! We still need to talk about those fictional turtle skeletons."],
+                [4000, "Zeon", "point", "Tell them I said they can come over! We still need to talk about those fictional turtle skeletons."],
                 [3000, "Zeon", "point", "They're so rad..."]
             ]
         },
