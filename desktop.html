@@ -246,9 +246,9 @@
     </div>
     {% endif %}
 
-    <div id="speakerPopup" class="container checkBg" style="user-select: none; --color1: #6d6d6d; --color2: #9d9d9d; --color3: white; transition: 1s; position: fixed; bottom: -165px; right: 10px; width: 530px; height: 100px; gap: 10px;" id="tips">
+    <div id="speakerPopup" class="checkBg" style="transition: bottom 1s; user-select: none; --color1: #6d6d6d; --color2: #9d9d9d; --color3: white; --squareSize: 1.6em; position: fixed; bottom: -165px; right: 10px; width: 530px; height: 100px; gap: 10px;" id="tips">
         <div id="" style="display: grid; grid-template-columns: 1fr 100px;">
-            <div style="padding: 5px;">
+            <div style="padding: 10px;">
                 <text id="speakerName" style="font-size: 23px;"></text><br>
                 <text id="speakerText"></text>
             </div>
@@ -257,7 +257,7 @@
         </div>
     </div>
 
-    <script src="/bussim-assets/scripts/imagePreloader.js" async></script>
+    <!-- <script src="/bussim-assets/scripts/imagePreloader.js" async></script> -->
     <script src="/bussim-assets/scripts/dialogueSystem.js" defer></script>
 </body>
 </html>

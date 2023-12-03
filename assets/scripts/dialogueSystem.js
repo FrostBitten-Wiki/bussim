@@ -77,6 +77,8 @@ function randomDialogueEvent(force) {
             const speakData = random(data.dialogueData);
             if (Math.random() * 100 < speakData.rarity) {
                 startSpeaking(speakData, data.characterData);
+            } else {
+                dialogueRunning = false;
             }
         })
     }

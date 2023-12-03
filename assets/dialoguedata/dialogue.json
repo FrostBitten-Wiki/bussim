@@ -24,6 +24,21 @@
         {
             "rarity": 100,
             "dialogue": [
+                [3000, "Placeholder", "", ""],
+                [3000, "Pear", "", ""],
+                [3000, "Green", "", ""],
+                [3000, "Disc", "", ""],
+                [3000, "Tazer", "", ""],
+                [3000, "Zeon", "", ""],
+                [3000, "D6", "", ""],
+                [3000, "MLG", "", ""],
+                [3000, "Fang", "", ""]
+            ]
+        },
+
+        {
+            "rarity": 100,
+            "dialogue": [
                 [3000, "Pear", "pear_emote0", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
                 [3000, "Pear", "pear_emote3", "You can mute the <highlight>Bus Horn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
             ]
@@ -69,6 +84,42 @@
             "dialogueSfx": "meow",
             "dialogueColors": ["#071907", "#0b260b", "green"],
             "dialogueEmoteName": "pear"
+        },
+
+        "Green": {
+            "dialogueSfx": "button",
+            "dialogueColors": ["#071907", "#0b260b", "green"],
+            "dialogueEmoteName": "green"
+        },
+
+        "Disc": {
+            "dialogueSfx": "button",
+            "dialogueColors": ["#0b0d15", "#111420", "#7289da"],
+            "dialogueEmoteName": "disc"
+        },
+
+        "Tazer": {
+            "dialogueSfx": "button",
+            "dialogueColors": ["#190019", "#260026", "#ff00ff"],
+            "dialogueEmoteName": "tazer"
+        },
+
+        "Zeon": {
+            "dialogueSfx": "button",
+            "dialogueColors": ["#0b0412", "#12061b", "#7625b8"],
+            "dialogueEmoteName": "zeon"
+        },
+
+        "D6": {
+            "dialogueSfx": "button",
+            "dialogueColors": ["#15150a", "#21200f", "#ddd666"],
+            "dialogueEmoteName": "d6"
+        },
+
+        "MLG": {
+            "dialogueSfx": "button",
+            "dialogueColors": ["#191000", "#261900", "#ffaa00"],
+            "dialogueEmoteName": "mlg"
         },
 
         "Fang": {
