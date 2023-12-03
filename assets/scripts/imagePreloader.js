@@ -1,20 +1,19 @@
-let imageUrls = [
-    '/bussim-assets/images/banner.jpg',
+let imageList
 
-    '/bussim-assets/images/dialogue/pear/pear_emote0.png',
-    '/bussim-assets/images/dialogue/pear/pear_emote1.png',
-    '/bussim-assets/images/dialogue/pear/pear_emote2.png',
-    '/bussim-assets/images/dialogue/pear/pear_emote3.png',
-    '/bussim-assets/images/dialogue/pear/pear_emote4.png',
-    '/bussim-assets/images/dialogue/pear/pear_emote5.png',
-    '/bussim-assets/images/dialogue/pear/pear_emote6.png',
-];
+fetch("/bussim-assets/dialoguedata/dialogue.json")
+.then(response => response.json())
+.then(data => {
+    imageList = data.characterImagePreload;
+    preloadImages();
+})
 
 function preloadImages() {
-    imageUrls.forEach(function (imageUrl) {
+    console.log("Preloading Images...");
+
+    imageList.forEach(function (imageUrl) {
         let linkElement = document.createElement('link');
         linkElement.rel = 'preload';
-        linkElement.href = imageUrl;
+        linkElement.href = `/bussim-assets/images/dialogue/${imageUrl}.webp`;
         linkElement.as = 'image';
         linkElement.type = 'image/png';
         document.head.appendChild(linkElement);
@@ -22,6 +21,3 @@ function preloadImages() {
 
     console.log("Images Preloaded!");
 }
-
-console.log("Preloading Images...");
-window.addEventListener('load', preloadImages);

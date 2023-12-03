@@ -79,6 +79,12 @@
     },
 
     "characterImagePreload": [
-
+        "/pear/pear_emote0",
+        "/pear/pear_emote1",
+        "/pear/pear_emote2",
+        "/pear/pear_emote3",
+        "/pear/pear_emote4",
+        "/pear/pear_emote5",
+        "/pear/pear_emote6"
     ]
 }
