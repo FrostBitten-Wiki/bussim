@@ -251,14 +251,14 @@
             "dialogueEmoteName": "pear"
         },
         "Red": {
-            "dialogueSfx": "meow",
-            "dialogueColors": ["#071907", "#0b260b", "#4cff4c"],
-            "dialogueEmoteName": "pear"
+            "dialogueSfx": "button",
+            "dialogueColors": ["#0a0302", "#0f0403", "#641c17"],
+            "dialogueEmoteName": "red"
         },
         "Steven": {
-            "dialogueSfx": "meow",
-            "dialogueColors": ["#071907", "#0b260b", "#4cff4c"],
-            "dialogueEmoteName": "pear"
+            "dialogueSfx": "button",
+            "dialogueColors": ["#030307", "#04050c", "#1c244c"],
+            "dialogueEmoteName": "steven"
         },
         "Tazer": {
             "dialogueSfx": "button",
@@ -281,12 +281,6 @@
     },
 
     "characterImagePreload": [
-        "pear/pear_emote0",
-        "pear/pear_emote1",
-        "pear/pear_emote2",
-        "pear/pear_emote3",
-        "pear/pear_emote4",
-        "pear/pear_emote5",
-        "pear/pear_emote6"
+        
     ]
 }
