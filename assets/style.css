@@ -158,7 +158,7 @@ div.sidebar bottomButtons {
 div.container {
     margin-bottom: 5px;
     background-color: #070446;
-    width: calc(100% - 10px);
+    width: calc(100% - 20px);
     padding: 5px;
     transition: 500ms;
 }
