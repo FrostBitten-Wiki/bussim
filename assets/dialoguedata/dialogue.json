@@ -46,8 +46,10 @@
         "pear005": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Pear", "call", ""]
-
+                [2000, "Pear", "call", "<text style=\"color: #6d6d6d\">*ring*</text>"],
+                [1000, "Pear", "call", "<text style=\"color: #6d6d6d\">Hello!</text>"],
+                [1500, "Pear", "call", "<text style=\"color: #6d6d6d\">I've been reaching you about your car's ext-</text>"],
+                [3000, "Pear", "callConcerned", "I don't own a car though..."]
             ]
         },
         
@@ -281,6 +283,6 @@
     },
 
     "characterImagePreload": [
-        
+
     ]
 }
