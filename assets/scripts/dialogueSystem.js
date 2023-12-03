@@ -26,7 +26,7 @@ function startSpeaking(data, characterData) {
             
             delay = data.dialogue[index][0];
             speakerName.innerHTML = data.dialogue[index][1];
-            speakerImage.src = `/bussim-assets/images/dialogue/${charData["dialogueEmoteName"]}/${data.dialogue[index][2]}.png`;
+            speakerImage.src = `/bussim-assets/images/dialogue/${charData["dialogueEmoteName"]}/${data.dialogue[index][2]}.webp`;
             speakerDialogue.innerHTML = data.dialogue[index][3];
 
             speakerPopup.style.setProperty("--color1", charData["dialogueColors"][0])
