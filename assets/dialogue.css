@@ -1,5 +1,5 @@
 .dialogue {
-    background-image: url("/bussim-assets/images/dialogue/npcImages.png");
+    background-image: url("https://raw.githubusercontent.com/FrostBitten-Wiki/bussim/main/assets/images/dialogue/npcImages.png");
     background-repeat: no-repeat;
     zoom: 37.2%;
     display: block;
