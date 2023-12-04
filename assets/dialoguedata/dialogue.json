@@ -52,7 +52,95 @@
                 [3000, "Pear", "callConcerned", "I don't own a car though..."]
             ]
         },
-        
+
+
+
+        "red001": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Red", "", "Did you know that I didn't write the dialogue for my NPC?"],
+                [3000, "Red", "", "I didn't write the dialogue for these either!"]
+            ]
+        },
+
+        "red002": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Red", "", "Also try Kit Battle!"]
+            ]
+        },
+
+        "red003": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Red", "", "I'm everywhere!"],
+                [3000, "Red", "", "You just have to look a bit harder."]
+            ]
+        },
+
+        "red004": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Red", "", "im red :]"]
+            ]
+        },
+
+        "red005": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Red", "", "Did you know?"],
+                [3000, "Red", "", "I made the party popper without Noble knowing!"]
+            ]
+        },
+
+        "red006": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Red", "", "Did you know?"],
+                [3000, "Red", "", "I currently hold the world record speeding on Adventure Island! (subject to change..!)"]
+            ]
+        },
+
+        "red006": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Red", "", "Did you know?"],
+                [3000, "Red", "", "I could beat Noble in a fight!"]
+            ]
+        },
+
+        "red007": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Red", "", "Did you know?"],
+                [3000, "Red", "", "My design is sourced from 2018!"],
+                [3000, "Red", "", "That's pretty old..."]
+            ]
+        },
+
+        "red008": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Red", "", "Did you know?"],
+                [3000, "Red", "", "I sure didn't."]
+            ]
+        },
+
+        "red009": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Red", "", "Made you look."]
+            ]
+        },
+
+        "red007": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Red", "", "Did you know?"],
+                [3000, "Red", "", "You just lost the game!"]
+            ]
+        },
+
 
         
         "fang001": {
