@@ -1,0 +1,504 @@
+.dialogue {
+    background-image: url("/bussim-assets/images/dialogue/npcImages.png");
+    background-repeat: no-repeat;
+    zoom: 37.2%;
+    display: block;
+}
+
+.dialogue-d6_default {
+    width: 400px;
+    height: 391px;
+    background-position: -5px -5px;
+}
+
+.dialogue-disc_angry {
+    width: 444px;
+    height: 391px;
+    background-position: -459px -5px;
+}
+
+.dialogue-disc_close {
+    width: 444px;
+    height: 391px;
+    background-position: -913px -5px;
+}
+
+.dialogue-disc_default {
+    width: 444px;
+    height: 391px;
+    background-position: -1367px -5px;
+}
+
+.dialogue-disc_lean {
+    width: 444px;
+    height: 391px;
+    background-position: -1821px -5px;
+}
+
+.dialogue-disc_point {
+    width: 444px;
+    height: 391px;
+    background-position: -2275px -5px;
+}
+
+.dialogue-disc_shock {
+    width: 444px;
+    height: 391px;
+    background-position: -2729px -5px;
+}
+
+.dialogue-disc_shy {
+    width: 444px;
+    height: 391px;
+    background-position: -3183px -5px;
+}
+
+.dialogue-disc_sweat {
+    width: 444px;
+    height: 391px;
+    background-position: -5px -406px;
+}
+
+.dialogue-disc_think {
+    width: 444px;
+    height: 391px;
+    background-position: -459px -406px;
+}
+
+.dialogue-disc_wrist {
+    width: 444px;
+    height: 391px;
+    background-position: -913px -406px;
+}
+
+.dialogue-ectta_default {
+    width: 444px;
+    height: 391px;
+    background-position: -1367px -406px;
+}
+
+.dialogue-ectta_point {
+    width: 444px;
+    height: 391px;
+    background-position: -1821px -406px;
+}
+
+.dialogue-ectta_think {
+    width: 444px;
+    height: 391px;
+    background-position: -2275px -406px;
+}
+
+.dialogue-efeuc_angry {
+    width: 444px;
+    height: 391px;
+    background-position: -2729px -406px;
+}
+
+.dialogue-efeuc_default {
+    width: 444px;
+    height: 391px;
+    background-position: -3183px -406px;
+}
+
+.dialogue-efeuc_duck {
+    width: 444px;
+    height: 391px;
+    background-position: -5px -807px;
+}
+
+.dialogue-efeuc_lean {
+    width: 444px;
+    height: 391px;
+    background-position: -459px -807px;
+}
+
+.dialogue-efeuc_point {
+    width: 444px;
+    height: 391px;
+    background-position: -913px -807px;
+}
+
+.dialogue-efeuc_sweat {
+    width: 444px;
+    height: 391px;
+    background-position: -1367px -807px;
+}
+
+.dialogue-efeuc_think {
+    width: 444px;
+    height: 391px;
+    background-position: -1821px -807px;
+}
+
+.dialogue-efeuc_wrist {
+    width: 444px;
+    height: 391px;
+    background-position: -2275px -807px;
+}
+
+.dialogue-frost_angry {
+    width: 444px;
+    height: 391px;
+    background-position: -2729px -807px;
+}
+
+.dialogue-frost_default {
+    width: 444px;
+    height: 391px;
+    background-position: -3183px -807px;
+}
+
+.dialogue-frost_duck {
+    width: 444px;
+    height: 391px;
+    background-position: -5px -1208px;
+}
+
+.dialogue-frost_pointLeft {
+    width: 444px;
+    height: 391px;
+    background-position: -459px -1208px;
+}
+
+.dialogue-frost_pointRight {
+    width: 444px;
+    height: 391px;
+    background-position: -913px -1208px;
+}
+
+.dialogue-frost_shock {
+    width: 444px;
+    height: 391px;
+    background-position: -1367px -1208px;
+}
+
+.dialogue-frost_shy {
+    width: 444px;
+    height: 391px;
+    background-position: -1821px -1208px;
+}
+
+.dialogue-frost_sweat {
+    width: 444px;
+    height: 391px;
+    background-position: -2275px -1208px;
+}
+
+.dialogue-frost_think {
+    width: 444px;
+    height: 391px;
+    background-position: -2729px -1208px;
+}
+
+.dialogue-green_angry {
+    width: 444px;
+    height: 391px;
+    background-position: -3183px -1208px;
+}
+
+.dialogue-green_close {
+    width: 444px;
+    height: 391px;
+    background-position: -5px -1609px;
+}
+
+.dialogue-green_default {
+    width: 444px;
+    height: 391px;
+    background-position: -459px -1609px;
+}
+
+.dialogue-green_lean {
+    width: 444px;
+    height: 391px;
+    background-position: -913px -1609px;
+}
+
+.dialogue-green_pointLeft {
+    width: 444px;
+    height: 391px;
+    background-position: -1367px -1609px;
+}
+
+.dialogue-green_pointRight {
+    width: 444px;
+    height: 391px;
+    background-position: -1821px -1609px;
+}
+
+.dialogue-green_sweat {
+    width: 444px;
+    height: 391px;
+    background-position: -2275px -1609px;
+}
+
+.dialogue-green_think {
+    width: 444px;
+    height: 391px;
+    background-position: -2729px -1609px;
+}
+
+.dialogue-green_wrist {
+    width: 444px;
+    height: 391px;
+    background-position: -3183px -1609px;
+}
+
+.dialogue-mirocev_angry {
+    width: 444px;
+    height: 391px;
+    background-position: -5px -2010px;
+}
+
+.dialogue-mirocev_default {
+    width: 444px;
+    height: 391px;
+    background-position: -459px -2010px;
+}
+
+.dialogue-mirocev_lean {
+    width: 444px;
+    height: 391px;
+    background-position: -913px -2010px;
+}
+
+.dialogue-mirocev_think {
+    width: 444px;
+    height: 391px;
+    background-position: -1367px -2010px;
+}
+
+.dialogue-mlg_brace {
+    width: 444px;
+    height: 391px;
+    background-position: -1821px -2010px;
+}
+
+.dialogue-mlg_default {
+    width: 444px;
+    height: 391px;
+    background-position: -2275px -2010px;
+}
+
+.dialogue-mlg_point {
+    width: 444px;
+    height: 391px;
+    background-position: -2729px -2010px;
+}
+
+.dialogue-mlg_sweat {
+    width: 444px;
+    height: 391px;
+    background-position: -3183px -2010px;
+}
+
+.dialogue-mlg_think {
+    width: 444px;
+    height: 391px;
+    background-position: -5px -2411px;
+}
+
+.dialogue-pear_angry {
+    width: 444px;
+    height: 391px;
+    background-position: -459px -2411px;
+}
+
+.dialogue-pear_call {
+    width: 444px;
+    height: 391px;
+    background-position: -913px -2411px;
+}
+
+.dialogue-pear_callConcerned {
+    width: 444px;
+    height: 391px;
+    background-position: -1367px -2411px;
+}
+
+.dialogue-pear_callSerious {
+    width: 444px;
+    height: 391px;
+    background-position: -1821px -2411px;
+}
+
+.dialogue-pear_default {
+    width: 444px;
+    height: 391px;
+    background-position: -2275px -2411px;
+}
+
+.dialogue-pear_duck {
+    width: 444px;
+    height: 391px;
+    background-position: -2729px -2411px;
+}
+
+.dialogue-pear_lean {
+    width: 444px;
+    height: 391px;
+    background-position: -3183px -2411px;
+}
+
+.dialogue-pear_pointLeft {
+    width: 444px;
+    height: 391px;
+    background-position: -5px -2812px;
+}
+
+.dialogue-pear_pointRight {
+    width: 444px;
+    height: 391px;
+    background-position: -459px -2812px;
+}
+
+.dialogue-pear_shock {
+    width: 444px;
+    height: 391px;
+    background-position: -913px -2812px;
+}
+
+.dialogue-pear_shrug {
+    width: 444px;
+    height: 391px;
+    background-position: -1367px -2812px;
+}
+
+.dialogue-pear_shy {
+    width: 444px;
+    height: 391px;
+    background-position: -1821px -2812px;
+}
+
+.dialogue-pear_sweat {
+    width: 444px;
+    height: 391px;
+    background-position: -2275px -2812px;
+}
+
+.dialogue-pear_think {
+    width: 444px;
+    height: 391px;
+    background-position: -2729px -2812px;
+}
+
+.dialogue-pear_wrist {
+    width: 444px;
+    height: 391px;
+    background-position: -3183px -2812px;
+}
+
+.dialogue-red_angry {
+    width: 444px;
+    height: 391px;
+    background-position: -5px -3213px;
+}
+
+.dialogue-red_close {
+    width: 444px;
+    height: 391px;
+    background-position: -459px -3213px;
+}
+
+.dialogue-red_default {
+    width: 444px;
+    height: 391px;
+    background-position: -913px -3213px;
+}
+
+.dialogue-red_wrist {
+    width: 444px;
+    height: 391px;
+    background-position: -1367px -3213px;
+}
+
+.dialogue-steven_default {
+    width: 444px;
+    height: 391px;
+    background-position: -1821px -3213px;
+}
+
+.dialogue-steven_point {
+    width: 444px;
+    height: 391px;
+    background-position: -2275px -3213px;
+}
+
+.dialogue-steven_sweat {
+    width: 444px;
+    height: 391px;
+    background-position: -2729px -3213px;
+}
+
+.dialogue-tazer_angry {
+    width: 444px;
+    height: 391px;
+    background-position: -3183px -3213px;
+}
+
+.dialogue-tazer_default {
+    width: 444px;
+    height: 391px;
+    background-position: -3637px -5px;
+}
+
+.dialogue-tazer_duck {
+    width: 444px;
+    height: 391px;
+    background-position: -3637px -406px;
+}
+
+.dialogue-tazer_point {
+    width: 444px;
+    height: 391px;
+    background-position: -3637px -807px;
+}
+
+.dialogue-tazer_sweat {
+    width: 444px;
+    height: 391px;
+    background-position: -3637px -1208px;
+}
+
+.dialogue-tazer_think {
+    width: 444px;
+    height: 391px;
+    background-position: -3637px -1609px;
+}
+
+.dialogue-tazer_wrist {
+    width: 444px;
+    height: 391px;
+    background-position: -3637px -2010px;
+}
+
+.dialogue-zeon_angry {
+    width: 444px;
+    height: 391px;
+    background-position: -3637px -2411px;
+}
+
+.dialogue-zeon_close {
+    width: 444px;
+    height: 391px;
+    background-position: -3637px -2812px;
+}
+
+.dialogue-zeon_default {
+    width: 444px;
+    height: 391px;
+    background-position: -3637px -3213px;
+}
+
+.dialogue-zeon_point {
+    width: 444px;
+    height: 391px;
+    background-position: -5px -3614px;
+}
+
+.dialogue-zeon_shock {
+    width: 444px;
+    height: 391px;
+    background-position: -459px -3614px;
+}

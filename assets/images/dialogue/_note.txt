@@ -1,3 +1,2 @@
-If you want to add another avatar to be used on the Dialogue System, you must name the files <character>_<emote>
-All iamge files must be WEBP for better compression.
-
+This folder contains the spritesheet of all NPC and Contributor Images. Please notify me ( Nyx (@nyxical) ) on discord if you want to import new images.
+Send me a full list of image of all character images with the format: [characterName]_[poseName].png so i can compile it to a spritesheet.

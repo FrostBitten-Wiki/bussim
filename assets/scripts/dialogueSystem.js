@@ -4,7 +4,9 @@ let speakerId = document.getElementById("speakerId");
 let speakerName = document.getElementById("speakerName");
 let speakerDialogue = document.getElementById("speakerText");
 let soundSource = document.getElementById("soundSource");
+
 let dialogueRunning = false;
+let previousImage;
 
 function playSound(soundfile) {
     if (soundSource.src !== `${window.location.protocol + "//" + window.location.host}/bussim-assets/sounds/${soundfile}.mp3`) {
@@ -27,7 +29,10 @@ function startSpeaking(data, characterData) {
             
             delay = data.dialogue[index][0];
             speakerName.innerHTML = data.dialogue[index][1];
-            speakerImage.src = `/bussim-assets/images/dialogue/${charData["dialogueEmoteName"]}_${data.dialogue[index][2]}.webp`;
+            speakerImage.classList.remove(previousImage)
+            previousImage = `dialogue-${charData["dialogueEmoteName"]}_${data.dialogue[index][2]}`
+            speakerImage.classList.add(previousImage)
+            //speakerImage.src = `/bussim-assets/images/dialogue/${charData["dialogueEmoteName"]}_${data.dialogue[index][2]}.webp`;
             speakerDialogue.innerHTML = data.dialogue[index][3];
 
             speakerPopup.style.setProperty("--color1", charData["dialogueColors"][0])
