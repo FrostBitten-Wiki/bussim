@@ -175,66 +175,64 @@
                     {% endif %}
                 {% endmacro %}
     
-                <div>
-                    {% for data in html['pageContent'] %}
-                        {% if data['type'] == "text" %}
-                            <text>{{ data['content']['text'] }}</text>
-                        {% elif data['type'] == "section" %}
-                            <div style="margin-top: 20px; margin-bottom: 20px;">
-                                <text style="font-size: 25px;">{{ data['content']['sectionTitle'] }}</text><br>
-                                <text>{{ data['content']['sectionDescription'] }}</text>
-                            </div>
-                        {% elif data['type'] == "list" %}
-                            <div style="margin-top: 20; margin-bottom: 20px;">
-                                {% for item in data['content']['items'] %}
-                                    {% if item['listItemRedirect'] == "" %}
-                                        {% if item['listItemImage'] == "" %}
-                                            <div class="container" style="padding: 10px;">
+                {% for data in html['pageContent'] %}
+                    {% if data['type'] == "text" %}
+                        <text>{{ data['content']['text'] }}</text>
+                    {% elif data['type'] == "section" %}
+                        <div style="margin-top: 20px; margin-bottom: 20px;">
+                            <text style="font-size: 25px;">{{ data['content']['sectionTitle'] }}</text><br>
+                            <text>{{ data['content']['sectionDescription'] }}</text>
+                        </div>
+                    {% elif data['type'] == "list" %}
+                        <div style="margin-top: 20; margin-bottom: 20px;">
+                            {% for item in data['content']['items'] %}
+                                {% if item['listItemRedirect'] == "" %}
+                                    {% if item['listItemImage'] == "" %}
+                                        <div class="container" style="padding: 10px;">
+                                            <text style="font-size: 25px;">{{ item['listItemTitle'] }}</text><br>
+                                            <text>{{ item['listItemDescription'] }}</text>
+                                        </div>
+                                    {% elif item['listItemImage'] != ""%}
+                                        <div class="container" style="padding: 10px; display: grid; grid-template-columns: 128px 1fr; gap: 10px;">
+                                            <img src="{{ item['listItemImage'] }}" height="128" width="128" style="object-fit: cover;" loading="lazy">
+    
+                                            <div>
                                                 <text style="font-size: 25px;">{{ item['listItemTitle'] }}</text><br>
                                                 <text>{{ item['listItemDescription'] }}</text>
                                             </div>
-                                        {% elif item['listItemImage'] != ""%}
-                                            <div class="container" style="padding: 10px; display: grid; grid-template-columns: 128px 1fr; gap: 10px;">
-                                                <img src="{{ item['listItemImage'] }}" height="128" width="128" style="object-fit: cover;" loading="lazy">
-    
-                                                <div>
-                                                    <text style="font-size: 25px;">{{ item['listItemTitle'] }}</text><br>
-                                                    <text>{{ item['listItemDescription'] }}</text>
-                                                </div>
-                                            </div>
-                                        {% endif %}
-                                    {% elif item['listItemRedirect'] != "" %}
-                                        {% if item['listItemImage'] == "" %}
-                                            <div class="container" style="padding: 10px; cursor: pointer;" onclick="location.href=`{{ item['listItemRedirect'] }}`">
-                                                <text style="font-size: 25px;">{{ item['listItemTitle'] }}</text><br>
-                                                <text>{{ item['listItemDescription'] }}</text>
-                                            </div>
-                                        {% elif item['listItemImage'] != ""%}
-                                            <div class="container" style="padding: 10px; cursor: pointer; display: grid; grid-template-columns: 128px 1fr; gap: 10px;" onclick="location.href=`{{ item['listItemRedirect'] }}`">
-                                                <img src="{{ item['listItemImage'] }}" height="128" width="128" style="object-fit: cover;" loading="lazy">
-    
-                                                <div>
-                                                    <text style="font-size: 25px;">{{ item['listItemTitle'] }}</text><br>
-                                                    <text>{{ item['listItemDescription'] }}</text>
-                                                </div>
-                                            </div>
-                                        {% endif %}
+                                        </div>
                                     {% endif %}
-                                {% endfor %}
-                            </div>
-                        {% elif data['type'] == "infobox" %}
-                            <div class="container" style="padding: 10px;">
-                                <text style="color: {{ data["content"]["infoBoxTitle"][1] }}; font-size: 25px;">{{ data["content"]["infoBoxTitle"][0] }}</text><br>
-                                <text>{{ data["content"]["infoBoxDescription"]}}</text>
-                            </div>
-                        {% elif data['type'] == "tree" %}
-                            <div style="margin-top: 20px; margin-bottom: 20px;">
-                                {{ render_tree(data['content']) }}
-                            </div>
-                        {% endif %}
-                    {% endfor %}
-                </div>
+                                {% elif item['listItemRedirect'] != "" %}
+                                    {% if item['listItemImage'] == "" %}
+                                        <div class="container" style="padding: 10px; cursor: pointer;" onclick="location.href=`{{ item['listItemRedirect'] }}`">
+                                            <text style="font-size: 25px;">{{ item['listItemTitle'] }}</text><br>
+                                            <text>{{ item['listItemDescription'] }}</text>
+                                        </div>
+                                    {% elif item['listItemImage'] != ""%}
+                                        <div class="container" style="padding: 10px; cursor: pointer; display: grid; grid-template-columns: 128px 1fr; gap: 10px;" onclick="location.href=`{{ item['listItemRedirect'] }}`">
+                                            <img src="{{ item['listItemImage'] }}" height="128" width="128" style="object-fit: cover;" loading="lazy">
     
+                                            <div>
+                                                <text style="font-size: 25px;">{{ item['listItemTitle'] }}</text><br>
+                                                <text>{{ item['listItemDescription'] }}</text>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    {% elif data['type'] == "infobox" %}
+                        <div class="container" style="padding: 10px;">
+                            <text style="color: {{ data["content"]["infoBoxTitle"][1] }}; font-size: 25px;">{{ data["content"]["infoBoxTitle"][0] }}</text><br>
+                            <text>{{ data["content"]["infoBoxDescription"]}}</text>
+                        </div>
+                    {% elif data['type'] == "tree" %}
+                        <div style="margin-top: 20px; margin-bottom: 20px;">
+                            {{ render_tree(data['content']) }}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+                
                 {% if attributions != [] %}
                 <div style="margin-top: 10px; margin-bottom: 20px;">
                     {% for attr in attributions %}
@@ -243,6 +241,7 @@
                 </div>
                 {% endif %}
                 
+                <br>
             </div>
         </div>
 
