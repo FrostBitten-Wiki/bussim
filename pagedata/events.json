@@ -1,7 +1,7 @@
 {
     "page": {
         "title": "Events",
-        "description": "Events are a main staple in Bus Simulator, happening every 5 minutes after the last, or 4 if the server just started, and can be seen by the blaring red lights accompanied by a siren noise for 15 seconds.<br></br>There are a bunch of events in the game. Ranging from smaller events, like looking at a mountain, all the way to time travel. The pages go more in-depth about what goes on in the event, what items could be obtained, etc.<br></br>While most of the events shown in this category are displayed officially from within the game, some are perhaps too subtle or completely invisible for it to be properly photographed, so now some of the events will have <text style=\"color: #eb4034;\">community-made icons</text> to help represent it properly!<br></br>Note: If you are to force these events in a VIP server via the !event command, the event names are Case Sensitive. (i.e. Bloxdonalds won't be forced if you spell it with all UPPERCASE or lowercase.)",
+        "description": "Events are a main staple in Bus Simulator, happening every 5 minutes after the last, or 4 if the server just started, and can be seen by the blaring red lights accompanied by a siren noise for 15 seconds.<br></br>There are a bunch of events in the game. Ranging from smaller events, like looking at a mountain, all the way to time travel. The pages go more in-depth about what goes on in the event, what items could be obtained, etc.<br></br>While most of the events shown in this category are displayed officially from within the game, some are perhaps too subtle or completely invisible for it to be properly photographed, so now some of the events will have <highlight>community-made icons</highlight> to help represent it properly!<br></br>Note: If you are to force these events in a VIP server via the !event command, the event names are Case Sensitive. (i.e. Bloxdonalds won't be forced if you spell it with all UPPERCASE or lowercase.)",
         "keywords": "Roblox Bus Simualator, Main Category, Events"
     },
 
@@ -46,7 +46,7 @@
                         {
                             "listItemImage": "/bussim-assets/images/events/backrooms2.webp",
                             "listItemTitle": "Backwalls",
-                            "listItemDescription": "The Backwalls is a rare event where a person mentions about the bus having a few hiccups or something isn't feeling right. Afterwards all players (assuming they are not in Frost's Den) are teleported into the Backwalls, an area with random furniture and... unknown entities that lurk.<br></br><text style=\"color: #eb4034;\">This event will also generate a new layout each time, assuming no players are in it</text>.",
+                            "listItemDescription": "The Backwalls is a rare event where a person mentions about the bus having a few hiccups or something isn't feeling right. Afterwards all players (assuming they are not in Frost's Den) are teleported into the Backwalls, an area with random furniture and... unknown entities that lurk.<br></br><highlight>This event will also generate a new layout each time, assuming no players are in it</highlight>.",
                             "listItemRedirect": "/bussim/events/backwalls"
                         },
 
@@ -60,35 +60,35 @@
                         {
                             "listItemImage": "/bussim-assets/images/events/billy1.webp",
                             "listItemTitle": "Billy",
-                            "listItemDescription": "As soon as the event starts, The Bus will encounter three Billies in the distance, similar to <text style=\"color: #eb4034;\">Ectta in Question Time</text> as well as <text style=\"color: #eb4034;\">Teddy in it's titular event</text>. It will then introduce and ask the player if they would like to be a Billy. If you decline or agree they will say that they will take over Roblox as more Billies start spawning around The Bus, as well as a machine landing behind the three original Billies, with a low-quality explosion png.",
+                            "listItemDescription": "As soon as the event starts, The Bus will encounter three Billies in the distance, similar to <highlight>Ectta in Question Time</highlight> as well as <highlight>Teddy in it's titular event</highlight>. It will then introduce and ask the player if they would like to be a Billy. If you decline or agree they will say that they will take over Roblox as more Billies start spawning around The Bus, as well as a machine landing behind the three original Billies, with a low-quality explosion png.",
                             "listItemRedirect": "/bussim/events/billy"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/birthday.webp",
                             "listItemTitle": "Birthday",
-                            "listItemDescription": "Bus Birthday is an event where a random player is chosen to be celebrated for their birthday. The player will get a <text style=\"color: #eb4034;\">Birthday Ice Cream</text> instantly, and everyone will get <text style=\"color: #eb4034;\">Free-modelled Cake</text> shortly.",
+                            "listItemDescription": "Bus Birthday is an event where a random player is chosen to be celebrated for their birthday. The player will get a <highlight>Birthday Ice Cream</highlight> instantly, and everyone will get <highlight>Free-modelled Cake</highlight> shortly.",
                             "listItemRedirect": "/bussim/events/birthday"
                         },
                         
                         {
                             "listItemImage": "/bussim-assets/images/events/blizzard2.webp",
                             "listItemTitle": "Blizzard",
-                            "listItemDescription": "During the event, players would notice a blizzard forming as the biome forcibly changes to <text style=\"color: #eb4034;\">Snowy</text> then <text style=\"color: #eb4034;\">Frozen</text>, and would have to start huddling in order to prevent taking damage.<br></br>The damage can vary based on where you are, with the most exposure dealing the most damage such as <text style=\"color: #eb4034;\">Beter Box</text> or the third floor on <text style=\"color: #eb4034;\">The Bus</text>, to the least exposure dealing minimal damage like the first floor. This then decreases afterwards at some point in the event.",
+                            "listItemDescription": "During the event, players would notice a blizzard forming as the biome forcibly changes to <highlight>Snowy</highlight> then <highlight>Frozen</highlight>, and would have to start huddling in order to prevent taking damage.<br></br>The damage can vary based on where you are, with the most exposure dealing the most damage such as <highlight>Beter Box</highlight> or the third floor on <highlight>The Bus</highlight>, to the least exposure dealing minimal damage like the first floor. This then decreases afterwards at some point in the event.",
                             "listItemRedirect": "/bussim/events/blizzard"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/bloxdonalds2.webp",
                             "listItemTitle": "Bloxdonalds",
-                            "listItemDescription": "When this event happens, The Bus will stop and a random player will mention seeing a Bloxdonalds in the distance. Players are then able to go inside the building and receive a <text style=\"color: #eb4034;\">Burger</text>. After some time has passed, the driver will mention an oddity within the burgers and afterwards leave, ending the event.",
+                            "listItemDescription": "When this event happens, The Bus will stop and a random player will mention seeing a Bloxdonalds in the distance. Players are then able to go inside the building and receive a <highlight>Burger</highlight>. After some time has passed, the driver will mention an oddity within the burgers and afterwards leave, ending the event.",
                             "listItemRedirect": "/bussim/events/bloxdonalds"
                         },
 
                         {
                             "listItemImage": "/bussim-assets/images/events/broken_down.webp",
                             "listItemTitle": "Broken Down",
-                            "listItemDescription": "Broken Down is a simple event in Bus Simulator where <text style=\"color: #eb4034;\">The Bus</text> breaks down in the middle of the road, giving players the ability to push the bus back to its normal speed by using a push part at the back of the bus.",
+                            "listItemDescription": "Broken Down is a simple event in Bus Simulator where <highlight>The Bus</highlight> breaks down in the middle of the road, giving players the ability to push the bus back to its normal speed by using a push part at the back of the bus.",
                             "listItemRedirect": "/bussim/events/broken-down"
                         },
 
