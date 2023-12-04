@@ -44,7 +44,7 @@
         },
 
         "pear005": {
-            "rarity": 100,
+            "rarity": 25,
             "dialogue": [
                 [2000, "Pear", "call", "<text style=\"color: #6d6d6d\">*ring*</text>"],
                 [1000, "Pear", "call", "<text style=\"color: #6d6d6d\">Hello!</text>"],
@@ -133,7 +133,8 @@
         "zeon005": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Zeon", "point", "Pro Tip: I heard a cat sells some knitted sweaters! You should talk to him some time!"]
+                [3000, "Zeon", "point", "I heard a cat sells some knitted sweaters!"],
+                [3000, "Zeon", "point", "You should talk to him some time!"]
             ]
         },
 
