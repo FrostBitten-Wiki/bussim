@@ -90,4 +90,4 @@ function randomDialogueEvent(force, id) {
     }
 }
 
-setInterval(randomDialogueEvent, 5000);
+setInterval(randomDialogueEvent, 2500);

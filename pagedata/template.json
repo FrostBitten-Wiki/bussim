@@ -95,9 +95,11 @@
             },
 
             {
-                "type": "chatInteraction",
+                "type": "npcChat",
                 "content": {
-                    "interactionDataset": {}
+                    "converstationTree": {
+                        
+                    }
                 }
             }
         ]
