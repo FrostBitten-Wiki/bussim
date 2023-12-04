@@ -257,7 +257,7 @@
                             "listItemImage": "",
                             "listItemTitle": "Mini-Bus",
                             "listItemDescription": "The Mini-Bus is a miniature vehicle which resembles the bus used in the game. It can only fit 1 player, but drives faster than the bus.<br></br>The Mini-Bus costs R$125 to obtain.",
-                            "listItemRedirect": "/bussim/items/flying-skillbook"
+                            "listItemRedirect": "/bussim/items/mini-bus"
                         },
 
                         {
