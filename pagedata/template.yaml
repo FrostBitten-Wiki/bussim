@@ -16,7 +16,8 @@ html:
   pageContent:
     - type: text
       content:
-        text: "some text here"
+        text: >-
+          Some text here
 
     - type: section
       content:
@@ -38,8 +39,11 @@ html:
 
     - type: infobox
       content:
-        infoBoxTitle: ["Info Box", "#b00b69"]
-        infoBoxDescription: InfoBoxDescription
+        infoBoxTitle: 
+          - "Info Box"
+          - "#b00b69"
+        infoBoxDescription: >-
+          Some Description here
 
     - type: quote
       content:

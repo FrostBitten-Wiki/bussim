@@ -11,16 +11,12 @@
 
         <link rel="icon" href="/bussim-assets/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="/bussim-assets/style.css">
-        <link rel="stylesheet" href="/bussim-assets/dialogue.css">
     {% endif %}
-
-    <link rel="preload" as="image" href="/bussim-assets/images/banner.jpg">
-
-    <audio id="soundSource" controls autoplay style="display: none;" preload="auto">
-        <source type="audio/mp3" src="/bussim-assets/sounds/button.mp3">
-        <source type="audio/mp3" src="/bussim-assets/sounds/elecping.mp3">
-        <source type="audio/mp3" src="/bussim-assets/sounds/meow.mp3">
-        <source type="audio/mp3" src="/bussim-assets/sounds/ouch.mp3">
+        
+    <link rel="stylesheet" href="/bussim-assets/dialogue.css">
+        
+    <audio id="soundSource" controls autoplay style="display: none;">
+        <source type="audio/mp3">
     </audio>
 </head>
 <body>
@@ -230,14 +226,13 @@
                             <text style="color: {{ data["content"]["infoBoxTitle"][1] }}; font-size: 25px;">{{ data["content"]["infoBoxTitle"][0] }}</text><br>
                             <text>{{ data["content"]["infoBoxDescription"]}}</text>
                         </div>
-                    {% elif data['type'] == "quote" %}
-                        <div style="margin-top: 20px; margin-bottom: 20px;">
-                            <text>" <text style="font-size: 20px;">{{ data["content"]["quote"] }}</text> "</text><br>
-                            <text>- {{ data["content"]["author"] }}</text>
-                        </div>
                     {% elif data['type'] == "tree" %}
                         <div style="margin-top: 20px; margin-bottom: 20px;">
                             {{ render_tree(data['content']) }}
+                        </div>
+                    {% elif data['type'] == "gallery" %}
+                        <div style="margin-top: 20px; margin-bottom: 20px;">
+                           
                         </div>
                     {% endif %}
                 {% endfor %}
@@ -257,19 +252,18 @@
     </div>
     {% endif %}
 
-    <div id="speakerPopup" class="checkBg" style="transition: opacity 500ms; opacity: 0; user-select: none; --color1: #6d6d6d; --color2: #9d9d9d; --color3: white; position: fixed; bottom: 10px; right: 10px; width: 550px; height: 110px; gap: 10px; z-index: 999;">
+    <div id="speakerPopup" class="checkBg" style="transition: bottom 1s; user-select: none; --color1: #6d6d6d; --color2: #9d9d9d; --color3: white; position: fixed; bottom: -165px; right: 10px; width: 550px; height: 110px; gap: 10px; z-index: 999;">
         <text id="speakerId" style="position: absolute; top: -15px; left: 0; font-size: 10px; opacity: 0.3;"></text>
         <div id="" style="display: grid; grid-template-columns: 1fr 150px;">
             <div style="padding: 10px;">
-                <text id="speakerName" style="font-size: 20px;"></text><br>
+                <text id="speakerName" style="font-size: 23px;"></text><br>
                 <text id="speakerText"></text>
             </div>
 
-            <div id="speakerImage" class="dialogue dialogue-d6_default" style="position: absolute; bottom: 0; right: 0;"></div>
+            <div id="speakerImage" class="dialogue dialogue-d6_default" style="zoom: 37.1%; position: absolute; bottom: 0; right: 0;"></div>
         </div>
     </div>
 
-    <!-- <script src="/bussim-assets/scripts/imagePreloader.js" async></script> -->
     <script src="/bussim-assets/scripts/dialogueSystem.js" defer></script>
 </body>
 </html>

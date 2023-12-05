@@ -27,7 +27,7 @@ function playSound(soundfile) {
 function startSpeaking(data, characterData) {
     let index = 0;
 
-    speakerPopup.style.opacity = 1;
+    speakerPopup.style.bottom = "10px";
     function showNextDialogue() {
         if (index < data.dialogue.length) {
             const charData = characterData[data.dialogue[index][1]];
@@ -50,7 +50,7 @@ function startSpeaking(data, characterData) {
         } else {
             setTimeout(() => {
                 delay = data.dialogue[index - 1][0];
-                speakerPopup.style.opacity = 0;
+                speakerPopup.style.bottom = "-165px";
                 dialogueRunning = false;
             }, delay);
         }
