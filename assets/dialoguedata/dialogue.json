@@ -58,86 +58,86 @@
         "red001": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Red", "", "Did you know that I didn't write the dialogue for my NPC?"],
-                [3000, "Red", "", "I didn't write the dialogue for these either!"]
+                [3000, "Red", "default", "Did you know that I didn't write the dialogue for my NPC?"],
+                [3000, "Red", "shrug", "I didn't write the dialogue for these either!"]
             ]
         },
 
         "red002": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Red", "", "Also try Kit Battle!"]
+                [3000, "Red", "objection", "Also try Kit Battle!"]
             ]
         },
 
         "red003": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Red", "", "I'm everywhere!"],
-                [3000, "Red", "", "You just have to look a bit harder."]
+                [3000, "Red", "default", "I'm everywhere!"],
+                [3000, "Red", "think", "You just have to look a bit harder."]
             ]
         },
 
         "red004": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Red", "", "im red :]"]
+                [3000, "Red", "default", "im red :]"]
             ]
         },
 
         "red005": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Red", "", "Did you know?"],
-                [3000, "Red", "", "I made the party popper without Noble knowing!"]
+                [3000, "Red", "default", "Did you know?"],
+                [3000, "Red", "default", "I made the party popper without Noble knowing!"]
             ]
         },
 
         "red006": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Red", "", "Did you know?"],
-                [3000, "Red", "", "I currently hold the world record speeding on Adventure Island! (subject to change..!)"]
-            ]
-        },
-
-        "red006": {
-            "rarity": 100,
-            "dialogue": [
-                [3000, "Red", "", "Did you know?"],
-                [3000, "Red", "", "I could beat Noble in a fight!"]
+                [3000, "Red", "default", "Did you know?"],
+                [3000, "Red", "default", "I currently hold the world record speeding on Adventure Island! (subject to change..!)"]
             ]
         },
 
         "red007": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Red", "", "Did you know?"],
-                [3000, "Red", "", "My design is sourced from 2018!"],
-                [3000, "Red", "", "That's pretty old..."]
+                [3000, "Red", "default", "Did you know?"],
+                [3000, "Red", "default", "I could beat Noble in a fight!"]
             ]
         },
 
         "red008": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Red", "", "Did you know?"],
-                [3000, "Red", "", "I sure didn't."]
+                [3000, "Red", "default", "Did you know?"],
+                [3000, "Red", "shrug", "My design is sourced from 2018!"],
+                [3000, "Red", "guilty", "That's pretty old..."]
             ]
         },
 
         "red009": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Red", "", "Made you look."]
+                [3000, "Red", "default", "Did you know?"],
+                [3000, "Red", "think", "I sure didn't."]
             ]
         },
 
-        "red007": {
+        "red010": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Red", "", "Did you know?"],
-                [3000, "Red", "", "You just lost the game!"]
+                [3000, "Red", "default", "Made you look."]
+            ]
+        },
+
+        "red011": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Red", "default", "Did you know?"],
+                [3000, "Red", "think", "You just lost the game!"]
             ]
         },
 
@@ -192,7 +192,7 @@
         "zeon002": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Zeon", "close", "Be sure to like, comment and-"],
+                [2000, "Zeon", "close", "Be sure to like, comment and-"],
                 [1000, "Zeon", "default", "Wait..."],
                 [2000, "Zeon", "default", "wrong place.."],
                 [3000, "Zeon", "point", "Just enjoy expanding your knowledge!"]
