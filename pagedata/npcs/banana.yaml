@@ -2,7 +2,9 @@ page:
   title: Banana
   description: PageDescription
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes
+
 attributions: []
+
 html:
   header:
     title: Banana
@@ -12,6 +14,7 @@ html:
       the event.
     image: /bussim-assets/images/npcs/banana.webp
     imageBanner: /bussim-assets/images/events/backrooms1.webp
+  
   pageContent:
     - type: quote
       content:
@@ -20,14 +23,17 @@ html:
           didn't look like the ones I'm used to. I didn't get any closer to it,
           and I never saw it again. Guess we'll never know.
         author: Pear
+  
     - type: section
       content:
         sectionTitle: NPC Information
         sectionDescription: 'Species: Nextbot'
+  
     - type: section
       content:
         sectionTitle: AI
         sectionDescription: ''
+   
     - type: tree
       content:
         - name: It will chase a player and fling them.
@@ -36,10 +42,12 @@ html:
                 However, it occasionally doesn't move and stops at certain
                 points.
               children: []
+    
     - type: section
       content:
         sectionTitle: Trivia
         sectionDescription: ''
+    
     - type: tree
       content:
         - name: The image it originates from is a Fruit Gushers commercial.<br><br>
