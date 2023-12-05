@@ -1,0 +1,83 @@
+{
+    "page": {
+        "title": "Banana",
+        "description": "PageDescription",
+        "keywords": "wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes"
+    },
+
+    "attributions": [
+    ],
+
+    "html": {
+        "header": {
+            "title": "Banana",
+            "description": "Banana is an NPC that can be found in the <a href=\"/bussim/events/backwalls\">Backwalls</a>. They can be rarely found in the event.",
+            "image": "/bussim-assets/images/npcs/banana.webp",
+            "imageBanner": "/bussim-assets/images/events/backrooms1.webp"
+        },
+
+        "pageContent": [
+            {
+                "type": "quote",
+                "content": {
+                    "quote": "Once, I saw kinda-image looking thing at the end of the hallway. It didn't look like the ones I'm used to. I didn't get any closer to it, and I never saw it again. Guess we'll never know.",
+                    "author": "Pear"
+                }
+            },
+
+            {
+                "type": "section",
+                "content": {
+                    "sectionTitle": "NPC Information",
+                    "sectionDescription": "Species: Nextbot"
+                }
+            },
+
+            {
+                "type": "section",
+                "content": {
+                    "sectionTitle": "AI",
+                    "sectionDescription": ""
+                }
+            },
+
+            {
+                "type": "tree",
+                "content": [
+                    {
+                        "name": "It will chase a player and fling them.",
+                        "children": [
+                            {
+                                "name": "However, it occasionally doesn't move and stops at certain points.",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            {
+                "type": "section",
+                "content": {
+                    "sectionTitle": "Trivia",
+                    "sectionDescription": ""
+                }
+            },
+
+            {
+                "type": "tree",
+                "content": [
+                    {
+                        "name": "The image it originates from is a Fruit Gushers commercial.<br><br>",
+                        "children": []
+                    },
+
+                    {
+                        "name": "Despite being intended to be a nuisance in the Backwalls, it can actually be a useful asset, as the noise it makes can serve as a waypoint to keep track of. This is even more helpful if it's near the exit.",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+}

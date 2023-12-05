@@ -27,7 +27,7 @@ function playSound(soundfile) {
 function startSpeaking(data, characterData) {
     let index = 0;
 
-    speakerPopup.style.bottom = "5px";
+    speakerPopup.style.opacity = 1;
     function showNextDialogue() {
         if (index < data.dialogue.length) {
             const charData = characterData[data.dialogue[index][1]];
@@ -50,7 +50,7 @@ function startSpeaking(data, characterData) {
         } else {
             setTimeout(() => {
                 delay = data.dialogue[index - 1][0];
-                speakerPopup.style.bottom = "-165px";
+                speakerPopup.style.opacity = 0;
                 dialogueRunning = false;
             }, delay);
         }
@@ -86,7 +86,7 @@ function randomDialogueEvent(force, id) {
         } else {
             dialogueRunning = false;
         }
-    } else if (force === true && !dialogueRunning) {
+    } else if (force === true && id !== "" && !dialogueRunning) {
         dialogueRunning = true;
 
         let speakData;
