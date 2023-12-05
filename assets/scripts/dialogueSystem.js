@@ -7,10 +7,17 @@ let soundSource = document.getElementById("soundSource");
 
 let dialogueRunning = false;
 let previousImage;
+let dialogueData;
+
+fetch("/bussim-assets/dialoguedata/dialogue.json")
+.then((response) => response.json())
+.then((jsonData) => {
+    dialogueData = jsonData; // Store the loaded JSON data
+});
 
 function playSound(soundfile) {
     if (soundSource.src !== `${window.location.protocol + "//" + window.location.host}/bussim-assets/sounds/${soundfile}.mp3`) {
-        soundSource.src = `/bussim-assets/sounds/${soundfile}.mp3`
+        soundSource.src = `/bussim-assets/sounds/${soundfile}.mp3`;
         soundSource.play();
     } else {
         soundSource.play();
@@ -23,21 +30,20 @@ function startSpeaking(data, characterData) {
     speakerPopup.style.bottom = "5px";
     function showNextDialogue() {
         if (index < data.dialogue.length) {
-            const charData = characterData[data.dialogue[index][1]]
-            
+            const charData = characterData[data.dialogue[index][1]];
+
             playSound(charData["dialogueSfx"]);
-            
+
             delay = data.dialogue[index][0];
             speakerName.innerHTML = data.dialogue[index][1];
-            speakerImage.classList.remove(previousImage)
-            previousImage = `dialogue-${charData["dialogueEmoteName"]}_${data.dialogue[index][2]}`
-            speakerImage.classList.add(previousImage)
-            //speakerImage.src = `/bussim-assets/images/dialogue/${charData["dialogueEmoteName"]}_${data.dialogue[index][2]}.webp`;
+            speakerImage.classList.remove(previousImage);
+            previousImage = `dialogue-${charData["dialogueEmoteName"]}_${data.dialogue[index][2]}`;
+            speakerImage.classList.add(previousImage);
             speakerDialogue.innerHTML = data.dialogue[index][3];
 
-            speakerPopup.style.setProperty("--color1", charData["dialogueColors"][0])
-            speakerPopup.style.setProperty("--color2", charData["dialogueColors"][1])
-            speakerPopup.style.setProperty("--color3", charData["dialogueColors"][2])
+            speakerPopup.style.setProperty("--color1", charData["dialogueColors"][0]);
+            speakerPopup.style.setProperty("--color2", charData["dialogueColors"][1]);
+            speakerPopup.style.setProperty("--color3", charData["dialogueColors"][2]);
 
             index++;
             setTimeout(showNextDialogue, delay);
@@ -62,37 +68,40 @@ function random(data) {
 function randomDialogueEvent(force, id) {
     const dialogueProbbability = 2.5;
 
-    const handleResponse = (data) => {
+    if (dialogueData && Math.random() * 100 < dialogueProbbability && force !== true && !dialogueRunning) {
         dialogueRunning = true;
 
         let speakData;
 
-        if (id && data.dialogueData[id]) {
+        if (id && dialogueData.dialogueData[id]) {
             speakerId.innerText = `dialogueId: ${id}`;
-            speakData = data.dialogueData[id];
+            speakData = dialogueData.dialogueData[id];
         } else {
             speakerId.innerText = ``;
-            speakData = random(data.dialogueData);
+            speakData = random(dialogueData.dialogueData);
         }
 
         if (Math.random() * 100 < speakData.rarity) {
-            startSpeaking(speakData, data.characterData);
+            startSpeaking(speakData, dialogueData.characterData);
         } else {
             dialogueRunning = false;
         }
-    };
-
-    const fetchData = () => {
-        fetch("/bussim-assets/dialoguedata/dialogue.json")
-            .then((response) => response.json())
-            .then(handleResponse);
-    };
-
-    if (Math.random() * 100 < dialogueProbbability && force !== true && !dialogueRunning) {
-        fetchData();
     } else if (force === true && !dialogueRunning) {
-        fetchData();
+        dialogueRunning = true;
+
+        let speakData;
+
+        if (id && dialogueData.dialogueData[id]) {
+            speakerId.innerText = `dialogueId: ${id}`;
+            speakData = dialogueData.dialogueData[id];
+        } else {
+            speakerId.innerText = ``;
+            speakData = random(dialogueData.dialogueData);
+        }
+
+        startSpeaking(speakData, dialogueData.characterData);
     }
 }
 
-setInterval(randomDialogueEvent, 2500);
+// Set the interval for random dialogue events
+setInterval(() => randomDialogueEvent(), 2500);

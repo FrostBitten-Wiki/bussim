@@ -27,10 +27,13 @@ async def wiki(request: Request, wikipath: str = ""):
     html = open(f"./desktop.html", "r")
 
     try:
-        route = wikipath.split("/")
-        filename, route = route.pop(-1), '/'.join(route)
+        #print(wikipath)
+        #route = wikipath.split("/")
+        #filename, route = route.pop(-1), '/'.join(route)
+#
+        #print(filename, route)
 
-        with open(f"./{route}/pagedata/{filename}.json", "r") as data:
+        with open(f"./pagedata/{wikipath}.json", "r") as data:
             data = load(data)
     except FileNotFoundError: data = {}
 
