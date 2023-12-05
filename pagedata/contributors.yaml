@@ -2,18 +2,100 @@ page:
   title: Contributors
   description: All of the Contributors of the Bus Simulator Wiki!
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim contributors
+
 attributions: []
+
 html:
   header:
     title: Contributors
-    description: Short description about something
+    description: The current contributors of the <highlight>Bus Simulator Community Wiki</highlight>!
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+  
   pageContent:
     - type: list
       content:
         items:
-          - listItemImage: https://placehold.co/256
-            listItemTitle: ItemTitle
-            listItemDescription: ItemDescription
+          - listItemImage: https://cdn.discordapp.com/avatars/583200866631155714/f1749d564f423332fd548c66069312b9.png?size=1024
+            listItemTitle: Nyx (@nyxical)
+            listItemDescription: >-
+              Wiki Hoster/Maintainer, Game Contributor, Wiki Manager, Wiki Editor
+
+              <br><br>
+
+              " he strogan me off till i beef! [EXTREMELY LOUD INCORRECT BUZZER] he beefin on my stroganoff! [EXTREMELY LOUD INCORRECT BUZZER] he strogan my beef till im off! [EXTREMELY LOUD INCORRECT BUZZER] "
+            
+              <br><br>
+
+              Contributions: Wiki Server, In-Game Images of Events, Dialogue Sound Effects (buttom.mp3, meow.mp3, ouch.mp3), NPC Dialogues
+            listItemRedirect: ''
+
+          - listItemImage: https://cdn.discordapp.com/avatars/762463197617061908/8f1be1c35b6f78f3f8c667f87989e7cf.png?size=2048
+            listItemTitle: FangedWerewolf (@noobbiom)
+            listItemDescription: >-
+              Game Contributor, Wiki Manager, Wiki Editor
+
+              <br><br>
+
+              " oougghh "
+
+              <br><br>
+
+              Contributions: Images of NPC Emotes, NPC Dialogues
+            listItemRedirect: ''
+
+          - listItemImage: https://mediumkey.xyz/images/pfp.png?size=2048
+            listItemTitle: Mediumkey (@mediumkey)
+            listItemDescription: >-
+              The one who asked Noble if we can create this Wiki, Wiki Manager, Wiki Editor
+
+              <br><br>
+
+              " It do not matter. "
+
+              <br><br>
+
+              Contributions: CSS for the Checkerboard Background for Dialogues, Dialogue Sound Effect (elecping.mp3)
+            listItemRedirect: ''
+          
+          - listItemImage: https://cdn.discordapp.com/avatars/396049440110280714/df35ce5e2cda818de31ef10759e5c13c.png?size=2048
+            listItemTitle: Tazer (@tazer_tricity)
+            listItemDescription: >-
+              Game Administrator, Game Contributor, Wiki Editor
+
+              <br><br>
+
+              " I forgor... "
+              
+              <br><br>
+
+              Contributions: Moderating the Game
+            listItemRedirect: ''
+
+          - listItemImage: https://cdn.discordapp.com/avatars/685150112137478202/88d02cacd4e5e43d15ad1c777ab1fc23.png?size=2048
+            listItemTitle: Niko (@niko_gaming)
+            listItemDescription: >-
+              existing
+
+              <br><br>
+
+              " <text style="color: #800080;">e</text><text style="color: #7d0683;">x</text><text style="color: #7a0b86;">c</text><text style="color: #781188;">e</text><text style="color: #75168b;">s</text><text style="color: #721c8e;">s</text><text style="color: #6f2191;">i</text><text style="color: #6d2793;">v</text><text style="color: #6a2c96;">e</text><text style="color: #673299;">l</text><text style="color: #64379c;">y</text> <text style="color: #5f43a1;">e</text><text style="color: #5c48a4;">x</text><text style="color: #594ea7;">p</text><text style="color: #5653a9;">e</text><text style="color: #5359ac;">n</text><text style="color: #515eaf;">s</text><text style="color: #4e64b2;">i</text><text style="color: #4b69b4;">v</text><text style="color: #486fb7;">e</text> <text style="color: #437abd;">c</text><text style="color: #4080c0;">r</text><text style="color: #3d85c2;">y</text><text style="color: #3a8bc5;">p</text><text style="color: #3890c8;">t</text><text style="color: #3596cb;">o</text><text style="color: #329bcd;">g</text><text style="color: #2fa1d0;">r</text><text style="color: #2da6d3;">a</text><text style="color: #2aacd6;">p</text><text style="color: #27b1d8;">h</text><text style="color: #24b7db;">i</text><text style="color: #21bcde;">c</text> <text style="color: #1cc8e3;">e</text><text style="color: #19cde6;">n</text><text style="color: #16d3e9;">c</text><text style="color: #13d8ec;">r</text><text style="color: #11deee;">y</text><text style="color: #0ee3f1;">p</text><text style="color: #0be9f4;">t</text><text style="color: #08eef7;">i</text><text style="color: #06f4f9;">o</text><text style="color: #00ffff;">n</text> "
+
+              <br><br>
+
+              Contributions: existing
+            listItemRedirect: ''
+
+          - listItemImage: https://cdn.discordapp.com/avatars/457989416573599758/7a0611d3ab5807bc540979420d7efd66.png?size=1024
+            listItemTitle: PolyframeX (@polyframex)
+            listItemDescription: >-
+              Wiki Editor
+
+              <br><br>
+
+              " nothing "
+
+              <br><br>
+
+              Contributions: In-Game Images of Biomes
             listItemRedirect: ''
