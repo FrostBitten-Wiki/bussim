@@ -4,6 +4,7 @@
 # Copy this to install required libraries:
 # pip install fastapi uvicorn
 
+import yaml
 from jinja2 import Template
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse
@@ -27,15 +28,9 @@ async def wiki(request: Request, wikipath: str = ""):
     html = open(f"./desktop.html", "r")
 
     try:
-        #print(wikipath)
-        #route = wikipath.split("/")
-        #filename, route = route.pop(-1), '/'.join(route)
-#
-        #print(filename, route)
-
-        with open(f"./pagedata/{wikipath}.json", "r") as data:
-            data = load(data)
-    except FileNotFoundError: data = {}
+        with open(f"./pagedata/{wikipath}.yaml", "r") as file:
+            data = yaml.load(file, Loader=yaml.FullLoader)
+    except FileNotFoundError: data = ""
 
     html_template = Template(html.read())
     rendered_html = html_template.render(data)

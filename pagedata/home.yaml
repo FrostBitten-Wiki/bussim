@@ -1,0 +1,49 @@
+page:
+  title: Home
+  description: The community-managed Bus Simulator Wiki!
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim
+attributions: []
+html:
+  header:
+    title: Bus Simulator Wiki
+    description: Welcome to the Officialy endorsed Bus Simulator Community Wiki!
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: text
+      content:
+        text: >-
+          The Bus Simulator Wiki has been moved over 2 times already. With the
+          previous two being made in fandom, although this one is no longer
+          hosted on fandom due to their practices.
+    - type: section
+      content:
+        sectionTitle: Info
+        sectionDescription: >-
+          Bus Simulator is a game that was created in 2018 on ROBLOX, and was
+          made as a small little socialization project at first, but kept
+          getting more updates from there, taking on many expansive updates that
+          immerse you in the comedic world of events on a bus that is forever
+          waiting for its real stop, unsure if you will actually reach it.
+    - type: text
+      content:
+        text: >-
+          You can also join the game's <a
+          href="https://www.roblox.com/groups/4343228/Bus-Simulator-The-Fan-Group">Official
+          Roblox Group</a>, and their <a
+          href="https://discord.com/invite/pNnMKKg">Discord Server</a>! Join the
+          conversations in the <a
+          href="https://discord.gg/frostbitegames">FrostBitten Server</a>,
+          too!<br>
+    - type: text
+      content:
+        text: >-
+          <text style="font-size: 10px;">You must be 13+ to use Discord and Join
+          the servers.</text><br><br>
+    - type: section
+      content:
+        sectionTitle: Browsing the Wiki
+        sectionDescription: >-
+          You can browse the Bus Simulator wiki from the sidebar!<br>This wiki
+          doesn't support Mobile Phones yet, although the site is resized on
+          mobile phones to atleast see content.
