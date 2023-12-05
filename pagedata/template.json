@@ -2,7 +2,7 @@
     "page": {
         "title": "PageTitle",
         "description": "PageDescription",
-        "keywords": "page keyword, another keyword"
+        "keywords": "wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>"
     },
 
     "attributions": [
@@ -59,6 +59,14 @@
                 "content": {
                     "infoBoxTitle": ["Info Box", "#b00b69"],
                     "infoBoxDescription": "InfoBoxDescription"
+                }
+            },
+
+            {
+                "type": "quote",
+                "content": {
+                    "quote": "",
+                    "author": ""
                 }
             },
 

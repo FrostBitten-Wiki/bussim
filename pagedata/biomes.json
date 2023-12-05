@@ -1,8 +1,8 @@
 {
     "page": {
         "title": "Biomes",
-        "description": "Description<br><br>",
-        "keywords": "Roblox Bus Simualator, Main Category, Biomes"
+        "description": "Description",
+        "keywords": "wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes"
     },
 
     "attributions": [
@@ -11,7 +11,7 @@
     "html": {
         "header": {
             "title": "Biomes",
-            "description": "Description<br><br>",
+            "description": "Description",
             "image": "",
             "imageBanner": "/bussim-assets/images/banner.jpg"
         },
