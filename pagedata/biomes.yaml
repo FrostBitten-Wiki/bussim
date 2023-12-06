@@ -1,8 +1,10 @@
 page:
   title: Biomes
-  description: >
-    Description Keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes
+  description: Description
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes
+
 attributions: []
+
 html:
   header:
     title: Biomes
