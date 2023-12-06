@@ -232,7 +232,7 @@
                         <div style="margin-top: 20px; margin-bottom: 20px;">
                             <div style="display: grid; grid-template-columns: 0.05fr 1fr 0.05fr;">
                                 <text style="font-size: 50px;">"</text>
-                                <text>{{ data["content"]["quote"] }}</text>
+                                <text style="text-align: center;">{{ data["content"]["quote"] }}</text>
                                 <text style="font-size: 50px; text-align: right;">"</text>
                             </div><br>
                             <text>- {{ data["content"]["author"] }}</text>
@@ -286,7 +286,7 @@
                 <text id="speakerText"></text>
             </div>
 
-            <div id="speakerImage" class="dialogue dialogue-d6_default" style="-ms-zoom: 37.1%; zoom: 37.1%; position: absolute; bottom: 0; right: 0;"></div>
+            <div id="speakerImage" class="dialogue dialogue-d6_default" style="object-fit: cover; transform: scale(37.1%, 37.1%); -moz-transform: scale(37.1%, 37.1%);  position: absolute; bottom: -123px; right: -140px;"></div>
         </div>
     </div>
 

@@ -389,145 +389,145 @@
 }
 
 .dialogue-red_default {
-    width: 391px;
+    width: 444px;
     height: 391px;
     background-position: -5px -3213px;
 }
 
 .dialogue-red_guilty {
-    width: 391px;
+    width: 444px;
     height: 391px;
-    background-position: -406px -3213px;
+    background-position: -459px -3213px;
 }
 
 .dialogue-red_objection {
-    width: 391px;
+    width: 444px;
     height: 391px;
-    background-position: -807px -3213px;
+    background-position: -913px -3213px;
 }
 
-.dialogue-red_shrug {
-    width: 391px;
+.dialogue-red_shruh {
+    width: 444px;
     height: 391px;
-    background-position: -1208px -3213px;
+    background-position: -1367px -3213px;
 }
 
 .dialogue-red_think {
-    width: 391px;
+    width: 444px;
     height: 391px;
-    background-position: -1609px -3213px;
+    background-position: -1821px -3213px;
 }
 
 .dialogue-redold_angry {
     width: 444px;
     height: 391px;
-    background-position: -2010px -3213px;
+    background-position: -2275px -3213px;
 }
 
 .dialogue-redold_close {
     width: 444px;
     height: 391px;
-    background-position: -2464px -3213px;
+    background-position: -2729px -3213px;
 }
 
 .dialogue-redold_default {
     width: 444px;
     height: 391px;
-    background-position: -2918px -3213px;
+    background-position: -3183px -3213px;
 }
 
 .dialogue-redold_wrist {
     width: 444px;
     height: 391px;
-    background-position: -3372px -3213px;
+    background-position: -3637px -5px;
 }
 
 .dialogue-steven_default {
     width: 444px;
     height: 391px;
-    background-position: -3637px -5px;
+    background-position: -3637px -406px;
 }
 
 .dialogue-steven_point {
     width: 444px;
     height: 391px;
-    background-position: -3637px -406px;
+    background-position: -3637px -807px;
 }
 
 .dialogue-steven_sweat {
     width: 444px;
     height: 391px;
-    background-position: -3637px -807px;
+    background-position: -3637px -1208px;
 }
 
 .dialogue-tazer_angry {
     width: 444px;
     height: 391px;
-    background-position: -3637px -1208px;
+    background-position: -3637px -1609px;
 }
 
 .dialogue-tazer_default {
     width: 444px;
     height: 391px;
-    background-position: -3637px -1609px;
+    background-position: -3637px -2010px;
 }
 
 .dialogue-tazer_duck {
     width: 444px;
     height: 391px;
-    background-position: -3637px -2010px;
+    background-position: -3637px -2411px;
 }
 
 .dialogue-tazer_point {
     width: 444px;
     height: 391px;
-    background-position: -3637px -2411px;
+    background-position: -3637px -2812px;
 }
 
 .dialogue-tazer_sweat {
     width: 444px;
     height: 391px;
-    background-position: -3637px -2812px;
+    background-position: -3637px -3213px;
 }
 
 .dialogue-tazer_think {
     width: 444px;
     height: 391px;
-    background-position: -3826px -3213px;
+    background-position: -5px -3614px;
 }
 
 .dialogue-tazer_wrist {
     width: 444px;
     height: 391px;
-    background-position: -5px -3614px;
+    background-position: -459px -3614px;
 }
 
 .dialogue-zeon_angry {
     width: 444px;
     height: 391px;
-    background-position: -459px -3614px;
+    background-position: -913px -3614px;
 }
 
 .dialogue-zeon_close {
     width: 444px;
     height: 391px;
-    background-position: -913px -3614px;
+    background-position: -1367px -3614px;
 }
 
 .dialogue-zeon_default {
     width: 444px;
     height: 391px;
-    background-position: -1367px -3614px;
+    background-position: -1821px -3614px;
 }
 
 .dialogue-zeon_point {
     width: 444px;
     height: 391px;
-    background-position: -1821px -3614px;
+    background-position: -2275px -3614px;
 }
 
 .dialogue-zeon_shock {
     width: 444px;
     height: 391px;
-    background-position: -2275px -3614px;
+    background-position: -2729px -3614px;
 }

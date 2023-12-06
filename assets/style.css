@@ -2,6 +2,7 @@ body {
     margin: 0;
     min-height: 100vh;
     background-color: #080454;
+    overflow: hidden;
 }
 
 body::-webkit-scrollbar {
