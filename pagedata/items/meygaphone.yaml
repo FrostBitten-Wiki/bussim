@@ -1,0 +1,37 @@
+page:
+  title: Meygaphone
+  description: Meygaphone~ is similar to the Megaphone.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Meygaphone
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Meygaphone
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         Meygaphone~ is similar to the <a href="/bussim/items/megaphone">Megaphone</a>. 
+         The only difference is that there's an emoji of 2 paws when doing a shout, 
+         and some words are 'furryified'. 
+         'Oofs' are also replaced with 'meows'
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+
+    - type: tree
+      content:
+        - name: This gamepass used to cost way more, that being 621 Robux. It was later decreased to 62. People who owned it when it was still 621 robux has a different version of the Meygaphone with a halved cooldown. The tool is named "Founders Meygaphone~"
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/meygaphone.webp
+          
