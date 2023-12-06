@@ -266,7 +266,7 @@
 
                             <div class="gallery" style="padding: 10px;">
                                 {% for image in data["content"]["images"] %}
-                                    <img src="{{ image }}" onclick="location.href='{{ image }}'">
+                                    <img src="{{ image }}" style="cursor: pointer;" onclick="location.href='{{ image }}'" alt="Open Image" loading="lazy">
                                 {% endfor %}
                             </div>
                         </div>
