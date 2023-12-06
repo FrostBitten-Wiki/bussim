@@ -1,0 +1,54 @@
+page:
+  title: Cola
+  description: The Cola is an item that is obtainable at the Second floor, 
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Cola
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Cola
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+      - type: quote
+        content:
+          quote: "It's only been out for what, 20 days?"
+          author: Item Description
+      - type: section
+        content:
+         sectionTitle: Info
+      - type: text
+        content:
+          text: >-
+           The Cola is an item that is obtainable at the Second floor, 
+           or from the Starter Box if you got that from the 10 Million Visits event. 
+           Using it will heal you. The cola is one of the best healing items.
+
+           <br><br>
+
+           It is located inside of a crate, with several other colas. 
+           Upon clicking on it, there's a 10% chance you will get the <a href="/bussim/items/bad-cola">Bad Cola</a>.
+
+           <br><br>
+
+           More often than other containers (e.g. the vending machine for <a href="/bussim/items/cold-cola">Cold Cola</a>), 
+           the crate may malfunction and not dispense cola. 
+           This bug somehow self-fixes when you wait, however.
+      - type: quote
+        content:
+          quote: "Well that was uncanny."
+          author: Item Description
+
+      - type: text
+        content:
+          text: >-
+            Another interaction that the Cola can provide is if paired with the <a href="/bussim/items/bus-birthday-cake">Bus Birthday Cake</a> during Bus Simulator's 5th Birthday. 
+            When consumed last, you'll be forcibly teleported to the <a href="/bussim/events/backwalls">Backwalls</a>. 
+            With the Cola having a new tooltip, 
+            do note however that both the Cola and Cake are one-time uses afterwards.
+            <br><br>
+      - type: gallery
+        content:
+          images:
+            - /bussim-assets/images/items/cola.webp
