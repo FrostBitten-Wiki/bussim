@@ -1,0 +1,48 @@
+page:
+  title: Cramped Cola
+  description: The Cramped Cola is a variant of the Cola series,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Cramped Cola
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Cramped Cola
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         The Cramped Cola is a variant of the <a href="/bussim/items/cola">Cola</a> series, 
+         that is located on the 2nd floor of the bus. 
+         It's inside of a cupboard next to the pizza box.
+
+         <br><br>
+
+         Upon drinking, it will begin to shrink your avatar, 
+         possibly giving access to some areas that require being small. 
+         Drinking again will result in becoming normal sized again. 
+         Keep in mind each drink deals 30 <small>(28 w/ health regen)</small> damage, 
+         making it only consumable 4 times in quick succession.
+
+         <br><br>
+
+         It also will disable you from using any items in your inventory while shrinking or expanding, 
+         mainly to prevent exploits and both your movement speed and jump power gets decreased significantly.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+    - type: tree
+      content:
+        - name: At some point, Cramped Cola was reworked to have more realistic physics than before, as a result a lot of its internal mechanics were changed alongside different ways to go around issues. This also patched existing issues with the item beforehand.
+          children:
+            - name: Despite this though, there now exists an item only given via Admin Commands called Cramped Cola_Old, which as stated in its title, works just like the Cramped Cola prior to it being reworked.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/cramped-cola.webp
