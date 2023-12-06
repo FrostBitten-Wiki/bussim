@@ -33,6 +33,25 @@ text {
     font-display: swap;
 }
 
+.gallery-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    -ms-overflow-style: none;
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery img {
+    width: 256px;
+    height: auto;
+    border: none;
+    margin-right: 10px;
+}
+
 ul {
     font-family:'Starbound';
     color: white;
