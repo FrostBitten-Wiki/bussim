@@ -1,12 +1,14 @@
 page:
   title: Biomes
-  description: >
-    Description Keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes
+  description: Biomes appear randomly after driving through a tunnel, and they don't have any relation to events most of the time, unless if a specific event forces it (i.e. Blizzard).
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes
+
 attributions: []
+
 html:
   header:
     title: Biomes
-    description: Description
+    description: Biomes appear randomly after driving through a tunnel, and they don't have any relation to events most of the time, unless if a specific event forces it (i.e. Blizzard).
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:

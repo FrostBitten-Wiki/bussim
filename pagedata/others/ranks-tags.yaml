@@ -1,0 +1,277 @@
+page:
+  title: Ranks/Tags
+  description: There's a small handful of chat tags in the game that you can obtain by simple means,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Ranks/Tags
+
+attributions:
+  - "Ported By PolyframeX"
+
+html:
+  header:
+    title: Ranks/Tags
+    description: Others
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: There's a small handful of chat tags in the game that you can obtain by simple means, 
+              with some either being permanent or temporary. 
+              This page will go over them, 
+              and give short explanations of them.
+
+              <br><br>
+
+              Do note that as of now, 
+              the only tags you can change is your heart tags, 
+              but other tags like group / donation tags can't be changed without having to leave the group / delete the gamepass associated with it. 
+              This is subjected to change soon.
+
+              <br><br>
+
+              <highlight>table of contents?</highlight>
+
+    - type: section
+      content:
+        sectionTitle: Heart Tags
+    - type: text
+      content:
+        text: This category already has 
+              <a href="/bussim/others/reputation">its own page</a>, 
+              but for convenience purposes, 
+              here's a quick list on all of the hearts you can get. 
+              You can also change them anytime using !setheart.
+
+              <br><br>
+
+    - type: table
+      content:
+        columnSpacing: 215px 215px
+        titles:
+          - "Heart"
+          - "Driver Reputation"
+        items:
+          - ['<span style="color:#86512b">[&#128151] Beating Heart', "10"]
+          - ['<span style="color:#fca542">[&#129505] Orange Heart','25']
+          - ['<span style="color:#ff0000">[&#10084] Red Heart','50']
+          - ['<span style="color:#4069e5">[&#128153] Blue Heart','75']
+          - ['<span style="color:#00ff00">[&#128154] Green Heart','100']
+          - ['<span style="color:#ff00ff">[&#128156] Purple Heart ','125']
+          - ['<span style="color:#ffff00">[&#128155] Yellow Heart','150']
+          - ['<span style="color:#333333">[&#128420] Black Heart','200']
+          - ['<span style="color:#ffac33">[&#129505+] Orange Heart+','315']
+          - ['<span style="color:#ec0101">[&#10084+] Red Heart+','430']
+          - ['<span style="color:#0000fc">[&#128153+] Blue Heart+','545']
+          - ['<span style="color:#01fc00">[&#128154+] Green Heart+','660']
+          - ['<span style="color:#8a2be2">[&#128156+] Purple Heart+','770']
+          - ['<span style="color:#f8fb39">[&#128155+] Yellow Heart+','885']
+          - ['<span style="color:#000000">[&#128420+] Black Heart+ ','1000']
+          - ['[&#129293] White Heart','5000']
+          - ['[&#129293+] White Heart+','10000']
+          - ['[???] Numbers','50000+']
+
+    - type: section
+      content:
+        sectionTitle: Group Ranks
+    - type: text
+      content:
+        text: >-
+              <b>Unverified</b>
+              
+              <br><br>
+
+              You weren't verified manually or via the Verification place on the Bus Sim official group. 
+              You don't get a tag in-game for being unverified.
+
+              <br><br>
+
+              <text style="color:#001793"><b>[Passenger]</b></text>
+
+              <br><br>
+
+              The lowest obtainable rank in the group. 
+              Obtained simply by getting verified.
+
+              <br><br>
+
+              <text style="color: #e771a1;"><b>[Verifier]</b></text>
+
+              <br><br>
+
+              A rank that only one person currently has, 
+              and is not obtainable normally. 
+              Verifiers can only rank Unverified people up to Passenger.
+
+              <br><br>
+
+              <text style="color: #00bd2f;"><b>[Driver]</b></text>
+
+              <br><br>
+
+              The most commonly obtained rank, 
+              as it's incredibly easy to get. 
+              You need to meet the vague requirements to get the Driver rank, 
+              which requires the following to get:
+
+              <br><br>
+
+              * Be verified in the group
+              <br>
+              * Certain amount of messages sent in-game in total
+              <br>
+              * Certain amount of Driver Rep (Most likely 10 rep at minimum)
+              <br><br>
+
+              Owning the 
+              <a href="https://www.roblox.com/game-pass/4894984/Bus-Driver">Driver Gamepass</a>
+              also helps with the process, 
+              but <b>is not required</b> to own, 
+              nor does it give you the Driver rank automatically. 
+              Drivers get "+14" additional rep, 
+              but it has no value at all aside from kicking players.
+
+              <br><br>
+
+              <text style="color: #e1a200;"><b>[OG Driver]</b></text>
+
+              <br><br>
+
+              An unobtainable rank that was given to as many people with the Driver rank as possible before Driver was made obtainable again. 
+              OG Driver gets a free 
+              <a href="/bussim/items/mini-bus">Mini-Bus</a>
+              <b><small>(if the player doesn't own one)</small></b>, 
+              and it's sparkly. 
+              You also get "+16" additional rep. 
+
+              <br><br>
+
+              <text style="color: #30ee53;"><b>[Best Driver]</b></text>
+
+              <br><br>
+
+              A rank that only efeuc can have. It's mainly a cosmetic tag, like Group Bot and Noble. He also has "+18" additional rep.
+
+              <br><br>
+
+              <text style="color: #f43f08;"><b>[Contributer]</b></text>
+
+              <br><br>
+
+              You can obtain the rank by contributing to the game in some way, 
+              like making a seat anim, 
+              clothing, 
+              etc. 
+              If you own this rank, 
+              your 
+              <a href="/bussim/items/mini-bus">Mini-Bus</a>
+              will sparkle. 
+              Those in the contributer rank also get "+20" additional rep. 
+
+              <br><br>
+
+              <text style="color: #8e40ed;"><b>[Knitter]</b></text>
+
+              <br><br>
+
+              A rank that was only given to those who upload UGC or clothing to the Bus Simulator The Fan Group store.
+              There may be some vague requirements aside from that.
+
+              <br><br>
+
+              <text style="color: #8729b1;"><b>[Authenticator]</b></text>
+
+              <br><br>
+
+              A rank similar to Verifier, 
+              but has more powers, 
+              like exiling people, 
+              deleting messages, 
+              etc. 
+              The rank is very rare, 
+              and only has two members. 
+              However, 
+              they are often seen ingame.
+
+              <br><br>
+
+              <text style="color: #9100c1;"><b>[Developer]</b></text>
+
+              <br><br>
+
+              A co-owner like rank that shows people who is a main developer of the game.
+
+              <br><br>
+
+              <b>Group Bot</b>
+
+              <br><br>
+
+              It's rather self explanatory. 
+              A rank for the group bot that auto-ranks people whenever it's not broken.
+
+              <br><br>
+
+              <text style="color: #5902c9;"><b>[Noble]</b></text>
+
+              <br><br>
+
+              It's NobleReign. 
+              He also gets "+30" additional rep.
+
+              <br><br>
+    - type: section
+      content:
+        sectionTitle: Donation Tags
+    - type: text
+      content:
+        text: >-
+          Donation tags are usable in 
+          <a href="https://www.roblox.com/games/2091563160/Bus-Simulator">Bus Simulator</a> 
+          and 
+          <a href="[https://www.roblox.com/games/5269977437/Bus-Simulator-Beta-Test"> Bus Simulator Beta Test</a>, 
+          and give you a tag based off of how much you donate. 
+          The cent tags are based off of how much NobleReign makes in DevEx. 
+          You can also turn them off by doing !togglepd.
+
+          <br><br>
+
+          <text style="color: #984c25;"><b>[4&#8373]</b></text> - save your money please <b>(10 R$)</b>
+
+          <br><br>
+
+          <text style="color: #996012;"><b>[35&#8373]</b></text> - i said save it <b>(100 R$)</b>
+
+          <br><br>
+
+          <text style="color: #4a9400;"><b>[frivelous]</b></text> - SAVE. IT. <b>(1k R$)</b>
+
+          <br><br>
+
+          <text style="color: #00bb7d;"><b>[money waster]</b></text> - why. stop it. <b>(10k R$)</b>
+
+          <br><br>
+
+          <text style="color: #bb0e10;"><b>[good lord]</b></text> - you're insane. in a bad way. <b>(100k R$)</b>
+
+          <br><br>
+    - type: section
+      content:
+        sectionTitle: Question Time Tags
+    - type: text
+      content:
+        text: >-
+          You can also get tags, 
+          albeit temporarily by based off of the answers you choose during Question Time, 
+          all of the tags so far can be found over 
+          <a href="/bussim/events/question-time">here</a>.
+
+          <br><br>
+    - type: section
+      content:
+        sectionTitle: Trivia
+    - type: tree
+      content:
+        - name: Despite Verifier being a tag that is normally exclusive similar to Contributors, Authenticators and such; it's currently possible for Verifiers to get auto-ranked to Drivers accidentally due to the current system.

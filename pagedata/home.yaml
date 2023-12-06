@@ -2,7 +2,9 @@ page:
   title: Home
   description: The community-managed Bus Simulator Wiki!
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim
+
 attributions: []
+
 html:
   header:
     title: Bus Simulator Wiki

@@ -80,6 +80,17 @@ html:
               children:
                 - name: RootChild1 Child
 
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+
     - type: npcChat
       content:
         converstationTree: {}

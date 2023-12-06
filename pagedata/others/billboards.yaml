@@ -1,0 +1,51 @@
+page:
+  title: Billboards
+  description: There are billboards in the game that appears on the sides of the road around every 3 minutes and 30 seconds.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Billboards
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Billboards
+    description: Others
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         <i>Not to be confused with the advertisements in the 
+          <a href="/bussim/biomes/nostalgic">Nostalgic</a> 
+          biome.</i>
+
+          <br><br>
+
+          There are billboards in the game that appears on the sides of the road around every 3 minutes and 30 seconds. 
+          The billboards showcase real advertisements to companies, such as <a href='https://en.wikipedia.org/wiki/H%26M'>H&M</a> and 
+          <a href='https://en.wikipedia.org/wiki/Nike,_Inc'>Nike</a>, for example. These billboards can only be seen if your account age is 13+, 
+          as they cannot be advertised to people if they are 12 or younger.
+
+          <br><br>
+
+          At the launch of the update (On March 31st, 2023), 
+          only one person (At least, who brought it up) has seen an actual advertisement in the game, 
+          as the system barely has any advertisers so far. 
+          If no advertisement shows up, 
+          the ROBLOX logo will appear instead.
+
+          <br><br>
+    - type: section
+      content:
+        sectionTitle: Trivia
+    - type: tree
+      content:
+        - name: The update also added a couple new lines to <a href="/bussim/npcs/pear">Pear</a> related to advertising, if the account age is 12 or younger.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/others/billboard/Billboard.webp
+          - /bussim-assets/images/others/billboard/Ad_Billboard.webp

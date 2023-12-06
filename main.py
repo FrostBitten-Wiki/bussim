@@ -2,7 +2,7 @@
 # If you have python installed, you can also use this to make edits and see changes easily without waiting for github's cache.
 
 # Copy this to install required libraries:
-# pip install fastapi uvicorn PyYAML
+# pip install fastapi uvicorn PyYAML jinja2
 
 from jinja2 import Template
 from yaml import load, FullLoader
