@@ -25,17 +25,20 @@ page:
           The visualizer also comes in two different styles, being both found in Performance Settings and be disabled as an option. It goes as follows: 
     - type: tree
       content:
-        - name: Classic
+        - name: >-
+            Classic
           children:
             - name: Uses the old radio visualizer where hard beats often light up the screen from the bottom.
-        - name: Off
-            children:
-                - name: Completely disables the visualizer.
-        - name: Spectrum
-            children:
-                - name: Uses a new radio visualizer made by Roblox and completely visualizes the music being played. Automatically turns on at graphics level 8+ by default. 
-                  children:
-                    - name: If the song has no audio, it'll instead visualize a wave.
+        - name: >-
+            Off
+          children:
+            - name: Completely disables the visualizer.
+        - name: >-
+            Spectrum
+          children:
+            - name: Uses a new radio visualizer made by Roblox and completely visualizes the music being played. Automatically turns on at graphics level 8+ by default. 
+              children:
+                - name: If the song has no audio, it'll instead visualize a wave.
     - type: text
         content:
           text: >-

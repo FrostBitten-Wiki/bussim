@@ -251,7 +251,7 @@
                             {% for items in data["content"]["items"] %}
                                 <div class="container" style="padding: 10px; display: grid; grid-template-columns: {{ data["content"]["columnSpacing"] }};">
                                     {% for value in items %}
-                                        {% if (".webp" in value) or (".jpg" in value) or (".png" in value) or ("placehold.co" in value) %}
+                                        {% if (".webp" in value) or (".jpg" in value) or (".png" in value) or (".gif" in value) or ("placehold.co" in value) %}
                                             <img src="{{ value }}" width="{{ data["content"]["imageSize"].split()[0] }}" height="{{ data["content"]["imageSize"].split()[1] }}" style="object-fit: cover;" loading="lazy">
                                         {% else %}
                                             <text>{{ value }}</text>
