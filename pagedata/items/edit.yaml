@@ -1,0 +1,47 @@
+page:
+  title: Edit
+  description: Edit is an item that cannot be obtained via events or from the bus/gamepass,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Edit
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Edit
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: infobox
+      content:
+        infoBoxTitle: 
+          - "Admin Exclusive Content"
+          - "#b00b69"
+        infoBoxDescription: >-
+          <i>"I saw some dude jumping around with some sort of rocket launcher made of cones a while ago. Not sure how it works, but if I were you, I wouldn't make them angry."</i> - Tazer
+
+          <br>
+
+          <small>This page has content exclusive to admins of the game. This may include scrapped / hidden content that is normally inaccessible during normal gameplay.</small>
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         Edit is an item that cannot be obtained via events or from the bus/gamepass, 
+         as only VIP server owners and admins can obtain it, 
+         and give it to other people. Similar to the Btools item, 
+         Edit allows you to build stuff with the F3X builder tool. 
+         The blueprints also change in color, 
+         based on what you're using (i.e. Yellow - Move, Black - New Part, etc.).
+
+         <br><br>
+
+         If you want to give somebody Edit in your VIP server (Server Owner required), 
+         you just would say "!btools (Username. Can be partial)".
+
+         <br><br>
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/edit.webp
