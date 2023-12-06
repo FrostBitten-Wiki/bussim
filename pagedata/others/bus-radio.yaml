@@ -1,6 +1,6 @@
 page:
   title: Bus Radio
-  description: PageDescription
+  description: The Bus Radio is a functional prop in The Bus in Bus Simulator. It plays a large variety of songs and intermissions around the bus, and can be listened to via Airpods.
   keywords: "wiki, roblox bus simulator, roblox bus sim, roblox bus sim others"
 
   attributions:
@@ -10,7 +10,7 @@ html:
   header:
     title: Bus Radio
     description: >-
-      The Radio is a functional prop in The Bus in Bus Simulator. It plays a large variety of songs and intermissions around the bus, and can be listened to via Airpods. 
+      The Bus Radio is a functional prop in The Bus in Bus Simulator. It plays a large variety of songs and intermissions around the bus, and can be listened to via Airpods. 
     image: ""
     imageBanner: /bussim-assets/images/banner.jpg
 
