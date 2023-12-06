@@ -1,0 +1,32 @@
+page:
+  title: Sandwich
+  description: The Sandwich is a food item obtainable from the Picnic event.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Sandwich
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Sandwich
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+          The Sandwich is a food item obtainable from the <a href="/bussim/events/picnic">Picnic</a> event. 
+          The item, when consumed, heals a tiny bit of health.
+
+          <br><br>
+
+          The model is a retextured version of the <a href="https://roblox.fandom.com/wiki/Catalog:Space_Sandwich">Space Sandwich</a> gear, 
+          made to look closer to a regular sandwich.
+          <br><br>
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/sandwich.webp
+          
