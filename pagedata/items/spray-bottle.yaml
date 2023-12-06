@@ -1,0 +1,51 @@
+page:
+  title: Spray Bottle
+  description: The spray bottle can be only obtained through VIP/Admin commands.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Spray Bottle
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Spray Bottle
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: infobox
+      content:
+        infoBoxTitle: 
+          - "Admin Exclusive Content"
+          - "#b00b69"
+        infoBoxDescription: >-
+          <i>"I saw some dude jumping around with some sort of rocket launcher made of cones a while ago. Not sure how it works, but if I were you, I wouldn't make them angry."</i> - Tazer
+
+          <br>
+
+          <small>This page has content exclusive to admins of the game. This may include scrapped / hidden content that is normally inaccessible during normal gameplay.</small>
+    - type: quote
+      content:
+       quote: "Blind them all."
+       author: Item Description
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         The spray bottle can be only obtained through VIP/Admin commands.
+
+         <br><br>
+
+         When used, it temporarily blinds any player unfortunate enough to be in its range. 
+         It only lasts a few seconds though and it usually leads to no harm done. 
+         The blindness can also stack too if used multiple times in a fast pace.
+
+         <br><br>
+
+         Apart from that, it's a pretty harmless toy that can be a bit bothersome to the eyes, 
+         but not so much to the ears with the <a href="/bussim/items/airhorn">Airhorn</a>.
+         <br><br>
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/spray-bottle.webp
