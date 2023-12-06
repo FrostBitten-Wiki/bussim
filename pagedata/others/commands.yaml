@@ -1,0 +1,286 @@
+page:
+  title: Commands
+  description: Commands are a feature in Bus Simulator used to change small elements of the game,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Commands
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Commands
+    description: Others
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         Commands are a feature in Bus Simulator used to change small elements of the game, 
+         such as chat tag customisation and private server commands.
+
+         <br><br>
+
+         Most commands use the ! prefix, 
+         excluding the default emote command,
+          which requires /e instead. 
+          This page will list all of the commands you can do both in public and private servers.
+
+    - type: section
+      content:
+        sectionTitle: Commands
+
+    - type: text
+      content:
+        text: >-
+          <u>All Servers</u>
+
+          <br><br>
+
+          <u>Emotes</u>
+
+          <br><br>
+
+          Emotes can be used in all servers and are mostly meant for fun, 
+          some emotes like <b>/e smug</b> have special effects only visible with certain settings, 
+          and others like <b>/e honda</b> can be used while walking. 
+          The following are all of the emotes you can currently do.
+
+    - type: table
+      content:
+        # columns should be "fr" (fraction) or "px" (pixels) only.
+        columnSpacing: 0.5fr 1fr 0.75fr 0.5fr
+        #          width height
+        imageSize: 192   256
+        titles:
+          - "Emote Commands"
+          - "Description"
+          - "Special Effects"
+          - "GIFs/Images"
+        items:
+          - ["<b>/e apose</b>", "A standstill emote of your character posing with arms similar to the slanted lines of the letter A.<br>This is often used in development for 3D models for rigging purposes.", "", "/bussim-assets/images/others/emotes/APoseEmote.webp"]
+          - ["<b>/e cali</b>", "An animated emote of your character doing the California Girls dance.<br>The dance was popularized by Friday the 13th memes involving a specific character doing the same dance.", "","/bussim-assets/images/others/emotes/CaliEmote.webp"]
+          - ["<b>/e cheer </b>","A quick emote of your character waving their arms in glee.","","/bussim-assets/images/others/emotes/CheerEmote.webp"]
+          - ["<b>/e cryingandshaking</b>","An emote involving your character in a closed sit, shaking back and forth.<br><br>A similar emote plays when <a href='/bussim/npcs/steven'>Steven_Scripts</a> is found in the <a href='/bussim/events/backwalls'>Backwalls</a>.","","/bussim-assets/images/others/emotes/CryingandShakingEmote.webp"]
+          - ["<b>/e dance1<br>/e dance2<br>/e dance3</b>","All Roblox emotes that you can use in every other Roblox game, nothing to detail much."]
+          - ["<b>/e dance4</b>","A custom dance variant that causes your character to spin in an immense speed for a few seconds then stopping.","","/bussim-assets/images/others/emotes/Dance4Emote.webp"]
+          - ["<b>/e default</b>","An emote that plays the 'Poison' dance from the Scrubs but was later popularized by Fortnite using this as their default dance.","","/bussim-assets/images/others/emotes/DefaultEmote.webp"]
+          - ["<b>/e duck</b>","An emote that causes your avatar to duck, this doesn't stop until you move or jump.","","/bussim-assets/images/others/emotes/DuckEmote.webp"]
+          - ["<b> /e flip</b>","An emote that causes your character to do a backflip. This only happens once and doesn't loop.","","/bussim-assets/images/others/emotes/FlipEmote.webp"]
+          - ["<b> /e griddy </b>","A dance that involves the character tapping their heels while alternating and swinging their arms back and forth.<br>Once started back at 2019 and was popularized following 2020.","This emote can be used even when walking, and only stops when jumping.<br>Plays an audio based off of the Griddy meme.","/bussim-assets/images/others/emotes/GriddyEmote.webp"]
+          - ["<b> /e honda </b>","A looped dance based off of Mio Honda's Friend Chicken video that had the song \"Step!\" from The Idolm@ster while Honda is dancing.<br>Often popularized for people making edits that stray away from the original context.","This emote can be used even when walking, and only stops when jumping.<br>Plays a looped instrumental of Step! from The Idolm@ster.","/bussim-assets/images/others/emotes/HondaEmote.webp"]
+          - ["<b> /e kazotsky </b>","A simple emote of your character closing their arms while swinging their legs back and forth, alternating.","This emote can be used even when walking, and only stops when jumping.","/bussim-assets/images/others/emotes/KazotskyEmote.webp"]
+          - ["<b> /e laugh </b>","An emote that causes your character to laugh. Nothing much to detail about.","","/bussim-assets/images/others/emotes/LaughEmote.webp"]
+          - ["<b> /e orangejustice<br>/e royale</b>","An animated emote that plays the orangejustice.<br>Introduced following Fortnite's announcement of a #BoogieDown Challenge.","","/bussim-assets/images/others/emotes/RoyaleEmote.webp"]
+          - ["<b> /e point</b>","A simple emote of your character pointing at something. This is very similar to Point2, an emote you can use at any Roblox game that allows R15.","","/bussim-assets/images/others/emotes/PointEmote.webp"]
+          - ["<b> /e relax</b>","A near standstill emote of your character laying down, arms behind their head, as your torso also slightly moves up and down, simulating breathing.","","/bussim-assets/images/others/emotes/RelaxEmote.webp"]
+          - ["<b> /e sakura</b>","An emote of your character first kicking their legs whilst having their arms closed at first similar to kazotsky, only to then start breakdancing later on.<br>Its origin debut as a viral TikTok video revolving the game Sakura School Simulator, where the character nonchalantly stares at a cat breakdancing. It was later popularized at 2022.","Plays a (<small>possibly remixed)</small> looped instrumental of a familiar, but not the exact music played in the original.","/bussim-assets/images/others/emotes/SakuraEmote.webp"]
+          - ["<b> /e sitdown</b>","An emote where your character sits down.","","/bussim-assets/images/others/emotes/SitdownEmote.webp"]
+          - ["<b> /e smug</b>","An emote based off of A Hat In Time, where Hat Kid dances while Peace and Tranquility is playing in the background.","This emote produces afterimages of each frame following the last. This can only be viewed on your own emote.<br>Plays an audio based off of one of the tracks in A Hat in Time.","/bussim-assets/images/others/emotes/SmugEmote.webp"]
+          - ["<b> /e tpos</b>","A standstill emote of your character T-posing, with the arms perfectly horizontal.<br>Often used for both rigging as well as character designing.","","/bussim-assets/images/others/emotes/TPoseEmote.webp"]
+          - ["<b> /e wave</b>","An emote that makes your character wave. It is similar to the Hello emote, however is less intensified.,","","/bussim-assets/images/others/emotes/WaveEmote.webp"]
+    - type: text
+      content:
+        text: >- 
+          <u>Seat Animations</u>
+
+          <br><br>
+
+          You can change your seat animation using <b>!anim</b>, 
+          however you can only do this while you are out of a seat. 
+          The command will show a menu containing a large array of emotes, 
+          made by both the creator and the community.
+
+    - type: table
+      content:
+        # columns should be "fr" (fraction) or "px" (pixels) only.
+        columnSpacing: 1fr 0.5fr 0.5fr 0.5fr 0.5fr
+        #          width height
+        imageSize: 192   192
+        titles:
+          - "Seat Animation"
+          - "Creators/Authors"
+          - "In-Game Description"
+          - "Animation Description"
+          - "GIFs/Images"
+        items:
+          - ["Animal", "NobleReign","Are you a cat? A dog?? A bear???","A seat animation where your character sits on your limbs, slowly going up and down.","/bussim-assets/images/others/emotes/sitting/Animal.webp"]
+          - ["Antigravity","logickeeper","who needs gravity? because I don't.","A seat animation where your character flies up and down, not caring about gravity. This may induce no-clipping in some areas.","/bussim-assets/images/others/emotes/sitting/Antigravity.webp"]
+          - ["Anxious","NotFunnyClown (orfriday36)","This is stressing me out, every 5 minutes an event happens.","A seat animation where your character is worrying about something, occasionally having their hand on the side of their face.","/bussim-assets/images/others/emotes/sitting/Anxious.webp"]
+          - ["Banger","KeyboardCombination","It's normal to get a bit fidgety on a trip this long, right?","A seat animation where your character goes back and forth.","/bussim-assets/images/others/emotes/sitting/Banger.webp"]
+          - ["Bored","NobleReign <small>(suggested by Zeon)</small>","Are we there yet...? Urgh.. how about now...?","A seat animation where your character slouches and occasionally yawns.","/bussim-assets/images/others/emotes/sitting/Bored.webp"]
+          - ["Chill","CuhUnit","Works best with 1.0 Avatars.","A simple seat animation where your character's legs are rested, with the head going side to side slowly.","/bussim-assets/images/others/emotes/sitting/Chill.webp"]
+          - ["Contemplation","NikoGamering","	I should've just waited for the next bus..","A seat animation where your character is huddled up onto the seat. Works best against right walls.","/bussim-assets/images/others/emotes/sitting/Contemplation.webp"]
+          - ["Creature","Zeon (z_30n)","This doesn't look right... and it feels like it's from 2017.","A static seat animation where your character's legs no-clip into their torso. That probably isn't a good sign.","/bussim-assets/images/others/emotes/sitting/Creature.webp"]
+          - ["Dead","AJP","After waiting on this bus for years and years, it's not very surprising that you'd end up like this...","A seat animation where your character dies similar to Peter Griffin's death pose from Family Guy, with the hand swaying. This doesn't actually kill you.","/bussim-assets/images/others/emotes/sitting/Dead.webp"]
+          - ["Default","NobleReign","Looking around, sitting with your hands politely on your lap. The ideal passenger.","A seat animation where your character sits with hands on their lap, looking side to side. This is also what you have by default when you play the game for the first time.","/bussim-assets/images/others/emotes/sitting/Default.webp"]
+          - ["Extrovert","Zeon (z_30n)","Hi! How are you doing? Long ride, huh?","A static seat animation where your character looks at the seat behind it,","/bussim-assets/images/others/emotes/sitting/Extrovert.webp"]
+          - ["Fidgety","anton12100","The anticipation is killing me.","A seat animation where your character has its arms folded, and legs swinging side-by-side.","/bussim-assets/images/others/emotes/sitting/Fidgety.webp"]
+          - ["Friday Girl","Pixel_Neko (Pixel_N3ko)","For the best experience, sit between two people with the <a href='/bussim/items/gamebody-advance'>GBA.</a>","A seat animation where your character has their leg on top of the other and their head bopping. This is a reference to Friday Night Funkin' Girlfriend.","/bussim-assets/images/others/emotes/sitting/Friday_Girl.webp"]
+          - ["Insane","TauDoublePi","I CAN'T TAKE IT ANYMORE!","A seat animation where your character finally loses it, with arms swinging wildly alongside the head and torso.","/bussim-assets/images/others/emotes/sitting/Insane.webp"]
+          - ["Introvert","NobleReign","I'd.. rather keep to myself.","A seat animation where your character huddles onto the seat, occasionally looking at the side.","/bussim-assets/images/others/emotes/sitting/Introvert.webp"]
+          - ["Lazy","CuhUnit","You decided not to sit on the chair that is right behind you, but on the floor.","A seat animation where your character sits on the floor instead of the seat. This still occupies the seat even if it looks free.","/bussim-assets/images/others/emotes/sitting/Lazy.webp"]
+          - ["Meditation","anton12100","Ohmmmm...	","A seat animation where your character flies while meditating. May cause no-clipping in some areas.","/bussim-assets/images/others/emotes/sitting/Meditation.webp"]
+          - ["Not Thinking","CuhUnit","Bro what are you doing!! You are not the thinker!!!","A static seat animation where your character sits fashionably.","/bussim-assets/images/others/emotes/sitting/Not_Thinking.webp"]
+          - ["Oldschool","olivertraynor8","This is just like 2023!","A static seat animation that reuses the normal seat animation in many games on Roblox.","/bussim-assets/images/others/emotes/sitting/Oldschool.webp"]
+          - ["Overthinking","CuhUnit","There are better things to do than overthinking.","A seat animation where your character thinks a bit too hard.","/bussim-assets/images/others/emotes/sitting/Overthinking.webp"]
+          - ["Pondering","Creataurus1","I seem to be... indecisive about something.","A seat animation where your character ponders, going back and forth; hand on the chin.","/bussim-assets/images/others/emotes/sitting/Pondering.webp"]
+          - ["Relax","Pixel_Neko (Pixel_N3ko)","If these seats could fit two people, you'd be considered inconsiderate.","A seat animation where your character relaxes onto the seat. Works best in between two other seats.","/bussim-assets/images/others/emotes/sitting/Relax.webp"]
+          - ["Rulebreaker","NobleReign","This looks better on shorter avatars.","A seat animation where your character sit on top of the seat, rocking their legs back and forth. May cause no-clipping in some areas.","/bussim-assets/images/others/emotes/sitting/Rulebreaker.webp"]
+          - ["Scared","CuhUnit","Who did this to you?","A seat animation where your character goes into a closed sit, arms vibrating.","/bussim-assets/images/others/emotes/sitting/Scared.webp"]
+          - ["Shift","NobleReign","Wrong game.","A static seat animation where your character 'shifts'. This is a reference to Minecraft's crouch mechanic.","/bussim-assets/images/others/emotes/sitting/Shift.webp"]
+          - ["Sideways","CuhUnit","How do people sit like this without any problem?","A static seat animation where your character sits upside-down, but has their head on the seat instead of on the floor.","/bussim-assets/images/others/emotes/sitting/Sideways.webp"]
+          - ["Sleeping","Creataurus1","Zzzzzzz...","A seat animation where your character sleeps on to their right hand. Works best against right walls.","/bussim-assets/images/others/emotes/sitting/Sleeping.webp"]
+          - ["Slouch","NobleReign","I just wanna go hooooomeee...","A seat animation where your character slouches, looking side to side slowly.","/bussim-assets/images/others/emotes/sitting/Slouch.webp"]
+          - ["Smug","x_unh0ly,","It's a little sickening.","A seat animation where your character smugly sits, works best against left walls.","/bussim-assets/images/others/emotes/sitting/Smug.webp"]
+          - ["Stand","NotFunnyClown (orfriday36)","Forget sitting down. It's time to stand up and do nothing!","A seat animation where your character simply stands next to the seat. It still counts as occupying the seat though.","/bussim-assets/images/others/emotes/sitting/Stand.webp"]
+          - ["Stop Motion","olivertraynor8","It... looks stylish??","A seat animation where your character goes up and down in a stop-motion like style.","/bussim-assets/images/others/emotes/sitting/Stop_Motion.webp"]
+          - ["Stressed","NotFunnyClown (orfriday36)","Sometimes rides can be stressful.","A seat animation where your character's head bops alongside their hands.","/bussim-assets/images/others/emotes/sitting/Stressed.webp"]
+          - ["Syber","NobleReign",">:3","A seat animation where your character relaxes with arms on their back, looking side to side swiftly.","/bussim-assets/images/others/emotes/sitting/Syber.webp"]
+          - ["Thinking","engi_tf2","I'm.. just.. really deep in thought...","A seat animation where your character thinks about something, before something else grabs its attention temporarily.","/bussim-assets/images/others/emotes/sitting/Thinking.webp"]
+          - ["Upside-down","NobleReign","For when you really want the blood to rush to your brain.","A static seat animation where your head is on the floor, with your body on the seat.","/bussim-assets/images/others/emotes/sitting/Upside-Down.webp"]
+          - ["Voxel","NobleReign","Modded Block Game","A static seat animation where you sit with your hands and legs on top of the seat. This is a reference to other voxel-like games.","/bussim-assets/images/others/emotes/sitting/Voxel.webp"]
+
+    - type: text
+      content:
+        text: >-
+          Color
+          <br><br>
+          You can change the color of a few items, 
+          all of which are related to gamepasses. 
+          The ones you can currently customize are the 
+          <a href="/bussim/items/mini-bus">Mini-Bus</a>, 
+          <a href="/bussim/items/diy-mini-bus">D.I.Y. Mini-Bus</a>, 
+          <a href="/bussim/items/megaphone-ex">Megaphone EX</a>
+          and <a href="/bussim/items/airpods">Airpods</a>
+
+          <br><br>
+
+          <b>!color</b> - Changes your <a href="/bussim/items/mini-bus">Mini-Bus</a> 
+          and 
+          <a href="/bussim/items/diy-mini-bus">D.I.Y. Mini-Bus'</a> color, 
+          largely changing the main parts of the bus.
+
+          <br><br>
+
+          * For those with the <b>OG Driver</b> rank, the Mini-Bus will also glow alongside the color chosen.
+          <br>
+          * And those who have the <b>Contributer</b> rank will also have their Mini-Bus sparkle.
+
+          <br><br>
+
+          Do note however that the color changes applied to the <a href="/bussim/items/diy-mini-bus">D.I.Y. Mini-Bus</a> are only in Bus Simulator, 
+          and will be a simple navy blue color in all other games on Roblox.
+
+          <br><br>
+
+          <b>!mcolor</b> - Changes your Megaphone EX's color, changing the inner rings of the megaphone. This doesn't change your shout message however.
+
+          <br><br>
+
+          <b>!lcolor & !rcolor</b> - Changes your airpod color according to each side, 
+          requires having the <a href="https://www.roblox.com/game-pass/10596401/Colored-Airpods">Colored Airpods</a> gamepass.
+
+          <br><br>
+
+          <u>Tags</u>
+
+          <br><br>
+
+          <b>!togglepd</b> and <b>!setheart</b> are the two commands that currently alter chat tags.
+
+          <br><br>
+
+          <b>!setheart</b> - Allows you to choose a heart to display next to your name, 
+          comes in many varieties, 
+          ending at the Numbers Heart,
+          at 50000 <a href="/bussim/others/reputation">Driver Reputation</a>.
+
+          <br><br>
+
+          <b>!togglepd</b> - Allows you to enable / disable donation tags, gotten by donating to Noble at PLS DONATE,
+
+          <br><br>
+
+          <u>Notes</u>
+
+          <br><br>
+
+          <b>!note [message]</b> - Allows you to set up a note while on the driver seat as long as you have the Bus Driver gamepass.
+
+          <br><br>
+
+          <b>!quote [message]</b> - Allows you to set up a quote for the Simon Says note on The Bus.
+
+          <br><br>
+
+          <u>Ragdoll</u>
+
+          <br><br>
+
+          If you own the Ragdoll gamepass, you can press R to ragdoll on the spot. There isn't much you're intended to do with it, besides purely for comedic effect. However, there are bugs and other unintended stuff you can do with it.
+
+          <br><br>
+
+          <u>Private Servers</u>
+
+          <br><br>
+
+          Private Owner Commands
+
+          <br><br>
+
+          These commands largely are only restricted to the owner of the private server. Most of these involve commands that can massively impact the game. 
+          
+          <br><br>
+
+    - type: table
+      content:
+        # columns should be "fr" (fraction) or "px" (pixels) only.
+        columnSpacing: 0.5fr 1fr
+        #          width height
+        titles:
+          - "Commands"
+          - "Effects"
+        items:
+          - ["<b>!cmds</b>","Allows you to view a list of commands you can do as a Private Server Owner."]
+          - ["<b>!rename (1-5)</b>","Allows you to rename any save slot currently being used,"]
+          - ["<b>!emotion</b>","Allows you to set an emotion for the Bus, being:<br><br>* Happy<br>* Sad<br>* Glitching<br>* Suprised<br>* Neutral<br><br>Gets overriden if an event causes the Bus to have an emotion."]
+          - ["<b>!btools (player)</b>","Gives the player(s) <a href='/bussim/items/edit'>Edit</a>. Using !btools without any player username will give btools to yourself."]
+          - ["<b>!rngevents</b>","Enables / Disables random events happening every 5 minutes. (Default: True)"]
+          - ["<b>!rngweather</b>","	Enables / Disables random weather happening on occasion. (Default: True)"]
+          - ["<b>!weather</b>","Forces a list of weathers. Weathers can also be affected based on biome."]
+          - ["<b>!seats</b>","Enables / Disables seats on the Bus. (Default: True)"]
+          - ["<b>!speed (number)</b>","Forces the Bus to move on a specific speed. Can also accept decimals and negatives.<br>Gets overridden however if a secret button is pressed or an event overrides it. (Default: 1)"]
+          - ["<b>!datainfo</b>","Gathers all the data from saved builds and compiles them to a list."]
+          - ["<b>!event</b>","Allows you to force a specific event, check out the <i>Event's italic name</i> to use in <b>!event</b>.<br>The event names are also case-sensitive!"]
+          - ["<b>!tunnels</b>","Enables / Disables tunnels, when disabled it'll also lock the biome permanently until re-enabled or used with <b>!biome</b>. (Default: True)"]
+          - ["<b>!slock</b>","Locks the server down, kicking anyone who tries to join. (Default: False)"]
+          - ["<b>!time (set / change / lock)</b>","	Allows you to edit time, setting it to a specific point, changing it, or locking it entirely."]
+          - ["<b>!shouts</b>","Enables / Disables shouts from other public / private servers. (Default: True)"]
+          - ["<b>!migrate</b>","Migrates any old saves onto a different format. Mainly used to prevent DataStores from being full and often causing players to not get any permanent items."]
+          - ["<b>!map</b>","Enables / Disables the entire map. Doesn't affect collisions of the road however. (Default: True)"]
+          - ["<b>!biome</b>","Allows you to instantly swap to any biome in the game."]
+          - ["<b>!clear (1-5)</b>","Permanently deletes any of the listed saves."]
+          - ["<b>!load (1-5)</b>","	Loads the build from your save slots."]
+          - ["<b>!load-nobg (1-5)</b>","Loads the build but ignores the parts that directly affect the base game. Useful for saving progress after accidentally breaking an essential part of the game."]
+          - ["<b>!save (1-5)</b>","Saves the current build to any of the 5 slots."]
+          - ["<b>!prune-marker</b>","	Cleans any drawings somebody made with the <a href='/bussim/items/marker'>Marker</a> if they aren't in the server."]
+          - ["<b>!wash-marker</b>","Cleans any and every drawing made with the <a href='/bussim/items/marker'>Marker</a> from the server."]
+
+    - type: text
+      content:
+        text: >-
+          <u>Admin Commands</u>
+
+          <br><br>
+
+          These commands are used by the Bus Simulator Moderator / Admin team to moderate the game. 
+          They have more power than Private Server commands. 
+          You can also have a similar power by joining your Private Server, 
+          assuming somebody else is already in it.
+
+          <br><br>
+
+          The only command available is <b>cmdbar/</b>, the other admin commands will not be listed as to make sure that it is only limited to the game's admins.
