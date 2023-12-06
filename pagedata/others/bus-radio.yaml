@@ -23,38 +23,45 @@ page:
           There's also a couple of minor details such as the radio having a visualizer as well as having the in-game time more accurate compared to the Phone. 
           <br> </br>
           The visualizer also comes in two different styles, being both found in Performance Settings and be disabled as an option. It goes as follows: 
+    
     - type: tree
       content:
         - name: >-
             Classic
           children:
             - name: Uses the old radio visualizer where hard beats often light up the screen from the bottom.
+        
         - name: >-
             Off
           children:
             - name: Completely disables the visualizer.
+        
         - name: >-
             Spectrum
           children:
             - name: Uses a new radio visualizer made by Roblox and completely visualizes the music being played. Automatically turns on at graphics level 8+ by default. 
               children:
                 - name: If the song has no audio, it'll instead visualize a wave.
+    
     - type: text
-        content:
+      content:
           text: >-
             You can also search up using either the name of the song, or with advanced filters like song length, authors, etc, with the maximum song length being 15 minutes, consuming a single song that you have (with the exception being Private Servers).
             <br> </br>
             You can get more songs by: 
+    
     - type: tree
       content:
         - name: Buying the Bus Driver Gamepass and joining every day. (5)
         - name: Receive it as special rewards during an event like New Years or on other happy occassions. (5)
         - name: Receive it when someone buys free songs for everyone, including themselves via Pear. (2)
         - name: Purchase a single song yourself for only 10 Robux, if you don't have any free songs.
+    
     - type: text
-        content:
+      content:
           text: >-
             Currently there is no way to change the radio channel, as it is locked in 295.2 or MEME RADIO, hosted by Teddy, Tazer, Mineboom, MLGBudderCD, Pear, Starfall, Green, and Pixel_Neko. <i>(not to be confused by their NPC versions!)</i>
+    
     - type: section
       content:
         sectionTitle: Tracks
@@ -62,6 +69,7 @@ page:
           The total amount of tracks that has been documented thus far is currently 136+, with 122 being Normal, 6 being Halloween, and 8 being Christmas. please add in case you find a new track, thank you!
           <br> </br>
           Also most audio IDs that are present may not work following March 22nd of 2022, but those that do work will be <b>bolded</b>, mainly Monstercat tracks. 
+    
     - type: table
       content:
         columnSpacing: 1fr 1fr 1fr 1fr 1fr 1fr 1fr
