@@ -260,6 +260,16 @@
                                 </div>
                             {% endfor %}
                         </div>
+                    {% elif data['type'] == "gallery" %}
+                        <text style="font-size: 25px;">Gallery</text>
+                        <div class="gallery-container" style="margin-bottom: 20px;">
+
+                            <div class="gallery" style="padding: 10px;">
+                                {% for image in data["content"]["images"] %}
+                                    <img src="{{ image }}" onclick="location.href='{{ image }}'">
+                                {% endfor %}
+                            </div>
+                        </div>
                     {% endif %}
                 {% endfor %}
                 
