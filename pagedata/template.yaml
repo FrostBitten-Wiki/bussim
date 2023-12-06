@@ -9,7 +9,8 @@ attributions:
 html:
   header:
     title: TitleTest
-    description: Short description about something
+    description: >-
+      Short description about something
     image: ""
     imageBanner: /bussim-assets/images/banner.jpg
 
@@ -22,7 +23,8 @@ html:
     - type: section
       content:
         sectionTitle: SectionTitle
-        sectionDescription: Section Description
+        sectionDescription: >-
+          Section Description
 
     - type: list
       content:
@@ -36,6 +38,20 @@ html:
             listItemTitle: ItemTitle
             listItemDescription: ItemDescription
             listItemRedirect: "/bussim/home"
+
+    - type: table
+      content:
+        # columns should be "fr" (fraction) or "px" (pixels) only.
+        columnSpacing: 1fr 1fr 1fr
+        #          width height
+        imageSize: 128   128
+        titles:
+          - "Title 1"
+          - "Title 2"
+          - "Title 3"
+        items:
+          - ["https://placehold.co/256", "more testing", "text"]
+          - ["test", "", "test"]
 
     - type: infobox
       content:

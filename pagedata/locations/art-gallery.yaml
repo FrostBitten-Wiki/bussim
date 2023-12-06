@@ -1,0 +1,93 @@
+page:
+  title: Art Room
+  description: PageDescription
+  keywords: "wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>"
+
+attributions:
+  - Edited & Ported by Nyx
+
+html:
+  header:
+    title: Art Gallery
+    description: >-
+      The Art Gallery is a location in Bus Simulator which can be accessed by flushing <a href="/bussim/location/the-bus">The Bus'</a> toilet while you are seated.
+      
+      <br><br>
+
+      The Art Gallery (aka Credits Room or Art Room) contains 38 artworks (since December 6, 2023) made by the community, and 15 podiums from various people with their contributions.
+      
+      <br><br>
+
+      The Art Gallery has Conveyor Belts around the map as well as Jump Pads from LittleBigPlanet 2 to help you access more parts of the map, Mostly being artworks. You can also view the full image of an artwork by clicking on them.
+
+      <br><br>
+
+      It also plays a music on loop, which can be heard anywhere inside the gallery, the music being played is "<a href="https://www.youtube.com/watch?v=dlTcxGq4klk">Diamanten (2022 Remastered Version)</a>". The music used to play PaRappa the Rapper.
+
+    image: ""
+    imageBanner: /bussim-assets/images/banner.jpg
+
+  pageContent:
+    - type: quote
+      content:
+        quote: >-
+          i just dont know how i am apparently worth yall going out of your way and taking a few hours of your day to put your artistic abilities to use but thank you all so much i appreciate all of it ;w;
+          <br><br>
+          hi fan art is here and stuff if u want to go back D I E thanks bye
+          <br><br>
+          jk just touch the puddle
+        author: "NobleReign"
+    
+    - type: text
+      content:
+        text: Test
+
+    - type: table
+      content:
+        columnSpacing: .7fr 1fr 1fr
+        imageSize: 128   128
+        titles:
+          - "Person"
+          - "Role"
+          - "Contribution"
+        items:
+          - ["skatecar_01", "Knitters", "Made the new seat models."]
+          - ["NobleReign", "Creator / Builder / Scripter", "Created Bus Simulator"]
+          - ["MiroCev", "Former Creator / Builder / Scripter", ""]
+          - ["4J3K", "Former Creator / Builder / Scripter", ""]
+          - ["Steven_Scripts", "Developer / Scripter", "Gave permission to use the BSS map."]
+          - ["lnr_o", "", "Redesigned the bus, helped with making BSS look abandoned, made the Megaphone EX model, made the new Mini-Bus model."]
+          - ["3razerhead", "", "Updated the mini-fridge."]
+          - ["helicores", "", "Created smug dance animation."]
+          - ["frederikhome", "", "Audio searching API. (while it lasted)"]
+          - ["avodey", "", "	Basis for the FNF engine."]
+          - ["Elttob", "Emotional Support	", "Fusion, VOLUMIKA."]
+          - ["Tazer", "", "Monstercat music selection for the radio."]
+          - ["NamerElf", "", "I'm tired of standing in the same spot. Bro, I'm out. (made the <a href=\"/bussim/locations/glacier-cave\">Glacier Cave</a>)"]
+          - ["CuhUnit", "", "Made the griddy emote."]
+          - ["WaffleWizYeah & Ocublox", "Knitters", "Made the Bus Sim UGC: both <a href=\"/bussim/others/diy-mini-bus\">D.I.Y. Mini-Bus</a> and <a href=\"/bus-cola-bandolier\">Bus-Cola Bandolier</a>."]
+    
+    - type: section
+      content:
+        sectionTitle: Trivia
+        sectionDescription: ''
+
+    - type: tree
+      content:
+        - name: >-
+            There are also extra texts coming from NobleReign, mostly from his very first fanart he received.
+          children:
+            - name: >-
+                The first art on the left is the very first and original fanart, and it says: <highlight type="grey">"this IS my first ever fanart by Dysphorian (now tal1y) they brought it back from the dead :)"</highlight><br><br>
+            - name: >-
+                The art on the right side shows the more updated version of the left one, and it says: <highlight type="grey">"they also made this one, its like a revamped version :D"</highlight><br><br>
+            - name: >-
+                There's also some text that is shown above the Emergency Button that sends you back to <a href="/bussim/locations/the-bus">The Bus</a>, due to VR players unable to trip on the puddle.
+              children:
+                - name: >-
+                    It also had an advertisement of the VRChat version of Bus Simulator: <highlight type="grey">"vr players check out the vrchat version of bus sim"</highlight>
+                  children:
+                    - name: >-
+                        It was later removed because of possibly breaking Roblox's TOS, leading the user offsite. It was now replaced by this instead: <highlight type="grey">"vr players hit this instead"</highlight>
+        - name: >-
+            In one of the past builds of Bus Simulator, the Art Gallery also had a larger text above the ceiling in red saying <text style="color: red;">"make efeuc fanart"</text>. But it was later removed in an Unknown Build.

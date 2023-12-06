@@ -225,9 +225,37 @@
                         <div style="margin-top: 20px; margin-bottom: 20px;">
                             {{ render_tree(data['content']) }}
                         </div>
-                    {% elif data['type'] == "gallery" %}
+                    {% elif data['type'] == "quote" %}
                         <div style="margin-top: 20px; margin-bottom: 20px;">
-                           
+                            <div style="display: grid; grid-template-columns: 0.05fr 1fr 0.05fr;">
+                                <text style="font-size: 50px;">"</text>
+                                <text>{{ data["content"]["quote"] }}</text>
+                                <text style="font-size: 50px; text-align: right;">"</text>
+                            </div><br>
+                            <text>- {{ data["content"]["author"] }}</text>
+                        </div>
+                    {% elif data['type'] == "table" %}
+                        <div style="margin-top: 20px; margin-bottom: 20px;">
+                            {% set spacing = data["content"]["columnSpacing"].split() %}
+                            {% set columns = spacing|length %}
+                            
+                            <div class="container" style="padding: 10px; display: grid; grid-template-columns: {{ data["content"]["columnSpacing"] }};">
+                                {% for title in data["content"]["titles"] %}
+                                    <text>{{ title }}</text>
+                                {% endfor %}
+                            </div>
+
+                            {% for items in data["content"]["items"] %}
+                                <div class="container" style="padding: 10px; display: grid; grid-template-columns: {{ data["content"]["columnSpacing"] }};">
+                                    {% for value in items %}
+                                        {% if (".webp" in value) or (".jpg" in value) or (".png" in value) or ("placehold.co" in value) %}
+                                            <img src="{{ value }}" width="{{ data["content"]["imageSize"].split()[0] }}" height="{{ data["content"]["imageSize"].split()[1] }}" style="object-fit: cover;" loading="lazy">
+                                        {% else %}
+                                            <text>{{ value }}</text>
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            {% endfor %}
                         </div>
                     {% endif %}
                 {% endfor %}

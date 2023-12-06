@@ -67,6 +67,10 @@ highlight {
     color: #eb4034;
 }
 
+highlight[type="grey"] {
+    color: #979797;
+}
+
 .checkBg {
     background: conic-gradient(
         var(--color1) 90deg,

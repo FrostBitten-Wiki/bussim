@@ -16,8 +16,8 @@ html:
           - listItemImage: /bussim-assets/images/biomes/biodiverse.webp
             listItemTitle: Biodiverse
             listItemDescription: >
-              Biodiverse is one of the new biomes added to Bus Simulator.
-              It is composed of a much more grassy environment with forests, large grass being bigger than Robloxians, ferns, bushes, as well as moving butterflies from time to time.
+              Biodiverse is composed of a much more grassy environment with forests,
+              large grass being bigger than Robloxians, ferns, bushes, as well as moving butterflies from time to time.
             listItemRedirect: /bussim/biomes/biodiverse
 
           - listItemImage: /bussim-assets/images/biomes/bricks.webp
