@@ -1,0 +1,47 @@
+page:
+  title: Coffee
+  description: Coffee is a usable item obtained from the pool event that appears next to the edges of the pool.  
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Coffee
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Coffee
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+      - type: section
+        content:
+         sectionTitle: Info
+      - type: text
+        content:
+          text: >-
+           <i >Are you looking for the <a href="/bussim/items/homemade-coffee">Homemade Coffee</a>, instead?</i>
+
+           <br><br>
+
+           Coffee is a usable item obtained from the pool event that appears next to the edges of the pool. 
+            It is used much like a soda; however, it gives no additional effects.
+
+           <br><br>
+
+           It appears to be a Bloxdonald's coffee 
+           (as can be told from a large yellow 'B') and bears significant resemblance to its real-world counterpart.
+
+            <br><br>
+
+           Its description states : "Old Good Coffee."
+
+            <br><br>
+
+            The coffee is basically identical to the <a href="/bussim/items/cola">Cola</a>, in speed, duration, 
+            and health regeneration only that this is less accessible, 
+            being in only one event. You are best just getting the Cola, 
+            but you can use coffee for cosmetic purposes.
+            <br><br>
+
+      - type: gallery
+        content:
+          images:
+            - /bussim-assets/images/items/coffee.webp
