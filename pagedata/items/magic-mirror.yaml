@@ -1,0 +1,43 @@
+page:
+  title: Magic Mirror
+  description: The Magic Mirror is an item obtained by returning to the Glacier Cave after receiving the Animal Messenger badge from Frostbite's questline.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Magic Mirror
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Magic Mirror
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: quote
+      content:
+        quote: "Takes you back to Frost's den."
+        author: Item Description
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         The Magic Mirror is an item obtained by returning to the Glacier Cave after receiving the <a href="https://www.roblox.com/badges/2130010649/Animal-Messenger">Animal Messenger</a> badge from Frostbite's questline.
+
+         <br><br>
+
+         On use, it will teleport you to the <a href="/bussim/locations/glacier-cave">Glacier Cave</a>, just several feet away from the <a href="/bussim/npcs/frostbite">Frostbite</a> NPC.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+    - type: tree
+      content:
+        - name: This item, as well as the event and badges, was added with the 20 Millionth/Christmas update, but isn't a limited-time item.
+        - name: This is a reference to an item of the same name from <a href="https://terraria.fandom.com/wiki/Magic_Mirrors?so=search">Terraria</a>.
+        - name: On September 10th, the neon mesh part of the Magic Mirror was moderated for no apparent reason, causing the item to look hollow compared the item shown in the Infobox.
+          children:
+            - name: This has been fixed following after, with it having a similar appearance.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/magic-mirror.webp
