@@ -1,0 +1,32 @@
+page:
+  title: Rocky
+  description: Rocky is a biome that will spawn randomly after driving through a tunnel.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Rocky
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Rocky
+    description: Biomes
+    image: ''
+    imageBanner: /bussim-assets/images/biomes/rocky.webp
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >- 
+          Rocky is a biome that will spawn randomly after driving through a tunnel. 
+          The biome is rather simple, being made entirely out of rocks and boulders.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+    - type: tree
+      content:
+        - name: During the event <a href="/bussim/events/cave">Cave</a>, this biome would appear until the next biome.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/biomes/galleries/Rocky.webp
