@@ -1,0 +1,54 @@
+page:
+  title: Starter Box
+  description: The Starter Box is an obtainable item from the 10 Million Visits event.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Starter Box
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Starter Box
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: quote
+      content:
+       quote: "Gives you the essentials!"
+       author: Item Description
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         The Starter Box is an obtainable item from the 10 Million Visits event.
+
+         <br><br>
+
+         Appearing as a purple and violet present, the item can be opened with left click. 
+         It gives you all the items on the <a href="/bussim/locations/the-bus">bus</a>, currently being: 
+         <a href="/bussim/items/cola">Cola</a>, 
+         <a href="/bussim/items/cold-cola">Cold Cola</a>, 
+         <a href="/bussim/items/hot-cola">Hot Cola</a>, 
+         <a href="/bussim/items/cramped-cola">Cramped Cola</a>, 
+         <a href="/bussim/items/gameboy-advance">Gameboy Advance</a>, 
+         <a href="/bussim/items/sign">Sign</a>, 
+         <a href="/bussim/items/marker">Marker</a> 
+         and <a href="/bussim/items/pizza">Pizza</a>.
+
+         <br><br>
+
+         The box could be a reskin of the "Royal Gift of Kings" hat from 2016/2017. 
+         The gift was part of a set of similar items which could be bought for large sums of money to unbox into a limited item after a period of time.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+
+    - type: tree
+      content:
+        - name: This item used to only give all but the <a href="/bussim/items/marker">Marker</a> and <a href="/bussim/items/pizza">Pizza</a>, due to the former being released after the box and the latter being an oversight. It was then changed to include both to the box 2 years after release.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/starter-box.webp
