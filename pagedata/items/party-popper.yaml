@@ -1,0 +1,42 @@
+page:
+  title: Party Popper
+  description: The Party Popper is a cosmetic item obtained from the 10 Million Visits event.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Party Popper
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Party Popper
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: quote
+      content:
+        quote: "<font size='8'>&#127881</font>"
+        author: Item Description
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         The Party Popper is a cosmetic item obtained from the 10 Million Visits event. 
+         The item makes a small blast of confetti, 
+         and has a cooldown of 2 seconds.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+
+    - type: tree
+      content:
+        - name: In the <a href="/bussim/events/no-dough">No Dough</a>/<a href="/bussim/events/santas-gone">Santas Gone</a> event, this item can be used to distract the Civilians.
+        - name: The item can be seen in the <a href="https://kit-battle.fandom.com/wiki/Randomized_Kit">Randomized Kit</a> in the <a href="https://www.roblox.com/games/6549663822/Kit-Battle-Beta-Testing">Kit Battle Beta</a>.
+        - name: The item was previously seen in a Bloxdonalds clothing store.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/party-popper.webp
+          
