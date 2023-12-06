@@ -1,0 +1,28 @@
+page:
+  title: Fall
+  description: Fall is a biome in the game that is similar to Summer,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Fall
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Fall
+    description: Biomes
+    image: ''
+    imageBanner: /bussim-assets/images/biomes/fall.webp
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >- 
+          Fall is a biome in the game that is similar to <a href='/bussim/biomes/summer'>Summer</a>,
+          but is replaced with Orange instead of Green.
+
+          <br><br>
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/biomes/galleries/Pov_fall.webp

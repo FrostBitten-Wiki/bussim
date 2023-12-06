@@ -1,0 +1,44 @@
+page:
+  title: Homemade Coffee
+  description: The Homemade Coffee is an temporary item from the Goat Station event,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Homemade Coffee
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Homemade Coffee
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         <i>Are you looking for the regular <a href="/bussim/items/coffee">Coffee</a>, instead?</i>
+         
+         <br><br>
+
+         The Homemade Coffee is an temporary item from the <a href="/bussim/events/goated-gas-station">Goat Station</a> event, 
+         and recovers more health than the <a href="/bussim/items/cola">Cola</a> and regular <a href="/bussim/items/coffee">Coffee</a>. 
+         The item is the same as the regular Coffee, 
+         but is in a mug instead of a BloxDonalds cup.
+
+    - type: section
+      content:
+        sectionTitle: How To obtain
+    - type: text
+      content:
+        text: >-
+         You can obtain Homemade Coffee by heading over to <a href="/bussim/npcs/zeon">Zeon's</a> kitchen and clicking the button on the Coffee Maker. 
+         Once it's pressed, the Coffee will begin to brew. 
+         When it's done, 
+         click on the pot full of Coffee to obtain the item.
+         <br><br>
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/homemade-coffee.webp

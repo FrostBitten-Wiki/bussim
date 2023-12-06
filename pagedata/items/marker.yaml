@@ -1,0 +1,107 @@
+page:
+  title: Marker
+  description: The Marker is an item that allows you to draw lines almost anywhere in the game,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Marker
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Marker
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: quote
+      content:
+        quote: "They can't lock down your creativity. (Only visible to friends.)"
+        author: Item Description
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         The Marker is an item that allows you to draw lines almost anywhere in the game, 
+         it currently has 3 tools, Export, Draw, and Erase.
+
+         <br><br>
+
+         All of your drawings will also be visible to your friends in Public Servers, 
+         and to everyone in Private Servers. 
+         And will load for others even if they join after you've drawn something.
+
+         <br><br>
+
+         Do note however that as of now, 
+         rejoining will purge all your drawings.
+
+    - type: section
+      content:
+        sectionTitle: Export tool
+
+    - type: text
+      content:
+        text: >-
+         The export tool allows you to export all of your drawings (dots or art) by clicking the 1st button when holding the Marker. 
+         It'll export all of the lines you have made in the game and exports them as a Model & Packages in your desktop / browser inventory. 
+         All of which is still subjected via moderation.
+
+         <br><br>
+
+         You'll then be able to import them in Roblox Studio to use them in any kind of project in your Places such as graffiti, art, etc.
+
+    - type: section
+      content:
+        sectionTitle: Draw tool
+  
+    - type: text
+      content:
+        text: >-
+          The draw tool is the 2nd button when holding the Marker, 
+          when clicked on you'll enter Drawing Mode: 
+          where you'll be able to draw lines with different colors almost anywhere in the game.
+
+          <br><br>
+
+          There are 4 free colors to use, being Red, Green, Blue, and Black with Black as default. 
+          There's also two other features being Glow in the Dark and Custom Colors, 
+          however are both locked by their own respective gamepasses.
+
+          <br><br>
+
+          The <a href="https://www.roblox.com/game-pass/235161212/Glow-In-The-Dark-Marker">Glow in the Dark</a> gamepass is as you'd expect, making it glow regardless of lighting; costing only 50 Robux. 
+          Likewise, the Custom Colors gamepass allows you to make any other color aside from the 4 using both a selectable color wheel as well as 6 values 
+          (being RGB and HSV) and a brightness slider to use specific colors, only costing 65 Robux.
+
+          <br><br>
+
+          Do note however, that drawing on surfaces that can be deleted will also delete any drawings on it, 
+          and some parts occasionally from <a href="/bussim/events">Events</a> are considered Invalid Surfaces.
+
+    - type: section
+      content:
+        sectionTitle: Erase tool
+
+    - type: text
+      content:
+        text: >-
+          The erase tool is the 3rd button when holding the Marker, 
+          with two functions: when dragging your mouse with this enabled, 
+          it'll remove any lines that the eraser touches in a large range. 
+          It also works likewise, anywhere similar to the Draw Tool. 
+          The secondary function allows you to delete all drawings made by you specifically by simply clicking the Trash icon that appears during Erase Mode.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+    - type: tree
+      content:
+        - name: This item used to be added years back when the prop itself was added, however Noble forgot to add its' functionality until someone mentioned it again.
+        - name: This is the only item that VR players cannot even pick up normally. This is because the item isn't 100% supported for it yet, but will receive one soon.
+        - name: The tooltip changes accordingly based on if you are in a Public / Private server, with Private server removing the "Only visible to friends." as it shows up to everyone in the server regardless of status.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/marker.webp
+          

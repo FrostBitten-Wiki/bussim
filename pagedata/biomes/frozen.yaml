@@ -1,0 +1,33 @@
+page:
+  title: Frozen
+  description: Frozen is a biome that will spawn randomly after driving through a tunnel.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Frozen
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Frozen
+    description: Biomes
+    image: ''
+    imageBanner: /bussim-assets/images/biomes/frozen.webp
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >- 
+          Frozen is a biome that will spawn randomly after driving through a tunnel. 
+          It comprises of ice spikes, trees, and occasionally crashed helicopters. 
+          It also has a slightly desaturated light blue for its fog.
+    - type: section
+      content:  
+        sectionTitle: Trivia
+    - type: tree
+      content:
+        - name: During the event <a href="/bussim/events/blizzard">Blizzard</a>, this biome would appear until the end of the event.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/biomes/galleries/Frozen.webp

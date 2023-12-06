@@ -1,0 +1,32 @@
+page:
+  title: Snowy
+  description: Snowy is a biome that will spawn randomly after driving through a tunnel.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Snowy
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Snowy
+    description: Biomes
+    image: ''
+    imageBanner: /bussim-assets/images/biomes/snowy.webp
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >- 
+          Snowy is a biome that will spawn randomly after driving through a tunnel. 
+          The biome is based on winter, having the ground and trees covered in snow.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+    - type: tree
+      content:
+        - name: After the event blizzard, Snowy will appear until the next biome appears.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/biomes/galleries/Snowy.webp

@@ -46,3 +46,8 @@ html:
         - name: Overseas is the only biome to have a road-like bridge, 
                 and also being one of the two more unique biomes, 
                 the other being <a href="/bussim/biomes/lava">Lava</a>.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/biomes/Overseas.webp

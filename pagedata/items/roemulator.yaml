@@ -1,0 +1,42 @@
+page:
+  title: RoEmulator
+  description: The RoEmulator is a gamepass item that lets you play games on your own.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, RoEmulator
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: RoEmulator
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+          <i>Not to be Confused with <a href="/bussim/items/gameboy-advance">Gameboy Advance</a>.</i>
+
+          <br><br>
+
+          The RoEmulator is a gamepass item that lets you play games on your own. 
+          It has options of three games: Adventure Island, Race The Sunset, and Lunar Lander. 
+          More details of the games can be seen <a href="/bussim/others/games">here</a>.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+
+    - type: tree
+      content:
+        - name: Despite the name, it can only play those 3 games, and cannot play any cartridge games.
+        - name: The item is the same one as the Adventure Island gear in ROBLOX.
+        - name: All 3 games can be purchased as gears on ROBLOX.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/roemulator.webp
+          

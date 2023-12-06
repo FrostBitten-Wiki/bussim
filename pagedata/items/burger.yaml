@@ -1,0 +1,42 @@
+page:
+  title: Burger
+  description: The Burger is an edible item that is obtained from the Bloxdonalds event. 
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Burger
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Burger
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: quote
+      content:
+       quote: "Straight from the floor, into your unwashed hands."
+       author: Item Description
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         The Burger is an edible item that is obtained from the <a href="/bussim/events/bloxdonalds">Bloxdonalds</a> event. 
+         Its appearance is of that of the classic Cheezburger ROBLOX Gear. 
+         When the player consumes it, their screen becomes green, 
+         their camera jolts upwards going down, and it deals 25 health. 
+         This only lasts a few seconds before the green screen disappears.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+    - type: tree
+      content:
+        - name: The Bloxdonalds burger along with the <a href="/bussim/items/lemon-soda">Lemon Soda</a> and <a href="/bussim/items/expired-taco">Expired Taco</a> are the only items known that makes the player take damage and give nausea.
+        - name: Originally after the revamped NPC was introduced, whenever you asked for a burger, you won't be able to proceed without taking a bite to end the conversation. Which while wasn't much forced people to eat it.
+          children:
+            - name: In the 20 Million Update, this was changed so that now the burger isn't on your hands and you can proceed the conversation as normal. Thankfully.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/burger.webp

@@ -1,0 +1,52 @@
+page:
+  title: Candied Cane
+  description: The Candied Cane is a healing item given by obtaining The Bringer of Gifts badge from the Santa's Gone event.  
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Candied Cane
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Candied Cane
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: quote
+      content:
+       quote: "A literal candy cane."
+       author: Item Description
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         The Candied Cane is a healing item given by obtaining <a href="https://www.roblox.com/badges/2124884560/The-Bringer-of-Gifts">The Bringer of Gifts</a> badge from the Santa's Gone event.
+
+         <br><br>
+
+         When held, it will give you a mild speed boost, and on top of that, clicking will also heal you and provide an extra speed boost.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+    - type: tree
+      content:
+        - name: This item has a slower cooldown than most healing items, e.g. the colas.
+        - name: The item makes a very quiet "Tunk" sound when equipped, and can only be heard in super quiet environments (i.e. Glaicer Cave) and/or with headphones on.
+          children:
+
+    - type: section
+      content:
+        sectionTitle: Technical Trivia
+
+    - type: tree
+      content:
+        - name: 'It is currently possible to utilize this item as a form of teleportation, first use the item multiple times then unequip it at the first spot. Secondly, go to any spot outside of your first spot and drink the <a href="/bussim/items/cramped-cola">Cramped Cola</a>, and lastly: equip the Candied Cane again. This will force you to teleport back to your first spot at any point in the game.'
+          children:
+            - name: The same applies for <a href="/bussim/items/snowcone">Snowcone</a>, but is much more precise and isn't capable of flinging you upon teleportation.
+            - name: Do note though, that it occasionally slows you down for one-life per teleport. So it's recommend to use it wisely.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/candied-cane.webp

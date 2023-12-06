@@ -1,0 +1,34 @@
+page:
+  title: Gas Station Ice Cream
+  description: The Gas Station Ice Cream is a tool obtainable by purchasing it for 8 passenger rep during the Goat Station Event event,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Gas Station Ice Cream
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Gas Station Ice Cream
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         The Gas Station Ice Cream is a tool obtainable by purchasing it for 8 passenger rep during the <a href="/bussim/events/goated-gas-station">Goat Station Event</a>,
+          or by stealing it.
+
+         <br><br>
+
+         The item works the same as the Ice Cream tool and other ice creams, 
+         except it plays a flangey 'Yummy' sound. 
+         It doesn't heal very well either, 
+         and <a href="/bussim/items/cola">Cola</a> is preferred over this.
+         <br><br>
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/gas-station-ice-cream.webp

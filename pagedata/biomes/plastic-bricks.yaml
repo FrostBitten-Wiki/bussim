@@ -1,0 +1,28 @@
+page:
+  title: Plastic Bricks
+  description: Plastic Bricks is a biome that appears with a Smooth Plastic material in green.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Plastic Bricks
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Plastic Bricks
+    description: Biomes
+    image: ''
+    imageBanner: /bussim-assets/images/biomes/plastic-bricks.webp
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >- 
+          Plastic Bricks is a biome that appears with a Smooth Plastic material in green. 
+          A unique tree mesh and red plastic bricks spawn on the terrain, 
+          as well as buildings. The biome used to be called LEGO, 
+          but was changed potentially due to copyright reasons.
+          <br><br>
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/biomes/galleries/Plastic_Trees.webp
