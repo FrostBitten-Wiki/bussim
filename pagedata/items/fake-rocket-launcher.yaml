@@ -1,6 +1,6 @@
 page:
   title: Fake Rocket Launcher
-  description: The FakeRocket, or more commonly known as the Fake Rocket Launcher is an item obtained in the Shack event.
+  description: The Expired Taco is a gear obtained from the Time Travel Event,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Fake Rocket Launcher
 attributions:
   - "Ported By PolyframeX"
@@ -28,7 +28,6 @@ html:
          When used, it will at first seem to sound like a normal rocket launcher from Roblox, 
          but will instead explode the person who holds this item instead, 
          It can't also be used to kill other players if you are standing next to them.
-         <br><br>
 
     - type: section
       content:
@@ -41,4 +40,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/items/fake-rocket-launcher.webp
+          - /bussim-assets/images/items/fakre-.webp
