@@ -265,21 +265,26 @@
                         <div style="margin-top: 20px; margin-bottom: 20px;">
                             {% set spacing = data["content"]["columnSpacing"].split() %}
                             {% set columns = spacing|length %}
-                            
-                            <div class="container" style="padding: 10px; display: grid; grid-template-columns: {{ data["content"]["columnSpacing"] }};">
+                            {% set columnWidth = data["content"]["widthSize"] / columns %}
+                                                
+                            <div class="container" style="padding: 10px; display: flex; flex-wrap: wrap; justify-content: space-between;">
                                 {% for title in data["content"]["titles"] %}
-                                    <text>{{ title }}</text>
+                                    <div style="flex: 0 0 calc({{ columnWidth }}% - 20px); max-width: calc({{ columnWidth }}% - 20px);">
+                                        <text>{{ title }}</text>
+                                    </div>
                                 {% endfor %}
                             </div>
-
+                        
                             {% for items in data["content"]["items"] %}
-                                <div class="container" style="padding: 10px; display: grid; grid-template-columns: {{ data["content"]["columnSpacing"] }};">
+                                <div class="container" style="padding: 10px; display: flex; flex-wrap: wrap; justify-content: space-between;">
                                     {% for value in items %}
-                                        {% if (".webp" in value) or (".jpg" in value) or (".png" in value) or (".gif" in value) or ("placehold.co" in value) %}
-                                            <img src="{{ value }}" width="{{ data["content"]["imageSize"].split()[0] }}" height="{{ data["content"]["imageSize"].split()[1] }}" style="object-fit: cover;" loading="lazy">
-                                        {% else %}
-                                            <text>{{ value }}</text>
-                                        {% endif %}
+                                        <div style="flex: 0 0 calc({{ columnWidth }}% - 20px); max-width: calc({{ columnWidth }}% - 20px);">
+                                            {% if (".webp" in value) or (".jpg" in value) or (".png" in value) or (".gif" in value) or ("placehold.co" in value) %}
+                                                <img src="{{ value }}" width="{{ data["content"]["imageSize"].split()[0] }}" height="{{ data["content"]["imageSize"].split()[1] }}" style="object-fit: cover;" loading="lazy">
+                                            {% else %}
+                                                <text style="text-wrap: wrap;">{{ value }}</text>
+                                            {% endif %}
+                                        </div>
                                     {% endfor %}
                                 </div>
                             {% endfor %}

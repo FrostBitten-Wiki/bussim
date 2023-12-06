@@ -50,6 +50,7 @@ html:
     - type: table
       content:
         columnSpacing: 215px 215px
+        widthSize: 100
         titles:
           - "Heart"
           - "Driver Reputation"

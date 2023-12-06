@@ -45,6 +45,8 @@ html:
         columnSpacing: 1fr 1fr 1fr
         #          width height
         imageSize: 128   128
+        # 100 if its just about 1 to 4 columns, 200 for 5+ columns, although your free to experiment with values. 
+        widthSize: 100
         titles:
           - "Title 1"
           - "Title 2"
