@@ -55,6 +55,7 @@ html:
         columnSpacing: 180px 1fr 285px 192px
         #          width height
         imageSize: 192   256
+        widthSize: 100
         titles:
           - "Emote Commands"
           - "Description"
@@ -101,6 +102,7 @@ html:
         columnSpacing: 150px 0.7fr 1fr 1fr 192px
         #          width height
         imageSize: 192   192
+        widthSize: 100
         titles:
           - "Seat Animation"
           - "Creators/Authors"
