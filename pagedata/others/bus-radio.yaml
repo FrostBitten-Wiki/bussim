@@ -66,22 +66,145 @@ html:
       content:
         sectionTitle: Tracks
         sectionDescription: >-
-          The total amount of tracks that has been documented thus far is currently 136+, with 122 being Normal, 6 being Halloween, and 8 being Christmas. please add in case you find a new track, thank you!
+          The total amount of tracks that has been documented thus far is currently 135+, with 90 being Normal, 6 being Halloween, 8 being Christmas, and 31 Intermissions. please add in case you find a new track, thank you!
           <br> </br>
-          Also most audio IDs that are present may not work following March 22nd of 2022, but those that do work will be <b>bolded</b>, mainly Monstercat tracks. 
+          Also most audio IDs that are present may not work following March 22nd of 2022, but those that do work will be <em>Emphasized</em>, mainly Monstercat tracks. 
     
+    - type: infobox
+      content:
+        infoBoxTitle: 
+          - "Normal / All Season Tracks"
+          - "#FFFFFF"
+        infoBoxDescription: >-
+          These tracks are playable throughout the entire year, anytime, anyday.
+
     - type: table
       content:
-        columnSpacing: 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+        columnSpacing: 150px 225px 200px 250px 150px 150px
         imageSize: 128   128
         titles:
           - "Track Name"
-          - "Intermission?"
           - "Reference / Parody"
           - "Origin / Author"
           - "Notes"
           - "Audio Links / Files"
           - "Roblox Audio ID"
         items:
-          - ["https://placehold.co/256", "more testing", "text"]
-          - ["test", "", "test"]
+          - ["1 2 Oatmeal", "Kirby Super Star (Gourmet Race)", "mariofan888 (Parody) | Kirby Super Star / Jun Ishikawa (Original)", "", "<a href=\"https://www.youtube.com/watch?v=0Dpw0VvH4m0\">Youtube Link</a>", ""]
+          - ["A Bass Renaissance - Instrumental", "", "KPM Main Series", "", "<a href=\"https://www.youtube.com/watch?v=RM7q_ToYJNs\">Youtube Link</a>", "<em>1841471859</em>"]
+          - ["A.M.R - Beginnings", "", "Monstercat & A.M.R", "", "<a href=\"https://www.youtube.com/watch?v=k0sGCU63lS0\">Youtube Link</a>", "<em>7023370016</em>"]
+          - ["Above All", "", "HOME", "", "<a href=\"https://www.youtube.com/watch?v=Pbpjh8_QI3U\">Youtube Link</a>", ""]
+          - ["Advertisement - Roblox Group Advertisement", "", "MEME RADIO", "This was found in a toolbox.", "", "9167864485"]
+          - ["Advertisement - Spotify - Want a Break from the Ads?", "", "Spotify", "", "<a href=\"https://www.youtube.com/watch?v=7OBacT66SCM\">Youtube Link</a>", ""]
+          - ["Alvin and the Chimpmunks - All the Small Things", "", "Alvin and the Chimpmunks", "This song is also played by Teddy, in both of his events.", "<a href=\"https://www.youtube.com/watch?v=FPJP6E-osPg\">Youtube Link</a>", ""]
+          - ["Another Medium", "", "Undertale / Toby Fox", "", "<a href=\"https://www.youtube.com/watch?v=fduyBqxhXKs\">Youtube Link</a>", ""]
+          - ["Bad Computer - Clarity", "", "Monstercat & Bad Computer", "", "<a href=\"https://www.youtube.com/watch?v=jcvCMZUgPxc\">Youtube Link</a>", "<em>7023598688</em>"]
+          - ["Battle for an Underwater City<br></br>(Goo Lagoon)", "", "Spongebob: Battle for Bikini Bottom / Jimmy Levine, Robert Crew, & Alex Wilkinson", "", "<a href=\"https://www.youtube.com/watch?v=toe0Gog8Z3o\">Youtube Link</a>", ""]
+          - ["Beware the Forest's Mushrooms 8-BIT", "Super Mario RPG: Legend of the Seven Stars (Beware the Forest's Mushrooms)", "Loeder", "", "<a href=\"https://www.youtube.com/watch?v=HLUOm9b9-20\">Youtube Link</a>", ""]
+          - ["Big", "", "PaRappa the Rapper 2 / Masava Matsuura & Yoshihisa Suzuki", "", "<a href=\"https://www.youtube.com/watch?v=unwEMYh0H4I\">Youtube Link</a>", ""]
+          - ["Blizzard", "", "Light Club", "", "<a href=\"https://www.youtube.com/watch?v=k1s5PWNqj7Y\">Youtube Link</a>", ""]
+          - ["Blox Don't Lie", "Hips Don't Lie", "NobleReign (Conversion) | Shakira (Original)", "NobleReign converted a MIDI of the song into Roblox.", "", "3953136786"]
+          - ["Calm Background Music<br></br>(Eternally Us - Bargaining)", "", "Infinite Grace Games", "This is the same theme that plays during the Time Travel event.<br></br>This was also originally uploaded by MultitudeOfNumbers with the track name.", "<a href=\"https://www.youtube.com/watch?v=q-T8u7RJii0\">Youtube Link</a>", "214234277"]
+          - ["Car Rap Instrumental", "", "PaRappa the Rapper / Masaya Matsuura", "", "<a href=\"https://www.youtube.com/watch?v=ZbVS5Otptj8\">Youtube Link</a>", ""]
+          - ["Chill Mellow Loop w/ Ambience Nature Noises", "", "OverlordGhs", "", "<a href=\"https://www.youtube.com/watch?v=x0FiNRtXWkE\">Youtube Link</a>", "145485235"]
+          - ["City Streets at Dawn", "", "LawnReality", "", "<a href=\"https://www.youtube.com/watch?v=q_e1BU1u6ow\">Youtube Link</a>", ""]
+          - ["Dancing Snowflakes", "", "Work at a Pizza Place / Basspartout", "", "<a href=\"https://www.youtube.com/watch?v=3lLmTDVvog8\">Youtube Link</a>", ""]
+          - ["Decay", "", "HOME", "", "<a href=\"https://www.youtube.com/watch?v=fcRkfmjBFCM\">Youtube Link</a>", ""]
+          - ["DEJA OOF", "Deja Vu", "niko_ (Remix) | Initial D (Original)", "", "<a href=\"https://www.youtube.com/watch?v=mup3vR_fsAM\">Youtube Link</a>", ""]
+          - ["Dion Timmer - Shiawase", "", "Monstercat & Dion Timmer", "", "<a href=\"https://www.youtube.com/watch?v=N-V3zqvtbCM\">Youtube Link</a>", "<em>5409360995</em>"]
+          - ["Doki Doki Literature Club Theme [Moonbase Alpha TTS Singing]", "Doki Doki Literature Club (Main Theme)", "Oasty (Cover) | Doki Doki Literature Club (Original)", "", "<a href=\"https://www.youtube.com/watch?v=C7M12GQ1_jE\">Youtube Link</a>", ""]
+          - ["Doki Doki Literature Club! OST - Okay, Everyone!", "", "Doki Doki Literature Club", "", "<a href=\"https://www.youtube.com/watch?v=Hh2e9_bGSys&list=PLc5ZKngbAPXMG4yjq9ESGfqblQfL9g4-p&index=4\">Youtube Link</a>", ""]
+          - ["F.O.O.L & Midranger - Neon", "", "Monstercat, F.O.O.L & Midranger", "", "<a href=\"https://www.youtube.com/watch?v=WQdIfpQKApI\">Youtube Link</a>", "<em>5410080857</em>"]
+          - ["Feint feat. Elizaveta - Drifters", "", "Monstercat & Elizaveta", "", "<a href=\"https://www.youtube.com/watch?v=4jARV_XYfdk\">Youtube Link</a>", "<em>5410084426</em>"]
+          - ["Field of Hopes and Dreams", "", "Deltarune / Toby Fox", "notes", "<a href=\"https://www.youtube.com/watch?v=ymNgfwgh1TU\">Youtube Link</a>", ""]
+          - ["flourish.mid<br></br>(SOUND Canvas VA)", "", "Microsoft Windows", "notes", "<a href=\"https://www.youtube.com/watch?v=wvNz0Rdg9To\">Youtube Link</a>", ""]
+          - ["Food Court", "", "PaRappa the Rapper 2 / Masava Matsuura & Yoshihisa Suzuki", "", "<a href=\"https://www.youtube.com/watch?v=V5gczSgwcY0\">Youtube Link</a>", ""]
+          - ["Fortnite - Despacito", "Despacito", "Epic Games (Remix) | Luis Fonsi ft. Daddy Yankee (Original)", "", "<a href=\"https://www.youtube.com/watch?v=o1Fve0D9tQQ\">Youtube Link</a>", ""]
+          - ["Gucci Gucci Literature Club's Not Hot (ft. Monika) [Miraie Mashup]", "    Doki Doki Literature Club (Your Reality)<br></br>Gucci Gang<br></br>Mans Not Hot", "Miraie (Mashup) | Doki Doki Literature Club & Lil Pump & BIG SHAQ (Originals)", "", "<a href=\"https://www.youtube.com/watch?v=GsgrCaJ14KU\">Youtube Link</a>", ""]
+          - ["Halloween Lobby Theme", "", "Island Royale", "", "<a href=\"https://www.youtube.com/watch?v=xOWQsxdiN58\">Youtube Link</a>", ""]
+          - ["i nyaned for hours ( 'w') feat. Hatsune Miku", "Nyanyanyanynya!", "YZYX (Remix) | Nyan Cat / daniwellP (Original)", "", "<a href=\"https://www.youtube.com/watch?v=hHIlzdISO5w\">Youtube Link</a>", ""]
+          - ["Ice", "", "Terraria / Scott Lloyd Shelly", "", "<a href=\"https://www.youtube.com/watch?v=WvrciA9TTTw\">Youtube Link</a>", ""]
+          - ["Jetpack Joyride - The Stash", "", "Jetpack Joyride / Cedar Jones", "The later half of the song is cut.", "<a href=\"https://www.youtube.com/watch?v=3XH-FOSseek\">Youtube Link</a>", ""]
+          - ["Kahoot Lobby Music Christmas Theme", "", "Kahoot! / Alf Inge Wang", "", "<a href=\"https://www.youtube.com/watch?v=vGY-GYTTWK8\">Youtube Link</a>", ""]
+          - ["Kahuuhhht!<br></br>(Kahooft)", "Kahoot Lobby Music", "Rolobi (Parody) | Kahoot! / Alf Inge Wang (Original)", "", "<a href=\"https://www.youtube.com/watch?v=14NvFRI_TsI\">Youtube Link</a>", ""]
+          - ["KIT GUN DISCO", "Kitchen Gun", "Arch Meist (Remix) | The Peter Serafinowicz Show (Original)", "", "<a href=\"https://soundcloud.com/vuranlax-arxediuz/kit-gun-disco\">Soundcloud Link</a>", ""]
+          - ["Laszlo - Feels Like Love", "", "Monstercat & Laszlo", "", "<a href=\"https://www.youtube.com/watch?v=NyOmWKOSASw\">Youtube Link</a>", "<em>7024154355</em>"]
+          - ["Life's a Beach", "Plok! (Beach)", "teckworks (Cover) | Plok! / Tim Follin & Geoff Follin (Original)", "The track's name is an idiom as to how life itself, is like a beach.", "<a href=\"https://www.youtube.com/watch?v=Y8hwvfBJuT0\">Youtube Link</a>", ""]
+          - ["LittleBigPlanet PSP Pod Music", "", "LittleBigPlanet", "", "<a href=\"https://www.youtube.com/watch?v=5T4wrSDaQvY\">Youtube Link</a>", ""]
+          - ["Mellow Days (Slick)", "", "Epic Games", "", "<a href=\"https://www.youtube.com/watch?v=CPv5HBHqt8w\">Youtube Link</a>", ""]
+          - ["Mio Honda - Step!", "", "The Idolm@ster", "This also has the same instrument that is played using /e honda.", "<a href=\"https://www.youtube.com/watch?v=HAHJUtSR90g\">Youtube Link</a>", ""]
+          - ["Music made with ONLY with the Gamecube Intro", "", "Levi Niha", "", "<a href=\"https://www.youtube.com/watch?v=ZEViw9GT2Js\">Youtube Link</a>", ""]
+          - ["N O O N E W O U L D M I S S M E", "", "alex", "", "<a href=\"https://www.youtube.com/watch?v=4rzc5SR8pa0\">Youtube Link</a>", ""]
+          - ["New Machines", "", "HOME", "", "<a href=\"https://www.youtube.com/watch?v=6EDS01Ipaow\">Youtube Link</a>", ""]
+          - ["Notaker - From Dust & Ashes", "", "Monstercat & Notaker", "", "<a href=\"https://www.youtube.com/watch?v=kHqjIPWJxMg\">Youtube Link</a>", ""]
+          - ["November Waltz", "", "Work at a Pizza Place / Basspartout", "", "<a href=\"https://www.youtube.com/watch?v=3hckt3DEX9k\">Youtube Link</a>", ""]
+          - ["Nyakuza Manholes", "", "A Hat in Time", "", "<a href=\"https://www.youtube.com/watch?v=GDxS8oK6hCc\">Youtube Link</a>", ""]
+          - ["Ocean", "", "Terraria / Scott Lloyd Shelly", "", "<a href=\"https://www.youtube.com/watch?v=fdi06Y6oFDo\">Youtube Link</a>", ""]
+          - ["Oof Star", "All Star", "Enova(?) (Parody) | All Star / SMASH MOUTH (Original)", "", "<a href=\"https://www.youtube.com/watch?v=8AwJln552LU\">Youtube Link</a>", ""]
+          - ["Otherworldy Foe (Cover)", "Earthbound (Otherworldly Foe)", "Silvagunner (Parody) | Earthbound (Original)", "Despite the radio's display, this is a covered version of Otherworldly Foe.", "<a href=\"https://www.youtube.com/watch?v=ylLDZZA6PBU\">Youtube Link</a>", ""]
+          - ["Palm Tree Panic Past", "", "Sonic CD", "", "<a href=\"https://www.youtube.com/watch?v=07M1W2vm7E0\">Youtube Link</a>", ""]
+          - ["Pegboard Nerds - Shaku", "", "Monstercat & Pegboard Nerds", "", "<a href=\"https://www.youtube.com/watch?v=7A2NtfPjkD0\">Youtube Link</a>", ""]
+          - ["Pegboard Nerds & Tokyo Machine - Moshi", "", "Monstercat, Pegboard Nerds & Tokyo Machine", "", "<a href=\"https://www.youtube.com/watch?v=NgPWqeirmrM\">Youtube Link</a>", "<em>7024340270</em>"]
+          - ["Pixel Terror - Amnesia", "", "Monstercat & Pixel Terror", "", "<a href=\"https://www.youtube.com/watch?v=6EDS01Ipaow\">Youtube Link</a>", "<em>5410084346</em>"]
+          - ["PIXL - Galactic Voyage", "", "Monstercat & PIXL", "", "<a href=\"https://www.youtube.com/watch?v=L3DCfd3K_JI\">Youtube Link</a>", "<em>5410081112</em>"]
+          - ["Pocket Monsters G/S/C - Azalea Town", "", "Pocket Monsters (Pokemon) G/S/C / Go Ichinose & Junichi Masuda", "", "<a href=\"https://www.youtube.com/watch?v=BaMQdHbNorI&list=PL2uxd6YWj7PKk4LnkWZEyqpcvnXmv8Iuf&index=26\">Youtube Link</a>", "a"]
+          - ["Professor Omochao", "", "Sonic Adventures 2", "", "<a href=\"https://www.youtube.com/watch?v=gRuYTOP8B9I\">Youtube Link</a>", ""]
+          - ["Protostar - New Horizons", "", "Monstercat & Protostar", "", "<a href=\"https://www.youtube.com/watch?v=bJK1P1OVQ8Y\">Youtube Link</a>", "<em>7028518546</em>"]
+          - ["PS4 - Select User", "", "Sony", "", "<a href=\"https://www.youtube.com/watch?v=SDBsdqWPpsI\">Youtube Link</a>", ""]
+          - ["Simulate", "", "Fawxtrot", "Instead of it being NobleReign; it is instead Latex_Furry.", "", ""]
+          - ["Sleep", "", "HOME", "", "<a href=\"https://www.youtube.com/watch?v=E3VLrhpMNIE\">Youtube Link</a>", ""]
+          - ["Sleepy Subcon Forest Time-Rift", "", "A Hat in Time", "", "<a href=\"https://www.youtube.com/watch?v=cospwTA5s54\">Youtube Link</a>", ""]
+          - ["Slider (Remix)", "Super Mario 64 (Slider)", "Silvagunner (Parody) | Super Plumber (Super Mario) 64 / Koji Kondo", "", "<a href=\"https://www.youtube.com/watch?v=DrCLBuf0Yec\">Youtube Link</a>", ""]
+          - ["soupandreas - Sprite", "", "Monstercat & soupandreas", "", "<a href=\"https://www.youtube.com/watch?v=PfrH6eFHt8Y\">Youtube Link</a>", "<em>5410083814</em>"]
+          - ["soupandreas & inverness - Hours", "", "Monstercat, soupandreas & inverness", "", "<a href=\"https://www.youtube.com/watch?v=uPOJ4igGPrs\">Youtube Link</a>", "<em>7028932563</em>"]
+          - ["Spider Man 2 pizza delivery with the Roblox death sound", "Spider-Man 2: The Game (Pizza Theme)", "Just Snowy (Parody) | Spider-Man 2: The Game (Original)", "", "<a href=\"https://www.youtube.com/watch?v=__Co-U6LK_k\">Youtube Link</a>", ""]
+          - ["St Tropez", "", "Monstercat, Tony Romera & SQWAD", "", "<a href=\"https://www.youtube.com/watch?v=VWwxIulH14Q\">Youtube Link</a>", "<em>5410084006</em>"]
+          - ["Stephen Walking - Glide", "", "Monstercat & Stephen Walking", "", "<a href=\"https://www.youtube.com/watch?v=VL3mPTaFFak\">Youtube Link</a>", "<em>7028957903</em>"]
+          - ["Stephen Walking - JC-08", "", "Monstercat & Stephen Walking", "", "<a href=\"https://www.youtube.com/watch?v=KWS47fdeiGk\">Youtube Link</a>", "<em>7028970358</em>"]
+          - ["Stephen Walking - Odin's Ghost", "", "Monstercat & Stephen Walking", "", "<a href=\"https://www.youtube.com/watch?v=znEK2CCkl20\">Youtube Link</a>", "<em>5410085189</em>"]
+          - ["Synchronize", "", "HOME", "", "<a href=\"https://www.youtube.com/watch?v=mLmFpLivDRE\">Youtube Link</a>", ""]
+          - ["take on uuhhh (Take on oof)", "Take on Me", "Rolobi (Parody) | a-ha (Official)", "", "<a href=\"https://www.youtube.com/watch?v=NfpZtMXGs8s\">Youtube Link</a>", ""]
+          - ["TARI UBUR UBUR - INDIHOME MEME (Goyang Ubur Ubur)", "", "Hendro Engkeng", "This version of Goyang Ubur Ubur is an old one made by Hendro and was popularized by IndiHome Paket Phoenix, before a new version was made.", "<a href=\"https://www.youtube.com/watch?v=mNt0T_dmv54\">Youtube Link</a>", ""]
+          - ["Teminite - Aspiration", "", "Monstercat & Teminite", "", "<a href=\"https://www.youtube.com/watch?v=6zSrp69dLLQ\">Youtube Link</a>", ""]
+          - ["Tetris Effect - Metaphomorphosis", "", "Tetris Effect / Hydelic ", "", "<a href=\"https://www.youtube.com/watch?v=RZxZIkpUdP0\">Youtube Link</a>", ""]
+          - ["Thanos Beatbox Solo - Cartoon Beatbox Battles", "", "verbalase", "", "<a href=\"https://www.youtube.com/watch?v=al-pmdV8d-0\">Youtube Link</a>", ""]
+          - ["The Mine Song But the song is 16-bit", "Lazy Town", "FreakingJames (Remix) | Lazy Town (Original)", "Despite the track saying it is 16-bit, the music is actually 8-bits.", "<a href=\"https://www.youtube.com/watch?v=BYwpnvJGd7Q&list=PLofOM1ZBmJRMakmKMQYa60f9ul0qrj7Xc&index=1\">Youtube Link</a>", ""]
+          - ["The Ultimate Strategy", "", "MaximumADHD (Mashup) | Roblox / badliz (Original)", "", "<a href=\"https://www.youtube.com/watch?v=QoPWhdRvScg\">Youtube Link</a>", ""]
+          - ["Tokyo Machine - EPIC", "", "Monstercat & Tokyo Machine", "", "<a href=\"https://www.youtube.com/watch?v=E7gnDHrgVNI\">Youtube Link</a>", "<em>5410085694</em>"]
+          - ["Tokyo Machine - PLAY", "", "Monstercat & Tokyo Machine", "", "<a href=\"https://www.youtube.com/watch?v=PfrH6eFHt8Y\">Youtube Link</a>", "<em>5410085763</em>"]
+          - ["Tour Rift Subcon Forest", "", "A Hat in Time", "", "<a href=\"https://www.youtube.com/watch?v=BwN5as5I7i0\">Youtube Link</a>", ""]
+          - ["Twist", "", "Epic Games", "", "<a href=\"https://youtu.be/kU5KAmoF0L8\">Youtube Link</a>", ""]
+          - ["Undertale AU Spongeswap - Bibulus", "", "Starfury / Galactigal", "", "<a href=\"https://soundcloud.com/starfury2/spongeswap-bibulus-my-take\">Soundcloud Link</a>", ""]
+          - ["Waltz of the Forest", "", "Super Plumber Man (Super Mario) RPG / Yoko Shimomura", "", "<a href=\"https://www.youtube.com/watch?v=k_q9y5vSIrw\">Youtube Link</a>", ""]
+          - ["Weapons Factory", "", "Super Plumber Man (Super Mario) RPG / Yoko Shimomura", "", "<a href=\"https://www.youtube.com/watch?v=dll0opu5D6g\">Youtube Link</a>", ""]
+          - ["Winds of Megalovanita", "Underatale (Megalovania)<br></br>Roblox (Wind of Fjords)", "TimmyTurnersGrandad (Mashup) | Undertale / Toby Fox & Roblox / Minomus (Originals)", "", "<a href=\"https://www.youtube.com/watch?v=eFUejxJlSc0\">Youtube Link</a>", ""]
+          - ["Wobbly Weeble", "", "Work at a Pizza Place / Geoff Harvey", "", "<a href=\"https://www.youtube.com/watch?v=zykDHqUhYCI\">Youtube Link</a>", ""]
+          - ["WOLF RAYET", "", "Funk Fiction", "", "<a href=\"https://www.youtube.com/watch?v=i67yxYjfLGA\">Youtube Link</a>", ""]
+          - ["You Reposted In The Wrong MIDI", "Casin", "xDEFCONx (Remix) | glue70 (Original)", "", "<a href=\"https://www.youtube.com/watch?v=6xecdO8LcKY\">Youtube Link</a>", ""]
+          #- ["track", "reference", "author", "notes", "<a href=\"\">Youtube Link</a>", "audio id"] (for future tracks)
+    - type: infobox
+      content:
+        infoBoxTitle: 
+          - "Halloween Tracks"
+          - "#eebb00"
+        infoBoxDescription: >-
+          These tracks are playable only during October of any year.
+          
+    - type: table
+      content:
+        columnSpacing: 150px 225px 200px 250px 150px 150px
+        imageSize: 128   128
+        titles:
+          - "Track Name"
+          - "Reference / Parody"
+          - "Origin / Author"
+          - "Notes"
+          - "Audio Links / Files"
+          - "Roblox Audio ID"
+        items:
+          - ["(Removed for Copyright)<br></br>(Nezzera [Full])", "", "Jeremy Phillip Holt", "Submitted by 888min3, this used to be a music called Pull Me Out, or commonly Nezzera for its popularity around Roblox following its usage.", "<a href=\"https://www.youtube.com/watch?v=PJK0o4AMo9U&list=PLWrf5r9izG5b9X8OexPAzFRrotGXVvurR&index=1\">Youtube Link</a>", "146322017"]
+          - ["Halloween<br></br>(Halloween - Chrispy Dubstep Remix)", "Halloween Theme - Main Title", "Chrispy (Remix) / John Carpenter (Original)", "", "<a href=\"https://www.youtube.com/watch?v=BzmjocWfiTc\">Youtube Link</a>", ""]
+          - ["Halloween Funk", "", "Roblox", "", "", "<em>1841274055</em>"] 
+          - ["Lost Satellite", "", "A-S-T Multimedia Productions", "", "<a href=\"https://www.youtube.com/watch?v=edlYhAfB3Yg\">Youtube Link</a>", ""] 
+          - ["Minecraft - Volume Beta - The End", "", "C418", "This was submitted by DominusGalacticus instead of NobleReign.", "<a href=\"https://www.youtube.com/watch?v=ZKT5RO-C-jw\">Youtube Link</a>", ""] 
+          - ["Zero Project - Gothic (Full)", "", "Zero Project", "This was submitted by DTrainsMan123 instead of NobleReign.", "<a href=\"https://www.zero-project.gr/music/singles/darkness-falls/\">Website Link</a>", ""] 
