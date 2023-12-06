@@ -1,0 +1,33 @@
+page:
+  title: Vaporwave
+  description: The Vaporwave biome is a biome that is very different than the rest,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Vaporwave
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Thorns
+    description: Biomes
+    image: ''
+    imageBanner: /bussim-assets/images/biomes/vaporwave.webp
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >- 
+          The Vaporwave biome is a biome that is very different than the rest, 
+          which uses a lot of pink and black. The buildings are black with pink outlines, 
+          and the ground is a grid with pink lines and black squares. Whenever it rains, 
+          the rain appears pink as well.
+
+          <br><br>
+
+          For some odd reason, the moon in this biome is gigantic compared to anywhere else.
+          <br><br>
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/biomes/galleries/Vaporwave_Moon.webp
