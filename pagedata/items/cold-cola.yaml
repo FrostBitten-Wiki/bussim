@@ -1,0 +1,50 @@
+page:
+  title: Cold Cola
+  description: The Cold Cola is a variant of Colas that can be either found on the third floor of The Bus, 
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Cold Cola
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Cold Cola
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+      - type: quote
+        content:
+          quote: "It's almost enough to give you frostbite..."
+          author: Item Description
+      - type: section
+        content:
+         sectionTitle: Info
+      - type: text
+        content:
+          text: >-
+           The Cold Cola is a variant of <a href="/bussim/items/cola">Colas</a> that can be either found on the third floor of <a href="/bussim/locations/the-bus">The Bus</a>, 
+           or inside of <a href="/bussim/locations/glacier-cave">Glacier Cave</a>. It is inside of a mini fridge with a few other cold colas. 
+           Upon drinking, the player will freeze for around 4 seconds and thaws after 6 seconds after freezing. 
+           The player will also jump regardless if it's standing on solid ground or not once thawed.
+
+           <br><br>
+
+           The thawing can also be affected by gravity related items such as <a href="/bussim/items/gas-station-gravity-coil">Gas Station Gravity Coil</a> and can be used as a means of a double jump, 
+           allowing you to access some more vertical-related areas without the use of the <a href="/bussim/items/helicopter">Helicopter</a>.
+
+           <br><br>
+
+           Drinking the cold cola after being set on fire by the <a href="/bussim/items/hot-cola">Hot Cola</a> will stop the fire.
+
+      - type: section
+        content:
+          sectionTitle: Trivia
+
+      - type: tree
+        content:
+          - name: Back then, drinking the cold cola would put the player inside a large ice cube. This was eventually changed so the player's avatar turns to ice.
+          - name: Drinking the cola and waiting a few seconds to jump off the bus will freeze you in midair. This could... potentially be useful?
+
+      - type: gallery
+        content:
+          images:
+            - /bussim-assets/images/items/cold-cola.webp
