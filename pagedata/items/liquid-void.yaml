@@ -1,0 +1,63 @@
+page:
+  title: Liquid Void
+  description: Liquid Void is an item obtainable from random floor spawns in the Backwalls event,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Liquid Void
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Liquid Void
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: quote
+      content:
+        quote: "The sensation of holding this cola makes you uneasy.. It'd be best to be careful with this.. 'soda'..."
+        author: Item Description
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         Liquid Void is an item obtainable from random floor spawns in the <a href="/bussim/events/backwalls">Backwalls</a> event, 
+         when used you will turn invisible for 20 seconds, 
+         then start flashing in an out until finally turning opaque again. 
+         However, if used less than 20 seconds after the effects are over, 
+         you will instead be killed.
+
+         <br><br>
+
+         Despite the invisibility however, 
+         it won't make you immune to <a href="/bussim/npcs/entity">Entities</a> especially if angered, 
+         but it does allow you to make safer escapes if you successfully get away from them.
+
+    - type: quote
+      content:
+        quote: "Through a stroke of luck, your Liquid Void has come to you into the real world.."
+        author: "Dialogue After Obtaining"
+
+    - type: text
+      content:
+        text: >-
+          If you do however manage to escape the <a href="/bussim/events/backwalls">Backwalls</a> with the item in your inventory, 
+          you will have a 20% chance (formerly 4%) to bring it back to the real world, 
+          and getting it permanently. 
+          This doesn't have many practical uses outside of the <a href="/bussim/events/backwalls">Backwalls</a>, 
+          but it's a good item to start off when the event does happen.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+    - type: tree
+      content:
+        - name: This item has black effects around it, although it may be hard to notice visibly.
+        - name: This item originally used to have a 4% chance to be able to get it permanently, as Noble thought the chances were fair and achievable.. This was then later changed to 20% after a mini-update following Bus Simulator's 5th Birthday.
+        - name: Despite the Liquid Void being a very helpful tool especially in events related to the stealth mechanic with its invisibility, you cannot carry it to both No Dough and Santa's Gone, making its usage only limited in a few events.
+          children:
+            - name: It is however, applicable to the Billies in the <a href="/bussim/events/billy">Billy</a> event, oddly enough.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/liquid-void.webp
