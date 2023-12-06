@@ -4,7 +4,10 @@
     <meta charset="utf-8">
 
     {% if page %}
-        <meta name="description" content="The community-managed Bus Simulator Wiki!">
+        <meta property="og:title" content="Bus Simulator: {{ page["title"] }}">
+        <meta property="og:description" content="{{ page["description"] }}">
+        <meta property="og:image" content="{{ html['header']['imageBanner'] }}">
+        
         <meta name="keywords" content="{{ page['keywords'] }}">
 
         <title>{{ page["title"] }} - Bus Simulator Community Wiki</title>
@@ -138,7 +141,7 @@
         <div style="position: absolute; top: 0; height: 250px; width: calc(100vw - 60px); background: linear-gradient(to bottom, transparent 0%, rgba(8, 4, 83, 1) 75%); z-index: 1;"></div>
         
         <div style="position: absolute; top: 50px; height: 100%; z-index: 2;">
-            <div style="margin-left: 5vw; margin-right: 5vw; width: calc(90vw - 60px);">
+            <div style="transition: margin 500ms; margin-left: 10vw; margin-right: 10vw; width: calc(80vw - 60px);">
                 {% if html['header']['image'] == "" %}
                     <div style="z-index: 2;">
                         <text style="font-size: 50px;">{{ html["header"]["title"] }}</text><br>
@@ -155,7 +158,7 @@
                 {% endif %}
             </div>
             
-            <div style="margin-left: 5vw; margin-right: 5vw;">
+            <div style="transition: margin 500ms; margin-left: 10vw; margin-right: 10vw; width: calc(80vw - 60px);">
                 <!-- Custom Jinja2 Functions -->
                 {% macro render_tree(node) %}
                     {% if node %}
@@ -225,9 +228,37 @@
                         <div style="margin-top: 20px; margin-bottom: 20px;">
                             {{ render_tree(data['content']) }}
                         </div>
-                    {% elif data['type'] == "gallery" %}
+                    {% elif data['type'] == "quote" %}
                         <div style="margin-top: 20px; margin-bottom: 20px;">
-                           
+                            <div style="display: grid; grid-template-columns: 0.05fr 1fr 0.05fr;">
+                                <text style="font-size: 50px;">"</text>
+                                <text style="text-align: center;">{{ data["content"]["quote"] }}</text>
+                                <text style="font-size: 50px; text-align: right;">"</text>
+                            </div><br>
+                            <text>- {{ data["content"]["author"] }}</text>
+                        </div>
+                    {% elif data['type'] == "table" %}
+                        <div style="margin-top: 20px; margin-bottom: 20px;">
+                            {% set spacing = data["content"]["columnSpacing"].split() %}
+                            {% set columns = spacing|length %}
+                            
+                            <div class="container" style="padding: 10px; display: grid; grid-template-columns: {{ data["content"]["columnSpacing"] }};">
+                                {% for title in data["content"]["titles"] %}
+                                    <text>{{ title }}</text>
+                                {% endfor %}
+                            </div>
+
+                            {% for items in data["content"]["items"] %}
+                                <div class="container" style="padding: 10px; display: grid; grid-template-columns: {{ data["content"]["columnSpacing"] }};">
+                                    {% for value in items %}
+                                        {% if (".webp" in value) or (".jpg" in value) or (".png" in value) or (".gif" in value) or ("placehold.co" in value) %}
+                                            <img src="{{ value }}" width="{{ data["content"]["imageSize"].split()[0] }}" height="{{ data["content"]["imageSize"].split()[1] }}" style="object-fit: cover;" loading="lazy">
+                                        {% else %}
+                                            <text>{{ value }}</text>
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            {% endfor %}
                         </div>
                     {% endif %}
                 {% endfor %}
@@ -255,7 +286,7 @@
                 <text id="speakerText"></text>
             </div>
 
-            <div id="speakerImage" class="dialogue dialogue-d6_default" style="zoom: 37.1%; position: absolute; bottom: 0; right: 0;"></div>
+            <div id="speakerImage" class="dialogue dialogue-d6_default" style="object-fit: cover; transform: scale(37.1%, 37.1%); -moz-transform: scale(37.1%, 37.1%);  position: absolute; bottom: -123px; right: -140px;"></div>
         </div>
     </div>
 

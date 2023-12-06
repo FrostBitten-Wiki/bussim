@@ -141,7 +141,7 @@
         <div style="position: absolute; top: 0; height: 250px; width: calc(100vw - 60px); background: linear-gradient(to bottom, transparent 0%, rgba(8, 4, 83, 1) 75%); z-index: 1;"></div>
         
         <div style="position: absolute; top: 50px; height: 100%; z-index: 2;">
-            <div style="transition: margin 500ms; margin-left: 15vw; margin-right: 15vw; width: calc(70vw - 60px);">
+            <div style="transition: margin 500ms; margin-left: 10vw; margin-right: 10vw; width: calc(80vw - 60px);">
                 {% if html['header']['image'] == "" %}
                     <div style="z-index: 2;">
                         <text style="font-size: 50px;">{{ html["header"]["title"] }}</text><br>
@@ -158,7 +158,7 @@
                 {% endif %}
             </div>
             
-            <div style="transition: margin 500ms; margin-left: 15vw; margin-right: 15vw;">
+            <div style="transition: margin 500ms; margin-left: 10vw; margin-right: 10vw; width: calc(80vw - 60px);">
                 <!-- Custom Jinja2 Functions -->
                 {% macro render_tree(node) %}
                     {% if node %}
