@@ -1,0 +1,49 @@
+page:
+  title: Ice Cream
+  description: The Ice Cream is an edible item that is obtained from the ice cream truck.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Ice Cream
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Ice Cream
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         <i>Not to be confused with the <a href="/bussim/items/birthday-ice-cream">Birthday Ice Cream</a>.</i>
+         
+         <br><br>
+
+         The Ice Cream is an edible item that is obtained from the ice cream truck.
+         You can only obtain it by waiting for an event where the bus stops,
+         as the Ice Cream truck moves along with the bus.
+
+         <br><br>
+
+         If you own the <a href="/bussim/items/mini-bus">Mini-Bus</a>, and the bus stopped, 
+         you can drive back to where the cars spawn, 
+         and wait for an Ice Cream truck to spawn, 
+         if you can get beyond the invisible barrier.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+    - type: tree
+      content:
+        - name: It's an item that is unobtainable through standard means, such as an event, or on-board the <a href="/bussim/locate/the-bus">bus</a>.
+        - name: It is one of the few edible items.
+        - name: If you try to interact with the Ice Cream Truck while the bus is moving, he will say that he can't give you one.
+          children:
+            - name: This can be seen much easier in VR.
+            - name: <i>"Sorry, I'm going too fast to give you an ice cream!"</i>
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/ice-cream.webp
