@@ -6,7 +6,7 @@ page:
   attributions:
   - "Ported by FangedWerewolf (@noobbiom)"
 
-  html:
+html:
   header:
     title: Bus Radio
     description: >-
