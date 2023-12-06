@@ -1,0 +1,54 @@
+page:
+  title: Airhorn
+  description: The Airhorn is an expensive gamepass item in Bus Simulator,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Airhorn
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Airhorn
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: quote
+      content:
+       quote: "lol."
+       author: Item Description
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         The Airhorn is an expensive gamepass item in Bus Simulator, 
+         costing a huge 275 Robux. 
+         When used it produces a loud sound from where the player used it. 
+         It also has no cooldown per use.
+
+         <br><br>
+
+         Despite its original use being to annoy players, 
+         you can use it in No Dough / Santa's Gone to distract the NPCs, 
+         luring them into the origin of sound which makes this useful if a bunch of NPCs are patrolling the exit / destination.
+
+         <br><br>
+
+         You can also use it next to other NPCs to annoy them, 
+         but beware, 
+         for they may not be kind.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+    - type: tree
+      content:
+        - name: It uses the Airhorn sound used for meme culture.
+        - name: It also made its appearance in Kit Battle's Meme Boi Kit, where you can use the Airhorn to knockback players in a large range.
+        - name: While you can distract the house guests in <a href="/bussim/events/no-dough">No Dough</a> / <a href="/bussim/events/santas-gone">Santa's Gone</a>, you can't use it in the <a href="/bussim/events/backwalls">Backwalls</a> to distract the <a href="/bussim/npcs/entity">Entities</a>.
+        - name: Despite it producing a loud sound, it can't echo in the caves, the bus, nor in the Backwalls.
+        - name: This is the only gamepass item that has a badge locked behind it, being the <a href="https://www.roblox.com/badges/2141806851/DEFENESTRATED">DEFENSTRATED badge</a>, whereas all other badges are limited / obtainable freely. <small>(Except Private Bus Owner, where you will need a private server.)</small>
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/airhorn.webp
