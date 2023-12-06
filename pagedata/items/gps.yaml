@@ -1,0 +1,47 @@
+page:
+  title: GPS
+  description: The GPS is a Gamepass item in Bus Simulator. It costs 12 Robux.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, GPS
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: GPS
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: quote
+      content:
+        quote: "Shouldn't this be built-in to the bus already?"
+        author: Item Description
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         The GPS is a Gamepass item in Bus Simulator. It costs 12 Robux.
+         
+         <br><br>
+
+         The location shown on the GPS is randomly generated, 
+         but some events have set locations to better reflect the situation. 
+         All the locations can be seen <a href="/bussim/locations/gps">here</a>.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+
+    - type: tree
+      content:
+        - name: In the Crystal Cave, the GPS will only display "NO SIGNAL".
+        - name: In The Backwalls, the GPS turns into a glitchy mess, unreadable and useless to the player.
+        - name: If someone forces an event, the "Next event in (1-4)m" section of the GPS display will say "Next event in -9996m".
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/gps.webp
+          - /bussim-assets/images/items/galleries/GPS_in_VR.webp
+          - /bussim-assets/images/items/galleries/tool.webp
