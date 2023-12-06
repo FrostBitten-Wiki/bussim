@@ -1,0 +1,39 @@
+page:
+  title: Toast
+  description: The Toast is a temporary item from the Goat Station event,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Toast
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Toast
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: quote
+      content:
+       quote: "Gives you the essentials!"
+       author: Item Description
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         The Toast is a temporary item from the <a href="/bussim/events/goated-gas-station">Goat Station</a> event, 
+         which can be obtained by clicking on the Toaster in <a href="/bussim/npcs/zeon">Zeon's</a> house, 
+         and waiting a few seconds until it pops out. 
+         The item, when consumed, will recover a small amount of health.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+
+    - type: tree
+      content:
+        - name: When equipped, the gear makes a "Toastyy!~" sound from Mortal Kombat.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/toast.webp
