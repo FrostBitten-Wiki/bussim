@@ -1,0 +1,43 @@
+page:
+  title: Pizza
+  description: The Pizza is an item obtainable from a pizza box in the second floor of the bus.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Pizza
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Pizza
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+          The Pizza is an item obtainable from a pizza box in the second floor of the bus. 
+          Eating it will heal you. 
+          Equipping the pizza will play a sound effect saying 'Pizza Time', 
+          a reference to the movie 'Spider-Man 2'.
+
+          <br><br>
+
+          Additionally, on the same floor, you can spot another pizza in the left compartment, 
+          next to the one by the <a href="/bussim/items/cramped-cola">Cramped Cola</a>. However, it cannot be interacted with.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+
+    - type: tree
+      content:
+        - name: The Pizza in the compartment is a reference to <a href="https://www.roblox.com/games/192800/Work-at-a-Pizza-Place">Work At A Pizza Place</a> Place by Dued1.
+        - name: The pizza box is a ROBLOX accessory, called <a href="https://www.roblox.com/catalog/17735306/Pizza-Knight">Pizza Knight</a>.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/pizza.webp
+          
