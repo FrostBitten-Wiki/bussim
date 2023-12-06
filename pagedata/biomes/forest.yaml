@@ -1,0 +1,29 @@
+page:
+  title: Forest
+  description: The Forest is a biome that's very similar to Summer,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Forest
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Forest
+    description: Biomes
+    image: ''
+    imageBanner: /bussim-assets/images/biomes/forest.webp
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >- 
+          The Forest is a biome that's very similar to <a href='/bussim/biomes/summer'>Summer</a>,
+          but more dense with fog and has more trees spawning, commonly in a line of five trees.
+          They spawn in both large and small sizes randomly around the biome.
+
+          <br><br>
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/biomes/galleries/Forest_Trees.webp
