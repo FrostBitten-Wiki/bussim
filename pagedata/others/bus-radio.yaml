@@ -80,7 +80,7 @@ html:
 
     - type: table
       content:
-        columnSpacing: 150px 225px 200px 250px 150px 150px
+        columnSpacing: 150px 250px 200px 250px 150px 150px
         imageSize: 128   128
         titles:
           - "Track Name"
@@ -192,7 +192,7 @@ html:
           
     - type: table
       content:
-        columnSpacing: 150px 225px 200px 250px 150px 150px
+        columnSpacing: 150px 250px 200px 250px 150px 150px
         imageSize: 128   128
         titles:
           - "Track Name"
@@ -219,7 +219,7 @@ html:
 
     - type: table
       content:
-        columnSpacing: 150px 225px 200px 250px 150px 150px
+        columnSpacing: 150px 250px 200px 250px 150px 150px
         imageSize: 128   128
         titles:
           - "Track Name"
