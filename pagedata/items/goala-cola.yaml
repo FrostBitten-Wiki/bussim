@@ -1,0 +1,35 @@
+page:
+  title: Goala Cola
+  description: The Goala Cola is an item you can obtain at the GOATed Gas Station.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Goala Cola
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Goala Cola
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         The Goala Cola is an item you can obtain at the GOATed Gas Station. 
+         The item is purely cosmetic, 
+         making you do a little dance while "Goooaaaalllll!" plays after drinking it.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+
+    - type: tree
+      content:
+        - name: The item is clearly based off of the <a href="https://www.roblox.com/catalog/28672001/Goala-Cola">official gear</a>.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/goala-cola.webp
