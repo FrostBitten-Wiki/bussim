@@ -1,0 +1,48 @@
+page:
+  title: Hot Cola
+  description: Hot Cola is an item that can be found on the Second-Story of The Bus underneath the Pizza Box.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Hot Cola
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Hot Cola
+    description: Items
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: quote
+      content:
+        quote: "This is too hot!"
+        author: Item Description
+    - type: section
+      content:
+        sectionTitle: Info
+    - type: text
+      content:
+        text: >-
+         Hot Cola is an item that can be found on the Second-Story of <a href="/bussim/locations/the-bus">The Bus</a> underneath the <a href="/bussim/items/pizza">Pizza Box</a>. 
+         When used, it'll act as any normal Cola; 
+         but will instead set you ablaze, 
+         with high pitched oof noises being produced and fire coming out of your head as your entire body darkens. 
+         After a few seconds after consumption, 
+         you'll instantly die.
+         
+         <br><br>
+
+         This can however be prevented by consuming <a href="/bussim/items/cold-cola">Cold Cola</a> instead, 
+         freezing you and preventing you from death. 
+         It doesn't prevent the lasting effects however.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+    - type: tree
+      content:
+        - name: Despite its functionality, it doesn't work during the <a href="/bussim/events/blizzard">Blizzard Event</a>.
+        - name: While using this and the <a href="/bussim/items/cold-cola">Cold Cola</a> thereafter can prevent you from dying; doing this conversely doesn't automatically extinguish the Hot Cola's effects.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/hot-cola.webp
