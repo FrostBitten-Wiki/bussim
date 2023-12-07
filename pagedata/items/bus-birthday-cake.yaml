@@ -57,7 +57,7 @@ html:
       content:
         - name: This is the only item to have two badges linked to them. Being <a href="https://www.roblox.com/badges/2148621518/Plasticky-Birthday-Goodness">Plasticky Birthday Goodness</a>, and <a href="https://www.roblox.com/badges/2148621577/Plasticky-Cola-Hell">Plasticky Cola Hell</a>.
           children:
-            - name: It's also the second item that allows you to teleport to a location, the first being the <a href="/bussim/items/magic-mirror">Maigic Mirror</a> that leads you to the <a href="/bussim/locations/glacier-cave">Glacier Cave</a>.
+            - name: It's also the second item that allows you to teleport to a location, the first being the <a href="/bussim/items/magic-mirror">Magic Mirror</a> that leads you to the <a href="/bussim/locations/glacier-cave">Glacier Cave</a>.
         - name: The texture for the cake was made by Pixel_N3ko, otherwise known as Sakura_Floran.
           children:
             - name: You can hear the "<a href="https://www.youtube.com/watch?v=JFDrett2fNs&ab_channel=Xynforce25">W.D. Gaster Fade</a>" sound affect when somebody teleports to the Backwalls with the item.
