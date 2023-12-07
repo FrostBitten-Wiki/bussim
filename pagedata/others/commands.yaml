@@ -12,13 +12,18 @@ html:
     description: Others
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: section
       content:
         sectionTitle: Info
+
     - type: text
       content:
         text: >-
+          Category: <a href="/bussim/others">Others</a>
+          <br><br>
+          
           Commands are a feature in Bus Simulator used to change small elements of the game, 
           such as chat tag customisation and private server commands.
 
@@ -231,6 +236,7 @@ html:
         # columns should be "fr" (fraction) or "px" (pixels) only.
         columnSpacing: 0.5fr 1fr
         #          width height
+        widthSize: 100
         titles:
           - "Commands"
           - "Effects"
