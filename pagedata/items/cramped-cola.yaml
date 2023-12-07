@@ -7,16 +7,14 @@ attributions:
 html:
   header:
     title: Cramped Cola
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The Cramped Cola is a variant of the <a href="/bussim/items/cola">Cola</a> series, 
          that is located on the 2nd floor of the bus. 
          It's inside of a cupboard next to the pizza box.

@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Liquid Void
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          Liquid Void is an item obtainable from random floor spawns in the <a href="/bussim/events/backwalls">Backwalls</a> event, 
          when used you will turn invisible for 20 seconds, 
          then start flashing in an out until finally turning opaque again. 

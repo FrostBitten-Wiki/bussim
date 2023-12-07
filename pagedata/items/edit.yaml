@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Edit
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -25,9 +25,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          Edit is an item that cannot be obtained via events or from the bus/gamepass, 
          as only VIP server owners and admins can obtain it, 
          and give it to other people. Similar to the Btools item, 

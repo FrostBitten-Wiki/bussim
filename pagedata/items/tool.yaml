@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Tool
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectiondescription: >-
          Tool is a temporary item that can be obtained after giving D6 a food or drink item (permanent items, such as the Snowcone, also count).
 
          <br><br>

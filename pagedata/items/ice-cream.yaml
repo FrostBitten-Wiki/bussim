@@ -7,16 +7,14 @@ attributions:
 html:
   header:
     title: Ice Cream
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          <i>Not to be confused with the <a href="/bussim/items/birthday-ice-cream">Birthday Ice Cream</a>.</i>
          
          <br><br>

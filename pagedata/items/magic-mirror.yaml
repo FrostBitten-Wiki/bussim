@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Magic Mirror
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The Magic Mirror is an item obtained by returning to the Glacier Cave after receiving the <a href="https://www.roblox.com/badges/2130010649/Animal-Messenger">Animal Messenger</a> badge from Frostbite's questline.
 
          <br><br>

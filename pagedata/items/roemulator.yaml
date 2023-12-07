@@ -7,16 +7,14 @@ attributions:
 html:
   header:
     title: RoEmulator
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
           <i>Not to be Confused with <a href="/bussim/items/gameboy-advance">Gameboy Advance</a>.</i>
 
           <br><br>

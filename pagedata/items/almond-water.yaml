@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Almond Water
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          Almond Water is a healing item obtainable from random floor spawns in the <a href="/bussim/events/backwalls">Backwalls</a> event. 
          When used, you will gain a significant boost in speed and healing for a few seconds, 
          being able to outrun <a href="/bussim/npcs/entity">Entities</a> and move much quicker throughout the <a href="/bussim/events/backwalls">Backwalls</a>, 

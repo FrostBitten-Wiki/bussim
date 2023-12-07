@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Burger
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The Burger is an edible item that is obtained from the <a href="/bussim/events/bloxdonalds">Bloxdonalds</a> event. 
          Its appearance is of that of the classic Cheezburger ROBLOX Gear. 
          When the player consumes it, their screen becomes green, 

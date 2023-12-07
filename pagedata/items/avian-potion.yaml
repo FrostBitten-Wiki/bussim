@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Avian Potion
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -29,9 +29,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The Avian Potion is a consumable that can only be obtained by admin commands. 
          It's appearance is a large, glowing potion with orange liquid inside. When consumed, 
          it gives the user the ability to mash space to flap once, 

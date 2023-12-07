@@ -7,16 +7,14 @@ attributions:
 html:
   header:
     title: Homemade Coffee
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          <i>Are you looking for the regular <a href="/bussim/items/coffee">Coffee</a>, instead?</i>
          
          <br><br>
@@ -29,9 +27,7 @@ html:
     - type: section
       content:
         sectionTitle: How To obtain
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          You can obtain Homemade Coffee by heading over to <a href="/bussim/npcs/zeon">Zeon's</a> kitchen and clicking the button on the Coffee Maker. 
          Once it's pressed, the Coffee will begin to brew. 
          When it's done, 

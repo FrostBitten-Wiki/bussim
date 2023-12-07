@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Popsicle
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
           Popsicle is obtained from the 10 Million Event Wheel. 
           When used, it'll heal you by a significant amount similarly to <a href="/bussim/items/snowcone">Snowcone</a> and can be used quite rapidly. 
           Despite that though, it is a good healing starter item to have.

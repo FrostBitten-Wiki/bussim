@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Megaphone
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The Megaphone is a gamepass item in Bus Simulator. 
          It costs 45 robux, 
          with its variants costing more. 
