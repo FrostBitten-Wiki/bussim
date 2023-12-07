@@ -99,7 +99,11 @@ function randomDialogueEvent(force, id) {
             speakData = random(dialogueData.dialogueData);
         }
 
-        startSpeaking(speakData, dialogueData.characterData);
+        if (Math.random() * 100 < speakData.rarity) {
+            startSpeaking(speakData, dialogueData.characterData);
+        } else {
+            dialogueRunning = false;
+        }
     }
 }
 

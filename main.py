@@ -24,7 +24,7 @@ app.mount("/bussim-assets", StaticFiles(directory="./assets"), name="assets")
 @app.get("/{any}/{wikipath:path}")
 async def wiki(request: Request, wikipath: str = ""):
     if wikipath == "": wikipath = "home"
-    html = open(f"./desktop.html", "r")
+    html = open(f"./newtemplate.html", "r")
 
     try:
         with open(f"./pagedata/{wikipath}.yaml", "r") as file:
