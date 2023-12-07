@@ -30,7 +30,7 @@
                 [3000, "Disc", "default", "Maybe for the best though, those drinks have some really weird effects."]
             ]
         },
-        
+
         "pear001": {
             "rarity": 100,
             "dialogue": [
@@ -316,7 +316,7 @@
             "dialogue": [
                 [3000, "Zeon", "close", "michael"]
             ]
-        },
+        }
     },
 
     "characterData": {
