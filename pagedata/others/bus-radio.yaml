@@ -10,7 +10,7 @@ html:
   header:
     title: Bus Radio
     description: >-
-    Category: <a href="/bussim/others">Others</a>
+      Category: <a href="/bussim/others">Others</a>
     image: ""
     imageBanner: /bussim-assets/images/banner.jpg
 
