@@ -17,8 +17,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >- 
+        title: Info
+        description: >- 
          Overseas is a biome that will spawn randomly after driving through a tunnel. 
          It comprises of the street being a bridge and the terrain being completely non-existent. 
          It also has a similar haze to Nostalgia among a few others.<br><br>Unlike other biomes, 
@@ -26,7 +26,7 @@ html:
          It is highly recommended you don't drive a <a href="/bussim/items/mini-bus">Minibus</a> recklessly here if you prefer to keep your inventory.
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
     
     - type: tree
       content:

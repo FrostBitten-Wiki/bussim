@@ -18,8 +18,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >- 
+        title: Info
+        description: >- 
          Plastic Bricks is a biome that appears with a Smooth Plastic material in green. 
          A unique tree mesh and red plastic bricks spawn on the terrain, 
          as well as buildings. The biome used to be called LEGO, 

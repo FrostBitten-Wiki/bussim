@@ -17,8 +17,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
           Nostalgic is a biome that more focuses on the "Older ROBLOX" era, 
           with the older studs texture, blocky bushes and trees, 
           like for Blox Mart and Witches Brew.

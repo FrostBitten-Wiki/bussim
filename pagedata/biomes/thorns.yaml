@@ -18,8 +18,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >- 
+        title: Info
+        description: >- 
          Thorns is a biome that will spawn randomly after driving through a tunnel. 
          It has a darker appearance, with many large, thorn-like spikes around the area. 
          The biome is based off of The Landscape of Thorns, which is a physical marker for how dangerous the area is for people in the future.
