@@ -9,6 +9,9 @@ html:
   header:
     title: Entity
     description: >-
+      Category: <a href="/bussim/npcs">NPCs</a>
+      <br><br>
+      
       Entities are NPC's found in the <a href="/bussim/events/backwalls">Backwalls</a>,
       they're hostile towards players and will kill them if exposed long enough.
     image: /bussim-assets/images/npcs/entity.webp
