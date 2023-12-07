@@ -24,12 +24,12 @@ html:
               as they cannot be advertised to people if they are 12 or younger.
             listItemRedirect: /bussim/others/billboards
           
-          - listItemImage: /bussim-assets/images/others/bus-radio.webp
+          - listItemImage: /bussim-assets/images/others/bus-radio-icon.webp
             listItemTitle: Bus Radio
             listItemDescription: >-
               The Radio is a functional prop in <a href='/bussim/locations/the-bus'>The Bus</a> in Bus Simulator. 
               It plays a large variety of songs and intermissions around the bus, and can be listened to via <a href='/bussim/items/airpods'>Airpods</a>.
-            listItemRedirect: /bussim/others/bus-radio-icon
+            listItemRedirect: /bussim/others/bus-radio
           
           - listItemImage: /bussim-assets/images/others/bus-cola-bandolier.webp
             listItemTitle: Bus-Cola Bandolier
