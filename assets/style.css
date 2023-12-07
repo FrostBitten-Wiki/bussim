@@ -200,8 +200,12 @@ div.sidebar bottomButtons {
     margin-bottom: 5px;
 }
 
+.sidebar button:hover[type="menuBack"] {
+    background-color: #eb403480;
+}
+
 .sidebar button:hover {
-    width: 150px;
+    width: 175px;
     cursor: pointer;
     color: white;
     background-color: #2c269a80;
