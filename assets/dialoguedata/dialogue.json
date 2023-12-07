@@ -44,14 +44,6 @@
             ]
         },
 
-        "green001": {
-            "rarity": 100,
-            "dialogue": [
-                [3000, "Green", "close", "Hold on a minute..."],
-                [3000, "Green", "close", "Aren't you the pea"],
-            ]
-        }
-
         "pear002": {
             "rarity": 100,
             "dialogue": [
