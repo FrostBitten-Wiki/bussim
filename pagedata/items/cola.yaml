@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Cola
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
       - type: section
         content:
          sectionTitle: Info
-      - type: text
-        content:
-          text: >-
+         sectionDescription: >-
            The Cola is an item that is obtainable at the Second floor, 
            or from the Starter Box if you got that from the 10 Million Visits event. 
            Using it will heal you. The cola is one of the best healing items.

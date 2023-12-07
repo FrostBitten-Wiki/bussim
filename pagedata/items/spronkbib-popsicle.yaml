@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Spronkbib Popsicle
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectiondescription: >-
          The Spronkbib Popsicle is obtainable along with <a href="https://www.roblox.com/badges/2124830393/The-Last-One">The Last One</a> badge as a 1/800 (formerly 1/1000) chance from the naturally spawning ice cream vans. 
          Once you do get it though, 
          you won't be able to get another normal <a href="/bussim/items/ice-cream">ice cream</a> without having to delete the Last One badge. <small>(But why would you?)</small>

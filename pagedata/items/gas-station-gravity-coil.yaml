@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Gas Station Gravity Coil
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The Gas Station Gravity Coil is a tool obtainable by purchasing it for 15 passenger rep during the <a href="/bussim/events/goated-gas-station">Goat Station Event</a> event, 
          or by stealing it.
 

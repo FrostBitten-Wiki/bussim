@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Cone Soda
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -29,9 +29,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The Cone Soda is an unused item that is purely cosmetic, 
          and has no effects. The soda color is blue, 
          as well as the cone on the label. However, it was likely meant to be an event item and have an actual affect,

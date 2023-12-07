@@ -7,16 +7,14 @@ attributions:
 html:
   header:
     title: Gameboy Advance
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          <i>Not to be confused with the <a href="/bussim/items/roemulator">RoEmulator</a> item.</i>
 
          <br><br>

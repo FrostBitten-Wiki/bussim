@@ -11,7 +11,6 @@ html:
     title: Nostalgic
     description: >-
       Category: <a href="/bussim/biomes">Biomes</a>
-
     image: ''
     imageBanner: /bussim-assets/images/biomes/nostalgic.webp
 
@@ -22,10 +21,8 @@ html:
         sectionDescription: >-
           Nostalgic is a biome that more focuses on the "Older ROBLOX" era, 
           with the older studs texture, blocky bushes and trees, 
-          and even billboards that shows the old ROBLOX ads, 
           like for Blox Mart and Witches Brew.
-        
+
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/biomes/galleries/Tree_And_Ad.webp

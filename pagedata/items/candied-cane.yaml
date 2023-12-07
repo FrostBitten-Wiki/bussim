@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Candied Cane
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The Candied Cane is a healing item given by obtaining <a href="https://www.roblox.com/badges/2124884560/The-Bringer-of-Gifts">The Bringer of Gifts</a> badge from the Santa's Gone event.
 
          <br><br>

@@ -19,11 +19,10 @@ html:
     - type: section
       content:
         sectionTitle: Info
-        sectionDescription: >-
-          Wasteland is a biome that has a similar appearance to <a href='/bussim/biomes/thorns'>Thorns</a>. 
-          The ground has rust covering it, and it spawns dead bushes, hills, and equally-rusted buildings. 
-          The skybox is red, cloudy, and ominous, and is the "<a href='https://create.roblox.com/marketplace/asset/54009801/End-of-the-world-skybox%3Fkeyword=&pageNumber=&pagePosition='>End of the World</a>" skybox, made by tyler7778.
-
+        sectionDescription: >- 
+         Wasteland is a biome that has a similar appearance to <a href='/bussim/biomes/thorns'>Thorns</a>. 
+         The ground has rust covering it, and it spawns dead bushes, hills, and equally-rusted buildings. 
+         The skybox is red, cloudy, and ominous, and is the "<a href='https://create.roblox.com/marketplace/asset/54009801/End-of-the-world-skybox%3Fkeyword=&pageNumber=&pagePosition='>End of the World</a>" skybox, made by tyler7778.
     - type: gallery
       content:
         images:

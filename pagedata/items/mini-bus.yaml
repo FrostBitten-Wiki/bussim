@@ -7,16 +7,14 @@ attributions:
 html:
   header:
     title: Mini-Bus
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The Mini-Bus is a miniature vehicle which resembles the bus used in the game. 
          It can only fit 1 player, 
          but drives faster than the bus. 
@@ -30,9 +28,7 @@ html:
       content:
         sectionTitle: appearance.
 
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
           The Mini-Bus has a Navy Blue (RGB 33, 84, 185) color for the default body paint. 
           On the sides of the bus, there are two large windows, 
           followed by vents behind them. At the back of the bus, 
@@ -50,9 +46,7 @@ html:
       content:
         sectionTitle: VR Controls
 
-    - type: text
-      content:
-        text: >- 
+        sectionDescription: >- 
           If you're looking for how to drive the Mini-Bus in VR, 
           check out the VR page linked <a href="/bussim/others/vr">here</a>.
 

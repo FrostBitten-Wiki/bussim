@@ -7,16 +7,14 @@ attributions:
 html:
   header:
     title: Megaphone EX
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The Megaphone EX is a gamepass item costing R$320. 
          It is an upgraded version of the original Megaphone, 
          as your shout message is 22.22..% larger than normal messages, 

@@ -7,16 +7,14 @@ attributions:
 html:
   header:
     title: Airpods
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The AirPods are based off of Apple's AirPods, 
          which are their own TWS (True Wireless Stereo) headphones that were introduced back in 2016. 
          Their function in the game allows you to listen to Roblox Audio IDs locally,
@@ -33,9 +31,7 @@ html:
       content:
         sectionTitle: Technical Details
 
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
           If you take one airpod out, 
           you can still listen to the music that's playing through them. 
           This works by mounting a part with a sound object to the player's camera to the right or left, 

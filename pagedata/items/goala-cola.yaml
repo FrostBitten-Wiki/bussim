@@ -7,16 +7,14 @@ attributions:
 html:
   header:
     title: Goala Cola
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The Goala Cola is an item you can obtain at the GOATed Gas Station. 
          The item is purely cosmetic, 
          making you do a little dance while "Goooaaaalllll!" plays after drinking it.

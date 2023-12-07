@@ -9,43 +9,36 @@ attributions:
 html:
   header:
     title: Ranks/Tags
-    description: Others
+    description: >- 
+      Category: <a href="/bussim/others">Others</a>
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: There's a small handful of chat tags in the game that you can obtain by simple means, 
-              with some either being permanent or temporary. 
-              This page will go over them, 
-              and give short explanations of them.
+        sectionDescription: >- 
+          There's a small handful of chat tags in the game that you can obtain by simple means, 
+          with some either being permanent or temporary. 
+          This page will go over them, 
+          and give short explanations of them.
 
-              <br><br>
+          <br><br>
 
-              Do note that as of now, 
-              the only tags you can change is your heart tags, 
-              but other tags like group / donation tags can't be changed without having to leave the group / delete the gamepass associated with it. 
-              This is subjected to change soon.
-
-              <br><br>
-
-              <highlight>table of contents?</highlight>
+          Do note that as of now, 
+          the only tags you can change is your heart tags, 
+          but other tags like group / donation tags can't be changed without having to leave the group / delete the gamepass associated with it. 
+          This is subjected to change soon.
 
     - type: section
       content:
         sectionTitle: Heart Tags
-    - type: text
-      content:
-        text: This category already has 
-              <a href="/bussim/others/reputation">its own page</a>, 
-              but for convenience purposes, 
-              here's a quick list on all of the hearts you can get. 
-              You can also change them anytime using !setheart.
-
-              <br><br>
+        sectionDescription: >- 
+          This category already has 
+          <a href="/bussim/others/reputation">its own page</a>, 
+          but for convenience purposes, 
+          here's a quick list on all of the hearts you can get. 
+          You can also change them anytime using !setheart.
 
     - type: table
       content:
@@ -77,9 +70,7 @@ html:
     - type: section
       content:
         sectionTitle: Group Ranks
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
               <b>Unverified</b>
               
               <br><br>
@@ -221,14 +212,10 @@ html:
 
               It's NobleReign. 
               He also gets "+30" additional rep.
-
-              <br><br>
     - type: section
       content:
         sectionTitle: Donation Tags
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
           Donation tags are usable in 
           <a href="https://www.roblox.com/games/2091563160/Bus-Simulator">Bus Simulator</a> 
           and 
@@ -256,20 +243,14 @@ html:
           <br><br>
 
           <text style="color: #bb0e10;"><b>[good lord]</b></text> - you're insane. in a bad way. <b>(100k R$)</b>
-
-          <br><br>
     - type: section
       content:
         sectionTitle: Question Time Tags
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
           You can also get tags, 
           albeit temporarily by based off of the answers you choose during Question Time, 
           all of the tags so far can be found over 
           <a href="/bussim/events/question-time">here</a>.
-
-          <br><br>
     - type: section
       content:
         sectionTitle: Trivia

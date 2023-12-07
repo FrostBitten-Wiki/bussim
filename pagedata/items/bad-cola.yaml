@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Bad Cola
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The Bad Cola (or occasionally called Red Cola) is a rare cola that has an appearance of the normal <a href="/bussim/items/cola">Cola</a> tinted red. 
          You can also get it from the cola crate on the second floor of the bus. 
          There's a 10% chance of you getting it. 

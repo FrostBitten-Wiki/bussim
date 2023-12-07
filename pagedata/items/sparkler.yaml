@@ -7,16 +7,14 @@ attributions:
 html:
   header:
     title: Sparkler
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectiondescription: >-
           There are two versions of the Sparkler that exists in Bus Simulator, 
           a normal Sparkler, and a Sparkler Candle for VR. 
           This wiki page contains both items.
@@ -42,9 +40,7 @@ html:
       content:
         sectionTitle: Sparkler Candle
 
-    - type: text
-      content:
-        text: >-
+        sectiondescription: >-
           The Sparkler Candle is a VR-Exclusive permanent item that only appears in a VR players inventory, 
           unless if given by an admin via admin commands. 
           The sparkler can also be a light source, emitting a strong light, 

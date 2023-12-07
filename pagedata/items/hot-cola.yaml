@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Hot Cola
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          Hot Cola is an item that can be found on the Second-Story of <a href="/bussim/locations/the-bus">The Bus</a> underneath the <a href="/bussim/items/pizza">Pizza Box</a>. 
          When used, it'll act as any normal Cola; 
          but will instead set you ablaze, 
