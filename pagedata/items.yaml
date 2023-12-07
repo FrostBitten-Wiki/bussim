@@ -54,7 +54,7 @@ html:
               drink it, the player pauses, their skin tone gets paler, and soon
               instantly dies.
             listItemRedirect: /bussim/items/bad-cola
-          - listItemImage: /bussim-assets/images/items/birthday-ice-cream.webp
+          - listItemImage: /bussim-assets/images/items/birthday-ice-cream-icon.webp
             listItemTitle: Birthday Ice Cream
             listItemDescription: >-
               The Birthday Ice Cream is a large ice cream cone, obtainable by
@@ -209,7 +209,7 @@ html:
               cream truck.<br></br>When used, you'll regenerate a small amount
               of health.
             listItemRedirect: /bussim/items/ice-cream
-          - listItemImage: /bussim-assets/images/items/lemon-soda.webp
+          - listItemImage: /bussim-assets/images/items/lemon-soda-icon.webp
             listItemTitle: Lemon Soda
             listItemDescription: >-
               Coffee is a usable item obtained from the pool event that appears
@@ -233,7 +233,7 @@ html:
               questline.<br></br>When used, you'll teleport to Frost's Den
               anytime, anywhere.
             listItemRedirect: /bussim/items/magic-mirror
-          - listItemImage: /bussim-assets/images/items/marker.webp
+          - listItemImage: /bussim-assets/images/items/marker-icon.webp
             listItemTitle: Marker
             listItemDescription: >-
               The Marker is an item that allows you to draw lines almost
