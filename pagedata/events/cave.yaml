@@ -1,0 +1,51 @@
+page:
+  title: Cave
+  description: Cave event is an event that takes place in a cave.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Cave
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Cave
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Cave</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/cave2.webp
+
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >-
+         Cave event is an event that takes place in a cave. 
+         When this happens, 
+         the Driver mentions there is a Cave ahead. 
+         Then, within seconds, 
+         the map becomes dark and changes to a cave. 
+         Then eventually the bus begins to drive through the cave. 
+         Then within 50 seconds, 
+         the driver mentions they are halfway out and then tells the passengers to hang on tight and then the map becomes darker. 
+         And then after that, 
+         the map changes to the region the bus was driving on before.
+
+         <br><br>
+
+         This event is a great way to show off the Futuristic lighting that is used in the game, 
+         via the Headlights, 
+         <a href="/bussim/items/phone">Phone's</a> flashlight, 
+         etc.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: This event was most likely more of a test for the futuristic lighting and to show off on how it looks ingame.
+        - name: When the event spawns, the biome would change to <a href='/bussim/biomes/rocky'>Rocky</a>.
+        - name: The event runtime is 1 minute and 33 seconds, similar to both the <a href='/bussim/events/nobles-house'>Noble's House</a> and <a href='/bussim/events/bloxdonalds'>Bloxdonalds</a> events.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/cave2.webp
