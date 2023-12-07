@@ -8,7 +8,7 @@ html:
   header:
     title: Backwalls
     description: >-
-     Category: <a href="/bussim/events">Events,</a> <a href="/bussim/locations">Locations</a>
+     Category: <a href="/bussim/events">Events,</a> <a href="/bussim/locations">Locations</a><br>Event Name: <highlight>Backwalls</highlight>
     image: ''
     imageBanner: /bussim-assets/images/locations/backwalls.webp
 
@@ -23,10 +23,6 @@ html:
       content:
         sectionTitle: Info
         sectionDescription: >-
-         <i>Event Name: Backwalls</i>
-
-         <br><br>
-
          The Backwalls is a rare event where a person mentions about the bus having a few hiccups or something isn't feeling right. 
          Afterwards all players (assuming they are not in Frost's Den) are teleported into the Backwalls.
 
