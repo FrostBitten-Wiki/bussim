@@ -294,8 +294,8 @@
                 [3000, "Disc", "lean", "Below of each item has a price tag listed, that is the amount you need to pay with Passenger Reputation!"],
                 [3000, "Disc", "point", "And when you feel like buying them, you can head over to me and proceed to checkout!"],
                 [3000, "Disc", "point", "Those items afterwards are now bonded with you, so you'll bring it everywhere you go!"],
-                [3000, "Disc", "angry", "Oh, and don't try stealing them..."],
-                [3000, "Disc", "close", "<b>Or you will be our next Halloween decoration..</b>"]
+                [3000, "Disc", "angry", "Oh, you certainly can try stealing them..."],
+                [3000, "Disc", "close", "<b>That is, until you become our next Halloween decoration..</b>"]
             ]
         },
 
