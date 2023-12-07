@@ -10,6 +10,10 @@ html:
   header:
     title: Art Gallery
     description: >-
+      Category: <a href="/bussim/locations">Locations</a>
+      
+      <br><br>
+
       The Art Gallery is a location in Bus Simulator which can be accessed by flushing <a href="/bussim/location/the-bus">The Bus'</a> toilet while you are seated.
       
       <br><br>
@@ -37,10 +41,6 @@ html:
           <br><br>
           jk just touch the puddle
         author: "NobleReign"
-    
-    - type: text
-      content:
-        text: Test
 
     - type: table
       content:

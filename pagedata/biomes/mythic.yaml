@@ -2,25 +2,24 @@ page:
   title: Mythic
   description: Mythic is a biome that is dark, and fantasy-like,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Mythic
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Mythic
-    description: Biomes
+    description: >-
+      Category: <a href="/bussim/biomes">Biomes</a>
+      <br><br>
+
+      Mythic is a biome that is dark, and fantasy-like, 
+      where the shading is more blue. 
+      The biome has blue grass and gigantic trees with blue leaves.
     image: ''
     imageBanner: /bussim-assets/images/biomes/mythic.webp
+  
   pageContent:
-    - type: section
-      content:
-        sectionTitle: Info
-    - type: text
-      content:
-        text: >- 
-          Mythic is a biome that is dark, and fantasy-like, 
-          where the shading is more blue. 
-          The biome has blue grass and gigantic trees with blue leaves.
-          <br><br>
     - type: gallery
       content:
         images:

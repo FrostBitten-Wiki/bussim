@@ -201,7 +201,7 @@
                     {% if data['type'] == "text" %}
                         <text>{{ data['content']['text'] }}</text>
                     {% elif data['type'] == "section" %}
-                        <div style="margin-top: 20px; margin-bottom: 20px;">
+                        <div style="margin-top: 20px; margin-bottom: 35px;">
                             <text style="font-size: 25px;">{{ data['content']['sectionTitle'] }}</text><br>
                             <text>{{ data['content']['sectionDescription'] }}</text>
                         </div>
@@ -249,11 +249,11 @@
                             <text>{{ data["content"]["infoBoxDescription"]}}</text>
                         </div>
                     {% elif data['type'] == "tree" %}
-                        <div style="margin-top: 20px; margin-bottom: 20px;">
+                        <div style="margin-top: 20px; margin-bottom: 35px;">
                             {{ render_tree(data['content']) }}
                         </div>
                     {% elif data['type'] == "quote" %}
-                        <div style="margin-top: 20px; margin-bottom: 20px;">
+                        <div style="margin-top: 20px; margin-bottom: 35px;">
                             <div style="display: grid; grid-template-columns: 0.05fr 1fr 0.05fr;">
                                 <text style="font-size: 50px;">"</text>
                                 <text style="text-align: center;">{{ data["content"]["quote"] }}</text>
@@ -262,7 +262,7 @@
                             <text>- {{ data["content"]["author"] }}</text>
                         </div>
                     {% elif data['type'] == "table" %}
-                        <div style="margin-top: 20px; margin-bottom: 20px;">
+                        <div style="margin-top: 20px; margin-bottom: 35px;">
                             {% set spacing = data["content"]["columnSpacing"].split() %}
                             {% set columns = spacing|length %}
                             {% set columnWidth = data["content"]["widthSize"] / columns %}
