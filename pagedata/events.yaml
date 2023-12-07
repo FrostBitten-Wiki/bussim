@@ -411,7 +411,7 @@ html:
         infoBoxTitle:
           - Disabled Events
           - '#9e9e9e'
-        infoBoxDescription: These events can't be forced, and is no longer available on the game.
+        infoBoxDescription: These events can't be forced, and are no longer available in the game.
     
     - type: list
       content:
@@ -419,6 +419,5 @@ html:
           - listItemImage: /bussim-assets/images/events/santasgone1.webp
             listItemTitle: Santa's Gone
             listItemDescription: >-
-              Santa's Gone was a limited time event that came before the No Dough event, 
-              which was a limited time event in <highlight>December 2021</highlight> and <highlight>2022</highlight>.
+              Santa's Gone was a limited time event that was the predecessor of NoDough, and made its appearance in both <highlight>December 2021</highlight> and <highlight>2022</highlight>.
             listItemRedirect: /bussim/events/santas-gone
