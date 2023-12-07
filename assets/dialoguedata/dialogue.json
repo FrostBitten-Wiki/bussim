@@ -287,10 +287,10 @@
             ]
         },
 
-        "disc01": {
+        "disc001": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Disc", "point", "Hey! Did you know that you can buy the items in GoatedGas?"],
+                [3000, "Disc", "point", "Hey! Did you know that you can buy items on the GOATed Gas Station?"],
                 [3000, "Disc", "lean", "Below of each item has a price tag listed, that is the amount you need to pay with Passenger Reputation!"],
                 [3000, "Disc", "point", "And when you feel like buying them, you can head over to me and proceed to checkout!"],
                 [3000, "Disc", "point", "Those items afterwards are now bonded with you, so you'll bring it everywhere you go!"],
@@ -299,7 +299,7 @@
             ]
         },
 
-        "disc02": {
+        "disc002": {
             "rarity": 100,
             "dialogue": [
                 [4000, "Disc", "think", "And then I said sir, this is a gas station- I feel bad for hi-"],
@@ -334,7 +334,7 @@
         },
         "Disc": {
             "dialogueSfx": "button",
-            "dialogueColors": ["#0b0d15", "#081106", "#7289da"],
+            "dialogueColors": ["#0b0d15", "#111420", "#7289da"],
             "dialogueEmoteName": "disc"
         },
         "Ectta": {
