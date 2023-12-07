@@ -42,7 +42,7 @@ html:
           - listItemImage: /bussim-assets/images/locations/bloxdonalds.webp
             listItemTitle: Bloxdonalds
             listItemDescription: The Bloxdonalds is both an Event and a Location in Bus Simulator.
-            listItemRedirect: /bussim/locations/bloxdonalds
+            listItemRedirect: /bussim/events/bloxdonalds
           
           - listItemImage: /bussim-assets/images/locations/the-door.webp
             listItemTitle: The Door
@@ -55,7 +55,7 @@ html:
             listItemTitle: Glacier Cave
             listItemDescription: >-
               The interior is a massive cave filled with crystals, on the left there is a hidden passage way that appears to be a parkour that leads to NamerElf's actual spot. (While NamerElf is credited; it isn't present in its podium in the Art Gallery.)
-            listItemRedirect: /bussim/locations/glacier-cave
+            listItemRedirect: /bussim/events/glacier-cave
           
           - listItemImage: /bussim-assets/images/items/gps.webp
             listItemTitle: GPS Locations
