@@ -11,14 +11,16 @@ html:
     title: Rocky
     description: >-
       Category: <a href="/bussim/biomes">Biomes</a>
-      <br><br>
-
-      Rocky is a biome that will spawn randomly after driving through a tunnel. 
-      The biome is rather simple, being made entirely out of rocks and boulders.
     image: ''
     imageBanner: /bussim-assets/images/biomes/rocky.webp
   
   pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+        sectionDescription: >- 
+         Rocky is a biome that will spawn randomly after driving through a tunnel. 
+         The biome is rather simple, being made entirely out of rocks and boulders.
     - type: section
       content:
         sectionTitle: Trivia

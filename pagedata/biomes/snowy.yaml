@@ -11,14 +11,16 @@ html:
     title: Snowy
     description: >-
       Category: <a href="/bussim/biomes">Biomes</a>
-      <br><br>
-
-      Snowy is a biome that will spawn randomly after driving through a tunnel. 
-      The biome is based on winter, having the ground and trees covered in snow.
     image: ''
     imageBanner: /bussim-assets/images/biomes/snowy.webp
 
   pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+        sectionDescription: >- 
+         Snowy is a biome that will spawn randomly after driving through a tunnel. 
+         The biome is based on winter, having the ground and trees covered in snow.
     - type: section
       content:
         sectionTitle: Trivia

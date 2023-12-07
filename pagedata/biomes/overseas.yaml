@@ -11,17 +11,19 @@ html:
     title: Overseas
     description: >-
       Category: <a href="/bussim/biomes">Biomes</a>
-      <br><br>
-
-      Overseas is a biome that will spawn randomly after driving through a tunnel. 
-      It comprises of the street being a bridge and the terrain being completely non-existent. 
-      It also has a similar haze to Nostalgia among a few others.<br><br>Unlike other biomes, 
-      This biome allows players to fall off the road, causing them to drown in the process. 
-      It is highly recommended you don't drive a <a href="/bussim/items/mini-bus">Minibus</a> recklessly here if you prefer to keep your inventory.
     image: ''
     imageBanner: /bussim-assets/images/biomes/overseas.webp
   
   pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+        sectionDescription: >- 
+         Overseas is a biome that will spawn randomly after driving through a tunnel. 
+         It comprises of the street being a bridge and the terrain being completely non-existent. 
+         It also has a similar haze to Nostalgia among a few others.<br><br>Unlike other biomes, 
+         This biome allows players to fall off the road, causing them to drown in the process. 
+         It is highly recommended you don't drive a <a href="/bussim/items/mini-bus">Minibus</a> recklessly here if you prefer to keep your inventory.
     - type: section
       content:
         sectionTitle: Trivia

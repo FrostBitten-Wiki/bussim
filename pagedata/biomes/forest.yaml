@@ -11,16 +11,18 @@ html:
     title: Forest
     description: >-
       Category: <a href="/bussim/biomes">Biomes</a>
-      <br><br>
-
-      The Forest is a biome that's very similar to <a href='/bussim/biomes/summer'>Summer</a>,
-      but more dense with fog and has more trees spawning, commonly in a line of five trees.
-      They spawn in both large and small sizes randomly around the biome.
 
     image: ''
     imageBanner: /bussim-assets/images/biomes/forest.webp
 
   pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+        sectionDescription: >-
+         The Forest is a biome that's very similar to <a href='/bussim/biomes/summer'>Summer</a>,
+         but more dense with fog and has more trees spawning, commonly in a line of five trees.
+         They spawn in both large and small sizes randomly around the biome. 
     - type: gallery
       content:
         images:

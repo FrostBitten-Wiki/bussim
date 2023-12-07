@@ -11,14 +11,16 @@ html:
     title: Fall
     description: >-
       Category: <a href="/bussim/biomes">Biomes</a>
-      <br><br>
-
-      Fall is a biome in the game that is similar to <a href='/bussim/biomes/summer'>Summer</a>,
-      but is replaced with Orange instead of Green.
     image: ''
     imageBanner: /bussim-assets/images/biomes/fall.webp
 
   pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+        sectionDescription: >- 
+         Fall is a biome in the game that is similar to <a href='/bussim/biomes/summer'>Summer</a>,
+         but is replaced with Orange instead of Green.
     - type: gallery
       content:
         images:
