@@ -1,16 +1,33 @@
+# The "page" property configures the HTML's head. The values here are used to show stuff on the
+# embed when linked.
 page:
+  # This edits the Embed's title. It shows up like this -> Bus Simulator: PageTitle
   title: PageTitle
+  # This edits the Embed's description. You should keep this short.
   description: PageDescription
-  keywords: "wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>"
+  # This edits the HTML's keywords. This is used to allow search engines to query this to the results.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
+# The "attributions" property is a list of people whenever they did something on the page
+# like ported the page from fandom, crediting someone, and more.
+
+# NOTE: IF YOU WANT THE ATTRIBUTIONS PROPERTY TO BE EMPTY, SET THE VALUE TO "[]".
+# like so:
+# attributions: []
 attributions:
-  - "Something Contributed by Nyx (@nyxical)"
+  - Something Contributed by Nyx (@nyxical)
 
+# The "html" property configures the body of the HTML. This mostly contains the main content of the page.
 html:
+  # The "header" property configures the Page's header. This contains the content's name your editing, it's description, and more.
   header:
+    # This configues the Header's Title.
     title: TitleTest
+    # This configues the Header's Description. Although its recommended to store information in a section class instead.
     description: >-
-      Short description about something
+      Category: <a href="/bussim/category-name">CategoryName</a>
+      
+
     image: ""
     imageBanner: /bussim-assets/images/banner.jpg
 
