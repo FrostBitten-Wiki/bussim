@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        
+        {% if page %}
+            <title>Bus Simulator: {{ page["title"] }}</title>
+            <meta name="description" content="{{ page["description"] }}">
+
+            <meta property="og:url" content="">
+            <meta property="og:type" content="website">
+            <meta property="og:title" content="Bus Simulator: {{ page["title"] }}">
+            <meta property="og:description" content="{{ page["description"] }}">
+            <meta property="og:image" content="{{ html['header']['imageBanner'] }}">
+
+            <meta name="twitter:card" content="summary_large_image">
+            <meta property="twitter:domain" content="wiki.wolfdo.gg">
+            <meta property="twitter:url" content="">
+            <meta name="twitter:title" content="Bus Simulator: {{ page["title"] }}">
+            <meta name="twitter:description" content="{{ page["description"] }}">
+            <meta name="twitter:image" content="{{ html['header']['imageBanner'] }}">
+            
+            <meta name="keywords" content="{{ page['keywords'] }}">
+
+            <link rel="icon" href="/bussim-assets/favicon.ico" type="image/x-icon">
+            <link rel="stylesheet" href="/bussim-assets/style.css">
+
+            <script>
+                var currentPath = window.location.pathname;
+    
+                var ogUrlMetaTag = document.querySelector('meta[property="og:url"]');
+                if (ogUrlMetaTag) {
+                    ogUrlMetaTag.setAttribute('content', currentPath);
+                }
+    
+                var twitterUrlMetaTag = document.querySelector('meta[name="twitter:url"]');
+                if (twitterUrlMetaTag) {
+                    twitterUrlMetaTag.setAttribute('content', currentPath);
+                }
+            </script>
+        {% endif %}
+    </head>
+</html>
