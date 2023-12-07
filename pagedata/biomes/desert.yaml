@@ -2,24 +2,22 @@ page:
   title: Desert
   description: Desert is a biome that will spawn randomly after driving through a tunnel.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Desert
-  
+
 attributions:
   - "Ported By PolyframeX"
 
 html:
   header:
     title: Desert
-    description: Biomes
+    description: >-
+      Category: <a href="/bussim/biomes">Biomes</a>
+      <br><br>
+
+      Desert is a biome that will spawn randomly after driving through a tunnel.
     image: ''
     imageBanner: /bussim-assets/images/biomes/desert.webp
 
   pageContent:
-    - type: section
-      content:
-        sectionTitle: Info
-        sectionDescription: >- 
-          Desert is a biome that will spawn randomly after driving through a tunnel.<br><br>
-
     - type: gallery
       content:
         images:

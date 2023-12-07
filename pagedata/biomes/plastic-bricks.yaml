@@ -9,20 +9,19 @@ attributions:
 html:
   header:
     title: Plastic Bricks
-    description: Biomes
+    description: >-
+      Category: <a href="/bussim/biomes">Biomes</a>
+      <br><br>
+
+      Plastic Bricks is a biome that appears with a Smooth Plastic material in green. 
+      A unique tree mesh and red plastic bricks spawn on the terrain, 
+      as well as buildings. The biome used to be called LEGO, 
+      but was changed potentially due to copyright reasons.
+
     image: ''
     imageBanner: /bussim-assets/images/biomes/plastic-bricks.webp
   
   pageContent:
-    - type: section
-      content:
-        sectionTitle: Info
-        sectionDescription: >- 
-          Plastic Bricks is a biome that appears with a Smooth Plastic material in green. 
-          A unique tree mesh and red plastic bricks spawn on the terrain, 
-          as well as buildings. The biome used to be called LEGO, 
-          but was changed potentially due to copyright reasons.
-   
     - type: gallery
       content:
         images:

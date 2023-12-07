@@ -9,18 +9,17 @@ attributions:
 html:
   header:
     title: Bricks
-    description: Biomes
+    description: >-
+      Category: <a href="/bussim/biomes">Biomes</a>
+      <br><br>
+
+      The Bricks biome is a simple biome where the ground is just bricks, 
+      and any hills are also textured with bricks. 
+      Buildings also spawn in the biome, but that's about it.
+      
     image: ''
     imageBanner: /bussim-assets/images/biomes/bricks.webp
   pageContent:
-    - type: section
-      content:
-        sectionTitle: Info
-        sectionDescription: >-
-          The Bricks biome is a simple biome where the ground is just bricks, 
-          and any hills are also textured with bricks. 
-          Buildings also spawn in the biome, but that's about it.<br><br>
-
     - type: gallery
       content:
         images:

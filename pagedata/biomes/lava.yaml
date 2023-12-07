@@ -5,22 +5,20 @@ page:
 
 attributions:
   - "Ported By PolyframeX"
-  
+
 html:
   header:
     title: Lava
-    description: Biomes
+    description: >-
+      Category: <a href="/bussim/biomes">Biomes</a>
+      <br><br>
+
+      Lava is a biome that will spawn randomly after driving through a tunnel. 
+      It comprises of lava surrounding the entire street with a potent orange haze for its fog.
     image: ''
     imageBanner: /bussim-assets/images/biomes/lava.webp
 
   pageContent:
-    - type: section
-      content:
-        sectionTitle: Info
-        sectionDescription: >- 
-          Lava is a biome that will spawn randomly after driving through a tunnel. 
-          It comprises of lava surrounding the entire street with a potent orange haze for its fog.
-   
     - type: section
       content:  
         sectionTitle: Trivia
