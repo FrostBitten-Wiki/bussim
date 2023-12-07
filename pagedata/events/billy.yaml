@@ -54,10 +54,10 @@ html:
          Finally, 
          after a few minutes a couple outcomes will occur whether or not half of the server are infected by Billies:
 
-         <br><br>
-
-         * If less than half or nobody becomes a Billy, the Billies will then explode as The Bus drives over the machine, ending the event.<br>
-         * If more than half of the server becomes a Billy, then the Billies will then mention taking over Roblox as the event ends, with The Bus going back to speed.
+    - type: tree
+      content:
+        - name: If less than half or nobody becomes a Billy, the Billies will then explode as The Bus drives over the machine, ending the event.
+        - name: If more than half of the server becomes a Billy, then the Billies will then mention taking over Roblox as the event ends, with The Bus going back to speed.
 
     - type: section
       content:
