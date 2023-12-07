@@ -2,14 +2,19 @@ page:
   title: Avian Potion
   description: The Avian Potion is a consumable that can only be obtained by admin commands.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Avian Potion
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Avian Potion
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: >-
+      Category: <a href="/bussim/items">Items</a>
+      
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: infobox
       content:
@@ -22,26 +27,32 @@ html:
           <br>
 
           <small>This page has content exclusive to admins of the game. This may include scrapped / hidden content that is normally inaccessible during normal gameplay.</small>
+  
     - type: quote
       content:
-       quote: "You feel feathery! Mash JUMP to fly.. kinda!"
-       author: Avian Potion (After Consumption)
+        quote: "You feel feathery! Mash JUMP to fly.. kinda!"
+        author: Avian Potion (After Consumption)
+ 
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
-         The Avian Potion is a consumable that can only be obtained by admin commands. 
-         It's appearance is a large, glowing potion with orange liquid inside. When consumed, 
-         it gives the user the ability to mash space to flap once, 
-         and gives you tiny air time. 
-         The item works best when you mash the jump button or with a macro.
+        size: normal
+        title: Info
+        description: >-
+          The Avian Potion is a consumable that can only be obtained by admin commands. 
+          It's appearance is a large, glowing potion with orange liquid inside. When consumed, 
+          it gives the user the ability to mash space to flap once, 
+          and gives you tiny air time. 
+          The item works best when you mash the jump button or with a macro.
 
     - type: section
       content:
-        sectionTitle: Trivia
+        size: normal
+        title: Trivia
+
     - type: tree
       content:
         - name: It is unknown when it first made its debut, nor what it is referenced by, but it exists within the game.
+
     - type: gallery
       content:
         images:

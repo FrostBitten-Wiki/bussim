@@ -2,19 +2,25 @@ page:
   title: Birthday Ice Cream
   description: The Birthday Ice Cream is a large ice cream cone.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Birthday Ice Cream
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Birthday Ice Cream
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: >-
+      Category: <a href="/bussim/items">Items</a>
+
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+  
   pageContent:
     - type: quote
       content:
        quote: "happy bday"
        author: Item Description
+       
     - type: section
       content:
         sectionTitle: Info

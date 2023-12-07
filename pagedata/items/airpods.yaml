@@ -2,36 +2,42 @@ page:
   title: Airpods
   description: The AirPods are based off of Apple's AirPods,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Airpods
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Airpods
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: >-
+      Category: <a href="/bussim/items">Items</a>
+
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
-         The AirPods are based off of Apple's AirPods, 
-         which are their own TWS (True Wireless Stereo) headphones that were introduced back in 2016. 
-         Their function in the game allows you to listen to Roblox Audio IDs locally,
-         via the handy interface on the left of the screen with them selected in your hotbar.
+        size: normal
+        title: Info
+        description: >-
+          The AirPods are based off of Apple's AirPods, 
+          which are their own TWS (True Wireless Stereo) headphones that were introduced back in 2016. 
+          Their function in the game allows you to listen to Roblox Audio IDs locally,
+          via the handy interface on the left of the screen with them selected in your hotbar.
 
-         <br><br>
+          <br><br>
 
-         They are available for purchase as a gamepass, 
-         for R$8, 
-         along with the Colored AirPods gamepass for R$32, 
-         which allows you to color both Pods respectively with !lcolor and !rcolor.
+          They are available for purchase as a gamepass, 
+          for R$8, 
+          along with the Colored AirPods gamepass for R$32, 
+          which allows you to color both Pods respectively with !lcolor and !rcolor.
 
     - type: section
       content:
-        sectionTitle: Technical Details
-
-        sectionDescription: >-
+        size: normal
+        title: Technical Details
+        description: >-
           If you take one airpod out, 
           you can still listen to the music that's playing through them. 
           This works by mounting a part with a sound object to the player's camera to the right or left, 
@@ -42,12 +48,15 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        size: normal
+        title: Trivia
+
     - type: tree
       content:
         - name: The Airpods locations for where they sit will change depending on if you're wearing animal ears or not.
         - name: Despite the <a href="/bussim/items/phone">Phone</a> being an Android, the Airpods are still paired to it.
         - name: On the release of the Airpods, it was rather barebones, and you could only change the volume and put in an audio ID.
+   
     - type: gallery
       content:
         images:

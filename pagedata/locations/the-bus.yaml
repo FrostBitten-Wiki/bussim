@@ -1,0 +1,66 @@
+page:
+  title: The Bus
+  description: The Bus is the main part and theme of this entire game, it is composed of 3 different floors with about more than 40 seats distributed all over the floors including items and props.
+  keywords: "wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>"
+
+attributions:
+  - Edited & Ported by Nyx
+
+html:
+  header:
+    title: The Bus
+    description: >-
+      Category: <a href="/bussim/locations">Locations</a>
+
+    image: ""
+    imageBanner: /bussim-assets/images/banner.jpg
+
+  pageContent:
+    - type: section
+      content:
+        size: normal
+        title: Info
+        description: >-
+          The Bus is the main part and theme of this entire game, 
+          it is composed of 3 different floors with about more than 40 seats distributed all over the floors including items and props.
+
+          <br><br>
+
+          This is also where everyone hangs out for most if not almost all of their entire time playing this game, with parts of it from <a href="/bussim/events">Events</a>.
+          It also serves as an effective shelter for events that can kill players if outside, like <a href="/bussim/events/blizzard">Blizzard</a>, <a href="/bussim/events/acid-rain">Acid Rain</a>, <a href="/bussim/events/flash-flood">Flash Flood</a>, etc.
+
+    - type: section
+      content:
+        size: normal
+        title: Bus Design
+        description: >-
+          The bus has a sleek design, with a Navy Blue coat of paint that can be modified, and has 3 floors to explore / chill out on.
+
+    
+    
+    - type: section
+      content:
+        size: normal
+        title: Trivia
+        description: >-
+          .
+
+    - type: tree
+      content:
+        - name: >-
+            There are also extra texts coming from NobleReign, mostly from his very first fanart he received.
+          children:
+            - name: >-
+                The first art on the left is the very first and original fanart, and it says: <highlight type="grey">"this IS my first ever fanart by Dysphorian (now tal1y) they brought it back from the dead :)"</highlight><br><br>
+            - name: >-
+                The art on the right side shows the more updated version of the left one, and it says: <highlight type="grey">"they also made this one, its like a revamped version :D"</highlight><br><br>
+            - name: >-
+                There's also some text that is shown above the Emergency Button that sends you back to <a href="/bussim/locations/the-bus">The Bus</a>, due to VR players unable to trip on the puddle.
+              children:
+                - name: >-
+                    It also had an advertisement of the VRChat version of Bus Simulator: <highlight type="grey">"vr players check out the vrchat version of bus sim"</highlight>
+                  children:
+                    - name: >-
+                        It was later removed because of possibly breaking Roblox's TOS, leading the user offsite. It was now replaced by this instead: <highlight type="grey">"vr players hit this instead"</highlight>
+        - name: >-
+            In one of the past builds of Bus Simulator, the Art Gallery also had a larger text above the ceiling in red saying <text style="color: red;">"make efeuc fanart"</text>. But it was later removed in an Unknown Build.

@@ -2,8 +2,10 @@ page:
   title: Bus-Cola Bandolier
   description: The Bus-Cola Bandolier is an official accessory that you can buy here.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Bus-Cola Bandolier
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Bus-Cola Bandolier
@@ -11,22 +13,26 @@ html:
       Category: <a href="/bussim/others">Others</a>
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+  
   pageContent:
     - type: quote
       content:
        quote: "Never go thirsty again with this bandolier of assorted colas that we found rolling around in the back of a bus! Who knows what'll happen if you drink one?"
        author: "Bus-Cola Bandolier"
+
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >- 
+        size: normal
+        title: Info
+        description: >- 
           The Bus-Cola Bandolier is an official accessory that you can buy <a href='https://www.roblox.com/catalog/14609231873/'>here</a>.
           This accessory currently has no functional usage yet and can be worn anywhere even outside of Bus Simulator.
 
     - type: section
       content:
-        sectionTitle: Appearance
-        sectionDescription: >-
+        size: normal
+        title: Appearance
+        description: >-
          The Bandolier seems to be a torso strap-on made with a sky-blue fabric. 
          On the bandolier contains the following colas; 
          left to right being: 
@@ -35,7 +41,9 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        size: normal
+        title: Trivia
+        
     - type: tree
       content:
         - name: Much like the <a href="/bussim/items/diy-mini-bus">D.I.Y. Bus</a>, this is the second non-clothing accessory to be made in relation to Bus Simulator.

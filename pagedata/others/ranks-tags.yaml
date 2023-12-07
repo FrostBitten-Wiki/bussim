@@ -16,8 +16,9 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >- 
+        size: normal
+        title: Info
+        description: >- 
           There's a small handful of chat tags in the game that you can obtain by simple means, 
           with some either being permanent or temporary. 
           This page will go over them, 
@@ -32,8 +33,9 @@ html:
 
     - type: section
       content:
-        sectionTitle: Heart Tags
-        sectionDescription: >- 
+        size: normal
+        title: Heart Tags
+        description: >- 
           This category already has 
           <a href="/bussim/others/reputation">its own page</a>, 
           but for convenience purposes, 
@@ -69,8 +71,9 @@ html:
 
     - type: section
       content:
-        sectionTitle: Group Ranks
-        sectionDescription: >-
+        size: normal
+        title: Group Ranks
+        description: >-
               <b>Unverified</b>
               
               <br><br>
@@ -214,8 +217,9 @@ html:
               He also gets "+30" additional rep.
     - type: section
       content:
-        sectionTitle: Donation Tags
-        sectionDescription: >-
+        size: normal
+        title: Donation Tags
+        description: >-
           Donation tags are usable in 
           <a href="https://www.roblox.com/games/2091563160/Bus-Simulator">Bus Simulator</a> 
           and 
@@ -243,17 +247,22 @@ html:
           <br><br>
 
           <text style="color: #bb0e10;"><b>[good lord]</b></text> - you're insane. in a bad way. <b>(100k R$)</b>
+
     - type: section
       content:
-        sectionTitle: Question Time Tags
-        sectionDescription: >-
+        size: normal
+        title: Question Time Tags
+        description: >-
           You can also get tags, 
           albeit temporarily by based off of the answers you choose during Question Time, 
           all of the tags so far can be found over 
           <a href="/bussim/events/question-time">here</a>.
+          
     - type: section
       content:
-        sectionTitle: Trivia
+        size: normal
+        title: Trivia
+
     - type: tree
       content:
         - name: Despite Verifier being a tag that is normally exclusive similar to Contributors, Authenticators and such; it's currently possible for Verifiers to get auto-ranked to Drivers accidentally due to the current system.

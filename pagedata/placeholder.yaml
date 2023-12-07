@@ -41,20 +41,25 @@ html:
   pageContent:
     # Every content supports HTML.
 
-    # This adds a text element from the content.
+    # This adds a text element to the content.
     - type: text
       content:
         text: >-
           Some text here
 
-    # This adds a section frome the content. This is good if you want to categorize some things.
+    # This adds a section to the content. This is good if you want to categorize some things.
     - type: section
       content:
-        sectionTitle: SectionTitle
-        sectionDescription: >-
+        # Current Sizes: big, normal, small
+        size: normal
+        title: SectionTitle
+        description: >-
           Section Description
+    
+    # This adds a separator to the content. Currently not being used as the section class generates one itself.
+    #- type: separator
 
-    # This adds a list from the content. This is mainly used for categories. but can be used elsewhere whenever needed.
+    # This adds a list to the content. This is mainly used for categories. but can be used elsewhere whenever needed.
     - type: list
       content:
         items:

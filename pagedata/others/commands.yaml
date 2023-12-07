@@ -17,24 +17,24 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >- 
-         Commands are a feature in Bus Simulator used to change small elements of the game, 
-         such as chat tag customisation and private server commands.
+        size: normal
+        title: Info
+        description: >- 
+          Commands are a feature in Bus Simulator used to change small elements of the game, 
+          such as chat tag customisation and private server commands.
 
-         <br><br>
+          <br><br>
 
-         Most commands use the ! prefix, 
-         excluding the default emote command,
-         which requires /e instead. 
-         This page will list all of the commands you can do both in public and private servers.
-
-          
+          Most commands use the ! prefix, 
+          excluding the default emote command,
+          which requires /e instead. 
+          This page will list all of the commands you can do both in public and private servers.
 
     - type: section
       content:
-        sectionTitle: Emotes
-        sectionDescription: >- 
+        size: normal
+        title: Emotes
+        description: >- 
           Emotes can be used in all servers and are mostly meant for fun, 
           some emotes like <highlight>/e smug</highlight> have special effects only visible with certain settings, 
           and others like <highlight>/e honda</highlight> can be used while walking. 
@@ -77,8 +77,9 @@ html:
     
     - type: section
       content:
-        sectionTitle: Seat animations
-        sectionDescription: >-
+        size: normal
+        title: Seat Animations
+        description: >-
           You can change your seat animation using <b>!anim</b>, 
           however you can only do this while you are out of a seat. 
           The command will show a menu containing a large array of emotes, 

@@ -2,27 +2,34 @@ page:
   title: Almond Water
   description: Almond Water is a healing item obtainable from random floor spawns in the Backwalls event. 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Almond Water
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Almond Water
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: >-
+      Category: <a href="/bussim/items">Items</a>
+
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: quote
       content:
-       quote: "Sweet flavoured water that soothes the soul."
-       author: Item Description
+        quote: "Sweet flavoured water that soothes the soul."
+        author: Item Description
+
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
-         Almond Water is a healing item obtainable from random floor spawns in the <a href="/bussim/events/backwalls">Backwalls</a> event. 
-         When used, you will gain a significant boost in speed and healing for a few seconds, 
-         being able to outrun <a href="/bussim/npcs/entity">Entities</a> and move much quicker throughout the <a href="/bussim/events/backwalls">Backwalls</a>, 
-         however this item only has 2 uses before it'll disappear from your inventory so use wisely.
+        size: normal
+        title: Info
+        description: >-
+          Almond Water is a healing item obtainable from random floor spawns in the <a href="/bussim/events/backwalls">Backwalls</a> event. 
+          When used, you will gain a significant boost in speed and healing for a few seconds, 
+          being able to outrun <a href="/bussim/npcs/entity">Entities</a> and move much quicker throughout the <a href="/bussim/events/backwalls">Backwalls</a>, 
+          however this item only has 2 uses before it'll disappear from your inventory so use wisely.
 
     - type: quote
       content:
@@ -38,7 +45,9 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        size: normal
+        title: Trivia
+
     - type: tree
       content:
         - name: This item's texture was ripped from the <a href="https://backrooms.fandom.com/wiki/Almond_Water">Backrooms Wiki</a>.

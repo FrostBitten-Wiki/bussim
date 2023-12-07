@@ -64,6 +64,7 @@ html:
     
     - type: section
       content:
+        size: normal
         sectionTitle: Tracks
         sectionDescription: >-
           The total amount of tracks that has been documented thus far is currently 135+, with 90 being Normal, 6 being Halloween, 8 being Christmas, and 31 Intermissions. please add in case you find a new track, thank you!
@@ -243,6 +244,7 @@ html:
 
     - type: section
       content:
+        size: normal
         sectionTitle: Trivia
 
     - type: tree
@@ -275,6 +277,7 @@ html:
 
     - type: section
       content:
+        size: normal
         sectionTitle: Credits
 
     - type: tree

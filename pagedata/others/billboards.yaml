@@ -14,8 +14,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          <i>Not to be confused with the advertisements in the 
           <a href="/bussim/biomes/nostalgic">Nostalgic</a> 
           biome.</i>
@@ -34,9 +34,12 @@ html:
           as the system barely has any advertisers so far. 
           If no advertisement shows up, 
           the ROBLOX logo will appear instead.
+          
     - type: section
       content:
-        sectionTitle: Trivia
+        size: normal
+        title: Trivia
+        
     - type: tree
       content:
         - name: The update also added a couple new lines to <a href="/bussim/npcs/pear">Pear</a> related to advertising, if the account age is 12 or younger.

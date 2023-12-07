@@ -11,22 +11,6 @@ html:
     title: Art Gallery
     description: >-
       Category: <a href="/bussim/locations">Locations</a>
-      
-      <br><br>
-
-      The Art Gallery is a location in Bus Simulator which can be accessed by flushing <a href="/bussim/location/the-bus">The Bus'</a> toilet while you are seated.
-      
-      <br><br>
-
-      The Art Gallery (aka Credits Room or Art Room) contains 38 artworks (since December 6, 2023) made by the community, and 15 podiums from various people with their contributions.
-      
-      <br><br>
-
-      The Art Gallery has Conveyor Belts around the map as well as Jump Pads from LittleBigPlanet 2 to help you access more parts of the map, Mostly being artworks. You can also view the full image of an artwork by clicking on them.
-
-      <br><br>
-
-      It also plays a music on loop, which can be heard anywhere inside the gallery, the music being played is "<a href="https://www.youtube.com/watch?v=dlTcxGq4klk">Diamanten (2022 Remastered Version)</a>". The music used to play PaRappa the Rapper.
 
     image: ""
     imageBanner: /bussim-assets/images/banner.jpg
@@ -42,6 +26,19 @@ html:
           jk just touch the puddle
         author: "NobleReign"
 
+    - type: section
+      content:
+        size: normal
+        title: Info
+        description: >-
+          The Art Gallery is a location in Bus Simulator which can be accessed by flushing <a href="/bussim/location/the-bus">The Bus'</a> toilet while you are seated.
+          <br><br>
+          The Art Gallery (aka Credits Room or Art Room) contains 38 artworks (since December 6, 2023) made by the community, and 15 podiums from various people with their contributions.
+          <br><br>
+          The Art Gallery has Conveyor Belts around the map as well as Jump Pads from LittleBigPlanet 2 to help you access more parts of the map, Mostly being artworks. You can also view the full image of an artwork by clicking on them.
+          <br><br>
+          It also plays a music on loop, which can be heard anywhere inside the gallery, the music being played is "<a href="https://www.youtube.com/watch?v=dlTcxGq4klk">Diamanten (2022 Remastered Version)</a>". The music used to play PaRappa the Rapper.
+    
     - type: table
       content:
         columnSpacing: .7fr 1fr 1fr
@@ -70,8 +67,9 @@ html:
     
     - type: section
       content:
-        sectionTitle: Trivia
-        sectionDescription: ''
+        size: normal
+        title: Trivia
+        description: ''
 
     - type: tree
       content:

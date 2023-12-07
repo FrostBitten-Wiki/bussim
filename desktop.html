@@ -201,10 +201,27 @@
                     {% if data['type'] == "text" %}
                         <text>{{ data['content']['text'] }}</text>
                     {% elif data['type'] == "section" %}
-                        <div style="margin-top: 20px; margin-bottom: 35px;">
-                            <text style="font-size: 25px;">{{ data['content']['sectionTitle'] }}</text><br>
-                            <text>{{ data['content']['sectionDescription'] }}</text>
-                        </div>
+                        {% if data["content"]["size"] == "large" %}
+                            <div style="margin-top: 20px; margin-bottom: 35px;">
+                                <text style="font-size: 25px;">{{ data['content']['title'] }}</text>
+                                <div style="width: 100%; height: 1px; background-color: white; margin-top: 2px; margin-bottom: 5px; box-shadow: 0 2px 0 #000000;"></div>
+                                <text>{{ data['content']['description'] }}</text>
+                            </div>
+                        {% if data["content"]["size"] == "normal" %}
+                            <div style="margin-top: 20px; margin-bottom: 35px;">
+                                <text style="font-size: 25px;">{{ data['content']['title'] }}</text>
+                                <div style="width: 100%; height: 1px; background-color: white; margin-top: 2px; margin-bottom: 5px; box-shadow: 0 2px 0 #000000;"></div>
+                                <text>{{ data['content']['description'] }}</text>
+                            </div>
+                        {% if data["content"]["size"] == "small" %}
+                            <div style="margin-top: 20px; margin-bottom: 35px;">
+                                <text style="font-size: 25px;">{{ data['content']['title'] }}</text>
+                                <div style="width: 100%; height: 1px; background-color: white; margin-top: 2px; margin-bottom: 5px; box-shadow: 0 2px 0 #000000;"></div>
+                                <text>{{ data['content']['description'] }}</text>
+                            </div>
+                        {% endif %}
+                    {% elif data['type'] == "separator" %}
+                        <div style="width: 100%; height: 1px; background-color: white; margin-top: 15px; margin-bottom: 15px; box-shadow: 0 2px 0 #000000;"></div>
                     {% elif data['type'] == "list" %}
                         <div style="margin-top: 20; margin-bottom: 20px;">
                             {% for item in data['content']['items'] %}
@@ -267,18 +284,18 @@
                             {% set columns = spacing|length %}
                             {% set columnWidth = data["content"]["widthSize"] / columns %}
                                                 
-                            <div class="container" style="padding: 10px; display: flex; flex-wrap: wrap; justify-content: space-between;">
+                            <div class="container" style="padding: 10px; display: flex; gap: 10px 10px; flex-wrap: wrap; justify-content: space-between;">
                                 {% for title in data["content"]["titles"] %}
-                                    <div style="flex: 0 0 calc({{ columnWidth }}% - 20px); max-width: calc({{ columnWidth }}% - 20px);">
+                                    <div style="flex: 0 0 calc({{ columnWidth }}% - 5px); max-width: calc({{ columnWidth }}% - 20px);">
                                         <text>{{ title }}</text>
                                     </div>
                                 {% endfor %}
                             </div>
                         
                             {% for items in data["content"]["items"] %}
-                                <div class="container" style="padding: 10px; display: flex; flex-wrap: wrap; justify-content: space-between;">
+                                <div class="container" style="padding: 10px; display: flex; gap: 10px 10px; flex-wrap: wrap; justify-content: space-between;">
                                     {% for value in items %}
-                                        <div style="flex: 0 0 calc({{ columnWidth }}% - 20px); max-width: calc({{ columnWidth }}% - 20px);">
+                                        <div style="flex: 0 0 calc({{ columnWidth }}% - 5px); max-width: calc({{ columnWidth }}% - 20px);">
                                             {% if (".webp" in value) or (".jpg" in value) or (".png" in value) or (".gif" in value) or ("placehold.co" in value) %}
                                                 <img src="{{ value }}" width="{{ data["content"]["imageSize"].split()[0] }}" height="{{ data["content"]["imageSize"].split()[1] }}" style="object-fit: cover;" loading="lazy">
                                             {% else %}
