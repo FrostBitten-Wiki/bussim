@@ -27,7 +27,7 @@ function playSound(soundfile) {
 function startSpeaking(data, characterData) {
     let index = 0;
 
-    speakerPopup.style.bottom = "10px";
+    speakerPopup.style.bottom = "67px";
     function showNextDialogue() {
         if (index < data.dialogue.length) {
             const charData = characterData[data.dialogue[index][1]];
