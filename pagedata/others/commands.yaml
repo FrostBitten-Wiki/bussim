@@ -11,36 +11,30 @@ html:
     title: Commands
     description: >-
       Category: <a href="/bussim/others">Others</a>
-      <br><br>
-      
-      Commands are a feature in Bus Simulator used to change small elements of the game, 
-      such as chat tag customisation and private server commands.
-
-      <br><br>
-
-      Most commands use the ! prefix, 
-      excluding the default emote command,
-      which requires /e instead. 
-      This page will list all of the commands you can do both in public and private servers.
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: section
       content:
-        sectionTitle: Commands
+        sectionTitle: Info
+        sectionDescription: >- 
+         Commands are a feature in Bus Simulator used to change small elements of the game, 
+         such as chat tag customisation and private server commands.
 
-    - type: text
+         <br><br>
+
+         Most commands use the ! prefix, 
+         excluding the default emote command,
+         which requires /e instead. 
+         This page will list all of the commands you can do both in public and private servers.
+
+          
+
+    - type: section
       content:
-        text: >-
-          <u>All Servers</u>
-
-          <br><br>
-
-          <u>Emotes</u>
-
-          <br><br>
-
+        sectionTitle: Emotes
+        sectionDescription: >- 
           Emotes can be used in all servers and are mostly meant for fun, 
           some emotes like <highlight>/e smug</highlight> have special effects only visible with certain settings, 
           and others like <highlight>/e honda</highlight> can be used while walking. 
@@ -81,13 +75,10 @@ html:
           - ["/e tpos","A standstill emote of your character T-posing, with the arms perfectly horizontal.<br>Often used for both rigging as well as character designing.","","/bussim-assets/images/others/emotes/TPoseEmote.webp"]
           - ["/e wave","An emote that makes your character wave. It is similar to the Hello emote, however is less intensified.,","","/bussim-assets/images/others/emotes/WaveEmote.webp"]
     
-    - type: text
+    - type: section
       content:
-        text: >- 
-          <u>Seat Animations</u>
-
-          <br><br>
-
+        sectionTitle: Seat animations
+        sectionDescription: >-
           You can change your seat animation using <b>!anim</b>, 
           however you can only do this while you are out of a seat. 
           The command will show a menu containing a large array of emotes, 
@@ -260,7 +251,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Admin COmmands
+        sectionTitle: Admin Commands
         sectionDescription: >-
           These commands are used by the Bus Simulator Moderator / Admin team to moderate the game. 
           They have more power than Private Server commands. 
