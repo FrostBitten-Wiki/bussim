@@ -8,7 +8,7 @@ html:
   header:
     title: Broken Down
     description: >-
-     Category: <a href="/bussim/events">Events, </a> <a href="/bussim/locations">Locations</a><br>Event Name: <highlight>BrokeDown</highlight>
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>BrokeDown</highlight>
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
 
