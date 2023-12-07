@@ -302,13 +302,13 @@
         "disc002": {
             "rarity": 100,
             "dialogue": [
-                [4000, "Disc", "think", "And then I said sir, this is a gas station- I feel bad for hi-"],
+                [2000, "Disc", "think", "And then I said sir, this is a gas station- I feel bad for hi-"],
                 [5000, "Disc", "sweat", "..."],
                 [3000, "Disc", "sweat", "..wait, is this still on?"]
             ]
         },
 
-        "disc03": {
+        "disc003": {
             "rarity": 100,
             "dialogue": [
                 [3000, "Disc", "think", "Did you know that you can't buy the two colas on the refrigerators?"],
@@ -395,6 +395,11 @@
 
         "Contributors": "Character Data for Contributors",
 
+        "Nyx": {
+            "dialogue": "button",
+            "dialogueColors": [],
+            "dialogueEmoteName": "nyx"
+        },
         "Fang": {
             "dialogueSfx": "ouch",
             "dialogueColors": ["#142052", "black", "blue"],
