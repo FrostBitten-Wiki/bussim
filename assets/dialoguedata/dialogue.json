@@ -1,5 +1,36 @@
 {
     "dialogueData": {
+        "disc001": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Disc", "point", "Hey! Did you know that you can buy items on the GOATed Gas Station?"],
+                [3000, "Disc", "lean", "Below of each item has a price tag listed, that is the amount you need to pay with Passenger Reputation!"],
+                [3000, "Disc", "point", "And when you feel like buying them, you can head over to me and proceed to checkout!"],
+                [3000, "Disc", "point", "Those items afterwards are now bonded with you, so you'll bring it everywhere you go!"],
+                [3000, "Disc", "angry", "Oh, you certainly can try stealing them..."],
+                [3000, "Disc", "close", "<b>That is, until you become our next Halloween decoration..</b>"]
+            ]
+        },
+
+        "disc002": {
+            "rarity": 100,
+            "dialogue": [
+                [2000, "Disc", "think", "And then I said sir, this is a gas station- I feel bad for hi-"],
+                [5000, "Disc", "sweat", "..."],
+                [3000, "Disc", "sweat", "..wait, is this still on?"]
+            ]
+        },
+
+        "disc003": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Disc", "think", "Did you know that you can't buy the two colas on the refrigerators?"],
+                [3000, "Disc", "sweat", "Well... we couldn't really care much on how much they costed and stuff..."],
+                [3000, "Disc", "lean", "So you can take them for free! They won't be bonded with you however."],
+                [3000, "Disc", "default", "Maybe for the best though, those drinks have some really weird effects."]
+            ]
+        },
+        
         "pear001": {
             "rarity": 100,
             "dialogue": [
@@ -286,37 +317,6 @@
                 [3000, "Zeon", "close", "michael"]
             ]
         },
-
-        "disc001": {
-            "rarity": 100,
-            "dialogue": [
-                [3000, "Disc", "point", "Hey! Did you know that you can buy items on the GOATed Gas Station?"],
-                [3000, "Disc", "lean", "Below of each item has a price tag listed, that is the amount you need to pay with Passenger Reputation!"],
-                [3000, "Disc", "point", "And when you feel like buying them, you can head over to me and proceed to checkout!"],
-                [3000, "Disc", "point", "Those items afterwards are now bonded with you, so you'll bring it everywhere you go!"],
-                [3000, "Disc", "angry", "Oh, you certainly can try stealing them..."],
-                [3000, "Disc", "close", "<b>That is, until you become our next Halloween decoration..</b>"]
-            ]
-        },
-
-        "disc002": {
-            "rarity": 100,
-            "dialogue": [
-                [2000, "Disc", "think", "And then I said sir, this is a gas station- I feel bad for hi-"],
-                [5000, "Disc", "sweat", "..."],
-                [3000, "Disc", "sweat", "..wait, is this still on?"]
-            ]
-        },
-
-        "disc003": {
-            "rarity": 100,
-            "dialogue": [
-                [3000, "Disc", "think", "Did you know that you can't buy the two colas on the refrigerators?"],
-                [3000, "Disc", "sweat", "Well... we couldn't really care much on how much they costed and stuff..."],
-                [3000, "Disc", "lean", "So you can take them for free! They won't be bonded with you however."],
-                [3000, "Disc", "default", "Maybe for the best though, those drinks have some really weird effects."]
-            ]
-        }
     },
 
     "characterData": {
