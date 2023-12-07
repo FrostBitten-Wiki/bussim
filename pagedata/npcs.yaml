@@ -61,7 +61,7 @@ html:
             listItemRedirect: /bussim/npcs/efeuc
           
           - listItemImage: /bussim-assets/images/npcs/entity.webp
-            listItemTitle: Entity
+            listItemTitle: Entities
             listItemDescription: >-
               Entities are NPC's found in the <a href="/bussim/events/backwalls">Backwalls</a>,
               they're hostile towards players and will kill them if exposed enough.
