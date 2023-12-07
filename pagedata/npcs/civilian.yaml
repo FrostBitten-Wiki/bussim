@@ -9,6 +9,9 @@ html:
   header:
     title: Civilian
     description: >-
+      Category: <a href="/bussim/npcs">NPCs</a>
+      <br><br>
+      
       The Civilians are minor NPCs that appear in two events, <a href="/bussim/events/no-dough">No Dough</a> and <a href="/bussim/events/passengers">Passengers</a>,
       and have no dialogue or o anything important in the game.
     image: /bussim-assets/images/npcs/civilian.webp

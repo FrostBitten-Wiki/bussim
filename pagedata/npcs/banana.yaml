@@ -9,6 +9,9 @@ html:
   header:
     title: Banana
     description: >-
+      Category: <a href="/bussim/npcs">NPCs</a>
+      <br><br>
+
       Banana is an NPC that can be found in the <a
       href="/bussim/events/backwalls">Backwalls</a>. They can be rarely found in
       the event.
