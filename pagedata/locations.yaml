@@ -27,7 +27,7 @@ html:
             listItemTitle: Backwalls
             listItemDescription: >-
               The Backwalls is a rare event where a person mentions about the bus having a few hiccups or something isn't feeling right, afterwards all players (assuming they are not in Frost's Den) are teleported into the Backwalls.
-            listItemRedirect: /bussim/locations/backwalls
+            listItemRedirect: /bussim/events/backwalls
           
           # You can also get the badge by just jumping under the beter box. although idk if we should add that. - Nyx
           - listItemImage: /bussim-assets/images/locations/beter-box.webp
