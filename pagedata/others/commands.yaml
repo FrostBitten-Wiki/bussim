@@ -9,31 +9,23 @@ attributions:
 html:
   header:
     title: Commands
-    description: Others
+    description: >-
+      Category: <a href="/bussim/others">Others</a>
+      <br><br>
+      
+      Commands are a feature in Bus Simulator used to change small elements of the game, 
+      such as chat tag customisation and private server commands.
+
+      <br><br>
+
+      Most commands use the ! prefix, 
+      excluding the default emote command,
+      which requires /e instead. 
+      This page will list all of the commands you can do both in public and private servers.
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
-    - type: section
-      content:
-        sectionTitle: Info
-
-    - type: text
-      content:
-        text: >-
-          Category: <a href="/bussim/others">Others</a>
-          <br><br>
-          
-          Commands are a feature in Bus Simulator used to change small elements of the game, 
-          such as chat tag customisation and private server commands.
-
-          <br><br>
-
-          Most commands use the ! prefix, 
-          excluding the default emote command,
-          which requires /e instead. 
-          This page will list all of the commands you can do both in public and private servers.
-
     - type: section
       content:
         sectionTitle: Commands
