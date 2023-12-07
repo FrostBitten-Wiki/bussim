@@ -138,8 +138,8 @@ html:
 
     - type: section
       content:
-        sectionTitle: Color
-        sectionDescription: >-
+        title: Color
+        description: >-
           You can change the color of a few items, all of which are related to gamepasses.
           The ones you can currently customize are the
 
@@ -175,8 +175,8 @@ html:
 
     - type: section
       content:
-        sectionTitle: Tags
-        sectionDescription: >-
+        title: Tags
+        description: >-
           !togglepd and !setheart are the two commands that currently alter chat tags.
 
           <br><br>
@@ -192,8 +192,8 @@ html:
 
     - type: section
       content:
-        sectionTitle: Notes
-        sectionDescription: >-
+        title: Notes
+        description: >-
           !note [message] - Allows you to set up a note while on the driver seat as long as you have the Bus Driver gamepass.
 
           <br><br>
@@ -202,14 +202,14 @@ html:
 
     - type: section
       content:
-        sectionTitle: Ragdoll
-        sectionDescription: >-
+        title: Ragdoll
+        description: >-
           If you own the Ragdoll gamepass, you can press R to ragdoll on the spot. There isn't much you're intended to do with it, besides purely for comedic effect. However, there are bugs and other unintended stuff you can do with it.
 
     - type: section
       content:
-        sectionTitle: Private Server
-        sectionDescription: >-
+        title: Private Server
+        description: >-
           Private Owner Commands
 
           <br><br>
@@ -252,8 +252,8 @@ html:
 
     - type: section
       content:
-        sectionTitle: Admin Commands
-        sectionDescription: >-
+        title: Admin Commands
+        description: >-
           These commands are used by the Bus Simulator Moderator / Admin team to moderate the game. 
           They have more power than Private Server commands. 
           You can also have a similar power by joining your Private Server, 
