@@ -1,0 +1,131 @@
+page:
+  title: Billy
+  description: The Billy event is an event in Bus Simulator that lasts for a few minutes.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Billy
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Billy
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Billy</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/billy1.webp
+
+  pageContent:
+
+    - type: section
+      content:
+        title: Info
+        description: >-
+         The Billy event is an event in Bus Simulator that lasts for a few minutes.
+
+         <br><br>
+
+         As soon as the event starts, 
+         The Bus will encounter three Billies in the distance, 
+         similar to <a href='/bussim/events/question-time'>Ectta in Question Time</a> as well as <a href='/bussim/events/teddy'>Teddy in its titular event</a>. 
+         It will then introduce and ask the player if they would like to be a Billy. 
+         If you decline or agree they will say that they will take over Roblox as more Billies start spawning around The Bus, 
+         as well as a machine landing behind the three original Billies, 
+         with a low-quality explosion png.
+
+         <br><br>
+
+         Afterwards during the event, 
+         players must stay on top of The Bus similar to the <a href='/bussim/events/bacon-hair'>Bacon Hair</a> event, 
+         anyone who touches a Billy will end up getting taken away to then be tossed into the machine, 
+         and if they go into the machine, 
+         it'll turn them into a Billy.
+
+         <br><br>
+
+         However you can escape by button mashing to free yourself from the Billies, 
+         and it ignores anyone that has used <a href='/bussim/items/cramped-cola'>Cramped Cola</a> and / or <a href='/bussim/items/liquid-void'>Liquid Void</a>.
+
+         <br><br>
+
+         If you try to explore the event using a <a href='/bussim/items/mini-bus'>Mini-Bus</a>, 
+         the Billies will end up forcing you out of the <a href='/bussim/items/mini-bus'>Mini-Bus</a>, 
+         causing you to be subsequently taken away.
+
+         <br><br>
+
+         Finally, 
+         after a few minutes a couple outcomes will occur whether or not half of the server are infected by Billies:
+
+         <br><br>
+
+         * If less than half or nobody becomes a Billy, the Billies will then explode as The Bus drives over the machine, ending the event.<br>
+         * If more than half of the server becomes a Billy, then the Billies will then mention taking over Roblox as the event ends, with The Bus going back to speed.
+
+    - type: section
+      content:
+        title: Dialogue
+        description: >- 
+          Intro
+
+    - type: tree
+      content:
+        - name: 'Billy (1): "hi! my name is billy!"'
+        - name: "Billy (2): \"i don't say \"/e free\" or \"this is weird glitch\"\""
+        - name: "Billy (3): \"because i'm a pro!\""
+        - name: "Billy (4): \"don't you want to be like me?\""
+          children:
+            - name: "Option 1: No."
+              children:
+                - name: "Billy (5): \"too bad!\""
+                - name: "Billy (3): \"become like us.\""
+                - name: "Billy (1): \"together, we will take over roblox.\""
+            - name: "Option 2: Yes!"
+              children:
+                - name: "Billy (5): \"good! you don't have a choice.\""
+                - name: "Billy (3): \"become like us.\""
+                - name: "Billy (1): \"together, we will take over roblox.\""
+            - name: "Abstained (Player doesn't answer the question)"
+              children:
+                - name: "Billy (5): \"coward!\""
+                - name: "Billy (3): \"become like us.\""
+                - name: "Billy (1): \"together, we will take over roblox.\""
+
+    - type: text
+      content:
+        text: If everybody already became Billy...
+
+    - type: tree
+      content:
+        - name: "Billy (1): \"hi! my name is billy!\""
+        - name: "Billy (2): \"it seems like you've already copy & pasted me everywhere...\""
+        - name: "Billy (3): \"you truly are a pro!\""
+        - name: "Billy (4): \"thank you for doing your part in helping us taking over roblox.\""
+        - name: "Billy (5): \"we'll let you go now.\""
+
+    - type: section
+      content:
+      title: Tips 
+    - type: tree
+      content:
+        - name: It is highly recommended NOT to use the <a href='/bussim/items/mini-bus'>Mini-Bus</a> as Billies will force you out of it and holster you until you reach the Machine.
+        - name: If you do end up getting caught but not infected, mash as hard as you can then immediately head back to the Bus. You only are given a few seconds before another Billy holsters you.
+        - name: If you are in the Bus, simply stay inside. They can't open doors.
+        - name: If you really want to explore the outside despite it all, drink <a href='/bussim/items/cramped-cola'>Cramped Cola</a> or <a href='/bussim/items/liquid-void'>Liquid Void</a> as that'll negate any attention.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: The <a href='/bussim/items/gps'>GPS</a> will say "Billy Nation" during the event instead of any random street name.
+        - name: You can also obtain a badge called <a href='https://www.roblox.com/badges/2151750763/Voluntary-Adjustment'>Voluntary Adjustment</a> by sneaking into the machine without getting thrown by a Billy. This can be trivialized with <a href='/bussim/items/cramped-cola'>Cramped Cola</a>.
+        - name: Billies use the same tool that you can obtain using Admin Commands, which gives you the ability to holster other players as well as throw them anywhere yourself. The players can also escape likewise by mashing space as if they were holstered by a Billy.
+        - name: If you enter the machine while being small (due to <a href='/bussim/items/cramped-cola'>Cramped Cola</a>), you will become a normal sized billy. However, if you drink the <a href='/bussim/items/cramped-cola'>Cramped Cola</a> again, you will become MASSIVE!
+        - name: If you get crushed under the Billy machine, you'll actually die from it, and so can other Billies.
+        - name: The door on the bus will automatically close itself when the Billies start moving.
+          children:
+            - name: This is the only instance where the door closes itself with no input from any other player.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/billy1.webp
+          - /bussim-assets/images/events/billy2.webp
