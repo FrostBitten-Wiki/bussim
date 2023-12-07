@@ -17,8 +17,8 @@ html:
         author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Hoverboots is a pair of boots that allows you to fly, 
          similar to the <a href="/bussim/items/helicopter">Helicopter</a> item. 
          It could've been obtained from the 10 Middle Event Wheel. 
@@ -31,7 +31,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
     - type: tree
       content:
         - name: The item can also be seen with the <a href="https://kit-battle.fandom.com/wiki/Holo_Kit">Holo Kit</a> from NobleReigns other game, <a href="https://www.roblox.com/games/2724098741/Kit-Battle">Kit Battle</a>.

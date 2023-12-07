@@ -17,8 +17,8 @@ html:
         author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          Liquid Void is an item obtainable from random floor spawns in the <a href="/bussim/events/backwalls">Backwalls</a> event, 
          when used you will turn invisible for 20 seconds, 
          then start flashing in an out until finally turning opaque again. 
@@ -47,7 +47,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
     - type: tree
       content:
         - name: This item has black effects around it, although it may be hard to notice visibly.

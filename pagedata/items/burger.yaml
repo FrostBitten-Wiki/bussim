@@ -17,8 +17,8 @@ html:
        author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Burger is an edible item that is obtained from the <a href="/bussim/events/bloxdonalds">Bloxdonalds</a> event. 
          Its appearance is of that of the classic Cheezburger ROBLOX Gear. 
          When the player consumes it, their screen becomes green, 
@@ -27,7 +27,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
     - type: tree
       content:
         - name: The Bloxdonalds burger along with the <a href="/bussim/items/lemon-soda">Lemon Soda</a> and <a href="/bussim/items/expired-taco">Expired Taco</a> are the only items known that makes the player take damage and give nausea.

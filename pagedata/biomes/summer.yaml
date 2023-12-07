@@ -18,8 +18,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >- 
+        title: Info
+        description: >- 
          Summer is a simple biome with Grass and not much else. 
          Buildings, bushes, and trees also spawn in the biome.
     - type: gallery

@@ -17,8 +17,8 @@ html:
        author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Candied Cane is a healing item given by obtaining <a href="https://www.roblox.com/badges/2124884560/The-Bringer-of-Gifts">The Bringer of Gifts</a> badge from the Santa's Gone event.
 
          <br><br>
@@ -27,7 +27,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
     - type: tree
       content:
         - name: This item has a slower cooldown than most healing items, e.g. the colas.
@@ -36,7 +36,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Technical Trivia
+        title: Technical Trivia
 
     - type: tree
       content:

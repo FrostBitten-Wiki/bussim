@@ -17,8 +17,8 @@ html:
           author: Item Description
       - type: section
         content:
-         sectionTitle: Info
-         sectionDescription: >-
+         title: Info
+         description: >-
            The Cola is an item that is obtainable at the Second floor, 
            or from the Starter Box if you got that from the 10 Million Visits event. 
            Using it will heal you. The cola is one of the best healing items.

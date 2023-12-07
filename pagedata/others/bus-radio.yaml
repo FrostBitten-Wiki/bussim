@@ -65,8 +65,8 @@ html:
     - type: section
       content:
         size: normal
-        sectionTitle: Tracks
-        sectionDescription: >-
+        title: Tracks
+        description: >-
           The total amount of tracks that has been documented thus far is currently 135+, with 90 being Normal, 6 being Halloween, 8 being Christmas, and 31 Intermissions. please add in case you find a new track, thank you!
           <br> </br>
           Also most audio IDs that are present may not work following March 22nd of 2022, but those that do work will be <em>Emphasized</em>, mainly Monstercat tracks. 
@@ -245,7 +245,7 @@ html:
     - type: section
       content:
         size: normal
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:
@@ -278,7 +278,7 @@ html:
     - type: section
       content:
         size: normal
-        sectionTitle: Credits
+        title: Credits
 
     - type: tree
       content:

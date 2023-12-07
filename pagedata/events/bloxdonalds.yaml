@@ -15,8 +15,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Bloxdonalds is both an Event and a Location in Bus Simulator.
 
          <br><br>
@@ -48,7 +48,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Dialogue
+        title: Dialogue
     
     - type: tree
       content:
@@ -62,7 +62,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:

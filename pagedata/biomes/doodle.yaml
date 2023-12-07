@@ -17,8 +17,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >- 
+        title: Info
+        description: >- 
          Doodle is one of the new biomes added to Bus Simulator. 
          It features a notebook-paper-like floor as well as animated doodles depicting flowers, 
          grass, bushes, and trees.
@@ -26,25 +26,10 @@ html:
          <br><br>
 
          The sun and moon are also doodled and scaled bigger than normal.
-    image: ''
-    imageBanner: /bussim-assets/images/biomes/doodle.webp
-
-  pageContent:
-    - type: section
-      content:
-        sectionTitle: Info
-        sectionDescription: >-
-          Doodle is one of the new biomes added to Bus Simulator. 
-          It features a notebook-paper-like floor as well as animated doodles depicting flowers, 
-          grass, bushes, and trees.
-
-          <br><br>
-
-          The sun and moon are also doodled and scaled bigger than normal.
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:

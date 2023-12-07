@@ -18,8 +18,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >- 
+        title: Info
+        description: >- 
          The Vaporwave biome is a biome that is very different than the rest, 
          which uses a lot of pink and black. The buildings are black with pink outlines, 
          and the ground is a grid with pink lines and black squares. Whenever it rains, 

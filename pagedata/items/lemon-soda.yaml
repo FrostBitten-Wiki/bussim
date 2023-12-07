@@ -17,8 +17,8 @@ html:
         author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Lemon Soda is an item in Bus Simulator that is obtained from its own respective event. 
          When drank, it deals 25 damage to the player, 
          and causes nausea as well. 
@@ -26,7 +26,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
     - type: tree
       content:
         - name: In one of the many news reports, the anchor states that their dog died drinking lemon soda. This alludes to the fact that it damages players upon consumption, and dogs are easily hurt as well.

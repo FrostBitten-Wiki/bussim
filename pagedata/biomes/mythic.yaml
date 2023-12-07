@@ -17,8 +17,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >- 
+        title: Info
+        description: >- 
          Mythic is a biome that is dark, and fantasy-like, 
          where the shading is more blue. 
          The biome has blue grass and gigantic trees with blue leaves

@@ -61,8 +61,8 @@ html:
 
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          Lorem ipsum dolor sit amet, 
          consectetur adipiscing elit, 
          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -130,7 +130,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:

@@ -24,8 +24,8 @@ html:
           <small>This page has content exclusive to admins of the game. This may include scrapped / hidden content that is normally inaccessible during normal gameplay.</small>
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          Edit is an item that cannot be obtained via events or from the bus/gamepass, 
          as only VIP server owners and admins can obtain it, 
          and give it to other people. Similar to the Btools item, 

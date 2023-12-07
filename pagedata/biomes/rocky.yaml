@@ -17,13 +17,13 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >- 
+        title: Info
+        description: >- 
          Rocky is a biome that will spawn randomly after driving through a tunnel. 
          The biome is rather simple, being made entirely out of rocks and boulders.
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
     
     - type: tree
       content:

@@ -21,8 +21,8 @@ html:
 
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Backwalls is a rare event where a person mentions about the bus having a few hiccups or something isn't feeling right. 
          Afterwards all players (assuming they are not in Frost's Den) are teleported into the Backwalls.
 
@@ -47,7 +47,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Dangers of the Backwalls
+        title: Dangers of the Backwalls
 
     - type: quote
       content:
@@ -78,8 +78,8 @@ html:
 
     - type: section
       content:
-        sectionTitle: Benefits of the Backwalls
-        sectionDescription: >-
+        title: Benefits of the Backwalls
+        description: >-
           However though, not all is bad in the Backwalls, 
           for there are three things that will help you both inside and outside of the event.
 
@@ -126,8 +126,8 @@ html:
 
     - type: section
       content:
-        sectionTitle: After The Event
-        sectionDescription: >-
+        title: After The Event
+        description: >-
           Once you have escaped with Almond Water or Liquid Void, 
           you have a 33% / 20% chance respectively in any server public or private, 
           to permanently obtain them in your inventory outside of the event.
@@ -141,7 +141,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:
@@ -163,7 +163,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Technical Trivia
+        title: Technical Trivia
 
     - type: tree
       content:

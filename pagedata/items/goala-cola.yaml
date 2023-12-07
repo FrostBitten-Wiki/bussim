@@ -13,15 +13,15 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Goala Cola is an item you can obtain at the GOATed Gas Station. 
          The item is purely cosmetic, 
          making you do a little dance while "Goooaaaalllll!" plays after drinking it.
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:

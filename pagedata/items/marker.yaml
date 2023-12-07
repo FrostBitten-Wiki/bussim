@@ -17,8 +17,8 @@ html:
         author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Marker is an item that allows you to draw lines almost anywhere in the game, 
          it currently has 3 tools, Export, Draw, and Erase.
 
@@ -35,9 +35,9 @@ html:
 
     - type: section
       content:
-        sectionTitle: Export tool
+        title: Export tool
 
-        sectionDescription: >-
+        description: >-
          The export tool allows you to export all of your drawings (dots or art) by clicking the 1st button when holding the Marker. 
          It'll export all of the lines you have made in the game and exports them as a Model & Packages in your desktop / browser inventory. 
          All of which is still subjected via moderation.
@@ -48,9 +48,9 @@ html:
 
     - type: section
       content:
-        sectionTitle: Draw tool
+        title: Draw tool
   
-        sectionDescription: >-
+        description: >-
           The draw tool is the 2nd button when holding the Marker, 
           when clicked on you'll enter Drawing Mode: 
           where you'll be able to draw lines with different colors almost anywhere in the game.
@@ -74,9 +74,9 @@ html:
 
     - type: section
       content:
-        sectionTitle: Erase tool
+        title: Erase tool
 
-        sectionDescription: >-
+        description: >-
           The erase tool is the 3rd button when holding the Marker, 
           with two functions: when dragging your mouse with this enabled, 
           it'll remove any lines that the eraser touches in a large range. 
@@ -85,7 +85,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
     - type: tree
       content:
         - name: This item used to be added years back when the prop itself was added, however Noble forgot to add its' functionality until someone mentioned it again.

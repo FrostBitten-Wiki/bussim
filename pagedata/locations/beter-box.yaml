@@ -15,8 +15,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Beter Box is a small box located infront of the <a href="bussim/locations/the-bus">Bus</a> outside. 
          The box itself is rather small, 
          and has multiple moving images of Peter Griffin, 
@@ -35,7 +35,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:
@@ -44,7 +44,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Technical Trivia
+        title: Technical Trivia
 
     - type: tree
       content:

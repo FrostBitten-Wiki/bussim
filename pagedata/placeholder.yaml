@@ -52,7 +52,7 @@ html:
       content:
         # Current Sizes: big, normal, small
         size: normal
-        title: SectionTitle
+        title: title
         description: >-
           Section Description
     

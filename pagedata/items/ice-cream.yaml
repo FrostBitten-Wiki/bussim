@@ -13,8 +13,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          <i>Not to be confused with the <a href="/bussim/items/birthday-ice-cream">Birthday Ice Cream</a>.</i>
          
          <br><br>
@@ -32,7 +32,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
     - type: tree
       content:
         - name: It's an item that is unobtainable through standard means, such as an event, or on-board the <a href="/bussim/locate/the-bus">bus</a>.

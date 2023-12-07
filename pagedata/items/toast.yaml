@@ -13,8 +13,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectiondescription: >-
+        title: Info
+        description: >-
          The Toast is a temporary item from the <a href="/bussim/events/goated-gas-station">Goat Station</a> event, 
          which can be obtained by clicking on the Toaster in <a href="/bussim/npcs/zeon">Zeon's</a> house, 
          and waiting a few seconds until it pops out. 
@@ -22,7 +22,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:

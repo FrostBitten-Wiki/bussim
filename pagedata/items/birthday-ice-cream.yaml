@@ -23,8 +23,8 @@ html:
        
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Birthday Ice Cream is a large ice cream cone. 
          During the <a href="/bussim/events/birthday">Birthday</a> event, 
          when a random player has been picked in that event, 
@@ -46,7 +46,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
     - type: tree
       content:
         - name: Despite this event suggesting a random player's birthday, it doesn't raise your chances of getting selected if it's currently your actual birthday.

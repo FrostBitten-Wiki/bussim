@@ -17,15 +17,15 @@ html:
         author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Party Popper is a cosmetic item obtained from the 10 Million Visits event. 
          The item makes a small blast of confetti, 
          and has a cooldown of 2 seconds.
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:

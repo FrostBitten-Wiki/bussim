@@ -28,8 +28,8 @@ html:
        author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Cone Soda is an unused item that is purely cosmetic, 
          and has no effects. The soda color is blue, 
          as well as the cone on the label. However, it was likely meant to be an event item and have an actual affect,
@@ -37,7 +37,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
     - type: tree
       content:
         - name: It's suggested that this cone would've probably turned the player into a cone because of the description of this item.

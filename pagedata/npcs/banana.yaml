@@ -29,13 +29,13 @@ html:
   
     - type: section
       content:
-        sectionTitle: NPC Information
-        sectionDescription: 'Species: Nextbot'
+        title: NPC Information
+        description: 'Species: Nextbot'
   
     - type: section
       content:
-        sectionTitle: AI
-        sectionDescription: ''
+        title: AI
+        description: ''
    
     - type: tree
       content:
@@ -48,8 +48,8 @@ html:
     
     - type: section
       content:
-        sectionTitle: Trivia
-        sectionDescription: ''
+        title: Trivia
+        description: ''
     
     - type: tree
       content:

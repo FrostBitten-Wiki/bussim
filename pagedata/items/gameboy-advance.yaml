@@ -13,8 +13,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          <i>Not to be confused with the <a href="/bussim/items/roemulator">RoEmulator</a> item.</i>
 
          <br><br>
@@ -30,7 +30,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
     - type: tree
       content:
         - name: Tic-Tac-Toe, Connect Four, and Battle Wagons are official ROBLOX items that you can buy, but they're currently broken and non-functional.

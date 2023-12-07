@@ -13,8 +13,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Megaphone EX is a gamepass item costing R$320. 
          It is an upgraded version of the original Megaphone, 
          as your shout message is 22.22..% larger than normal messages, 
@@ -22,7 +22,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:

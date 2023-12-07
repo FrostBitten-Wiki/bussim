@@ -17,8 +17,8 @@ html:
         author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectiondescription: >-
+        title: Info
+        description: >-
           The sign is an item located at the third floor. 
           It is placed next to the side of a chair. 
           The sign simply says 'I HAVE A SIGN'. 

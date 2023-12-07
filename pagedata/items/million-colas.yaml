@@ -17,8 +17,8 @@ html:
         author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The 1M Cola is an item that could've been obtained in the 1 Million Event, 
          and is unobtainable without admin commands. 
          The can is purple in color, 
@@ -28,7 +28,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:

@@ -15,8 +15,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          Glacier Cave is a rare event in Bus Simulator where the Bus stops next to a cave, 
          players are able to enter through the cave through any means of traversal until they are teleported to the interior of the cave. 
          The event ends shortly afterwards.
@@ -28,8 +28,8 @@ html:
 
     - type: section
       content:
-        sectionTitle: Interior
-        sectionDescription: >- 
+        title: Interior
+        description: >- 
           The interior is a massive cave filled with crystals, 
           on the left there is a hidden passage way that appears to be a parkour that leads to NamerElf's actual spot. 
           (While NamerElf is credited; it isn't present in its podium in the Art Gallery.)
@@ -72,7 +72,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:
@@ -88,7 +88,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Technical Trivia
+        title: Technical Trivia
 
     - type: tree
       content:

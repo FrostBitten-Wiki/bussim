@@ -13,8 +13,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
           <i>Not to be Confused with <a href="/bussim/items/gameboy-advance">Gameboy Advance</a>.</i>
 
           <br><br>
@@ -25,7 +25,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:
