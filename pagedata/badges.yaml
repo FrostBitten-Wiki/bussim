@@ -1,0 +1,198 @@
+page:
+  title: Badges
+  description: Badges are collectibles in Bus Simulator that are obtained in specific conditions. Some are limited while others give an item for unlocking.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim badges
+
+attributions: [Created by FangedWerewolf (@noobbiom)]
+
+html:
+  header:
+    title: Badges
+    description: Badges are collectibles in Bus Simulator that are obtained in specific conditions. Some are limited while others give an item for unlocking.
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  pageContent:
+    - type: infobox
+      content:
+        infoBoxTitle: 
+          - "Obtainable Badges"
+          - "#ffffff"
+        infoBoxDescription: >-
+          These badges are obtainable through specific conditions, but generally aren't limited and can be unlocked anytime.
+    - type: list
+      content:
+        items:
+          - listItemImage: https://tr.rbxcdn.com/1cfe22543d72d0f39c7211769f5728b4/150/150/Image/Png
+            listItemTitle: Hey Beter
+            listItemDescription: >
+              Yes ROBLOXIAN from Bus Simulator? (earn this badge by finding and touching Beter)<br></br>- You can obtain this badge by heading over to the Beter Box, in front of The Bus.
+            listItemRedirect: https://www.roblox.com/badges/2119284083/Hey-eter
+
+          - listItemImage: https://tr.rbxcdn.com/0dbafb120cb2cff615c34b7087cadec0/150/150/Image/Png
+            listItemTitle: Something seems.. off...
+            listItemDescription: >
+              Should you drink it? (earn this badge by finding the Red Cola)<br></br>- You can obtain this by getting the Bad Cola, with a ~10% chance when clicking on the Cola Crate.
+            listItemRedirect: https://www.roblox.com/badges/2124425352/Something-seems-off
+
+          - listItemImage: https://tr.rbxcdn.com/f5d214b10ac88e4b9aac96b663cb3010/150/150/Image/Png
+            listItemTitle: Thanks!
+            listItemDescription: >
+              What a nice passenger you are as well! (earn this badge by thanking the bus driver)<br></br>- You can obtain this by thanking the driver, being 'thanks, thx, tank' and >=3 or more letters of the driver's user / display name.         
+            listItemRedirect: https://www.roblox.com/badges/2124426073/Thanks
+
+          - listItemImage: https://tr.rbxcdn.com/5efd28f3dda6c6bee2207c5e59475dcb/150/150/Image/Png
+            listItemTitle: Private Server Owner
+            listItemDescription: >
+              Dang, you're super rich! (earn this badge by joining a VIP server that you own)<br></br>- Join a private server that you own yourself. Costs 100 R$ per month.
+            listItemRedirect: https://www.roblox.com/badges/2124439538/Private-Bus-Owner
+
+          - listItemImage: https://tr.rbxcdn.com/5fc8d8fb53dbd3a0e6bb90d41687fa71/150/150/Image/Png
+            listItemTitle: The Secrets of the Door
+            listItemDescription: >
+              Who knows what's hiding behind that door... (earn this by going through the door)<br></br>- Obtained by going to the back of The Bus, and continuing until you enter the door. The door also unlocks if someone pushed a secret button.
+            listItemRedirect: https://www.roblox.com/badges/2124442305/The-Secrets-Of-The-Door
+
+          - listItemImage: https://tr.rbxcdn.com/df0cdf744a877a103be05329d804f76f/150/150/Image/Png
+            listItemTitle: Pretty Fun
+            listItemDescription: >
+              It is kinda relaxing to sit on a bus going to nowhere. (earn this badge by playing the game for one hour straight without leaving)<br></br>- Obtained by staying in a server for 1 hour straight.
+            listItemRedirect: https://www.roblox.com/badges/2124472162/Pretty-Fun
+
+          - listItemImage: https://tr.rbxcdn.com/ad95fe5962e682ce2502941b8bbc67b8/150/150/Image/Png
+            listItemTitle: Addicted
+            listItemDescription: >
+              How much coffee did you have to drink to get this far? (earn this badge by playing the game for 12 hours straight without leaving)<br></br>- Obtained by staying in a server for 12 hours straight.
+            listItemRedirect: https://www.roblox.com/badges/2124472163/Addicted
+
+          - listItemImage: https://tr.rbxcdn.com/566b1c2152b94a47ac3b4350978d60d1/150/150/Image/Png
+            listItemTitle: No Sleep
+            listItemDescription: >
+              If you have this badge, you're extremely lucky the server didn't crash. Also, please stop mentally torturing yourself and get some sleep. (earn this badge by playing the game for 24 hours straight without leaving)<br></br>- Obtained by staying in a server for 24 hours straight.
+            listItemRedirect: https://www.roblox.com/badges/2124472164/No-Sleep
+
+          - listItemImage: https://tr.rbxcdn.com/d1b5771780301771e7051eec9cbc481d/150/150/Image/Png
+            listItemTitle: Thankful
+            listItemDescription: >
+              You thanked so many drivers, yet all you got for it was this measly passenger rep. (earn this badge by reaching 100 passenger rep)<br></br>- Obtained by getting over 100 Passenger Rep.
+            listItemRedirect: https://www.roblox.com/badges/2124534871/Thankful
+
+          - listItemImage: https://tr.rbxcdn.com/120d723fd134ff1991a8cabfaaf21b4c/150/150/Image/Png
+            listItemTitle: The Last One
+            listItemDescription: >
+              It's a bit disturbing.. but, it's very sweet.. (earn this badge by getting the rare popsicle from the ice cream truck!)<br></br>- Obtained by getting a Spronkbib Popsicle, which is a 1/800 chance from the Ice Cream Truck. Rewards you with the Spronkbib Popsicle.
+            listItemRedirect: https://www.roblox.com/badges/2124830393/The-Last-One
+
+          - listItemImage: https://tr.rbxcdn.com/c9035d1fd2087c906cf1979c503e9b39/150/150/Image/Png
+            listItemTitle: Master Escapee
+            listItemDescription: >
+              It's an in and out operation. Covert, sneaky, quick. If anyone asks, all of us.. we were, uh, pizza delivery..! Now let's get outta here! (earn this badge by successfully escaping the house ten times!)<br></br>- Obtained by escaping the NoDough House 10 times without getting caught.
+            listItemRedirect: https://www.roblox.com/badges/2124884559/Master-Escapee
+
+          - listItemImage: https://tr.rbxcdn.com/ef2d047e2416c75925fe6ecf453b2d7c/150/150/Image/Png
+            listItemTitle: Part of the Pack
+            listItemDescription: >
+              Still won't give you any popsicles, though.. (earn this badge by finding and fully befriending the cave-dwelling wolf.) | Art by --> @Frickle_<br></br>- Obtained by reaching maximum trust with Frostbite, either with an Ice Cream and Pearcoin; or a Spronkbib Popsicle.
+            listItemRedirect: https://www.roblox.com/badges/2130010648/Part-of-the-Pack
+
+          - listItemImage: https://tr.rbxcdn.com/0904c526904f83bdffb3b8003e5983dd/150/150/Image/Png
+            listItemTitle: Animal Messenger
+            listItemDescription: >
+              The most inefficient form of communication, now with 80% more barking and yowling. (earn this badge by reuniting childhood friends and helping them make plans)<br></br>- Obtained by completing a relay quest between Pear and Frost. Full guide is in any of their two NPC pages.
+            listItemRedirect: https://www.roblox.com/badges/2130010649/Animal-Messenger
+
+          - listItemImage: https://tr.rbxcdn.com/4d08ca2f28a548d103615b2c35730652/150/150/Image/Png
+            listItemTitle: Colorful Chaos
+            listItemDescription: >
+              It's hard to please everyone at once, okay? (earn this badge by managing to get *at least* a 4-way tie in the Repaint event!)<br></br>- Obtained by reaching a tie of 4 or more in the Repaint Event.
+            listItemRedirect: https://www.roblox.com/badges/2130114796/Colorful-Chaos
+
+          - listItemImage: https://tr.rbxcdn.com/1e38d92901f5e71a58faed7d0f865e18/150/150/Image/Png
+            listItemTitle: Promoted to Passenger
+            listItemDescription: >
+              They said it'd be quick, but it's been so long.. Class starts soon, too... Maybe this wasn't such a good idea.... (earn this badge by being invited to Bus Simulator, and playing with your friend for an hour!)<br></br>- Obtained by being invited and staying with them for an hour.
+            listItemRedirect: https://www.roblox.com/badges/2136287825/Promoted-to-Passenger
+
+          - listItemImage: https://tr.rbxcdn.com/135bfdf95d914068a70c239b50cb2706/150/150/Image/Png
+            listItemTitle: Come Along With Me
+            listItemDescription: >
+              I just wanna play some Bus Simulator! It's not that bad I swear! I know you need to go to school but this is more important!!! (earn this badge by inviting a friend to Bus Simulator, and playing with them for an hour!)| Art by --> @Frickle_<br></br>- Obtained by inviting a friend and staying with them for an hour.
+            listItemRedirect: https://www.roblox.com/badges/2136287976/Come-Along-With-Me
+
+          - listItemImage: https://tr.rbxcdn.com/ff9376dbca67c9f26d0f9464cf3211dc/150/150/Image/Png
+            listItemTitle: DEFENESTRATED
+            listItemDescription: >
+              Maybe cool it with the noises next time. (earn this badge by using the Airhorn next to a certain someone!)<br></br>- Obtained by using the Airhorn near MLG.
+            listItemRedirect: https://www.roblox.com/badges/2141806851/DEFENESTRATED
+
+          - listItemImage: https://tr.rbxcdn.com/c9b048f0cee1374a2022eaeba07f2d53/150/150/Image/Png
+            listItemTitle: Voluntary Adjustment
+            listItemDescription: >
+              It's not the change you wanted, but it was the change you needed. (earn this badge by entering the Billification machine on your own volition)<br></br>- Obtained by sneaking through the Billies and entering the machine yourself.
+            listItemRedirect: https://www.roblox.com/badges/2151750763/Voluntary-Adjustment
+
+    - type: infobox
+      content:
+        infoBoxTitle: 
+          - "Unobtainable Badges"
+          - "#aaaaaa"
+        infoBoxDescription: >-
+          These badges were limited at some point in time following their introduction, but are now no longer obtainable.
+    - type: list
+      content:
+        items:
+          - listItemImage: https://tr.rbxcdn.com/0d9afa3b9da58bf672258bfae8ae56ea/150/150/Image/Png
+            listItemTitle: A One in a Millionth Mistake
+            listItemDescription: >
+              ...Wow. Seriously unlucky. How did you even-- it's literally a one in a millionth mistake. (earn this badge by drinking the 1M Cola... and being extremely unlucky.) Happy 1 Million Visits!<br></br>- Obtained by drinking the 1 Million Cola and getting extremely unlucky. (1/1000000)
+            listItemRedirect: https://www.roblox.com/badges/2124426511/A-One-in-a-Millionth-Mistake
+
+          - listItemImage: https://tr.rbxcdn.com/5b7bfb3aee29dd34c6f3a943de1822c5/150/150/Image/Png
+            listItemTitle: Santa Frauds
+            listItemDescription: >
+              Y-Yeah, you were totally prepared for Christmas this year..! (earn this badge by finding and wearing the festive paper bag) [only available during Winter 2019!]<br></br>- Obtained by wearing the festive paper bag.
+            listItemRedirect: https://www.roblox.com/badges/2124495984/Santa-Frauds
+            
+          - listItemImage: https://tr.rbxcdn.com/8e484d48009e6502d41ef2036d423bca/150/150/Image/Png
+            listItemTitle: 10 Million Visits Badge
+            listItemDescription: >
+              wow!! you really did it!! you got the most useless badge of them all! (earn this badge by chance.) [only available during the 10M visits event!]<br></br>- Obtained by spinning the 10 Million Visits Wheel and getting it by chance.
+            listItemRedirect: https://www.roblox.com/badges/2124622089/10-Million-Visits-Badge
+
+          - listItemImage: https://tr.rbxcdn.com/21832511020a8f3219aadff27836bc52/150/150/Image/Png
+            listItemTitle: The Bringer of Gifts
+            listItemDescription: >
+              Sure, you may have ruined everything, but it's the thought that counts.. right? (earn this badge by being a part of 20 successful gift deliveries.) [only available during Winter '21 and '22!]<br></br>- Obtained by securing the presents 20 times while Santa's Gone was still enabled. Rewards you with the Candied Cane.
+            listItemRedirect: https://www.roblox.com/badges/2124884560/The-Bringer-of-Gifts
+
+          - listItemImage: https://tr.rbxcdn.com/e09c1b3c10215e11aa2482ded7bd8f1d/150/150/Image/Png
+            listItemTitle: Plasticky Birthday Goodness
+            listItemDescription: >
+              Oh, it's the bus's birthday! Happy birthday Bus Simulator! (earn this badge by taking a bite of the bus's birthday cake) [only available during the week of Bus Simulator's 5th birthday]<br></br>- Obtained by eating the Bus Birthday Cake.
+            listItemRedirect: https://www.roblox.com/badges/2148621518/Plasticky-Birthday-Goodness
+
+          - listItemImage: https://tr.rbxcdn.com/360f422355b6f64af13426b9cc987cae/150/150/Image/Png
+            listItemTitle: Plasticky Cola Hell
+            listItemDescription: >
+              At least it wasn't a purple shake. (earn this badge by using some Cola to wash it all down) [only available during the week of Bus Simulator's 5th birthday]<br></br>- Obtained by eating the Bus Birthday Cake and Cola quickly.
+            listItemRedirect: https://www.roblox.com/badges/2148621577/Plasticky-Cola-Hell
+
+          - listItemImage: https://tr.rbxcdn.com/e6b1e2fb0569a3fb881a71fc24894435/150/150/Image/Png
+            listItemTitle: TBA
+            listItemDescription: >
+              what could this badge be for? only time will tell...<br></br>- ???
+            listItemRedirect: https://www.roblox.com/badges/3244323279038885/TBA
+
+          - listItemImage: https://tr.rbxcdn.com/e6b1e2fb0569a3fb881a71fc24894435/150/150/Image/Png
+            listItemTitle: TBA 2
+            listItemDescription: >
+              100 what?<br></br>- Obtained by having / completing / giving 100 of ???..?
+            listItemRedirect: https://www.roblox.com/badges/4484097064509729/TBA-2
+    - type: section
+      content:
+        size: normal
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: "The Plasticky Cola Goodness and Plasticky Cola Hell are both inspired from The Grimace Shake meme, where people would celebrate Grimace's birthday and drink his shake, only to be subsequently unconscious or die in horrific ways, typically accompanied with purple stains.<br></br>"
+        - name: "The Last One used to not give you a Spronkbib Popsicle on spawn when it was first introduced. It was only after the 20 Million Update that having the badge will give you the Spronkbib Popsicle."

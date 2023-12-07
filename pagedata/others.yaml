@@ -92,14 +92,6 @@ html:
               There may also be scripted news, which only appear if given the right conditions.
             listItemRedirect: /bussim/others/news
           
-          - listItemImage: /bussim-assets/images/others/no-sleep.webp
-            listItemTitle: No Sleep
-            listItemDescription: >-
-              The <a href='https://www.roblox.com/badges/2124472164/No-Sleep'>No Sleep</a> badge is the last one of a trio of badge (The first other 2 being The <a href='https://www.roblox.com/badges/2124472162/Pretty-Fun'>"Pretty Fun"</a> and <a href=https://www.roblox.com/badges/2124472163/Addicted'>"Addicted"</a>) 
-              that are all about spending a certain amount of time on a server non-stop. 
-              The badge is obtained by staying on a server for a whole day (24 hours) without leaving it at anytime.
-            listItemRedirect: /bussim/others/no-sleep
-          
           - listItemImage: /bussim-assets/images/others/pearcoin.webp
             listItemTitle: Pearcoin
             listItemDescription: >-
