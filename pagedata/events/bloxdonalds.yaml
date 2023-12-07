@@ -38,13 +38,11 @@ html:
 
          Trying to interact with the last NPC says the following:
 
-         <br><br>
+    - type: tree
+      content:
+        - name: "You : \"...?\""
+        - name: "You : \"The vibes are kinda off in this specific spot... was someone here before..?\""
 
-         You : "...?"
-
-         <br><br>
-
-         You : "The vibes are kinda off in this specific spot... was someone here before..?"
 
     - type: section
       content:

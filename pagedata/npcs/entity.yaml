@@ -38,12 +38,15 @@ html:
       content:
         title: AI
         description: >-
-          The AI they have works like the NPC's found in <a href='/bussim/events/no-dough'>No Dough</a> and <a href='/bussim/events/santas-gone'>Santa's Gone</a> except a few major differences.<br>
-          * If they spot a player in the Backwalls they will check the area where they last spotted them.<br>
-          * They don't get distracted to any items (Example <a href='/bussim/items/airhorn'>Airhorn</a>, <a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicle</a>, etc) making them nearly useless.<br>
-          * Their speed increases when they fully spotted a player.<br>
-          * Sometimes, Entities can bundle up in an area, making it harder/impossible to pass through without <a href='/bussim/items/liquid-void'>Liquid Void</a>.<br>
-          * If you get spotted, you will be stunned for a second, much like getting spotted in No Dough. But you don't die immediately.
+          The AI they have works like the NPC's found in <a href='/bussim/events/no-dough'>No Dough</a> and <a href='/bussim/events/santas-gone'>Santa's Gone</a> except a few major differences.
+
+    - type: tree
+      content:
+        - name: If they spot a player in the Backwalls they will check the area where they last spotted them.
+        - name: They don't get distracted to any items (Example <a href='/bussim/items/airhorn'>Airhorn</a>, <a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicle</a>, etc) making them nearly useless.
+        - name: Their speed increases when they fully spotted a player.
+        - name: Sometimes, Entities can bundle up in an area, making it harder/impossible to pass through without <a href='/bussim/items/liquid-void'>Liquid Void</a>.
+        - name: If you get spotted, you will be stunned for a second, much like getting spotted in No Dough. But you don't die immediately.
 
 
     - type: gallery

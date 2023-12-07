@@ -27,16 +27,11 @@ html:
     - type: section
       content:
         title: Dialogue
-        description: >- 
-          The Narrator: Players decided to follow the adventure line.
-
-          <br><br>
-
-          After 45 seconds...
-
-          <br><br>
-
-          Event: I think i already seen this somewhere.. Lets go, 15 seconds.
+    - type: tree
+      content:
+        - name: "The Narrator: \"Players decided to follow the adventure line.\""
+        - name: After 45 seconds...
+        - name: "Event: \"I think i already seen this somewhere.. Lets go, 15 seconds.\""
 
     - type: section
       content:

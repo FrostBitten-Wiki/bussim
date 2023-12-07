@@ -10,14 +10,16 @@ html:
   header:
     title: Bus Radio
     description: >-
-      The Bus Radio is a functional prop in The Bus in Bus Simulator. It plays a large variety of songs and intermissions around the bus, and can be listened to via Airpods. 
+    Category: <a href="/bussim/others">Others</a>
     image: ""
     imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
-    - type: text
+    - type: section
       content:
-        text: >-
+        title: Info
+        description: >-
+          The Bus Radio is a functional prop in The Bus in Bus Simulator. It plays a large variety of songs and intermissions around the bus, and can be listened to via Airpods.<br><br>
           On display you'll be able to see the player who queued the song as well as what song in particular that's being played. You can also either bass boost the next song in queue, or replace the next default song in queue with a manually selected song using the audio ID or by searching it up. Intermissions also appear at most every 5 songs, manually queued or not and cannot be replaced by queued songs. It also often appears whenever the server starts.
           <br> </br>
           There's also a couple of minor details such as the radio having a visualizer as well as having the in-game time more accurate compared to the Phone. 
