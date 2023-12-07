@@ -42,8 +42,8 @@ html:
           <br><br>
 
           Emotes can be used in all servers and are mostly meant for fun, 
-          some emotes like <b>/e smug</b> have special effects only visible with certain settings, 
-          and others like <b>/e honda</b> can be used while walking. 
+          some emotes like <highlight>/e smug</highlight> have special effects only visible with certain settings, 
+          and others like <highlight>/e honda</highlight> can be used while walking. 
           The following are all of the emotes you can currently do.
 
     - type: table
