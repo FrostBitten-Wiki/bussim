@@ -30,6 +30,8 @@ async def wiki(request: Request, wikipath: str = ""):
         with open(f"./pagedata/{wikipath}.yaml", "r") as file:
             data = load(file, Loader=FullLoader)
     except FileNotFoundError: data = ""
+    except Exception as e:
+        return e
 
     html_template = Template(html.read())
     rendered_html = html_template.render(data)
