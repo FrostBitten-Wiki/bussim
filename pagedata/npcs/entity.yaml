@@ -1,24 +1,52 @@
 page:
-  title: Entity
-  description: PageDescription
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim entity
-
-attributions: []
-
+  title: Entities
+  description: Entities are NPC's found in the Backwalls,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Entities
+attributions:
+  - "Ported By PolyframeX"
 html:
   header:
-    title: Entity
-    description: >-
+    title: Entities
+    description: >- 
       Category: <a href="/bussim/npcs">NPCs</a>
-      <br><br>
-      
-      Entities are NPC's found in the <a href="/bussim/events/backwalls">Backwalls</a>,
-      they're hostile towards players and will kill them if exposed long enough.
-    image: /bussim-assets/images/npcs/entity.webp
-    imageBanner: /bussim-assets/images/events/backrooms1.webp
-  
+    image: ''
+    imageBanner: /bussim-assets/images/locations/backwalls.webp
   pageContent:
-    - type: text
+    - type: infobox
       content:
-        text: >-
-          Text here
+        infoBoxTitle: 
+          - "Work In Progress"
+          - "#b0690b"
+        infoBoxDescription: >-
+          <i>"not much to talk here, but.. well.."</i> - efeuc
+
+          <br>
+
+          <small>This page is a work in progress, and is currently unfinished. Issues are to be expected.</small>
+    - type: quote
+      content:
+        quote: The entities around here are kinda scary... I tried to hide away in a room when one spotted me, but it still knew where I was..! I guess they can still track you for a bit when you're out of sight...
+        author: Pear
+    - type: section
+      content:
+        title: Info
+        description: >-
+         Entities are NPC's found in the <a href='/bussim/events/backwalls'>Backwalls</a>, 
+         they're hostile towards players and will kill them if exposed enough.
+
+    - type: section
+      content:
+        title: AI
+        description: >-
+          The AI they have works like the NPC's found in <a href='/bussim/events/no-dough'>No Dough</a> and <a href='/bussim/events/santas-gone'>Santa's Gone</a> except a few major differences.<br>
+          * If they spot a player in the Backwalls they will check the area where they last spotted them.<br>
+          * They don't get distracted to any items (Example <a href='/bussim/items/airhorn'>Airhorn</a>, <a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicle</a>, etc) making them nearly useless.<br>
+          * Their speed increases when they fully spotted a player.<br>
+          * Sometimes, Entities can bundle up in an area, making it harder/impossible to pass through without <a href='/bussim/items/liquid-void'>Liquid Void</a>.<br>
+          * If you get spotted, you will be stunned for a second, much like getting spotted in No Dough. But you don't die immediately.
+
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/npcs/entity.webp

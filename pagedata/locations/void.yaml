@@ -1,0 +1,49 @@
+page:
+  title: Void
+  description: The Void is a medium-sized black room that has two monitors in the top-right corner with Efeuc laying down next to them,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Void
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Void
+    description: >-
+     Category: <a href="/bussim/locations">Locations</a>
+    image: ''
+    imageBanner: /bussim-assets/images/locations/void.webp
+
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >-
+         <i>Are you looking for the <a href='/bussim/biomes/void'>biome</a>, instead?</i>
+
+         <br><br>
+
+         The Void is a medium-sized black room that has two monitors in the top-right corner with <a href='/bussim/npcs/efuc'>Efeuc</a> laying down next to them, 
+         and a sign simply saying "back", 
+         which being clicked or tapped on, 
+         will take you back to the front of the second floor on the <a href='/bussim/locations/the-bus'>bus</a>.
+
+         <br><br>
+
+         The location can simply be entered if you click or tap on the purple eye on the second floor.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: The Void Box can actually be seen even on <a href='/bussim/locations/the-bus'>The Bus</a> if you set your quality up to max whilst on the rooftop.
+          children:
+            - name: You can also try to get up there by using the <a href='/bussim/items/gas-station-gravity-coil'>Gravity Coil</a> + <a href='/bussim/events/space'>Space</a> trick, although the odds of landing is low, but possible.
+              children:
+                - name: If you do manage to land on top of it though, you'll also be immune to forced teleportation like the <a href='/bussim/events/backwalls'>Backwalls</a> for example.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/locations/void.webp
+          - /bussim-assets/images/locations/galleries/VoidLocationExterior.webp
