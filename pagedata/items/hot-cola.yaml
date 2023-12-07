@@ -17,8 +17,8 @@ html:
         author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          Hot Cola is an item that can be found on the Second-Story of <a href="/bussim/locations/the-bus">The Bus</a> underneath the <a href="/bussim/items/pizza">Pizza Box</a>. 
          When used, it'll act as any normal Cola; 
          but will instead set you ablaze, 
@@ -34,7 +34,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
     - type: tree
       content:
         - name: Despite its functionality, it doesn't work during the <a href="/bussim/events/blizzard">Blizzard Event</a>.

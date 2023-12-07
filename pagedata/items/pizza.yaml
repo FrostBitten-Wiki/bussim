@@ -13,8 +13,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
           The Pizza is an item obtainable from a pizza box in the second floor of the bus. 
           Eating it will heal you. 
           Equipping the pizza will play a sound effect saying 'Pizza Time', 
@@ -27,7 +27,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:

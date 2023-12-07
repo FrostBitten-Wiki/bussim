@@ -17,8 +17,8 @@ html:
         author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Megaphone is a gamepass item in Bus Simulator. 
          It costs 45 robux, 
          with its variants costing more. 

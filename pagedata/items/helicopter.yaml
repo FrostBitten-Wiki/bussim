@@ -17,8 +17,8 @@ html:
         author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Helicopter is a permanent item bought from <a href="/bussim/events/goated-gas-station">GOATed Gas Station</a> for 100 <a href="/bussim/others/reputation">Passenger Reputation</a> if you have the <a href="/bussim/items/flying-skillbook">Flying Skillbook</a> in your inventory.
          
          <br><br>
@@ -36,7 +36,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:

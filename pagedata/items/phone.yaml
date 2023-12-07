@@ -17,8 +17,8 @@ html:
         author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
           Phone is one of the first tools in the game. 
           It is one of the first tools you are given when playing the game. 
           It can supposedly be used as a flashlight, or just for roleplays.
@@ -30,7 +30,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:

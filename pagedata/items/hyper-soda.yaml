@@ -13,8 +13,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Hyper Soda is a soda variant that can be obtained at the top of the platform next to the sign in the <a href="/bussim/events/obby">Obby</a> event.
          
          <br><br>
@@ -33,7 +33,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
     - type: tree
       content:
         - name: While it is appealing to have a drastic increase in speed, it's debuff afterwards can make exploration punishing especially in events like <a href="/bussim/events/goated-gas-station">Goat Station</a> or <a href="/bussim/events/backwalls">Backwalls</a> where it's better off to use speed items in the long-term or with no consequences.

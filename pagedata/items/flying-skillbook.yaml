@@ -17,8 +17,8 @@ html:
         author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Flying Skillbook is a non-permanent item stolen from <a href="/bussim/events/goated-gas-station">GOATed Gas Station</a>.
 
          <br><br>
@@ -37,7 +37,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
     - type: tree
       content:
         - name: The Flying Skillbook is possibly one of the least functional items in any event, with <a href="/bussim/items/tool">Tool</a> having no uses currently.

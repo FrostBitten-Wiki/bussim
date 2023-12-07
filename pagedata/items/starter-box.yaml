@@ -17,8 +17,8 @@ html:
        author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectiondescription: >-
+        title: Info
+        description: >-
          The Starter Box is an obtainable item from the 10 Million Visits event.
 
          <br><br>
@@ -41,7 +41,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:

@@ -13,8 +13,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
           The Sandwich is a food item obtainable from the <a href="/bussim/events/picnic">Picnic</a> event. 
           The item, when consumed, heals a tiny bit of health.
 

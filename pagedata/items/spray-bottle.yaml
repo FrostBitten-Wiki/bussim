@@ -28,8 +28,8 @@ html:
        author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectiondescription: >-
+        title: Info
+        description: >-
          The spray bottle can be only obtained through VIP/Admin commands.
 
          <br><br>

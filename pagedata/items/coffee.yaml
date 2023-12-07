@@ -13,8 +13,8 @@ html:
   pageContent:
       - type: section
         content:
-         sectionTitle: Info
-         sectionDescription: >-
+         title: Info
+         description: >-
            <i >Are you looking for the <a href="/bussim/items/homemade-coffee">Homemade Coffee</a>, instead?</i>
 
            <br><br>

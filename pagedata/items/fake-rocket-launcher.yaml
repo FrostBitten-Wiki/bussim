@@ -17,8 +17,8 @@ html:
         author: Item Description
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The FakeRocket, or more commonly known as the Fake Rocket Launcher is an item obtained in the <a href="/bussim/events/shack">Shack</a> event.
 
          <br><br>
@@ -29,7 +29,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
     - type: tree
       content:
         - name: This item is an almost exact replica of the classic Roblox Rocket Launcher added in June 2006. You can find more info about the original right <a href="https://roblox.fandom.com/wiki/Rocket_Launcher">here</a>!
