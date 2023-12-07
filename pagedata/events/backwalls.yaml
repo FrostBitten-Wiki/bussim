@@ -1,0 +1,189 @@
+page:
+  title: Backwalls
+  description: The Backwalls is a rare event where a person mentions about the bus having a few hiccups or something isn't feeling right.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Backwalls
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Backwalls
+    description: >-
+     Category: <a href="/bussim/events">Events,</a> <a href="/bussim/locations">Locations</a>
+    image: ''
+    imageBanner: /bussim-assets/images/locations/backwalls.webp
+
+  pageContent:
+
+    - type: quote
+      content:
+       quote: I've been researching a lot about unusual places lately. Apparently, there's this place called "The Backwalls". Not sure if it's real, but I really want to explore around if it is."
+       author: Tazer
+
+    - type: section
+      content:
+        sectionTitle: Info
+        sectionDescription: >-
+         <i>Event Name: Backwalls</i>
+
+         <br><br>
+
+         The Backwalls is a rare event where a person mentions about the bus having a few hiccups or something isn't feeling right. 
+         Afterwards all players (assuming they are not in Frost's Den) are teleported into the Backwalls.
+
+         <br><br>
+         
+         You also would've been able to enter the Backwalls during Bus Simulator's 5th Birthday by eating the <a href="/bussim/items/bus-birthday-cake">Bus Birthday Cake</a> and immediately drinking <a href="/bussim/items/cola">Cola</a> right after. 
+         During this instance however, 
+         you'll keep both the Cake and Cola and have a chance to obtain the Cake permanently after the escape.
+
+         <br><br>
+
+         The Backwalls is also not a pre-meditated area, 
+         generating new rooms and such everytime the event is rolled, 
+         and assuming all players have died or escaped it.
+
+         <br><br>
+
+         The Backwalls is a dangerous place, 
+         containing entities and puddles that damage you over time. 
+         There are however some benefits to it in such a place, 
+         as you can find <a href="/bussim/npcs/pear">Pear</a>, <a href="/bussim/items/almond-water">Almond Water</a>, and <a href="/bussim/items/liquid-void">Liquid Void</a> in areas.
+
+    - type: section
+      content:
+        sectionTitle: Dangers of the Backwalls
+
+    - type: quote
+      content:
+        quote: Apparently there's this tall shadow figure that chases you if you aren't careful, though. Hopefully they aren't too common.
+        author: Tazer
+
+    - type: text
+      content:
+        text: >-
+          In the Backwalls you will encounter a tall shadow figure that patrols the area. 
+          When you meet eye contact with it long enough, 
+          it will chase after you until you either die or lose all attention from the entity. 
+          While you can avoid dying by being small, 
+          it prevents you from escaping attention and any jump will kill you.
+
+          <br><br>
+
+          You may also encounter dark goo puddles around the Backwalls as well. 
+          upon touching it, 
+          goo will coat your entire character dealing significant damage until you are at 1 health left or if it expires. 
+          This also easily attracts the figures as well.
+
+          <br><br>
+
+          There's also very rarely a .png in one of the areas, 
+          when in range it dashes at you at extraordinary speeds ragdolling you constantly. 
+          In this event you are likely to die easily from the other two dangers.
+
+    - type: section
+      content:
+        sectionTitle: Benefits of the Backwalls
+        sectionDescription: >-
+          However though, not all is bad in the Backwalls, 
+          for there are three things that will help you both inside and outside of the event.
+
+          <br><br>
+
+          <a href="/bussim/items/almond-water">Almond Water</a> can be found plenty throughout the area, 
+          when drunk it grants a significant speed boost and massively regenerates your health. It has two uses though.
+
+          <br><br>
+
+          <a href="/bussim/items/liquid-void">Liquid Void</a> also can appear rarely as well, 
+          when drunk it makes the player temporarily invisible, 
+          rendering you undetectable for as long as the effect is active. 
+          However consuming it again for less than 20~ seconds after it has been used before will instantly kill the user.
+
+          <br><br>
+
+          <a href="/bussim/npcs/pear">Pear</a> can also be found walking anywhere in the Backwalls and when talked to, 
+          you can have a conversation with him. 
+          You can also ask him to find the exit at a cost of 10 Passenger Reputation. 
+          He is also immortal in the Backwalls, 
+          not dying nor caring about the dangers that lie.
+
+          <br><br>
+
+          * Do note however, that if you enter via the Birthday Cake method, he will charge you 20 Passenger Reputation instead as a result of your unwise decisions.
+
+          <br><br>
+
+          You may also find pitch black walls that emanate dark smoke, 
+          this may be helpful since when walked upon they teleport you to a random area.
+          Useful for escaping entities or finding a way out.
+
+          <br><br>
+
+          Another thing to note is that while you won't be able to know what events are happening while you are inside, 
+          you are completely immune to all events, 
+          this includes <a href="/bussim/events/flash-flood">Flash Flood</a>, <a href="/bussim/events/lava-floor">Lava Floor</a>, <a href="/bussim/events/acid-rain">Acid Rain</a>, <a href="/bussim/events/blizzard">Blizzard</a>, and more. 
+          Although it's more unintentional and not recommended.
+
+          <br><br>
+
+          The exit in the Backwalls is an open hole in the wall with a ladder and with a green light in the ceiling.
+
+    - type: section
+      content:
+        sectionTitle: After The Event
+        sectionDescription: >-
+          Once you have escaped with Almond Water or Liquid Void, 
+          you have a 33% / 20% chance respectively in any server public or private, 
+          to permanently obtain them in your inventory outside of the event.
+
+          <br><br>
+
+          You can also permanently obtain the <a href="/bussim/items/bus-birthday-cake">Bus Birthday Cake</a> by exiting the Backwalls successfully whilst still holding the Cake via the Birthday Cake method, 
+          allowing you to freely teleport to the Backwalls regardless if the event has been rolled. 
+          This has become unobtainable but used to be a 30% chance.
+
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+
+    - type: tree
+      content:
+        - name: Although the event causes all players to teleport into the Backwalls, the event timer still ticks down immediately after. Which means that events will still occur right after the Backwalls has taken affect.
+          children:
+            - name: However, the Backwalls also has a bit of an infamous reputation for causing event timers to freeze, thus halting events entirely and dulling the entire server. Multiple fixes has been made and now it is uncertain if it'll happen again.
+        - name: The Backwalls, is obviously inspired and taken references off of the Backrooms, which poses a similar theme.
+        - name: You can only hold 1 type of item at a time (e.g. you can only have 1 Almond Water and 1 Liquid Void). Trying to pick up another makes nothing happen.
+        - name: 'If Steven_Scripts (Not to be confused with the actual person, Steven himself) was still in the bus as soon as this event happened, you will find him doing the :cryingandshaking: emote in the walls of the Backwalls.'
+        - name: Since the Backwalls relies on RNG generation, the size of it is also randomized; when it's small you can find little to no entities but also little items.
+          children:
+            - name: Similarly, if the size is massive, you can expect many entities but also many items to use and escape with.
+        - name: Originally, the chances for Almond Water & Liquid Void was believed to be 1/3rd, however after its increase the chances are now fully transparent.
+          children:
+            - name: The chances for Almond Water before was 10%, and Liquid Void was 4%.
+        - name: The event is both technically the shortest and longest event in the game, as you enter the Backwalls within 12 seconds and ends, however at the same time, in the Backwalls, it continues until the last person escapes or dies, which could possibly last a long time.
+        - name: If the last person dies or escapes the Backwalls, the current generation of it will be completely deleted, and those who enter it afterwards will generate a new layout with restocked items.
+        - name: If you ragdoll or find another way to prevent being teleported, you'll be able to see a part of the bridge no-clipping onto The Bus, this will also temporarily stop the bus for a second. It is also at the same time everyone else who is unfortunate enough gets sent to the Backwalls.
+
+    - type: section
+      content:
+        sectionTitle: Technical Trivia
+
+    - type: tree
+      content:
+        - name: Using <a href="/bussim/items/edit">Edit</a>, the model for the entire Backwalls layout is called Backwalls_Map and contains multiple rooms, junctions, as well as an exit as separate models, each with their own layout and all being editable.
+          children:
+            - name: In one of the rooms / junctions, you may also find <a href="/bussim/npcs/entity">Entities</a>, Furnitures, Puddles, and <a href="/bussim/npcs/banana">BANANA</a> as their own models, presumably where they spawned.
+              children:
+                - name: Likewise, Almond Water and Liquid Void also spawn in rooms. Almond Water being named as AWatr_Obj, and Liquid Void as LVoid_Obj.
+                - name: <a href="/bussim/npcs/pear">Pear</a> however, spawns using his own model rather than being based on an existing room.
+                  children:
+                    - name: Pear and the Entities also inflicts an effect when you get near them that is similar to the effect you get when you enter the Backwalls normally.
+                - name: Each of the rooms may also have different colored parts that is hidden normally, and may suggest a purpose in each of the colors.
+            - name: 'The map generates by branching itself from a "Start" model, with the base of it residing at x: -6000, y: 4500, and z: 1500.'
+        - name: If you enter the Backwalls using abnormal methods <small>(Teleporting using <a href="/bussim/items/edit">Edit</a> or with a help of an admin, or getting spotted by Pear or an Entity)</small>, you'll be able to keep all of your items, however will still be inflicted with the same effect one would have.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/locations/backwalls.webp
+          - /bussim-assets/images/events/backrooms2.webp
