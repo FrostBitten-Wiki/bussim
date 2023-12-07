@@ -1,0 +1,59 @@
+page:
+  title: The Door
+  description: The Door is an entrance point that is always a considerable distance behind the bus,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, The Door
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: The Door
+    description: >-
+     Category: <a href="/bussim/locations">Locations</a>
+    image: ''
+    imageBanner: /bussim-assets/images/locations/the-door.webp
+
+  pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+        sectionDescription: >-
+         The Door is an entrance point that is always a considerable distance behind the bus, 
+         sitting next to a few wooden planks. 
+         You can get to the door by using <a href="/bussim/items/hoverboots">Hoverboots</a> or <a href="/bussim/items/helicopter">Helicopter</a> (the latter requires a speed boost from an item such as <a href="/bussim/items/almond-water">Almond Water</a> to cover the distance) while timing your descent just right to trigger the door, 
+         or by waiting until the Bus is stopped by an event, 
+         and travelling over to it.
+
+    - type: section
+      content:
+        sectionTitle: Inside The Door
+        sectionDescription: >- 
+          Entering the door leads to an area filled with bright yellow grass, 
+          two faceless noobs, 
+          a stone statue, 
+          and a big sun with a default face on it. 
+          The background is a neon pink, 
+          and can be seen from the bus if you have your Graphics Quality set to a high amount, 
+          and you look backwards to the left. 
+          In some cases, 
+          interacting with one of the faceless noobs will cause them to slap you, 
+          sending you backwards a bit. 
+          You can use the same alternate methods you may have used to come here (Hoverboots, Helicopter) to fly up the stone borders and stand on top of the sun. 
+          You can also use <a href="/bussim/items/mini-bus">Mini-Bus</a> to clip up the borders if you use it on the edge of a corner. 
+          However, 
+          you won't be able to get above the sun if you don't have any means of flying.
+
+    - type: section
+      content:
+        sectionTitle: Trivia
+
+    - type: tree
+      content:
+        - name: This is one of, if not the only non-event area in the game to not feature any NPCs that can start a discussion.
+        - name: If you're lucky (or unlucky), you can use Mini-Bus to clip outside the pink background, revealing the outsides of the area.
+          children:
+            - name: There are small stone crevices that you can stand on outside the area, but you may be eventually pushed by an area transition wall into the ocean.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/locations/the-door.webp

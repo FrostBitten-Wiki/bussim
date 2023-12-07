@@ -27,7 +27,7 @@ html:
             listItemTitle: Backwalls
             listItemDescription: >-
               The Backwalls is a rare event where a person mentions about the bus having a few hiccups or something isn't feeling right, afterwards all players (assuming they are not in Frost's Den) are teleported into the Backwalls.
-            listItemRedirect: /bussim/locations/backwalls
+            listItemRedirect: /bussim/events/backwalls
           
           # You can also get the badge by just jumping under the beter box. although idk if we should add that. - Nyx
           - listItemImage: /bussim-assets/images/locations/beter-box.webp
@@ -42,7 +42,7 @@ html:
           - listItemImage: /bussim-assets/images/locations/bloxdonalds.webp
             listItemTitle: Bloxdonalds
             listItemDescription: The Bloxdonalds is both an Event and a Location in Bus Simulator.
-            listItemRedirect: /bussim/locations/bloxdonalds
+            listItemRedirect: /bussim/events/bloxdonalds
           
           - listItemImage: /bussim-assets/images/locations/the-door.webp
             listItemTitle: The Door
@@ -55,7 +55,7 @@ html:
             listItemTitle: Glacier Cave
             listItemDescription: >-
               The interior is a massive cave filled with crystals, on the left there is a hidden passage way that appears to be a parkour that leads to NamerElf's actual spot. (While NamerElf is credited; it isn't present in its podium in the Art Gallery.)
-            listItemRedirect: /bussim/locations/glacier-cave
+            listItemRedirect: /bussim/events/glacier-cave
           
           - listItemImage: /bussim-assets/images/items/gps.webp
             listItemTitle: GPS Locations
