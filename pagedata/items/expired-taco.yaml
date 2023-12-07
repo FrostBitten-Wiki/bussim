@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Expired Taco
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The Expired Taco is a gear obtained from the <a href="/bussim/events/time-travel">Time Travel Event</a>, 
          and is obtained at the "fizzy taco stand!!!!!!."
 

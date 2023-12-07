@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Hoverboots
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The Hoverboots is a pair of boots that allows you to fly, 
          similar to the <a href="/bussim/items/helicopter">Helicopter</a> item. 
          It could've been obtained from the 10 Middle Event Wheel. 

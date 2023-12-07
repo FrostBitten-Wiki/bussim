@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Redblox
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
           RedBlox is an item in the <a href="/bussim/events/goated-gas-station">GOATed Gas Station Event</a>, 
           and is a one-time use that makes you walk faster for a few seconds, 
           like the <a href="/bussim/items/hyper-soda">Hyper Soda</a>.

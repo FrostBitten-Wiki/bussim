@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Million Colas
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The 1M Cola is an item that could've been obtained in the 1 Million Event, 
          and is unobtainable without admin commands. 
          The can is purple in color, 

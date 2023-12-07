@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Birthday Ice Cream
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The Birthday Ice Cream is a large ice cream cone. 
          During the <a href="/bussim/events/birthday">Birthday</a> event, 
          when a random player has been picked in that event, 

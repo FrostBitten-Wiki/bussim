@@ -14,8 +14,12 @@ html:
 
     image: ''
     imageBanner: /bussim-assets/images/biomes/desert.webp
-
   pageContent:
+    - type: section
+      content:
+        sectionTitle: Info
+        sectionDescription: >-
+          Desert is a biome that will spawn randomly after driving through a tunnel. 
     - type: section
       content:
         sectionTitle: Info

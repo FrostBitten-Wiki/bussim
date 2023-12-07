@@ -19,6 +19,12 @@ html:
     - type: section
       content:
         sectionTitle: Info
+        sectionDescription: >- 
+         Fall is a biome in the game that is similar to <a href='/bussim/biomes/summer'>Summer</a>,
+         but is replaced with Orange instead of Green.
+    - type: section
+      content:
+        sectionTitle: Info
         sectionDescription: >-
           Fall is a biome in the game that is similar to <a href='/bussim/biomes/summer'>Summer</a>,
           but is replaced with Orange instead of Green.

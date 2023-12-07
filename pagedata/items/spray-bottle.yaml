@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Spray Bottle
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -29,9 +29,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectiondescription: >-
          The spray bottle can be only obtained through VIP/Admin commands.
 
          <br><br>

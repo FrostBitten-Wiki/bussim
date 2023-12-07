@@ -11,7 +11,6 @@ html:
     title: Mythic
     description: >-
       Category: <a href="/bussim/biomes">Biomes</a>
-
     image: ''
     imageBanner: /bussim-assets/images/biomes/mythic.webp
   
@@ -19,11 +18,10 @@ html:
     - type: section
       content:
         sectionTitle: Info
-        sectionDescription: >-
-          Mythic is a biome that is dark, and fantasy-like, 
-          where the shading is more blue. 
-          The biome has blue grass and gigantic trees with blue leaves.
-
+        sectionDescription: >- 
+         Mythic is a biome that is dark, and fantasy-like, 
+         where the shading is more blue. 
+         The biome has blue grass and gigantic trees with blue leaves
     - type: gallery
       content:
         images:

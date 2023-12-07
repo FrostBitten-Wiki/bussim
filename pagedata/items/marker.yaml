@@ -7,7 +7,7 @@ attributions:
 html:
   header:
     title: Marker
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
@@ -18,9 +18,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The Marker is an item that allows you to draw lines almost anywhere in the game, 
          it currently has 3 tools, Export, Draw, and Erase.
 
@@ -39,9 +37,7 @@ html:
       content:
         sectionTitle: Export tool
 
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          The export tool allows you to export all of your drawings (dots or art) by clicking the 1st button when holding the Marker. 
          It'll export all of the lines you have made in the game and exports them as a Model & Packages in your desktop / browser inventory. 
          All of which is still subjected via moderation.
@@ -54,9 +50,7 @@ html:
       content:
         sectionTitle: Draw tool
   
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
           The draw tool is the 2nd button when holding the Marker, 
           when clicked on you'll enter Drawing Mode: 
           where you'll be able to draw lines with different colors almost anywhere in the game.
@@ -82,9 +76,7 @@ html:
       content:
         sectionTitle: Erase tool
 
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
           The erase tool is the 3rd button when holding the Marker, 
           with two functions: when dragging your mouse with this enabled, 
           it'll remove any lines that the eraser touches in a large range. 

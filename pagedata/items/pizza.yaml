@@ -7,16 +7,14 @@ attributions:
 html:
   header:
     title: Pizza
-    description: Items
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
           The Pizza is an item obtainable from a pizza box in the second floor of the bus. 
           Eating it will heal you. 
           Equipping the pizza will play a sound effect saying 'Pizza Time', 

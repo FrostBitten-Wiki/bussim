@@ -7,16 +7,15 @@ attributions:
 html:
   header:
     title: Billboards
-    description: Others
+    description: >- 
+      Category: <a href="/bussim/others">Others</a>
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >-
+        sectionDescription: >-
          <i>Not to be confused with the advertisements in the 
           <a href="/bussim/biomes/nostalgic">Nostalgic</a> 
           biome.</i>
@@ -35,8 +34,6 @@ html:
           as the system barely has any advertisers so far. 
           If no advertisement shows up, 
           the ROBLOX logo will appear instead.
-
-          <br><br>
     - type: section
       content:
         sectionTitle: Trivia

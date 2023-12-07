@@ -11,7 +11,6 @@ html:
     title: Plains
     description: >-
       Category: <a href="/bussim/biomes">Biomes</a>
-
     image: ''
     imageBanner: /bussim-assets/images/biomes/plains.webp
   
@@ -19,10 +18,9 @@ html:
     - type: section
       content:
         sectionTitle: Info
-        sectionDescription: >-
-          Plains is a biome similar to <a href='/bussim/biomes/summer'>Summer</a>, but doesn't include hills.
-          Instead, it includes crashed helicopters, as well as trees, bushes, and buildings.
-
+        sectionDescription: >- 
+         Plains is a biome similar to <a href='/bussim/biomes/summer'>Summer</a>, but doesn't include hills.
+         Instead, it includes crashed helicopters, as well as trees, bushes, and buildings. 
     - type: gallery
       content:
         images:

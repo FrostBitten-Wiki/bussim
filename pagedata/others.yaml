@@ -24,7 +24,7 @@ html:
               as they cannot be advertised to people if they are 12 or younger.
             listItemRedirect: /bussim/others/billboards
           
-          - listItemImage: /bussim-assets/images/others/bus-radio.webp
+          - listItemImage: /bussim-assets/images/others/bus-radio-icon.webp
             listItemTitle: Bus Radio
             listItemDescription: >-
               The Radio is a functional prop in <a href='/bussim/locations/the-bus'>The Bus</a> in Bus Simulator. 
