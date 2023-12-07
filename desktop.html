@@ -263,7 +263,7 @@
                         </div>
                     {% elif data['type'] == "table" %}
                         <div style="margin-top: 20px; margin-bottom: 35px;">
-                            {% set spacing = data["content"]["columnSpacing"].split() %}
+                            {% set spacing = data["content"]["titles"] %}
                             {% set columns = spacing|length %}
                             {% set columnWidth = data["content"]["widthSize"] / columns %}
                                                 

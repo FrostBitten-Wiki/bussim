@@ -1,0 +1,142 @@
+# THIS FILE IS A PLACEHOLDER, AND CAN BE ACCESSED ON /bussim/placeholder FOR VISUALIZATION
+# This is mostly a template on how to create a page using YAML.
+
+# This attribute handles the site's embed. (which is visible when the page is being linked offsite. Discord, Twitter, etc.)
+page:
+  # This value changes the Page's Title (not on the content)
+  title: PageTitle
+  # This value changes the Page's Description (not on the content)
+  description: PageDescription
+  # This value changes the Page's Keywords to be able to be searched on any Search Engines.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+
+# This attribute handles the attribution (or credits) for the page.
+# This should only contain the following:
+# <something> Contributed by <owner> (if they are contributing here)
+# <something> by <owner> (if you are crediting someone with their work, who is not contributing here)
+# Ported to Fandom by <editor> (mostly used when a page is being ported from fandom to this wiki)
+
+# If the page you have has none of the following, you can leave it empty by setting the value to "[]", like so:
+# attributions: []
+
+attributions:
+  - Something Contributed by Nyx (@nyxical)
+
+# This attribute handles the HTML's body. It contains the content of the wiki (which is visible to the reader)
+html:
+  # This attribute handles the site's header. The values are pretty much self-explanatory. although I added comments for some values.
+  header:
+    title: TitleTest
+    # as of December 7, 2023. this should be left as it is. category and the link to the category.
+    description: >-
+      Category: <a href="/bussim/category-name">CategoryName</a>
+    
+    # this adds an image to the header, next to the title and description.
+    image: ""
+
+    # this configures the header's banner. which is also visible to the embed.
+    imageBanner: /bussim-assets/images/banner.jpg
+
+  # This attribute handles the site's content. The type attribute (or class) is not fixed. you can add more of it.
+  pageContent:
+    # Every content supports HTML.
+
+    # This adds a text element from the content.
+    - type: text
+      content:
+        text: >-
+          Some text here
+
+    # This adds a section frome the content. This is good if you want to categorize some things.
+    - type: section
+      content:
+        sectionTitle: SectionTitle
+        sectionDescription: >-
+          Section Description
+
+    # This adds a list from the content. This is mainly used for categories. but can be used elsewhere whenever needed.
+    - type: list
+      content:
+        items:
+          - listItemImage: ""
+            listItemTitle: ItemTitle
+            listItemDescription: ItemDescription
+            listItemRedirect: ""
+
+          - listItemImage: "https://placehold.co/256"
+            listItemTitle: ItemTitle
+            listItemDescription: ItemDescription
+            listItemRedirect: "/bussim/home"
+
+    # This adds a table to the content.
+    - type: table
+      content:
+        # This configures the Image's size. whenever its added on the field.
+        imageSize: 128   128
+        
+        # This configures the Column's size. Default is 100, although feel free to play with it.
+        widthSize: 100
+
+        # The title for each columns.
+        titles:
+          - "Title 1"
+          - "Title 2"
+          - "Title 3"
+        
+        # The table's content. If there are more titles, there should be more fields. although empty fields are supported.
+        items:
+          - ["https://placehold.co/256", "more testing", "text"]
+          - ["test", "", "test"]
+
+    # This adds an infobox to the content. This is mainly used to point out if the following content is Deleted, Exclusive, etc.
+    - type: infobox
+      content:
+        # This configures the InfoBox's title, with the second value configuring the Text Color in HEX.
+        infoBoxTitle: 
+          - "Info Box"
+          - "#b00b69"
+        
+        # This configures the InfoBox's description.
+        infoBoxDescription: >-
+          Some Description here
+
+    # This adds a quote to the content. The values are pretty much self-explanatory.
+    - type: quote
+      content:
+        quote: ""
+        author: ""
+
+    # This adds a tree to the content.
+    - type: tree
+      content:
+        - name: Root
+          children:
+            - name: RootChild
+              children:
+                - name: RootChild Child
+                  children:
+                    - name: RootChild Child Child
+
+            - name: RootChild1
+              children:
+                - name: RootChild1 Child
+        
+        - name: Root Second
+
+    # This adds a gallery list to the content.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+
+    # This adds an interactable dialogue to emulate talking to an NPC. This is currently not done.
+    - type: npcChat
+      content:
+        converstationTree: {}
+
