@@ -2,26 +2,29 @@ page:
   title: Lava
   description: Lava is a biome that will spawn randomly after driving through a tunnel.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Lava
+
 attributions:
   - "Ported By PolyframeX"
+  
 html:
   header:
     title: Lava
     description: Biomes
     image: ''
     imageBanner: /bussim-assets/images/biomes/lava.webp
+
   pageContent:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >- 
+        sectionDescription: >- 
           Lava is a biome that will spawn randomly after driving through a tunnel. 
           It comprises of lava surrounding the entire street with a potent orange haze for its fog.
+   
     - type: section
       content:  
         sectionTitle: Trivia
+ 
     - type: tree
       content:
         - name: If any player touches the lava in this biome, it will cause them to jump and deal significant damage. It won't however trip them.

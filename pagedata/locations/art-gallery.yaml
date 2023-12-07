@@ -37,10 +37,6 @@ html:
           <br><br>
           jk just touch the puddle
         author: "NobleReign"
-    
-    - type: text
-      content:
-        text: Test
 
     - type: table
       content:

@@ -2,25 +2,25 @@ page:
   title: Wasteland
   description: The Void biome is a biome that cannot be forced by the !biome command,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Wasteland
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Wasteland
     description: Biomes
     image: ''
     imageBanner: /bussim-assets/images/biomes/wasteland.webp
+  
   pageContent:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >- 
+        sectionDescription: >- 
           Wasteland is a biome that has a similar appearance to <a href='/bussim/biomes/thorns'>Thorns</a>. 
-              The ground has rust covering it, and it spawns dead bushes, hills, and equally-rusted buildings. 
-              The skybox is red, cloudy, and ominous, and is the "<a href='https://create.roblox.com/marketplace/asset/54009801/End-of-the-world-skybox%3Fkeyword=&pageNumber=&pagePosition='>End of the World</a>" skybox, made by tyler7778.
-              <br><br>
+          The ground has rust covering it, and it spawns dead bushes, hills, and equally-rusted buildings. 
+          The skybox is red, cloudy, and ominous, and is the "<a href='https://create.roblox.com/marketplace/asset/54009801/End-of-the-world-skybox%3Fkeyword=&pageNumber=&pagePosition='>End of the World</a>" skybox, made by tyler7778.
 
     - type: gallery
       content:

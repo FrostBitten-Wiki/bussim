@@ -2,21 +2,22 @@ page:
   title: Doodle
   description: Doodle is one of the new biomes added to Bus Simulator.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Doodle
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Doodle
     description: Biomes
     image: ''
     imageBanner: /bussim-assets/images/biomes/doodle.webp
+    
   pageContent:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >- 
+        sectionDescription: >- 
           Doodle is one of the new biomes added to Bus Simulator. 
           It features a notebook-paper-like floor as well as animated doodles depicting flowers, 
           grass, bushes, and trees.

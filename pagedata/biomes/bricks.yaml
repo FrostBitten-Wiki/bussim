@@ -2,8 +2,10 @@ page:
   title: Bricks
   description: The Bricks biome is a simple biome where the ground is just bricks,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Bricks
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Bricks
@@ -14,9 +16,7 @@ html:
     - type: section
       content:
         sectionTitle: Info
-    - type: text
-      content:
-        text: >- 
+        sectionDescription: >-
           The Bricks biome is a simple biome where the ground is just bricks, 
           and any hills are also textured with bricks. 
           Buildings also spawn in the biome, but that's about it.<br><br>
