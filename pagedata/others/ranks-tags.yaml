@@ -71,150 +71,29 @@ html:
 
     - type: section
       content:
-        size: normal
         title: Group Ranks
-        description: >-
-              <b>Unverified</b>
+
+    - type: table
+      content:
+        columnSpacing: 215px 215px
+        widthSize: 100
+        titles:
+          - "Ranks/Tags"
+          - "Description"
+        items:
+          - ['<b>Unverified</b>',"You weren't verified manually or via the Verification place on the Bus Sim official group. You don't get a tag in-game for being unverified."]
+          - ['<text style="color:#001793"><b>[Passenger]</b></text>',"The lowest obtainable rank in the group. Obtained simply by getting verified."]
+          - ['<text style="color: #e771a1;"><b>[Verifier]</b></text>',"A rank that only one person currently has, and is not obtainable normally. Verifiers can only rank Unverified people up to Passenger."]
+          - ['<text style="color: #00bd2f;"><b>[Driver]</b></text>',"The most commonly obtained rank, as it's incredibly easy to get. You need to meet the vague requirements to get the Driver rank, which requires the following to get:<br><br>* Be verified in the group<br>* Certain amount of messages sent in-game in total<br>* Certain amount of Driver Rep (Most likely 10 rep at minimum)<br><br>Owning the <a href='https://www.roblox.com/game-pass/4894984/Bus-Driver'>Driver Gamepass</a> also helps with the process, but <b>is not required</b> to own, nor does it give you the Driver rank automatically. Drivers get \"+14\" additional rep, but it has no value at all aside from kicking players."]
+          - ['<text style="color: #e1a200;"><b>[OG Driver]</b></text>',"An unobtainable rank that was given to as many people with the Driver rank as possible before Driver was made obtainable again. OG Driver gets a free <a href='/bussim/items/mini-bus'>Mini-Bus</a> <b><small>(if the player doesn't own one)</small></b>, and it's sparkly. You also get \"+16\" additional rep."]
+          - ['<text style="color: #30ee53;"><b>[Best Driver]</b></text>',"A rank that only efeuc can have. It's mainly a cosmetic tag, like Group Bot and Noble. He also has \"+18\" additional rep."]
+          - ['<text style="color: #f43f08;"><b>[Contributor]</b></text>',"You can obtain the rank by contributing to the game in some way, like making a seat anim, clothing, etc. If you own this rank, your <a href='/bussim/items/mini-bus'>Mini-Bus</a> will sparkle. Those in the contributer rank also get \"+20\" additional rep."]
+          - ['<text style="color: #8e40ed;"><b>[Knitter]</b></text>',"A rank that was only given to those who upload UGC or clothing to the Bus Simulator The Fan Group store. There may be some vague requirements aside from that."]
+          - ['<text style="color: #8729b1;"><b>[Authenticator]</b></text>',"A rank similar to Verifier, but has more powers, like exiling people, deleting messages, etc. The rank is very rare, and only has two members. However, they are often seen ingame."]
+          - ['<text style="color: #9100c1;"><b>[Developer]</b></text>',"A co-owner like rank that shows people who is a main developer of the game."]
+          - ['<b>Group Bot</b>',"It's rather self explanatory. A rank for the group bot that auto-ranks people whenever it's not broken."]
+          - ['<text style="color: #5902c9;"><b>[Noble]</b></text>',"It's NobleReign. He also gets \"+30\" additional rep."]
               
-              <br><br>
-
-              You weren't verified manually or via the Verification place on the Bus Sim official group. 
-              You don't get a tag in-game for being unverified.
-
-              <br><br>
-
-              <text style="color:#001793"><b>[Passenger]</b></text>
-
-              <br><br>
-
-              The lowest obtainable rank in the group. 
-              Obtained simply by getting verified.
-
-              <br><br>
-
-              <text style="color: #e771a1;"><b>[Verifier]</b></text>
-
-              <br><br>
-
-              A rank that only one person currently has, 
-              and is not obtainable normally. 
-              Verifiers can only rank Unverified people up to Passenger.
-
-              <br><br>
-
-              <text style="color: #00bd2f;"><b>[Driver]</b></text>
-
-              <br><br>
-
-              The most commonly obtained rank, 
-              as it's incredibly easy to get. 
-              You need to meet the vague requirements to get the Driver rank, 
-              which requires the following to get:
-
-              <br><br>
-
-              * Be verified in the group
-              <br>
-              * Certain amount of messages sent in-game in total
-              <br>
-              * Certain amount of Driver Rep (Most likely 10 rep at minimum)
-              <br><br>
-
-              Owning the 
-              <a href="https://www.roblox.com/game-pass/4894984/Bus-Driver">Driver Gamepass</a>
-              also helps with the process, 
-              but <b>is not required</b> to own, 
-              nor does it give you the Driver rank automatically. 
-              Drivers get "+14" additional rep, 
-              but it has no value at all aside from kicking players.
-
-              <br><br>
-
-              <text style="color: #e1a200;"><b>[OG Driver]</b></text>
-
-              <br><br>
-
-              An unobtainable rank that was given to as many people with the Driver rank as possible before Driver was made obtainable again. 
-              OG Driver gets a free 
-              <a href="/bussim/items/mini-bus">Mini-Bus</a>
-              <b><small>(if the player doesn't own one)</small></b>, 
-              and it's sparkly. 
-              You also get "+16" additional rep. 
-
-              <br><br>
-
-              <text style="color: #30ee53;"><b>[Best Driver]</b></text>
-
-              <br><br>
-
-              A rank that only efeuc can have. It's mainly a cosmetic tag, like Group Bot and Noble. He also has "+18" additional rep.
-
-              <br><br>
-
-              <text style="color: #f43f08;"><b>[Contributer]</b></text>
-
-              <br><br>
-
-              You can obtain the rank by contributing to the game in some way, 
-              like making a seat anim, 
-              clothing, 
-              etc. 
-              If you own this rank, 
-              your 
-              <a href="/bussim/items/mini-bus">Mini-Bus</a>
-              will sparkle. 
-              Those in the contributer rank also get "+20" additional rep. 
-
-              <br><br>
-
-              <text style="color: #8e40ed;"><b>[Knitter]</b></text>
-
-              <br><br>
-
-              A rank that was only given to those who upload UGC or clothing to the Bus Simulator The Fan Group store.
-              There may be some vague requirements aside from that.
-
-              <br><br>
-
-              <text style="color: #8729b1;"><b>[Authenticator]</b></text>
-
-              <br><br>
-
-              A rank similar to Verifier, 
-              but has more powers, 
-              like exiling people, 
-              deleting messages, 
-              etc. 
-              The rank is very rare, 
-              and only has two members. 
-              However, 
-              they are often seen ingame.
-
-              <br><br>
-
-              <text style="color: #9100c1;"><b>[Developer]</b></text>
-
-              <br><br>
-
-              A co-owner like rank that shows people who is a main developer of the game.
-
-              <br><br>
-
-              <b>Group Bot</b>
-
-              <br><br>
-
-              It's rather self explanatory. 
-              A rank for the group bot that auto-ranks people whenever it's not broken.
-
-              <br><br>
-
-              <text style="color: #5902c9;"><b>[Noble]</b></text>
-
-              <br><br>
-
-              It's NobleReign. 
-              He also gets "+30" additional rep.
     - type: section
       content:
         size: normal
