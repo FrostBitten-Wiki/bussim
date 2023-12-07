@@ -140,6 +140,23 @@
                 </button>
             </div>
 
+            <div class="sidebar sidebarMenu" id="otherStuff" style="position: absolute; top: 0; left: 0; flex-direction: row-reverse;">
+                <button onclick="navigateMenu('mainMenu')" type="menuBack">
+                    <img src="/assets/back.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <text type="hoverText">Back to Menu</text>
+                </button>
+            
+                <button onclick="location.href='/bussim/contributors'">
+                    <img src="/assets/contributors.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <text type="hoverText">Contributors</text>
+                </button>
+            
+                <button onclick="window.open('https://github.com/FrostBitten-Wiki/bussim', '_blank')">
+                    <img src="/assets/github.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <text type="hoverText">Wiki Repository</text>
+                </button>
+            </div>
+
             <script>
                 var activeMenu = "mainMenu";
 
