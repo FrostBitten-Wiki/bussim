@@ -15,8 +15,8 @@ html:
   pageContent:
     - type: section
       content:
-        sectionTitle: Info
-        sectionDescription: >-
+        title: Info
+        description: >-
          The Door is an entrance point that is always a considerable distance behind the bus, 
          sitting next to a few wooden planks. 
          You can get to the door by using <a href="/bussim/items/hoverboots">Hoverboots</a> or <a href="/bussim/items/helicopter">Helicopter</a> (the latter requires a speed boost from an item such as <a href="/bussim/items/almond-water">Almond Water</a> to cover the distance) while timing your descent just right to trigger the door, 
@@ -25,8 +25,8 @@ html:
 
     - type: section
       content:
-        sectionTitle: Inside The Door
-        sectionDescription: >- 
+        title: Inside The Door
+        description: >- 
           Entering the door leads to an area filled with bright yellow grass, 
           two faceless noobs, 
           a stone statue, 
@@ -44,7 +44,7 @@ html:
 
     - type: section
       content:
-        sectionTitle: Trivia
+        title: Trivia
 
     - type: tree
       content:
