@@ -147,7 +147,7 @@
             "rarity": 5,
             "dialogue": [
                 [2000, "Fang", "", "..."],
-                [2000, "Fang", "", "WH-"],
+                [1000, "Fang", "", "WH-"],
                 [3000, "Fang", "", "oh uh.. hey there?"],
                 [3000, "Fang", "", "didn't expect you to find me here but uhm.."],
                 [3000, "Fang", "", "I hope you're enjoying this wiki! It's quite hard to still understand how it works but..."],
@@ -284,6 +284,37 @@
             "rarity": 100,
             "dialogue": [
                 [3000, "Zeon", "close", "michael"]
+            ]
+        },
+
+        "disc01": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Disc", "point", "Hey! Did you know that you can buy the items in GoatedGas?"],
+                [3000, "Disc", "lean", "Below of each item has a price tag listed, that is the amount you need to pay with Passenger Reputation!"],
+                [3000, "Disc", "point", "And when you feel like buying them, you can head over to me and proceed to checkout!"],
+                [3000, "Disc", "point", "Those items afterwards are now bonded with you, so you'll bring it everywhere you go!"],
+                [3000, "Disc", "angry", "Oh, you certainly can try stealing them..."],
+                [3000, "Disc", "close", "<b>That is, until you become our next Halloween decoration..</b>"]
+            ]
+        },
+
+        "disc02": {
+            "rarity": 100,
+            "dialogue": [
+                [4000, "Disc", "think", "And then I said sir, this is a gas station- I feel bad for hi-"],
+                [5000, "Disc", "sweat", "..."],
+                [3000, "Disc", "sweat", "..wait, is this still on?"]
+            ]
+        },
+
+        "disc03": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Disc", "think", "Did you know that you can't buy the two colas on the refrigerators?"],
+                [3000, "Disc", "sweat", "Well... we couldn't really care much on how much they costed and stuff..."],
+                [3000, "Disc", "lean", "So you can take them for free! They won't be bonded with you however."],
+                [3000, "Disc", "default", "Maybe for the best though, those drinks have some really weird effects."]
             ]
         }
     },
