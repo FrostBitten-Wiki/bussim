@@ -201,14 +201,14 @@ div.sidebar bottomButtons {
 }
 
 .sidebar button:hover[type="menuBack"] {
-    background-color: #eb403480;
+    background-color: #eb4034;
 }
 
 .sidebar button:hover {
     width: 175px;
     cursor: pointer;
     color: white;
-    background-color: #2c269a80;
+    background-color: #2c269a;
 }
 
 .sidebar button text[type="hoverText"] {
