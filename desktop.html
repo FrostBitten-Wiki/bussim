@@ -48,7 +48,20 @@
     </head>
 
     <body>
-        <div style="background-color: #100996; position: fixed; bottom: 0; height: 53px; width: 100%; z-index: 5;">
+        <div id="searchScreen" style="transition: top 1s; position: fixed; background-color: #10099680; backdrop-filter: blur(5px); top: 100vh; width: 100%; height: calc(100% - 55px);">
+            <div style="margin-top: 50px; margin-left: 10vw; margin-right: 10vw;">
+                <text style="font-size: 35px;">Search Results</text>
+
+                <div id="results">
+                    <div style="background-color: #10099680; padding: 5px;">
+                        <text>Result Title</text><br>
+                        <text style="font-size: 10px;">path</text>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="background-color: #100996; position: fixed; bottom: 0; height: 55px; width: 100%; z-index: 5;">
             <div class="sidebar sidebarMenu" id="mainMenu" style="display: flex; position: absolute; top: 0; left: 0; flex-direction: row;">
                 <button onclick="location.href='/bussim'">
                     <img src="/assets/home.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
@@ -65,7 +78,32 @@
                     <text type="hoverText">Other Stuff</text>
                 </button>
 
-                <input placeholder="Search" >
+                <input id="searchBar" placeholder="Search" onfocus="document.getElementById('searchScreen').style.top = '0'" onfocusout="document.getElementById('searchScreen').style.top = '100vh'">
+                <script>
+                    let typingTimer;
+                    const doneTypingInterval = 500;  // 1000 milliseconds (1 second)
+                
+                    document.getElementById('searchBar').addEventListener('input', function() {
+                        clearTimeout(typingTimer);
+                        typingTimer = setTimeout(doneTyping, doneTypingInterval);
+                    });
+                
+                    function doneTyping() {
+                        fetch(`/bussim-search/${document.getElementById('searchBar').value}`)
+                        .then(response => {
+                            if (!response.ok) {
+                              throw new Error(`HTTP error! Status: ${response.status}`);
+                            }
+                            return response.json();
+                        })
+                        .then(data => {
+                            console.log(data);
+                        })
+                        .catch(error => {
+                            console.error('Fetch error:', error);
+                        });
+                    }
+                  </script>
             </div>
 
             <div class="sidebar sidebarMenu" id="wikiPages" style="display: none; position: absolute; top: 0; left: 0; flex-direction: row;">
