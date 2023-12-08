@@ -1,0 +1,139 @@
+page:
+  title: Repaint
+  description: The Repaint Event is an event that happens every 5 minutes at random,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Repaint
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Repaint
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Repaint</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/repaint2.webp
+
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >- 
+          The Repaint Event is an event that happens every 5 minutes at random, 
+          giving players the option to vote for what color that should be painted onto <a href='/bussim/locations/the-bus'>The Bus</a> for around 16-20 minutes (or roughly 3-4 events).
+
+          <br><br>
+
+          There are 8 different colors to choose from, 
+          and each of them will paint the bus, 
+          slowly fading back to the natural color after the event has concluded.
+
+          <br><br>
+
+          In the event that two or more colors are voted the most however, 
+          the paint will instead be roughly distributed around the bus, 
+          with a two-way tie being 50/50, 
+          to an impossible eight-way tie. 
+          You'll also get the <a href="https://www.roblox.com/badges/2130114796/Colorful-Chaos">Colorful Chaos</a> if you get a four-way or higher tie.
+
+    - type: section
+      content:
+        title: Dialogue
+
+    - type: section
+      content:
+        title: Intro Dialogue
+
+    - type: tree
+      content:
+        - name: "Variant 1: [Player]: \"Y'know, this bus is gettng kinda bland.. why don't we spice it up a little?\""
+        - name: "Variant 2: [Player]: \"I'm kinda tired of staring out of the window. Can we watch paint dry instead?\""
+
+    - type: section
+      content:
+        title: Before Poll Dialogue
+
+    - type: tree
+      content:
+        - name: "Variant 1: [Player]: \"Yeah sure, let's repaint the bus.\""
+        - name: "Variant 2: [Player]: \"Good idea! We can all vote on what color we should paint the bus.\""
+        - name: "Variant 3: [Player]: \"I mean, alright. If you can find the paint for it, I guess...\""
+
+    - type: tree
+      content:
+        - name: "Variant 1: [Player]: \"Why is blue even an option?\""
+        - name: "Variant 2: [Player]: \"I hope my color wins...\""
+        - name: "Variant 3: [Player]: \"Oh, an actual voting UI. Fancy.\""
+        - name: "Variant 4: [Player]: \"I wonder if we can tie...\""
+
+    - type: section
+      content:
+        - name: After Poll Dialogue
+    
+    - type: tree
+      content:
+        - name: If a singular color wins...
+          children:
+            - name: "Variant 1: [Player]: \"Turned out better than I thought it would.\""
+            - name: "Variant 2: [Player]: \"...<winning color>, huh? Interesting choice...\""
+              children:
+                - name: "Variant 1: [Player]: \"Snazzy.\""
+        - name: If multiple colors win...
+          children:
+            - name: "Variant 1: [Player]: \"Oh, it's a tie. Uh.. let's have the best of both worlds..?\""
+              children:
+                - name: "Variant 1: You: \"Oh good god this looks so bad.\""
+                - name: "Variant 2: You: \"I regret everything.\""
+        - name: If no color is selected...
+          children:
+            - name: "Variant 1: [Player]: \"Eh, actually, I don't care anymore.\""
+
+    - type: section
+      content:
+        title: If it gets repeated whilst the paint hasn't worn off...
+
+    - type: tree
+      content:
+        - name: "[Player]: \"I kinda don't like this color\""
+          children:
+            - name: "[Player]: \"too bad lol\""
+
+    - type: section
+      content:
+        title: If the color wears off...
+
+    - type: tree
+      content:
+        - name: "Variant 1: \"Huh, looks like the paint finally wore away.\""
+        - name: "Variant 2: \"Awh, the paint wore off.\""
+
+    - type: section
+      content:
+        title: If it's done in a private server...
+
+    - type: tree
+      content:
+        - name: "[Player]: \"Hey, wanna change the bus color?\""
+          children:
+            - name: "[Player]: \"I think we'd have to let the owner handle that.. this is a private bus, after all.\""
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: If the event occurs on a private server, it'll instead mention about the server owner changing it themselves, this is to prevent getting the Colorful Chaos so easily. <small>(and it prevents it from recoloring what the server owner may have already recolored)</small>
+
+    - type: section
+      content:
+        title: Technical Trivia
+
+    - type: tree
+      content:
+        - name: If one tries to copy a part of the Bus using <a href='/bussim/items/edit'>Edit</a> while the paint is still wearing off, it'll retain that color and is also given another coat on top of the previous paint during another Repaint.
+          children:
+            - name: "Similarly, parts of the Bus that are colored manually will be the new default color, with paints only being layered on top of it. This can be seen outside of using Edit by doing the event during Halloween."
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/repaint2.webp
+          
