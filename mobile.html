@@ -107,20 +107,19 @@
                     document.addEventListener('click', function (event) {
                         const searchScreen = document.getElementById('searchScreen');
                         const searchBar = document.getElementById('searchBar');
-                        const isClickInsideSearchScreen = searchScreen.contains(event.target);
-                        const isClickInsideSearchBar = searchBar.contains(event.target);
+                        const isSearchScreen = searchScreen.contains(event.target);
+                        const isSearchBar = searchBar.contains(event.target);
 
-                        if (!isClickInsideSearchScreen && !isClickInsideSearchBar) {
+                        if (!isSearchScreen && !isSearchBar) {
                             searchScreen.style.bottom = '-500px';
                         }
                     });
                     
                     let typingTimer;
-                    const doneTypingInterval = 500;
                 
                     document.getElementById('searchBar').addEventListener('input', function() {
                         clearTimeout(typingTimer);
-                        typingTimer = setTimeout(doneTyping, doneTypingInterval);
+                        typingTimer = setTimeout(doneTyping, 250);
                     });
                 
                     function doneTyping() {
