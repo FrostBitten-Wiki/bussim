@@ -16,10 +16,7 @@ html:
     - type: section
       content:
         title: Info
-
-    - type: text
-      content:
-        text: >- 
+        description: >- 
           The Gandalf event is a reference to <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)">The Lord of the Rings</a>, 
           where Gandalf stops the bus while yelling "YOU SHALL NOT PASS!"
 

@@ -21,10 +21,7 @@ html:
     - type: section
       content:
         title: Info
-
-    - type: text
-      content:
-        text: >- 
+        description: >- 
           The Goat Station is a rare event similar to the Backwalls, 
           and the event lasts for around 9 minutes.
 

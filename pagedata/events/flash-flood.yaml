@@ -16,10 +16,7 @@ html:
     - type: section
       content:
         title: Info
-
-    - type: text
-      content:
-        text: >- 
+        description: >- 
           The Flash Flood or just simply called Flood, 
           is an event where the bus becomes flooded slowly until it reaches the third floor. 
           Players will have to swim by holding Q and seek high ground before they drown, 

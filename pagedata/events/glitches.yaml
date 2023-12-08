@@ -16,10 +16,7 @@ html:
     - type: section
       content:
         title: Info
-
-    - type: text
-      content:
-        text: >- 
+        description: >- 
           The Glitches Event is an event that slowly starts changing biomes, 
           and gets faster per biome change. 
           The event goes through every biome in the game, 
