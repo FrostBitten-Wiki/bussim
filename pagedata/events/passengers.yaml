@@ -39,7 +39,8 @@ html:
     - type: tree
       content:
         - name: The stop is the same stop in the Bus Stop Distraction Event, although players can easily realize the difference by how there's now passengers.
-        - name: The total runtime of the event is 28 seconds, having a similar runtime to the <a href='/bussim/events/timmy/>Timmy</a> event.
+        - name: The total runtime of the event is 28 seconds, having a similar runtime to the <a href='/bussim/events/timmy'/>Timmy</a> event.
+
     - type: gallery
       content:
         images:
