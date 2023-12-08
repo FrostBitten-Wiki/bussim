@@ -48,9 +48,9 @@
     </head>
 
     <body>
-        <div style="background-color: #100996; position: fixed; bottom: 0; height: 53px; width: 100%;">
+        <div style="background-color: #100996; position: fixed; bottom: 0; height: 53px; width: 100%; z-index: 5;">
             <div class="sidebar sidebarMenu" id="mainMenu" style="display: flex; position: absolute; top: 0; left: 0; flex-direction: row;">
-                <button>
+                <button onclick="location.href='/bussim'">
                     <img src="/assets/home.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Home</text>
                 </button>
@@ -350,6 +350,31 @@
                 <div id="speakerImage" class="dialogue" style="object-fit: cover; transform: scale(37.1%, 37.1%); -moz-transform: scale(37.1%, 37.1%);  position: absolute; bottom: -123px; right: -140px;"></div>
             </div>
         </div>
+        
+        <script>
+            if (typeof document.hidden !== "undefined") {
+                var hidden = "hidden";
+                var visibilityChange = "visibilitychange";
+            } else if (typeof document.msHidden !== "undefined") {
+                var hidden = "msHidden";
+                var visibilityChange = "msvisibilitychange";
+            } else if (typeof document.webkitHidden !== "undefined") {
+                var hidden = "webkitHidden";
+                var visibilityChange = "webkitvisibilitychange";
+            }
+        
+            function dialogueHandler() {
+                if (document[hidden]) {
+                    dialogueRunning = true;
+                    console.log("The DialogueSystem is now being prevented to start any dialogues.")
+                } else {
+                    dialogueRunning = false;
+                    console.log("The DialogueSystem Script is now Active.")
+                }
+            }
+        
+            document.addEventListener(visibilityChange, dialogueHandler, false);
+        </script>
 
         <script src="/bussim-assets/scripts/dialogueSystem.js" defer></script>
     </body>
