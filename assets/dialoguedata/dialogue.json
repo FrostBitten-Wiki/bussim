@@ -306,7 +306,7 @@
             ]
     },
         "polyframex001": {
-            "rarity": 100,
+            "rarity": 5,
             "dialogue": [
                 [6000, "PolyframeX", "", "Can somebody tell me why everytime I try leaving this bus, I just end up back here?"],
                 [6000, "PolyframeX", "", "I've been here for like months now."],
