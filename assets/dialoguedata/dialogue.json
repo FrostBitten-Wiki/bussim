@@ -193,7 +193,7 @@
         "tazer001a": {
             "rarity": 100,
             "dialogue": [
-                [3000, "Tazer", "point", "Did you know?"],
+                [2000, "Tazer", "point", "Did you know?"],
                 [4000, "Tazer", "default", "You can drift with the <highlight>Mini Bus</highlight> by holding the <highlight>SPACE</highlight> key!"]
             ]
         },
@@ -208,6 +208,13 @@
                 [4000, "Tazer", "sweat", "Hey! Don't call me out like that!"]
             ]
         },
+
+        "tazer002": {
+            "rarity": 100,
+            "dialogue": [
+                [2000, "Tazer", "point", "Did you know?"],
+            ]
+        }
 
 
         
