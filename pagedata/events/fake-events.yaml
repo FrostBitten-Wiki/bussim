@@ -1,0 +1,56 @@
+page:
+  title: Fake Events
+  description: The Fake Bus Stop event is an event where the bus driver distracts players by acting like they made it to the bus stop,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Fake Events
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Fake Events
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Stop/FakeNoGas</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+
+  pageContent:
+    - type: section
+      content:
+        title: Info
+
+    - type: section
+      content:
+        title: Fake Bus Stop
+        description: >- 
+          The Fake Bus Stop event is an event where the bus driver distracts players by acting like they made it to the bus stop, 
+          and then drives off, 
+          making players respawn on the bus. 
+          The event has a similar appearance to the <a href='/bussim/events/passengers'>Passengers</a> event, 
+          where it also stops at a bus stop, 
+          but it has no passengers waiting for the bus.
+
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: The event runtime is only 15 seconds, making it the shortest event in the game (if you don't include the <a href='/bussim/events/backwalls'>Backwalls</a> event's 12-second or server shutdown runtime).
+
+    - type: section
+      content:
+        title: Fake No Gas
+        description: >-
+         The Fake No Gas event is an event where the bus stops, 
+         and the driver acts like they're out of gas. 
+         Shortly afterwards, 
+         pranking the passengers once again, 
+         acting as a sequel to the Fake Bus Stop event.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: The event runtime is only 20 seconds, making it one of the shortest events in the game.
