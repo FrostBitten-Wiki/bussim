@@ -9,6 +9,8 @@ page:
   description: PageDescription
   # This value changes the Page's Keywords to be able to be searched on any Search Engines.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  # This value is used for the Wiki Server's search function. Recommended only for non-ignored YAML files.
+  #tags: some, tags, here
 
 # This attribute handles the attribution (or credits) for the page.
 # This should only contain the following:
@@ -16,9 +18,12 @@ page:
 # <something> by <owner> (if you are crediting someone with their work, who is not contributing here)
 # Ported to Fandom by <editor> (mostly used when a page is being ported from fandom to this wiki)
 
+# Double Quotes (") is not required.
+
 # If the page you have has none of the following, you can leave it empty by setting the value to "[]", like so:
 # attributions: []
 
+# If it does have one, it should be like this:
 attributions:
   - Something Contributed by Nyx (@nyxical)
 
@@ -140,8 +145,21 @@ html:
           - /bussim-assets/images/banner.jpg
           - /bussim-assets/images/banner.jpg
 
-    # This adds an interactable dialogue to emulate talking to an NPC. This is currently not done.
+    # This adds an interactable dialogue to emulate talking to an NPC. This currently has no purpose.
     - type: npcChat
       content:
         converstationTree: {}
+
+    # This adds buttons to the content.
+    - type: buttons
+      content:
+        buttons:
+          - ["?", "Title", "/bussim/home"]
+          - ["?", "Title", "/bussim/home"]
+          - ["?", "Title", "/bussim/home"]
+          - ["?", "Title", "/bussim/home"]
+          - ["?", "Title", "/bussim/home"]
+          - ["?", "Title", "/bussim/home"]
+
+
 

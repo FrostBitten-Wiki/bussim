@@ -283,6 +283,14 @@
             ]
         },
 
+        "zeon008c": {
+            "rarity": 100,
+            "dialogue": [
+                [1000, "Zeon", "point", "My dialogue <highlight>michael</highlight> is related to both the cat and a zombie-horde survival game based off of said cat meme!"],
+                [3000, "Zeon", "close", "michael"]
+            ]
+        },
+
         "zeon009": {
             "rarity": 100,
             "dialogue": [
