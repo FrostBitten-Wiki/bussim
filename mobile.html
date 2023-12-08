@@ -53,6 +53,7 @@
                 position: fixed;
                 height: 500px; width: 100vw;
                 background: #10099680;
+                backdrop-filter: blur(5px);
 
                 transition: bottom 1s;
             }
@@ -146,8 +147,8 @@
                             const element = document.createElement('div');
                             element.innerHTML = `
                             <div style="background-color: #16116d; padding: 5px; margin-bottom: 5px; cursor: pointer;" onclick="location.href='${item.path}'">
-                                <text>${item.origName}</text><br>
-                                <text style="font-size: 10px;">${item.path}</text>
+                                <text>${item.name}</text><br>
+                                <text style="font-size: 10px;">${item.description}</text>
                             </div>
                             `;
                             resultContainer.appendChild(element);
