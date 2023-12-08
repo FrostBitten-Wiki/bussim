@@ -1,0 +1,37 @@
+page:
+  title: Shack
+  description: The Shack is an event in Bus Simulator, where the Bus stops at an abandoned shack,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Shack
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Shack
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Shack</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/shack2.webp
+
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >- 
+          The Shack is an event in Bus Simulator, 
+          where the Bus stops at an abandoned shack, 
+          within the shack contains a <A href='/bussim/items/fake-rocket-launcher'>Fake Rocket Launcher</a> that will explode the holder on use. 
+          Soon after the driver mentions their unease and promptly leaves the shack, 
+          ending the event.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: The event has a runtime of exactly 1 minute (60 seconds). This amount of runtime is similar to both the <a href='/bussim/events/bacon-hair'>Bacon Hair</a> and <a href='/bussim/events/glitches'>Glitches</a> events.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/shack2.webp
+          
