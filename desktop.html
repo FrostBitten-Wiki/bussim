@@ -48,15 +48,12 @@
     </head>
 
     <body>
-        <div id="searchScreen" style="transition: top 1s; position: fixed; background-color: #10099680; backdrop-filter: blur(5px); top: 100vh; width: 100%; height: calc(100% - 55px);">
+        <div id="searchScreen" style="transition: top 1s; position: fixed; background-color: #10099680; backdrop-filter: blur(5px); top: 100vh; width: 100%; height: calc(100% - 55px);" onclick="document.getElementById('searchScreen').style.top = '100vh'">
             <div style="margin-top: 50px; margin-left: 10vw; margin-right: 10vw;">
                 <text style="font-size: 35px;">Search Results</text>
 
                 <div id="results">
-                    <div style="background-color: #10099680; padding: 5px;">
-                        <text>Result Title</text><br>
-                        <text style="font-size: 10px;">path</text>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -78,7 +75,7 @@
                     <text type="hoverText">Other Stuff</text>
                 </button>
 
-                <input id="searchBar" placeholder="Search" onfocus="document.getElementById('searchScreen').style.top = '0'" onfocusout="document.getElementById('searchScreen').style.top = '100vh'">
+                <input id="searchBar" placeholder="Search" onfocus="document.getElementById('searchScreen').style.top = '0'">
                 <script>
                     let typingTimer;
                     const doneTypingInterval = 500;  // 1000 milliseconds (1 second)
@@ -97,10 +94,26 @@
                             return response.json();
                         })
                         .then(data => {
-                            console.log(data);
+                            createElements(data);
                         })
                         .catch(error => {
                             console.error('Fetch error:', error);
+                        });
+                    }
+
+                    function createElements(data) {
+                        const resultContainer = document.getElementById('results');
+                        
+                        resultContainer.innerHTML = '';
+                        data.forEach(item => {
+                            const element = document.createElement('div');
+                            element.innerHTML = `
+                            <div style="background-color: #10099680; padding: 5px; margin-bottom: 5px; cursor: point;" onclick="location.href='/${item.path}'">
+                                <text>${item.name}</text><br>
+                                <text style="font-size: 10px;">${item.path}</text>
+                            </div>
+                            `;
+                            resultContainer.appendChild(element);
                         });
                     }
                   </script>
