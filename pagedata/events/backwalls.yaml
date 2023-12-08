@@ -8,7 +8,7 @@ html:
   header:
     title: Backwalls
     description: >-
-     Category: <a href="/bussim/events">Events,</a> <a href="/bussim/locations">Locations</a><br>Event Name: <highlight>Backwalls</highlight>
+     Category: <a href="/bussim/events">Events</a>, <a href="/bussim/locations">Locations</a><br>Event Name: <highlight>Backwalls</highlight>
     image: ''
     imageBanner: /bussim-assets/images/locations/backwalls.webp
 

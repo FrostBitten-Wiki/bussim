@@ -1,8 +1,8 @@
 {
     "files": [
-        "placeholder.yaml",
-        "contributors.yaml",
-        "mockup.yaml",
-        "home.yaml"
+        "pagedata/placeholder.yaml",
+        "pagedata/contributors.yaml",
+        "pagedata/mockup.yaml",
+        "pagedata/home.yaml"
     ]
 }

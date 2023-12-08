@@ -41,7 +41,6 @@ html:
     
     - type: table
       content:
-        columnSpacing: .7fr 1fr 1fr
         imageSize: 128   128
         widthSize: 100
         titles:

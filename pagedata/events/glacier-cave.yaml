@@ -8,7 +8,7 @@ html:
   header:
     title: Glacier Cave
     description: >-
-     Category: <a href="/bussim/events">Events, </a> <a href="/bussim/locations">Locations</a><br>Event Name: <highlight>GlacierCave</highlight>
+     Category: <a href="/bussim/events">Events</a>, <a href="/bussim/locations">Locations</a><br>Event Name: <highlight>GlacierCave</highlight>
     image: ''
     imageBanner: /bussim-assets/images/locations/glacier-cave.webp
 
