@@ -238,16 +238,6 @@
         },
 
         "zeon004": {
-            "rarity": 0,
-            "dialogue": [
-                [2000, "Zeon", "default", "Wait..."],
-                [3000, "Zeon", "close", "You seem familiar..."],
-                [3000, "Zeon", "point", "Didn't you give me my favorite drink before?"],
-                [3000, "Zeon", "shock", "That was kind of you...!"]
-            ]
-        },
-
-        "zeon005": {
             "rarity": 100,
             "dialogue": [
                 [3000, "Zeon", "point", "I heard a cat sells some knitted sweaters!"],
@@ -255,14 +245,14 @@
             ]
         },
 
-        "zeon006": {
+        "zeon005": {
             "rarity": 100,
             "dialogue": [
                 [3000, "Zeon", "point", "Remember to support local businesses!"]
             ]
         },
 
-        "zeon007": {
+        "zeon006": {
             "rarity": 100,
             "dialogue": [
                 [3000, "Zeon", "point", "You can survive the Flash Flood by eating some quick-healing items!"],
@@ -270,7 +260,7 @@
             ]
         },
 
-        "zeon008": {
+        "zeon007": {
             "rarity": 100,
             "dialogue": [
                 [3000, "Zeon", "point", "Don't forget!"],
@@ -278,14 +268,14 @@
             ]
         },
 
-        "zeon009a": {
+        "zeon008a": {
             "rarity": 100,
             "dialogue": [
                 [3000, "Zeon", "point", "My dialogue <highlight>michael</highlight> is related to both the cat and a zombie-horde survival game based off of said cat meme!"]
             ]
         },
 
-        "zeon009b": {
+        "zeon008b": {
             "rarity": 100,
             "dialogue": [
                 [3000, "Zeon", "point", "My dialogue <highlight>michael</highlight> is related to both the cat and a zombie-horde survival game based off of said cat meme!"],
@@ -293,14 +283,14 @@
             ]
         },
 
-        "zeon010": {
+        "zeon009": {
             "rarity": 100,
             "dialogue": [
                 [3000, "Zeon", "close", "king my beloved"]
             ]
         },
 
-        "zeon011": {
+        "zeon010": {
             "rarity": 100,
             "dialogue": [
                 [3000, "Zeon", "point", "Hey, if you see somebody in a dumpster behind the gas station..."],
@@ -309,7 +299,7 @@
             ]
         },
 
-        "zeon012": {
+        "zeon011": {
             "rarity": 100,
             "dialogue": [
                 [3000, "Zeon", "close", "michael"]
