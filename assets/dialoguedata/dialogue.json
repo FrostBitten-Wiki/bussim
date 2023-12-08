@@ -208,15 +208,6 @@
                 [4000, "Tazer", "sweat", "Hey! Don't call me out like that!"]
             ]
         },
-
-        "tazer002": {
-            "rarity": 100,
-            "dialogue": [
-                [2000, "Tazer", "point", "Did you know?"],
-            ]
-        }
-
-
         
         "zeon001": {
             "rarity": 100,
