@@ -298,19 +298,19 @@
                         {% elif data['type'] == "section" %}
                             {% set size = data["content"]["size"] | default("normal") %}
                             {% if size == "large" %}
-                                <div style="margin-top: 20px; margin-bottom: 35px;" id="{{ variable_name | lower | replace(' ', '-') }}">
+                                <div style="margin-top: 20px; margin-bottom: 35px;" id="{{ data['content']['title'] | lower | replace(' ', '-') }}">
                                     <text style="font-size: 25px;">{{ data['content']['title'] }}</text>
                                     <div style="width: 100%; height: 1px; background-color: white; margin-top: 2px; margin-bottom: 5px; box-shadow: 0 2px 0 #000000;"></div>
                                     <text>{{ data['content']['description'] }}</text>
                                 </div>
                             {% elif size == "normal" %}
-                                <div style="margin-top: 20px; margin-bottom: 35px;" id="{{ variable_name | lower | replace(' ', '-') }}">
+                                <div style="margin-top: 20px; margin-bottom: 35px;" id="{{ data['content']['title'] | lower | replace(' ', '-') }}">
                                     <text style="font-size: 25px;">{{ data['content']['title'] }}</text>
                                     <div style="width: 100%; height: 1px; background-color: white; margin-top: 2px; margin-bottom: 5px; box-shadow: 0 2px 0 #000000;"></div>
                                     <text>{{ data['content']['description'] }}</text>
                                 </div>
                             {% elif size == "small" %}
-                                <div style="margin-top: 20px; margin-bottom: 35px;" id="{{ variable_name | lower | replace(' ', '-') }}">
+                                <div style="margin-top: 20px; margin-bottom: 35px;" id="{{ data['content']['title'] | lower | replace(' ', '-') }}">
                                     <text style="font-size: 25px;">{{ data['content']['title'] }}</text>
                                     <text>{{ data['content']['description'] }}</text>
                                 </div>
