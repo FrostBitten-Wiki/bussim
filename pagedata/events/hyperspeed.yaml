@@ -1,0 +1,44 @@
+page:
+  title: Hyperspeed
+  description: The Hyperspeed event is an event that causes the bus to suddenly speed up,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, HyperSpeed
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Hyperspeed
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>HyperSpeed</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/hyperspeed.webp
+
+  pageContent:
+    - type: section
+      content:
+        title: Info
+
+    - type: text
+      content:
+        text: >- 
+          The Hyperspeed event is an event that causes the bus to suddenly speed up, 
+          and a yellow trail is emitted from the tires. 
+          As well as this, 
+          a portion of the instrumental of <a href="https://www.youtube.com/watch?v=BJ0xBCwkg3E&ab_channel=JoeDutchCoast">Running in the 90's</a> by Max Coveri plays during the event.
+
+
+
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: This is one of the events that causes the bus to speed up.
+        - name: This is one of the few events that plays music during the entire event.
+        - name: The event runtime is 25 seconds, making it one of the shortest events in the game.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/hyperspeed.webp
