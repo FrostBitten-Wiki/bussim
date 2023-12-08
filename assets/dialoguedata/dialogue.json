@@ -304,7 +304,15 @@
             "dialogue": [
                 [3000, "Zeon", "close", "michael"]
             ]
-        }
+    },
+        "polyframex001": {
+            "rarity": 100,
+            "dialogue": [
+                [6000, "PolyframeX", "", "Can somebody tell me why everytime I try leaving this bus, I just end up back here?"],
+                [6000, "PolyframeX", "", "I've been here for like months now."],
+                [6000, "PolyframeX", "", "How have we not ran out of food yet?"]
+        ]
+     }
     },
 
     "characterData": {
@@ -392,6 +400,11 @@
             "dialogueSfx": "ouch",
             "dialogueColors": ["#142052", "black", "blue"],
             "dialogueEmoteName": "fang"
+        },
+        "PolyframeX": {
+            "dialogueSfx": "elecping",
+            "dialogueColors": ["#101010", "#0c0c0c","#202020"],
+            "dialogueEmoteName": "polyframex"
         }
     },
 
