@@ -1,0 +1,62 @@
+page:
+  title: Bacon Hair
+  description: Bacon Hair Event is an event that happens in the game.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Bacon Hair
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Bacon Hair
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>BaconHair</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/bacon1.webp
+
+  pageContent:
+
+    - type: section
+      content:
+        title: Info
+        description: >-
+         Bacon Hair Event is an event that happens in the game. 
+         When this event happens, 
+         The bus stops and Bacon hairs are seen all over the bus. 
+         The Bacon hairs will follow anyone that is outside and also follows them. 
+         They can come inside the bus if the person that is chased by bacon hairs runs inside the bus, 
+         there is a chance they will come inside. 
+         They can kill anyone that is outside of the bus or if it touches a player. 
+         An Unknown man's voice can be heard in the bus speaker saying, 
+         "Bacon hair lives matter". 
+         Soon afterwards, 
+         the driver will then inform all players to evacuate to the bus now. 
+         Then, 
+         the driver will speed away from the Bacon Hairs.
+
+         <br><br>
+
+         For maximum safety, 
+         do not be on the first floor. 
+         It's best not to go outside, 
+         nor open the bus door as one might get in and kill everyone on the first floor who touches it, 
+         but everyone on a floor higher is safe. 
+         However, 
+         If you are outside when the bus is about to speed away, 
+         run to it and try to sit inside or wait, 
+         as the bus will hopefully respawn you back inside.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: This is one of the events that stops the bus.
+        - name: The bacon hair event is one of the few events that have NPCs.
+        - name: It is one of the few events that causes the bus to speed up.
+        - name: There's more peaceful Bacon Hair NPCs than harmful ones, meaning if you go further out, you will not be attacked by them.
+        - name: The event runtime is 1 minute and 4 seconds, making it the exact same runtime as the <a href='/bussim/events/glitches'>Glitches</a> event and really similar to the <a href='/bussim/events/cubes'>Cubes</a> event.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/bacon1.webp
+          - /bussim-assets/images/events/bacon2.webp

@@ -1,0 +1,92 @@
+page:
+  title: Blizzard
+  description: The Blizzard is an event that can happen every 5 minutes and affects everywhere in the game until you go extremely high.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Blizzard
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Blizzard
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Blizzard</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/blizzard2.webp
+
+  pageContent:
+
+    - type: section
+      content:
+        title: Info
+        description: >-
+         The Blizzard is an event that can happen every 5 minutes and affects everywhere in the game until you go extremely high.
+
+         <br><br>
+
+         During the event, 
+         players would notice a blizzard forming as the biome forcibly changes to <a href='/bussim/biomes/snowy'>Snowy</a> then  <a href='/bussim/biomes/frozen'>Frozen</a>, 
+         and would have to start huddling in order to prevent taking damage. 
+         The damage can vary based on where you are, 
+         with the most exposure dealing the most damage such as <a href='/bussim/locations/beter-box'>Beter Box</a> or the third floor on <a href='/bussim/locations/the-bus'>The Bus</a>, 
+         to the least exposure dealing minimal damage like the first floor. 
+         This then decreases afterwards at some point in the event.
+
+         <br><br>
+
+         The event ends after a few minutes, 
+         changing the biome back to Snowy and the biome will last until the Bus goes through a tunnel.
+
+    - type: section
+      content:
+        title: Dialogue
+
+    - type: tree
+      content:
+        - name: "[Player]: \"It's a bit chilly right now..\""
+          children:
+            - name: "[Player]: \"You're right. In fact it is getting TOO cold...\""
+              children:
+                - name: "[Player]: \"Guys, I think we're going straight into..\""
+                  children:
+                    - name: "Everyone: \"A BLIZZARD!!!\""
+                      children:
+                        - name: "[Player]: \"Everyone get inside and huddle for warmth!\""
+                          children:
+                            - name: "After some time has passed..."
+                              children:
+                                - name: "[Player]: \"Finally, the blizzard is calming down.\""
+                                  children:
+                                    - name: "After even more time has passed..."
+                                      children:
+                                        - name: "You: \"We made it!\""
+
+    - type: section
+      content:
+        title: Tips
+
+    - type: tree
+      content:
+        - name: One of the many ways to survive this event is to huddle up with other players based off of the dialogue, with each player nearby reducing the damage taken. If you are alone, you can instead huddle up with <a href='/bussim/npcs/pear'>Pear</a> to completely be immune to the blizzard,
+          children:
+            - name: This becomes ineffective if you are in more exposed areas however.
+        - name: Another way to survive would be to stay in areas like <a href='/bussim/events/glacier-cave'>Glacier Cave</a> or if necessary, the <a href='/bussim/events/backwalls'>Backwalls</a> as both will prevent you from taking damage.
+        - name: Healing items are your best friend namely being drinks, use them as much as you can to heal from the damage taken such as <a href='/bussim/items/cola'>Cola</a, <a href='/bussim/items/coffee'>Coffee</a>, and much more.
+          children:
+            - name: If you want to maximize healing efficiency, you can swap items while being used to increase your healing speed.
+        - name: Lastly, if you have the Ragdoll Gamepass you will be able to <a href='/bussim/others/commands'>Ragdoll</a> to be completely immune regardless of how much your surroundings are exposed.
+          children:
+            - name: This is very much unintentional, however it is an effective way to be immune to other events like <a href='/bussim/events/acid-rain'>Acid Rain</a>, <a href='/bussim/events/lava-floor'>Lava Floor</a>, etc.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: This event can forcibly change the biome, at the start of the event it shifts from <a href='/bussim/biomes/snowy'>Snowy</a> to <a href='/bussim/biomes/frozen'>Frozen</a>, then after the event it changes back to <a href='/bussim/biomes/snowy'>Snowy</a>.
+        - name: It is possible to heal more than take damage if you are completely exposed during the peak of the event by using more than 3 effective healing items.
+        - name: The wind sound that plays is similar of that to Natural Disaster Survival's wind sound effects, with similar mechanics as well.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/blizzard2.webp
+          - /bussim-assets/images/events/blizzard1.webp

@@ -153,14 +153,14 @@ html:
           !color - Changes the color of your <a href="/bussim/items/mini-bus">Mini-Bus</a> and <a href="/bussim/items/diy-mini-bus">D.I.Y. Mini-Bus'</a>, 
           largely changing the main parts of the bus.
 
-          <br><br>
+    - type: tree
+      content:
+        - name: 'For those with the <text style="color: #e1a200;"><b>[OG Driver]</b></text> rank, the Mini-Bus will also glow alongside the color chosen.'
+        - name: 'And those who have the <text style="color: #f43f08;"><b>[Contributor]</b></text> rank will also have their Mini-Bus sparkle.'
 
-          * For those with the <highlight>OG Driver</highlight> rank, the Mini-Bus will also glow alongside the color chosen.
-          <br>
-          * And those who have the <highlight>Contributor</highlight> rank will also have their Mini-Bus sparkle.
-
-          <br><br>
-
+    - type: text
+      content:
+        text: >-
           Do note however that the color changes applied to the <a href="/bussim/items/diy-mini-bus">D.I.Y. Mini-Bus</a> are only in Bus Simulator, 
           and will be a simple navy blue color in all other games on Roblox.
 

@@ -1,0 +1,51 @@
+page:
+  title: Cubes
+  description: During the event Cubes, cubes move all around the bus,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Cubes
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Cubes
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Cubes</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/cubes2.webp
+
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >-
+         Cubes is an event that, 
+         like other events, 
+         has a chance of happening every 5 minutes.
+
+         <br><br>
+
+         During the event Cubes, 
+         cubes move all around the bus, 
+         playing many xylophone notes. 
+         After some time, 
+         the driver announces they've convinced the cubes to go back to Nintendo Land. 
+         A few moments after that, 
+         the event ends.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: This event is an obvious reference to the Nintendo GameCube startup sequence.
+        - name: Perhaps another, unintentional reference, the "Nintendo Land" that the cubes return to is the same name as a Wii U launch title.
+        - name: Sometimes a cube can make a sound that goes "Boom! Fricko!"
+          children:
+            - name: It comes from the game <a href='https://www.roblox.com/games/2081092459/Boom-and-Fricko'>Boom and Fricko</a>.
+        - name: The runtime of this event is 1 minute and 5 seconds, making it a really similar runtime to both the <a href='/bussim/events/bacon-hair'>Bacon Hair</a> and <a href='/bussim/events/glitches'>Glitches</a> events.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/cubes2.webp
+          - /bussim-assets/images/events/cubes1.webp
