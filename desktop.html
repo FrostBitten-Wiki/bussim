@@ -48,8 +48,33 @@
     </head>
 
     <body>
-        <div id="searchScreen" style="transition: top 1s; position: fixed; background-color: #10099680; backdrop-filter: blur(5px); top: 100vh; width: 100%; height: calc(100% - 55px);" onclick="document.getElementById('searchScreen').style.top = '100vh'">
-            <div style="transition: margin 500ms; margin-top: 50px; margin-left: 10vw; margin-right: 10vw;">
+        <style>
+            #searchScreen {
+                position: fixed;
+                height: 500px; width: 100vw;
+                background: #10099680;
+
+                transition: bottom 1s;
+            }
+
+            #results {
+                height: 435px;
+                overflow: auto;
+                scrollbar-width: thin;
+                scrollbar-color: transparent transparent;
+            }
+
+            #results::-webkit-scrollbar {
+                width: 6px;
+            }
+
+            #results::-webkit-scrollbar-thumb {
+                background-color: transparent;
+            }
+        </style>
+        
+        <div id="searchScreen" style="bottom: 55px;">
+            <div style="transition: margin 500ms; margin-top: 30px; margin-left: 10vw; margin-right: 10vw; box-sizing: border-box;">
                 <text style="font-size: 35px;">Search Results</text>
 
                 <div id="results">
@@ -75,10 +100,22 @@
                     <text type="hoverText">Other Stuff</text>
                 </button>
 
-                <input id="searchBar" placeholder="Search" onfocus="document.getElementById('searchScreen').style.top = '0'">
+                <input id="searchBar" placeholder="Search" onclick="document.getElementById('searchScreen').style.bottom = '55px'">
+
                 <script>
+                    document.addEventListener('click', function (event) {
+                        const searchScreen = document.getElementById('searchScreen');
+                        const searchBar = document.getElementById('searchBar');
+                        const isClickInsideSearchScreen = searchScreen.contains(event.target);
+                        const isClickInsideSearchBar = searchBar.contains(event.target);
+
+                        if (!isClickInsideSearchScreen && !isClickInsideSearchBar) {
+                            searchScreen.style.bottom = '-500px';
+                        }
+                    });
+                    
                     let typingTimer;
-                    const doneTypingInterval = 500;  // 1000 milliseconds (1 second)
+                    const doneTypingInterval = 500;
                 
                     document.getElementById('searchBar').addEventListener('input', function() {
                         clearTimeout(typingTimer);
@@ -86,7 +123,7 @@
                     });
                 
                     function doneTyping() {
-                        fetch(`/bussim-search/${document.getElementById('searchBar').value}`)
+                        fetch(`https://wiki.wolfdo.gg/bussim-search/${document.getElementById('searchBar').value}`)
                         .then(response => {
                             if (!response.ok) {
                               throw new Error(`HTTP error! Status: ${response.status}`);
@@ -108,8 +145,8 @@
                         data.forEach(item => {
                             const element = document.createElement('div');
                             element.innerHTML = `
-                            <div style="background-color: #10099680; padding: 5px; margin-bottom: 5px; cursor: point;" onclick="location.href='/${item.path}'">
-                                <text>${item.name}</text><br>
+                            <div style="background-color: #16116d; padding: 5px; margin-bottom: 5px; cursor: pointer;" onclick="location.href='${item.path}'">
+                                <text>${item.origName}</text><br>
                                 <text style="font-size: 10px;">${item.path}</text>
                             </div>
                             `;

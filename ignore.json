@@ -2,6 +2,7 @@
     "files": [
         "placeholder.yaml",
         "contributors.yaml",
-        "mockup.yaml"
+        "mockup.yaml",
+        "home.yaml"
     ]
 }
