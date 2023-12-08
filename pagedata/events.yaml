@@ -303,7 +303,7 @@ html:
               The Pain Ball is a short, but very loud event where a ball will be slammed into the windshield,
               causing screams of pain in the process. Eventually after a while of screaming,
               the driver finds a way to wipe it off of the windshield, and it succeeds, ending the event.
-            listItemRedirect: /bussim/events/pain ball
+            listItemRedirect: /bussim/events/pain-ball
           
           - listItemImage: /bussim-assets/images/events/passengers2.webp
             listItemTitle: Passengers
