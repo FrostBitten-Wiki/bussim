@@ -1,0 +1,70 @@
+page:
+  title: Santas Gone
+  description: Santa's Gone was a limited time event that came before the No Dough event,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Santas Gone
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Santas Gone
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>SantasGone</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/santasgone1.webp
+
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >- 
+          Santa's Gone was a limited time event that came before the <a href='/bussim/events/no-dough'>No Dough</a> event, 
+          which was a limited time event in December 2021 and 2022.
+
+          <br><br>
+
+          The event works the same way as No Dough, 
+          but has a different story. 
+          Instead of running low on gas, 
+          the driver runs over Santa and his reindeer after speeding up, 
+          and now the passengers take role in finishing the job for him, 
+          which is to put the presents under the tree, 
+          and escape unnoticed.
+
+          <br><br>
+
+          There were badges you could obtain during the event, 
+          Master Escapee and The Bringer of Gifts, 
+          and they couldn't be farmed in a VIP Server.
+
+    - type: section
+      content:
+        title: Master Escapee
+        description: >- 
+          The Master Escapee badge could be obtained if you successfully escape the house ten times. 
+          It doesn't matter if you delivered the presents or not, 
+          just if you're able to escape. 
+          You could easily cheese it to get the badge simply by entering the house, 
+          and waiting for somebody else to deliver.
+
+    - type: section
+      content:
+        title: The Bringer of Gifts
+        description: >- 
+          The Bringer of Gifts badge could be obtained only during the Santa's Gone event, 
+          where it was the same as Master Escapee badge, 
+          but you had to participate in the event 20 times. 
+          Obtaining the badge also awards you with a Candied Cane as a permanent item.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: Santa's Gone was originally going to be removed completely at one point, but instead got changed to No Dough, the predecessor of Santa's Gone.
+        - name: It has been confirmed by Noble that during the 2022 Christmas, Santa's Gone would be enabled alongside No Dough, making these two events the only pair that are both similar and enabled throughout the 2022 Christmas.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/santasgone1.webp
+          
