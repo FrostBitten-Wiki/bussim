@@ -1,0 +1,456 @@
+page:
+  title: D6
+  description: D6 is an NPC in the GOAT Station event, as well as an artist.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, D6
+
+attributions:
+  - "Ported By PolyframeX"
+
+html:
+  header:
+    title: D6
+    description: >- 
+      Category: <a href="/bussim/npcs">NPCs</a>
+    image: ''
+    imageBanner: /bussim-assets/images/events/goat_station1.webp
+    
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >-
+         D6 is an NPC in the GOAT Station event, as well as an artist.
+
+    - type: section
+      content:
+        title: Appearance
+        description: >-
+          As of July 20th 2023, 
+          D6's design has been changed to one more complex, 
+          now having long black hair with what seems to be horns poking out of it, 
+          along with a maroon punk jacket, 
+          suspenders, 
+          and pauldrons. 
+          Their face appears to be completely obscured by shadow, 
+          with only one of their eyes visible.
+
+          <br><br>
+
+          Before this, 
+          D6 had a more simple design, 
+          with black arms and legs, 
+          yellow, 
+          torso, 
+          and a white head. 
+          He wore White Oni Horns,
+          Outrageous Builders Club Hard Hat, 
+          a White Kobold snout and frills, 
+          white fur, 
+          a White Lizard Tail, 
+          and the Hexxed symbol on his chest.
+
+    - type: section
+      content:
+        title: Dialogue
+
+    - type: tree
+      content:
+        - name: "Variant 1 : \"im d6\""
+        - name: "Variant 2 : \"you.\" <small>(If the player is on dSiiiiiix's friends list)</small>"
+        - name: "Variant 3 : \"man i could really go for some graham crackers right about now\" <small>(If the current day is Monday)</small>"
+        - name: "Variant 4 : \"and if youuuuuu cant believe it\" <small>(If the current day is Friday)</small>"
+        - name: "Variant 5 : \"i cant believe i had to drive all the way to work\" <small>(If the current day is Saturday)</small>"
+          children:
+            - name: "Option 1: Any wisdom for today?"
+              children:
+               - name: "Variant 1:"
+                 children:
+                    - name: "Variant 1A (PC):"
+                      children:
+                         - name: "\"give me the keyboard\""
+                           children:
+                              - name: "No Thanks"
+                    - name: "Variant 1B (Mobile):"
+                      children:
+                         - name: "\"give me your phone\""
+                           children:
+                              - name: "No Thanks"
+                    - name: "Variant 1C (Console):" 
+                      children:
+                         - name: "\"give me the controller\""
+                           children:
+                              - name: "No thanks."
+               - name: "Variant 2 <small>(if player has previously selected this option within the last 12 hours)</small>:"
+                 children:
+                    - name: "Variant 2A (default):"
+                      children:
+                         - name: "\"you've had enough wisdom for today. come back tomorrow\""
+                           children:
+                              - name: "Ok."
+                    - name: "Variant 2B <small>(if player has selected this option on a different account under the same device)</small>:"
+                      children:
+                         - name: "\"hey...\" \"you're not trying to use a different account to cheat the system are you\" \"for shame\" \"i'll still give you the wisdom though\""
+                           children:
+                              - name: "<small>(The dialogue then proceeds to a random variant outside of Variant 2)</small>"
+                    - name: "Variant 2C <small>(If the player has selected this option on yet another account under the same device, following Variant 2B)</small>:"
+                      children:
+                         - name: "\"hey there again\" \"you have multiple alts then huh\" \"that's cool i guess\""
+                           children:
+                              - name: "<small>(The dialogue then proceeds to a random variant outside of Variant 2)</small>"
+               - name: "Variant 3:"
+                 children:
+                    - name: "\"live to die\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 4:"
+                 children:
+                    - name: "\"if you come to a fork in the road, pick it up\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 5:"
+                 children:
+                    - name: "\"you are playing it wrong\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 6:"
+                 children:
+                    - name: "\"i did the art for the <a href='https://www.roblox.com/games/6728212466/Limbobbia?AssetId=6728212466'>limbobbia</a> tutorial. you should try it if you haven't\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 7:"
+                 children:
+                    - name: "Variant 7A <small>(if today is Thursday)</small>:"
+                      children:
+                         - name: "\"today is thursday.\""
+                           children:
+                              - name: "Ok."
+                    - name: "Variant 7B <small>(otherwise)</small>:"
+                      children:
+                         - name: "\"today is not thursday\""
+                           children:
+                              - name: "Ok."
+               - name: "Variant 8:"
+                 children:
+                    - name: "\"do not hesitate to defend yourself. you won't regret it\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 9:"
+                 children:
+                    - name: "\"support your local trash goblin\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 10:"
+                 children:
+                    - name: "\"thank Noble for doing all this; without it i would have no wisdom to share.\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 11:"
+                 children:
+                    - name: "\"i am sincerely sorry for your loss\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 12:"
+                 children:
+                    - name: "\"your lucky numbers for the day are [5 random 1-2 digit integers] and [random 1-2 digit integer]\""
+                      children:
+                         - name: Ok.
+               - name: "Variant 13:"
+                 children:
+                    - name: "\"nobody knows the troubles you've seen\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 14:"
+                 children:
+                    - name: "\"if you don't like the new roblox death sound, you can change it to whatever you want."
+                    - name: "open the file location of your RobloxPlayerLauncher.exe"
+                    - name: "go to content, then sounds. replace ouch.ogg with any .ogg file you want, rename it to ouch.ogg.\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 15:"
+                 children:
+                    - name: "\"you can adjust the game volume via the pause menu\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 16:"
+                 children:
+                    - name: "\"stand up for yourself\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 17:"
+                 children:
+                    - name: "\"we have done something wrong at one point"
+                    - name: "something we can never undo"
+                    - name: "and for this we are being punished"
+                    - name: "This is our eternity, our prison.\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 18:"
+                 children:
+                    - name: "\"he's going to betray you, you know.\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 19:"
+                 children:
+                    - name: "\"exploration can only lead to disappointment.\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 20:"
+                 children:
+                    - name: "\"the remains of our ancestors lie beneath our feet"
+                    - name: "sometimes i can still hear their voices"
+                    - name: "screaming"
+                    - name: "but sometimes its hard to hear them over my own screams.\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 21:"
+                 children:
+                    - name: "\"the end is never\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 22:"
+                 children:
+                    - name: "\"only a sinner\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 23:"
+                 children:
+                    - name: "\"also try lethal league blaze\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 24:"
+                 children:
+                    - name: "\"also try boneworks, if you have vr\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 25:"
+                 children:
+                    - name: "\"i can kill you in two different ways\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 26:"
+                 children:
+                    - name: "\"i can't tell you what the Tool does you have to figure it out yourself\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 27:"
+                 children:
+                    - name: "\"you will never be forgiven\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 28:"
+                 children:
+                    - name: "\"think for yourself\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 29:"
+                 children:
+                    - name: "\"believe in yourself\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 30:"
+                 children:
+                    - name: "\"question authority\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 31:"
+                 children:
+                    - name: "\"go outside\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 32:"
+                 children:
+                     - name: "\"don't leave the house today\""
+                       children:
+                         - name: "Ok."
+               - name: "Variant 33:"
+                 children:
+                    - name: "\"my brain hurts\""
+                      children:
+                         - name: "Ok."
+               - name: "Variant 34:"
+                 children:
+                    - name: "\"may your troubles be many\""
+                      children:
+                         - name: "Ok."
+            - name: "Option 2: Let's talk!"
+              children:
+                - name: "\"what\""
+                  children:
+                    - name: "Option 1: Why are you in a dumpster?"
+                      children:
+                        - name: "\"why havent you been flattened by a 2 ton slab of concrete\""
+                          children:
+                            - name: "<small>(A 2 ton slab of concrete falls from the sky and kills the player, unless under cover.)</small>"
+                    - name: "Option 2: Roll me a number."
+                      children:
+                        - name: "\"Why\""
+                          children:
+                            - name: "Option 1: Because you're a d6?"
+                              children:
+                                - name: "\"thats fair. [random number 1-6]\""
+                            - name: "Option 2: Nevermind."
+                              children:
+                                - name: "\"ok\""
+                    - name: "Option 3: Why are you so short?"
+                      children:
+                        - name: "\" \""
+                          children:
+                            - name: "<small>(The player then immediately explodes.)</small>"
+                    - name: "Option 4: What do you do?"
+                      children:
+                        - name: "\"im\""
+                        - name: "\"d6\""
+                          children:
+                            - name: "Yeah, but like what do you DO?"
+                              children:
+                                - name: "\"yeah how about you learn to listen the first time\""
+                                  children:
+                                  - name: "sorry"
+                                    children:
+                                    - name: "\"hi\""
+                    - name: "Option 5: Hi D6."
+                      children:
+                        - name: "Variant 1 <small>(first time selecting this option)</small>: \"hi\""
+                        - name: "Variant 2 <small>(otherwise)</small>: \"hey there again\""
+            - name: "Option 3: Nevermind."
+              children:
+                - name: "Variant 1: \"7577234764 Dont forget it. It's the only way out.\""
+                - name: "Variant 2: \"ok\""
+            - name: "Option 4: Tell me."
+              children:
+                - name: "\"ok\""
+                  children:
+                    - name: "Variant 1:"
+                      children:
+                        - name: "\"dude... GLAGGLELAND??????\""
+                          children:
+                            - name: "The rides:"
+                    - name: "Variant 2:"
+                      children:
+                        - name: "\"im d6\""
+                          children:
+                            - name: "You've made that clear, yes."
+                              children:
+                                - name: "\" \""
+                                  children:
+                                    - name: "<small>(The player then explodes.)</small>"
+                            - name: "you're d6"
+                              children:
+                                - name: "\"d6\""
+                    - name: "Variant 3:"
+                      children:
+                        - name: "\"if i hear that dumb smelly protogen mention ram one more time im gonna RAM a 2 ton block of concrete into their stupid face.\""
+                          children:
+                            - name: "O...kay?"
+                    - name: "Variant 4:"
+                      children:
+                        - name: "\"i'm not allowed in the store anymore since i keep shoplifting but if you see disc or green tell them i said hi and that im sorry and that it will happen again\""
+                          children:
+                            - name: "Ok."
+                    - name: "Variant 5:"
+                      children:
+                        - name: "\"lets talk about\""
+                        - name: "\"embalming fluid\""
+                          children:
+                            - name: "...Nevermind."
+                    - name: "Variant 6:"
+                      children:
+                        - name: "\"sometimes i feel the sudden urge to break into someone's house and talk about turtle skeletons from a specific video game franchise for hours.\""
+                          children:
+                            - name: "...That sounds oddly specific."
+                              children:
+                                - name: "\"say hi to zeon for me\""
+                    - name: "Variant 7:"
+                      children:
+                        - name: "\"Do not let it affect you in the moment. It is all ultimately meaningless. The passage of time spares none, has spared none, and will spare none. You are no exception.\""
+                          children:
+                            - name: "The rides:"
+                    - name: "Variant 8:"
+                      children:
+                        - name: "\"i think i could beat that cat on the bus in a fist fight\""
+                          children:
+                            - name: "That's mean."
+                    - name: "Variant 9:"
+                      children:
+                        - name: "\"hey so do you know what those guys are selling in there theyve chased me out with a broom like 6 times already.\" \"its probably because ive stolen like 4 or 5 of their hey why am i telling you this\" \"get outta here\""
+                          children:
+                            - name: "Sorry"
+                    - name: "Variant 10:"
+                      children:
+                        - name: "\"you got anything to eat\" \"hand it over im starving\""
+                          children:
+                            - name: "Option 1: Sure."
+                              children:
+                                - name: "<small>(The player hands D6 a random consumable item.)</small>"
+                                  children:
+                                    - name: "\"thanks\""
+                            - name: "Option 2: I'd... rather not."
+                              children:
+                                - name: "\"please ill give you this handy dandy Tool\""
+                                  children:
+                                    - name: "Option 1: Deal."
+                                      children:
+                                        - name: "\"pleasure doing business\""
+                                          children:
+                                            - name: "<small>(The player hands D6 a random consumable item and receives a <a href='/bussim/items/tool'>Tool</a>.)</small>"
+                                    - name: "Option 2: No deal."
+                                      children:
+                                        - name: "\"You think this is a game? Do you find this amusing?\""
+                                          children:
+                                            - name: "Kind of."
+                    - name: "Variant 11:"
+                      children:
+                        - name: "\"i'm not allowed in the store anymore since i keep shoplifting but if you see disc or green tell them i said hi and im sorry and that it will happen again\""
+                          children:
+                            - name: "Ok."
+                    - name: "Variant 12:"
+                      children:
+                        - name: "\"i am sincerely sorry for your loss\""
+                          children:
+                            - name: "Sorry"
+                    - name: "Variant 13:"
+                      children:
+                        - name: "\"my brain hurts\""
+                          children:
+                            - name: "Ok."
+                    - name: "Variant 14:"
+                      children:
+                        - name: "\"[END OF DIALOGUE]\""
+
+    - type: section
+      content:
+        size: small
+        title: Airhorn-Related "Dialogue"
+        description: >- 
+          <br>
+          If the airhorn is used repeatedly in proximity to D6:
+
+    - type: tree
+      content:
+        - name: "The player automatically unequips the airhorn."
+
+          
+    - type: section
+      content:
+        size: normal
+        title: Trivia
+        
+    - type: tree
+      content:
+        - name: D6 has the most amount of dialogue in the entire game.
+        - name: His lines make plenty of references to memes, his own personal interest, or general media.
+          children:
+            - name: <a href='https://twitter.com/GandalfGetsTo'>"man i could really go for some graham crackers right about now"</a> is a reference to a TikTok account where a cat owner lets their cat, named Gandalf, gets to lick a Graham Cracker every Monday.
+            - name: <a href='https://www.youtube.com/watch?v=b-LTE6vIb9U&ab_channel=HigherQualityUploads'>"i cant believe i had to drive all the way to work"</a> is a reference to a line from Toy Story 2, where Al has to drive across the street to his job on a Saturday.
+            - name: "\"dude... GLAGGLELAND??????\" is a reference to a bunch of videos about Glaggleland, a fictional amusement park filled with smileys and silliness."
+            - name: "\"...and talk about turtle skeletons from a specific video game franchise for hours.\" is a reference to <a href='https://www.mariowiki.com/Dry_Bones'>Dry Bones</a> from the Super Mario franchise, that both D6 and <a href='/bussim/npcs/zeom'>Zeon</a> indeed like talking about."
+            - name: "\"7577234764 Dont forget it. It's the only way out.\". 7577234764 is actually a Roblox marketplace ID for an image of a paper D6 that dSiiiiiix has."
+        - name: "When Bus Simulator got age restricted for 14+ for the first time, the reasoning as to why it was restricted was because D6's \"why havent you been flattened by a 2 ton slab of concrete\" was more than enough for the game to receive a Violence tag."
+          children:
+            - name: "This was appealed however, but it wasn't the last time Bus Simulator had been age-restricted before."
+        - name: D6 is the only NPC to respond when the player spams the <a href='/bussim/items/airhorn'>Airhorn</a>, but without talking once.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/npcs/d6.webp
