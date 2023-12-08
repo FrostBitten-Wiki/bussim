@@ -190,7 +190,7 @@ div.sidebar bottomButtons {
     background-color: #1a149c;
 
     width: 50px;
-    height: 32px;
+    height: 35px;
     border: none;
     transition: 0.3s;
     align-items: center;
@@ -219,6 +219,22 @@ div.sidebar bottomButtons {
 
 .sidebar button:hover text[type="hoverText"] {
     opacity: 1;
+}
+
+input {
+    width: 300px; height: calc(35px - 10px);
+    font-family: 'Starbound';
+    color: white;
+    background-color: #1a149c;
+    text-shadow: 0 2px 0 #000000;
+    word-spacing: 5px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
 }
 
 div.container {
