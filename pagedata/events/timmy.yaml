@@ -1,0 +1,47 @@
+page:
+  title: Timmy
+  description: The Timmy Event is a short yet simple event in Bus Simulator.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Timmy
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Timmy
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Timmy</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >- 
+          The Timmy Event is a short yet simple event in Bus Simulator. 
+          When this event happens, 
+          the Bus will move backwards rather than forwards, 
+          as well as the gravity being significantly reduced.
+
+    - type: section
+      content:
+        title: Dialogue
+
+    - type: tree
+      content:
+        - name: "[Random Player]: \"Timmy broke the laws of physics again.\""
+        - name: "You: \"Timmy, I swear!\""
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: "In one of the <a href='/bussim/others/news'>news articles</a>, Timmy has been mentioned a couple of times before being: \"Timmy Turner falsely got arrested after allegedly breaking the world\" and \"Okay, Timmy fell down a well again. Does anybody have a rope?\"."
+        - name: This event also appears in the game that is probably canon to Bus Simulator, called <a href="https://www.roblox.com/games/1029063110/Bus-Stop-Simulator">Bus Stop Simulator</a> by Steven_Scripts.
+        - name: The 30-second runtime for this event makes it really similar to the <a href='/bussim/events/passengers'>Bus Stop Riders</a> event's runtime.
+        - name: Timmy used to have a theme that would play Frolic that was produced by Luciano Michelini, it was used in the sitcom Curb Your Enthusiasm.
+          children:
+            - name: It no longer plays because of the March 22, 2022 audio update.
+
+          
