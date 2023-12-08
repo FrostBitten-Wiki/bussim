@@ -1,0 +1,57 @@
+page:
+  title: Nothing
+  description: The nothing event is well... nothing?
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Nothing
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Nothing
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Nothing</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/nothing.webp
+
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >- 
+          The nothing event is well... nothing? 
+          There isn't much to detail for this event other than a conversation of dialogue between the player and the event, 
+          but that's it. 
+          There is no hidden features into it, 
+          no special dialogue or any happenings, 
+          you just wasted 5 minutes of waiting for a single event for nothing, 
+          meaning you have to wait another 5 minutes to hopefully not get the same event twice in a row.
+
+    - type: section
+      content:
+        title: Dialouge
+
+    - type: tree
+      content:
+        - name: "You: \"...\" \"So...\""
+        - name: "[Random Player]: \"Where's the event?\""
+        - name: "Game: \"There is no event.\""
+        - name: "You: \"..what?\""
+        - name: "Game: \"The event is that there is no event, and that's the event.\""
+        - name: "You: \"...I don't get it.\""
+        - name: "Game: \"You may not get it now, but trust me. This is the deepest event in the game. You just don't know it yet.\""
+        - name: "You: \"?????????\""
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: This event for many, is considered useless and objectively so, for it is literally nothing, with <a href='/bussim/events/traffic-light'>Traffic Light</a>, and <a href='/bussim/events/mountain'>Mountain</a> being behind it based on community reception.
+          children:
+            - name: You can also do an Advanced Force Event specifically for this, but just because you can doesn't mean you should. (You're wasting 120 Robux for nothing)
+        - name: The event runtime is 49 seconds.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/nothing.webp
+          
