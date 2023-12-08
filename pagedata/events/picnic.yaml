@@ -1,0 +1,40 @@
+page:
+  title: Picnic
+  description: Picnic is an event that would randomly happen after 4 minutes.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Picnic
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Picnic
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Picnic</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/picnic1.webp
+
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >- 
+          Picnic is an event that would randomly happen after 4 minutes.
+
+          <br><br>
+
+          The bus would stop and a picnic would spawn, 
+          you can obtain the <a href='/bussim/items/sandwich'>Sandwich</a> there, 
+          after a bit the bus would leave and the event would end.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: It was one of the first events to be worked on in Bus Simulator.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/picnic1.webp
+          
