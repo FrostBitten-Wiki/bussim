@@ -4,7 +4,7 @@ page:
   keywords: "wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>"
 
 attributions:
-  - Edited & Ported by Nyx
+  - Edited & Ported by Nyx and FangedWerewolf (@noobbiom)
 
 html:
   header:
@@ -36,31 +36,147 @@ html:
         description: >-
           The bus has a sleek design, with a Navy Blue coat of paint that can be modified, and has 3 floors to explore / chill out on.
 
+    - type: section
+      content:
+        size: normal
+        title: 1st Floor
+        description: >-
+          The first floor is the spawn area and where the bus driver's seat is located. It consists of 12 seats, 2 seats per row, with the left front seat being the bus driver's seat. In the front there is a built-in FM radio, a steering wheel, pinned documents, and a PaRappa the Rapper plush.
+          <br></br>
+          The sides contain multiple overhead compartments, which can be opened by clicking on them, showcasing several interesting scenes alongside a Gameboy Advance in the back left compartment, with the front right compartment allowing you to sit inside. In the back there is a set of stairs leading upwards to the 2nd level and a bathroom built into the stairs, with a mirror and toilet, flushing yourself down the toilet doesn't seem to do much though.
+          <br></br>
+          In the corner of the stairs is a hidden entrance to a small room only accessible by being small yourself. Within it features a couch, TV of Family Guy, and various other furniture. There's also a door that leads you further into the small room, with arcade machines and beanbags.
     
+    - type: section
+      content:
+        size: normal
+        title: 2nd Floor
+        description: >-
+          The second floor is an intermediate floor between the roof and the first floor, consisting of 12 seats, 2 seats per row, and 2 compartments you can sit on at the front and items scattered about.
+          <br></br>
+          Within the floor consists of the Cola Crate, the Pizza Box, Cramped Cola stash, and Pear, with the first three giving you items and Pear being an NPC you can talk to with various topics.
+          <br></br>
+          At the front of the floor, there'll be extra seats ontop of the compartments alongside two buttons, the left forces a specific event at the cost of 120R$, whilst the right force a random event for 60R$.
     
+    - type: section
+      content:
+        size: normal
+        title: 3rd Floor / Roof
+        description: >-
+          The third floor, or the roof, is the uppermost floor of the bus. It has 8 seats, 2 seats per row, which are unusually spaced out.
+          <br></br>
+          Stuck in-between the middle right seat and the wall is a Sign which can be held. Near the back is a wooden table with a functional Simon Says toy paired with a Marker, and a freezer containing Cold Colas. Lastly, in the back there's a ladder that brings you down to the 2nd Floor.
+          <br></br>
+          There's also a rare chance whenever the server starts that a platform at the front will appear; with three mini-houses containing from left to right, Steven_Scripts, MiroCev, 4J3K, and NobleReign. 
+    
+    - type: section
+      content:
+        size: normal
+        title: Exterior
+        description: >-
+          The exterior are the outside features of the bus which, while limited, can be used. 
+          <br></br>
+          On the front, you'll be able to find both The Bus' headlights, and a sign that displays its next destination. The Bus' headlights possess a strange feature in which it has a sense of conscience by display emotions and blinking, while the sign forever shows Stevensville, MT. as its next destination.
+          <br></br>
+          On the right side of the bus is a miniature, bench that can seat 5 people who have used the cramped cola. If you sit on the miniature bench when your avatar's size is normal, it will result in you getting killed. 
+          <br></br>
+          And lastly, on the side of the Bus is a volatile cable which can be sat on. It also serves as a link cable to the Cloned Bus during its respective event. Also located on the back is a license plate which says RBLX2952 which flashes into THE BUS ISN'T STOPPING whenever the Bus blinks. 
+          <br></br>
+          While there is nothing interesting underneath the bus, but there is a hidden button beside the back-right tire. Pressing the button will stop the bus (if it's moving), play "The Binding of Isaac - The Binding of Isaac" by Danny Baranowsky, and unlock the door. This can only be triggered once per server, and will remain unlocked until the server shuts down.
+    
+    - type: section
+      content:
+        size: normal
+        title: Holiday / Special Changes
+        description: >-
+          As holidays or special occasions come, the bus changes its appearance to the fitting holiday automatically without having to restart all servers. They mostly apply for the whole month, with it reverting back to default once it's over. Any bus appearance changes, unless if it's a Birthday event, only changes in a new server.
+
+    - type: section
+      content:
+        size: small
+        title: Halloween / October
+        description: >-
+          <br></br>During October, the bus will naturally turn black with orange string lights and headlights, a purple carpet, assortments of pumpkins, ghosts, and cobwebs, and Bat Confetti Launchers on the top floor that launch bats. The headlights also turn orange, and the hanging noob at the front of the bus turns into a Pumpkin.
+
+    - type: section
+      content:
+        size: small
+        title: Christmas / December
+        description: >-
+          <br></br>During December, a Christmas Tree appears on the 3rd floor along with some festive lights, decorative candy canes, and white headlights. The hanging Noob also changes into a Christmas tree.
+
+    - type: section
+      content:
+        size: small
+        title: New Years / December 30 - January 1
+        description: >-
+          <br></br>During New Years (December 30th - Jan 1st), firework launchers can be seen on the top floor, but nothing else changes.
+
+    - type: section
+      content:
+        size: small
+        title: Bus Simulator's 5th Birthday / July 15, 2023 - July 21, 2023
+        description: >-
+          <br></br>On Bus Simulators' Fifth Birthday, a flag was put on the first floor, saying "Happy 5th Birthday Bus Simulator", and has a sticky note on the other side saying "Sorry if this is lazy. All our focus is on Kit Battle". This can only be seen from July 14th to July 21st, 2023. 
+
     - type: section
       content:
         size: normal
         title: Trivia
         description: >-
-          .
 
     - type: tree
       content:
         - name: >-
-            There are also extra texts coming from NobleReign, mostly from his very first fanart he received.
+            Because of the destination sign, some people have previously theorized that the creator lives in Stevensville, Montana. This, however, is not true. 
           children:
             - name: >-
-                The first art on the left is the very first and original fanart, and it says: <highlight type="grey">"this IS my first ever fanart by Dysphorian (now tal1y) they brought it back from the dead :)"</highlight><br><br>
-            - name: >-
-                The art on the right side shows the more updated version of the left one, and it says: <highlight type="grey">"they also made this one, its like a revamped version :D"</highlight><br><br>
-            - name: >-
-                There's also some text that is shown above the Emergency Button that sends you back to <a href="/bussim/locations/the-bus">The Bus</a>, due to VR players unable to trip on the puddle.
-              children:
-                - name: >-
-                    It also had an advertisement of the VRChat version of Bus Simulator: <highlight type="grey">"vr players check out the vrchat version of bus sim"</highlight>
-                  children:
-                    - name: >-
-                        It was later removed because of possibly breaking Roblox's TOS, leading the user offsite. It was now replaced by this instead: <highlight type="grey">"vr players hit this instead"</highlight>
+                It is theorized that Bus Stop Simulator takes place in Montana as well.
         - name: >-
-            In one of the past builds of Bus Simulator, the Art Gallery also had a larger text above the ceiling in red saying <text style="color: red;">"make efeuc fanart"</text>. But it was later removed in an Unknown Build.
+            Stevensville is a real location in Montana.<br></br>
+        - name: >-
+            The Bus looks similar to the NB4L Bus on London, also called the New Routemaster or Borismaster. However with the roof as the 3rd Deck, only having 1 front door, And The steering wheel is on the left instead of the right like its London counterpart.<br></br>
+        - name: >-
+            The Birthday flag was made by Pixel_N3ko.<br></br>
+        - name: >-
+            For some reason, The Bus does not have a brake pedal.<br></br>
+        - name: >-
+            The Bus originally had a much more simpler design, but has been reworked with the help of both Inr_o and Pear, with Inr_o making the new bus and Pear making the new seats.
+
+    - type: section
+      content:
+        size: normal
+        title: History
+        description: >-
+          Note: The following history with ~ are approximations gathered via anecdotal evidence from the Bus Simulator Updates server, from when it was suggested and to when it was evident. Contributions relating to this is greatly appreciated.
+          <br></br>
+          July 18, 2018 : The Bus had a simple design, featuring only a few seats, no double or third floor, and was on a single lane road.
+          <br></br>
+          ~July 18-23, 2018 : The Bus now features a second floor, barren but exists. A staircase now exists at the back of The Bus as well.
+          <br></br>
+          July 27, 2018 : The Bus' road has been extended to three lanes and cars now drive along and The Bus is also slightly darker.
+          <br></br>
+          ~July 28 - August 1, 2018 : The Bus now features a third floor, accessible via a ladder on the back of The Bus. The second floor now has more features, still barren but not too barren.
+          <br></br>
+          August 8, 2018 : The small place has been added within the staircase of The Bus.
+          <br></br>
+          ~Sometime between 2018 and October 3, 2020 : Reworked the design of The Bus, new seats courtesy of Pear, and various new items and collectibles. 
+          <br></br>
+          July 31, 2020 : The first floor of The Bus, tires and the tiny chairs on the side of The Bus have all been updated, courtesy of Inro. The roads extend further, and two back windows have been removed. The Bus is also now sentient.
+          <br></br>
+          October 3, 2020 : The seasonal changes to The Bus are now automatic, happening every October and December of any year.
+          <br></br>
+          October 15, 2020 : The seasonal changes also now apply to The Bus' main color, and the road is now 'anatomically correct'.
+          <br></br>
+          December 25, 2022 : The door in the small room is now accessible, and the Repaint event has been added, allowing players to customize the color of The Bus.
+          <br></br>
+          July 15, 2023 : Bus Simulator's 5th Birthday has arrived, now with a new temporary sign.
+          <br></br>
+          July 26, 2023 : The Bus' toilet no longer bcomes yellow after sitting on it, due to 'depicting crude humor', thus giving the game an age rating of 9+.
+          <br></br>
+          August 17, 2023 : The Marker is now accessible, allowing you to draw around The Bus and various other surfaces.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/banner.jpg
