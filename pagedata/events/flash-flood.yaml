@@ -17,14 +17,6 @@ html:
       content:
         title: Info
 
-    - type: section
-      content:
-        title: Fake Bus Stop
-
-    - type: quote
-      content:
-        quote: "Sike! That was a distraction!"
-        author: Driver
     - type: text
       content:
         text: >- 
