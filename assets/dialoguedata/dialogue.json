@@ -1,6 +1,6 @@
 {
     "dialogueData": {
-        "disc001": {
+                "disc001": {
             "rarity": 100,
             "dialogue": [
                 [3000, "Disc", "point", "Hey! Did you know that you can buy items on the GOATed Gas Station?"],
@@ -8,7 +8,7 @@
                 [3000, "Disc", "point", "And when you feel like buying them, you can head over to me and proceed to checkout!"],
                 [3000, "Disc", "point", "Those items afterwards are now bonded with you, so you'll bring it everywhere you go!"],
                 [3000, "Disc", "angry", "Oh, you certainly can try stealing them..."],
-                [3000, "Disc", "close", "<b>That is, until you become our next Halloween decoration..</b>"]
+                [3000, "Disc", "close", "<highlight>That is, until you become our next Halloween decoration..</highlight>"]
             ]
         },
 
@@ -314,13 +314,31 @@
             ]
     },
         "polyframex001": {
-            "rarity": 5,
+            "rarity": 25,
             "dialogue": [
-                [6000, "PolyframeX", "", "Can somebody tell me why everytime I try leaving this bus, I just end up back here?"],
-                [6000, "PolyframeX", "", "I've been stuck here for like months now."],
-                [6000, "PolyframeX", "", "How have we not ran out of food yet?"]
+                [4000, "PolyframeX", "", "So...you like busses?"]
         ]
-     }
+     },
+        "polyframex002": {
+            "rarity": 25,
+            "dialogue": [
+                [4000, "PolyframeX", "", "Man, they were right. This is a Wiki."]
+        ]
+     },
+     "polyframex003": {
+        "rarity": 25,
+        "dialogue": [
+            [4000, "PolyframeX", "", "Don't tell the other wiki editors...but I have no idea what I'm doing."],
+            [4000, "PolyframeX", "", "Seriously, where even am I?"]
+    ]
+ },
+ "polyframex004": {
+    "rarity": 25,
+    "dialogue": [
+        [4000, "PolyframeX", "", "You didn't expect to see me here, did you?"],
+        [4000, "PolyframeX", "", "I didn't either."]
+]
+}
     },
 
     "characterData": {
