@@ -1,0 +1,44 @@
+page:
+  title: Noble's House
+  description: Noble's House is an event where the bus ends up crashing onto the house owned and lived by Noble,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Noble's House
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Noble's House
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>NoblesHouse</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/nobleshouse2.webp
+
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >- 
+          Noble's House is an event where the bus ends up crashing onto the house owned and lived by Noble, 
+          which coincidentally is in the middle of the road. 
+          Afterwards the players can go around the house, 
+          finding a <a href='/bussim/items/gameboy-advance'>hidden gameboy link</a> behind Noble's Desktop, 
+          a <a href='/bussim/items/cola'>Cola</a> and <a href='/bussim/items/cold-cola'>Cold Cola</a> from the fridge, 
+          and an interact-able TV and remote. 
+          Following a few minutes after, 
+          the bus driver destroys Noble's house further until the bus breaks past and then the event ends afterwards.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: Noble's Desktop has a chance to have different decals, being single colors but also rarely; the stereotypical green furry used by new furs.
+        - name: When going on Channel 3 in the TV, it will instead display the players that are watching it based on a range instead of a typical "Most Robux Wasted" leaderboards.
+        - name: When you go inside the fridge, you will end up being electrocuted to death with hidden laser beams inside.
+        - name: <a href='/bussim/npcs/noble'>NobleReign</a> (in-game, not the real guy) doesn't acknowledge nor know the existence of <a href='/bussim/npcs/frostbite'>Frostbite</a>, and vice versa; despite the latter being Noble's fursona.
+        - name: The event runtime is 1 minute and 32 seconds, about the same length as the <a href='/bussim/events/cave'>Cave</a> event.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/nobleshouse2.webp
+          
