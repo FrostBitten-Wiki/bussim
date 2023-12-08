@@ -45,7 +45,7 @@ html:
         - name: The map used during the event is almost the same as the <a href='/bussim/biomes/void'>Void (Biome)</a>, however the time is set to night instead.
           children:
             - name: Another event, called <a href='/bussim/events/in-the-sky'>In The Sky</a> also uses the same event too.
-        - name: he event has a runtime of 45 seconds, meaning that the event has the exact same amount of runtime as both the <a href='/bussim/events/bus-birthday'>Bus Birthday</a> and <a href='/bussim/events/in-the-sky'>In The Sky</a> events.
+        - name: The event has a runtime of 45 seconds, meaning that the event has the exact same amount of runtime as both the <a href='/bussim/events/bus-birthday'>Bus Birthday</a> and <a href='/bussim/events/in-the-sky'>In The Sky</a> events.
     - type: gallery
       content:
         images:
