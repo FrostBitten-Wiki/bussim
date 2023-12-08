@@ -64,6 +64,7 @@ html:
       content:
         buttons:
           - ["?", "Placeholder", "/bussim/placeholder"]
+          - ["?", "Placeholder", "/bussim/placeholder"]
 
     - type: section
       content:
