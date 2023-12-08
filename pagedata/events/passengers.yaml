@@ -1,0 +1,48 @@
+page:
+  title: Passengers
+  description: The passenger event is a very simple event,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Passengers
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Passengers
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>BusStopRiders</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/passengers2.webp
+
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >- 
+          The passenger event is a very simple event, 
+          where the bus stops at a stop as passengers hop inside the bus. 
+          A player will say "This feels similar to another game", 
+          a reference to Bus Stop Simulator and the event ends. 
+          The NPCs are randomly generated from existing user IDs, 
+          and there's a chance you can see NobleReigns friends.
+
+          <br><br>
+
+          Even though the event has ended, 
+          the passengers will still remain inside the bus at random times, 
+          eventually when that random time expires the NPC passenger opens the door and hops right off, 
+          similar to the Steven_Scripts Event. 
+          Unfortunately this doesn't seem to have any special effects when landing safely or if a Backwalls Event happened before the passengers could get off.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: The stop is the same stop in the Bus Stop Distraction Event, although players can easily realize the difference by how there's now passengers.
+        - name: The total runtime of the event is 28 seconds, having a similar runtime to the <a href='/bussim/events/timmy/>Timmy</a> event.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/passengers2.webp
+          - /bussim-assets/images/events/passengers1.webp
+          
