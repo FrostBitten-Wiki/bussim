@@ -1,0 +1,73 @@
+page:
+  title: EA Sellout
+  description: The EA Sellout or its more technical name,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, EA Sellout
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: EA Sellout
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>BoughtOut</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/ea_sellout.webp
+
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >-
+         The EA Sellout or its more technical name, 
+         Bought Out is an event where everyone will be forcibly teleported back to the first floor of the Bus after having been bought out by Economic Arcs, 
+         a parody of Electronic Arts.
+
+         <br><br>
+
+         The bathroom, the second floor and the roof are all blocked by the black wall with the price on it. 
+         It cannot be accessed by players unless they own the <a href='https://www.roblox.com/game-pass/6398461/Microtransaction-Overreaction'>Microtransaction Overreaction</a> gamepass. 
+         After about a minute, 
+         a random player then mentions that EA lost interest due to them not making enough money. 
+         Following this, 
+         the game returns to NobleReign again, 
+         and after about 20 seconds of waiting after NobleReign recieves the game again, 
+         the event ends as the black walls disappear.
+
+    - type: section
+      content:
+        title: Dialogue 
+    
+    - type: tree
+      content:
+        - name: "(Bus driver): \"We just got bought out by EA. You have to buy the other rooms now.\""
+          children:
+            - name: "(You): \"Wow!\""
+              children:
+                - name: "After some time has passed..."
+                  children:
+                    - name: "(Bus driver): \"EA lost interest, not enough money being made. They're restoring the license to Noble shortly.\""
+                      children:
+                        - name: "After even more time has passed..."
+                          children:
+                            - name: "(Bus driver): \"Okay, it should be back now. Just wait for Noble to update the game.\""
+
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: This is the only event where there's a gamepass tied to it.
+        - name: If you try by any chance to use the <a href='/bussim/items/helicopter'>Helicopter</a> or <a href='/bussim/items/hoverboots'>Hoverboots</a> to go into restricted areas without the gamepass, you will immediately die.
+          children:
+            - name: However, using the <a href='/bussim/items/magic-mirror'>Magic Mirror</a> to teleport to Frost's Den will not instantly kill you nor block you.
+        - name: There may be a random chance that you could die if you were previously in a restricted area.
+        - name: If a player drives a <a href='/bussim/items/mini-bus'>Mini Bus</a> while the event is about to happen or if the event happened already then they will stay out there, until they unequip it and then immediately teleport to the first floor.
+        - name: Since the event forces everyone to be out of their seats assuming they aren't in a safe space, the driver would also be kicked out too, making it ideal for some people to rush for the driver seats immediately.
+        - name: The event can easily be bypassed if you are ragdolled, keeping you in place wherever you were.
+        - name: The total runtime of the event is 1 minute and 50 seconds.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/ea_sellout.webp
