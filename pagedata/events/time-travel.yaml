@@ -1,0 +1,68 @@
+page:
+  title: Time Travel
+  description: The Time Travel event is an event in Bus Simulator, where the bus momentarily stops only to speed up to time travel 50 years into the future.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Time Travel
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Time Travel
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>TimeTravel</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/timetravel3.webp
+
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >- 
+          The Time Travel event is an event in Bus Simulator, 
+          where the bus momentarily stops only to speed up to time travel 50 years into the future. 
+          After the acceleration the atmosphere changes into a de-saturated and worn down city from Bus Stop Simulator, 
+          a possible prequel to Bus Simulator. 
+          In this you can find a broken down Bloxdonalds with a bent tile that leads to a bean bunker that is essentially inaccessible <a href='/bussim/items/cramped-cola'>Cramped Cola</a>. 
+          You may also find a gravestone next to Bloxdonalds as well.
+
+          <br><br>
+
+          In the park you may find broken / worn down stalls, 
+          and in one of them being the fizzy taco stand, 
+          you'll be able to get an <a href='/bussim/items/expired-taco'>Expired Taco</a>. 
+          You may also find a tunnel continuing the road that leads to a crashed bus, 
+          and despite saying it's a prediction of what's to come; 
+          it already exists in the supposed present-day version being the Bus Stop Simulator game,
+          debunking this myth.
+
+          <br><br>
+
+          If you were to also somehow glitch through the rubble, 
+          you'll both be able to see a message wall and a .png.
+
+          <br><br>
+
+          Eventually, 
+          the driver decides to want to go back to the present to the upset of many passengers on board, 
+          after this the bus goes backward all the way to before the thematic change and then re-accelerates back to the present, 
+          and then the event ends.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: The speed limit to time travel could be a <a href="https://en.wikipedia.org/wiki/Back_to_the_Future">Back To The Future</a> reference, where the bus goes 44 MPH, which is half the speed to time travel in the DeLorian in the movies.
+        - name: This is the second fastest event in terms of bus speed, only behind the <a href='/bussim/events/in-the-sky'>In the Sky</a> Event.
+        - name: The event is a pretty long event, with its runtime of 3 minutes and 12 seconds. It's one of the pretty lengthy events in the game.
+        - name: Hidden next to the closed down tunnel to the beach is a secret vending machine that says "free money" with (jk its actually a death button) on the bottom left corner.
+          children:
+            - name: It cannot be interacted at all however, and seems to be accessible by some secret route with the truss near it.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/timetravel3.webp
+          - /bussim-assets/images/events/timetravel2.webp
+          - /bussim-assets/images/events/timetravel1.webp
+          
