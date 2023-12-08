@@ -1,0 +1,44 @@
+page:
+  title: Pain Ball
+  description: The Pain Ball is a short, but very loud event where a ball will be slammed into the windshield,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Pain Ball
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Pain Ball
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>PainBall</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/painball2.webp
+
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >- 
+          The Pain Ball is a short, 
+          but very loud event where a ball will be slammed into the windshield, 
+          causing screams of pain in the process. 
+          Eventually after a while of screaming, 
+          the driver finds a way to wipe it off of the windshield, 
+          and it succeeds, 
+          ending the event.
+
+          <br><br>
+
+          The ball is also collidable both inside and outside of the bus, 
+          providing a temporary platform.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: This is a reference to a roblox game Steven_Scripts has made called <a href="https://www.roblox.com/games/2179700750/balls-of-pain">balls of pain</a>.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/painball2.webp
+          
