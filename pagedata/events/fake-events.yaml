@@ -20,7 +20,14 @@ html:
     - type: section
       content:
         title: Fake Bus Stop
-        description: >- 
+
+    - type: quote
+      content:
+        quote: "Sike! That was a distraction!"
+        author: Driver
+    - type: text
+      content:
+        text: >- 
           The Fake Bus Stop event is an event where the bus driver distracts players by acting like they made it to the bus stop, 
           and then drives off, 
           making players respawn on the bus. 
@@ -40,7 +47,15 @@ html:
     - type: section
       content:
         title: Fake No Gas
-        description: >-
+
+    - type: quote
+      content:
+        quote: "We ran out of gas."
+        author: Driver
+
+    - type: text
+      content:
+        text: >-
          The Fake No Gas event is an event where the bus stops, 
          and the driver acts like they're out of gas. 
          Shortly afterwards, 
