@@ -16,10 +16,7 @@ html:
     - type: section
       content:
         title: Info
-
-    - type: text
-      content:
-        text: >- 
+        description: >- 
           The In The Sky event, 
           or known as Falling from the Sky event, 
           is an event that teleports the bus instantly into the skies, 

@@ -16,10 +16,7 @@ html:
     - type: section
       content:
         title: Info
-
-    - type: text
-      content:
-        text: >- 
+        description: >- 
           The Lava Floor, 
           or commonly known as The Floor is Lava event, 
           is a sudden, 

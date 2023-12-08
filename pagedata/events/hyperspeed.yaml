@@ -16,10 +16,7 @@ html:
     - type: section
       content:
         title: Info
-
-    - type: text
-      content:
-        text: >- 
+        description: >- 
           The Hyperspeed event is an event that causes the bus to suddenly speed up, 
           and a yellow trail is emitted from the tires. 
           As well as this, 

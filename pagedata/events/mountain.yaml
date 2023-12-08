@@ -16,10 +16,7 @@ html:
     - type: section
       content:
         title: Info
-
-    - type: text
-      content:
-        text: >- 
+        description: >- 
           The Mountain is a pretty basic event in Bus Simulator, 
           where the bus stops at a nearby mountain, 
           after a while the driver tells everyone to get back to the bus, 
