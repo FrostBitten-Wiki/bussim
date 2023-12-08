@@ -1,0 +1,49 @@
+page:
+  title: Nuke
+  description: During the event, the bus would stop for a while, while it's stopped the driver would try to figure out what the object is in the sky until sirens go off.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Nuke
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Nuke
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Nuke</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/nuke1.webp
+
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >- 
+          During the event, 
+          the bus would stop for a while, 
+          while it's stopped the driver would try to figure out what the object is in the sky until sirens go off. 
+          After that, 
+          the bus start to driver at a quick pace while the nuke strikes. 
+          After a few seconds, 
+          the driver manages to drive away from the blast, 
+          and slow back down to default speed afterwards.
+
+    - type: section
+      content:
+        title: Former Bugs
+
+    - type: tree
+      content:
+        - name: There was a bug where the Alarm and Theme won't play, this is strange as the music used is uploaded by ROBLOX and the alarm is a sound effect. It's possible that an update broke this event.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: Before March 22, 2022, the music used to be <a href="https://www.youtube.com/watch?v=LUT-GjQXdOI&ab_channel=CommanderCH">Screech</a>, from PAYDAY 2.
+        - name: The event has a runtime of 1 minute and 17 seconds, making it the exact same amount of runtime as the <a href='/bussim/events/question-time'>Question Time</a> event.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/nuke1.webp
+          
