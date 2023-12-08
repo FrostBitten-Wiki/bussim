@@ -29,9 +29,12 @@ html:
     - type: tree
       content:
         - name: "Event: \"A pool spawned on top of the bus!\""
-        - name: "You: \"Oh, nice.\""
-        - name: "(40 seconds later...)"
-        - name: "Event: \"It's going to disappear!\""
+          children:
+             - name: "You: \"Oh, nice.\""
+               children:
+                  - name: "(40 seconds later...)"
+                    children:
+                      - name: "Event: \"It's going to disappear!\""
 
     - type: section
       content:

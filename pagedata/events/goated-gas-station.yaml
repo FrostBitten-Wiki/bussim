@@ -209,8 +209,10 @@ html:
 
     - type: section
       content:
+        size: small
         title: A Small Snack
         description: >- 
+          <br>
           This request simply involves you giving Tazer a stick of RAM, 
           this is done by first talking to Tazer using "Let's Talk!" until you get him talking about being hungry, 
           accept the quest then head over to Zeon's House and go to her bedroom. 
@@ -219,8 +221,10 @@ html:
 
     - type: section
       content:
+        size: small
         title: An Exchange
         description: >- 
+          <br>
           This other quest simply involves you talking to D6 until he mentions being hungry, 
           afterwards, 
           reject the first offer and then D6 will let you trade with another item, 

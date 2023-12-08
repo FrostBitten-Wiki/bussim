@@ -41,7 +41,8 @@ html:
     - type: tree
       content:
         - name: "You : \"...?\""
-        - name: "You : \"The vibes are kinda off in this specific spot... was someone here before..?\""
+          children:
+            - name: "You : \"The vibes are kinda off in this specific spot... was someone here before..?\""
 
 
     - type: section

@@ -48,8 +48,10 @@ html:
 
     - type: section
       content:
+        size: small
         title: Passengers
         description: >-  
+          <br>
           In the Passengers event, 
           three random Civilians will board the bus and take the nearest available seat, 
           and will ride the bus for a random amount of time, 
@@ -63,7 +65,9 @@ html:
     - type: section
       content:
         title: No Dough/Santa's Gone
+        size: small
         description: >- 
+          <br>
           In the No Dough event, 
           the Civilians act more like security, 
           and will kill instantly if you're spotted. 

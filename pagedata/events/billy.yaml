@@ -62,8 +62,11 @@ html:
     - type: section
       content:
         title: Dialogue
-        description: >- 
-          Intro
+
+    - type: section
+      content:
+        size: small
+        title: Intro
 
     - type: tree
       content:
@@ -88,9 +91,10 @@ html:
                 - name: "Billy (3): \"become like us.\""
                 - name: "Billy (1): \"together, we will take over roblox.\""
 
-    - type: text
+    - type: section
       content:
-        text: If everybody already became Billy...
+        size: small
+        title: If everybody already became Billy...
 
     - type: tree
       content:
@@ -102,7 +106,7 @@ html:
 
     - type: section
       content:
-      title: Tips 
+        title: Tips 
     - type: tree
       content:
         - name: It is highly recommended NOT to use the <a href='/bussim/items/mini-bus'>Mini-Bus</a> as Billies will force you out of it and holster you until you reach the Machine.

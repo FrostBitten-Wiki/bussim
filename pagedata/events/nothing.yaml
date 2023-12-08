@@ -32,13 +32,20 @@ html:
     - type: tree
       content:
         - name: "You: \"...\" \"So...\""
-        - name: "[Random Player]: \"Where's the event?\""
-        - name: "Game: \"There is no event.\""
-        - name: "You: \"..what?\""
-        - name: "Game: \"The event is that there is no event, and that's the event.\""
-        - name: "You: \"...I don't get it.\""
-        - name: "Game: \"You may not get it now, but trust me. This is the deepest event in the game. You just don't know it yet.\""
-        - name: "You: \"?????????\""
+          children:
+            - name: "[Random Player]: \"Where's the event?\""
+              children:
+                 - name: "Game: \"There is no event.\""
+                   children:
+                    - name: "You: \"..what?\""
+                      children:
+                        - name: "Game: \"The event is that there is no event, and that's the event.\""
+                          children:
+                           - name: "You: \"...I don't get it.\""
+                             children:
+                                - name: "Game: \"You may not get it now, but trust me. This is the deepest event in the game. You just don't know it yet.\""
+                                  children:
+                                   - name: "You: \"?????????\""
 
     - type: section
       content:

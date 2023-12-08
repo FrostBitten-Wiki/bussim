@@ -57,6 +57,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: Intro Dialogue
 
     - type: tree
@@ -77,6 +78,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: Exit Dialogue
 
     - type: tree
@@ -89,6 +91,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: If Steven_Scripts doesn't die...
 
     - type: tree
@@ -99,6 +102,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: If Steven_Scripts was sent to the <a href='/bussim/events/backwalls'>Backwalls</a> before leaving...
 
     - type: tree
@@ -107,6 +111,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: If StevenRide rolls before Steven_Scripts can leave...
     
     - type: tree

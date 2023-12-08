@@ -34,7 +34,8 @@ html:
     - type: tree
       content:
         - name: "Event : \"Houston, we have a big problem.\""
-        - name: "Houston : \"fix it yourself im on break\""
+          children:
+            - name: "Houston : \"fix it yourself im on break\""
 
     - type: section
       content:

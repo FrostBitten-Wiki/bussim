@@ -124,6 +124,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: Stopping at the House Dialogue
 
     - type: tree
@@ -143,6 +144,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: Entering the House Dialogue
     
     - type: tree
@@ -153,6 +155,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: Taking the Cash Dialogue
 
     - type: tree
@@ -167,6 +170,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: Escape Dialogue
 
     - type: tree
@@ -186,6 +190,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: If you are in a Private Server...
 
     - type: tree
@@ -195,6 +200,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: If you have three minutes left to find the cash...
 
     - type: tree
@@ -204,6 +210,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: If nobody has gotten the cash within 10 minutes...
 
     - type: tree
@@ -213,6 +220,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: If nobody has escaped within 5 minutes...
 
     - type: tree
@@ -221,6 +229,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: If nobody entered the house within 1 minute...
 
     - type: tree

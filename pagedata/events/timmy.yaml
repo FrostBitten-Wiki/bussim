@@ -29,7 +29,8 @@ html:
     - type: tree
       content:
         - name: "[Random Player]: \"Timmy broke the laws of physics again.\""
-        - name: "You: \"Timmy, I swear!\""
+          children:
+            - name: "You: \"Timmy, I swear!\""
 
     - type: section
       content:

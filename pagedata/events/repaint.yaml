@@ -40,6 +40,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: Intro Dialogue
 
     - type: tree
@@ -49,6 +50,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: Before Poll Dialogue
 
     - type: tree
@@ -56,6 +58,11 @@ html:
         - name: "Variant 1: [Player]: \"Yeah sure, let's repaint the bus.\""
         - name: "Variant 2: [Player]: \"Good idea! We can all vote on what color we should paint the bus.\""
         - name: "Variant 3: [Player]: \"I mean, alright. If you can find the paint for it, I guess...\""
+
+    - type: section
+      content:
+        size: small
+        title: Poll Dialogue
 
     - type: tree
       content:
@@ -66,7 +73,8 @@ html:
 
     - type: section
       content:
-        - name: After Poll Dialogue
+        size: small
+        title: After Poll Dialogue
     
     - type: tree
       content:
@@ -88,6 +96,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: If it gets repeated whilst the paint hasn't worn off...
 
     - type: tree
@@ -98,6 +107,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: If the color wears off...
 
     - type: tree
@@ -107,6 +117,7 @@ html:
 
     - type: section
       content:
+        size: small
         title: If it's done in a private server...
 
     - type: tree

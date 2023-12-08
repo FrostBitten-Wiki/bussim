@@ -30,9 +30,12 @@ html:
     - type: tree
       content:
         - name: "Event: \"Hey look, is that a classic obby?\""
-        - name: "You: \"I should complete it!\""
-        - name: "(After around 40 seconds has passed...)"
-        - name: "Event: \"We are leaving soon.\""
+          children:
+            - name: "You: \"I should complete it!\""
+              children:
+               - name: "(After around 40 seconds has passed...)"
+                 children:
+                   - name: "Event: \"We are leaving soon.\""
 
     - type: section
       content:

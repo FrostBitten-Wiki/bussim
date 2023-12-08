@@ -72,6 +72,7 @@ html:
     
     - type: section
       content:
+        size: small
         title: If all 6 cans are collected...
 
     - type: tree

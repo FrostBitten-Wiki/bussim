@@ -38,8 +38,10 @@ html:
 
     - type: section
       content:
+        size: small
         title: Master Escapee
         description: >- 
+          <br>
           The Master Escapee badge could be obtained if you successfully escape the house ten times. 
           It doesn't matter if you delivered the presents or not, 
           just if you're able to escape. 
@@ -48,8 +50,10 @@ html:
 
     - type: section
       content:
+        size: small
         title: The Bringer of Gifts
         description: >- 
+          <br>
           The Bringer of Gifts badge could be obtained only during the Santa's Gone event, 
           where it was the same as Master Escapee badge, 
           but you had to participate in the event 20 times. 

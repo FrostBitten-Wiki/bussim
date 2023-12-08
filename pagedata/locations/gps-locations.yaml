@@ -24,7 +24,7 @@ html:
         description: >-
           The GPS lists locations that the Bus is currently in, and this is the list that shows most of them.
           They're all just cosmetic, and have no correlation to the biome you're in. There are 396 locations so far in this list
-          (excluding "Recalculating.." and event-exclusive locations [e.g. 2648 Goat Ave [<a href="/bussim/events/goated-gas-station">GOATed Gas Station</a>]], including Routes [e.g. Route 27]). If you find a location that isn't on this list, feel free to add one to this list by editing this page!
+          (excluding "Recalculating.." and event-exclusive locations [e.g. 2648 Goat Ave <a href="/bussim/events/goated-gas-station">GOATed Gas Station</a>], including Routes [e.g. Route 27]). If you find a location that isn't on this list, feel free to add one to this list by editing this page!
     
     - type: section
       content:
