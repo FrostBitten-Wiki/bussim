@@ -2,14 +2,18 @@ page:
   title: Flying Skillbook
   description: The Flying Skillbook is a non-permanent item stolen from GOATed Gas Station.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Flying Skillbook
+  tags: flying skillbook, event item, station item, paid item, item that makes you fly
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Flying Skillbook
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: quote
       content:

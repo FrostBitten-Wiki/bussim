@@ -2,15 +2,18 @@ page:
   title: Banana
   description: Banana is an NPC that can be found in the Backwalls.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Banana
+
 attributions:
   - "Ported By PolyframeX"
 html:
+
   header:
     title: Banana
     description: >- 
       Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
     imageBanner: /bussim-assets/images/locations/backwalls.webp
+    
   pageContent:
     - type: quote
       content:

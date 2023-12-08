@@ -2,14 +2,18 @@ page:
   title: Mini-Bus
   description: The Mini-Bus is a miniature vehicle which resembles the bus used in the game.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Mini-Bus
+  tags: mini bus, paid item, how do you get car, car
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Mini-Bus
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: section
       content:

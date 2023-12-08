@@ -2,14 +2,18 @@ page:
   title: Snowglobe
   description: The Snowglobe is an item obtained by joining during either the 2019 Christmas event,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Snowglobe
+  tags: snowglobe, event item, exclusive item
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Snowglobe
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: section
       content:

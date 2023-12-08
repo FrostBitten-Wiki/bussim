@@ -2,14 +2,18 @@ page:
   title: Party Popper
   description: The Party Popper is a cosmetic item obtained from the 10 Million Visits event.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Party Popper
+  tags: party popper, exclusive item
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Party Popper
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: quote
       content:

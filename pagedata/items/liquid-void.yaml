@@ -2,14 +2,18 @@ page:
   title: Liquid Void
   description: Liquid Void is an item obtainable from random floor spawns in the Backwalls event,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Liquid Void
+  tags: liquid void, event item, backwalls item, cola that makes you invisible
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Liquid Void
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: quote
       content:

@@ -2,14 +2,18 @@ page:
   title: Snowcone
   description: The Snowcone is a permanent healing item obtainable from either the 2019 Christmas event or the 20 Million Visits event.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Snowcone
+  tags: snowcone, event item, exclusive item
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Snowcone
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: quote
       content:

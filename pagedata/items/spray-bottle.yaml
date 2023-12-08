@@ -2,14 +2,18 @@ page:
   title: Spray Bottle
   description: The spray bottle can be only obtained through VIP/Admin commands.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Spray Bottle
+  tags: spray bottle, admin item, vip item
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Spray Bottle
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: infobox
       content:

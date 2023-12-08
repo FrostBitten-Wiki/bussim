@@ -2,14 +2,18 @@ page:
   title: Sign
   description: The sign is an item located at the third floor.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Sign
+  tags: sign, bus item, item that prevents you from jumping
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Sign
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: quote
       content:

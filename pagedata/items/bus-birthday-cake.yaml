@@ -2,14 +2,18 @@ page:
   title: Bus Birthday Cake
   description: The Bus Birthday Cake was a limited-edition variant of the Free-Modelled Cake,  
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Bus Birthday Cake
+  tags: bus birthday cake, limited game item
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Bus Birthday Cake
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: quote
       content:

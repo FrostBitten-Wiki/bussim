@@ -2,14 +2,18 @@ page:
   title: Hoverboots
   description: The Hoverboots is a pair of boots that allows you to fly,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Hoverboots
+  tags: hoverboots, paid item, exclusive item, item that makes you fly
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Hoverboots
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+    
   pageContent:
     - type: quote
       content:

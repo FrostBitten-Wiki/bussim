@@ -2,8 +2,11 @@ page:
   title: Billboards
   description: There are billboards in the game that appears on the sides of the road around every 3 minutes and 30 seconds.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Billboards
+  tags: billboards, in game ads, roblox ads
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Billboards
@@ -11,6 +14,7 @@ html:
       Category: <a href="/bussim/others">Others</a>
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: section
       content:

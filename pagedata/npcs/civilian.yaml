@@ -2,8 +2,10 @@ page:
   title: Civilian
   description: The Civilians are minor NPCs that appear in two events,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Civilian
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Civilian
@@ -11,6 +13,7 @@ html:
       Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
     imageBanner: /bussim-assets/images/events/goat_station1.webp
+    
   pageContent:
     - type: section
       content:

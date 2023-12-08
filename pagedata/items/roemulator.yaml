@@ -2,14 +2,18 @@ page:
   title: RoEmulator
   description: The RoEmulator is a gamepass item that lets you play games on your own.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, RoEmulator
+  tags: roemulator, paid item, game thing
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: RoEmulator
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: section
       content:

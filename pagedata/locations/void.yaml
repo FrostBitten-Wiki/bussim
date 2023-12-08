@@ -2,9 +2,12 @@ page:
   title: Void
   description: The Void is a medium-sized black room that has two monitors in the top-right corner with Efeuc laying down next to them,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Void
+  tags: location, void location
+
 attributions:
   - "Ported By PolyframeX"
 html:
+
   header:
     title: Void
     description: >-

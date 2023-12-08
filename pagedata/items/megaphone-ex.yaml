@@ -2,14 +2,18 @@ page:
   title: Megaphone EX
   description: The Megaphone EX is a gamepass item costing R$320.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Megaphone EX
+  tags: megaphone ex, paid item, item that makes you talk to other servers
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Megaphone EX
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: section
       content:

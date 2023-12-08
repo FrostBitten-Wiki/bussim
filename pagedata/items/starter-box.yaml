@@ -2,14 +2,18 @@ page:
   title: Starter Box
   description: The Starter Box is an obtainable item from the 10 Million Visits event.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Starter Box
+  tags: starter box, exclusive item, event item
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Starter Box
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: quote
       content:

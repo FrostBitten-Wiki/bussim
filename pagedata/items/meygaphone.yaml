@@ -2,14 +2,18 @@ page:
   title: Meygaphone
   description: Meygaphone~ is similar to the Megaphone.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Meygaphone
+  tags: meygaphone ex, paid item, item that makes you talk to other server, item that makes you talk like a furry
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Meygaphone
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: section
       content:

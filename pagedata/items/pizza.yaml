@@ -2,14 +2,18 @@ page:
   title: Pizza
   description: The Pizza is an item obtainable from a pizza box in the second floor of the bus.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Pizza
+  tags: pizza, bus item
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Pizza
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: section
       content:

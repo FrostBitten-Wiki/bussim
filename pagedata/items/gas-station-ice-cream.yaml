@@ -2,6 +2,8 @@ page:
   title: Gas Station Ice Cream
   description: The Gas Station Ice Cream is a tool obtainable by purchasing it for 8 passenger rep during the Goat Station Event event,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Gas Station Ice Cream
+  tags: gas station ice cream, event item, station item, paid item, ice cream
+
 attributions:
   - "Ported By PolyframeX"
 html:
@@ -10,6 +12,7 @@ html:
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: section
       content:

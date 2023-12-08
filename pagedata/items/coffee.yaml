@@ -2,14 +2,18 @@ page:
   title: Coffee
   description: Coffee is a usable item obtained from the pool event that appears next to the edges of the pool.  
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Coffee
+  tags: coffee, event item
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Coffee
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
       - type: section
         content:

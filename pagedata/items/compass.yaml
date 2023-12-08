@@ -2,14 +2,18 @@ page:
   title: Compass
   description: The Compass is a tool obtainable by purchasing it for 4 passenger rep during the Goat Station Event,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Compass
+  tags: compass, event item, paid item, station item
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Compass
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
       - type: section
         content:

@@ -2,14 +2,18 @@ page:
   title: Cola
   description: The Cola is an item that is obtainable at the Second floor, 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Cola
+  tags: cola, bus item
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Cola
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
       - type: quote
         content:

@@ -2,14 +2,18 @@ page:
   title: Homemade Coffee
   description: The Homemade Coffee is an temporary item from the Goat Station event,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Homemade Coffee
+  tags: homemade coffee, event item
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Homemade Coffee
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: section
       content:

@@ -2,14 +2,18 @@ page:
   title: Cone Soda
   description: The Cone Soda is an unused item that is purely cosmetic,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Cone Soda
+  tags: cone soda, unused item
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Cone Soda
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: infobox
       content:

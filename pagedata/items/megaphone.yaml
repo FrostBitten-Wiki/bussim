@@ -2,14 +2,18 @@ page:
   title: Megaphone
   description: The Megaphone is a gamepass item in Bus Simulator.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Megaphone
+  tags: megaphone, paid item, item that makes you talk to other servers
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Megaphone
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: quote
       content:

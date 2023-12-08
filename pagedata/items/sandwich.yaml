@@ -2,14 +2,18 @@ page:
   title: Sandwich
   description: The Sandwich is a food item obtainable from the Picnic event.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Sandwich
+  tags: sandwich, event item, sandvich
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Sandwich
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: section
       content:

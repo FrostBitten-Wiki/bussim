@@ -2,14 +2,18 @@ page:
   title: Cold Cola
   description: The Cold Cola is a variant of Colas that can be either found on the third floor of The Bus, 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Cold Cola
+  tags: cold cola, bus item
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Cold Cola
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
       - type: quote
         content:

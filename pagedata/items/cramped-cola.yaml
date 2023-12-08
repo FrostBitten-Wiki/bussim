@@ -2,14 +2,18 @@ page:
   title: Cramped Cola
   description: The Cramped Cola is a variant of the Cola series,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Cramped Cola
+  tags: cramped cola, bus item, item that makes you small
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Cramped Cola
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: section
       content:

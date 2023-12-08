@@ -2,14 +2,18 @@ page:
   title: Sparkler
   description: There are two versions of the Sparkler that exists in Bus Simulator,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Sparkler
+  tags: sparkler, exclusive item, vr item
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Sparkler
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: section
       content:

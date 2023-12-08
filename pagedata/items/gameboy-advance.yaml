@@ -2,14 +2,18 @@ page:
   title: Gameboy Advance
   description: The Gameboy Advance is a item that can be found on the first floor of the bus,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Gameboy Advance
+  tags: gameboy advance, bus item, purple game thing
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Gameboy Advance
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
+
   pageContent:
     - type: section
       content:

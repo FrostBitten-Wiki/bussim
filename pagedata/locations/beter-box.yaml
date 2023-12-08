@@ -2,8 +2,11 @@ page:
   title: Beter Box
   description: The Beter Box is a small box located infront of the Bus outside.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Beter Box
+  tags: location, beter box, box infront of the bus, transparent box on the front of the bus, peter box
+
 attributions:
   - "Ported By PolyframeX"
+
 html:
   header:
     title: Beter Box

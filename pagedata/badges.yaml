@@ -2,8 +2,10 @@ page:
   title: Badges
   description: Badges are collectibles in Bus Simulator that are obtained in specific conditions. Some are limited while others give an item for unlocking.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim badges
+  tags: badges, game badges, achievements
 
-attributions: [Created by FangedWerewolf (@noobbiom)]
+attributions: 
+  - Created by FangedWerewolf (@noobbiom)
 
 html:
   header:
