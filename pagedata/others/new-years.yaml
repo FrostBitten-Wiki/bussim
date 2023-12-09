@@ -1,0 +1,45 @@
+page:
+  title: New Years
+  description: If you play Bus Simulator during December 30th and 31st, you can get free stuff every hour to celebrate new years.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, New Years
+
+attributions:
+  - "Ported By PolyframeX"
+
+html:
+  header:
+    title: New Years
+    description: >- 
+      Category: <a href="/bussim/others">Others</a>
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  
+  pageContent:
+
+    - type: section
+      content:
+        size: normal
+        title: Info
+        description: >- 
+          If you play Bus Simulator during December 30th and 31st, 
+          you can get free stuff every hour to celebrate new years. 
+          You can only get the following per hour, 
+          and at the top of the hour:
+
+    - type: tree
+      content:
+        - name: Driver reputation (up to 5)
+        - name: Passenger reputation (up to 5)
+        - name: Free songs (up to 5)
+        - name: One free advanced event
+
+    - type: text
+      content:
+        text: >- 
+          During the event, 
+          the <a href='/bussim/locations/the-bus'>bus</a> also has firework launchers attached to the third floor, 
+          which will periodically launch fireworks into the sky. 
+          The free stuff, 
+          as well as the fireworks, 
+          both disappear on January 1st, 
+          so make sure to get as much free stuff as you can.
