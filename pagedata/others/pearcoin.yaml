@@ -1,0 +1,58 @@
+page:
+  title: Pearcoin
+  description: The pearcoin is a gamepass that is only obtainable through Pear,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Pearcoin
+
+attributions:
+  - "Ported By PolyframeX"
+
+html:
+  header:
+    title: Pearcoin
+    description: >- 
+      Category: <a href="/bussim/others">Others</a>
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  
+  pageContent:
+    - type: quote
+      content:
+       quote: "no way, you're rich now!!!!!"
+       author: "Pearcoin"
+    - type: section
+      content:
+        size: normal
+        title: Info
+        description: >- 
+         The pearcoin is a gamepass that is only obtainable through <a href='/bussim/npcs/pear'>Pear</a>, 
+         or through somebody's inventory, 
+         and costs 2 R$ to purchase. 
+         The item doesn't appear in your inventory.
+         All the pearcoin does is give you extra dialogues for <a href='/bussim/npcs/frostbite'>Frostbite</a>, 
+         <a href='/bussim/npcs/pear'>Pear</a>, 
+         and <a href='/bussim/npcs/disc'>Disc</a>. 
+         The gamepass is meant to be an "investment", 
+         but is actually just a scam, 
+         like cryptocurrency. 
+         You can only have one pearcoin at a time. 
+         If you show the pearcoin to Frostbite, 
+         he will immediately gain your trust (if you give him an <a href='/bussim/items/ice-cream'>Ice Cream</a> before, however.)
+
+         <br><br>
+
+         Anytime the pearcoin gets brought up by a character, 
+         it always has wavy rainbow text.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: If you check the Pearcoin via the Passes section in your Inventory, it's related to a game that skatecar01 has owned called <a href='https://www.roblox.com/games/4588945770/Map-Beach'>Map_Beach</a>.
+
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/others/pearcoin.webp
