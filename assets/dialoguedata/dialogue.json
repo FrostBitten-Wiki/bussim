@@ -312,33 +312,38 @@
             "dialogue": [
                 [3000, "Zeon", "close", "michael"]
             ]
-    },
+            
+        },
+
         "polyframex001": {
             "rarity": 25,
             "dialogue": [
-                [4000, "PolyframeX", "", "So...you like busses?"]
-        ]
-     },
+                [3000, "PolyframeX", "", "So... you like busses?"]
+            ]
+        },
+
         "polyframex002": {
             "rarity": 25,
             "dialogue": [
                 [4000, "PolyframeX", "", "Man, they were right. This is a Wiki."]
-        ]
-     },
-     "polyframex003": {
-        "rarity": 25,
-        "dialogue": [
-            [4000, "PolyframeX", "", "Don't tell the other wiki editors...but I have no idea what I'm doing."],
-            [4000, "PolyframeX", "", "Seriously, where even am I?"]
-    ]
- },
- "polyframex004": {
-    "rarity": 25,
-    "dialogue": [
-        [4000, "PolyframeX", "", "You didn't expect to see me here, did you?"],
-        [4000, "PolyframeX", "", "I didn't either."]
-]
-}
+            ]
+        },
+
+        "polyframex003": {
+            "rarity": 25,
+            "dialogue": [
+                [4000, "PolyframeX", "", "Don't tell the other wiki editors...but I have no idea what I'm doing."],
+                [4000, "PolyframeX", "", "Seriously, where even am I?"]
+            ]
+        },
+
+        "polyframex004": {
+           "rarity": 25,
+           "dialogue": [
+               [4000, "PolyframeX", "", "You didn't expect to see me here, did you?"],
+               [4000, "PolyframeX", "", "I didn't either."]
+            ]
+        }
     },
 
     "characterData": {
