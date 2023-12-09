@@ -1,0 +1,160 @@
+page:
+  title: Cosmetics
+  description: In Bus Simulator, there are currently six cosmetics in the game,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Cosmetics
+
+attributions:
+  - "Ported By PolyframeX"
+
+html:
+  header:
+    title: Cosmetics
+    description: >- 
+      Category: <a href="/bussim/others">Others</a>
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  
+  pageContent:
+
+    - type: section
+      content:
+        size: normal
+        title: Info
+        description: >- 
+          In Bus Simulator, 
+          there are currently six cosmetics in the game, 
+          and they are exclusive to a specific player. 
+          While the page will not list their ROBLOX username, 
+          we will show the cosmetics, 
+          and what they go by online. 
+          The cosmetics can also be seen in Kit Battle.
+
+          <br><br>
+
+          Note: Only these players have access to their own cosmetics, 
+          and you cannot get them by simply asking for one. 
+          All of these cosmetics are also hard to come by normally. 
+          All images will be pulled from the <a href="https://kit-battle.fandom.com/wiki/Cosmetics">Kit Battle</a> page under the same name. 
+          Majority of these players also don't play Bus Sim and Kit Battle frequently anymore, 
+          making all but Tazer's very rare to see.
+
+    - type: section
+      content:
+        size: normal
+        title: Zeon
+        description: >-
+         <i>Zeon no longer wears her cosmetic, and isn't possible to see in-game anymore.</i>
+        
+         <br><br>
+
+         Zeon has the most advanced cosmetic. 
+         She has several expressions, 
+         that reacts to damage. 
+         It also makes beeps when damage was taken. 
+    - type: table
+      content:
+        columnSpacing: 215px 215px
+        widthSize: 100
+        imageSize: 192   256
+        titles:
+          - "Cosemetic"
+          - "Description"
+          - "Images"
+        items:
+          - ["Halloween", "Her visor color would change to Orange during October.", "/bussim-assets/images/others/cosmetics/Zeon-October.webp"]
+          - ["Happy","Zeon has a happy expression, you'll see her visor like this most commonly, when she's not taking damage.","/bussim-assets/images/others/cosmetics/Zeon-Default.webp"]
+          - ["Neutral","Neutral is a smaller, but still noticable expression as a transition from Pained to Happy. It's harder to notice, as it switches to Happy after roughly a second.","/bussim-assets/images/others/cosmetics/Zeon-Neutral.webp"]
+          - ["Hurt","Zeon would flinch when damage was taken from anything. It's easily noticeable after taking damage, as it also makes a beeping sound. The expression lasts a few seconds, then switches the Neutral.","/bussim-assets/images/others/cosmetics/Zeon-Hurt.webp"]
+
+    - type: section
+      content:
+        size: normal
+        title: Pear
+        description: >- 
+          Pear's cosmetic has a cat bell collar and his face mask mouth gives expressions based on default and pained.
+
+    - type: section
+      content:
+        size: normal
+        title: Bread 
+        description: >- 
+          Bread's cosmetic has a simple Ralsei cosmetic, and has no special effects or anything.
+
+    - type: table
+      content:
+        columnSpacing: 215px 215px
+        widthSize: 100
+        imageSize: 192 256
+        titles:
+          - "Cosemetic"
+          - "Images"
+        items:
+          - ["Default","/bussim-assets/images/others/cosmetics/Bread.webp"]
+
+    - type: section
+      content:
+        size: normal
+        title: Teddy
+        description: >- 
+          <br>
+          Teddy only has a unique shadow, referencing Toontown.
+
+    - type: table
+      content:
+        columnSpacing: 215px 215px
+        widthSize: 100
+        imageSize: 192 256
+        titles:
+          - "Cosemetic"
+          - "Images"
+        items:
+          - ["Shadow","/bussim-assets/images/others/cosmetics/Teddy.webp"]
+
+    - type: section
+      content:
+        size: normal
+        title: Tazer 
+        description: >- 
+          Tazer's Cosmetic is very similar to Zeon's, 
+          but in Yellow, 
+          deeper beeping sounds, 
+          and uses Cyber Critter 9006 instead of 9000. 
+          It also has a lightning bolt design on the sides.
+
+    - type: table
+      content:
+        columnSpacing: 215px 215px
+        widthSize: 100
+        imageSize: 256 192
+        titles:
+          - "Cosemetic"
+          - "Description"
+          - "Images"
+        items:
+          - ["Neutral","","/bussim-assets/images/others/cosmetics/Tazer.webp"]
+          - ["Pained","Whenever Tazer takes damage, his visor corrupts.","/bussim-assets/images/others/cosmetics/Tazer-Hurt.webp"]
+          - ["Racecar Reskin","Tazer has a Mini-Bus reskin that changes it into a Race car, as seen in <a href='https://www.roblox.com/games/5556164542/Minibus-Racing-Very-Early-Pre-Alpha'>Minibus Racing</a>.","/bussim-assets/images/others/cosmetics/Tazer-Minibus.webp"]
+
+    - type: section
+      content:
+        size: normal
+        title: Frostbite / Noble
+        description: >-
+          NobleReign also has a special cosmetic if he wears the Build-A-Fur Wolf set, 
+          in which his eyes turn blue, 
+          his sclera turns white, 
+          and his fur color matches the one with his shirt. 
+          This same effect can also be seen in Noble's alt being ColdWolfFrost, 
+          or Frostbite himself.
+
+    - type: section
+      content:
+        size: normal
+        title: Trivia
+        
+    - type: tree
+      content:
+        - name: The Cosmetics were originally a Kit Battle exclusive, until July 31st, 2020, where they were added to Bus Simulator.
+        - name: Zeon's cosmetic was the first to be made.
+          children:
+            - name: All expressions (Besides Happy) were custom made by NobleReign.
