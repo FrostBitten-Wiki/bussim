@@ -208,6 +208,62 @@
                 [4000, "Tazer", "sweat", "Hey! Don't call me out like that!"]
             ]
         },
+
+        "tazer002": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Tazer", "point", "On fire?"],
+                [3000, "Tazer", "default", "You can put yourself out by drinking a cold cola."]
+            ]
+        },
+
+        "tazer003": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Tazer", "default", "Ever listen to the radio?"],
+                [4000, "Tazer", "point", "We've got an amazing selection of music and memes, alongside awesome DJs to help out between music transitions!"]
+            ]
+        },
+
+        "tazer004": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Tazer", "default", "If you own the Airhorn gamepass, you should try using it near some of the people you encounter."],
+                [3000, "Tazer", "default", "Just don't tell them I told you to do it."]
+            ]
+        },
+
+        "tazer005": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Tazer", "point", "You can check out the beta version of the game to see things being added to the game in future updates!"],
+                [3000, "Tazer", "point", "Just remember, not everything there is always going to be fully functional."]
+            ]
+        },
+
+        "tazer006": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Tazer", "default", "Want a small passenger rep boost?"],
+                [3000, "Tazer", "default", "You know who to look out for."]
+            ]
+        },
+
+        "tazer007": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Tazer", "angry", "If you see Green or Disc around, tell them to lower my gas prices!"]
+            ]
+        },
+
+        "tazer008": {
+            "rarity": 100,
+            "dialogue": [
+                [3000, "Tazer", "default", "If you ever find yourself in a sticky situation in the backwalls, you can use liquid void to camouflage yourself."]
+            ]
+        },
+
+        
         
         "zeon001": {
             "rarity": 100,
