@@ -60,7 +60,7 @@ html:
               The D.I.Y. Minibus is an official accessory that you can buy <a href='https://www.roblox.com/catalog/14448729069/D-I-Y-Minibus'>here</a>.
               The accessory, if worn in-game, will change colors based off of what color you set with !color if you have the <a href='/bussim/items/mini-bus'>Mini-Bus</a> gamepass.
               Otherwise it'll act as a normal waist accessory in any other game on Roblox.
-            listItemRedirect: /bussim/locations/diy-mini-bus
+            listItemRedirect: /bussim/others/diy-mini-bus
           
           - listItemImage: /bussim-assets/images/others/games.webp
             listItemTitle: Games
