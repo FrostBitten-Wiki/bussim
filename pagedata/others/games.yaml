@@ -187,10 +187,9 @@ html:
 
     - type: section
       content:
-        size: small
+        size: normal
         title: Counters
         description: >- 
-          <br>
           Each element counters the following opposing elements:
 
     - type: tree
