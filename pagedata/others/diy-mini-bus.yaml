@@ -1,0 +1,69 @@
+page:
+  title: D.I.Y. Mini-Bus
+  description: The D.I.Y. Minibus is an official accessory that you can buy here.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, D.I.Y. Mini-Bus
+  tags: D.I.Y. Mini-Bus, official ugc item, diy, mini-bus, mini bus
+
+attributions:
+  - "Ported By PolyframeX"
+
+html:
+  header:
+    title: D.I.Y. Mini-Bus
+    description: >- 
+      Category: <a href="/bussim/others">Others</a>
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  
+  pageContent:
+    - type: quote
+      content:
+       quote: "Beep! Now you can take your Minibus with you where ever you go!"
+       author: "D.I.Y. Mini-Bus"
+
+    - type: section
+      content:
+        size: normal
+        title: Info
+        description: >- 
+          The D.I.Y. Minibus is an official accessory that you can buy <a href="https://www.roblox.com/catalog/14448729069/D-I-Y-Minibus">here</a>. 
+          The accessory, 
+          if worn in-game, 
+          will change colors based off of what color you set with !color if you have the <a href='/bussim/items/mini-bus'>Mini-Bus</a> gamepass. 
+          Otherwise it'll act as a normal waist accessory in any other game on Roblox.
+
+          <br><br>
+
+          You can also buy it in one of the cabinets in the first floor of <a href='/bussim/locations/the-bus'>The Bus</a>, 
+          displayed as a very miniature figure.
+
+    - type: section
+      content:
+        size: normal
+        title: Appearance
+        description: >-
+         The D.I.Y. Minibus is made out of cardboard with the exterior colors being based off of your Mini-Bus, 
+         with the front having some crudely drawn headlights, 
+         as well as a 2D drawing of a Noob driving, 
+         and white outlines of seats and stairs in the back. 
+         The sides has fake windows, 
+         and tires with only the front-facing surfaced colored. 
+         The back also has a fake window, 
+         as well as two tiny antennas, 
+         red brake lights, 
+         and a license plate saying "PLAY BUS SIM". 
+         The interior has a cardboard seat and a steering wheel.
+
+    - type: section
+      content:
+        size: normal
+        title: Trivia
+        
+    - type: tree
+      content:
+        - name: This is the first ever non-clothing accessory that has been created for the game.
+
+    - type: gallery
+      content:
+        images: 
+          - /bussim-assets/images/others/diy-mini-bus.webp
