@@ -1,0 +1,93 @@
+page:
+  title: Reputation
+  description: Reputation (or more commonly known as 'rep') is a statistic in Bus Simulator that works either as collection for milestones like as heart tags,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Reputation
+
+attributions:
+  - "Ported By PolyframeX"
+
+html:
+  header:
+    title: Reputation
+    description: >- 
+      Category: <a href="/bussim/others">Others</a>
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  
+  pageContent:
+    - type: section
+      content:
+        size: normal
+        title: Info
+        description: >- 
+         Reputation (or more commonly known as 'rep') is a statistic in Bus Simulator that works either as collection for milestones like as heart tags, 
+         or currency for permanent items, 
+         and it also has two different forms, 
+         both of which can be obtained in different ways.
+
+    - type: section
+      content:
+        size: normal
+        title: Passenger Reputation
+        description: >- 
+          Passenger reputation is obtained by:
+    
+    - type: tree
+      content:
+        - name: Thanking your current Bus Driver <small>(using "thanks" "thx" "thank" "+rep" "tank", etc.)</small> and the driver's name after that. The name also must have at least the first three letters of their display/username.
+          children:
+            - name: "An example would be: \"+rep Joe\" or \"thanks Try\" <small>(Display Name: Tryhard | Username: Joe47478)</small>"
+        - name: Getting it as an hourly gift from the New Year's event. <small>(1-5 Any Rep)</small>
+        - name: Inviting or being invited by a friend, and staying with them for an hour. <small>(10 passenger rep per friend, up to 30 per day)</small>
+
+    - type: text
+      content:
+        text: >- 
+          You can use passenger reputation in buying permanent items from <a href='/bussim/events/goated-gas-station'>Goated Gas</a>, 
+          or you can spend it on <a href='/bussim/npcs/pear'>Pear</a> in the <a href='/bussim/events/backwalls'>Backwalls</a> event to find a way out.
+
+          <br><br>
+
+          The two badges related to it are "Thanks!" 
+          which requires just 1 passenger rep, 
+          and "Thankful" which requires 100 passenger rep.
+
+          <br><br>
+
+          You also won't be able to thank the same driver twice unless you already spent your reputation.
+
+    - type: section
+      content:
+        title: Driver Reputation
+        description: >- 
+          Similarly, Driver Reputation is obtained by four methods:
+
+    - type: tree
+      content:
+        - name: Being the one thanked by passengers. <small>(This requires sitting on the Driver's Seat.)</small>
+          children:
+            - name: Occasionally, you won't gain any reputation when someone thanks you. It is unknown if this is a bug or a feature, and it seems to happen arbitrarily.
+        - name: Completing Tazer's RAM Quest. <small>(2 driver rep per completion.)</small>
+        - name: From the New Years gift. <small>(1-5 Any Rep)</small>
+        - name: Inviting or being invited by a friend, and staying with them for an hour. <small>(10 driver rep for the first friend and 5 for subsequent friends, up to 30 per day)</small>
+
+    - type: text
+      content:
+        text: >- 
+          Driver reputation has a few more uses, 
+          being that you can kick other people from the driver seat if your driver reputation exceeds theirs and you own the <a href="https://www.roblox.com/game-pass/4894984/Bus-Driver">Driver</a> gamepass, 
+          however if you have less than them, 
+          you won't be able to kick them off.
+
+          <br><br>
+
+          Driver Reputation can also give you <a href='/bussim/others/ranks-tags'>hearts depending on how much you have</a>, 
+          with the last heart at 50,000.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: There originally was meant to be a Broken Heart for getting 10 Driver Rep, but this has been replaced with the Beating Heart.
