@@ -48,3 +48,8 @@ html:
     - type: tree
       content:
         - name: Much like the <a href="/bussim/items/diy-mini-bus">D.I.Y. Bus</a>, this is the second non-clothing accessory to be made in relation to Bus Simulator.
+
+    - type: gallery
+      content:
+        images: 
+          - /bussim-assets/images/others/bus-cola-bandolier.webp
