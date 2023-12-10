@@ -1,6 +1,6 @@
 {
     "dialogueData": {
-                "disc001": {
+        "disc001": {
             "rarity": 100,
             "dialogue": [
                 [3000, "Disc", "point", "Hey! Did you know that you can buy items on the GOATed Gas Station?"],

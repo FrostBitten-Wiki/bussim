@@ -41,8 +41,15 @@
         {% endif %}
 
         <link rel="stylesheet" href="/bussim-assets/dialogue.css">
-        
-        <audio id="soundSource" controls autoplay style="display: none;">
+   
+        <audio preload="auto" style="display: none;">
+            <source src="/bussim-assets/sounds/button.mp3" type="audio/mp3">
+            <source src="/bussim-assets/sounds/elecping.mp3" type="audio/mp3">
+            <source src="/bussim-assets/sounds/meow.mp3" type="audio/mp3">
+            <source src="/bussim-assets/sounds/ouch.mp3" type="audio/mp3">
+        </audio>
+            
+        <audio id="soundSource" style="display: none;">
             <source type="audio/mp3">
         </audio>
     </head>

@@ -20,8 +20,16 @@ function playSound(soundfile) {
         soundSource.src = `/bussim-assets/sounds/${soundfile}.mp3`;
         soundSource.play();
     } else {
-        soundSource.currentTime = 0;
-        soundSource.play();
+        let originalAudio = document.getElementById("soundSource");
+        let clonedAudio = originalAudio.cloneNode(true);
+        clonedAudio.id = "clonedAudio";
+        document.body.appendChild(clonedAudio);
+        clonedAudio.play();
+
+        clonedAudio.addEventListener("ended", function () {
+            document.body.removeChild(clonedAudio);
+        });
+        //soundSource.play();
     }
 }
 
@@ -32,22 +40,34 @@ function startSpeaking(data, characterData) {
     function showNextDialogue() {
         if (index < data.dialogue.length) {
             const charData = characterData[data.dialogue[index][1]];
-
-            playSound(charData["dialogueSfx"]);
-
+            const text = data.dialogue[index][3];
+            let charIndex = 0;
+    
+            
             delay = data.dialogue[index][0];
+            charDelay = data.dialogue[index][4];
             speakerName.innerHTML = data.dialogue[index][1];
             speakerImage.classList.remove(previousImage);
             previousImage = `dialogue-${charData["dialogueEmoteName"]}_${data.dialogue[index][2]}`;
             speakerImage.classList.add(previousImage);
-            speakerDialogue.innerHTML = data.dialogue[index][3];
-
             speakerPopup.style.setProperty("--color1", charData["dialogueColors"][0]);
             speakerPopup.style.setProperty("--color2", charData["dialogueColors"][1]);
             speakerPopup.style.setProperty("--color3", charData["dialogueColors"][2]);
-
-            index++;
-            setTimeout(showNextDialogue, delay);
+            
+            function addCharacter() {
+                speakerDialogue.innerHTML = text.slice(0, charIndex);
+                charIndex++;
+                
+                if (charIndex <= text.length) {
+                    playSound(charData["dialogueSfx"]);
+                    setTimeout(addCharacter, charDelay);
+                } else {
+                    index++;
+                    setTimeout(showNextDialogue, delay);
+                }
+            }
+    
+            addCharacter();
         } else {
             setTimeout(() => {
                 delay = data.dialogue[index - 1][0];
