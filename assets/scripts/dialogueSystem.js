@@ -18,14 +18,14 @@ fetch("/bussim-assets/dialoguedata/dialogue.json")
 function playSound(soundfile) {
     if (soundSource.src !== `${window.location.protocol + "//" + window.location.host}/bussim-assets/sounds/${soundfile}.mp3`) {
         soundSource.src = `/bussim-assets/sounds/${soundfile}.mp3`;
-        soundSource.volume = .3;
+        soundSource.volume = .2;
         soundSource.play();
     } else {
         let originalAudio = document.getElementById("soundSource");
         let clonedAudio = originalAudio.cloneNode(true);
         clonedAudio.id = "clonedAudio";
         document.body.appendChild(clonedAudio);
-        clonedAudio.volume = .3;
+        clonedAudio.volume = .2;
         clonedAudio.play();
 
         clonedAudio.addEventListener("ended", function () {
