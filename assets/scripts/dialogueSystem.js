@@ -44,7 +44,6 @@ function startSpeaking(data, characterData) {
             const charData = characterData[data.dialogue[index][1]];
             const text = data.dialogue[index][3];
             let charIndex = 0;
-    
             
             delay = data.dialogue[index][0][0];
             charDelay = data.dialogue[index][0][1];
@@ -80,7 +79,9 @@ function startSpeaking(data, characterData) {
                 }
             
                 if (charIndex <= text.length) {
-                    playSound(charData["dialogueSfx"]);
+                    if (charIndex % 3 === 0) {
+                        playSound(charData["dialogueSfx"]);
+                    }
                     setTimeout(addCharacter, charDelay);
                 } else {
                     index++;
