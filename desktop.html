@@ -74,7 +74,7 @@
             }
         </style>
         
-        <div id="searchScreen" style="bottom: -100vh;">
+        <div id="searchScreen" style="bottom: -445px;">
             <div style="transition: margin 500ms; margin-top: 30px; margin-left: 10vw; margin-right: 10vw; box-sizing: border-box;">
                 <text style="font-size: 35px;">Search Results</text>
 
@@ -111,7 +111,7 @@
                         const isSearchBar = searchBar.contains(event.target);
 
                         if (!isSearchScreen && !isSearchBar) {
-                            searchScreen.style.bottom = '-500px';
+                            searchScreen.style.bottom = '-445px';
                         }
                     });
                     
@@ -412,24 +412,45 @@
                                 </div>
                             </div>
                         {% elif data['type'] == "buttons" %}
-                            {%- set ns = namespace(uuid = 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx') %}
-                            {%- set ns.new_uuid = '' %}
-                            {%- for x in ns.uuid %}
-                                {%- set ns.new_uuid = [ns.new_uuid,(x | replace('x', [0,1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f', 'h'] | random ))] | join %}
-                            {%- endfor %}
+                            {% set ns = namespace(uuid = 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx') %}
+                            {% set ns.new_uuid = '' %}
+                            {% for x in ns.uuid %}
+                                {% set ns.new_uuid = [ns.new_uuid,(x | replace('x', [0,1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f', 'h'] | random ))] | join %}
+                            {% endfor %}
 
                             <div>
-                                <div class="sidebar" style="padding: 0;">
+                                <div style="padding: 0; display: flex; gap: 0 10px;">
                                     {% for data in data["content"]["buttons"] %}
-                                    <button onclick="location.href=`{{ data[2] }}`">
-                                        <text style="margin-top: 3px; margin-left: 13px; font-size: 17px;">{{ data[0] }}</text>
-                                        <text type="hoverText">{{ data[1] }}</text>
-                                    </button>
+                                        <button onclick="location.href=`{{ data[1] }}`">
+                                            <text type="hoverText">{{ data[0] }}</text>
+                                        </button>
                                     {% endfor %}
                                 </div>
                             </div>
                         {% endif %}
                     {% endfor %}
+
+                    <style>
+                        button {
+                            background-color: #1a149c;
+
+                            width: auto;
+                            height: 35px;
+                            border: none;
+                            transition: 0.3s;
+                            align-items: center;
+                            display: flex;
+                            justify-content: space-between;
+                            overflow: hidden;
+                            margin-bottom: 5px;
+                        }
+
+                        button:hover {
+                            cursor: pointer;
+                            color: white;
+                            background-color: #2c269a;
+                        }
+                    </style>
                     
                     {% if attributions != [] %}
                     <div style="margin-top: 10px; margin-bottom: 20px;">

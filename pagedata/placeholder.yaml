@@ -5,7 +5,8 @@
 page:
   # This value changes the Page's Title (not on the content)
   title: PageTitle
-  # This value changes the Page's Description (not on the content)
+  # This value changes the Page's Description and Description for the Search Results (not on the content)
+  # THIS IS DIFFERENT THAN THE HEADER DESCRIPTION!!! This description should always be left short.
   description: PageDescription
   # This value changes the Page's Keywords to be able to be searched on any Search Engines.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
@@ -154,12 +155,15 @@ html:
     - type: buttons
       content:
         buttons:
-          - ["?", "Title", "/bussim/home"]
-          - ["?", "Title", "/bussim/home"]
-          - ["?", "Title", "/bussim/home"]
-          - ["?", "Title", "/bussim/home"]
-          - ["?", "Title", "/bussim/home"]
-          - ["?", "Title", "/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
 
 
 
