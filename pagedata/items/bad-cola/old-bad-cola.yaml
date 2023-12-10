@@ -1,0 +1,71 @@
+page:
+  title: Old Bad Cola
+  description: The OldBadCola was presumably the original Bad Cola that became deprecated following the new and current version,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Old Bad Cola
+  tags: old bad cola, bus item
+
+attributions:
+  - "Ported By PolyframeX"
+
+html:
+  header:
+    title: Old Bad Cola
+    description: >-
+      Category: <a href="/bussim/items">Items</a>
+    
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+
+  pageContent:
+    - type: buttons
+      content:
+        buttons:
+          - ["Bad Cola", "/bussim/items/bad-cola"]
+          - ["<highlight>Old Bad Cola</highlight>", "/bussim/items/bad-cola/old-bad-cola"]
+
+    - type: section
+      content:
+        size: normal
+
+    - type: infobox
+      content:
+        infoBoxTitle: 
+          - "Admin Exclusive Content"
+          - "#b00b69"
+        infoBoxDescription: >-
+          <i>"I saw some dude jumping around with some sort of rocket launcher made of cones a while ago. Not sure how it works, but if I were you, I wouldn't make them angry."</i> - Tazer
+
+          <br>
+
+          <small>This page has content exclusive to admins of the game. This may include scrapped / hidden content that is normally inaccessible during normal gameplay.</small>
+    - type: quote
+      content:
+        quote: "Smells... odd."
+        author: Item Description
+
+    - type: section
+      content:
+        size: normal
+        title: Info
+        description: >-
+          The OldBadCola was presumably the original Bad Cola that became deprecated following the new and current version, 
+          and it can be shown by how it functions as both the mechanic and texture seem to be missing. 
+          You can still drink it however and it won't kill you and it'll still produce the same sound as the current. 
+          It is unknown when or why it was replaced.
+
+    - type: section
+      content:
+        size: normal
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: Despite the texture being swiftly removed, it is possible to view it for a split second, being the current Bad Cola texture.
+          children:
+            - name: When using <a href='/bussim/items/edit'>Edit</a>, you'll also see that after the removal both the Mesh and Texture are identical to the Bloxy Cola mesh, being 10470609.
+        - name: Despite it being a <a href='/bussim/items/cola'>Cola</a>, it still doesn't heal you.
+        
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/OldBadCola.webp
