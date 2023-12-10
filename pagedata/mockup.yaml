@@ -18,6 +18,14 @@ html:
     imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
+    - type: buttons
+      content:
+        buttons:
+          - ["<highlight>Lorem ipsum</highlight>", "/bussim/mockup"]
+          - ["Lorem ipsum", "/bussim/mockup/mockup"]
+    - type: section
+      content:
+        size: normal
     - type: infobox
       content:
         infoBoxTitle: 
@@ -59,12 +67,6 @@ html:
       content:
        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
        author: Lorem ipsum dolor sit amet
-
-    - type: buttons
-      content:
-        buttons:
-          - ["?", "Placeholder", "/bussim/placeholder"]
-          - ["?", "Placeholder", "/bussim/placeholder"]
 
     - type: section
       content:
