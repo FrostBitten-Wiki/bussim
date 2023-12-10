@@ -2,7 +2,7 @@ page:
   title: Locations
   description: Locations are areas in the game that players can explore for as long as the event lasts. Some locations aren't tied to events (I.e. Void), and can be entered easily at any time.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim locations
-  tags: locations, game locations
+  ignore: ignore
 
 attributions: []
 

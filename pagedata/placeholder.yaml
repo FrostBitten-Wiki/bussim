@@ -12,6 +12,7 @@ page:
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   # This value is used for the Wiki Server's search function. Recommended only for non-ignored YAML files.
   #tags: some, tags, here
+  ignore: ignore
 
 # This attribute handles the attribution (or credits) for the page.
 # This should only contain the following:
