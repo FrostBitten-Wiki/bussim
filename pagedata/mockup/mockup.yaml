@@ -7,6 +7,7 @@ page:
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Avian Potion
+  ignore: ignore
 attributions:
   - "Lorem ipsum dolor sit amet,"
 html:
