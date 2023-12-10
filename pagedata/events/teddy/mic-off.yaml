@@ -1,0 +1,63 @@
+page:
+  title: Mic Off
+  description: MicOff is the secondary ending, that is assumed to be after the first outcome, being MicSpam
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Mic Off
+attributions:
+  - "Ported By PolyframeX"
+html:
+  header:
+    title: Mic Off
+    description: >-
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>MicOff</highlight>
+    image: ''
+    imageBanner: /bussim-assets/images/events/TeddyDead.webp
+
+  pageContent:
+    - type: buttons
+      content:
+        buttons:
+          - ["Mic Spam", "/bussim/events/teddy"]
+          - ["<highlight>Mic Off</highlight>", "/bussim/events/teddy/mic-off"]
+
+    - type: section
+      content:
+        size: normal
+    - type: quote
+      content:
+        quote: "SHUT UP!!!"
+        author: Driver
+    - type: section
+      content:
+        title: Info
+        description: >- 
+          MicOff is the secondary ending, 
+          that is assumed to be after the first outcome, 
+          being MicSpam. 
+          When this happens the same exact event will occur being that Teddy will sing his song, 
+          but before he can continue the later parts of the song, 
+          the driver finally snaps and backpedals the Bus to then push the gas, 
+          running over Teddy and finally ending his song early. 
+          The event will also end right after that.
+
+          <br><br>
+
+          This will also cause Teddy to explode into parts when being ran over.
+
+          <br><br>
+
+          The passengers or driver will then exclaim signs of either relief or concern afterwards.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: This is the one of the only events in the game to feature two identical versions but with slight alterations, similar to <a href='/bussim/events/no-dough'>No Dough</a> and the now inaccessible version, <a href='/bussim/events/santas-gone'>Santas Gone</a>.
+        - name: While it is heavily implied that MicOff is the outcome after MicSpam, It's possible to roll MicOff first before MicSpam.
+        - name: MicOff's runtime is significantly much shorter compared to MicSpam, with a runtime of only 37 seconds.
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/TeddyDead.webp
+          
