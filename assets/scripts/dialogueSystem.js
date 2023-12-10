@@ -12,18 +12,20 @@ let dialogueData;
 fetch("/bussim-assets/dialoguedata/dialogue.json")
 .then((response) => response.json())
 .then((jsonData) => {
-    dialogueData = jsonData; // Store the loaded JSON data
+    dialogueData = jsonData;
 });
 
 function playSound(soundfile) {
     if (soundSource.src !== `${window.location.protocol + "//" + window.location.host}/bussim-assets/sounds/${soundfile}.mp3`) {
         soundSource.src = `/bussim-assets/sounds/${soundfile}.mp3`;
+        soundSource.volume = .3;
         soundSource.play();
     } else {
         let originalAudio = document.getElementById("soundSource");
         let clonedAudio = originalAudio.cloneNode(true);
         clonedAudio.id = "clonedAudio";
         document.body.appendChild(clonedAudio);
+        clonedAudio.volume = .3;
         clonedAudio.play();
 
         clonedAudio.addEventListener("ended", function () {
@@ -44,8 +46,8 @@ function startSpeaking(data, characterData) {
             let charIndex = 0;
     
             
-            delay = data.dialogue[index][0];
-            charDelay = data.dialogue[index][4];
+            delay = data.dialogue[index][0][0];
+            charDelay = data.dialogue[index][0][1];
             speakerName.innerHTML = data.dialogue[index][1];
             speakerImage.classList.remove(previousImage);
             previousImage = `dialogue-${charData["dialogueEmoteName"]}_${data.dialogue[index][2]}`;
@@ -55,9 +57,28 @@ function startSpeaking(data, characterData) {
             speakerPopup.style.setProperty("--color3", charData["dialogueColors"][2]);
             
             function addCharacter() {
-                speakerDialogue.innerHTML = text.slice(0, charIndex);
-                charIndex++;
+                const char = text[charIndex];
                 
+                if (char === "<") {
+                    let htmlTag = char;
+                    charIndex++;
+            
+                    while (charIndex < text.length && text[charIndex] !== ">") {
+                        htmlTag += text[charIndex];
+                        charIndex++;
+                    }
+            
+                    if (charIndex < text.length) {
+                        htmlTag += ">";
+                        charIndex++;
+                    }
+            
+                    speakerDialogue.innerHTML = htmlTag;
+                } else {
+                    speakerDialogue.innerHTML = text.slice(0, charIndex);
+                    charIndex++;
+                }
+            
                 if (charIndex <= text.length) {
                     playSound(charData["dialogueSfx"]);
                     setTimeout(addCharacter, charDelay);
@@ -128,5 +149,4 @@ function randomDialogueEvent(force, id) {
     }
 }
 
-// Set the interval for random dialogue events
 setInterval(() => randomDialogueEvent(), 2500);
