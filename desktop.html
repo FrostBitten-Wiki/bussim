@@ -427,6 +427,63 @@
                                     {% endfor %}
                                 </div>
                             </div>
+                        {% elif data['type'] == "npcChat" %}
+                            <div id="{{ data['content']['id'] }}-dialogue" class="checkBg" style="margin-top: 20px; margin-bottom: 5px; padding: 5px; --color1: grey; --color2: white; --color3: grey; width: 100%; height: 150px;">
+                                <text id="{{ data['content']['id'] }}-name" style="font-size: 20px;"></text><br>
+                                <text id="{{ data['content']['id'] }}-chat"></text>
+                            </div>
+
+                            <div id="{{ data['content']['id'] }}-choices" style="padding: 0; display: flex; gap: 0 10px; margin-bottom: 30px;">
+
+                            </div>
+                            
+                            <script>
+                                // this looks so wrong... at least it works though
+                                let {{ data["content"]["id"] }}Data;
+
+                                const dialogueName = document.getElementById("{{ data['content']['id'] }}-name")
+                                const dialogueText = document.getElementById("{{ data['content']['id'] }}-chat")
+                                const dialogueBox = document.getElementById("{{ data['content']['id'] }}-dialogue")
+
+                                window.onload = function() {
+                                    fetch("{{ data['content']['chatData'] }}")
+                                    .then(response => response.json())
+                                    .then(data => {
+                                        {{ data["content"]["id"] }}Data = data;
+                                        changeDialogue("startDialogue")
+                                    })
+                                    .catch(error => console.error('Error fetching data:', error));
+                                    
+                                }
+
+                                function changeDialogue(dialogueId) {
+                                    const chatData = {{ data["content"]["id"] }}Data[dialogueId];
+                                    const userData = chatData[chatData.name];
+
+                                    dialogueBox.style.setProperty('--color1', dialogueData.characterData[chatData.name]["dialogueColors"][0]);
+                                    dialogueBox.style.setProperty('--color2', dialogueData.characterData[chatData.name]["dialogueColors"][1]);
+                                    dialogueBox.style.setProperty('--color3', dialogueData.characterData[chatData.name]["dialogueColors"][2]);
+
+                                    dialogueName.innerText = chatData.name;
+                                    dialogueText.innerText = random(chatData.text);
+
+                                    playSound(dialogueData.characterData[chatData.name]["dialogueSfx"]);
+
+                                    const choices = document.getElementById("{{ data['content']['id'] }}-choices");
+                        
+                                    choices.innerHTML = '';
+                                    chatData.choices.forEach(item => {
+                                        const element = document.createElement('div');
+                                        element.innerHTML = `
+                                        <button onclick="changeDialogue('${item[1]}')">
+                                            <text type="hoverText">${item[0]}</text>
+                                        </button>
+                                        `;
+                                        choices.appendChild(element);
+                                    });
+                                }
+
+                            </script>
                         {% endif %}
                     {% endfor %}
 

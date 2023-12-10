@@ -1,0 +1,53 @@
+{
+    "startDialogue": {
+        "name": "Nyx",
+        
+        "text": [
+            "Dialogue 1",
+            "Dialogue 2",
+            "Dialogue 3"
+        ],
+
+        "choices": [
+            ["Choice 1", "choice1"],
+            ["Choice 2", "choice2"],
+            ["Choice 3", "choice3"]
+        ]
+    },
+
+    "choice1": {
+        "name": "Nyx",
+
+        "text": [
+            "You choice Choice 1"
+        ],
+
+        "choices": [
+            ["Go Back", "startDialogue"]
+        ]
+    },
+
+    "choice2": {
+        "name": "Nyx",
+
+        "text": [
+            "You choice Choice 2"
+        ],
+
+        "choices": [
+            ["Go Back", "startDialogue"]
+        ]
+    },
+
+    "choice3": {
+        "name": "Nyx",
+
+        "text": [
+            "You choice Choice 3"
+        ],
+
+        "choices": [
+            ["Go Back", "startDialogue"]
+        ]
+    }
+}

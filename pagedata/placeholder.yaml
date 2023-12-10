@@ -147,10 +147,12 @@ html:
           - /bussim-assets/images/banner.jpg
           - /bussim-assets/images/banner.jpg
 
-    # This adds an interactable dialogue to emulate talking to an NPC. This currently has no purpose.
+    # This adds an interactable dialogue to emulate talking to an NPC.
+    # The chatData can be seen on /chatdata/npcChat.json for reference.
     - type: npcChat
       content:
-        converstationTree: {}
+        id: npcChat
+        chatData: /bussim-assets/chatdata/npcChat.json
 
     # This adds buttons to the content.
     - type: buttons

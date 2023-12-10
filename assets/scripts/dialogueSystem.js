@@ -20,6 +20,7 @@ function playSound(soundfile) {
         soundSource.src = `/bussim-assets/sounds/${soundfile}.mp3`;
         soundSource.play();
     } else {
+        soundSource.currentTime = 0;
         soundSource.play();
     }
 }

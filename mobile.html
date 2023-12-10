@@ -74,7 +74,7 @@
             }
         </style>
         
-        <div id="searchScreen" style="bottom: -100vh;">
+        <div id="searchScreen" style="bottom: -445px;">
             <div style="transition: margin 500ms; margin-top: 30px; margin-left: 10vw; margin-right: 10vw; box-sizing: border-box;">
                 <text style="font-size: 35px;">Search Results</text>
 
@@ -101,7 +101,7 @@
                     <text type="hoverText">Other Stuff</text>
                 </button>
 
-                <input id="searchBar" placeholder="Search" onclick="document.getElementById('searchScreen').style.bottom = '55px'">
+                <input id="searchBar" placeholder="Search" onclick="document.getElementById('searchScreen').style.bottom = '55px'" autocomplete="off">
 
                 <script>
                     document.addEventListener('click', function (event) {
@@ -111,7 +111,7 @@
                         const isSearchBar = searchBar.contains(event.target);
 
                         if (!isSearchScreen && !isSearchBar) {
-                            searchScreen.style.bottom = '-500px';
+                            searchScreen.style.bottom = '-445px';
                         }
                     });
                     
@@ -298,19 +298,19 @@
                         {% elif data['type'] == "section" %}
                             {% set size = data["content"]["size"] | default("normal") %}
                             {% if size == "large" %}
-                                <div style="margin-top: 20px; margin-bottom: 35px;">
+                                <div style="margin-top: 20px; margin-bottom: 35px;" id="{{ data['content']['title'] | lower | replace(' ', '-') }}">
                                     <text style="font-size: 25px;">{{ data['content']['title'] }}</text>
                                     <div style="width: 100%; height: 1px; background-color: white; margin-top: 2px; margin-bottom: 5px; box-shadow: 0 2px 0 #000000;"></div>
                                     <text>{{ data['content']['description'] }}</text>
                                 </div>
                             {% elif size == "normal" %}
-                                <div style="margin-top: 20px; margin-bottom: 35px;">
+                                <div style="margin-top: 20px; margin-bottom: 35px;" id="{{ data['content']['title'] | lower | replace(' ', '-') }}">
                                     <text style="font-size: 25px;">{{ data['content']['title'] }}</text>
                                     <div style="width: 100%; height: 1px; background-color: white; margin-top: 2px; margin-bottom: 5px; box-shadow: 0 2px 0 #000000;"></div>
                                     <text>{{ data['content']['description'] }}</text>
                                 </div>
                             {% elif size == "small" %}
-                                <div style="margin-top: 20px; margin-bottom: 35px;">
+                                <div style="margin-top: 20px; margin-bottom: 35px;" id="{{ data['content']['title'] | lower | replace(' ', '-') }}">
                                     <text style="font-size: 25px;">{{ data['content']['title'] }}</text>
                                     <text>{{ data['content']['description'] }}</text>
                                 </div>
@@ -402,7 +402,7 @@
                                 {% endfor %}
                             </div>
                         {% elif data['type'] == "gallery" %}
-                            <text style="font-size: 25px;">Gallery</text>
+                            <text style="font-size: 25px;" id="gallery">Gallery</text>
                             <div class="gallery-container" style="margin-bottom: 20px;">
     
                                 <div class="gallery" style="padding: 10px;">
@@ -411,8 +411,103 @@
                                     {% endfor %}
                                 </div>
                             </div>
+                        {% elif data['type'] == "buttons" %}
+                            {% set ns = namespace(uuid = 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx') %}
+                            {% set ns.new_uuid = '' %}
+                            {% for x in ns.uuid %}
+                                {% set ns.new_uuid = [ns.new_uuid,(x | replace('x', [0,1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f', 'h'] | random ))] | join %}
+                            {% endfor %}
+
+                            <div>
+                                <div style="padding: 0; display: flex; gap: 0 10px;">
+                                    {% for data in data["content"]["buttons"] %}
+                                        <button onclick="location.href=`{{ data[1] }}`">
+                                            <text type="hoverText">{{ data[0] }}</text>
+                                        </button>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        {% elif data['type'] == "npcChat" %}
+                            <div id="{{ data['content']['id'] }}-dialogue" class="checkBg" style="margin-top: 20px; margin-bottom: 5px; padding: 5px; --color1: grey; --color2: white; --color3: grey; width: 100%; height: 150px;">
+                                <text id="{{ data['content']['id'] }}-name" style="font-size: 20px;"></text><br>
+                                <text id="{{ data['content']['id'] }}-chat"></text>
+                            </div>
+
+                            <div id="{{ data['content']['id'] }}-choices" style="padding: 0; display: flex; gap: 0 10px; margin-bottom: 30px;">
+
+                            </div>
+                            
+                            <script>
+                                // this looks so wrong... at least it works though
+                                let {{ data["content"]["id"] }}Data;
+
+                                const dialogueName = document.getElementById("{{ data['content']['id'] }}-name")
+                                const dialogueText = document.getElementById("{{ data['content']['id'] }}-chat")
+                                const dialogueBox = document.getElementById("{{ data['content']['id'] }}-dialogue")
+
+                                window.onload = function() {
+                                    fetch("{{ data['content']['chatData'] }}")
+                                    .then(response => response.json())
+                                    .then(data => {
+                                        {{ data["content"]["id"] }}Data = data;
+                                        changeDialogue("startDialogue")
+                                    })
+                                    .catch(error => console.error('Error fetching data:', error));
+                                    
+                                }
+
+                                function changeDialogue(dialogueId) {
+                                    const chatData = {{ data["content"]["id"] }}Data[dialogueId];
+                                    const userData = chatData[chatData.name];
+
+                                    dialogueBox.style.setProperty('--color1', dialogueData.characterData[chatData.name]["dialogueColors"][0]);
+                                    dialogueBox.style.setProperty('--color2', dialogueData.characterData[chatData.name]["dialogueColors"][1]);
+                                    dialogueBox.style.setProperty('--color3', dialogueData.characterData[chatData.name]["dialogueColors"][2]);
+
+                                    dialogueName.innerText = chatData.name;
+                                    dialogueText.innerText = random(chatData.text);
+
+                                    playSound(dialogueData.characterData[chatData.name]["dialogueSfx"]);
+
+                                    const choices = document.getElementById("{{ data['content']['id'] }}-choices");
+                        
+                                    choices.innerHTML = '';
+                                    chatData.choices.forEach(item => {
+                                        const element = document.createElement('div');
+                                        element.innerHTML = `
+                                        <button onclick="changeDialogue('${item[1]}')">
+                                            <text type="hoverText">${item[0]}</text>
+                                        </button>
+                                        `;
+                                        choices.appendChild(element);
+                                    });
+                                }
+
+                            </script>
                         {% endif %}
                     {% endfor %}
+
+                    <style>
+                        button {
+                            background-color: #1a149c;
+
+                            width: auto;
+                            height: 35px;
+                            border: none;
+                            transition: 0.3s;
+                            align-items: center;
+                            display: flex;
+                            justify-content: space-between;
+                            overflow: hidden;
+                            margin-bottom: 5px;
+                        }
+
+                        button:hover {
+                            cursor: pointer;
+                            color: white;
+                            background-color: #2c269a;
+                        }
+                    </style>
                     
                     {% if attributions != [] %}
                     <div style="margin-top: 10px; margin-bottom: 20px;">
