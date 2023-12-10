@@ -1,0 +1,87 @@
+page:
+  title: Vehicles
+  description: In Bus Simulator, when you have vehicles enabled by default in the Performance Settings (On by default.), vehicles will spawn in the road besides the bus.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Vehicles
+
+attributions:
+  - "Ported By PolyframeX"
+
+html:
+  header:
+    title: Vehicles
+    description: >- 
+      Category: <a href="/bussim/others">Others</a>
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  
+  pageContent:
+    - type: section
+      content:
+        size: normal
+        title: Info
+        description: >- 
+         In Bus Simulator, 
+         when you have vehicles enabled by default in the Performance Settings (On by default.), 
+         vehicles will spawn in the road besides the bus. 
+         The vehicles you may encounter can be comprised of six types :
+
+    - type: tree
+      content:
+        - name: Normal Car - Goes at a random speed, from slow to fast.
+        - name: SUV - Goes at a normal speed, a bit different from your average car.
+        - name: Police Car - Naturally goes quite fast.
+        - name: Motorcycle - A bacon hair will ride a motorcycle in a fast speed, when collided with a vehicle it'll cause a deepened OOF sound.
+        - name: Ice Cream Truck - A truck that goes moderately fast and stops when the bus stops, being able to hand out ice creams.
+        - name: Truck - A slow moving truck that might cause some collateral damage on collision.
+
+    - type: text
+      content:
+        text: >- 
+          If any of those six vehicles collide either by speed and such, 
+          it'll cause an explosion and eventually the two collided vehicles despawn momentarily. 
+          When you also attempt to jump onto any of the six vehicles, 
+          you may also be subjected into being flinged in extreme velocity unless if you are holding or using the Mini Bus, 
+          in this case; 
+          you won't be tripped nor flung.
+
+    - type: section
+      content:
+        size: normal
+        title: Ice Cream Truck
+        description: >- 
+          The ice cream truck is a special vehicle, 
+          only stopping when the bus stops (even after it spawns). 
+          When you click on the window the Ice Cream Man will give you an Ice Cream or very rarely, 
+          the Last <a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicle</a>. (1/800, used to be 1/1000.)
+
+          <br><br>
+
+          If you try to talk to it while the bus is still moving, 
+          it says that it can't give you an ice cream at that speed. 
+          If you also attempt to get another without resetting, 
+          it'll mention that he needs to give ice cream to everyone.
+
+          <br><br>
+
+          However, 
+          getting an ice cream is easier than done, 
+          as the truck will either:
+
+    - type: tree
+      content:
+        - name: Go too far from when the bus has stopped.
+        - name: When the bus hasn't stopped yet.
+        - name: It has collided onto another vehicle.
+        - name: Too early to reach with just walking.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: The vehicles will not follow any traffic laws as mentioned with the collision, and it doesn't also follow any rule that the bus does during the <a href='/bussim/events/traffic-light'>Traffic</a> event.
+        - name: The vehicles also don't seem to spawn in the same lane as the bus. It could be a bus lane, but there isn't any proof to confirm this.
+        - name: Despite the <a href='/bussim/items/mini-bus'>Mini Bus</a> being and acting like a vehicle, it doesn't share similar properties to the other vehicles mentioned.
+        - name: Since Ice Cream Trucks can spawn at the very start of the road when the bus has stopped, you might need to use the <a href='/bussim/items/mini-bus'>Mini Bus</a> or anything fast to get past the invisible barrier.
+        - name: In very rare cases, ramming vehicles with the <a href='/bussim/items/mini-bus'>Mini Bus</a> at high speeds (such as getting a large Mini-Boost prior to drifting) can cause vehicles to verge off course. This could be leveraged to intentionally make vehicles crash.

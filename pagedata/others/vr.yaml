@@ -1,0 +1,281 @@
+page:
+  title: VR
+  description: VR is a method of playing for all Roblox games, with varying degrees of compatibility.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, VR
+
+attributions:
+  - "Ported By PolyframeX"
+
+html:
+  header:
+    title: VR
+    description: >- 
+      Category: <a href="/bussim/others">Others</a>
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+  
+  pageContent:
+    - type: section
+      content:
+        size: normal
+        title: Info
+        description: >- 
+         VR is a method of playing for all Roblox games, 
+         with varying degrees of compatibility. 
+         For Bus Simulator, 
+         VR is mostly compatible with little to no hinderance, 
+         and even offers you a few perks for playing with a headset. 
+         Information regarding playing with VR is detailed below.
+
+    - type: section
+      content:
+        size: normal
+        title: Setting Up VR
+
+    - type: section
+      content:
+        size: small
+        title: Oculus
+        description: >- 
+          <br>
+          To set up playing Bus Simulator with a wired VR cable, 
+          you need to allow unknown sources. 
+          (This can be found in Settings > General). 
+          To start, 
+          you need one of the following:
+
+    - type: tree
+      content:
+        - name: A USB 3.1 port
+        - name: Oculus Link Cable (1st or 3rd party)
+        - name: VR-Ready Computer Device
+        - name: Rift/Rift S Headset
+
+    - type: section
+      content:
+        size: small
+        title: SteamVR / Non-Oculus
+        description: >- 
+          <br>
+          Roblox can work with non-Oculus VR products, 
+          but may not work properly, 
+          as ROBLOX only has proper support for Oculus. 
+          You need one of the following to work:
+
+    - type: tree
+      content:
+        - name: Virtual Desktop (Not Recommended)
+        - name: SteamVR installed and properly set up
+        - name: Link cable
+    
+    - type: section
+      content:
+        size: small
+        title: Airlink (Quest 2)
+        description: >- 
+          <br>
+          If you own an Oculus Quest 2,
+          you can play Bus Simulator. 
+          To do so, you need:
+
+    - type: tree
+      content:
+        - name: A compatible PC
+        - name: 5hz network
+        - name: Meet the Oculus link requirements (More info <a href='https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/meta-quest-link-compatibility/'>here</a>.)
+        - name: OR the official ROBLOX app (Quest 2 Exclusive)
+
+    - type: section
+      content:
+        size: normal
+        title: Item Usage
+        description: >- 
+          All of the items you obtained/purchased will spawn in your inventory, 
+          just like you're playing normally. 
+          Also, 
+          all of the items from events and on the bus can be picked up. 
+          Unfortunately, 
+          most of them will not work now, 
+          if ever.
+
+    - type: section
+      content:
+        size: small
+        title: What Items Work?
+        description: >- 
+          <br>
+          The following items work as intended in VR:
+
+          <br><br>
+
+          Please note that not every single item was tested in VR yet.
+
+    - type: tree
+      content:
+        - name: <a href='/bussim/items/phone'>Phone</a>
+        - name: <a href='/bussim/items/snowcone'>Snowcone</a>
+        - name: <a href='/bussim/items/popsicle'>Popsicle</a>
+        - name: All Colas 
+        - name: All Event Items
+        - name: <a href='/bussim/items/pizza'>Pizza</a>
+        - name: <a href='/bussim/items/sign'>Sign</a>
+        - name: All Megaphones
+        - name: <a href='/bussim/items/gameboy-advance'>Gameboy Advance</a> (Appears on UI)
+        - name: <a href='/bussim/items/gps'>GPS</a> (Appears on model)
+        - name: <a href='/bussim/items/hoverboots'>Hoverboots</a>
+          children:
+            - name: It's highly recommended to not use this if you have it, as it can cause motion sickness. If you have confidence that you're resistant to motion sickness, proceed with caution.
+        - name: <a href='/bussim/items/helicopter'>Helicopter</a>
+        - name: <a href='/bussim/items/mini-bus'>Mini-Bus</a>
+        - name: <a href='/bussim/items/magic-mirror'>Magic Mirror</a>
+        - name: <a href='/bussim/items/candied-cane'>Candied Cane</a>
+        - name: <a href='/bussim/items/almond-water'>Almond Water</a>
+        - name: <a href='/bussim/items/liquid-void'>Liquid Void</a>
+        - name: <a href='/bussim/items/sparkler'>Sparkler</a>
+        - name: <a href='/bussim/items/bus-birthday-cake'>Bus Birthday Cake</a>
+        - name: <a href='/bussim/items/gas-station-gravity-coil'>Gas Station Gravity Coil</a>
+        - name: All Ice Cream Variants (<a href='/bussim/items/ice-cream'>Regular</a>, <a href='/bussim/items/birthday-ice-cream'>Birthday</a>, <a href='/bussim/items/gas-station-ice-cream'>Gas Station</a>)
+        - name: <a href='/bussim/items/compass'>Compass</a>
+        - name: <a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicle</a>
+        - name: <a href='/bussim/items/marker'>Marker</a> (Mostly)
+
+    - type: section
+      content:
+        size: small
+        title: Accessing your Backpack
+        description: >- 
+          <br>
+          To access your backpack, 
+          simply click and hold the right Analog stick, 
+          hover the dot over which item you want to use, 
+          and then let go to equip it.
+
+    - type: section
+      content:
+        size: normal
+        title: What can I do in VR?
+        description: >- 
+          You can enjoy Bus Simulator the same way that everybody else does, 
+          which means you can hangout, 
+          chat with friends, 
+          experience events, 
+          etc.
+
+    - type: section
+      content:
+        size: small
+        title: How do I chat in VR?
+        description: >- 
+          <br>
+          To chat in VR, 
+          look at your right wrist, 
+          and simple hold own your right trigger. 
+          A keyboard will pop up, 
+          and you can start typing by pointing at the key and pulling the respected trigger for which key you're pointing at (i.e. Left Hand over the letter G).
+
+    - type: section
+      content:
+        size: small
+        title: Settings
+        description: >- 
+          <br>
+          You can even access your in-game settings in VR, 
+          and saves specifically for the platform. 
+          To access them, 
+          open the UI (Up on the touchpad for Valve Index/arrows in the ROBLOX Hotbar), 
+          and click on either the Performance, 
+          Sound, 
+          or Chat settings. 
+          Note: Chat settings does NOT affect the chat log on your wrist in VR.
+
+    - type: section
+      content:
+        size: small
+        title: Nexus
+        description: >- 
+          <br>
+          To access the Nexus Settings, 
+          look at the ROBLOX Hotbar, 
+          and click on the Nexus Menu (NM Icon), 
+          and change any desired settings there. 
+          To close it, 
+          click on the Nexus Menu icon again.
+
+    - type: section
+      content:
+        size: normal
+        title: Controls
+        description: >- 
+          Note: This page only goes over any additional controls that NobleReign has added.
+
+          <br><br>
+
+          Your triggers can also be used to climb, 
+          a useful feature in NobleReigns games. 
+          You can hold onto and climb any surface with collision enabled, 
+          and scale anything you want, 
+          which gives you an edge over other players, 
+          as this can be used as an easy way to traverse tall gaps without items like <a href='/bussim/items/hoverboots'>Hoverboots</a>. 
+          You also obtain <a href='/bussim/items'>items</a>, 
+          interact with <a href='/bussim/npcs'>characters</a>, 
+          and other features.
+
+          <br><br>
+
+          If you have the Teleportation movement enabled from the Nexus menu, 
+          push your analog triggers up, 
+          and hover the marker (Blue circle and green sphere) to where you wanna teleport to. 
+          You can teleport with both analog sticks, 
+          but only one can be used at a time, 
+          and teleporting has no cooldown.
+
+          <br><br>
+
+          You can also right click to open your inventory, 
+          allowing you to select an item you want to use. 
+          If you have a Valve Index, 
+          you can also use the touchpad.
+
+    - type: section
+      content:
+        size: small
+        title: Mini-Bus Controls
+        description: >- 
+          <br>
+          As stated before, 
+          the Mini-Bus can be driven in VR, 
+          but has its own unique controls.
+
+    - type: tree
+      content:
+        - name: Hold down the right trigger to start driving.
+        - name: Hold down the left trigger to to slow down/go in reverse.
+        - name: Hold the jump button (A/Grip on Index) to start drifting.
+        - name: Tilt your arms in the direction you want to go to steer. Using one arm rotates half as much, compared to both arms.
+
+    - type: section
+      content:
+        size: normal
+        title: Your Wrists
+        description: >- 
+          Your wrists have some important features. 
+          Your right wrist will have the Chat, 
+          and your left wrist will have the Event messages, 
+          as well as your ping, 
+          frames per second (FPS), 
+          and server info. 
+          This is useful for when you want to know whats happening, 
+          or couldn't read the text somebody sent.
+
+    - type: section
+      content:
+        title: Issues
+
+    - type: tree
+      content:
+        - name: When first joining in VR, if you chat, you sometimes won't get a tag that says "[VR]". This mainly happens to Non-Oculus users.
+        - name: When small, you can run extremely fast, but climbing is harder to do.
+        - name: When you're outside of the bus (doesn't include locations like Backwalls and No Dough/Santa's Missing), and the bus speeds up via event or commands, you will be pushed to the back of the world, by the door.
+        - name: If you're holding onto an object with collision and it disappears (i.e. Traffic Light), you're able to hold onto it as long as you keep the trigger held.
+        - name: Other players can physically get in the way of your keyboard when you're trying to type.
+        - name: When you put away the Mini-Bus, some of your accessories will be visible in your view, the issue varies depending on how many accessories appear in front of your avatar.
