@@ -1,7 +1,7 @@
 page:
-  title: Million Colas
+  title: 1 Million Cola
   description: The 1M Cola is an item that could've been obtained in the 1 Million Event,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Million Colas
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, 1 Million Cola
   tags: million colas, exclusive item
 
 attributions:
@@ -9,23 +9,22 @@ attributions:
 
 html:
   header:
-    title: Million Colas
+    title: 1 Million Cola
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
-    - type: infobox
+    - type: buttons
       content:
-        infoBoxTitle: 
-          - "Work In Progress"
-          - "#b0690b"
-        infoBoxDescription: >-
-          <i>"not much to talk here, but.. well.."</i> - efeuc
+        buttons:
+          - ["<highlight>1 Million</highlight>", "/bussim/items/million-colas"]
+          - ["10 Million", "/bussim/items/million-colas/10-million"]
+          - ["20 Million","/bussim/items/million-colas/20-million"]
 
-          <br>
-
-          <small>This page is a stub, it may not contain all of the information in the game; so adding more information to this page is always appreciated!</small>
+    - type: section
+      content:
+        size: normal
     - type: quote
       content:
         quote: "Thanks you guys for this number... This is such an awesome day for the developers!"

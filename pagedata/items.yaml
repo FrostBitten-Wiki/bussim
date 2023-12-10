@@ -413,7 +413,7 @@ html:
             listItemRedirect: /bussim/items/hoverboots
           
           - listItemImage: /bussim-assets/images/items/million-colas.webp
-            listItemTitle: Million Colas
+            listItemTitle: 1 Million Cola
             listItemDescription: >-
               The Million Colas are a set of colas obtainable during their respective event.
               
