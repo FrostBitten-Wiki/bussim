@@ -484,7 +484,7 @@
             "dialogueEmoteName": "nyx"
         },
         "Fang": {
-            "dialogueSfx": "ouch",
+            "dialogueSfx": "fangtick",
             "dialogueColors": ["#142052", "black", "blue"],
             "dialogueEmoteName": "fang"
         },
