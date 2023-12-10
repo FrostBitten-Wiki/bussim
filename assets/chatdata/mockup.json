@@ -23,6 +23,7 @@
         ],
 
         "choices": [
+            ["<highlight>Reset</highlight>", "startDialogue"],
             ["<highlight>Go Back</highlight>", "startDialogue"]
         ]
     },
@@ -35,7 +36,8 @@
         ],
 
         "choices": [
-            ["Okay.", "startDialogue"]
+            ["Okay.", "startDialogue"],
+            ["<highlight>Go Back</highlight>", "startDialogue"]
         ]
     },
 
@@ -47,8 +49,8 @@
         ],
 
         "choices": [
-            ["<highlight>Go Back</highlight>", "startDialogue"],
-            ["What?","lorem"]
+            ["What?","lorem"],
+            ["<highlight>Go Back</highlight>", "startDialogue"]
         ]
     },
 
@@ -60,7 +62,8 @@
         ],
 
         "choices": [
-            ["Okay.", "startDialogue"]
+            ["Okay.", "startDialogue"],
+            ["<highlight>Go Back</highlight>", "choice3"]
         ]
     }
 }
