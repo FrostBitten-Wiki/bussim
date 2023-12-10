@@ -1,0 +1,64 @@
+{
+    "startDialogue": {
+        "name": "Billy (1)",
+        
+        "text": [
+            "hi! my name is billy!"
+        ],
+
+        "choices": [
+            ["<highlight>Continue</highlight>", "start2"]
+        ]
+    },
+
+    "start2": {
+        "name": "Billy (2)",
+
+        "text": [
+            "it seems like you've already copy & pasted me everywhere..."
+        ],
+
+        "choices": [
+            ["<highlight>Continue</highlight>","start3"],
+            ["<highlight>Go Back</highlight>", "startDialogue"]
+        ]
+    },
+    "start3": {
+        "name": "Billy (3)",
+
+        "text": [
+            "you truly are a pro!"
+        ],
+
+        "choices": [
+            ["<highlight>Continue</highlight>","start4"],
+            ["<highlight>Go Back</highlight>", "start2"]
+        ]
+    },
+    "start4": {
+        "name": "Billy (4)",
+
+        "text": [
+            "thank you for doing your part in helping us taking over roblox."
+        ],
+
+        "choices": [
+            ["<highlight>Continue</highlight>","start5"],
+            ["<highlight>Go Back</highlight>", "start3"]
+        ]
+    },
+
+    "start5": {
+        "name": "Billy (5)",
+
+        "text": [
+            "we'll let you go now."
+        ],
+
+        "choices": [
+            ["<highlight>Reset</highlight>","startDialogue"],
+            ["<highlight>Go Back</highlight>", "start4"]
+        ]
+    }
+
+}

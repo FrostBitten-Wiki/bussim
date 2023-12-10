@@ -476,6 +476,38 @@
             "dialogueEmoteName": "zeon"
         },
 
+        "Event Characters": "Character Data for Event Characters",
+
+        "Billy (1)": {
+            "dialogueSfx": "billy",
+            "dialogueColors": ["#181819","#101010","#a3a2a5"],
+            "dialogueEmoteName": "billy"
+        },
+
+        "Billy (2)": {
+            "dialogueSfx": "billy",
+            "dialogueColors": ["#181819","#101010","#a3a2a5"],
+            "dialogueEmoteName": "billy"
+        },
+
+        "Billy (3)": {
+            "dialogueSfx": "billy",
+            "dialogueColors": ["#181819","#101010","#a3a2a5"],
+            "dialogueEmoteName": "billy"
+        },
+
+        "Billy (4)": {
+            "dialogueSfx": "billy",
+            "dialogueColors": ["#181819","#101010","#a3a2a5"],
+            "dialogueEmoteName": "billy"
+        },
+
+        "Billy (5)": {
+            "dialogueSfx": "billy",
+            "dialogueColors": ["#181819","#101010","#a3a2a5"],
+            "dialogueEmoteName": "billy"
+        },
+
         "Contributors": "Character Data for Contributors",
 
         "Nyx": {
