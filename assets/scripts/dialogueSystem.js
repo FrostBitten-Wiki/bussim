@@ -32,7 +32,7 @@ function loadAudioFile(soundfile) {
             })
             .catch(error => console.error(`Error loading audio file ${soundfile}:`, error));
     } else {
-        return Promise.resolve(); // Resolve immediately if the buffer is already loaded
+        return Promise.resolve();
     }
 }
 
@@ -49,7 +49,6 @@ function playSound(soundfile, volume, pitch) {
         source.connect(gainNode);
         gainNode.connect(audioContext.destination);
 
-        // Check if pitch is specified, otherwise set it to 0 for normal pitch
         source.detune.value = pitch === 0 || pitch === "none" ? 0 : Math.random() * pitch;
 
         gainNode.gain.value = volume;
