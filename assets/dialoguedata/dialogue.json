@@ -534,7 +534,7 @@
             "dialogueEmoteName": "fang"
         },
         "PolyframeX": {
-            "dialogueSfx": ["elecping", 0.5, "none"],
+            "dialogueSfx": ["poly", 0.5, "none"],
             "dialogueColors": ["#101010", "#0c0c0c","#202020"],
             "dialogueEmoteName": "polyframex"
         }
