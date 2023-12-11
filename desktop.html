@@ -465,7 +465,7 @@
                                             console.log(data);
                                             {{ data["content"]["id"] }}Data = data;
                                             console.log("dialogue init {{ data['content']['id'] }}");
-                                            change{{ data["content"]["id"] }}Dialogue("startDialogue");
+                                            change{{ data["content"]["id"] }}Dialogue("{{ data['content']['startId'] }}");
                                         })
                                         .catch(error => console.error('Error fetching data:', error));
                                 });
