@@ -53,6 +53,12 @@ html:
       content:
         title: Dialogue
 
+    - type: npcChat
+      content:
+        id: d6
+        startId: start
+        chatData: /bussim-assets/chatdata/npcs/d6.json
+
     - type: tree
       content:
         - name: "Variant 1 : \"im d6\""
@@ -399,21 +405,6 @@ html:
                                           children:
                                             - name: "Kind of."
                     - name: "Variant 11:"
-                      children:
-                        - name: "\"i'm not allowed in the store anymore since i keep shoplifting but if you see disc or green tell them i said hi and im sorry and that it will happen again\""
-                          children:
-                            - name: "Ok."
-                    - name: "Variant 12:"
-                      children:
-                        - name: "\"i am sincerely sorry for your loss\""
-                          children:
-                            - name: "Sorry"
-                    - name: "Variant 13:"
-                      children:
-                        - name: "\"my brain hurts\""
-                          children:
-                            - name: "Ok."
-                    - name: "Variant 14:"
                       children:
                         - name: "\"[END OF DIALOGUE]\""
 

@@ -1,0 +1,1718 @@
+{
+    "start": {
+        "name": "D6",
+        
+        "text": [
+            "im d6",
+            "you.",
+            "man i could really go for some graham crackers right about now",
+            "and if youuuuuu cant believe it",
+            "i cant believe i had to drive all the way to work"
+        ],
+
+        "choices": [
+            [
+                "Any Wisdom For Today?",
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+            ],
+            [
+                "Let's Talk!",
+                ["talk"]
+            ],
+            [
+                "Nevermind.",
+                ["nvm"]
+            ],
+            [
+                "Tell me.",
+                ["tell"]
+            ]
+        ]
+    },
+
+    "wisdomA1B1": {
+        "name": "D6",
+
+        "text": [
+            "give me the keyboard"
+        ],
+
+        "choices": [
+            [
+                "No Thanks.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start"]
+            ]
+        ]
+    },
+    "wisdomA1B2": {
+        "name": "D6",
+
+        "text": [
+            "give me your phone"
+        ],
+
+        "choices": [
+            [
+                "No Thanks.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start"]
+            ]
+        ]
+    },
+    "wisdomA1B3": {
+        "name": "D6",
+
+        "text": [
+            "give me the controller"
+        ],
+
+        "choices": [
+            [
+                "No Thanks.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA2B1": {
+        "name": "D6",
+
+        "text": [
+            "you've had enough wisdom for today. come back tomorrow"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    
+    "wisdomA2B2a": {
+        "name": "D6",
+
+        "text": [
+            "hey..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA2B2b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA2B2b": {
+        "name": "D6",
+
+        "text": [
+            "you're not trying to use a different account to cheat the system are you"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA2B2c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["wisdomA2B2a"]
+            ]
+        ]
+    },
+
+    "wisdomA2B2c": {
+        "name": "D6",
+
+        "text": [
+            "for shame"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA2B2d"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["wisdomA2B2b"]
+            ]
+        ]
+    },
+
+    "wisdomA2B2d": {
+        "name": "D6",
+
+        "text": [
+            "i'll still give you the wisdom though"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["placeholder"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["wisdomA2B2c"]
+            ]
+        ]
+    },
+
+    "wisdomA2B3a": {
+        "name": "D6",
+
+        "text": [
+            "hey there again"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA2B3b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA2B3b": {
+        "name": "D6",
+
+        "text": [
+            "you have multiple alts then huh"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA2B3c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["wisdomA2B3a"]
+            ]
+        ]
+    },
+
+    "wisdomA2B3c": {
+        "name": "D6",
+
+        "text": [
+            "that's cool i guess"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["wisdomA2B3b"]
+            ]
+        ]
+    },
+
+    "wisdomA3": {
+        "name": "D6",
+
+        "text": [
+            "live to die"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA4": {
+        "name": "D6",
+
+        "text": [
+            "if you come to a fork in the road, pick it up"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA5": {
+        "name": "D6",
+
+        "text": [
+            "you are playing it wrong"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA6": {
+        "name": "D6",
+
+        "text": [
+            "i did the art for the limbobbia tutorial. you should try it if you haven't"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA7B1": {
+        "name": "D6",
+
+        "text": [
+            "today is thursday."
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA7B2": {
+        "name": "D6",
+
+        "text": [
+            "today is not thursday"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA8": {
+        "name": "D6",
+
+        "text": [
+            "do not hesitate to defend yourself. you won't regret it"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA9": {
+        "name": "D6",
+
+        "text": [
+            "support your local trash goblin"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA10": {
+        "name": "D6",
+
+        "text": [
+            "thank Noble for doing all this; without it i would have no wisdom to share."
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA11": {
+        "name": "D6",
+
+        "text": [
+            "i am sincerely sorry for your loss"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA12": {
+        "name": "D6",
+
+        "text": [
+            "your lucky numbers for the day are [5 random 1-2 digit integers] and [random 1-2 digit integer]"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA13": {
+        "name": "D6",
+
+        "text": [
+            "nobody knows the troubles you've seen"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA14a": {
+        "name": "D6",
+
+        "text": [
+            "if you don't like the new roblox death sound, you can change it to whatever you want."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA14b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA14b": {
+        "name": "D6",
+
+        "text": [
+            "open the file location of your RobloxPlayerLauncher.exe"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA14c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["wisdomA14a"]
+            ]
+        ]
+    },
+
+    "wisdomA14c": {
+        "name": "D6",
+
+        "text": [
+            "go to content, then sounds. replace ouch.ogg with any .ogg file you want, rename it to ouch.ogg"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["wisdomA14b"]
+            ]
+        ]
+    },
+
+    "wisdomA15": {
+        "name": "D6",
+
+        "text": [
+            "you can adjust the game volume via the pause menu"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA16": {
+        "name": "D6",
+
+        "text": [
+            "stand up for yourself"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA17a": {
+        "name": "D6",
+
+        "text": [
+            "we have done something wrong at one point"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA17b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA17b": {
+        "name": "D6",
+
+        "text": [
+            "something we can never undo"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA17c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["wisdomA17a"]
+            ]
+        ]
+    },
+
+    "wisdomA17c": {
+        "name": "D6",
+
+        "text": [
+            "and for this we are being punished"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA17d"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["wisdomA17b"]
+            ]
+        ]
+    },
+
+    "wisdomA17d": {
+        "name": "D6",
+
+        "text": [
+            "This is our eternity, our prison."
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["wisdomA17c"]
+            ]
+        ]
+    },
+
+    "wisdomA18": {
+        "name": "D6",
+
+        "text": [
+            "he's going to betray you, you know."
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA19": {
+        "name": "D6",
+
+        "text": [
+            "exploration can only lead to disappointment."
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA20a": {
+        "name": "D6",
+
+        "text": [
+            "the remains of our ancestors lie beneath our feet"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA20b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA20b": {
+        "name": "D6",
+
+        "text": [
+            "sometimes i can still hear their voices"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA20c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["wisdomA20a"]
+            ]
+        ]
+    },
+
+    "wisdomA20c": {
+        "name": "D6",
+
+        "text": [
+            "screaming"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA20d"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["wisdomA20b"]
+            ]
+        ]
+    },
+
+    "wisdomA20d": {
+        "name": "D6",
+
+        "text": [
+            "but sometimes its hard to hear them over my own screams."
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["wisdomA20c"]
+            ]
+        ]
+    },
+
+    "wisdomA21": {
+        "name": "D6",
+
+        "text": [
+            "the end is never"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA22": {
+        "name": "D6",
+
+        "text": [
+            "only a sinner"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA23": {
+        "name": "D6",
+
+        "text": [
+            "also try lethal league blaze"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA24": {
+        "name": "D6",
+
+        "text": [
+            "also try boneworks, if you have vr"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA25": {
+        "name": "D6",
+
+        "text": [
+            "i can kill you in two different ways"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA26": {
+        "name": "D6",
+
+        "text": [
+            "i can't tell you what the Tool does you have to figure it out yourself"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA27": {
+        "name": "D6",
+
+        "text": [
+            "you will never be forgiven"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA28": {
+        "name": "D6",
+
+        "text": [
+            "think for yourself"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA29": {
+        "name": "D6",
+
+        "text": [
+            "believe in yourself"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA30": {
+        "name": "D6",
+
+        "text": [
+            "question authority"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA31": {
+        "name": "D6",
+
+        "text": [
+            "go outside"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA32": {
+        "name": "D6",
+
+        "text": [
+            "don't leave the house today"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA33": {
+        "name": "D6",
+
+        "text": [
+            "my brain hurts"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA34": {
+        "name": "D6",
+
+        "text": [
+            "may your troubles be many"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start"]
+            ]
+        ]
+    },
+
+    "talk": {
+        "name": "D6",
+
+        "text": [
+            "what"
+        ],
+
+        "choices": [
+            [
+                "Why are you in a dumpster?",
+                ["talkB1"]
+            ],
+            [
+                "Roll me a number",
+                ["talkB2a"]
+            ],
+            [
+                "Why are you so short?",
+                ["talkB3"]
+            ],
+            [
+                "What do you do?",
+                ["talkB4a"]
+            ],
+            [
+                "Hi D6.",
+                ["talkB5"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start"]
+            ]
+        ]
+    },
+
+    "talkB1": {
+        "name": "D6",
+
+        "text": [
+            "why havent you been flattened by a 2 ton slab of concrete"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talk"]
+            ]
+        ]
+    },
+
+    "talkB2a": {
+        "name": "D6",
+
+        "text": [
+            "Why"
+        ],
+
+        "choices": [
+            [
+                "Because you're a d6?",
+                ["talkB2b"]
+            ],
+            [
+                " Nevermind.",
+                ["talkB2c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talk"]
+            ]
+        ]
+    },
+
+    "talkB2b": {
+        "name": "D6",
+
+        "text": [
+            "thats fair. [random number 1-6]"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talkB2a"]
+            ]
+        ]
+    },
+
+    "talkB2c": {
+        "name": "D6",
+
+        "text": [
+            "ok"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talk"]
+            ]
+        ]
+    },
+
+    "talkB3": {
+        "name": "D6",
+
+        "text": [
+            " "
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talk"]
+            ]
+        ]
+    },
+
+    "talkB4a": {
+        "name": "D6",
+
+        "text": [
+            "im"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["talkB4b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talk"]
+            ]
+        ]
+    },
+
+    "talkB4b": {
+        "name": "D6",
+
+        "text": [
+            "d6"
+        ],
+
+        "choices": [
+            [
+                "Yeah, but like what do you DO?",
+                ["talkB4c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talkB4a"]
+            ]
+        ]
+    },
+
+    "talkB4c": {
+        "name": "D6",
+
+        "text": [
+            "yeah how about you learn to listen the first time"
+        ],
+
+        "choices": [
+            [
+                "sorry",
+                ["talkB4d"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talkB4b"]
+            ]
+        ]
+    },
+
+    "talkB4d": {
+        "name": "D6",
+
+        "text": [
+            "hi"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talkB4c"]
+            ]
+        ]
+    },
+
+    "talkB5": {
+        "name": "D6",
+
+        "text": [
+            "hi",
+            "hey there again"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talk"]
+            ]
+        ]
+    },
+
+    "nvm": {
+        "name": "D6",
+
+        "text": [
+            "7577234764 Dont forget it. It's the only way out.",
+            "ok"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tell": {
+        "name": "D6",
+
+        "text": [
+            "ok"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA1": {
+        "name": "D6",
+
+        "text": [
+            "dude... GLAGGLELAND??????"
+        ],
+
+        "choices": [
+            [
+                "The rides:",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tell"]
+            ]
+        ]
+    },
+
+    "tellA2": {
+        "name": "D6",
+
+        "text": [
+            "im d6"
+        ],
+
+        "choices": [
+            [
+                "You've made that clear, yes.",
+                ["tellA2B1a"]
+            ],
+            [
+                "you're d6",
+                ["tellA2B2a"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tell"]
+            ]
+        ]
+    },
+
+    "tellA2B1a": {
+        "name": "D6",
+
+        "text": [
+            " "
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tellA2"]
+            ]
+        ]
+    },
+
+    "tellA2B2a": {
+        "name": "D6",
+
+        "text": [
+            "d6"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tellA2"]
+            ]
+        ]
+    },
+
+    "tellA3": {
+        "name": "D6",
+
+        "text": [
+            "if i hear that dumb smelly protogen mention ram one more time im gonna RAM a 2 ton block of concrete into their stupid face."
+        ],
+
+        "choices": [
+            [
+                "O...kay?",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tell"]
+            ]
+        ]
+    },
+
+    "tellA4": {
+        "name": "D6",
+
+        "text": [
+            "i'm not allowed in the store anymore since i keep shoplifting but if you see disc or green tell them i said hi and that im sorry and that it will happen again"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tell"]
+            ]
+        ]
+    },
+
+    "tellA5a": {
+        "name": "D6",
+
+        "text": [
+            "lets talk about"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["tellA5b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tell"]
+            ]
+        ]
+    },
+
+    "tellA5b": {
+        "name": "D6",
+
+        "text": [
+            "embalming fluid"
+        ],
+
+        "choices": [
+            [
+                "...Nevermind.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tellA5a"]
+            ]
+        ]
+    },
+
+    "tellA6a": {
+        "name": "D6",
+
+        "text": [
+            "sometimes i feel the sudden urge to break into someone's house and talk about turtle skeletons from a specific video game franchise for hours."
+        ],
+
+        "choices": [
+            [
+                " ...That sounds oddly specific.",
+                ["tellA6b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tell"]
+            ]
+        ]
+    },
+
+    "tellA6b": {
+        "name": "D6",
+
+        "text": [
+            "say hi to zeon for me"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tellA6a"]
+            ]
+        ]
+    },
+
+    "tellA7": {
+        "name": "D6",
+
+        "text": [
+            "Do not let it affect you in the moment. It is all ultimately meaningless. The passage of time spares none, has spared none, and will spare none. You are no exception."
+        ],
+
+        "choices": [
+            [
+                "The rides:",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tell"]
+            ]
+        ]
+    },
+
+    "tellA8": {
+        "name": "D6",
+
+        "text": [
+            "i think i could beat that cat on the bus in a fist fight"
+        ],
+
+        "choices": [
+            [
+                "That's mean.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tell"]
+            ]
+        ]
+    },
+
+    "tellA9a": {
+        "name": "D6",
+
+        "text": [
+            "hey so do you know what those guys are selling in there theyve chased me out with a broom like 6 times already."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["tellA9b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tell"]
+            ]
+        ]
+    },
+
+    "tellA9b": {
+        "name": "D6",
+
+        "text": [
+            "its probably because ive stolen like 4 or 5 of their hey why am i telling you this"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["tellA9c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tellA9a"]
+            ]
+        ]
+    },
+
+    "tellA9c": {
+        "name": "D6",
+
+        "text": [
+            "get outta here"
+        ],
+
+        "choices": [
+            [
+                " Sorry",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tellA9b"]
+            ]
+        ]
+    },
+
+    "tellA10a": {
+        "name": "D6",
+
+        "text": [
+            "you got anything to eat"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["tellA10b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tell"]
+            ]
+        ]
+    },
+
+    "tellA10b": {
+        "name": "D6",
+
+        "text": [
+            "hand it over im starving"
+        ],
+
+        "choices": [
+            [
+                "Sure.",
+                ["tellA10c"]
+            ],
+            [
+                " I'd... rather not.",
+                ["tellA10d"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tellA10a"]
+            ]
+        ]
+    },
+
+    "tellA10c": {
+        "name": "D6",
+
+        "text": [
+            "thanks"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tellA10b"]
+            ]
+        ]
+    },
+
+    "tellA10d": {
+        "name": "D6",
+
+        "text": [
+            "please ill give you this handy dandy Tool"
+        ],
+
+        "choices": [
+            [
+                "Deal.",
+                ["tellA10e"]
+            ],
+            [
+                "No deal.",
+                ["tellA10f"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tellA10b"]
+            ]
+        ]
+    },
+
+    "tellA10e": {
+        "name": "D6",
+
+        "text": [
+            "pleasure doing business"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tellA10d"]
+            ]
+        ]
+    },
+
+    "tellA10f": {
+        "name": "D6",
+
+        "text": [
+            "You think this is a game? Do you find this amusing?"
+        ],
+
+        "choices": [
+            [
+                "Kind of.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tellA10d"]
+            ]
+        ]
+    },
+
+    "tellA11": {
+        "name": "D6",
+
+        "text": [
+            "[END OF DIALOGUE]"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tell"]
+            ]
+        ]
+    }
+}
