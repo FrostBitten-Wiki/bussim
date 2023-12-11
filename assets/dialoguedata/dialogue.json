@@ -290,7 +290,7 @@
         "zeon002": {
             "rarity": 100,
             "dialogue": [
-                [[2000, 25], "Zeon", "close", "Be sure to like, comment and-"],
+                [[250, 25], "Zeon", "close", "Be sure to like, comment and-"],
                 [[1000, 25], "Zeon", "default", "Wait..."],
                 [[2000, 25], "Zeon", "default", "wrong place.."],
                 [[3000, 25], "Zeon", "point", "Just enjoy expanding your knowledge!"]
