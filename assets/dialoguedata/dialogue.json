@@ -494,31 +494,31 @@
         "Event Characters": "Character Data for Event Characters",
 
         "Billy (1)": {
-            "dialogueSfx": ["billy", 0.5, "none"],
+            "dialogueSfx": ["billy", 0.5, 150],
             "dialogueColors": ["#181819","#101010","#a3a2a5"],
             "dialogueEmoteName": "billy"
         },
 
         "Billy (2)": {
-            "dialogueSfx": ["billy", 0.5, "none"],
+            "dialogueSfx": ["billy", 0.5, 150],
             "dialogueColors": ["#181819","#101010","#a3a2a5"],
             "dialogueEmoteName": "billy"
         },
 
         "Billy (3)": {
-            "dialogueSfx": ["billy", 0.5, "none"],
+            "dialogueSfx": ["billy", 0.5, 150],
             "dialogueColors": ["#181819","#101010","#a3a2a5"],
             "dialogueEmoteName": "billy"
         },
 
         "Billy (4)": {
-            "dialogueSfx": ["billy", 0.5, "none"],
+            "dialogueSfx": ["billy", 0.5, 150],
             "dialogueColors": ["#181819","#101010","#a3a2a5"],
             "dialogueEmoteName": "billy"
         },
 
         "Billy (5)": {
-            "dialogueSfx": ["billy", 0.5, "none"],
+            "dialogueSfx": ["billy", 0.5, 150],
             "dialogueColors": ["#181819","#101010","#a3a2a5"],
             "dialogueEmoteName": "billy"
         },
@@ -536,7 +536,7 @@
             "dialogueEmoteName": "fang"
         },
         "PolyframeX": {
-            "dialogueSfx": ["poly", 0.5, "none"],
+            "dialogueSfx": ["poly", 1, 150],
             "dialogueColors": ["#101010", "#0c0c0c","#202020"],
             "dialogueEmoteName": "polyframex"
         }
