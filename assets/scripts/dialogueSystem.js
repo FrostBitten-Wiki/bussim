@@ -15,24 +15,50 @@ fetch("/bussim-assets/dialoguedata/dialogue.json")
     dialogueData = jsonData;
 });
 
-function playSound(soundfile, volume) {
-    if (soundSource.src !== `${window.location.protocol + "//" + window.location.host}/bussim-assets/sounds/${soundfile}.mp3`) {
-        soundSource.src = `/bussim-assets/sounds/${soundfile}.mp3`;
-        soundSource.volume = volume;
-        soundSource.play();
+
+// Reuse a single AudioContext instance
+const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+
+// Load audio files once and reuse the buffers
+const audioBuffers = {};
+
+function loadAudioFile(soundfile) {
+    if (!audioBuffers[soundfile]) {
+        return fetch(`/bussim-assets/sounds/${soundfile}.mp3`)
+            .then(response => response.arrayBuffer())
+            .then(buffer => audioContext.decodeAudioData(buffer))
+            .then(decodedBuffer => {
+                audioBuffers[soundfile] = decodedBuffer;
+            })
+            .catch(error => console.error(`Error loading audio file ${soundfile}:`, error));
     } else {
+        return Promise.resolve(); // Resolve immediately if the buffer is already loaded
+    }
+}
+
+function playSound(soundfile, volume, pitch) {
+    loadAudioFile(soundfile).then(() => {
         let originalAudio = document.getElementById("soundSource");
         let clonedAudio = originalAudio.cloneNode(true);
         clonedAudio.id = "clonedAudio";
         document.body.appendChild(clonedAudio);
-        clonedAudio.volume = volume;
-        clonedAudio.play();
+
+        const source = audioContext.createBufferSource();
+        const gainNode = audioContext.createGain();
+        source.buffer = audioBuffers[soundfile];
+        source.connect(gainNode);
+        gainNode.connect(audioContext.destination);
+
+        // Check if pitch is specified, otherwise set it to 0 for normal pitch
+        source.detune.value = pitch === 0 || pitch === "none" ? 0 : Math.random() * pitch;
+
+        gainNode.gain.value = volume;
+        source.start(0);
 
         clonedAudio.addEventListener("ended", function () {
             document.body.removeChild(clonedAudio);
         });
-        //soundSource.play();
-    }
+    });
 }
 
 function startSpeaking(data, characterData) {
@@ -80,7 +106,7 @@ function startSpeaking(data, characterData) {
             
                 if (charIndex <= text.length) {
                     if (charIndex % 3 === 0) {
-                        playSound(charData["dialogueSfx"][0], charData["dialogueSfx"][1]);
+                        playSound(charData["dialogueSfx"][0], charData["dialogueSfx"][1], charData["dialogueSfx"][2]);
                     }
                     setTimeout(addCharacter, charDelay);
                 } else {

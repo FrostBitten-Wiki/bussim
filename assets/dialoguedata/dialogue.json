@@ -192,10 +192,10 @@
         "nyx001": {
             "rarity": 50,
             "dialogue": [
-                [[2000, 25], "Nyx", "", "Hey there!"],
-                [[1000, 25], "Nyx", "", "Welcome.."],
-                [[1000, 50], "Nyx", "", "to"],
-                [[1000, 50], "Nyx", "", "uhh.."],
+                [[2000, 25], "Nyx", "", "Hello!"],
+                [[2000, 25], "Nyx", "", "This wiki is pretty much..."],
+                [[1000, 100], "Nyx", "", "Not done yet."],
+                [[1000, 25], "Nyx", "", "uhh..."],
                 [[2000, 25], "Nyx", "", "to the newly hosted wiki for Noble's games!"]
 
             ]
@@ -417,49 +417,49 @@
 
     "characterData": {
         "Placeholder": {
-            "dialogueSfx": ["button", 0.5, "none"],
+            "dialogueSfx": ["event", 1, 250],
             "dialogueColors": ["#6d6d6d", "#9d9d9d", "white"]
         },
         
         "Main Game NPCs": "Character Data for Current Game NPCs (Interactable)",
         
         "D6": {
-            "dialogueSfx": ["button", 0.5, "none"],
+            "dialogueSfx": ["event", 1, 250],
             "dialogueColors": ["#15150a", "#21200f", "#ddd666"],
             "dialogueEmoteName": "d6"
         },
         "Disc": {
-            "dialogueSfx": ["button", 0.5, "none"],
+            "dialogueSfx": ["event", 1, 250],
             "dialogueColors": ["#0b0d15", "#111420", "#7289da"],
             "dialogueEmoteName": "disc"
         },
         "Ectta": {
-            "dialogueSfx": ["button", 0.5, "none"],
+            "dialogueSfx": ["event", 1, 250],
             "dialogueColors": ["#000c02", "#001303", "#018116"],
             "dialogueEmoteName": "ectta"
         },
         "Efeuc": {
-            "dialogueSfx": ["button", 0.5, "none"],
+            "dialogueSfx": ["event", 1, 250],
             "dialogueColors": ["#190000", "#260000", "red"],
             "dialogueEmoteName": "efeuc"
         },
         "Frostbite": {
-            "dialogueSfx": ["button", 0.5, "none"],
+            "dialogueSfx": ["event", 1, 250],
             "dialogueColors": ["#131619", "#1d2226", "#c4e6ff"],
             "dialogueEmoteName": "frost"
         },
         "Green": {
-            "dialogueSfx": ["button", 0.5, "none"],
+            "dialogueSfx": ["event", 1, 250],
             "dialogueColors": ["#050b04", "#0b260b", "#367328"],
             "dialogueEmoteName": "green"
         },
         "MiroCev": {
-            "dialogueSfx": ["button", 0.5, "none"],
+            "dialogueSfx": ["event", 1, 250],
             "dialogueColors": ["#050b04", "#0b260b", "#367328"],
             "dialogueEmoteName": "mirocev"
         },
         "MLG": {
-            "dialogueSfx": ["button", 0.5, "none"],
+            "dialogueSfx": ["event", 1, 250],
             "dialogueColors": ["#191000", "#261900", "#ffaa00"],
             "dialogueEmoteName": "mlg"
         },
@@ -469,17 +469,17 @@
             "dialogueEmoteName": "pear"
         },
         "Red": {
-            "dialogueSfx": ["button", 0.5, "none"],
+            "dialogueSfx": ["event", 1, 250],
             "dialogueColors": ["#0a0302", "#0f0403", "#641c17"],
             "dialogueEmoteName": "red"
         },
         "Steven": {
-            "dialogueSfx": ["button", 0.5, "none"],
+            "dialogueSfx": ["event", 1, 250],
             "dialogueColors": ["#030307", "#04050c", "#1c244c"],
             "dialogueEmoteName": "steven"
         },
         "Tazer": {
-            "dialogueSfx": ["button", 0.5, "none"],
+            "dialogueSfx": ["event", 1, 250],
             "dialogueColors": ["#190019", "#260026", "#ff00ff"],
             "dialogueEmoteName": "tazer"
         },
@@ -524,7 +524,7 @@
         "Contributors": "Character Data for Contributors",
 
         "Nyx": {
-            "dialogueSfx": ["event", 1, "none"],
+            "dialogueSfx": ["event", 1, 250],
             "dialogueColors": ["#333333", "grey", "grey"],
             "dialogueEmoteName": "nyx"
         },

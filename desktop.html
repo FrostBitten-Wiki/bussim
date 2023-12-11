@@ -480,7 +480,7 @@
                                     dialogueName.innerText = chatData.name;
                                     dialogueText.innerText = random(chatData.text);
 
-                                    playSound(dialogueData.characterData[chatData.name]["dialogueSfx"][0], dialogueData.characterData[chatData.name]["dialogueSfx"][1]);
+                                    playSound(dialogueData.characterData[chatData.name]["dialogueSfx"][0], dialogueData.characterData[chatData.name]["dialogueSfx"][1], dialogueData.characterData[chatData.name]["dialogueSfx"][2]);
 
                                     const choices = document.getElementById("{{ data['content']['id'] }}-choices");
                         
@@ -537,9 +537,9 @@
         </div>
         {% endif %}
 
-        <div id="speakerPopup" class="checkBg" style="transition: bottom 1s; user-select: none; --color1: #6d6d6d; --color2: #9d9d9d; --color3: white; position: fixed; bottom: -165px; right: 10px; width: 550px; height: 110px; gap: 10px;">
+        <div id="speakerPopup" class="checkBg" style="transition: bottom 1s; user-select: none; --color1: #6d6d6d; --color2: #9d9d9d; --color3: white; position: fixed; bottom: -165px; right: 10px; width: 550px; height: 110px; gap: 15px;">
             <text id="speakerId" style="position: absolute; top: -15px; left: 0; font-size: 10px; opacity: 0.3;"></text>
-            <div id="" style="display: grid; grid-template-columns: 1fr 150px;">
+            <div id="" style="display: grid; grid-template-columns: 1fr 165px;">
                 <div style="padding: 10px;">
                     <text id="speakerName" style="font-size: 23px;"></text><br>
                     <text id="speakerText"></text>
@@ -574,6 +574,6 @@
             document.addEventListener(visibilityChange, dialogueHandler, false);
         </script>
 
-        <script src="/bussim-assets/scripts/dialogueSystem.js" defer></script>
+        <script src="/bussim-assets/scripts/dialogueSystem.js"></script>
     </body>
 </html>
