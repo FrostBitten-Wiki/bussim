@@ -415,7 +415,7 @@
         "Main Game NPCs": "Character Data for Current Game NPCs (Interactable)",
         
         "D6": {
-            "dialogueSfx": ["event", 1, 250],
+            "dialogueSfx": ["d6", 2, 550],
             "dialogueColors": ["#15150a", "#21200f", "#ddd666"],
             "dialogueEmoteName": "d6"
         },
@@ -455,7 +455,7 @@
             "dialogueEmoteName": "mlg"
         },
         "Pear": {
-            "dialogueSfx": ["meow", 0.2, "none"],
+            "dialogueSfx": ["meow", 0.2, 150],
             "dialogueColors": ["#071907", "#0b260b", "#4cff4c"],
             "dialogueEmoteName": "pear"
         },
