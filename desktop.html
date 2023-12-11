@@ -451,48 +451,48 @@
                             </div>
                             
                             <script>
-                                // this looks so wrong... at least it works though
-                                let {{ data["content"]["id"] }}Data;
+                                // THIS IS MADNESS
+                                var {{ data["content"]["id"] }}Data;
+                                var {{ data["content"]["id"] }}dialogueName = document.getElementById("{{ data['content']['id'] }}-name")
+                                var {{ data["content"]["id"] }}dialogueText = document.getElementById("{{ data['content']['id'] }}-chat")
+                                var {{ data["content"]["id"] }}dialogueBox = document.getElementById("{{ data['content']['id'] }}-dialogue")
 
-                                const dialogueName = document.getElementById("{{ data['content']['id'] }}-name")
-                                const dialogueText = document.getElementById("{{ data['content']['id'] }}-chat")
-                                const dialogueBox = document.getElementById("{{ data['content']['id'] }}-dialogue")
-
-                                window.onload = function() {
+                                window.addEventListener('load', function() {
                                     fetch("{{ data['content']['chatData'] }}")
-                                    .then(response => response.json())
-                                    .then(data => {
-                                        {{ data["content"]["id"] }}Data = data;
-                                        changeDialogue("startDialogue")
-                                    })
-                                    .catch(error => console.error('Error fetching data:', error));
-                                    
-                                }
+                                        .then(response => response.json())
+                                        .then(data => {
+                                            console.log(data);
+                                            {{ data["content"]["id"] }}Data = data;
+                                            console.log("dialogue init {{ data['content']['id'] }}");
+                                            change{{ data["content"]["id"] }}Dialogue("startDialogue");
+                                        })
+                                        .catch(error => console.error('Error fetching data:', error));
+                                });
 
-                                function changeDialogue(dialogueId) {
-                                    const chatData = {{ data["content"]["id"] }}Data[dialogueId];
-                                    const userData = chatData[chatData.name];
+                                function change{{ data["content"]["id"] }}Dialogue(dialogueId) {
+                                    var {{ data["content"]["id"] }}chatData = {{ data["content"]["id"] }}Data[dialogueId];
+                                    var {{ data["content"]["id"] }}userData = {{ data["content"]["id"] }}chatData[{{ data["content"]["id"] }}chatData.name];
 
-                                    dialogueBox.style.setProperty('--color1', dialogueData.characterData[chatData.name]["dialogueColors"][0]);
-                                    dialogueBox.style.setProperty('--color2', dialogueData.characterData[chatData.name]["dialogueColors"][1]);
-                                    dialogueBox.style.setProperty('--color3', dialogueData.characterData[chatData.name]["dialogueColors"][2]);
+                                    {{ data["content"]["id"] }}dialogueBox.style.setProperty('--color1', dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueColors"][0]);
+                                    {{ data["content"]["id"] }}dialogueBox.style.setProperty('--color2', dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueColors"][1]);
+                                    {{ data["content"]["id"] }}dialogueBox.style.setProperty('--color3', dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueColors"][2]);
 
-                                    dialogueName.innerText = chatData.name;
-                                    dialogueText.innerText = random(chatData.text);
+                                    {{ data["content"]["id"] }}dialogueName.innerText = {{ data["content"]["id"] }}chatData.name;
+                                    {{ data["content"]["id"] }}dialogueText.innerText = random({{ data["content"]["id"] }}chatData.text);
 
-                                    playSound(dialogueData.characterData[chatData.name]["dialogueSfx"][0], dialogueData.characterData[chatData.name]["dialogueSfx"][1], dialogueData.characterData[chatData.name]["dialogueSfx"][2]);
+                                    playSound(dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][0], dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][1], dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][2]);
 
-                                    const choices = document.getElementById("{{ data['content']['id'] }}-choices");
+                                    var {{ data["content"]["id"] }}choices = document.getElementById("{{ data['content']['id'] }}-choices");
                         
-                                    choices.innerHTML = '';
-                                    chatData.choices.forEach(item => {
-                                        const element = document.createElement('div');
+                                    {{ data["content"]["id"] }}choices.innerHTML = '';
+                                    {{ data["content"]["id"] }}chatData.choices.forEach(item => {
+                                        var element = document.createElement('div');
                                         element.innerHTML = `
-                                        <button onclick="changeDialogue('${item[1]}')">
+                                        <button onclick="change{{ data["content"]["id"] }}Dialogue('${item[1]}')">
                                             <text type="hoverText">${item[0]}</text>
                                         </button>
                                         `;
-                                        choices.appendChild(element);
+                                        {{ data["content"]["id"] }}choices.appendChild(element);
                                     });
                                 }
 

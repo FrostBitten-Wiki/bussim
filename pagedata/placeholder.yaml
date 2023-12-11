@@ -151,8 +151,15 @@ html:
     # The chatData can be seen on /chatdata/npcChat.json for reference.
     - type: npcChat
       content:
-        id: npcChat
+        id: testing
+        startId: startDialogue
         chatData: /bussim-assets/chatdata/npcChat.json
+
+    - type: npcChat
+      content:
+        id: mockup
+        startId: startDialogue
+        chatData: /bussim-assets/chatdata/mockup.json
 
     # This adds buttons to the content.
     - type: buttons
