@@ -41,19 +41,7 @@
         {% endif %}
 
         <link rel="stylesheet" href="/bussim-assets/dialogue.css">
-   
-        <audio preload="auto" style="display: none;">
-            <source src="/bussim-assets/sounds/billy.mp3" type="audio/mp3">
-            <source src="/bussim-assets/sounds/button.mp3" type="audio/mp3">
-            <source src="/bussim-assets/sounds/choiceclick.mp3" type="audio/mp3">
-            <source src="/bussim-assets/sounds/choicehover.mp3" type="audio/mp3">
-            <source src="/bussim-assets/sounds/elecping.mp3" type="audio/mp3">
-            <source src="/bussim-assets/sounds/event.mp3" type="audio/mp3">
-            <source src="/bussim-assets/sounds/fang.mp3" type="audio/mp3">
-            <source src="/bussim-assets/sounds/meow.mp3" type="audio/mp3">
-            <source src="/bussim-assets/sounds/ouch.mp3" type="audio/mp3">
-            <source src="/bussim-assets/sounds/zeon.mp3" type="audio/mp3">
-        </audio>
+        <link rel="preload" as="image" href="/bussim-assets/images/dialogue/npcImages.webp">
             
         <audio id="soundSource" style="display: none;">
             <source type="audio/mp3">
@@ -471,7 +459,9 @@
                                 });
 
                                 function change{{ data["content"]["id"] }}Dialogue(dialogueId) {
-                                    var {{ data["content"]["id"] }}chatData = {{ data["content"]["id"] }}Data[dialogueId];
+                                    var {{ data["content"]["id"] }}dialogueId = random(dialogueId.split(","))
+
+                                    var {{ data["content"]["id"] }}chatData = {{ data["content"]["id"] }}Data[{{ data["content"]["id"] }}dialogueId];
                                     var {{ data["content"]["id"] }}userData = {{ data["content"]["id"] }}chatData[{{ data["content"]["id"] }}chatData.name];
 
                                     {{ data["content"]["id"] }}dialogueBox.style.setProperty('--color1', dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueColors"][0]);

@@ -16,10 +16,7 @@ fetch("/bussim-assets/dialoguedata/dialogue.json")
 });
 
 
-// Reuse a single AudioContext instance
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-
-// Load audio files once and reuse the buffers
 const audioBuffers = {};
 
 function loadAudioFile(soundfile) {
@@ -52,11 +49,11 @@ function playSound(soundfile, volume, pitch) {
         source.detune.value = pitch === 0 || pitch === "none" ? 0 : Math.random() * pitch;
 
         gainNode.gain.value = volume;
-        source.start(0);
-
+        
         clonedAudio.addEventListener("ended", function () {
             document.body.removeChild(clonedAudio);
         });
+        source.start(0);
     });
 }
 

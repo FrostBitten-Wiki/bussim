@@ -9,9 +9,18 @@
         ],
 
         "choices": [
-            ["Choice 1", "choice1"],
-            ["Choice 2", "choice2"],
-            ["Choice 3", "choice3"]
+            [
+                "Choice 1",
+                ["choice1", "choice2"]
+            ],
+            [
+                "Choice 2",
+                ["choice2"]
+            ],
+            [
+                "Choice 3",
+                ["choice3"]
+            ]
         ]
     },
 
@@ -23,7 +32,10 @@
         ],
 
         "choices": [
-            ["Go Back", "startDialogue"]
+            [
+                "Go Back", 
+                ["startDialogue"]
+            ]
         ]
     },
 
@@ -35,7 +47,10 @@
         ],
 
         "choices": [
-            ["Go Back", "startDialogue"]
+            [
+                "Go Back", 
+                ["startDialogue"]
+            ]
         ]
     },
 
@@ -47,7 +62,10 @@
         ],
 
         "choices": [
-            ["Go Back", "startDialogue"]
+            [
+                "Go Back", 
+                ["startDialogue"]
+            ]
         ]
     }
 }
