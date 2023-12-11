@@ -471,7 +471,7 @@
             "dialogueEmoteName": "tazer"
         },
         "Zeon": {
-            "dialogueSfx": "button",
+            "dialogueSfx": "zeon",
             "dialogueColors": ["#0b0412", "#12061b", "#7625b8"],
             "dialogueEmoteName": "zeon"
         },
@@ -516,7 +516,7 @@
             "dialogueEmoteName": "nyx"
         },
         "Fang": {
-            "dialogueSfx": "fangtick",
+            "dialogueSfx": "fang",
             "dialogueColors": ["#142052", "black", "blue"],
             "dialogueEmoteName": "fang"
         },
