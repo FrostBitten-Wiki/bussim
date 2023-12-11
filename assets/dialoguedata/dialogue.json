@@ -420,7 +420,7 @@
             "dialogueEmoteName": "d6"
         },
         "Disc": {
-            "dialogueSfx": ["event", 1, 250],
+            "dialogueSfx": ["disc", 2, 250],
             "dialogueColors": ["#0b0d15", "#111420", "#7289da"],
             "dialogueEmoteName": "disc"
         },
