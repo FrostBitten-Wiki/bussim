@@ -44,6 +44,20 @@ html:
 
               Contributions: Images of NPC Emotes, NPC Dialogues, Event Icons, Seat Animations and Emote Animations
             listItemRedirect: ''
+          
+          - listItemImage: https://cdn.discordapp.com/avatars/457989416573599758/7a0611d3ab5807bc540979420d7efd66.png?size=1024
+            listItemTitle: PolyframeX (@polyframex)
+            listItemDescription: >-
+              Wiki Editor
+
+              <br><br>
+
+              " Wandering In The Void... "
+
+              <br><br>
+
+              Contributions: Ported Biomes/Items/Events Pages, some Location/Misc. Pages. Some NPC Dialogue SFX (billy.mp3). Created Biome Images.
+            listItemRedirect: ''
 
           - listItemImage: https://mediumkey.xyz/images/pfp.png?size=2048
             listItemTitle: Mediumkey (@mediumkey)
@@ -57,6 +71,20 @@ html:
               <br><br>
 
               Contributions: CSS for the Checkerboard Background for Dialogues, Dialogue Sound Effect (elecping.mp3)
+            listItemRedirect: ''
+
+          - listItemImage: https://cdn.discordapp.com/avatars/805490469051826246/797f670f05c9f629434de8ceb758c684.png?size=1024
+            listItemTitle: 9n (@kalcifur)
+            listItemDescription: >-
+              Contributor
+
+              <br><br>
+
+              " none "
+
+              <br><br>
+
+              Contributions: Created Images for Items
             listItemRedirect: ''
           
           - listItemImage: https://cdn.discordapp.com/avatars/396049440110280714/df35ce5e2cda818de31ef10759e5c13c.png?size=2048
@@ -85,18 +113,4 @@ html:
               <br><br>
 
               Contributions: existing
-            listItemRedirect: ''
-
-          - listItemImage: https://cdn.discordapp.com/avatars/457989416573599758/7a0611d3ab5807bc540979420d7efd66.png?size=1024
-            listItemTitle: PolyframeX (@polyframex)
-            listItemDescription: >-
-              Wiki Editor
-
-              <br><br>
-
-              " Wandering In The Void... "
-
-              <br><br>
-
-              Contributions: Ported Biomes/Items/Events Pages, some Location/Misc. Pages. Some NPC Dialogue SFX (billy.mp3). Created Biome Images.
             listItemRedirect: ''
