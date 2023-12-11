@@ -125,7 +125,8 @@ html:
 
     - type: npcChat
       content:
-        id: npcChat
+        id: mockup
+        startId: startDialogue
         chatData: /bussim-assets/chatdata/mockup.json
 
     - type: text
