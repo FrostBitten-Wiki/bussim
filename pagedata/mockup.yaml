@@ -121,7 +121,7 @@ html:
     - type: section
       content:
         size: normal
-        title: Dialouge
+        title: Dialogue
 
     - type: npcChat
       content:
