@@ -466,7 +466,7 @@
             "dialogueEmoteName": "mlg"
         },
         "Pear": {
-            "dialogueSfx": ["meow", 0.5, "none"],
+            "dialogueSfx": ["meow", 0.3, "none"],
             "dialogueColors": ["#071907", "#0b260b", "#4cff4c"],
             "dialogueEmoteName": "pear"
         },

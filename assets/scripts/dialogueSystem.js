@@ -49,10 +49,12 @@ function playSound(soundfile, volume, pitch) {
         source.detune.value = pitch === 0 || pitch === "none" ? 0 : Math.random() * pitch;
 
         gainNode.gain.value = volume;
-        
-        clonedAudio.addEventListener("ended", function () {
+
+        source.addEventListener("ended", function () {
             document.body.removeChild(clonedAudio);
+            source.removeEventListener("ended", arguments.callee);
         });
+
         source.start(0);
     });
 }
