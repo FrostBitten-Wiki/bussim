@@ -29,9 +29,11 @@ html:
     - type: section
       content:
         title: AI
-        description: >-
-          * It will chase a player and fling them.<br>
-          * However, it occasionally doesn't move and stops at certain points.
+
+    - type: tree
+      content:
+        - name: It will chase a player and fling them.
+        - name: However, it occasionally doesn't move and stops at certain points.
           
     - type: section
       content:
