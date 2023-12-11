@@ -26,3 +26,4 @@ html:
     - type: gallery
       content:
         images:
+        - /bussim-assets/images/biomes/galleries/Tree_And_Ad.webp
