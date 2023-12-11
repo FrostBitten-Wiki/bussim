@@ -213,9 +213,10 @@ html:
           - listItemImage: /bussim-assets/images/items/lemon-soda-icon.webp
             listItemTitle: Lemon Soda
             listItemDescription: >-
-              Coffee is a usable item obtained from the pool event that appears
-              next to the edges of the pool.<br></br>It is used much like a
-              soda; however, it gives no additional effects.
+              The Lemon Soda is an item in Bus Simulator that is obtained from its own respective event. 
+              When drank, it deals 25 damage to the player, 
+              and causes nausea as well. 
+              Spitting noises may also be heard.
             listItemRedirect: /bussim/items/lemon-soda
           - listItemImage: /bussim-assets/images/items/liquid-void.webp
             listItemTitle: Liquid Void

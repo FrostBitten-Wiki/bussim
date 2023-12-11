@@ -31,10 +31,10 @@ html:
       content:
         title: Info
         description: >-
-         The Lemon Soda is an item in Bus Simulator that is obtained from its own respective event. 
-         When drank, it deals 25 damage to the player, 
-         and causes nausea as well. 
-         Spitting noises may also be heard.
+          The Lemon Soda is an item in Bus Simulator that is obtained from its own respective event. 
+          When drank, it deals 25 damage to the player, 
+          and causes nausea as well. 
+          Spitting noises may also be heard.
 
     - type: section
       content:
