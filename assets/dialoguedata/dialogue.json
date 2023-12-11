@@ -192,14 +192,11 @@
         "nyx001": {
             "rarity": 50,
             "dialogue": [
-                [[2000, 25], "Nyx", "", "Hello!"],
-                [[2000, 25], "Nyx", "", "This wiki is pretty much..."],
-                [[1000, 100], "Nyx", "", "Not done yet."],
-                [[1000, 25], "Nyx", "", "uhh..."],
-                [[2000, 50], "Nyx", "", "anyways..."],
-                [[2000, 25], "Nyx", "", "I hope you like where the official wikis for Noble's games are placed now!"],
-                [[2000, 25], "Nyx", "", "I mostly maintain the Backend and Frontend code of the site..."],
-                [[2000, 25], "Nyx", "", "With two current Contributors porting all pages from fandom!"]
+                [[2000, 25], "Nyx", "", "Hello there!"],
+                [[2000, 25], "Nyx", "", "I'm just here to tell you that thank you for visiting the wiki!"],
+                [[2000, 25], "Nyx", "", "I've put my time on making this entire wiki, and how it works"],
+                [[2000, 25], "Nyx", "", "Thanks to Fang and PolyframeX for porting content from fandom!"],
+                [[2000, 25], "Nyx", "", "and for Noble on making this wiki possible!"]
             ]
         },
 
@@ -302,8 +299,8 @@
         "zeon003": {
             "rarity": 100,
             "dialogue": [
-                [[2000, 25], "Zeon", "default", "Wait..."],
-                [[3000, 25], "Zeon", "close", "You seem familiar..."],
+                [[2000, 50], "Zeon", "default", "Wait..."],
+                [[2000, 25], "Zeon", "close", "You seem familiar..."],
                 [[3000, 25], "Zeon", "point", "Didn't you break into my house before?"]
             ]
         },
@@ -349,15 +346,7 @@
         "zeon008b": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Zeon", "point", "My dialogue <highlight>michael</highlight> is related to both the cat and a zombie-horde survival game based off of said cat meme!"],
-                [[3000, 25], "Zeon", "close", "michael"]
-            ]
-        },
-
-        "zeon008c": {
-            "rarity": 100,
-            "dialogue": [
-                [[1000, 25], "Zeon", "point", "My dialogue <highlight>michael</highlight> is related to both the cat and a zombie-horde survival game based off of said cat meme!"],
+                [[2000, 25], "Zeon", "point", "My dialogue <highlight>michael</highlight> is related to both the cat and a zombie-horde survival game based off of said cat meme!"],
                 [[3000, 25], "Zeon", "close", "michael"]
             ]
         },
@@ -372,8 +361,8 @@
         "zeon010": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Zeon", "point", "Hey, if you see somebody in a dumpster behind the gas station..."],
-                [[4000, 25], "Zeon", "point", "Tell them I said they can come over! We still need to talk about those fictional turtle skeletons."],
+                [[1000, 25], "Zeon", "point", "Hey, if you see somebody in a dumpster behind the gas station..."],
+                [[2000, 25], "Zeon", "point", "Tell them I said they can come over! We still need to talk about those fictional turtle skeletons."],
                 [[3000, 25], "Zeon", "point", "They're so rad..."]
             ]
         },

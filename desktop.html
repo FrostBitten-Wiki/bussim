@@ -565,6 +565,21 @@
             document.addEventListener(visibilityChange, dialogueHandler, false);
         </script>
 
+        <script>
+            var buttons = document.querySelectorAll('button');
+            var audio = document.getElementById('audio');
+    
+            buttons.forEach(function(button) {
+                button.addEventListener('click', function() {
+                    playSound("buttonclick", 1, "none")
+                });
+    
+                button.addEventListener('mouseenter', function() {
+                    playSound("buttonhover", 1, "none")
+                });
+            });
+        </script>
+
         <script src="/bussim-assets/scripts/dialogueSystem.js"></script>
     </body>
 </html>
