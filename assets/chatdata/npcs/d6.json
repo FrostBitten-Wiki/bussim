@@ -1697,7 +1697,46 @@
         ]
     },
 
-    "tellA11": {
+
+    "tellA12": {
+        "name": "D6",
+
+        "text": [
+            "i am sincerely sorry for your loss"
+        ],
+
+        "choices": [
+            [
+                "Sorry",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tell"]
+            ]
+        ]
+    },
+
+    "tellA13": {
+        "name": "D6",
+
+        "text": [
+            "my brain hurts"
+        ],
+
+        "choices": [
+            [
+                "Ok.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["tell"]
+            ]
+        ]
+    },
+
+    "tellA14": {
         "name": "D6",
 
         "text": [
