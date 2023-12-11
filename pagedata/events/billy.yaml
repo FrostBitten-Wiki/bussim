@@ -82,6 +82,7 @@ html:
     - type: npcChat
       content:
         id: billyIntro
+        startId: startDialogue
         chatData: /bussim-assets/chatdata/events/billyintro.json
 
     - type: tree
@@ -115,6 +116,7 @@ html:
     - type: npcChat
       content:
         id: billyAll
+        startId: startDialogue
         chatData: /bussim-assets/chatdata/events/billyall.json
 
     - type: tree

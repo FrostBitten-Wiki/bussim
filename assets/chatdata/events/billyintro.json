@@ -7,7 +7,10 @@
         ],
 
         "choices": [
-            ["<highlight>Continue</highlight>", "start2"]
+            [
+                "<highlight>Continue</highlight>",
+                ["start2"]
+            ]
         ]
     },
 
@@ -19,8 +22,14 @@
         ],
 
         "choices": [
-            ["<highlight>Continue</highlight>","start3"],
-            ["<highlight>Go Back</highlight>", "startDialogue"]
+            [
+                "<highlight>Continue</highlight>",
+                ["start3"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["startDialogue"]
+            ]
         ]
     },
     "start3": {
@@ -31,8 +40,14 @@
         ],
 
         "choices": [
-            ["<highlight>Continue</highlight>","start4"],
-            ["<highlight>Go Back</highlight>", "start2"]
+            [
+                "<highlight>Continue</highlight>",
+                ["start4"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start2"]
+            ]
         ]
     },
     "start4": {
@@ -43,10 +58,22 @@
         ],
 
         "choices": [
-            ["No.","no"],
-            ["Yes!","yes"],
-            ["<highlight>Abstained</highlight>","silence"],
-            ["<highlight>Go Back</highlight>", "start3"]
+            [
+                "No.",
+                ["no"]
+            ],
+            [
+                "Yes!",
+                ["yes"]
+            ],
+            [
+                "<highlight>Abstained</highlight>",
+                ["silence"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start3"]
+            ]
         ]
     },
 
@@ -58,8 +85,14 @@
         ],
 
         "choices": [
-            ["<highlight>Continue</highlight>","no2"],
-            ["<highlight>Go Back</highlight>", "start4"]
+            [
+                "<highlight>Continue</highlight>",
+                ["no2"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start4"]
+            ]
         ]
     },
 
@@ -71,8 +104,14 @@
         ],
 
         "choices": [
-            ["<highlight>Continue</highlight>","no3"],
-            ["<highlight>Go Back</highlight>", "no"]
+            [
+                "<highlight>Continue</highlight>",
+                ["no3"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["no"]
+            ]
         ]
     },
 
@@ -84,8 +123,14 @@
         ],
 
         "choices": [
-            ["<highlight>Reset</highlight>","startDialogue"],
-            ["<highlight>Go Back</highlight>", "no2"]
+            [
+                "<highlight>Reset</highlight>",
+                ["startDialogue"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["no2"]
+            ]
         ]
     },
 
@@ -97,8 +142,14 @@
         ],
 
         "choices": [
-            ["<highlight>Continue</highlight>","yes2"],
-            ["<highlight>Go Back</highlight>", "start4"]
+            [
+                "<highlight>Continue</highlight>",
+                ["yes2"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start4"]
+            ]
         ]
     },
 
@@ -110,8 +161,14 @@
         ],
 
         "choices": [
-            ["<highlight>Continue</highlight>","yes3"],
-            ["<highlight>Go Back</highlight>", "yes"]
+            [
+                "<highlight>Continue</highlight>",
+                ["yes3"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["yes"]
+            ]
         ]
     },
 
@@ -123,8 +180,14 @@
         ],
 
         "choices": [
-            ["<highlight>Reset</highlight>","startDialogue"],
-            ["<highlight>Go Back</highlight>", "yes2"]
+            [
+                "<highlight>Reset</highlight>",
+                ["startDialogue"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["yes2"]
+            ]
         ]
     },
 
@@ -136,8 +199,14 @@
         ],
 
         "choices": [
-            ["<highlight>Continue</highlight>","silence2"],
-            ["<highlight>Go Back</highlight>", "start4"]
+            [
+                "<highlight>Continue</highlight>",
+                ["silence2"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start4"]
+            ]
         ]
     },
 
@@ -149,8 +218,14 @@
         ],
 
         "choices": [
-            ["<highlight>Continue</highlight>","silence3"],
-            ["<highlight>Go Back</highlight>", "silence"]
+            [
+                "<highlight>Continue</highlight>",
+                ["silence3"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["silence"]
+            ]
         ]
     },
 
@@ -162,8 +237,14 @@
         ],
 
         "choices": [
-            ["<highlight>Reset</highlight>","startDialogue"],
-            ["<highlight>Go Back</highlight>", "silence2"]
+            [
+                "<highlight>Reset</highlight>",
+                ["startDialogue"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["silence2"]
+            ]
         ]
     }
 
