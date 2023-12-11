@@ -233,6 +233,26 @@ input {
     padding: 5px;
 }
 
+button {
+    background-color: #1a149c;
+
+    width: auto;
+    height: 35px;
+    border: none;
+    transition: 0.3s;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #2c269a;
+}
+
 textarea:focus, input:focus{
     outline: none;
 }

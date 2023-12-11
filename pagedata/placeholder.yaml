@@ -11,8 +11,13 @@ page:
   # This value changes the Page's Keywords to be able to be searched on any Search Engines.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   # This value is used for the Wiki Server's search function. Recommended only for non-ignored YAML files.
-  #tags: some, tags, here
+  tags: some, tags, here
+  # This value tells the server to ignore this from being included on the search results.
+  # This should only be used for pages that isn't related to any content from the game.
   ignore: ignore
+  # This value is used to toggle comments for a page.
+  # Usually, you just want to keep this off.
+  comments: enabled
 
 # This attribute handles the attribution (or credits) for the page.
 # This should only contain the following:

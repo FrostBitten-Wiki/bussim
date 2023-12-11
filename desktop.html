@@ -490,35 +490,21 @@
                             </script>
                         {% endif %}
                     {% endfor %}
-
-                    <style>
-                        button {
-                            background-color: #1a149c;
-
-                            width: auto;
-                            height: 35px;
-                            border: none;
-                            transition: 0.3s;
-                            align-items: center;
-                            display: flex;
-                            justify-content: space-between;
-                            overflow: hidden;
-                            margin-bottom: 5px;
-                        }
-
-                        button:hover {
-                            cursor: pointer;
-                            color: white;
-                            background-color: #2c269a;
-                        }
-                    </style>
                     
+
                     {% if attributions != [] %}
                     <div style="margin-top: 10px; margin-bottom: 20px;">
                         {% for attr in attributions %}
                             <text style="font-size: 10px;">{{ attr }}</text><br>
                         {% endfor %}
                     </div>
+                    {% endif %}
+
+
+                    {% if comments %}
+                        <div id="comments">
+                            
+                        </div>
                     {% endif %}
                     
                     <br><br><br>
