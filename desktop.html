@@ -43,10 +43,16 @@
         <link rel="stylesheet" href="/bussim-assets/dialogue.css">
    
         <audio preload="auto" style="display: none;">
+            <source src="/bussim-assets/sounds/billy.mp3" type="audio/mp3">
             <source src="/bussim-assets/sounds/button.mp3" type="audio/mp3">
+            <source src="/bussim-assets/sounds/choiceclick.mp3" type="audio/mp3">
+            <source src="/bussim-assets/sounds/choicehover.mp3" type="audio/mp3">
             <source src="/bussim-assets/sounds/elecping.mp3" type="audio/mp3">
+            <source src="/bussim-assets/sounds/event.mp3" type="audio/mp3">
+            <source src="/bussim-assets/sounds/fang.mp3" type="audio/mp3">
             <source src="/bussim-assets/sounds/meow.mp3" type="audio/mp3">
             <source src="/bussim-assets/sounds/ouch.mp3" type="audio/mp3">
+            <source src="/bussim-assets/sounds/zeon.mp3" type="audio/mp3">
         </audio>
             
         <audio id="soundSource" style="display: none;">
@@ -474,7 +480,7 @@
                                     dialogueName.innerText = chatData.name;
                                     dialogueText.innerText = random(chatData.text);
 
-                                    playSound(dialogueData.characterData[chatData.name]["dialogueSfx"]);
+                                    playSound(dialogueData.characterData[chatData.name]["dialogueSfx"][0], dialogueData.characterData[chatData.name]["dialogueSfx"][1]);
 
                                     const choices = document.getElementById("{{ data['content']['id'] }}-choices");
                         

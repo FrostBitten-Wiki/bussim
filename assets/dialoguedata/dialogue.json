@@ -175,7 +175,7 @@
 
         
         "fang001": {
-            "rarity": 5,
+            "rarity": 25,
             "dialogue": [
                 [[2000, 25], "Fang", "", "..."],
                 [[1000, 25], "Fang", "", "WH-"],
@@ -185,6 +185,19 @@
                 [[3000, 25], "Fang", "", "I've been getting the hang of it. well, I have to go do something in the meantime!"],
                 [[3000, 25], "Fang", "", "oh and uh, before i go..."],
                 [[3000, 25], "Fang", "", "shoutout philippines"]
+            ]
+        },
+
+
+        "nyx001": {
+            "rarity": 50,
+            "dialogue": [
+                [[2000, 25], "Nyx", "", "Hey there!"],
+                [[1000, 25], "Nyx", "", "Welcome.."],
+                [[1000, 50], "Nyx", "", "to"],
+                [[1000, 50], "Nyx", "", "uhh.."],
+                [[2000, 25], "Nyx", "", "to the newly hosted wiki for Noble's games!"]
+
             ]
         },
 
@@ -404,74 +417,74 @@
 
     "characterData": {
         "Placeholder": {
-            "dialogueSfx": "button",
+            "dialogueSfx": ["button", 0.5, "none"],
             "dialogueColors": ["#6d6d6d", "#9d9d9d", "white"]
         },
         
         "Main Game NPCs": "Character Data for Current Game NPCs (Interactable)",
         
         "D6": {
-            "dialogueSfx": "button",
+            "dialogueSfx": ["button", 0.5, "none"],
             "dialogueColors": ["#15150a", "#21200f", "#ddd666"],
             "dialogueEmoteName": "d6"
         },
         "Disc": {
-            "dialogueSfx": "button",
+            "dialogueSfx": ["button", 0.5, "none"],
             "dialogueColors": ["#0b0d15", "#111420", "#7289da"],
             "dialogueEmoteName": "disc"
         },
         "Ectta": {
-            "dialogueSfx": "button",
+            "dialogueSfx": ["button", 0.5, "none"],
             "dialogueColors": ["#000c02", "#001303", "#018116"],
             "dialogueEmoteName": "ectta"
         },
         "Efeuc": {
-            "dialogueSfx": "button",
+            "dialogueSfx": ["button", 0.5, "none"],
             "dialogueColors": ["#190000", "#260000", "red"],
             "dialogueEmoteName": "efeuc"
         },
         "Frostbite": {
-            "dialogueSfx": "button",
+            "dialogueSfx": ["button", 0.5, "none"],
             "dialogueColors": ["#131619", "#1d2226", "#c4e6ff"],
             "dialogueEmoteName": "frost"
         },
         "Green": {
-            "dialogueSfx": "button",
+            "dialogueSfx": ["button", 0.5, "none"],
             "dialogueColors": ["#050b04", "#0b260b", "#367328"],
             "dialogueEmoteName": "green"
         },
         "MiroCev": {
-            "dialogueSfx": "button",
+            "dialogueSfx": ["button", 0.5, "none"],
             "dialogueColors": ["#050b04", "#0b260b", "#367328"],
             "dialogueEmoteName": "mirocev"
         },
         "MLG": {
-            "dialogueSfx": "button",
+            "dialogueSfx": ["button", 0.5, "none"],
             "dialogueColors": ["#191000", "#261900", "#ffaa00"],
             "dialogueEmoteName": "mlg"
         },
         "Pear": {
-            "dialogueSfx": "meow",
+            "dialogueSfx": ["meow", 0.5, "none"],
             "dialogueColors": ["#071907", "#0b260b", "#4cff4c"],
             "dialogueEmoteName": "pear"
         },
         "Red": {
-            "dialogueSfx": "button",
+            "dialogueSfx": ["button", 0.5, "none"],
             "dialogueColors": ["#0a0302", "#0f0403", "#641c17"],
             "dialogueEmoteName": "red"
         },
         "Steven": {
-            "dialogueSfx": "button",
+            "dialogueSfx": ["button", 0.5, "none"],
             "dialogueColors": ["#030307", "#04050c", "#1c244c"],
             "dialogueEmoteName": "steven"
         },
         "Tazer": {
-            "dialogueSfx": "button",
+            "dialogueSfx": ["button", 0.5, "none"],
             "dialogueColors": ["#190019", "#260026", "#ff00ff"],
             "dialogueEmoteName": "tazer"
         },
         "Zeon": {
-            "dialogueSfx": "zeon",
+            "dialogueSfx": ["zeon", 0.5, 150],
             "dialogueColors": ["#0b0412", "#12061b", "#7625b8"],
             "dialogueEmoteName": "zeon"
         },
@@ -479,31 +492,31 @@
         "Event Characters": "Character Data for Event Characters",
 
         "Billy (1)": {
-            "dialogueSfx": "billy",
+            "dialogueSfx": ["billy", 0.5, "none"],
             "dialogueColors": ["#181819","#101010","#a3a2a5"],
             "dialogueEmoteName": "billy"
         },
 
         "Billy (2)": {
-            "dialogueSfx": "billy",
+            "dialogueSfx": ["billy", 0.5, "none"],
             "dialogueColors": ["#181819","#101010","#a3a2a5"],
             "dialogueEmoteName": "billy"
         },
 
         "Billy (3)": {
-            "dialogueSfx": "billy",
+            "dialogueSfx": ["billy", 0.5, "none"],
             "dialogueColors": ["#181819","#101010","#a3a2a5"],
             "dialogueEmoteName": "billy"
         },
 
         "Billy (4)": {
-            "dialogueSfx": "billy",
+            "dialogueSfx": ["billy", 0.5, "none"],
             "dialogueColors": ["#181819","#101010","#a3a2a5"],
             "dialogueEmoteName": "billy"
         },
 
         "Billy (5)": {
-            "dialogueSfx": "billy",
+            "dialogueSfx": ["billy", 0.5, "none"],
             "dialogueColors": ["#181819","#101010","#a3a2a5"],
             "dialogueEmoteName": "billy"
         },
@@ -511,17 +524,17 @@
         "Contributors": "Character Data for Contributors",
 
         "Nyx": {
-            "dialogueSfx": "button",
+            "dialogueSfx": ["event", 1, "none"],
             "dialogueColors": ["#333333", "grey", "grey"],
             "dialogueEmoteName": "nyx"
         },
         "Fang": {
-            "dialogueSfx": "fang",
+            "dialogueSfx": ["fang", 0.5, "none"],
             "dialogueColors": ["#142052", "black", "blue"],
             "dialogueEmoteName": "fang"
         },
         "PolyframeX": {
-            "dialogueSfx": "elecping",
+            "dialogueSfx": ["elecping", 0.5, "none"],
             "dialogueColors": ["#101010", "#0c0c0c","#202020"],
             "dialogueEmoteName": "polyframex"
         }

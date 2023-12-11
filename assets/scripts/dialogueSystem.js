@@ -15,17 +15,17 @@ fetch("/bussim-assets/dialoguedata/dialogue.json")
     dialogueData = jsonData;
 });
 
-function playSound(soundfile) {
+function playSound(soundfile, volume) {
     if (soundSource.src !== `${window.location.protocol + "//" + window.location.host}/bussim-assets/sounds/${soundfile}.mp3`) {
         soundSource.src = `/bussim-assets/sounds/${soundfile}.mp3`;
-        soundSource.volume = .2;
+        soundSource.volume = volume;
         soundSource.play();
     } else {
         let originalAudio = document.getElementById("soundSource");
         let clonedAudio = originalAudio.cloneNode(true);
         clonedAudio.id = "clonedAudio";
         document.body.appendChild(clonedAudio);
-        clonedAudio.volume = .2;
+        clonedAudio.volume = volume;
         clonedAudio.play();
 
         clonedAudio.addEventListener("ended", function () {
@@ -80,7 +80,7 @@ function startSpeaking(data, characterData) {
             
                 if (charIndex <= text.length) {
                     if (charIndex % 3 === 0) {
-                        playSound(charData["dialogueSfx"]);
+                        playSound(charData["dialogueSfx"][0], charData["dialogueSfx"][1]);
                     }
                     setTimeout(addCharacter, charDelay);
                 } else {
