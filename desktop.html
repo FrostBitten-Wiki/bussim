@@ -439,13 +439,13 @@
                             </div>
                             
                             <script>
-                                // THIS IS MADNESS!!!!!!!!!!!!!!!
-                                // i hate it sm
-                                var {{ data["content"]["id"] }}Data;
-                                var {{ data["content"]["id"] }}dialogueName = document.getElementById("{{ data['content']['id'] }}-name")
-                                var {{ data["content"]["id"] }}dialogueText = document.getElementById("{{ data['content']['id'] }}-chat")
-                                var {{ data["content"]["id"] }}dialogueBox = document.getElementById("{{ data['content']['id'] }}-dialogue")
+                                window.{{ data["content"]["id"] }}dialogueRunning = false;
 
+                                var {{ data["content"]["id"] }}Data;
+                                var {{ data["content"]["id"] }}dialogueName = document.getElementById("{{ data['content']['id'] }}-name");
+                                var {{ data["content"]["id"] }}dialogueText = document.getElementById("{{ data['content']['id'] }}-chat");
+                                var {{ data["content"]["id"] }}dialogueBox = document.getElementById("{{ data['content']['id'] }}-dialogue");
+                            
                                 window.addEventListener('load', function() {
                                     fetch("{{ data['content']['chatData'] }}")
                                         .then(response => response.json())
@@ -457,36 +457,46 @@
                                         })
                                         .catch(error => console.error('Error fetching data:', error));
                                 });
-
+                            
                                 function change{{ data["content"]["id"] }}Dialogue(dialogueId) {
-                                    var {{ data["content"]["id"] }}dialogueId = random(dialogueId.split(","))
-
+                                    var {{ data["content"]["id"] }}dialogueId = random(dialogueId.split(","));
+                            
                                     var {{ data["content"]["id"] }}chatData = {{ data["content"]["id"] }}Data[{{ data["content"]["id"] }}dialogueId];
                                     var {{ data["content"]["id"] }}userData = {{ data["content"]["id"] }}chatData[{{ data["content"]["id"] }}chatData.name];
-
+                            
                                     {{ data["content"]["id"] }}dialogueBox.style.setProperty('--color1', dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueColors"][0]);
                                     {{ data["content"]["id"] }}dialogueBox.style.setProperty('--color2', dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueColors"][1]);
                                     {{ data["content"]["id"] }}dialogueBox.style.setProperty('--color3', dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueColors"][2]);
-
+                            
                                     {{ data["content"]["id"] }}dialogueName.innerText = {{ data["content"]["id"] }}chatData.name;
                                     {{ data["content"]["id"] }}dialogueText.innerHTML = random({{ data["content"]["id"] }}chatData.text);
-
-                                    playSound(dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][0], dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][1], dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][2]);
-
+                            
+                                    //playSound(dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][0], dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][1], dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][2]);
+                                    
                                     var {{ data["content"]["id"] }}choices = document.getElementById("{{ data['content']['id'] }}-choices");
-                        
+                                    window.{{ data["content"]["id"] }}dialogueRunning = false;
+                                    {{ data["content"]["id"] }}dialogueRunning = true;
                                     {{ data["content"]["id"] }}choices.innerHTML = '';
-                                    {{ data["content"]["id"] }}chatData.choices.forEach(item => {
-                                        var element = document.createElement('div');
-                                        element.innerHTML = `
-                                        <button onclick="change{{ data["content"]["id"] }}Dialogue('${item[1]}')">
-                                            <text type="hoverText">${item[0]}</text>
-                                        </button>
-                                        `;
-                                        {{ data["content"]["id"] }}choices.appendChild(element);
-                                    });
-                                }
+                                    addCharacters(dialogueData, {{ data["content"]["id"] }}chatData.name, {{ data["content"]["id"] }}dialogueText, "{{ data['content']['id'] }}dialogueRunning");
+                                    
+                                    var intervalId = setInterval(function() {
+                                      if (window.{{ data["content"]["id"] }}dialogueRunning === false) {
+                                        clearInterval(intervalId);
 
+                                
+                                        {{ data["content"]["id"] }}chatData.choices.forEach(item => {
+                                            var element = document.createElement('div');
+                                            element.innerHTML = `
+                                            <button onclick="change{{ data["content"]["id"] }}Dialogue('${item[1]}')">
+                                                <text type="hoverText">${item[0]}</text>
+                                            </button>
+                                            `;
+                                            {{ data["content"]["id"] }}choices.appendChild(element);
+                                        });
+                                      }
+                                    }, 1000);
+                                    
+                                }
                             </script>
                         {% endif %}
                     {% endfor %}
@@ -550,6 +560,50 @@
             }
         
             document.addEventListener(visibilityChange, dialogueHandler, false);
+        </script>
+
+        <script>
+            function addCharacters(dialogueData, characterName, dialogueTextElement, dialogueToggle) {
+                const charData = dialogueData.characterData[characterName];
+                const text = dialogueTextElement.innerHTML;
+                let charIndex = 0;
+            
+                function addCharacter() {
+                    const char = text[charIndex];
+            
+                    if (char === "<") {
+                        let htmlTag = char;
+                        charIndex++;
+            
+                        while (charIndex < text.length && text[charIndex] !== ">") {
+                            htmlTag += text[charIndex];
+                            charIndex++;
+                        }
+            
+                        if (charIndex < text.length) {
+                            htmlTag += ">";
+                            charIndex++;
+                        }
+            
+                        dialogueTextElement.innerHTML = htmlTag;
+                    } else {
+                        dialogueTextElement.innerHTML = text.slice(0, charIndex);
+                        charIndex++;
+                    }
+            
+                    if (charIndex <= text.length) {
+                        if (charIndex % 3 === 0) {
+                            playSound(charData["dialogueSfx"][0], charData["dialogueSfx"][1], charData["dialogueSfx"][2]);
+                        }
+                        setTimeout(addCharacter, charData["dialogueDelay"] || 25);
+                    } else {
+                        console.log("test")
+                        window[dialogueToggle] = false;
+                    }
+                }
+            
+                addCharacter();
+            }
         </script>
 
         <script>
