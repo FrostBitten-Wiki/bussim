@@ -38,7 +38,7 @@ html:
     - type: tree
       content:
         - name: "Variant 1: \"WHY ARE YOU IN MY HOUSE?!?!?!?!?!?!\""
-        - name: "Variant 2: \"oh, hey. friends usually <i>knock</i> first, ya know?\" (Friend-Exclusive)"
+        - name: "Variant 2: \"oh, hey. friends usually <i>knock</i> first, ya know?\" <small>(Friend-Exclusive)</small>"
           children:
             - name: "Option 1: Hi."
               children:
@@ -47,13 +47,13 @@ html:
                     - name: "\"Option 1: Who lives in the other house?\""
                       children:
                         - name: "\"I dunno. The house is pretty empty. Maybe it's for sale?\""
-                    - name: "\"Option 2: D6 wants to talk about turtle skeletons. (D6)\""
+                    - name: "\"Option 2: D6 wants to talk about turtle skeletons. <small>(D6)</small>\""
                       children:
                         - name: "\"Aw hell yea. Those skeletons are so rad. Don't I also owe him 5 bucks...?\""
             - name: "Option 2: Who are you?"
               children:
                 - name: "Variant 1: \"Why... Why are you asking me this??? You broke into my house and gonna ask stuff about me?? Fine. I'm Zeon. I moderate the bus statistics and stuff like it. I don't get paid enough for it...\""
-                - name: "Variant 2: \"Did you forget? I'm Zeon. The one friend thats a loser, and probably your only friend that is a girl.\" (Friend-Exclusive)"
+                - name: "Variant 2: \"Did you forget? I'm Zeon. The one friend thats a loser, and probably your only friend that is a girl.\" <small>(Friend-Exclusive)</small>"
             - name: "Option 3: michael"
               children:
               - name: "michael"
@@ -67,10 +67,10 @@ html:
                     - name: "Option 2: Just curious."
                       children:
                         - name: "Ooookkayyy....?"
-            - name: "\"Option 5: Just checking in. (Friend-Exclusive)\""
+            - name: "\"Option 5: Just checking in. <small>(Friend-Exclusive)</small>\""
               children:
                 - name: "\"Well, hey there.\""
-            - name: "\"Option 6: Sorry! Didn't know I was breaking in... (Stranger-Exclusive)\""
+            - name: "\"Option 6: Sorry! Didn't know I was breaking in... <small>(Stranger-Exclusive)</small>\""
               children:
                  - name: "\"How did you just- Okay.. Just... Get outta here Or don't. I'm an NPC, I can't force you to do something.\""
                       
