@@ -480,20 +480,21 @@
                                     addCharacters(dialogueData, {{ data["content"]["id"] }}chatData.name, {{ data["content"]["id"] }}dialogueText, "{{ data['content']['id'] }}dialogueRunning");
                                     
                                     var intervalId = setInterval(function() {
-                                      if (window.{{ data["content"]["id"] }}dialogueRunning === false) {
-                                        clearInterval(intervalId);
-
+                                        if (window.{{ data["content"]["id"] }}dialogueRunning === false) {
+                                          clearInterval(intervalId);
                                 
-                                        {{ data["content"]["id"] }}chatData.choices.forEach(item => {
-                                            var element = document.createElement('div');
-                                            element.innerHTML = `
-                                            <button onclick="change{{ data["content"]["id"] }}Dialogue('${item[1]}')">
-                                                <text type="hoverText">${item[0]}</text>
-                                            </button>
-                                            `;
-                                            {{ data["content"]["id"] }}choices.appendChild(element);
-                                        });
-                                      }
+                                          {{ data["content"]["id"] }}chatData.choices.forEach(item => {
+                                              var element = document.createElement('div');
+                                              element.innerHTML = `
+                                              <button onclick="change{{ data["content"]["id"] }}Dialogue('${item[1]}')">
+                                                  <text type="hoverText">${item[0]}</text>
+                                              </button>
+                                              `;
+                                              {{ data["content"]["id"] }}choices.appendChild(element);
+                                          });
+                                          
+                                          addButtonSounds();
+                                        }
                                     }, 1000);
                                     
                                 }
@@ -607,18 +608,22 @@
         </script>
 
         <script>
-            var buttons = document.querySelectorAll('button');
-            var audio = document.getElementById('audio');
-    
-            buttons.forEach(function(button) {
-                button.addEventListener('click', function() {
-                    playSound("buttonclick", 1, "none")
+            function addButtonSounds() {
+                var buttons = document.querySelectorAll('button');
+                var audio = document.getElementById('audio');
+        
+                buttons.forEach(function(button) {
+                    button.addEventListener('click', function() {
+                        playSound("buttonclick", 1, "none")
+                    });
+        
+                    button.addEventListener('mouseenter', function() {
+                        playSound("buttonhover", 1, "none")
+                    });
                 });
-    
-                button.addEventListener('mouseenter', function() {
-                    playSound("buttonhover", 1, "none")
-                });
-            });
+            }
+
+            addButtonSounds();
         </script>
 
         <script src="/bussim-assets/scripts/dialogueSystem.js"></script>
