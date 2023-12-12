@@ -461,7 +461,7 @@
             "dialogueEmoteName": "efeuc"
         },
         "Frostbite": {
-            "dialogueSfx": ["event", 1, 250],
+            "dialogueSfx": ["frostbite", 2.5, 250],
             "dialogueColors": ["#131619", "#1d2226", "#c4e6ff"],
             "dialogueEmoteName": "frost"
         },
