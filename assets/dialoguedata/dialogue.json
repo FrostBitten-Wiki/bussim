@@ -178,15 +178,41 @@
             "rarity": 25,
             "dialogue": [
                 [[2000, 25], "Fang", "", "..."],
-                [[1000, 25], "Fang", "", "WH-"],
-                [[3000, 25], "Fang", "", "oh uh.. hey there?"],
-                [[3000, 25], "Fang", "", "didn't expect you to find me here but uhm.."],
-                [[3000, 25], "Fang", "", "I hope you're enjoying this wiki! It's quite hard to still understand how it works but..."],
-                [[3000, 25], "Fang", "", "I've been getting the hang of it. well, I have to go do something in the meantime!"],
-                [[3000, 25], "Fang", "", "oh and uh, before i go..."],
-                [[3000, 25], "Fang", "", "shoutout philippines"]
+                [[1000, 25], "Fang", "default", "WH-"],
+                [[3000, 25], "Fang", "sweat", "oh uh.. hey there?"],
+                [[3000, 25], "Fang", "sweat", "didn't expect you to find me here but uhm.."],
+                [[3000, 25], "Fang", "point", "I hope you're enjoying this wiki! It's quite hard to still understand how it works but..."],
+                [[3000, 25], "Fang", "point", "I've been getting the hang of it. well, I have to go do something in the meantime!"],
+                [[3000, 25], "Fang", "default", "oh and uh, before i go..."],
+                [[3000, 25], "Fang", "default", "shoutout philippines"]
             ]
         },
+
+        "fang002": {
+            "rarity": 25,
+            "dialogue": [
+                [[3000, 25], "Fang", "point", "Hey did you know?"],
+                [[3000, 25], "Fang", "point", "I've been an editor for all of the past Bus Simulator Wikis!"],
+                [[3000, 25], "Fang", "point", "Ever since it was mainly maintained by Zeon, to when NotFunnyClown announced the 'new' wiki!"],
+                [[3000, 25], "Fang", "sweat", "As a result, I'm kinda a lot more knowledgable about these kinds of stuff..."],
+                [[3000, 25], "Fang", "point", "So feel free to drop a question if you'd like!"],
+                [[3000, 25], "Fang", "sweat", "Well, as long as you don't find me in a bad mood that is.."],
+                [[3000, 25], "Fang", "default", "But most often, I'll hang around in The Bus, so if you see me at one point.."],
+                [[3000, 25], "Fang", "point", "Say hi to me! That is all."]
+            ]
+        },
+
+        "fang003": {
+            "rarity": 25,
+            "dialogue": [
+                [[3000, 25], "Fang", "point", "Hey did you know?"],
+                [[3000, 25], "Fang", "sweat", "FangedWerewolf is a bit of a pun in of itself, you see.."],
+                [[3000, 25], "Fang", "point", "My fursona's name is Fang! As a result, I've made a terrible mistake in making this masterpiece of a name!"],
+                [[3000, 25], "Fang", "sweat", "Just... uh... don't question if he's actually a werewolf or a worgen..."],
+                [[3000, 25], "Fang", "sweat", "I, uh... just find werewolf cooler than worgens as a name...."]
+            ]
+        },
+
 
 
         "nyx001": {

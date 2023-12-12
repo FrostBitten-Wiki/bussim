@@ -7,7 +7,7 @@
 from jinja2 import Template
 from yaml import load, FullLoader
 from fastapi import FastAPI, Request
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, FileResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 
@@ -19,9 +19,9 @@ app = FastAPI(
 )
 
 template = Jinja2Templates("./")
-app.mount("/bussim-assets", StaticFiles(directory="./assets"), name="assets")
+#app.mount("/bussim-assets", StaticFiles(directory="./assets"), name="assets")
 
-@app.get("/{any}/{wikipath:path}")
+@app.get("/bussim/{wikipath:path}")
 async def wiki(request: Request, wikipath: str = ""):
     if wikipath == "": wikipath = "home"
     html = open(f"./desktop.html", "r")
@@ -37,6 +37,11 @@ async def wiki(request: Request, wikipath: str = ""):
     rendered_html = html_template.render(data)
 
     return HTMLResponse(content=rendered_html)
+
+@app.get("/bussim-assets/{file:path}")
+async def assets(request: Request, file: str):
+    return FileResponse(f"./assets/{file}", headers={"Cache-Control": f"public, max-age=43200"}) # same wikiserver max-age time. press CTRL + SHIFT + R to reload
+
 
 if __name__ == "__main__":
     run("main:app", host="0.0.0.0", port=80, reload=True)
