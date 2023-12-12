@@ -39,11 +39,11 @@ async def wiki(request: Request, wikipath: str = ""):
     return HTMLResponse(content=rendered_html)
 
 @app.get("/bussim-assets/{file:path}")
-async def assets(request: Request, cacheLife: int = None, file: str)
+async def assets(request: Request, file: str, cacheLife: int = None):
     if cacheLife == None:
-        return FileResponse(f"/assets/{file}")
+        return FileResponse(f"./assets/{file}")
     else:
-        return FileResponse(f"/assets/{file}", headers={"Cache-Control": f"public, max-age={cacheLife}"})
+        return FileResponse(f"./assets/{file}", headers={"Cache-Control": f"public, max-age={cacheLife}"})
 
 
 if __name__ == "__main__":
