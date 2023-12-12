@@ -31,6 +31,10 @@
             [
                 "Sorry! Didn't know I was breaking in... <small>(Stranger)</small>",
                 ["optA6"]
+            ],
+            [
+                "<highlight>Refresh</highlight>",
+                ["start"]
             ]
         ]
     },
@@ -99,6 +103,10 @@
             [
                 "<highlight>Reset</highlight>",
                 ["start"]
+            ],
+            [
+                "<highlight>Refresh</highlight>",
+                ["optA2"]
             ]
         ]
     },
@@ -112,7 +120,7 @@
 
         "choices": [
             [
-                "highlight>Reset</highlight>",
+                "<highlight>Reset</highlight>",
                 ["start"]
             ]
         ]
