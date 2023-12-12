@@ -1,8 +1,7 @@
 page:
   title: Disc
   description: Disc is an NPC that sells you the items in the GOATed Gas Station in exchange for Passenger rep.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, D6
-
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Disc
 attributions:
   - "Ported By PolyframeX"
 
@@ -77,21 +76,21 @@ html:
                     - name: "Option 3: Who are you?"
                       children:
                         - name: "\"Uhm, I'm a new hire here. I'm pretty new to this gas station stuff... Although, I should've gotten a better job than this.\""
-                    - name: "Option 4: What do you like?"
-                      children:
-                        - name: "\"I like grass, that is all\""
-                    - name: "Option 5: Well.. is it fun?"
-                      children:
-                        - name: "\"Yeah! I like to sort items on the shelves, it gives me something to do. Also, I get FREE SNACKS!!!!\""
                           children:
-                            - name: "minimum wage lol"
+                            - name: "Option 1: What do you like?"
+                              children:
+                                - name: "\"I like grass, that is all\""
+                            - name: "Option 2: Well.. is it fun?"
+                              children:
+                                - name: "\"Yeah! I like to sort items on the shelves, it gives me something to do. Also, I get FREE SNACKS!!!!\""
+                            - name: "Option 3: minimum wage lol"
                               children:
                                 - name: "\"At least I'm making my own money, unlike you, begging for mommy's credit card!\""
-                    - name: "Option 6: Can I pet you?"
-                      children: 
-                        - name: "\"<highlight>No...</highlight>\""
-                        - name: "\"ok maybe\""
-                    - name: "Option 7: Fun Facts?"
+                            - name: "Option 4: Can I pet you?"
+                              children: 
+                                - name: "\"<highlight>No...</highlight>\""
+                                - name: "\"ok maybe\""
+                    - name: "Option 4: Fun Facts?"
                       children:
                         - name: "\"Oh, I know a lot of stuff! What do you wanna know?\""
                           children:

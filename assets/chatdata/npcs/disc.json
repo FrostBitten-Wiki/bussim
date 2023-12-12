@@ -80,7 +80,7 @@
         "name": "Disc",
         
         "text": [
-            "Oh, sure! What do you wanna talk about? (Page 1/2)"
+            "Oh, sure! What do you wanna talk about?"
         ],
 
         "choices": [
@@ -97,12 +97,8 @@
                 ["talkA3"]
             ],
             [
-                "What do you like?",
-                ["talkA4"]
-            ],
-            [
-                "<highlight>Next Page</highlight>",
-                ["talk2"]
+                "Fun Facts?",
+                ["funa"]
             ],
             [
                 "<highlight>Go Back</highlight>",
@@ -158,8 +154,20 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "What do you like?",
+                ["talkA4"]
+            ],
+            [
+                "Well.. is it fun?",
+                ["talkA5a"]
+            ],
+            [
+                "minimum wage lol",
+                ["talkA5b"]
+            ],
+            [
+                "Can I pet you?",
+                ["talkA6a"]
             ],
             [
                 "<highlight>Go Back</highlight>",
@@ -181,34 +189,7 @@
             ],
             [
                 "<highlight>Go Back</highlight>",
-                ["talk"]
-            ]
-        ]
-    },
-
-    "talk2": {
-        "name": "Disc",
-        
-        "text": [
-            "Oh, sure! What do you wanna talk about? (Page 2/2)"
-        ],
-
-        "choices": [
-            [
-                "Well.. is it fun?",
-                ["talkA5a"]
-            ],
-            [
-                "Can I pet you?",
-                ["talkA6a"]
-            ],
-            [
-                "Fun Facts?",
-                ["funa"]
-            ],
-            [
-                "<highlight>Go Back</highlight>",
-                ["talk"]
+                ["talkA3"]
             ]
         ]
     },
@@ -222,12 +203,12 @@
 
         "choices": [
             [
-                "minimum wage lol",
-                ["talkA5b"]
+                "<highlight>Reset</highlight>",
+                ["start"]
             ],
             [
                 "<highlight>Go Back</highlight>",
-                ["talk2"]
+                ["talkA2"]
             ]
         ]
     },
@@ -246,7 +227,7 @@
             ],
             [
                 "<highlight>Go Back</highlight>",
-                ["talkA5a"]
+                ["talkA2"]
             ]
         ]
     },
@@ -264,7 +245,7 @@
             ],
             [
                 "<highlight>Go Back</highlight>",
-                ["talk2"]
+                ["talkA2"]
             ]
         ]
     },
@@ -306,7 +287,7 @@
             ],
             [
                 "<highlight>Go Back</highlight>",
-                ["talk2"]
+                ["talk"]
             ]
         ]
     },
