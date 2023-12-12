@@ -40,8 +40,10 @@ async def wiki(request: Request, wikipath: str = ""):
 
 @app.get("/bussim-assets/{file:path}")
 async def assets(request: Request, file: str):
-    return FileResponse(f"./assets/{file}", headers={"Cache-Control": f"public, max-age=43200"}) # same wikiserver max-age time. press CTRL + SHIFT + R to reload
-
+    if not file.endswith("json"):
+        return FileResponse(f"./assets/{file}", headers={"Cache-Control": f"public, max-age=43200"}) # same wikiserver max-age time. press CTRL + SHIFT + R to reload
+    else:
+        return FileResponse(f"./assets/{file}")
 
 if __name__ == "__main__":
     run("main:app", host="0.0.0.0", port=80, reload=True)
