@@ -1,0 +1,1744 @@
+{
+    "start": {
+        "name": "Disc",
+        
+        "text": [
+            "Grass, hay, gas, you want it? It's yours my friend.",
+            "Hello, do I smell grass?",
+            "Good morning, afternoon, or night! Whatcha need?",
+            "Baa bah baa baaa? (Hey, how can I help you?)",
+            "Oh, hey [Player]! Look who's got a job now...",
+            "Hiiii!! Hello!!! Hey!!! Wassup!!! Heyoo!!!",
+            "Do you want Non Toxic Cola NobleReign Burger hello?",
+            "Oh uhmm... hello? Wait, wrong punctuation mark...",
+            "Welcome to GOATed Gas, we accept grass clippings as payment!"
+        ],
+
+        "choices": [
+            [
+                "Sorry, just walking by.",
+                ["walking"]
+            ],
+            [
+                "Let's Talk!",
+                ["talk"]
+            ],
+            [
+                "Checkout",
+                ["checkout"]
+            ]
+        ]
+    },
+
+    "walking": {
+        "name": "Disc",
+        
+        "text": [
+            "Aw, we were about to start talking! :(",
+            "Have a nice day!",
+            "Wha...?",
+            "See you later!",
+            "Baa bah!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start"]
+            ]
+        ]
+    },
+
+    "walking2": {
+        "name": "Disc",
+        
+        "text": [
+            "Aw, we were about to start talking! :(",
+            "Have a nice day!",
+            "Wha...?",
+            "See you later!",
+            "Baa bah!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["fund"]
+            ]
+        ]
+    },
+
+    "talk": {
+        "name": "Disc",
+        
+        "text": [
+            "Oh, sure! What do you wanna talk about? (Page 1/2)"
+        ],
+
+        "choices": [
+            [
+                "Where are we?",
+                ["talkA1"]
+            ],
+            [
+                "What's with the lack of, well, stuff?",
+                ["talkA2"]
+            ],
+            [
+                "Who are you?",
+                ["talkA3"]
+            ],
+            [
+                "What do you like?",
+                ["talkA4"]
+            ],
+            [
+                "<highlight>Next Page</highlight>",
+                ["talk2"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start"]
+            ]
+        ]
+    },
+
+    "talkA1": {
+        "name": "Disc",
+        
+        "text": [
+            "We're in the convenience store of GOATed Gas! If you want, you can buy stuff from the shelves using Passenger Rep! You'll keep it forever."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talk"]
+            ]
+        ]
+    },
+
+    "talkA2": {
+        "name": "Disc",
+        
+        "text": [
+            "Well, we're kinda in the middle of nowhere.. we don't get deliveries that often. Still, feel free to buy something!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talk"]
+            ]
+        ]
+    },
+
+    "talkA3": {
+        "name": "Disc",
+        
+        "text": [
+            "Uhm, I'm a new hire here. I'm pretty new to this gas station stuff... Although, I should've gotten a better job than this."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talk"]
+            ]
+        ]
+    },
+    "talkA4": {
+        "name": "Disc",
+        
+        "text": [
+            "I like grass, that is all"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talk"]
+            ]
+        ]
+    },
+
+    "talk2": {
+        "name": "Disc",
+        
+        "text": [
+            "Oh, sure! What do you wanna talk about? (Page 2/2)"
+        ],
+
+        "choices": [
+            [
+                "Well.. is it fun?",
+                ["talkA5a"]
+            ],
+            [
+                "Can I pet you?",
+                ["talkA6a"]
+            ],
+            [
+                "Fun Facts?",
+                ["funa"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talk"]
+            ]
+        ]
+    },
+
+    "talkA5a": {
+        "name": "Disc",
+        
+        "text": [
+            "Yeah! I like to sort items on the shelves, it gives me something to do. Also, I get FREE SNACKS!!!!"
+        ],
+
+        "choices": [
+            [
+                "minimum wage lol",
+                ["talkA5b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talk2"]
+            ]
+        ]
+    },
+
+    "talkA5b": {
+        "name": "Disc",
+        
+        "text": [
+            "At least I'm making my own money, unlike you, begging for mommy's credit card!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talkA5a"]
+            ]
+        ]
+    },
+    "talkA6a": {
+        "name": "Disc",
+        
+        "text": [
+            "<highlight>No...</highlight>"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["talkA6b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talk2"]
+            ]
+        ]
+    },
+
+    "talkA6b": {
+        "name": "Disc",
+        
+        "text": [
+            "ok maybe"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talkA6a"]
+            ]
+        ]
+    },
+
+    "funa": {
+        "name": "Disc",
+        
+        "text": [
+            "Oh, I know a lot of stuff! What do you wanna know?"
+        ],
+
+        "choices": [
+            [
+                "About the station...",
+                ["funb"]
+            ],
+            [
+                "About the bus...",
+                ["func"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["talk2"]
+            ]
+        ]
+    },
+
+    "funb": {
+        "name": "Disc",
+        
+        "text": [
+            "I haven't worked here for long, but I'll try.."
+        ],
+
+        "choices": [
+            [
+                "The Locals",
+                ["SfunA0"]
+            ],
+            [
+                "The Area",
+                ["AfunA0"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["funa"]
+            ]
+        ]
+    },
+
+    "SfunA0": {
+        "name": "Disc",
+        
+        "text": [
+            "What an uncommon question.. Uhh..",
+            "Oh, like who comes around here? Let me remember..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["SfunA1a","SfunA2a","SfunA3a","SfunA4a","SfunA5a","SfunA6"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["funb"]
+            ]
+        ]
+    },
+
+    "SfunA1a": {
+        "name": "Disc",
+        
+        "text": [
+            "A few weeks ago, a tall, orange dragon came in.. or maybe it was a dog..? They came in such a huge frenzy though! Fur frazzled, looking frantically for something.. Then they came up to me and they were all like.."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["SfunA1b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA0"]
+            ]
+        ]
+    },
+
+    "SfunA1b": {
+        "name": "Disc",
+        
+        "text": [
+            "\"This is important, do you have any, uh, pen tips?? For drawing tablets??? Any at all???\""
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["SfunA1c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA1a"]
+            ]
+        ]
+    },
+
+    "SfunA1c": {
+        "name": "Disc",
+        
+        "text": [
+            "I had to be all like, 'Sir, this is a gas station convenience store!'"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["SfunA1d"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA1b"]
+            ]
+        ]
+    },
+
+    "SfunA1d": {
+        "name": "Disc",
+        
+        "text": [
+            "After that, they looked really defeated and left..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["SfunA1e"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA1c"]
+            ]
+        ]
+    },
+
+    "SfunA1e": {
+        "name": "Disc",
+        
+        "text": [
+            "I hope they're okay!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA1d"]
+            ]
+        ]
+    },
+
+    "SfunA2a": {
+        "name": "Disc",
+        
+        "text": [
+            "Some driver guy came in about a week ago.."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["SfunA2b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA0"]
+            ]
+        ]
+    },
+    
+    "SfunA2b": {
+        "name": "Disc",
+        
+        "text": [
+            "They said they were running from the police, and I was like 'WHAT??'"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["SfunA2c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA2a"]
+            ]
+        ]
+    },
+
+    "SfunA2c": {
+        "name": "Disc",
+        
+        "text": [
+            "He explained his situation, though.. Apparently he stole a straw from Bloxdonalds or something..?"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["SfunA2d"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA2b"]
+            ]
+        ]
+    },
+
+    "SfunA2d": {
+        "name": "Disc",
+        
+        "text": [
+            "I kinda feel bad for him now.. What a way to become a felon..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA2c"]
+            ]
+        ]
+    },
+
+    "SfunA3a": {
+        "name": "Disc",
+        
+        "text": [
+            "I saw a icy blue wolf come in here the other day.. I think they said their name was like.. Frozen..? Freezy..? Frostbite??"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["SfunA3b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA0"]
+            ]
+        ]
+    },
+
+    "SfunA3b": {
+        "name": "Green",
+        
+        "text": [
+            "Right, that dude.. they stole the last of those frozen sponge pops! Just sprinted out of the store like it was nothing!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["SfunA3c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA3a"]
+            ]
+        ]
+    },
+
+    "SfunA3c": {
+        "name": "Disc",
+        
+        "text": [
+            "Oh, right.. well if you see him, tell him to pay us back!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA3b"]
+            ]
+        ]
+    },
+
+    "SfunA4a": {
+        "name": "Disc",
+        
+        "text": [
+            "I don't know where this person came from, but this person named 'D6' appeared in our trash bins. We tried to get rid of D6, but ever since the 'incident' happened a few days back..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["SfunA4b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA0"]
+            ]
+        ]
+    },
+    "SfunA4b": {
+        "name": "Disc",
+        
+        "text": [
+            "We gave up and just... let them sit there... *sniff*"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["SfunA4c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA4a"]
+            ]
+        ]
+    },
+
+    "SfunA4c": {
+        "name": "Green",
+        
+        "text": [
+            "Oh, don't worry about Disc. D6 threw a 2 ton slab of concrete at his head and narrowly missed. He's just a bit traumatized."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA4b"]
+            ]
+        ]
+    },
+
+    "SfunA5a": {
+        "name": "Disc",
+        
+        "text": [
+            "Everyone in town is pretty nice, except for that one robot dude..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["SfunA5b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA0"]
+            ]
+        ]
+    },
+
+    "SfunA5b": {
+        "name": "Disc",
+        
+        "text": [
+            "They always brought their Mini-Bus, and ruined our shelves!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["SfunA5c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA5a"]
+            ]
+        ]
+    },
+
+    "SfunA5c": {
+        "name": "Disc",
+        
+        "text": [
+            "It got to the point where we decided to add spikes to the floor entrance... Let's just say that they stopped coming in after that. >:}"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA5b"]
+            ]
+        ]
+    },
+
+    "SfunA6": {
+        "name": "Disc",
+        
+        "text": [
+            "Once, a tiny little gray cat came through here.. he was super cute!"
+        ],
+
+        "choices": [
+            [
+                "He will be boiled.",
+                ["SfunA6B1a"]
+            ],
+            [
+                "You mean Pear?",
+                ["SfunA6B2"]
+            ],
+            [
+                "Elaborate.",
+                ["SfunA6B3"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA0"]
+            ]
+        ]
+    },
+
+    "SfunA6B1a": {
+        "name": "Disc",
+        
+        "text": [
+            "WHAT?! Don't do that!!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["SfunA6B1b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA6"]
+            ]
+        ]
+    },
+
+    "SfunA6B1b": {
+        "name": "Green",
+        
+        "text": [
+            "Disc, I'm pretty sure they're just joking..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["SfunA6B1c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA6B1a"]
+            ]
+        ]
+    },
+
+    "SfunA6B1c": {
+        "name": "Disc",
+        
+        "text": [
+            "I knowww, but still.. don't do that!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA6B1b"]
+            ]
+        ]
+    },
+
+    "SfunA6B2": {
+        "name": "Disc",
+        
+        "text": [
+            "YOU KNOW HIM??"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA6"]
+            ]
+        ]
+    },
+
+    "SfunA6B3": {
+        "name": "Disc",
+        
+        "text": [
+            "Well, he ended up buying a bunch of frozen taquitos... His little arms could barely hold them all... I don't really know what happened to him after that."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["SfunA6"]
+            ]
+        ]
+    },
+
+    "AfunA0": {
+        "name": "Disc",
+        
+        "text": [
+            "The area? I might have a story or two...",
+            "Oh, sure! Lemme remember.."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["AfunA1a","AfunA2a"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["funb"]
+            ]
+        ]
+    },
+
+    "AfunA1a": {
+        "name": "Disc",
+        
+        "text": [
+            "You might think 'Hey, this stop looks kinda cheap.'"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["AfunA1b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["AfunA0"]
+            ]
+        ]
+    },
+
+    "AfunA1b": {
+        "name": "Disc",
+        
+        "text": [
+            "Well, you can blame the local representatives for that one... They were really lazy and just used blueprints from Google Images..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["AfunA1c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["AfunA1a"]
+            ]
+        ]
+    },
+
+    "AfunA1c": {
+        "name": "Disc",
+        
+        "text": [
+            "Now people always call us the 'Free Model Station'..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["AfunA1d"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["AfunA1b"]
+            ]
+        ]
+    },
+
+    "AfunA1d": {
+        "name": "Disc",
+        
+        "text": [
+            "But, rent costs next to nothing, so I guess I can't complain..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["AfunA1c"]
+            ]
+        ]
+    },
+
+    "AfunA2a": {
+        "name": "Disc",
+        
+        "text": [
+            "One time, I went to visit the yellow house to see a friend. There was like, a bunch of people chilling in their backyard."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["AfunA2b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["AfunA0"]
+            ]
+        ]
+    },
+
+    "AfunA2b": {
+        "name": "Disc",
+        
+        "text": [
+            "I was just taking a glance, and then one of them tried to jump on the trampoline..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["AfunA2c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["AfunA2a"]
+            ]
+        ]
+    },
+
+    "AfunA2c": {
+        "name": "Disc",
+        
+        "text": [
+            "They got launched into space! I guess the trampoline script lacked a debounce part in it..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["AfunA2d"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["AfunA2b"]
+            ]
+        ]
+    },
+
+    "AfunA2d": {
+        "name": "Disc",
+        
+        "text": [
+            "Luckily nobody was really hurt. They bought a higher quality trampoline a few days after."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["AfunA2c"]
+            ]
+        ]
+    },
+
+    "func": {
+        "name": "Disc",
+        
+        "text": [
+            "Oh, you mean the one out there? Yeah, I used to ride it all the time! What about it? (Page 1/2)"
+        ],
+
+        "choices": [
+            [
+                "The Tech",
+                ["BfunA1a"]
+            ],
+            [
+                "The Toilet",
+                ["BfunA2"]
+            ],
+            [
+                "The Last One",
+                ["BfunA3a"]
+            ],
+            [
+                "The Events",
+                ["BfunA4a"]
+            ],
+            [
+                "<highlight>Next Page</highlight>",
+                ["fund"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["funa"]
+            ]
+        ]
+    },
+
+    "fund": {
+        "name": "Disc",
+        
+        "text": [
+            "Oh, you mean the one out there? Yeah, I used to ride it all the time! What about it? (Page 2/2)"
+        ],
+
+        "choices": [
+            [
+                "The Colas",
+                ["BfunA5a"]
+            ],
+            [
+                "Nevermind...",
+                ["walking2"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["func"]
+            ]
+        ]
+    },
+
+    "BfunA1a": {
+        "name": "Disc",
+        
+        "text": [
+            "You know, the bus used to be different back when I rode it.. I remember when it was blocker than it is today..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["BfunA1b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["func"]
+            ]
+        ]
+    },
+
+    "BfunA1b": {
+        "name": "Disc",
+        
+        "text": [
+            "When I heard about that lnrOS upgrade, though, I was pretty excited!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["BfunA1c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["BfunA1a"]
+            ]
+        ]
+    },
+
+    "BfunA1c": {
+        "name": "Disc",
+        
+        "text": [
+            "The upgrade was so cool, though! The bus had like, eyes and emotions! It was awesome, it's like it was your friend!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["BfunA1b"]
+            ]
+        ]
+    },
+
+    "BfunA2": {
+        "name": "Disc",
+        
+        "text": [
+            "Oh yeah, that small cramped bathroom inside the stairs, right..? I've heard that if you flush the toiler while you're sitting on it, you might not be staying in that cramped room for so long..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["func"]
+            ]
+        ]
+    },
+
+    "BfunA3a": {
+        "name": "Disc",
+        
+        "text": [
+            "Ever since that wolf stole the last of those sponge pops, we haven't gotten another shipment of them."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["BfunA3b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["func"]
+            ]
+        ]
+    },
+
+    "BfunA3b": {
+        "name": "Disc",
+        
+        "text": [
+            "Apparently, those were discontinued a long time ago. We were unknowingly hoarding them like our life depended it!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["BfunA3c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["BfunA3a"]
+            ]
+        ]
+    },
+
+    "BfunA3c": {
+        "name": "Disc",
+        
+        "text": [
+            "Although those popsicles are gone, I do know some ice cream trucks have those sponges somewhere, they're just really rare..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["BfunA3d"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["BfunA3b"]
+            ]
+        ]
+    },
+
+    "BfunA3d": {
+        "name": "Green",
+        
+        "text": [
+            "True... If you ever come across even one of those popsicles, hide it with your life. Don't lose it, don't eat it, don't let someone steal it. Just lock up your fridge. You heard me, lock up your fridge."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["BfunA3e"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["BfunA3c"]
+            ]
+        ]
+    },
+
+    "BfunA3e": {
+        "name": "Green",
+        
+        "text": [
+            "Actually, that's not enough. LOCK UP YOUR HOUSE."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["BfunA3f"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["BfunA3d"]
+            ]
+        ]
+    },
+
+    "BfunA3f": {
+        "name": "Green",
+        
+        "text": [
+            "LOCK UP YOUR ENTIRE NEIGHBORHOOD, EVEN! YOU MUST PROTECT IT AT ALL COSTS!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["BfunA3e"]
+            ]
+        ]
+    },
+
+    "BfunA4a": {
+        "name": "Disc",
+        
+        "text": [
+            "Oh, so you wanna know about why so much stuff occurs all the time? About why the road feels like it goes on forever? About how none of our choices really matter? Huh, [Player]? Don't you want to learn? Don't you know that the bus is--"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["BfunA4b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["func"]
+            ]
+        ]
+    },
+
+    "BfunA4b": {
+        "name": "Green",
+        
+        "text": [
+            "Hey Disc, ain't that a little existential? I think you're freakin' out the customer!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["BfunA4c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["BfunA4a"]
+            ]
+        ]
+    },
+
+    "BfunA4c": {
+        "name": "Disc",
+        
+        "text": [
+            "WHAT ABOUT THE SECRET BUTTON THAT'S HIDDEN NEAR THE--!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["BfunA4d"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["BfunA4b"]
+            ]
+        ]
+    },
+
+    "BfunA4d": {
+        "name": "Green",
+        
+        "text": [
+            "DISC, WE CAN'T TELL THEM ABOUT THAT!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["BfunA4e"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["BfunA4c"]
+            ]
+        ]
+    },
+
+    "BfunA4e": {
+        "name": "Disc",
+        
+        "text": [
+            "Huh...? Whaa...? S-Sorry!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["BfunA4d"]
+            ]
+        ]
+    },
+
+    "BfunA5a": {
+        "name": "Disc",
+        
+        "text": [
+            "Honestly, I've never known who or what made all those different kinds of cola in the first place!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["BfunA5b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["fund"]
+            ]
+        ]
+    },
+
+    "BfunA5b": {
+        "name": "Disc",
+        
+        "text": [
+            "I've only really seen those really cold ones on the top of the bus, and the spicy one right next to the pizza..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["BfunA5c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["BfunA5a"]
+            ]
+        ]
+    },
+
+        "BfunA5c": {
+        "name": "Disc",
+        
+        "text": [
+            "I've heard rumors that there's a third cola out there.. It's red, but when you drink it, well..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["BfunA5d"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["BfunA5b"]
+            ]
+        ]
+    },
+
+    "BfunA5d": {
+        "name": "Disc",
+        
+        "text": [
+            "E-Ehm, it's just a rumor, right..?"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["BfunA5c"]
+            ]
+        ]
+    },
+
+    "checkout": {
+        "name": "Disc",
+        
+        "text": [
+            "Oh, you wanna checkout? Alright!",
+            "Let me help with that!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["checkoutA1","checkoutA2","checkoutA3"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start"]
+            ]
+        ]
+    },
+
+    "checkoutA1": {
+        "name": "Disc",
+        
+        "text": [
+            "So, no items? Ok...",
+            "Well, I guess I could check out that little speck of dust for 0.01 rep. But I'm not gonna accept that!",
+            "Empty, mpty, mt,",
+            "You do know air doesn't come with a barcode, right?",
+            "So, you're gonna buy air? That's going to cost you 99999999999 rep!"
+        ],
+
+        "choices": [
+            [
+                "Oops",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["checkout"]
+            ]
+        ]
+    },
+
+    "checkoutA2": {
+        "name": "Disc",
+        
+        "text": [
+            "The luxurious items are going for [total price] rep! Going once... Going Twice...",
+            "Psst... that things gonna cost you [total price] rep... Do you want it?"
+        ],
+
+        "choices": [
+            [
+                "Instead of rep, can I pay with pearcoin?",
+                ["checkoutA2B1a"]
+            ],
+            [
+                "Clear all items.",
+                ["checkoutA2B2"]
+            ],
+            [
+                "It's a deal.",
+                ["dealA1","dealA2","dealA3"]
+            ],
+            [
+                "No Thanks.",
+                ["nothx"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["checkout"]
+            ]
+        ]
+    },
+
+    "checkoutA2B1a": {
+        "name": "Disc",
+        
+        "text": [
+            "A pearcoin? I've never heard of that before, but it sounds fun..! Let's do it! One pearcoin for..-"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["checkoutA2B1b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["checkoutA2"]
+            ]
+        ]
+    },
+
+    "checkoutA2B1b": {
+        "name": "Green",
+        
+        "text": [
+            "Disc, no... That's just another one of those.. crypto, scam things... For your information, we only take rep. None of that digital currency garbage. Get lost."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["checkoutA2B1c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["checkoutA2B1a"]
+            ]
+        ]
+    },
+
+    "checkoutA2B1c": {
+        "name": "Disc",
+        
+        "text": [
+            "U-uhhm, yeah! What she said! Get lost..!!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["checkoutA2B1b"]
+            ]
+        ]
+    },
+
+    "checkoutA2B2": {
+        "name": "Disc",
+        
+        "text": [
+            "Alright, all of your buyable items have been cleared!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["checkoutA2"]
+            ]
+        ]
+    },
+
+    "dealA1": {
+        "name": "Disc",
+        
+        "text": [
+            "Have fun with your stuff! It's bonded with you now."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["checkoutA2"]
+            ]
+        ]
+    },
+
+    "dealA2": {
+        "name": "Disc",
+        
+        "text": [
+            "... and, you already owned some of the stuff you bought, so I didn't charge you for it! You saved 100 rep."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["checkoutA2"]
+            ]
+        ]
+    },
+    "dealA3": {
+        "name": "Disc",
+        
+        "text": [
+            "Have fun with your stuff! It's bonded with you now. ... oh yeah, we glued the pages on those skillbooks for security purposes. Let me just... There! Now have fun!",
+            "Have fun with your stuff! It's bonded with you now. ... by the way, you're not using this skill for anything malicious, right?",
+            "Have fun with your stuff! It's bonded with you now. ... oh, and the skillbook! Hold on, I gotta get a saw blade just to open every...single... page...",
+            "Have fun with your stuff! It's bonded with you now. ... I, uh, unglued the book, by the way."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["checkoutA2"]
+            ]
+        ]
+    },
+
+    "nothx": {
+        "name": "Disc",
+        
+        "text": [
+            "Oh.. well, if you change your mind, let me know!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["checkoutA2"]
+            ]
+        ]
+    },
+
+    "checkoutA3": {
+        "name": "Disc",
+        
+        "text": [
+            "Sorry, but you don't have enough rep to purchase that!",
+            "Hey [Player], if you look to the top of your screen, you'll see that you don't have enough rep to purchase this..."
+        ],
+
+        "choices": [
+            [
+                "Really? How about a shiny pearcoin instead?",
+                ["checkoutA3B1a"]
+            ],
+            [
+                "Clear all items.",
+                ["checkoutA3B2"]
+            ],
+            [
+                "Oh.",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["checkoutA2"]
+            ]
+        ]
+    },
+
+    "checkoutA3B1a": {
+        "name": "Disc",
+        
+        "text": [
+            "A pearcoin? I've never heard of that before, but it sounds fun..! Let's do it! One pearcoin for..-"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["checkoutA3B1b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["checkoutA3"]
+            ]
+        ]
+    },
+
+    "checkoutA3B1b": {
+        "name": "Green",
+        
+        "text": [
+            "Disc, no... That's just another one of those.. crypto, scam things... For your information, we only take rep. None of that digital currency garbage. Get lost."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["checkoutA3B1c"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["checkoutA3B1a"]
+            ]
+        ]
+    },
+
+    "checkoutA3B1c": {
+        "name": "Disc",
+        
+        "text": [
+            "U-uhhm, yeah! What she said! Get lost..!!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["checkoutA3B1b"]
+            ]
+        ]
+    },
+
+    "checkoutA3B2": {
+        "name": "Disc",
+        
+        "text": [
+            "Alright, all of your buyable items have been cleared!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["checkoutA3"]
+            ]
+        ]
+    }
+
+}
