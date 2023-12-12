@@ -255,7 +255,7 @@ html:
                                   children:
                                     - name: "Variant 1: \"Have fun with your stuff! It's bonded with you now. ... oh yeah, we glued the pages on those skillbooks for security purposes. Let me just... There! Now have fun!\""
                                     - name: "Variant 2: \"Have fun with your stuff! It's bonded with you now. ... by the way, you're not using this skill for anything malicious, right?\""
-                                    - name: "Variant 3: \"Have fun with your stuff! It's bonded with you now. ... oh, and the skillbook! Hold on, I gotta get a saw blade just to open every…single… page…\""
+                                    - name: "Variant 3: \"Have fun with your stuff! It's bonded with you now. ... oh, and the skillbook! Hold on, I gotta get a saw blade just to open every...single... page...\""
                                     - name: "Variant 4: \"Have fun with your stuff! It's bonded with you now. ... I, uh, unglued the book, by the way.\""
                             - name: "Option 4: No thanks."
                               children:
