@@ -23,7 +23,7 @@
             ]
         ],
 
-        "options": [
+        "controls": [
             [
                 "Refresh",
                 ["startDialogue"]
@@ -40,7 +40,7 @@
 
         "choices": [],
 
-        "options": [
+        "controls": [
             [
                 "Go Back", 
                 ["startDialogue"]
@@ -57,7 +57,7 @@
 
         "choices": [],
 
-        "options": [
+        "controls": [
             [
                 "Go Back", 
                 ["startDialogue"]
@@ -74,7 +74,7 @@
 
         "choices": [],
 
-        "options": [
+        "controls": [
             [
                 "Go Back", 
                 ["startDialogue"]

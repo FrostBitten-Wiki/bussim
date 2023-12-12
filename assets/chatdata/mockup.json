@@ -12,7 +12,9 @@
             ["Just looking around!", "choice1"],
             ["What is Lorem Ipsum?", "choice2"],
             ["Choice 3", "choice3"]
-        ]
+        ],
+
+        "controls": []
     },
 
     "choice1": {
@@ -21,8 +23,9 @@
         "text": [
             "Fair."
         ],
-
-        "choices": [
+        
+        "choices": [],
+        "controls": [
             ["<highlight>Reset</highlight>", "startDialogue"],
             ["<highlight>Go Back</highlight>", "startDialogue"]
         ]
