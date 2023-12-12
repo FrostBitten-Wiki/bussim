@@ -500,7 +500,7 @@
                                                     change{{ data["content"]["id"] }}Dialogue(`${item[1]}`);
                                                 };
                                                 button.style.flex = 'auto';
-                                                button.title = item[0].replace(/<[^>]*>/g, '');
+                                                button.title = item[0];
 
                                                 button.addEventListener('click', function() {
                                                     playSound("buttonclick", 1, "none")
