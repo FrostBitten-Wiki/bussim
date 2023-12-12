@@ -55,15 +55,15 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["start"]
             ],
             [
-                "Refresh>",
+                "Refresh",
                 ["walking"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -88,15 +88,15 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["fund"]
             ],
             [
-                "Refresh>",
+                "Refresh",
                 ["walking2"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -129,11 +129,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["start"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -154,11 +154,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["talk"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -179,11 +179,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["talk"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -216,11 +216,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["talk"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -240,11 +240,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["talkA3"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -265,11 +265,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["talkA3"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -290,11 +290,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["talkA3"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -314,11 +314,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["talkA3"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -339,11 +339,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["talkA6a"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -368,11 +368,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["talk"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -397,11 +397,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["funa"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -423,15 +423,15 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["funb"]
             ],
             [
-                "Refresh>",
+                "Refresh",
                 ["SfunA0"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -452,11 +452,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA0"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -477,11 +477,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA1a"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -502,11 +502,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA1b"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -527,11 +527,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA1c"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -552,11 +552,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA1d"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -577,11 +577,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA0"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -602,11 +602,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA2a"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -627,11 +627,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA2b"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -652,11 +652,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA2c"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -677,11 +677,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA0"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -702,11 +702,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA3a"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -727,11 +727,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA3b"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -752,11 +752,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA0"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -776,11 +776,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA4a"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -801,11 +801,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA4b"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -826,11 +826,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA0"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -851,11 +851,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA5a"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -876,11 +876,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA5b"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -909,11 +909,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA0"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -934,11 +934,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA6"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -959,11 +959,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA6B1a"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -984,11 +984,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA6B1b"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1009,11 +1009,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA6"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1034,11 +1034,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["SfunA6"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1060,15 +1060,15 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["funb"]
             ],
             [
-                "Refresh>",
+                "Refresh",
                 ["AfunA0"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1089,11 +1089,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["AfunA0"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1114,11 +1114,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["AfunA1a"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1139,11 +1139,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["AfunA1b"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1164,11 +1164,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["AfunA1c"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1189,11 +1189,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["AfunA0"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1214,11 +1214,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["AfunA2a"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1239,11 +1239,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["AfunA2b"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1264,11 +1264,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["AfunA2c"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1305,11 +1305,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["funa"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1334,11 +1334,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["func"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1359,11 +1359,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["func"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1384,11 +1384,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["BfunA1a"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1409,11 +1409,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["BfunA1b"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1434,11 +1434,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["func"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1459,11 +1459,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["func"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1484,11 +1484,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["BfunA3a"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1509,11 +1509,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["BfunA3b"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1534,11 +1534,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["BfunA3c"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1559,11 +1559,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["BfunA3d"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1584,11 +1584,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["BfunA3e"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1609,11 +1609,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["func"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1634,11 +1634,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["BfunA4a"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1659,11 +1659,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["BfunA4b"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1684,11 +1684,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["BfunA4c"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1709,11 +1709,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["BfunA4d"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1734,11 +1734,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["fund"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1759,11 +1759,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["BfunA5a"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1784,11 +1784,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["BfunA5b"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1809,11 +1809,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["BfunA5c"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1835,7 +1835,7 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["start"]
             ],
             [
@@ -1843,7 +1843,7 @@
                 ["checkout"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1868,7 +1868,7 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["checkout"]
             ],
             [
@@ -1876,7 +1876,7 @@
                 ["checkoutA1"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1910,15 +1910,15 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["checkout"]
             ],
             [
-                "Refresh>",
+                "Refresh",
                 ["checkoutA2"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1939,11 +1939,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["checkoutA2"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1964,11 +1964,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["checkoutA2B1a"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -1989,11 +1989,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["checkoutA2B1b"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -2014,11 +2014,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["checkoutA2"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -2039,11 +2039,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["checkoutA2"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -2064,11 +2064,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["checkoutA2"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -2091,15 +2091,15 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["checkoutA2"]
             ],
             [
-                "Refresh>",
+                "Refresh",
                 ["dealA3"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -2120,11 +2120,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["checkoutA2"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -2154,15 +2154,15 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["checkout"]
             ],
             [
-                "Refresh>",
+                "Refresh",
                 ["checkoutA3"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -2183,11 +2183,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["checkoutA3"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -2208,11 +2208,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["checkoutA3B1a"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -2233,11 +2233,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["checkoutA3B1b"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
@@ -2258,11 +2258,11 @@
         ],
         "controls": [
             [
-                "Back>",
+                "Back",
                 ["checkoutA3"]
             ],
             [
-            "Reset>",
+            "Reset",
             ["start"]
             ]
         ]
