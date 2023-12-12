@@ -439,7 +439,9 @@ html:
         
     - type: tree
       content:
-        - name: D6 has the most amount of dialogue in the entire game.
+        - name: D6 is second to having the most amount of dialogue lines, only being behind by Pear by 34 lines or more.
+          children:
+            - name: Despite this though, he has the most amount of variants a character can have, and likely the most amount of dialogue bytes in the game.
         - name: His lines make plenty of references to memes, his own personal interest, or general media.
           children:
             - name: <a href='https://twitter.com/GandalfGetsTo'>"man i could really go for some graham crackers right about now"</a> is a reference to a TikTok account where a cat owner lets their cat, named Gandalf, gets to lick a Graham Cracker every Monday.
