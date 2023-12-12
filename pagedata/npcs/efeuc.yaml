@@ -1,0 +1,178 @@
+page:
+  title: Efeuc
+  description: Efeuc is an NPC that can be seen in the Void Room. He's the best driver in the Bus Simulator universe,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Efeuc
+attributions:
+  - "Ported By PolyframeX"
+
+html:
+  header:
+    title: Efeuc
+    description: >- 
+      Category: <a href="/bussim/npcs">NPCs</a>
+    image: ''
+    imageBanner: /bussim-assets/images/locations/void.webp
+    
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >-
+         Efeuc is an NPC that can be seen in the Void Room. 
+         He's the best driver in the Bus Simulator universe, 
+         and is just chilling in the void area.
+
+    - type: section
+      content:
+        title: Dialogue
+
+    - type: npcChat
+      content:
+        id: efeuc
+        startId: start
+        chatData: /bussim-assets/chatdata/npcs/efeuc.json
+
+    - type: tree
+      content:
+      - name: "Variant 1: \"oh wow, how did you get that much rep? you got more than me, fair play.\" <small>(If the player has more rep than efeuc.)</small>"
+      - name: "Variant 2: \"it's been a year, [player name]. i really miss y- oh sorry, i was thinking about something whats up.\""
+      - name: "Variant 3: \"take your time, i'm here all day.\""
+      - name: "Variant 4: \"welcome to my humble abode\""
+      - name: "Variant 5: \"10684, 10685, 1068- oh hey, a new person.\""
+      - name: "Variant 6: \"hi, need anything?\""
+        children:
+          - name: "Option 1: Is there anything you do, like at all?"
+            children:
+              - name: "\"no\""
+                children:
+                  - name: "Then why do you exist?"
+                  - name: "Fair."
+                    children:
+                      - name: "\"you ask too many questions, are you always this annoying?\""
+                        children:
+                          - name: "Sheesh, so moody..."
+          - name: "Option 2: This is just like the Backrooms!"
+            children:
+              - name: "\"NO. shush, your not funny. this is NOT the backwalls. i don't even know what a 'backrooms' is. sounds like some cheap ripoff.\""
+          - name: "Option 3: Where are we?"
+            children:
+              - name: "\"we are in the void, i got my two monitors for entertainment albeit one of them is broken.\""
+                children:
+                  - name: "Option 1: How do I leave?!"
+                    children:
+                      - name: "\"idk, i havent figured that one out yet.. but it's pretty chill in here, since i don't have to be running from the police.\""
+                        children:
+                          - name: "Can you try helping me get out of here?"
+                            children:
+                              - name: "\"heh, ok i'll throw you in a random direction, ready?\""
+                                children:
+                                  - name: "<small>(The player gets flung in a random direction.)</small>"
+                          - name: "Guess this is my life now.."
+                  - name: "Option 2: Ah, okay."
+          - name: "Option 4: Let's talk!"
+            children:
+             - name: "Variant 1: \"not much to talk here, but.. well..\""
+             - name: "Variant 2: \"oh you want to talk about something? umm..\""
+               children:
+                  - name: "Variant 1:"
+                    children:
+                      - name: "\"hey, if you ever see grey cats run away!! i've had too many bad experiences with them..\""
+                        children:
+                          - name: Weird.
+                  - name: "Variant 2:"
+                    children:
+                      - name: "\"hey, if you ever find a way out of here, tell my friend Darkahrii that i'll be late to The Meeting.\""
+                        children:
+                         - name: "What if I don't?"
+                           children:
+                             - name: "<small>(The player gets flung.)</small>"
+                         - name: "Okay."
+                           children:
+                              - name: "\"thanks.\""
+                  - name: "Variant 3:"
+                    children:
+                      - name: "\"sometimes some strange sirens starts blaring in here, and momentarily go away. i have no clue what it is, but i've just gotten used to it now.\""
+                        children:
+                         - name: "You mean the events?"
+                           children:
+                             - name: "\"events? what events? literally nothing ever happens here.\""
+                         - name: "Weird."
+                           children:
+                             - name: "\"i know, right?\""
+                  - name: "Variant 4:"
+                    children:
+                      - name: "\"isn't it weird how we are in a world where anthropomorphic animals that can talk to human beings?\""
+                        children:
+                          - name: "You're probably overthinking it."
+                            children:
+                             - name: "\"yea, maybe i am\""
+                          - name: "Woof."
+                            children:
+                            - name: "\"what\""
+                  - name: "Variant 5:"
+                    children:
+                      - name: "\"i'd set up a shop in here for any visitors... but i ran out of materials a long time ago.\""
+                  - name: "Variant 6:"
+                    children:
+                     - name: "\"i bet i could beat you in a link cable game, but my batteries are out of charge. maybe later?\""
+                       children:
+                          - name: "I would destroy you."
+                            children:
+                              - name: "\"bet\""
+                          - name: "What's a link cable?"
+                            children:
+                              - name: "\"L\""
+                  - name: "Variant 7:"
+                    children:
+                      - name: "\"hollup, aint you nathaniel b?\""
+                        children:
+                          - name: "No?"
+                            children:
+                             - name: "\"i thought you look like him for a moment, nevermind\""
+                          - name: "What?"
+                            children:
+                              - name: "\"nvm\""
+                  - name: "Variant 8:"
+                    children:
+                      - name: "\"sometimes i miss the outside world... its been a while since ive seen more than 1 person... but i mean... the police are out there and i am safe here so... hmm\""
+                        children:
+                          - name: "I guess that's good."
+                            children:
+                             - name: "\"yeah, i guess\""
+                          - name: "I'll report you to the police."
+                            children:
+                             - name: "\"yea, try to get the police in here i dare you\""
+          - name: "Option 5: Nevermind."
+            children:
+             - name: "Variant 1: \"why are you talking to me then?\""
+             - name: "Variant 2: \"???????????\""
+             - name: "Variant 3: \"take care,\""
+             - name: "Variant 4: \"bye\""
+
+    - type: section
+      content:
+        size: small
+        title: AFK-Related Dialogue
+
+    - type: tree
+      content:
+        - name: "\"hey, ya alright? i cant help you out if your having a medical emergency you know, im not a doctor!\""
+          
+    - type: section
+      content:
+        size: normal
+        title: Trivia
+        
+    - type: tree
+      content:
+        - name: This is one of the only two NPCs that can actually fling a player based on dialogue choices
+          children:
+            - name: "The only other NPC that does that is <a href='/bussim/npcs/tazer'>Tazer</a>."
+        - name: "Efeuc is canonically the best driver in the Bus Simulator universe."
+        - name: "This is one of the few NPCs that doesn't get annoyed when you spam the <a href='/bussim/items/airhorn'>Airhorn</a>."
+        - name: "This is also perhaps the only NPC that is shown to take notice of your <a href='/bussim/others/reputation'>driver reputation</a>, as having it higher than him will lead you to the first intro dialogue."
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/npcs/efeuc.webp
