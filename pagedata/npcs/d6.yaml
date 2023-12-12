@@ -64,9 +64,9 @@ html:
         - name: "Variant 1 : \"im d6\""
         - name: "Variant 2 : \"you.\" <small>(If the player is on dSiiiiiix's friends list)</small>"
         - name: "Variant 3 : \"man i could really go for some graham crackers right about now\" <small>(If the current day is Monday)</small>"
-        - name: "Variant 4 : \"would you like to sign my petition? ...nevermind\" <small>(If the current day is Tuesday)</small>"
-        - name: "Variant 5 : \"and if youuuuuu cant believe it\" <small>(If the current day is Friday)</small>"
-        - name: "Variant 6 : \"i cant believe i had to drive all the way to work\" <small>(If the current day is Saturday)</small>"
+        - name: "Variant 4 : \"and if youuuuuu cant believe it\" <small>(If the current day is Friday)</small>"
+        - name: "Variant 5 : \"i cant believe i had to drive all the way to work\" <small>(If the current day is Saturday)</small>"
+        - name: "Variant 6 : \"would you like to sign my petition? ...nevermind\""
           children:
             - name: "Option 1: Any wisdom for today?"
               children:
