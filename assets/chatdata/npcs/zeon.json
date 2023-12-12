@@ -31,10 +31,13 @@
             [
                 "Sorry! Didn't know I was breaking in... <small>(Stranger)</small>",
                 ["optA6"]
-            ],
+            ]
+        ],
+
+        "controls": [
             [
-                "<highlight>Refresh</highlight>",
-                ["start"]
+                "Refresh",
+                ["startDialogue"]
             ]
         ]
     },
@@ -54,14 +57,21 @@
             [
                 "D6 wants to talk about turtle skeletons. <small>(D6)</small>",
                 ["optA1c"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["startDialogue"]
             ],
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "Reset",
+                ["startDialogue"]
             ]
         ]
     },
-    "optA1b": {
+    "optA1a": {
         "name": "Zeon",
         
         "text": [
@@ -69,14 +79,22 @@
         ],
 
         "choices": [
+            []
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "Back",
+                ["optA1"]
+            ],
+            [
+                "Reset",
+                ["startDialogue"]
             ]
         ]
     },
 
-    "optA1c": {
+    "optA1b": {
         "name": "Zeon",
         
         "text": [
@@ -84,9 +102,17 @@
         ],
 
         "choices": [
+            []
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "Back",
+                ["optA1"]
+            ],
+            [
+                "Reset",
+                ["startDialogue"]
             ]
         ]
     },
@@ -100,13 +126,21 @@
         ],
 
         "choices": [
+            []
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "Back",
+                ["startDialogue"]
             ],
             [
-                "<highlight>Refresh</highlight>",
+                "Refresh",
                 ["optA2"]
+            ],
+            [
+                "Reset",
+                ["startDialogue"]
             ]
         ]
     },
@@ -119,9 +153,17 @@
         ],
 
         "choices": [
+            []
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "Back",
+                ["startDialogue"]
+            ],
+            [
+                "Reset",
+                ["startDialogue"]
             ]
         ]
     },
@@ -141,10 +183,17 @@
             [
                 "Just curious.",
                 ["optA4B"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["startDialogue"]
             ],
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "Reset",
+                ["startDialogue"]
             ]
         ]
     },
@@ -157,9 +206,17 @@
         ],
 
         "choices": [
+            []
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "Back",
+                ["optA4"]
+            ],
+            [
+                "Reset",
+                ["startDialogue"]
             ]
         ]
     },
@@ -172,9 +229,17 @@
         ],
 
         "choices": [
+            []
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "Back",
+                ["optA4"]
+            ],
+            [
+                "Reset",
+                ["startDialogue"]
             ]
         ]
     },
@@ -186,9 +251,17 @@
         ],
 
         "choices": [
+            []
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "Back",
+                ["startDialogue"]
+            ],
+            [
+                "Reset",
+                ["startDialogue"]
             ]
         ]
     },
@@ -201,9 +274,17 @@
         ],
 
         "choices": [
+            []
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "Back",
+                ["startDialogue"]
+            ],
+            [
+                "Reset",
+                ["startDialogue"]
             ]
         ]
     }
