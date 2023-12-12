@@ -469,7 +469,7 @@
                                     {{ data["content"]["id"] }}dialogueBox.style.setProperty('--color3', dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueColors"][2]);
 
                                     {{ data["content"]["id"] }}dialogueName.innerText = {{ data["content"]["id"] }}chatData.name;
-                                    {{ data["content"]["id"] }}dialogueText.innerText = random({{ data["content"]["id"] }}chatData.text);
+                                    {{ data["content"]["id"] }}dialogueText.innerHTML = random({{ data["content"]["id"] }}chatData.text);
 
                                     playSound(dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][0], dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][1], dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][2]);
 
