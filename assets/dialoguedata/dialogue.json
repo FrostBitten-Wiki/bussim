@@ -456,7 +456,7 @@
             "dialogueEmoteName": "ectta"
         },
         "Efeuc": {
-            "dialogueSfx": ["efeuc", 1, 250],
+            "dialogueSfx": ["efeuc", 2.5, 250],
             "dialogueColors": ["#190000", "#260000", "red"],
             "dialogueEmoteName": "efeuc"
         },
