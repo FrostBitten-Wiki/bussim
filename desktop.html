@@ -490,7 +490,7 @@
                                                 button.onclick = function() {
                                                     change{{ data["content"]["id"] }}Dialogue(`${item[1]}`);
                                                 };
-                                                button.style.flex = '1';
+                                                button.style.flex = 'auto';
                                                 button.title = item[0].replace(/<[^>]*>/g, '');
                                             
                                                 {{ data["content"]["id"] }}choices.appendChild(button);
