@@ -1,0 +1,77 @@
+{
+    "start": {
+        "name": "Fizzy",
+        
+        "text": [
+            "Hey there."
+        ],
+
+        "choices": [
+            [
+                "What are you doing?",
+                ["optA1a"]
+            ],
+            [
+                "Why are you here?",
+                ["optA2"]
+            ]
+        ]
+    },
+
+    "optA1a": {
+        "name": "Fizzy",
+        
+        "text": [
+            "I'm just standing around."
+        ],
+
+        "choices": [
+            [
+                "Why are you here?",
+                ["optA1b"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA1b": {
+        "name": "Fizzy",
+        
+        "text": [
+            "I won an art contest, that's why I'm here."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["optA1a"]
+            ]
+        ]
+    },
+
+    "optA2": {
+        "name": "Fizzy",
+        
+        "text": [
+            "I won an art contest, that's why I'm here."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["start"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["optA1a"]
+            ]
+        ]
+    }
+}
