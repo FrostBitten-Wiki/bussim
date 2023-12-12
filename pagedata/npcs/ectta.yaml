@@ -1,0 +1,143 @@
+page:
+  title: Disc
+  description: Ectta is both an Admin and Authenticatior in Bus Simulator and also appears in Question Time,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Ectta
+attributions:
+  - "Ported By PolyframeX"
+
+html:
+  header:
+    title: Ectta
+    description: >- 
+      Category: <a href="/bussim/npcs">NPCs</a>
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+    
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >-
+         Ectta is both an Admin and Authenticatior in Bus Simulator and also appears in <a href='/bussim/events/question-time'>Question Time</a>, 
+         asking different questions each time he appears.
+
+    - type: section
+      content:
+        title: Appearance
+        description: >-
+          Ectta is a tall, 
+          black-green snakedragon, 
+          that wears layered jeans as well as suspenders. 
+          He also wears an Overseer Hat, 
+          a black-white bandana, 
+          and horns alongside a pair of wings.
+
+    - type: section
+      content:
+        title: Dialogue
+
+    - type: section
+      content:
+        size: small
+        title: First-Time Dialogue
+        description: >- 
+          <br>
+          This only appears when you meet Ectta for the first time ever in the <a href='/bussim/events/question-time'>Question Time</a> event.
+
+    - type: tree
+      content:
+        - name: "\"Oh, hey. I don't think I've seen you before?\""
+        - name: "\"I'm Ectta, and my whole thing is that I ask you random questions or whatever. Feel free to debate amongst yourselves afterward.\""
+        - name: "\"Yes, I do mean debate. You get a chat tag for 7 minutes after answering the question. So yeah, time for a question.\""
+
+    - type: section
+      content:
+        size: small
+        title: Intro Dialogue
+                            
+    - type: tree
+      content:
+        - name: "Variant 1: \"Do you know how I keep appearing in front of the bus? No, that wasn't me about to tell you, I literally don't know myself. Help me.\""
+        - name: "Variant 2: \"Alright, it's question time.\""
+        - name: "Variant 3: \"Oh hey, it's you again. Ready for another question?\""
+        - name: "Variant 4: \"It's question time, you know the drill.\""
+        - name: "Variant 5: \"I'm sure you know what's coming by now.\""
+        - name: "Variant 6: \"Hey, wake up. The ride may be tiring, but you aren't sleeping through this question.\""
+        - name: "Variant 7: \"It's surprisingly hard to drive away from me, isn't it?\""
+        - name: "Variant 8: \"No matter how hard you try, you aren't escaping my questions.\""
+        - name: "Variant 9: \"Hey, I know you! It's me, your favorite question-asking dragon.\""
+
+    - type: section
+      content:
+        size: small
+        title: Middle Dialogue
+
+    - type: tree
+      content:
+        - name: "Variant 1: \"So...\""
+        - name: "Variant 2: \"Now then, the question...\""
+        - name: "Variant 3: \"Okay, let's see.\""
+
+    - type: section
+      content:
+        size: small
+        title: After Choice Dialogue
+
+    - type: tree
+      content:
+        - name: "Variant 1: \"Of course.\""
+        - name: "Variant 2: \"Hm, not what I was expecting...\""
+        - name: "Variant 3: \"An interesting choice...\""
+        - name: "Variant 4: \"Mhm, okay.\""
+        - name: "Variant 5: \"Oh, so you're like that, huh?\""
+        - name: "Variant 6: \"Oh, really now? Okay...\""
+        - name: "Variant 7: \"That's certainly a choice.\""
+        - name: "Variant 8: \"An interesting choice...\""
+        - name: "Variant 9: \"Your silence speaks volumes.\"<small>(Happens if you don't click any answer)</small>"
+        - name: "Variant 10: \"Well, that sure confused you.\"<small>(Happens if you don't click any answer)</small>"
+        - name: "Variant 11: \"I mean, silence is an answer too...\"<small>(Happens if you don't click any answer)</small>"
+        - name: "Variant 12: \"Sorry, but that's all the time I got.\"<small>(Happens if you don't click any answer)</small>"
+        - name: "Variant 13: \"Beeeep, you're out of time.\"<small>(Happens if you don't click any answer)</small>"
+        - name: "Variant 14: \"Couldn't decide? Alright, you'll be abstaining then.\"<small>(Happens if you don't click any answer)</small>"
+
+    - type: section
+      content:
+        size: small
+        title: End Dialogue
+
+    - type: tree
+      content:
+        - name: "Variant 1: \"See you again soon.\""
+        - name: "Variant 2: \"Alright, I'm done here. Enjoy the chat tag.\""
+        - name: "Variant 3: \"That's all from me.\""
+        - name: "Variant 4: \"You can go back to what you were doing.\""
+
+    - type: section
+      content:
+        size: small
+        title: Farewell Dialogue
+
+    - type: tree
+      content:
+        - name: "Variant 1: \"Bye-bye.\""
+        - name: "Variant 2: \"Okay, byeeee.\""
+        - name: "Variant 3: \"Later.\""
+          
+    - type: section
+      content:
+        size: normal
+        title: Trivia
+        
+    - type: tree
+      content:
+        - name: If you combine all of the possible variants Ectta could use, Ectta would have a total of 190,512 dialogue options, or 4,536 if excluding the variants from <a href='/bussim/events/question-time'>Question Time</a>. <small>(This is prone to change the more QuestionTime variants as well as dialogue gets added, always update it to the latest after an update, thanks!)</small>
+          children:
+            - name: This technically makes him have the most amount of dialogue in Bus Simulator, assuming that a combination of variants can be counted as one. But if not, then that title holds to <a href='/bussim/npcs/d6'>D6</a>.
+        - name: Ectta cannot be annoyed by the <a href='/bussim/items/airhorn'>Airhorn</a>.
+        - name: It used to be possible to make Ectta fall over at times when he was being moved by players during his respective event. This has been patched out in an undetermined update to the game.
+        - name: Ectta currently has the most amount of choices available to the player in the game, with a total of 9 choices in the 34th variation of his question in <a href='/bussim/events/question-time'>Question Time</a>.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/npcs/ectta.webp
