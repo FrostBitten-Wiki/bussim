@@ -440,7 +440,7 @@
             "dialogueEmoteName": "frost"
         },
         "Green": {
-            "dialogueSfx": ["event", 1, 250],
+            "dialogueSfx": ["green", 1, 250],
             "dialogueColors": ["#050b04", "#0b260b", "#367328"],
             "dialogueEmoteName": "green"
         },
