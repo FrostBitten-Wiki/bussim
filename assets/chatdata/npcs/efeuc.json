@@ -33,7 +33,9 @@
                 "Nevermind",
                 ["optA5"]
             ]
-        ]
+        ],
+
+        "controls": []
     },
 
     "optA1a": {
@@ -51,9 +53,12 @@
             [
                 "Fair.",
                 ["start"]
-            ],
+            ]
+        ],
+
+        "controls": [
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["start"]
             ]
         ]
@@ -69,9 +74,12 @@
             [
                 "Sheesh, so moody...",
                 ["start"]
-            ],
+            ]
+        ],
+
+        "controls": [
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA1a"]
             ]
         ]
@@ -85,12 +93,16 @@
         ],
 
         "choices": [
+            
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
+                "Reset",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["start"]
             ]
         ]
@@ -111,9 +123,12 @@
             [
                 "Ah, okay.",
                 ["start"]
-            ],
+            ]
+        ],
+
+        "controls": [
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["start"]
             ]
         ]
@@ -134,9 +149,12 @@
             [
                 "Guess this is my life now..",
                 ["start"]
-            ],
+            ]
+        ],
+
+        "controls": [
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA3"]
             ]
         ]
@@ -150,12 +168,16 @@
         ],
 
         "choices": [
+            
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
+                "Reset",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA3B1a"]
             ]
         ]
@@ -170,12 +192,16 @@
         ],
 
         "choices": [
+
+        ],
+
+        "controls": [
             [
-                "<highlight>Continue</highlight>",
+                "Continue",
                 ["optA4B1a","optA4B2a","optA4B3a","optA4B4a","optA4B5","optA4B6a","optA4B7a","optA4B8a"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["start"]
             ]
         ]
@@ -189,12 +215,16 @@
         ],
 
         "choices": [
+            
+        ],
+
+        "controls": [
             [
                 "Weird.",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4"]
             ]
         ]
@@ -215,9 +245,12 @@
             [
                 "Okay.",
                 ["optA4B2b"]
-            ],
+            ]
+        ],
+
+        "controls": [
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4"]
             ]
         ]
@@ -231,12 +264,16 @@
         ],
 
         "choices": [
+
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
+                "Reset",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4B2a"]
             ]
         ]
@@ -257,9 +294,12 @@
             [
                 "Weird.",
                 ["optA4B3c"]
-            ],
+            ]
+        ],
+
+        "controls": [
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4"]
             ]
         ]
@@ -273,12 +313,16 @@
         ],
 
         "choices": [
+            
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
+                "Reset",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4B3a"]
             ]
         ]
@@ -292,12 +336,16 @@
         ],
 
         "choices": [
+            
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
+                "Reset",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4B3a"]
             ]
         ]
@@ -318,9 +366,12 @@
             [
                 "Woof.",
                 ["optA4B4c"]
-            ],
+            ]
+        ],
+
+        "controls": [
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4"]
             ]
         ]
@@ -334,12 +385,16 @@
         ],
 
         "choices": [
+            
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
+                "Reset",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4B4a"]
             ]
         ]
@@ -353,12 +408,16 @@
         ],
 
         "choices": [
+
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
+                "Reset",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4B4a"]
             ]
         ]
@@ -372,12 +431,16 @@
         ],
 
         "choices": [
+
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
+                "Reset",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4"]
             ]
         ]
@@ -398,9 +461,12 @@
             [
                 "What's a link cable?",
                 ["optA4B6c"]
-            ],
+            ]
+        ],
+
+        "controls": [
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4"]
             ]
         ]
@@ -414,12 +480,16 @@
         ],
 
         "choices": [
+
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
+                "Reset",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4B6a"]
             ]
         ]
@@ -433,12 +503,16 @@
         ],
 
         "choices": [
+
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
+                "Reset",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4B6a"]
             ]
         ]
@@ -459,9 +533,12 @@
             [
                 "What?",
                 ["optA4B7c"]
-            ],
+            ]
+        ],
+
+        "controls": [
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4"]
             ]
         ]
@@ -475,12 +552,16 @@
         ],
 
         "choices": [
+            
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
+                "Reset",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4B7a"]
             ]
         ]
@@ -494,12 +575,16 @@
         ],
 
         "choices": [
+
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
+                "Reset",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4B7a"]
             ]
         ]
@@ -520,9 +605,12 @@
             [
                 "I'll report you to the police.",
                 ["optA4B8c"]
-            ],
+            ]
+        ],
+
+        "controls": [
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4"]
             ]
         ]
@@ -536,12 +624,16 @@
         ],
 
         "choices": [
+
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
+                "Reset",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4B8a"]
             ]
         ]
@@ -555,12 +647,16 @@
         ],
 
         "choices": [
+
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
+                "Reset",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["optA4B8a"]
             ]
         ]
@@ -577,12 +673,16 @@
         ],
 
         "choices": [
+
+        ],
+
+        "controls": [
             [
-                "<highlight>Reset</highlight>",
+                "Reset",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Go Back",
                 ["start"]
             ]
         ]
