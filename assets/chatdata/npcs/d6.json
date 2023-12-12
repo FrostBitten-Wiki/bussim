@@ -4,11 +4,11 @@
         
         "text": [
             "im d6",
-            "you.",
-            "man i could really go for some graham crackers right about now",
-            "and if youuuuuu cant believe it",
+            "you. <small>(If the player is on dSiiiiiix's friends list)</small>",
+            "man i could really go for some graham crackers right about now <small>(If the current day is Monday)</small>",
+            "and if youuuuuu cant believe it <small>(If the current day is Friday)</small>",
             "i cant believe i had to drive all the way to work",
-            "would you like to sign my petition? ...nevermind"
+            "would you like to sign my petition? ...nevermind <small>(If the current day is Tuesday)</small>"
         ],
 
         "choices": [
@@ -35,7 +35,7 @@
         "name": "D6",
 
         "text": [
-            "give me the keyboard"
+            "give me the keyboard <small>(Only appears if on PC)</small>"
         ],
 
         "choices": [
@@ -53,7 +53,7 @@
         "name": "D6",
 
         "text": [
-            "give me your phone"
+            "give me your phone <small>(Only appears if on phone)</small>"
         ],
 
         "choices": [
@@ -71,7 +71,7 @@
         "name": "D6",
 
         "text": [
-            "give me the controller"
+            "give me the controller <small>(Only appears if on console)</small>"
         ],
 
         "choices": [
@@ -90,7 +90,7 @@
         "name": "D6",
 
         "text": [
-            "you've had enough wisdom for today. come back tomorrow"
+            "you've had enough wisdom for today. come back tomorrow <small>(Only appears if player has previously selected this option within the last 12 hours)</small>"
         ],
 
         "choices": [
@@ -129,7 +129,7 @@
         "name": "D6",
 
         "text": [
-            "you're not trying to use a different account to cheat the system are you"
+            "you're not trying to use a different account to cheat the system are you <small>(Only appears if player has selected this option on a different account under the same device)</small>"
         ],
 
         "choices": [
@@ -205,7 +205,7 @@
         "name": "D6",
 
         "text": [
-            "you have multiple alts then huh"
+            "you have multiple alts then huh <small>(Only appears if the player has selected this option on yet another account under the same device, following Variant 2B)</small>"
         ],
 
         "choices": [
@@ -319,7 +319,7 @@
         "name": "D6",
 
         "text": [
-            "today is thursday."
+            "today is thursday. <small>(Only appears if today is Thursday)</small>"
         ],
 
         "choices": [
@@ -338,7 +338,7 @@
         "name": "D6",
 
         "text": [
-            "today is not thursday"
+            "today is not thursday <small>(Only appears if today is not Thursday)</small>"
         ],
 
         "choices": [
@@ -1232,8 +1232,8 @@
         "name": "D6",
 
         "text": [
-            "hi",
-            "hey there again"
+            "hi <small>(Only appears if it's the players first time selecting this option)</small>",
+            "hey there again <small>(Only appears if it's not the players first time selecting this option)</small>"
         ],
 
         "choices": [
