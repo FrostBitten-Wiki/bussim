@@ -430,7 +430,7 @@
             "dialogueEmoteName": "ectta"
         },
         "Efeuc": {
-            "dialogueSfx": ["efeuc", 1, 250],
+            "dialogueSfx": ["event", 1, 250],
             "dialogueColors": ["#190000", "#260000", "red"],
             "dialogueEmoteName": "efeuc"
         },
@@ -470,7 +470,7 @@
             "dialogueEmoteName": "steven"
         },
         "Tazer": {
-            "dialogueSfx": ["tazer", 1, 250],
+            "dialogueSfx": ["event", 1, 250],
             "dialogueColors": ["#190019", "#260026", "#ff00ff"],
             "dialogueEmoteName": "tazer"
         },

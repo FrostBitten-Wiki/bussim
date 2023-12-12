@@ -1,0 +1,109 @@
+page:
+  title: Zeon
+  description: Zeon is an NPC that appears in the GOAT Station event. She is also a moderator for games NobleReign owns, including Bus Simulator and Kit Battle. 
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, zeon, zee
+
+attributions:
+  - "Ported By FangedWerewolf (@noobbiom)"
+
+html:
+  header:
+    title: Zeon
+    description: >- 
+      Category: <a href="/bussim/npcs">NPCs</a>
+    image: ''
+    imageBanner: /bussim-assets/images/events/goat_station1.webp
+    
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >-
+         Zeon is an NPC that appears in the GOAT Station event. She is also a moderator for games NobleReign owns, including Bus Simulator and Kit Battle. 
+    - type: section
+      content:
+        title: Appearance
+        description: >-
+          She wears a purple zip-up jacket, purple shadow antlers, Brighteye's hair, black pants with purple stripes on the sides, 3D glasses, and a purple scarf.
+    - type: section
+      content:
+        title: Dialogue (Goat Station)
+
+    - type: npcChat
+      content:
+        id: zeon
+        startId: start
+        chatData: /bussim-assets/chatdata/npcs/zeon.json
+
+    - type: tree
+      content:
+        - name: "Variant 1: \"WHY ARE YOU IN MY HOUSE?!?!?!?!?!?!\""
+        - name: "Variant 2: \"oh, hey. friends usually <i>knock</i> first, ya know?\" (Friend-Exclusive)"
+          children:
+            - name: "Option 1: Hi."
+              children:
+                - name: "\"Uh... Hi???? What do you want from me???\""
+                  children:
+                    - name: "\"Option 1: Who lives in the other house?\""
+                      children:
+                        - name: "\"I dunno. The house is pretty empty. Maybe it's for sale?\""
+                    - name: "\"Option 2: D6 wants to talk about turtle skeletons. (D6)\""
+                      children:
+                        - name: "\"Aw hell yea. Those skeletons are so rad. Don't I also owe him 5 bucks...?\""
+            - name: "Option 2: Who are you?"
+              children:
+                - name: "Variant 1: \"Why... Why are you asking me this??? You broke into my house and gonna ask stuff about me?? Fine. I'm Zeon. I moderate the bus statistics and stuff like it. I don't get paid enough for it...\""
+                - name: "Variant 2: \"Did you forget? I'm Zeon. The one friend thats a loser, and probably your only friend that is a girl.\" (Friend-Exclusive)"
+            - name: "Option 3: michael"
+              children:
+              - name: "michael"
+            - name: "Option 4: Do you have a stick of RAM in your house? (Tazer)"
+              children:
+                - name: "\"Uh... Yeah...? Why?\""
+                  children:
+                    - name: "Option 1: Tazer wanted one."
+                      children:
+                        - name: "Oh, alrighty. Dunno why he didn;t just ask me... Anyways, it's in my room. Down the hall and to the left."
+                    - name: "Option 2: Just curious."
+                      children:
+                        - name: "Ooookkayyy....?"
+            - name: "\"Option 5: Just checking in. (Friend-Exclusive)\""
+              children:
+                - name: "\"Well, hey there.\""
+            - name: "\"Option 6: Sorry! Didn't know I was breaking in... (Stranger-Exclusive)\""
+              children:
+                 - name: "\"How did you just- Okay.. Just... Get outta here Or don't. I'm an NPC, I can't force you to do something.\""
+                      
+    - type: section
+      content:
+        size: small
+        title: Airhorn-Related Dialogue
+        description: >- 
+          <br>
+          If the airhorn is used repeatedly in proximity to Zeon:
+
+    - type: tree
+      content:
+        - name: "\"You know, I'm trying to read here…\""
+
+    - type: text
+      content:
+        text: >- 
+          If the airhorn is used repeatedly in proximity to Zeon for a second time and so on:
+
+    - type: tree
+      content:
+        - name: "\"Ugh....\""
+
+    - type: section
+      content:
+        size: normal
+        title: Trivia
+        
+    - type: tree
+      content:
+        - name: The "michael" dialogue is a reference to "<a href='https://www.roblox.com/games/8054462345/Michaels-Zombies'>Michael Zombies</a>", which is also a reference to the michael meme. 
+        - name: Zeon used to be part of the furry community, but left for personal reasons.
+        - name: The book she reads is a chunk of the "<a href='https://en.wikipedia.org/wiki/Bee_Movie'>Bee Movie</a>" script.
+        - name: Zeon originally had a higher pitched bebebese sound but has been replaced.
+        - name: Zeon is the one of the only known NPCs to provide choices specifically to those who aren't friends to her, and to those who are. 
