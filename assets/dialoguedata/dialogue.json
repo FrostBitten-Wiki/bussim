@@ -512,6 +512,12 @@
             "dialogueEmoteName": "billy"
         },
 
+        "Fizzy": {
+            "dialogueSfx": ["event", 1, 250],
+            "dialogueColors": ["#0e130c","#142014","#90cb80"],
+            "dialogueEmoteName": "fizzy"
+        },
+
         "Contributors": "Character Data for Contributors",
 
         "Nyx": {
