@@ -4,11 +4,11 @@
         
         "text": [
             "im d6",
-            "you. <small>(If the player is on dSiiiiiix's friends list)</small>",
-            "man i could really go for some graham crackers right about now <small>(If the current day is Monday)</small>",
-            "and if youuuuuu cant believe it <small>(If the current day is Friday)</small>",
+            "you. <small>(Only appears if the player is on dSiiiiiix's friends list)</small>",
+            "man i could really go for some graham crackers right about now <small>(Only appears if the current day is Monday)</small>",
+            "and if youuuuuu cant believe it <small>(Only appears if the current day is Friday)</small>",
             "i cant believe i had to drive all the way to work",
-            "would you like to sign my petition? ...nevermind <small>(If the current day is Tuesday)</small>"
+            "would you like to sign my petition? ...nevermind <small>(Only appears if the current day is Tuesday)</small>"
         ],
 
         "choices": [
