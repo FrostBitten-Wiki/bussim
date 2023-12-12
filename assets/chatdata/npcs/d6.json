@@ -29,7 +29,6 @@
                 ["tell"]
             ]
         ],
-
         "controls": [
             [
                 "Refresh",
@@ -42,7 +41,7 @@
         "name": "D6",
 
         "text": [
-            "give me the keyboard <small>(Only appears if on PC)</small>"
+            "give me the keyboard <small>(Only appears if your on PC)</small>"
         ],
 
         "choices": [
@@ -51,15 +50,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -71,7 +65,7 @@
         "name": "D6",
 
         "text": [
-            "give me your phone <small>(Only appears if on phone)</small>"
+            "give me your phone <small>(Only appears if your on phone)</small>"
         ],
 
         "choices": [
@@ -80,15 +74,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -100,7 +89,7 @@
         "name": "D6",
 
         "text": [
-            "give me the controller <small>(Only appears if on console)</small>"
+            "give me the controller <small>(Only appears if your on console)</small>"
         ],
 
         "choices": [
@@ -109,15 +98,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -130,7 +114,7 @@
         "name": "D6",
 
         "text": [
-            "you've had enough wisdom for today. come back tomorrow <small>(Only appears if player has previously selected this option within the last 12 hours)</small>"
+            "you've had enough wisdom for today. come back tomorrow <small>(Only appears if the player has previously selected this option within the last 12 hours)</small>"
         ],
 
         "choices": [
@@ -139,15 +123,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -170,7 +149,6 @@
                 ["wisdomA2B2b"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -187,7 +165,7 @@
         "name": "D6",
 
         "text": [
-            "you're not trying to use a different account to cheat the system are you"
+            "you're not trying to use a different account to cheat the system are you <small>(Only appears if player has selected this option on a different account under the same device)</small>"
         ],
 
         "choices": [
@@ -196,7 +174,6 @@
                 ["wisdomA2B2c"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -222,7 +199,6 @@
                 ["wisdomA2B2d"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -233,27 +209,25 @@
                 ["start"]
             ]
         ]
-    
     },
 
     "wisdomA2B2d": {
         "name": "D6",
 
         "text": [
-            "i'll still give you the wisdom though <small>(Only appears if player has selected this option on a different account under the same device)</small>"
+            "i'll still give you the wisdom though"
         ],
 
         "choices": [
-            
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+            ]
         ],
         "controls": [
             [
                 "Back",
                 ["wisdomA2B2c"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -275,11 +249,10 @@
                 ["wisdomA2B3b"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
-                ["start"]
+                ["wisdomA2B2c"]
             ],
             [
                 "Reset",
@@ -292,7 +265,7 @@
         "name": "D6",
 
         "text": [
-            "you have multiple alts then huh"
+            "you have multiple alts then huh <small>(Only appears if the player has selected this option on yet another account under the same device, following Variant 2B)</small>"
         ],
 
         "choices": [
@@ -301,7 +274,6 @@
                 ["wisdomA2B3c"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -318,21 +290,19 @@
         "name": "D6",
 
         "text": [
-            "that's cool i guess  <small>(Only appears if the player has selected this option on yet another account under the same device)</small>"
+            "that's cool i guess"
         ],
 
         "choices": [
-            
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+            ]
         ],
-
         "controls": [
             [
                 "Back",
-                ["wisdomA2B2b"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA2B3b"]
             ],
             [
                 "Reset",
@@ -354,15 +324,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -384,15 +349,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -414,15 +374,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -444,15 +399,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -474,15 +424,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -504,15 +449,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -534,15 +474,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -564,15 +499,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -594,15 +524,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -624,15 +549,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -654,15 +574,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -684,15 +599,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -714,7 +624,6 @@
                 ["wisdomA14b"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -740,7 +649,6 @@
                 ["wisdomA14c"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -766,7 +674,6 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -792,15 +699,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -822,15 +724,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -852,7 +749,6 @@
                 ["wisdomA17b"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -878,7 +774,6 @@
                 ["wisdomA17c"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -904,7 +799,6 @@
                 ["wisdomA17d"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -930,15 +824,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["wisdomA17c"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -960,15 +849,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -990,15 +874,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1020,7 +899,6 @@
                 ["wisdomA20b"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -1046,7 +924,6 @@
                 ["wisdomA20c"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -1072,7 +949,6 @@
                 ["wisdomA20d"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -1098,15 +974,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["wisdomA20c"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1128,15 +999,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1158,15 +1024,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1188,15 +1049,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1218,15 +1074,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1248,15 +1099,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1278,15 +1124,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1308,15 +1149,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1338,15 +1174,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1368,15 +1199,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1398,15 +1224,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1428,15 +1249,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1458,15 +1274,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1488,15 +1299,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1518,15 +1324,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
-            ],
-            [
-                "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1562,13 +1363,8 @@
             [
                 "Hi D6.",
                 ["talkB5"]
-            ],
-            [
-                "<highlight>Go Back</highlight>",
-                ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -1590,11 +1386,10 @@
 
         "choices": [
             [
-                "<highlight>*flattened*</highlight>",
-                ["start"]
+                "",
+                [""]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -1622,13 +1417,8 @@
             [
                 " Nevermind.",
                 ["talkB2c"]
-            ],
-            [
-                "<highlight>Go Back</highlight>",
-                ["talk"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -1645,17 +1435,15 @@
         "name": "D6",
 
         "text": [
-            "thats fair. 1",
-            "thats fair. 2",
-            "thats fair. 3",
-            "thats fair. 4",
-            "thats fair. 5",
-            "thats fair. 6"
+            "thats fair. [random number 1-6]"
         ],
 
         "choices": [
+            [
+                "",
+                [""]
+            ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -1676,12 +1464,15 @@
         ],
 
         "choices": [
+            [
+                "",
+                [""]
+            ]
         ],
-
         "controls": [
             [
                 "Back",
-                ["talkB2a"]
+                ["talk"]
             ],
             [
                 "Reset",
@@ -1698,8 +1489,11 @@
         ],
 
         "choices": [
+            [
+                "",
+                [""]
+            ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -1722,9 +1516,9 @@
         "choices": [
             [
                 "<highlight>Continue</highlight>",
-                ["talkB4b"]]
+                ["talkB4b"]
+            ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -1750,7 +1544,6 @@
                 ["talkB4c"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -1776,7 +1569,6 @@
                 ["talkB4d"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -1797,11 +1589,14 @@
         ],
 
         "choices": [
+            [
+                "",
+                [""]
+            ]
         ],
-
         "controls": [
             [
-                "Back",
+                "Talk",
                 ["talkB4c"]
             ],
             [
@@ -1820,9 +1615,11 @@
         ],
 
         "choices": [
-            
+            [
+                "",
+                [""]
+            ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -1848,13 +1645,19 @@
         ],
 
         "choices": [
-            
+            [
+                "",
+                [""]
+            ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["start"]
+            ],
+            [
+                "Refresh",
+                ["nvm"]
             ],
             [
                 "Reset",
@@ -1876,7 +1679,6 @@
                 ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -1902,15 +1704,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["tell"]
-            ],
-            [
-                "Refresh",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ],
             [
                 "Reset",
@@ -1936,7 +1733,6 @@
                 ["tellA2B2a"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -1957,17 +1753,15 @@
         ],
 
         "choices": [
-            
+            [
+                "",
+                [""]
+            ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["tellA2"]
-            ],
-            [
-                "Refresh",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ],
             [
                 "Reset",
@@ -1984,17 +1778,15 @@
         ],
 
         "choices": [
-            
+            [
+                "",
+                [""]
+            ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["tellA2"]
-            ],
-            [
-                "Refresh",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ],
             [
                 "Reset",
@@ -2016,15 +1808,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["tell"]
-            ],
-            [
-                "Refresh",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ],
             [
                 "Reset",
@@ -2046,15 +1833,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["tell"]
-            ],
-            [
-                "Refresh",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ],
             [
                 "Reset",
@@ -2076,7 +1858,6 @@
                 ["tellA5b"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -2102,15 +1883,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["tellA5a"]
-            ],
-            [
-                "Refresh",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ],
             [
                 "Reset",
@@ -2132,15 +1908,10 @@
                 ["tellA6b"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["tell"]
-            ],
-            [
-                "Refresh",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ],
             [
                 "Reset",
@@ -2157,17 +1928,15 @@
         ],
 
         "choices": [
-            
+            [
+                "",
+                [""]
+            ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["tellA6a"]
-            ],
-            [
-                "Refresh",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ],
             [
                 "Reset",
@@ -2189,15 +1958,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["tell"]
-            ],
-            [
-                "Refresh",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ],
             [
                 "Reset",
@@ -2219,15 +1983,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["tell"]
-            ],
-            [
-                "Refresh",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ],
             [
                 "Reset",
@@ -2249,7 +2008,6 @@
                 ["tellA9b"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -2275,7 +2033,6 @@
                 ["tellA9c"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -2297,19 +2054,14 @@
 
         "choices": [
             [
-                "Sorry",
+                " Sorry",
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["tellA9b"]
-            ],
-            [
-                "Refresh",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ],
             [
                 "Reset",
@@ -2331,7 +2083,6 @@
                 ["tellA10b"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -2361,7 +2112,6 @@
                 ["tellA10d"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -2382,17 +2132,15 @@
         ],
 
         "choices": [
-            
+            [
+                "",
+                [""]
+            ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["tellA10b"]
-            ],
-            [
-                "Refresh",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ],
             [
                 "Reset",
@@ -2418,7 +2166,6 @@
                 ["tellA10f"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
@@ -2439,17 +2186,15 @@
         ],
 
         "choices": [
-            
+            [
+                "",
+                [""]
+            ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["tellA10d"]
-            ],
-            [
-                "Refresh",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ],
             [
                 "Reset",
@@ -2471,15 +2216,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["tellA10d"]
-            ],
-            [
-                "Refresh",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ],
             [
                 "Reset",
@@ -2502,15 +2242,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["tell"]
-            ],
-            [
-                "Refresh",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ],
             [
                 "Reset",
@@ -2532,15 +2267,10 @@
                 ["start"]
             ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["tell"]
-            ],
-            [
-                "Refresh",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ],
             [
                 "Reset",
@@ -2557,17 +2287,15 @@
         ],
 
         "choices": [
-            
+            [
+                "",
+                [""]
+            ]
         ],
-
         "controls": [
             [
                 "Back",
                 ["tell"]
-            ],
-            [
-                "Refresh",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
             ],
             [
                 "Reset",

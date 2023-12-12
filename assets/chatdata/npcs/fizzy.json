@@ -29,9 +29,15 @@
             [
                 "Why are you here?",
                 ["optA1b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
+                "Reset",
                 ["start"]
             ]
         ]
@@ -46,12 +52,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA1a"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["optA1a"]
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -65,13 +77,19 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["optA1a"]
+                "Reset",
+                ["start"]
             ]
-        ]
+        ]  
     }
 }

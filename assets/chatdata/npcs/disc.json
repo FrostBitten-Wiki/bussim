@@ -7,7 +7,7 @@
             "Hello, do I smell grass?",
             "Good morning, afternoon, or night! Whatcha need?",
             "Baa bah baa baaa? (Hey, how can I help you?)",
-            "Oh, hey [Player]! Look who's got a job now...<small> (Friend-Exclusive)</small>",
+            "Oh, hey [Player]! Look who's got a job now... <small>(Appears only if the player is friends with Disc on Roblox)</small>",
             "Hiiii!! Hello!!! Hey!!! Wassup!!! Heyoo!!!",
             "Do you want Non Toxic Cola NobleReign Burger hello?",
             "Oh uhmm... hello? Wait, wrong punctuation mark...",
@@ -27,6 +27,12 @@
                 "Checkout",
                 ["checkout"]
             ]
+        ],
+        "controls": [
+            [
+                "Refresh",
+                ["start"]
+            ]
         ]
     },
 
@@ -43,12 +49,22 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
                 ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["start"]
+                "Refresh>",
+                ["walking"]
+            ],
+            [
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -66,12 +82,22 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+            "",
+            [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["fund"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["fund"]
+                "Refresh>",
+                ["walking2"]
+            ],
+            [
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -99,10 +125,16 @@
             [
                 "Fun Facts?",
                 ["funa"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["start"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -116,12 +148,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["talk"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["talk"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -135,12 +173,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["talk"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["talk"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -168,10 +212,16 @@
             [
                 "Can I pet you?",
                 ["talkA6a"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["talk"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["talk"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -184,12 +234,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["talkA3"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["talkA3"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -203,12 +259,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["talkA3"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["talkA3"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -222,12 +284,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["talkA3"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["talkA3"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -242,10 +310,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["talkA6b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["talkA3"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["talkA3"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -259,12 +333,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["talkA6a"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["talkA6a"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -284,10 +364,16 @@
             [
                 "About the bus...",
                 ["func"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["talk"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["talk"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -307,10 +393,16 @@
             [
                 "The Area",
                 ["AfunA0"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["funa"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["funa"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -327,10 +419,20 @@
             [
                 "<highlight>Continue</highlight>",
                 ["SfunA1a","SfunA2a","SfunA3a","SfunA4a","SfunA5a","SfunA6"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["funb"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["funb"]
+                "Refresh>",
+                ["SfunA0"]
+            ],
+            [
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -346,10 +448,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["SfunA1b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA0"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA0"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -365,10 +473,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["SfunA1c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA1a"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA1a"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -384,10 +498,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["SfunA1d"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA1b"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA1b"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -403,10 +523,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["SfunA1e"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA1c"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA1c"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -420,12 +546,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA1d"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA1d"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -441,10 +573,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["SfunA2b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA0"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA0"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -460,10 +598,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["SfunA2c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA2a"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA2a"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -479,10 +623,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["SfunA2d"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA2b"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA2b"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -496,12 +646,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA2c"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA2c"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -517,10 +673,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["SfunA3b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA0"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA0"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -536,10 +698,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["SfunA3c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA3a"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA3a"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -553,12 +721,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA3b"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA3b"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -574,10 +748,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["SfunA4b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA0"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA0"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -592,10 +772,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["SfunA4c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA4a"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA4a"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -609,12 +795,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA4b"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA4b"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -630,10 +822,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["SfunA5b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA0"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA0"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -649,10 +847,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["SfunA5c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA5a"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA5a"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -666,12 +870,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA5b"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA5b"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -695,10 +905,16 @@
             [
                 "Elaborate.",
                 ["SfunA6B3"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA0"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA0"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -714,10 +930,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["SfunA6B1b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA6"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA6"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -733,10 +955,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["SfunA6B1c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA6B1a"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA6B1a"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -750,12 +978,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA6B1b"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA6B1b"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -769,12 +1003,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA6"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA6"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -788,12 +1028,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["SfunA6"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["SfunA6"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -810,10 +1056,20 @@
             [
                 "<highlight>Continue</highlight>",
                 ["AfunA1a","AfunA2a"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["funb"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["funb"]
+                "Refresh>",
+                ["AfunA0"]
+            ],
+            [
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -829,10 +1085,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["AfunA1b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["AfunA0"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["AfunA0"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -848,10 +1110,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["AfunA1c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["AfunA1a"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["AfunA1a"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -867,10 +1135,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["AfunA1d"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["AfunA1b"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["AfunA1b"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -884,12 +1158,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["AfunA1c"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["AfunA1c"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -905,10 +1185,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["AfunA2b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["AfunA0"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["AfunA0"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -924,10 +1210,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["AfunA2c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["AfunA2a"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["AfunA2a"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -943,10 +1235,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["AfunA2d"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["AfunA2b"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["AfunA2b"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -960,12 +1258,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["AfunA2c"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["AfunA2c"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -997,10 +1301,16 @@
             [
                 "<highlight>Next Page</highlight>",
                 ["fund"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["funa"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["funa"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1020,10 +1330,16 @@
             [
                 "Nevermind...",
                 ["walking2"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["func"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["func"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1039,10 +1355,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["BfunA1b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["func"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["func"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1058,10 +1380,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["BfunA1c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["BfunA1a"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["BfunA1a"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1075,12 +1403,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["BfunA1b"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["BfunA1b"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1089,17 +1423,23 @@
         "name": "Disc",
         
         "text": [
-            "Oh yeah, that small cramped bathroom inside the stairs, right..? I've heard that if you flush the toiler while you're sitting on it, you might not be staying in that cramped room for so long..."
+            "Oh yeah, that small cramped bathroom inside the stairs, right..? I've heard that if you flush the toilet while you're sitting on it, you might not be staying in that cramped room for so long..."
         ],
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["func"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["func"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1115,10 +1455,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["BfunA3b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["func"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["func"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1134,10 +1480,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["BfunA3c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["BfunA3a"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["BfunA3a"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1153,10 +1505,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["BfunA3d"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["BfunA3b"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["BfunA3b"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1172,10 +1530,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["BfunA3e"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["BfunA3c"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["BfunA3c"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1191,10 +1555,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["BfunA3f"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["BfunA3d"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["BfunA3d"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1208,12 +1578,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["BfunA3e"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["BfunA3e"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1229,10 +1605,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["BfunA4b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["func"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["func"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1248,10 +1630,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["BfunA4c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["BfunA4a"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["BfunA4a"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1267,10 +1655,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["BfunA4d"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["BfunA4b"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["BfunA4b"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1286,10 +1680,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["BfunA4e"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["BfunA4c"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["BfunA4c"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1303,12 +1703,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["BfunA4d"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["BfunA4d"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1324,10 +1730,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["BfunA5b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["fund"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["fund"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1343,10 +1755,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["BfunA5c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["BfunA5a"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["BfunA5a"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1362,10 +1780,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["BfunA5d"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["BfunA5b"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["BfunA5b"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1379,12 +1803,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["BfunA5c"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["BfunA5c"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1401,10 +1831,20 @@
             [
                 "<highlight>Continue</highlight>",
                 ["checkoutA1","checkoutA2","checkoutA3"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["start"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["start"]
+                "<highlight>Refresh</highligh>",
+                ["checkout"]
+            ],
+            [
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1424,10 +1864,20 @@
             [
                 "Oops",
                 ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["checkout"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["checkout"]
+                "<highlight>Refresh</highligh>",
+                ["checkoutA1"]
+            ],
+            [
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1456,10 +1906,20 @@
             [
                 "No Thanks.",
                 ["nothx"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["checkout"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["checkout"]
+                "Refresh>",
+                ["checkoutA2"]
+            ],
+            [
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1475,10 +1935,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["checkoutA2B1b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["checkoutA2"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["checkoutA2"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1494,10 +1960,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["checkoutA2B1c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["checkoutA2B1a"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["checkoutA2B1a"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1511,12 +1983,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["checkoutA2B1b"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["checkoutA2B1b"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1530,12 +2008,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["checkoutA2"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["checkoutA2"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1549,12 +2033,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["checkoutA2"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["checkoutA2"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1568,12 +2058,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["checkoutA2"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["checkoutA2"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1589,12 +2085,22 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["checkoutA2"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["checkoutA2"]
+                "Refresh>",
+                ["dealA3"]
+            ],
+            [
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1608,12 +2114,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["checkoutA2"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["checkoutA2"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1638,10 +2150,20 @@
             [
                 "Oh.",
                 ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["checkout"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["checkout"]
+                "Refresh>",
+                ["checkoutA3"]
+            ],
+            [
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1657,10 +2179,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["checkoutA3B1b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["checkoutA3"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["checkoutA3"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1676,10 +2204,16 @@
             [
                 "<highlight>Continue</highlight>",
                 ["checkoutA3B1c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["checkoutA3B1a"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["checkoutA3B1a"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1693,12 +2227,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["checkoutA3B1b"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["checkoutA3B1b"]
+            "Reset>",
+            ["start"]
             ]
         ]
     },
@@ -1712,12 +2252,18 @@
 
         "choices": [
             [
-                "<highlight>Reset</highlight>",
-                ["start"]
+                "",
+                [""]
+            ]
+        ],
+        "controls": [
+            [
+                "Back>",
+                ["checkoutA3"]
             ],
             [
-                "<highlight>Go Back</highlight>",
-                ["checkoutA3"]
+            "Reset>",
+            ["start"]
             ]
         ]
     }

@@ -180,7 +180,7 @@ html:
                                         - name: "\"The upgrade was so cool, though! The bus had like, eyes and emotions! It was awesome, it's like it was your friend!\""
                                     - name: "Option 2: The Toilet"
                                       children:
-                                        - name: "\"Oh yeah, that small cramped bathroom inside the stairs, right..? I've heard that if you flush the toiler while you're sitting on it, you might not be staying in that cramped room for so long...\""
+                                        - name: "\"Oh yeah, that small cramped bathroom inside the stairs, right..? I've heard that if you flush the toilet while you're sitting on it, you might not be staying in that cramped room for so long...\""
                                     - name: "Option 3: The Last One"
                                       children:
                                         - name: "\"Ever since that wolf stole the last of those sponge pops, we haven't gotten another shipment of them.\""

@@ -3,13 +3,13 @@
         "name": "Efeuc",
         
         "text": [
-            "oh wow, how did you get that much rep? you got more than me, fair play. <small>(If you have more Driver Reputation than Efeuc)</small>",
+            "oh wow, how did you get that much rep? you got more than me, fair play. <small>(Only appears if you have more Driver Reputation than Efeuc)</small>",
             "it's been a year, [player name]. i really miss y- oh sorry, i was thinking about something whats up.",
             "take your time, i'm here all day.",
             "welcome to my humble abode",
             "10684, 10685, 1068- oh hey, a new person.",
             "hi, need anything?",
-            "GOOOODDDDD ISSSSSS GOOOOOOOOOOOOOOOOOOD, GOOODDDD ISSSSS GREAAAAT GOD IS GOOOHOHOOOOHOO <small>(1/300)</small>"
+            "GOOOODDDDD ISSSSSS GOOOOOOOOOOOOOOOOOOD, GOOODDDD ISSSSS GREAAAAT GOD IS GOOOHOHOOOOHOO <small>(Only appears with a 1/300 chance)</small>"
         ],
 
         "choices": [
@@ -63,7 +63,11 @@
 
         "controls": [
             [
-                "Go Back",
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
                 ["start"]
             ]
         ]
@@ -84,8 +88,12 @@
 
         "controls": [
             [
-                "Go Back",
+                "Back",
                 ["optA1a"]
+            ],
+            [
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -103,11 +111,11 @@
 
         "controls": [
             [
-                "Reset",
+                "Back",
                 ["start"]
             ],
             [
-                "Go Back",
+                "Reset",
                 ["start"]
             ]
         ]
@@ -133,7 +141,11 @@
 
         "controls": [
             [
-                "Go Back",
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
                 ["start"]
             ]
         ]
@@ -159,8 +171,12 @@
 
         "controls": [
             [
-                "Go Back",
+                "Back",
                 ["optA3"]
+            ],
+            [
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -178,12 +194,12 @@
 
         "controls": [
             [
-                "Reset",
-                ["start"]
+                "Back",
+                ["optA3B1a"]
             ],
             [
-                "Go Back",
-                ["optA3B1a"]
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -197,16 +213,23 @@
         ],
 
         "choices": [
-
+            [
+                "Continue",
+                ["optA4B1a","optA4B2a","optA4B3a","optA4B4a","optA4B5","optA4B6a","optA4B7a","optA4B8a"]
+            ]
         ],
 
         "controls": [
             [
-                "Continue",
-                ["optA4B1a","optA4B2a","optA4B3a","optA4B4a","optA4B5","optA4B6a","optA4B7a","optA4B8a"]
+                "Back",
+                ["start"]
             ],
             [
-                "Go Back",
+                "Refresh",
+                ["optA4"]
+            ],
+            [
+                "Reset",
                 ["start"]
             ]
         ]
@@ -228,8 +251,12 @@
 
         "controls": [
             [
-                "Go Back",
+                "Back",
                 ["optA4"]
+            ],
+            [
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -254,8 +281,12 @@
 
         "controls": [
             [
-                "Go Back",
+                "Back",
                 ["optA4"]
+            ],
+            [
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -273,12 +304,12 @@
 
         "controls": [
             [
-                "Reset",
-                ["start"]
+                "Back",
+                ["optA4B2a"]
             ],
             [
-                "Go Back",
-                ["optA4B2a"]
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -303,8 +334,12 @@
 
         "controls": [
             [
-                "Go Back",
+                "Back",
                 ["optA4"]
+            ],
+            [
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -322,12 +357,12 @@
 
         "controls": [
             [
-                "Reset",
-                ["start"]
+                "Back",
+                ["optA4B3a"]
             ],
             [
-                "Go Back",
-                ["optA4B3a"]
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -345,12 +380,12 @@
 
         "controls": [
             [
-                "Reset",
-                ["start"]
+                "Back",
+                ["optA4B3a"]
             ],
             [
-                "Go Back",
-                ["optA4B3a"]
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -375,8 +410,12 @@
 
         "controls": [
             [
-                "Go Back",
+                "Back",
                 ["optA4"]
+            ],
+            [
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -394,12 +433,12 @@
 
         "controls": [
             [
-                "Reset",
-                ["start"]
+                "Back",
+                ["optA4B4a"]
             ],
             [
-                "Go Back",
-                ["optA4B4a"]
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -417,12 +456,12 @@
 
         "controls": [
             [
-                "Reset",
-                ["start"]
+                "Back",
+                ["optA4B4a"]
             ],
             [
-                "Go Back",
-                ["optA4B4a"]
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -440,12 +479,12 @@
 
         "controls": [
             [
-                "Reset",
-                ["start"]
+                "Back",
+                ["optA4"]
             ],
             [
-                "Go Back",
-                ["optA4"]
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -470,8 +509,12 @@
 
         "controls": [
             [
-                "Go Back",
+                "Back",
                 ["optA4"]
+            ],
+            [
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -489,12 +532,12 @@
 
         "controls": [
             [
-                "Reset",
-                ["start"]
+                "Back",
+                ["optA4B6a"]
             ],
             [
-                "Go Back",
-                ["optA4B6a"]
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -512,12 +555,12 @@
 
         "controls": [
             [
-                "Reset",
-                ["start"]
+                "Back",
+                ["optA4B6a"]
             ],
             [
-                "Go Back",
-                ["optA4B6a"]
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -542,8 +585,12 @@
 
         "controls": [
             [
-                "Go Back",
+                "Back",
                 ["optA4"]
+            ],
+            [
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -561,12 +608,12 @@
 
         "controls": [
             [
-                "Reset",
-                ["start"]
+                "Back",
+                ["optA4B7a"]
             ],
             [
-                "Go Back",
-                ["optA4B7a"]
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -584,12 +631,12 @@
 
         "controls": [
             [
-                "Reset",
-                ["start"]
+                "Back",
+                ["optA4B7a"]
             ],
             [
-                "Go Back",
-                ["optA4B7a"]
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -614,8 +661,12 @@
 
         "controls": [
             [
-                "Go Back",
+                "Back",
                 ["optA4"]
+            ],
+            [
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -633,12 +684,12 @@
 
         "controls": [
             [
-                "Reset",
-                ["start"]
+                "Back",
+                ["optA4B8a"]
             ],
             [
-                "Go Back",
-                ["optA4B8a"]
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -656,12 +707,12 @@
 
         "controls": [
             [
-                "Reset",
-                ["start"]
+                "Back",
+                ["optA4B8a"]
             ],
             [
-                "Go Back",
-                ["optA4B8a"]
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -682,11 +733,15 @@
 
         "controls": [
             [
-                "Reset",
+                "Back",
                 ["start"]
             ],
             [
-                "Go Back",
+                "Refresh",
+                ["optA5"]
+            ],
+            [
+                "Reset",
                 ["start"]
             ]
         ]
