@@ -438,17 +438,7 @@
                             </div>
                             
                             <div id="{{ data['content']['id'] }}-controls" style="padding: 0; gap: 0 5px;  display: flex; justify-content: space-between; align-items: center; margin-bottom: 27px;">
-                                <button style="flex: 1;">
-                                    <text><highlight>Back</highlight></text>
-                                </button>
 
-                                <button style="flex: 1;">
-                                    <text><highlight>Refresh</highlight></text>
-                                </button>
-
-                                <button style="flex: 1;">
-                                    <text><highlight>Reset</highlight></text>
-                                </button>
                             </div>
 
                             <script defer>
@@ -494,6 +484,7 @@
                                     window.{{ data["content"]["id"] }}dialogueRunning = false;
                                     {{ data["content"]["id"] }}dialogueRunning = true;
                                     {{ data["content"]["id"] }}choices.innerHTML = '';
+                                    {{ data["content"]["id"] }}controls.innerHTML = '';
                                     addCharacters(dialogueData, {{ data["content"]["id"] }}chatData.name, {{ data["content"]["id"] }}dialogueText, "{{ data['content']['id'] }}dialogueRunning");
                                     
                                     var intervalId = setInterval(function() {
@@ -525,25 +516,25 @@
 
                                             // add controls
                                             {{ data["content"]["id"] }}chatData.controls.forEach(item => {
-                                                var button = document.createElement('button');
-                                                button.innerHTML = `
+                                                var controls = document.createElement('button');
+                                                controls.innerHTML = `
                                                     <text type="hoverText"><highlight>${item[0]}</highlight></text>
                                                 `;
-                                                button.onclick = function() {
+                                                controls.onclick = function() {
                                                     change{{ data["content"]["id"] }}Dialogue(`${item[1]}`);
                                                 };
-                                                button.style.flex = 'auto';
-                                                button.title = item[0].replace(/<[^>]*>/g, '');
+                                                controls.style.flex = 'auto';
+                                                controls.title = item[0].replace(/<[^>]*>/g, '');
 
-                                                button.addEventListener('click', function() {
+                                                controls.addEventListener('click', function() {
                                                     playSound("buttonclick", 1, "none")
                                                 });
         
-                                                button.addEventListener('mouseenter', function() {
+                                                controls.addEventListener('mouseenter', function() {
                                                     playSound("buttonhover", 1, "none")
                                                 });
                                             
-                                                {{ data["content"]["id"] }}controls.appendChild(button);
+                                                {{ data["content"]["id"] }}controls.appendChild(controls);
                                             });
                                         }
 
