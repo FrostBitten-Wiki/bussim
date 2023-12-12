@@ -430,7 +430,7 @@
             "dialogueEmoteName": "ectta"
         },
         "Efeuc": {
-            "dialogueSfx": ["event", 1, 250],
+            "dialogueSfx": ["efeuc", 1, 250],
             "dialogueColors": ["#190000", "#260000", "red"],
             "dialogueEmoteName": "efeuc"
         },
@@ -450,12 +450,12 @@
             "dialogueEmoteName": "mirocev"
         },
         "MLG": {
-            "dialogueSfx": ["event", 1, 250],
+            "dialogueSfx": ["mlg", 1, 250],
             "dialogueColors": ["#191000", "#261900", "#ffaa00"],
             "dialogueEmoteName": "mlg"
         },
         "Pear": {
-            "dialogueSfx": ["pear", 0.2, 150],
+            "dialogueSfx": ["pear", 0.2, 250],
             "dialogueColors": ["#071907", "#0b260b", "#4cff4c"],
             "dialogueEmoteName": "pear"
         },
@@ -470,7 +470,7 @@
             "dialogueEmoteName": "steven"
         },
         "Tazer": {
-            "dialogueSfx": ["event", 1, 250],
+            "dialogueSfx": ["tazer", 1, 250],
             "dialogueColors": ["#190019", "#260026", "#ff00ff"],
             "dialogueEmoteName": "tazer"
         },
