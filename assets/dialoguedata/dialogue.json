@@ -496,7 +496,7 @@
             "dialogueEmoteName": "steven"
         },
         "Tazer": {
-            "dialogueSfx": ["tazer", 0.5, 250],
+            "dialogueSfx": ["tazer", 1.5, 150],
             "dialogueColors": ["#190019", "#260026", "#ff00ff"],
             "dialogueEmoteName": "tazer"
         },
