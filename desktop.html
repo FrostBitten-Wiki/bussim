@@ -434,8 +434,7 @@
                                 <text id="{{ data['content']['id'] }}-chat"></text>
                             </div>
 
-                            <div id="{{ data['content']['id'] }}-choices" style="padding: 0; display: flex; gap: 0 10px; margin-bottom: 30px;">
-
+                            <div id="{{ data['content']['id'] }}-choices" style="padding: 0; gap: 0 5px;  display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px;">
                             </div>
                             
                             <script>
@@ -481,19 +480,23 @@
                                     
                                     var intervalId = setInterval(function() {
                                         if (window.{{ data["content"]["id"] }}dialogueRunning === false) {
-                                          clearInterval(intervalId);
-                                
-                                          {{ data["content"]["id"] }}chatData.choices.forEach(item => {
-                                              var element = document.createElement('div');
-                                              element.innerHTML = `
-                                              <button onclick="change{{ data["content"]["id"] }}Dialogue('${item[1]}')">
-                                                  <text type="hoverText">${item[0]}</text>
-                                              </button>
-                                              `;
-                                              {{ data["content"]["id"] }}choices.appendChild(element);
-                                          });
-                                          
-                                          addButtonSounds();
+                                            clearInterval(intervalId);
+                                        
+                                            {{ data["content"]["id"] }}chatData.choices.forEach(item => {
+                                                var button = document.createElement('button');
+                                                button.innerHTML = `
+                                                    <text type="hoverText">${item[0]}</text>
+                                                `;
+                                                button.onclick = function() {
+                                                    change{{ data["content"]["id"] }}Dialogue(`${item[1]}`);
+                                                };
+                                                button.style.flex = '1';
+                                                button.title = item[0].replace(/<[^>]*>/g, '');
+                                            
+                                                {{ data["content"]["id"] }}choices.appendChild(button);
+                                            });
+                                        
+                                            addButtonSounds();
                                         }
                                     }, 1000);
                                     
