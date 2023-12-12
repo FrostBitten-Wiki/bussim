@@ -490,6 +490,7 @@
                                     //playSound(dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][0], dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][1], dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][2]);
                                     
                                     var {{ data["content"]["id"] }}choices = document.getElementById("{{ data['content']['id'] }}-choices");
+                                    var {{ data["content"]["id"] }}choices = document.getElementById("{{ data['content']['id'] }}-controls");
                                     window.{{ data["content"]["id"] }}dialogueRunning = false;
                                     {{ data["content"]["id"] }}dialogueRunning = true;
                                     {{ data["content"]["id"] }}choices.innerHTML = '';
@@ -498,7 +499,8 @@
                                     var intervalId = setInterval(function() {
                                         if (window.{{ data["content"]["id"] }}dialogueRunning === false) {
                                             clearInterval(intervalId);
-                                        
+                                            
+                                            // add choices
                                             {{ data["content"]["id"] }}chatData.choices.forEach(item => {
                                                 var button = document.createElement('button');
                                                 button.innerHTML = `
@@ -519,6 +521,29 @@
                                                 });
                                             
                                                 {{ data["content"]["id"] }}choices.appendChild(button);
+                                            });
+
+                                            // add controls
+                                            {{ data["content"]["id"] }}chatData.controls.forEach(item => {
+                                                var button = document.createElement('button');
+                                                button.innerHTML = `
+                                                    <text type="hoverText"><highlight>${item[0]}</highlight></text>
+                                                `;
+                                                button.onclick = function() {
+                                                    change{{ data["content"]["id"] }}Dialogue(`${item[1]}`);
+                                                };
+                                                button.style.flex = 'auto';
+                                                button.title = item[0].replace(/<[^>]*>/g, '');
+
+                                                button.addEventListener('click', function() {
+                                                    playSound("buttonclick", 1, "none")
+                                                });
+        
+                                                button.addEventListener('mouseenter', function() {
+                                                    playSound("buttonhover", 1, "none")
+                                                });
+                                            
+                                                {{ data["content"]["id"] }}controls.appendChild(button);
                                             });
                                         }
 

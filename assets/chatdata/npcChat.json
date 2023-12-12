@@ -21,6 +21,13 @@
                 "Choice 3",
                 ["choice3"]
             ]
+        ],
+
+        "options": [
+            [
+                "Refresh",
+                ["startDialogue"]
+            ]
         ]
     },
 
@@ -31,7 +38,9 @@
             "You choice Choice 1"
         ],
 
-        "choices": [
+        "choices": [],
+
+        "options": [
             [
                 "Go Back", 
                 ["startDialogue"]
@@ -46,7 +55,9 @@
             "You choice Choice 2"
         ],
 
-        "choices": [
+        "choices": [],
+
+        "options": [
             [
                 "Go Back", 
                 ["startDialogue"]
@@ -61,7 +72,9 @@
             "You choice Choice 3"
         ],
 
-        "choices": [
+        "choices": [],
+
+        "options": [
             [
                 "Go Back", 
                 ["startDialogue"]

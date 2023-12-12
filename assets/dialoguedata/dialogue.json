@@ -177,7 +177,7 @@
         "fang001": {
             "rarity": 25,
             "dialogue": [
-                [[2000, 25], "Fang", "", "..."],
+                [[2000, 25], "Fang", "default", "..."],
                 [[1000, 25], "Fang", "default", "WH-"],
                 [[3000, 25], "Fang", "sweat", "oh uh.. hey there?"],
                 [[3000, 25], "Fang", "sweat", "didn't expect you to find me here but uhm.."],
