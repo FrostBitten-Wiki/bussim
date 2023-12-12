@@ -415,12 +415,12 @@
         "Main Game NPCs": "Character Data for Current Game NPCs (Interactable)",
         
         "D6": {
-            "dialogueSfx": ["d6", 2, 550],
+            "dialogueSfx": ["d6", 2.5, 550],
             "dialogueColors": ["#15150a", "#21200f", "#ddd666"],
             "dialogueEmoteName": "d6"
         },
         "Disc": {
-            "dialogueSfx": ["disc", 2, 250],
+            "dialogueSfx": ["disc", 2.5, 250],
             "dialogueColors": ["#0b0d15", "#111420", "#7289da"],
             "dialogueEmoteName": "disc"
         },
@@ -440,7 +440,7 @@
             "dialogueEmoteName": "frost"
         },
         "Green": {
-            "dialogueSfx": ["green", 1, 250],
+            "dialogueSfx": ["green", 2.5, 250],
             "dialogueColors": ["#050b04", "#0b260b", "#367328"],
             "dialogueEmoteName": "green"
         },
