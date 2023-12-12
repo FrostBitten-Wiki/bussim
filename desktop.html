@@ -41,7 +41,6 @@
         {% endif %}
 
         <link rel="stylesheet" href="/bussim-assets/dialogue.css">
-        <link rel="preload" as="image" href="/bussim-assets/images/dialogue/npcImages.webp">
             
         <audio id="soundSource" style="display: none;">
             <source type="audio/mp3">
@@ -434,9 +433,23 @@
                                 <text id="{{ data['content']['id'] }}-chat"></text>
                             </div>
 
-                            <div id="{{ data['content']['id'] }}-choices" style="padding: 0; gap: 0 5px;  display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px;">
+                            <div id="{{ data['content']['id'] }}-choices" style="padding: 0; gap: 0 5px;  display: flex; justify-content: space-between; align-items: center; margin-bottom: 3px;">
                             </div>
                             
+                            <div id="{{ data['content']['id'] }}-controls" style="padding: 0; gap: 0 5px;  display: flex; justify-content: space-between; align-items: center; margin-bottom: 27px;">
+                                <button style="flex: 1;">
+                                    <text><highlight>Back</highlight></text>
+                                </button>
+
+                                <button style="flex: 1;">
+                                    <text><highlight>Refresh</highlight></text>
+                                </button>
+
+                                <button style="flex: 1;">
+                                    <text><highlight>Reset</highlight></text>
+                                </button>
+                            </div>
+
                             <script>
                                 window.{{ data["content"]["id"] }}dialogueRunning = false;
 
@@ -444,7 +457,10 @@
                                 var {{ data["content"]["id"] }}dialogueName = document.getElementById("{{ data['content']['id'] }}-name");
                                 var {{ data["content"]["id"] }}dialogueText = document.getElementById("{{ data['content']['id'] }}-chat");
                                 var {{ data["content"]["id"] }}dialogueBox = document.getElementById("{{ data['content']['id'] }}-dialogue");
-                            
+
+                                var {{ data["content"]["id"] }}dialogueControls = document.getElementById("{{ data['content']['id'] }}-controls");
+                                {{ data["content"]["id"] }}dialogueControls.style.display = "none";
+
                                 window.addEventListener('load', function() {
                                     fetch("{{ data['content']['chatData'] }}")
                                         .then(response => response.json())
@@ -504,6 +520,9 @@
                                                 {{ data["content"]["id"] }}choices.appendChild(button);
                                             });
                                         }
+
+                                        {{ data["content"]["id"] }}dialogueControls.style.display = "flex";
+
                                     }, 1000);
                                     
                                 }
