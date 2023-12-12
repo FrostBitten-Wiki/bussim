@@ -492,11 +492,17 @@
                                                 };
                                                 button.style.flex = 'auto';
                                                 button.title = item[0].replace(/<[^>]*>/g, '');
+
+                                                button.addEventListener('click', function() {
+                                                    playSound("buttonclick", 1, "none")
+                                                });
+        
+                                                button.addEventListener('mouseenter', function() {
+                                                    playSound("buttonhover", 1, "none")
+                                                });
                                             
                                                 {{ data["content"]["id"] }}choices.appendChild(button);
                                             });
-                                        
-                                            addButtonSounds();
                                         }
                                     }, 1000);
                                     
@@ -611,22 +617,18 @@
         </script>
 
         <script>
-            function addButtonSounds() {
-                var buttons = document.querySelectorAll('button');
-                var audio = document.getElementById('audio');
+            var buttons = document.querySelectorAll('button');
+            var audio = document.getElementById('audio');
         
-                buttons.forEach(function(button) {
-                    button.addEventListener('click', function() {
-                        playSound("buttonclick", 1, "none")
-                    });
-        
-                    button.addEventListener('mouseenter', function() {
-                        playSound("buttonhover", 1, "none")
-                    });
+            buttons.forEach(function(button) {
+                button.addEventListener('click', function() {
+                    playSound("buttonclick", 1, "none")
                 });
-            }
-
-            addButtonSounds();
+        
+                button.addEventListener('mouseenter', function() {
+                    playSound("buttonhover", 1, "none")
+                });
+            });
         </script>
 
         <script src="/bussim-assets/scripts/dialogueSystem.js"></script>
