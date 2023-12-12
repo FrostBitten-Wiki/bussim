@@ -37,7 +37,7 @@
         "controls": [
             [
                 "Refresh",
-                ["startDialogue"]
+                ["start"]
             ]
         ]
     },
@@ -63,11 +63,11 @@
         "controls": [
             [
                 "Back",
-                ["startDialogue"]
+                ["start"]
             ],
             [
                 "Reset",
-                ["startDialogue"]
+                ["start"]
             ]
         ]
     },
@@ -89,7 +89,7 @@
             ],
             [
                 "Reset",
-                ["startDialogue"]
+                ["start"]
             ]
         ]
     },
@@ -112,7 +112,7 @@
             ],
             [
                 "Reset",
-                ["startDialogue"]
+                ["start"]
             ]
         ]
     },
@@ -132,7 +132,7 @@
         "controls": [
             [
                 "Back",
-                ["startDialogue"]
+                ["start"]
             ],
             [
                 "Refresh",
@@ -140,7 +140,7 @@
             ],
             [
                 "Reset",
-                ["startDialogue"]
+                ["start"]
             ]
         ]
     },
@@ -159,11 +159,11 @@
         "controls": [
             [
                 "Back",
-                ["startDialogue"]
+                ["start"]
             ],
             [
                 "Reset",
-                ["startDialogue"]
+                ["start"]
             ]
         ]
     },
@@ -189,11 +189,11 @@
         "controls": [
             [
                 "Back",
-                ["startDialogue"]
+                ["start"]
             ],
             [
                 "Reset",
-                ["startDialogue"]
+                ["start"]
             ]
         ]
     },
@@ -216,7 +216,7 @@
             ],
             [
                 "Reset",
-                ["startDialogue"]
+                ["start"]
             ]
         ]
     },
@@ -239,7 +239,7 @@
             ],
             [
                 "Reset",
-                ["startDialogue"]
+                ["start"]
             ]
         ]
     },
@@ -257,11 +257,11 @@
         "controls": [
             [
                 "Back",
-                ["startDialogue"]
+                ["start"]
             ],
             [
                 "Reset",
-                ["startDialogue"]
+                ["start"]
             ]
         ]
     },
@@ -280,11 +280,11 @@
         "controls": [
             [
                 "Back",
-                ["startDialogue"]
+                ["start"]
             ],
             [
                 "Reset",
-                ["startDialogue"]
+                ["start"]
             ]
         ]
     }
