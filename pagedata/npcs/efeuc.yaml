@@ -40,6 +40,7 @@ html:
       - name: "Variant 4: \"welcome to my humble abode\""
       - name: "Variant 5: \"10684, 10685, 1068- oh hey, a new person.\""
       - name: "Variant 6: \"hi, need anything?\""
+      - name: "Variant 7: \"GOOOODDDDD ISSSSSS GOOOOOOOOOOOOOOOOOOD, GOOODDDD ISSSSS GREAAAAT GOD IS GOOOHOHOOOOHOO <small>(Plays with a rare chance)</small>"
         children:
           - name: "Option 1: Is there anything you do, like at all?"
             children:
