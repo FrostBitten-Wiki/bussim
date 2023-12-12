@@ -39,11 +39,8 @@ async def wiki(request: Request, wikipath: str = ""):
     return HTMLResponse(content=rendered_html)
 
 @app.get("/bussim-assets/{file:path}")
-async def assets(request: Request, file: str, cacheLife: int = None):
-    if cacheLife == None:
-        return FileResponse(f"./assets/{file}")
-    else:
-        return FileResponse(f"./assets/{file}", headers={"Cache-Control": f"public, max-age={cacheLife}"})
+async def assets(request: Request, file: str):
+    return FileResponse(f"./assets/{file}", headers={"Cache-Control": f"public, max-age=43200"}) # same wikiserver max-age time. press CTRL + SHIFT + R to reload
 
 
 if __name__ == "__main__":
