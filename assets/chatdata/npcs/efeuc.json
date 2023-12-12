@@ -35,7 +35,12 @@
             ]
         ],
 
-        "controls": []
+        "controls": [
+            [
+                "Refresh",
+                ["start"]
+            ]
+        ]
     },
 
     "optA1a": {
@@ -215,14 +220,13 @@
         ],
 
         "choices": [
-            
-        ],
-
-        "controls": [
             [
                 "Weird.",
                 ["start"]
-            ],
+            ]
+        ],
+
+        "controls": [
             [
                 "Go Back",
                 ["optA4"]

@@ -456,7 +456,7 @@
             "dialogueEmoteName": "ectta"
         },
         "Efeuc": {
-            "dialogueSfx": ["efeuc", 5, 250],
+            "dialogueSfx": ["efeuc", 1, 250],
             "dialogueColors": ["#190000", "#260000", "red"],
             "dialogueEmoteName": "efeuc"
         },
@@ -486,7 +486,7 @@
             "dialogueEmoteName": "pear"
         },
         "Red": {
-            "dialogueSfx": ["event", 1, 250],
+            "dialogueSfx": ["red", 1, 250],
             "dialogueColors": ["#0a0302", "#0f0403", "#641c17"],
             "dialogueEmoteName": "red"
         },
