@@ -1645,7 +1645,12 @@
         "name": "D6",
 
         "text": [
-            "thats fair. [random number 1-6]"
+            "thats fair. 1",
+            "thats fair. 2",
+            "thats fair. 3",
+            "thats fair. 4",
+            "thats fair. 5",
+            "thats fair. 6"
         ],
 
         "choices": [
