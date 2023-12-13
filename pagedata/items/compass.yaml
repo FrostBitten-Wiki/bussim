@@ -5,7 +5,7 @@ page:
   tags: compass, event item, paid item, station item
 
 attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  - "Ported & Edited By PolyframeX (@polyframex)"
 
 html:
   header:
@@ -15,6 +15,10 @@ html:
     imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
+      - type: quote
+        content:
+          quote: "Points towards north...I think."
+          author: Item Description
       - type: section
         content:
          title: Info
@@ -23,9 +27,17 @@ html:
 
            <br><br>
 
-           The tool doesn't seem to do much, as all it does is always point to north, which is probably why its one of the cheapest tools in the gas station.
+           The tool doesn't seem to do much, as all it does is always point towards west, which is probably why its one of the cheapest tools in the gas station.
 
            <br><br>
+
+      - type: section
+        content:
+          title: Trivia
+
+      - type: tree
+        content:
+          - name: The compass doesen't actually face north, as seen by the <a href='/bussim/events/time-travel'>Time Travel</a> event.
 
       - type: gallery
         content:
