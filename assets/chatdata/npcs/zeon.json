@@ -55,7 +55,7 @@
                 ["optA1a"]
             ],
             [
-                "D6 wants to talk about turtle skeletons.", "Only appears if the player has interacted with D6's specific dialogue.",
+                ["D6 wants to talk about turtle skeletons.", "Only appears if the player has interacted with D6's specific dialogue."],
                 ["optA1b"]
             ]
         ],
