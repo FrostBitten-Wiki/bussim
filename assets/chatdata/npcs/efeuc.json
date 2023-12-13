@@ -56,7 +56,7 @@
                 ["optA1b"]
             ],
             [
-                "Fair.",
+                "<font color='#ffaf00'>Fair.</font>",
                 ["start"]
             ]
         ],
@@ -81,7 +81,7 @@
 
         "choices": [
             [
-                "Sheesh, so moody...",
+                "<font color='#ffaf00'>Sheesh, so moody...</font>",
                 ["start"]
             ]
         ],
@@ -134,7 +134,7 @@
                 ["optA3B1a"]
             ],
             [
-                "Ah, okay.",
+                "<font color='#ffaf00'>Ah, okay.</font>",
                 ["start"]
             ]
         ],
@@ -164,7 +164,7 @@
                 ["optA3B1b"]
             ],
             [
-                "Guess this is my life now..",
+                "<font color='#ffaf00'>Guess this is my life now..</font>",
                 ["start"]
             ]
         ],
@@ -215,7 +215,7 @@
         "choices": [
             [
                 "Continue",
-                ["optA4B1a","optA4B2a","optA4B3a","optA4B4a","optA4B5","optA4B6a","optA4B7a","optA4B8a"]
+                ["varA1a"]
             ]
         ],
 
@@ -235,6 +235,88 @@
         ]
     },
 
+    "varA1a": {
+        "name": "System",
+        
+        "text": [
+            "Would you like a random variant or select a variant?"
+        ],
+
+        "choices": [
+            [
+                "Random Variant",
+                ["optA4B1a","optA4B2a","optA4B3a","optA4B4a","optA4B5","optA4B6a","optA4B7a","optA4B8a"]
+            ],
+            [
+                "Selected Variant",
+                ["varA1b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA4"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA1b": {
+        "name": "System",
+        
+        "text": [
+            "Which variant would you like to select?"
+        ],
+
+        "choices": [
+            [
+                "V1",
+                ["optA4B1a"]
+            ],
+            [
+                "V2",
+                ["optA4B2a"]
+            ],
+            [
+                "V3",
+                ["optA4B3a"]
+            ],
+            [
+                "V4",
+                ["optA4B4a"]
+            ],
+            [
+                "V5",
+                ["optA4B5"]
+            ],
+            [
+                "V6",
+                ["optA4B6a"]
+            ],
+            [
+                "V7",
+                ["optA4B7a"]
+            ],
+            [
+                "V8",
+                ["optA4B8a"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["varA1a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
     "optA4B1a": {
         "name": "Efeuc",
         
@@ -244,7 +326,7 @@
 
         "choices": [
             [
-                "Weird.",
+                "<font color='#ffaf00'>Weird.</font>",
                 ["start"]
             ]
         ],
@@ -270,7 +352,7 @@
 
         "choices": [
             [
-                "What if I don't?",
+                "<font color='#ffaf00'>What if I don't?</font>",
                 ["start"]
             ],
             [
