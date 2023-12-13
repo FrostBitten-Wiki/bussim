@@ -98,6 +98,29 @@
         "name": "Zeon",
         
         "text": [
+            "I dunno. The house is pretty empty. Maybe it's for sale?"
+        ],
+
+        "choices": [
+            
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["optA1"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA1c": {
+        "name": "Zeon",
+        
+        "text": [
             "Aw hell yea. Those skeletons are so rad. Don't I also owe him 5 bucks...?"
         ],
 
