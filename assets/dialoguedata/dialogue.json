@@ -505,6 +505,11 @@
             "dialogueColors": ["#0b0412", "#12061b", "#7625b8"],
             "dialogueEmoteName": "zeon"
         },
+        "You": {
+            "dialogueSfx": ["event", 1, 250],
+            "dialogueColors": ["#070343","#080454","#1a149c"],
+            "dialogueEmoteName": "you"
+        },
 
         "Event Characters": "Character Data for Event Characters",
 
