@@ -4,7 +4,7 @@
         
         "text": [
             "WHY ARE YOU IN MY HOUSE?!?!?!?!?!?!",
-            ["oh, hey. friends usually <i>knock</i> first, ya know?", "Only appears if the player has Zeon friended on roblox."]
+            ["oh, hey. friends usually <i>knock</i> first, ya know?", "<small>Only appears if the player has Zeon friended on roblox.</small>"]
         ],
 
         "choices": [
@@ -25,11 +25,11 @@
                 ["optA4"]
             ],
             [
-                "Just checking in.", "Friends Only",
+                ["Just checking in.", "Only appears if the player has Zeon friended on Roblox."],
                 ["optA5"]
             ],
             [
-                "Sorry! Didn't know I was breaking in...", "Only appears if the player does not have Zeon friended on roblox.",
+                ["Sorry! Didn't know I was breaking in...", "Only appears if the player does not have Zeon friended on Roblox."],
                 ["optA6"]
             ]
         ],
@@ -52,11 +52,11 @@
         "choices": [
             [
                 "Who lives in the other house?",
-                ["optA1b"]
+                ["optA1a"]
             ],
             [
-                "D6 wants to talk about turtle skeletons.", "Only appears if the player has interacted with D6's specific dialogue.",
-                ["optA1c"]
+                "D6 wants to talk about turtle skeletons.", "<small>Only appears if the player has interacted with D6's specific dialogue.</small>",
+                ["optA1b"]
             ]
         ],
 
@@ -98,29 +98,6 @@
         "name": "Zeon",
         
         "text": [
-            "I dunno. The house is pretty empty. Maybe it's for sale?"
-        ],
-
-        "choices": [
-            
-        ],
-
-        "controls": [
-            [
-                "Back",
-                ["optA1"]
-            ],
-            [
-                "Reset",
-                ["start"]
-            ]
-        ]
-    },
-
-    "optA1c": {
-        "name": "Zeon",
-        
-        "text": [
             "Aw hell yea. Those skeletons are so rad. Don't I also owe him 5 bucks...?"
         ],
 
@@ -145,7 +122,7 @@
         
         "text": [
             "Why... Why are you asking me this??? You broke into my house and gonna ask stuff about me?? Fine. I'm Zeon. I moderate the bus statistics and stuff like it. I don't get paid enough for it...",
-            ["Did you forget? I'm Zeon. The one friend thats a loser, and probably your only friend that is a girl.", "Only appears if the player has Zeon friended on roblox."]
+            ["Did you forget? I'm Zeon. The one friend thats a loser, and probably your only friend that is a girl.", "<small>Only appears if the player has Zeon friended on roblox.</small>"]
         ],
 
         "choices": [
