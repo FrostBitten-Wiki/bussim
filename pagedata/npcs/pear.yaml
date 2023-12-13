@@ -232,13 +232,6 @@ html:
                       children:
                         - name: "Heyyy, it's the busses birthday! We're celebrating with cake! Pretty cool, right?"
                         - name: "I do have a warning for you though... Whatever you do, don't drink a [[Cola|Bloxy Cola]] [[Bus Birthday Cake|alongside the cake]]... You'll regret it~!"
-            - name: "Option 3: Buy Songs"
-              children:
-                - name: "You sure you wanna buy songs for everyone in the server? It's a little useless after... The Incident..."
-                  children:
-                    - name: "Option 1: Uhm, nevermind..."
-                      children:
-                        - name
 
             - name: "Option 3: Buy Songs"
               children:
