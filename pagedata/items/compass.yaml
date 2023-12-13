@@ -37,7 +37,7 @@ html:
 
       - type: tree
         content:
-          - name: The compass may not actually face north, as seen by the <a href='/bussim/events/time-travel'>Time Travel</a> event. However this could be an oversight.
+          - name: The compass may not actually face north, as seen by the <a href='/bussim/events/time-travel'>Time Travel</a> event. However, this could be an oversight.
 
       - type: gallery
         content:
