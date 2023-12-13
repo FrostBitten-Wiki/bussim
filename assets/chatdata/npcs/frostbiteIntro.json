@@ -1,0 +1,351 @@
+{
+    "start": {
+        "name": "Frostbite",
+        
+        "text": [
+            "What..? Who are you?",
+            "Um, excuse me, but what the actual zip are you doing in my house?",
+            "..? What?",
+            "\"Hm? Footsteps?\""
+        ],
+
+        "choices": [
+            [
+                "I've been trying to contact you on your car's warranty.",
+                ["optA1a"]
+            ],
+            [
+                "Sorry, didn't know you were here!",
+                ["optA2a"]
+            ],
+            [
+                "Woah, you look huggable!",
+                ["optA3a"]
+            ],
+            [
+                "Uhhhmm.. meow..?",
+                ["optA4"]
+            ],
+            [
+                "Where am I?",
+                ["optA5a"]
+            ]
+        ],
+        "controls": [
+            [
+                "Refresh",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA1a": {
+        "name": "Frostbite",
+        
+        "text": [
+            "GRRRRRR.. How many times do I have you tell you people?! I don't. Own. A CAR!!!!"
+        ],
+
+        "choices": [
+            [
+                "Uh, I was just joking.",
+                ["optA1b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA1b": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Were you? Awrrgh, sorry. I don't have a phone so those scammers actually come down here and disturb me all the time."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA1c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA1a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA1c": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Even after a good mauling those runts still keep comin'...Don't know how to stop 'em.."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA1d"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA1b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA1d": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Anyways, my name is Frost. Welcome to my home abode."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA1e"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA1c"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA1e": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Don't get too comfortable, though... You're still a stranger. Just keep away from my stuff and you'll be fine."
+        ],
+
+        "choices": [
+            
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA1d"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2a": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Didn't know I was here..? Of course I'm here! This is my house!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA2b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2b": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Well, I've never seen you around before, so... The name's Frost."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA2c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2c": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Don't get too comfortable, though... You're still a stranger, y'know..."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3a": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Yeah, yeah, save it. I don't know who you are, but don't you dare try and hug me."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA3b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3b": {
+        "name": "Frostbite",
+        
+        "text": [
+            "At least get to know me first, or somethin'..."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA4": {
+        "name": "Frostbite",
+        
+        "text": [
+            "???"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA5a": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Well... you're in my house. If you can really call it a house."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA5b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA5b": {
+        "name": "Frostbite",
+
+        "text": [
+            "Definitely feels like home to me... Whatever, just don't break anything, if you're plannin' to stay longer, that is.."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA5a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    }
+}

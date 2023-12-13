@@ -1,0 +1,943 @@
+{
+    "start": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Awrr? Need me?",
+            "Heya.",
+            "Having a good day, [Player]?",
+            "Hey [Player].",
+            "Oh, hey [Player]!",
+            "Yeah, what'd you need?",
+            "What's up?",
+            "Need somethin'?"
+        ],
+
+        "choices": [
+            [
+                "[Actions...]",
+                ["optA1"]
+            ],
+            [
+                "Let's talk!",
+                ["optA2"]
+            ]
+        ],
+        "controls": [
+            [
+                "Refresh",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA1": {
+        "name": "You",
+        
+        "text": [
+            "What action will I take?"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>[Leave.]</font>",
+                ["start"]
+            ],
+            [
+                "[Check.]",
+                ["optA1B1a"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA1B1a": {
+        "name": "You",
+        
+        "text": [
+            "It's Frost! It seems like you're finally friends with him now. Maybe pearcoin wasn't so useless after all."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA1B1b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA1"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA1B1b": {
+        "name": "You",
+        
+        "text": [
+            "His tail even wags a little when you walk up to him!"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA1B1a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Go for it!",
+            "Sure, I've got nothing better to do.",
+            "Oh, sure!",
+            "Sure, go on.",
+            "I'm down.",
+            "Let's!"
+        ],
+
+        "choices": [
+            [
+                "How long have you been here?",
+                ["optA2B1"]
+            ],
+            [
+                "Let's be friends!",
+                ["optA2B2a"]
+            ],
+            [
+                "About the cave...",
+                ["optA2B3a"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Refresh",
+                ["optA2"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B1": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Only been here a few months. Feels like an eternity though."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B2a": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Done and done. We're friends now."
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Oh, alright then.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3a": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Yeah, what about it?"
+        ],
+
+        "choices": [
+            [
+                "What's with all of the popsicles?",
+                ["optA2B3b"]
+            ],
+            [
+                "How'd you get all of that water?",
+                ["optA2B3m"]
+            ],
+            [
+                "Your calendar is out of date.",
+                ["optA2B3n"]
+            ],
+            [
+                "How do you have electricity?",
+                ["optA2B3r"]
+            ],
+            [
+                "Why do you live in a cave?",
+                ["optA2B3v"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3b": {
+        "name": "Frostbite",
+        
+        "text": [
+            "They remind me of my best friend. You know the guy you got that coin from? That's him. Pear loved eatin' those things.. He used to gouge out its eyes before chompin' down on the rest..."
+        ],
+
+        "choices": [
+            [
+                "Where'd you get them?",
+                ["optA2B3c"]
+            ],
+            [
+                "Oh, so it was Pear!",
+                ["optA2B3e"]
+            ],
+            [
+                "Pear's terrifying.",
+                ["optA2B3g"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3c": {
+        "name": "Frostbite",
+        
+        "text": [
+            "I have the right to remain silent under the 5th Amendment."
+        ],
+
+        "choices": [
+            [
+                "Your silence speaks volumes.",
+                ["optA2B3d"]
+            ],
+            [
+                "<font color='#ffaf00'>Uh, okay.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3d": {
+        "name": "Frostbite",
+        
+        "text": [
+            "..."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3c"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3e": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Yep. I'm real glad that you showed me that coin. I haven't seem him in forever, I wonder if he still remembers me..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA2B3f"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3f": {
+        "name": "Frostbite",
+        
+        "text": [
+            ["Naaah, I'm just messin' with ya. I know you sent him my regards already! Thanks for that, by the way.","Appears only if part 3 of the Animal Messenger Quest-Line is completed."]
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>No problem.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3e"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3g": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Heh, it was rather cute actually. He's so small that he could barely wrap his mouth around the corner of one. Meanwhile, here I am, able to bite off the whole thing in one go.."
+        ],
+
+        "choices": [
+            [
+                "The whole thing..?! Sheesh.. definitely terrifying.",
+                ["optA2B3h"]
+            ],
+            [
+                "Please tell me you removed the stick.",
+                ["optA2B3i"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3h": {
+        "name": "Frostbite",
+        
+        "text": [
+            "You're pretty easy to scare. Either way, I found it quite delicious."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3g"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3i": {
+        "name": "Frostbite",
+        
+        "text": [
+            "..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA2B3j"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3g"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3j": {
+        "name": "Frostbite",
+        
+        "text": [
+            "..."
+        ],
+
+        "choices": [            [
+            "<highlight>Continue</highlight>",
+            ["optA2B3k"]
+        ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3i"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3k": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Ah.."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA2B3l"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3j"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3l": {
+        "name": "Frostbite",
+        
+        "text": [
+            "That explains those frequent ulcers..."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3k"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3m": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Beats me, just came with the place. it's nice and refreshing, though!"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3n": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Yeahh, I'm aware. I just got it off of the side of the road, sooo.. Beggars can't be choosers, heh.."
+        ],
+
+        "choices": [
+            [
+                "It isn't even October.",
+                ["optA2B3o"]
+            ],
+            [
+                "At least you got October right.",
+                ["optA2B3p"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3o": {
+        "name": "Frostbite",
+        
+        "text": [
+            ["Is it not?? Sorry, it's hard to tell the time when there's no natural light...","Only appears if the current month is not October"]
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Oof, yeah..</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3n"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3p": {
+        "name": "Frostbite",
+        
+        "text": [
+            ["Did I? That, uh, wasn't intentional.","Only appears if the current month is October"]
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA2B3q"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3n"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3q": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Don't people have a sayin' for that..? A broken calendar is right twice a year?..? Uh, it's somethin' like that..."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3o"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3r": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Do I look like an electrician to you? I don't know how any of this works, I just shove the socket into the rock and the thing turns on!"
+        ],
+
+        "choices": [
+            [
+                "That.. sounds unsafe.",
+                ["optA2B3s"]
+            ],
+            [
+                "Sheesh, sorry..",
+                ["optA2B3t"]
+            ],
+            [
+                "???????",
+                ["optA2B3u"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3s": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Uh, you have a point... Would that imply that the entire wall is electrified..? Probably best not to think about it all that much.."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3r"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3t": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Ah, that did come off as pretty defensive. Sorry, sorry."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3r"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3u": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Your guess is as good as mine, bud."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3r"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3v": {
+        "name": "Frostbite",
+        
+        "text": [
+            "I'll be completely honest with ya, I couldn't afford anything else. I was gonna live in that free-model town, y'know, the one with the gas station, but I couldn't afford the rent..."
+        ],
+
+        "choices": [
+            [
+                "Living in a cave is cooler anyway.",
+                ["optA2B3w"]
+            ],
+            [
+                "Isn't the rent there pretty low?",
+                ["optA2B3y"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3w": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Mm, maybe that's true... After all, I do have lots more space than an actual house.. A free pool, too.. Yeah, I like that way of thinkin'. This IS way cooler than a house."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3v"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3y": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Yeah, but I still didn't have enough for it... Maybe in the future, I'll make some kinda company or somethin'... I don't know what I'd do though, maybe somethin' ice-cream related?"
+        ],
+
+        "choices": [
+            [
+                "In today's economy? Good luck...",
+                ["optA2B3z"]
+            ],
+            [
+                "I'm rooting for you, Frost!",
+                ["optA2B3ac"]
+            ],
+            [
+                "Ouch, sorry..",
+                ["optA2B3ad"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3v"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3z": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Yeah, you're right... It'd be probably be tough to get a business up and runnin' nowadays, huh? Maybe I should just give it up..."
+        ],
+
+        "choices": [
+            [
+                "Woah, I didn't mean it like THAT..",
+                ["optA2B3aa"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3y"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3aa": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Eh.. I'm a little uncertain about it now, but if you think I might be able to, I'll try..."
+        ],
+
+        "choices": [
+            [
+                "Yeah, maybe.",
+                ["optA2B3ab"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3z"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3ab": {
+        "name": "Frostbite",
+        
+        "text": [
+            "-sigh-"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3aa"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3ac": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Thanks.. I don't remember the last time someone's actually believed in me before.. I'll try my best, (player), just you wait!"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3y"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B3ad": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Eh, no need to be sorry. You didn't do anything wrong. Life just sucks sometimes. The most important thing is that I got through it. I'm pretty cozy where I am now, even if it's not really a proper home."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2B3y"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    }
+    
+}

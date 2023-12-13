@@ -1,0 +1,507 @@
+{
+    "start": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Hm?",
+            "Yeah?",
+            "Hello.",
+            "Heya."
+        ],
+
+        "choices": [
+            [
+                "Who are you, again?",
+                ["optA1"]
+            ],
+            [
+                "Uh, how are you?",
+                ["optA2"]
+            ],
+            [
+                "[Actions...]",
+                ["optA3"]
+            ]
+        ],
+        "controls": [
+            [
+                "Refresh",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA1": {
+        "name": "Frostbite",
+        
+        "text": [
+            "The name's Frost."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Good. Just hanging around."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3": {
+        "name": "You",
+        
+        "text": [
+            "What action will I take?"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>[Leave.]</font>",
+                ["start"]
+            ],
+            [
+                "[Check.]",
+                ["optA3B1a"]
+            ],
+            [
+                "[Offer gift: (item name)]",
+                ["optA3B2"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B1a": {
+        "name": "You",
+        
+        "text": [
+            "Frost. This blue wolf seems to live here, and it feels remarkably colder in here than anywhere else in the cave..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA3B1b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B1b": {
+        "name": "You",
+        
+        "text": [
+            "He doesn't really seem to trust you - your presence is merely tolerated. Maybe you can change that..?"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3B1a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B2": {
+        "name": "You",
+        
+        "text": [
+            "[Offer gift: (item name)]"
+        ],
+
+        "choices": [
+            [
+                "Spronkbib Popsicle",
+                ["optA3B2a"]
+            ],
+            [
+                "Ice Cream",
+                ["optA3B2d"]
+            ],
+            [
+                "Gas Station Ice Cream",
+                ["optA3B2h"]
+            ],
+            [
+                "Birthday Ice Cream",
+                ["optA3B2l"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B2a": {
+        "name": "Frostbite",
+        
+        "text": [
+            "..! Oh, one of those! Those are so rare nowadays..!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA3B2b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3B2"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B2b": {
+        "name": "Frostbite",
+        
+        "text": [
+            "...!!!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA3B2c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3B2a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B2c": {
+        "name": "You",
+        
+        "text": [
+            "Frost's tail starts to kick up dust from how hard it's wagging... (+2 trust)"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3B2b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B2d": {
+        "name": "Frostbite",
+        
+        "text": [
+            "..? An ice cream..? Sure, I guess.."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA3B2e"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3B2"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B2e": {
+        "name": "Frostbite",
+        
+        "text": [
+            "..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA3B2f"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3B2d"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B2f": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Not the worst thing I've ever had.. adequately creamy.. good flavor.."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA3B2g"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3B2e"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B2g": {
+        "name": "You",
+        
+        "text": [
+            "His tail subtly beats against the rock on which he rests... (+1 trust)"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3B2e"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B2h": {
+        "name": "Frostbite",
+        
+        "text": [
+            "..? An ice cream..?"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA3B2i"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3B2"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B2i": {
+        "name": "Frostbite",
+        
+        "text": [
+            "..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA3B2j"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3B2h"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B2j": {
+        "name": "Frostbite",
+        
+        "text": [
+            "......"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA3B2k"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3B2i"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B2k": {
+        "name": "You",
+        
+        "text": [
+            "Frost eats the gas station ice cream unceremoniously. Doesn't really seem like he particularly enjoyed it..."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3B2j"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B2l": {
+        "name": "Frostbite",
+        
+        "text": [
+            "Oh, uhh.."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA3B2m"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3B2"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B2m": {
+        "name": "Frostbite",
+        
+        "text": [
+            "That's... a bit too large. But, uh, thanks."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3B2l"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    }
+}
