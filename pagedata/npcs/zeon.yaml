@@ -84,7 +84,7 @@ html:
 
     - type: tree
       content:
-        - name: "\"You know, I'm trying to read here…\""
+        - name: "\"You know, I'm trying to read here...\""
 
     - type: text
       content:
