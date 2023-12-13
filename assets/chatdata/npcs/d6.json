@@ -41,7 +41,7 @@
         "name": "System",
         
         "text": [
-            "Would you like a random variant or select a variant?"
+            "Would you like a random variant or to select a variant?"
         ],
 
         "choices": [
@@ -2005,7 +2005,7 @@
         "name": "System",
 
         "text": [
-            "Would you like a random variant or select a variant?"
+            "Would you like a random variant or to select a variant?"
         ],
 
         "choices": [
