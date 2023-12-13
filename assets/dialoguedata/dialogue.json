@@ -510,6 +510,11 @@
             "dialogueColors": ["#070343","#080454","#1a149c"],
             "dialogueEmoteName": "you"
         },
+        "System": {
+            "dialogueSfx": ["event", 1, 250],
+            "dialogueColors": ["#070343","#080454","#1a149c"],
+            "dialogueEmoteName": "you"
+        },
 
         "Event Characters": "Character Data for Event Characters",
 
