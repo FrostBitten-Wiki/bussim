@@ -397,7 +397,7 @@
         "choices": [
             [
                 "<highlight>Continue</highlight>",
-                ["SfunA1a","SfunA2a","SfunA3a","SfunA4a","SfunA5a","SfunA6"]
+                ["varA1a"]
             ]
         ],
         "controls": [
@@ -412,6 +412,80 @@
             [
             "Reset",
             ["start"]
+            ]
+        ]
+    },
+
+    "varA1a": {
+        "name": "System",
+        
+        "text": [
+            "Would you like a random variant or select a variant?"
+        ],
+
+        "choices": [
+            [
+                "Random Variant",
+                ["SfunA1a","SfunA2a","SfunA3a","SfunA4a","SfunA5a","SfunA6"]
+            ],
+            [
+                "Selected Variant",
+                ["varA1b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["SfunA0"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA1b": {
+        "name": "System",
+        
+        "text": [
+            "Which variant would you like to select?"
+        ],
+
+        "choices": [
+            [
+                "V1",
+                ["SfunA1a"]
+            ],
+            [
+                "V2",
+                ["SfunA2a"]
+            ],
+            [
+                "V3",
+                ["SfunA3a"]
+            ],
+            [
+                "V4",
+                ["SfunA4a"]
+            ],
+            [
+                "V5",
+                ["SfunA5a"]
+            ],
+            [
+                "V6",
+                ["SfunA6"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["varA1a"]
+            ],
+            [
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -1010,7 +1084,7 @@
         "choices": [
             [
                 "<highlight>Continue</highlight>",
-                ["AfunA1a","AfunA2a"]
+                ["varA2a"]
             ]
         ],
         "controls": [
@@ -1025,6 +1099,64 @@
             [
             "Reset",
             ["start"]
+            ]
+        ]
+    },
+
+    "varA2a": {
+        "name": "System",
+        
+        "text": [
+            "Would you like a random variant or select a variant?"
+        ],
+
+        "choices": [
+            [
+                "Random Variant",
+                ["AfunA1a","AfunA2a"]
+            ],
+            [
+                "Selected Variant",
+                ["varA2b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["AfunA0"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA2b": {
+        "name": "System",
+        
+        "text": [
+            "Which variant would you like to select?"
+        ],
+
+        "choices": [
+            [
+                "V1",
+                ["AfunA1a"]
+            ],
+            [
+                "V2",
+                ["AfunA2a"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["varA2a"]
+            ],
+            [
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -1764,7 +1896,7 @@
         "choices": [
             [
                 "<highlight>Continue</highlight>",
-                ["checkoutA1","checkoutA2","checkoutA3"]
+                ["varA3a"]
             ]
         ],
         "controls": [
@@ -1783,6 +1915,68 @@
         ]
     },
 
+    "varA3a": {
+        "name": "System",
+        
+        "text": [
+            "Would you like a random condition or select a condition?"
+        ],
+
+        "choices": [
+            [
+                "Random Condition",
+                ["checkoutA1","checkoutA2","checkoutA3"]
+            ],
+            [
+                "Selected Condition",
+                ["varA3b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["checkout"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA3b": {
+        "name": "System",
+        
+        "text": [
+            "Which condition would you like to select?"
+        ],
+
+        "choices": [
+            [
+                "If player has no items to buy",
+                ["checkoutA1"]
+            ],
+            [
+                "If the player has an item that can be bought",
+                ["checkoutA2"]
+            ],
+            [
+                "If player's total price exceeds their current Passenger Rep",
+                ["checkoutA3"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["varA3a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
     "checkoutA1": {
         "name": "Disc",
         
@@ -1796,7 +1990,7 @@
 
         "choices": [
             [
-                "Oops",
+                "<font color='#ffaf00'>Oops</font>",
                 ["start"]
             ]
         ],
@@ -1835,7 +2029,7 @@
             ],
             [
                 "It's a deal.",
-                ["dealA1","dealA2","dealA3"]
+                ["varA4a"]
             ],
             [
                 "No Thanks.",
@@ -1854,6 +2048,68 @@
             [
             "Reset",
             ["start"]
+            ]
+        ]
+    },
+
+    "varA4a": {
+        "name": "System",
+        
+        "text": [
+            "Would you like a random condition or select a condition?"
+        ],
+
+        "choices": [
+            [
+                "Random Condition",
+                ["dealA1","dealA2","dealA3"]
+            ],
+            [
+                "Selected Condition",
+                ["varA4b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["checkoutA2"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA4b": {
+        "name": "System",
+        
+        "text": [
+            "Which condition would you like to select?"
+        ],
+
+        "choices": [
+            [
+                " After successfully purchasing the item",
+                ["dealA1"]
+            ],
+            [
+                "If the player tries to buy the Flying Skillbook again",
+                ["dealA2"]
+            ],
+            [
+                "If the player successfully buys the Flying Skillbook",
+                ["dealA3"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["varA4a"]
+            ],
+            [
+                "Reset",
+                ["start"]
             ]
         ]
     },
@@ -2064,7 +2320,7 @@
                 ["checkoutA3B2"]
             ],
             [
-                "Oh.",
+                "<font color='#ffaf00'>Oh.</font>",
                 ["start"]
             ]
         ],
