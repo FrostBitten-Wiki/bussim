@@ -77,16 +77,16 @@ html:
             There are also extra texts coming from NobleReign, mostly from his very first fanart he received.
           children:
             - name: >-
-                The first art on the left is the very first and original fanart, and it says: <highlight type="grey">"this IS my first ever fanart by Dysphorian (now tal1y) they brought it back from the dead :)"</highlight><br><br>
+                The first art on the left is the very first and original fanart, and it says: "this IS my first ever fanart by Dysphorian (now tal1y) they brought it back from the dead :)"<br><br>
             - name: >-
-                The art on the right side shows the more updated version of the left one, and it says: <highlight type="grey">"they also made this one, its like a revamped version :D"</highlight><br><br>
+                The art on the right side shows the more updated version of the left one, and it says: "they also made this one, its like a revamped version :D"<br><br>
             - name: >-
                 There's also some text that is shown above the Emergency Button that sends you back to <a href="/bussim/locations/the-bus">The Bus</a>, due to VR players unable to trip on the puddle.
               children:
                 - name: >-
-                    It also had an advertisement of the VRChat version of Bus Simulator: <highlight type="grey">"vr players check out the vrchat version of bus sim"</highlight>
+                    It also had an advertisement of the VRChat version of Bus Simulator: "vr players check out the vrchat version of bus sim"
                   children:
                     - name: >-
-                        It was later removed because of possibly breaking Roblox's TOS, leading the user offsite. It was now replaced by this instead: <highlight type="grey">"vr players hit this instead"</highlight>
+                        It was later removed because of possibly breaking Roblox's TOS, leading the user offsite. It was now replaced by this instead: "vr players hit this instead"
         - name: >-
-            In one of the past builds of Bus Simulator, the Art Gallery also had a larger text above the ceiling in red saying <text style="color: red;">"make efeuc fanart"</text>. But it was later removed in an Unknown Build.
+            In one of the past builds of Bus Simulator, the Art Gallery also had a larger text above the ceiling in red saying "make efeuc fanart". But it was later removed in an Unknown Build.
