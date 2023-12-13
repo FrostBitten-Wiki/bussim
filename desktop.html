@@ -434,11 +434,14 @@
                                 <text id="{{ data['content']['id'] }}-chat"></text>
                             </div>
 
-                            <div id="{{ data['content']['id'] }}-choices" style="padding: 0; gap: 0 5px;  display: flex; justify-content: space-between; align-items: center; margin-bottom: 3px;">
+                            <text id="{{ data['content']['id'] }}-note" style="margin-top: 5px; margin-bottom: 10px;"></text>
+
+                            <div id="{{ data['content']['id'] }}-choices" style="padding: 0; gap: 0 5px;  display: flex; justify-content: space-between; align-items: center;">
                             </div>
                             
                             <div id="{{ data['content']['id'] }}-controls" style="padding: 0; gap: 0 5px;  display: flex; justify-content: space-between; align-items: center; margin-bottom: 27px;">
                             </div>
+
 
                             <script defer>
                                 window.{{ data["content"]["id"] }}dialogueRunning = false;
@@ -474,7 +477,16 @@
                                     {{ data["content"]["id"] }}dialogueBox.style.setProperty('--color3', dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueColors"][2]);
                             
                                     {{ data["content"]["id"] }}dialogueName.innerText = {{ data["content"]["id"] }}chatData.name;
-                                    {{ data["content"]["id"] }}dialogueText.innerHTML = random({{ data["content"]["id"] }}chatData.text);
+                                    var text = random({{ data["content"]["id"] }}chatData.text);
+
+                                    if (Array.isArray(text)) {
+                                        {{ data["content"]["id"] }}dialogueText.innerHTML = text[0];
+                                        document.getElementById("{{ data['content']['id'] }}-note").innerHTML = "NOTE: " + text[1];
+                                    } else {
+                                        {{ data["content"]["id"] }}dialogueText.innerHTML = text;
+                                        document.getElementById("{{ data['content']['id'] }}-note").innerHTML = "";
+                                    }
+
                             
                                     //playSound(dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][0], dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][1], dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][2]);
                                     
@@ -493,14 +505,25 @@
                                             // add choices
                                             {{ data["content"]["id"] }}chatData.choices.forEach(item => {
                                                 var button = document.createElement('button');
-                                                button.innerHTML = `
-                                                    <text type="hoverText">${item[0]}</text>
-                                                `;
+                                                console.log(item[0])
+                                                if (Array.isArray(item[0])) {
+                                                    button.innerHTML = `
+                                                        <text type="hoverText">${item[0][0]}</text>
+                                                    `;
+
+                                                    button.title = item[0][1];
+                                                    button.style.cursor = "help";
+                                                } else {
+                                                    button.innerHTML = `
+                                                        <text type="hoverText">${item[0]}</text>
+                                                    `;
+                                                }
+
                                                 button.onclick = function() {
                                                     change{{ data["content"]["id"] }}Dialogue(`${item[1]}`);
                                                 };
+
                                                 button.style.flex = 'auto';
-                                                button.title = item[0];
 
                                                 button.addEventListener('click', function() {
                                                     playSound("buttonclick", 1, "none")
@@ -539,7 +562,7 @@
 
                                         {{ data["content"]["id"] }}dialogueControls.style.display = "flex";
 
-                                    }, 1000);
+                                    }, 250);
                                 }
                             </script>
                         {% endif %}
