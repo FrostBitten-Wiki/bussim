@@ -173,6 +173,7 @@ html:
           children:
           - name: sed do eiusmod tempor incididunt ut <highlight>labore et dolore </highlight>magna aliqua.
         - name: Tortor posuere ac ut consequat.
+        
     - type: gallery
       content:
         images:
