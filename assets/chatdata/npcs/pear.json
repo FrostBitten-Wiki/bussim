@@ -1,0 +1,712 @@
+{
+    "start": {
+        "name": "Pear",
+        
+        "text": [
+            ["Oh, hey [Player]!!! I know you!!", "This dialogue appears if you are friends with Pear"],
+            "Did you know that in terms of... busses, this is a pretty nice one! What's up, though?",
+            "mmrrreoww~?",
+            "Oh, hey! Didn't see you there, what's up?",
+            "Need something?",
+            "Hold on just a second... just trading my pearcoin(TM)",
+            "Heyaaa! What're you talkin to me for?",
+            "[Player]?! I didn't expect to see you here!!",
+            "Tender soul splintered, folded in the inner...~ Huh, sorry... What's goin on?"
+        ],
+
+        "choices": [
+            [
+                "Sorry, just walking by.",
+                ["end"]
+            ],
+            [
+                "Let's Talk!",
+                ["pear_letstalk"]
+            ],
+            [
+                "Invites",
+                ["pear_invites"]
+            ],
+            [
+                "Buy Songs",
+                ["pear_buysongs"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Refresh",
+                ["start"]
+            ]
+        ]
+    },
+
+    "end": {
+        "name": "You",
+        
+        "text": [
+            "Pear Interaction Ended. Press the RESET button to restart Dialogue Emulation."
+        ],
+
+        "choices": [
+
+        ],
+
+        "controls": [
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "pear_letstalk": {
+        "name": "Pear",
+        
+        "text": [
+            ["I mean, it is pretty lonely in here..", "This dialogue appears if the Player Count is less than 5 players."],
+            ["You done talking to [Other Player]? Well, uhh...", "This dialogue appears if your playing on a server with 1 other player."],
+            ["You finally tired of talking to [Other Player]? Then, uhhhh...", "This dialogue appears if your playing on a server with 1 other player."],
+            ["There's like [Current Player Count] on the bus and you wanna talk to me? Okay, uh...", "This dialogue appears if there's more than 5 players."],
+            "That's gonna cost you 5 rep... Just kidding! So...",
+            "You want to talk? Hmm uhh...",
+            "Well I'm not sure what to talk about but uh..."
+        ],
+
+        "choices": [
+
+        ],
+
+        "controls": [
+            [
+                "Refresh",
+                [
+                    "pear_letstalk"
+                ]
+            ],
+
+            [
+                "Continue Dialogue (Random)",
+                [
+                    "pear_letstalk_variant1",
+                    "pear_letstalk_variant2",
+                    "pear_letstalk_variant3",
+                    "pear_letstalk_variant4",
+                    "pear_letstalk_variant5",
+                    "pear_letstalk_variant6",
+                    "pear_letstalk_variant7",
+                    "pear_letstalk_variant8",
+                    "pear_letstalk_variant9",
+                    "pear_letstalk_variant10",
+                    "pear_letstalk_variant11",
+                    "pear_letstalk_variant12"
+                ]
+            ],
+
+            [
+                "Choose Variant",
+                ["pear_letstalk_choosevariant"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_choosevariant": {
+        "name": "You",
+        
+        "text": [
+            "Choose the Variant you want to happen for \"Let's Talk!\"."
+        ],
+
+        "choices": [
+
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk"]
+            ],
+
+            [
+                "V1",
+                ["pear_letstalk_variant1"]
+            ],
+
+            [
+                "V2",
+                ["pear_letstalk_variant2"]
+            ],
+
+            [
+                "V3",
+                ["pear_letstalk_variant3"]
+            ],
+
+            [
+                "V4",
+                ["pear_letstalk_variant4"]
+            ],
+
+            [
+                "V5",
+                ["pear_letstalk_variant5"]
+            ],
+
+            [
+                "V6",
+                ["pear_letstalk_variant6"]
+            ],
+
+            [
+                "V7",
+                ["pear_letstalk_variant7"]
+            ],
+
+            [
+                "V8",
+                ["pear_letstalk_variant8"]
+            ],
+
+            [
+                "V9",
+                ["pear_letstalk_variant9"]
+            ],
+
+            [
+                "V10",
+                ["pear_letstalk_variant10"]
+            ],
+
+            [
+                "V11",
+                ["pear_letstalk_variant11"]
+            ],
+
+            [
+                "V12",
+                ["pear_letstalk_variant12"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant1": {
+        "name": "Pear",
+        
+        "text": [
+            "Wanna rap battle? I promise It'll be easy!"
+        ],
+
+        "choices": [
+            [
+                "I don't rap.",
+                ["pear_letstalk_variant1_idontrap"]
+            ],
+
+            [
+                "Beep Bap!",
+                ["pear_letstalk_variant1_beepbap"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk"]
+            ],
+            [
+                "Refresh",
+                ["pear_letstalk_variant1"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant1_idontrap": {
+        "name": "Pear",
+        
+        "text": [
+            "You probably could thoughhhh~"
+        ],
+
+        "choices": [
+
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk_variant1"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant1_beepbap": {
+        "name": "Pear",
+        
+        "text": [
+            "Let's go- Oh wait... There isn't any way for us to rap, sorry!"
+        ],
+
+        "choices": [
+            
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk_variant1"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant2": {
+        "name": "Pear",
+        
+        "text": [
+            "Tell Frost he owes me a tub of ice cream the next time he sees me..."
+        ],
+
+        "choices": [
+
+        ],
+
+        "controls": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant2a"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant2a": {
+        "name": "Pear",
+        
+        "text": [
+            "No reason in particular, I just want one!"
+        ],
+
+        "choices": [
+            [
+                "Maybe someday.",
+                ["end"]
+            ],
+            [
+                ["Been there, done that.", "This choice appears if you already completed or is still doing the Animal Messenger Quest."],
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant3": {
+        "name": "Pear",
+        
+        "text": [
+            "I first got on this bus like... forever ago. I can't really remember when it was, even."
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant3a"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant3a": {
+        "name": "Pear",
+        
+        "text": [
+            "Although thus bus ride has gone on for so long.. it gave me a lot of time to just think..."
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant3b"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk_variant3"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant3b": {
+        "name": "Pear",
+        
+        "text": [
+            "So I did! I thought about a bunch of stuff, including myself! I ended up gaining a new hobby! I took up knitting, and it's a really fun way to pass the time!"
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant3c"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk_variant3a"]
+            ],
+            [
+                "Back to Variant Beginning",
+                ["pear_letstalk_variant3"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant3c": {
+        "name": "Pear",
+        
+        "text": [
+            "I think I've gotten pretty good at it.. would you like to have something of mine~?"
+        ],
+
+        "choices": [
+            [
+                "Yeah, for sure!",
+                ["pear_letstalk_variant3_buyclothing"]
+            ],
+            [
+                "Ah, no thanks.",
+                ["pear_letstalk_variant3_declineoffer"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk_variant3b"]
+            ],
+            [
+                "Back to Variant Beginning",
+                ["pear_letstalk_variant3"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant3_buyclothing": {
+        "name": "Pear",
+        
+        "text": [
+            "Thaaanks!! oh, what, you thought it was free? heck no, this is a business opportunity!"
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant3_purchaseprompt"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk_variant3c"]
+            ],
+            [
+                "Back to Variant Beginning",
+                ["pear_letstalk_variant3"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant3_purchaseprompt": {
+        "name": "You",
+        
+        "text": [
+            "You are then prompted with purchasing a random clothing of Pear."
+        ],
+
+        "choices": [
+            [
+                "Purchase",
+                ["pear_letstalk_variant3_purchasedclothing"]
+            ],
+            [
+                "Cancel / Already Owned",
+                ["pear_letstalk_variant3_cancel"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk_variant3_buyclothing"]
+            ],
+            [
+                "Back to Variant Beginning",
+                ["pear_letstalk_variant3"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant3_purchasedclothing": {
+        "name": "You",
+        
+        "text": [
+            "The clothing you bought is then applied to your avatar. Overriding any clothing you're wearing, although does not persit on Player Respawn."
+        ],
+
+        "choices": [
+            [
+                "Continue",
+                ["pear_letstalk_variant3_purchasedclothing_pear"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk_variant3_purchaseprompt"]
+            ],
+            [
+                "Back to Variant Beginning",
+                ["pear_letstalk_variant3"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant3_purchasedclothing_pear": {
+        "name": "Pear",
+        
+        "text": [
+            "Whuh!! You look amazing in that! I almost wanna pay you for wearing it! I'm not lying! You've actually inspired me to keep going, so I'll have more clothes for you the next time you see me!"
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk_variant3_purchaseprompt"]
+            ],
+            [
+                "Back to Variant Beginning",
+                ["pear_letstalk_variant3"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant3_cancel": {
+        "name": "Pear",
+        
+        "text": [
+            "Oh.. I guess you didn't like it..? I'll try and do better next time.."
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk_variant3_purchaseprompt"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant3_declineoffer": {
+        "name": "Pear",
+        
+        "text": [
+            "Aw... You would have looked good in it, though."
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk_variant3c"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant4": {
+        "name": "Pear",
+        
+        "text": [
+            "Hey, you want some pearcoin(TM)? I promise it's worth a lot!"
+        ],
+
+        "choices": [
+            [
+                "Sounds like a scam.",
+                ["pear_letstalk_variant4_scam"]
+            ],
+            [
+                "I already have one.",
+                ["pear_letstalk_variant4_owned"]
+            ],
+            [
+                "Sure.",
+                ["pear_letstalk_variant4_accept"]
+            ]
+        ],
+
+        "controls": [
+    
+        ]
+    },
+
+    "pear_letstalk_variant4_scam": {
+        "name": "Pear",
+        
+        "text": [
+            "I would never!"
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk_variant4"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant4_owned": {
+        "name": "Pear",
+        
+        "text": [
+            "You do? Thanks... It's worth nothing actually!"
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk_variant4"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant4_accept": {
+        "name": "Pear",
+        
+        "text": [
+            "Gotcha, I've fired up the pearcoin(TM) machine! Give it a try!"
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant4_pearcoinMachine"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk_variant4"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_variant4_pearcoinMachine": {
+        "name": "You",
+        
+        "text": [
+            "You are then prompted with purchasing Pearcoin."
+        ],
+
+        "choices": [
+            [
+                "Purchase",
+                ["pear_letstalk_variant4_pearcoinMachine_purchasee"]
+            ],
+            [
+                "Cancel",
+                ["pear_letstalk_variant4_pearcoinMachine_cancel"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk_variant4"]
+            ]
+        ]
+    }
+}
