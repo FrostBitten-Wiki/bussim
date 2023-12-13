@@ -159,7 +159,7 @@
         "name": "You",
         
         "text": [
-            "[Offer gift: (item name)]"
+            ["[Offer gift: (item name)]","Options only appear if the player has the item."]
         ],
 
         "choices": [

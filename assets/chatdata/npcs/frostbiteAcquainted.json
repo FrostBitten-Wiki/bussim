@@ -136,7 +136,7 @@
         "name": "Frostbite",
         
         "text": [
-            "..? A coin..? Thanks, but I don't really..."
+            ["..? A coin..? Thanks, but I don't really...","Only appears if the player has a Pearcoin"]
         ],
 
         "choices": [
