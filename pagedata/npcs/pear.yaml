@@ -80,169 +80,170 @@ html:
             - name: "Option 1: Sorry, just walking by."
             - name: "Option 2: Let's talk!"
               children:
-                - name: "Variant 1 <small>(If player count is below 5)</small>: I mean, it is pretty lonely in here.."
-                - name: "Variant 2 <small>(If there's one other player in the server)</small>: You done talking to [Other Player]? Well, uhh..."
-                - name: "Variant 3 <small>(If there's one other player in the server)</small>: You finally tired of talking to [Other Player]? Then, uhhhh..."
-                - name: "Variant 2 <small>(otherwise)</small>: There's like [Number of players in the server) on the bus and you wanna talk to me? Okay, uh..."
-                - name: "Variant 3: That's gonna cost you 5 rep... Just kidding! So..."
-                - name: "Variant 4: You want to talk? Hmm uhh..."
-                - name: "Variant 5: Well I'm not sure what to talk about but uh..."
+                - name: "Variant 1 <small>(If player count is below 5)</small>: \"I mean, it is pretty lonely in here..\""
+                - name: "Variant 2 <small>(If there's one other player in the server)</small>: \"You done talking to [Other Player]? Well, uhh...\""
+                - name: "Variant 3 <small>(If there's one other player in the server)</small>: \"You finally tired of talking to [Other Player]? Then, uhhhh...\""
+                - name: "Variant 2 <small>(otherwise)</small>: \"There's like [Number of players in the server) on the bus and you wanna talk to me? Okay, uh...\""
+                - name: "Variant 3: \"That's gonna cost you 5 rep... Just kidding! So...\""
+                - name: "Variant 4: \"You want to talk? Hmm uhh...\""
+                - name: "Variant 5: \"Well I'm not sure what to talk about but uh...\""
                 - name: "Continuation <small>(after any variant)</small>:"
                   children:
-                    - name: "Variant 1: Wanna rap battle? I promise it'll be easy!"
+                    - name: "Variant 1: \"Wanna rap battle? I promise it'll be easy!\""
                       children:
                         - name: "Option 1: I don't rap."
                           children:
-                            - name: "You probably could thoughhhh~"
+                            - name: "\"You probably could thoughhhh~\""
                         - name: "Option 2: Beep Bap!"
                           children:
-                            - name: "Let's go- Oh wait... There isn't any way for us to rap, sorry!"
-                    - name: "Variant 2: Tell Frost he owes me a tub of ice cream the next time he sees me..."
+                            - name: "\"Let's go- Oh wait... There isn't any way for us to rap, sorry!\""
+                    - name: "Variant 2: \"Tell Frost he owes me a tub of ice cream the next time he sees me...\""
                       children:
-                        - name: "No reason in particular, I just want one!"
+                        - name: "\"No reason in particular, I just want one!\""
                           children:
-                            - name: "Maybe someday."
-                            - name: "Been there, done that. <small>(If the player already completed and/or is still doing the Animal Messenger quest)</small>"
-                    - name: "Variant 3: I first got on this bus like... forever ago. I can't really remember when it was, even."
+                            - name: "Option 1: Maybe someday."
+                            - name: "Option 2: Been there, done that. <small>(If the player already completed and/or is still doing the Animal Messenger quest)</small>"
+                    - name: "Variant 3: \"I first got on this bus like... forever ago. I can't really remember when it was, even.\""
                       children:
-                        - name: "Although this bus ride has gone on for so long.. it gave me a lot of time to just think..."
-                        - name: "So I did! I thought about a bunch of stuff, including myself! I ended up gaining a new hobby! I took up knitting, and it's a really fun way to pass the time!"
-                        - name: "I think I've gotten pretty good at it.. would you like to have something of mine~?"
+                        - name: "\"Although this bus ride has gone on for so long.. it gave me a lot of time to just think...\""
+                        - name: "\"So I did! I thought about a bunch of stuff, including myself! I ended up gaining a new hobby! I took up knitting, and it's a really fun way to pass the time!\""
+                        - name: "\"I think I've gotten pretty good at it.. would you like to have something of mine~?\""
                           children:
                             - name: "Option 1: Yeah, for sure!"
                               children:
-                                - name: "Thaaanks!! oh, what, you thought it was free? heck no, this is a business opportunity!"
+                                - name: "\"Thaaanks!! oh, what, you thought it was free? heck no, this is a business opportunity!\""
                                   children:
                                     - name: "The player is prompted to buy a random shirt from Pear's Clothing."
                                       children:
                                         - name: "If the player doesn't purchase the shirt or already owns it:"
                                           children:
-                                            - name: "Oh.. I guess you didn't like it..? I'll try and do better next time.."
+                                            - name: "\"Oh.. I guess you didn't like it..? I'll try and do better next time..\""
                                         - name: "If the player purchases the shirt:"
                                           children:
                                             - name: "The shirt is applied to the player's avatar. (Shirt does not stay after rejoin or respawn.)"
                                               children:
-                                                - name: "Whuh!! You look amazing in that! I almost wanna pay you for wearing it! I'm not lying! You've actually inspired me to keep going, so I'll have more clothes for you the next time you see me!"
+                                                - name: "\"Whuh!! You look amazing in that! I almost wanna pay you for wearing it! I'm not lying! You've actually inspired me to keep going, so I'll have more clothes for you the next time you see me!\""
                             - name: "Option 2: Ah, no thanks."
                               children:
-                                - name: "Aw... You would have looked good in it, though."
-                    - name: "Variant 4: Hey, you want some [[Pearcoin|pearcoin<sup>TM</sup>]]?"
+                                - name: "\"Aw... You would have looked good in it, though.\""
+                    - name: "Variant 4: \"Hey, you want some pearcoin(TM)?\""
                       children:
                         - name: "Option 1: Sounds like a scam."
                           children:
-                            - name: "I would never!"
+                            - name: "\"I would never!\""
                         - name: "Option 2: I already have one. <small>(If the player owns a Pearcoin)</small>"
                           children:
-                            - name: "You do? Thanks... It's worth nothing actually!"
+                            - name: "\"You do? Thanks... It's worth nothing actually!\""
                         - name: "Option 3: Sure."
                           children:
-                            - name: "Gotcha, I've fired up the pearcoin<sup>TM</sup> machine! Give it a try!"
+                            - name: "\"Gotcha, I've fired up the pearcoin<sup>TM</sup> machine! Give it a try!\""
                               children:
                                 - name: "The player is prompted to buy a Pearcoin for 2 Robux."
                                   children:
                                     - name: "If player already owns a Pearcoin:"
                                       children:
-                                        - name: "Oh, right! I forgot to tell you. There's a limit on how much pearcoin<sup>TM</sup> you can purchase~! It's one. You can only buy one pearcoin<sup>TM</sup>. That's why its singular, not plural!"
+                                        - name: "\"Oh, right! I forgot to tell you. There's a limit on how much pearcoin<sup>TM</sup> you can purchase~! It's one. You can only buy one pearcoin<sup>TM</sup>. That's why its singular, not plural!\""
                                     - name: "If the player buys it:"
                                       children:
-                                        - name: "Congratulations!! You're now the owner of one whole pearcoin<sup>TM</sup>!!"
-                                        - name: "Take it in bud, you're officially part of the 1% now..."
-                                        - name: "The 1% who actually fell for it... sucker~"
+                                        - name: "\"Congratulations!! You're now the owner of one whole pearcoin<sup>TM</sup>!!\""
+                                        - name: "\"Take it in bud, you're officially part of the 1% now...\""
+                                        - name: "\"The 1% who actually fell for it... sucker~\""
                                           children:
-                                            - name: "(This gives you a [[Pearcoin]], useful for befriending [[Frostbite|Frost]].)"
-                    - name: "Variant 5: My favorite pizza is just plain cheese pizza!"
+                                            - name: "(This gives you a pearcoin(TM), useful for befriending <a href=\"/bussim/npcs/frostbite\">Frostbite</a>.)"
+                    - name: "Variant 5: \"My favorite pizza is just plain cheese pizza!\""
                       children:
-                        - name: "Though black olives are good too..."
-                        - name: "If player has given Pear a Cheese Pizza in the game pizza:"
+                        - name: "\"Though black olives are good too...\""
+                        - name: "\"If player has given Pear a Cheese Pizza in the game pizza:\""
                           children:
-                            - name: "You've already given me one before though~!"
-                    - name: "Variant 6: Today feels like any other day, honestly, Wonder if you feel the same?"
-                    - name: "Variant 7: Do you play.. err, that one battle royale game with the buildings and stuff? I do.. sometimes. I think."
-                    - name: "Variant 8: Have you seen a brown cat? They look a bit like, uhm... the season fall? Crown necklace and earring? No? Awh... Tell me if you do, though!!"
-                    - name: "Variant 9: I think people are confused about my gender. I figured I should clear stuff up, so remember that my pronouns are he/they!"
+                            - name: "\"You've already given me one before though~!\""
+                    - name: "Variant 6: \"Today feels like any other day, honestly, Wonder if you feel the same?\""
+                    - name: "Variant 7: \"Do you play.. err, that one battle royale game with the buildings and stuff? I do.. sometimes. I think.\""
+                    - name: "Variant 8: \"Have you seen a brown cat? They look a bit like, uhm... the season fall? Crown necklace and earring? No? Awh... Tell me if you do, though!!\""
+                    - name: "Variant 9: \"I think people are confused about my gender. I figured I should clear stuff up, so remember that my pronouns are he/they!\""
                       children:
-                        - name: "Uhh, there is a third one, but my lawyers have advised me not to tell you."
-                    - name: "Variant 10: Psst, hey! Wanna learn the secret to free rep?"
+                        - name: "\"Uhh, there is a third one, but my lawyers have advised me not to tell you.\""
+                    - name: "Variant 10: \"Psst, hey! Wanna learn the secret to free rep?\""
                       children:
                         - name: "Option 1: Can you tell me more?"
                           children:
-                            - name: "Well, basically, when you hang out with your friends for like, an hour, you can both earn some driver and passenger rep..."
-                            - name: "You can get rewarded for up to three friends a day. You earn 10 driver rep for the first friend, and 5 driver rep for the other two. You get 10 passenger rep every time, though~"
-                            - name: "The friends you invite get 10 driver and passenger rep as well. Neat, right?"
-                            - name: "And since you can do this every day, according to my calculations, that means... uhh, carry the two.. and..."
-                            - name: "MEOW! That's like, 200 reputations a week or something??"
-                            - name: "So... You interested?"
+                            - name: "\"Well, basically, when you hang out with your friends for like, an hour, you can both earn some driver and passenger rep...\""
+                            - name: "\"You can get rewarded for up to three friends a day. You earn 10 driver rep for the first friend, and 5 driver rep for the other two. You get 10 passenger rep every time, though~\""
+                            - name: "\"The friends you invite get 10 driver and passenger rep as well. Neat, right?\""
+                            - name: "\"And since you can do this every day, according to my calculations, that means... uhh, carry the two.. and...\""
+                            - name: "\"MEOW! That's like, 200 reputations a week or something??\""
+                            - name: "\"So... You interested?\""
                               children:
                                 - name: "Option 1: I'm in!"
                                   children:
-                                    - name: "Pawsome~ Just tell me who to call!!"
+                                    - name: "\"Pawsome~ Just tell me who to call!!\""
                                       children:
                                         - name: "An Invite Friends prompt appears."
                                 - name: "Option 2: Nah."
                                   children:
-                                    - name: "Alright! If you ever change your mind, you know who to call."
+                                    - name: "\"Alright! If you ever change your mind, you know who to call.\""
                         - name: "Option 2: Sounds good to me!"
                           children:
-                            - name: "Pawsome~ Just tell me who to call!!"
+                            - name: "\"Pawsome~ Just tell me who to call!!\""
                               children:
                                 - name: "An Invite Friends prompt appears."
                         - name: "Option 3: I have no friends."
                           children:
-                            - name: "Oh. Uhm, yeowch... Didn't mean to rub salt in the wound, there... Hope you find some soon...?"
+                            - name: "\"Oh. Uhm, yeowch... Didn't mean to rub salt in the wound, there... Hope you find some soon...?\""
                         - name: "Option 4: Nah."
                           children:
-                            - name: "Alright! If you ever change your mind, you know who to call."
-                    - name: "Variant 11: You should play Kit Battle! It's a pretty great game in my honest opinion..."
+                            - name: "\"Alright! If you ever change your mind, you know who to call.\""
+                    - name: "Variant 11: \"You should play Kit Battle! It's a pretty great game in my honest opinion...\""
                       children:
                         - name: "Option 1: I will play it right now."
                           children:
-                            - name: "Good, have fun~!"
+                            - name: "\"Good, have fun~!\""
                               children:
                                 - name: "The game will teleport you to Kit Battle."
                         - name: "Option 2: Is this sponsored?"
                           children:
-                            - name: "Totally not!! I would never take money to advertise a game..."
-                            - name: "You definitely should play Kit Battle though..."
+                            - name: "\"Totally not!! I would never take money to advertise a game...\""
+                            - name: "\"You definitely should play Kit Battle though...\""
                         - name: "Option 3: Did you just-?"
                           children:
                             - name: "...no?"
                             - name: "(If the player's account age is 12 or younger [<12], this dialogue plays instead.)"
                               children:
-                                - name: "Hey, you should pl-- Oh, uhm..."
+                                - name: "\"Hey, you should pl-- Oh, uhm...\""
                                   children:
                                     - name: "Option 1: I'll just go."
                                     - name: "...? What's up?"
                                       children:
-                                        - name: "S-Sorry, looks like I'm getting a call! Please hold..."
-                                        - name: "Meowdy, Pear speaking~!"
-                                        - name: "Uh-huh... uh-huh...oh, excuse me, could you repeat that..?"
-                                        - name: "<small>oh, shoot... on god? they're a...?</small>"
-                                        - name: "okay, thank you so much for letting me know... talk to you later, meow~!"
-                                        - name: "Um, uh, heeeey, you!"
+                                        - name: "\"S-Sorry, looks like I'm getting a call! Please hold...\""
+                                        - name: "\"Meowdy, Pear speaking~!\""
+                                        - name: "\"Uh-huh... uh-huh...oh, excuse me, could you repeat that..?\""
+                                        - name: "\"<small>oh, shoot... on god? they're a...?</small>\""
+                                        - name: "\"okay, thank you so much for letting me know... talk to you later, meow~!\""
+                                        - name: "\"Um, uh, heeeey, you!\""
                                           children:
                                             - name: "Option 1: What was that about?"
                                               children:
-                                                - name: "Um, nothing! I've gotta go now, see ya!!!"
+                                                - name: "\"Um, nothing! I've gotta go now, see ya!!!\""
                                             - name: "Option 2: Um.. hi..?"
                                               children:
-                                                - name: "Yooo, you're talkin' to me? Brand new conversation, with me?! That's crazy! We should talk about how..."
+                                                - name: "\"Yooo, you're talkin' to me? Brand new conversation, with me?! That's crazy! We should talk about how...\""
                                                   children:
                                                     - name: "Pear then chooses a random dialogue line."
+
                     - name: "Variant 12 <small>(during Bus Simulator's 5th birthday)</small>:"
                       children:
-                        - name: "Heyyy, it's the busses birthday! We're celebrating with cake! Pretty cool, right?"
-                        - name: "I do have a warning for you though... Whatever you do, don't drink a [[Cola|Bloxy Cola]] [[Bus Birthday Cake|alongside the cake]]... You'll regret it~!"
+                        - name: "\"Heyyy, it's the busses birthday! We're celebrating with cake! Pretty cool, right?\""
+                        - name: "\"I do have a warning for you though... Whatever you do, don't drink a [[Cola|Bloxy Cola]] [[Bus Birthday Cake|alongside the cake]]... You'll regret it~!\""
 
             - name: "Option 3: Buy Songs"
               children:
-                - name: "You sure you wanna buy songs for everyone in the server? It's a little useless after... The Incident..."
+                - name: "\"You sure you wanna buy songs for everyone in the server? It's a little useless after... The Incident...\""
                   children:
                     - name: "Option 1: Uhm, nevermind..."
                       children:
-                        - name: "Yeah, thought so~"
+                        - name: "\"Yeah, thought so~\""
                     - name: "Option 2: Yeah, I'm sure."
                       children:
-                        - name: "Well then... *ahem*... You feelin generous? I can give everyone in the server some songs~ Trust me, it's worth it!"
+                        - name: "\"Well then... *ahem*... You feelin generous? I can give everyone in the server some songs~ Trust me, it's worth it!\""
                           children:
                             - name: "You are then prompted to buy two songs for everyone in the server for 80 Robux."
 
