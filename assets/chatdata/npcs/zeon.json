@@ -4,7 +4,7 @@
         
         "text": [
             "WHY ARE YOU IN MY HOUSE?!?!?!?!?!?!",
-            ["oh, hey. friends usually <i>knock</i> first, ya know?", "<small>Only appears if the player has Zeon friended on roblox.</small>"]
+            ["oh, hey. friends usually <i>knock</i> first, ya know?", "Only appears if the player has Zeon friended on roblox."]
         ],
 
         "choices": [
@@ -55,7 +55,7 @@
                 ["optA1a"]
             ],
             [
-                "D6 wants to talk about turtle skeletons.", "<small>Only appears if the player has interacted with D6's specific dialogue.</small>",
+                "D6 wants to talk about turtle skeletons.", "Only appears if the player has interacted with D6's specific dialogue.",
                 ["optA1b"]
             ]
         ],
@@ -122,7 +122,7 @@
         
         "text": [
             "Why... Why are you asking me this??? You broke into my house and gonna ask stuff about me?? Fine. I'm Zeon. I moderate the bus statistics and stuff like it. I don't get paid enough for it...",
-            ["Did you forget? I'm Zeon. The one friend thats a loser, and probably your only friend that is a girl.", "<small>Only appears if the player has Zeon friended on roblox.</small>"]
+            ["Did you forget? I'm Zeon. The one friend thats a loser, and probably your only friend that is a girl.", "Only appears if the player has Zeon friended on roblox."]
         ],
 
         "choices": [
