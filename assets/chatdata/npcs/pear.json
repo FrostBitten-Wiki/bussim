@@ -16,7 +16,7 @@
 
         "choices": [
             [
-                "Sorry, just walking by.",
+                "<font color='#ffaf00'>Sorry, just walking by.</font>",
                 ["end"]
             ],
             [
@@ -298,11 +298,11 @@
 
         "choices": [
             [
-                "Maybe someday.",
+                "<font color='#ffaf00'>Maybe someday.</font>",
                 ["end"]
             ],
             [
-                ["Been there, done that.", "This choice appears if you already completed or is still doing the Animal Messenger Quest."],
+                ["<font color='#ffaf00'>Been there, done that.</font>", "This choice appears if you already completed or is still doing the Animal Messenger Quest."],
                 ["end"]
             ]
         ],
