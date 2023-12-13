@@ -1771,6 +1771,10 @@
                 ["talkB2a"]
             ],
             [
+                "Refresh",
+                ["talkB2b"]
+            ],
+            [
                 "Reset",
                 ["start"]
             ]
