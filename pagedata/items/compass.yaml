@@ -27,7 +27,7 @@ html:
 
            <br><br>
 
-           The tool doesn't seem to do much, as all it does is always point towards west, which is probably why its one of the cheapest tools in the gas station.
+           The tool doesn't seem to do much, as all it does is always point towards north, which is probably why its one of the cheapest tools in the gas station.
 
            <br><br>
 
@@ -37,7 +37,7 @@ html:
 
       - type: tree
         content:
-          - name: The compass doesen't actually face north, as seen by the <a href='/bussim/events/time-travel'>Time Travel</a> event.
+          - name: The compass may not actually face north, as seen by the <a href='/bussim/events/time-travel'>Time Travel</a> event. However this could be an oversight.
 
       - type: gallery
         content:
