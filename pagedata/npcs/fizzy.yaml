@@ -68,6 +68,11 @@ html:
               children:
                 - name: "\"I won an art contest, that's why I'm here.\""
 
+    - type: section
+      content:
+        size: normal
+        title: Trivia
+
 
     - type: tree
       content:
