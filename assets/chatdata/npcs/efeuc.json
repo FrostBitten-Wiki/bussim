@@ -9,7 +9,7 @@
             "welcome to my humble abode",
             "10684, 10685, 1068- oh hey, a new person.",
             "hi, need anything?",
-            ["GOOOODDDDD ISSSSSS GOOOOOOOOOOOOOOOOOOD, GOOODDDD ISSSSS GREAAAAT GOD IS GOOOHOHOOOOHOO","Only appears with a 1/300 chance"]
+            ["GOOOODDDDD ISSSSSS GOOOOOOOOOOOOOOOOOOD, GOOODDDD ISSSSS GREAAAAT GOD IS GOOOHOHOOOOHOO","Only appears with a 1/300 chance, also causes the player to explode."]
         ],
 
         "choices": [
@@ -185,7 +185,7 @@
         "name": "Efeuc",
         
         "text": [
-            "heh, ok i'll throw you in a random direction, ready?"
+            ["heh, ok i'll throw you in a random direction, ready?","The player gets flung in a random direction."]
         ],
 
         "choices": [

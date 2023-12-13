@@ -265,7 +265,7 @@ html:
                         - name: "Variant 1: \"Sorry, but you don't have enough rep to purchase that!\""
                         - name: "Variant 2: \"Hey [Player], if you look to the top of your screen, you'll see that you don't have enough rep to purchase this...\""
                           children:
-                            - name: "Option 1: Really? How about a shiny pearcoin instead?"
+                            - name: "Option 1 (if the player has a Pearcoin): Really? How about a shiny pearcoin instead?"
                               children:
                                 - name: "\"A pearcoinTM? I've never heard of that before, but it sounds fun..! Let's do it! One pearcoinTM for..-\""
                                   children:

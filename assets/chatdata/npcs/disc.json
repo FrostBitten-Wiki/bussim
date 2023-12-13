@@ -2118,7 +2118,7 @@
         "name": "Disc",
         
         "text": [
-            "A pearcoin? I've never heard of that before, but it sounds fun..! Let's do it! One pearcoin for..-"
+            ["A pearcoin? I've never heard of that before, but it sounds fun..! Let's do it! One pearcoin for..-","Appears only if the player has a Pearcoin"]
         ],
 
         "choices": [
@@ -2344,7 +2344,7 @@
         "name": "Disc",
         
         "text": [
-            "A pearcoin? I've never heard of that before, but it sounds fun..! Let's do it! One pearcoin for..-"
+            ["A pearcoin? I've never heard of that before, but it sounds fun..! Let's do it! One pearcoin for..-","Appears only if the player has a Pearcoin"]
         ],
 
         "choices": [

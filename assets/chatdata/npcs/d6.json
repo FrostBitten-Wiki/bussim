@@ -1703,7 +1703,7 @@
         "name": "D6",
 
         "text": [
-            "why havent you been flattened by a 2 ton slab of concrete"
+            ["why havent you been flattened by a 2 ton slab of concrete","A 2 ton slab of concrete falls from the sky and kills the player, unless under cover."]
         ],
 
         "choices": [
@@ -1807,7 +1807,7 @@
         "name": "D6",
 
         "text": [
-            " "
+            [" ","The player then immediately explodes."]
         ],
 
         "choices": [
@@ -2193,7 +2193,7 @@
         "name": "D6",
 
         "text": [
-            " "
+            [" ","The player then immediately explodes."]
         ],
 
         "choices": [
@@ -2571,7 +2571,7 @@
         "name": "D6",
 
         "text": [
-            "thanks"
+            ["thanks","The player hands D6 a random consumable item."]
         ],
 
         "choices": [
@@ -2622,7 +2622,7 @@
         "name": "D6",
 
         "text": [
-            "pleasure doing business"
+            ["pleasure doing business","The player hands D6 a random consumable item and receives a Tool."]
         ],
 
         "choices": [
