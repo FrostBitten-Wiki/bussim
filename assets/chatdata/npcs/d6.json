@@ -14,7 +14,7 @@
         "choices": [
             [
                 "Any Wisdom For Today?",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["varA1a"]
             ],
             [
                 "Let's Talk!",
@@ -37,6 +37,287 @@
         ]
     },
 
+    "varA1a": {
+        "name": "System",
+        
+        "text": [
+            "Would you like a random variant or select a variant?"
+        ],
+
+        "choices": [
+            [
+                "Random Variant",
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+            ],
+            [
+                "Selected Variant",
+                ["varA1b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA1b": {
+        "name": "System",
+        
+        "text": [
+            "Which variant would you like to select? (Page 1/4)"
+        ],
+
+        "choices": [
+            [
+                "V1 S1",
+                ["wisdomA1B1"]
+            ],
+            [
+                "V1 S2",
+                ["wisdomA1B2"]
+            ],
+            [
+                "V1 S3",
+                ["wisdomA1B3"]
+            ],
+            [
+                "V2 S1",
+                ["wisdomA2B1"]
+            ],
+            [
+                "V2 S2",
+                ["wisdomA2B2a"]
+            ],
+            [
+                "V2 S3",
+                ["wisdomA2B3a"]
+            ],
+            [
+                "V3",
+                ["wisdomA3"]
+            ],
+            [
+                "V4",
+                ["wisdomA4"]
+            ],
+            [
+                "V5",
+                ["wisdomA5"]
+            ],
+            [
+                "V6",
+                ["wisdomA6"]
+            ],
+            [
+                "<highlight>Next Page</highlight>",
+                ["varA1c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["varA1a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA1c": {
+        "name": "System",
+        
+        "text": [
+            "Which variant would you like to select? (Page 2/4)"
+        ],
+
+        "choices": [
+            [
+                "V7 S1",
+                ["wisdomA7B1"]
+            ],
+            [
+                "V7 S2",
+                ["wisdomA7B2"]
+            ],
+            [
+                "V8",
+                ["wisdomA8"]
+            ],
+            [
+                "V9",
+                ["wisdomA9"]
+            ],
+            [
+                "V10",
+                ["wisdomA10"]
+            ],
+            [
+                "V11",
+                ["wisdomA11"]
+            ],
+            [
+                "V12",
+                ["wisdomA12"]
+            ],
+            [
+                "V13",
+                ["wisdomA13"]
+            ],
+            [
+                "V14",
+                ["wisdomA14a"]
+            ],
+            [
+                "V15",
+                ["wisdomA15"]
+            ],
+            [
+                "<highlight>Next Page</highlight>",
+                ["varA1d"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["varA1b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA1d": {
+        "name": "System",
+        
+        "text": [
+            "Which variant would you like to select? (Page 3/4)"
+        ],
+
+        "choices": [
+            [
+                "V16",
+                ["wisdomA16"]
+            ],
+            [
+                "V17",
+                ["wisdomA17a","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+            ],
+            [
+                "V18",
+                ["wisdomA18"]
+            ],
+            [
+                "V19",
+                ["wisdomA19"]
+            ],
+            [
+                "V20",
+                ["wisdomA20a"]
+            ],
+            [
+                "V21",
+                ["wisdomA21"]
+            ],
+            [
+                "V22",
+                ["wisdomA22"]
+            ],
+            [
+                "V23",
+                ["wisdomA23"]
+            ],
+            [
+                "V24",
+                ["wisdomA24"]
+            ],
+            [
+                "V25",
+                ["wisdomA25"]
+            ],
+            [
+                "<highlight>Next Page</highlight>",
+                ["varA1e"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["varA1c"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA1e": {
+        "name": "System",
+        
+        "text": [
+            "Which variant would you like to select? (Page 4/4)"
+        ],
+
+        "choices": [
+            [
+                "V26",
+                ["wisdomA26"]
+            ],
+            [
+                "V27",
+                ["wisdomA27"]
+            ],
+            [
+                "V28",
+                ["wisdomA28"]
+            ],
+            [
+                "V29",
+                ["wisdomA29"]
+            ],
+            [
+                "V30",
+                ["wisdomA30"]
+            ],
+            [
+                "V31",
+                ["wisdomA31"]
+            ],
+            [
+                "V32",
+                ["wisdomA32"]
+            ],
+            [
+                "V33",
+                ["wisdomA33"]
+            ],
+            [
+                "V34",
+                ["wisdomA34"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["varA1d"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
     "wisdomA1B1": {
         "name": "D6",
 
@@ -46,7 +327,7 @@
 
         "choices": [
             [
-                "No Thanks.",
+                "<font color='#ffaf00'>No Thanks.</font>",
                 ["start"]
             ]
         ],
@@ -57,7 +338,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -74,7 +355,7 @@
 
         "choices": [
             [
-                "No Thanks.",
+                "<font color='#ffaf00'>No Thanks.</font>",
                 ["start"]
             ]
         ],
@@ -85,7 +366,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -102,7 +383,7 @@
 
         "choices": [
             [
-                "No Thanks.",
+                "<font color='#ffaf00'>No Thanks.</font>",
                 ["start"]
             ]
         ],
@@ -113,7 +394,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -131,7 +412,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -142,7 +423,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -172,7 +453,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -241,7 +522,7 @@
         "choices": [
             [
                 "<highlight>Continue</highlight>",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ]
         ],
         "controls": [
@@ -276,7 +557,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -320,7 +601,7 @@
         "choices": [
             [
                 "<highlight>Continue</highlight>",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ]
         ],
         "controls": [
@@ -344,7 +625,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -355,7 +636,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -373,7 +654,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -384,7 +665,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -402,7 +683,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -413,7 +694,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -431,7 +712,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -442,7 +723,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -460,7 +741,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -471,7 +752,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -489,7 +770,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -500,7 +781,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -518,7 +799,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -529,7 +810,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -547,7 +828,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -558,7 +839,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -576,7 +857,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -587,7 +868,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -605,7 +886,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -616,7 +897,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -634,7 +915,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -645,7 +926,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -663,7 +944,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -674,7 +955,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -703,7 +984,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -732,7 +1013,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -750,7 +1031,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -761,7 +1042,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -779,7 +1060,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -790,7 +1071,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -808,7 +1089,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -819,7 +1100,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -848,7 +1129,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -916,7 +1197,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -941,7 +1222,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -952,7 +1233,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -970,7 +1251,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -981,7 +1262,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1010,7 +1291,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1078,7 +1359,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -1103,7 +1384,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -1114,7 +1395,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1132,7 +1413,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -1143,7 +1424,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1161,7 +1442,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -1172,7 +1453,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1190,7 +1471,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -1201,7 +1482,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1219,7 +1500,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -1230,7 +1511,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1248,7 +1529,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -1259,7 +1540,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1277,7 +1558,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -1288,7 +1569,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1306,7 +1587,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -1317,7 +1598,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1335,7 +1616,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -1346,7 +1627,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1364,7 +1645,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -1375,7 +1656,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1393,7 +1674,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -1404,7 +1685,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1422,7 +1703,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -1433,7 +1714,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1451,7 +1732,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -1462,7 +1743,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1480,7 +1761,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -1491,7 +1772,7 @@
             ],
             [
                 "Refresh",
-                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA8","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
             ],
             [
                 "Reset",
@@ -1824,13 +2105,145 @@
         "choices": [
             [
                 "<highlight>Continue</highlight>",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
+                ["varA2a"]
             ]
         ],
         "controls": [
             [
                 "Back",
                 ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA2a": {
+        "name": "System",
+
+        "text": [
+            "Would you like a random variant or select a variant?"
+        ],
+
+        "choices": [
+            [
+                "Random Variant",
+                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
+            ],
+            [
+                "Selected Variant",
+                ["varA2b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tell"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+
+    "varA2b": {
+        "name": "System",
+
+        "text": [
+            "Which variant would you like to select? (Page 1/2)"
+        ],
+
+        "choices": [
+            [
+                "V1",
+                ["tellA1"]
+            ],
+            [
+                "V2",
+                ["tellA2"]
+            ],
+            [
+                "V3",
+                ["tellA3"]
+            ],
+            [
+                "V4",
+                ["tellA4"]
+            ],
+            [
+                "V5",
+                ["tellA5a"]
+            ],
+            [
+                "V6",
+                ["tellA6a"]
+            ],
+            [
+                "V7",
+                ["tellA7"]
+            ],
+            [
+                "V8",
+                ["tellA8"]
+            ],
+            [
+                "V9",
+                ["tellA9a"]
+            ],
+            [
+                "V10",
+                ["tellA10a"]
+            ],
+            [
+                "<highlight>Next Page</highlight>",
+                ["varA2c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["varA2a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA2c": {
+        "name": "System",
+
+        "text": [
+            "Which variant would you like to select? (Page 2/2)"
+        ],
+
+        "choices": [
+            [
+                "V11",
+                ["tellA11"]
+            ],
+            [
+                "V12",
+                ["tellA12"]
+            ],
+            [
+                "V13",
+                ["tellA13"]
+            ],
+            [
+                "V14",
+                ["tellA14"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["varA2b"]
             ],
             [
                 "Reset",
@@ -1848,7 +2261,7 @@
 
         "choices": [
             [
-                "The rides:",
+            "<font color='#ffaf00'>The rides:</font>",
                 ["start"]
             ]
         ],
@@ -1954,7 +2367,7 @@
 
         "choices": [
             [
-                "O...kay?",
+                "<font color='#ffaf00'>O...kay?</font>",
                 ["start"]
             ]
         ],
@@ -1983,7 +2396,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
@@ -2041,7 +2454,7 @@
 
         "choices": [
             [
-                "...Nevermind.",
+                "<font color='#ffaf00'>...Nevermind.</font>",
                 ["start"]
             ]
         ],
@@ -2117,7 +2530,7 @@
 
         "choices": [
             [
-                "The rides:",
+                "<font color='#ffaf00'>The rides:</font>",
                 ["start"]
             ]
         ],
@@ -2146,7 +2559,7 @@
 
         "choices": [
             [
-                "That's mean.",
+                "<font color='#ffaf00'>That's mean.</font>",
                 ["start"]
             ]
         ],
@@ -2229,7 +2642,7 @@
 
         "choices": [
             [
-                " Sorry",
+                "<font color='#ffaf00'>Sorry</font>",
                 ["start"]
             ]
         ],
@@ -2385,7 +2798,7 @@
 
         "choices": [
             [
-                "Kind of.",
+                "<font color='#ffaf00'>Kind of.</font>",
                 ["start"]
             ]
         ],
@@ -2411,7 +2824,7 @@
 
         "choices": [
             [
-                "Sorry",
+                "<font color='#ffaf00'>Sorry</font>",
                 ["start"]
             ]
         ],
@@ -2440,7 +2853,7 @@
 
         "choices": [
             [
-                "Ok.",
+                "<font color='#ffaf00'>Ok.</font>",
                 ["start"]
             ]
         ],
