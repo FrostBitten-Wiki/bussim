@@ -1,9 +1,13 @@
 page:
-  title: Fake No Gas
-  description: The Fake No Gas event is an event where the bus stops,
+  title: Fake Events
+  # lol make the description better i suck -Nyx
+  description: Fake Events are various events that looks like one, but it's actually just to trick players into thinking it's one.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Fake No Gas
+  tags: fake events, events
+
 attributions:
   - "Ported By PolyframeX (@polyframex)"
+
 html:
   header:
     title: Fake No Gas

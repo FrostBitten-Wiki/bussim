@@ -2,8 +2,11 @@ page:
   title: Adventure Line
   description: The Adventure Line is an event based off of the Stanley Parable,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Adventure Line
+  tags: adventure line, events
+
 attributions:
   - "Ported By PolyframeX (@polyframex)"
+
 html:
   header:
     title: Adventure Line
@@ -13,7 +16,6 @@ html:
     imageBanner: /bussim-assets/images/events/line.webp
 
   pageContent:
-
     - type: section
       content:
         title: Info

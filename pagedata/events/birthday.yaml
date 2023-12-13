@@ -2,8 +2,11 @@ page:
   title: Birthday
   description: Bus Birthday is an event where a random player is chosen to be celebrated for their birthday.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Birthday
+  tags: birthday, events
+
 attributions:
   - "Ported By PolyframeX (@polyframex)"
+
 html:
   header:
     title: Birthday
@@ -13,7 +16,6 @@ html:
     imageBanner: /bussim-assets/images/events/birthday.webp
 
   pageContent:
-
     - type: section
       content:
         title: Info

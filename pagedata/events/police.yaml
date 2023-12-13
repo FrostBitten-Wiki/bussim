@@ -2,8 +2,11 @@ page:
   title: Police
   description: During the event Police, it would start immediately with police officers chasing the bus.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Police
+  tags: police, event
+  
 attributions:
   - "Ported By PolyframeX (@polyframex)"
+
 html:
   header:
     title: Police

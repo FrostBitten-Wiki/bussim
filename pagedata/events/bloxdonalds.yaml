@@ -2,8 +2,11 @@ page:
   title: Bloxdonalds
   description: The Bloxdonalds is both an Event and a Location in Bus Simulator.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Bloxdonalds
+  tags: bloxdonalds, events
+
 attributions:
   - "Ported By PolyframeX (@polyframex)"
+
 html:
   header:
     title: Bloxdonalds

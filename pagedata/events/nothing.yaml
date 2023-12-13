@@ -2,8 +2,11 @@ page:
   title: Nothing
   description: The nothing event is well... nothing?
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Nothing
+  tags: nothing, event
+
 attributions:
   - "Ported By PolyframeX (@polyframex)"
+
 html:
   header:
     title: Nothing

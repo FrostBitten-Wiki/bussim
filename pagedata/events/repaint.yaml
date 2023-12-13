@@ -2,8 +2,11 @@ page:
   title: Repaint
   description: The Repaint Event is an event that happens every 5 minutes at random,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Repaint
+  tags: repaint, event
+
 attributions:
   - "Ported By PolyframeX (@polyframex)"
+
 html:
   header:
     title: Repaint

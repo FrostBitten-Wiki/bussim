@@ -1,12 +1,15 @@
 page:
-  title: Santas Gone
+  title: Santa's Gone
   description: Santa's Gone was a limited time event that came before the No Dough event,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Santas Gone
+  tags: santas gone, event
+
 attributions:
   - "Ported By PolyframeX (@polyframex)"
+
 html:
   header:
-    title: Santas Gone
+    title: Santa's Gone
     description: >-
      Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>SantasGone</highlight>
     image: ''

@@ -2,8 +2,11 @@ page:
   title: Hyperspeed
   description: The Hyperspeed event is an event that causes the bus to suddenly speed up,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, HyperSpeed
+  tags: hyperspeed, events
+
 attributions:
   - "Ported By PolyframeX (@polyframex)"
+
 html:
   header:
     title: Hyperspeed

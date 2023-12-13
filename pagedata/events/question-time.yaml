@@ -2,8 +2,11 @@ page:
   title: Question Time
   description: Question Time is an event where Ectta runs up to the bus, 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Question Time
+  tags: question time, ectta on road, event
+
 attributions:
   - "Ported By PolyframeX (@polyframex)"
+  
 html:
   header:
     title: Question Time

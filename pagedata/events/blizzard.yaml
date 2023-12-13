@@ -2,8 +2,11 @@ page:
   title: Blizzard
   description: The Blizzard is an event that can happen every 5 minutes and affects everywhere in the game until you go extremely high.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Blizzard
+  tags: blizzard, events
+
 attributions:
   - "Ported By PolyframeX (@polyframex)"
+
 html:
   header:
     title: Blizzard
@@ -13,7 +16,6 @@ html:
     imageBanner: /bussim-assets/images/events/blizzard2.webp
 
   pageContent:
-
     - type: section
       content:
         title: Info

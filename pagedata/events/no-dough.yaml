@@ -2,8 +2,11 @@ page:
   title: No Dough
   description: The No Dough event is an event where the bus runs out of gas,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, No Dough
+  tags: no dough, robbery event, event
+
 attributions:
   - "Ported By PolyframeX (@polyframex)"
+  
 html:
   header:
     title: No Dough
