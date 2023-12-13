@@ -1905,7 +1905,7 @@
                 ["start"]
             ],
             [
-                "<highlight>Refresh</highligh>",
+                "Refresh",
                 ["checkout"]
             ],
             [
@@ -2000,7 +2000,7 @@
                 ["checkout"]
             ],
             [
-                "<highlight>Refresh</highligh>",
+                "Refresh",
                 ["checkoutA1"]
             ],
             [
