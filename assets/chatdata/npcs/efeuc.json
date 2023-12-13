@@ -3,13 +3,13 @@
         "name": "Efeuc",
         
         "text": [
-            "oh wow, how did you get that much rep? you got more than me, fair play. <small>(Only appears if you have more Driver Reputation than Efeuc)</small>",
+            ["oh wow, how did you get that much rep? you got more than me, fair play.","Only appears if you have more Driver Reputation than Efeuc"],
             "it's been a year, [player name]. i really miss y- oh sorry, i was thinking about something whats up.",
             "take your time, i'm here all day.",
             "welcome to my humble abode",
             "10684, 10685, 1068- oh hey, a new person.",
             "hi, need anything?",
-            "GOOOODDDDD ISSSSSS GOOOOOOOOOOOOOOOOOOD, GOOODDDD ISSSSS GREAAAAT GOD IS GOOOHOHOOOOHOO <small>(Only appears with a 1/300 chance)</small>"
+            ["GOOOODDDDD ISSSSSS GOOOOOOOOOOOOOOOOOOD, GOOODDDD ISSSSS GREAAAAT GOD IS GOOOHOHOOOOHOO","Only appears with a 1/300 chance"]
         ],
 
         "choices": [
