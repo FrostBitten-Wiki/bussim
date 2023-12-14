@@ -67,15 +67,15 @@ html:
 
     - type: tree
       content:
-        - name: "Variant 1: Oh, hey [Player]!!! I know you!! <small>(If the player is friends with Pear on Roblox)</small>"
-        - name: "Variant 2: Did you know that in terms of... busses, this is a pretty nice one! What's up, though?"
-        - name: "Variant 3: mmrrreoww~?"
-        - name: "Variant 4: Oh, hey! Didn't see you there, what's up?"
-        - name: "Variant 5: Need something?"
-        - name: "Variant 6: Hold on just a second... just trading my [[Pearcoin|pearcoin<sup>TM</sup>]]"
-        - name: "Variant 7: Heyaaa! What're you talkin to me for?"
-        - name: "Variant 8: [Player]?! I didn't expect to see you here!!"
-        - name: "Varaint 9: Tender soul splintered, folded in the inner...~ Huh, sorry... What's goin on?"
+        - name: "Variant 1: \"Oh, hey [Player]!!! I know you!! <small>(If the player is friends with Pear on Roblox)</small>\""
+        - name: "Variant 2: \"Did you know that in terms of... busses, this is a pretty nice one! What's up, though?\""
+        - name: "Variant 3: \"mmrrreoww~?\""
+        - name: "Variant 4: \"Oh, hey! Didn't see you there, what's up?\""
+        - name: "Variant 5: \"Need something?\""
+        - name: "Variant 6: \"Hold on just a second... just trading my pearcoin(TM)\""
+        - name: "Variant 7: \"Heyaaa! What're you talkin to me for?\""
+        - name: "Variant 8: \"[Player]?! I didn't expect to see you here!!\""
+        - name: "Varaint 9: \"Tender soul splintered, folded in the inner...~ Huh, sorry... What's goin on?\""
           children:
             - name: "Option 1: Sorry, just walking by."
             - name: "Option 2: Let's talk!"
