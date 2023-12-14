@@ -92,34 +92,20 @@ highlight[type="grey"] {
 }
 
 highlight[type="rainbow"] {
-    display: inline-block;
-    color: transparent;
+    background-image: repeating-linear-gradient(45deg, red, orange, yellow, green, blue, indigo, purple, red, orange);
+    text-align: center;
+    overflow: auto;
+    background-size: 4096px 256px;
     background-clip: text;
-    animation: rainbowAnimation 10s infinite linear;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 2s linear infinite;
+    text-shadow: none;
 }
 
-@keyframes rainbowAnimation {
-    0% {
-      color: #ff0000;
-    }
-    16.666% {
-      color: #ff8000;
-    }
-    33.333% {
-      color: #ffff00;
-    }
-    50% {
-      color: #00ff00;
-    }
-    66.666% {
-      color: #0000ff;
-    }
-    83.333% {
-      color: #8000ff;
-    }
-    100% {
-      color: #ff0000;
-    }
+@keyframes rainbow { 
+    0% {background-position: 0% 50%}
+    100% {background-position: 100% 50%}
 }
 
 @keyframes floatUpDown {
@@ -129,20 +115,6 @@ highlight[type="rainbow"] {
     50% {
       transform: translateY(-5px);
     }
-}
-
-float {
-    display: inline-block;
-    font-size: 24px;
-    word-spacing: -5px;
-}
-
-float text {
-    color: grey;
-    font-size: 16px;
-    display: inline-block;
-    animation: floatUpDown 1s ease-in-out infinite alternate;
-    animation-delay: var(--delay);
 }
 
 .checkBg {
