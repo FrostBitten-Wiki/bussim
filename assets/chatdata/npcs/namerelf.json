@@ -1,0 +1,259 @@
+{
+    "start": {
+        "name": "NamerElf",
+        
+        "text": [
+            "Yooo, how ya doin'",
+            "Hey, how'd you get up here?",
+            "What's up?"
+        ],
+
+        "choices": [
+            [
+                "What's with the clothes?",
+                ["optA1a"]
+            ],
+            [
+                "What are you doing here?",
+                ["optA2"]
+            ],
+            [
+                "Just passing by.",
+                ["optA3"]
+            ],
+            [
+                "Who are you?",
+                ["optA4"]
+            ]
+        ],
+        "controls": [
+        [
+        "Refresh",
+        ["start"]
+        ]
+        ]
+    },
+
+        "optA1a": {
+        "name": "NamerElf",
+        
+        "text": [
+            "Oh, you mean this? Yeah, uh, I dunno! I just threw this on today. No thought into it!"
+        ],
+
+        "choices": [
+            [
+                "I'm not sure that's appropriate to be wearing.",
+                ["optA1b"]
+            ]
+        ],
+        "controls": [
+            [
+        "Back",
+        ["start"]
+            ],
+            [
+               "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA1b": {
+        "name": "NamerElf",
+        
+        "text": [
+            "What?! Sure it is! I think... I, uh, haven't looked in a mirror today, so I hope it is..."
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Relatable, I guess.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+        "Back",
+        ["optA1a"]
+            ],
+            [
+               "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    
+    "optA2": {
+        "name": "NamerElf",
+        
+        "text": [
+            "Well uh, I just got tired of standing in one spot all day. Those pedestals look nice, sure, but its sooo tiring to keep a pose. No clue how those other guys do it! Although, I hope more people actually come up and visit.. It's nice to be recognized for my work.."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+        "Back",
+        ["start"]
+            ],
+            [
+               "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3": {
+        "name": "NamerElf",
+        
+        "text": [
+            "Oh okay, see you around!"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+        "Back",
+        ["start"]
+            ],
+            [
+               "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA4": {
+        "name": "NamerElf",
+        
+        "text": [
+            "I'm NamerElf, you can just call me Namer though. I made this entire cave-- don't tell that wolf dude down there though!"
+        ],
+
+        "choices": [
+            [
+                "Don't tell them..? Why?",
+                ["optA4B1b"]
+            ],
+            [
+                "You made this?",
+                ["optA4B2a"]
+            ],
+            [
+                "<font color='#ffaf00'>Ah, okay.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+        "Back",
+        ["start"]
+            ],
+            [
+               "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA4B1b": {
+        "name": "NamerElf",
+        
+        "text": [
+            "Wellll, it's not for any nefarious reason.. They just kinda walked up in here and started living here, and I thought it was kinda cool to have a roomie. He.. Kinda doesn't know I'm here. Or that I was here first."
+        ],
+
+        "choices": [
+            [
+                "And you never introduced yourself?",
+                ["optA4B1c"]
+            ],
+            [
+                "Kind of goofy, but okay.",
+                ["optA4B1d"]
+            ]
+        ],
+        "controls": [
+            [
+        "Back",
+        ["optA4"]
+            ],
+            [
+               "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA4B1c": {
+        "name": "NamerElf",
+        
+        "text": [
+            "No... I was planning on it, but I think he's too comfy at this point... No way am I stepping into a wolf's territory!"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+        "Back",
+        ["optA4B1b"]
+            ],
+            [
+               "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA4B1d": {
+        "name": "NamerElf",
+        
+        "text": [
+            "I be in situations sometimes."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+        "Back",
+        ["optA4B1b"]
+            ],
+            [
+               "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA4B2a": {
+        "name": "NamerElf",
+        
+        "text": [
+            "Yep! Wasn't easy, but I carved out this whole cave with, uh.. The Roblox Studio build tools..?"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+        "Back",
+        ["optA4"]
+            ],
+            [
+               "Reset",
+                ["start"]
+            ]
+        ]
+    }
+}

@@ -505,6 +505,11 @@
             "dialogueColors": ["#0b0412", "#12061b", "#7625b8"],
             "dialogueEmoteName": "zeon"
         },
+        "NamerElf": {
+            "dialogueSfx": ["namerelf", 2.5, 250],
+            "dialogueColors": ["#0d0026", "#080019", "#5500ff"],
+            "dialogueEmoteName": "namerelf"
+        },
         "You": {
             "dialogueSfx": ["event", 1, 250],
             "dialogueColors": ["#070343","#080454","#1a149c"],
