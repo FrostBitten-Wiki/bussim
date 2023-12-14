@@ -1,0 +1,232 @@
+{
+    "start": {
+        "name": "MLG",
+        
+        "text": [
+            "Hey, what are you doing here? Did we leave the door open?"
+        ],
+
+        "choices": [
+            [
+                "Hi! I'm here to take your stuff.",
+                ["take"]
+            ],
+            [
+                "<font color='#ffaf00'>Bye.</font>",
+                ["start"]
+            ],
+            [
+                "Who are you?",
+                ["optA3a"]
+            ]
+        ],
+        "controls": [
+
+        ]
+    },
+
+    "take": {
+        "name": "MLG",
+        
+        "text": [
+            "Don't, or I'll make sure you never steal anything again."
+        ],
+
+        "choices": [
+            [
+                "Sheesh, alright.",
+                ["takeB1"]
+            ],
+            [
+                "Don't Care.",
+                ["takeB2"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "takeB1": {
+        "name": "MLG",
+        
+        "text": [
+            "Good."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["take"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "takeB2": {
+        "name": "MLG",
+        
+        "text": [
+            "Don't."
+        ],
+
+        "choices": [
+            [
+                "WOAH, okay! Fine! I won't!",
+                ["takeB2a"]
+            ],
+            [
+                "<font color='#ffaf00'>I'm not scared of you.</font>",
+                ["scare"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["take"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "scare": {
+        "name": "System",
+        
+        "text": [
+            "The player is then killed."
+        ],
+
+        "choices": [
+
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["takeB2"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "takeB2a": {
+        "name": "MLG",
+        
+        "text": [
+            "Good."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["takeB2"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3a": {
+        "name": "MLG",
+        
+        "text": [
+            "Oh, uh, my name is MLG. It's short for MLGBudderCD. I'm only here because of how dirt cheap the rent is around here."
+        ],
+
+        "choices": [
+            [
+                "Tell me more.",
+                ["optA3b"]
+            ],
+            [
+                "Do you have any friends?",
+                ["optA3c"]
+            ],
+            [
+                "<font color='#ffaf00'>'Kay bye.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3b": {
+        "name": "MLG",
+        
+        "text": [
+            "Ok sure, I play video games a lot and spend a lot of time trying to survive in this place. Living off of gas station food really does a number to the body, but I still manage."
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Neat, bye.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3c": {
+        "name": "MLG",
+        
+        "text": [
+            "A wee bit hurtful that you would need to ask, but yes, I do have friends. In and out of this town. Green, D6, Zeon, and Tazer are a handful of them that live here. Noble's another one, but I don't see him in town often. Now go away, I've had enough socializing about myself for now."
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    }
+}

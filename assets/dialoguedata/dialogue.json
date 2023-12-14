@@ -472,7 +472,7 @@
         },
         "MiroCev": {
             "dialogueSfx": ["event", 1, 250],
-            "dialogueColors": ["#050b04", "#0b260b", "#367328"],
+            "dialogueColors": ["#131414", "#1d1f20", "#c4ced4"],
             "dialogueEmoteName": "mirocev"
         },
         "MLG": {

@@ -23,6 +23,10 @@
             [
                 "<font color='#ff00af'>Give me your IP.</font>",
                 ["optA3"]
+            ],
+            [
+                "<font color='#ffaf00'>This button kills you.</font>",
+                ["optA4"]
             ]
         ],
 
@@ -342,6 +346,29 @@
         
         "text": [
             ["no.","Only appears if your friends with PolyframeX on roblox"]
+        ],
+
+        "choices": [
+
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA4": {
+        "name": "System",
+        
+        "text": [
+            ["The Player Then Explodes.","Don't copy note, only use this 'system' page if it is a button that directly ends dialogue but uses an action, if dialogue is present with an action, then use the note for there."]
         ],
 
         "choices": [
