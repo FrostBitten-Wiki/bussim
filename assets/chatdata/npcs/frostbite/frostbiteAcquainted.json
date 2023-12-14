@@ -43,7 +43,7 @@
                 ["optA1B1a"]
             ],
             [
-                "[Show item: Pearcoin]",
+                ["[Show item: Pearcoin]","Option only shows if the player has a Pearcoin"],
                 ["optA1B2a"]
             ]
         ],
@@ -136,7 +136,7 @@
         "name": "Frostbite",
         
         "text": [
-            ["..? A coin..? Thanks, but I don't really...","Only appears if the player has a Pearcoin"]
+            "..? A coin..? Thanks, but I don't really..."
         ],
 
         "choices": [

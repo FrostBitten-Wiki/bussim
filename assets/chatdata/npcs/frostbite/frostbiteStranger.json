@@ -92,7 +92,7 @@
                 ["optA3B1a"]
             ],
             [
-                "[Offer gift: (item name)]",
+                ["[Offer gift: (item name)]","Options only appear if the player has the item."],
                 ["optA3B2"]
             ]
         ],

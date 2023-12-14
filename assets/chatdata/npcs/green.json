@@ -7,10 +7,10 @@
             "Yo, need something?",
             "Sup, can I help at all?",
             "Do you want something?",
-            ["Fancy bus you got there, own it yourself?","Eapprs only if the player is in a VIP Server."],
+            ["Fancy bus you got there, own it yourself?","Appears only if the player is in a VIP Server."],
             "Come on, can't ya just ask the guy over at the cash register? Fine, what do you want?",
             ["Inro. I've planted a bomb in your chest. You will explode in 3 seconds.","Only lnr01 can see this."]
-        ],
+        ], 
 
         "choices": [
             [
