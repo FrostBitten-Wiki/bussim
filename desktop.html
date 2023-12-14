@@ -429,7 +429,7 @@
                                 </div>
                             </div>
                         {% elif data['type'] == "npcChat" %}
-                            <div id="{{ data['content']['id'] }}-dialogue" class="checkBg" style="margin-top: 20px; margin-bottom: 5px; padding: 10px; --color1: grey; --color2: white; --color3: grey; width: calc(100% - 28px); height: 150px;">
+                            <div id="{{ data['content']['id'] }}-dialogue" class="checkBg" style="margin-top: 20px; margin-bottom: 5px; padding: 10px; --color1: grey; --color2: white; --color3: grey; width: calc(100% - 28px); height: 150px;" onclick="window.{{ data['content']['id'] }}dialogueDelay = 10;">
                                 <text id="{{ data['content']['id'] }}-name" style="font-size: 20px;"></text><br>
                                 <text id="{{ data['content']['id'] }}-chat"></text>
                             </div>
@@ -442,70 +442,73 @@
                             <div id="{{ data['content']['id'] }}-controls" style="padding: 0; gap: 0 5px;  display: flex; justify-content: space-between; align-items: center; margin-bottom: 27px;">
                             </div>
 
-
                             <script defer>
-                                window.{{ data["content"]["id"] }}dialogueRunning = false;
+                                // Set Global Variables for Important stuff......
+                                var {{ data['content']['id'] }}chatDataset;
+                                var {{ data['content']['id'] }}dialogueDelay = 25;
 
-                                var {{ data["content"]["id"] }}Data;
-                                var {{ data["content"]["id"] }}dialogueName = document.getElementById("{{ data['content']['id'] }}-name");
-                                var {{ data["content"]["id"] }}dialogueText = document.getElementById("{{ data['content']['id'] }}-chat");
-                                var {{ data["content"]["id"] }}dialogueBox = document.getElementById("{{ data['content']['id'] }}-dialogue");
-
-                                var {{ data["content"]["id"] }}dialogueControls = document.getElementById("{{ data['content']['id'] }}-controls");
-                                {{ data["content"]["id"] }}dialogueControls.style.display = "none";
-
-                                window.addEventListener('load', function() {
-                                    fetch("{{ data['content']['chatData'] }}")
-                                        .then(response => response.json())
-                                        .then(data => {
-                                            console.log(data);
-                                            {{ data["content"]["id"] }}Data = data;
-                                            console.log("dialogue init {{ data['content']['id'] }}");
-                                            change{{ data["content"]["id"] }}Dialogue("{{ data['content']['startId'] }}");
-                                        })
-                                        .catch(error => console.error('Error fetching data:', error));
-                                });
-                            
-                                function change{{ data["content"]["id"] }}Dialogue(dialogueId) {
-                                    var {{ data["content"]["id"] }}dialogueId = random(dialogueId.split(","));
-                            
-                                    var {{ data["content"]["id"] }}chatData = {{ data["content"]["id"] }}Data[{{ data["content"]["id"] }}dialogueId];
-                                    var {{ data["content"]["id"] }}userData = {{ data["content"]["id"] }}chatData[{{ data["content"]["id"] }}chatData.name];
-                            
-                                    {{ data["content"]["id"] }}dialogueBox.style.setProperty('--color1', dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueColors"][0]);
-                                    {{ data["content"]["id"] }}dialogueBox.style.setProperty('--color2', dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueColors"][1]);
-                                    {{ data["content"]["id"] }}dialogueBox.style.setProperty('--color3', dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueColors"][2]);
-                            
-                                    {{ data["content"]["id"] }}dialogueName.innerText = {{ data["content"]["id"] }}chatData.name;
-                                    var text = random({{ data["content"]["id"] }}chatData.text);
-
-                                    if (Array.isArray(text)) {
-                                        {{ data["content"]["id"] }}dialogueText.innerHTML = text[0];
-                                        document.getElementById("{{ data['content']['id'] }}-note").innerHTML = "NOTE: " + text[1];
-                                    } else {
-                                        {{ data["content"]["id"] }}dialogueText.innerHTML = text;
-                                        document.getElementById("{{ data['content']['id'] }}-note").innerHTML = "";
-                                    }
-
-                            
-                                    //playSound(dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][0], dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][1], dialogueData.characterData[{{ data["content"]["id"] }}chatData.name]["dialogueSfx"][2]);
+                                // function to handle dialogues
+                                function changeDialogue(id, dialogueId) {
+                                    console.log(id, dialogueId)
+                                    var speakerName = document.getElementById(`${id}-name`);
+                                    var speakerDialogue = document.getElementById(`${id}-chat`);
+                                    var dialogueBox = document.getElementById(`${id}-dialogue`);
                                     
-                                    var {{ data["content"]["id"] }}choices = document.getElementById("{{ data['content']['id'] }}-choices");
-                                    var {{ data["content"]["id"] }}controls = document.getElementById("{{ data['content']['id'] }}-controls");
-                                    window.{{ data["content"]["id"] }}dialogueRunning = false;
-                                    {{ data["content"]["id"] }}dialogueRunning = true;
-                                    {{ data["content"]["id"] }}choices.innerHTML = '';
-                                    {{ data["content"]["id"] }}controls.innerHTML = '';
-                                    addCharacters(dialogueData, {{ data["content"]["id"] }}chatData.name, {{ data["content"]["id"] }}dialogueText, "{{ data['content']['id'] }}dialogueRunning");
+                                    var choices = document.getElementById(`${id}-choices`);
+                                    var controls = document.getElementById(`${id}-controls`);
+                                    var note = document.getElementById(`${id}-note`);
+
+                                    var dialogueId = random(dialogueId.split(","))
+
+                                    var chatData = window[`${id}chatDataset`][dialogueId];
+                                    var userData = chatData[chatData.name];
+
+                                    choices.innerHTML = "";
+                                    controls.innerHTML = "";
+                                    window[`${id}dialogueDelay`] = 25;
                                     
-                                    var intervalId = setInterval(function() {
-                                        if (window.{{ data["content"]["id"] }}dialogueRunning === false) {
-                                            clearInterval(intervalId);
-                                            
-                                            // add choices
-                                            {{ data["content"]["id"] }}chatData.choices.forEach(item => {
+                                    // Update Dialogue Box
+                                    speakerName.innerText = chatData.name;
+                                    dialogueBox.style.setProperty("--color1", dialogueData.characterData[chatData.name]["dialogueColors"][0]);
+                                    dialogueBox.style.setProperty("--color2", dialogueData.characterData[chatData.name]["dialogueColors"][1]);
+                                    dialogueBox.style.setProperty("--color3", dialogueData.characterData[chatData.name]["dialogueColors"][2]);
+
+                                    let charIndex = 0;
+
+                                    function typeDialogue(text) {
+                                        const char = text[charIndex];
+
+                                        if (char === "<") {
+                                            let htmlTag = char;
+                                            charIndex++;
+                                        
+                                            while (charIndex < text.length && text[charIndex] !== ">") {
+                                                htmlTag += text[charIndex];
+                                                charIndex++;
+                                            }
+                                        
+                                            if (charIndex < text.length) {
+                                                htmlTag += ">";
+                                                charIndex++;
+                                            }
+                                        
+                                            speakerDialogue.innerHTML = htmlTag;
+                                        } else {
+                                            speakerDialogue.innerHTML = text.slice(0, charIndex);
+                                            charIndex++;
+                                        }
+                                    
+                                        if (charIndex <= text.length) {
+                                            if (charIndex % 3 === 0) {
+                                                playSound(dialogueData.characterData[chatData.name]["dialogueSfx"][0], dialogueData.characterData[chatData.name]["dialogueSfx"][1], dialogueData.characterData[chatData.name]["dialogueSfx"][2]);
+                                            }
+                                            setTimeout(() => typeDialogue(text), window[`${id}dialogueDelay`]);
+                                        } else {
+                                            chatData.choices.forEach(item => {
                                                 var button = document.createElement('button');
-                                                console.log(item[0])
+
+                                                console.log(item)
+
                                                 if (Array.isArray(item[0])) {
                                                     button.innerHTML = `
                                                         <text type="hoverText">${item[0][0]}</text>
@@ -520,7 +523,7 @@
                                                 }
 
                                                 button.onclick = function() {
-                                                    change{{ data["content"]["id"] }}Dialogue(`${item[1]}`);
+                                                    changeDialogue(id, `${item[1]}`);
                                                 };
 
                                                 button.style.flex = 'auto';
@@ -532,38 +535,76 @@
                                                 button.addEventListener('mouseenter', function() {
                                                     playSound("buttonhover", 1, "none")
                                                 });
-                                            
-                                                {{ data["content"]["id"] }}choices.appendChild(button);
+
+                                                choices.appendChild(button);
                                             });
 
-                                            // add controls
-                                            {{ data["content"]["id"] }}chatData.controls.forEach(item => {
-                                                var controls = document.createElement('button');
-                                                controls.innerHTML = `
-                                                    <text type="hoverText"><highlight>${item[0]}</highlight></text>
-                                                `;
-                                                controls.onclick = function() {
-                                                    change{{ data["content"]["id"] }}Dialogue(`${item[1]}`);
-                                                };
-                                                controls.style.flex = 'auto';
-                                                controls.title = item[0].replace(/<[^>]*>/g, '');
+                                            chatData.controls.forEach(item => {
+                                                var button = document.createElement('button');
 
-                                                controls.addEventListener('click', function() {
+                                                console.log(item)
+
+                                                if (Array.isArray(item[0])) {
+                                                    button.innerHTML = `
+                                                        <text type="hoverText">${item[0][0]}</text>
+                                                    `;
+
+                                                    button.title = item[0][1];
+                                                    button.style.cursor = "help";
+                                                } else {
+                                                    button.innerHTML = `
+                                                        <text type="hoverText">${item[0]}</text>
+                                                    `;
+                                                }
+
+                                                button.onclick = function() {
+                                                    changeDialogue(id, `${item[1]}`);
+                                                };
+
+                                                button.style.flex = 'auto';
+
+                                                button.addEventListener('click', function() {
                                                     playSound("buttonclick", 1, "none")
                                                 });
         
-                                                controls.addEventListener('mouseenter', function() {
+                                                button.addEventListener('mouseenter', function() {
                                                     playSound("buttonhover", 1, "none")
                                                 });
-                                            
-                                                {{ data["content"]["id"] }}controls.appendChild(controls);
+
+                                                controls.appendChild(button);
                                             });
+
                                         }
+                                    }
 
-                                        {{ data["content"]["id"] }}dialogueControls.style.display = "flex";
+                                    
 
-                                    }, 250);
+                                    // get random text from dataset (current id)
+                                    var text = random(chatData.text);
+
+                                    if (Array.isArray(text)) {
+                                        note.innerHTML = "NOTE: " + text[1];
+                                        typeDialogue(text[0]);
+                                    } else {
+                                        note.innerHTML = "";
+                                        typeDialogue(text);
+                                    }
+                                    
                                 }
+                                
+                                // keep this onload event, required for 
+                                window.addEventListener('load', function() {
+                                    fetch("{{ data['content']['chatData'] }}")
+                                        .then(response => response.json())
+                                        .then(data => {
+                                            console.log(data);
+                                            {{ data["content"]["id"] }}chatDataset = data;
+                                            console.log("dataset append -> {{ data['content']['id'] }}");
+                                            changeDialogue("{{ data['content']['id'] }}", "{{ data['content']['startId'] }}");
+                                        })
+                                        .catch(error => console.error('Failed to load data: ', error));
+                                });
+
                             </script>
                         {% endif %}
                     {% endfor %}
@@ -627,50 +668,6 @@
             }
         
             document.addEventListener(visibilityChange, dialogueHandler, false);
-        </script>
-
-        <script defer>
-            function addCharacters(dialogueData, characterName, dialogueTextElement, dialogueToggle) {
-                const charData = dialogueData.characterData[characterName];
-                const text = dialogueTextElement.innerHTML;
-                let charIndex = 0;
-            
-                function addCharacter() {
-                    const char = text[charIndex];
-            
-                    if (char === "<") {
-                        let htmlTag = char;
-                        charIndex++;
-            
-                        while (charIndex < text.length && text[charIndex] !== ">") {
-                            htmlTag += text[charIndex];
-                            charIndex++;
-                        }
-            
-                        if (charIndex < text.length) {
-                            htmlTag += ">";
-                            charIndex++;
-                        }
-            
-                        dialogueTextElement.innerHTML = htmlTag;
-                    } else {
-                        dialogueTextElement.innerHTML = text.slice(0, charIndex);
-                        charIndex++;
-                    }
-            
-                    if (charIndex <= text.length) {
-                        if (charIndex % 3 === 0) {
-                            playSound(charData["dialogueSfx"][0], charData["dialogueSfx"][1], charData["dialogueSfx"][2]);
-                        }
-                        setTimeout(addCharacter, charData["dialogueDelay"] || 25);
-                    } else {
-                        console.log("test")
-                        window[dialogueToggle] = false;
-                    }
-                }
-            
-                addCharacter();
-            }
         </script>
 
         <script defer>

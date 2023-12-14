@@ -5,7 +5,11 @@
         "text": [
             "Dialogue 1",
             "Dialogue 2",
-            "Dialogue 3"
+            "Dialogue 3",
+            [
+                "Text here",
+                "and some notes here"
+            ]
         ],
 
         "choices": [
