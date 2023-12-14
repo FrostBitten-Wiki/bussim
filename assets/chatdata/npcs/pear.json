@@ -16,7 +16,7 @@
 
         "choices": [
             [
-                "<font color='#ffaf00'>Sorry, just walking by.</font>",
+                ["Sorry, just walking by.", "This ends the dialogue."],
                 ["end"]
             ],
             [
@@ -36,25 +36,6 @@
         "controls": [
             [
                 "Refresh",
-                ["start"]
-            ]
-        ]
-    },
-
-    "end": {
-        "name": "You",
-        
-        "text": [
-            "Pear Interaction Ended. Press the RESET button to restart Dialogue Emulation."
-        ],
-
-        "choices": [
-
-        ],
-
-        "controls": [
-            [
-                "Reset",
                 ["start"]
             ]
         ]
@@ -565,7 +546,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -591,7 +572,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -613,7 +594,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -648,7 +629,7 @@
         ],
 
         "controls": [
-    
+
         ]
     },
 
@@ -662,7 +643,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -684,7 +665,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -759,7 +740,10 @@
         ],
 
         "controls": [
-
+            [
+                "Back",
+                ["pear_letstalk_variant4_pearcoinMachine"]
+            ]
         ]
     },
 
@@ -778,7 +762,18 @@
         ],
 
         "controls": [
-
+            [
+                "Back",
+                ["pear_letstalk_variant4_pearcoinMachine_purchase"]
+            ],
+            [
+                "Back to Variant Beginning",
+                ["pear_letstalk_variant4_pearcoinMachine"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
         ]
     },
 
@@ -792,12 +787,19 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
         "controls": [
-
+            [
+                "Back",
+                ["pear_letstalk_variant4_pearcoinMachinea"]
+            ],
+            [
+                "Back to Variant Beginning",
+                ["pear_letstalk_variant4_pearcoinMachine"]
+            ]
         ]
     },
 
@@ -830,7 +832,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ],
             [
                 ["Continue Dialogue", "The dialogue continues if you gave Pear a Cheese Pizza on one of Noble's games: Piza"],
@@ -839,7 +841,14 @@
         ],
 
         "controls": [
-
+            [
+                "Back",
+                ["pear_letstalk_variant4_pearcoinMachinea"]
+            ],
+            [
+                "Back to Variant Beginning",
+                ["pear_letstalk_variant4_pearcoinMachine"]
+            ]
         ]
     },
 
@@ -853,7 +862,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -872,7 +881,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -891,7 +900,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -910,7 +919,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -948,7 +957,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -1174,7 +1183,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -1193,7 +1202,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -1212,7 +1221,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -1277,7 +1286,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -1315,7 +1324,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -1334,7 +1343,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -1494,7 +1503,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -1532,7 +1541,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 
@@ -1570,7 +1579,7 @@
         "choices": [
             [
                 "End Dialogue",
-                ["end"]
+                ["start"]
             ]
         ],
 

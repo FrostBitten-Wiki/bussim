@@ -61,10 +61,21 @@ function changeDialogue(id, dialogueId) {
 
                 if (Array.isArray(item[0])) {
                     button.innerHTML = `
-                        <text type="hoverText">${item[0][0]}</text>
+                        <text type="hoverText" class="tooltip-trigger" style="user-select: none; z-index: -1;" data-tooltip-text="(?) ${item[0][1]}" onmousemove="updateTooltipPosition(event)" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">${item[0][0]} (?)</text>
                     `;
 
-                    button.title = item[0][1];
+                    button.classList.add("tooltip-trigger");
+                    button.setAttribute("data-tooltip-text", "(?) " + item[0][1]);
+                    button.onmousemove = function(event) {
+                        updateTooltipPosition(event)
+                    };
+                    button.onmouseover = function(event) {
+                        showTooltip(event)
+                    };
+                    button.onmouseout = function(event) {
+                        hideTooltip()
+                    };
+
                     button.style.cursor = "help";
                 } else {
                     button.innerHTML = `
@@ -96,10 +107,21 @@ function changeDialogue(id, dialogueId) {
 
                 if (Array.isArray(item[0])) {
                     button.innerHTML = `
-                        <text type="hoverText">${item[0][0]}</text>
+                        <text type="hoverText">${item[0][0]} (?)</text>
                     `;
 
-                    button.title = item[0][1];
+                    button.classList.add("tooltip-trigger");
+                    button.setAttribute("data-tooltip-text", "(?) " + item[0][1]);
+                    button.onmousemove = function(event) {
+                        updateTooltipPosition(event)
+                    };
+                    button.onmouseover = function(event) {
+                        showTooltip(event)
+                    };
+                    button.onmouseout = function(event) {
+                        hideTooltip()
+                    };
+
                     button.style.cursor = "help";
                 } else {
                     button.innerHTML = `

@@ -92,10 +92,10 @@ highlight[type="grey"] {
 }
 
 highlight[type="rainbow"] {
-    background-image: repeating-linear-gradient(45deg, red, orange, yellow, green, blue, indigo, purple, red, orange);
+    background-image: repeating-linear-gradient(69deg, red, orange, yellow, green, blue, indigo, purple, red, orange);
     text-align: center;
     overflow: auto;
-    background-size: 4096px 256px;
+    background-size: 2048px 256px;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -115,6 +115,31 @@ highlight[type="rainbow"] {
     50% {
       transform: translateY(-5px);
     }
+}
+
+.tooltip {
+    font-family:'Starbound';
+    color: white;
+    word-spacing: 5px;
+    text-shadow: 0 2px 0 #000000;
+    font-display: swap;
+
+    font-size: 14px;
+    max-width: 300px;
+
+    position: fixed;
+    top: 0;
+    opacity: 1;
+    background-color: #1a149c80;
+    backdrop-filter: blur(5px);
+    padding: 5px;
+    z-index: 1;
+
+    transition: opacity 500ms;
+}
+
+.tooltip-trigger {
+    cursor: pointer;
 }
 
 .checkBg {

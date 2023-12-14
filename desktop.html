@@ -277,6 +277,7 @@
                         </div>
                     {% endif %}
                 </div>
+                <div class="tooltip" id="custom-tooltip"></div>
 
                 <div style="width: 80vw;">
                     <!-- Custom Jinja2 Functions -->
@@ -538,6 +539,62 @@
             });
         </script>
 
+        <script>
+            // Global variables
+            var tooltip;
+        
+            // Initialization
+            document.addEventListener('DOMContentLoaded', function () {
+                tooltip = document.getElementById('custom-tooltip');
+            });
+        
+            // Event handlers
+            function showTooltip(event) {
+                var tooltipTrigger = event.target;
+                var tooltipText = tooltipTrigger.getAttribute('data-tooltip-text');
+                
+                setContent(tooltip, tooltipText);
+                displayTooltip(tooltip);
+                animateTooltip(tooltip, event.clientX - 50, event.clientY + 10);
+            }
+        
+            function hideTooltip() {
+                hideElement(tooltip);
+            }
+        
+            function updateTooltipPosition(event) {
+                if (isElementVisible(tooltip)) {
+                    animateTooltip(tooltip, event.clientX - 50, event.clientY + 10);
+                }
+            }
+        
+            // Utility functions
+            function setContent(element, content) {
+                element.textContent = content;
+            }
+        
+            function displayTooltip(element) {
+                showElement(element);
+            }
+        
+            function animateTooltip(element, x, y) {
+                gsap.to(element, { x: x, y: y, duration: 0.5, ease: 'power2.out' });
+            }
+        
+            function hideElement(element) {
+                element.style.opacity = '0';
+            }
+        
+            function showElement(element) {
+                element.style.opacity = '1';
+            }
+        
+            function isElementVisible(element) {
+                return window.getComputedStyle(element).display !== '0';
+            }
+        </script>
+
+        <script src="https://unpkg.com/gsap@3.9.0"></script>
         <script src="/bussim-assets/scripts/dialogueSystem.js" defer></script>
         <script src="/bussim-assets/scripts/dialogueEmulator.js" defer></script>
     </body>
