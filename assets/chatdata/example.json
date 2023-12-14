@@ -21,7 +21,7 @@
                 ["optA2"]
             ],
             [
-                "<font color='#ff00af'>Give me your IP.</font>",
+                ["Give me your IP.","Only appears if your friends with PolyframeX on Roblox"],
                 ["optA3"]
             ],
             [
@@ -152,19 +152,19 @@
         "choices": [
             [
                 "V1 S1",
-                ["optA2B1a"]
+                ["optA2B1a","Today's color is blue"]
             ],
             [
                 "V1 S2",
-                ["optA2B1b"]
+                ["optA2B1b","Today's color is red"]
             ],
             [
                 "V2",
-                ["optA2B2"]
+                ["optA2B2","So you like busses? I think?"]
             ],
             [
                 "V3",
-                ["optA2B3a"]
+                ["optA2B3a","So uh..."]
             ],
             [
                 "V4",
@@ -345,7 +345,7 @@
         "name": "PolyframeX",
         
         "text": [
-            ["no.","Only appears if your friends with PolyframeX on roblox"]
+            "no."
         ],
 
         "choices": [

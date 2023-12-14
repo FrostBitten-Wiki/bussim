@@ -64,7 +64,7 @@
         "name": "You",
         
         "text": [
-            "It's Frost! It seems like you're finally friends with him now. Maybe pearcoin wasn't so useless after all."
+            "It's Frost! It seems like you're finally friends with him now. Maybe <highlight type=\"rainbow\">pearcoin</highlight><sup><highlight type=\"rainbow\">TM</highlight></sup> wasn't so useless after all."
         ],
 
         "choices": [
@@ -330,7 +330,7 @@
 
         "choices": [
             [
-                "<highlight>Continue</highlight>",
+                ["<highlight>Continue</highlight>","Dialogue continues only if part 3 of the Animal Messenger Quest-Line is completed."],
                 ["optA2B3f"]
             ]
         ],
@@ -350,7 +350,7 @@
         "name": "Frostbite",
         
         "text": [
-            ["Naaah, I'm just messin' with ya. I know you sent him my regards already! Thanks for that, by the way.","Appears only if part 3 of the Animal Messenger Quest-Line is completed."]
+            "Naaah, I'm just messin' with ya. I know you sent him my regards already! Thanks for that, by the way."
         ],
 
         "choices": [
@@ -549,11 +549,11 @@
 
         "choices": [
             [
-                "It isn't even October.",
+                ["It isn't even October.","Only appears if the current month is not October"],
                 ["optA2B3o"]
             ],
             [
-                "At least you got October right.",
+                ["At least you got October right.","Only appears if the current month is October"],
                 ["optA2B3p"]
             ]
         ],
@@ -573,7 +573,7 @@
         "name": "Frostbite",
         
         "text": [
-            ["Is it not?? Sorry, it's hard to tell the time when there's no natural light...","Only appears if the current month is not October"]
+            "Is it not?? Sorry, it's hard to tell the time when there's no natural light..."
         ],
 
         "choices": [
@@ -598,7 +598,7 @@
         "name": "Frostbite",
         
         "text": [
-            ["Did I? That, uh, wasn't intentional.","Only appears if the current month is October"]
+            "Did I? That, uh, wasn't intentional."
         ],
 
         "choices": [
