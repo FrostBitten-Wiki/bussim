@@ -23,7 +23,7 @@ html:
       content:
         buttons:
           - ["<highlight>Lorem ipsum</highlight>", "/bussim/mockup"]
-          - ["Lorem ipsum", "/bussim/mockup/mockup"]
+          - ["Dialogue Mockup", "/bussim/mockup/dialogue"]
     - type: section
       content:
         size: normal
