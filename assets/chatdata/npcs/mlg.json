@@ -163,10 +163,6 @@
                 ["optA3b"]
             ],
             [
-                "Do you have any friends?",
-                ["optA3c"]
-            ],
-            [
                 "<font color='#ffaf00'>'Kay bye.</font>",
                 ["start"]
             ]
@@ -191,6 +187,10 @@
         ],
 
         "choices": [
+            [
+                "Do you have any friends?",
+                ["optA3c"]
+            ],
             [
                 "<font color='#ffaf00'>Neat, bye.</font>",
                 ["start"]
@@ -221,7 +221,7 @@
         "controls": [
             [
                 "Back",
-                ["optA3a"]
+                ["optA3b"]
             ],
             [
                 "Reset",

@@ -75,11 +75,11 @@ html:
                       children:
                         - name: "\"Ok sure, I play video games a lot and spend a lot of time trying to survive in this place. Living off of gas station food really does a number to the body, but I still manage.\""
                           children:
-                            - name: "Neat, bye."
-                    - name: "Option 2: Do you have any friends?"
-                      children:
-                        - name: "\"A wee bit hurtful that you would need to ask, but yes, I do have friends. In and out of this town. Green, D6, Zeon, and Tazer are a handful of them that live here. Noble's another one, but I don't see him in town often. Now go away, I've had enough socializing about myself for now.\""
-                    - name: "Option 3: 'Kay, bye."
+                            - name: "Option 1: Do you have any friends?"
+                              children:
+                                - name: "\"A wee bit hurtful that you would need to ask, but yes, I do have friends. In and out of this town. Green, D6, Zeon, and Tazer are a handful of them that live here. Noble's another one, but I don't see him in town often. Now go away, I've had enough socializing about myself for now.\""
+                            - name: "Option 2: Neat, bye."
+                    - name: "Option 2: 'Kay, bye."
 
     - type: section
       content:
