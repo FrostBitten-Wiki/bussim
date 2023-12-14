@@ -132,7 +132,7 @@ function changeDialogue(id, dialogueId) {
     var text = random(chatData.text);
 
     if (Array.isArray(text)) {
-        note.innerHTML = "NOTE: " + text[1];
+        note.innerHTML = "NOTE: " + text[1] + "<br><br>";
         typeDialogue(text[0]);
     } else {
         note.innerHTML = "";
