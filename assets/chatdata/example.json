@@ -152,19 +152,19 @@
         "choices": [
             [
                 "V1 S1",
-                ["optA2B1a","Today's color is blue"]
+                ["optA2B1a","\"Today's color is blue\""]
             ],
             [
                 "V1 S2",
-                ["optA2B1b","Today's color is red"]
+                ["optA2B1b","\"Today's color is red\""]
             ],
             [
                 "V2",
-                ["optA2B2","So you like busses? I think?"]
+                ["optA2B2","\"So you like busses? I think?\""]
             ],
             [
                 "V3",
-                ["optA2B3a","So uh..."]
+                ["optA2B3a","\"So uh...\""]
             ],
             [
                 "V4",

@@ -273,35 +273,35 @@
 
         "choices": [
             [
-                ["V1","hey, if you ever see grey cats run away!! i've had too many bad experiences with them.."],
+                ["V1","\"hey, if you ever see grey cats run away!! i've had too many bad experiences with them..\""],
                 ["optA4B1a"]
             ],
             [
-                ["V2","hey, if you ever find a way out of here, tell my friend Darkahrii that i'll be late to The Meeting."],
+                ["V2","\"hey, if you ever find a way out of here, tell my friend Darkahrii that i'll be late to The Meeting.\""],
                 ["optA4B2a"]
             ],
             [
-                ["V3","sometimes some strange sirens starts blaring in here, and momentarily go away. i have no clue what it is, but i've just gotten used to it now."],
+                ["V3","\"sometimes some strange sirens starts blaring in here, and momentarily go away...\""],
                 ["optA4B3a"]
             ],
             [
-                ["V4","isn't it weird how we are in a world where anthropomorphic animals that can talk to human beings?"],
+                ["V4","\"isn't it weird how we are in a world where anthropomorphic animals that can talk to human beings?\""],
                 ["optA4B4a"]
             ],
             [
-                ["V5","i'd set up a shop in here for any visitors... but i ran out of materials a long time ago."],
+                ["V5","\"i'd set up a shop in here for any visitors... but i ran out of materials a long time ago.\""],
                 ["optA4B5"]
             ],
             [
-                ["V6","i bet i could beat you in a link cable game, but my batteries are out of charge. maybe later?"],
+                ["V6","\"i bet i could beat you in a link cable game, but my batteries are out of charge. maybe later?\""],
                 ["optA4B6a"]
             ],
             [
-                ["V7","hollup, aint you nathaniel b?"],
+                ["V7","\"hollup, aint you nathaniel b?\""],
                 ["optA4B7a"]
             ],
             [
-                ["V8","sometimes i miss the outside world... its been a while since ive seen more than 1 person... but i mean... the police are out there and i am safe here so... hmm"],
+                ["V8","\"sometimes i miss the outside world... its been a while since ive seen more than 1 person...\""],
                 ["optA4B8a"]
             ]
         ],

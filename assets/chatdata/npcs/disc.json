@@ -454,27 +454,27 @@
 
         "choices": [
             [
-                ["V1","A few weeks ago, a tall, orange dragon came in.. or maybe it was a dog..? They came in such a huge frenzy though! Fur frazzled, looking frantically for something.. Then they came up to me and they were all like.."],
+                ["V1","\"A few weeks ago, a tall, orange dragon came in.. or maybe it was a dog..? They came in such a huge frenzy though!...\""],
                 ["SfunA1a"]
             ],
             [
-                ["V2","Some driver guy came in about a week ago.."],
+                ["V2","\"Some driver guy came in about a week ago..\""],
                 ["SfunA2a"]
             ],
             [
-                ["V3","I saw a icy blue wolf come in here the other day.. I think they said their name was like.. Frozen..? Freezy..? Frostbite??"],
+                ["V3","\"I saw a icy blue wolf come in here the other day.. I think they said their name was like...\""],
                 ["SfunA3a"]
             ],
             [
-                ["V4","I don't know where this person came from, but this person named 'D6' appeared in our trash bins. We tried to get rid of D6, but ever since the 'incident' happened a few days back..."],
+                ["V4","\"I don't know where this person came from, but this person named 'D6' appeared in our trash bins...\""],
                 ["SfunA4a"]
             ],
             [
-                ["V5","Everyone in town is pretty nice, except for that one robot dude..."],
+                ["V5","\"Everyone in town is pretty nice, except for that one robot dude...\""],
                 ["SfunA5a"]
             ],
             [
-                ["V6"," Once, a tiny little gray cat came through here.. he was super cute!"],
+                ["V6","\"Once, a tiny little gray cat came through here.. he was super cute!\""],
                 ["SfunA6"]
             ]
         ],
@@ -1141,11 +1141,11 @@
 
         "choices": [
             [
-                ["V1","You might think 'Hey, this stop looks kinda cheap."],
+                ["V1","\"You might think 'Hey, this stop looks kinda cheap.\""],
                 ["AfunA1a"]
             ],
             [
-                ["V2","One time, I went to visit the yellow house to see a friend. There was like, a bunch of people chilling in their backyard."],
+                ["V2","\"One time, I went to visit the yellow house to see a friend. There was like, a bunch of people chilling in their backyard.\""],
                 ["AfunA2a"]
             ]
         ],
