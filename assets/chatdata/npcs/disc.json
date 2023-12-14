@@ -429,7 +429,7 @@
                 ["SfunA1a","SfunA2a","SfunA3a","SfunA4a","SfunA5a","SfunA6"]
             ],
             [
-                "Selected Variant",
+                "Select a Variant",
                 ["varA1b"]
             ]
         ],
@@ -1116,7 +1116,7 @@
                 ["AfunA1a","AfunA2a"]
             ],
             [
-                "Selected Variant",
+                "Select a Variant",
                 ["varA2b"]
             ]
         ],
