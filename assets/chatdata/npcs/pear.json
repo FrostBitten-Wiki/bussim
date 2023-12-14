@@ -8,7 +8,7 @@
             "mmrrreoww~?",
             "Oh, hey! Didn't see you there, what's up?",
             "Need something?",
-            "Hold on just a second... just trading my pearcoin(TM)",
+            "Hold on just a second... just trading my pearcoin<sup>TM</sup>",
             "Heyaaa! What're you talkin to me for?",
             "[Player]?! I didn't expect to see you here!!",
             "Tender soul splintered, folded in the inner...~ Huh, sorry... What's goin on?"
@@ -595,7 +595,7 @@
         "name": "Pear",
         
         "text": [
-            "Hey, you want some pearcoin(TM)? I promise it's worth a lot!"
+            "Hey, you want some pearcoin<sup>TM</sup>? I promise it's worth a lot!"
         ],
 
         "choices": [
@@ -666,7 +666,7 @@
         "name": "Pear",
         
         "text": [
-            "Gotcha, I've fired up the pearcoin(TM) machine! Give it a try!"
+            "Gotcha, I've fired up the pearcoin<sup>TM</sup> machine! Give it a try!"
         ],
 
         "choices": [
@@ -694,11 +694,11 @@
         "choices": [
             [
                 "Purchase",
-                ["pear_letstalk_variant4_pearcoinMachine_purchasee"]
+                ["pear_letstalk_variant4_pearcoinMachine_purchase"]
             ],
             [
                 "Cancel",
-                ["pear_letstalk_variant4_pearcoinMachine_cancel"]
+                ["end"]
             ]
         ],
 
@@ -707,6 +707,63 @@
                 "Back",
                 ["pear_letstalk_variant4"]
             ]
+        ]
+    },
+
+    "pear_letstalk_variant4_pearcoinMachine_purchase": {
+        "name": "Pear",
+        
+        "text": [
+            "Congratulations!! You're now the owner of one whole pearcoin<sup>TM</sup>!"
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant4_pearcoinMachine_purchasea"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant4_pearcoinMachine_purchasea": {
+        "name": "Pear",
+        
+        "text": [
+            "Take it in bud, you're officially part of the 1% now..."
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant4_pearcoinMachine_purchaseb"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant4_pearcoinMachine_purchaseb": {
+        "name": "Pear",
+        
+        "text": [
+            "The 1% who actually fell for it... sucker~"
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+
         ]
     }
 }

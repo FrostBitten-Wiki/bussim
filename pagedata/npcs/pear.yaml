@@ -72,7 +72,7 @@ html:
         - name: "Variant 3: \"mmrrreoww~?\""
         - name: "Variant 4: \"Oh, hey! Didn't see you there, what's up?\""
         - name: "Variant 5: \"Need something?\""
-        - name: "Variant 6: \"Hold on just a second... just trading my pearcoin(TM)\""
+        - name: "Variant 6: \"Hold on just a second... just trading my pearcoin<sup>TM</sup>\""
         - name: "Variant 7: \"Heyaaa! What're you talkin to me for?\""
         - name: "Variant 8: \"[Player]?! I didn't expect to see you here!!\""
         - name: "Varaint 9: \"Tender soul splintered, folded in the inner...~ Huh, sorry... What's goin on?\""
@@ -126,7 +126,7 @@ html:
                             - name: "Option 2: Ah, no thanks."
                               children:
                                 - name: "\"Aw... You would have looked good in it, though.\""
-                    - name: "Variant 4: \"Hey, you want some pearcoin(TM)?\""
+                    - name: "Variant 4: \"Hey, you want some pearcoin<sup>TM</sup>?\""
                       children:
                         - name: "Option 1: Sounds like a scam."
                           children:
@@ -149,7 +149,7 @@ html:
                                         - name: "\"Take it in bud, you're officially part of the 1% now...\""
                                         - name: "\"The 1% who actually fell for it... sucker~\""
                                           children:
-                                            - name: "(This gives you a pearcoin(TM), useful for befriending <a href=\"/bussim/npcs/frostbite\">Frostbite</a>.)"
+                                            - name: "(This gives you a pearcoin<sup>TM</sup>, useful for befriending <a href=\"/bussim/npcs/frostbite\">Frostbite</a>.)"
                     - name: "Variant 5: \"My favorite pizza is just plain cheese pizza!\""
                       children:
                         - name: "\"Though black olives are good too...\""
