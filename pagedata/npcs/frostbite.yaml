@@ -67,7 +67,7 @@ html:
       content:
         id: frostbiteIntro
         startId: start
-        chatData: /bussim-assets/chatdata/npcs/frostbiteIntro.json
+        chatData: /bussim-assets/chatdata/npcs/frostbite/frostbiteIntro.json
 
     - type: tree
       content:
@@ -112,7 +112,7 @@ html:
       content:
         id: frostbiteStranger
         startId: start
-        chatData: /bussim-assets/chatdata/npcs/frostbiteStranger.json
+        chatData: /bussim-assets/chatdata/npcs/frostbite/frostbiteStranger.json
 
     - type: tree
       content:
@@ -172,7 +172,7 @@ html:
       content:
         id: frostbiteAcquainted
         startId: start
-        chatData: /bussim-assets/chatdata/npcs/frostbiteAcquainted.json
+        chatData: /bussim-assets/chatdata/npcs/frostbite/frostbiteAcquainted.json
 
     - type: tree
       content:
@@ -253,7 +253,7 @@ html:
       content:
         id: frostbiteFriends
         startId: start
-        chatData: /bussim-assets/chatdata/npcs/frostbiteFriends.json
+        chatData: /bussim-assets/chatdata/npcs/frostbite/frostbiteFriends.json
 
     - type: tree
       content:
