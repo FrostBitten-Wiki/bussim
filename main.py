@@ -24,7 +24,7 @@ template = Jinja2Templates("./")
 @app.get("/bussim/{wikipath:path}")
 async def wiki(request: Request, wikipath: str = ""):
     if wikipath == "": wikipath = "home"
-    html = open(f"./test.html", "r")
+    html = open(f"./desktop.html", "r")
 
     try:
         with open(f"./pagedata/{wikipath}.yaml", "r") as file:
