@@ -105,6 +105,9 @@ html:
             - name: "Option 4: Give me your IP. <small>(Only appears if your friends with PolyframeX on roblox)</small>"
               children:
                 - name: "\"no.\""
+            - name: "Option 5: This button kills you."
+              children:
+                - name: "<small(The player dies)</small>"
             
 
     - type: table
