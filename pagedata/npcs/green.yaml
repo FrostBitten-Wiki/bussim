@@ -1,0 +1,120 @@
+page:
+  title: Green
+  description: Green is a Janitor for the GOATed Gas Station in the GoatStation event.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Green
+
+attributions:
+  - "Ported By PolyframeX (@polyframex)"
+
+html:
+  header:
+    title: Green
+    description: >- 
+      Category: <a href="/bussim/npcs">NPCs</a>
+    image: ''
+    imageBanner: /bussim-assets/images/events/goat_station1.webp
+    
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >-
+         Green is a Janitor for the GOATed Gas Station in the <a href='/bussim/events/goated-gas-station'>GoatStation</a> event.
+
+    - type: section
+      content:
+        title: Appearance
+        description: >-
+          She wears a green beanie, 
+          a pair of Vintage Glasses, 
+          a Green Mean Bandana, 
+          Lucky Clover necklace, 
+          a green crop top, 
+          and a pair of jeans. 
+          She wields a trident and an offsale potion.
+
+    - type: section
+      content:
+        title: Dialogue
+
+    - type: npcChat
+      content:
+        id: green
+        startId: start
+        chatData: /bussim-assets/chatdata/npcs/green.json
+
+    - type: tree
+      content:
+        - name: "Variant 1: \"I gotta work on my day off, I guess. Can I help you?\" <small>(If the current day of the week is a weekend.)</small>"
+        - name: "Variant 2: \"Yo, need something?\""
+        - name: "Variant 3: \"Sup, can I help at all?\""
+        - name: "Variant 4: \"Do you want something?\""
+        - name: "Variant 5: \"Fancy bus you got there, own it yourself?\" <small>(If the player is in a VIP Server.)</small>"
+        - name: "Variant 6: \"Come on, can't ya just ask the guy over at the cash register? Fine, what do you want?\""
+        - name: "Variant 7: \"Inro. I've planted a bomb in your chest. You will explode in 3 seconds.\" (Only lnr01 can see this.)"
+          children:
+            - name: "Option 1: Can I buy something?"
+              children:
+                - name: "\"What do I look like to you, a cash register? It's literally like 2 feet to the left. It doesn't take much thinking, stupid.\""
+                  children:
+                    - name: "Sorry..."
+            - name: "Option 2: Are you guys hiring?"
+              children:
+                - name: "Variant 1: \"Well, you'd have to take that up with our boss, though... He tends to just hire people who are \"goated with the sauce,\" I think he means like caprinae? Sheeps and goats and such.\""
+                - name: "Variant 2: \"Hm, well, you do seem... \"goated with the sauce,\" I'm sure the boss would hire you, sadly he ain't here right now.\" <small>(If the player is wearing any goat accessories, this will instead play.)</small>"
+                  children:
+                    - name: "Option 1: That's a shame!"
+                    - name: "Option 2: You're goated?"
+                      children:
+                        - name: "\"You're pretty Nosy huh? I'll have you know that these horns are, in fact, real. My DNA test says that I'm 100%... A biological anomaly.\""
+            - name: "Option 3: Let's chat!"
+              children:
+                - name: "Variant 1: \"Sure, beats workin'\""
+                - name: "Variant 2: \"I'm up for it, yea\""
+                - name: "Variant 3: \"What do you wanna talk about?\""
+                - name: "Variant 4: \"I got time, ain't busy sweeping or anything lol\""
+                  children:
+                    - name: "Option 1: Who's D6?"
+                      children:
+                        - name: "\"Oh, that guy's chill. Steals things from the station but he stops if we just bring trash out to them. I've tried bringing fresh food out to them, but they declined. Real cool dude though.\""
+                    - name: "Option 2: Why do you just have a trident?"
+                      children:
+                        - name: "\"Well, you ever just take the bus home and the most random things happen? It sounds weird since buses are pretty boring most of the time, but I've seen crazy things on a couple rides.\""
+                        - name: "\"This sounds made up, but there was this one time where I got stuck in a place called, like... the <a href='/bussim/events/backwalls'>backwalls</a>? Don't wanna be defenseless in there, especially with that <a href='/bussim/npcs/pear'>weird cat thing...</a> I don't trust that for a second.\""
+                    - name: "Option 3: Who's the Manager?"
+                      children:
+                        - name: "\"I... I don't know? Honest to god I've never actually met the manager, I just got an email one day saying I was hired.Then I just like... woke up here on my first day?\""
+                        - name: "\"It's weird because one time my shift was over and I passed out again and just ended up back in my bed. I don't know how I get here half the time??? And that scares me?? help???\""
+                    - name: "Option 4: Can I shop lift?"
+                      children:
+                        - name: "\"Well first of all don't, that just makes us employees have to be more stressed because the manager gets upset we didn't stop you.\""
+                        - name: "\"It's dumb though, because this place is laced with some kind of magical field placed by him that destroys shoplifted items after a while.\""
+
+    - type: section
+      content:
+        title: Airhorn-Related Dialogue
+        size: small
+        description: >-
+          <br>
+          If the airhorn is used repeatedly in proximity to Green:
+
+    - type: tree
+      content:
+        - name: "\"Hey kid, I got two jobs and zero patience. Ever think about shutting the heck up for once? This is my one and only warning.\""
+
+    - type: section
+      content:
+        size: small
+        title: "If the airhorn is used repeatedly in proximity to Green for a second time:"
+
+
+    - type: tree
+      content:
+        - name: "\"We've already been over this before. You asked for it.\""
+          children:
+            - name: "<small>(The player then explodes.)</small>"
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/npcs/green.webp

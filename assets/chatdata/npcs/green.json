@@ -1,0 +1,316 @@
+{
+    "start": {
+        "name": "Green",
+        
+        "text": [
+            ["I gotta work on my day off, I guess. Can I help you?","Appears only if the current day of the week is a weekend."],
+            "Yo, need something?",
+            "Sup, can I help at all?",
+            "Do you want something?",
+            ["Fancy bus you got there, own it yourself?","Eapprs only if the player is in a VIP Server."],
+            "Come on, can't ya just ask the guy over at the cash register? Fine, what do you want?",
+            ["Inro. I've planted a bomb in your chest. You will explode in 3 seconds.","Only lnr01 can see this."]
+        ],
+
+        "choices": [
+            [
+                "Can I buy something?",
+                ["optA1"]
+            ],
+            [
+                "Are you guys hiring?",
+                ["optA2"]
+            ],
+            [
+                "Let's chat!",
+                ["optA3"]
+            ]
+        ],
+        "controls": [
+            [
+                "Refresh",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA1": {
+        "name": "Green",
+        
+        "text": [
+            "What do I look like to you, a cash register? It's literally like 2 feet to the left. It doesn't take much thinking, stupid."
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Sorry...</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2": {
+        "name": "Green",
+        
+        "text": [
+            ["Well, you'd have to take that up with our boss, though... He tends to just hire people who are \"goated with the sauce,\" I think he means like caprinae? Sheeps and goats and such.","Only appears if the player isn't wearing any goat accessories"],
+            ["Hm, well, you do seem... \"goated with the sauce,\" I'm sure the boss would hire you, sadly he ain't here right now.","Only appears if the player is wearing any goat accessories"]
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>That's a shame!</font>",
+                ["start"]
+            ],
+            [
+                "You're goated?",
+                ["optA2B1"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Refresh",
+                ["optA2"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2B1": {
+        "name": "Green",
+        
+        "text": [
+            "You're pretty Nosy huh? I'll have you know that these horns are, in fact, real. My DNA test says that I'm 100%... A biological anomaly."
+        ],
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA2"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3": {
+        "name": "Green",
+        
+        "text": [
+            "Sure, beats workin'",
+            "I'm up for it, yea",
+            "What do you wanna talk about?",
+            "I got time, ain't busy sweeping or anything lol"
+        ],
+        "choices": [
+            [
+                "Who's D6?",
+                ["optA3B1"]
+            ],
+            [
+                "Why do you just have a trident?",
+                ["optA3B2a"]
+            ],
+            [
+                "Who's the Manager?",
+                ["optA3B3a"]
+            ],
+            [
+                "Can I shop lift?",
+                ["optA3B4a"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Refresh",
+                ["optA3"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B1": {
+        "name": "Green",
+        
+        "text": [
+            "Oh, that guy's chill. Steals things from the station but he stops if we just bring trash out to them. I've tried bringing fresh food out to them, but they declined. Real cool dude though."
+        ],
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B2a": {
+        "name": "Green",
+        
+        "text": [
+            "Well, you ever just take the bus home and the most random things happen? It sounds weird since buses are pretty boring most of the time, but I've seen crazy things on a couple rides."
+        ],
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA3B2b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B2b": {
+        "name": "Green",
+        
+        "text": [
+            "This sounds made up, but there was this one time where I got stuck in a place called, like... the backwalls? Don't wanna be defenseless in there, especially with that weird cat thing... I don't trust that for a second."
+        ],
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3B2a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    
+    "optA3B3a": {
+        "name": "Green",
+        
+        "text": [
+            "I... I don't know? Honest to god I've never actually met the manager, I just got an email one day saying I was hired.Then I just like... woke up here on my first day?"
+        ],
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA3B3b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B3b": {
+        "name": "Green",
+        
+        "text": [
+            "It's weird because one time my shift was over and I passed out again and just ended up back in my bed. I don't know how I get here half the time??? And that scares me?? help???"
+        ],
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3B3a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B4a": {
+        "name": "Green",
+        
+        "text": [
+            "Well first of all don't, that just makes us employees have to be more stressed because the manager gets upset we didn't stop you."
+        ],
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["optA3B4b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3B4b": {
+        "name": "Green",
+        
+        "text": [
+            "It's dumb though, because this place is laced with some kind of magical field placed by him that destroys shoplifted items after a while"
+        ],
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["optA3B4a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    }
+}
