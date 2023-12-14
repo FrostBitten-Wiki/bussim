@@ -94,16 +94,16 @@ html:
             listItemRedirect: /bussim/others/news
           
           - listItemImage: /bussim-assets/images/others/pearcoin.webp
-            listItemTitle: Pearcoin
+            listItemTitle: Pearcoin<sup>TM</sup>
             listItemDescription: >-
-              The pearcoin is a gamepass that is only obtainable through <a href='/bussim/npcs/pear'>Pear</a>, or through somebody's inventory, and costs 2 R$ to purchase. 
-              The item doesn't appear in your inventory. All the pearcoin does is give you extra dialogues for <a href='/bussim/npcs/frostbite'>Frostbite</a>, 
+              The pearcoin<sup>TM</sup> is a gamepass that is only obtainable through <a href='/bussim/npcs/pear'>Pear</a>, or through somebody's inventory, and costs 2 R$ to purchase. 
+              The item doesn't appear in your inventory. All the pearcoin<sup>TM</sup> does is give you extra dialogues for <a href='/bussim/npcs/frostbite'>Frostbite</a>, 
               <a href='/bussim/npcs/pear'>Pear</a>, and <a href='/bussim/npcs/disc'>Disc</a>. 
               The gamepass is meant to be an "investment", but is actually just a scam, like cryptocurrency.
 
               <br><br>
 
-              You can only have one pearcoin at a time. If you show the pearcoin to Frostbite, he will immediately gain your trust (if you give him an <a href='/bussim/items/ice-cream'>Ice Cream</a> before, however.)
+              You can only have one pearcoin<sup>TM</sup> at a time. If you show the pearcoin<sup>TM</sup> to Frostbite, he will immediately gain your trust (if you give him an <a href='/bussim/items/ice-cream'>Ice Cream</a> before, however.)
             listItemRedirect: /bussim/others/pearcoin
           
           - listItemImage: /bussim-assets/images/others/ranks-tags.webp

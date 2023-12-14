@@ -36,7 +36,7 @@ html:
           rost has a unique mechanic compared to most NPCs, 
           where he has different dialogue based on his trust level which goes from 0 to 2 at max. 
           In order to fully gain Frost's trust, 
-          you can give him an <a href='/bussim/items/ice-cream'>Ice Cream</a> and <a href='/bussim/items/pearcoin'>Pearcoin</a> to make him trust you. 
+          you can give him an <a href='/bussim/items/ice-cream'>Ice Cream</a> and <a href='/bussim/others/pearcoin'>Pearcoin<sup>TM</sup></a> to make him trust you. 
           Or by giving him the Spronkbib Popsicle.
 
           <br><br>
@@ -45,7 +45,7 @@ html:
 
           <br><br>
 
-          Maxing out his trust by offering the <a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicle</a> (or showing <a href='/bussim/items/pearcoin'>Pearcoin</a> following the <a href='/bussim/items/ice-cream'>Ice Cream</a>) will give you a badge <a href='https://www.roblox.com/badges/2130010648/Part-of-the-Pack'>Part of the Pack</a>, 
+          Maxing out his trust by offering the <a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicle</a> (or showing <a href='/bussim/others/pearcoin'>Pearcoin<sup>TM</sup></a> following the <a href='/bussim/items/ice-cream'>Ice Cream</a>) will give you a badge <a href='https://www.roblox.com/badges/2130010648/Part-of-the-Pack'>Part of the Pack</a>, 
           and is necessary to unlock the second one. 
           His dialogue and choices also change afterwards.
 
@@ -187,8 +187,8 @@ html:
                   children:
                     - name: "You: \"Frost. This blue wolf seems to live here, and it feels remarkably colder in here than anywhere else in the cave...\""
                     - name: "You: \"He seems a little more interested in you than before, his gaze following your movements...\""
-                    - name: "You: \"Giving him an ice cream was the right call, but that probably won't work again... <a href='/bussim/items/pearcoin'>what can you do?</a>\""
-                - name: "Option 3: [Show item: <a href='/bussim/items/pearcoin'>Pearcoin</a>]"
+                    - name: "You: \"Giving him an ice cream was the right call, but that probably won't work again... <a href='/bussim/others/pearcoin'>what can you do?</a>\""
+                - name: "Option 3: [Show item: <a href='/bussim/others/pearcoin'>Pearcoin<sup>TM</sup></a>]"
                   children:
                     - name: "\"..? A coin..? Thanks, but I don't really...\""
                     - name: "\"Hang on a second.\""
@@ -211,7 +211,7 @@ html:
                           children:
                             - name: "Well, can I fix that?"
                               children:
-                                - name: "\"Not really in the mood to meet new people... <a href='/bussim/items/pearcoin'>Maybe if you were a friend of a friend...</a>\""
+                                - name: "\"Not really in the mood to meet new people... <a href='/bussim/others/pearcoin'>Maybe if you were a friend of a friend...</a>\""
                             - name: "Understandable."
                     - name: "Option 3: About the cave..."
                       children:
@@ -273,7 +273,7 @@ html:
                     - name: "Option 1: [Leave.]"
                     - name: "Option 2: [Check.]"
                       children:
-                        - name: "You: \"It's Frost! It seems like you're finally friends with him now. Maybe pearcointm wasn't so useless after all.\""
+                        - name: "You: \"It's Frost! It seems like you're finally friends with him now. Maybe pearcoin<sup>TM</sup> wasn't so useless after all.\""
                         - name: "You: \"His tail even wags a little when you walk up to him!\""
             - name: "Option 2: Let's talk!"
               children:
@@ -645,8 +645,8 @@ html:
             - name: Despite this, both Noble and Frost don't know each other and isn't referenced in any of their dialogues.
         - name: Frost is also a childhood friend of Pear, which is referenced in a few of his dialogue.
         - name: Frost is referenced by multiple news shouts about stealing <a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicles</a>, rendering the popsicles a rarity now. This is alluded to the fact that the chances of getting one from an Ice Cream Truck is extremely rare.
-        - name: If you bought pearcoin in the server without rejoining, you need to rejoin to be able to use it however <a href='/bussim/npcs/pear'>Pear's</a> dialogue will change without rejoin needed.
-        - name: If you offered Frost a <a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicle</a> instead of the <a href='/bussim/items/ice-cream'>Ice Cream</a> + <a href='/bussim/items/pearcoin'>Pearcoin</a> duo, he will still mention about receiving a Pearcoin from you, despite not possibly even owning one nor showing it to Frost in the first place.
+        - name: If you bought pearcoin<sup>TM</sup> in the server without rejoining, you need to rejoin to be able to use it however <a href='/bussim/npcs/pear'>Pear's</a> dialogue will change without rejoin needed.
+        - name: If you offered Frost a <a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicle</a> instead of the <a href='/bussim/items/ice-cream'>Ice Cream</a> + <a href='/bussim/others/pearcoin'>Pearcoin<sup>TM</sup></a> duo, he will still mention about receiving a Pearcoin<sup>TM</sup> from you, despite not possibly even owning one nor showing it to Frost in the first place.
         - name: If you really don't want to spend any Robux, the best way to get Frost's trust is to get the legendary <a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicle</a>, which has a 1/800 chance of getting, or by giving him multiple <a href='/bussim/items/ice-cream'>Ice Creams</a>.
           children:
             - name: The latter is still not confirmed yet.

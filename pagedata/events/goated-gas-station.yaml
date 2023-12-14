@@ -245,7 +245,7 @@ html:
           children:
             - name: Secondly, it seems as though as the principal isn't present nor any staffs throughout the entire premises of the event.
         - name: There is a note in the trash bin in GOATed Gas, which was from Tazer. It simply contains Tazer complaining about gas prices and such.
-        - name: You can attempt to purchase any of the items using <a href='/bussim/others/pearcoin'>Pearcoin</a> from <a href='/bussim/npcs/pear'>Pear</a>, but Green will intercept and tell Disc to not fall for cryptocurrencies.
+        - name: You can attempt to purchase any of the items using <a href='/bussim/others/pearcoin'>Pearcoin<sup>TM</sup> </a> from <a href='/bussim/npcs/pear'>Pear</a>, but Green will intercept and tell Disc to not fall for cryptocurrencies.
         - name: If you are friends with an NPC in this event, their dialogue actually changes to be in a much friendlier tone. This does not affect dialogues after choices however.
         - name: This is the only event that gives you permanent items at the cost of <a href='/bussim/others/reputation'>Passenger Reputation</a>.
           children:
