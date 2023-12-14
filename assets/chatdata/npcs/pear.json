@@ -765,5 +765,261 @@
         "controls": [
 
         ]
+    },
+
+    "pear_letstalk_variant5": {
+        "name": "Pear",
+        
+        "text": [
+            "My favorite pizza is just plain cheese pizza!"
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant5a"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant5a": {
+        "name": "Pear",
+        
+        "text": [
+            "Though black olives are good too..."
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ],
+            [
+                ["Continue Dialogue", "The dialogue continues if you gave Pear a Cheese Pizza on one of Noble's games: Piza"],
+                ["pear_letstalk_variant5b"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant5b": {
+        "name": "Pear",
+        
+        "text": [
+            "...You've already given me one before though~!"
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant6": {
+        "name": "Pear",
+        
+        "text": [
+            "Today feels like any other day, honestly, Wonder if you feel the same?"
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant7": {
+        "name": "Pear",
+        
+        "text": [
+            "Do you play.. err, that one battle royale game with the buildings and stuff? I do.. sometimes. I think."
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant8": {
+        "name": "Pear",
+        
+        "text": [
+            "Have you seen a brown cat? They look a bit like, uhm... the season fall? Crown necklace and earring? No? Awh... Tell me if you do, though!!"
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant9": {
+        "name": "Pear",
+        
+        "text": [
+            "I think people are confused about my gender. I figured I should clear stuff up, so remember that my pronouns are he/they!"
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant9a"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant9a": {
+        "name": "Pear",
+        
+        "text": [
+            "Uhh, there *is* a third one, but my lawyers have advised me not to tell you."
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+    
+    "pear_letstalk_variant10": {
+        "name": "Pear",
+        
+        "text": [
+            "Psst, hey! Wanna learn the secret to free rep?"
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant10a"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant10a": {
+        "name": "Pear",
+        
+        "text": [
+            "Invite some friends onto the bus! If you hang out with them for long enough, you might gain a bit of recognition~!"
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant10b"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant10b": {
+        "name": "Pear",
+        
+        "text": [
+            "So, whaddya say? Wanna bring some friends along for the ride?"
+        ],
+
+        "choices": [
+            [
+                "Can you tell me more?",
+                ["pear_letstalk_variant10_tellmore"]
+            ],
+            [
+                "Sounds good to me!",
+                ["pear_letstalk_variant10_soundgood"]
+            ],
+            [
+                "I have no friends.",
+                ["pear_letstalk_variant10_nofriends"]
+            ],
+            [
+                "nah",
+                ["pear_letstalk_variant10_nah"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant10_tellmore": {
+        "name": "Pear",
+        
+        "text": [
+            "Well, basically, when you hang out with your friends for like, an hour, you can both earn some driver and passenger rep..."
+        ],
+
+        "choices": [
+            [
+                "Can you tell me more?",
+                ["pear_letstalk_variant10_tellmore"]
+            ],
+            [
+                "Sounds good to me!",
+                ["pear_letstalk_variant10_soundgood"]
+            ],
+            [
+                "I have no friends.",
+                ["pear_letstalk_variant10_nofriends"]
+            ],
+            [
+                "nah",
+                ["pear_letstalk_variant10_nah"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
     }
 }
