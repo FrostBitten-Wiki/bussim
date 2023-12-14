@@ -405,17 +405,17 @@ html:
                                         - name: "\"You think this is a game? Do you find this amusing?\""
                                           children:
                                             - name: "Kind of."
-                    - name: "Variant 12:"
+                    - name: "Variant 11:"
                       children:
                         - name: "\"i am sincerely sorry for your loss\""
                           children:
                             - name: "Sorry"
-                    - name: "Variant 13:"
+                    - name: "Variant 12:"
                       children:
                         - name: "\"my brain hurts\""
                           children:
                             - name: "Ok."
-                    - name: "Variant 14:"
+                    - name: "Variant 13:"
                       children:
                         - name: "\"[END OF DIALOGUE]\""
 

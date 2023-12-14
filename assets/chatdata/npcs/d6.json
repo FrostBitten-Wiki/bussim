@@ -13,7 +13,7 @@
 
         "choices": [
             [
-                "Any Wisdom For Today?",
+                "Any wisdom for today?",
                 ["varA1a"]
             ],
             [
@@ -75,43 +75,43 @@
 
         "choices": [
             [
-                "V1 S1",
+                ["V1 S1", "PC Only; ''give me the keyboard''"],
                 ["wisdomA1B1"]
             ],
             [
-                "V1 S2",
+                ["V1 S2", "Phone Only; ''give me your phone''"],
                 ["wisdomA1B2"]
             ],
             [
-                "V1 S3",
+                ["V1 S3", "Console Only; ''give me the controller''"],
                 ["wisdomA1B3"]
             ],
             [
-                "V2 S1",
+                ["V2 S1", "After having wisdom today; ''you've had enough wisdom for today. come back tomorrow''"],
                 ["wisdomA2B1"]
             ],
             [
-                "V2 S2",
+                ["V2 S2", "If you use an alt account after having wisdom today; ''hey... you're not trying to use a different account to cheat the system are you''"],
                 ["wisdomA2B2a"]
             ],
             [
-                "V2 S3",
+                ["V2 S3", "If you use another alt account after having wisdom twice; ''hey there again you have multiple alts then huh''"],
                 ["wisdomA2B3a"]
             ],
             [
-                "V3",
+                ["V3", "''live to die''"],
                 ["wisdomA3"]
             ],
             [
-                "V4",
+                ["V4", "''if you come to a fork in the road, pick it up''"],
                 ["wisdomA4"]
             ],
             [
-                "V5",
+                ["V5", "''you are playing it wrong''"],
                 ["wisdomA5"]
             ],
             [
-                "V6",
+                ["V6", "''i did the art for the limbobbia tutorial. you should try it if you haven't''"],
                 ["wisdomA6"]
             ],
             [
@@ -140,43 +140,43 @@
 
         "choices": [
             [
-                "V7 S1",
+                ["V7 S1", "Thursday Exclusive; ''today is thursday.''"],
                 ["wisdomA7B1"]
             ],
             [
-                "V7 S2",
+                ["V7 S2", "Any Day but Thursday; ''today is not thursday.''"],
                 ["wisdomA7B2"]
             ],
             [
-                "V8",
+                ["V8", "''do not hesitate to defend yourself. you won't regret it''"],
                 ["wisdomA8"]
             ],
             [
-                "V9",
+                ["V9", "''support your local trash goblin''"],
                 ["wisdomA9"]
             ],
             [
-                "V10",
+                ["V10", "''thank Noble for doing all this; without it i would have no wisdom to share.''"],
                 ["wisdomA10"]
             ],
             [
-                "V11",
+                ["V11", "''i am sincerely sorry for your loss''"],
                 ["wisdomA11"]
             ],
             [
-                "V12",
+                ["V12", "''your lucky numbers for the day are [5 random 1-2 digit integers] and [random 1-2 digit integer]''"],
                 ["wisdomA12"]
             ],
             [
-                "V13",
+                ["V13", "''nobody knows the troubles you've seen''"],
                 ["wisdomA13"]
             ],
             [
-                "V14",
+                ["V14", "''if you don't like the new roblox death sound, you can change it to whatever you want.''"],
                 ["wisdomA14a"]
             ],
             [
-                "V15",
+                ["V15", "''you can adjust the game volume via the pause menu''"],
                 ["wisdomA15"]
             ],
             [
@@ -205,43 +205,43 @@
 
         "choices": [
             [
-                "V16",
+                ["V16", "''stand up for yourself''"],
                 ["wisdomA16"]
             ],
             [
-                "V17",
-                ["wisdomA17a","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+                ["V17", "''we have done something wrong at one point''"],
+                ["wisdomA17a"]
             ],
             [
-                "V18",
+                ["V18", "''he's going to betray you, you know.''"],
                 ["wisdomA18"]
             ],
             [
-                "V19",
+                ["V19", "''exploration can only lead to disappointment.''"],
                 ["wisdomA19"]
             ],
             [
-                "V20",
+                ["V20", "''the remains of our ancestors lie beneath our feet''"],
                 ["wisdomA20a"]
             ],
             [
-                "V21",
+                ["V21", "''the end is never''"],
                 ["wisdomA21"]
             ],
             [
-                "V22",
+                ["V22", "''only a sinner''"],
                 ["wisdomA22"]
             ],
             [
-                "V23",
+                ["V23", "''also try lethal league blaze''"],
                 ["wisdomA23"]
             ],
             [
-                "V24",
+                ["V24", "''also try boneworks, if you have vr''"],
                 ["wisdomA24"]
             ],
             [
-                "V25",
+                ["V25", "''i can kill you in two different ways''"],
                 ["wisdomA25"]
             ],
             [
@@ -270,39 +270,39 @@
 
         "choices": [
             [
-                "V26",
+                ["V26", "''i can't tell you what the Tool does you have to figure it out yourself''"],
                 ["wisdomA26"]
             ],
             [
-                "V27",
+                ["V27", "''you will never be forgiven''"],
                 ["wisdomA27"]
             ],
             [
-                "V28",
+                ["V28", "''think for yourself''"],
                 ["wisdomA28"]
             ],
             [
-                "V29",
+                ["V29", "''believe in yourself''"],
                 ["wisdomA29"]
             ],
             [
-                "V30",
+                ["V30", "''question authority''"],
                 ["wisdomA30"]
             ],
             [
-                "V31",
+                ["V31", "''go outside''"],
                 ["wisdomA31"]
             ],
             [
-                "V32",
+                ["V32", "''don't leave the house today''"],
                 ["wisdomA32"]
             ],
             [
-                "V33",
+                ["V33", "''my brain hurts''"],
                 ["wisdomA33"]
             ],
             [
-                "V34",
+                ["V34", "''may your troubles be many''"],
                 ["wisdomA34"]
             ]
         ],
@@ -2011,7 +2011,7 @@
         "choices": [
             [
                 "Random Variant",
-                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13","tellA14"]
+                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13"]
             ],
             [
                 "Select a Variant",
@@ -2035,48 +2035,48 @@
         "name": "System",
 
         "text": [
-            "Which variant would you like to select? (Page 1/2)"
+            "Which variant would you like to select / preview? (Page 1/2)"
         ],
 
         "choices": [
             [
-                "V1",
+                ["V1", "''dude... GLAGGLELAND??????''"],
                 ["tellA1"]
             ],
             [
-                "V2",
+                ["V2", "''im d6''"],
                 ["tellA2"]
             ],
             [
-                "V3",
+                ["V3", "''if i hear that dumb smelly protogen mention ram one more time...''"],
                 ["tellA3"]
             ],
             [
-                "V4",
+                ["V4", "''i'm not allowed in the store anymore since i keep shoplifting but...''"],
                 ["tellA4"]
             ],
             [
-                "V5",
+                ["V5", "''lets talk about embalming fluid''"],
                 ["tellA5a"]
             ],
             [
-                "V6",
+                ["V6", "''sometimes i feel the sudden urge to break into someone's house and...''"],
                 ["tellA6a"]
             ],
             [
-                "V7",
+                ["V7", "''Do not let it affect you in the moment. It is all ultimately meaningless...''"],
                 ["tellA7"]
             ],
             [
-                "V8",
+                ["V8", "''i think i could beat that cat on the bus in a fist fight''"],
                 ["tellA8"]
             ],
             [
-                "V9",
+                ["V9", "''hey so do you know what those guys are selling in there theyve chased me out with a broom like 6 times already...''"],
                 ["tellA9a"]
             ],
             [
-                "V10",
+                ["V10", "''you got anything to eat''"],
                 ["tellA10a"]
             ],
             [
@@ -2105,20 +2105,16 @@
 
         "choices": [
             [
-                "V11",
+                ["V11", "''i am sincerely sorry for your loss''"],
                 ["tellA11"]
             ],
             [
-                "V12",
+                ["V12", "''my brain hurts''"],
                 ["tellA12"]
             ],
             [
-                "V13",
+                ["V13", "''[END OF DIALOGUE]''"],
                 ["tellA13"]
-            ],
-            [
-                "V14",
-                ["tellA14"]
             ]
         ],
         "controls": [
@@ -2666,7 +2662,7 @@
     },
 
 
-    "tellA12": {
+    "tellA11": {
         "name": "D6",
 
         "text": [
@@ -2692,7 +2688,7 @@
         ]
     },
 
-    "tellA13": {
+    "tellA12": {
         "name": "D6",
 
         "text": [
@@ -2718,7 +2714,7 @@
         ]
     },
 
-    "tellA14": {
+    "tellA13": {
         "name": "D6",
 
         "text": [
