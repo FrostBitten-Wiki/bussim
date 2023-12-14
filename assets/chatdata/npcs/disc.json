@@ -1919,7 +1919,7 @@
         "name": "System",
         
         "text": [
-            "Would you like a random condition or select a condition?"
+            "Would you like a random condition or to select a condition?"
         ],
 
         "choices": [
@@ -1928,7 +1928,7 @@
                 ["checkoutA1","checkoutA2","checkoutA3"]
             ],
             [
-                "Selected Condition",
+                "Select a Condition",
                 ["varA3b"]
             ]
         ],
