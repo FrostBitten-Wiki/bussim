@@ -254,4 +254,12 @@ html:
     - type: section
       content:
         title: Trivia
-            
+    
+    - type: tree
+      content:
+        - name: He is the only NPC that offers you something in exchange for Robux.<br><br>
+        - name: Pear can also be seen in the Backwalls event, wandering around.<br><br>
+        - name: When Pear mentions "The Incident", they're referring to the removal of most copyrighted audios on March 22nd, 2022.<br><br>
+        - name: Pear will still get annoyed at you (and afterwards, kills you) if you use the Airhorn while not on the same floor as him, but at a similar horizontal area, such as the seat directly below and above him.<br><br>
+        - name: If the private server owner uses the !seats command, Pear will stand in place instead.<br><br>
+        - name: Pear's calculations with the invite system is partially accurate, as you actually gain a maximum of 20 Driver Reputation and 30 Passenger Reputation per day, up to 140 Driver Reputation and 210 Passenger Reputation every week, for a total of 350 Reputation.
