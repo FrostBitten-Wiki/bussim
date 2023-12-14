@@ -843,11 +843,7 @@
         "controls": [
             [
                 "Back",
-                ["pear_letstalk_variant4_pearcoinMachinea"]
-            ],
-            [
-                "Back to Variant Beginning",
-                ["pear_letstalk_variant4_pearcoinMachine"]
+                ["pear_letstalk_variant5"]
             ]
         ]
     },
