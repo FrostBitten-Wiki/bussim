@@ -90,13 +90,36 @@
             ],
             [
                 "<font color='#ffaf00'>I'm not scared of you.</font>",
-                ["start"]
+                ["scare"]
             ]
         ],
         "controls": [
             [
                 "Back",
                 ["take"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "scare": {
+        "name": "System",
+        
+        "text": [
+            "The player is then killed."
+        ],
+
+        "choices": [
+
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["takeB2"]
             ],
             [
                 "Reset",

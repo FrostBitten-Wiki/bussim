@@ -353,7 +353,7 @@
         "choices": [
             [
                 "<font color='#ffaf00'>What if I don't?</font>",
-                ["start"]
+                ["uhoh"]
             ],
             [
                 "Okay.",
@@ -365,6 +365,29 @@
             [
                 "Back",
                 ["optA4"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "uhoh": {
+        "name": "System",
+        
+        "text": [
+            "The player gets flung."
+        ],
+
+        "choices": [
+
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["optA4B2a"]
             ],
             [
                 "Reset",
