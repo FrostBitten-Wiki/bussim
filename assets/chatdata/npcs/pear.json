@@ -24,7 +24,7 @@
                 ["pear_letstalk"]
             ],
             [
-                "Invites",
+                "Invites...",
                 ["pear_invites"]
             ],
             [
@@ -114,7 +114,7 @@
         "name": "You",
         
         "text": [
-            "Choose the Variant you want to happen for \"Let's Talk!\"."
+            "Choose the Variant you want to happen for \"Let's Talk!\". (Page 1/2)"
         ],
 
         "choices": [
@@ -163,6 +163,35 @@
             ],
 
             [
+                "Next",
+                ["pear_letstalk_choosevariant_a"]
+            ]
+        ]
+    },
+
+    "pear_letstalk_choosevariant_a": {
+        "name": "You",
+        
+        "text": [
+            "Choose the Variant you want to happen for \"Let's Talk!\". (Page 2/2)"
+        ],
+
+        "choices": [
+
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["pear_letstalk_choosevariant"]
+            ],
+
+            [
+                "V7",
+                ["pear_letstalk_variant7"]
+            ],
+
+            [
                 "V8",
                 ["pear_letstalk_variant8"]
             ],
@@ -178,8 +207,13 @@
             ],
 
             [
-                "V11",
+                "V11 (Teen)",
                 ["pear_letstalk_variant11"]
+            ],
+
+            [
+                "V11 (Minor)",
+                ["pear_letstalk_variant11_minor"]
             ],
 
             [
@@ -975,14 +1009,14 @@
             ],
             [
                 "Sounds good to me!",
-                ["pear_letstalk_variant10_soundgood"]
+                ["pear_letstalk_variant10_tellmore_imin"]
             ],
             [
                 "I have no friends.",
                 ["pear_letstalk_variant10_nofriends"]
             ],
             [
-                "nah",
+                "Nah.",
                 ["pear_letstalk_variant10_nah"]
             ]
         ],
@@ -1001,20 +1035,542 @@
 
         "choices": [
             [
-                "Can you tell me more?",
-                ["pear_letstalk_variant10_tellmore"]
-            ],
+                "Continue Dialogue",
+                ["pear_letstalk_variant10_tellmore_a"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant10_tellmore_a": {
+        "name": "Pear",
+        
+        "text": [
+            "You can get rewarded for up to three friends a day. You earn 10 driver rep for the first friend, and 5 driver rep for the other two. You get 10 passenger rep every time, though~"
+        ],
+
+        "choices": [
             [
-                "Sounds good to me!",
-                ["pear_letstalk_variant10_soundgood"]
-            ],
+                "Continue Dialogue",
+                ["pear_letstalk_variant10_tellmore_b"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant10_tellmore_b": {
+        "name": "Pear",
+        
+        "text": [
+            "The friends you invite get 10 driver and passenger rep as well. Neat, right?"
+        ],
+
+        "choices": [
             [
-                "I have no friends.",
-                ["pear_letstalk_variant10_nofriends"]
-            ],
+                "Continue Dialogue",
+                ["pear_letstalk_variant10_tellmore_c"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant10_tellmore_c": {
+        "name": "Pear",
+        
+        "text": [
+            "And since you can do this every day, according to my calculations, that means... uhh, carry the two.. and..."
+        ],
+
+        "choices": [
             [
-                "nah",
+                "Continue Dialogue",
+                ["pear_letstalk_variant10_tellmore_d"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant10_tellmore_d": {
+        "name": "Pear",
+        
+        "text": [
+            "MEOW! That's like, 200 reputations a week or something??"
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant10_tellmore_e"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant10_tellmore_e": {
+        "name": "Pear",
+        
+        "text": [
+            "So... You interested?"
+        ],
+
+        "choices": [
+            [
+                "I'm in!",
+                ["pear_letstalk_variant10_tellmore_imin"]
+            ],
+
+            [
+                "Nah.",
                 ["pear_letstalk_variant10_nah"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant10_tellmore_imin": {
+        "name": "Pear",
+        
+        "text": [
+            "Pawsome~ Just tell me who to call!!"
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant10_tellmore_imin_prompt"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant10_tellmore_imin_prompt": {
+        "name": "You",
+        
+        "text": [
+            "You are then prompted with inviting your friends."
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant10_nofriends": {
+        "name": "Pear",
+        
+        "text": [
+            "Oh. Uhm, yeowch... Didn't mean to rub salt in the wound, there... Hope you find some soon...?"
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant10_nah": {
+        "name": "Pear",
+        
+        "text": [
+            "Alright! If you ever change your mind, you know who to call."
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant11": {
+        "name": "Pear",
+        
+        "text": [
+            "You should play Kit Battle! It's a pretty great game in my honest opinion..."
+        ],
+
+        "choices": [
+            [
+                "I will play it right now.",
+                ["pear_letstalk_variant11_playnow"]
+            ],
+            [
+                "Is this sponsored?",
+                ["pear_letstalk_variant11_sponsored"]
+            ],
+            [
+                "Did you just-?",
+                ["pear_letstalk_variant11_didyoujust"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant11_playnow": {
+        "name": "Pear",
+        
+        "text": [
+            "Good, have fun~!"
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant11_playnow_prompt"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant11_playnow_prompt": {
+        "name": "You",
+        
+        "text": [
+            "You are then teleported to the game, Kit Battle."
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant11_sponsored": {
+        "name": "Pear",
+        
+        "text": [
+            "Totally not!! I would never take money to advertise a game..."
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant11_sponsored_a"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant11_sponsored_a": {
+        "name": "Pear",
+        
+        "text": [
+            "You definitely should play Kit Battle though..."
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant11_didyoujust": {
+        "name": "Pear",
+        
+        "text": [
+            "...no?"
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant11_minor": {
+        "name": "Pear",
+
+        "text": [
+            "Hey, you should pl-- Oh, uhm..."
+        ],
+
+        "choices": [
+            [
+                "I'll just go.",
+                ["end"]
+            ],
+            [
+                "...? What's up?",
+                ["pear_letstalk_variant11_minor_whatsup"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant11_minor_whatsup": {
+        "name": "Pear",
+
+        "text": [
+            "S-Sorry, looks like I'm getting a call! Please hold..."
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant11_minor_whatsup_a"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant11_minor_whatsup_a": {
+        "name": "Pear",
+
+        "text": [
+            "Meowdy, Pear speaking~!"
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant11_minor_whatsup_b"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant11_minor_whatsup_b": {
+        "name": "Pear",
+
+        "text": [
+            "Uh-huh... uh-huh...oh, excuse me, could you repeat that..?"
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant11_minor_whatsup_c"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant11_minor_whatsup_c": {
+        "name": "Pear",
+
+        "text": [
+            "<small>oh, shoot... on god? they're a...?</small>"
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant11_minor_whatsup_d"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant11_minor_whatsup_d": {
+        "name": "Pear",
+
+        "text": [
+            "okay, thank you so much for letting me know... talk to you later, meow~!"
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant11_minor_whatsup_e"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant11_minor_whatsup_e": {
+        "name": "Pear",
+
+        "text": [
+            "Um, uh, heeeey, you!"
+        ],
+
+        "choices": [
+            [
+                "What was that about?",
+                ["pear_letstalk_variant11_minor_whatsup_whatwas"]
+            ],
+            [
+                "Um.. hi..?",
+                ["pear_letstalk_variant11_minor_whatsup_umhi"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+    
+    "pear_letstalk_variant11_minor_whatsup_whatwas": {
+        "name": "Pear",
+
+        "text": [
+            "Um, nothing! I've gotta go now, see ya!!!"
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant11_minor_whatsup_umhi": {
+        "name": "Pear",
+
+        "text": [
+            "Yooo, you're talkin' to me? Brand new conversation, with me?! That's crazy! We should talk about how..."
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant11_minor_whatsup_umhi_a"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant11_minor_whatsup_umhi_a": {
+        "name": "You",
+
+        "text": [
+            "Pear then chooses a random dialogue line."
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant12": {
+        "name": "Pear",
+
+        "text": [
+            "Heyyy, it's the busses birthday! We're celebrating with cake! Pretty cool, right?"
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["pear_letstalk_variant12_a"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "pear_letstalk_variant12_a": {
+        "name": "Pear",
+
+        "text": [
+            "I do have a warning for you though... Whatever you do, don't drink a <a href=\"/bussim/items/bloxy-cola\">Bloxy Cola</a> alongside the <a href=\"/bussim/items/bus-birthday-cake\">cake</a>... You'll regret it~!"
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["end"]
             ]
         ],
 
