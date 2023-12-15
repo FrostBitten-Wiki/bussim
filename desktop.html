@@ -75,7 +75,7 @@
             }
         </style>
         
-        <div id="searchScreen" style="bottom: 100vh;">
+        <div id="searchScreen" style="bottom: -100vh;">
             <div style="transition: margin 500ms; margin-top: 30px; margin-left: 10vw; margin-right: 10vw; box-sizing: border-box;">
                 <text style="font-size: 35px;">Search Results</text>
 
@@ -112,7 +112,7 @@
                         const isSearchBar = searchBar.contains(event.target);
 
                         if (!isSearchScreen && !isSearchBar) {
-                            searchScreen.style.bottom = '100vh';
+                            searchScreen.style.bottom = '-100vh';
                         }
                     });
                     
@@ -253,6 +253,10 @@
             </script>
         </div>
 
+        <div style="position: fixed; top: 0; width: 100%;">
+            <div class="tooltip" id="custom-tooltip"></div>
+        </div>
+
         {% if html %}
         <div style="width: 100%; z-index: 1;">
             <div style="position: absolute; top: 0; width: 100vw; z-index: -1;">
@@ -277,7 +281,6 @@
                         </div>
                     {% endif %}
                 </div>
-                <div class="tooltip" id="custom-tooltip"></div>
 
                 <div style="width: 80vw;">
                     <!-- Custom Jinja2 Functions -->
@@ -540,22 +543,19 @@
         </script>
 
         <script>
-            // Global variables
             var tooltip;
         
-            // Initialization
             document.addEventListener('DOMContentLoaded', function () {
                 tooltip = document.getElementById('custom-tooltip');
             });
         
-            // Event handlers
             function showTooltip(event) {
                 var tooltipTrigger = event.target;
                 var tooltipText = tooltipTrigger.getAttribute('data-tooltip-text');
                 
                 setContent(tooltip, tooltipText);
                 displayTooltip(tooltip);
-                animateTooltip(tooltip, event.clientX - 50, event.clientY + 10);
+                animateTooltip(tooltip, event.clientX + 25, event.clientY + 25);
             }
         
             function hideTooltip() {
@@ -564,11 +564,10 @@
         
             function updateTooltipPosition(event) {
                 if (isElementVisible(tooltip)) {
-                    animateTooltip(tooltip, event.clientX - 50, event.clientY + 10);
+                    animateTooltip(tooltip, event.clientX + 25, event.clientY + 25);
                 }
             }
         
-            // Utility functions
             function setContent(element, content) {
                 element.textContent = content;
             }
@@ -578,7 +577,7 @@
             }
         
             function animateTooltip(element, x, y) {
-                gsap.to(element, { x: x, y: y, duration: 0.5, ease: 'power2.out' });
+                gsap.to(element, { x: x, y: y, duration: 1, ease: 'Power0.easeNone' });
             }
         
             function hideElement(element) {
@@ -592,6 +591,8 @@
             function isElementVisible(element) {
                 return window.getComputedStyle(element).display !== '0';
             }
+
+            document.addEventListener('mousemove', updateTooltipPosition);
         </script>
 
         <script src="https://unpkg.com/gsap@3.9.0"></script>

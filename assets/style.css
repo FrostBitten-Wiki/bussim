@@ -127,9 +127,10 @@ highlight[type="rainbow"] {
     font-size: 14px;
     max-width: 300px;
 
-    position: fixed;
+    position: absolute;
     top: 0;
-    opacity: 1;
+
+    opacity: 0;
     background-color: #1a149c80;
     backdrop-filter: blur(5px);
     padding: 5px;

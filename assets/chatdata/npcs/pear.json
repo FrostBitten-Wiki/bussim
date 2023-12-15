@@ -16,8 +16,8 @@
 
         "choices": [
             [
-                ["Sorry, just walking by.", "This ends the dialogue."],
-                ["end"]
+                ["<text style=\"color: #ffaf00; pointer-events: none;\">Sorry, just walking by.</text>", "This ends the dialogue."],
+                ["start"]
             ],
             [
                 "Let's Talk!",
