@@ -130,7 +130,7 @@ html:
         
     - type: tree
       content:
-        - name: If you combine all of the possible variants Ectta could use, Ectta would have a total of 190,512 dialogue options, or 4,536 if excluding the variants from <a href='/bussim/events/question-time'>Question Time</a>. <small>(This is prone to change the more QuestionTime variants as well as dialogue gets added, always update it to the latest after an update, thanks!)</small>
+        - name: If you combine all of the possible variants Ectta could use, Ectta would have a total of 190,512 dialogue options, or 4,536 if excluding the variants from <a href='/bussim/events/question-time'>Question Time</a>. <small>(This is prone to change the more Question Time variants as well as dialogue gets added, always update it to the latest after an update, thanks!)</small>
           children:
             - name: This technically makes him have the most amount of dialogue in Bus Simulator, assuming that a combination of variants can be counted as one. But if not, then that title holds to <a href='/bussim/npcs/d6'>D6</a>.
         - name: Ectta cannot be annoyed by the <a href='/bussim/items/airhorn'>Airhorn</a>.
