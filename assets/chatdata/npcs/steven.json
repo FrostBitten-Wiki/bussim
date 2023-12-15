@@ -1,0 +1,74 @@
+{
+    "start": {
+        "name": "Steven",
+        
+        "text": [
+            "Uh, hey."
+        ],
+
+        "choices": [
+            [
+                "What are you doing back here?",
+                ["query"]
+            ]
+        ],
+        "controls": [
+
+        ]
+    },
+
+    "query": {
+        "name": "Steven",
+        
+        "text": [
+            "I'm just trying to eat lunch."
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>[Leave quietly.]</font>",
+                ["start"]
+            ],
+            [
+                "Why is there a body behind you?",
+                ["optA2"]
+            ],
+            [
+                "<font color='#ffaf00'>Oookay...</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2": {
+        "name": "Steven",
+        
+        "text": [
+            "Body? What body?"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["query"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    }
+}
