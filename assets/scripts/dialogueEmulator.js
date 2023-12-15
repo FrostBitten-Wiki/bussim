@@ -105,7 +105,7 @@ function changeDialogue(id, dialogueId) {
 
                 if (Array.isArray(item[0])) {
                     button.innerHTML = `
-                        <text type="hoverText" style="pointer-events: none;">${item[0][0]}</text>
+                        <text type="hoverText" style="color: #eb4034;">${item[0][0]}</text>
                     `;
 
                     button.classList.add("tooltip-trigger");
@@ -120,7 +120,7 @@ function changeDialogue(id, dialogueId) {
                     button.style.cursor = "help";
                 } else {
                     button.innerHTML = `
-                        <text type="hoverText">${item[0]}</text>
+                        <text type="hoverText" style="color: #eb4034;">${item[0]}</text>
                     `;
                 }
 
