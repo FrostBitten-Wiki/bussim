@@ -1,0 +1,50 @@
+page:
+  title: Teddy
+  description:  MLGBudderCD (Also known as MLG) is an NPC in the Goat Station event.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Teddy
+
+attributions:
+  - "Ported By PolyframeX (@polyframex)"
+
+html:
+  header:
+    title: Teddy
+    description: >- 
+      Category: <a href="/bussim/npcs">NPCs</a>
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
+    
+  pageContent:
+    - type: section
+      content:
+        title: Info
+        description: >-
+         <i>Are you looking for the <a href='/bussim/events/teddy'>event</a> related to this character, instead?</i>
+
+         <br><br>
+
+         Teddy is an NPC that appears most often in his events: 
+         being both <a href='/bussim/events/teddy'>Micspam</a> and <a href='/bussim/events/teddy/mic-off'>Micoff</a>. 
+         He also has a special effect where his shadow is that of a large circle, 
+         rather than raycasted off of his body.
+
+    - type: section
+      content:
+        title: Appearance
+        description: >-
+          Teddy wears a simple black-gold top hat as well as a box as his torso clothing. 
+          He also often has a megaphone at hand too when appearing.
+
+    - type: section
+      content:
+        title: Trivia
+
+    - type: tree
+      content:
+        - name: Teddy has been referenced before in a <a href='/bussim/others/news'>News Article</a>, about a local toon causing a 24-hour traffic jam by singing through a megaphone.
+        - name: The custom shadow that Teddy has is referenced from Toontown, where his avatar is also inspired from.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/npcs/teddy.webp
