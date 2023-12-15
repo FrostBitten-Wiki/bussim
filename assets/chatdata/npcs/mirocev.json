@@ -12,6 +12,10 @@
                 ["sell"]
             ],
             [
+                "Who are you...?",
+                ["sellA3"]
+            ],
+            [
                 "Sure!",
                 ["optA2"]
             ]
@@ -39,10 +43,6 @@
             [
                 "What? Why wouldn't you want to make some profit off it?",
                 ["sellA2"]
-            ],
-            [
-                "Who are you...?",
-                ["sellA3"]
             ]
         ],
         "controls": [
@@ -115,7 +115,7 @@
         "controls": [
             [
                 "Back",
-                ["sell"]
+                ["start"]
             ],
             [
                 "Reset",

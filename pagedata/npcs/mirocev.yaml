@@ -52,10 +52,10 @@ html:
                     - name: "Option 2: What? Why wouldn't you want to make some profit off it?"
                       children:
                         - name: "\"I just feel generous!\""
-                    - name: "Option 3: Who are you...?"
-                      children:
-                        - name: "\"Just a humble soda stand vendor!\""
-            - name: "Option 2: Sure!"
+            - name: "Option 2: Who are you...?"
+              children:
+                - name: "\"Just a humble soda stand vendor!\""
+            - name: "Option 3: Sure!"
               children:
                 - name: "\"Cool! Here's your free soda! Enjoy!\""
                   children:
