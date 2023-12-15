@@ -16,7 +16,7 @@
 
         "choices": [
             [
-                ["<text style=\"color: #ffaf00; pointer-events: none;\">Sorry, just walking by.</text>", "This ends the dialogue."],
+                ["<text style=\"color: #ffaf00;\">Sorry, just walking by.</text>", "This ends the dialogue."],
                 ["start"]
             ],
             [

@@ -127,6 +127,9 @@ highlight[type="rainbow"] {
     font-size: 14px;
     max-width: 300px;
 
+    user-select: none;
+    pointer-events: none;
+
     position: absolute;
     top: 0;
 
