@@ -65,7 +65,7 @@ function changeDialogue(id, dialogueId) {
                     `;
 
                     button.classList.add("tooltip-trigger");
-                    button.setAttribute("data-tooltip-text", "(?) " + item[0][1]);
+                    button.setAttribute("tooltip-text", "(?) " + item[0][1]);
                     button.onmouseover = function(event) {
                         showTooltip(event)
                     };
@@ -109,7 +109,7 @@ function changeDialogue(id, dialogueId) {
                     `;
 
                     button.classList.add("tooltip-trigger");
-                    button.setAttribute("data-tooltip-text", "(?) " + item[0][1]);
+                    button.setAttribute("tooltip-text", "(?) " + item[0][1]);
                     button.onmouseover = function(event) {
                         showTooltip(event)
                     };

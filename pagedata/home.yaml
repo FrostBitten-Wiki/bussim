@@ -34,13 +34,9 @@ html:
     - type: text
       content:
         text: >-
-          You can also join the game's <a href="https://www.roblox.com/groups/4343228/Bus-Simulator-The-Fan-Group">Official Roblox Group</a>, and their <a href="https://discord.com/invite/pNnMKKg">Discord Server</a>! 
-          Join the conversations in the <a href="https://discord.gg/frostbitegames">FrostBitten Server</a>, too!
+          <note tooltip-text="Warning: You must be 13+ to use Discord and Join the servers.">You can also join the game's <a href="https://www.roblox.com/groups/4343228/Bus-Simulator-The-Fan-Group">Official Roblox Group</a>, and their <a href="https://discord.com/invite/pNnMKKg">Discord Server</a>! 
+          Join the conversations in the <a href="https://discord.gg/frostbitegames">FrostBitten Server</a>, too!</note>
 
-          <br><br>
-
-          <text style="font-size: 10px;">You must be 13+ to use Discord and Join the servers.</text>
-    
     - type: section
       content:
         title: Browsing the Wiki

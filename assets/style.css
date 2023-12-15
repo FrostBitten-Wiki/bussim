@@ -135,7 +135,7 @@ highlight[type="rainbow"] {
 
     opacity: 0;
     background-color: #1a149c80;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
     padding: 5px;
     z-index: 1;
 

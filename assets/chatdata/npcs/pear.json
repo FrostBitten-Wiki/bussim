@@ -1582,5 +1582,79 @@
         "controls": [
 
         ]
+    },
+    
+
+
+
+
+
+
+
+
+    "start_billy": {
+        "name": "Pear",
+
+        "text": [
+            ["Oh, hey [Player]!!! I know you!!", "This dialogue appears if you are friends with Pear"],
+            "Did you know that in terms of... busses, this is a pretty nice one! What's up, though?",
+            "mmrrreoww~?",
+            "Oh, hey! Didn't see you there, what's up?",
+            "Need something?",
+            "Hold on just a second... just trading my <highlight type=\"rainbow\">pearcoin</highlight><sup><highlight type=\"rainbow\">TM</highlight></sup>",
+            "Heyaaa! What're you talkin to me for?",
+            "[Player]?! I didn't expect to see you here!!",
+            "Tender soul splintered, folded in the inner...~ Huh, sorry... What's goin on?"
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["start_billy_a"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "start_billy_a": {
+        "name": "Pear",
+
+        "text": [
+            "..."
+        ],
+
+        "choices": [
+            [
+                "Continue Dialogue",
+                ["start_billy_b"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
+    },
+
+    "start_billy_b": {
+        "name": "Pear",
+
+        "text": [
+            "You trying to take over the comment section or something?",
+            "I don't care who Billy sends, I'm not copy and pasting him..."
+        ],
+
+        "choices": [
+            [
+                "End Dialogue",
+                ["start_billy"]
+            ]
+        ],
+
+        "controls": [
+
+        ]
     }
 }

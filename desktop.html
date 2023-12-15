@@ -75,7 +75,7 @@
             }
         </style>
         
-        <div id="searchScreen" style="bottom: -100vh;">
+        <div id="searchScreen" style="bottom: -50vh;">
             <div style="transition: margin 500ms; margin-top: 30px; margin-left: 10vw; margin-right: 10vw; box-sizing: border-box;">
                 <text style="font-size: 35px;">Search Results</text>
 
@@ -112,7 +112,7 @@
                         const isSearchBar = searchBar.contains(event.target);
 
                         if (!isSearchScreen && !isSearchBar) {
-                            searchScreen.style.bottom = '-100vh';
+                            searchScreen.style.bottom = '-50vh';
                         }
                     });
                     
@@ -316,7 +316,7 @@
                                 </div>
                             {% elif size == "small" %}
                                 <div style="margin-top: 20px; margin-bottom: 35px;" id="{{ data['content']['title'] | lower | replace(' ', '-') }}">
-                                    <text style="font-size: 25px;">{{ data['content']['title'] }}</text>
+                                    <text style="font-size: 20px;">{{ data['content']['title'] }}</text>
                                     <text>{{ data['content']['description'] }}</text>
                                 </div>
                             {% endif %}
@@ -433,7 +433,7 @@
                                 </div>
                             </div>
                         {% elif data['type'] == "npcChat" %}
-                            <div id="{{ data['content']['id'] }}-dialogue" class="checkBg" style="margin-top: 20px; margin-bottom: 5px; padding: 10px; --color1: grey; --color2: white; --color3: grey; width: calc(100% - 28px); height: 150px;" onclick="window.{{ data['content']['id'] }}dialogueDelay = 10;">
+                            <div id="{{ data['content']['id'] }}-dialogue" class="checkBg" style="margin-top: 20px; margin-bottom: 5px; padding: 10px; --color1: grey; --color2: white; --color3: grey; width: calc(100% - 28px); height: 150px;" onclick="window.{{ data['content']['id'] }}dialogueDelay = document.getElementById(`{{ data['content']['id'] }}-name`).textContent.length / 2">
                                 <text id="{{ data['content']['id'] }}-name" style="font-size: 20px;"></text><br>
                                 <text id="{{ data['content']['id'] }}-chat"></text>
                             </div>
@@ -527,7 +527,7 @@
 
         <script defer>
             var buttons = document.querySelectorAll('button');
-            var audio = document.getElementById('audio');
+            var notes = document.querySelectorAll('note'); //non-existing class, although used for tooltip noting!
         
             buttons.forEach(function(button) {
                 button.addEventListener('click', function() {
@@ -538,6 +538,15 @@
                     playSound("buttonhover", 1, "none")
                 });
             });
+
+            notes.forEach(function(item) {
+                item.onmouseover = function(event) {
+                    showTooltip(event)
+                };
+                item.onmouseout = function(event) {
+                    hideTooltip()
+                };
+            })
         </script>
 
         <script src="https://unpkg.com/gsap@3.9.0" defer></script>

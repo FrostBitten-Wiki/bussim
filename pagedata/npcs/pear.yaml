@@ -253,6 +253,25 @@ html:
 
     - type: section
       content:
+        size: small
+        title: If you became billy
+
+    - type: npcChat
+      content:
+        id: pear_billy
+        startId: start_billy
+        chatData: /bussim-assets/chatdata/npcs/pear.json
+
+    - type: tree
+      content:
+        - name: "Pear chooses any Intro Variant."
+        - name: "\"...\""
+          children:
+            - name: "Variant 1: \"You trying to take over the comment section or something?\""
+            - name: "Variant 2: \"I don't care who Billy sends, I'm not copy and pasting him...\""
+
+    - type: section
+      content:
         title: Trivia
     
     - type: tree
