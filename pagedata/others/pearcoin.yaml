@@ -9,7 +9,7 @@ attributions:
 
 html:
   header:
-    title: <highlight type="rainbow">Pearcoin</highlight><sup><highlight type="rainbow">TM</highlight></sup>
+    title: Pearcoin<sup>TM</sup>
     description: >- 
       Category: <a href="/bussim/others">Others</a>
     image: ''
@@ -19,13 +19,13 @@ html:
     - type: quote
       content:
        quote: no way, you're rich now!!!!!
-       author: <highlight type="rainbow">Pearcoin</highlight><sup><highlight type="rainbow">TM</highlight></sup>
+       author: Pearcoin<sup>TM</sup>
     - type: section
       content:
         size: normal
         title: Info
         description: >- 
-         The <highlight type="rainbow">Pearcoin</highlight><sup><highlight type="rainbow">TM</highlight></sup> is a gamepass that is only obtainable through <a href='/bussim/npcs/pear'>Pear</a>, 
+         The Pearcoin<sup>TM</sup> is a gamepass that is only obtainable through <a href='/bussim/npcs/pear'>Pear</a>, 
          or through somebody's inventory, 
          and costs 2 R$ to purchase. 
          The item doesn't appear in your inventory.
@@ -41,7 +41,7 @@ html:
 
          <br><br>
 
-         Anytime the <highlight type="rainbow">Pearcoin</highlight><sup><highlight type="rainbow">TM</highlight></sup> gets brought up by a character, 
+         Anytime the Pearcoin<sup>TM</sup> gets brought up by a character, 
          <note tooltip-text="although this one doesnt have it for a reason lol - Nyx">it always has wavy rainbow text.</note>
 
     - type: section
@@ -50,7 +50,7 @@ html:
 
     - type: tree
       content:
-        - name: If you check the <highlight type="rainbow">Pearcoin</highlight><sup><highlight type="rainbow">TM</highlight></sup> via the Passes section in your Inventory, it's related to a game that skatecar01 has owned called <a href='https://www.roblox.com/games/4588945770/Map-Beach'>Map_Beach</a>.
+        - name: If you check the Pearcoin<sup>TM</sup> via the Passes section in your Inventory, it's related to a game that skatecar01 has owned called <a href='https://www.roblox.com/games/4588945770/Map-Beach'>Map_Beach</a>.
 
 
     - type: gallery
