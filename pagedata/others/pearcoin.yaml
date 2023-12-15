@@ -1,15 +1,15 @@
 page:
-  title: pearcoinTM
-  description: The pearcoin is a gamepass that is only obtainable through Pear, which allows you to get extra dialogues for frostbite.
+  title: PearcoinTM
+  description: The Pearcoin is a gamepass that is only obtainable through Pear, which allows you to get extra dialogues for frostbite.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Pearcoin
-  tags: pearcoin, others, pear scam
+  tags: Pearcoin, others, pear scam
 
 attributions:
   - "Ported By PolyframeX (@polyframex)"
 
 html:
   header:
-    title: <highlight type="rainbow">pearcoin</highlight><sup><highlight type="rainbow">TM</highlight></sup>
+    title: <highlight type="rainbow">Pearcoin</highlight><sup><highlight type="rainbow">TM</highlight></sup>
     description: >- 
       Category: <a href="/bussim/others">Others</a>
     image: ''
@@ -19,29 +19,29 @@ html:
     - type: quote
       content:
        quote: no way, you're rich now!!!!!
-       author: <highlight type="rainbow">pearcoin</highlight><sup><highlight type="rainbow">TM</highlight></sup>
+       author: <highlight type="rainbow">Pearcoin</highlight><sup><highlight type="rainbow">TM</highlight></sup>
     - type: section
       content:
         size: normal
         title: Info
         description: >- 
-         The <highlight type="rainbow">pearcoin</highlight><sup><highlight type="rainbow">TM</highlight></sup> is a gamepass that is only obtainable through <a href='/bussim/npcs/pear'>Pear</a>, 
+         The <highlight type="rainbow">Pearcoin</highlight><sup><highlight type="rainbow">TM</highlight></sup> is a gamepass that is only obtainable through <a href='/bussim/npcs/pear'>Pear</a>, 
          or through somebody's inventory, 
          and costs 2 R$ to purchase. 
          The item doesn't appear in your inventory.
-         All the pearcoin does is give you extra dialogues for <a href='/bussim/npcs/frostbite'>Frostbite</a>, 
+         All the Pearcoin does is give you extra dialogues for <a href='/bussim/npcs/frostbite'>Frostbite</a>, 
          <a href='/bussim/npcs/pear'>Pear</a>, 
          and <a href='/bussim/npcs/disc'>Disc</a>. 
          The gamepass is meant to be an "investment", 
          but is actually just a scam, 
          like cryptocurrency. 
-         You can only have one pearcoin at a time. 
-         If you show the pearcoin to Frostbite, 
+         You can only have one Pearcoin at a time. 
+         If you show the Pearcoin to Frostbite, 
          he will immediately gain your trust (if you give him an <a href='/bussim/items/ice-cream'>Ice Cream</a> before, however.)
 
          <br><br>
 
-         Anytime the <highlight type="rainbow">pearcoin</highlight><sup><highlight type="rainbow">TM</highlight></sup> gets brought up by a character, 
+         Anytime the <highlight type="rainbow">Pearcoin</highlight><sup><highlight type="rainbow">TM</highlight></sup> gets brought up by a character, 
          <note tooltip-text="although this one doesnt have it for a reason lol - Nyx">it always has wavy rainbow text.</note>
 
     - type: section
@@ -50,7 +50,7 @@ html:
 
     - type: tree
       content:
-        - name: If you check the <highlight type="rainbow">pearcoin</highlight><sup><highlight type="rainbow">TM</highlight></sup> via the Passes section in your Inventory, it's related to a game that skatecar01 has owned called <a href='https://www.roblox.com/games/4588945770/Map-Beach'>Map_Beach</a>.
+        - name: If you check the <highlight type="rainbow">Pearcoin</highlight><sup><highlight type="rainbow">TM</highlight></sup> via the Passes section in your Inventory, it's related to a game that skatecar01 has owned called <a href='https://www.roblox.com/games/4588945770/Map-Beach'>Map_Beach</a>.
 
 
     - type: gallery
