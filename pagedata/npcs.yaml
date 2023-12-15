@@ -111,7 +111,7 @@ html:
             listItemRedirect: /bussim/npcs/namerelf
           
           - listItemImage: /bussim-assets/images/npcs/noble.webp
-            listItemTitle: Noble
+            listItemTitle: NobleReign
             listItemDescription: >-
               NobleReign is an NPC in Bus Simulator. He is also the creator of Bus Simulator.
             listItemRedirect: /bussim/npcs/noble
