@@ -517,13 +517,11 @@
             function dialogueHandler() {
                 if (document[hidden]) {
                     dialogueRunning = true;
-                    console.log("The DialogueSystem is now being prevented to start any dialogues.")
                 } else {
                     dialogueRunning = false;
-                    console.log("The DialogueSystem Script is now Active.")
                 }
             }
-        
+
             document.addEventListener(visibilityChange, dialogueHandler, false);
         </script>
 
@@ -542,60 +540,8 @@
             });
         </script>
 
-        <script>
-            var tooltip;
-        
-            document.addEventListener('DOMContentLoaded', function () {
-                tooltip = document.getElementById('custom-tooltip');
-            });
-        
-            function showTooltip(event) {
-                var tooltipTrigger = event.target;
-                var tooltipText = tooltipTrigger.getAttribute('data-tooltip-text');
-                
-                setContent(tooltip, tooltipText);
-                displayTooltip(tooltip);
-                animateTooltip(tooltip, event.clientX + 25, event.clientY + 25);
-            }
-        
-            function hideTooltip() {
-                hideElement(tooltip);
-            }
-        
-            function updateTooltipPosition(event) {
-                if (isElementVisible(tooltip)) {
-                    animateTooltip(tooltip, event.clientX + 25, event.clientY + 25);
-                }
-            }
-        
-            function setContent(element, content) {
-                element.textContent = content;
-            }
-        
-            function displayTooltip(element) {
-                showElement(element);
-            }
-        
-            function animateTooltip(element, x, y) {
-                gsap.to(element, { x: x, y: y, duration: 1, ease: 'Power0.easeNone' });
-            }
-        
-            function hideElement(element) {
-                element.style.opacity = '0';
-            }
-        
-            function showElement(element) {
-                element.style.opacity = '1';
-            }
-        
-            function isElementVisible(element) {
-                return window.getComputedStyle(element).display !== '0';
-            }
-
-            document.addEventListener('mousemove', updateTooltipPosition);
-        </script>
-
         <script src="https://unpkg.com/gsap@3.9.0"></script>
+        <script src="/bussim-assets/scripts/tooltip.js" defer></script>
         <script src="/bussim-assets/scripts/dialogueSystem.js" defer></script>
         <script src="/bussim-assets/scripts/dialogueEmulator.js" defer></script>
     </body>
