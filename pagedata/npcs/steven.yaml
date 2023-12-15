@@ -51,15 +51,15 @@ html:
       content:
         - name: "\"Uh, hey.\""
           children:
-            - name: "What are you doing back here?"
+            - name: "Option 1: What are you doing back here?"
+            - name: "Option 2: [Leave quietly.]"
               children:
                 - name: "\"I'm just trying to eat lunch.\""
                   children:
-                    - name: "Option 1: [Leave quietly.]"
-                    - name: "Option 2: Why is there a body behind you?"
+                    - name: "Option 1: Why is there a body behind you?"
                       children:
                         - name: "\"Body? What body?\""
-                    - name: "Option 3: Oookay..."
+                    - name: "Option 2: Oookay... [Leave.]"
 
     - type: section
       content:

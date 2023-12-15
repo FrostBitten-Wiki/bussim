@@ -10,6 +10,10 @@
             [
                 "What are you doing back here?",
                 ["query"]
+            ],
+            [
+                "<font color='#ffaf00'>[Leave.]</font>",
+                ["start"]
             ]
         ],
         "controls": [
@@ -26,15 +30,11 @@
 
         "choices": [
             [
-                "<font color='#ffaf00'>[Leave quietly.]</font>",
-                ["start"]
-            ],
-            [
                 "Why is there a body behind you?",
                 ["optA2"]
             ],
             [
-                "<font color='#ffaf00'>Oookay...</font>",
+                "<font color='#ffaf00'>Oookay... [Leave Quitely.]</font>",
                 ["start"]
             ]
         ],
