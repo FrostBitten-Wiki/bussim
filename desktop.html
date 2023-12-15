@@ -316,7 +316,7 @@
                                 </div>
                             {% elif size == "small" %}
                                 <div style="margin-top: 20px; margin-bottom: 35px;" id="{{ data['content']['title'] | lower | replace(' ', '-') }}">
-                                    <text style="font-size: 20px;">{{ data['content']['title'] }}</text>
+                                    <text style="font-size: 20px;">{{ data['content']['title'] }}</text><br>
                                     <text>{{ data['content']['description'] }}</text>
                                 </div>
                             {% endif %}
@@ -433,7 +433,7 @@
                                 </div>
                             </div>
                         {% elif data['type'] == "npcChat" %}
-                            <div id="{{ data['content']['id'] }}-dialogue" class="checkBg" style="margin-top: 20px; margin-bottom: 5px; padding: 10px; --color1: grey; --color2: white; --color3: grey; width: calc(100% - 28px); height: 150px;" onclick="window.{{ data['content']['id'] }}dialogueDelay = document.getElementById(`{{ data['content']['id'] }}-name`).textContent.length / 2">
+                            <div id="{{ data['content']['id'] }}-dialogue" class="checkBg" style="margin-top: 20px; margin-bottom: 5px; padding: 10px; --color1: grey; --color2: white; --color3: grey; width: calc(100% - 28px); height: 150px;" onclick="window.{{ data['content']['id'] }}dialogueDelay = 5">
                                 <text id="{{ data['content']['id'] }}-name" style="font-size: 20px;"></text><br>
                                 <text id="{{ data['content']['id'] }}-chat"></text>
                             </div>
