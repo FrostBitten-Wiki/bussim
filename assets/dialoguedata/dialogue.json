@@ -300,7 +300,14 @@
                 [[3000, 25], "Tazer", "default", "If you ever find yourself in a sticky situation in the backwalls, you can use liquid void to camouflage yourself."]
             ]
         },
-
+        
+        "tazer009": {
+            "rarity": 100,
+            "dialogue": [
+                [[15000, 25], "Tazer", "point", "Did you know?"],
+                [[3000, 25], "Tazer", "point", "Well, now you do!"]
+            ]
+        },
         
         
         "zeon001": {
