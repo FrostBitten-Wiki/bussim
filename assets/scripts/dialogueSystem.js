@@ -175,3 +175,24 @@ function randomDialogueEvent(force, id) {
 }
 
 setInterval(() => randomDialogueEvent(), 2500);
+
+if (typeof document.hidden !== "undefined") {
+    var hidden = "hidden";
+    var visibilityChange = "visibilitychange";
+} else if (typeof document.msHidden !== "undefined") {
+    var hidden = "msHidden";
+    var visibilityChange = "msvisibilitychange";
+} else if (typeof document.webkitHidden !== "undefined") {
+    var hidden = "webkitHidden";
+    var visibilityChange = "webkitvisibilitychange";
+}
+
+function dialogueHandler() {
+    if (document[hidden]) {
+        dialogueRunning = true;
+    } else {
+        dialogueRunning = false;
+    }
+}
+
+document.addEventListener(visibilityChange, dialogueHandler, false);

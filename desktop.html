@@ -494,55 +494,9 @@
                 <div id="speakerImage" class="dialogue" style="object-fit: cover; transform: scale(37.1%, 37.1%); -moz-transform: scale(37.1%, 37.1%);  position: absolute; bottom: -123px; right: -140px;"></div>
             </div>
         </div>
-        
-        <script>
-            if (typeof document.hidden !== "undefined") {
-                var hidden = "hidden";
-                var visibilityChange = "visibilitychange";
-            } else if (typeof document.msHidden !== "undefined") {
-                var hidden = "msHidden";
-                var visibilityChange = "msvisibilitychange";
-            } else if (typeof document.webkitHidden !== "undefined") {
-                var hidden = "webkitHidden";
-                var visibilityChange = "webkitvisibilitychange";
-            }
-        
-            function dialogueHandler() {
-                if (document[hidden]) {
-                    dialogueRunning = true;
-                } else {
-                    dialogueRunning = false;
-                }
-            }
-
-            document.addEventListener(visibilityChange, dialogueHandler, false);
-        </script>
-
-        <script defer>
-            var buttons = document.querySelectorAll('button');
-            var notes = document.querySelectorAll('note'); //non-existing class, although used for tooltip noting!
-        
-            buttons.forEach(function(button) {
-                button.addEventListener('click', function() {
-                    playSound("buttonclick", 1, "none")
-                });
-        
-                button.addEventListener('mouseenter', function() {
-                    playSound("buttonhover", 1, "none")
-                });
-            });
-
-            notes.forEach(function(item) {
-                item.onmouseover = function(event) {
-                    showTooltip(event)
-                };
-                item.onmouseout = function(event) {
-                    hideTooltip()
-                };
-            })
-        </script>
 
         <script src="https://unpkg.com/gsap@3.9.0" defer></script>
+        <script src="/bussim-assets/scripts/others.js" defer></script>
         <script src="/bussim-assets/scripts/tooltip.js" defer></script>
         <script src="/bussim-assets/scripts/dialogueSystem.js" defer></script>
         <script src="/bussim-assets/scripts/dialogueEmulator.js" defer></script>
