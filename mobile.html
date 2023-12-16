@@ -2,7 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=0.75">
+
         {% if page %}
             <title>Bus Simulator: {{ page["title"] }}</title>
             <meta name="description" content="{{ page["description"] }}">
@@ -41,8 +42,8 @@
         {% endif %}
 
         <link rel="stylesheet" href="/bussim-assets/dialogue.css">
-        
-        <audio id="soundSource" controls autoplay style="display: none;">
+            
+        <audio id="soundSource" style="display: none;">
             <source type="audio/mp3">
         </audio>
     </head>
@@ -51,7 +52,7 @@
         <style>
             #searchScreen {
                 position: fixed;
-                height: 500px; width: 100vw;
+                height: 50%; width: 100vw;
                 background: #10099680;
                 backdrop-filter: blur(5px);
 
@@ -74,7 +75,7 @@
             }
         </style>
         
-        <div id="searchScreen" style="bottom: -445px;">
+        <div id="searchScreen" style="bottom: -50vh;">
             <div style="transition: margin 500ms; margin-top: 30px; margin-left: 10vw; margin-right: 10vw; box-sizing: border-box;">
                 <text style="font-size: 35px;">Search Results</text>
 
@@ -87,17 +88,17 @@
         <div style="background-color: #100996; position: fixed; bottom: 0; height: 55px; width: 100%; z-index: 5;">
             <div class="sidebar sidebarMenu" id="mainMenu" style="display: flex; position: absolute; top: 0; left: 0; flex-direction: row;">
                 <button onclick="location.href='/bussim'">
-                    <img src="/assets/home.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <img src="/bussim-assets/images/menuIcons/home.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Home</text>
                 </button>
 
                 <button onclick="navigateMenu('wikiPages')">
-                    <img src="/assets/books.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <img src="/bussim-assets/images/menuIcons/books.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Wiki</text>
                 </button>
 
                 <button onclick="navigateMenu('otherStuff')">
-                    <img src="/assets/others.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <img src="/bussim-assets/images/menuIcons/menuothers.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Other Stuff</text>
                 </button>
 
@@ -111,7 +112,7 @@
                         const isSearchBar = searchBar.contains(event.target);
 
                         if (!isSearchScreen && !isSearchBar) {
-                            searchScreen.style.bottom = '-445px';
+                            searchScreen.style.bottom = '-50vh';
                         }
                     });
                     
@@ -158,7 +159,7 @@
 
             <div class="sidebar sidebarMenu" id="wikiPages" style="display: none; position: absolute; top: 0; left: 0; flex-direction: row;">
                 <button onclick="navigateMenu('mainMenu')" type="menuBack">
-                    <img src="/assets/back.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <img src="/bussim-assets/images/menuIcons/back.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Back to Menu</text>
                 </button>
             
@@ -200,34 +201,34 @@
             
             <div class="sidebar sidebarMenu" id="otherStuff" style="display: none; position: absolute; top: 0; left: 0; flex-direction: row;">
                 <button onclick="navigateMenu('mainMenu')" type="menuBack">
-                    <img src="/assets/back.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <img src="/bussim-assets/images/menuIcons/back.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Back to Menu</text>
                 </button>
             
                 <button onclick="location.href='/bussim/contributors'">
-                    <img src="/assets/contributors.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <img src="/bussim-assets/images/menuIcons/contributors.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Contributors</text>
                 </button>
             
                 <button onclick="window.open('https://github.com/FrostBitten-Wiki/bussim', '_blank')">
-                    <img src="/assets/github.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <img src="/bussim-assets/images/menuIcons/github.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Wiki Repository</text>
                 </button>
             </div>
 
             <div class="sidebar" style="position: absolute; top: 0; right: 0; flex-direction: row-reverse;">
                 <button onclick="randomDialogueEvent(true)">
-                    <img src="/assets/books.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <img src="/bussim-assets/images/menuIcons/books.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Force Dialogue</text>
                 </button>
             
                 <button onclick="window.open('https://discord.gg/frostbitegames', '_blank')">
-                    <img src="/assets/discord.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <img src="/bussim-assets/images/menuIcons/discord.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">FrostBitten Games</text>
                 </button>
             
                 <button onclick="window.open('https://discord.gg/pNnMKKg', '_blank')">
-                    <img src="/assets/discord.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <img src="/bussim-assets/images/menuIcons/discord.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Bus Simulator Discord</text>
                 </button>
             </div>
@@ -250,6 +251,10 @@
 
                 navigateMenu(activeMenu);
             </script>
+        </div>
+
+        <div style="position: fixed; top: 0; width: 100%;">
+            <div class="tooltip" id="custom-tooltip"></div>
         </div>
 
         {% if html %}
@@ -311,7 +316,7 @@
                                 </div>
                             {% elif size == "small" %}
                                 <div style="margin-top: 20px; margin-bottom: 35px;" id="{{ data['content']['title'] | lower | replace(' ', '-') }}">
-                                    <text style="font-size: 25px;">{{ data['content']['title'] }}</text>
+                                    <text style="font-size: 20px;">{{ data['content']['title'] }}</text><br>
                                     <text>{{ data['content']['description'] }}</text>
                                 </div>
                             {% endif %}
@@ -428,87 +433,40 @@
                                 </div>
                             </div>
                         {% elif data['type'] == "npcChat" %}
-                            <div id="{{ data['content']['id'] }}-dialogue" class="checkBg" style="margin-top: 20px; margin-bottom: 5px; padding: 5px; --color1: grey; --color2: white; --color3: grey; width: 100%; height: 150px;">
+                            <div id="{{ data['content']['id'] }}-dialogue" class="checkBg" style="margin-top: 20px; margin-bottom: 5px; padding: 10px; --color1: grey; --color2: white; --color3: grey; width: calc(100% - 28px); height: 150px;" onclick="window.{{ data['content']['id'] }}dialogueDelay = 5">
                                 <text id="{{ data['content']['id'] }}-name" style="font-size: 20px;"></text><br>
                                 <text id="{{ data['content']['id'] }}-chat"></text>
                             </div>
 
-                            <div id="{{ data['content']['id'] }}-choices" style="padding: 0; display: flex; gap: 0 10px; margin-bottom: 30px;">
+                            <text id="{{ data['content']['id'] }}-note" style="margin-top: 5px; margin-bottom: 10px;"></text>
 
+                            <div id="{{ data['content']['id'] }}-choices" style="padding: 0; gap: 0 5px;  display: flex; justify-content: space-between; align-items: center;">
                             </div>
                             
-                            <script>
-                                // this looks so wrong... at least it works though
-                                let {{ data["content"]["id"] }}Data;
+                            <div id="{{ data['content']['id'] }}-controls" style="padding: 0; gap: 0 5px;  display: flex; justify-content: space-between; align-items: center; margin-bottom: 27px;">
+                            </div>
 
-                                const dialogueName = document.getElementById("{{ data['content']['id'] }}-name")
-                                const dialogueText = document.getElementById("{{ data['content']['id'] }}-chat")
-                                const dialogueBox = document.getElementById("{{ data['content']['id'] }}-dialogue")
-
-                                window.onload = function() {
+                            <script defer>
+                                var {{ data['content']['id'] }}chatDataset;
+                                var {{ data['content']['id'] }}dialogueDelay = 25;
+                                
+                                window.addEventListener('load', function() {
                                     fetch("{{ data['content']['chatData'] }}")
-                                    .then(response => response.json())
-                                    .then(data => {
-                                        {{ data["content"]["id"] }}Data = data;
-                                        changeDialogue("startDialogue")
-                                    })
-                                    .catch(error => console.error('Error fetching data:', error));
-                                    
-                                }
-
-                                function changeDialogue(dialogueId) {
-                                    const chatData = {{ data["content"]["id"] }}Data[dialogueId];
-                                    const userData = chatData[chatData.name];
-
-                                    dialogueBox.style.setProperty('--color1', dialogueData.characterData[chatData.name]["dialogueColors"][0]);
-                                    dialogueBox.style.setProperty('--color2', dialogueData.characterData[chatData.name]["dialogueColors"][1]);
-                                    dialogueBox.style.setProperty('--color3', dialogueData.characterData[chatData.name]["dialogueColors"][2]);
-
-                                    dialogueName.innerText = chatData.name;
-                                    dialogueText.innerText = random(chatData.text);
-
-                                    playSound(dialogueData.characterData[chatData.name]["dialogueSfx"]);
-
-                                    const choices = document.getElementById("{{ data['content']['id'] }}-choices");
-                        
-                                    choices.innerHTML = '';
-                                    chatData.choices.forEach(item => {
-                                        const element = document.createElement('div');
-                                        element.innerHTML = `
-                                        <button onclick="changeDialogue('${item[1]}')">
-                                            <text type="hoverText">${item[0]}</text>
-                                        </button>
-                                        `;
-                                        choices.appendChild(element);
-                                    });
-                                }
+                                        .then(response => response.json())
+                                        .then(data => {
+                                            console.log(data);
+                                            {{ data["content"]["id"] }}chatDataset = data;
+                                            console.log("dataset append -> {{ data['content']['id'] }}");
+                                            changeDialogue("{{ data['content']['id'] }}", "{{ data['content']['startId'] }}");
+                                        })
+                                        .catch(error => console.error('Failed to load data: ', error));
+                                });
 
                             </script>
                         {% endif %}
                     {% endfor %}
-
-                    <style>
-                        button {
-                            background-color: #1a149c;
-
-                            width: auto;
-                            height: 35px;
-                            border: none;
-                            transition: 0.3s;
-                            align-items: center;
-                            display: flex;
-                            justify-content: space-between;
-                            overflow: hidden;
-                            margin-bottom: 5px;
-                        }
-
-                        button:hover {
-                            cursor: pointer;
-                            color: white;
-                            background-color: #2c269a;
-                        }
-                    </style>
                     
+
                     {% if attributions != [] %}
                     <div style="margin-top: 10px; margin-bottom: 20px;">
                         {% for attr in attributions %}
@@ -524,11 +482,12 @@
         </div>
         {% endif %}
 
-        <div id="speakerPopup" class="checkBg" style="transition: bottom 1s; user-select: none; --color1: #6d6d6d; --color2: #9d9d9d; --color3: white; position: fixed; bottom: -165px; right: 10px; width: 550px; height: 110px; gap: 10px;">
+        <div id="speakerPopup" class="checkBg" style="transition: bottom 1s; user-select: none; --color1: #6d6d6d; --color2: #9d9d9d; --color3: white; position: fixed; bottom: -165px; right: 10px; width: 550px; height: 110px; gap: 15px;">
             <text id="speakerId" style="position: absolute; top: -15px; left: 0; font-size: 10px; opacity: 0.3;"></text>
-            <div id="" style="display: grid; grid-template-columns: 1fr 150px;">
-                <div style="padding: 10px;">
-                    <text id="speakerName" style="font-size: 23px;"></text><br>
+
+            <div style="display: grid; grid-template-columns: 1fr 165px;">
+                <div style="padding: 7px;">
+                    <text id="speakerName" style="font-size: 20px;"></text><br>
                     <text id="speakerText"></text>
                 </div>
 
@@ -551,16 +510,41 @@
             function dialogueHandler() {
                 if (document[hidden]) {
                     dialogueRunning = true;
-                    console.log("The DialogueSystem is now being prevented to start any dialogues.")
                 } else {
                     dialogueRunning = false;
-                    console.log("The DialogueSystem Script is now Active.")
                 }
             }
-        
+
             document.addEventListener(visibilityChange, dialogueHandler, false);
         </script>
 
+        <script defer>
+            var buttons = document.querySelectorAll('button');
+            var notes = document.querySelectorAll('note'); //non-existing class, although used for tooltip noting!
+        
+            buttons.forEach(function(button) {
+                button.addEventListener('click', function() {
+                    playSound("buttonclick", 1, "none")
+                });
+        
+                button.addEventListener('mouseenter', function() {
+                    playSound("buttonhover", 1, "none")
+                });
+            });
+
+            notes.forEach(function(item) {
+                item.onmouseover = function(event) {
+                    showTooltip(event)
+                };
+                item.onmouseout = function(event) {
+                    hideTooltip()
+                };
+            })
+        </script>
+
+        <script src="https://unpkg.com/gsap@3.9.0" defer></script>
+        <script src="/bussim-assets/scripts/tooltip.js" defer></script>
         <script src="/bussim-assets/scripts/dialogueSystem.js" defer></script>
+        <script src="/bussim-assets/scripts/dialogueEmulator.js" defer></script>
     </body>
 </html>
