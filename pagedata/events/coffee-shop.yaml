@@ -13,7 +13,7 @@ html:
     description: >-
      Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>CoffeeShop</highlight>
     image: ''
-    imageBanner: /bussim-assets/images/events/coffee-shop.webp
+    imageBanner: /bussim-assets/images/events/coffeeshopleak.webp
 
   pageContent:
     - type: section
