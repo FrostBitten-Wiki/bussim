@@ -80,7 +80,7 @@ html:
             - name: "Option 1: Sorry, just walking by."
             - name: "Option 2: Let's talk!"
               children:
-                - name: "Variant 1 <small>(If player count is below 5)</small>: \"I mean, it is pretty lonely in here..\""
+                - name: "Variant 1 <small>(If the player count is below 5)</small>: \"I mean, it is pretty lonely in here..\""
                 - name: "Variant 2 <small>(If there's one other player in the server)</small>: \"You done talking to [Other Player]? Well, uhh...\""
                 - name: "Variant 3 <small>(If there's one other player in the server)</small>: \"You finally tired of talking to [Other Player]? Then, uhhhh...\""
                 - name: "Variant 2 <small>(otherwise)</small>: \"There's like [Number of players in the server) on the bus and you wanna talk to me? Okay, uh...\""
@@ -140,7 +140,7 @@ html:
                               children:
                                 - name: "The player is prompted to buy a Pearcoin for 2 Robux."
                                   children:
-                                    - name: "If player already owns a Pearcoin:"
+                                    - name: "If the player already owns a Pearcoin:"
                                       children:
                                         - name: "\"Oh, right! I forgot to tell you. There's a limit on how much <highlight type=\"rainbow\">pearcoin</highlight><sup><highlight type=\"rainbow\">TM</highlight></sup> you can purchase~! It's one. You can only buy one <highlight type=\"rainbow\">pearcoin</highlight><sup><highlight type=\"rainbow\">TM</highlight></sup>. That's why its singular, not plural!\""
                                     - name: "If the player buys it:"
@@ -153,7 +153,7 @@ html:
                     - name: "Variant 5: \"My favorite pizza is just plain cheese pizza!\""
                       children:
                         - name: "\"Though black olives are good too...\""
-                        - name: "\"If player has given Pear a Cheese Pizza in the game pizza:\""
+                        - name: "\"If the player has given Pear a Cheese Pizza in the game pizza:\""
                           children:
                             - name: "\"You've already given me one before though~!\""
                     - name: "Variant 6: \"Today feels like any other day, honestly, Wonder if you feel the same?\""

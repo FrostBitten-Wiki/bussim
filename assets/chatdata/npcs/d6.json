@@ -451,7 +451,7 @@
         "name": "D6",
 
         "text": [
-            ["you're not trying to use a different account to cheat the system are you","Only appears if player has selected this option on a different account under the same device"]
+            ["you're not trying to use a different account to cheat the system are you","Only appears if the player has selected this option on a different account under the same device"]
         ],
 
         "choices": [

@@ -652,15 +652,15 @@
 
         "choices": [
             [
-                "If player has RAM Stick",
+                "If the player has RAM Stick",
                 ["ramA1"]
             ],
             [
-                "If player has Illegal RAM Stick",
+                "If the player has Illegal RAM Stick",
                 ["ramA2"]
             ],
             [
-                "If player has RAM stick before being asked by Tazer",
+                "If the player has RAM stick before being asked by Tazer",
                 ["ramA3"]
             ]
         ],

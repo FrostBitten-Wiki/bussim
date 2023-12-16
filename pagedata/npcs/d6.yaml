@@ -87,14 +87,14 @@ html:
                          - name: "\"give me the controller\""
                            children:
                               - name: "No thanks."
-               - name: "Variant 2 <small>(if player has previously selected this option within the last 12 hours)</small>:"
+               - name: "Variant 2 <small>(if the player has previously selected this option within the last 12 hours)</small>:"
                  children:
                     - name: "Variant 2A (default):"
                       children:
                          - name: "\"you've had enough wisdom for today. come back tomorrow\""
                            children:
                               - name: "Ok."
-                    - name: "Variant 2B <small>(if player has selected this option on a different account under the same device)</small>:"
+                    - name: "Variant 2B <small>(if the player has selected this option on a different account under the same device)</small>:"
                       children:
                          - name: "\"hey...\" \"you're not trying to use a different account to cheat the system are you\" \"for shame\" \"i'll still give you the wisdom though\""
                            children:

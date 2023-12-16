@@ -215,7 +215,7 @@ html:
                 - name: "Variant 1: \"Oh, you wanna checkout? Alright!\""
                 - name: "Variant 2: \"Let me help with that!\""
                   children:
-                    - name: "If player has no items to buy / bought something already:"
+                    - name: "If the player has no items to buy / bought something already:"
                       children:
                         - name: "Variant 1: \"So, no items? Ok...\""
                         - name: "Variant 2: \"Well, I guess I could check out that little speck of dust for 0.01 rep. But I'm not gonna accept that!\""
@@ -260,7 +260,7 @@ html:
                             - name: "Option 4: No thanks."
                               children:
                                 - name: "\"Oh.. well, if you change your mind, let me know!\""
-                    - name: "If player's [total price] exceeds their current Passenger Rep:"
+                    - name: "If the player's [total price] exceeds their current Passenger Rep:"
                       children:
                         - name: "Variant 1: \"Sorry, but you don't have enough rep to purchase that!\""
                         - name: "Variant 2: \"Hey [Player], if you look to the top of your screen, you'll see that you don't have enough rep to purchase this...\""

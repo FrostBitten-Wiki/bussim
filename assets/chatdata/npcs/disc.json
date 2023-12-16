@@ -1953,7 +1953,7 @@
 
         "choices": [
             [
-                "If player has no items to buy",
+                "If the player has no items to buy",
                 ["checkoutA1"]
             ],
             [
@@ -1961,7 +1961,7 @@
                 ["checkoutA2"]
             ],
             [
-                "If player's total price exceeds their current Passenger Rep",
+                "If the player's total price exceeds their current Passenger Rep",
                 ["checkoutA3"]
             ]
         ],
