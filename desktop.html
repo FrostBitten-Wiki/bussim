@@ -424,9 +424,9 @@
                             {% endfor %}
 
                             <div>
-                                <div style="padding: 0; display: flex; gap: 0 10px;">
+                                <div style="padding: 0; gap: 0 5px;  display: flex; justify-content: space-between; align-items: center;">
                                     {% for data in data["content"]["buttons"] %}
-                                        <button onclick="location.href=`{{ data[1] }}`">
+                                        <button style="flex: auto;" onclick="location.href=`{{ data[1] }}`">
                                             <text type="hoverText">{{ data[0] }}</text>
                                         </button>
                                     {% endfor %}
