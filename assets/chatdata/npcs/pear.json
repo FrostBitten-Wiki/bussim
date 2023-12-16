@@ -92,7 +92,7 @@
     },
 
     "pear_letstalk_choosevariant": {
-        "name": "You",
+        "name": "System",
         
         "text": [
             "Choose the Variant you want to happen for \"Let's Talk!\". (Page 1/2)"
@@ -151,7 +151,7 @@
     },
 
     "pear_letstalk_choosevariant_a": {
-        "name": "You",
+        "name": "System",
         
         "text": [
             "Choose the Variant you want to happen for \"Let's Talk!\". (Page 2/2)"
@@ -356,7 +356,7 @@
         "name": "Pear",
         
         "text": [
-            "Although thus bus ride has gone on for so long.. it gave me a lot of time to just think..."
+            "Although this bus ride has gone on for so long.. it gave me a lot of time to just think..."
         ],
 
         "choices": [
@@ -473,7 +473,7 @@
     },
 
     "pear_letstalk_variant3_purchaseprompt": {
-        "name": "You",
+        "name": "System",
         
         "text": [
             "You are then prompted with purchasing a random clothing of Pear."
@@ -507,10 +507,10 @@
     },
 
     "pear_letstalk_variant3_purchasedclothing": {
-        "name": "You",
+        "name": "System",
         
         "text": [
-            "The clothing you bought is then applied to your avatar. Overriding any clothing you're wearing, although does not persit on Player Respawn."
+            "The clothing you bought is then applied to your avatar. Overriding any clothing you're wearing, although does not persist upon respawning"
         ],
 
         "choices": [
@@ -700,7 +700,7 @@
     },
 
     "pear_letstalk_variant4_pearcoinMachine": {
-        "name": "You",
+        "name": "System",
         
         "text": [
             "You are then prompted with purchasing Pearcoin."
@@ -1170,7 +1170,7 @@
     },
 
     "pear_letstalk_variant10_tellmore_imin_prompt": {
-        "name": "You",
+        "name": "System",
         
         "text": [
             "You are then prompted with inviting your friends."
@@ -1273,7 +1273,7 @@
     },
 
     "pear_letstalk_variant11_playnow_prompt": {
-        "name": "You",
+        "name": "System",
         
         "text": [
             "You are then teleported to the game, Kit Battle."
@@ -1528,7 +1528,7 @@
     },
 
     "pear_letstalk_variant11_minor_whatsup_umhi_a": {
-        "name": "You",
+        "name": "System",
 
         "text": [
             "Pear then chooses a random dialogue line."
