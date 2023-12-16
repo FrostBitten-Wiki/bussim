@@ -107,7 +107,7 @@ html:
                 - name: "\"no.\""
             - name: "Option 5: This button kills you."
               children:
-                - name: "<small(The player dies)</small>"
+                - name: "<small>(The player dies)</small>"
             
 
     - type: table
