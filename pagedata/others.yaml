@@ -113,7 +113,7 @@ html:
               This page will go over them, and give short explanations of them.
             listItemRedirect: /bussim/others/ranks-tags
           
-          - listItemImage: /bussim-assets/images/others/repuation.webp
+          - listItemImage: /bussim-assets/images/others/reputation.webp
             listItemTitle: Reputation
             listItemDescription: >-
               Reputation (or more commonly known as 'rep') is a statistic in Bus Simulator that works either as collection for milestones like as

@@ -425,3 +425,8 @@ html:
             - name: "[BREAKING NEWS]: The previous record holder was <old champion name> with <amounts of round done>."
               children:
                 - name: "Both of these are broadcasted everywhere regardless of server."
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/others/news.webp

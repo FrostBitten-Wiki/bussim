@@ -85,3 +85,8 @@ html:
         - name: Despite the <a href='/bussim/items/mini-bus'>Mini Bus</a> being and acting like a vehicle, it doesn't share similar properties to the other vehicles mentioned.
         - name: Since Ice Cream Trucks can spawn at the very start of the road when the bus has stopped, you might need to use the <a href='/bussim/items/mini-bus'>Mini Bus</a> or anything fast to get past the invisible barrier.
         - name: In very rare cases, ramming vehicles with the <a href='/bussim/items/mini-bus'>Mini Bus</a> at high speeds (such as getting a large Mini-Boost prior to drifting) can cause vehicles to verge off course. This could be leveraged to intentionally make vehicles crash.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/others/vehicles.webp

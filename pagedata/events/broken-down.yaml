@@ -40,3 +40,8 @@ html:
         - name: This can technically be considered the longest event in the game, given how without any human interference it will last forever until someone pushes it back to normal.
           children:
             - name: Due to this, it also allows those especially in smaller, less active servers to get to the <a href='/bussim/others/vehicles'>Ice Cream Trucks</a> without much worry.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/events/broken-down.webp

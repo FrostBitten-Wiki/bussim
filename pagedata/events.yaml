@@ -124,7 +124,7 @@ html:
               After some time has passed, the driver will mention an oddity within the burgers and afterwards leave, ending the event.
             listItemRedirect: /bussim/events/bloxdonalds
       
-          - listItemImage: /bussim-assets/images/events/broken_down.webp
+          - listItemImage: /bussim-assets/images/events/broken-down.webp
             listItemTitle: Broken Down
             listItemDescription: >-
               Broken Down is a simple event in Bus Simulator where <highlight>The Bus</highlight> breaks down in the middle of the road,

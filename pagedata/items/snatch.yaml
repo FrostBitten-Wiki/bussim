@@ -48,3 +48,8 @@ html:
         - name: The Snatch Item has the ability to pick people up at all times, even when inside a seat.
         - name: When a player tries picking up somebody while being held, typically this will override being held, dropping the player.
         - name: The Snatch Item can be used to noclip carried people through walls.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/items/snatch.webp
