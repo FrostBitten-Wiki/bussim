@@ -279,3 +279,8 @@ html:
         - name: If you're holding onto an object with collision and it disappears (i.e. Traffic Light), you're able to hold onto it as long as you keep the trigger held.
         - name: Other players can physically get in the way of your keyboard when you're trying to type.
         - name: When you put away the Mini-Bus, some of your accessories will be visible in your view, the issue varies depending on how many accessories appear in front of your avatar.
+
+    - type: gallery
+      content:
+        images:
+          - /bussim-assets/images/others/vr.webp
