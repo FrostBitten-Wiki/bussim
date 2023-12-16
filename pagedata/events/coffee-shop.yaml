@@ -63,7 +63,7 @@ html:
           - "Ingredients"
         items:
           - ["<a href='/bussim/items/coffee-shop/vanilla-almond-milk'>Vanilla Almond Milk</a>","???","???"]
-          - ["<a href='/bussim/items/coffee-shop/'>catpurrcino</a>","Gives that warm, fuzzy feeling to your tastebuds.","10ml cat <br></br>10ml cat <br></br>10ml cat"]
+          - ["<a href='/bussim/items/coffee-shop/catpurrcino'>Catpurrcino</a>","Gives that warm, fuzzy feeling to your tastebuds.","10ml cat <br></br>10ml cat <br></br>10ml cat"]
           - ["<a href='/bussim/items/coffee-shop/'>???</a>","???","???"]
           - ["<a href='/bussim/items/coffee-shop/'>???</a>","???","???"]
           - ["<a href=/bussim/items/coffee-shop/'>???</a>","???","???"]
