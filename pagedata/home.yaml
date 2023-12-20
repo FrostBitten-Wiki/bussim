@@ -11,7 +11,7 @@ html:
     title: Bus Simulator Wiki
     description: Welcome to the Officialy endorsed Bus Simulator Community Wiki!
     image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
   pageContent:
     - type: text
       content:

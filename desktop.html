@@ -217,6 +217,11 @@
             </div>
 
             <div class="sidebar" style="position: absolute; top: 0; right: 0; flex-direction: row-reverse;">
+                <button onclick="" type="menuBack">
+                    <img src="/bussim-assets/images/menuIcons/contributors.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <text type="hoverText">Log In</text>
+                </button>
+
                 <button onclick="randomDialogueEvent(true)">
                     <img src="/bussim-assets/images/menuIcons/books.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Force Dialogue</text>
@@ -409,7 +414,6 @@
                         {% elif data['type'] == "gallery" %}
                             <text style="font-size: 25px;" id="gallery">Gallery</text>
                             <div class="gallery-container" style="margin-bottom: 20px;">
-    
                                 <div class="gallery" style="padding: 10px;">
                                     {% for image in data["content"]["images"] %}
                                         <img src="{{ image }}" style="cursor: pointer;" onclick="location.href='{{ image }}'" alt="Open Image" loading="lazy">

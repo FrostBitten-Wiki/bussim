@@ -47,7 +47,7 @@ html:
     image: ""
 
     # this configures the header's banner. which is also visible to the embed.
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
 
   # This attribute handles the site's content. The type attribute (or class) is not fixed. you can add more of it.
   pageContent:
@@ -144,13 +144,13 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/banner.jpg
-          - /bussim-assets/images/banner.jpg
-          - /bussim-assets/images/banner.jpg
-          - /bussim-assets/images/banner.jpg
-          - /bussim-assets/images/banner.jpg
-          - /bussim-assets/images/banner.jpg
-          - /bussim-assets/images/banner.jpg
+          - /assets/bussim/images/banner.jpg
+          - /assets/bussim/images/banner.jpg
+          - /assets/bussim/images/banner.jpg
+          - /assets/bussim/images/banner.jpg
+          - /assets/bussim/images/banner.jpg
+          - /assets/bussim/images/banner.jpg
+          - /assets/bussim/images/banner.jpg
 
     # This adds an interactable dialogue to emulate talking to an NPC.
     # The chatData can be seen on /chatdata/npcChat.json for reference.
@@ -158,13 +158,13 @@ html:
       content:
         id: testing
         startId: startDialogue
-        chatData: /bussim-assets/chatdata/npcChat.json
+        chatData: /assets/bussim/chatdata/npcChat.json
 
     - type: npcChat
       content:
         id: mockup
         startId: startDialogue
-        chatData: /bussim-assets/chatdata/mockup.json
+        chatData: /assets/bussim/chatdata/mockup.json
 
     # This adds buttons to the content.
     - type: buttons

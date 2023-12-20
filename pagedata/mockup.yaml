@@ -16,7 +16,7 @@ html:
     description: >-
      Category: <a href="/bussim/others">Others</a>
     image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
 
   pageContent:
     - type: buttons
@@ -129,7 +129,7 @@ html:
           - "Lorem ipsum dolor"
         items:
           - ["consectetur adipiscing elit,", "consectetur adipiscing elit,", "consectetur adipiscing elit,"]
-          - ["sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "/bussim-assets/images/banner.jpg"]
+          - ["sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "/assets/bussim/images/banner.jpg"]
 
     - type: section
       content:
@@ -140,7 +140,7 @@ html:
       content:
         id: mockup
         startId: startDialogue
-        chatData: /bussim-assets/chatdata/mockup.json
+        chatData: /assets/bussim/chatdata/mockup.json
 
     - type: text
       content:
@@ -177,4 +177,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/banner.jpg
+          - /assets/bussim/images/banner.jpg
