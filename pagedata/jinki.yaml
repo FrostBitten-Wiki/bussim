@@ -21,30 +21,30 @@ attributions:
 content: |
   #[Section]
   Small text with no separator
-  
+
   now, you can [link](https://example.com) items with normal markdown\n
   and then some stuff: *italic*, **bold**, ***bold italic***\n
   and trees\n
-  
+
   - root
     - child
     - anohter
-  
+
   we can also h[highlight a text lol]\n
   or maybe highlight a text with hr[rainbows]\n
   or maybe if you want something to be greyed out, then hg[that also exists]
-  
+
   \n\n
-  
+
   you can also customize the font size with <10px>(this syntax), can also make it <25px>(bigger) if you want\n
   or maybe make this text\n
-  
+
   "quote here" -"Pear"
-  
-  !!DLEMULATOR EID:"emulatorId" SID:"start" URL:"/bussim-assets/chatdata/npcChat.json"
-  
+
+  !!DLEMULATOR EID:"emulatorId" SID:"startDialogue" URL:"/assets/bussim/chatdata/npcChat.json"
+
   heres a text that is v(placed below which is small) and a text ^(above which is also small)\n
-  
+
   | Header 1 | Header 2 |
   | -------- | -------- |
   | Cell 1   | Cell 2   |
@@ -53,7 +53,7 @@ content: |
   | Cell 1   | Cell 2   |
   | Cell 1   | Cell 2   |
   -----------------------
-  
+
   heres a list:
   !!LISTITEM IMAGE:"" TITLE:"Title Here" DESCRIPTION:"Some Description Here" REDIRECT:"/wiki/bussim/home"
   !!LISTITEM IMAGE:"" TITLE:"Title Here" DESCRIPTION:"Some Description Here" REDIRECT:""
@@ -61,5 +61,5 @@ content: |
   !!LISTITEM IMAGE:"" TITLE:"Title Here" DESCRIPTION:"Some Description Here" REDIRECT:""
   !!LISTITEM IMAGE:"" TITLE:"Title Here" DESCRIPTION:"Some Description Here" REDIRECT:""
   !!LISTITEM IMAGE:"" TITLE:"Title Here" DESCRIPTION:"Some Description Here" REDIRECT:""
-  
-  !!GALLERY [/bussim-assets/banner.jpg|/bussim-assets/banner.jpg|/bussim-assets/banner.jpg]
+
+  !!GALLERY [/assets/bussim/banner.jpg|/assets/bussim/banner.jpg|/assets/bussim/banner.jpg]
