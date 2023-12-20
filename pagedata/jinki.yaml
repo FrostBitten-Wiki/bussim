@@ -1,0 +1,57 @@
+page:
+  title: PageTitle
+  description: PageDescription
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some, tags, here
+
+  header:
+    title: TitleTest
+    description: >-
+      Category: <a href="/bussim/category-name">CategoryName</a>
+    
+    image: ""
+    imageBanner: /bussim-assets/images/banner.jpg
+
+attributions:
+  - Some Attribution Here
+
+# Write in JINKI format
+# For more info with jinki formatting, visit https://github.com/
+content: |
+  #[Section]
+  Small text with no separator
+
+  now, you can [link](https://example.com) items with normal markdown\n
+  and then some stuff: *italic*, **bold**, ***bold italic***\n
+  and trees\n
+
+  - root
+    - child
+    - anohter
+
+  we can also h[highlight a text lol]\n
+  or maybe highlight a text with hr[rainbows]\n
+  or maybe if you want something to be greyed out, then hg[that also exists]
+
+  \n\n
+
+  you can also customize the font size with <10px>(this syntax), can also make it <25px>(bigger) if you want\n
+  or maybe make this text\n
+
+  "quote here" -"Pear"
+
+  !!DLEMULATOR EID:"emulatorId" SID:"start" URL:"/bussim-assets/chatdata/npcChat.json"
+
+  heres a text that is v(placed below which is small) and a text ^(above which is also small)\n
+
+  | Header 1 | Header 2 |
+  | -------- | -------- |
+  | Cell 1   | Cell 2   |
+  | Cell 1   | Cell 2   |
+  | Cell 1   | Cell 2   |
+  | Cell 1   | Cell 2   |
+  | Cell 1   | Cell 2   |
+  -----------------------
+
+  !!GALLERY [/bussim-assets/banner.jpg|/bussim-assets/banner.jpg|/bussim-assets/banner.jpg]
