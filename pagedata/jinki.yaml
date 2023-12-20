@@ -11,7 +11,7 @@ page:
       Category: <a href="/bussim/category-name">CategoryName</a>
     
     image: ""
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
 
 attributions:
   - Some Attribution Here
@@ -41,7 +41,7 @@ content: |
 
   "quote here" -"Pear"
 
-  !!DLEMULATOR EID:"emulatorId" SID:"start" URL:"/bussim-assets/chatdata/npcChat.json"
+  !!DLEMULATOR EID:"emulatorId" SID:"start" URL:"/assets/bussim/chatdata/npcChat.json"
 
   heres a text that is v(placed below which is small) and a text ^(above which is also small)\n
 
@@ -54,4 +54,4 @@ content: |
   | Cell 1   | Cell 2   |
   -----------------------
 
-  !!GALLERY [/bussim-assets/banner.jpg|/bussim-assets/banner.jpg|/bussim-assets/banner.jpg]
+  !!GALLERY [/assets/bussim/banner.jpg|/assets/bussim/banner.jpg|/assets/bussim/banner.jpg]
