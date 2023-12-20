@@ -12,7 +12,7 @@ html:
     description: >-
       Category: <a href="/bussim/biomes">Biomes</a>
     image: ''
-    imageBanner: /bussim-assets/images/biomes/lava.webp
+    imageBanner: /assets/bussim/images/biomes/lava.webp
 
   pageContent:
     - type: section
@@ -36,4 +36,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/biomes/galleries/Lava.webp
+          - /assets/bussim/images/biomes/galleries/Lava.webp

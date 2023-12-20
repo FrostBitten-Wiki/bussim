@@ -13,7 +13,7 @@ html:
       Category: <a href="/bussim/biomes">Biomes</a>
 
     image: ''
-    imageBanner: /bussim-assets/images/biomes/forest.webp
+    imageBanner: /assets/bussim/images/biomes/forest.webp
 
   pageContent:
     - type: section
@@ -27,4 +27,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/biomes/galleries/Forest_Trees.webp
+          - /assets/bussim/images/biomes/galleries/Forest_Trees.webp

@@ -13,7 +13,7 @@ html:
       Category: <a href="/bussim/biomes">Biomes</a>
 
     image: ''
-    imageBanner: /bussim-assets/images/biomes/vaporwave.webp
+    imageBanner: /assets/bussim/images/biomes/vaporwave.webp
 
   pageContent:
     - type: section
@@ -31,4 +31,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/biomes/galleries/Vaporwave_Moon.webp
+          - /assets/bussim/images/biomes/galleries/Vaporwave_Moon.webp

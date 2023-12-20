@@ -12,7 +12,7 @@ html:
     description: >-
       Category: <a href="/bussim/biomes">Biomes</a>
     image: ''
-    imageBanner: /bussim-assets/images/biomes/snowy.webp
+    imageBanner: /assets/bussim/images/biomes/snowy.webp
 
   pageContent:
     - type: section
