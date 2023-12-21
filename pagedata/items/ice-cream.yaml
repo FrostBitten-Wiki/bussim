@@ -11,7 +11,7 @@ html:
     title: Ice Cream
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
   pageContent:
     - type: section
       content:
@@ -46,4 +46,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/items/ice-cream.webp
+          - /assets/bussim/images/items/ice-cream.webp

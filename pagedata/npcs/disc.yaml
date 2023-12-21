@@ -11,7 +11,7 @@ html:
     description: >- 
       Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /bussim-assets/images/events/goat_station1.webp
+    imageBanner: /assets/bussim/images/events/goat_station1.webp
     
   pageContent:
     - type: section
@@ -42,7 +42,7 @@ html:
       content:
         id: disc
         startId: start
-        chatData: /bussim-assets/chatdata/npcs/disc.json
+        chatData: /assets/bussim/chatdata/npcs/disc.json
 
     - type: tree
       content:
@@ -324,4 +324,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/npcs/disc.webp
+          - /assets/bussim/images/npcs/disc.webp

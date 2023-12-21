@@ -13,7 +13,7 @@ html:
     description: >-
      Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>BaconHair</highlight>
     image: ''
-    imageBanner: /bussim-assets/images/events/bacon1.webp
+    imageBanner: /assets/bussim/images/events/bacon1.webp
 
   pageContent:
 
@@ -61,5 +61,5 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/events/bacon1.webp
-          - /bussim-assets/images/events/bacon2.webp
+          - /assets/bussim/images/events/bacon1.webp
+          - /assets/bussim/images/events/bacon2.webp

@@ -13,7 +13,7 @@ html:
     description: >-
      Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Nothing</highlight>
     image: ''
-    imageBanner: /bussim-assets/images/events/nothing.webp
+    imageBanner: /assets/bussim/images/events/nothing.webp
 
   pageContent:
     - type: section
@@ -63,5 +63,5 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/events/nothing.webp
+          - /assets/bussim/images/events/nothing.webp
           

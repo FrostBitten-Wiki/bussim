@@ -13,7 +13,7 @@ html:
     description: >-
      Category: <a href="/bussim/events">Events</a>, <a href="/bussim/locations">Locations</a><br>Event Name: <highlight>GlacierCave</highlight>
     image: ''
-    imageBanner: /bussim-assets/images/locations/glacier-cave.webp
+    imageBanner: /assets/bussim/images/locations/glacier-cave.webp
 
   pageContent:
     - type: section
@@ -111,5 +111,5 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/locations/glacier-cave.webp
-          - /bussim-assets/images/events/glacier1.webp
+          - /assets/bussim/images/locations/glacier-cave.webp
+          - /assets/bussim/images/events/glacier1.webp

@@ -13,7 +13,7 @@ html:
     description: >-
      Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>StevenRide</highlight>
     image: ''
-    imageBanner: /bussim-assets/images/events/stevenrides1.webp
+    imageBanner: /assets/bussim/images/events/stevenrides1.webp
 
   pageContent:
     - type: section
@@ -142,7 +142,7 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/events/stevenrides1.webp
-          - /bussim-assets/images/events/galleries/Steveninbackwalls.webp
-          - /bussim-assets/images/events/galleries/Steven_Stone_29.webp
+          - /assets/bussim/images/events/stevenrides1.webp
+          - /assets/bussim/images/events/galleries/Steveninbackwalls.webp
+          - /assets/bussim/images/events/galleries/Steven_Stone_29.webp
           

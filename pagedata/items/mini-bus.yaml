@@ -12,7 +12,7 @@ html:
     title: Mini-Bus
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
 
   pageContent:
     - type: buttons
@@ -76,6 +76,6 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/items/mini-bus.webp
-          - /bussim-assets/images/items/galleries/oldminibus.webp
+          - /assets/bussim/images/items/mini-bus.webp
+          - /assets/bussim/images/items/galleries/oldminibus.webp
           

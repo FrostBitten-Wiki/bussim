@@ -12,7 +12,7 @@ html:
     description: >- 
       Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /bussim-assets/images/events/goat_station1.webp
+    imageBanner: /assets/bussim/images/events/goat_station1.webp
     
   pageContent:
     - type: section
@@ -33,7 +33,7 @@ html:
       content:
         id: zeon
         startId: start
-        chatData: /bussim-assets/chatdata/npcs/zeon.json
+        chatData: /assets/bussim/chatdata/npcs/zeon.json
 
     - type: tree
       content:

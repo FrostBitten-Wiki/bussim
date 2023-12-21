@@ -12,7 +12,7 @@ html:
     description: >- 
       Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /bussim-assets/images/events/goat_station1.webp
+    imageBanner: /assets/bussim/images/events/goat_station1.webp
     
   pageContent:
     - type: section
@@ -43,7 +43,7 @@ html:
       content:
         id: mlg
         startId: start
-        chatData: /bussim-assets/chatdata/npcs/mlg.json
+        chatData: /assets/bussim/chatdata/npcs/mlg.json
 
     - type: tree
       content:
@@ -114,4 +114,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/npcs/mlg.webp
+          - /assets/bussim/images/npcs/mlg.webp

@@ -140,8 +140,6 @@ function changeDialogue(id, dialogueId) {
         }
     }
 
-    
-
     var text = random(chatData.text);
 
     if (Array.isArray(text)) {

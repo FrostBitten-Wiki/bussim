@@ -12,7 +12,7 @@ html:
     title: Cold Cola
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
 
   pageContent:
       - type: quote
@@ -49,4 +49,4 @@ html:
       - type: gallery
         content:
           images:
-            - /bussim-assets/images/items/cold-cola.webp
+            - /assets/bussim/images/items/cold-cola.webp

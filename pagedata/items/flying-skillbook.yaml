@@ -12,7 +12,7 @@ html:
     title: Flying Skillbook
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
 
   pageContent:
     - type: quote
@@ -49,4 +49,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/items/flying-skillbook.webp
+          - /assets/bussim/images/items/flying-skillbook.webp

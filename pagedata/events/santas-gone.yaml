@@ -13,7 +13,7 @@ html:
     description: >-
      Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>SantasGone</highlight>
     image: ''
-    imageBanner: /bussim-assets/images/events/santasgone1.webp
+    imageBanner: /assets/bussim/images/events/santasgone1.webp
 
   pageContent:
     - type: section
@@ -73,5 +73,5 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/events/santasgone1.webp
+          - /assets/bussim/images/events/santasgone1.webp
           

@@ -12,7 +12,7 @@ html:
     description: >- 
       Category: <a href="/bussim/others">Others</a>
     image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
   
   pageContent:
 
@@ -429,4 +429,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/others/news.webp
+          - /assets/bussim/images/others/news.webp

@@ -12,7 +12,7 @@ html:
     description: >- 
       Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /bussim-assets/images/locations/glacier-cave.webp
+    imageBanner: /assets/bussim/images/locations/glacier-cave.webp
     
   pageContent:
     - type: section
@@ -37,7 +37,7 @@ html:
       content:
         id: namerelf
         startId: start
-        chatData: /bussim-assets/chatdata/npcs/namerelf.json
+        chatData: /assets/bussim/chatdata/npcs/namerelf.json
 
     - type: tree
       content:
@@ -93,4 +93,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/npcs/namerelf.webp
+          - /assets/bussim/images/npcs/namerelf.webp

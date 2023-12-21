@@ -14,7 +14,7 @@ html:
       Category: <a href="/bussim/locations">Locations</a>
 
     image: ""
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
 
   pageContent:
     - type: infobox
@@ -46,4 +46,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/banner.jpg
+          - /assets/bussim/images/banner.jpg

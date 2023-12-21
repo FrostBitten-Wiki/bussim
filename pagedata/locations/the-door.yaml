@@ -13,7 +13,7 @@ html:
     description: >-
      Category: <a href="/bussim/locations">Locations</a>
     image: ''
-    imageBanner: /bussim-assets/images/locations/the-door.webp
+    imageBanner: /assets/bussim/images/locations/the-door.webp
 
   pageContent:
     - type: section
@@ -59,4 +59,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/locations/the-door.webp
+          - /assets/bussim/images/locations/the-door.webp

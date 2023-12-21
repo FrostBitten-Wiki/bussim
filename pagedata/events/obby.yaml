@@ -13,7 +13,7 @@ html:
     description: >-
      Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Obby</highlight>
     image: ''
-    imageBanner: /bussim-assets/images/events/obby2.webp
+    imageBanner: /assets/bussim/images/events/obby2.webp
 
   pageContent:
     - type: section
@@ -50,6 +50,6 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/events/obby2.webp
-          - /bussim-assets/images/events/obby1.webp
+          - /assets/bussim/images/events/obby2.webp
+          - /assets/bussim/images/events/obby1.webp
           

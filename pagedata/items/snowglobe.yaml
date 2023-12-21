@@ -12,7 +12,7 @@ html:
     title: Snowglobe
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
 
   pageContent:
     - type: section
@@ -41,5 +41,5 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/items/snowglobe.webp
+          - /assets/bussim/images/items/snowglobe.webp
           

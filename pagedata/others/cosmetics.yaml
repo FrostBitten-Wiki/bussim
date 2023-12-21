@@ -12,7 +12,7 @@ html:
     description: >- 
       Category: <a href="/bussim/others">Others</a>
     image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
   
   pageContent:
 
@@ -61,10 +61,10 @@ html:
           - "Description"
           - "Images"
         items:
-          - ["Halloween", "Her visor color would change to Orange during October.", "/bussim-assets/images/others/cosmetics/Zeon-October.webp"]
-          - ["Happy","Zeon has a happy expression, you'll see her visor like this most commonly, when she's not taking damage.","/bussim-assets/images/others/cosmetics/Zeon-Default.webp"]
-          - ["Neutral","Neutral is a smaller, but still noticable expression as a transition from Pained to Happy. It's harder to notice, as it switches to Happy after roughly a second.","/bussim-assets/images/others/cosmetics/Zeon-Neutral.webp"]
-          - ["Hurt","Zeon would flinch when damage was taken from anything. It's easily noticeable after taking damage, as it also makes a beeping sound. The expression lasts a few seconds, then switches the Neutral.","/bussim-assets/images/others/cosmetics/Zeon-Hurt.webp"]
+          - ["Halloween", "Her visor color would change to Orange during October.", "/assets/bussim/images/others/cosmetics/Zeon-October.webp"]
+          - ["Happy","Zeon has a happy expression, you'll see her visor like this most commonly, when she's not taking damage.","/assets/bussim/images/others/cosmetics/Zeon-Default.webp"]
+          - ["Neutral","Neutral is a smaller, but still noticable expression as a transition from Pained to Happy. It's harder to notice, as it switches to Happy after roughly a second.","/assets/bussim/images/others/cosmetics/Zeon-Neutral.webp"]
+          - ["Hurt","Zeon would flinch when damage was taken from anything. It's easily noticeable after taking damage, as it also makes a beeping sound. The expression lasts a few seconds, then switches the Neutral.","/assets/bussim/images/others/cosmetics/Zeon-Hurt.webp"]
 
     - type: section
       content:
@@ -89,7 +89,7 @@ html:
           - "Cosemetic"
           - "Images"
         items:
-          - ["Default","/bussim-assets/images/others/cosmetics/Bread.webp"]
+          - ["Default","/assets/bussim/images/others/cosmetics/Bread.webp"]
 
     - type: section
       content:
@@ -108,7 +108,7 @@ html:
           - "Cosemetic"
           - "Images"
         items:
-          - ["Shadow","/bussim-assets/images/others/cosmetics/Teddy.webp"]
+          - ["Shadow","/assets/bussim/images/others/cosmetics/Teddy.webp"]
 
     - type: section
       content:
@@ -131,9 +131,9 @@ html:
           - "Description"
           - "Images"
         items:
-          - ["Neutral","","/bussim-assets/images/others/cosmetics/Tazer.webp"]
-          - ["Pained","Whenever Tazer takes damage, his visor corrupts.","/bussim-assets/images/others/cosmetics/Tazer-Hurt.webp"]
-          - ["Racecar Reskin","Tazer has a Mini-Bus reskin that changes it into a Race car, as seen in <a href='https://www.roblox.com/games/5556164542/Minibus-Racing-Very-Early-Pre-Alpha'>Minibus Racing</a>.","/bussim-assets/images/others/cosmetics/Tazer-Minibus.webp"]
+          - ["Neutral","","/assets/bussim/images/others/cosmetics/Tazer.webp"]
+          - ["Pained","Whenever Tazer takes damage, his visor corrupts.","/assets/bussim/images/others/cosmetics/Tazer-Hurt.webp"]
+          - ["Racecar Reskin","Tazer has a Mini-Bus reskin that changes it into a Race car, as seen in <a href='https://www.roblox.com/games/5556164542/Minibus-Racing-Very-Early-Pre-Alpha'>Minibus Racing</a>.","/assets/bussim/images/others/cosmetics/Tazer-Minibus.webp"]
 
     - type: section
       content:

@@ -12,7 +12,7 @@ html:
     title: 1 Million Cola
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
 
   pageContent:
     - type: buttons
@@ -53,5 +53,5 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/items/million-colas.webp
+          - /assets/bussim/images/items/million-colas.webp
           

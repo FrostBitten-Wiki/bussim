@@ -12,7 +12,7 @@ html:
     title: Sparkler
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
 
   pageContent:
     - type: section
@@ -55,6 +55,6 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/items/sparkler.webp
-          - /bussim-assets/images/items/galleries/VrSparkles.webp
+          - /assets/bussim/images/items/sparkler.webp
+          - /assets/bussim/images/items/galleries/VrSparkles.webp
           

@@ -11,7 +11,7 @@ html:
     description: >- 
       Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /bussim-assets/images/locations/void.webp
+    imageBanner: /assets/bussim/images/locations/void.webp
     
   pageContent:
     - type: section
@@ -30,7 +30,7 @@ html:
       content:
         id: efeuc
         startId: start
-        chatData: /bussim-assets/chatdata/npcs/efeuc.json
+        chatData: /assets/bussim/chatdata/npcs/efeuc.json
 
     - type: tree
       content:
@@ -176,4 +176,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/npcs/efeuc.webp
+          - /assets/bussim/images/npcs/efeuc.webp

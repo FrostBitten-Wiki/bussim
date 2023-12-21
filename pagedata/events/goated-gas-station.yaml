@@ -13,7 +13,7 @@ html:
     description: >-
      Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>GoatStation</highlight>
     image: ''
-    imageBanner: /bussim-assets/images/events/goat_station2.webp
+    imageBanner: /assets/bussim/images/events/goat_station2.webp
 
   pageContent:
 
@@ -260,5 +260,5 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/events/goat_station2.webp
-          - /bussim-assets/images/events/goat_station1.webp
+          - /assets/bussim/images/events/goat_station2.webp
+          - /assets/bussim/images/events/goat_station1.webp

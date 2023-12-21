@@ -14,7 +14,7 @@ html:
       Category: <a href="/bussim/items">Items</a>
     
     image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
 
   pageContent:
     - type: buttons
@@ -68,4 +68,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/items/OldBadCola.webp
+          - /assets/bussim/images/items/OldBadCola.webp

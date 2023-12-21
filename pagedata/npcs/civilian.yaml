@@ -12,7 +12,7 @@ html:
     description: >- 
       Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /bussim-assets/images/events/goat_station1.webp
+    imageBanner: /assets/bussim/images/events/goat_station1.webp
     
   pageContent:
     - type: section
@@ -89,4 +89,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/npcs/civilian.webp
+          - /assets/bussim/images/npcs/civilian.webp

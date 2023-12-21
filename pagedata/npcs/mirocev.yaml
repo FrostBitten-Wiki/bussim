@@ -12,7 +12,7 @@ html:
     description: >- 
       Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
     
   pageContent:
     - type: section
@@ -36,7 +36,7 @@ html:
       content:
         id: mirocev
         startId: start
-        chatData: /bussim-assets/chatdata/npcs/mirocev.json
+        chatData: /assets/bussim/chatdata/npcs/mirocev.json
 
     - type: tree
       content:
@@ -64,4 +64,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/npcs/mirocev.webp
+          - /assets/bussim/images/npcs/mirocev.webp

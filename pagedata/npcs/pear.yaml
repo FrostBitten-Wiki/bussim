@@ -12,7 +12,7 @@ html:
     description: >- 
       Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
     
   pageContent:
     - type: infobox
@@ -63,7 +63,7 @@ html:
       content:
         id: pear
         startId: start
-        chatData: /bussim-assets/chatdata/npcs/pear.json
+        chatData: /assets/bussim/chatdata/npcs/pear.json
 
     - type: tree
       content:
@@ -260,7 +260,7 @@ html:
       content:
         id: pear_billy
         startId: start_billy
-        chatData: /bussim-assets/chatdata/npcs/pear.json
+        chatData: /assets/bussim/chatdata/npcs/pear.json
 
     - type: tree
       content:

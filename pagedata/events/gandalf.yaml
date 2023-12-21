@@ -13,7 +13,7 @@ html:
     description: >-
      Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Gandalf</highlight>
     image: ''
-    imageBanner: /bussim-assets/images/events/gandalf.webp
+    imageBanner: /assets/bussim/images/events/gandalf.webp
 
   pageContent:
     - type: section
@@ -44,4 +44,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/events/gandalf.webp
+          - /assets/bussim/images/events/gandalf.webp

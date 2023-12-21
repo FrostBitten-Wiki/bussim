@@ -13,7 +13,7 @@ html:
     description: >-
      Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>BusStopRiders</highlight>
     image: ''
-    imageBanner: /bussim-assets/images/events/passengers2.webp
+    imageBanner: /assets/bussim/images/events/passengers2.webp
 
   pageContent:
     - type: section
@@ -47,6 +47,6 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/events/passengers2.webp
-          - /bussim-assets/images/events/passengers1.webp
+          - /assets/bussim/images/events/passengers2.webp
+          - /assets/bussim/images/events/passengers1.webp
           

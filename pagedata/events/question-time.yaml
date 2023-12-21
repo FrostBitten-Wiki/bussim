@@ -13,7 +13,7 @@ html:
     description: >-
      Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>QuestionTime</highlight>
     image: ''
-    imageBanner: /bussim-assets/images/events/questiontime1.webp
+    imageBanner: /assets/bussim/images/events/questiontime1.webp
 
   pageContent:
     - type: infobox
@@ -120,5 +120,5 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/events/questiontime1.webp
+          - /assets/bussim/images/events/questiontime1.webp
           

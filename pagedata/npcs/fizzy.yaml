@@ -12,7 +12,7 @@ html:
     description: >- 
       Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /bussim-assets/images/events/bloxdonalds.webp
+    imageBanner: /assets/bussim/images/events/bloxdonalds.webp
     
   pageContent:
     - type: infobox
@@ -51,7 +51,7 @@ html:
       content:
         id: fizzy
         startId: start
-        chatData: /bussim-assets/chatdata/npcs/fizzy.json
+        chatData: /assets/bussim/chatdata/npcs/fizzy.json
 
     - type: tree
       content:
@@ -85,4 +85,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/npcs/fizzy.webp
+          - /assets/bussim/images/npcs/fizzy.webp

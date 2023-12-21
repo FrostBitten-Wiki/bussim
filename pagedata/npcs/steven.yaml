@@ -12,7 +12,7 @@ html:
     description: >- 
       Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
     
   pageContent:
     - type: section
@@ -45,7 +45,7 @@ html:
       content:
         id: steven
         startId: start
-        chatData: /bussim-assets/chatdata/npcs/steven.json
+        chatData: /assets/bussim/chatdata/npcs/steven.json
 
     - type: tree
       content:
@@ -99,4 +99,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/npcs/steven.webp
+          - /assets/bussim/images/npcs/steven.webp

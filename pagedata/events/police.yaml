@@ -13,7 +13,7 @@ html:
     description: >-
      Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Police</highlight>
     image: ''
-    imageBanner: /bussim-assets/images/events/police.webp
+    imageBanner: /assets/bussim/images/events/police.webp
 
   pageContent:
     - type: section
@@ -37,5 +37,5 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/events/police.webp
+          - /assets/bussim/images/events/police.webp
           

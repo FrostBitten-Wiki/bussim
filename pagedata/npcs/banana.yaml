@@ -12,7 +12,7 @@ html:
     description: >- 
       Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /bussim-assets/images/locations/backwalls.webp
+    imageBanner: /assets/bussim/images/locations/backwalls.webp
     
   pageContent:
     - type: quote
@@ -48,4 +48,4 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/npcs/banana.webp
+          - /assets/bussim/images/npcs/banana.webp

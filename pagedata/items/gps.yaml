@@ -12,7 +12,7 @@ html:
     title: GPS
     description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banner.jpg
     
   pageContent:
     - type: quote
@@ -44,6 +44,6 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/items/gps.webp
-          - /bussim-assets/images/items/galleries/GPS_in_VR.webp
-          - /bussim-assets/images/items/galleries/tool.webp
+          - /assets/bussim/images/items/gps.webp
+          - /assets/bussim/images/items/galleries/GPS_in_VR.webp
+          - /assets/bussim/images/items/galleries/tool.webp

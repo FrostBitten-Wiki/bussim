@@ -13,7 +13,7 @@ html:
     description: >-
      Category: <a href="/bussim/events">Events, </a> <a href="/bussim/locations">Locations</a><br>Event Name: <highlight>Bloxdonalds</highlight>
     image: ''
-    imageBanner: /bussim-assets/images/locations/bloxdonalds.webp
+    imageBanner: /assets/bussim/images/locations/bloxdonalds.webp
 
   pageContent:
     - type: section
@@ -76,5 +76,5 @@ html:
     - type: gallery
       content:
         images:
-          - /bussim-assets/images/locations/bloxdonalds.webp
-          - /bussim-assets/images/events/bloxdonalds2.webp
+          - /assets/bussim/images/locations/bloxdonalds.webp
+          - /assets/bussim/images/events/bloxdonalds2.webp
