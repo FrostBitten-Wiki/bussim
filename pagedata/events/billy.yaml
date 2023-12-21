@@ -11,7 +11,7 @@ html:
   header:
     title: Billy
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Billy</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>Billy</highlight>
     image: ''
     imageBanner: /assets/bussim/images/events/billy1.webp
 

@@ -11,7 +11,7 @@ html:
   header:
     title: Old Bad Cola
     description: >-
-      Category: <a href="/bussim/items">Items</a>
+      Category: <a href="/wiki/bussim/items">Items</a>
     
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
@@ -20,8 +20,8 @@ html:
     - type: buttons
       content:
         buttons:
-          - ["Bad Cola", "/bussim/items/bad-cola"]
-          - ["<highlight>Old Bad Cola</highlight>", "/bussim/items/bad-cola/old-bad-cola"]
+          - ["Bad Cola", "/wiki/bussim/items/bad-cola"]
+          - ["<highlight>Old Bad Cola</highlight>", "/wiki/bussim/items/bad-cola/old-bad-cola"]
 
     - type: section
       content:

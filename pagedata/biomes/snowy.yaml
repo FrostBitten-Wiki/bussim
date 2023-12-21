@@ -10,7 +10,7 @@ html:
   header:
     title: Snowy
     description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>
+      Category: <a href="/wiki/bussim/biomes">Biomes</a>
     image: ''
     imageBanner: /assets/bussim/images/biomes/snowy.webp
 

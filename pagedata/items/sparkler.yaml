@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: Sparkler
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 

@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: Popsicle
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -24,7 +24,7 @@ html:
         title: Info
         description: >-
           Popsicle is obtained from the 10 Million Event Wheel. 
-          When used, it'll heal you by a significant amount similarly to <a href="/bussim/items/snowcone">Snowcone</a> and can be used quite rapidly. 
+          When used, it'll heal you by a significant amount similarly to <a href="/wiki/bussim/items/snowcone">Snowcone</a> and can be used quite rapidly. 
           Despite that though, it is a good healing starter item to have.
 
     - type: section
@@ -34,7 +34,7 @@ html:
     - type: tree
       content:
         - name: The popsicle is based off the Rocket Popsicles, or "Firecrackers" by Popsicle(R) P O P S I C L E.
-        - name: Interestingly enough though, it has collision similar to <a href="/bussim/items/snowcone">Snowcone</a> and <a href="/bussim/items/candied-cane">Candied Cane</a>.
+        - name: Interestingly enough though, it has collision similar to <a href="/wiki/bussim/items/snowcone">Snowcone</a> and <a href="/wiki/bussim/items/candied-cane">Candied Cane</a>.
 
     - type: gallery
       content:

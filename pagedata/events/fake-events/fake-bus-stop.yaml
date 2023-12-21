@@ -8,7 +8,7 @@ html:
   header:
     title: Fake Bus Stop
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Stop</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>Stop</highlight>
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -16,8 +16,8 @@ html:
     - type: buttons
       content:
         buttons:
-          - ["Fake No Gas", "/bussim/events/fake-events"]
-          - ["<highlight>Fake Bus Stop</highlight>", "/bussim/events/fake-events/fake-bus-stop"]
+          - ["Fake No Gas", "/wiki/bussim/events/fake-events"]
+          - ["<highlight>Fake Bus Stop</highlight>", "/wiki/bussim/events/fake-events/fake-bus-stop"]
 
     - type: section
       content:

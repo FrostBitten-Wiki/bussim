@@ -41,7 +41,7 @@ html:
     title: TitleTest
     # as of December 7, 2023. this should be left as it is. category and the link to the category.
     description: >-
-      Category: <a href="/bussim/category-name">CategoryName</a>
+      Category: <a href="/wiki/bussim/category-name">CategoryName</a>
     
     # this adds an image to the header, next to the title and description.
     image: ""
@@ -83,7 +83,7 @@ html:
           - listItemImage: "https://placehold.co/256"
             listItemTitle: ItemTitle
             listItemDescription: ItemDescription
-            listItemRedirect: "/bussim/home"
+            listItemRedirect: "/wiki/bussim/home"
 
     # This adds a table to the content.
     - type: table
@@ -170,15 +170,15 @@ html:
     - type: buttons
       content:
         buttons:
-          - ["Text Placeholder", "/bussim/home"]
-          - ["Text Placeholder", "/bussim/home"]
-          - ["Text Placeholder", "/bussim/home"]
-          - ["Text Placeholder", "/bussim/home"]
-          - ["Text Placeholder", "/bussim/home"]
-          - ["Text Placeholder", "/bussim/home"]
-          - ["Text Placeholder", "/bussim/home"]
-          - ["Text Placeholder", "/bussim/home"]
-          - ["Text Placeholder", "/bussim/home"]
+          - ["Text Placeholder", "/wiki/bussim/home"]
+          - ["Text Placeholder", "/wiki/bussim/home"]
+          - ["Text Placeholder", "/wiki/bussim/home"]
+          - ["Text Placeholder", "/wiki/bussim/home"]
+          - ["Text Placeholder", "/wiki/bussim/home"]
+          - ["Text Placeholder", "/wiki/bussim/home"]
+          - ["Text Placeholder", "/wiki/bussim/home"]
+          - ["Text Placeholder", "/wiki/bussim/home"]
+          - ["Text Placeholder", "/wiki/bussim/home"]
 
 
 

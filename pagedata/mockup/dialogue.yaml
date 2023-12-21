@@ -14,7 +14,7 @@ html:
   header:
     title: Lorem ipsum
     description: >-
-     Category: <a href="/bussim/others">Others</a>
+     Category: <a href="/wiki/bussim/others">Others</a>
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -22,8 +22,8 @@ html:
     - type: buttons
       content:
         buttons:
-          - ["Lorem ipsum", "/bussim/mockup"]
-          - ["<highlight>Dialogue Mockup</highlight>", "/bussim/mockup/dialogue"]
+          - ["Lorem ipsum", "/wiki/bussim/mockup"]
+          - ["<highlight>Dialogue Mockup</highlight>", "/wiki/bussim/mockup/dialogue"]
     - type: section
       content:
         title: Info

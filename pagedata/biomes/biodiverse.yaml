@@ -10,7 +10,7 @@ html:
   header:
     title: Biodiverse
     description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>
+      Category: <a href="/wiki/bussim/biomes">Biomes</a>
 
     image: ''
     imageBanner: /assets/bussim/images/biomes/biodiverse.webp
@@ -30,7 +30,7 @@ html:
 
     - type: tree
       content:
-        - name: In an event where <a href="/bussim/locations/the-bus">The Bus</a>  stops, you used be able to find that most of the props in this biome were collidable, and that included the butterflies.
+        - name: In an event where <a href="/wiki/bussim/locations/the-bus">The Bus</a>  stops, you used be able to find that most of the props in this biome were collidable, and that included the butterflies.
 
     - type: gallery
       content:

@@ -11,7 +11,7 @@ html:
   header:
     title: Bad Cola
     description: >-
-      Category: <a href="/bussim/items">Items</a>
+      Category: <a href="/wiki/bussim/items">Items</a>
     
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
@@ -20,8 +20,8 @@ html:
     - type: buttons
       content:
         buttons:
-          - ["<highlight>Bad Cola</highlight>", "/bussim/items/bad-cola"]
-          - ["Old Bad Cola", "/bussim/items/bad-cola/old-bad-cola"]
+          - ["<highlight>Bad Cola</highlight>", "/wiki/bussim/items/bad-cola"]
+          - ["Old Bad Cola", "/wiki/bussim/items/bad-cola/old-bad-cola"]
 
     - type: section
       content:
@@ -36,7 +36,7 @@ html:
         size: normal
         title: Info
         description: >-
-          The Bad Cola (or occasionally called Red Cola) is a rare cola that has an appearance of the normal <a href="/bussim/items/cola">Cola</a> tinted red. 
+          The Bad Cola (or occasionally called Red Cola) is a rare cola that has an appearance of the normal <a href="/wiki/bussim/items/cola">Cola</a> tinted red. 
           You can also get it from the cola crate on the second floor of the bus. 
           There's a 10% chance of you getting it. 
           When held, it makes a deepened pop sound and when you drink it, 
@@ -49,7 +49,7 @@ html:
 
           <br><br>
 
-          Normally if you get this item via the <a href="/bussim/locations/the-bus">Cola Crate</a> on the bus, the item would be named "Cola", without any hints that it's the Bad Cola.
+          Normally if you get this item via the <a href="/wiki/bussim/locations/the-bus">Cola Crate</a> on the bus, the item would be named "Cola", without any hints that it's the Bad Cola.
 
           <br><br>
 
@@ -64,7 +64,7 @@ html:
       content:
         - name: There is a way to prevent dying upon consuming the cola by quickly unequipping the item shortly after drinking it. However, this will completely freeze your character's animations (sometimes even lock you in place) until you reset character.
         - name: It's one of the easiest ways to die in this game as the cola can easily be confused with this.
-        - name: Despite it being a <a href="/bussim/items/cola">Cola</a>, it doesn't heal you.
+        - name: Despite it being a <a href="/wiki/bussim/items/cola">Cola</a>, it doesn't heal you.
         
     - type: gallery
       content:

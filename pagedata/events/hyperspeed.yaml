@@ -11,7 +11,7 @@ html:
   header:
     title: Hyperspeed
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>HyperSpeed</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>HyperSpeed</highlight>
     image: ''
     imageBanner: /assets/bussim/images/events/hyperspeed.webp
 

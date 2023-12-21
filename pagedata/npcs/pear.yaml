@@ -10,7 +10,7 @@ html:
   header:
     title: Pear
     description: >- 
-      Category: <a href="/bussim/npcs">NPCs</a>
+      Category: <a href="/wiki/bussim/npcs">NPCs</a>
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
     
@@ -149,7 +149,7 @@ html:
                                         - name: "\"Take it in bud, you're officially part of the 1% now...\""
                                         - name: "\"The 1% who actually fell for it... sucker~\""
                                           children:
-                                            - name: "(This gives you a <highlight type=\"rainbow\">pearcoin</highlight><sup><highlight type=\"rainbow\">TM</highlight></sup>, useful for befriending <a href=\"/bussim/npcs/frostbite\">Frostbite</a>.)"
+                                            - name: "(This gives you a <highlight type=\"rainbow\">pearcoin</highlight><sup><highlight type=\"rainbow\">TM</highlight></sup>, useful for befriending <a href=\"/wiki/bussim/npcs/frostbite\">Frostbite</a>.)"
                     - name: "Variant 5: \"My favorite pizza is just plain cheese pizza!\""
                       children:
                         - name: "\"Though black olives are good too...\""
@@ -232,7 +232,7 @@ html:
                     - name: "Variant 12 <small>(during Bus Simulator's 5th birthday)</small>:"
                       children:
                         - name: "\"Heyyy, it's the busses birthday! We're celebrating with cake! Pretty cool, right?\""
-                        - name: "\"I do have a warning for you though... Whatever you do, don't drink a <a href=\"/bussim/items/bloxy-cola\">Bloxy Cola</a> alongside the <a href=\"/bussim/items/bus-birthday-cake\">cake</a>... You'll regret it~!\""
+                        - name: "\"I do have a warning for you though... Whatever you do, don't drink a <a href=\"/wiki/bussim/items/bloxy-cola\">Bloxy Cola</a> alongside the <a href=\"/wiki/bussim/items/bus-birthday-cake\">cake</a>... You'll regret it~!\""
 
             - name: "Option 3: Invites..."
               children:
@@ -275,9 +275,9 @@ html:
         size: small
         title: Animal Messenger Quest-Line
         description: >-
-          This quest-line starts from <a href="/bussim/npcs/frostbite">Frostbite</a>'s Option 2, 3, 1, 2 and assuming the player hasn't completed it already.
+          This quest-line starts from <a href="/wiki/bussim/npcs/frostbite">Frostbite</a>'s Option 2, 3, 1, 2 and assuming the player hasn't completed it already.
           Pear's dialogue will also be added here and vice-versa.
-          You'll also need the Part of the Pack badge and be friends with <a href="/bussim/npcs/frostbite">Frost</a> to activate.
+          You'll also need the Part of the Pack badge and be friends with <a href="/wiki/bussim/npcs/frostbite">Frost</a> to activate.
 
     - type: section
       content:

@@ -11,7 +11,7 @@ html:
   header:
     title: Traffic Light
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>TrafficLight</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>TrafficLight</highlight>
     image: ''
     imageBanner: /assets/bussim/images/events/trafficlight2.webp
 

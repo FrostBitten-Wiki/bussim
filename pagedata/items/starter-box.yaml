@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: Starter Box
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -28,15 +28,15 @@ html:
          <br><br>
 
          Appearing as a purple and violet present, the item can be opened with left click. 
-         It gives you all the items on the <a href="/bussim/locations/the-bus">bus</a>, currently being: 
-         <a href="/bussim/items/cola">Cola</a>, 
-         <a href="/bussim/items/cold-cola">Cold Cola</a>, 
-         <a href="/bussim/items/hot-cola">Hot Cola</a>, 
-         <a href="/bussim/items/cramped-cola">Cramped Cola</a>, 
-         <a href="/bussim/items/gameboy-advance">Gameboy Advance</a>, 
-         <a href="/bussim/items/sign">Sign</a>, 
-         <a href="/bussim/items/marker">Marker</a> 
-         and <a href="/bussim/items/pizza">Pizza</a>.
+         It gives you all the items on the <a href="/wiki/bussim/locations/the-bus">bus</a>, currently being: 
+         <a href="/wiki/bussim/items/cola">Cola</a>, 
+         <a href="/wiki/bussim/items/cold-cola">Cold Cola</a>, 
+         <a href="/wiki/bussim/items/hot-cola">Hot Cola</a>, 
+         <a href="/wiki/bussim/items/cramped-cola">Cramped Cola</a>, 
+         <a href="/wiki/bussim/items/gameboy-advance">Gameboy Advance</a>, 
+         <a href="/wiki/bussim/items/sign">Sign</a>, 
+         <a href="/wiki/bussim/items/marker">Marker</a> 
+         and <a href="/wiki/bussim/items/pizza">Pizza</a>.
 
          <br><br>
 
@@ -49,7 +49,7 @@ html:
 
     - type: tree
       content:
-        - name: This item used to only give all but the <a href="/bussim/items/marker">Marker</a> and <a href="/bussim/items/pizza">Pizza</a>, due to the former being released after the box and the latter being an oversight. It was then changed to include both to the box 2 years after release.
+        - name: This item used to only give all but the <a href="/wiki/bussim/items/marker">Marker</a> and <a href="/wiki/bussim/items/pizza">Pizza</a>, due to the former being released after the box and the latter being an oversight. It was then changed to include both to the box 2 years after release.
     - type: gallery
       content:
         images:

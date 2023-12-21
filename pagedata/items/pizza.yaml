@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: Pizza
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -27,7 +27,7 @@ html:
           <br><br>
 
           Additionally, on the same floor, you can spot another pizza in the left compartment, 
-          next to the one by the <a href="/bussim/items/cramped-cola">Cramped Cola</a>. However, it cannot be interacted with.
+          next to the one by the <a href="/wiki/bussim/items/cramped-cola">Cramped Cola</a>. However, it cannot be interacted with.
 
     - type: section
       content:

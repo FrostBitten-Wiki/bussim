@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: Liquid Void
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -23,7 +23,7 @@ html:
       content:
         title: Info
         description: >-
-         Liquid Void is an item obtainable from random floor spawns in the <a href="/bussim/events/backwalls">Backwalls</a> event, 
+         Liquid Void is an item obtainable from random floor spawns in the <a href="/wiki/bussim/events/backwalls">Backwalls</a> event, 
          when used you will turn invisible for 20 seconds, 
          then start flashing in an out until finally turning opaque again. 
          However, if used less than 20 seconds after the effects are over, 
@@ -32,7 +32,7 @@ html:
          <br><br>
 
          Despite the invisibility however, 
-         it won't make you immune to <a href="/bussim/npcs/entity">Entities</a> especially if angered, 
+         it won't make you immune to <a href="/wiki/bussim/npcs/entity">Entities</a> especially if angered, 
          but it does allow you to make safer escapes if you successfully get away from them.
 
     - type: quote
@@ -43,10 +43,10 @@ html:
     - type: text
       content:
         text: >-
-          If you do however manage to escape the <a href="/bussim/events/backwalls">Backwalls</a> with the item in your inventory, 
+          If you do however manage to escape the <a href="/wiki/bussim/events/backwalls">Backwalls</a> with the item in your inventory, 
           you will have a 20% chance (formerly 4%) to bring it back to the real world, 
           and getting it permanently. 
-          This doesn't have many practical uses outside of the <a href="/bussim/events/backwalls">Backwalls</a>, 
+          This doesn't have many practical uses outside of the <a href="/wiki/bussim/events/backwalls">Backwalls</a>, 
           but it's a good item to start off when the event does happen.
 
     - type: section
@@ -58,7 +58,7 @@ html:
         - name: This item originally used to have a 4% chance to be able to get it permanently, as Noble thought the chances were fair and achievable.. This was then later changed to 20% after a mini-update following Bus Simulator's 5th Birthday.
         - name: Despite the Liquid Void being a very helpful tool especially in events related to the stealth mechanic with its invisibility, you cannot carry it to both No Dough and Santa's Gone, making its usage only limited in a few events.
           children:
-            - name: It is however, applicable to the Billies in the <a href="/bussim/events/billy">Billy</a> event, oddly enough.
+            - name: It is however, applicable to the Billies in the <a href="/wiki/bussim/events/billy">Billy</a> event, oddly enough.
     - type: gallery
       content:
         images:

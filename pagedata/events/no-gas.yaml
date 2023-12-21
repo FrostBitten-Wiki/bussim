@@ -11,7 +11,7 @@ html:
   header:
     title: No Gas
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>GasUp</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>GasUp</highlight>
     image: ''
     imageBanner: /assets/bussim/images/events/gasup1.webp
 

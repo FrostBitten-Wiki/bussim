@@ -11,7 +11,7 @@ html:
   header:
     title: In The Sky
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>InTheSky</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>InTheSky</highlight>
     image: ''
     imageBanner: /assets/bussim/images/events/inthesky2.webp
 

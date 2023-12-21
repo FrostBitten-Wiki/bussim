@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: Cola
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -30,11 +30,11 @@ html:
            <br><br>
 
            It is located inside of a crate, with several other colas. 
-           Upon clicking on it, there's a 10% chance you will get the <a href="/bussim/items/bad-cola">Bad Cola</a>.
+           Upon clicking on it, there's a 10% chance you will get the <a href="/wiki/bussim/items/bad-cola">Bad Cola</a>.
 
            <br><br>
 
-           More often than other containers (e.g. the vending machine for <a href="/bussim/items/cold-cola">Cold Cola</a>), 
+           More often than other containers (e.g. the vending machine for <a href="/wiki/bussim/items/cold-cola">Cold Cola</a>), 
            the crate may malfunction and not dispense cola. 
            This bug somehow self-fixes when you wait, however.
       - type: quote
@@ -45,8 +45,8 @@ html:
       - type: text
         content:
           text: >-
-            Another interaction that the Cola can provide is if paired with the <a href="/bussim/items/bus-birthday-cake">Bus Birthday Cake</a> during Bus Simulator's 5th Birthday. 
-            When consumed last, you'll be forcibly teleported to the <a href="/bussim/events/backwalls">Backwalls</a>. 
+            Another interaction that the Cola can provide is if paired with the <a href="/wiki/bussim/items/bus-birthday-cake">Bus Birthday Cake</a> during Bus Simulator's 5th Birthday. 
+            When consumed last, you'll be forcibly teleported to the <a href="/wiki/bussim/events/backwalls">Backwalls</a>. 
             With the Cola having a new tooltip, 
             do note however that both the Cola and Cake are one-time uses afterwards.
             <br><br>

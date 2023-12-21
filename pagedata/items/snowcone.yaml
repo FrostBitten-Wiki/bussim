@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: Snowcone
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -24,7 +24,7 @@ html:
         title: Info
         description: >-
           The Snowcone is a permanent healing item obtainable from either the 2019 Christmas event or the 20 Million Visits event. 
-          During both of these events, you had a 50/50 chance to get either the Snowcone or the <a href="/bussim/items/snowglobe">Snowglobe</a>.
+          During both of these events, you had a 50/50 chance to get either the Snowcone or the <a href="/wiki/bussim/items/snowglobe">Snowglobe</a>.
 
           <br><br>
 
@@ -45,9 +45,9 @@ html:
     - type: tree
       content:
         - name: It is currently possible to utilize this item as a form of teleportation, first use the item multiple times then unequip it at the first spot.
-        - name: 'Secondly, go to any spot outside of your first spot and drink the <a href="/bussim/items/cramped-cola">Cramped Cola</a>, and lastly: equip the Snowcone again. This will force you to teleport back to your first spot at any point in the game.'
+        - name: 'Secondly, go to any spot outside of your first spot and drink the <a href="/wiki/bussim/items/cramped-cola">Cramped Cola</a>, and lastly: equip the Snowcone again. This will force you to teleport back to your first spot at any point in the game.'
           children:
-            - name: The same applies for <a href="/bussim/items/candied-cane">Candied Cane</a>, but is much less precise and is capable of flinging you upon teleportation.
+            - name: The same applies for <a href="/wiki/bussim/items/candied-cane">Candied Cane</a>, but is much less precise and is capable of flinging you upon teleportation.
 
     - type: gallery
       content:

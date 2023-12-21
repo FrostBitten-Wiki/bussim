@@ -11,7 +11,7 @@ html:
   header:
     title: Cloned Bus
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Clone</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>Clone</highlight>
     image: ''
     imageBanner: /assets/bussim/images/events/clone1.webp
 

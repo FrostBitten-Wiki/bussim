@@ -11,7 +11,7 @@ html:
   header:
     title: Birthday Ice Cream
     description: >-
-      Category: <a href="/bussim/items">Items</a>
+      Category: <a href="/wiki/bussim/items">Items</a>
 
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
@@ -27,19 +27,19 @@ html:
         title: Info
         description: >-
          The Birthday Ice Cream is a large ice cream cone. 
-         During the <a href="/bussim/events/birthday">Birthday</a> event, 
+         During the <a href="/wiki/bussim/events/birthday">Birthday</a> event, 
          when a random player has been picked in that event, 
          the player will get the Birthday Ice Cream item in their inventory immediately.
 
          <br><br>
 
          Surprisingly, this item is also quite good at short burst healing, 
-         with it's healing speed surpassing the <a href="/bussim/items/cola">Cola</a>, and <a href="/bussim/items/homemade-coffee">Homemade Coffee</a>, 
+         with it's healing speed surpassing the <a href="/wiki/bussim/items/cola">Cola</a>, and <a href="/wiki/bussim/items/homemade-coffee">Homemade Coffee</a>, 
          but it lacks the duration, which requires you to constantly use it.
 
          <br><br>
 
-         You can also try and feed it to <a href="/bussim/npcs/frostbite">Frostbite</a> only for him to reject it because it's too big to consume.
+         You can also try and feed it to <a href="/wiki/bussim/npcs/frostbite">Frostbite</a> only for him to reject it because it's too big to consume.
 
          <br><br>
 

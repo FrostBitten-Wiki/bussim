@@ -11,7 +11,7 @@ html:
   header:
     title: Art Gallery
     description: >-
-      Category: <a href="/bussim/locations">Locations</a>
+      Category: <a href="/wiki/bussim/locations">Locations</a>
 
     image: ""
     imageBanner: /assets/bussim/images/banner.jpg
@@ -32,7 +32,7 @@ html:
         size: normal
         title: Info
         description: >-
-          The Art Gallery is a location in Bus Simulator which can be accessed by flushing <a href="/bussim/location/the-bus">The Bus'</a> toilet while you are seated.
+          The Art Gallery is a location in Bus Simulator which can be accessed by flushing <a href="/wiki/bussim/location/the-bus">The Bus'</a> toilet while you are seated.
           <br><br>
           The Art Gallery (aka Credits Room or Art Room) contains 38 artworks (since December 6, 2023) made by the community, and 15 podiums from various people with their contributions.
           <br><br>
@@ -61,9 +61,9 @@ html:
           - ["avodey", "", "	Basis for the FNF engine."]
           - ["Elttob", "Emotional Support	", "Fusion, VOLUMIKA."]
           - ["Tazer", "", "Monstercat music selection for the radio."]
-          - ["NamerElf", "", "I'm tired of standing in the same spot. Bro, I'm out. (made the <a href=\"/bussim/locations/glacier-cave\">Glacier Cave</a>)"]
+          - ["NamerElf", "", "I'm tired of standing in the same spot. Bro, I'm out. (made the <a href=\"/wiki/bussim/locations/glacier-cave\">Glacier Cave</a>)"]
           - ["CuhUnit", "", "Made the griddy emote."]
-          - ["WaffleWizYeah & Ocublox", "Knitters", "Made the Bus Sim UGC: both <a href=\"/bussim/others/diy-mini-bus\">D.I.Y. Mini-Bus</a> and <a href=\"/bus-cola-bandolier\">Bus-Cola Bandolier</a>."]
+          - ["WaffleWizYeah & Ocublox", "Knitters", "Made the Bus Sim UGC: both <a href=\"/wiki/bussim/others/diy-mini-bus\">D.I.Y. Mini-Bus</a> and <a href=\"/bus-cola-bandolier\">Bus-Cola Bandolier</a>."]
     
     - type: section
       content:
@@ -81,7 +81,7 @@ html:
             - name: >-
                 The art on the right side shows the more updated version of the left one, and it says: "they also made this one, its like a revamped version :D"<br><br>
             - name: >-
-                There's also some text that is shown above the Emergency Button that sends you back to <a href="/bussim/locations/the-bus">The Bus</a>, due to VR players unable to trip on the puddle.
+                There's also some text that is shown above the Emergency Button that sends you back to <a href="/wiki/bussim/locations/the-bus">The Bus</a>, due to VR players unable to trip on the puddle.
               children:
                 - name: >-
                     It also had an advertisement of the VRChat version of Bus Simulator: "vr players check out the vrchat version of bus sim"

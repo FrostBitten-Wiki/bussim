@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: Magic Mirror
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
     
@@ -27,7 +27,7 @@ html:
 
          <br><br>
 
-         On use, it will teleport you to the <a href="/bussim/locations/glacier-cave">Glacier Cave</a>, just several feet away from the <a href="/bussim/npcs/frostbite">Frostbite</a> NPC.
+         On use, it will teleport you to the <a href="/wiki/bussim/locations/glacier-cave">Glacier Cave</a>, just several feet away from the <a href="/wiki/bussim/npcs/frostbite">Frostbite</a> NPC.
 
     - type: section
       content:

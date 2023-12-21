@@ -11,7 +11,7 @@ html:
   header:
     title: Soda Stand
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>LemonSoda</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>LemonSoda</highlight>
     image: ''
     imageBanner: /assets/bussim/images/events/soda_stand2.webp
 

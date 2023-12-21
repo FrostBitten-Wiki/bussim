@@ -10,7 +10,7 @@ html:
   header:
     title: Frozen
     description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>
+      Category: <a href="/wiki/bussim/biomes">Biomes</a>
 
     image: ''
     imageBanner: /assets/bussim/images/biomes/frozen.webp
@@ -30,7 +30,7 @@ html:
 
     - type: tree
       content:
-        - name: During the event <a href="/bussim/events/blizzard">Blizzard</a>, this biome would appear until the end of the event.
+        - name: During the event <a href="/wiki/bussim/events/blizzard">Blizzard</a>, this biome would appear until the end of the event.
 
     - type: gallery
       content:

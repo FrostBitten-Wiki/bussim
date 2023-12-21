@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: Bus Birthday Cake
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -23,7 +23,7 @@ html:
       content:
         title: Info
         description: >-
-         The Bus Birthday Cake was a limited-edition variant of the <a href="/bussim/items/free-modelled-cake">Free-Modelled Cake</a>, 
+         The Bus Birthday Cake was a limited-edition variant of the <a href="/wiki/bussim/items/free-modelled-cake">Free-Modelled Cake</a>, 
          added to celebrate Bus Simulator's 5th Birthday. 
          During the week after its introduction, 
          you'll always start with this item.
@@ -31,15 +31,15 @@ html:
          <br><br>
 
          When consumed, it will heal you a tiny amount of health. However, 
-         if paired with  <a href="/bussim/items/cola">Cola</a>, you'll end up teleporting to the <a href="/bussim/events/backwalls">Backwalls</a>. 
-         This will also force you to trip upon entry, unlike the <a href="/bussim/events/backwalls">Backwalls</a> event, 
+         if paired with  <a href="/wiki/bussim/items/cola">Cola</a>, you'll end up teleporting to the <a href="/wiki/bussim/events/backwalls">Backwalls</a>. 
+         This will also force you to trip upon entry, unlike the <a href="/wiki/bussim/events/backwalls">Backwalls</a> event, 
          where you simply teleport there.
 
          <br><br>
 
-         The <a href="/bussim/events/backwalls">Backwalls</a> itself follows the same principles as if you had entered using its titular event, 
-         however with a few changes: you'll keep the Cake and Cola (<a href="/bussim/items/bad-cola">including its other variant</a>), 
-         the Cola will have a new tooltip, and Pear will charge 20 <a href="/bussim/others/reputation">Passenger Rep</a> for a guide to the exit, 
+         The <a href="/wiki/bussim/events/backwalls">Backwalls</a> itself follows the same principles as if you had entered using its titular event, 
+         however with a few changes: you'll keep the Cake and Cola (<a href="/wiki/bussim/items/bad-cola">including its other variant</a>), 
+         the Cola will have a new tooltip, and Pear will charge 20 <a href="/wiki/bussim/others/reputation">Passenger Rep</a> for a guide to the exit, 
          as well as some new dialogue. Both the Cake and Cola are one-time use, however.
 
     - type: quote
@@ -59,7 +59,7 @@ html:
       content:
         - name: This is the only item to have two badges linked to them. Being <a href="https://www.roblox.com/badges/2148621518/Plasticky-Birthday-Goodness">Plasticky Birthday Goodness</a>, and <a href="https://www.roblox.com/badges/2148621577/Plasticky-Cola-Hell">Plasticky Cola Hell</a>.
           children:
-            - name: It's also the second item that allows you to teleport to a location, the first being the <a href="/bussim/items/magic-mirror">Magic Mirror</a> that leads you to the <a href="/bussim/locations/glacier-cave">Glacier Cave</a>.
+            - name: It's also the second item that allows you to teleport to a location, the first being the <a href="/wiki/bussim/items/magic-mirror">Magic Mirror</a> that leads you to the <a href="/wiki/bussim/locations/glacier-cave">Glacier Cave</a>.
         - name: The texture for the cake was made by Pixel_N3ko, otherwise known as Sakura_Floran.
           children:
             - name: You can hear the "<a href="https://www.youtube.com/watch?v=JFDrett2fNs&ab_channel=Xynforce25">W.D. Gaster Fade</a>" sound affect when somebody teleports to the Backwalls with the item.

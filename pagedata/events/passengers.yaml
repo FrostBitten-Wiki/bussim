@@ -11,7 +11,7 @@ html:
   header:
     title: Passengers
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>BusStopRiders</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>BusStopRiders</highlight>
     image: ''
     imageBanner: /assets/bussim/images/events/passengers2.webp
 

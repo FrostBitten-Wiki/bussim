@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: Meygaphone
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -19,7 +19,7 @@ html:
       content:
         title: Info
         description: >-
-         Meygaphone~ is similar to the <a href="/bussim/items/megaphone">Megaphone</a>. 
+         Meygaphone~ is similar to the <a href="/wiki/bussim/items/megaphone">Megaphone</a>. 
          The only difference is that there's an emoji of 2 paws when doing a shout, 
          and some words are 'furryified'. 
          'Oofs' are also replaced with 'meows'

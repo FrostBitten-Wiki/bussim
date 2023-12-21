@@ -11,7 +11,7 @@ html:
   header:
     title: GOATed Gas Station
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>GoatStation</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>GoatStation</highlight>
     image: ''
     imageBanner: /assets/bussim/images/events/goat_station2.webp
 

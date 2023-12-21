@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: Flying Skillbook
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -23,17 +23,17 @@ html:
       content:
         title: Info
         description: >-
-         The Flying Skillbook is a non-permanent item stolen from <a href="/bussim/events/goated-gas-station">GOATed Gas Station</a>.
+         The Flying Skillbook is a non-permanent item stolen from <a href="/wiki/bussim/events/goated-gas-station">GOATed Gas Station</a>.
 
          <br><br>
 
          This item is simply meant to gate players from getting the Helicopter easily without having to pay, 
          with its tooltip stating that it's glued shut. 
-         It also doesn't have any other functionality aside from being purchasable for 100  <a href="/bussim/others/reputation">Passenger Reputation</a>.
+         It also doesn't have any other functionality aside from being purchasable for 100  <a href="/wiki/bussim/others/reputation">Passenger Reputation</a>.
 
          <br><br>
 
-         If you do however pay for it, <a href="/bussim/npcs/disc">Disc</a> will then unstick the pages allowing you to learn how to fly, it also gives you a permanent tool called <a href="/bussim/items/helicopter">Helicopter</a>.
+         If you do however pay for it, <a href="/wiki/bussim/npcs/disc">Disc</a> will then unstick the pages allowing you to learn how to fly, it also gives you a permanent tool called <a href="/wiki/bussim/items/helicopter">Helicopter</a>.
 
          <br><br>
 
@@ -44,7 +44,7 @@ html:
         title: Trivia
     - type: tree
       content:
-        - name: The Flying Skillbook is possibly one of the least functional items in any event, with <a href="/bussim/items/tool">Tool</a> having no uses currently.
+        - name: The Flying Skillbook is possibly one of the least functional items in any event, with <a href="/wiki/bussim/items/tool">Tool</a> having no uses currently.
 
     - type: gallery
       content:

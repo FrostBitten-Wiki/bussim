@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: Gameboy Advance
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -19,7 +19,7 @@ html:
       content:
         title: Info
         description: >-
-         <i>Not to be confused with the <a href="/bussim/items/roemulator">RoEmulator</a> item.</i>
+         <i>Not to be confused with the <a href="/wiki/bussim/items/roemulator">RoEmulator</a> item.</i>
 
          <br><br>
 
@@ -28,8 +28,8 @@ html:
 
          <br><br>
 
-         If you own the <a href="https://www.roblox.com/game-pass/7313794/Game-Cartridge">Game Cartridge</a> gamepass, (or assuming you found a free cartridge in <a href="/bussim/events/nobles-house">Noble's House</a>) you can host games with other players, 
-         with a total of five games you can choose from (full list can be seen <a href="/bussim/others/games">here</a>.) When you start a match with somebody, 
+         If you own the <a href="https://www.roblox.com/game-pass/7313794/Game-Cartridge">Game Cartridge</a> gamepass, (or assuming you found a free cartridge in <a href="/wiki/bussim/events/nobles-house">Noble's House</a>) you can host games with other players, 
+         with a total of five games you can choose from (full list can be seen <a href="/wiki/bussim/others/games">here</a>.) When you start a match with somebody, 
          there will be a Link Cable connected to both of the players' consoles, specifically to the port on top.
 
     - type: section
@@ -39,7 +39,7 @@ html:
       content:
         - name: Tic-Tac-Toe, Connect Four, and Battle Wagons are official ROBLOX items that you can buy, but they're currently broken and non-functional.
         - name: The game's title on the Cartridge is called "Bus Routes", and has a map of bus routes on it.
-        - name: This is one of the two Nintendo references in the entire game, other one being the <a href="/bussim/events/cubes">Cubes</a> event.
+        - name: This is one of the two Nintendo references in the entire game, other one being the <a href="/wiki/bussim/events/cubes">Cubes</a> event.
         - name: The original mesh uploader is unknown.
         - name: There's no link cable length limit between both players when they're in a match, meaning you can still play with somebody at different locations.
         - name: The startup sound when you equip the Gameboy Advance used to be a beta Operating System bootup noise for Codename "<a href="https://en.wikipedia.org/wiki/Development_of_Windows_Vista">Longhorn</a>", which later became the Windows Vista. A clearer version can be heard <a href="https://www.youtube.com/watch?v=nIoQAEBImv8&ab_channel=WindowsExpert">here</a>. Unfortunately, it was removed due to a copyright claim.

@@ -11,7 +11,7 @@ html:
   header:
     title: Airhorn
     description: >-
-      Category: <a href="/bussim/items">Items</a>
+      Category: <a href="/wiki/bussim/items">Items</a>
       
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
@@ -53,7 +53,7 @@ html:
       content:
         - name: It uses the Airhorn sound used for meme culture.
         - name: It also made its appearance in Kit Battle's Meme Boi Kit, where you can use the Airhorn to knockback players in a large range.
-        - name: While you can distract the house guests in <a href="/bussim/events/no-dough">No Dough</a> / <a href="/bussim/events/santas-gone">Santa's Gone</a>, you can't use it in the <a href="/bussim/events/backwalls">Backwalls</a> to distract the <a href="/bussim/npcs/entity">Entities</a>.
+        - name: While you can distract the house guests in <a href="/wiki/bussim/events/no-dough">No Dough</a> / <a href="/wiki/bussim/events/santas-gone">Santa's Gone</a>, you can't use it in the <a href="/wiki/bussim/events/backwalls">Backwalls</a> to distract the <a href="/wiki/bussim/npcs/entity">Entities</a>.
         - name: Despite it producing a loud sound, it can't echo in the caves, the bus, nor in the Backwalls.
         - name: This is the only gamepass item that has a badge locked behind it, being the <a href="https://www.roblox.com/badges/2141806851/DEFENESTRATED">DEFENSTRATED badge</a>, whereas all other badges are limited / obtainable freely. <small>(Except Private Bus Owner, where you will need a private server.)</small>
     

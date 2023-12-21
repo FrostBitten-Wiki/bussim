@@ -11,7 +11,7 @@ html:
   header:
     title: Obby
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Obby</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>Obby</highlight>
     image: ''
     imageBanner: /assets/bussim/images/events/obby2.webp
 

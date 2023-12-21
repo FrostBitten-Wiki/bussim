@@ -11,7 +11,7 @@ html:
   header:
     title: Coffee Shop
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>CoffeeShop</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>CoffeeShop</highlight>
     image: ''
     imageBanner: /assets/bussim/images/events/coffeeshopleak.webp
 
@@ -55,7 +55,7 @@ html:
     - type: buttons
       content:
         buttons:
-          - ["okay maybe not <highlight>(Perhaps visit another page in the meantime?)</highlight>", "/bussim/home"]
+          - ["okay maybe not <highlight>(Perhaps visit another page in the meantime?)</highlight>", "/wiki/bussim/home"]
           - ["i dont care <highlight>(Proceed onwards, not like we can stop you or something lmao)</highlight>", ""]
     
     - type: section

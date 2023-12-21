@@ -10,7 +10,7 @@ html:
   header:
     title: News
     description: >- 
-      Category: <a href="/bussim/others">Others</a>
+      Category: <a href="/wiki/bussim/others">Others</a>
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
   

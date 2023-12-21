@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: RoEmulator
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -19,13 +19,13 @@ html:
       content:
         title: Info
         description: >-
-          <i>Not to be Confused with <a href="/bussim/items/gameboy-advance">Gameboy Advance</a>.</i>
+          <i>Not to be Confused with <a href="/wiki/bussim/items/gameboy-advance">Gameboy Advance</a>.</i>
 
           <br><br>
 
           The RoEmulator is a gamepass item that lets you play games on your own. 
           It has options of three games: Adventure Island, Race The Sunset, and Lunar Lander. 
-          More details of the games can be seen <a href="/bussim/others/games">here</a>.
+          More details of the games can be seen <a href="/wiki/bussim/others/games">here</a>.
 
     - type: section
       content:

@@ -11,7 +11,7 @@ html:
   header:
     title: Birthday
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>BusBirthday</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>BusBirthday</highlight>
     image: ''
     imageBanner: /assets/bussim/images/events/birthday.webp
 

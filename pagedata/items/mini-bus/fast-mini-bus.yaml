@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: Fast Mini-Bus
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -18,8 +18,8 @@ html:
     - type: buttons
       content:
         buttons:
-          - ["Mini-Bus", "/bussim/items/mini-bus"]
-          - ["<highlight>Fast Mini-Bus</highlight>", "/bussim/items/mini-bus/fast-mini-bus"]
+          - ["Mini-Bus", "/wiki/bussim/items/mini-bus"]
+          - ["<highlight>Fast Mini-Bus</highlight>", "/wiki/bussim/items/mini-bus/fast-mini-bus"]
 
     - type: section
       content:

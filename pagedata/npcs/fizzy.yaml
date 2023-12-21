@@ -10,7 +10,7 @@ html:
   header:
     title: Fizzy
     description: >- 
-      Category: <a href="/bussim/npcs">NPCs</a>
+      Category: <a href="/wiki/bussim/npcs">NPCs</a>
     image: ''
     imageBanner: /assets/bussim/images/events/bloxdonalds.webp
     

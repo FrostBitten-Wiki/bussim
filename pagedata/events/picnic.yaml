@@ -11,7 +11,7 @@ html:
   header:
     title: Picnic
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Picnic</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>Picnic</highlight>
     image: ''
     imageBanner: /assets/bussim/images/events/picnic1.webp
 

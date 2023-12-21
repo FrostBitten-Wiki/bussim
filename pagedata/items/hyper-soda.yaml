@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: Hyper Soda
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
     
@@ -19,11 +19,11 @@ html:
       content:
         title: Info
         description: >-
-         The Hyper Soda is a soda variant that can be obtained at the top of the platform next to the sign in the <a href="/bussim/events/obby">Obby</a> event.
+         The Hyper Soda is a soda variant that can be obtained at the top of the platform next to the sign in the <a href="/wiki/bussim/events/obby">Obby</a> event.
          
          <br><br>
 
-         When used, it will provide a similar speed compared to <a href="/bussim/items/almond-water">Almond Water</a>, 
+         When used, it will provide a similar speed compared to <a href="/wiki/bussim/items/almond-water">Almond Water</a>, 
          but after a few seconds after consumption will massive spike in speed, 
          overpowering many if not, all of the other speed items in the game.
 
@@ -40,9 +40,9 @@ html:
         title: Trivia
     - type: tree
       content:
-        - name: While it is appealing to have a drastic increase in speed, it's debuff afterwards can make exploration punishing especially in events like <a href="/bussim/events/goated-gas-station">Goat Station</a> or <a href="/bussim/events/backwalls">Backwalls</a> where it's better off to use speed items in the long-term or with no consequences.
+        - name: While it is appealing to have a drastic increase in speed, it's debuff afterwards can make exploration punishing especially in events like <a href="/wiki/bussim/events/goated-gas-station">Goat Station</a> or <a href="/wiki/bussim/events/backwalls">Backwalls</a> where it's better off to use speed items in the long-term or with no consequences.
           children:
-            - name: Items such as <a href="/bussim/items/candied-cane">Candied Cane</a>, <a href="/bussim/items/redblox">Redbloxk</a>, <a href="/bussim/items/mini-bus">Mini-Bus</a>, and <a href="/bussim/items/almond-water">Almond Water</a> are better, albeit rarer and mostly limited alternatives.
+            - name: Items such as <a href="/wiki/bussim/items/candied-cane">Candied Cane</a>, <a href="/wiki/bussim/items/redblox">Redbloxk</a>, <a href="/wiki/bussim/items/mini-bus">Mini-Bus</a>, and <a href="/wiki/bussim/items/almond-water">Almond Water</a> are better, albeit rarer and mostly limited alternatives.
 
     - type: gallery
       content:

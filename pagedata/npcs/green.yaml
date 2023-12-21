@@ -10,7 +10,7 @@ html:
   header:
     title: Green
     description: >- 
-      Category: <a href="/bussim/npcs">NPCs</a>
+      Category: <a href="/wiki/bussim/npcs">NPCs</a>
     image: ''
     imageBanner: /assets/bussim/images/events/goat_station1.webp
     

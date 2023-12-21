@@ -9,7 +9,7 @@ attributions:
 html:
   header:
     title: Ice Cream
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
   pageContent:
@@ -17,7 +17,7 @@ html:
       content:
         title: Info
         description: >-
-         <i>Not to be confused with the <a href="/bussim/items/birthday-ice-cream">Birthday Ice Cream</a>.</i>
+         <i>Not to be confused with the <a href="/wiki/bussim/items/birthday-ice-cream">Birthday Ice Cream</a>.</i>
          
          <br><br>
 
@@ -27,7 +27,7 @@ html:
 
          <br><br>
 
-         If you own the <a href="/bussim/items/mini-bus">Mini-Bus</a>, and the bus stopped, 
+         If you own the <a href="/wiki/bussim/items/mini-bus">Mini-Bus</a>, and the bus stopped, 
          you can drive back to where the cars spawn, 
          and wait for an Ice Cream truck to spawn, 
          if you can get beyond the invisible barrier.
@@ -37,7 +37,7 @@ html:
         title: Trivia
     - type: tree
       content:
-        - name: It's an item that is unobtainable through standard means, such as an event, or on-board the <a href="/bussim/locate/the-bus">bus</a>.
+        - name: It's an item that is unobtainable through standard means, such as an event, or on-board the <a href="/wiki/bussim/locate/the-bus">bus</a>.
         - name: It is one of the few edible items.
         - name: If you try to interact with the Ice Cream Truck while the bus is moving, he will say that he can't give you one.
           children:

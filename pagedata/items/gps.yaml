@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: GPS
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
     
@@ -29,7 +29,7 @@ html:
 
          The location shown on the GPS is randomly generated, 
          but some events have set locations to better reflect the situation. 
-         All the locations can be seen <a href="/bussim/locations/gps-locations">here</a>.
+         All the locations can be seen <a href="/wiki/bussim/locations/gps-locations">here</a>.
 
     - type: section
       content:

@@ -5,13 +5,13 @@ page:
   tags: location, small rooms, living room, vibe room
 
 attributions:
-  - Edited by Nyx
+  - Made by Nyx
 
 html:
   header:
     title: Small Rooms
     description: >-
-      Category: <a href="/bussim/locations">Locations</a>
+      Category: <a href="/wiki/bussim/locations">Locations</a>
 
     image: ""
     imageBanner: /assets/bussim/images/banner.jpg
@@ -32,9 +32,9 @@ html:
     - type: buttons
       content:
         buttons:
-          - ["<highlight>Small Rooms</highlight>", "/bussim/items/small-rooms"]
-          - ["Old Bad Cola", "/bussim/items/small-rooms/vibe room"]
-          - ["Old Bad Cola", "/bussim/items/small-rooms/vibe-room"]
+          - ["<highlight>Small Rooms</highlight>", "/wiki/bussim/items/small-rooms"]
+          - ["Old Bad Cola", "/wiki/bussim/items/small-rooms/vibe room"]
+          - ["Old Bad Cola", "/wiki/bussim/items/small-rooms/vibe-room"]
 
     - type: section
       content:

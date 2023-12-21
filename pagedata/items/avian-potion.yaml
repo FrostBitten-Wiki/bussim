@@ -11,7 +11,7 @@ html:
   header:
     title: Avian Potion
     description: >-
-      Category: <a href="/bussim/items">Items</a>
+      Category: <a href="/wiki/bussim/items">Items</a>
       
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg

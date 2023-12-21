@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: Expired Taco
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -23,14 +23,14 @@ html:
       content:
         title: Info
         description: >-
-         The Expired Taco is a gear obtained from the <a href="/bussim/events/time-travel">Time Travel Event</a>, 
+         The Expired Taco is a gear obtained from the <a href="/wiki/bussim/events/time-travel">Time Travel Event</a>, 
          and is obtained at the "fizzy taco stand!!!!!!."
 
          <br><br>
 
          The taco appears to have a green tint, 
          and deals 75 damage to the player. 
-         Much more dangerous than the burger from the <a href="/bussim/events/bloxdonalds">Bloxdonalds Event</a>.
+         Much more dangerous than the burger from the <a href="/wiki/bussim/events/bloxdonalds">Bloxdonalds Event</a>.
          <br><br>
 
     - type: gallery

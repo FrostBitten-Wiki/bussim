@@ -10,8 +10,8 @@ html:
   header:
     title: Bricks
     description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>  
-      Category: <a href="/bussim/biomes">Biomes</a>
+      Category: <a href="/wiki/bussim/biomes">Biomes</a>  
+      Category: <a href="/wiki/bussim/biomes">Biomes</a>
       
     image: ''
     imageBanner: /assets/bussim/images/biomes/bricks.webp

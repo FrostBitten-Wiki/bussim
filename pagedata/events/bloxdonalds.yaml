@@ -11,7 +11,7 @@ html:
   header:
     title: Bloxdonalds
     description: >-
-     Category: <a href="/bussim/events">Events, </a> <a href="/bussim/locations">Locations</a><br>Event Name: <highlight>Bloxdonalds</highlight>
+     Category: <a href="/wiki/bussim/events">Events, </a> <a href="/wiki/bussim/locations">Locations</a><br>Event Name: <highlight>Bloxdonalds</highlight>
     image: ''
     imageBanner: /assets/bussim/images/locations/bloxdonalds.webp
 
@@ -26,14 +26,14 @@ html:
 
          When this event happens, 
          the Bus will stop and a random player will mention seeing a Bloxdonalds in the distance. 
-         Players are then able to go inside the building and receive a <a href="/bussim/items/burger">Burger</a>. 
+         Players are then able to go inside the building and receive a <a href="/wiki/bussim/items/burger">Burger</a>. 
          After some time has passed, 
          the driver will mention an oddity within the burgers and afterwards leave, ending the event.
 
          <br><br>
 
          During the event, 
-         you'll also be able to interact with characters such as: <a href="/bussim/npcs/red">Red</a> and <a href="/bussim/npcs/steven">Steven Scripts</a>. 
+         you'll also be able to interact with characters such as: <a href="/wiki/bussim/npcs/red">Red</a> and <a href="/wiki/bussim/npcs/steven">Steven Scripts</a>. 
          There's also a hidden interactable NPC next to the door, 
          and used to be another NPC in its place but was removed for reasons.
 
@@ -68,10 +68,10 @@ html:
 
     - type: tree
       content:
-        - name: This is the second largest amount of interactable NPCs, having half as much as <a href="/bussim/events/goated-gas-station">GOATed Gas Station</a>.
-        - name: If you use a <a href="/bussim/items/gps">GPS</a> while the event is ongoing, rather than it be a random location, it'll instead say Bloxdonalds.
+        - name: This is the second largest amount of interactable NPCs, having half as much as <a href="/wiki/bussim/events/goated-gas-station">GOATed Gas Station</a>.
+        - name: If you use a <a href="/wiki/bussim/items/gps">GPS</a> while the event is ongoing, rather than it be a random location, it'll instead say Bloxdonalds.
         - name: This is also a reference to Bus Stop Simulator's Bloxdonalds, where it shares similar details to the Bus Simulator version, but without the dangers that lurk there.
-        - name: The runtime of this event is 1 minute and 40 seconds (exactly 100 seconds). This makes the event a similar runtime to the <a href="/bussim/events/cave">Cave</a> event.
+        - name: The runtime of this event is 1 minute and 40 seconds (exactly 100 seconds). This makes the event a similar runtime to the <a href="/wiki/bussim/events/cave">Cave</a> event.
 
     - type: gallery
       content:

@@ -11,7 +11,7 @@ html:
   header:
     title: Blizzard
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Blizzard</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>Blizzard</highlight>
     image: ''
     imageBanner: /assets/bussim/images/events/blizzard2.webp
 

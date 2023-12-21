@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: Candied Cane
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -44,9 +44,9 @@ html:
 
     - type: tree
       content:
-        - name: 'It is currently possible to utilize this item as a form of teleportation, first use the item multiple times then unequip it at the first spot. Secondly, go to any spot outside of your first spot and drink the <a href="/bussim/items/cramped-cola">Cramped Cola</a>, and lastly: equip the Candied Cane again. This will force you to teleport back to your first spot at any point in the game.'
+        - name: 'It is currently possible to utilize this item as a form of teleportation, first use the item multiple times then unequip it at the first spot. Secondly, go to any spot outside of your first spot and drink the <a href="/wiki/bussim/items/cramped-cola">Cramped Cola</a>, and lastly: equip the Candied Cane again. This will force you to teleport back to your first spot at any point in the game.'
           children:
-            - name: The same applies for <a href="/bussim/items/snowcone">Snowcone</a>, but is much more precise and isn't capable of flinging you upon teleportation.
+            - name: The same applies for <a href="/wiki/bussim/items/snowcone">Snowcone</a>, but is much more precise and isn't capable of flinging you upon teleportation.
             - name: Do note though, that it occasionally slows you down for one-life per teleport. So it's recommend to use it wisely.
     - type: gallery
       content:

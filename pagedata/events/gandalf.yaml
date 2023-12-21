@@ -11,7 +11,7 @@ html:
   header:
     title: Gandalf
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Gandalf</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>Gandalf</highlight>
     image: ''
     imageBanner: /assets/bussim/images/events/gandalf.webp
 

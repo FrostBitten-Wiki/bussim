@@ -11,7 +11,7 @@ html:
   header:
     title: Noble's House
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>NoblesHouse</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>NoblesHouse</highlight>
     image: ''
     imageBanner: /assets/bussim/images/events/nobleshouse2.webp
 

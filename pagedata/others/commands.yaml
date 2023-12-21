@@ -11,7 +11,7 @@ html:
   header:
     title: Commands
     description: >-
-      Category: <a href="/bussim/others">Others</a>
+      Category: <a href="/wiki/bussim/others">Others</a>
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -144,14 +144,14 @@ html:
           You can change the color of a few items, all of which are related to gamepasses.
           The ones you can currently customize are the
 
-          <a href="/bussim/items/mini-bus">Mini-Bus</a>, 
-          <a href="/bussim/items/diy-mini-bus">D.I.Y. Mini-Bus</a>, 
-          <a href="/bussim/items/megaphone-ex">Megaphone EX</a>
-          and <a href="/bussim/items/airpods">Airpods</a>
+          <a href="/wiki/bussim/items/mini-bus">Mini-Bus</a>, 
+          <a href="/wiki/bussim/items/diy-mini-bus">D.I.Y. Mini-Bus</a>, 
+          <a href="/wiki/bussim/items/megaphone-ex">Megaphone EX</a>
+          and <a href="/wiki/bussim/items/airpods">Airpods</a>
 
           <br><br>
 
-          !color - Changes the color of your <a href="/bussim/items/mini-bus">Mini-Bus</a> and <a href="/bussim/items/diy-mini-bus">D.I.Y. Mini-Bus'</a>, 
+          !color - Changes the color of your <a href="/wiki/bussim/items/mini-bus">Mini-Bus</a> and <a href="/wiki/bussim/items/diy-mini-bus">D.I.Y. Mini-Bus'</a>, 
           largely changing the main parts of the bus.
 
     - type: tree
@@ -162,7 +162,7 @@ html:
     - type: text
       content:
         text: >-
-          Do note however that the color changes applied to the <a href="/bussim/items/diy-mini-bus">D.I.Y. Mini-Bus</a> are only in Bus Simulator, 
+          Do note however that the color changes applied to the <a href="/wiki/bussim/items/diy-mini-bus">D.I.Y. Mini-Bus</a> are only in Bus Simulator, 
           and will be a simple navy blue color in all other games on Roblox.
 
           <br><br>
@@ -183,7 +183,7 @@ html:
           <br><br>
 
           !setheart - Allows you to choose a heart to display next to your name, comes in many varieties, 
-          ending at the Numbers Heart, at 50,000 <a href="/bussim/others/reputation">Driver Reputation</a>.
+          ending at the Numbers Heart, at 50,000 <a href="/wiki/bussim/others/reputation">Driver Reputation</a>.
 
           <br><br>
 

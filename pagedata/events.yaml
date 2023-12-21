@@ -99,7 +99,7 @@ html:
             listItemTitle: Birthday
             listItemDescription: >-
               Bus Birthday is an event where a random player is chosen to be celebrated for their birthday.
-              The player will get a <highlight>Birthday Ice Cream</highlight> instantly, and everyone will get <a href="/bussim/items/free-modelled-cake">Free-modelled Cake</a> shortly.
+              The player will get a <highlight>Birthday Ice Cream</highlight> instantly, and everyone will get <a href="/wiki/bussim/items/free-modelled-cake">Free-modelled Cake</a> shortly.
             listItemRedirect: /bussim/events/birthday
        
           - listItemImage: /assets/bussim/images/events/blizzard2.webp
@@ -111,7 +111,7 @@ html:
               <br></br>
               
               The damage can vary based on where you are,
-              with the most exposure dealing the most damage such as <highlight>Beter Box</highlight> or the third floor on <a href="/bussim/locations/the-bus">The Bus</a>, 
+              with the most exposure dealing the most damage such as <highlight>Beter Box</highlight> or the third floor on <a href="/wiki/bussim/locations/the-bus">The Bus</a>, 
               to the least exposure dealing minimal damage like the first floor. 
               This then decreases afterwards at some point in the event.
             listItemRedirect: /bussim/events/blizzard
@@ -120,7 +120,7 @@ html:
             listItemTitle: Bloxdonalds
             listItemDescription: >-
               When this event happens, The Bus will stop and a random player will mention seeing a Bloxdonalds in the distance.
-              Players are then able to go inside the building and receive a <a href="/bussim/items/burger">Burger</a>.
+              Players are then able to go inside the building and receive a <a href="/wiki/bussim/items/burger">Burger</a>.
               After some time has passed, the driver will mention an oddity within the burgers and afterwards leave, ending the event.
             listItemRedirect: /bussim/events/bloxdonalds
       
@@ -207,7 +207,7 @@ html:
             listItemDescription: >-
               The Glitches Event is an event that slowly starts changing biomes, and gets faster per biome change.
               The event goes through every biome in the game, including one that is only seen via !map in a VIP server,
-              or in the <a href="/bussim/events/exploiter">Exploiter</a> event, the <a href="/bussim/biomes/void">Void</a> biome.
+              or in the <a href="/wiki/bussim/events/exploiter">Exploiter</a> event, the <a href="/wiki/bussim/biomes/void">Void</a> biome.
             listItemRedirect: /bussim/events/glitches
      
           - listItemImage: /assets/bussim/images/events/goat_station2.webp
@@ -215,7 +215,7 @@ html:
             listItemDescription: >-
               The GOATed Gas Station (or Goat Station) event is an event where the players decide to take a nap and rest,
               only to wake themselves up in Goat Station, a sub-urban area with locals such as
-              <a href="/bussim/npcs/zeon">Zeon</a>, <a href="/bussim/npcs/tazer">Tazer</a>, <ahref="/bussim/npcs/green">Green</a>, <ahref="/bussim/npcs/disc">Disc</a>, <href="/bussim/npcs/d6"a>D6</a>, and <a href="/bussim/npcs/mlg">MLG</a>.
+              <a href="/wiki/bussim/npcs/zeon">Zeon</a>, <a href="/wiki/bussim/npcs/tazer">Tazer</a>, <ahref="/wiki/bussim/npcs/green">Green</a>, <ahref="/wiki/bussim/npcs/disc">Disc</a>, <href="/wiki/bussim/npcs/d6"a>D6</a>, and <a href="/wiki/bussim/npcs/mlg">MLG</a>.
               The driver then exclaims that they will have to wait for 8 minutes.
             listItemRedirect: /bussim/events/goated-gas-station
       
@@ -240,7 +240,7 @@ html:
               The Lava Floor, or commonly known as The Floor is Lava event, is a sudden, 
               yet deadly event in Bus Simulator, where for the remainder of around a minute, 
               stepping on any ground at all whether it'd be furniture, floors, or parts will end up swiftly dealing damage. 
-              It can be outpaced however by healing items such as <a href="/bussim/items/cola">Cola</a>, <a href="/bussim/items/homemade-coffee">Homemade Coffee</a>, and a few others.
+              It can be outpaced however by healing items such as <a href="/wiki/bussim/items/cola">Cola</a>, <a href="/wiki/bussim/items/homemade-coffee">Homemade Coffee</a>, and a few others.
             listItemRedirect: /bussim/events/lava-floor
        
           - listItemImage: /assets/bussim/images/events/mountains2.webp
@@ -261,7 +261,7 @@ html:
           - listItemImage: /assets/bussim/images/events/gasup1.webp
             listItemTitle: No Gas
             listItemDescription: >-
-              The No Gas event, or internally known as Gas Up, is the true version of the <a href="/bussim/events/fake-events/no-gas">Fake No Gas</a> where instead of the bus driver fooling their passengers again,
+              The No Gas event, or internally known as Gas Up, is the true version of the <a href="/wiki/bussim/events/fake-events/no-gas">Fake No Gas</a> where instead of the bus driver fooling their passengers again,
               the bus actually runs out of gas and the players will have to collect 6 gas cans near the road.
             listItemRedirect: /bussim/events/no-gas
           
@@ -314,7 +314,7 @@ html:
           - listItemImage: /assets/bussim/images/events/picnic1.webp
             listItemTitle: Picnic
             listItemDescription: >-
-              The bus would stop and a picnic would spawn, you can obtain the <a href="/bussim/items/sandwhich">Sandwich</a> there,
+              The bus would stop and a picnic would spawn, you can obtain the <a href="/wiki/bussim/items/sandwhich">Sandwich</a> there,
               after a bit the bus would leave and the event would end.
             listItemRedirect: /bussim/events/picnic
           
@@ -329,9 +329,9 @@ html:
           - listItemImage: /assets/bussim/images/events/pool2.webp
             listItemTitle: Pool
             listItemDescription: >-
-              The Pool is a short and simple event, where a pool will magically spawn next to the edge of the third floor in <a href="/bussim/location/the-bus">The Bus</a>,
-              within this pool will contain a few ducks and <a href="/bussim/items/coffee">Coffee</a>,
-              which acts similarly in function to <a href="/bussim/items/cola">Cola</a>.
+              The Pool is a short and simple event, where a pool will magically spawn next to the edge of the third floor in <a href="/wiki/bussim/location/the-bus">The Bus</a>,
+              within this pool will contain a few ducks and <a href="/wiki/bussim/items/coffee">Coffee</a>,
+              which acts similarly in function to <a href="/wiki/bussim/items/cola">Cola</a>.
             listItemRedirect: /bussim/events/pool
           
           - listItemImage: /assets/bussim/images/events/questiontime1.webp
@@ -346,14 +346,14 @@ html:
             listItemTitle: Repaint
             listItemDescription: >-
               The Repaint Event is an event that happens every 5 minutes at random,
-              giving players the option to vote for what color that should be painted onto <a href="/bussim/locations/the-bus">The Bus</a> for around 16-20 minutes (or roughly 3-4 events).
+              giving players the option to vote for what color that should be painted onto <a href="/wiki/bussim/locations/the-bus">The Bus</a> for around 16-20 minutes (or roughly 3-4 events).
             listItemRedirect: /bussim/events/repaint
           
           - listItemImage: /assets/bussim/images/events/shack2.webp
             listItemTitle: Shack
             listItemDescription: >-
               The Shack is an event in Bus Simulator, where the Bus stops at an abandoned shack, 
-              within the shack contains a <a href="/bussim/items/fake-rocket-launcher">Fake Rocket Launcher</a> that will obliterate the holder on use.
+              within the shack contains a <a href="/wiki/bussim/items/fake-rocket-launcher">Fake Rocket Launcher</a> that will obliterate the holder on use.
               Soon after the driver mentions their unease and promptly leaves the shack, ending the event.
             listItemRedirect: /bussim/events/shack
           
@@ -362,21 +362,21 @@ html:
             listItemDescription: >-
               Soda Stand is an event where the bus will stop next to a random soda stand. 
               The driver says that someone is handing out free soda.
-              Players can click on MiroCev and can receive get a <a href="/bussim/items/lemon-soda">Lemon Soda</a>.
+              Players can click on MiroCev and can receive get a <a href="/wiki/bussim/items/lemon-soda">Lemon Soda</a>.
             listItemRedirect: /bussim/events/soda-stand
           
           - listItemImage: /assets/bussim/images/events/space2.webp
             listItemTitle: Space
             listItemDescription: >-
               The Space Event is an event in Bus Simulator,where the map is instantly changed to be in space.
-              During this event, all players' gravity will be drastically reduced, with gravity-related items like the <a href="/bussim/items/gas-station-gravity-coil">Gas Station Gravity Coil</a> being able to make players shoot up into outer space.
+              During this event, all players' gravity will be drastically reduced, with gravity-related items like the <a href="/wiki/bussim/items/gas-station-gravity-coil">Gas Station Gravity Coil</a> being able to make players shoot up into outer space.
             listItemRedirect: /bussim/events/space
           
           - listItemImage: /assets/bussim/images/events/stevenrides1.webp
             listItemTitle: Steven Ride
             listItemDescription: >-
               Steven Ride event or known as Steven_Scripts (Event),
-              is an event that is almost identical to the <a href="/bussim/events/passengers">Passengers</a> event in Bus Simulator.
+              is an event that is almost identical to the <a href="/wiki/bussim/events/passengers">Passengers</a> event in Bus Simulator.
             listItemRedirect: /bussim/events/steven-ride
           
           - listItemImage: /assets/bussim/images/npcs/teddy.webp

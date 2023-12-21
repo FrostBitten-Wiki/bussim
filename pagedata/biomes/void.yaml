@@ -10,7 +10,7 @@ html:
   header:
     title: Void
     description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>
+      Category: <a href="/wiki/bussim/biomes">Biomes</a>
 
     image: ''
     imageBanner: /assets/bussim/images/biomes/void.webp
@@ -20,7 +20,7 @@ html:
       content:
         title: Info
         description: >- 
-         <i>Are you looking for the <a href="/bussim/locations/void">location</a>, instead?</i>
+         <i>Are you looking for the <a href="/wiki/bussim/locations/void">location</a>, instead?</i>
 
          <br><br>
 

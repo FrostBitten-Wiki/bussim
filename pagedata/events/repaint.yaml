@@ -11,7 +11,7 @@ html:
   header:
     title: Repaint
     description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Repaint</highlight>
+     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>Repaint</highlight>
     image: ''
     imageBanner: /assets/bussim/images/events/repaint2.webp
 

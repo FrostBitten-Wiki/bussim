@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: 20 Million Cola
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -18,9 +18,9 @@ html:
     - type: buttons
       content:
         buttons:
-          - ["1 Million", "/bussim/items/million-colas"]
-          - ["10 Million", "/bussim/items/million-colas/10-million"]
-          - ["<highlight>20 Million</highlight>","/bussim/items/million-colas/20-million"]
+          - ["1 Million", "/wiki/bussim/items/million-colas"]
+          - ["10 Million", "/wiki/bussim/items/million-colas/10-million"]
+          - ["<highlight>20 Million</highlight>","/wiki/bussim/items/million-colas/20-million"]
 
     - type: section
       content:

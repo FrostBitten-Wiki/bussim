@@ -9,15 +9,15 @@ attributions:
 html:
   header:
     title: Lemonade
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
   pageContent:
     - type: buttons
       content:
         buttons:
-          - ["Lemon Soda", "/bussim/items/lemon-soda"]
-          - ["<highlight>Lemonade</highlight>", "/bussim/items/lemon-soda/lemonade"]
+          - ["Lemon Soda", "/wiki/bussim/items/lemon-soda"]
+          - ["<highlight>Lemonade</highlight>", "/wiki/bussim/items/lemon-soda/lemonade"]
 
     - type: section
       content:

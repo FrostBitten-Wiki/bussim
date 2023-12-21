@@ -11,7 +11,7 @@ html:
   header:
     title: Ranks/Tags
     description: >- 
-      Category: <a href="/bussim/others">Others</a>
+      Category: <a href="/wiki/bussim/others">Others</a>
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
   pageContent:
@@ -38,7 +38,7 @@ html:
         title: Heart Tags
         description: >- 
           This category already has 
-          <a href="/bussim/others/reputation">its own page</a>, 
+          <a href="/wiki/bussim/others/reputation">its own page</a>, 
           but for convenience purposes, 
           here's a quick list on all of the hearts you can get. 
           You can also change them anytime using !setheart.
@@ -136,7 +136,7 @@ html:
           You can also get tags, 
           albeit temporarily by based off of the answers you choose during Question Time, 
           all of the tags so far can be found over 
-          <a href="/bussim/events/question-time">here</a>.
+          <a href="/wiki/bussim/events/question-time">here</a>.
           
     - type: section
       content:

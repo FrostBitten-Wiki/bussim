@@ -10,7 +10,7 @@ attributions:
 html:
   header:
     title: Helicopter
-    description: 'Category: <a href="/bussim/items">Items</a>'
+    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
     image: ''
     imageBanner: /assets/bussim/images/banner.jpg
   pageContent:
@@ -22,7 +22,7 @@ html:
       content:
         title: Info
         description: >-
-         The Helicopter is a permanent item bought from <a href="/bussim/events/goated-gas-station">GOATed Gas Station</a> for 100 <a href="/bussim/others/reputation">Passenger Reputation</a> if you have the <a href="/bussim/items/flying-skillbook">Flying Skillbook</a> in your inventory.
+         The Helicopter is a permanent item bought from <a href="/wiki/bussim/events/goated-gas-station">GOATed Gas Station</a> for 100 <a href="/wiki/bussim/others/reputation">Passenger Reputation</a> if you have the <a href="/wiki/bussim/items/flying-skillbook">Flying Skillbook</a> in your inventory.
          
          <br><br>
 
@@ -34,7 +34,7 @@ html:
          It can be very helpful in particular when it comes to traversing long areas that are accessible once the Bus stops, 
          <small>(Example being Beter Box in front of the Bus.)</small> or areas in which are completely inaccessible with normal mobility. 
          It however isn't immune to the bus speed's effects though, 
-         so it's advised not to use it during <a href="/bussim/events/hyperspeed">Hyperspeed</a>, <a href="/bussim/events/in-the-sky">In The Sky</a>, 
+         so it's advised not to use it during <a href="/wiki/bussim/events/hyperspeed">Hyperspeed</a>, <a href="/wiki/bussim/events/in-the-sky">In The Sky</a>, 
          and other events which causes players midair to be left behind.
 
     - type: section
@@ -45,7 +45,7 @@ html:
       content:
         - name: The Helicopter is the only item you cannot steal from GOATed Gas Station, as you take the skillbook instead, which have all the pages glued down. When you purchase it, Disc, the store cashier, will un-stick all the pages, giving you the Helicopter tool instead.
         - name: If you attempt to buy the book again even after buying it for the first time, Disc will mention that you had already payed for this, and will refund you back the same amount of reputation that would've required to buy this.
-        - name: Another item also shares a slightly similar function to the Helicopter, being the <a href="/bussim/items/hoverboots">Hoverboots</a> which was a limited tool only obtainable during the 10 Million Event. It has much better mobility overall, however still suffers from a timer-based system.
+        - name: Another item also shares a slightly similar function to the Helicopter, being the <a href="/wiki/bussim/items/hoverboots">Hoverboots</a> which was a limited tool only obtainable during the 10 Million Event. It has much better mobility overall, however still suffers from a timer-based system.
 
     - type: gallery
       content:
