@@ -9,7 +9,7 @@ let dialogueRunning = false;
 let previousImage;
 let dialogueData;
 
-fetch("/assets/bussim/dialoguedata/dialogue.json")
+fetch("/bussim-assets/dialoguedata/dialogue.json")
 .then((response) => response.json())
 .then((jsonData) => {
     dialogueData = jsonData;
@@ -21,7 +21,7 @@ const audioBuffers = {};
 
 function loadAudioFile(soundfile) {
     if (!audioBuffers[soundfile]) {
-        return fetch(`/assets/bussim/sounds/${soundfile}.mp3`)
+        return fetch(`/bussim-assets/sounds/${soundfile}.mp3`)
             .then(response => response.arrayBuffer())
             .then(buffer => audioContext.decodeAudioData(buffer))
             .then(decodedBuffer => {

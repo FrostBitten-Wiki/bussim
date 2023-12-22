@@ -1,4 +1,5 @@
 function changeDialogue(id, dialogueId) {
+    console.log(id, dialogueId)
     var speakerName = document.getElementById(`${id}-name`);
     var speakerDialogue = document.getElementById(`${id}-chat`);
     var dialogueBox = document.getElementById(`${id}-dialogue`);
@@ -56,6 +57,8 @@ function changeDialogue(id, dialogueId) {
             chatData.choices.forEach(item => {
                 var button = document.createElement('button');
 
+                console.log(item)
+
                 if (Array.isArray(item[0])) {
                     button.innerHTML = `
                         <text type="hoverText" style="pointer-events: none;">${item[0][0]}</text>
@@ -98,6 +101,8 @@ function changeDialogue(id, dialogueId) {
             chatData.controls.forEach(item => {
                 var button = document.createElement('button');
 
+                console.log(item)
+
                 if (Array.isArray(item[0])) {
                     button.innerHTML = `
                         <text type="hoverText" style="color: #eb4034;">${item[0][0]}</text>
@@ -139,6 +144,8 @@ function changeDialogue(id, dialogueId) {
 
         }
     }
+
+    
 
     var text = random(chatData.text);
 
