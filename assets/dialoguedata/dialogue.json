@@ -282,7 +282,7 @@
         "tazer006": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Tazer", "default", "Want a small driver rep boost?"],
+                [[3000, 25], "Tazer", "default", "Want a small passenger rep boost?"],
                 [[3000, 25], "Tazer", "default", "You know who to look out for."]
             ]
         },
