@@ -10,9 +10,9 @@ html:
   header:
     title: Overseas
     description: >-
-      Category: <a href="/wiki/bussim/biomes">Biomes</a>
+      Category: <a href="/bussim/biomes">Biomes</a>
     image: ''
-    imageBanner: /assets/bussim/images/biomes/overseas.webp
+    imageBanner: /bussim-assets/images/biomes/overseas.webp
   
   pageContent:
     - type: section
@@ -23,7 +23,7 @@ html:
          It comprises of the street being a bridge and the terrain being completely non-existent. 
          It also has a similar haze to Nostalgia among a few others.<br><br>Unlike other biomes, 
          This biome allows players to fall off the road, causing them to drown in the process. 
-         It is highly recommended you don't drive a <a href="/wiki/bussim/items/mini-bus">Minibus</a> recklessly here if you prefer to keep your inventory.
+         It is highly recommended you don't drive a <a href="/bussim/items/mini-bus">Minibus</a> recklessly here if you prefer to keep your inventory.
     - type: section
       content:
         title: Trivia
@@ -31,29 +31,29 @@ html:
     - type: tree
       content:
         - name: >-
-            Overseas is a very bad biome to be in for certain events that are required on land like <a href="/wiki/bussim/events/no-dough">No Dough</a>,
-            <a href="/wiki/bussim/events/no-gas">No Gas</a>, 
-            <a href="/wiki/bussim/events/glacier-cave">Glacier Cave</a>, 
+            Overseas is a very bad biome to be in for certain events that are required on land like <a href="/bussim/events/no-dough">No Dough</a>,
+            <a href="/bussim/events/no-gas">No Gas</a>, 
+            <a href="/bussim/events/glacier-cave">Glacier Cave</a>, 
             and more.
           children:
             - name: >-
                 Items that can make you fly or improve gravity can help such as 
-                <a href="/wiki/bussim/items/helicopter">Helicopter</a> or 
-                <a href="/wiki/bussim/items/gas-station-gravity-coil">Gas Station Gravity Coil</a>
+                <a href="/bussim/items/helicopter">Helicopter</a> or 
+                <a href="/bussim/items/gas-station-gravity-coil">Gas Station Gravity Coil</a>
               children: []
         - name: >-
             It is possible to escape drowning on the waters below by hoping for a teleporation event like 
-            <a href="/wiki/bussim/events/ea-sellout">EA Sellout</a> or 
-            <a href="/wiki/bussim/events/backwalls">Backwalls</a> to happen, 
-            or by using a <a href="/wiki/bussim/items/magic-mirror">Magic Mirror</a>.
+            <a href="/bussim/events/ea-sellout">EA Sellout</a> or 
+            <a href="/bussim/events/backwalls">Backwalls</a> to happen, 
+            or by using a <a href="/bussim/items/magic-mirror">Magic Mirror</a>.
           children: 
-            - name: Items like <a href="/wiki/bussim/items/helicopter">Helicopter</a> unfortunately won't give you enough loft to survive.
+            - name: Items like <a href="/bussim/items/helicopter">Helicopter</a> unfortunately won't give you enough loft to survive.
         - name: >-
             Overseas is the only biome to have a road-like bridge, 
             and also being one of the two more unique biomes, 
-            the other being <a href="/wiki/bussim/biomes/lava">Lava</a>.
+            the other being <a href="/bussim/biomes/lava">Lava</a>.
 
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/biomes/Overseas.webp
+          - /bussim-assets/images/biomes/Overseas.webp

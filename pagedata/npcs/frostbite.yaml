@@ -10,9 +10,9 @@ html:
   header:
     title: Frostbite
     description: >- 
-      Category: <a href="/wiki/bussim/npcs">NPCs</a>
+      Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /assets/bussim/images/locations/glacier-cave.webp
+    imageBanner: /bussim-assets/images/locations/glacier-cave.webp
     
   pageContent:
     - type: section
@@ -67,7 +67,7 @@ html:
       content:
         id: frostbiteIntro
         startId: start
-        chatData: /assets/bussim/chatdata/npcs/frostbite/frostbiteIntro.json
+        chatData: /bussim-assets/chatdata/npcs/frostbite/frostbiteIntro.json
 
     - type: tree
       content:
@@ -112,7 +112,7 @@ html:
       content:
         id: frostbiteStranger
         startId: start
-        chatData: /assets/bussim/chatdata/npcs/frostbite/frostbiteStranger.json
+        chatData: /bussim-assets/chatdata/npcs/frostbite/frostbiteStranger.json
 
     - type: tree
       content:
@@ -172,7 +172,7 @@ html:
       content:
         id: frostbiteAcquainted
         startId: start
-        chatData: /assets/bussim/chatdata/npcs/frostbite/frostbiteAcquainted.json
+        chatData: /bussim-assets/chatdata/npcs/frostbite/frostbiteAcquainted.json
 
     - type: tree
       content:
@@ -253,7 +253,7 @@ html:
       content:
         id: frostbiteFriends
         startId: start
-        chatData: /assets/bussim/chatdata/npcs/frostbite/frostbiteFriends.json
+        chatData: /bussim-assets/chatdata/npcs/frostbite/frostbiteFriends.json
 
     - type: tree
       content:
@@ -664,4 +664,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/npcs/frost.webp
+          - /bussim-assets/images/npcs/frost.webp

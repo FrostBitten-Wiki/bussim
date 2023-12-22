@@ -8,16 +8,16 @@ html:
   header:
     title: Mic Off
     description: >-
-     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>MicOff</highlight>
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>MicOff</highlight>
     image: ''
-    imageBanner: /assets/bussim/images/events/TeddyDead.webp
+    imageBanner: /bussim-assets/images/events/TeddyDead.webp
 
   pageContent:
     - type: buttons
       content:
         buttons:
-          - ["Mic Spam", "/wiki/bussim/events/teddy"]
-          - ["<highlight>Mic Off</highlight>", "/wiki/bussim/events/teddy/mic-off"]
+          - ["Mic Spam", "/bussim/events/teddy"]
+          - ["<highlight>Mic Off</highlight>", "/bussim/events/teddy/mic-off"]
 
     - type: section
       content:
@@ -59,5 +59,5 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/events/TeddyDead.webp
+          - /bussim-assets/images/events/TeddyDead.webp
           

@@ -10,10 +10,10 @@ html:
   header:
     title: Thorns
     description: >-
-      Category: <a href="/wiki/bussim/biomes">Biomes</a>
+      Category: <a href="/bussim/biomes">Biomes</a>
       
     image: ''
-    imageBanner: /assets/bussim/images/biomes/thorns.webp
+    imageBanner: /bussim-assets/images/biomes/thorns.webp
 
   pageContent:
     - type: section
@@ -32,4 +32,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/biomes/galleries/Thorns.webp
+          - /bussim-assets/images/biomes/galleries/Thorns.webp

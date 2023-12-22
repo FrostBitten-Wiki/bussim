@@ -11,9 +11,9 @@ html:
   header:
     title: Beter Box
     description: >-
-     Category: <a href="/wiki/bussim/locations">Locations</a>
+     Category: <a href="/bussim/locations">Locations</a>
     image: ''
-    imageBanner: /assets/bussim/images/locations/beter-box.webp
+    imageBanner: /bussim-assets/images/locations/beter-box.webp
 
   pageContent:
     - type: section
@@ -56,4 +56,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/locations/beter-box.webp
+          - /bussim-assets/images/locations/beter-box.webp

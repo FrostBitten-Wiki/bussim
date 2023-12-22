@@ -10,9 +10,9 @@ attributions:
 html:
   header:
     title: Fake Rocket Launcher
-    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
     
   pageContent:
     - type: quote
@@ -23,7 +23,7 @@ html:
       content:
         title: Info
         description: >-
-         The FakeRocket, or more commonly known as the Fake Rocket Launcher is an item obtained in the <a href="/wiki/bussim/events/shack">Shack</a> event.
+         The FakeRocket, or more commonly known as the Fake Rocket Launcher is an item obtained in the <a href="/bussim/events/shack">Shack</a> event.
 
          <br><br>
 
@@ -42,4 +42,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/items/fake-rocket-launcher.webp
+          - /bussim-assets/images/items/fake-rocket-launcher.webp

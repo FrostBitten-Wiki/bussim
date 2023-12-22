@@ -10,9 +10,9 @@ html:
   header:
     title: Weather
     description: >- 
-      Category: <a href="/wiki/bussim/others">Others</a>
+      Category: <a href="/bussim/others">Others</a>
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
   
   pageContent:
     - type: section

@@ -10,9 +10,9 @@ html:
   header:
     title: Entities
     description: >- 
-      Category: <a href="/wiki/bussim/npcs">NPCs</a>
+      Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /assets/bussim/images/locations/backwalls.webp
+    imageBanner: /bussim-assets/images/locations/backwalls.webp
     
   pageContent:
     - type: infobox
@@ -55,4 +55,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/npcs/entity.webp
+          - /bussim-assets/images/npcs/entity.webp

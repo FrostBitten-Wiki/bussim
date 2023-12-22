@@ -10,9 +10,9 @@ attributions:
 html:
   header:
     title: Party Popper
-    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: quote
@@ -33,12 +33,12 @@ html:
 
     - type: tree
       content:
-        - name: In the <a href="/wiki/bussim/events/no-dough">No Dough</a>/<a href="/wiki/bussim/events/santas-gone">Santas Gone</a> event, this item can be used to distract the Civilians.
+        - name: In the <a href="/bussim/events/no-dough">No Dough</a>/<a href="/bussim/events/santas-gone">Santas Gone</a> event, this item can be used to distract the Civilians.
         - name: The item can be seen in the <a href="https://kit-battle.fandom.com/wiki/Randomized_Kit">Randomized Kit</a> in the <a href="https://www.roblox.com/games/6549663822/Kit-Battle-Beta-Testing">Kit Battle Beta</a>.
         - name: The item was previously seen in a Bloxdonalds clothing store.
 
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/items/party-popper.webp
+          - /bussim-assets/images/items/party-popper.webp
           

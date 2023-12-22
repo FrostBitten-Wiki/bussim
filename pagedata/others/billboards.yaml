@@ -11,9 +11,9 @@ html:
   header:
     title: Billboards
     description: >- 
-      Category: <a href="/wiki/bussim/others">Others</a>
+      Category: <a href="/bussim/others">Others</a>
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: section
@@ -21,7 +21,7 @@ html:
         title: Info
         description: >-
          <i>Not to be confused with the advertisements in the 
-          <a href="/wiki/bussim/biomes/nostalgic">Nostalgic</a> 
+          <a href="/bussim/biomes/nostalgic">Nostalgic</a> 
           biome.</i>
 
           <br><br>
@@ -46,10 +46,10 @@ html:
         
     - type: tree
       content:
-        - name: The update also added a couple new lines to <a href="/wiki/bussim/npcs/pear">Pear</a> related to advertising, if the account age is 12 or younger.
+        - name: The update also added a couple new lines to <a href="/bussim/npcs/pear">Pear</a> related to advertising, if the account age is 12 or younger.
 
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/others/billboard/Billboard.webp
-          - /assets/bussim/images/others/billboard/Ad_Billboard.webp
+          - /bussim-assets/images/others/billboard/Billboard.webp
+          - /bussim-assets/images/others/billboard/Ad_Billboard.webp

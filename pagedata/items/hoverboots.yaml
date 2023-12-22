@@ -10,9 +10,9 @@ attributions:
 html:
   header:
     title: Hoverboots
-    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
     
   pageContent:
     - type: quote
@@ -24,7 +24,7 @@ html:
         title: Info
         description: >-
          The Hoverboots is a pair of boots that allows you to fly, 
-         similar to the <a href="/wiki/bussim/items/helicopter">Helicopter</a> item. 
+         similar to the <a href="/bussim/items/helicopter">Helicopter</a> item. 
          It could've been obtained from the 10 Middle Event Wheel. 
          To use the item, simply press the jump button while having it equipped to start flying, 
          and you can click to have a speed boost while flying, 
@@ -43,4 +43,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/items/hoverboots.webp
+          - /bussim-assets/images/items/hoverboots.webp

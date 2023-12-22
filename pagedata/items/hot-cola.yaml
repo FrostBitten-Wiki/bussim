@@ -10,9 +10,9 @@ attributions:
 html:
   header:
     title: Hot Cola
-    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
     
   pageContent:
     - type: quote
@@ -23,7 +23,7 @@ html:
       content:
         title: Info
         description: >-
-         Hot Cola is an item that can be found on the Second-Story of <a href="/wiki/bussim/locations/the-bus">The Bus</a> underneath the <a href="/wiki/bussim/items/pizza">Pizza Box</a>. 
+         Hot Cola is an item that can be found on the Second-Story of <a href="/bussim/locations/the-bus">The Bus</a> underneath the <a href="/bussim/items/pizza">Pizza Box</a>. 
          When used, it'll act as any normal Cola; 
          but will instead set you ablaze, 
          with high pitched oof noises being produced and fire coming out of your head as your entire body darkens. 
@@ -32,7 +32,7 @@ html:
          
          <br><br>
 
-         This can however be prevented by consuming <a href="/wiki/bussim/items/cold-cola">Cold Cola</a> instead, 
+         This can however be prevented by consuming <a href="/bussim/items/cold-cola">Cold Cola</a> instead, 
          freezing you and preventing you from death. 
          It doesn't prevent the lasting effects however.
 
@@ -41,10 +41,10 @@ html:
         title: Trivia
     - type: tree
       content:
-        - name: Despite its functionality, it doesn't work during the <a href="/wiki/bussim/events/blizzard">Blizzard Event</a>.
-        - name: While using this and the <a href="/wiki/bussim/items/cold-cola">Cold Cola</a> thereafter can prevent you from dying; doing this conversely doesn't automatically extinguish the Hot Cola's effects.
+        - name: Despite its functionality, it doesn't work during the <a href="/bussim/events/blizzard">Blizzard Event</a>.
+        - name: While using this and the <a href="/bussim/items/cold-cola">Cold Cola</a> thereafter can prevent you from dying; doing this conversely doesn't automatically extinguish the Hot Cola's effects.
 
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/items/hot-cola.webp
+          - /bussim-assets/images/items/hot-cola.webp

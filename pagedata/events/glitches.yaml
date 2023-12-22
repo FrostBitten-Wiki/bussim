@@ -11,9 +11,9 @@ html:
   header:
     title: Glitches
     description: >-
-     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>Glitches</highlight>
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Glitches</highlight>
     image: ''
-    imageBanner: /assets/bussim/images/events/glitches.webp
+    imageBanner: /bussim-assets/images/events/glitches.webp
 
   pageContent:
     - type: section
@@ -49,4 +49,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/events/glitches.webp
+          - /bussim-assets/images/events/glitches.webp

@@ -10,9 +10,9 @@ html:
   header:
     title: D6
     description: >- 
-      Category: <a href="/wiki/bussim/npcs">NPCs</a>
+      Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /assets/bussim/images/events/goat_station1.webp
+    imageBanner: /bussim-assets/images/events/goat_station1.webp
     
   pageContent:
     - type: section
@@ -57,7 +57,7 @@ html:
       content:
         id: d6
         startId: start
-        chatData: /assets/bussim/chatdata/npcs/d6.json
+        chatData: /bussim-assets/chatdata/npcs/d6.json
 
     - type: tree
       content:
@@ -457,4 +457,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/npcs/d6.webp
+          - /bussim-assets/images/npcs/d6.webp

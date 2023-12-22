@@ -10,9 +10,9 @@ html:
   header:
     title: TV
     description: >- 
-      Category: <a href="/wiki/bussim/others">Others</a>
+      Category: <a href="/bussim/others">Others</a>
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
   
   pageContent:
     - type: section
@@ -50,19 +50,19 @@ html:
           - "Description"
           - "Images / GIFS"
         items:
-        - ["1 - Peter Griffin	","Shows a gif of <a href='https://en.wikipedia.org/wiki/Peter_Griffin'>Peter Griffin</a> from <a href='https://en.wikipedia.org/wiki/Family_Guy'>Family Guy</a> groaning on the side of the road due to a leg injury. A corresponding sound effect is looped.","/assets/bussim/images/others/tv/Beter.webp"]
-        - ["2 - Danger Tick","Shows a slideshow of a tick trying to attack something but ends up dying. Occasionally shows a title screen saying \"DANGER TICK\". This is a reference to Parrapa the Rapper.","/assets/bussim/images/others/tv/Danger_tick.webp"]
-        - ["3 - Most Robux Wasted","Shows a leaderboard of the top donators to the game. Only forced events and songs purchased count towards this. Plays the <a href='https://www.youtube.com/watch?v=sL8mOg7omoM&ab_channel=BunnyBoiler72'>LittleBigPlanet Vita Pod</a> music in the background.","/assets/bussim/images/others/tv/Leadboard.webp"]
+        - ["1 - Peter Griffin	","Shows a gif of <a href='https://en.wikipedia.org/wiki/Peter_Griffin'>Peter Griffin</a> from <a href='https://en.wikipedia.org/wiki/Family_Guy'>Family Guy</a> groaning on the side of the road due to a leg injury. A corresponding sound effect is looped.","/bussim-assets/images/others/tv/Beter.webp"]
+        - ["2 - Danger Tick","Shows a slideshow of a tick trying to attack something but ends up dying. Occasionally shows a title screen saying \"DANGER TICK\". This is a reference to Parrapa the Rapper.","/bussim-assets/images/others/tv/Danger_tick.webp"]
+        - ["3 - Most Robux Wasted","Shows a leaderboard of the top donators to the game. Only forced events and songs purchased count towards this. Plays the <a href='https://www.youtube.com/watch?v=sL8mOg7omoM&ab_channel=BunnyBoiler72'>LittleBigPlanet Vita Pod</a> music in the background.","/bussim-assets/images/others/tv/Leadboard.webp"]
         - ["3 (Alt) - Trying to Watch","In Noble's House, this channel will display instead of the one in The Bus. This one will instead display a leaderboard of people attempting to watch the TV. You don't need to look at it to be in the leaderboards as you just have to be in range. Plays the <a href='https://www.youtube.com/watch?v=sL8mOg7omoM&ab_channel=BunnyBoiler72'>LittleBigPlanet Vita Pod</a> music in the background.",""]
-        - ["4 - Furries","Shows a gif of two furry characters hugging, and plays a song.","/assets/bussim/images/others/tv/Fandomhug.webp"]
-        - ["5 - Petting","Shows a gif of a human touching a black wolf's ears, with water ambience and various noises in the background.","/assets/bussim/images/others/tv/Puro.webp"]
-        - ["6 - Super Mario RPG","Shows a still image of Mario with the text \"siuper mario rpg\" and \"start\" while the song <a href='https://www.youtube.com/watch?v=k_q9y5vSIrw&ab_channel=ChristopherNiosi'>Waltz of the Forest</a> plays. This is a reference to Nintendo's game \"Super Mario RPG\" for the NES, or recently, Switch.<br>The audio that plays is also found within the <a href='/bussim/others/bus-radio'>Radio's Tracks</a>.","/assets/bussim/images/others/tv/Rpg.webp"]
-        - ["7 - Pear Jumpscare","Shows a still image of Pear as scary ambience plays on loop. This image has been changed multiple times, with the current variant being created by <a href='https://twitter.com/fardraws'>FarDraws</a>","/assets/bussim/images/others/tv/Peartv.webp"]
-        - ["8 - Noble Eating Pizza","Shows a shaking image of Noble eating pizza. You can see <a href='/bussim/npcs/pear'>Pear</a> on the left of Noble.<br>The audio that plays is also found within the <a href='/bussim/others/bus-radio'>Radio's Tracks</a>, namely \"Life's a Beach\" by teckworks (Cover) and Plok! (Original).","/assets/bussim/images/others/tv/Pizzatv.webp"]
-        - ["9 - Bighead","Shows a spinning bighead as an 8-bit Remix of the Roblox Anthem plays.","/assets/bussim/images/others/tv/Bighead.webp"]
-        - ["10 - A Talking Teapot","Shows a short old-school animation of a Robloxian breaking through a small room by running away from a comically large talking teapot.","/assets/bussim/images/others/tv/10.webp"]
-        - ["11 - Roblox World Headquarters","Shows a lengthy old-school animation of a story about Roblox Admins and hackers.","/assets/bussim/images/others/tv/11.webp"]
-        - ["12 - The Epic Fight","Shows a short old-school animation of two robloxians fighting over pancakes, with one throwing it onto the face of the other, before both are ran over by a third-party.","/assets/bussim/images/others/tv/12.webp"]
+        - ["4 - Furries","Shows a gif of two furry characters hugging, and plays a song.","/bussim-assets/images/others/tv/Fandomhug.webp"]
+        - ["5 - Petting","Shows a gif of a human touching a black wolf's ears, with water ambience and various noises in the background.","/bussim-assets/images/others/tv/Puro.webp"]
+        - ["6 - Super Mario RPG","Shows a still image of Mario with the text \"siuper mario rpg\" and \"start\" while the song <a href='https://www.youtube.com/watch?v=k_q9y5vSIrw&ab_channel=ChristopherNiosi'>Waltz of the Forest</a> plays. This is a reference to Nintendo's game \"Super Mario RPG\" for the NES, or recently, Switch.<br>The audio that plays is also found within the <a href='/bussim/others/bus-radio'>Radio's Tracks</a>.","/bussim-assets/images/others/tv/Rpg.webp"]
+        - ["7 - Pear Jumpscare","Shows a still image of Pear as scary ambience plays on loop. This image has been changed multiple times, with the current variant being created by <a href='https://twitter.com/fardraws'>FarDraws</a>","/bussim-assets/images/others/tv/Peartv.webp"]
+        - ["8 - Noble Eating Pizza","Shows a shaking image of Noble eating pizza. You can see <a href='/bussim/npcs/pear'>Pear</a> on the left of Noble.<br>The audio that plays is also found within the <a href='/bussim/others/bus-radio'>Radio's Tracks</a>, namely \"Life's a Beach\" by teckworks (Cover) and Plok! (Original).","/bussim-assets/images/others/tv/Pizzatv.webp"]
+        - ["9 - Bighead","Shows a spinning bighead as an 8-bit Remix of the Roblox Anthem plays.","/bussim-assets/images/others/tv/Bighead.webp"]
+        - ["10 - A Talking Teapot","Shows a short old-school animation of a Robloxian breaking through a small room by running away from a comically large talking teapot.","/bussim-assets/images/others/tv/10.webp"]
+        - ["11 - Roblox World Headquarters","Shows a lengthy old-school animation of a story about Roblox Admins and hackers.","/bussim-assets/images/others/tv/11.webp"]
+        - ["12 - The Epic Fight","Shows a short old-school animation of two robloxians fighting over pancakes, with one throwing it onto the face of the other, before both are ran over by a third-party.","/bussim-assets/images/others/tv/12.webp"]
 
     - type: section
       content:

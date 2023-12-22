@@ -11,9 +11,9 @@ html:
   header:
     title: Glacier Cave
     description: >-
-     Category: <a href="/wiki/bussim/events">Events</a>, <a href="/wiki/bussim/locations">Locations</a><br>Event Name: <highlight>GlacierCave</highlight>
+     Category: <a href="/bussim/events">Events</a>, <a href="/bussim/locations">Locations</a><br>Event Name: <highlight>GlacierCave</highlight>
     image: ''
-    imageBanner: /assets/bussim/images/locations/glacier-cave.webp
+    imageBanner: /bussim-assets/images/locations/glacier-cave.webp
 
   pageContent:
     - type: section
@@ -40,7 +40,7 @@ html:
           <br><br>
 
           Continuing along the area you will find Frostbite's Den, 
-          where not only will you encounter <a href="/wiki/bussim/npcs/frostbite">Frostbite</a> <small>(Not to be confused by the same person, <a href="/wiki/bussim/npcs/noble">NobleReign</a>.)</small> , 
+          where not only will you encounter <a href="/bussim/npcs/frostbite">Frostbite</a> <small>(Not to be confused by the same person, <a href="/bussim/npcs/noble">NobleReign</a>.)</small> , 
           but also other props around the den, this includes:
 
     - type: table
@@ -79,7 +79,7 @@ html:
 
     - type: tree
       content:
-        - name: 'While the main way to enter is through the cave event itself, you can enter the cave without needing it. It does however require the <a href="/wiki/bussim/items/magic-mirror">Magic Mirror</a> item which also requires the other two badges that can be unlocked in this cave: <a href="https://www.roblox.com/badges/2130010648/Part-of-the-Pack">Part of the Pack</a> and <a href="https://www.roblox.com/badges/2130010649/Animal-Messenger">Animal Messenger</a>.'
+        - name: 'While the main way to enter is through the cave event itself, you can enter the cave without needing it. It does however require the <a href="/bussim/items/magic-mirror">Magic Mirror</a> item which also requires the other two badges that can be unlocked in this cave: <a href="https://www.roblox.com/badges/2130010648/Part-of-the-Pack">Part of the Pack</a> and <a href="https://www.roblox.com/badges/2130010649/Animal-Messenger">Animal Messenger</a>.'
         - name: Unlike some other permanent items such as Liquid Void or Almond Water, it is possible to obtain the Magic Mirror even in a Private Server.
         - name: This is one of the two events in the game that contain more than one badge (if any actually), the other one being both <a href='/bussim/events/santas-gone'>Santa's Gone</a> and <a href='/bussim/events/no-dough'>No Dough</a>.
         - name: NamerElf's character code is unique compared to the others in the podium, being that it automatically updates to the actual account of NamerElf. Hence why there is an option to talk about its clothing.
@@ -111,5 +111,5 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/locations/glacier-cave.webp
-          - /assets/bussim/images/events/glacier1.webp
+          - /bussim-assets/images/locations/glacier-cave.webp
+          - /bussim-assets/images/events/glacier1.webp

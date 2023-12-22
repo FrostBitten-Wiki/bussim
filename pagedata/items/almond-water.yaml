@@ -11,10 +11,10 @@ html:
   header:
     title: Almond Water
     description: >-
-      Category: <a href="/wiki/bussim/items">Items</a>
+      Category: <a href="/bussim/items">Items</a>
 
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: quote
@@ -27,9 +27,9 @@ html:
         size: normal
         title: Info
         description: >-
-          Almond Water is a healing item obtainable from random floor spawns in the <a href="/wiki/bussim/events/backwalls">Backwalls</a> event. 
+          Almond Water is a healing item obtainable from random floor spawns in the <a href="/bussim/events/backwalls">Backwalls</a> event. 
           When used, you will gain a significant boost in speed and healing for a few seconds, 
-          being able to outrun <a href="/wiki/bussim/npcs/entity">Entities</a> and move much quicker throughout the <a href="/wiki/bussim/events/backwalls">Backwalls</a>, 
+          being able to outrun <a href="/bussim/npcs/entity">Entities</a> and move much quicker throughout the <a href="/bussim/events/backwalls">Backwalls</a>, 
           however this item only has 2 uses before it'll disappear from your inventory so use wisely.
 
     - type: quote
@@ -40,7 +40,7 @@ html:
     - type: text
       content:
         text: >-
-          There is however, a 33% (formerly 10%) chance of permanently getting Almond Water by escaping the <a href="/wiki/bussim/events/backwalls">Backwalls</a> while you have it in your inventory. 
+          There is however, a 33% (formerly 10%) chance of permanently getting Almond Water by escaping the <a href="/bussim/events/backwalls">Backwalls</a> while you have it in your inventory. 
           The function of the item will remain the same, 
           and while its only usable twice, you can reset to get it back..
 
@@ -56,4 +56,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/items/almond-water.webp
+          - /bussim-assets/images/items/almond-water.webp

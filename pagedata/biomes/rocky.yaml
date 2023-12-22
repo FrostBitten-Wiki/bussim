@@ -10,9 +10,9 @@ html:
   header:
     title: Rocky
     description: >-
-      Category: <a href="/wiki/bussim/biomes">Biomes</a>
+      Category: <a href="/bussim/biomes">Biomes</a>
     image: ''
-    imageBanner: /assets/bussim/images/biomes/rocky.webp
+    imageBanner: /bussim-assets/images/biomes/rocky.webp
   
   pageContent:
     - type: section
@@ -27,7 +27,7 @@ html:
     
     - type: tree
       content:
-        - name: During the event <a href="/wiki/bussim/events/cave">Cave</a>, this biome would appear until the next biome.
+        - name: During the event <a href="/bussim/events/cave">Cave</a>, this biome would appear until the next biome.
     
     - type: gallery
       content:

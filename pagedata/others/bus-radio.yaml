@@ -11,9 +11,9 @@ html:
   header:
     title: Bus Radio
     description: >-
-      Category: <a href="/wiki/bussim/others">Others</a>
+      Category: <a href="/bussim/others">Others</a>
     image: ""
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: section

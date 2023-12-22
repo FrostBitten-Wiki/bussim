@@ -10,21 +10,21 @@ attributions:
 html:
   header:
     title: Homemade Coffee
-    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: section
       content:
         title: Info
         description: >-
-         <i>Are you looking for the regular <a href="/wiki/bussim/items/coffee">Coffee</a>, instead?</i>
+         <i>Are you looking for the regular <a href="/bussim/items/coffee">Coffee</a>, instead?</i>
          
          <br><br>
 
-         The Homemade Coffee is an temporary item from the <a href="/wiki/bussim/events/goated-gas-station">Goat Station</a> event, 
-         and recovers more health than the <a href="/wiki/bussim/items/cola">Cola</a> and regular <a href="/wiki/bussim/items/coffee">Coffee</a>. 
+         The Homemade Coffee is an temporary item from the <a href="/bussim/events/goated-gas-station">Goat Station</a> event, 
+         and recovers more health than the <a href="/bussim/items/cola">Cola</a> and regular <a href="/bussim/items/coffee">Coffee</a>. 
          The item is the same as the regular Coffee, 
          but is in a mug instead of a BloxDonalds cup.
 
@@ -32,7 +32,7 @@ html:
       content:
         title: How To obtain
         description: >-
-         You can obtain Homemade Coffee by heading over to <a href="/wiki/bussim/npcs/zeon">Zeon's</a> kitchen and clicking the button on the Coffee Maker. 
+         You can obtain Homemade Coffee by heading over to <a href="/bussim/npcs/zeon">Zeon's</a> kitchen and clicking the button on the Coffee Maker. 
          Once it's pressed, the Coffee will begin to brew. 
          When it's done, 
          click on the pot full of Coffee to obtain the item.
@@ -41,4 +41,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/items/homemade-coffee.webp
+          - /bussim-assets/images/items/homemade-coffee.webp

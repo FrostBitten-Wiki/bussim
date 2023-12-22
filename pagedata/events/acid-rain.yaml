@@ -11,9 +11,9 @@ html:
   header:
     title: Acid Rain
     description: >-
-     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>AcidRain</highlight>
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>AcidRain</highlight>
     image: ''
-    imageBanner: /assets/bussim/images/events/acid_rain.webp
+    imageBanner: /bussim-assets/images/events/acid_rain.webp
 
   pageContent:
 
@@ -58,4 +58,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/events/acid_rain.webp
+          - /bussim-assets/images/events/acid_rain.webp

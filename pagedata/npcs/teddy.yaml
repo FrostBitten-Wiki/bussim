@@ -10,9 +10,9 @@ html:
   header:
     title: Teddy
     description: >- 
-      Category: <a href="/wiki/bussim/npcs">NPCs</a>
+      Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
     
   pageContent:
     - type: section
@@ -47,4 +47,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/npcs/teddy.webp
+          - /bussim-assets/images/npcs/teddy.webp

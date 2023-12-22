@@ -11,9 +11,9 @@ html:
   header:
     title: Pearcoin<sup>TM</sup>
     description: >- 
-      Category: <a href="/wiki/bussim/others">Others</a>
+      Category: <a href="/bussim/others">Others</a>
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
   
   pageContent:
     - type: quote
@@ -56,4 +56,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/others/pearcoin.webp
+          - /bussim-assets/images/others/pearcoin.webp

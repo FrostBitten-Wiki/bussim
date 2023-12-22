@@ -10,9 +10,9 @@ html:
   header:
     title: Civilian
     description: >- 
-      Category: <a href="/wiki/bussim/npcs">NPCs</a>
+      Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /assets/bussim/images/events/goat_station1.webp
+    imageBanner: /bussim-assets/images/events/goat_station1.webp
     
   pageContent:
     - type: section
@@ -89,4 +89,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/npcs/civilian.webp
+          - /bussim-assets/images/npcs/civilian.webp

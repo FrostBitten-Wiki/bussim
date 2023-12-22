@@ -11,9 +11,9 @@ html:
   header:
     title: Cave
     description: >-
-     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>Cave</highlight>
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Cave</highlight>
     image: ''
-    imageBanner: /assets/bussim/images/events/cave2.webp
+    imageBanner: /bussim-assets/images/events/cave2.webp
 
   pageContent:
     - type: section
@@ -35,7 +35,7 @@ html:
 
          This event is a great way to show off the Futuristic lighting that is used in the game, 
          via the Headlights, 
-         <a href="/wiki/bussim/items/phone">Phone's</a> flashlight, 
+         <a href="/bussim/items/phone">Phone's</a> flashlight, 
          etc.
 
     - type: section
@@ -51,4 +51,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/events/cave2.webp
+          - /bussim-assets/images/events/cave2.webp

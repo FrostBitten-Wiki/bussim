@@ -11,9 +11,9 @@ html:
   header:
     title: EA Sellout
     description: >-
-     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>BoughtOut</highlight>
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>BoughtOut</highlight>
     image: ''
-    imageBanner: /assets/bussim/images/events/ea_sellout.webp
+    imageBanner: /bussim-assets/images/events/ea_sellout.webp
 
   pageContent:
     - type: section
@@ -73,4 +73,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/events/ea_sellout.webp
+          - /bussim-assets/images/events/ea_sellout.webp

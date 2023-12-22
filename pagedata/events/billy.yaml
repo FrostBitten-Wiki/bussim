@@ -11,9 +11,9 @@ html:
   header:
     title: Billy
     description: >-
-     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>Billy</highlight>
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Billy</highlight>
     image: ''
-    imageBanner: /assets/bussim/images/events/billy1.webp
+    imageBanner: /bussim-assets/images/events/billy1.webp
 
   pageContent:
     - type: infobox
@@ -86,7 +86,7 @@ html:
       content:
         id: billyIntro
         startId: startDialogue
-        chatData: /assets/bussim/chatdata/events/billyintro.json
+        chatData: /bussim-assets/chatdata/events/billyintro.json
 
     - type: tree
       content:
@@ -120,7 +120,7 @@ html:
       content:
         id: billyAll
         startId: startDialogue
-        chatData: /assets/bussim/chatdata/events/billyall.json
+        chatData: /bussim-assets/chatdata/events/billyall.json
 
     - type: tree
       content:
@@ -157,5 +157,5 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/events/billy1.webp
-          - /assets/bussim/images/events/billy2.webp
+          - /bussim-assets/images/events/billy1.webp
+          - /bussim-assets/images/events/billy2.webp

@@ -10,9 +10,9 @@ attributions:
 html:
   header:
     title: Marker
-    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: quote
@@ -74,7 +74,7 @@ html:
           <br><br>
 
           Do note however, that drawing on surfaces that can be deleted will also delete any drawings on it, 
-          and some parts occasionally from <a href="/wiki/bussim/events">Events</a> are considered Invalid Surfaces.
+          and some parts occasionally from <a href="/bussim/events">Events</a> are considered Invalid Surfaces.
 
     - type: section
       content:
@@ -99,5 +99,5 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/items/marker.webp
+          - /bussim-assets/images/items/marker.webp
           

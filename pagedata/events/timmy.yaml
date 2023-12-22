@@ -11,9 +11,9 @@ html:
   header:
     title: Timmy
     description: >-
-     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>Timmy</highlight>
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Timmy</highlight>
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: section

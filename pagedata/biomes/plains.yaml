@@ -10,9 +10,9 @@ html:
   header:
     title: Plains
     description: >-
-      Category: <a href="/wiki/bussim/biomes">Biomes</a>
+      Category: <a href="/bussim/biomes">Biomes</a>
     image: ''
-    imageBanner: /assets/bussim/images/biomes/plains.webp
+    imageBanner: /bussim-assets/images/biomes/plains.webp
   
   pageContent:
     - type: section
@@ -24,4 +24,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/biomes/galleries/CampFire.webp
+          - /bussim-assets/images/biomes/galleries/CampFire.webp

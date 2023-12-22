@@ -9,9 +9,9 @@ html:
   header:
     title: Efeuc
     description: >- 
-      Category: <a href="/wiki/bussim/npcs">NPCs</a>
+      Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /assets/bussim/images/locations/void.webp
+    imageBanner: /bussim-assets/images/locations/void.webp
     
   pageContent:
     - type: section
@@ -30,7 +30,7 @@ html:
       content:
         id: efeuc
         startId: start
-        chatData: /assets/bussim/chatdata/npcs/efeuc.json
+        chatData: /bussim-assets/chatdata/npcs/efeuc.json
 
     - type: tree
       content:
@@ -176,4 +176,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/npcs/efeuc.webp
+          - /bussim-assets/images/npcs/efeuc.webp

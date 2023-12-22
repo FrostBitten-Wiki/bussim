@@ -10,9 +10,9 @@ html:
   header:
     title: MiroCev
     description: >- 
-      Category: <a href="/wiki/bussim/npcs">NPCs</a>
+      Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
     
   pageContent:
     - type: section
@@ -36,7 +36,7 @@ html:
       content:
         id: mirocev
         startId: start
-        chatData: /assets/bussim/chatdata/npcs/mirocev.json
+        chatData: /bussim-assets/chatdata/npcs/mirocev.json
 
     - type: tree
       content:
@@ -64,4 +64,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/npcs/mirocev.webp
+          - /bussim-assets/images/npcs/mirocev.webp

@@ -14,16 +14,16 @@ html:
   header:
     title: Lorem ipsum
     description: >-
-     Category: <a href="/wiki/bussim/others">Others</a>
+     Category: <a href="/bussim/others">Others</a>
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: buttons
       content:
         buttons:
-          - ["Lorem ipsum", "/wiki/bussim/mockup"]
-          - ["<highlight>Dialogue Mockup</highlight>", "/wiki/bussim/mockup/dialogue"]
+          - ["Lorem ipsum", "/bussim/mockup"]
+          - ["<highlight>Dialogue Mockup</highlight>", "/bussim/mockup/dialogue"]
     - type: section
       content:
         title: Info
@@ -69,7 +69,7 @@ html:
       content:
         id: mockup
         startId: start
-        chatData: /assets/bussim/chatdata/example.json
+        chatData: /bussim-assets/chatdata/example.json
 
     - type: tree
       content:
@@ -121,7 +121,7 @@ html:
           - "Lorem ipsum dolor"
         items:
           - ["consectetur adipiscing elit,", "consectetur adipiscing elit,", "consectetur adipiscing elit,"]
-          - ["sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "/assets/bussim/images/banner.jpg"]
+          - ["sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "/bussim-assets/images/banner.jpg"]
 
     - type: text
       content:
@@ -157,4 +157,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/banner.jpg
+          - /bussim-assets/images/banner.jpg

@@ -12,7 +12,7 @@ html:
     title: Badges
     description: Badges are collectibles in Bus Simulator that are obtained in specific conditions. Some are limited while others give an item for unlocking.
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
     - type: infobox
       content:

@@ -11,9 +11,9 @@ html:
   header:
     title: The Door
     description: >-
-     Category: <a href="/wiki/bussim/locations">Locations</a>
+     Category: <a href="/bussim/locations">Locations</a>
     image: ''
-    imageBanner: /assets/bussim/images/locations/the-door.webp
+    imageBanner: /bussim-assets/images/locations/the-door.webp
 
   pageContent:
     - type: section
@@ -22,7 +22,7 @@ html:
         description: >-
          The Door is an entrance point that is always a considerable distance behind the bus, 
          sitting next to a few wooden planks. 
-         You can get to the door by using <a href="/wiki/bussim/items/hoverboots">Hoverboots</a> or <a href="/wiki/bussim/items/helicopter">Helicopter</a> (the latter requires a speed boost from an item such as <a href="/wiki/bussim/items/almond-water">Almond Water</a> to cover the distance) while timing your descent just right to trigger the door, 
+         You can get to the door by using <a href="/bussim/items/hoverboots">Hoverboots</a> or <a href="/bussim/items/helicopter">Helicopter</a> (the latter requires a speed boost from an item such as <a href="/bussim/items/almond-water">Almond Water</a> to cover the distance) while timing your descent just right to trigger the door, 
          or by waiting until the Bus is stopped by an event, 
          and travelling over to it.
 
@@ -41,7 +41,7 @@ html:
           interacting with one of the faceless noobs will cause them to slap you, 
           sending you backwards a bit. 
           You can use the same alternate methods you may have used to come here (Hoverboots, Helicopter) to fly up the stone borders and stand on top of the sun. 
-          You can also use <a href="/wiki/bussim/items/mini-bus">Mini-Bus</a> to clip up the borders if you use it on the edge of a corner. 
+          You can also use <a href="/bussim/items/mini-bus">Mini-Bus</a> to clip up the borders if you use it on the edge of a corner. 
           However, 
           you won't be able to get above the sun if you don't have any means of flying.
 
@@ -59,4 +59,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/locations/the-door.webp
+          - /bussim-assets/images/locations/the-door.webp

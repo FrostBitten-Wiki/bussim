@@ -10,10 +10,10 @@ html:
   header:
     title: Plastic Bricks
     description: >-
-      Category: <a href="/wiki/bussim/biomes">Biomes</a>
+      Category: <a href="/bussim/biomes">Biomes</a>
 
     image: ''
-    imageBanner: /assets/bussim/images/biomes/plastic-bricks.webp
+    imageBanner: /bussim-assets/images/biomes/plastic-bricks.webp
   
   pageContent:
     - type: section
@@ -27,4 +27,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/biomes/galleries/Plastic_Trees.webp
+          - /bussim-assets/images/biomes/galleries/Plastic_Trees.webp

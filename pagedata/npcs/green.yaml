@@ -10,9 +10,9 @@ html:
   header:
     title: Green
     description: >- 
-      Category: <a href="/wiki/bussim/npcs">NPCs</a>
+      Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /assets/bussim/images/events/goat_station1.webp
+    imageBanner: /bussim-assets/images/events/goat_station1.webp
     
   pageContent:
     - type: section
@@ -41,7 +41,7 @@ html:
       content:
         id: green
         startId: start
-        chatData: /assets/bussim/chatdata/npcs/green.json
+        chatData: /bussim-assets/chatdata/npcs/green.json
 
     - type: tree
       content:
@@ -117,4 +117,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/npcs/green.webp
+          - /bussim-assets/images/npcs/green.webp

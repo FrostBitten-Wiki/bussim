@@ -10,10 +10,10 @@ html:
   header:
     title: Fall
     description: >-
-      Category: <a href="/wiki/bussim/biomes">Biomes</a>
+      Category: <a href="/bussim/biomes">Biomes</a>
 
     image: ''
-    imageBanner: /assets/bussim/images/biomes/fall.webp
+    imageBanner: /bussim-assets/images/biomes/fall.webp
 
   pageContent:
     - type: section
@@ -26,4 +26,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/biomes/galleries/Pov_fall.webp
+          - /bussim-assets/images/biomes/galleries/Pov_fall.webp

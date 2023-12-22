@@ -11,7 +11,7 @@ html:
     title: Contributors
     description: The current contributors of the <highlight>Bus Simulator Community Wiki</highlight>!
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
   
   pageContent:
     - type: list

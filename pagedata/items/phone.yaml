@@ -10,9 +10,9 @@ attributions:
 html:
   header:
     title: Phone
-    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: quote
@@ -29,7 +29,7 @@ html:
 
           <br><br>
 
-          Phone is usually kept during some events like <a href="/wiki/bussim/events/backwalls">Backwalls</a> or <a href="/wiki/bussim/events/no-dough">No Dough</a>. 
+          Phone is usually kept during some events like <a href="/bussim/events/backwalls">Backwalls</a> or <a href="/bussim/events/no-dough">No Dough</a>. 
           Particles or chat bubbles will not appear through the phone due to it being glass.
 
     - type: section
@@ -45,5 +45,5 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/items/phone.webp
+          - /bussim-assets/images/items/phone.webp
           

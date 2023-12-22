@@ -11,9 +11,9 @@ html:
   header:
     title: Bus-Cola Bandolier
     description: >- 
-      Category: <a href="/wiki/bussim/others">Others</a>
+      Category: <a href="/bussim/others">Others</a>
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
   
   pageContent:
     - type: quote
@@ -37,7 +37,7 @@ html:
          The Bandolier seems to be a torso strap-on made with a sky-blue fabric. 
          On the bandolier contains the following colas; 
          left to right being: 
-         <a href="/wiki/bussim/items/cold-cola">Cold Cola</a>, <a href="/wiki/bussim/items/bad-cola">Bad Cola</a>, <a href="/wiki/bussim/items/hot-cola">Hot Cola</a>, and <a href="/wiki/bussim/items/cramped-cola">Cramped Cola</a>. 
+         <a href="/bussim/items/cold-cola">Cold Cola</a>, <a href="/bussim/items/bad-cola">Bad Cola</a>, <a href="/bussim/items/hot-cola">Hot Cola</a>, and <a href="/bussim/items/cramped-cola">Cramped Cola</a>. 
          The cola texture themselves also seem to be in much lower resolution and scale than their official game counterparts.
 
     - type: section
@@ -47,9 +47,9 @@ html:
         
     - type: tree
       content:
-        - name: Much like the <a href="/wiki/bussim/items/diy-mini-bus">D.I.Y. Bus</a>, this is the second non-clothing accessory to be made in relation to Bus Simulator.
+        - name: Much like the <a href="/bussim/items/diy-mini-bus">D.I.Y. Bus</a>, this is the second non-clothing accessory to be made in relation to Bus Simulator.
 
     - type: gallery
       content:
         images: 
-          - /assets/bussim/images/others/bus-cola-bandolier.webp
+          - /bussim-assets/images/others/bus-cola-bandolier.webp

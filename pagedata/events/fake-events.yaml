@@ -12,16 +12,16 @@ html:
   header:
     title: Fake No Gas
     description: >-
-     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>FakeNoGas</highlight>
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>FakeNoGas</highlight>
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: buttons
       content:
         buttons:
-          - ["<highlight>Fake No Gas</highlight>", "/wiki/bussim/events/fake-events"]
-          - ["Fake Bus Stop", "/wiki/bussim/events/fake-events/fake-bus-stop"]
+          - ["<highlight>Fake No Gas</highlight>", "/bussim/events/fake-events"]
+          - ["Fake Bus Stop", "/bussim/events/fake-events/fake-bus-stop"]
 
     - type: section
       content:

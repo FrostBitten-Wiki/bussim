@@ -10,16 +10,16 @@ attributions:
 html:
   header:
     title: Sandwich
-    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: section
       content:
         title: Info
         description: >-
-          The Sandwich is a food item obtainable from the <a href="/wiki/bussim/events/picnic">Picnic</a> event. 
+          The Sandwich is a food item obtainable from the <a href="/bussim/events/picnic">Picnic</a> event. 
           The item, when consumed, heals a tiny bit of health.
 
           <br><br>
@@ -30,5 +30,5 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/items/sandwich.webp
+          - /bussim-assets/images/items/sandwich.webp
           

@@ -10,9 +10,9 @@ attributions:
 html:
   header:
     title: Spronkbib Popsicle
-    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: quote
@@ -25,7 +25,7 @@ html:
         description: >-
          The Spronkbib Popsicle is obtainable along with <a href="https://www.roblox.com/badges/2124830393/The-Last-One">The Last One</a> badge as a 1/800 (formerly 1/1000) chance from the naturally spawning ice cream vans. 
          Once you do get it though, 
-         you won't be able to get another normal <a href="/wiki/bussim/items/ice-cream">ice cream</a> without having to delete the Last One badge. <small>(But why would you?)</small>
+         you won't be able to get another normal <a href="/bussim/items/ice-cream">ice cream</a> without having to delete the Last One badge. <small>(But why would you?)</small>
 
          <br><br>
 
@@ -47,9 +47,9 @@ html:
         - name: While it may not seem like much, the Spronkbib Popsicle isn't removed from the Backwalls, Santa's Gone, and No Dough, making it a slightly overpowered item in said events.
           children:
             - name: In Backwalls you can use this to heal rapidly from dark goo puddles.
-            - name: In No Dough and Santa's Gone, it works as a good distraction without the <a href="/wiki/bussim/items/airhorn">Airhorn</a>.
-        - name: You need to enable <a href="/wiki/bussim/others/vehicles">Vehicles</a> within the Performance Settings for the Ice Cream Truck (as well as other vehicles) to spawn.
+            - name: In No Dough and Santa's Gone, it works as a good distraction without the <a href="/bussim/items/airhorn">Airhorn</a>.
+        - name: You need to enable <a href="/bussim/others/vehicles">Vehicles</a> within the Performance Settings for the Ice Cream Truck (as well as other vehicles) to spawn.
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/items/spronkbib-popsicle.webp
+          - /bussim-assets/images/items/spronkbib-popsicle.webp

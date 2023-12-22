@@ -10,9 +10,9 @@ attributions:
 html:
   header:
     title: Cone Soda
-    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: infobox
@@ -48,4 +48,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/items/cone-soda.webp
+          - /bussim-assets/images/items/cone-soda.webp

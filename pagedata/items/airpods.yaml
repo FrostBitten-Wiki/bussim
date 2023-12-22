@@ -11,10 +11,10 @@ html:
   header:
     title: Airpods
     description: >-
-      Category: <a href="/wiki/bussim/items">Items</a>
+      Category: <a href="/bussim/items">Items</a>
 
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: section
@@ -55,10 +55,10 @@ html:
     - type: tree
       content:
         - name: The Airpods locations for where they sit will change depending on if you're wearing animal ears or not.
-        - name: Despite the <a href="/wiki/bussim/items/phone">Phone</a> being an Android, the Airpods are still paired to it.
+        - name: Despite the <a href="/bussim/items/phone">Phone</a> being an Android, the Airpods are still paired to it.
         - name: On the release of the Airpods, it was rather barebones, and you could only change the volume and put in an audio ID.
    
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/items/airpods.webp
+          - /bussim-assets/images/items/airpods.webp

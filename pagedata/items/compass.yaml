@@ -10,9 +10,9 @@ attributions:
 html:
   header:
     title: Compass
-    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
       - type: quote
@@ -23,7 +23,7 @@ html:
         content:
          title: Info
          description: >-
-           The Compass is a tool obtainable by purchasing it for 4 passenger rep during the <a href="/wiki/bussim/events/goated-gas-station">Goat Station Event</a>, or by stealing it.
+           The Compass is a tool obtainable by purchasing it for 4 passenger rep during the <a href="/bussim/events/goated-gas-station">Goat Station Event</a>, or by stealing it.
 
            <br><br>
 
@@ -42,4 +42,4 @@ html:
       - type: gallery
         content:
           images:
-            - /assets/bussim/images/items/compass.webp
+            - /bussim-assets/images/items/compass.webp

@@ -10,9 +10,9 @@ html:
   header:
     title: NamerElf
     description: >- 
-      Category: <a href="/wiki/bussim/npcs">NPCs</a>
+      Category: <a href="/bussim/npcs">NPCs</a>
     image: ''
-    imageBanner: /assets/bussim/images/locations/glacier-cave.webp
+    imageBanner: /bussim-assets/images/locations/glacier-cave.webp
     
   pageContent:
     - type: section
@@ -37,7 +37,7 @@ html:
       content:
         id: namerelf
         startId: start
-        chatData: /assets/bussim/chatdata/npcs/namerelf.json
+        chatData: /bussim-assets/chatdata/npcs/namerelf.json
 
     - type: tree
       content:
@@ -93,4 +93,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/npcs/namerelf.webp
+          - /bussim-assets/images/npcs/namerelf.webp

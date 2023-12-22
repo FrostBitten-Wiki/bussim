@@ -11,9 +11,9 @@ html:
   header:
     title: Time Travel
     description: >-
-     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>TimeTravel</highlight>
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>TimeTravel</highlight>
     image: ''
-    imageBanner: /assets/bussim/images/events/timetravel3.webp
+    imageBanner: /bussim-assets/images/events/timetravel3.webp
 
   pageContent:
     - type: section
@@ -65,7 +65,7 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/events/timetravel3.webp
-          - /assets/bussim/images/events/timetravel2.webp
-          - /assets/bussim/images/events/timetravel1.webp
+          - /bussim-assets/images/events/timetravel3.webp
+          - /bussim-assets/images/events/timetravel2.webp
+          - /bussim-assets/images/events/timetravel1.webp
           

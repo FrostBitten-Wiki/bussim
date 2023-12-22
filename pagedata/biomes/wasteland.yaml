@@ -10,10 +10,10 @@ html:
   header:
     title: Wasteland
     description: >-
-      Category: <a href="/wiki/bussim/biomes">Biomes</a>
+      Category: <a href="/bussim/biomes">Biomes</a>
 
     image: ''
-    imageBanner: /assets/bussim/images/biomes/wasteland.webp
+    imageBanner: /bussim-assets/images/biomes/wasteland.webp
   
   pageContent:
     - type: section
@@ -26,4 +26,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/biomes/galleries/Image.webp
+          - /bussim-assets/images/biomes/galleries/Image.webp

@@ -10,9 +10,9 @@ attributions:
 html:
   header:
     title: Spray Bottle
-    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: infobox
@@ -45,9 +45,9 @@ html:
          <br><br>
 
          Apart from that, it's a pretty harmless toy that can be a bit bothersome to the eyes, 
-         but not so much to the ears with the <a href="/wiki/bussim/items/airhorn">Airhorn</a>.
+         but not so much to the ears with the <a href="/bussim/items/airhorn">Airhorn</a>.
          <br><br>
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/items/spray-bottle.webp
+          - /bussim-assets/images/items/spray-bottle.webp

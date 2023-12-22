@@ -13,7 +13,7 @@ html:
       Items are tools that have their own special functions and abilities,
       mostly obtained by Events.
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
     - type: infobox
       content:
@@ -24,21 +24,21 @@ html:
     - type: list
       content:
         items:
-          - listItemImage: /assets/bussim/images/items/airhorn.webp
+          - listItemImage: /bussim-assets/images/items/airhorn.webp
             listItemTitle: Airhorn
             listItemDescription: >-
               The Airhorn is an expensive gamepass item in Bus Simulator,
               costing a huge R$275.<br></br>When used it produces a loud sound
               from where the player used it. It also has no cooldown per use.
             listItemRedirect: /bussim/items/airhorn
-          - listItemImage: /assets/bussim/images/items/airpods.webp
+          - listItemImage: /bussim-assets/images/items/airpods.webp
             listItemTitle: Airpods
             listItemDescription: >-
               The Airpods is an item that allows you to listen to Roblox Audio
               IDs locally, or syncing them to the Bus Radio, costing
               R$8.<br></br>Note: This also silences any and all outside noise.
             listItemRedirect: /bussim/items/airpods
-          - listItemImage: /assets/bussim/images/items/almond-water.webp
+          - listItemImage: /bussim-assets/images/items/almond-water.webp
             listItemTitle: Almond Water
             listItemDescription: >-
               Almond Water is a healing item obtainable from random floor spawns
@@ -47,7 +47,7 @@ html:
               able to outrun Entities and move much quicker throughout the
               Backwalls.
             listItemRedirect: /bussim/items/almond-water
-          - listItemImage: /assets/bussim/images/items/bad-cola.webp
+          - listItemImage: /bussim-assets/images/items/bad-cola.webp
             listItemTitle: Bad Cola
             listItemDescription: >-
               The Bad Cola (or occasionally called Red Cola) is a rare cola that
@@ -55,13 +55,13 @@ html:
               drink it, the player pauses, their skin tone gets paler, and soon
               instantly dies.
             listItemRedirect: /bussim/items/bad-cola
-          - listItemImage: /assets/bussim/images/items/birthday-ice-cream-icon.webp
+          - listItemImage: /bussim-assets/images/items/birthday-ice-cream-icon.webp
             listItemTitle: Birthday Ice Cream
             listItemDescription: >-
               The Birthday Ice Cream is a large ice cream cone, obtainable by
               being the birthday person during the Birthday event.
             listItemRedirect: /bussim/items/birthday-ice-cream
-          - listItemImage: /assets/bussim/images/items/burger.webp
+          - listItemImage: /bussim-assets/images/items/burger.webp
             listItemTitle: Burger
             listItemDescription: >-
               The Burger is an edible item that is obtained from the Bloxdonalds
@@ -69,21 +69,21 @@ html:
               green, their camera jolts upwards going down, and it deals 25
               health.
             listItemRedirect: /bussim/items/burger
-          - listItemImage: /assets/bussim/images/items/coffee.webp
+          - listItemImage: /bussim-assets/images/items/coffee.webp
             listItemTitle: Coffee
             listItemDescription: >-
               Coffee is a usable item obtained from the pool event that appears
               next to the edges of the pool.<br></br>It is used much like a
               soda; however, it gives no additional effects.
             listItemRedirect: /bussim/items/coffee
-          - listItemImage: /assets/bussim/images/items/cola.webp
+          - listItemImage: /bussim-assets/images/items/cola.webp
             listItemTitle: Cola
             listItemDescription: >-
               The Cola is an item that is obtainable at the second floor of The
               Bus.<br></br>When used, you'll restore a significant amount of
               health.
             listItemRedirect: /bussim/items/cola
-          - listItemImage: /assets/bussim/images/items/cold-cola.webp
+          - listItemImage: /bussim-assets/images/items/cold-cola.webp
             listItemTitle: Cold Cola
             listItemDescription: >-
               The Cold Cola is a variant of Colas that can be either found on
@@ -91,14 +91,14 @@ html:
               Cave.<br></br>When used, the player will freeze for around 4
               seconds and thaws after 6 seconds after freezing.
             listItemRedirect: /bussim/items/cold-cola
-          - listItemImage: /assets/bussim/images/items/compass.webp
+          - listItemImage: /bussim-assets/images/items/compass.webp
             listItemTitle: Compass
             listItemDescription: >-
               The Compass is a tool obtainable by purchasing it for 4 passenger
               rep during the Goat Station Event, or by stealing it.<br></br>When
               held, it'll always show an arrow pointing behind The Bus.
             listItemRedirect: /bussim/items/compass
-          - listItemImage: /assets/bussim/images/items/cramped-cola.webp
+          - listItemImage: /bussim-assets/images/items/cramped-cola.webp
             listItemTitle: Cramped Cola
             listItemDescription: >-
               The Cramped Cola is a variant of the Cola series, that is located
@@ -106,7 +106,7 @@ html:
               pizza box.<br></br>When used, you'll shrink and lose 30 health in
               the process, reversing itself when used again.
             listItemRedirect: /bussim/items/cramped-cola
-          - listItemImage: /assets/bussim/images/items/expired-taco.webp
+          - listItemImage: /bussim-assets/images/items/expired-taco.webp
             listItemTitle: Expired Taco
             listItemDescription: >-
               The Expired Taco is a gear obtained from the Time Travel event,
@@ -114,35 +114,35 @@ html:
               used, the player will have their camera jolted upwards and lose 75
               health. 
             listItemRedirect: /bussim/items/expired-taco
-          - listItemImage: /assets/bussim/images/items/fake-rocket-launcher.webp
+          - listItemImage: /bussim-assets/images/items/fake-rocket-launcher.webp
             listItemTitle: Fake Rocket Launcher
             listItemDescription: >-
               The Fake Rocket Launcher is an item obtained in the Shack
               event.<br></br>When used, it'll shoot out a blue brick and explode
               the player using it.
             listItemRedirect: /bussim/items/fake-rocket-launcher
-          - listItemImage: /assets/bussim/images/items/flying-skillbook.webp
+          - listItemImage: /bussim-assets/images/items/flying-skillbook.webp
             listItemTitle: Flying Skillbook
             listItemDescription: >-
               The Flying Skillbook is a non-permanent item stolen from GOATed
               Gas Station.<br></br>This item has no function whatsoever as its
               pages are glued shut. Perhaps buying it may magically fix it?
             listItemRedirect: /bussim/items/flying-skillbook
-          - listItemImage: /assets/bussim/images/items/free-modelled-cake.webp
+          - listItemImage: /bussim-assets/images/items/free-modelled-cake.webp
             listItemTitle: Free-Modelled Cake
             listItemDescription: >-
               The Free-Modelled Cake (or known as Birthday Cake) is a consumable
               item in Bus Simulator, gotten from everyone in the Birthday
               Event.<br></br>When used it'll just produce a sound.
             listItemRedirect: /bussim/items/free-modelled-cake
-          - listItemImage: /assets/bussim/images/items/gameboy-advance.webp
+          - listItemImage: /bussim-assets/images/items/gameboy-advance.webp
             listItemTitle: Gameboy Advance
             listItemDescription: >-
               The Gameboy Advance is a item that can be found on the first floor
               of the bus, and it allows you to play 1v1 games with somebody else
               who also has the item out.
             listItemRedirect: /bussim/items/gameboy-advance
-          - listItemImage: /assets/bussim/images/items/gas-station-gravity-coil.webp
+          - listItemImage: /bussim-assets/images/items/gas-station-gravity-coil.webp
             listItemTitle: Gas Station Gravity Coil
             listItemDescription: >-
               The Gas Station Gravity Coil is a tool obtainable by purchasing it
@@ -150,28 +150,28 @@ html:
               stealing it.<br></br>When held, you'll recieve less gravity,
               albeit much worse compared to the original.
             listItemRedirect: /bussim/items/gas-station-gravity-coil
-          - listItemImage: /assets/bussim/images/items/gas-station-ice-cream.webp
+          - listItemImage: /bussim-assets/images/items/gas-station-ice-cream.webp
             listItemTitle: Gas Station Ice Cream
             listItemDescription: >-
               The Gas Station Ice Cream is a tool obtainable by purchasing it
               for 8 passenger rep during the Goat Station Event, or by stealing
               it.<br></br>When used, you'll restore 2 health.
             listItemRedirect: /bussim/items/gas-station-ice-cream
-          - listItemImage: /assets/bussim/images/items/goala-cola.webp
+          - listItemImage: /bussim-assets/images/items/goala-cola.webp
             listItemTitle: Goala Cola
             listItemDescription: >-
               The Goala Cola is an item you can obtain at the GOATed Gas
               Station.<br></br>The item is purely cosmetic, making you do a
               little dance while 'Goooaaaalllll!' plays after drinking it. 
             listItemRedirect: /bussim/items/goala-cola
-          - listItemImage: /assets/bussim/images/items/gps.webp
+          - listItemImage: /bussim-assets/images/items/gps.webp
             listItemTitle: GPS
             listItemDescription: >-
               The GPS is a Gamepass item in Bus Simulator. It costs
               R$12.<br></br>When held, it displays a random location* along with
               the minutes until the next event.
             listItemRedirect: /bussim/items/gps
-          - listItemImage: /assets/bussim/images/items/helicopter.webp
+          - listItemImage: /bussim-assets/images/items/helicopter.webp
             listItemTitle: Helicopter
             listItemDescription: >-
               The Helicopter is a permanent item bought from GOATed Gas Station
@@ -181,20 +181,20 @@ html:
               also has a timer before you are forced to stop flying which then
               slowly charges over time while it's unused.
             listItemRedirect: /bussim/items/helicopter
-          - listItemImage: /assets/bussim/images/items/homemade-coffee.webp
+          - listItemImage: /bussim-assets/images/items/homemade-coffee.webp
             listItemTitle: Homemade Coffee
             listItemDescription: >-
               The Homemade Coffee is an temporary item from the Goat Station
               event, and recovers more health than the Cola and regular Coffee.
             listItemRedirect: /bussim/items/homemade-coffee
-          - listItemImage: /assets/bussim/images/items/hot-cola.webp
+          - listItemImage: /bussim-assets/images/items/hot-cola.webp
             listItemTitle: Hot Cola
             listItemDescription: >-
               Hot Cola is an item that can be found on the second floor of The
               Bus underneath the Pizza Box.<br></br>When used, it'll set you
               ablaze, killing you after a while if not extinguished.
             listItemRedirect: /bussim/items/hot-cola
-          - listItemImage: /assets/bussim/images/items/hyper-soda.webp
+          - listItemImage: /bussim-assets/images/items/hyper-soda.webp
             listItemTitle: Hyper Soda
             listItemDescription: >-
               The Hyper Soda is a soda variant that can be obtained at the top
@@ -203,14 +203,14 @@ html:
               but after a few seconds after consumption will massive spike in
               speed, then after a massive drop, making you slower than normal.
             listItemRedirect: /bussim/items/hyper-soda
-          - listItemImage: /assets/bussim/images/items/ice-cream.webp
+          - listItemImage: /bussim-assets/images/items/ice-cream.webp
             listItemTitle: Ice Cream
             listItemDescription: >-
               The Ice Cream is an edible item that is obtained from the ice
               cream truck.<br></br>When used, you'll regenerate a small amount
               of health.
             listItemRedirect: /bussim/items/ice-cream
-          - listItemImage: /assets/bussim/images/items/lemon-soda-icon.webp
+          - listItemImage: /bussim-assets/images/items/lemon-soda-icon.webp
             listItemTitle: Lemon Soda
             listItemDescription: >-
               The Lemon Soda is an item in Bus Simulator that is obtained from its own respective event. 
@@ -218,7 +218,7 @@ html:
               and causes nausea as well. 
               Spitting noises may also be heard.
             listItemRedirect: /bussim/items/lemon-soda
-          - listItemImage: /assets/bussim/images/items/liquid-void.webp
+          - listItemImage: /bussim-assets/images/items/liquid-void.webp
             listItemTitle: Liquid Void
             listItemDescription: >-
               Liquid Void is an item obtainable from random floor spawns in the
@@ -227,7 +227,7 @@ html:
               opaque again. However, if used less than 20 seconds after the
               effects are over, you will instead be killed.
             listItemRedirect: /bussim/items/liquid-void
-          - listItemImage: /assets/bussim/images/items/magic-mirror.webp
+          - listItemImage: /bussim-assets/images/items/magic-mirror.webp
             listItemTitle: Magic Mirror
             listItemDescription: >-
               The Magic Mirror is an item obtained by returning to the Glacier
@@ -235,14 +235,14 @@ html:
               questline.<br></br>When used, you'll teleport to Frost's Den
               anytime, anywhere.
             listItemRedirect: /bussim/items/magic-mirror
-          - listItemImage: /assets/bussim/images/items/marker-icon.webp
+          - listItemImage: /bussim-assets/images/items/marker-icon.webp
             listItemTitle: Marker
             listItemDescription: >-
               The Marker is an item that allows you to draw lines almost
               anywhere in the game, it currently has 3 tools, Export, Draw, and
               Erase.
             listItemRedirect: /bussim/items/marker
-          - listItemImage: /assets/bussim/images/items/megaphone.webp
+          - listItemImage: /bussim-assets/images/items/megaphone.webp
             listItemTitle: Megaphone
             listItemDescription: >-
               The Megaphone is a gamepass item in Bus Simulator. It costs R$45,
@@ -250,41 +250,41 @@ html:
               send with it will be shouted, with a cooldown of 30 seconds per
               each.
             listItemRedirect: /bussim/items/megaphone
-          - listItemImage: /assets/bussim/images/items/megaphone-ex.webp
+          - listItemImage: /bussim-assets/images/items/megaphone-ex.webp
             listItemTitle: Megaphone EX
             listItemDescription: >-
               The Megaphone EX is a gamepass item costing R$320. When used, your
               shout message is 22.22..% larger than normal messages, and your
               cooldown varies upon your message size.
             listItemRedirect: /bussim/items/megaphone-ex
-          - listItemImage: /assets/bussim/images/items/meygaphone.webp
+          - listItemImage: /bussim-assets/images/items/meygaphone.webp
             listItemTitle: Meygaphone~
             listItemDescription: >-
               Meygaphone~ is similar to the Megaphone. The only difference is
               that there's an emoji of 2 paws when doing a shout, and some words
               are 'furryified'. 'Oofs' are also replaced with meows.
             listItemRedirect: /bussim/items/meygaphone
-          - listItemImage: /assets/bussim/images/items/mini-bus.webp
+          - listItemImage: /bussim-assets/images/items/mini-bus.webp
             listItemTitle: Mini-Bus
             listItemDescription: >-
               The Mini-Bus is a miniature vehicle which resembles the bus used
               in the game. It can only fit 1 player, but drives faster than the
               bus.<br></br>The Mini-Bus costs R$125 to obtain.
             listItemRedirect: /bussim/items/mini-bus
-          - listItemImage: /assets/bussim/images/items/phone.webp
+          - listItemImage: /bussim-assets/images/items/phone.webp
             listItemTitle: Phone
             listItemDescription: >-
               Phone is one of the first tools in the game you
               obtain.<br></br>When used, it'll illuminate light out of its back.
             listItemRedirect: /bussim/items/phone
-          - listItemImage: /assets/bussim/images/items/pizza.webp
+          - listItemImage: /bussim-assets/images/items/pizza.webp
             listItemTitle: Pizza
             listItemDescription: >-
               The Pizza is an item obtainable from a pizza box in the second
               floor of the bus.<br></br>When used, it will heal you by a bit and
               equipping it will play a sound effect saying 'Pizza Time'.
             listItemRedirect: /bussim/items/pizza
-          - listItemImage: /assets/bussim/images/items/ram.webp
+          - listItemImage: /bussim-assets/images/items/ram.webp
             listItemTitle: RAM
             listItemDescription: >-
               RAM is a unique item at the GOATed Gas Station event, where you
@@ -292,27 +292,27 @@ html:
               item.<br></br>It has no function on its own, and is used merely to
               give to Tazer.
             listItemRedirect: /bussim/items/ram
-          - listItemImage: /assets/bussim/images/items/redblox.webp
+          - listItemImage: /bussim-assets/images/items/redblox.webp
             listItemTitle: Redblox
             listItemDescription: >-
               The RedBlox is an item in the GOATed Gas Station Event, and is a
               one-time use that makes you walk faster for a few seconds, like
               the Hyper Soda.
             listItemRedirect: /bussim/items/redblox
-          - listItemImage: /assets/bussim/images/items/roemulator.webp
+          - listItemImage: /bussim-assets/images/items/roemulator.webp
             listItemTitle: RoEmulator
             listItemDescription: >-
               The RoEmulator is a gamepass item that lets you play games on your
               own, costing R$20. It has options of three games: Adventure
               Island, Race The Sunset, and Lunar Lander.
             listItemRedirect: /bussim/items/roemulator
-          - listItemImage: /assets/bussim/images/items/sandwich.webp
+          - listItemImage: /bussim-assets/images/items/sandwich.webp
             listItemTitle: Sandwich
             listItemDescription: >-
               The Sandwich is a food item obtainable from the Picnic
               event.<br></br>When consumed, heals a tiny bit of health.
             listItemRedirect: /bussim/items/sandwich
-          - listItemImage: /assets/bussim/images/items/sign.webp
+          - listItemImage: /bussim-assets/images/items/sign.webp
             listItemTitle: Sign
             listItemDescription: >-
               The sign is an item located at the third floor. It is placed next
@@ -320,7 +320,7 @@ html:
               SIGN'.<br></br>When used, the player will jump very slightly a
               bunch of times.
             listItemRedirect: /bussim/items/sign
-          - listItemImage: /assets/bussim/images/items/spronkbib-popsicle.webp
+          - listItemImage: /bussim-assets/images/items/spronkbib-popsicle.webp
             listItemTitle: Spronkbib Popsicle
             listItemDescription: >-
               The Spronkbib Popsicle is obtainable along with The Last One badge
@@ -328,7 +328,7 @@ html:
               ice cream vans.<br></br>When used, it'll regenerate a significant
               amount, and persists in a couple of events.
             listItemRedirect: /bussim/items/spronkbib-popsicle
-          - listItemImage: /assets/bussim/images/items/toast.webp
+          - listItemImage: /bussim-assets/images/items/toast.webp
             listItemTitle: Toast
             listItemDescription: >-
               The Toast is a temporary item from the Goat Station event, which
@@ -336,7 +336,7 @@ html:
               house.<br></br>When used, it'll regenerate a tiny amount of your
               health.
             listItemRedirect: /bussim/items/toast
-          - listItemImage: /assets/bussim/images/items/tool.webp
+          - listItemImage: /bussim-assets/images/items/tool.webp
             listItemTitle: Tool
             listItemDescription: >-
               Tool is a temporary item that can be obtained after giving D6 a
@@ -353,7 +353,7 @@ html:
     - type: list
       content:
         items:
-          - listItemImage: /assets/bussim/images/items/avian-potion.webp
+          - listItemImage: /bussim-assets/images/items/avian-potion.webp
             listItemTitle: Avian Potion
             listItemDescription: >-
               The Avian Potion is a consumable that can only be obtained by admin commands.
@@ -363,7 +363,7 @@ html:
               When used, you'll be given the ability to mash space mid-air for a tiny loft.
             listItemRedirect: /bussim/items/avian-potion
           
-          - listItemImage: /assets/bussim/images/items/bus-birthday-cake.webp
+          - listItemImage: /bussim-assets/images/items/bus-birthday-cake.webp
             listItemTitle: Bus Birthday Cake
             listItemDescription: >-
               The Bus Birthday Cake was a limited-edition variant of the Free-modelled Cake,
@@ -374,7 +374,7 @@ html:
               When used, it'll restore a tiny amount. Just don't pair it with Cola.
             listItemRedirect: /bussim/items/bus-birthday-cake
           
-          - listItemImage: /assets/bussim/images/items/candied-cane.webp
+          - listItemImage: /bussim-assets/images/items/candied-cane.webp
             listItemTitle: Candied Cane
             listItemDescription: >-
               The Candied Cane is a healing item given by obtaining The Bringer of Gifts badge from the Santa's Gone event.
@@ -385,13 +385,13 @@ html:
               on top of the passive boost from holding it.
             listItemRedirect: /bussim/items/candied-cane
           
-          - listItemImage: /assets/bussim/images/items/cone-soda.webp
+          - listItemImage: /bussim-assets/images/items/cone-soda.webp
             listItemTitle: Cone Soda
             listItemDescription: >-
               The Cone Soda is an unused item that is purely cosmetic, and has no effects.
             listItemRedirect: /bussim/items/cone-soda
           
-          - listItemImage: /assets/bussim/images/items/edit.webp
+          - listItemImage: /bussim-assets/images/items/edit.webp
             listItemTitle: Edit
             listItemDescription: >-
               Edit is an item that cannot be obtained via events or from the bus/gamepass, 
@@ -402,7 +402,7 @@ html:
               When equipped, you'll be able to modify the game's parts.
             listItemRedirect: /bussim/items/edit
           
-          - listItemImage: /assets/bussim/images/items/hoverboots.webp
+          - listItemImage: /bussim-assets/images/items/hoverboots.webp
             listItemTitle: Hoverboots
             listItemDescription: >-
               The Hoverboots is a pair of boots that allows you to fly, similar to the Helicopter item.
@@ -413,7 +413,7 @@ html:
               When used, you'll be able to fly, and clicking allows you to boost.
             listItemRedirect: /bussim/items/hoverboots
           
-          - listItemImage: /assets/bussim/images/items/million-colas.webp
+          - listItemImage: /bussim-assets/images/items/million-colas.webp
             listItemTitle: Million Colas
             listItemDescription: >-
               The Million Colas are a set of colas obtainable during their respective event.
@@ -423,7 +423,7 @@ html:
               They mostly do nothing, and moreso just a cola with added flair and effects.
             listItemRedirect: /bussim/items/million-colas
           
-          - listItemImage: /assets/bussim/images/items/party-popper.webp
+          - listItemImage: /bussim-assets/images/items/party-popper.webp
             listItemTitle: Party Popper
             listItemDescription: >-
               The Party Popper is a cosmetic item obtained from the 10 Million Visits Wheel.
@@ -433,7 +433,7 @@ html:
               When used, it'll make a small blast of confetti, and has a cooldown of 2 seconds.
             listItemRedirect: /bussim/items/party-popper
           
-          - listItemImage: /assets/bussim/images/items/popsicle.webp
+          - listItemImage: /bussim-assets/images/items/popsicle.webp
             listItemTitle: Popsicle
             listItemDescription: >-
               Popsicle is obtained from the 10 Million Event Wheel.
@@ -443,7 +443,7 @@ html:
               When used, it'll heal you by a significant amount similarly to Snowcone and can be used rapidly.
             listItemRedirect: /bussim/items/popsicle
           
-          - listItemImage: /assets/bussim/images/items/snatch.webp
+          - listItemImage: /bussim-assets/images/items/snatch.webp
             listItemTitle: Snatch
             listItemDescription: >-
               The Snatch is an Admin-Exclusive tool that allows you to snatch players similar to the Billies.
@@ -453,7 +453,7 @@ html:
               You can also hold down left-click to throw them across the map.
             listItemRedirect: /bussim/items/snatch
           
-          - listItemImage: /assets/bussim/images/items/snowcone.webp
+          - listItemImage: /bussim-assets/images/items/snowcone.webp
             listItemTitle: Snowcone
             listItemDescription: >-
               The Snowcone is a permanent healing item obtainable from either the 2019 Christmas event or the 20 Million Visits Update.
@@ -463,7 +463,7 @@ html:
               When used, it'll restore a significant part of your health.
             listItemRedirect: /bussim/items/snowcone
           
-          - listItemImage: /assets/bussim/images/items/snowglobe.webp
+          - listItemImage: /bussim-assets/images/items/snowglobe.webp
             listItemTitle: Snowglobe
             listItemDescription: >-
               The Snowglobe is an item obtained by joining during either the 2019 Christmas event, or the 20 Million Visits Update.
@@ -473,7 +473,7 @@ html:
               When used, it'll produce sparkles out of it.
             listItemRedirect: /bussim/items/snowglobe
           
-          - listItemImage: /assets/bussim/images/items/sparkler.webp
+          - listItemImage: /bussim-assets/images/items/sparkler.webp
             listItemTitle: Sparkler
             listItemDescription: >-
               The sparkler is a limited-time item that is only given out from <highlight>December 30th</highlight> to <highlight>Jan 1st</highlight>, to celebrate New Years, and has multiple colors to choose from.
@@ -483,7 +483,7 @@ html:
               There's also one given to only VR players too.
             listItemRedirect: /bussim/items/sparkler
           
-          - listItemImage: /assets/bussim/images/items/spray-bottle.webp
+          - listItemImage: /bussim-assets/images/items/spray-bottle.webp
             listItemTitle: Spray Bottle
             listItemDescription: >-
               The spray bottle can be only obtained through VIP/Admin commands.
@@ -492,7 +492,7 @@ html:
               When used, it temporarily blinds any player unfortunate enough to be in its range.
             listItemRedirect: /bussim/items/spray-bottle
           
-          - listItemImage: /assets/bussim/images/items/starter-box.webp
+          - listItemImage: /bussim-assets/images/items/starter-box.webp
             listItemTitle: Starter Box
             listItemDescription: >-
               The Starter Box is an obtainable item from the 10 Million Visits Wheel.

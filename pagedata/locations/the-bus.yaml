@@ -11,10 +11,10 @@ html:
   header:
     title: The Bus
     description: >-
-      Category: <a href="/wiki/bussim/locations">Locations</a>
+      Category: <a href="/bussim/locations">Locations</a>
 
     image: ""
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: section
@@ -27,8 +27,8 @@ html:
 
           <br><br>
 
-          This is also where everyone hangs out for most if not almost all of their entire time playing this game, with parts of it from <a href="/wiki/bussim/events">Events</a>.
-          It also serves as an effective shelter for events that can kill players if outside, like <a href="/wiki/bussim/events/blizzard">Blizzard</a>, <a href="/wiki/bussim/events/acid-rain">Acid Rain</a>, <a href="/wiki/bussim/events/flash-flood">Flash Flood</a>, etc.
+          This is also where everyone hangs out for most if not almost all of their entire time playing this game, with parts of it from <a href="/bussim/events">Events</a>.
+          It also serves as an effective shelter for events that can kill players if outside, like <a href="/bussim/events/blizzard">Blizzard</a>, <a href="/bussim/events/acid-rain">Acid Rain</a>, <a href="/bussim/events/flash-flood">Flash Flood</a>, etc.
 
     - type: section
       content:
@@ -180,4 +180,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/banner.jpg
+          - /bussim-assets/images/banner.jpg

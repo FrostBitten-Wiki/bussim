@@ -10,16 +10,16 @@ attributions:
 html:
   header:
     title: Mini-Bus
-    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: buttons
       content:
         buttons:
-          - ["<highlight>Mini-Bus</highlight>", "/wiki/bussim/items/mini-bus"]
-          - ["Fast Mini-Bus", "/wiki/bussim/items/mini-bus/fast-mini-bus"]
+          - ["<highlight>Mini-Bus</highlight>", "/bussim/items/mini-bus"]
+          - ["Fast Mini-Bus", "/bussim/items/mini-bus/fast-mini-bus"]
 
     - type: section
       content:
@@ -44,7 +44,7 @@ html:
           followed by vents behind them. At the back of the bus, 
           there are two antennas which tilt when turning, and wobble at speed. 
           The Mini-Bus has headlights up front that are covered by a grill, with a single red accent. 
-          People that have the OG Driver <a href="/wiki/bussim/others/ranks-tags">rank</a> in-game will get sparkles on their Mini-Bus.
+          People that have the OG Driver <a href="/bussim/others/ranks-tags">rank</a> in-game will get sparkles on their Mini-Bus.
 
           <br><br>
 
@@ -58,7 +58,7 @@ html:
 
         description: >- 
           If you're looking for how to drive the Mini-Bus in VR, 
-          check out the VR page linked <a href="/wiki/bussim/others/vr">here</a>.
+          check out the VR page linked <a href="/bussim/others/vr">here</a>.
 
     - type: section
       content:
@@ -76,6 +76,6 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/items/mini-bus.webp
-          - /assets/bussim/images/items/galleries/oldminibus.webp
+          - /bussim-assets/images/items/mini-bus.webp
+          - /bussim-assets/images/items/galleries/oldminibus.webp
           

@@ -41,13 +41,13 @@ html:
     title: TitleTest
     # as of December 7, 2023. this should be left as it is. category and the link to the category.
     description: >-
-      Category: <a href="/wiki/bussim/category-name">CategoryName</a>
+      Category: <a href="/bussim/category-name">CategoryName</a>
     
     # this adds an image to the header, next to the title and description.
     image: ""
 
     # this configures the header's banner. which is also visible to the embed.
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   # This attribute handles the site's content. The type attribute (or class) is not fixed. you can add more of it.
   pageContent:
@@ -83,7 +83,7 @@ html:
           - listItemImage: "https://placehold.co/256"
             listItemTitle: ItemTitle
             listItemDescription: ItemDescription
-            listItemRedirect: "/wiki/bussim/home"
+            listItemRedirect: "/bussim/home"
 
     # This adds a table to the content.
     - type: table
@@ -144,13 +144,13 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/banner.jpg
-          - /assets/bussim/images/banner.jpg
-          - /assets/bussim/images/banner.jpg
-          - /assets/bussim/images/banner.jpg
-          - /assets/bussim/images/banner.jpg
-          - /assets/bussim/images/banner.jpg
-          - /assets/bussim/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
+          - /bussim-assets/images/banner.jpg
 
     # This adds an interactable dialogue to emulate talking to an NPC.
     # The chatData can be seen on /chatdata/npcChat.json for reference.
@@ -158,27 +158,27 @@ html:
       content:
         id: testing
         startId: startDialogue
-        chatData: /assets/bussim/chatdata/npcChat.json
+        chatData: /bussim-assets/chatdata/npcChat.json
 
     - type: npcChat
       content:
         id: mockup
         startId: startDialogue
-        chatData: /assets/bussim/chatdata/mockup.json
+        chatData: /bussim-assets/chatdata/mockup.json
 
     # This adds buttons to the content.
     - type: buttons
       content:
         buttons:
-          - ["Text Placeholder", "/wiki/bussim/home"]
-          - ["Text Placeholder", "/wiki/bussim/home"]
-          - ["Text Placeholder", "/wiki/bussim/home"]
-          - ["Text Placeholder", "/wiki/bussim/home"]
-          - ["Text Placeholder", "/wiki/bussim/home"]
-          - ["Text Placeholder", "/wiki/bussim/home"]
-          - ["Text Placeholder", "/wiki/bussim/home"]
-          - ["Text Placeholder", "/wiki/bussim/home"]
-          - ["Text Placeholder", "/wiki/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
+          - ["Text Placeholder", "/bussim/home"]
 
 
 

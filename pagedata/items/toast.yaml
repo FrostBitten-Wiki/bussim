@@ -10,17 +10,17 @@ attributions:
 html:
   header:
     title: Toast
-    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: section
       content:
         title: Info
         description: >-
-         The Toast is a temporary item from the <a href="/wiki/bussim/events/goated-gas-station">Goat Station</a> event, 
-         which can be obtained by clicking on the Toaster in <a href="/wiki/bussim/npcs/zeon">Zeon's</a> house, 
+         The Toast is a temporary item from the <a href="/bussim/events/goated-gas-station">Goat Station</a> event, 
+         which can be obtained by clicking on the Toaster in <a href="/bussim/npcs/zeon">Zeon's</a> house, 
          and waiting a few seconds until it pops out. 
          The item, when consumed, will recover a small amount of health.
 
@@ -34,4 +34,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/items/toast.webp
+          - /bussim-assets/images/items/toast.webp

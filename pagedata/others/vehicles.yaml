@@ -10,9 +10,9 @@ html:
   header:
     title: Vehicles
     description: >- 
-      Category: <a href="/wiki/bussim/others">Others</a>
+      Category: <a href="/bussim/others">Others</a>
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
   
   pageContent:
     - type: section
@@ -89,4 +89,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/others/vehicles.webp
+          - /bussim-assets/images/others/vehicles.webp

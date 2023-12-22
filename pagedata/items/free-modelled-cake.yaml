@@ -9,16 +9,16 @@ attributions:
 html:
   header:
     title: Free Modelled Cake
-    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
   pageContent:
     - type: section
       content:
         title: Info
         description: >-
          The Free-modeled Cake (or known as Birthday Cake) is a consumable item in Bus Simulator, 
-         gotten from everyone in the <a href="/wiki/bussim/events/birthday">Birthday</a> Event. 
+         gotten from everyone in the <a href="/bussim/events/birthday">Birthday</a> Event. 
          It has the same model and texture as the classic ROBLOX Cake. 
          It doesn't heal nor reduce your health, and isn't a permanent item.
 
@@ -27,4 +27,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/items/free-modelled-cake.webp
+          - /bussim-assets/images/items/free-modelled-cake.webp

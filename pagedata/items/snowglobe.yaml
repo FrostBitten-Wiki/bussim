@@ -10,9 +10,9 @@ attributions:
 html:
   header:
     title: Snowglobe
-    description: 'Category: <a href="/wiki/bussim/items">Items</a>'
+    description: 'Category: <a href="/bussim/items">Items</a>'
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: section
@@ -21,7 +21,7 @@ html:
         description: >-
           The Snowglobe is an item obtained by joining during either the 2019 Christmas event, 
           or the 20 Million Visits event, which was also situated around Christmas. 
-          During both of these events, you had a 50/50 chance to get either the Snowglobe or the <a href="/wiki/bussim/items/snowcone">Snowcone</a>.
+          During both of these events, you had a 50/50 chance to get either the Snowglobe or the <a href="/bussim/items/snowcone">Snowcone</a>.
 
           <br><br>
 
@@ -41,5 +41,5 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/items/snowglobe.webp
+          - /bussim-assets/images/items/snowglobe.webp
           

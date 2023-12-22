@@ -11,9 +11,9 @@ html:
   header:
     title: Broken Down
     description: >-
-     Category: <a href="/wiki/bussim/events">Events</a><br>Event Name: <highlight>BrokeDown</highlight>
+     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>BrokeDown</highlight>
     image: ''
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /bussim-assets/images/banner.jpg
 
   pageContent:
     - type: section
@@ -44,4 +44,4 @@ html:
     - type: gallery
       content:
         images:
-          - /assets/bussim/images/events/broken-down.webp
+          - /bussim-assets/images/events/broken-down.webp
