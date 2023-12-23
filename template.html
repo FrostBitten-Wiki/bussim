@@ -120,9 +120,13 @@
 
                     setInterval(() => {
                         if(width < 777) {
-                            document.getElementById("otherStuff").appendChild(document.getElementById("searchBar"))
+                            if(document.getElementById("otherStuff").querySelectorAll("#searchBar").length == 0) {
+                                document.getElementById("otherStuff").appendChild(document.getElementById("searchBar"))
+                            }
                         } else {
-                            document.getElementById("mainMenu").appendChild(document.getElementById("searchBar"))
+                            if(document.getElementById("mainMenu").querySelectorAll("#searchBar").length == 0) {
+                                document.getElementById("mainMenu").appendChild(document.getElementById("searchBar"))
+                            }
                         }
                     }, 100)
                 </script>
