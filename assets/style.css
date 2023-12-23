@@ -7,6 +7,7 @@
         overflow-y: auto !important;
         height: 55% !important;
         display: inline-block !important;
+        scrollbar-color: transparent transparent;
     }
 }
 
