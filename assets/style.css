@@ -114,7 +114,7 @@ highlight[type="rainbow"] {
     -webkit-text-fill-color: transparent;
     animation: rainbow 2s linear infinite;
     text-shadow: none;
-    display: inline-flex;
+    display: flex;
 }
 
 @keyframes rainbow { 
