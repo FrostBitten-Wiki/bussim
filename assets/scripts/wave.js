@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-    document.querySelectorAll("float").forEach(el => {
+    document.querySelectorAll(".float").forEach(el => {
         const string = el.innerHTML
         const nodeName = el.nodeName
         const matchedTags = string.match(/<[^>]*>/g)
@@ -26,7 +26,7 @@ window.addEventListener("load", () => {
             }
     
             if(!ignore.includes(parseInt(i))) {
-                processedString += `<${nodeName} style='display: inline-block; font-size: inherit; animation: wave 1s ease-in-out infinite; animation-delay: ${offset}ms; ${extraStyles}'>${textArray[i]}</${nodeName}>`
+                processedString += `<${nodeName} style='display: inline-block; animation: wave 1s ease-in-out infinite; animation-delay: ${offset}ms; ${extraStyles}'>${textArray[i]}</${nodeName}>`
                 offset += 75
             }
         }
