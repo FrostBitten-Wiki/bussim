@@ -9,6 +9,10 @@
         display: inline-block !important;
         scrollbar-color: transparent transparent;
     }
+
+    #menuParent {
+        justify-content: left;
+    }
 }
 
 body {
