@@ -2,6 +2,7 @@ setInterval(() => {
     document.querySelectorAll("float").forEach(el => {
         if(el.getAttribute("processed") != "true") {
             el.setAttribute("processed", "true")
+            el.style.fontSize = "inherit"
 
             const string = el.innerHTML
             const nodeName = el.nodeName
