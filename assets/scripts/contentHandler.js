@@ -1,9 +1,9 @@
 function renderHTML(url) {
     document.getElementById('wikiContent').innerHTML = '';
-    document.getElementById('loadScreen').style.opacity = 1;
     document.getElementById('loadScreen').style.display = "block";
     document.getElementById('loadScreenText').style.display = "flex";
-    
+    document.getElementById('loadScreen').style.opacity = 1;
+
     var title = document.getElementById('title');
     var description = document.getElementById('description');
     title.innerHTML = '';
@@ -61,11 +61,11 @@ function renderHTML(url) {
 
             setTimeout(function () {
                 document.getElementById('loadScreen').style.opacity = 0;
-            }, 1000)
+            }, 500)
             setTimeout(function () {
                 document.getElementById('loadScreen').style.display = "none";
                 document.getElementById('loadScreenText').style.display = "none";
-            }, 2000)
+            }, 1500)
         })
         .catch(error => {
             console.error('Error Rendering HTML:', error);
