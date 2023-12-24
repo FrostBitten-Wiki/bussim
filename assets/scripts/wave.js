@@ -1,4 +1,4 @@
-setInterval(() => {
+window.addEventListener("load", () => {
     document.querySelectorAll("float").forEach(el => {
         const string = el.innerHTML
         const nodeName = el.nodeName
@@ -26,7 +26,7 @@ setInterval(() => {
             }
     
             if(!ignore.includes(parseInt(i))) {
-                processedString += `<${nodeName}-child style='display: inline-block; font-size: inherit; animation: wave 1s ease-in-out infinite; animation-delay: ${offset}ms; ${extraStyles}'>${textArray[i]}</${nodeName}-child>`
+                processedString += `<${nodeName} style='display: inline-block; font-size: inherit; animation: wave 1s ease-in-out infinite; animation-delay: ${offset}ms; ${extraStyles}'>${textArray[i]}</${nodeName}>`
                 offset += 75
             }
         }
@@ -36,4 +36,4 @@ setInterval(() => {
         console.log(string)
         el.innerHTML = processedString
     })
-}, 1333)
+})
