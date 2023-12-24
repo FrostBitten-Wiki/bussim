@@ -114,6 +114,7 @@ highlight[type="rainbow"] {
     -webkit-text-fill-color: transparent;
     animation: rainbow 2s linear infinite;
     text-shadow: none;
+    display: inline-flex;
 }
 
 @keyframes rainbow { 
@@ -299,6 +300,7 @@ input {
     border: none;
     outline: none;
     padding: 5px;
+    z-index: 5;
 }
 
 button {
