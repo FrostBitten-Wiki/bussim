@@ -1,3 +1,20 @@
+@media only screen and (max-width: 777px) {
+    #speakerPopup {
+        max-width: calc(100% - 30px) !important;
+    }
+
+    #speakerText {
+        overflow-y: auto !important;
+        height: 55% !important;
+        display: inline-block !important;
+        scrollbar-color: transparent transparent;
+    }
+
+    #menuParent {
+        justify-content: left !important;
+    }
+}
+
 body {
     margin: 0;
     min-height: 100vh;
@@ -101,6 +118,7 @@ highlight[type="rainbow"] {
     -webkit-text-fill-color: transparent;
     animation: rainbow 2s linear infinite;
     text-shadow: none;
+    display: flex;
 }
 
 @keyframes rainbow { 
@@ -286,6 +304,7 @@ input {
     border: none;
     outline: none;
     padding: 5px;
+    z-index: 5;
 }
 
 button {

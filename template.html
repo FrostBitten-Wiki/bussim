@@ -92,8 +92,8 @@
             </div>
         </div>
 
-        <div style="background-color: #100996; position: fixed; bottom: 0; height: 55px; width: 100%; z-index: 5;">
-            <div class="sidebar sidebarMenu" id="mainMenu" style="display: flex; position: absolute; top: 0; left: 0; flex-direction: row;">
+        <div style="background-color: #100996; position: fixed; bottom: 0; height: 55px; width: 100%; z-index: 5; display: flex; justify-content: right;">
+            <div class="sidebar sidebarMenu" id="mainMenu" style="display: flex; top: 0; left: 0; flex-direction: row; justify-content: left; flex: 1;">
                 <button onclick="location.href='/bussim'">
                     <img src="/bussim-assets/images/menuIcons/home.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Home</text>
@@ -110,6 +110,26 @@
                 </button>
 
                 <input id="searchBar" placeholder="Search" onclick="document.getElementById('searchScreen').style.bottom = '55px'" autocomplete="off">
+
+                <script>
+                    let width = document.body.clientWidth
+
+                    window.addEventListener("resize", e => {
+                        width = e.target.outerWidth
+                    })
+
+                    setInterval(() => {
+                        if(width < 777) {
+                            if(document.getElementById("otherStuff").querySelectorAll("#searchBar").length == 0) {
+                                document.getElementById("otherStuff").appendChild(document.getElementById("searchBar"))
+                            }
+                        } else {
+                            if(document.getElementById("mainMenu").querySelectorAll("#searchBar").length == 0) {
+                                document.getElementById("mainMenu").appendChild(document.getElementById("searchBar"))
+                            }
+                        }
+                    }, 100)
+                </script>
 
                 <script>
                     document.addEventListener('click', function (event) {
@@ -223,7 +243,7 @@
                 </button>
             </div>
 
-            <div class="sidebar" style="position: absolute; top: 0; right: 0; flex-direction: row-reverse;">
+            <div class="sidebar" style="top: 0; right: 0; flex-direction: row-reverse; display: inline-flex;">
                 <button onclick="" type="menuBack">
                     <img src="/bussim-assets/images/menuIcons/contributors.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Log In</text>
@@ -445,5 +465,6 @@
         <script src="/bussim-assets/scripts/tooltip.js" defer></script>
         <script src="/bussim-assets/scripts/dialogueSystem.js" defer></script>
         <script src="/bussim-assets/scripts/dialogueEmulator.js" defer></script>
+        <script src="/bussim-assets/scripts/wave.js" defer></script>
     </body>
 </html>
