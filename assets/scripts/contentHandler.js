@@ -1,20 +1,30 @@
 function renderHTML(url) {
-    document.getElementById('wikiContent').innerHTML = '';
     document.getElementById('loadScreen').style.display = "block";
     document.getElementById('loadScreenText').style.display = "flex";
     document.getElementById('loadScreen').style.opacity = 1;
 
-    var title = document.getElementById('title');
-    var description = document.getElementById('description');
-    title.innerHTML = '';
-    description.innerHTML = '';
-
     fetch(url.replace("wiki", "api/jinki"))
         .then(response => {
             if (!response.ok) {
+                console.log("nope");
+                setTimeout(function () {
+                    document.getElementById('loadScreen').style.opacity = 0;
+                }, 500)
+                setTimeout(function () {
+                    document.getElementById('loadScreen').style.display = "none";
+                    document.getElementById('loadScreenText').style.display = "none";
+                }, 1500)
+                
                 throw new Error('you GYATT to see this error.... the server was not okay being rizzed.... (Server Response not OK.)');
+            } else {
+                console.log("ya");
+                var title = document.getElementById('title');
+                var description = document.getElementById('description');
+                title.innerHTML = '';
+                description.innerHTML = '';
+                document.getElementById('wikiContent').innerHTML = '';
+                return response.text();
             }
-            return response.text();
         })
         .then(htmlContent => {
             var tempDiv = document.createElement('div');
