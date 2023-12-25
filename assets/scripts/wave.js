@@ -1,7 +1,8 @@
 setInterval(() => {
-    document.querySelectorAll(".float").forEach(el => {
+    document.querySelectorAll("float").forEach(el => {
         if(el.getAttribute("processed") != "true") {
             el.setAttribute("processed", "true")
+            el.style.fontSize = "inherit"
 
             const string = el.innerHTML
             const nodeName = el.nodeName
@@ -29,7 +30,7 @@ setInterval(() => {
                 }
         
                 if(!ignore.includes(parseInt(i))) {
-                    processedString += `<${nodeName} style='display: inline-block; overflow: hidden; font-size: inherit; animation: wave 1s ease-in-out infinite; animation-delay: ${offset}ms; ${extraStyles}'>${textArray[i]}</${nodeName}>`
+                    processedString += `<${nodeName}-child style='display: inline-block; overflow: hidden; font-size: inherit; animation: wave 1s ease-in-out infinite; animation-delay: ${offset}ms; ${extraStyles}'>${textArray[i]}</${nodeName}-child>`
                     offset += 75
                 }
             }
