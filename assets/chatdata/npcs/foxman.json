@@ -41,6 +41,10 @@
             "..."
         ],
 
+        "choices": [
+
+        ],
+
         "controls": [
             [
                 "Reset",
@@ -69,6 +73,10 @@
         
         "text": [
             "Just sittin' outside enjoying this weather!"
+        ],
+
+        "choices": [
+
         ],
 
         "controls": [
@@ -159,6 +167,10 @@
         
         "text": [
             "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah......."
+        ],
+
+        "choices": [
+
         ],
 
         "controls": [
