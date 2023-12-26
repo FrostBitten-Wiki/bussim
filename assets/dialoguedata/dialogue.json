@@ -446,7 +446,12 @@
         },
         
         "Main Game NPCs": "Character Data for Current Game NPCs (Interactable)",
-        
+
+        "Charlotte": {
+            "dialogueSfx": ["charlotte", 2.5, 250],
+            "dialogueColors": ["#09110f", "#060b0a", "#3e7363"],
+            "dialogueEmoteName": "charlotte"
+        },
         "D6": {
             "dialogueSfx": ["d6", 2.5, 550],
             "dialogueColors": ["#15150a", "#21200f", "#ddd666"],
@@ -467,6 +472,11 @@
             "dialogueColors": ["#190000", "#260000", "red"],
             "dialogueEmoteName": "efeuc"
         },
+        "FoxMan": {
+            "dialogueSfx": ["foxman", 2.5, 250],
+            "dialogueColors": ["#261a0c", "#191107", "#ffac4e"],
+            "dialogueEmoteName": "foxman"
+        },
         "Frostbite": {
             "dialogueSfx": ["frostbite", 2.5, 250],
             "dialogueColors": ["#131619", "#1d2226", "#c4e6ff"],
@@ -476,6 +486,11 @@
             "dialogueSfx": ["green", 2.5, 250],
             "dialogueColors": ["#050b04", "#0b260b", "#367328"],
             "dialogueEmoteName": "green"
+        },
+        "lnro": {
+            "dialogueSfx": ["lnro", 2.5, 250],
+            "dialogueColors": ["#190c0b", "#100707", "#a74e4a"],
+            "dialogueEmoteName": "lnro"
         },
         "MiroCev": {
             "dialogueSfx": ["event", 1, 250],
