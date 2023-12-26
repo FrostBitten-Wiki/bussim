@@ -598,9 +598,5 @@
             "dialogueColors": ["#101010", "#0c0c0c","#202020"],
             "dialogueEmoteName": "polyframex"
         }
-    },
-
-    "characterImagePreload": [
-
-    ]
+    }
 }
