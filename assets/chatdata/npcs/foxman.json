@@ -1,6 +1,6 @@
 {
     "start": {
-        "name": "Foxman",
+        "name": "FoxMan",
         
         "text": [
             "Oh hello there, lovely day ain't it?...What can I do for y'all?",
@@ -35,7 +35,7 @@
     },
 
     "foxman_attack": {
-        "name": "Foxman",
+        "name": "FoxMan",
         
         "text": [
             "..."
@@ -50,7 +50,7 @@
     },
   
     "foxman_sakura": {
-        "name": "Foxman",
+        "name": "FoxMan",
         
         "text": [
             "Oh, just my partner Sakura..."
@@ -65,7 +65,7 @@
     },
 
     "foxman_sakura_a": {
-        "name": "Foxman",
+        "name": "FoxMan",
         
         "text": [
             "Just sittin' outside enjoying this weather!"
@@ -80,7 +80,7 @@
     },
 
     "foxman_letstalk": {
-        "name": "Foxman",
+        "name": "FoxMan",
         
         "text": [
             "Alrighty then! Wanna hear about all my clams?"
@@ -110,7 +110,7 @@
     },
 
     "foxman_letstalk_b": {
-        "name": "Foxman",
+        "name": "FoxMan",
         
         "text": [
             "They're so cool lookin'! I have pictures of 'em i can show ya too!"
@@ -125,7 +125,7 @@
     },
 
     "foxman_letstalk_c": {
-        "name": "Foxman",
+        "name": "FoxMan",
         
         "text": [
             "Okay so,"
@@ -140,7 +140,7 @@
     },
 
     "foxman_letstalk_d": {
-        "name": "Foxman",
+        "name": "FoxMan",
         
         "text": [
             "Blah blah blah, blah? Blah blah, blah! Blah, blah blah blah... blah! Blah blah blah, blah blah, blah. Blah blah blah blah blah blah blah blah? Blah blah, blah blah blah. Blah blah blah blah blah blah blah blah blah..."
@@ -155,7 +155,7 @@
     },
 
     "foxman_letstalk_e": {
-        "name": "Foxman",
+        "name": "FoxMan",
         
         "text": [
             "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah......."
