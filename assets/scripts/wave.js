@@ -30,7 +30,7 @@ setInterval(() => {
                 }
         
                 if(!ignore.includes(parseInt(i))) {
-                    processedString += `<${nodeName}-child style='display: inline-block; overflow: hidden; font-size: inherit; animation: wave 1s ease-in-out infinite; animation-delay: ${offset}ms; ${extraStyles}'>${textArray[i]}</${nodeName}-child>`
+                    processedString += `<${nodeName}-child style='display: inline-block; overflow: hidden; font-size: inherit; animation: wave 1.8s ease-in-out infinite; animation-delay: ${offset}ms; ${extraStyles}'>${textArray[i]}</${nodeName}-child>`
                     offset += 75
                 }
             }
