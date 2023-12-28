@@ -132,41 +132,44 @@ function random(data) {
     return data[randomKey];
 }
 
-function randomDialogueEvent(force, id) {
+function randomDialogueEvent(force, id, showDebug = false) {
+    console.log(force, id);
     const dialogueProbbability = 2.5;
 
-    if (dialogueData && Math.random() * 100 < dialogueProbbability && force !== true && !dialogueRunning) {
+    if (force === undefined) {
+        force = false;
+    }
+
+    if (dialogueRunning) {
+        return console.log("Another random dialogue event was called, but there's still one running.");
+    }
+
+    if (force === true) {
+        // force a random dialogue regardless of rarity.
+        // used for forced dialogues on NPC pages, usually.
+        if (id === "" | undefined) {
+            return console.log("randomDialogueEvent function did not pass any ID to force.");
+        }
+
         dialogueRunning = true;
 
-        let speakData;
-
-        if (id && dialogueData.dialogueData[id]) {
+        if (showDebug) {
             speakerId.innerText = `dialogueId: ${id}`;
-            speakData = dialogueData.dialogueData[id];
         } else {
             speakerId.innerText = ``;
-            speakData = random(dialogueData.dialogueData);
         }
-
-        if (Math.random() * 100 < speakData.rarity) {
-            startSpeaking(speakData, dialogueData.characterData);
-        } else {
-            dialogueRunning = false;
-        }
-    } else if (force === true && id !== "" && !dialogueRunning) {
+        speakData = dialogueData.dialogueData[id];
+        startSpeaking(speakData, dialogueData.characterData);
+    } else {
+        // force a random dialogue.
         dialogueRunning = true;
 
-        let speakData;
+        speakerId.innerText = ``;
+        speakData = random(dialogueData.dialogueData);
+        chance = Math.random() * 100
 
-        if (id && dialogueData.dialogueData[id]) {
-            speakerId.innerText = `dialogueId: ${id}`;
-            speakData = dialogueData.dialogueData[id];
-        } else {
-            speakerId.innerText = ``;
-            speakData = random(dialogueData.dialogueData);
-        }
-
-        if (Math.random() * 100 < speakData.rarity) {
+        console.log(chance, speakData.rarity)
+        if (chance < speakData.rarity) {
             startSpeaking(speakData, dialogueData.characterData);
         } else {
             dialogueRunning = false;
@@ -174,7 +177,9 @@ function randomDialogueEvent(force, id) {
     }
 }
 
-setInterval(() => randomDialogueEvent(), 2500);
+var min = 30000
+var max = 180000
+setInterval(() => randomDialogueEvent(), Math.random() * (max - min) + min);
 
 if (typeof document.hidden !== "undefined") {
     var hidden = "hidden";
