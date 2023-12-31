@@ -1,59 +1,61 @@
-editable: True
+editable: true
 page:
   title: Cafe
-  description: The Coffee Shop is an event in Bus Simulator, being akin of that to Goat Station in terms of cast and similarities.
-  
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim events, Coffee Shop, cofe
-  
+  description: The Coffee Shop is an event in Bus Simulator, being akin of that to
+    Goat Station in terms of cast and similarities.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim events, Coffee
+    Shop, cofe
+
   tags: events
 
   header:
     title: Cafe
     description: |
-      Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Cafe</highlight>
+      Category: [Cafe](/bussim/events)
     image: ''
     imageBanner: /bussim-assets/images/events/coffeeshopleak.webp
 
 
 attributions:
-  - "Made by FangedWerewolf (@noobbiom)"
+  - Made by FangedWerewolf (@noobbiom)
 
-content: |
- ##[Info]
- The Cafe is an event in Bus Simulator, being akin of that to Goat Station in terms of cast and similarities. 
- \n
- When the event starts, The Bus arrives in a city in the middle of the road. The driver then tells everyone to explore around, as The Bus stops on its tracks near a coffee shop.
- \n\n
- Throughout the duration of the event, players will be able to go around the city and talk to various NPCs, as well as providing different tasks for Passenger Reputation as compensation. The many NPCs you can find here are: Zeon, NobleReign, Tazer, MLG, and some new ones being: Sakura, Inro, Charlotte (Green Goat), and Foxman.
- !!BUTTONS [<highlight>Coffee Shop</highlight>,location.href=''|Tazer's Garage,location.href='/bussim/events/cafe/garage']
- ##[Cafe 2952]
- "That should work then. You go serve the customers and make the drinks, while I go out there and fix your bus. Deal?" -"Inro"
- Cafe 2952 or previously known as The Coffee Shop is a location within the City that allows players to handle various tasks as a barista and a cashier, fufilling orders of customers and recieving Passenger Reputation as payment. Multiple talkable NPCs can also be found here.
- \n\n
- When the mini-game starts, NPCs will start lining up on the counter, with you being tasked to fufill their orders, with 1/3 choices being the correct option. This is akin of that to how piza handles the cashier system.
- \n\n
- Afterwards, you're then tasked to make the correct coffee types for the correct customer. Doing so will increase your collective performance once the mini-game is over.
- \n\n
- At the end, depending on your team's performance, [MLG](npcs/mlg) will talk to you the results of it, from being very poor to being excellent. At the same time [Inro](npcs/inro) fixes up [The Bus](locations/the-bus) and also pays you some Passenger Reputation if you had done a good job. Soon after, the event ends following the interaction.
- \n\n
- If nobody has initiated the mini-game, the event will still end after a certain point.
- \n\n
- ##[Coffee]
- Main Article: [h[Cafe Coffee]](items/cafe-coffee)
- \n\n
- As one of it's main mechanics of this event, you'll be able to make many types of coffee based on the ingredients you input onto your cup. It must contain 90ml of liquid only drinks and 100ml for mixed in order for it to blend, for recipes specifically solids like Spice in a Cup, you should add the Peppers last.
- \n\n
- In order to make a coffee, you'll need to grab a new cup and then interact with the coffee machine. Then you'll be put into a focus-mode, where you have various categories of ingredients on the top, keybinds on the bottom, current orders on the right, and recipes on the left.
- \n\n
- During this mode, you'll also be able to measure out any ingredients and depending on your accuracy will depend on the result. Once you've successfully measured out the recipe (or as accurate as possible), you can use [SPACE] to blend the drink resulting in either a mixture or a specific blend.
- \n\n
- Afterwards, you'll be able to hand it out to various NPCs in both the cafe and outside of it. If it's their specific taste, they may provide some Passenger Reputation or have some special interactions. 
- \n
- You can also drink the coffee yourself, and it provides many benefits too in doing so.
+content: |-
+  ##[Info]
+  The Cafe is an event in Bus Simulator, being akin of that to Goat Station in terms of cast and similarities. 
+  \n
+  When the event starts, The Bus arrives in a city in the middle of the road. The driver then tells everyone to explore around, as The Bus stops on its tracks near a coffee shop.
+  \n\n
+  Throughout the duration of the event, players will be able to go around the city and talk to various NPCs, as well as providing different tasks for Passenger Reputation as compensation. The many NPCs you can find here are: Zeon, NobleReign, Tazer, MLG, and some new ones being: Sakura, Inro, Charlotte (Green Goat), and Foxman.
+  !!BUTTONS [<highlight>Coffee Shop</highlight>,location.href='#'|Tazer's Garage,renderHTML('/wiki/bussim/events/cafe/garage')]
+  ##[Cafe 2952]
+  "That should work then. You go serve the customers and make the drinks, while I go out there and fix your bus. Deal?" -"Inro"
+  Cafe 2952 or previously known as The Coffee Shop is a location within the City that allows players to handle various tasks as a barista and a cashier, fufilling orders of customers and recieving Passenger Reputation as payment. Multiple talkable NPCs can also be found here.
+  \n\n
+  When the mini-game starts, NPCs will start lining up on the counter, with you being tasked to fufill their orders, with 1/3 choices being the correct option. This is akin of that to how piza handles the cashier system.
+  \n\n
+  Afterwards, you're then tasked to make the correct coffee types for the correct customer. Doing so will increase your collective performance once the mini-game is over.
+  \n\n
+  At the end, depending on your team's performance, [MLG](npcs/mlg) will talk to you the results of it, from being very poor to being excellent. At the same time [Inro](npcs/inro) fixes up [The Bus](locations/the-bus) and also pays you some Passenger Reputation if you had done a good job. Soon after, the event ends following the interaction.
+  \n\n
+  If nobody has initiated the mini-game, the event will still end after a certain point.
+  \n\n
+  ##[Coffee]
+  Main Article: [h[Cafe Coffee]](items/cafe-coffee)
+  \n\n
+  As one of it's main mechanics of this event, you'll be able to make many types of coffee based on the ingredients you input onto your cup. It must contain 90ml of liquid only drinks and 100ml for mixed in order for it to blend, for recipes specifically solids like Spice in a Cup, you should add the Peppers last.
+  \n\n
+  In order to make a coffee, you'll need to grab a new cup and then interact with the coffee machine. Then you'll be put into a focus-mode, where you have various categories of ingredients on the top, keybinds on the bottom, current orders on the right, and recipes on the left.
+  \n\n
+  During this mode, you'll also be able to measure out any ingredients and depending on your accuracy will depend on the result. Once you've successfully measured out the recipe (or as accurate as possible), you can use [SPACE] to blend the drink resulting in either a mixture or a specific blend.
+  \n\n
+  Afterwards, you'll be able to hand it out to various NPCs in both the cafe and outside of it. If it's their specific taste, they may provide some Passenger Reputation or have some special interactions. 
+  \n
+  You can also drink the coffee yourself, and it provides many benefits too in doing so.
 
- ##[Trivia]
- - This is perhaps one of the most leaked events in the game, with having many, many instances and media showcasing various features and snapshots prior to its release.
- - This event is also similar of that to <a href='/bussim/events/goated-gas-station'>Goat Station</a>, where you'll be able to explore within a large area for a long period of time.
- - This is the only event where you get rewarded with Passenger Reputation and Driver Reputation.
- - The name 2952, is similar to Bus Simulator's Bus Radio being 295.2 and The Bus' license plate being 2952.
-  !!GALLERY [/bussim-assets/images/events/coffeeshopleak.webp] 
+  ##[Trivia]
+  - This is perhaps one of the most leaked events in the game, with having many, many instances and media showcasing various features and snapshots prior to its release.
+  - This event is also similar of that to <a href='/bussim/events/goated-gas-station'>Goat Station</a>, where you'll be able to explore within a large area for a long period of time.
+  - This is the only event where you get rewarded with Passenger Reputation and Driver Reputation.
+  - The name 2952, is similar to Bus Simulator's Bus Radio being 295.2 and The Bus' license plate being 2952.
+   !!GALLERY [/bussim-assets/images/events/coffeeshopleak.webp] 

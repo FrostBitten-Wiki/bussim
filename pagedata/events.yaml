@@ -1,13 +1,15 @@
-editable: True
+editable: true
 page:
   title: Events
-  description: Events are a main staple in Bus Simulator, happening every 5 minutes after the last, or 4 if the server just started.
-      
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim evebrs. roblox vus sim events, events
-  
+  description: Events are a main staple in Bus Simulator, happening every 5 minutes
+    after the last, or 4 if the server just started.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim evebrs. roblox
+    vus sim events, events
+
   tags: events, red alarm, why is the screen turning red, why is it so loud
   ignore: ignore
-  
+
   header:
     description: |
       Events are a main staple in Bus Simulator, happening every 5 minutes after
@@ -31,13 +33,13 @@ page:
 
       Note: If you are to force these events in a VIP server via the !event command, the event names are Case Sensitive.
       (i.e. Bloxdonalds won't be forced if you spell it with all UPPERCASE or lowercase.)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions: []
 
-content: |
+content: |-
   !!INFOBOX TITLE:"Enabled Events" COLOR:"#eb4034" TEXT:"These events are able to be forced, and are available in normal gameplay no matter the time."
   !!LISTITEM IMAGE:"/bussim-assets/images/events/acid_rain.webp" TITLE:"Acid Rain" DESCRIPTION:"Acid Rain is an event where acid starts raining from the sky, damaging everyone as long as they are exposed, whether it'd be outside, by the stairs, or even the third floor. The event ends after a few minutes." REDIRECT:"/bussim/events/acid-rain"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/line.webp" TITLE:"Adventure Line" DESCRIPTION:"The Adventure Line is an event based off of the Stanley Parable, and is about the riders of the bus following The Adventure LineTM. The line leads into a sewer grate, and the music is a lower quality version of the original version from the game. The event lasts just short of a minute." REDIRECT:"/bussim/events/adventure-line"
@@ -51,6 +53,7 @@ content: |
   !!LISTITEM IMAGE:"/bussim-assets/images/events/cave2.webp" TITLE:"Cave" DESCRIPTION:"Cave event is an event that takes place in a cave. When this happens, the Driver mentions there is a Cave ahead. Then, within seconds, the map becomes dark and changes to a cave. Then eventually the bus begins to drive through the cave." REDIRECT:"/bussim/events/cave"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/clone1.webp" TITLE:"Cloned Bus" DESCRIPTION:"The Clone Event is an event in Bus Simulator, where the bus gets cloned. Eventually it turns out it's unstable and disappears shortly after." REDIRECT:"/bussim/events/cloned-bus"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/cubes2.webp" TITLE:"Cubes" DESCRIPTION:"During the event, cubes move all around the bus, playing the h[Nintendo Gamecube Intro] sound. After some time, the driver announces they've convinced the cubes to go back to Nintendo Land. A few moments after that, the event ends." REDIRECT:"/bussim/events/cubes"
+  !!LISTITEM IMAGE:"/bussim-assets/images/events/coffeeshopleak.webp" TITLE:"Cafe" DESCRIPTION:"The Cafe is an event in Bus Simulator, being akin of that to Goat Station in terms of cast and similarities." REDIRECT:"/bussim/events/cafe"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/ea_sellout.webp" TITLE:"EA Sellout" DESCRIPTION:"The EA Sellout or its more technical name, Bought Out is an event where everyone will be forcibly teleported back to the first floor of the Bus after having been bought out by Economic Arcs, a parody of Electronic Arts." REDIRECT:"/bussim/events/ea-sellout"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/exploiter.webp" TITLE:"Exploiter" DESCRIPTION:"The Exploiter event is an event where an exploiter (which is not a real exploiter) deletes the road and the terrain. Shortly after some comedic stabs at the creator of the game, the terrain and road restore themselves back to normal, and everything returns back to normal." REDIRECT:"/bussim/events/exploiter"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/fake_events.webp" TITLE:"Fake Events" DESCRIPTION:"The Fake No Gas event is an event where the bus stops, and the driver acts like they're out of gas. Shortly afterwards, pranking the passengers once again, acting as a sequel to the Fake Bus Stop event." REDIRECT:"/bussim/events/fake-events"
@@ -84,8 +87,8 @@ content: |
   !!LISTITEM IMAGE:"/bussim-assets/images/events/timetravel3.webp" TITLE:"Time Travel" DESCRIPTION:"The Time Travel event is an event in Bus Simulator, where the bus momentarily stops only to speed up to time travel 50 years into the future." REDIRECT:"/bussim/events/time-travel"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/timmy.webp" TITLE:"Timmy" DESCRIPTION:"The Timmy Event is a short yet simple event in Bus Simulator. When this event happens, the Bus will move backwards rather than forwards, as well as the gravity being significantly reduced." REDIRECT:"/bussim/events/timmy"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/trafficlight2.webp" TITLE:"Traffic Light" DESCRIPTION:"The Traffic Light event is a rather simple and straight-forward, when this event is rolled, the bus will stop and waits until the traffic light turns back to green because they are a good driver... unless..." REDIRECT:"/bussim/events/traffic-light"
-  
+
   \n\n
-  
+
   !!INFOBOX TITLE:"Disabled Events" COLOR:"#9e9e9e" TEXT:"These events can't be forced, and are no longer available in the game."
   !!LISTITEM IMAGE:"/bussim-assets/images/events/santasgone1.webp" TITLE:"Santa's Gone" DESCRIPTION:"Santa's Gone was a limited time event that was the predecessor of NoDough, and made its appearance in both h[December 2021] and h[2022]." REDIRECT:"/bussim/events/santas-gone"

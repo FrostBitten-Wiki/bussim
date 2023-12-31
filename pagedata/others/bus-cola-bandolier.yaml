@@ -1,23 +1,24 @@
-editable: True
+editable: true
 page:
   title: Bus-Cola Bandolier
-  description: The Bus-Cola Bandolier is an official accessory that you can buy on the Roblox Marketplace.
-  
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Bus-Cola Bandolier
+  description: The Bus-Cola Bandolier is an official accessory that you can buy on
+    the Roblox Marketplace.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Bus-Cola
+    Bandolier
 
   tags: bus cola bandolier, official ugc item
 
   header:
     title: Bus-Cola Bandolier
     description: |
-      Category: <a href="/bussim/others">Others</a>
-    image: "/bussim-assets/images/banner.jpg"
+      Category: [Others](/bussim/others)
+    image: /bussim-assets/images/banner.jpg
     imageBanner: /assets/bussim/images/banner.jpg
 
 attributions:
-  - "Ported By PolyframeX (@polyframex)"
-  
-content: |
+  - Ported By PolyframeX (@polyframex)
+content: |-
   "Never go thirsty again with this bandolier of assorted colas that we found rolling around in the back of a bus! Who knows what'll happen if you drink one?" -"Bus-Cola Bandolier"
   ##[Info]
   The Bus-Cola Bandolier is an official accessory that you can buy <a href='https://www.roblox.com/catalog/14609231873/'>here</a>.
