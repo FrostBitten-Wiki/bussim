@@ -1,25 +1,25 @@
-editable: True
+editable: true
 page:
   title: Tazer
   description: NPCDescription
-    
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npc
-  
+
   tags: Tazer, npc
 
   header:
     title: Tazer
     description: |
       Category: [NPCs](/bussim/npcs)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical)
 
-content: |
+content: |-
   ##[Info]
   Tazer is an NPC that appears in the [GOATed Gas Station](/bussim/events/goated-gas-station) and [Coffee Shop](/bussim/events/coffee-shop) event. He, like, is a moderator for both games Noble owns, being Bus Simulator and Kit Battle.
 
@@ -27,7 +27,7 @@ content: |
   Tazer wears a set based off of the Cyber Critter 9004, for both his clothing as well as his visor. He also has a PDA on his wrist, a pair of wings, a fabulous ladies hat, and both a banner and a relay pack on his back.
 
   ##[Favourite Drink (Coffee Shop)]
-  Tazer's favourite drink is [Cup of Glowstick Fluid](/bussim/events/coffee-shop). This gives you 3 Passenger Rep.
+  Tazer's favourite drink is [Cup of Glowstick Fluid](/bussim/events/coffee-shop). This gives you either 3 Passenger Rep or 3 Driver Rep, however this may only be done at the Cafe event.
 
   ##[Dialogue Emulator]
   !!DLEMULATOR EID:"tazeremulator" SID:"start" URL:"/assets/bussim/emulatorData/tazer.json"
@@ -83,7 +83,7 @@ content: |
               - The player is then flung
           - hg[Variant 5]: "Tazer jumpscare"
               - Tazer then kills the player by "jumpscaring" them.
-  
+
   ###[Airhorn-Related Dialogue]
   - If the airhorn is used repeatedly in proximity to Tazer
     - "It's already hard enough being in detention, can you not?"
@@ -94,7 +94,7 @@ content: |
   - If the airhorn is used repeatedly in proximity to Tazer for a fourth time and so on
     - "With regards from Tazer."
       - The player then gets flung
-  
+
   ##[Trivia]
   - When you visit GoatedGas, you're able to find a discarded note in the trash can, inspecting it gives you what is written on the note:
     - To Disc & Green, I am highly unsatisfied with the way your services has been. Not only have you applied spike strips to the door, thus popping the tires on my Mini-Bus, and charged me for spare tires, but you have also charged me double on gas when refueling my Mini-Bus due to "being too reckless." I find it extremely unfair that you guys are punishing me this way, and I request that you drop the doubled charges at once. I cannot afford to use 55 passenger rep on one refuel. - Signed, Tazer
