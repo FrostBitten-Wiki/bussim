@@ -1,7 +1,9 @@
-editable: True
+editable: true
 page:
   title: Cosmetics
-  description: Cosmetics are custom-made accessories tailored to a specific user with custom effects and sounds, mainly to NobleReign's friends. They may also appear in NobleReign's other games as well.
+  description: Cosmetics are custom-made accessories tailored to a specific user with
+    custom effects and sounds, mainly to NobleReign's friends. They may also appear
+    in NobleReign's other games as well.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Cosmetics
 
@@ -15,9 +17,9 @@ page:
     imageBanner: /bussim-assets/images/banner.jpg
 
 attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  - Ported By PolyframeX (@polyframex)
 
-content: |
+content: |-
   ##[Info]
   Cosmetics are custom-made accessories tailored to a specific user with custom effects and sounds, mainly to NobleReign's friends. They may also appear in NobleReign's other games as well.
   \n\n
@@ -34,10 +36,10 @@ content: |
   \n\n
   | Cosmetic     | Description  | Images       |
   |--------------|--------------|--------------|
-  | Halloween    | Her visor color changes to Orange during October.                                                                                                                                                   | ![](/bussim-assets/images/others/cosmetics/Zeon-October.webp)      |
-  | Happy        | Zeon has a happy expression, you'll see her visor like this most commonly, when she's not taking damage.                                                                                            | ![](/bussim-assets/images/others/cosmetics/Zeon-Default.webp)      |
-  | Neutral      | Neutral is a smaller, but still noticable expression as a transition from Pained to Happy. It's harder to notice, as it switches to Happy after roughly a second.                                   | ![](/bussim-assets/images/others/cosmetics/Zeon-Neutral.webp)      |
-  | Hurt         | Zeon would flinch when damage was taken from anything. It's easily noticeable after taking damage, as it also makes a beeping sound. The expression lasts a few seconds, then switches the Neutral. | ![](/bussim-assets/images/others/cosmetics/Zeon-Hurt.webp)         |
+  | Halloween    | Her visor color changes to Orange during October.                                                                                                                                                   | ![256x256](/bussim-assets/images/others/cosmetics/Zeon-October.webp)      |
+  | Happy        | Zeon has a happy expression, you'll see her visor like this most commonly, when she's not taking damage.                                                                                            | ![256x256](/bussim-assets/images/others/cosmetics/Zeon-Default.webp)      |
+  | Neutral      | Neutral is a smaller, but still noticable expression as a transition from Pained to Happy. It's harder to notice, as it switches to Happy after roughly a second.                                   | ![256x256](/bussim-assets/images/others/cosmetics/Zeon-Neutral.webp)      |
+  | Hurt         | Zeon would flinch when damage was taken from anything. It's easily noticeable after taking damage, as it also makes a beeping sound. The expression lasts a few seconds, then switches the Neutral. | ![256x256](/bussim-assets/images/others/cosmetics/Zeon-Hurt.webp)         |
    
   \n
   ##[Pear]
@@ -48,14 +50,14 @@ content: |
   \n\n
   | Cosmetic     | Description  | Images       |
   |--------------|--------------|--------------|
-  | Default      | His hat is a direct reference to Ralsei from Deltarune.| ![](/bussim-assets/images/others/cosmetics/Bread.webp)|
+  | Default      | His hat is a direct reference to Ralsei from Deltarune.| ![256x256](/bussim-assets/images/others/cosmetics/Bread.webp)|
   \n
   ##[Teddy]
   Teddy only has a unique shadow, referencing Toontown.
   \n\n
   | Cosmetic     | Description  | Images       |
   |--------------|--------------|--------------|
-  | Default      | Displays a circular unobstructed shadow underneath Teddy at all times.| ![](/bussim-assets/images/others/cosmetics/Teddy.webp)|
+  | Default      | Displays a circular unobstructed shadow underneath Teddy at all times.| ![256x256](/bussim-assets/images/others/cosmetics/Teddy.webp)|
   \n
   ##[Tazer]
   Tazer's Cosmetic is very similar to Zeon's, but in Yellow, deeper beeping sounds, and uses Cyber Critter 9006 instead of 9000. It also has a lightning bolt design on the sides.
@@ -64,9 +66,9 @@ content: |
   \n\n
   | Cosmetic     | Description  | Images       |
   |--------------|--------------|--------------|
-  | Neutral      | His visor glows in the dark, emitting a yellow hue.                                        | ![](/bussim-assets/images/others/cosmetics/Tazer.webp)           |
-  | Pained       | Whenever Tazer takes damage, his visor corrupts.                                           | ![](/bussim-assets/images/others/cosmetics/Tazer-Hurt.webp)      |
-  | Mini-Bus     | Tazer has a Mini-Bus reskin that changes it into The Drafter nothing else is changed much. | ![](/bussim-assets/images/others/cosmetics/Tazer-Minibus.webp)   |
+  | Neutral      | His visor glows in the dark, emitting a yellow hue.                                        | ![256x256](/bussim-assets/images/others/cosmetics/Tazer.webp)           |
+  | Pained       | Whenever Tazer takes damage, his visor corrupts.                                           | ![256x256](/bussim-assets/images/others/cosmetics/Tazer-Hurt.webp)      |
+  | Mini-Bus     | Tazer has a Mini-Bus reskin that changes it into The Drafter nothing else is changed much. | ![256x256](/bussim-assets/images/others/cosmetics/Tazer-Minibus.webp)   |
   \n
   ##[Frostbite]
   NobleReign also has a special cosmetic if he wears the Build-A-Fur Wolf set, in which his eyes turn blue, his sclera turns white, and his fur color matches the one with his shirt. his same effect can also be seen in Noble's alt being Frostbite himself. 
