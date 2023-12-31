@@ -1,10 +1,10 @@
-editable: True
+editable: true
 page:
   title: Placeholder
   description: Placeholder
-    
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
+
   tags: some,tags,here,that is used by the search api
   ignore: ignore
 
@@ -12,8 +12,8 @@ page:
     title: Placeholder
     description: |
       Category: [Events](/bussim/events)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions: []
