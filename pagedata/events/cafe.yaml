@@ -12,7 +12,7 @@ page:
   header:
     title: Cafe
     description: |
-      Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Cafe</highlight>
+      Category: [Cafe](/bussim/events)
     image: ''
     imageBanner: /bussim-assets/images/events/coffeeshopleak.webp
 
