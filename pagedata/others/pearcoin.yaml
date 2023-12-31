@@ -1,23 +1,24 @@
-editable: True
+editable: true
 page:
   title: PearcoinTM
-  description: The Pearcoin is a gamepass that is only obtainable through Pear, which does almost nothing.
-  
+  description: The Pearcoin is a gamepass that is only obtainable through Pear, which
+    does almost nothing.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Pearcoin
-  
+
   tags: Pearcoin, others, pear scam
 
   header:
     title: <highlight type="rainbow"><float>Pearcoin<sup>TM</sup></float></highlight>
-    description: >- 
-      Category: <a href="/bussim/others">Others</a>
+    description: >-
+      Category: <a href="/wiki/bussim/others">Others</a>
     image: ''
     imageBanner: /bussim-assets/images/others/pearcoin.webp
 
 attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  - Ported By PolyframeX (@polyframex)
 
-content: |
+content: |-
   "no way, you're rich now!!!!!" -"<float>hr[Pearcoin^(TM)]</float>"
   ##[Info]
   The <float>hr[Pearcoin^(TM)]</float> is a gamepass that is only obtainable through [Pear](npcs/pear),  or through somebody's inventory and costs 2 R$ to purchase. 
