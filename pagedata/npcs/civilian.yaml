@@ -1,27 +1,29 @@
-editable: True
+editable: true
 page:
   title: Civilian
-  description: Banana is an NPC that can be found in the Backwalls. This NPC rarely spawns in the event.
-    
+  description: Banana is an NPC that can be found in the Backwalls. This NPC rarely
+    spawns in the event.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim banana npc
-  
+
   tags: banana, backwalls npc, npc
 
   header:
     title: Civilian
     description: |
       Category: [NPCs](/bussim/npcs)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-attributions: 
+attributions:
   - Ported By PolyframeX (@polyframex)
   - Edited and Converted to Jinki Markdown by Nyx (@nyxical)
 
-content: |
+content: |-
   ##[Info]
-  The Civilians are minor NPCs that appear in two events, [No Dough](/bussim/events/no-dough) and [Passengers](/bussim/events/passengers), and have no dialogue or do anything important in the game.
+  The Civilians are minor NPCs that appear in two events, [No Dough](/bussim/events/no-dough), [Passengers](/bussim/events/passengers), and [Cafe](/bussim/events/cafe), 
+  and have no dialogue or do anything important in the game (excluding the Cafe event).
 
   ##[Appearance]
   Their appearance is random, as they are based off of player IDs, which means that
@@ -40,13 +42,17 @@ content: |
   then jump off the bus.
   \n\n
   They don't say anything when they're boarding or jumping off the bus. Unlike [Steven](/bussim/npcs/steven) from his event, [Steven Ride](/bussim/events/steven-ride)
-  
+
   ###[No Dough / Santa's Gone]
   In the No Dough event, the Civilians act more like security, and will kill you instantly if you're spotted long enough.
   \n\n
   They will also get alerted based off of noise (for more information, refer to it's [event](/bussim/events/no-dough) page), and will go towards the noise if alerted.
   \n\n
   This is great for clearing out an crowded area, but a risky move getting away from the oncoming crowd of Civilians.
+
+  ###[Cafe]
+  Civilians will come into randomly generated outfits, ask for a drink (if the player chooses the correct option), and will sit down at any available
+  seat, awaiting for their drink. The civilian leaves if they recieve the correct/incorrect drink, or if they haven't been served and time has ran out.
 
   ##[Trivia]
   - If there are no open seats, the Civilians will stand in the back of the bus, near the restroom.
