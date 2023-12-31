@@ -1,23 +1,26 @@
-editable: True
+editable: true
 page:
   title: Bus Radio
-  description: The Radio is a functional prop in The Bus in Bus Simulator. It plays a large variety of songs and intermissions around the bus, and can be listened to via Airpods. 
-  
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Bus-Cola Bandolier
+  description: The Radio is a functional prop in The Bus in Bus Simulator. It plays
+    a large variety of songs and intermissions around the bus, and can be listened
+    to via Airpods.
 
-  tags: bus cola bandolier, official ugc item
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Bus-Cola
+    Bandolier
+
+  tags: bus radio, radio, radio bus, radio on the bus, this is an absolute nightmare
+    - fang, a werewolf's bane, music, tracks
 
   header:
     title: Bus-Cola Bandolier
     description: |
       Category: <a href="/bussim/others">Others</a>
-    image: "/bussim-assets/images/banner.jpg"
+    image: /bussim-assets/images/banner.jpg
     imageBanner: /assets/bussim/images/banner.jpg
 
 attributions:
-  - "Ported By PolyframeX (@polyframex)"
-  
-content: |
+  - Ported By PolyframeX (@polyframex)
+content: |-
   "Never go thirsty again with this bandolier of assorted colas that we found rolling around in the back of a bus! Who knows what'll happen if you drink one?" -"Bus-Cola Bandolier"
   ##[Info]
   The Radio is a functional prop in The Bus in Bus Simulator. It plays a large variety of songs and intermissions around the bus, and can be listened to via Airpods. 
@@ -56,4 +59,5 @@ content: |
   ##[Normal / All Season Tracks]
   These tracks are playable throughout the entire year, anytime, anyday. 
   |Track Name|Reference / Parody|Origin / Author|Notes|Links|Audio ID|
+  |----------|------------------|---------------|-----|-----|--------|
   |i am not doing this|remind me tomorrow or something|ill do the others first and then this okay|please|thank you|-Fang|
