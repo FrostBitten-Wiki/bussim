@@ -3,6 +3,7 @@
 #   It is highly recommended to use the placeholder.yaml as a starting point.
 #   
 #   Made By PolyframeX :)
+editable: True
 page:
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,

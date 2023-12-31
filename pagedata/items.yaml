@@ -1,3 +1,4 @@
+editable: True
 page:
   title: Items
   description: Items are tools that have their own special functions and abilities, mostly obtained by Events.

@@ -1,3 +1,4 @@
+editable: True
 page:
   title: Biomes
   description: Biomes appear randomly after driving through a tunnel, and they don't have any relation to events most of the time, unless if a specific event forces it (i.e. Blizzard).

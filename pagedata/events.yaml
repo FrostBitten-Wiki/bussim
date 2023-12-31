@@ -1,3 +1,4 @@
+editable: True
 page:
   title: Events
   description: Events are a main staple in Bus Simulator, happening every 5 minutes after the last, or 4 if the server just started.
