@@ -1,34 +1,34 @@
-editable: True
+editable: true
 page:
   title: NPCName
   description: NPCDescription
-    
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npc
-  
+
   tags: npcname, npc
 
   header:
     title: NPCName
     description: |
       Category: [NPCs](/bussim/npcs)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical)
 
-content: |
+content: |-
   ##[Info]
   RedNoob5050 (AKA Red) is an employee as [Bloxdonalds](/bussim/events/bloxdonalds) who gives you the Burger. He also works as a developer in [Kit Battle](https://gla.dog/kit-beta), one of NobleReign's games.
 
   ##[Favourite Drink]
-  Red's favourite drink is [Strawberry Smoothie](/bussim/events/coffee-shop). This gives you 1 Passenger Rep.
+  Red's favourite drink is [Strawberry Smoothie](/bussim/events/coffee-shop). This gives you either 1 Passenger Rep or 1 Driver Rep.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"redemulator" SID:"start" URL:"/assets/bussim/emulatorData/red.json"
-  
+
   - hg[Variant 1]: "Welcome to Bloxdonalds.. if you're wondering, the door is broken."
   - hg[Variant 2]: "Welcome to Bloxdonalds.. blah, blah, blah."
       - hg[Option 1]: Can I get an... uhhh...

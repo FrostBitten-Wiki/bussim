@@ -1,25 +1,26 @@
-editable: True
+editable: true
 page:
   title: Ectta
-  description: Ectta is both an Admin and Authenticatior in Bus Simulator and also appears in Question Time, asking different questions each time he appears.
-    
+  description: Ectta is both an Admin and Authenticatior in Bus Simulator and also
+    appears in Question Time, asking different questions each time he appears.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim banana npc
-  
-  tags: ectta, road npc, npc
+
+  tags: ectta, road npc, npc, snakedragon, question time guy
 
   header:
     title: Ectta
     description: |
       Category: [NPCs](/bussim/npcs)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-attributions: 
+attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical)
 
-content: |
+content: |-
   ##[Info]
   Ectta is both an Administrator and Authenticatior in Bus Simulator and also appears in [Question Time](/bussim/events/question-time), asking different questions each time he appears.
 
@@ -27,7 +28,7 @@ content: |
   Ectta is a tall, black-green snakedragon, that wears layered jeans as well as suspenders. He also wears an Overseer Hat, a black-white bandana, and horns alongside a pair of wings.
 
   ##[Favourite Drink]
-  Ectta's favourite drink is [Communion Coffee](/bussim/events/coffee-shop). This gives you 6 Passenger Rep.
+  Ectta's favourite drink is [Communion Coffee](/bussim/items/cafe-coffee/mixtures). This gives you either 6 Passenger Rep or 6 Driver Rep.
 
   ##[Dialogue]
   There is currently no available emulator for Ectta.

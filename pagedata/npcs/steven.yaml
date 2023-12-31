@@ -1,25 +1,25 @@
-editable: True
+editable: true
 page:
   title: Steven
   description: NPCDescription
-    
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npc
-  
+
   tags: steven, npc
 
   header:
     title: Steven
     description: |
       Category: [NPCs](/bussim/npcs)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical)
 
-content: |
+content: |-
   ##[Info]
   Steven_Scripts is an NPC that appears in Bus Simulator in both Bloxdonalds and Steven Ride, he is also a developer of the game.
 
@@ -27,11 +27,11 @@ content: |
   He appears to have a Blue-Black stripped jacket over a Lua shirt, a harmonica, 4 hearts at the left of his head, a ROBLOX cap, 150K Summer Shades, and Jeans.
 
   ##[Favourite Drink]
-  Steven's favourite drink is [Mango Juice](/bussim/events/coffee-shop). This gives you 6 Passenger Rep.
+  Steven's favourite drink is [Mango Juice](/bussim/events/coffee-shop). This gives you either 6 Passenger Rep or Driver Rep.
 
   ##[Dialogue (Bloxdonalds)]
   !!DLEMULATOR EID:"stevenemulator" SID:"start" URL:"/assets/bussim/emulatorData/steven.json"
-  
+
   - "Uh, hey."
     - hg[Option 1]: What are you doing back here?
     - hg[Option 2]: [Leave quietly.]

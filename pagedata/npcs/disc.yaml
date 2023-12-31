@@ -1,25 +1,27 @@
-editable: True
+editable: true
 page:
   title: Disc
-  description: Disc is an NPC that sells you the items in the GOATed Gas Station in exchange for Passenger rep. He is also an admin in the game, like Tazer and Zeon. He's also a new hire, with Green at his side.
-    
+  description: Disc is an NPC that sells you the items in the GOATed Gas Station in
+    exchange for Passenger rep. He is also an admin in the game, like Tazer and Zeon.
+    He's also a new hire, with Green at his side.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim banana npc
-  
+
   tags: disc, station npc, npc
 
   header:
     title: Disc
     description: |
       Category: [NPCs](/bussim/npcs)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/events/goat_station1.webp
 
-attributions: 
+attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical)
 
-content: |
+content: |-
   ##[Info]
   Disc is an NPC that sells you the items in the GOATed Gas Station in exchange for Passenger rep. He is also an Administrator in the game, like [Tazer](/bussim/npcs/tazer) and [Zeon](/bussim/npcs/zeon). He's also a new hire, with [Green](/bussim/npcs/green) at his side.
 
@@ -27,7 +29,7 @@ content: |
   Disc is a white goat wearing a Day Light Top Hat, Floating White Crown, Blue Reflective Visor Glasses, Golden Antlers of Honor, and a custom made Discord-branded shirt.
 
   ##[Favourite Drink]
-  Disc's favourite drink is [Vanilla Iced Coffee](/bussim/events/coffee-shop). This gives you 2 Passenger Rep.
+  Disc's favourite drink is [Vanilla Iced Coffee](/bussim/events/coffee-shop). This gives you either 2 Passenger Rep or 2 Driver rep, however this may only be done at the Cafe event.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"discemulator" SID:"start" URL:"/assets/bussim/emulatorData/disc.json"
@@ -192,16 +194,16 @@ content: |
   ###[AFK-Related Dialogue]
   - If the player has been idle for too long
     - "Guess we're starting a staring contest.."
-  
+
   ###[Airhorn-Related Dialogue]
   - If the airhorn is used repeatedly in close proximity to Disc
     - "Owwwww... That's not very nice, you knowww..."
   - If the airhorn is used repeatedly in proximity to Disc for a second time and so on
     - "Why are you so meaannnn??? baaaaa???! :'("
-  
+
 
   ##[Trivia]
   - Disc voiced his own "[bebebese](https://nookipedia.com/wiki/Bebebese)" speech sound.
 
-  
+
   !!GALLERY [/assets/bussim/images/npcs/banana.webp]  

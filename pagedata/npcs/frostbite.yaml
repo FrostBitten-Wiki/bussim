@@ -1,25 +1,25 @@
-editable: True
+editable: true
 page:
   title: Frostbite
   description: NPCDescription
-    
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim frostbite npc
-  
+
   tags: frostbite, glacier cave npc, npc
 
   header:
     title: Frostbite
     description: |
       Category: [NPCs](/bussim/npcs)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions:
   - Ported and Edited by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical)
 
-content: |
+content: |-
   ##[Info]
   Frostbite (or known as Frost in-game) is an NPC that only appears in the [Glacier Cave](/bussim/events/glacier-cave) event.
   As soon as you enter his den for the first time, Frost will be surprised at your arrival,
@@ -28,7 +28,7 @@ content: |
   It is known that Frost is a childhood friend of Pear, which may come fruitful in the two methods to obtain badges.
 
   ##[Favourite Drink]
-  Frostbite's favourite drink is [The Blizzard](/bussim/events/coffee-shop). This gives you 2 Passenger Rep.
+  Frostbite's favourite drink is [The Blizzard](/bussim/events/coffee-shop). This gives you either 2 Passenger Rep or 2 Driver Rep.
 
   ##[Trust]
   Frost has a unique mechanic compared to most NPCs,
@@ -249,12 +249,12 @@ content: |
   - "Listen. If you ever see Pear again, I'd really appreciate it if you sent him my regards. Let that little rascal know I'm still around."
     - Yeah, sure. I will.
       - "Thanks. I'd do it myself, but I've just got no clue where he is..."
-  
+
   ###[If you haven't sent his regards yet]
   - "I've already told you all this before, but again, I'd really appreciate it if you sent him my regards."
     - I'll do it eventually.
       - "Thanks..."
-  
+
   ###[Part 2 (Pear)]
   - Frost sends his regards.
     - "What?! Really?!"
@@ -284,13 +284,13 @@ content: |
   - "No reason in particular, I just want one!"
     - Yeah, sure. I'll tell him.
       - "Well, I mean, I was kinda half joking, but thanks! Maybe I'll get that ice cream after all..~"
-  
+
   ###[If you haven't sent his message yet]
   - "Tell Frost he owes me a tub of ice cream next time he sees me..."
   - "No reason in particular, I just want one!"
     - I'll get to it eventually.
       - "Thanks~"
-  
+
   ###[If you had sent his message but not directly told him after Part 5]
   - "Tell Frost he owes me a tub of ice cream next time he sees me..."
   - "No reason in particular, I just want one!"

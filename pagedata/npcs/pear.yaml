@@ -1,28 +1,28 @@
-editable: True
+editable: true
 page:
   title: Pear
   description: |
     Pear is both a Knitter and a NPC in the second floor. If you interact with him, you can have a conversation of many things,
     invite a friend to gain rewards, or buy two songs for everyone in the server for 80 robux, although he recommends not to after "the incident".
     He is also necessary to obtain one of the badges in Bus Simulator.
-    
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim pear npc
-  
+
   tags: pear, npc
 
   header:
     title: Pear
     description: |
       Category: [NPCs](/bussim/npcs)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions:
   - Ported by Nyx (@nyxical)
   - Converted to Jinki Markdown by Nyx (@nyxical)
 
-content: |
+content: |-
   ##[Info]
   Pear is both a Knitter and a NPC in the second floor. If you interact with him, you can have a conversation of many things,
   invite a friend to gain rewards, or buy two songs for everyone in the server for 80 robux, although he recommends not to after "the incident".
@@ -32,7 +32,7 @@ content: |
   Pear is a grey tuxedo cat that is wearing a Green Domino Crown, a collar, a cat facemask, a pair of pastel vintage glasses, a pair green and yellow arm warmers, and a small backpack.
 
   ##[Favourite Drink]
-  Pear's favourite drink is [Vanilla Almond Milk](/bussim/events/coffee-shop). This gives you 1 Passenger Rep.
+  Pear's favourite drink is [Vanilla Almond Milk](/bussim/events/coffee-shop). This gives you either 1 Passenger Rep or 1 Driver Rep.
 
   ##[Inviting Friends]
   One of the new features added within the 2/04/2023 Update, following the 20 Million Update. When you talk to Pear, 
@@ -48,7 +48,7 @@ content: |
 
   ##[Dialogue (The Bus)]
   !!DLEMULATOR EID:"pearemulator" SID:"start" URL:"/assets/bussim/emulatorData/pear.json"
-  
+
   ##[Dialogue Tree]
   - hg[Variant 1]: "Oh, hey <Player>!!! I know you!! (If the player is friends with Pear on Roblox)"
   - hg[Variant 2]: "Did you know that in terms of... busses, this is a pretty nice one! What's up, though?"
@@ -189,12 +189,12 @@ content: |
   - "Listen. If you ever see Pear again, I'd really appreciate it if you sent him my regards. Let that little rascal know I'm still around."
     - Yeah, sure. I will.
       - "Thanks. I'd do it myself, but I've just got no clue where he is..."
-  
+
   ###[If you haven't sent his regards yet]
   - "I've already told you all this before, but again, I'd really appreciate it if you sent him my regards."
     - I'll do it eventually.
       - "Thanks..."
-  
+
   ###[Part 2 (Pear)]
   - Frost sends his regards.
     - "What?! Really?!"
@@ -224,13 +224,13 @@ content: |
   - "No reason in particular, I just want one!"
     - Yeah, sure. I'll tell him.
       - "Well, I mean, I was kinda half joking, but thanks! Maybe I'll get that ice cream after all..~"
-  
+
   ###[If you haven't sent his message yet]
   - "Tell Frost he owes me a tub of ice cream next time he sees me..."
   - "No reason in particular, I just want one!"
     - I'll get to it eventually.
       - "Thanks~"
-  
+
   ###[If you had sent his message but not directly told him after Part 5]
   - "Tell Frost he owes me a tub of ice cream next time he sees me..."
   - "No reason in particular, I just want one!"
@@ -263,7 +263,7 @@ content: |
     - You: "<You grab the object he tosses at you. Looks like a handheld mirror of some sort.>"
       - "If ya ever feel lonely, or just want a safe space to chill, feel free to come back anytime."
       - "Alright, see ya on the flip side."
-  
+
   ###[Airhorn-Related Dialogue]
   - If the airhorn is used repeatedly in proximity to Pear
     - "MMEEEOOOOOWWWWWWWW!!!!!"
@@ -271,9 +271,9 @@ content: |
   - If the airhorn is used repeatedly in proximity to Pear a second time
     - "Die."
       - The player is then killed.
-  
+
   ##[Dialogue (Backwalls)]
-  
+
   ###[Standard]
 
   - hg[Variant 1]: "Oh, hey! Another person!"
