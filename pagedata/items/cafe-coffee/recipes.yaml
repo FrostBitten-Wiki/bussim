@@ -1,7 +1,8 @@
-editable: True
+editable: true
 page:
   title: Coffee (Cafe)
-  description: This page is about the various types of coffee and ingredients you can make and use during the Cafe event.
+  description: This page is about the various types of coffee and ingredients you
+    can make and use during the Cafe event.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, cafe
 
@@ -12,105 +13,105 @@ page:
     title: Coffee (Cafe)
     description: |
       Category: [Items](items)
-    image: "/bussim-assets/images/items/cafecoffee.webp"
+    image: /bussim-assets/images/items/cafecoffee.webp
     imageBanner: /assets/bussim/images/items/cafecoffee.webp
-    
+
 attributions:
   - Created by FangedWerewolf (@noobbiom)
 
-content: |
- "A barista's empty canvas." -"Empty Cup"
- ##[Info]
- The Coffee from the [Cafe](events/cafe) Event is a customizable drink used with ingredients given to the player at any moment when interacting with the Coffee Machine, and is used to either give to NPCs or to drink from.
- \n\n
- When making one, the player will go into a focus-mode state, being able to pick any ingredients and measure them out carefully. Recipes are also provided on the left, with all of the specific ingredients needed to make a drink.
- \n\n
- While you do not need to be extremely accurate, as long as you have the appropriate ingredients; it'll blend into the drink that you want. 
- !!BUTTONS [Ingredients,location.href='/wiki/bussim/items/cafe-coffee'|<highlight>Recipes / Mixtures</highlight>,location.href=''|NPC Interactions,location.href='/wiki/bussim/items/cafe-coffee/npcs']
- ##[Recipes and Mixtures]
- "This tastes so good. Trust." -"Mixture / Abomination"
- Recipes and Mixtures are one of the main mechanics when making coffee. Each recipe contains a list of ingredients and getting around that point (90% accuracy) will blend into the recipe that is closest. If otherwise, it'll instead be your personal concoction, with varying effects based on the ingredients you used.
- ##[Recipes]
- \n
- The coffee types you can make are in the following:
- \n
- | Name | Description | Recipe |
- |------|-------------|--------|
- |'Decaf'|Sometimes you just have to make do.|- 38ml Plain Coffee\n- 9.5 Sugar\n- 114 Hot Water|
- |Apple Juice|It's like breakfast at school!|- 133ml Cold Water\n- 28.5 Sugar\n- At least 10x Apples|
- |Boiling Water|Not pleasant. At all.|- 133ml Hot Water|
- |Budget Chocolate Drink|Still tastes good, so who cares?|- 66.5ml Chocolate Syrup\n- 95ml Hot Water|
- |Caramel Apple Mix|The good ol' taste of fall.|- 57ml Steamed Milk\n- 22.8ml Cinnamon\n- At least 7x Apples\n- 57ml Caramel Syrup|
- |Caramel Snow-cup|A mellow sweetness with blended ice for a sharp contrast in flavor.|- 95ml Caramel Syrup\n- At least 24x Ice|
- |Caramel-Chocolate Shake|Why are they drinking these out of coffee cups anyway?|- 123.5ml Soft Serve\n- 19ml Chcoolate Syrup\n- 28.5 Caramel Syrup|
- |Chocolate Milk|A classic.|- 68.4ml Chocolate Syrup\n- 85.5ml Milk|
- |Chocolate Snow-cup|An uncommon flavor combo as is, but just as good as it is cold.|- 95ml Chocolate Syrup\n- At least 24x Ice|
- |Coffee|It's just coffee. Nothing special.|- 95ml Plain Coffee|
- |Communion Coffee|An instant coffee-milk drink.|- 95ml Cultivator's Communion|
- |Hot Chocolate|Perfect for those rainy days.|- 66.5ml Steamed Milk\n- 85.5ml Chocolate Syrup|
- |House Coffee|It makes you feel right at home.|- 19ml Steamed Milk\n- 133ml Houise Blend\n- 9.5ml Cinnamon|
- |Ice Water|For those hot summer days.|- 133ml Cold Water\n- At least 5x Ice|
- |Iced Coffee|The classic, but colder.|- 95ml Plain Coffee\n- At least 6x Ice|
- |Mango Juice|Tropical goodness.|- At least 10x Mangoes\n- 28.5ml Sugar\n- 133ml Cold Water|
- |Mango Smoothie|Ice cream coated in yellow fruit.|- At least 9x Mangoes\n- 152ml Soft Serve|
- |Mint Snow-cup|A nice and minty sensation, paired with cold blended ice.|- 95ml Mint Syrup\n- At least 24x Ice|
- |Orange Juice|With pulp.|- 142.5ml Cold Water\n- At least 10x Oranges|
- |Pumpkin Spice Mocha|October's finest.|- 104.5ml Plain Coffee\n- 28.5 Chocolate Syrup\n- 19ml Pumpkin Spice|
- |Quick Cereal|For when you don't have time for spoons.|- At least 20x Cookies\n- 152ml Milk|
- |S'more Mocha|A cozy reminder of the outdoors.|- At least 6x Cookies\n- 76ml Chocolate Syrup\n- 57ml House Blend\n- At least 12x Marshmallows|
- |Spice in a Cup|Ouggh,.,. It's got a little kick,...|- At least 32x Peppers|
- |Strawberry Smoothie|Ice cream coated in red berries.|- At least 9x Strawberries\n- 152ml Soft Serve|
- |The Blizzard|Turns your stomach into a tundra.|- 57ml Mint Syrup\n- At least 3x Dry Ice\n- 114ml Soft Serve|
- |The Busy Bee|A sweet iced coffee that raises morale.|- 95ml Plain Coffee\n- At least 6x Ice\n- 28.5ml Cinnamon\n- 47.5ml Honey|
- |The Cinnamon Challenge|DO *NOT* TRY THIS AT HOME. DON'T.|- 190ml Cinnamon|
- |The Morning Routine|A light but flavorful pick-me-up.|- At least 8x Strawberries\n- 38ml House Blend\n- 95ml Oat Milk|
- |The Pink Dragon|Doesn't really sound all that threatening...|- 57ml Hot Water\n- 19ml Sugar\n- 76ml Steamed Milk\n- At least 10x Dragonfruit|
- |Vanilla Almond Milk|It's self-explanatory.|- 19ml Sugar\n- 38ml Vanilla Syrup\n- 114 Almond Milk|
- |Vanilla Iced Coffee|Soothes and wakes up the soul.|- 114ml Plain Coffee\n- 38ml Vanilla Syrup\n- At least 8x Ice|
- |Vanilla Snow-cup|Vanilla Syrup in blended ice, it's a snow-come, but in a cup.|- 95ml Vanilla Syrup|
- |Warm Water|Water but more pleasant.|- 66.5ml Hot Water\n- 66.5ml Cold Water|
- |Water|The basis for all life.|- 133ml Cold Water|
- \n
- ##[Mixtures]
- If the blend that you made is far from any of the preset recipes, it'll be a Mixture. Usually comprised of ingredients with weaker effects, but is customizable to your heart's desire.
- \n 
- The maximum for a Mixture is 4 ingredients.
- \n\n
- If the ingredients used are more than or equal to 5, it'll instead be ''A _, _, _, and _ abomination'', with the _ being the characteristics of the ingredients used. 
- \n\n
- The following goes by order from left to right and depends on the ingredients: 
- \n\n
- | Order | Tags | Requirements |
- |-------|------|-------------|
- |1|Cold|Cold Ingredients|
- |1|Warm|Hot Ingredients|
- |2|Sweet|High Sweetness|
- |2|Bitter|Low Sweetness|
- |3|Refreshing|High Quenchiness|
- |3|Torturous|Low Quenchiness|
- |4|Energizing|High Energy|
- |4|Tiring|Low Energy|
- \n
- Afterwards, the description and tooltip changes to any of the following between both the mixture and abomination:
- \n\n
- | Tooltip | Description |
- |---------|-------------|
- |Do you dare take a sip?| A [Display Name] Exclusive!|
- |It's part of a secret menu. Maybe.|Personal recipe!|
- |An unconventional combination...|This tastes so good. Trust.|
- |Even if others can't enjoy it, you still can.|You made it yourself!|
- |Probably tastes good maybe!|
- \n\n
- If the ingredients used are more than or equal to 16, it'll become **The Sludge**. A drink so foul, that it invokes negative reactions all around. Still, maybe someone favors that sort of thing?
- \n 
- The tooltip and description changes as follows:
- \n\n
- | Tooltip | Description |
- |---------|-------------|
- |Knowing what's inside of this is... disconcerting, to say the least.|What the..? Nobody will like this.|
- \n 
- ##[Trivia]
- - There used to be a leaked recipe, although isn't present in the game due to the ingredients being far from accessible. The recipe in question is:
- | Name | Description | Recipe |
- |------|-------------|--------|
- |Catpurrcino|Gives that warm, fuzzy feeling to your stomach.|- 10ml cat\n- 10ml cat\n- 10ml cat|
+content: |-
+  "A barista's empty canvas." -"Empty Cup"
+  ##[Info]
+  The Coffee from the [Cafe](events/cafe) Event is a customizable drink used with ingredients given to the player at any moment when interacting with the Coffee Machine, and is used to either give to NPCs or to drink from.
+  \n\n
+  When making one, the player will go into a focus-mode state, being able to pick any ingredients and measure them out carefully. Recipes are also provided on the left, with all of the specific ingredients needed to make a drink.
+  \n\n
+  While you do not need to be extremely accurate, as long as you have the appropriate ingredients; it'll blend into the drink that you want. 
+  !!BUTTONS [Ingredients,location.href='/wiki/bussim/items/cafe-coffee'|<highlight>Recipes / Mixtures</highlight>,location.href=''|NPC Interactions,location.href='/wiki/bussim/items/cafe-coffee/npcs']
+  ##[Recipes and Mixtures]
+  "This tastes so good. Trust." -"Mixture / Abomination"
+  Recipes and Mixtures are one of the main mechanics when making coffee. Each recipe contains a list of ingredients and getting around that point (90% accuracy) will blend into the recipe that is closest. If otherwise, it'll instead be your personal concoction, with varying effects based on the ingredients you used.
+  ##[Recipes]
+  \n
+  The coffee types you can make are in the following:
+  \n
+  | Name | Description | Recipe |
+  |------|-------------|--------|
+  |'Decaf'|Sometimes you just have to make do.|- 38ml Plain Coffee\n- 9.5 Sugar\n- 114 Hot Water|
+  |Apple Juice|It's like breakfast at school!|- 133ml Cold Water\n- 28.5 Sugar\n- At least 10x Apples|
+  |Boiling Water|Not pleasant. At all.|- 133ml Hot Water|
+  |Budget Chocolate Drink|Still tastes good, so who cares?|- 66.5ml Chocolate Syrup\n- 95ml Hot Water|
+  |Caramel Apple Mix|The good ol' taste of fall.|- 57ml Steamed Milk\n- 22.8ml Cinnamon\n- At least 7x Apples\n- 57ml Caramel Syrup|
+  |Caramel Snow-cup|A mellow sweetness with blended ice for a sharp contrast in flavor.|- 95ml Caramel Syrup\n- At least 24x Ice|
+  |Caramel-Chocolate Shake|Why are they drinking these out of coffee cups anyway?|- 123.5ml Soft Serve\n- 19ml Chcoolate Syrup\n- 28.5 Caramel Syrup|
+  |Chocolate Milk|A classic.|- 68.4ml Chocolate Syrup\n- 85.5ml Milk|
+  |Chocolate Snow-cup|An uncommon flavor combo as is, but just as good as it is cold.|- 95ml Chocolate Syrup\n- At least 24x Ice|
+  |Coffee|It's just coffee. Nothing special.|- 95ml Plain Coffee|
+  |Communion Coffee|An instant coffee-milk drink.|- 95ml Cultivator's Communion|
+  |Hot Chocolate|Perfect for those rainy days.|- 66.5ml Steamed Milk\n- 85.5ml Chocolate Syrup|
+  |House Coffee|It makes you feel right at home.|- 19ml Steamed Milk\n- 133ml Houise Blend\n- 9.5ml Cinnamon|
+  |Ice Water|For those hot summer days.|- 133ml Cold Water\n- At least 5x Ice|
+  |Iced Coffee|The classic, but colder.|- 95ml Plain Coffee\n- At least 6x Ice|
+  |Mango Juice|Tropical goodness.|- At least 10x Mangoes\n- 28.5ml Sugar\n- 133ml Cold Water|
+  |Mango Smoothie|Ice cream coated in yellow fruit.|- At least 9x Mangoes\n- 152ml Soft Serve|
+  |Mint Snow-cup|A nice and minty sensation, paired with cold blended ice.|- 95ml Mint Syrup\n- At least 24x Ice|
+  |Orange Juice|With pulp.|- 142.5ml Cold Water\n- At least 10x Oranges|
+  |Pumpkin Spice Mocha|October's finest.|- 104.5ml Plain Coffee\n- 28.5 Chocolate Syrup\n- 19ml Pumpkin Spice|
+  |Quick Cereal|For when you don't have time for spoons.|- At least 20x Cookies\n- 152ml Milk|
+  |S'more Mocha|A cozy reminder of the outdoors.|- At least 6x Cookies\n- 76ml Chocolate Syrup\n- 57ml House Blend\n- At least 12x Marshmallows|
+  |Spice in a Cup|Ouggh,.,. It's got a little kick,...|- At least 32x Peppers|
+  |Strawberry Smoothie|Ice cream coated in red berries.|- At least 9x Strawberries\n- 152ml Soft Serve|
+  |The Blizzard|Turns your stomach into a tundra.|- 57ml Mint Syrup\n- At least 3x Dry Ice\n- 114ml Soft Serve|
+  |The Busy Bee|A sweet iced coffee that raises morale.|- 95ml Plain Coffee\n- At least 6x Ice\n- 28.5ml Cinnamon\n- 47.5ml Honey|
+  |The Cinnamon Challenge|DO *NOT* TRY THIS AT HOME. DON'T.|- 190ml Cinnamon|
+  |The Morning Routine|A light but flavorful pick-me-up.|- At least 8x Strawberries\n- 38ml House Blend\n- 95ml Oat Milk|
+  |The Pink Dragon|Doesn't really sound all that threatening...|- 57ml Hot Water\n- 19ml Sugar\n- 76ml Steamed Milk\n- At least 10x Dragonfruit|
+  |Vanilla Almond Milk|It's self-explanatory.|- 19ml Sugar\n- 38ml Vanilla Syrup\n- 114 Almond Milk|
+  |Vanilla Iced Coffee|Soothes and wakes up the soul.|- 114ml Plain Coffee\n- 38ml Vanilla Syrup\n- At least 8x Ice|
+  |Vanilla Snow-cup|Vanilla Syrup in blended ice, it's a snow-come, but in a cup.|- 95ml Vanilla Syrup|
+  |Warm Water|Water but more pleasant.|- 66.5ml Hot Water\n- 66.5ml Cold Water|
+  |Water|The basis for all life.|- 133ml Cold Water|
+  \n
+  ##[Mixtures]
+  If the blend that you made is far from any of the preset recipes, it'll be a Mixture. Usually comprised of ingredients with weaker effects, but is customizable to your heart's desire.
+  \n 
+  The maximum for a Mixture is 4 ingredients.
+  \n\n
+  If the ingredients used are more than or equal to 5, it'll instead be ''A _, _, _, and _ abomination'', with the _ being the characteristics of the ingredients used. 
+  \n\n
+  The following goes by order from left to right and depends on the ingredients: 
+  \n\n
+  | Order | Tags | Requirements |
+  |-------|------|-------------|
+  |1|Cold|Cold Ingredients|
+  |1|Warm|Hot Ingredients|
+  |2|Sweet|High Sweetness|
+  |2|Bitter|Low Sweetness|
+  |3|Refreshing|High Quenchiness|
+  |3|Torturous|Low Quenchiness|
+  |4|Energizing|High Energy|
+  |4|Tiring|Low Energy|
+  \n
+  Afterwards, the description and tooltip changes to any of the following between both the mixture and abomination:
+  \n\n
+  | Tooltip | Description |
+  |---------|-------------|
+  |Do you dare take a sip?| A [Display Name] Exclusive!|
+  |It's part of a secret menu. Maybe.|Personal recipe!|
+  |An unconventional combination...|This tastes so good. Trust.|
+  |Even if others can't enjoy it, you still can.|You made it yourself!|
+  |Probably tastes good maybe!|Yay!!!!!|
+  \n\n
+  If the ingredients used are more than or equal to 16, it'll become **The Sludge**. A drink so foul, that it invokes negative reactions all around. Still, maybe someone favors that sort of thing?
+  \n 
+  The tooltip and description changes as follows:
+  \n\n
+  | Tooltip | Description |
+  |---------|-------------|
+  |Knowing what's inside of this is... disconcerting, to say the least.|What the..? Nobody will like this.|
+  \n 
+  ##[Trivia]
+  - There used to be a leaked recipe, although isn't present in the game due to the ingredients being far from accessible. The recipe in question is:
+  | Name | Description | Recipe |
+  |------|-------------|--------|
+  |Catpurrcino|Gives that warm, fuzzy feeling to your stomach.|- 10ml cat\n- 10ml cat\n- 10ml cat|
