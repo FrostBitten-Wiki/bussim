@@ -5,7 +5,7 @@ page:
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npc
 
-  tags: charlotte, npc
+  tags: charlotte, npc, green goat, goat 2, cafe goat
   ignore: ignore
 
   header:
@@ -27,7 +27,7 @@ content: |-
   They also used to work on the [GOATed Gas Station](/bussim/events/goated-gas-station), although they immediately got fired since they blew up the station.
 
   ##[Favourite Drink]
-  Charlotte's favourite drink is [Hot Chocolate](/bussim/events/coffee-shop). This gives you either 1 Passenger Rep or 1 Driver Rep.
+  Charlotte's favourite drink is [Hot Chocolate](/bussim/items/cafe-coffee/mixtures). This gives you either 1 Passenger Rep or 1 Driver Rep.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"charlotteemulator" SID:"start" URL:"/assets/bussim/emulatorData/charlotte.json"
