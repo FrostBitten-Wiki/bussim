@@ -20,7 +20,7 @@ const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 const audioBuffers = {};
 
 function loadAudioFile(soundfile) {
-    if (!audioBuffers[soundfile] && navigator.userActivation.isActive) {
+    if (!audioBuffers[soundfile]) {
         return fetch(`/bussim-assets/sounds/${soundfile}.mp3`)
             .then(response => response.arrayBuffer())
             .then(buffer => audioContext.decodeAudioData(buffer))
