@@ -1,25 +1,27 @@
-editable: True
+editable: true
 page:
   title: Zeon
-  description: Zeon is an NPC that appears in the GOATed Gas Station and Coffee Shop event. She is also a moderator for games NobleReign owns, including Bus Simulator and Kit Battle.
-    
+  description: Zeon is an NPC that appears in the GOATed Gas Station and Coffee Shop
+    event. She is also a moderator for games NobleReign owns, including Bus Simulator
+    and Kit Battle.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim zeon npc
-  
-  tags: zeon, npc
+
+  tags: zeon, station npc, npc
 
   header:
     title: Zeon
     description: |
       Category: [NPCs](/bussim/npcs)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical)
 
-content: |
+content: |-
   ##[Info]
   Zeon is an NPC that appears in the [GOATed Gas Station](/bussim/events/goated-gas-station) and [Coffee Shop](/bussim/events/coffee-shop) event. She is also a moderator for games NobleReign owns, including Bus Simulator and Kit Battle.
 
