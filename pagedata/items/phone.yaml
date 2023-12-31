@@ -1,49 +1,34 @@
+editable: True
 page:
   title: Phone
-  description: Phone is one of the first tools in the game.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Phone
-  tags: phone, starter item, android phone
+  description: The Phone is one of the first tools in the game. It can supposedly be used as a flashlight, or just for roleplays. 
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: phone, starter item, android, android nougat, is nougat a real thing?
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Phone
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: quote
-      content:
-        quote: "Runs Android Nougat!"
-        author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-          Phone is one of the first tools in the game. 
-          It is one of the first tools you are given when playing the game. 
-          It can supposedly be used as a flashlight, or just for roleplays.
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-          <br><br>
+content: |
+  "Runs Android Nougat!" -"Phone"
 
-          Phone is usually kept during some events like <a href="/bussim/events/backwalls">Backwalls</a> or <a href="/bussim/events/no-dough">No Dough</a>. 
-          Particles or chat bubbles will not appear through the phone due to it being glass.
+  ##[Info]
+  The Phone is one of the first tools in the game. It can supposedly be used as a flashlight, or just for roleplays. 
+  \n\n 
+  The Phone is usually kept during some events like [Backwalls](/bussim/events/backwalls) or [No Dough](/bussim/events/no-dough). Particles or chat bubbles will not appear through the phone due to it being glass. 
 
-    - type: section
-      content:
-        title: Trivia
+  ##[Trivia]
+  - In the tooltip, the phone is actually an Android 7.1.1 Nougat.
+  - As said before, the phone can be used as a mildly useful torch in dark places like the Backwalls.
+  - When equipped in the Backwalls, the screen will glitch out.
 
-    - type: tree
-      content:
-        - name: In the tooltip, the phone is actually a Android 7.1.1 Nougat.
-        - name: As said before, the phone can be used as a mildly useful torch in dark places like the Backwalls.
-        - name: When equipped in the Backwalls, the screen will glitch out.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/phone.webp
-          
+  !!GALLERY [/assets/bussim/images/items/phone.webp]

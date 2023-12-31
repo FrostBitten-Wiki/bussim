@@ -1,34 +1,28 @@
+editable: True
 page:
   title: Vaporwave
-  description: The Vaporwave biome is a biome that is very different than the rest,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Vaporwave
+  description: The Vaporwave biome is a biome that is very different than the rest, which uses a lot of pink and black. The buildings are black with pink outlines, and the ground is a grid with pink lines and black squares. Whenever it rains, the rain appears pink as well.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Thorns
-    description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>
+    title: Vaporwave
+    description: |
+      Category: [Biomes](/bussim/biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/vaporwave.webp
 
-    image: ''
-    imageBanner: /bussim-assets/images/biomes/vaporwave.webp
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-         The Vaporwave biome is a biome that is very different than the rest, 
-         which uses a lot of pink and black. The buildings are black with pink outlines, 
-         and the ground is a grid with pink lines and black squares. Whenever it rains, 
-         the rain appears pink as well.
+content: |
+  ##[Info]
+  The Vaporwave biome is a biome that is very different than the rest, which uses a lot of pink and black. The buildings are black with pink outlines, and the ground is a grid with pink lines and black squares. Whenever it rains, the rain appears pink as well.
+  \n\n
+  For some odd reason, the moon in this biome is gigantic compared to anywhere else.
 
-         <br><br>
-
-         For some odd reason, the moon in this biome is gigantic compared to anywhere else.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/biomes/galleries/Vaporwave_Moon.webp
+  !!GALLERY [/assets/bussim/images/biomes/vaporwave.webp]

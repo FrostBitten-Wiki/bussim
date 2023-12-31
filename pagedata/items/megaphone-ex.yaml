@@ -1,40 +1,34 @@
+editable: True
 page:
   title: Megaphone EX
-  description: The Megaphone EX is a gamepass item costing R$320.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Megaphone EX
-  tags: megaphone ex, paid item, item that makes you talk to other servers
+  description: The Megaphone EX is a gamepass item costing 320 R$.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: megaphone ex, megaphone but cooler, i dont know what else to put here
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Megaphone EX
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Megaphone EX is a gamepass item costing R$320. 
-         It is an upgraded version of the original Megaphone, 
-         as your shout message is 22.22..% larger than normal messages, 
-         and your cooldown varies upon your message size.
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-    - type: section
-      content:
-        title: Trivia
+content: |
+  "Yell across the time-space continnum-- with InroOS!" -"Megaphone EX"
 
-    - type: tree
-      content:
-        - name: Players with the gamepass are able to change the color of their Megaphone EX by using !mcolor.
-        - name: <a href="https://www.roblox.com/users/12292683/profile">lnr_o</a> made the model for the Megaphone.
+  ##[Info]
+  The Megaphone EX is a gamepass item costing 320 R$.
+  \n\n 
+   It is an upgraded version of the original Megaphone, as your shout message is 22.22..% larger than normal messages, and your cooldown varies upon your message size. 
+  \n\n 
+  You can also change the color by using !mcolor.
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/megaphone-ex.webp
-          
+  ##[Trivia] 
+  - Inr_o made the model for the Megaphone.
+
+  !!GALLERY [/assets/bussim/images/items/megaphone-ex.webp]

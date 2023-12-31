@@ -1,67 +1,28 @@
+editable: True
 page:
-  title: Flash Flood
-  description: The Flash Flood or just simply called Flood,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Flash Flood
-  tags: flash flood, events
-
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
-html:
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
+
   header:
-    title: Flash Flood
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>FlashFlood</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/events/flash_flood2.webp
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-          The Flash Flood or just simply called Flood, 
-          is an event where the bus becomes flooded slowly until it reaches the third floor. 
-          Players will have to swim by holding Q and seek high ground before they drown, 
-          those that are in seats will also be automatically dismounted once the water hits them unless they hold Q as mentioned earlier. 
-          Eventually, 
-          the water will dissipate and the event ends right after.
+attributions: []
 
-          <br><br>
+content: |
+  ##[Info]
+  Placeholder Info
 
-          While the damage dealt from drowning may be substantial especially given its long run time, 
-          it can be negated or avoided in different ways. 
-          One of the more obvious ways is to outpace it, 
-          this may require multiple healing items as a single item may not be enough to outpace it. 
-          Pairs like <a href='/bussim/items/coffee'>Coffee</a> (or its <a href='/bussim/items/homemade-coffee'>Homemade</a> variant) and <a href='/bussim/items/cola'>Cola</a> can help outpace the drowning speeds when used together in a fast pace.
+  ##[Trivia]
+  - Trivia Here
 
-          <br><br>
-
-          You can also use the <a href='/bussim/items/mini-bus'>Mini-Bus</a> instead to completely negate the damage dealt, 
-          or avoid it entirely by residing in some areas like the <a href='/bussim/events/glacier-cave'>Glacier Cave</a>, 
-          <a href='/bussim/events/backwalls'>Backwalls</a>, 
-          and the <a href='/bussim/location/void'>Void (Location)</a>.
-
-
-
-
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: The Flash Flood event along with the <a href='/bussim/events/acid-rain'>Acid Rain</a> event and the <a href='/bussim/events/blizzard'>Blizzard</a> event are the only events that are weather-related and is referred to real-life Natural Disasters.
-        - name: It is unknown how the flood realistically reaches such a height that goes up to the second floor, but a couple of theories suggest a lack of other water bodies and / or a massive rainfall.
-        - name: The flood is seen when the player falls off the map, and in the <a href='/bussim/biomes/overseas'>Overseas</a> biome. It's unknown why its there, but its possibly to prevent the player from going in the null-zone and / or just a feature to make it look like the area is flooded when the flood event happens.
-        - name: You can also stand on the <a href='/bussim/locations/beter-box'>Beter Box</a> and survive.
-        - name: The bus very slowly moves backwards at the peak of the event, at a speed of -0.01. Afterwards it slowly raises back to the normal speed.
-          children:
-            - name: This also makes it the second event that makes the bus speed go into the negatives, with the <a href='/bussim/events/timmy'>Timmy</a> event being the other one.
-        - name: There's a very weird situation where if you join just before the event is about to end, the flood will stay forever, constantly killing you and also letting you "splash" inside of it assuming you aren't swimming.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/events/flash_flood2.webp
-          - /bussim-assets/images/events/flash_flood1.webp
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

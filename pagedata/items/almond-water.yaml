@@ -1,59 +1,35 @@
+editable: True
 page:
   title: Almond Water
-  description: Almond Water is a healing item obtainable from random floor spawns in the Backwalls event. 
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Almond Water
-  tags: almond water, backrooms item
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  tags: almond water, item
 
-html:
   header:
-    title: Almond Water
-    description: >-
-      Category: <a href="/bussim/items">Items</a>
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-  pageContent:
-    - type: quote
-      content:
-        quote: "Sweet flavoured water that soothes the soul."
-        author: Item Description
+content: |
+  "Sweet flavoured water that soothes the soul." -"Item Description"
 
-    - type: section
-      content:
-        size: normal
-        title: Info
-        description: >-
-          Almond Water is a healing item obtainable from random floor spawns in the <a href="/bussim/events/backwalls">Backwalls</a> event. 
-          When used, you will gain a significant boost in speed and healing for a few seconds, 
-          being able to outrun <a href="/bussim/npcs/entity">Entities</a> and move much quicker throughout the <a href="/bussim/events/backwalls">Backwalls</a>, 
-          however this item only has 2 uses before it'll disappear from your inventory so use wisely.
+  ##[Info]
+  Almond Water is a healing item obtainable from random floor spawns in the [Backwalls](/bussim/events/backwalls) event. When used, you will gain a significant boost in speed and healing for a few seconds, being able to outrun [Entities](/bussim/npcs/entity) and move much quicker throughout the [Backwalls](/bussim/events/backwalls), however this item only has 2 uses before it'll disappear from your inventory so use wisely.
 
-    - type: quote
-      content:
-        quote: "Through a stroke of luck, your Almond Water has come to you into the real world.."
-        author: "Dialogue"
-        
-    - type: text
-      content:
-        text: >-
-          There is however, a 33% (formerly 10%) chance of permanently getting Almond Water by escaping the <a href="/bussim/events/backwalls">Backwalls</a> while you have it in your inventory. 
-          The function of the item will remain the same, 
-          and while its only usable twice, you can reset to get it back..
+  "Through a stroke of luck, your Almond Water has come to you into the real world.." -"Dialogue"
 
-    - type: section
-      content:
-        size: normal
-        title: Trivia
+  There is however, a 33% (formerly 10%) chance of permanently getting Almond Water by escaping the [Backwalls](/bussim/events/backwalls) while you have it in your inventory. The function of the item will remain the same, and while its only usable twice, you can reset to get it back..
 
-    - type: tree
-      content:
-        - name: This item's texture was ripped from the <a href="https://backrooms.fandom.com/wiki/Almond_Water">Backrooms Wiki</a>.
-        - name: The speed boost much like the other speed-related items can't be stacked by using the same item twice.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/almond-water.webp
+  ##[Trivia]
+  - This item's texture was ripped from the [Backrooms Wiki](https://backrooms.fandom.com/wiki/Almond_Water).
+  - The speed boost much like the other speed-related items can't be stacked by using the same item twice.
+
+  !!GALLERY [/assets/bussim/images/items/almond-water.webp]

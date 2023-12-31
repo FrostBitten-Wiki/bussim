@@ -1,81 +1,28 @@
+editable: True
 page:
   title: Mini-Bus
-  description: The Mini-Bus is a miniature vehicle which resembles the bus used in the game.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Mini-Bus
-  tags: mini bus, paid item, how do you get car, car
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: placeholder, item
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Mini-Bus
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: buttons
-      content:
-        buttons:
-          - ["<highlight>Mini-Bus</highlight>", "/bussim/items/mini-bus"]
-          - ["Fast Mini-Bus", "/bussim/items/mini-bus/fast-mini-bus"]
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Mini-Bus is a miniature vehicle which resembles the bus used in the game. 
-         It can only fit 1 player, 
-         but drives faster than the bus. 
-         The Mini-Bus costs R$125 to obtain.
+content: |
+  "" -"Item Description"
 
-         <br><br>
+  ##[Info]
 
-         The Mini-Bus is a common gamepass, and sometimes people will even start a race with other Mini-Bus Drivers.
+  ##[Trivia]
 
-    - type: section
-      content:
-        title: Appearance.
-
-        description: >-
-          The Mini-Bus has a Navy Blue (RGB 33, 84, 185) color for the default body paint. 
-          On the sides of the bus, there are two large windows, 
-          followed by vents behind them. At the back of the bus, 
-          there are two antennas which tilt when turning, and wobble at speed. 
-          The Mini-Bus has headlights up front that are covered by a grill, with a single red accent. 
-          People that have the OG Driver <a href="/bussim/others/ranks-tags">rank</a> in-game will get sparkles on their Mini-Bus.
-
-          <br><br>
-
-          The previous Mini-Bus design was much simpler, 
-          and had a design closer to the older Bus design, 
-          with fake windows and a couple of avatars in them.
-
-    - type: section
-      content:
-        title: VR Controls
-
-        description: >- 
-          If you're looking for how to drive the Mini-Bus in VR, 
-          check out the VR page linked <a href="/bussim/others/vr">here</a>.
-
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: The default color on the Mini-Bus matches the color of the bus when it's not in a seasonal event.
-        - name: If you preform a jump while driving you will start doing a drift. the longer you hold down the jump button, the faster the boost will be.
-          children:
-            - name: This is in reference to the <a href="https://mariokart.fandom.com/wiki/Mario_Kart_Racing_Wiki:Main_Menu">Mario Kart</a> series by Nintendo.
-        - name: Pressing the jump button while in the Mini-Bus will activate a tiny jump, and start a drift.
-        - name: The Mini-Bus' current design was based off of Cyberpunk 2077's Quadra Turbo V-Tech.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/mini-bus.webp
-          - /bussim-assets/images/items/galleries/oldminibus.webp
-          
+  !!GALLERY [/assets/bussim/images/items/placeholder.webp]

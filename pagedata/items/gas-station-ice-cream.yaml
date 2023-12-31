@@ -1,35 +1,28 @@
+editable: True
 page:
   title: Gas Station Ice Cream
-  description: The Gas Station Ice Cream is a tool obtainable by purchasing it for 8 passenger rep during the Goat Station Event event,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Gas Station Ice Cream
-  tags: gas station ice cream, event item, station item, paid item, ice cream
+  description: The Gas Station Ice Cream is a tool obtainable by purchasing it for 8 Passenger Reputation during the Goat Station Event, or by stealing it. 
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: weak ice cream, gas station ice cream, not real ice cream, artifical ice cream, wow this ice cream sucks
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-html:
   header:
-    title: Gas Station Ice Cream
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Gas Station Ice Cream is a tool obtainable by purchasing it for 8 passenger rep during the <a href="/bussim/events/goated-gas-station">Goat Station Event</a>,
-          or by stealing it.
+content: |
+  "It tastes a little bit artifical." -"Gas Station Ice Cream"
 
-         <br><br>
+  ##[Info]
+  The Gas Station Ice Cream is a tool obtainable by purchasing it for [8 Passenger Reputation](/bussim/others/reputation) during the [Goat Station Event](/bussim/events/goated-gas-station), or by stealing it. 
+  \n\n 
+  The item works the same as the Ice Cream tool and other ice creams, except it plays a flangey 'Yummy' sound. It doesn't heal very well either.
 
-         The item works the same as the Ice Cream tool and other ice creams, 
-         except it plays a flangey 'Yummy' sound. 
-         It doesn't heal very well either, 
-         and <a href="/bussim/items/cola">Cola</a> is preferred over this.
-         <br><br>
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/gas-station-ice-cream.webp
+  !!GALLERY [/assets/bussim/images/items/gas-station-ice-cream.webp]

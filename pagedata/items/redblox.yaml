@@ -1,48 +1,32 @@
+editable: True
 page:
   title: Redblox
-  description: RedBlox is an item in the GOATed Gas Station Event,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Redblox
-  tags: redblox, event item, station item
+  description: RedBlox is an item in the GOATed Gas Station Event, and is a one-time use that makes you walk faster for a few seconds, like the Hyper Soda. 
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: reeeeeeeeeeee, hyper soda but better, redblox, Redblox!
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Redblox
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: quote
-      content:
-        quote: "Side effects include hyperactivity."
-        author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-          RedBlox is an item in the <a href="/bussim/events/goated-gas-station">GOATed Gas Station Event</a>, 
-          and is a one-time use that makes you walk faster for a few seconds, 
-          like the <a href="/bussim/items/hyper-soda">Hyper Soda</a>.
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-          <br><br>
+content: |
+  "Side effects include hyperactivity." -"Redblox"
 
-          This effect however, wears down over time, 
-          and unlike the other items on sale in Goated Gas, 
-          both this and the <a href="/bussim/items/goala-cola">Goala Cola</a> aren't purchasable due to them being so cheap.
+  ##[Info]
+  RedBlox is an item in the [Goat Station Event](/bussim/events/goated-gas-station), and is a one-time use that makes you walk faster for a few seconds, like the [Hyper Soda](/bussim/items/hyper-soda). 
+  \n\n 
+  This effect however, wears down over time, and unlike the other items on sale in Goated Gas, both this and the [Goala Cola](/bussim/items/goala-cola) aren't purchasable due to them being so cheap. 
+  
+  ##[Trivia]
+  - The item is based off of the official gear, which is also based off of a real-life product, Redbull.
 
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: The item is based off of the official <a href="https://www.roblox.com/catalog/101078953/RedBLOX">gear</a>, which is also based off of a real-life product, Redbull.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/redblox.webp
-          
+  !!GALLERY [/assets/bussim/images/items/redblox.webp]

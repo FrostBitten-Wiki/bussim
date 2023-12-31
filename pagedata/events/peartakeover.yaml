@@ -1,0 +1,224 @@
+#   This is a mockup page for what layouts should look like. Please do not use this file as a template but more as a reference.
+#
+#   It is highly recommended to use the placeholder.yaml as a starting point.
+#   
+#   Made By PolyframeX :)
+editable: True
+page:
+  title: Pear Takeover
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Avian Potion
+  ignore: ignore
+
+
+  header:
+    title: Pear Takeover
+    description: >-
+      Category: [Events](/bussim/events)\nEvent Name: h[PearTakesTheWheel]
+    image: ''
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+
+attributions:
+  - Created by PolyframeX (@polyframex)
+
+
+content: |
+ !!INFOBOX TITLE:"Work In Progress" COLOR:"#c0700c" TEXT:[*"not much to talk here, but.. well.."* - efeuc\nv(This page is a stub, it may not contain all of the information in the game; so adding more information to this page is always appreciated!)]
+
+ "To the bus driver: you'd better scramble like an egg, before I *FOLD YOU* like an *OMLETTE*." -"Pear"
+
+ ##[Info]
+
+ Pear Takeover is an unique event to where [Pear](/bussim/npcs/pear) overthrows the current bus driver, and starts driving instead.
+  This event is a great way to gain [Reputation](/bussim/others/reputation) if you have a very low amount, and is also a great way to get to other events quickly, 
+  a couple including the [Backwalls](/bussim/events/backwalls), the [Glacier Cave](/bussim/events/glacier-cave), 
+  the [Cafe](/bussim/events/cafe), [Bloxdonalds](/bussim/events/bloxdonalds), [Noble's House](/bussim/events/nobles-house) and many more.
+
+  \n\n
+
+  When the event starts, Pear will complain about another event starting, 
+  and then decide to take over the bus. 
+  When this happens Pear will walk downstairs and kick the current driver off the seat. 
+  Pear can also not be kicked off of the drivers seat, 
+  with unqiue dialogue attached to it.
+
+  ##[Unique Behaviours]
+
+  Some unique changes that happens on this event is the normal reputation counter changes to text saying "i dont need your rep thanks though", 
+  the regular note changes to a drawing of Pear, 
+  and the [TV channel](/bussim/others/tv) is changed to a channel only seen in this event, containing Pear.
+
+  \n\n
+
+  When thanking Pear, instead of what happens typically, 
+  Pear will double the amount of reputation and give it to the person that has the smallest amount of reputation. 
+  This is why this event is such a great and easy way to gain reputation if your low on it. If the player with the lowest amount of reputation thanks Pear or a player has thanked Pear already, nothing will happen besides some dialogue. You also can only thank Pear every 1 day.
+
+  \n\n
+
+ ##[Dialogue]
+
+ ###[Event Intro]
+
+ - hg[Variant 1]:
+   - "Oh, an event is starting, huh?"
+   - "Wait, actually that's for me. I'm taking over the bus!"
+ - hg[Variant 2]:
+   - "Another Event?"
+   - "You know what? I'M the event now. I'M TAKING OVER THIS BUS."
+ - hg[Variant 3]:
+   - "Not another event... Which one is it gonna be now?"
+   - "Actually.. that's it. Your new event: ME."
+
+ All Intro Dialogue Ends With Pear Saying "To the bus driver: you'd better scramble like an egg, before I *FOLD YOU* like an *OMLETTE*.
+
+ ###[Interacting With Pear (Only New Dialogue)]
+
+ - "Hey, I'm trying to focus on driving, make it quick."
+ - "I wish i could trade <float>hr[Pearcoin^(TM)]</float> while driving..."
+ - "This is certainly the vehicle ever..."
+   - hg[Option 2]: Let's Talk!
+     - "You better thank me for this."
+     - "Okay fine, give me a second"
+     - "Okay fine, I guess it is kinda quite in here."
+     - "You want to talk? While I'm driving?"
+       - hg[Variant 1]:
+         - "I'd challenge you to a rap battle right now..."
+         - "But I'm driving the bus!"
+
+ ###[When Thanking Pear (Without Giving Reputation)]
+
+ - "Please don't thank me, I don't want any rep."
+ - "Hey, save your breath for people who need it more."
+ - "I decline."
+ - "I don't really need it, but thanks."
+ - "Uh, I'm good without rep.. thanks though."
+
+ ###[When Reputation Is Given To Another Player]
+
+ - "How about I give that to [player] instead?"
+ - "Double it and give it to the next person."
+ - "[Player] needs that WAY more than I do..."
+ - "WOW you spelled [Player] REALLY wrong!"
+ - "Nah, here [Player], you can have that instead."
+
+ ###[When Trying To Kick Off Pear]
+
+ - "He looks too cute, you can't..."
+ - "You know you can't move a cat when they sit somewhere, right?"
+ - "This cat has the Plot armor gamepass, so you can't kick them off. (one million trillion gazillion more driver's rep needed to kick)"
+ - "No. He fits, he sits."
+ - "You can't kick him off. He's too powerful."
+ - "That's just cruel."
+ - "nuh uh"
+ - "Nope."
+ - "He rolled a [10-20] and you rolled a [Lower Number]. Better luck next time."
+
+ ###[Dialouge For Pears Voting]
+
+ - "Okay, I've had my fill. I'll take you somewhere before hopping off, so what's it gonna be?"
+   - There's this cave... hg[(Glacier Cave)]
+   - Could use a drink. hg[(Cafe)]
+   - The dev's house? hg[(Noble's House)]
+   - Burglary! hg[(No Dough)]
+   - I'm hungry. hg[(Bloxdonalds)]
+   - I saw this shack... hg[(Abandonded Shack)]
+   - Somewhere outside of reality. hg[(Backwalls)]
+
+ ###[After Voting]
+
+ - "Of course."
+ - "That's the choice of all time."
+ - "Uh, okay."
+ - "Sure..."
+ - "Mhm, okay."
+ - "Really?"
+   - "I'll do whatever's the most popular."
+   - "Just sit back for a bit, okay?"
+   - "We'll see what happens."
+
+ ###[Voting Results]
+
+ - "Okay, [Location] it is."
+ - "Well, I don't know where [Location] is, but I can try..."
+ - "Ah, so you have chosen [Location]."
+ - "Okay, we're going to [Location]."
+ - "So, you've chosen to go to [Location]."
+
+ ###[If All Players Are Abstained]
+
+ - "Nobody? For Real?"
+ - "I'll just go back to my seat, I guess..."
+
+ ###[Pear Preparing To Drive]
+ - "Okay, try not to black out challenge, 3-2-1-GO!"
+ - *"Buckle up if you want to live"*
+ - "Get ready for some *fast travel~*"
+ - "We're going full throttle for this one, so buckle up RIGHT MEOW!"
+
+ ###[Location Arrival Dialogues]
+
+ - hg[Goated Gas Station]
+   - "We're here at the gas station~! I'm done driving, someone else can deal with the gas.. electricity.. thingy."
+   - "(what does this bus run on, anyway?)"
+
+ - hg[Noble's House]
+   - "HI NOBLE!!!"
+   - "Okay, I'm done being the driver~ Oh, don't worry about the wall, he always gets them fixed anyway."
+
+ - hg[Abandonded Shack]
+   - "Here's your abandoned shack! It's a little spooky, I guess..."
+
+ - hg[Bloxdonalds]
+   - "We're here~! Remember not to eat too many of those burgers, they really aren't good for you..."
+
+ - hg[Glacier Cave]
+   - "Found it~! Come to think of it, I've never actually been in there... Is there something I'm missing..?"
+
+ - hg[The Cafe]
+   - "Hey you, you're finally awake. I told you we were going full throttle, why'd you pass out?"
+   - "Anyway, I broke the bus, so you might wanna find someone to get that fixed~"
+
+ ##[No Dough's Dialogue]
+
+ All Dialogue Not Listed Here Defaults To [No Dough's](/bussim/events/no-dough) Default Dialogue.
+
+ ###[Stopping at the House Dialogue]
+
+ - "I don't know why you want to do this, it's kinda cruel..."
+ - "Whatever, go do what you're gonna do!"
+
+ ###[Entering the House Dialogue]
+
+ - "You've got ten minutes, good luck~"
+
+ ###[Taking the Cash Dialogue]
+
+ - "Congrats on becoming a criminal!"
+ - "I'm only gonna be your accomplice for 5 more minutes though, so you'd better hurry up!"
+
+ ###[Escape Dialogue]
+
+ - "That was the opposite of sneaky..." hg[(Happens if everyone gets caught after taking the cash)]
+ - "Skill Issue to be honest~" hg[(Happens if the cash is not taken)]
+   - h[The Player Then Says Random Dialogue Normally Seen In No Dough]
+
+ ###[If nobody entered the house within 1 minute...]
+
+ - "Oh, did you realize the overwhelming guilt that would have befallen you? Okay, we'll leave then~"
+
+ ###[Event Ends Dialogue]
+
+ - "Well, as much fun as it was being a getaway driver, I'd rather not get charged for it!"
+ - "I'll go and sit back where I usually do now."
+
+ ##[Trivia]
+
+ - When Pear stands up, a image of [roblox's maintanence screen](https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/4X/4/9/4/494401c7173da32a036658a6014e4ac7ea1d972f.jpeg) will show up on the seat where they are typically.
+ - This event had a bug where Pear would never leave the drivers seat, eventually leading to soft-locking the server.
+ - This is one of the more longer events, lasting a total of around 4 and a half minutes.
+ - This event is one of the very small instances where players will vote to determine an outcome, simillar to the [Repaint Event](/bussim/events/repaint).
+ - The channel name for the exclusive TV channel is "CH &#128049;"
+   - The channel also plays [Funk In My Bedroom](https://www.youtube.com/watch?v=sfnYcT0YZyc) for its music.
+
+ !!GALLERY [/bussim-assets/images/others/billboard/Billboard.webp|/bussim-assets/images/others/billboard/Ad_Billboard.webp]

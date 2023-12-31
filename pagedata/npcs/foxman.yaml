@@ -1,0 +1,66 @@
+editable: True
+page:
+  title: FoxMan
+  description: |
+    FoxMan is an NPC that can be found on the Coffee Shop event.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npc
+  
+  tags: npcname, npc
+
+  header:
+    title: FoxMan
+    description: |
+      Category: [NPCs](/bussim/npcs)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/coffee-shop.webp
+
+attributions:
+  - Edited by Nyx (@nyxical)
+
+content: |
+  ##[Info]
+  FoxMan is an NPC that can be found on the [Coffee Shop](/bussim/events/coffee-shop) event. He is also an Administrator to the following games of NobleReign: [Bus Simulator](https://gla.dog/bus) and [Kit Battle](https://gla.dog/kit-beta).
+
+  ##[Appearance]
+  Foxman is an orange Fox with flowing pastel blue hair, a custom-made military suit, a military side cap, white glasses, a MARKA-17M on their back, a Wind up key, satchel, and Silver Aiguillettes.
+  \n<12px>(hg[- Ported from Fandom Wiki])
+
+  ##[Dialogue]
+  !!DLEMULATOR EID:"foxmanemulator" SID:"start" URL:"/assets/bussim/emulatorData/foxman.json"
+
+  - hg[Variant 1]: "Oh hello there, lovely day ain't it?...What can I do for y'all?"
+  - hg[Variant 2]: "Howdy! Somethin' ya need?"
+  - hg[Variant 3]: "Hey Nerd! ...Just kiddin' whats up?"
+  - hg[Variant 4]: "Hiya <Player>! Whats happenin'?" (Friend-Exclusive, Permanent Dialogue if friends with FoxMan)
+  - hg[Variant 5]: "...Something something Clam Johnson.."
+  - hg[Variant 6]: "And then he says "We ain't got no fish!""
+  - hg[Variant 7]: "Ya know, I wish I could fly..."
+  - hg[Variant 8]: "There was a really scary roach in the garage...we were locked in a staring contest...and it won..."
+  - hg[Variant 9]: "That cloud reminds me of a scallop..."
+    - hg[Option 1]: Aren't you that fox who attacks the bus..?
+      - "..."
+    - hg[Option 2]: Whos this you're with?
+      - "Oh, just my partner Sakura..."
+      - "Just sittin' outside enjoying this weather!"
+    - hg[Option 3]: Let's talk!
+      - "Alrighty then! Wanna hear about all my clams?"
+      - You: <small>"(Oh no.)"</small>
+      - "They're so cool lookin'! I have pictures of 'em i can show ya too!"
+      - "Okay so,"
+      - "Blah blah blah, blah? Blah blah, blah! Blah, blah blah blah... blah! Blah blah blah, blah blah, blah. Blah blah blah blah blah blah blah blah? Blah blah, blah blah blah. Blah blah blah blah blah blah blah blah blah..."
+        - Wow! That's so cool! Bye now!
+          - "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah......."
+    - hg[Option 4]: Bye
+      - "Tschuss!"
+
+  ###[AFK-Related Dialogue]
+  - "Um... You there?"
+  - "Somebody leave the lights on up there?"
+  - "Whatever..."
+  - "Like are you in there..?"
+
+  !!GALLERY [/assets/bussim/images/npcs/foxman.webp]
+
+  <script defer></script>  

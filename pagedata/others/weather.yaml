@@ -1,129 +1,65 @@
+editable: True
 page:
   title: Weather
   description: The weather is a visual feature in Bus Simulator that has zero impact to the game-play, but adds both visuals and sounds depending on what weather is currently active as you wait for the next event.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Weather
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: Weather
-    description: >- 
+    description: | 
       Category: <a href="/bussim/others">Others</a>
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
-  
-  pageContent:
-    - type: section
-      content:
-        size: normal
-        title: Info
-        description: >- 
-         The weather is a visual feature in Bus Simulator that has zero impact to the game-play, 
-         but adds both visuals and sounds depending on what weather is currently active as you wait for the next event.
-
-         <br><br>
-
-         It has a more than a couple of options related to it such as:
-
-    - type: tree
-      content:
-        - name: Performance Settings - Weather - Allows you to switch the density of the effects, from Off, Decreased, and Full.
-        - name: Performance Settings - Rain Reflections - Allows the road and the sidewalk to have reflections if it's Rainy / Stormy. Works properly on Graphic Levels 8+.
-        - name: Audio Settings - Weather - Adjusts the volume of rain and thunder, with varying degrees.
-
-    - type: text
-      content:
-        text: You can also change the weather namely in a private server by using the !weather [weather type] and also completely disable it via !rngweather.
     
-    - type: section
-      content:
-        size: normal
-        title: Weather Types
+attributions:
+- "Ported By PolyframeX (@polyframex)"
 
-    - type: section
-      content:
-        size: small
-        title: Sunny
-        description: >- 
-          <br>
-          Often the most default weather type while playing the game, 
-          has clear skies and no occasional visual obstruction.
-
-    - type: section
-      content:
-        size: small
-        title: Cloudy
-        description: >- 
-          <br>
-          Causes the skies to be more opaque but doesn't obstruct much of it.
-
-    - type: section
-      content:
-        size: small
-        title: Rainy
-        description: >- 
-          <br>
-          Causes the skies to slightly be more opaque as rain falls from the skies.
-
-    - type: section
-      content:
-        size: small
-        title: Stormy
-        description: >- 
-          <br>
-          Similar to Rainy, this weather type intensifies it with darker clouds, more coverage, and occasionally thunder strikes far away.
-
-    - type: section
-      content:
-        size: normal
-        title: Special Effects
-        description: >- 
-          In certain biomes, 
-          some weather can be changed to fit accordingly and so often have their own special effects:
-
-    - type: tree
-      content:
-        - name: For <a href='/bussim/biomes/snowy'>Snowy</a>, during Rainy, it is replaced by snow particles around the player. This is then intensified during Stormy.
-        - name: For <a href='/bussim/biomes/frozen'>Frozen</a>, hail will begin to occur during Rainy, with it intensifying during Stormy.
-        - name: For <a href='/bussim/biomes/lava'>Lava</a>, rain is practically non-existent for both Rainy and Stormy.
-        - name: For <a href='/bussim/biomes/desert'>Desert</a>, no effects happen during Rainy, however a sandstorm begins if the weather is Stormy, with dust particles flying to the North.
-
-    - type: section
-      content:
-        size: normal
-        title: Weather Announcements
-        description: >- 
-          Whenever the weather is changed, 
-          assuming you have the Weather Bot enabled; 
-          it'll display an announcement if the weather had changed. 
-          The following are lines related to it.
-
-    - type: section
-      content:
-        size: small
-        title: Transition Announcements
-
-    - type: tree
-      content:
-      - name: The weather transitioned into _.
-      - name: The weather changed to _.
-      - name: Looks like it's now _.
-      - name: It's _ now.
-      - name: I like it when it's _.
-      - name: It's pretty _ outside!
-      - name: The weather is now _.
-
-    - type: section
-      content:
-        size: small
-        title: Repeat Announcements
-
-    - type: tree
-      content:
-      - name: Why is it still _?
-      - name: _... again.
-      - name: The weather is still _.
-      - name: It's still _...
-      - name: The weather didn't change.
+content: |
+  ##[Info]
+  The weather is a visual feature in Bus Simulator that has zero impact to the game-play, but adds both visuals and sounds depending on what weather is currently active as you wait for the next event.
+  \n\n
+  It has a more than a couple of options related to it such as:
+  - Performance Settings - Weather - Allows you to switch the density of the effects, from Off, Decreased, and Full.
+  - Performance Settings - Rain Reflections - Allows the road and the sidewalk to have reflections if it's Rainy / Stormy. Works properly on Graphic Levels 8+.
+  - Audio Settings - Weather - Adjusts the volume of rain and thunder, with varying degrees.
+  \n
+  You can also change the weather namely in a private server by using the !weather [weather type] and also completely disable it via !rngweather.
+  ##[Weather Types]
+  ###[Sunny]
+  Often the most default weather type while playing the game, has clear skies and no occasional visual obstruction.
+  \n
+  ###[Cloudy]
+  Causes the skies to be more opaque but doesn't obstruct much of it.
+  \n
+  ###[Rainy]
+  Causes the skies to slightly be more opaque as rain falls from the skies.
+  \n
+  ###[Stormy]
+  Similar to Rainy, this weather type intensifies it with darker clouds, more coverage, and occasionally thunder strikes far away.
+  \n
+  ##[Special Effects]
+  In certain biomes, some weather can be changed to fit accordingly and so often have their own special effects:
+  - For [Snowy](biomes/snowy), during Rainy, it is replaced by snow particles around the player. This is then intensified during Stormy.
+  - For [Frozen](biomes/frozen), hail will begin to occur during Rainy, with it intensifying during Stormy.
+  On the contrary:
+  - For [Desert](biomes/desert), no effects happen during Rainy, however a sandstorm begins if the weather is Stormy, with dust particles flying to the North.
+  - For [Lava](biomes/lava), rain is practically non-existent for both Rainy and Stormy.
+  \n\n
+  ##[Weather Announcements]
+  Whenever the weather is changed, assuming you have the Weather Bot enabled; it'll display an announcement if the weather had changed. 
+  \n\n
+  The following are lines related to it are of the following:
+  ###[Transition Announcements]
+  -  The weather transitioned into [Weather].
+  -  The weather changed to [Weather].
+  -  Looks like it's now [Weather].
+  -  It's [Weather] now.
+  -  I like it when it's [Weather].
+  -  It's pretty [Weather] outside!
+  -  The weather is now [Weather].
+  ###[Repeat Announcements]
+  -  Why is it still [Weather]?
+  -  [Weather]... again.
+  -  The weather is still [Weather].
+  -  It's still [Weather]...
+  -  The weather didn't change.

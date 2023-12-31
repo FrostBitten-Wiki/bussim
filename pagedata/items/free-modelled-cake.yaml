@@ -1,30 +1,29 @@
+editable: True
 page:
-  title: Free Modelled Cake
-  description: The Free-modeled Cake (or known as Birthday Cake) is a consumable item in Bus Simulator,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Free Modelled Cake
-  tags: free modelled cake, event item, the cake is a lie, a lie, portal item reference
+  title: Free-Modelled Cake
+  description: The Free-modeled Cake (or known as Birthday Cake) is a consumable item in Bus Simulator, gotten from everyone in the Birthday Event.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: birthday cake, bday cake, plastic cake
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-html:
   header:
-    title: Free Modelled Cake
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Free-modeled Cake (or known as Birthday Cake) is a consumable item in Bus Simulator, 
-         gotten from everyone in the <a href="/bussim/events/birthday">Birthday</a> Event. 
-         It has the same model and texture as the classic ROBLOX Cake. 
-         It doesn't heal nor reduce your health, and isn't a permanent item.
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-         <br><br>
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/free-modelled-cake.webp
+content: |
+  "Tastes like plastic... but that's fine with you." -"Free-Modelled Cake"
+
+  ##[Info]
+  The Free-modeled Cake (or known as Birthday Cake) is a consumable item in Bus Simulator, gotten from everyone in the [Birthday Event](/bussim/events/birthday).
+  \n\n 
+  It has the same model and texture as the classic ROBLOX Cake. It doesn't heal nor reduce your health, and isn't a permanent item. 
+
+  !!GALLERY [/assets/bussim/images/items/free-modelled-cake.webp]

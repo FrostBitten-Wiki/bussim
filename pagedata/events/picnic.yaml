@@ -1,39 +1,28 @@
+editable: True
 page:
-  title: Picnic
-  description: The bus would stop and a picnic would spawn,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Picnic
-  tags: picnic, event
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Picnic
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Picnic</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/events/picnic1.webp
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-          The bus would stop and a picnic would spawn, 
-          you can obtain the <a href='/bussim/items/sandwich'>Sandwich</a> there, 
-          after a bit the bus would leave and the event would end.
+attributions: []
 
-    - type: section
-      content:
-        title: Trivia
+content: |
+  ##[Info]
+  Placeholder Info
 
-    - type: tree
-      content:
-        - name: It was one of the first events to be worked on in Bus Simulator.
+  ##[Trivia]
+  - Trivia Here
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/events/picnic1.webp
-          
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

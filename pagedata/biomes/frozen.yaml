@@ -1,38 +1,26 @@
+editable: True
 page:
   title: Frozen
-  description: Frozen is a biome that will spawn randomly after driving through a tunnel.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Frozen
+  description: Doodle is one of the new biomes added to Bus Simulator. It features a notebook-paper-like floor as well as animated doodles depicting flowers, grass, bushes, and trees.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: Frozen
-    description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>
+    description: |
+      Category: [Biomes](/bussim/biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/frozen.webp
 
-    image: ''
-    imageBanner: /bussim-assets/images/biomes/frozen.webp
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         Frozen is a biome that will spawn randomly after driving through a tunnel. 
-         It comprises of ice spikes, trees, and occasionally crashed helicopters. 
-         It also has a slightly desaturated light blue for its fog. 
+content: |
+  ##[Info]
+  The Frozen is a biome that's very similar to [Summer](/bussim/biomes/summer), but more dense with fog and has more trees spawning, commonly in a line of five trees. They spawn in both large and small sizes randomly around the biome.
 
-    - type: section
-      content:  
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: During the event <a href="/bussim/events/blizzard">Blizzard</a>, this biome would appear until the end of the event.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/biomes/galleries/Frozen.webp
+  !!GALLERY [/assets/bussim/images/biomes/frozen.webp]

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.75">
+        <title>Bus Simulator: {{ page["title"] }}</title>
+        <link rel="icon" href="/assets/bussim/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/assets/bussim/style.css">
+        <link rel="stylesheet" href="/assets/bussim/editor.css">
+
+        <audio id="soundSource" style="display: none;">
+            <source type="audio/mp3">
+        </audio>
+    </head>
+
+    <body>
+        <div id="menuParent" style="background-color: #100996; position: fixed; bottom: 0; height: 55px; width: 100%; z-index: 5; display: flex; justify-content: right;">
+            <div class="sidebar sidebarMenu" id="mainMenu" style="display: flex; top: 0; left: 0; flex-direction: row; justify-content: left; flex: 1;">
+                <input id="password" placeholder="Password">
+
+                <button onclick="updateFile()">
+                    <img src="/assets/bussim/images/menuIcons/edit.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <text type="hoverText">Save Changes</text>
+                </button>
+
+                <button onclick="openPreview()">
+                    <img src="/assets/bussim/images/menuIcons/edit.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <text type="hoverText">Preview</text>
+                </button>
+
+                <script>
+                    function updateFile() {
+                        $.ajax({
+                            type: "POST",
+                            url: window.location.pathname.replace("edit", "update-edit"),
+                            contentType: "application/json",
+                            data: JSON.stringify({ 
+                                // embed
+                                "title": $("#embedTitle").val(),
+                                "embedKeywords": $("#embedKeywords").val(),
+                                "embedDescription": $("#embedDescription").val(),
+
+                                // page
+                                "pageTags": $("#pageTags").val(),
+                                "pageBanner": $("#pageBanner").val(),
+                                "pageDescription": $("#pageDescription").val(),
+                                "content": $("#content").val(),
+                            }),
+                            success: function (data) {
+                                alert(data.message);
+                            },
+                            error: function (data) {
+                                alert("Error updating file");
+                            }
+                        });
+                    }
+
+                    function openPreview() {
+                        var jsonData = JSON.stringify({ 
+                            "title": document.getElementById("embedTitle").value,
+                            "pageBanner": document.getElementById("pageBanner").value,
+                            "pageDescription": document.getElementById("pageDescription").value,
+                            "content": document.getElementById("content").value,
+                        });
+
+                        var targetPage = '/preview';
+                        var windowFeatures = 'width=1000,height=600';
+                        var newWindow = window.open('', '_blank', windowFeatures);
+
+                        fetch(targetPage, {
+                            method: 'POST',
+                            headers: {
+                              'Content-Type': 'application/json'
+                            },
+                            body: jsonData
+                        })
+                        .then(response => response.text())
+                        .then(responseText => {
+                            newWindow.document.write(responseText);
+                        })
+                        .catch(error => {
+                            console.error('Error:', error);
+                        });
+                    }
+                </script>
+            </div>
+
+            <div class="sidebar" style="top: 0; right: 0; flex-direction: row-reverse; display: flex;">
+                <button onclick="window.open('https://discord.gg/frostbitegames', '_blank')">
+                    <img src="/assets/bussim/images/menuIcons/discord.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <text type="hoverText">FrostBitten Games</text>
+                </button>
+
+                <button onclick="window.open('https://discord.gg/gtuMqnt4YG', '_blank')">
+                    <img src="/assets/bussim/images/menuIcons/discord.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <text type="hoverText">ForstBitten Wiki</text>
+                </button>
+            
+                <button onclick="window.open('https://discord.gg/pNnMKKg', '_blank')">
+                    <img src="/assets/bussim/images/menuIcons/discord.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <text type="hoverText">Bus Simulator Discord</text>
+                </button>
+            </div>
+
+            <script>
+                var activeMenu = "mainMenu";
+
+                function navigateMenu(menuId) {
+                    var menus = document.querySelectorAll('.sidebarMenu');
+                    menus.forEach(function(menu) {
+                        menu.style.display = 'none';
+                    });
+                
+                    var selectedMenu = document.getElementById(menuId);
+                    if (selectedMenu) {
+                        selectedMenu.style.display = 'flex';
+                        activeMenu = menuId;
+                    }
+                }
+
+                navigateMenu(activeMenu);
+            </script>
+        </div>
+
+        <div style="position: fixed; top: 0; width: 100%;">
+            <div class="tooltip" id="custom-tooltip"></div>
+        </div>
+
+        <div id="main">
+            <div class="title">
+                <h1>Web Editor</h1>
+            </div>
+            <div class="columns">
+                <div class="col-1">
+                    <div class="column-bg">
+                        <h2>Embeds</h2>
+                        <hr class="hr-gradient">
+    
+                        <h3>Title</h3>
+                        <textarea id="embedTitle">{{ page.title }}</textarea>
+    
+                        <h3>Keywords</h3>
+                        <textarea id="embedKeywords">{{ page.keywords }}</textarea>
+    
+                        <h3>Description</h3>
+                        <textarea id="embedDescription">{{ page.description }}</textarea>
+                    </div>
+
+                    <div class="column-bg">
+                        <h2>Page Values</h2>
+                        <hr class="hr-gradient">
+    
+                        <h3>Tags</h3>
+                        <textarea id="pageTags">{{ page.tags }}</textarea>
+    
+                        <h3>Banner Image Path</h3>
+                        <textarea id="pageBanner">{{ page.header.imageBanner }}</textarea>
+
+                        <h3>Description</h3>
+                        <textarea id="pageDescription">{{ page.header.description }}</textarea>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="column-bg">
+                        <h2>Content</h2>
+                        <hr class="hr-gradient">
+                        <textarea id="content" wrap="off">{{ content }}</textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://unpkg.com/gsap@3.9.0"></script>
+        <script src="/assets/bussim/scripts/others.js"></script>
+        <script src="/assets/bussim/scripts/tooltip.js"></script>
+    </body>
+</html>

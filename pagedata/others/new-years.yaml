@@ -1,45 +1,26 @@
+editable: True
 page:
   title: New Years
-  description: If you play Bus Simulator during December 30th and 31st, you can get free stuff every hour to celebrate new years.
+  description: The New Years is a passive event that happens every hour during December 31st to January 1st of every year.
+  
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, New Years
+
+  header:
+    title: New Years
+    description: |
+      Category: <a href="/bussim/others">Others</a>
+    image: ''
+    imageBanner: /bussim-assets/images/banner.jpg
 
 attributions:
   - "Ported By PolyframeX (@polyframex)"
 
-html:
-  header:
-    title: New Years
-    description: >- 
-      Category: <a href="/bussim/others">Others</a>
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
-  
-  pageContent:
-
-    - type: section
-      content:
-        size: normal
-        title: Info
-        description: >- 
-          If you play Bus Simulator during December 30th and 31st, 
-          you can get free stuff every hour to celebrate new years. 
-          You can only get the following per hour, 
-          and at the top of the hour:
-
-    - type: tree
-      content:
-        - name: Driver reputation (up to 5)
-        - name: Passenger reputation (up to 5)
-        - name: Free songs (up to 5)
-        - name: One free advanced event
-
-    - type: text
-      content:
-        text: >- 
-          During the event, 
-          the <a href='/bussim/locations/the-bus'>bus</a> also has firework launchers attached to the third floor, 
-          which will periodically launch fireworks into the sky. 
-          The free stuff, 
-          as well as the fireworks, 
-          both disappear on January 1st, 
-          so make sure to get as much free stuff as you can.
+content: |
+  ##[Info]
+  The New Years is a passive event that happens every hour during December 31st to January 1st of every year. During this time, you'll recieve different rewards every hour, the rewards are as follows:
+  - Driver Reputation (up to 5)
+  - Passenger Reputation (up to 5)
+  - Free Songs (up to 5)
+  - Advanced Event Token (1)
+  \n
+  Also during this period, firework launchers will appear on the third floor of [The Bus](locations/the-bus), occassionally shooting fireworks. You'll also recieve the [Sparkler](items/sparkler), although it is revoked once it ends.

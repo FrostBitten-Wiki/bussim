@@ -1,67 +1,45 @@
+editable: True
 page:
   title: MiroCev
   description: MiroCev is a minor character in the game, and just gives out free Lemon Sodas in the Soda Stand event.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, MiroCev
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim mirocev npc
+  
+  tags: mirocev, npc
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: MiroCev
-    description: >- 
-      Category: <a href="/bussim/npcs">NPCs</a>
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [NPCs](/bussim/npcs)
     
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         MiroCev is a minor character in the game, and just gives out free <a href='/bussim/items/lemon-soda'>Lemon Sodas</a> in the <a href='/bussim/events/soda-stand'>Soda Stand</a> event.
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-    - type: section
-      content:
-        title: Appearance
-        description: >-
-          MiroCev is an Industrial White skinned robloxian that wears a lab coat and goggles, 
-          and slicked back hair.
+attributions:
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-    - type: section
-      content:
-        title: Dialogue
+content: |
+  ##[Info]
+  MiroCev is a minor character in the game, and just gives out free [Lemon Sodas](/bussim/items/lemon-soda) in the [Soda Stand](/bussim/events/soda-stand) event.
 
-    - type: npcChat
-      content:
-        id: mirocev
-        startId: start
-        chatData: /bussim-assets/chatdata/npcs/mirocev.json
+  ##[Appearance]
+  MiroCev is an Industrial White skinned robloxian that wears a lab coat and goggles, and slicked back hair.
 
-    - type: tree
-      content:
-        - name: "\"Oh, a customer! Welcome to my soda stand!\""
-          children:
-            - name: "Option 1: You're selling soda.. out here?"
-              children:
-                - name: "\"Well, I'm not selling it.. it's free!\""
-                  children:
-                    - name: "Option 1: ...but, why on the side of a highway? Who'd stop for that?"
-                      children:
-                        - name: "\"I mean, you did, didn't you?\""
-                    - name: "Option 2: What? Why wouldn't you want to make some profit off it?"
-                      children:
-                        - name: "\"I just feel generous!\""
-            - name: "Option 2: Who are you...?"
-              children:
-                - name: "\"Just a humble soda stand vendor!\""
-            - name: "Option 3: Sure!"
-              children:
-                - name: "\"Cool! Here's your free soda! Enjoy!\""
-                  children:
-                    - name: "<small(The player receives a <a href='/bussim/items/lemon-soda'>Lemon Soda</a>)</small>"
+  ##[Dialogue]
+  !!DLEMULATOR EID:"mirocevemulator" SID:"start" URL:"/assets/bussim/emulatorData/mirocev.json"
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/npcs/mirocev.webp
+  - "Oh, a customer! Welcome to my soda stand!"
+    - hg[Option 1]: You're selling soda.. out here?
+        - "Well, I'm not selling it.. it's free!"
+            - hg[Option 1]: ...but, why on the side of a highway? Who'd stop for that?
+                - "I mean, you did, didn't you?"
+            - hg[Option 2]: What? Why wouldn't you want to make some profit off it?
+                - "I just feel generous!"
+    - hg[Option 2]: Who are you...?
+        - "Just a humble soda stand vendor!"
+    - hg[Option 3]: Sure!
+        - "Cool! Here's your free soda! Enjoy!"
+            - Lemon Soda
+
+  !!GALLERY [/assets/bussim/images/npcs/mirocev.webp]  

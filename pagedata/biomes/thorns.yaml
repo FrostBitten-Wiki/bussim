@@ -1,35 +1,28 @@
+editable: True
 page:
   title: Thorns
-  description: Thorns is a biome that will spawn randomly after driving through a tunnel.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Thorns
+  description: Thorns is a biome that will spawn randomly after driving through a tunnel. It has a darker appearance, with many large, thorn-like spikes around the area. The biome is based off of The Landscape of Thorns, which is a physical marker for how dangerous the area is for people in the future.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: Thorns
-    description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>
-      
-    image: ''
-    imageBanner: /bussim-assets/images/biomes/thorns.webp
+    description: |
+      Category: [Biomes](/bussim/biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/thorns.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-         Thorns is a biome that will spawn randomly after driving through a tunnel. 
-         It has a darker appearance, with many large, thorn-like spikes around the area. 
-         The biome is based off of The Landscape of Thorns, which is a physical marker for how dangerous the area is for people in the future.
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-         <br><br>
+content: |
+  ##[Info]
+  Thorns is a biome that will spawn randomly after driving through a tunnel. It has a darker appearance, with many large, thorn-like spikes around the area. The biome is based off of The Landscape of Thorns, which is a physical marker for how dangerous the area is for people in the future.
+  \n\n
+  Thorns is dark and bleak, and has plenty of thorns scattered around the area, as a physical marker for radiation. No non-event buildings, hills, foliage, or crashed helicopters will spawn in this biome.
 
-         Thorns is dark and bleak, and has plenty of thorns scattered around the area, 
-         as a physical marker for radiation. No non-event buildings, 
-         hills, foliage, or crashed helicopters will spawn in this biome.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/biomes/galleries/Thorns.webp
+  !!GALLERY [/assets/bussim/images/biomes/thorns.webp]

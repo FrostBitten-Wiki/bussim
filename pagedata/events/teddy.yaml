@@ -1,56 +1,28 @@
+editable: True
 page:
-  title: Mic Spam
-  description: MicSpam is an event in Bus Simulator, where the Bus will forcibly stop to see a rabbit wearing a box in the middle of the lane that the Bus is on.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Mic Spam
-  tags: mic spam, event
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
 
-html:
   header:
-    title: Mic Spam
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>MicSpam</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/npcs/teddy.webp
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: buttons
-      content:
-        buttons:
-          - ["<highlight>Mic Spam</highlight>", "/bussim/events/teddy"]
-          - ["Mic Off", "/bussim/events/teddy/mic-off"]
+attributions: []
 
-    - type: section
-      content:
-        size: normal
-    - type: quote
-      content:
-        quote: "my ears hurt"
-        author: Player
-    - type: section
-      content:
-        title: Info
-        description: >- 
-          MicSpam is an event in Bus Simulator, 
-          where the Bus will forcibly stop to see a rabbit wearing a box in the middle of the lane that the Bus is on. 
-          After about one minute, 
-          Teddy will begin to sing a song using his <a href='/bussim/items/megaphone'>megaphone</a> and after it has finished, 
-          it will promptly drop down a hole, 
-          and the event will end. 
-          The passengers or driver will then exclaim signs of hearing problems or part of the song's lyrics.
+content: |
+  ##[Info]
+  Placeholder Info
 
-    - type: section
-      content:
-        title: Trivia
+  ##[Trivia]
+  - Trivia Here
 
-    - type: tree
-      content:
-        - name: "Teddy is also likely referenced in one <a href='/bussim/others/news'>news article</a>: \"Local Toon causes 24-hour long traffic jam by singing through a megaphone, more at 11\""
-        - name: MicSpam's runtime is 1 minute and 20 seconds, much longer than MicOff's runtime.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/npcs/teddy.webp
-          
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

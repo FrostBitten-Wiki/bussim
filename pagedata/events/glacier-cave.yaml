@@ -1,115 +1,28 @@
+editable: True
 page:
-  title: Glacier Cave
-  description: Glacier Cave is a rare event in Bus Simulator where the Bus stops next to a cave,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Glacier Cave
-  tags: glacier cave, events
-
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
-html:
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
+
   header:
-    title: Glacier Cave
-    description: >-
-     Category: <a href="/bussim/events">Events</a>, <a href="/bussim/locations">Locations</a><br>Event Name: <highlight>GlacierCave</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/locations/glacier-cave.webp
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         Glacier Cave is a rare event in Bus Simulator where the Bus stops next to a cave, 
-         players are able to enter through the cave through any means of traversal until they are teleported to the interior of the cave. 
-         The event ends shortly afterwards.
+attributions: []
 
-         <br><br>
+content: |
+  ##[Info]
+  Placeholder Info
 
-         While the event is rather short, 
-         the inside of the Glacier Cave will always remain present regardless of how many players are inside or the event status.
+  ##[Trivia]
+  - Trivia Here
 
-    - type: section
-      content:
-        title: Interior
-        description: >- 
-          The interior is a massive cave filled with crystals, 
-          on the left there is a hidden passage way that appears to be a parkour that leads to NamerElf's actual spot. 
-          (While NamerElf is credited; it isn't present in its podium in the Art Gallery.)
-
-          <br><br>
-
-          Continuing along the area you will find Frostbite's Den, 
-          where not only will you encounter <a href="/bussim/npcs/frostbite">Frostbite</a> <small>(Not to be confused by the same person, <a href="/bussim/npcs/noble">NobleReign</a>.)</small> , 
-          but also other props around the den, this includes:
-
-    - type: table
-      content:
-        columnSpacing: 1fr 1fr
-        imageSize: 256 256 
-        widthSize: 100
-        titles:
-          - "Props / Furniture"
-          - "Description"
-        items:
-          - ["Radio", "A slightly worse radio that is in sync with the one in <a href='/bussim/locations/the-bus'>The Bus</a>. You won't be able to request songs in this radio though."]
-          - ["Calendar", "Currently October 2013, which is heavily outdated and Frostbite seems to partially acknowledge it."]
-          - ["Cold Cola Cooler","A cooler that contains an endless supply of <a href='/bussim/items/cold-cola'>Cold Colas</a>, has the same design as the one in the Bus."]
-          - ["Melted Spronkbib Pile","A massive pile of slightly melted <a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicles</a>, this also references both the <a href='/bussim/others/news'>news articles</a> related to it along with its absurd chance of obtaining it."]
-          - ["Fake Window","An extremely unconvincing window underground. Interacting it provides some self-dialogue: \"A mirror shaped to look like a window. Presumably to mask the fact that we're underground.\" \"...\" \"Needless to say, it's extremely unconvincing.\""]
-          - ["\"Fishing Pond\"","A very small pond with a fishing rod provided next to it, interacting with the fishing rod provides some self-dialogue:<br> \"...A whole fishing rod.\" \"Why? There's literally nothing to catch in here.\""]
-          - ["Cardboard Microphone Stand","A pretty thin microphone stand built out of purely cardboard, interacting with it provides some self-dialogue:<br> \"A microphone made out of cardboard.\" \"It's so lightweight, he literally had to put a pebble on it just to make it stay in one place.\""]
-          - ["Discarded Recipe Papers","A pile of different papers, presumably being scribbled out recipes related to ice cream flavors. The one next to the spilled eggnog provides some self-dialogue:\n\"[A few of the recipes lie next to the pile of split eggnog. The handwriting here is just barely legible. Read it?]\"<br><br>(What could it say..?) | (I'm good.) [Ends the self-conversation.]<br><br>\"[You pick up one of the recipes.]\"<br><br>\"Eggnog Ice Cream\"<br><br>\"You need 2 cups of eggnog, 2 cups heavy cream, a 10 ounce can of sweetened condensed milk, and 1 teaspoon vanilla extract (you can use extra)\"<br><br>\"Mix eggnog, cream, milk, and vanilla in bowl.\"<br><br>\"Place both paws inside. Lower body temperature. Continuous stir until right consistency.\"<br><br>\"Put result into a plastic container and cover with plastic wrap.\"<br><br>\"Let ice-cream stay in freezer for 2 to 12 hours. (note to self must be freezer, paws dont work here)\"<br><br>\"Finally got the recipe down! He said he likes eggnog, I think? Hope he'll like it!\"<br><br>(The \"he\" in this recipe paper could be referring to one of Frostbite's friends, Pear.)<br><br>The massive pile of discarded recipe papers also provides its own self-dialogue:<br><br>\"[A bunch of scattered papers, seemingly only containing ice-cream recipes.]\"<br><br>\"[Most of the papers were scribbled over, or have giant Xs hastily marked onto them.]\"<br><br>\"[You can only make out a few of the flavors, such as \"Chocolate\", \"Blueberry-Lime\", and \"Shrimp\". The chocolate recipe seems to use carob instead of actual chocolate. Blueberry-Lime was scribbled away.]\"<br><br>\"[Shrimp has multiple giant Xs on it and a badly drawn vomit emoji in the bottom right corner.]\""]
-          - ["Christmas Props","Although the calendar from earlier is shown to be in October, there seems to be Christmas props nonetheless, with fairy lights along with a Christmas Tree, inbetween the calendar and the radio."]
-          - ["Signs & Books","A couple of signs seem to be shown around the den, with one above Frostbite's bed showing a warning sign related to dogs. The other one is found behind a rock column, showing the Live Laugh Love sign.<br>The books are found next to the bed seem to be classical books made by Roblox, the discernible names are : Thievius Raccoons, Reading, Music Theory, Cheezburger, Economics, and Learn to Program C++."]
-          - ["Boxes & Bed","Lastly, you'll be able to find boxes near the \"Fishing Pond\" and next to the bed, the bed in which you are not able to rest on.<br>None of these props seem to provide any self-dialogue."]
-
-    - type: text
-      content:
-        text: >- 
-          Another interesting quirk while you are inside of the cave is that, 
-          as long as you are within the interior of the cave, 
-          no events including <a href='/bussim/events/backwalls'>Backwalls</a> or <a href='/bussim/events/ea-sellout'>EA Sellout</a> will be able to damage you nor forcibly teleport you back into the Bus, 
-          making it ideal for those who simply don't want to be involved in the chaos. 
-          It won't however nullify worldwide sounds like the <a href='/bussim/events/nuke'>Nuke</a>, <a href='/bussim/events/backwalls'>Backwalls</a>, nor <a href='/bussim/events/hyperspeed'>Hyperspeed</a>.
-
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: 'While the main way to enter is through the cave event itself, you can enter the cave without needing it. It does however require the <a href="/bussim/items/magic-mirror">Magic Mirror</a> item which also requires the other two badges that can be unlocked in this cave: <a href="https://www.roblox.com/badges/2130010648/Part-of-the-Pack">Part of the Pack</a> and <a href="https://www.roblox.com/badges/2130010649/Animal-Messenger">Animal Messenger</a>.'
-        - name: Unlike some other permanent items such as Liquid Void or Almond Water, it is possible to obtain the Magic Mirror even in a Private Server.
-        - name: This is one of the two events in the game that contain more than one badge (if any actually), the other one being both <a href='/bussim/events/santas-gone'>Santa's Gone</a> and <a href='/bussim/events/no-dough'>No Dough</a>.
-        - name: NamerElf's character code is unique compared to the others in the podium, being that it automatically updates to the actual account of NamerElf. Hence why there is an option to talk about its clothing.
-        - name: Even though Frost is NobleReign's fursona, the two are seperate characters in Bus Simulator nor do they even acknowledge each other.
-        - name: If you try and use the GPS in this area, it'll say NO SIGNAL, since you are inside of an underground cave.
-        - name: Despite the area meant to be somewhere underground, using BTools or such; it is actually extremely high above the ground.
-          children:
-            - name: This is because underneath the bus is an endless pool of water and the void, putting the cave in there will simply make it extremely hard to traverse.
-
-    - type: section
-      content:
-        title: Technical Trivia
-
-    - type: tree
-      content:
-        - name: Glacier Cave unlike the many other locations, de-loads after around 2000 studs away from its center point, which also causes the entire model itself to vanish off of Explorer when using <a href='/bussim/items/edit'>Edit</a>.
-          children:
-            - name: The de-loading seems to vary quite a lot, and is mainly dependent on client-sided player location.
-              children:
-                - name: This means you can't have someone be in range constantly having the cave loaded for all clients.
-                - name: So far, the de-loading can vary based on how many times you have tabbed out of your client, but could be from other unknown factors.
-        - name: Frost's location in specific is 8,501 x, 8040 y, and 8105 z. or about 8000 studs away from the center point when using <a href='/bussim/items/edit'>Edit</a>.
-        - name: If you go beyond around a 400 stud range from any axis, you will be possibly flashbanged but gain / lose the VOLUMIKA lighting depending if you entered or exited the range.
-        - name: Duplicating any part of the cave won't also make it immune to de-loading, but most of their scripts still remain.
-          children:
-            - name: However, it will allow you to move the parts even after it has de-loaded.
-        - name: The runtime for this event is 51 seconds, making it similar to both the <a href='/bussim/events/gandalf'>Gandalf</a> and <a href='/bussim/events/pool'>Pool</a> events.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/locations/glacier-cave.webp
-          - /bussim-assets/images/events/glacier1.webp
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

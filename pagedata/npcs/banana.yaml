@@ -1,51 +1,35 @@
+editable: True
 page:
   title: Banana
-  description: Banana is an NPC that can be found in the Backwalls.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Banana
-
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-html:
+  description: Banana is an NPC that can be found in the Backwalls. This NPC rarely spawns in the event.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim banana npc
+  
+  tags: banana, nextbot, backwalls nextbot, npc
 
   header:
     title: Banana
-    description: >- 
-      Category: <a href="/bussim/npcs">NPCs</a>
-    image: ''
-    imageBanner: /bussim-assets/images/locations/backwalls.webp
+    description: |
+      Category: [NPCs](/bussim/npcs)
     
-  pageContent:
-    - type: quote
-      content:
-        quote: Once, I saw kinda-image looking thing at the end of the hallway. It didn't look like the ones I'm used to. I didn't get any closer to it, and I never saw it again. Guess we'll never know.
-        author: Pear
-    - type: section
-      content:
-        title: Info
-        description: >-
-         Banana is an NPC that can be found in the <a href='/bussim/events/backwalls'>Backwalls</a>.
-         They can be rarely found in the event.
+    image: ""
+    imageBanner: /assets/bussim/images/locations/backwalls.webp
 
-    - type: section
-      content:
-        title: AI
+attributions: 
+  - Edited By Nyx
 
-    - type: tree
-      content:
-        - name: It will chase a player and fling them.
-        - name: However, it occasionally doesn't move and stops at certain points.
-          
-    - type: section
-      content:
-        size: normal
-        title: Trivia
-        
-    - type: tree
-      content:
-        - name: The image it originates from is a Fruit Gushers commercial.
-        - name: Despite being intended to be a nuisance in the Backwalls, it can actually be a useful asset, as the noise it makes can serve as a waypoint to keep track of. This is even more helpful if it's near the exit.
+content: |
+  "Once, I saw kinda-image looking thing at the end of the hallway. It didn't look like the ones I'm used to. I Didn't get any closer to it, and I never saw it again. Gues we'll never know." -"Pear"
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/npcs/banana.webp
+  ##[Info]
+  Banana is an NPC that can be found in the Backwalls. This NPC rarely spawns in the event.
+
+  ##[AI (Artificial Intellegence)]
+  - It will chase a player and fling them.
+  - The NPC barely moves, which can be easy to dodge on the Backwalls.
+
+  ##[Trivia]
+  - The image originates from a [Fruit Gushers]() commercial.
+  - Despite being intended to be a nuisance in the Backwalls, it can actually be a useful asset, as the noise it makes can serve as a waypoint to keep track of. This is even more helpful if it's near the backwalls exit.
+
+  !!GALLERY [/assets/bussim/images/npcs/banana.webp]  

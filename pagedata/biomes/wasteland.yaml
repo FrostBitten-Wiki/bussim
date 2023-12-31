@@ -1,29 +1,28 @@
+editable: True
 page:
   title: Wasteland
-  description: The Void biome is a biome that cannot be forced by the !biome command,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Wasteland
+  description: Wasteland is a biome that has a similar appearance to Thorns. The ground has rust covering it, and it spawns dead bushes, hills, and equally-rusted buildings. The skybox is red, cloudy, and ominous, and is the "End of the World" skybox, made by tyler7778.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: Wasteland
-    description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>
+    description: |
+      Category: [Biomes](/bussim/biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/wasteland.webp
 
-    image: ''
-    imageBanner: /bussim-assets/images/biomes/wasteland.webp
-  
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-         Wasteland is a biome that has a similar appearance to <a href='/bussim/biomes/thorns'>Thorns</a>. 
-         The ground has rust covering it, and it spawns dead bushes, hills, and equally-rusted buildings. 
-         The skybox is red, cloudy, and ominous, and is the "<a href='https://create.roblox.com/marketplace/asset/54009801/End-of-the-world-skybox%3Fkeyword=&pageNumber=&pagePosition='>End of the World</a>" skybox, made by tyler7778.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/biomes/galleries/Image.webp
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
+
+content: |
+  ##[Info]
+  Wasteland is a biome that has a similar appearance to [Thorns](/bussim/biomes/thorns).
+  The ground has rust covering it, and it spawns dead bushes, hills and equally-rusted buildings.
+  The skybox is red, cloudy and ominous, and is the "[End of the World](https://create.roblox.com/marketplace/asset/54009801/End-of-the-world-skybox)" skybox, made by tyler7778.
+
+  !!GALLERY [/assets/bussim/images/biomes/wasteland.webp]

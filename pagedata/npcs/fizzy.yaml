@@ -1,88 +1,45 @@
+editable: False
 page:
   title: Fizzy
   description: Fizzy is a very minor NPC, and can only be seen infront of the Bloxdonalds.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Fizzy
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim fizzy npc
+  
+  tags: fizzy, npc
+  ignore: ignore
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: Fizzy
-    description: >- 
-      Category: <a href="/bussim/npcs">NPCs</a>
-    image: ''
-    imageBanner: /bussim-assets/images/events/bloxdonalds.webp
+    description: |
+      Category: [NPCs](/bussim/npcs)
     
-  pageContent:
-    - type: infobox
-      content:
-        infoBoxTitle: 
-          - "Deleted Content"
-          - "#ff0609"
-        infoBoxDescription: >-
-          <i>"Ehhhh... I'm kind of feeling a bit spooked right now. I have a big sense of like, deja vu.. Maybe next time..."</i> - Tazer
+    image: ""
+    imageBanner: /bussim-assets/images/events/bloxdonalds.webp
 
-          <br>
+attributions:
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-          <small>This page has content that's already been deleted from the game, however will be kept purely for archival purposes.</small>
-    - type: section
-      content:
-        title: Info
-        description: >-
-         Fizzy is a very minor NPC, 
-         and can only be seen infront of the <a href='/bussim/events/bloxdonalds'>Bloxdonalds</a>.
+content: |
+  !!INFOBOX TITLE:"Deleted Content" COLOR:"#ff0000" TEXT:"*\"Ehhhh... I'm kind of feeling a bit spooked right now. I have a big sense of like, deja vu.. Maybe next time...\"* - Tazer\n<small>This page has content that's already been deleted from the game, however will be kept purely for archival purposes.</small>"
+  
+  ##[Info]
+  Fizzy is a very minor NPC, and can only be seen infront of the Bloxdonalds.
 
-    - type: section
-      content:
-        title: Appearance
-        description: >-
-          Fizzy is a green cat wearing a Frying Pan, 
-          a light blue T-Shirt, 
-          white gloves, 
-          navy blue short shorts, 
-          and white shoes.
+  ##[Dialogue]
+  !!DLEMULATOR EID:"fizzyemulator" SID:"start" URL:"/assets/bussim/emulatorData/fizzy.json"
 
-    - type: section
-      content:
-        title: Dialogue
+  - "Hey there."
+    - hg[Option 1]: What are you doing?
+        - "I'm just standing around."
+            - Why are you here?
+                - "I won an art contest, that's why I'm here."
+    - hg[Option 2]: Why are you here?
+      - "I won an art contest, that's why I'm here."
 
-    - type: npcChat
-      content:
-        id: fizzy
-        startId: start
-        chatData: /bussim-assets/chatdata/npcs/fizzy.json
+  ##[Trivia]
+  - This character used to have the shortest amount of dialogue in the game.
+  - Due to controversey related to the person behind this NPC. This NPC has been removed.
+    - Controversey includes supporting proshipping, homophobia, racism, transphobia, among others.
 
-    - type: tree
-      content:
-        - name: "\"Hey there.\""
-          children:
-            - name: "Option 1: What are you doing?"
-              children:
-                - name: "\"I'm just standing around.\""
-                  children:
-                    - name: "Why are you here?"
-                      children:
-                        - name: "\"I won an art contest, that's why I'm here.\""
-            - name: "Option 2: Why are you here?"
-              children:
-                - name: "\"I won an art contest, that's why I'm here.\""
-
-    - type: section
-      content:
-        size: normal
-        title: Trivia
-
-
-    - type: tree
-      content:
-        - name: This character has the shortest amount of dialogue in the game.
-        - name: Due to controversey related to the person behind this NPC. This NPC has been removed.
-          children:
-            - name: Controversey includes supporting proshipping, homophobia, racism, transphobia, among others.
-
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/npcs/fizzy.webp
+  !!GALLERY [/assets/bussim/images/npcs/banana.webp]  

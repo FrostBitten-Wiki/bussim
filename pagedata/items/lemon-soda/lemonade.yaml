@@ -1,62 +1,34 @@
+editable: True
 page:
   title: Lemonade
-  description: Lemonade is a VIP / Admin-Exclusive item in Bus Simulator that acts similarly to Lemon Soda,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Lemonade
-  tags: Lemonade, event item, expired Lemonade
+  description: Lemonade is a VIP / Admin-Exclusive item in Bus Simulator that acts similarly to Lemon Soda, perhaps being the original Lemon Soda prior to being scrapped.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: lemonade, lemon soda 2, lemon
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-html:
   header:
-    title: Lemonade
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
-  pageContent:
-    - type: buttons
-      content:
-        buttons:
-          - ["Lemon Soda", "/bussim/items/lemon-soda"]
-          - ["<highlight>Lemonade</highlight>", "/bussim/items/lemon-soda/lemonade"]
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-    - type: section
-      content:
-        size: normal
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-    - type: infobox
-      content:
-        infoBoxTitle: 
-          - "Admin Exclusive Content"
-          - "#b00b69"
-        infoBoxDescription: >-
-          <i>"I saw some dude jumping around with some sort of rocket launcher made of cones a while ago. Not sure how it works, but if I were you, I wouldn't make them angry."</i> - Tazer
+content: |
+  !!TEMPLATE Admin
+  "Not Poison" -"Lemonade"
+  !!BUTTONS [Lemon Soda,location.href='/wiki/bussim/items/lemon-soda'|<highlight>Lemonade</highlight>,location.href='']
+  ##[Info]
+  Lemonade is a VIP / Admin-Exclusive item in Bus Simulator that acts similarly to Lemon Soda, perhaps being the original Lemon Soda prior to being scrapped.
+  \n\n
+  It also shares the same functionality, dealing around 20 damage as well as inflicting nausea on your character. 
+  
+  ##[Trivia]
+  - There exists a Lemonade item in Bus Stop Simulator, perhaps where this item originated from too; crafted by using a Lemon and a Cup from Bloxdonalds. 
+    - The one in Bus Stop Simulator though isn't particularly known for inflicting nausea.
 
-          <br>
-
-          <small>This page has content exclusive to admins of the game. This may include scrapped / hidden content that is normally inaccessible during normal gameplay.</small>
-
-    - type: quote
-      content:
-        quote: "Not Poison"
-        author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-         Lemonade is a VIP / Admin-Exclusive item in Bus Simulator that acts similarly to Lemon Soda, 
-         perhaps being the original Lemon Soda prior to being scrapped. 
-         It also has the same functionality, 
-         dealing around 20 damage as well as inflicting nausea on your character.
-
-    - type: section
-      content:
-        title: Trivia
-    - type: tree
-      content:
-        - name: There exists a Lemonade item in Bus Stop Simulator, perhaps where this item originated from too; crafted by using a Lemon and a Cup from Bloxdonalds.
-          children:
-            - name: The one in Bus Stop Simulator though isn't particularly known for inflicting nausea.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/Lemonade.webp
+  !!GALLERY [/assets/bussim/images/items/lemonade.webp]

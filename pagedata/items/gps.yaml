@@ -1,49 +1,37 @@
+editable: True
 page:
   title: GPS
-  description: The GPS is a Gamepass item in Bus Simulator. It costs 12 Robux.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, GPS
-  tags: gps, paid item, roblox radar thing
-
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
-  header:
-    title: GPS
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+  description: The GPS is a Gamepass item in Bus Simulator. It costs 12 R$.
     
-  pageContent:
-    - type: quote
-      content:
-        quote: "Shouldn't this be built-in to the bus already?"
-        author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The GPS is a Gamepass item in Bus Simulator. It costs 12 Robux.
-         
-         <br><br>
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: gps, gps tracker, event timer, dont know what else to put here
 
-         The location shown on the GPS is randomly generated, 
-         but some events have set locations to better reflect the situation. 
-         All the locations can be seen <a href="/bussim/locations/gps-locations">here</a>.
+  header:
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-    - type: section
-      content:
-        title: Trivia
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-    - type: tree
-      content:
-        - name: In the Crystal Cave, the GPS will only display "NO SIGNAL".
-        - name: In The Backwalls, the GPS turns into a glitchy mess, unreadable and useless to the player.
-        - name: If someone forces an event, the "Next event in (1-4)m" section of the GPS display will say "Next event in -9996m".
+content: |
+  "Shouldn't this be built-in to the bus already?" -"GPS"
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/gps.webp
-          - /bussim-assets/images/items/galleries/GPS_in_VR.webp
-          - /bussim-assets/images/items/galleries/tool.webp
+  ##[Info]
+  The GPS is a Gamepass item in Bus Simulator. It costs 12 R$.
+  \n\n 
+  The location shown on the GPS is randomly generated, but some events have set locations to better reflect the situation. 
+  \n
+  All the locations can be seen [here.](/bussim/others/gps-locations)
+
+  ##[Trivia]
+  - In The [Backwalls](/bussim/events/backwalls), the GPS turns into a glitchy mess, unreadable and useless to the player.
+  - If someone forces an event, the "Next event in (1-4)m" section of the GPS display will say "Next event in -9996m".
+  ##[Technical Trivia]
+  - If the GPS is held above the 5,000 stud limit, it'll always display "NO SIGNAL".
+
+  !!GALLERY [/assets/bussim/images/items/gps.webp]

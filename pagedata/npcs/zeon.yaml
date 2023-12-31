@@ -1,109 +1,122 @@
+editable: True
 page:
   title: Zeon
-  description: Zeon is an NPC that appears in the GOAT Station event. She is also a moderator for games NobleReign owns, including Bus Simulator and Kit Battle. 
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, zeon, zee
+  description: Zeon is an NPC that appears in the GOATed Gas Station and Coffee Shop event. She is also a moderator for games NobleReign owns, including Bus Simulator and Kit Battle.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim zeon npc
+  
+  tags: zeon, npc
 
-attributions:
-  - "Ported By FangedWerewolf (@noobbiom)"
-
-html:
   header:
     title: Zeon
-    description: >- 
-      Category: <a href="/bussim/npcs">NPCs</a>
-    image: ''
-    imageBanner: /bussim-assets/images/events/goat_station1.webp
+    description: |
+      Category: [NPCs](/bussim/npcs)
     
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         Zeon is an NPC that appears in the GOAT Station event. She is also a moderator for games NobleReign owns, including Bus Simulator and Kit Battle. 
-    - type: section
-      content:
-        title: Appearance
-        description: >-
-          She wears a purple zip-up jacket, purple shadow antlers, Brighteye's hair, black pants with purple stripes on the sides, 3D glasses, and a purple scarf.
-    - type: section
-      content:
-        title: Dialogue (Goat Station)
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-    - type: npcChat
-      content:
-        id: zeon
-        startId: start
-        chatData: /bussim-assets/chatdata/npcs/zeon.json
+attributions:
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-    - type: tree
-      content:
-        - name: "Variant 1: \"WHY ARE YOU IN MY HOUSE?!?!?!?!?!?!\""
-        - name: "Variant 2: \"oh, hey. friends usually <i>knock</i> first, ya know?\" <small>(Friend-Exclusive)</small>"
-          children:
-            - name: "Option 1: Hi."
-              children:
-                - name: "\"Uh... Hi???? What do you want from me???\""
-                  children:
-                    - name: "\"Option 1: Who lives in the other house?\""
-                      children:
-                        - name: "\"I dunno. The house is pretty empty. Maybe it's for sale?\""
-                    - name: "\"Option 2: D6 wants to talk about turtle skeletons. <small>(D6)</small>\""
-                      children:
-                        - name: "\"Aw hell yea. Those skeletons are so rad. Don't I also owe him 5 bucks...?\""
-            - name: "Option 2: Who are you?"
-              children:
-                - name: "Variant 1: \"Why... Why are you asking me this??? You broke into my house and gonna ask stuff about me?? Fine. I'm Zeon. I moderate the bus statistics and stuff like it. I don't get paid enough for it...\""
-                - name: "Variant 2: \"Did you forget? I'm Zeon. The one friend thats a loser, and probably your only friend that is a girl.\" <small>(Friend-Exclusive)</small>"
-            - name: "Option 3: michael"
-              children:
-              - name: "michael"
-            - name: "Option 4: Do you have a stick of RAM in your house? (Tazer)"
-              children:
-                - name: "\"Uh... Yeah...? Why?\""
-                  children:
-                    - name: "Option 1: Tazer wanted one."
-                      children:
-                        - name: "Oh, alrighty. Dunno why he didn;t just ask me... Anyways, it's in my room. Down the hall and to the left."
-                    - name: "Option 2: Just curious."
-                      children:
-                        - name: "Ooookkayyy....?"
-            - name: "\"Option 5: Just checking in. <small>(Friend-Exclusive)</small>\""
-              children:
-                - name: "\"Well, hey there.\""
-            - name: "\"Option 6: Sorry! Didn't know I was breaking in... <small>(Stranger-Exclusive)</small>\""
-              children:
-                 - name: "\"How did you just- Okay.. Just... Get outta here Or don't. I'm an NPC, I can't force you to do something.\""
-                      
-    - type: section
-      content:
-        size: small
-        title: Airhorn-Related Dialogue
-        description: >- 
-          <br>
-          If the airhorn is used repeatedly in proximity to Zeon:
+content: |
+  ##[Info]
+  Zeon is an NPC that appears in the [GOATed Gas Station](/bussim/events/goated-gas-station) and [Coffee Shop](/bussim/events/coffee-shop) event. She is also a moderator for games NobleReign owns, including Bus Simulator and Kit Battle.
 
-    - type: tree
-      content:
-        - name: "\"You know, I'm trying to read here...\""
+  ##[Appearance]
+  She wears a purple zip-up jacket, purple shadow antlers, Brighteye's hair, black pants with purple stripes on the sides, 3D glasses, and a purple scarf.
 
-    - type: text
-      content:
-        text: >- 
-          If the airhorn is used repeatedly in proximity to Zeon for a second time and so on:
+  ##[Favourite Drink]
+  Zeon's favourite drink is [Strawberry Smoothie](/bussim/events/coffee-shop). This gives you 1 Passenger Rep.
 
-    - type: tree
-      content:
-        - name: "\"Ugh....\""
+  ##[Dialogue (GOATed Gas Station)]
+  !!DLEMULATOR EID:"gas_zeonemulator" SID:"start" URL:"/assets/bussim/emulatorData/zeon.json"
 
-    - type: section
-      content:
-        size: normal
-        title: Trivia
-        
-    - type: tree
-      content:
-        - name: The "michael" dialogue is a reference to "<a href='https://www.roblox.com/games/8054462345/Michaels-Zombies'>Michael Zombies</a>", which is also a reference to the michael meme. 
-        - name: Zeon used to be part of the furry community, but left for personal reasons.
-        - name: The book she reads is a chunk of the "<a href='https://en.wikipedia.org/wiki/Bee_Movie'>Bee Movie</a>" script.
-        - name: Zeon originally had a higher pitched bebebese sound but has been replaced.
-        - name: Zeon is the one of the only known NPCs to provide choices specifically to those who aren't friends to her, and to those who are. 
+  - hg[Variant 1]: "WHY ARE YOU IN MY HOUSE?!?!?!?!?!?!"
+  - hg[Variant 2]: "oh, hey. friends usually _knock_ first, ya know?" (Friend-Exclusive)
+      - hg[Option 1]: Hi.
+          - "Uh... Hi???? What do you want from me???"
+              - hg[Option 1]: Who lives in the other house?
+                  - "I dunno. The house is pretty empty. Maybe it's for sale?"
+              - hg[Option 2]: D6 wants to talk about turtle skeletons. (D6)
+                  - "Aw hell yea. Those skeletons are so rad. Don't I also owe him 5 bucks...?"
+      - hg[Option 2]: Who are you?
+          - hg[Variant 1]: "Why... Why are you asking me this??? You broke into my house and gonna ask stuff about me?? Fine. I'm Zeon. I moderate the bus statistics and stuff like it. I don't get paid enough for it..."
+          - hg[Variant 2]: "Did you forget? I'm Zeon. The one friend thats a loser, and probably your only friend that is a girl." (Friend-Exclusive)
+      - hg[Option 3]: michael
+          - "michael"
+      - hg[Option 4]: Do you have a stick of RAM in your house? (Tazer)
+          - "Uh... Yeah...? Why?"
+              - hg[Option 1]: Tazer wanted one.
+                  - "Oh, alrighty. Dunno why he didn't just ask me... Anyways, it's in my room. Down the hall and to the left."
+              - hg[Option 2]: Just curious.
+                  - "Ooookkayyy....?"
+      - hg[Option 5]: Just checking in. (Friend-Exclusive)
+          - "Well, hey there."
+      - hg[Option 6]: Sorry! Didn't know I was breaking in... (Stranger-Exclusive)
+          - "How did you just- Okay.. Just... Get outta here Or don't. I'm an NPC, I can't force you to do something."
+
+  ###[Airhorn-Related Dialogue]
+  - If the airhorn is used repeatedly in proximity to Zeon
+    - "You know, I'm trying to read here..."
+  - If the airhorn is used repeatedly in proximity to Zeon for a second time and so on
+    - "Ugh...."
+
+  ##[Dialogue (Coffee Shop)]
+  - hg[Variant 1]: "Oh uh... hey there."
+  - hg[Variant 2]: "omg hiii!! haiii!!! :D" (Friend-Exclusive)
+  - hg[Variant 3]: "Hey, what's up?"
+  - hg[Variant 4]: "Uuhh... Do I know you...?"
+  - hg[Variant 5]: "Um.. Hhhii...?"
+    - hg[Option 1]: Who are you?
+      - "Um... I'm Zeon."
+        - hg[Option 1]: What're you doing here?
+          - "I'm just hanging out here. Why...?"
+            - hg[Option 1]: Just curious.
+              - "Oookkkayyy....?"
+            - hg[Option 2]: Waiting on something?
+              - "Not really, no."
+    - hg[Option 2]: Haven't I seen you before?
+      - "No idea who you are. I don't recall seeing you ever before."
+    - hg[Option 3]: Want something to drink?
+      - "Oh, how nice of you!"
+      - "Can you get me a Vanilla Latte? I'd appreciate it."
+      - "If you don't mind paying for it, either!"
+    - hg[Option 4]: What are you doing here?
+      - "Am i not allowed to go to places now?"
+      - "Just messin' with ya."
+      - "I like this place! Their drinks are pretty good, and I sometiems work behind the counter."
+      - "...whenever I need some extra funds. My rent is kind of due..."
+        - hg[Option 1]: Why arent you behind the counter then?
+          - "It's my day off."
+        - hg[Option 2]: That's rough
+    - hg[Option 5]: What's on your mind?
+      - "A fair amount of stuff, Here's one for ya."
+        - hg[Variant 1]: "If you see an English gentleman wearing a coat and a tophat, as well as a small child wearing blue with him, don't be afraid to give them a puzzle! They're both really good at solving 'em."
+        - hg[Variant 2]: "michael"
+        - hg[Variant 3]: "I've heard that there's a bus that's in some sort of time loop. I don't know how true it is, but it sounds like a lot of bologna to me."
+        - hg[Variant 4]: "I'm normally not this social... But you somehow got me to open up!"
+        - hg[Variant 5]: "uhm uh uuhhhhh..... ur my bestie!!!!"
+        - hg[Variant 6]: "Sometimes I've seen a bus that has a lot of other strange stuff on or around it, as well as some dude holding some Blueprints."
+          - "How do they do it...?"
+        - hg[Variant 7]: "Hey, if you see a black wolf with glasses and a blue shirt on your bus, tell 'em I said hi!"
+        - hg[Variant 8]: "You're not funny if you spam the Airhorn. Not sorry to break the news to ya."
+        - hg[Variant 9]: "The Blox Deck is a pretty cool system. Really easy to modify!"
+        - hg[Variant 10]: "I heard there's a ride out there that takes over four years to fully ride, and has signs saying that 'the ride never ends'."
+          - "I hope those people are okay...!"
+        - hg[Variant 11]: "Hey, who's that standing directly behind you...?"
+      - hg[Option 6]: Nevermind.
+
+  ###[When the player gives the incorrect drink]
+  - "Oh, uhm... I didn't ask for this."
+    - Oops.
+
+  ##[Trivia]
+  - The "michael" dialogue is a reference to "[Michael Zombies](https://www.roblox.com/games/8054462345/Michaels-Zombies)", which is also a reference to the michael meme.\n\n
+  - Zeon used to be part of the furry community, but left for personal reasons.\n\n
+  - The book she reads is a chunk of the "[Bee Movie](https://en.wikipedia.org/wiki/Bee_Movie)" script.\n\n
+  - Zeon originally had a higher pitched bebebese sound but has been replaced.
+    - It has been replaced again with the December 25, 2023 update.
+  - Zeon is the one of the only known NPCs to provide choices specifically to those who aren't friends to her, and to those who are.
+
+  !!GALLERY [/assets/bussim/images/npcs/zeon.webp]  

@@ -1,180 +1,106 @@
+editable: True
 page:
   title: Tazer
-  description: Tazer is an NPC that appears in the GOAT Station event. He, like Zeon, is a moderator for both games Noble owns, being Bus Simulator and Kit Battle.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Tazer
+  description: NPCDescription
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npc
+  
+  tags: Tazer, npc
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: Tazer
-    description: >- 
-      Category: <a href="/bussim/npcs">NPCs</a>
-    image: ''
-    imageBanner: /bussim-assets/images/events/goat_station1.webp
+    description: |
+      Category: [NPCs](/bussim/npcs)
     
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         Tazer is an NPC that appears in the GOAT Station event. He, like <a href='/bussim/npcs/zeon'>Zeon</a>, is a moderator for both games Noble owns, being Bus Simulator and Kit Battle.
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-    - type: section
-      content:
-        title: Appearance
-        description: >-
-          Tazer wears a set based off of the Cyber Critter 9004, 
-          for both his clothing as well as his visor. 
-          He also has a PDA on his wrist, 
-          a pair of wings, 
-          a fabulous ladies hat, 
-          and both a banner and a relay pack on his back.
+attributions:
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-    - type: section
-      content:
-        title: Dialogue
+content: |
+  ##[Info]
+  Tazer is an NPC that appears in the [GOATed Gas Station](/bussim/events/goated-gas-station) and [Coffee Shop](/bussim/events/coffee-shop) event. He, like, is a moderator for both games Noble owns, being Bus Simulator and Kit Battle.
 
-    - type: npcChat
-      content:
-        id: tazer
-        startId: start
-        chatData: /bussim-assets/chatdata/npcs/tazer.json
+  ##[Appearance]
+  Tazer wears a set based off of the Cyber Critter 9004, for both his clothing as well as his visor. He also has a PDA on his wrist, a pair of wings, a fabulous ladies hat, and both a banner and a relay pack on his back.
 
-    - type: tree
-      content:
-        - name: "Variant 1: \"Beep boop?\""
-        - name: "Variant 2: \"zzzzz.... Wha?... Oh, what's up?\""
-        - name: "Variant 3: \"Can you believe the prices of gas these days? It cost me 55 passenger rep just to fill up the gas tank on my Mini Bus!\""
-        - name: "Variant 4: \"Am I finally out of detention? Oh, you're not the principal. What do you want?\""
-          children:
-            - name: "Option 1: Do you know about the gas station over there?"
-              children:
-                - name: "\"Oh, that place? Don't know much about it, but I drove my Mini-Bus around in there a few days ago and got kicked out. They said something like..\""
-                - name: "<a href='/bussim/npcs/disc'>Disc</a>: \"Stop driving your Mini-Bus around in places it's not supposed to be in!\""
-                - name: "<a href='/bussim/npcs/green'>Green</a>: \"I swear to God, I'm gonna lose it if I have to clean up your skid marks again! You gotta go!\""
-                - name: "\"But driving is fun..!\""
-            - name: "Option 2: How long have you been here for?"
-              children:
-                - name: "\"I don't know, like, probably a few hours. I think...\""
-            - name: "Option 3: What are you doing here?"
-              children:
-                - name: "\"I drove my Mini-Bus inside the school, and one of the teachers caught me and confiscated it.\""
-            - name: "Option 4: Let's Talk!"
-              children:
-                - name: "Variant 1: \"If you really want to.\""
-                - name: "Variant 2: \"Well, uh. Not really sure what to talk about, but i suppose we could chat.\""
-                  children:
-                    - name: "Variant 1: \"I've been researching a lot about unusual places lately. Apparently, there's this place called 'The Backwalls'. Not sure if this is real, but i really want to explore around there if it is. Apparently, there's this tall shadow figure that chases you if you aren't careful, though. Hopefully they aren't too common.\""
-                    - name: "Variant 2: \"This is the most bogus way to spend my free time, honestly. The teachers here are so strict about 'No driving Mini Buses on campus!' but I never see them enfore the that rule on anyone else! It makes sense that I'm the only one who gets in trouble for it.\""
-                    - name: "Variant 3: \"I've been modifying the heck out of my Mini Bus lately. I hope the principal doesn't take it away for too long. I just got it a few days ago, and I've already started to get pretty attached to it.\""
-                      children:
-                        - name: "Option 1: Why not just sneak it out and drive away?"
-                          children:
-                            - name: "\"If I wasn't being watched by the teachers so closely, don't you think I would have already DONE that by now?\""
-                        - name: "Option 2: F"
-                    - name: "Variant 4: \"I saw some dude jumping around with some sort of rocket launcher made of cones a while ago. Not sure how it works, but if I were you, I wouldn't make them angry.\""
-                    - name: "Variant 5: \"With kind regards, from Tazer.\""
-                      children:
-                        - name: "<small>(The player then gets flung.)</small>"
-                    - name: "Variant 6: \"I'm a bit hungry. How about if you can find a stick of RAM and bring it back to me, I can give you... How about 2 Driver Rep in return?\""
-                      children:
-                        - name: "Option 1: There's no way you said it unironically."
-                          children:
-                            - name: "\"Yeah, what's it to you? Do you want the rep or not?\""
-                              children:
-                                - name: "Option 1: Sure, I guess so."
-                                  children:
-                                    - name: "\"Cool. I don't know where you'd find one, though. Maybe <a href='/bussim/npcs/zeon'>Zeon</a> has one?\""
-                                - name: "Option 2: No."
-                                  children:
-                                    - name: "\":(\""
-                        - name: "Option 2: Sure."
-                          children:
-                            - name: "\"Awesome. I don't know where you'd find some though. Maybe <a href='/bussim/npcs/zeon'>Zeon</a> has a stick?\""
-                        - name: "I have your RAM <small>(Only appears if the player already has RAM)</small>"
-                          children:
-                            - name: "<small>(Proceeds to Option 5 Variants 1 - 2)</small>"
-            - name: "Option 5: I'm back, and I have your RAM. <small>(Only appears if the player has the ram stick)</small>"
-              children:
-                - name: "Variant 1: \"Wait, really? Thanks! Here's that rep I promised.\""
-                - name: "Variant 2: \"Here's your rep, now get lost! Haha just kidding! Feel free to talk to me again sometime.\""
-                  children:
-                    - name: "<small>(The player then receives 2 Driver rep.)</small>"
-                - name: "Variant 3 <small>(Illegal RAM)</small>: \"Wait, really? Hey, wait a second.. This RAM is unmarked! Bootleg! Are you trying to scam me? Well, this'll be the last scam you'll ever pull.\""
-                  children:
-                    - name: "<small>(The player then explodes)</small>"
-                - name: "Variant 4 <small>(If already completed)</small>: \"Uhh.. I kinda feel like I've done this before.. I don't really feel that hungry anymore..\""
-            - name: "Option 6: Nevermind."
-              children:
-                - name: "Variant 1: \"Then stop wasting my time.\""
-                - name: "Variant 2: \"Cya then.\""
-                - name: "Variant 3: \"Bruh...\""
-                - name: "Variant 4: \"With regards from Tazer...\""
-                  children:
-                    - name: "<small>(The player is then flung)</small>"
-                - name: "Variant 5: \"Tazer jumpscare\""
-                  children:
-                    - name: "<small>(Tazer then kills the player by \"jumpscaring\" them.)</small>"
+  ##[Favourite Drink (Coffee Shop)]
+  Tazer's favourite drink is [Cup of Glowstick Fluid](/bussim/events/coffee-shop). This gives you 3 Passenger Rep.
 
-    - type: section
-      content:
-        size: small 
-        title: Airhorn-Related Dialogue
-        description: >- 
-          <br>
-          If the airhorn is used repeatedly in proximity to Tazer:
+  ##[Dialogue Emulator]
+  !!DLEMULATOR EID:"tazeremulator" SID:"start" URL:"/assets/bussim/emulatorData/tazer.json"
 
-    - type: tree
-      content:
-        - name: "\"It's already hard enough being in detention, can you not?\""
+  - hg[Variant 1]: "Beep boop?"
+  - hg[Variant 2]: "zzzzz.... Wha?... Oh, what's up?"
+  - hg[Variant 3]: "Can you believe the prices of gas these days? It cost me 55 passenger rep just to fill up the gas tank on my Mini Bus!"
+  - hg[Variant 4]: "Am I finally out of detention? Oh, you're not the principal. What do you want?"
+      - hg[Option 1]: Do you know about the gas station over there?
+          - "Oh, that place? Don't know much about it, but I drove my Mini-Bus around in there a few days ago and got kicked out. They said something like.."
+          - [Disc](/bussim/npcs/disc): "Stop driving your Mini-Bus around in places it's not supposed to be in!"
+          - [Green](/bussim/npcs/green): "I swear to God, I'm gonna lose it if I have to clean up your skid marks again! You gotta go!"
+          - "But driving is fun..!"
+      - hg[Option 2]: How long have you been here for?
+          - "I don't know, like, probably a few hours. I think..."
+      - hg[Option 3]: What are you doing here?
+          - "I drove my Mini-Bus inside the school, and one of the teachers caught me and confiscated it."
+      - hg[Option 4]: Let's Talk!
+          - hg[Variant 1]: "If you really want to."
+          - hg[Variant 2]: "Well, uh. Not really sure what to talk about, but i suppose we could chat."
+              - hg[Variant 1]: "I've been researching a lot about unusual places lately. Apparently, there's this place called 'The Backwalls'. Not sure if this is real, but i really want to explore around there if it is. Apparently, there's this tall shadow figure that chases you if you aren't careful, though. Hopefully they aren't too common."
+              - hg[Variant 2]: "This is the most bogus way to spend my free time, honestly. The teachers here are so strict about 'No driving Mini Buses on campus!' but I never see them enfore the that rule on anyone else! It makes sense that I'm the only one who gets in trouble for it."
+              - hg[Variant 3]: "I've been modifying the heck out of my Mini Bus lately. I hope the principal doesn't take it away for too long. I just got it a few days ago, and I've already started to get pretty attached to it."
+                  - hg[Option 1]: Why not just sneak it out and drive away?
+                      - "If I wasn't being watched by the teachers so closely, don't you think I would have already DONE that by now?"
+                  - hg[Option 2]: F
+              - hg[Variant 4]: "I saw some dude jumping around with some sort of rocket launcher made of cones a while ago. Not sure how it works, but if I were you, I wouldn't make them angry."
+              - hg[Variant 5]: "With kind regards, from Tazer."
+                  - The player then gets flung.
+              - hg[Variant 6]: "I'm a bit hungry. How about if you can find a stick of RAM and bring it back to me, I can give you... How about 2 Driver Rep in return?"
+                  - hg[Option 1]: There's no way you said it unironically.
+                      - "Yeah, what's it to you? Do you want the rep or not?"
+                          - hg[Option 1]: Sure, I guess so.
+                              - "Cool. I don't know where you'd find one, though. Maybe [Zeon"(/bussim/npcs/zeon) has one?]
+                          - hg[Option 2]: No.
+                              - ":("
+                  - hg[Option 2]: Sure.
+                      - "Awesome. I don't know where you'd find some though. Maybe [Zeon"(/bussim/npcs/zeon) has a stick?]
+                  - I have your RAM (Only appears if the player already has RAM)
+                      - Proceeds to hg[Option 5] Variants 1 - 2
+      - hg[Option 5]: I'm back, and I have your RAM. (Only appears if the player has the ram stick)
+          - hg[Variant 1]: "Wait, really? Thanks! Here's that rep I promised."
+          - hg[Variant 2]: "Here's your rep, now get lost! Haha just kidding! Feel free to talk to me again sometime."
+              - The player then receives 2 Driver rep.
+          - hg[Variant 3] (Illegal RAM): "Wait, really? Hey, wait a second.. This RAM is unmarked! Bootleg! Are you trying to scam me? Well, this'll be the last scam you'll ever pull."
+              - The player then explodes
+          - hg[Variant 4] (If already completed): "Uhh.. I kinda feel like I've done this before.. I don't really feel that hungry anymore.."
+      - hg[Option 6]: Nevermind.
+          - hg[Variant 1]: "Then stop wasting my time."
+          - hg[Variant 2]: "Cya then."
+          - hg[Variant 3]: "Bruh..."
+          - hg[Variant 4]: "With regards from Tazer..."
+              - The player is then flung
+          - hg[Variant 5]: "Tazer jumpscare"
+              - Tazer then kills the player by "jumpscaring" them.
+  
+  ###[Airhorn-Related Dialogue]
+  - If the airhorn is used repeatedly in proximity to Tazer
+    - "It's already hard enough being in detention, can you not?"
+  - If the airhorn is used repeatedly in proximity to Tazer for a second time
+    - ""No, like actually stop it. I'm not even allowed to leave the room."
+  - If the airhorn is used repeatedly in proximity to Tazer for a third time
+    - "And I thought I was obnoxious..."
+  - If the airhorn is used repeatedly in proximity to Tazer for a fourth time and so on
+    - "With regards from Tazer."
+      - The player then gets flung
+  
+  ##[Trivia]
+  - When you visit GoatedGas, you're able to find a discarded note in the trash can, inspecting it gives you what is written on the note:
+    - To Disc & Green, I am highly unsatisfied with the way your services has been. Not only have you applied spike strips to the door, thus popping the tires on my Mini-Bus, and charged me for spare tires, but you have also charged me double on gas when refueling my Mini-Bus due to "being too reckless." I find it extremely unfair that you guys are punishing me this way, and I request that you drop the doubled charges at once. I cannot afford to use 55 passenger rep on one refuel. - Signed, Tazer
+  -Tazer is the only person to have a custom reskin of the Mini-Bus, being a Race Car.
+    - You can also find and use the same skin in [Minibus Racing](https://www.roblox.com/games/5556164542/Minibus-Racing-Very-Early-Pre-Alpha) by purchasing it in the shop, as well as in Kit Battle, as a cosmetic for him.
+  - It is entirely possible to get the Illegal RAM dialogue without assistance of an Admin by double-clicking Tazer to where he has two versions of himself, and swiftly double-clicking the RAM option.\n\n
+  - Tazer, [D6](/bussim/npcs/d6), and [MLG](/bussim/npcs/mlg) are fully capable of killing the player by their normal dialogue options, however doesn't actually kill them when annoyed via an Airhorn, compared to other more passive NPCs like [Frostbite](/bussim/npcs/frostbite).
 
-    - type: section
-      content:
-        title: "If the airhorn is used repeatedly in proximity to Tazer for a second time:"
-        size: small
-
-    - type: tree
-      content:
-        - name: "\"No, like actually stop it. I'm not even allowed to leave the room.\""
-
-    - type: section
-      content:
-        size: small
-        title: "If the airhorn is used repeatedly in proximity to Tazer for a third time:"
-
-    - type: tree
-      content:
-        - name: "\"And I thought I was obnoxious...\""
-
-    - type: section
-      content:
-        size: small
-        title: "If the airhorn is used repeatedly in proximity to Tazer for a fourth time and so on:"
-
-    - type: tree
-      content:
-        - name: "\"With regards from Tazer.\""
-          children:
-            - name: "<small>(The player then gets flung.)</small>"
-
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: "When you visit GoatedGas, you're able to find a discarded note in the trash can, inspecting it gives you what is written on the note:"
-          children:
-            - name: "To Disc & Green, I am highly unsatisfied with the way your services has been. Not only have you applied spike strips to the door, thus popping the tires on my Mini-Bus, and charged me for spare tires, but you have also charged me double on gas when refueling my Mini-Bus due to \"being too reckless.\" I find it extremely unfair that you guys are punishing me this way, and I request that you drop the doubled charges at once. I cannot afford to use 55 passenger rep on one refuel. - Signed, Tazer"
-        - name: "Tazer is the only person to have a custom reskin of the Mini-Bus, being a Race Car."
-          children:
-            - name: "You can also find and use the same skin in <a href='https://www.roblox.com/games/5556164542/Minibus-Racing-Very-Early-Pre-Alpha'>Minibus Racing</a> by purchasing it in the shop, as well as in Kit Battle, as a cosmetic for him."
-        - name: "It is entirely possible to get the Illegal RAM dialogue without assistance of an Admin by double-clicking Tazer to where he has two versions of himself, and swiftly double-clicking the RAM option."
-        - name: "Tazer, <a href='/bussim/npcs/d6'>D6</a>, and <a href='/bussim/npcs/mlg'>MLG</a> are fully capable of killing the player by their normal dialogue options, however doesn't actually kill them when annoyed via an Airhorn, compared to other more passive NPCs like <a href='/bussim/npcs/frostbite'>Frostbite</a>."
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/npcs/tazer.webp
+  !!GALLERY [/assets/bussim/images/npcs/tazer.webp]  

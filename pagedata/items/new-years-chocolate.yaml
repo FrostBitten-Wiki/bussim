@@ -1,0 +1,50 @@
+editable: True
+page:
+  title: New Years Chocolate
+  description: New Years Chocolate is an event item that is obtained by playing Bus Simulator during the New Years 2023 event for 30 minutes.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, cafe
+
+  tags: new years mug, new years permanent, new years chocolate
+
+  header:
+    title: Kernels
+    description: |
+      Category: [Items](items)
+    image: "/bussim-assets/images/banner.jpg"
+    imageBanner: /assets/bussim/images/banner.jpg
+    
+attributions:
+  - Ported by FangedWerewolf (@noobbiom)
+
+content: |
+ "a tacky mug given out to celebrate the New Years." -"New Years Chocolate"
+ ##[Info]
+ New Years Chocolate is an event item that is obtained by playing Bus Simulator during the New Years 2023 event for 30 minutes.
+ \n 
+ On the first time you get a New Year's reward, you'll get a random reward as per usual, but also obtain this mug at the same time. 
+ \n\n 
+ When you click while holding out the mug, you'll take a sip out of it, which, after a short delay, heals you rapidly for 15 HP. 
+ \n 
+ This is rivalled by tools like the Cola, which heal immediately and for a greater amount, but works well enough if you don't have any other healing tools at the moment. 
+ \n\n 
+ Although the mug has hot cocoa in it, sipping while in an event like Blizzard does not create any special effects, meaning you will still die eventually if you solely rely on this for a healing tool.
+ \n 
+ The mug also has a unique sipping animation which differs from other drink tools. 
+ 
+ ##[Appearance]
+ The mug reads "HAPY NEW YEAR", in the same font as the game's icon, in an underlined font.
+ \n 
+ It is also colored dark blue, like the bus, and has some hot cocoa with marshmallows inside. 
+ \n
+ The mug also produces a faint steam effect when held out. 
+ \n\n
+ Drinking it would cause the player to receive a visible fog coming out the mouth, replicating condensation. 
+
+ ##[Trivia]
+ - This item was made by ComeOutTheCloset_1, who also made the Popcorn Bucket and Balloon items.
+ - The delay is based upon the gulp in Cola's drink sound.
+ - It isn't clear if this is the same or different than the kind of hot cocoa that can be made in the Cafe.
+ - This is one of the only event items that are classified as drinks, the others being the Million Colas.
+
+ !!GALLERY [/assets/bussim/images/items/new-years-chocolate.webp]

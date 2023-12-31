@@ -1,117 +1,59 @@
+editable: True
 page:
   title: MLG
-  description: MLGBudderCD (Also known as MLG) is an NPC in the Goat Station event.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, MLG
+  description: NPCDescription
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim mlg npc
+  
+  tags: mlg, npc
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: MLG
-    description: >- 
-      Category: <a href="/bussim/npcs">NPCs</a>
-    image: ''
-    imageBanner: /bussim-assets/images/events/goat_station1.webp
+    description: |
+      Category: [NPCs](/bussim/npcs)
     
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         MLGBudderCD (Also known as MLG) is an NPC in the <a href='/bussim/events/goated-gas-station'>Goat Station</a> event.
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-    - type: section
-      content:
-        title: Appearance
-        description: >-
-          MLG is a light-blue toned man that wears the Overseer Guardia and Crown of the Overseer Overlord, 
-          Adurite Antlers, 
-          Cursed Flames, 
-          Badass Shades for Badass Individuals, 
-          a Pansexual Bandana, 
-          a Bloxdonalds Elite Security shirt with a Flex Tape logo over it. 
-          Fire Overlord Wings, 
-          Charcoal the Cutebold's Tail, 
-          and a custom made "MLG Pants".
+attributions:
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-    - type: section
-      content:
-        title: Dialogue
+content: |
+  ##[Info]
+  MLGBudderCD (Also known as MLG) is an NPC in the [GOATed Gas Station](/bussim/events/goated-gas-station) and [Coffee Shop](/bussim/events/coffee-shop) event.
 
-    - type: npcChat
-      content:
-        id: mlg
-        startId: start
-        chatData: /bussim-assets/chatdata/npcs/mlg.json
+  ##[Favourite Drink]
+  MLG's favourite drink is [Pumpkin Spice Mocha](/bussim/events/coffee-shop). This gives you 1 Passenger Rep.
 
-    - type: tree
-      content:
-        - name: "\"Hey, what are you doing here? Did we leave the door open?\""
-          children:
-            - name: "Option 1: Hi! I'm here to take your stuff."
-              children:
-                - name: "\"Don't, or I'll make sure you never steal anything again.\""
-                  children:
-                    - name: "Option 1: Sheesh, alright."
-                      children:
-                        - name: "\"Good.\""
-                    - name: "Option 2: Don't care."
-                      children:
-                        - name: "\"Don't.\""
-                          children:
-                            - name: "Option 1: WOAH, okay! Fine! I won't!"
-                              children:
-                                - name: "\"Good.\""
-                            - name: "Option 2: I'm not scared of you."
-                              children:
-                                - name: "<small>(The Player Dies)</small>"
-            - name: "Option 2: Bye."
-            - name: "Option 3: Who are you?"
-              children:
-                - name: "\"Oh, uh, my name is MLG. It's short for MLGBudderCD. I'm only here because of how dirt cheap the rent is around here.\""
-                  children:
-                    - name: "Option 1: Tell me more."
-                      children:
-                        - name: "\"Ok sure, I play video games a lot and spend a lot of time trying to survive in this place. Living off of gas station food really does a number to the body, but I still manage.\""
-                          children:
-                            - name: "Option 1: Do you have any friends?"
-                              children:
-                                - name: "\"A wee bit hurtful that you would need to ask, but yes, I do have friends. In and out of this town. Green, D6, Zeon, and Tazer are a handful of them that live here. Noble's another one, but I don't see him in town often. Now go away, I've had enough socializing about myself for now.\""
-                            - name: "Option 2: Neat, bye."
-                    - name: "Option 2: 'Kay, bye."
+  ##[Dialogue (GOATed Gas Station)]
+  !!DLEMULATOR EID:"goat_mlgemulator" SID:"start" URL:"/assets/bussim/emulatorData/mlg.json"
 
-    - type: section
-      content:
-        size: small
-        title: Airhorn-Related Dialogue
-        description: >- 
-          <br>
-          If the airhorn is used repeatedly in proximity to MLG:
+  - "Hey, what are you doing here? Did we leave the door open?"
+    - hg[Option 1]: Hi! I'm here to take your stuff.
+        - "Don't, or I'll make sure you never steal anything again."
+            - hg[Option 1]: Sheesh, alright.
+                - "Good."
+            - hg[Option 2]: Don't care.
+                - "Don't."
+                    - hg[Option 1]: WOAH, okay! Fine! I won't!
+                        - "Good."
+                    - hg[Option 2]: I'm not scared of you.
+                        - (The Player Dies)
+    - hg[Option 2]: Bye.
+    - hg[Option 3]: Who are you?
+        - "Oh, uh, my name is MLG. It's short for MLGBudderCD. I'm only here because of how dirt cheap the rent is around here."
+            - hg[Option 1]: Tell me more.
+                - "Ok sure, I play video games a lot and spend a lot of time trying to survive in this place. Living off of gas station food really does a number to the body, but I still manage."
+                    - hg[Option 1]: Do you have any friends?
+                        - "A wee bit hurtful that you would need to ask, but yes, I do have friends. In and out of this town. Green, D6, Zeon, and Tazer are a handful of them that live here. Noble's another one, but I don't see him in town often. Now go away, I've had enough socializing about myself for now."
+                    - hg[Option 2]: Neat, bye.
+            - hg[Option 2]: 'Kay, bye.
 
-    - type: tree
-      content:
-        - name: "\"...\""
+  ##[Dialogue (Coffee Shop)]
+  There is currently no available emulator for MLG's Coffee Shop dialogue.
 
-    - type: section
-      content:
-        size: small
-        title: "If the airhorn is used repeatedly in proximity to MLG for a second time and so on:"
+  ##[Trivia]
+  - MLG is one of the few NPCs that won't instantly kill you when annoyed, but gets real close to doing so.
 
-    - type: tree
-      content:
-        - name: "<small>(The player is thrown out of the window at high velocity with only 1 health. The player also earns the <a href='https://www.roblox.com/badges/2141806851/DEFENESTRATED'>DEFENSTRATED</a> badge.)</small>"
-
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: "MLG is one of the few NPCs that won't instantly kill you when annoyed, but gets real close to doing so."
-
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/npcs/mlg.webp
+  !!GALLERY [/assets/bussim/images/npcs/mlg.webp]  

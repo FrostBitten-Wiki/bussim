@@ -1,36 +1,29 @@
+editable: True
 page:
   title: Sign
-  description: The sign is an item located at the third floor.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Sign
-  tags: sign, bus item, item that prevents you from jumping
+  description: The sign is an item located at the third floor. It is placed next to the side of a chair.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: item that cripples me, sign, most basic item ever
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Sign
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: quote
-      content:
-        quote: "I'm angry about this"
-        author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-          The sign is an item located at the third floor. 
-          It is placed next to the side of a chair. 
-          The sign simply says 'I HAVE A SIGN'. 
-          Upon clicking with it, the player will jump very slightly a bunch of times.
-          <br><br>
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/sign.webp
-          
+content: |
+  "I'm angry about this" -"Sign"
+
+  ##[Info]
+  The sign is an item located at the third floor. It is placed next to the side of a chair.
+  \n\n 
+  The sign simply says 'I HAVE A SIGN'. Upon clicking with it, the player will jump very slightly a bunch of times. 
+
+  !!GALLERY [/assets/bussim/images/items/sign.webp]

@@ -1,124 +1,28 @@
+editable: True
 page:
-  title: Question Time
-  description: Question Time is an event where Ectta runs up to the bus, 
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Question Time
-  tags: question time, ectta on road, event
-
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
-html:
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
+
   header:
-    title: Question Time
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>QuestionTime</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/events/questiontime1.webp
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: infobox
-      content:
-        infoBoxTitle: 
-          - "Work In Progress"
-          - "#b0690b"
-        infoBoxDescription: >-
-          <i>"not much to talk here, but.. well.."</i> - efeuc
+attributions: []
 
-          <br>
+content: |
+  ##[Info]
+  Placeholder Info
 
-          <small>This page is a stub, it may not contain all of the information in the game; so adding more information to this page is always appreciated!</small>
-    - type: section
-      content:
-        title: Info
-        description: >- 
-          Question Time is an event where <a href='/bussim/npcs/ectta'>Ectta</a> runs up to the bus, 
-          making it stop, 
-          and asks you a question. 
-          You will get a custom chat tag based off of what you answer for 7 minutes. 
-          If you do not answer the question on time, 
-          you will get an [abstained] tag.
+  ##[Trivia]
+  - Trivia Here
 
-          <br><br>
-
-          After the question has expired for everyone; 
-          answered or not, 
-          <a href='/bussim/npcs/ectta'>Ectta</a> will then walk onto the sidewalk and dance as the bus moves onwards, 
-          ending the event.
-
-          <br><br>
-
-          Currently there are 43 variations of this event so far, 
-          if there are any missing, 
-          take a screenshot of the question and the answers and list them down in here, 
-          thanks! 
-          <small>(Also this is very likely subjected to change with Noble adding more variations in the future)</small>
-
-    - type: section
-      content:
-        title: Questions
-
-    - type: table
-      content:
-        imageSize: 128   128
-        widthSize: 100
-        titles:
-          - "Question"
-          - "Choices"
-        items:
-          - ["Is the cup half full or half empty?","> Half empty. (pessimist)<br>> Half full! (optimist)"]
-          - ["What's your favorite flavor of Ice Cream?","> Chocolate (chocolate)<br>> Vanilla (vanilla)<br>> Strawberry (strawberry)<br>> Mint (mint)<br>> Cookies n' Cream (cookies n cream)<br>> Rocky Road (rocky road)<br>> Secret 7th option (other flavor)"]
-          - ["Who would win in a chess match?	","> A mind reader (&#129504&#128218)<br>> The person who can see in the future (&#128302&#8986)"]
-          - ["Would you give your friend the off-brand controller?","> Flight (the flyer)<br>> Teleportation (the teleporter)"]
-          - ["Do you want a VR headset?","> Already have one. (VRerer)<br>> Yes. (would VR)<br>> No. (wouldnt VR)"]
-          - ["Will Will Smith smith Will Smith?","> Yes. (will smith will smith will smith)<br>> No. (will smith wont smith will smith)"]
-          - ["100 pieces of furry art, or a new fursuit?","> I'm not a furry. (normal lol)<br>> lots of art (Furficionado)<br>> a fursuit (Fursuiter)"]
-          - ["Little Seesurs or Bloxco Pizza?","> I don't understand this question (probably not american)<br>> Greasy warehouse goodness (bloxco member!!!)<br>> Pizza for a cheap price?! (its hot and ready)"]
-          - ["Would you rather own a rough but clear sphere, or a smooth but opaque sphere?","> Smooth, opaque (smooth, opaque)<br>> Rough, clear (rough, clear)"]
-          - ["Would you rather reach your stop and never play this game again, or never reach the stop but keep playing Bus Simulator?","> Uh, fourth wall? (knows too much.)<br>> Reach my stop (tired of this game)<br>> Keep playing (happy passenger)"]
-          - ["Ring a small bell, or a gigantic church bell?","> BWOMMMM BWOMMMM BWOMMM (HUGE &#128276)<br>> ring ring ring (quaint &#128718)"]
-          - ["Who would win in a fight?","> Noble (&#128998)<br>> Red (&#128997)<br>> who is that (&#10067)"]
-          - ["If you had the blue bird app, would you still use it if a billionaire took over?","> Yes. (the tortured)<br>> No. (the recovering)<br>> The what app? (the free)"]
-          - ["Would you rather be able to explore the infinite universe, or explore the entirety of Earth?","> The Universe (universal)<br>> The Earth (earthling)"]
-          - ["Would you rather be convicted for a crime you didn't commit, or be free, but now your best friend is in jail for the crime YOU committed?","> I didn't do it! (jailed.)<br>> Sorry bestieee (betrayal.)"]
-          - ["Which of these do you think would win in a fight?","> One horse-sized Spronkbib (sponge man)<br>> 30 wolves (wolf pack)<br>> A bear (bear sweep)"]
-          - ["Pancakes or waffles?","> French toast? (&#127838)<br>> Pancakes (&#129374)<br>> Waffles (&#129479)"]
-          - ["Bus Sim or Bus Stop Sim?","> Bus Stop Simulator (bus waiter)<br>> Bus Sim (bus rider)"]
-          - ["Who would win: 30 million Spronkbibs or one spiky-haired anime man?","> Spronkbibs (&#129533&#129533&#129533)<br>> Anime man (yoku??? zoku???)"]
-          - ["Tap water or filtered water?","> Filtered. (filtered)<br>> Bottled. (bottled)<br>> Tap. (tapped)"]
-          - ["Would you rather live life hated forever, or go to prison for 60 years but be beloved by all afterward?","> I'll stay free, even if they hate me (hated.)<br>> Sixty years doesn't sound too bad (jailed.)"]
-          - ["Would you rather speak all languages fluently or play all instruments skillfully?","> Instruments (the musician)<br>> Languages (multilingual)"]
-          - ["How do you laugh?","> hehe (hehe)<br>> lmho (lmho)<br>> &#128514 (&#128514)<br>> &#128557 (&#128557)<br>> haha (haha)<br>> &#128128 (&#128128)<br>> lol (lol)"]
-          - ["Would you rather live in a world that was always honest, or live in a world that was always kind?","> Let me live in blissful ignorance (kind&#129303)<br>> Honesty is the best policy (honest &#128079)"]
-          - ["Would you rather be able to teleport anywhere, or be able to pause time?","> Teleporation (teleporter)<br>> Pause time (time stopper)"]
-          - ["Does Driver Rep actually matter?","> Yes! (rep lover)<br>> No. (doesn't care)"]
-          - ["Favorite day of the week?","> Sunday (Sunday)<br>> Monday (Monday)<br>> Tuesday (Tuesday)<br>> Wednesday (Wednesday)<br>> Thursday (Thursday)<br>> Friday (Friday)<br>> Saturday (Saturday)"]
-          - ["Who would win? A man with a freshly baked potato out of the oven, or a person holding a very miniature longsword.","> Poke poke poke (minisworder)<br>> Hot and fresh (potato man)"]
-          - ["Is Comic Sans a good font?","> Yes <small>(Changes the font of the player to Comic Sans)</small><br>> No"]
-          - ["Super strength or super speed?","> Strength (STRONG &#128170)<br>> Speed (FAST &#129406)"]
-          - ["Do you use... uh, that one app that sounds like a clock?","> No (normal)<br>> Yes (no attention span)"]
-          - ["Unlimited bacon but no video games, or unlimited games but no more bacon?","> I'm feeling hungry (bacon haver)<br>> I need my games (true gamer)"]
-          - ["Do you perform well under pressure? <small(You only get a few seconds for this question,)</small>","> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA (crumbled)<br>> WAIT GIVE ME MORE TIME PLEASE (crumbled)<br>> HELP HELP HELP HELP HELP (crumbled)<br>> YOU GOTTA ANSWER QUICK (crumbled)<br>> THREEEE SECONDSSS?????? (crumbled)<br>> WHAT IS HAPPENINGGGGG (crumbled)<br>> UHHHH IDK MAYBE??? (crumbled)<br>> Yeah I think I do (calm)<br>> AINT NO WAY (crumbled)"]
-          - ["Milk and cereal? Cereal and milk?","> Cereal first (Cereal)<br>> Milk first (Milk)"]
-          - ["Pizza, Tacos, or Burgers. Which one would you eat forever, provided you can't eat anything else ever again?","> Pizza (pizza)<br>> Tacos (tacos)<br>> Burgers (burgers)"]
-          - ["Mobile games or PC games?","> Erm.. console? (&#127918)<br>> Mobile (&#128241)<br>> PC (&#128421)"]
-          - ["Is it color, or colour?","> Colour (Yes U)<br>> Color (No U)"]
-          - ["Would you rather live without your computer, or your phone?","> No computer (computerless)<br>> No phone (phoneless)"]
-          - ["Are you patient? <small>(You get doubled to tripled the amount of seconds for this question.)</small>","No (impatient)<br>> No (impatient)<br>> (patient &#128524) <small>(You need to abstain to receive this tag.)</small>"]
-          - ["Would you rather have a slow computer 10 years in the future, or a supercomputer from 10 years in the past?","> Slow future (slow future)<br>> Speedy past (speedy past)"]
-          - ["Would you rather be able to change the future, but have no way of changing it after you know, or be able to change the future however you want, with no control over how it ends up getting there?",">Change the future, with uncertainty inbetween (uncertain present)<br>> Learn the future, lock it in (Locked future)"]
-          - ["The billionaire... will you comply with their demands? Will you follow the rebrand?","> I will not stand for this blatant biophobia (birdie)<br>> Mathematical Double-Struck Capital X (X)"]
-
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: If the same event happens twice, the tags you select won't stack onto each other, but are rather replaced.
-        - name: This is the only event in the game that actively gives out tags without relying on group roles, donation, among other things.
-        - name: The runtime for this event is 1 minute and 17 seconds, which has the exact same runtime as the <a href='/bussim/events/nuke'>Nuke</a> event.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/events/questiontime1.webp
-          
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

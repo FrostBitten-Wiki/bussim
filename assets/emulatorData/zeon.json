@@ -1,0 +1,291 @@
+{
+    "start": {
+        "name": "Zeon",
+        
+        "text": [
+            "WHY ARE YOU IN MY HOUSE?!?!?!?!?!?!",
+            ["oh, hey. friends usually <i>knock</i> first, ya know?", "Only appears if the player has Zeon friended on roblox."]
+        ],
+
+        "choices": [
+            [
+                "Hi.",
+                ["optA1"]
+            ],
+            [
+                "Who are you?",
+                ["optA2"]
+            ],
+            [
+                "michael",
+                ["optA3"]
+            ],
+            [
+                ["Do you have a stick of RAM in your house?", "Only appears if the player has interacted with Tazer's specific dialogue."],
+                ["optA4"]
+            ],
+            [
+                ["Just checking in.", "Only appears if the player has Zeon friended on Roblox."],
+                ["optA5"]
+            ],
+            [
+                ["Sorry! Didn't know I was breaking in...", "Only appears if the player does not have Zeon friended on Roblox."],
+                ["optA6"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Refresh",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA1": {
+        "name": "Zeon",
+        
+        "text": [
+            "Uh... Hi???? What do you want from me???"
+        ],
+
+        "choices": [
+            [
+                "Who lives in the other house?",
+                ["optA1a"]
+            ],
+            [
+                ["D6 wants to talk about turtle skeletons.", "Only appears if the player has interacted with D6's specific dialogue."],
+                ["optA1b"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+    "optA1a": {
+        "name": "Zeon",
+        
+        "text": [
+            "I dunno. The house is pretty empty. Maybe it's for sale?"
+        ],
+
+        "choices": [
+            
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["optA1"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA1b": {
+        "name": "Zeon",
+        
+        "text": [
+            "Aw hell yea. Those skeletons are so rad. Don't I also owe him 5 bucks...?"
+        ],
+
+        "choices": [
+            
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["optA1"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2": {
+        "name": "Zeon",
+        
+        "text": [
+            "Why... Why are you asking me this??? You broke into my house and gonna ask stuff about me?? Fine. I'm Zeon. I moderate the bus statistics and stuff like it. I don't get paid enough for it...",
+            ["Did you forget? I'm Zeon. The one friend thats a loser, and probably your only friend that is a girl.", "Only appears if the player has Zeon friended on roblox."]
+        ],
+
+        "choices": [
+            
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Refresh",
+                ["optA2"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA3": {
+        "name": "Zeon",
+        
+        "text": [
+            "michael"
+        ],
+
+        "choices": [
+            
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA4": {
+        "name": "Zeon",
+        
+        "text": [
+            "Uh... Yeah...? Why?"
+        ],
+
+        "choices": [
+            [
+                "Tazer wanted one.",
+                ["optA4A"]
+            ],
+            [
+                "Just curious.",
+                ["optA4B"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA4A": {
+        "name": "Zeon",
+        
+        "text": [
+            "Oh, alrighty. Dunno why he didn't just ask me... Anyways, it's in my room. Down the hall and to the left."
+        ],
+
+        "choices": [
+            
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["optA4"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA4B": {
+        "name": "Zeon",
+        
+        "text": [
+            "Ooookkayyy....?"
+        ],
+
+        "choices": [
+            
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["optA4"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+    "optA5": {
+        "name": "Zeon",
+        
+        "text": [
+            "Well, hey there."
+        ],
+
+        "choices": [
+            
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA6": {
+        "name": "Zeon",
+        
+        "text": [
+            "How did you just- Okay.. Just... Get outta here Or don't. I'm an NPC, I can't force you to do something."
+        ],
+
+        "choices": [
+            
+        ],
+
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    }
+}

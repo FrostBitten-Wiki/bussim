@@ -1,0 +1,28 @@
+editable: True
+page:
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
+
+  header:
+    title: Placeholder
+    description: |
+      Placeholder
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+
+attributions: []
+
+content: |
+  ##[Info]
+  Placeholder Info
+
+  ##[Trivia]
+  - Trivia Here
+
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

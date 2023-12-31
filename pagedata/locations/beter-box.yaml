@@ -1,59 +1,26 @@
+editable: True
 page:
-  title: Beter Box
-  description: The Beter Box is a small box located infront of the Bus outside.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Beter Box
-  tags: location, beter box, box infront of the bus, transparent box on the front of the bus, peter box
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim placeholder location
+  
+  tags: placeholder, location
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Beter Box
-    description: >-
-     Category: <a href="/bussim/locations">Locations</a>
-    image: ''
-    imageBanner: /bussim-assets/images/locations/beter-box.webp
+    description: |
+      Category: [Locations](/bussim/locations)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Beter Box is a small box located infront of the <a href="bussim/locations/the-bus">Bus</a> outside. 
-         The box itself is rather small, 
-         and has multiple moving images of Peter Griffin, 
-         as well as one in the center, 
-         which will always look at you. 
-         The box cannot be seen that well on the outside, 
-         unless if you get close to it, 
-         which the outside of it is vaguely visible. 
-         The Beter Box is difficult to enter without the use of Transportation items, 
-         such as <a href="bussim/items/hoverboots">Hoverboots</a> or <a href="bussim/items/helicopter">Helicopter</a>, 
-         but still possible to do, 
-         if you do it right, 
-         as there is a small ledge you can jump onto, 
-         which will help you get in. If you succeed, 
-         you will recieve a badge for entering the box for the first time.
+attributions: []
 
-    - type: section
-      content:
-        title: Trivia
+content: |
+  ##[Info]
+  Info Here
 
-    - type: tree
-      content:
-        - name: The Beter Box used to be a simple transparent wall that had an image of Peter Griffin facing the opposite way, and was much easier to get on.
-        - name: The reason why the Beter box is harder to see on the outside is because it has a transparent layer of Glass infront of the box, which won't show Decals on the inside.
+  ##[Trivia]
+  - Trivias Here
 
-    - type: section
-      content:
-        title: Technical Trivia
-
-    - type: tree
-      content:
-        - name: There is actually another Beter Box in the game, but is impossible to reach normally, and you would need to do a specific glitch and be lucky, or go to coords X 44.803, Y 100011.203 Z -56.535 via <a href="bussim/items/edit">Edit</a>/F3X after highlighting yourself via Explorer.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/locations/beter-box.webp
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

@@ -1,37 +1,32 @@
+editable: True
 page:
-  title: Toast
-  description: The Toast is a temporary item from the Goat Station event,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Toast
-  tags: toast, event item, station item, toasties
+  title: Tool
+  description: The Toast is a temporary item from the Goat Station Event, which can be obtained by clicking on the Toaster in Zeon's house, and waiting a few seconds until it pops out.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim item item
+  
+  tags: toast, toastyy, oh this one doesnt actually kill? damn.
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Toast
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Toast is a temporary item from the <a href="/bussim/events/goated-gas-station">Goat Station</a> event, 
-         which can be obtained by clicking on the Toaster in <a href="/bussim/npcs/zeon">Zeon's</a> house, 
-         and waiting a few seconds until it pops out. 
-         The item, when consumed, will recover a small amount of health.
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-    - type: section
-      content:
-        title: Trivia
+content: |
+  "All toasters toast toast." -"Toast"
 
-    - type: tree
-      content:
-        - name: When equipped, the gear makes a "Toastyy!~" sound from Mortal Kombat.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/toast.webp
+  ##[Info]
+  The Toast is a temporary item from the [GOATed Gas Station](/bussim/events/goated-gas-station) event, which can be obtained by clicking on the Toaster in [Zeon](/bussim/npcs/zeon)'s house, and waiting a few seconds until it pops out.
+  \n\n
+  The item, when consumed, wiil recover a small amount of health.
+
+  ##[Trivia]
+  - When equipped, the gear makes a "Toastyy!~" sound from Mortal Kombat.
+
+  !!GALLERY [/assets/bussim/images/items/toast.webp]

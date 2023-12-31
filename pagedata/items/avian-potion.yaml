@@ -1,60 +1,33 @@
+editable: True
 page:
   title: Avian Potion
-  description: The Avian Potion is a consumable that can only be obtained by admin commands.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Avian Potion
-  tags: avian potion, admin item
-
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
-  header:
-    title: Avian Potion
-    description: >-
-      Category: <a href="/bussim/items">Items</a>
-      
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
-
-  pageContent:
-    - type: infobox
-      content:
-        infoBoxTitle: 
-          - "Admin Exclusive Content"
-          - "#b00b69"
-        infoBoxDescription: >-
-          <i>"I saw some dude jumping around with some sort of rocket launcher made of cones a while ago. Not sure how it works, but if I were you, I wouldn't make them angry."</i> - Tazer
-
-          <br>
-
-          <small>This page has content exclusive to admins of the game. This may include scrapped / hidden content that is normally inaccessible during normal gameplay.</small>
+  description: The Avian Potion is a consumable that can only be obtained by admin commands. It's appearance is a large, glowing potion with orange liquid inside. 
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
-    - type: quote
-      content:
-        quote: "You feel feathery! Mash JUMP to fly.. kinda!"
-        author: Avian Potion (After Consumption)
- 
-    - type: section
-      content:
-        size: normal
-        title: Info
-        description: >-
-          The Avian Potion is a consumable that can only be obtained by admin commands. 
-          It's appearance is a large, glowing potion with orange liquid inside. When consumed, 
-          it gives the user the ability to mash space to flap once, 
-          and gives you tiny air time. 
-          The item works best when you mash the jump button or with a macro.
+  tags: avian potion, item, fly high, so high, SPACEBAR BREAKER SPEEDRUN ANY%
 
-    - type: section
-      content:
-        size: normal
-        title: Trivia
+  header:
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-    - type: tree
-      content:
-        - name: It is unknown when it first made its debut, nor what it is referenced by, but it exists within the game.
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/avian-potion.webp
+content: |
+  !!TEMPLATE Admin
+  "You feel feathery! Mash JUMP to fly.. kinda!" -"Avian Potion"
+
+  ##[Info]
+  The Avian Potion is a consumable that can only be obtained by admin commands. It's appearance is a large, glowing potion with orange liquid inside. 
+  \n\n
+  When consumed, it gives the user the ability to mash space to flap once, and gives you tiny air time. The item works best when you mash the jump button or with a macro. 
+
+  ##[Trivia]
+  - It is unknown when it first made its debut, nor what it is referenced by, but it exists within the game.
+
+  !!GALLERY [/assets/bussim/images/items/Avian-Potion.webp]

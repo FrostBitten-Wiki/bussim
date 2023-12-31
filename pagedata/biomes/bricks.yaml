@@ -1,30 +1,26 @@
+editable: True
 page:
   title: Bricks
-  description: The Bricks biome is a simple biome where the ground is just bricks,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Bricks
+  description: The Bricks biome is a simple biome where the ground is just bricks, and any hills are also textured with bricks. Buildings also spawn in the biome, but that's about it.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: Bricks
-    description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>  
-      Category: <a href="/bussim/biomes">Biomes</a>
-      
-    image: ''
-    imageBanner: /bussim-assets/images/biomes/bricks.webp
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-         The Bricks biome is a simple biome where the ground is just bricks, 
-         and any hills are also textured with bricks. 
-         Buildings also spawn in the biome, but that's about it.
+    description: |
+      Category: [Biomes](/bussim/biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/bricks.webp
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/biomes/galleries/Bricks_Biome.webp
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
+
+content: |
+  ##[Info]
+  The Bricks biome is a simple biome where the ground is just bricks, and any hills are also textured with bricks. Buildings also spawn in the biome, but that's about it.
+
+  !!GALLERY [/assets/bussim/images/biomes/bricks.webp]

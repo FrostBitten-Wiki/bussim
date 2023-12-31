@@ -1,59 +1,36 @@
+editable: True
 page:
   title: Overseas
-  description: Overseas is a biome that will spawn randomly after driving through a tunnel.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Overseas
+  description: Overseas is a biome that will spawn randomly after driving through a tunnel. It comprises of the street being a bridge and the terrain being completely non-existent. It also has a similar haze to Nostalgia among a few others.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: Overseas
-    description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>
-    image: ''
-    imageBanner: /bussim-assets/images/biomes/overseas.webp
-  
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-         Overseas is a biome that will spawn randomly after driving through a tunnel. 
-         It comprises of the street being a bridge and the terrain being completely non-existent. 
-         It also has a similar haze to Nostalgia among a few others.<br><br>Unlike other biomes, 
-         This biome allows players to fall off the road, causing them to drown in the process. 
-         It is highly recommended you don't drive a <a href="/bussim/items/mini-bus">Minibus</a> recklessly here if you prefer to keep your inventory.
-    - type: section
-      content:
-        title: Trivia
+    description: |
+      Category: [Biomes](/bussim/biomes)
     
-    - type: tree
-      content:
-        - name: >-
-            Overseas is a very bad biome to be in for certain events that are required on land like <a href="/bussim/events/no-dough">No Dough</a>,
-            <a href="/bussim/events/no-gas">No Gas</a>, 
-            <a href="/bussim/events/glacier-cave">Glacier Cave</a>, 
-            and more.
-          children:
-            - name: >-
-                Items that can make you fly or improve gravity can help such as 
-                <a href="/bussim/items/helicopter">Helicopter</a> or 
-                <a href="/bussim/items/gas-station-gravity-coil">Gas Station Gravity Coil</a>
-              children: []
-        - name: >-
-            It is possible to escape drowning on the waters below by hoping for a teleporation event like 
-            <a href="/bussim/events/ea-sellout">EA Sellout</a> or 
-            <a href="/bussim/events/backwalls">Backwalls</a> to happen, 
-            or by using a <a href="/bussim/items/magic-mirror">Magic Mirror</a>.
-          children: 
-            - name: Items like <a href="/bussim/items/helicopter">Helicopter</a> unfortunately won't give you enough loft to survive.
-        - name: >-
-            Overseas is the only biome to have a road-like bridge, 
-            and also being one of the two more unique biomes, 
-            the other being <a href="/bussim/biomes/lava">Lava</a>.
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/overseas.webp
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/biomes/Overseas.webp
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
+
+content: |
+  ##[Info]
+  Overseas is a biome that will spawn randomly after driving through a tunnel. It comprises of the street being a bridge and the terrain being completely non-existent. It also has a similar haze to Nostalgia among a few others.
+  \n\n
+  Unlike other biomes, This biome allows players to fall off the road, causing them to drown in the process. It is highly recommended you don't drive a [Minibus](/bussim/items/minibus) recklessly here if you prefer to keep your inventory.
+
+  ##[Trivia]
+  -Overseas is a very bad biome to be in for certain events that are required on land like [No Dough](/bussim/events/no-dough), [No Gas](/bussim/events/no-gas), [Glacier Cave](/bussim/events/glacier-cave), and more.
+    - Items that can make you fly or improve gravity can help such as [Helicopter](/bussim/items/helicopter) or [Gas Station Gravity Coil](/bussim/items/gas-station-gravity-coil)
+  - It is possible to escape drowning on the waters below by hoping for a teleporation event like [EA Sellout](/bussim/events/ea-sellout) or [Backwalls](/bussim/events/backwalls) to happen, or by using a [Magic Mirror](/bussim/items/magic-mirror).
+    - Items like [Helicopter](/bussim/items/helicopter) unfortunately won't give you enough loft to survive.
+  - Overseas is the only biome to have a road-like bridge, and also being one of the two more unique biomes, the other being [Lava](/bussim/biomes/lava).
+
+
+  !!GALLERY [/assets/bussim/images/biomes/overseas.webp]

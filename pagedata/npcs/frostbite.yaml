@@ -1,667 +1,341 @@
+editable: True
 page:
   title: Frostbite
-  description: Frostbite (or known as Frost in-game) is an NPC that only appears in the Glacier Cave event. 
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Frostbite
+  description: NPCDescription
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim frostbite npc
+  
+  tags: frostbite, glacier cave npc, npc
 
-attributions:
-  - "Ported & Edited By PolyframeX (@polyframex)"
-
-html:
   header:
     title: Frostbite
-    description: >- 
-      Category: <a href="/bussim/npcs">NPCs</a>
-    image: ''
-    imageBanner: /bussim-assets/images/locations/glacier-cave.webp
+    description: |
+      Category: [NPCs](/bussim/npcs)
     
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         Frostbite (or known as Frost in-game) is an NPC that only appears in the <a href='/bussim/events/glacier-cave'>Glacier Cave</a> event. 
-         As soon as you enter his den for the first time, 
-         Frost will be surprised at your arrival, 
-         however he allows you to explore his den but without your trust.
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-         <br><br>
+attributions:
+  - Ported and Edited by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-         It is known that Frost is a childhood friend of Pear, 
-         which may come fruitful in the two methods to obtain badges.
+content: |
+  ##[Info]
+  Frostbite (or known as Frost in-game) is an NPC that only appears in the [Glacier Cave](/bussim/events/glacier-cave) event.
+  As soon as you enter his den for the first time, Frost will be surprised at your arrival,
+  however he allows you to explore his den but without your trust.
+  \n\n
+  It is known that Frost is a childhood friend of Pear, which may come fruitful in the two methods to obtain badges.
 
-    - type: section
-      content:
-        title: Trust
-        description: >-
-          rost has a unique mechanic compared to most NPCs, 
-          where he has different dialogue based on his trust level which goes from 0 to 2 at max. 
-          In order to fully gain Frost's trust, 
-          you can give him an <a href='/bussim/items/ice-cream'>Ice Cream</a> and <a href='/bussim/others/pearcoin'>Pearcoin<sup>TM</sup></a> to make him trust you. 
-          Or by giving him the Spronkbib Popsicle.
+  ##[Favourite Drink]
+  Frostbite's favourite drink is [The Blizzard](/bussim/events/coffee-shop). This gives you 2 Passenger Rep.
 
-          <br><br>
+  ##[Trust]
+  Frost has a unique mechanic compared to most NPCs,
+  where he has different dialogue based on his trust level which goes from 0 to 2 at max.
+  In order to fully gain Frost's trust, you can give him an [Ice Cream](/bussim/items/ice-cream) and [Pearcoin^(TM)](/bussim/others/pearcoin) to make him trust you 
+  Or by giving him the Spronkbib Popsicle.
+  \n\n
+  The latter choice is locked if you decide to give him Ice Cream instead.
+  \n\n
+  Maxing out his trust by offering the [Spronkbib Popsicle](/bussim/items/spronkbib-popsicle) (or showing [pearcoin^(TM)](/bussim/others/pearcoin) following the [Ice Cream](/bussim/items/ice-cream)) will give you a badge [Part of the Pack](https://www.roblox.com/badges/2130010648/Part-of-the-Pack), 
+  and is necessary to unlock the second one. His dialogue and choices also change afterwards.
+  \n\n
+  Certain items can also be offered, however they don't provide any trust such as [Gas Station Ice Cream](/bussim/items/gas-station-ice-cream) and [Birthday Ice Cream](/bussim/items/birthday-ice-cream).
 
-          The latter choice is locked if you decide to give him Ice Cream instead.
+  ##[Dialogue]
+  ###[Intruder (First Introduction)]
+  !!DLEMULATOR EID:"intruder_frostbiteemulator" SID:"start" URL:"/assets/bussim/emulatorData/frostbite/frostbiteIntro.json"
 
-          <br><br>
+  - hg[Variant 1]: "What..? Who are you?"
+  - hg[Variant 2]: "Um, excuse me, but what the actual zip are you doing in my house?"
+  - hg[Variant 3]: "..? What?"
+  - hg[Variant 4]: "Hm? Footsteps?"
+      - hg[Option 1]: I've been trying to contact you on your car's warranty.
+          - "GRRRRRR.. How many times do I have you tell you people?! I don't. Own. A CAR!!!!"
+              - Uh, I was just joking.
+                  - "Were you? Awrrgh, sorry. I don't have a phone so those scammers actually come down here and disturb me all the time."
+                  - "Even after a good mauling those runts still keep comin'...Don't know how to stop 'em.."
+                  - "Anyways, my name is Frost. Welcome to my home abode."
+                  - "Don't get too comfortable, though... You're still a stranger. Just keep away from my stuff and you'll be fine."
+      - hg[Option 2]: Sorry, didn't know you were here!
+          - "Didn't know I was here..? Of course I'm here! This is my house!"
+          - "Well, I've never seen you around before, so... The name's Frost."
+          - "Don't get too comfortable, though... You're still a stranger, y'know..."
+      - hg[Option 3]: Woah, you look huggable!
+          - "Yeah, yeah, save it. I don't know who you are, but don't you dare try and hug me."
+          - "At least get to know me first, or somethin'..."
+      - hg[Option 4]: Uhhhmm.. meow..?
+          - "???"
+      - hg[Option 5]: Where am I?
+          - "Well... you're in my house. If you can really call it a house."
+          - "Definitely feels like home to me... Whatever, just don't break anything, if you're plannin' to stay longer, that is.."
 
-          Maxing out his trust by offering the <a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicle</a> (or showing <a href='/bussim/others/pearcoin'>Pearcoin<sup>TM</sup></a> following the <a href='/bussim/items/ice-cream'>Ice Cream</a>) will give you a badge <a href='https://www.roblox.com/badges/2130010648/Part-of-the-Pack'>Part of the Pack</a>, 
-          and is necessary to unlock the second one. 
-          His dialogue and choices also change afterwards.
+  ###[Stranger (0 Trust)]
+  !!DLEMULATOR EID:"stranger_frostbiteemulator" SID:"start" URL:"/assets/bussim/emulatorData/frostbite/frostbiteStranger.json"
 
-          <br><br>
+  - hg[Variant 1]: "Hm?"
+  - hg[Variant 2]: "Yeah?"
+  - hg[Variant 3]: "Hello."
+  - hg[Variant 4]: "Heya."
+      - hg[Option 1]: Who are you, again?
+          - "The name's Frost."
+      - hg[Option 2]: Uh, how are you?
+          - "Good. Just hanging around."
+      - hg[Option 3]: [Actions...]
+          - You: "What action will I take?"
+              - hg[Option 1]: [Leave.]
+              - hg[Option 2]: [Check.]
+                  - You: "Frost. This blue wolf seems to live here, and it feels remarkably colder in here than anywhere else in the cave..."
+                  - You: "He doesn't really seem to trust you - your presence is merely tolerated. Maybe you can change that..?"
+              - hg[Option 3]: [Offer gift: ]
 
-          Certain items can also be offered, 
-          however they don't provide any trust such as <a href='/bussim/items/gas-station-ice-cream'>Gas Station Ice Creams</a> and <a href='/bussim/items/birthday-ice-cream'>Birthday Ice Cream</a>.
+                  - [Spronkbib Popsicle](/bussim/items/spronkbib-popsicle)
+                      - "..! Oh, one of those! Those are so rare nowadays..!"
+                      - "...!!!"
+                          - You: "Frost's tail starts to kick up dust from how hard it's wagging... (+2 trust)"
+                  - [Ice Cream](/bussim/items/ice-cream)
+                      - "..? An ice cream..? Sure, I guess.."
+                      - "..."
+                      - "Not the worst thing I've ever had.. adequately creamy.. good flavor.."
+                          - You: "His tail subtly beats against the rock on which he rests... (+1 trust)"
+                  - [Gas Station Ice Cream](/bussim/items/gas-station-ice-cream)
+                      - "..? An ice cream..?"
+                      - "..."
+                      - "......"
+                          - You: "Frost eats the gas station ice cream unceremoniously. Doesn't really seem like he particularly enjoyed it..."
+                  - [Birthday Ice Cream](/bussim/items/birthday-ice-cream)
+                      - "Oh, uhh.."
+                      - "That's... a bit too large. But, uh, thanks."
 
-    - type: section
-      content:
-        title: Dialogue
+  ###[Acquainted (1 Trust)]
+  !!DLEMULATOR EID:"stranger_frostbiteemulator" SID:"start" URL:"/assets/bussim/emulatorData/frostbite/frostbiteAcquainted.json"
 
-    - type: section
-      content:
-        title: Intruder (First Introductions)
-        size: small
+  - hg[Variant 1]: "Hi there."
+  - hg[Variant 2]: "You need me?"
+  - hg[Variant 3]: "Oh, hello."
+      - hg[Option 1]: [Actions...]
+          - hg[Option 1]: [Leave.]
+          - hg[Option 2]: [Check.]
+              - You: "Frost. This blue wolf seems to live here, and it feels remarkably colder in here than anywhere else in the cave..."
+              - You: "He seems a little more interested in you than before, his gaze following your movements..."
+              - You: "Giving him an ice cream was the right call, but that probably won't work again... [what can you do?](/bussim/others/pearcoin)"
+          - hg[Option 3]: [Show item: [PearcoinTM](/bussim/others/pearcoin)]
+              - "..? A coin..? Thanks, but I don't really..."
+              - "Hang on a second."
+              - "-snf- -snf-"
+              - "Oh! So you're a friend of Pear's, hm? Well, any friend of Pear is a friend of mine!"
+              - You: "(+1 trust)"
+      - hg[Option 2]: Let's talk!
+          - hg[Variant 1]: "Alright."
+          - hg[Variant 2]: "Talk?"
+          - hg[Variant 3]: "About what?"
+          - hg[Variant 4]: "Eh, sure."
+              - hg[Option 1]: How long have you been here?
+                  - "Only been here a few months. Feels like an eternity though."
+              - hg[Option 2]: Let's be friends!
+                  - "Flatted, but I don't really know you too well."
+                      - Well, can I fix that?
+                          - "Not really in the mood to meet new people... [Maybe if you were a friend of a friend...](/bussim/others/pearcoin)"
+                      - Understandable.
+              - hg[Option 3]: About the cave...
+                  - "Yeah, what about it?"
+                      - hg[Option 1]: What's with all of the popsicles?
+                          - "They remind me of my best friend. That small gray rascal loved eatin' those things.. He used to gouge out its eyes before chompin' down on the rest..."
+                              - hg[Option 1]: Small.. gray.. rascal..?
+                                  - "Yep. If I ever saw them again, I'd be the happiest wolf in the world. Don't exactly know where he ran off to, though.. No scent or anything..."
+                              - hg[Option 2]: Sounds terrifying.
+                                  - "Heh, it was rather cute, actually. He's so small that he could barely wrap his mouth around the corner of one. Meanwhile, here I am, able to bite the whole thing in one go.."
+                                      - hg[Option 1]: The whole thing..?! Sheesh.. definitely terrifying.
+                                          - "You're pretty easy to scare. Either way, I found it quite delicious."
+                                      - hg[Option 2]: Please tell me you removed the stick.
+                                          - "..."
+                                          - "..."
+                                          - "Ah.."
+                                          - "That explains those frequent ulcers..."
+                      - hg[Option 2]: Why do you live in a cave?
+                          - "The economy is terrible. I just found this cave and decided to live here."
 
-    - type: npcChat
-      content:
-        id: frostbiteIntro
-        startId: start
-        chatData: /bussim-assets/chatdata/npcs/frostbite/frostbiteIntro.json
+  ###[Friends (> or =2 Trust)]
+  !!DLEMULATOR EID:"stranger_frostbiteemulator" SID:"start" URL:"/assets/bussim/emulatorData/frostbite/frostbiteFriends.json"
 
-    - type: tree
-      content:
-        - name: "Variant 1: \"What..? Who are you?\""
-        - name: "Variant 2: \"Um, excuse me, but what the actual zip are you doing in my house?\""
-        - name: "Variant 3: \"..? What?\""
-        - name: "Variant 4: \"Hm? Footsteps?\""
-          children:
-            - name: "Option 1: I've been trying to contact you on your car's warranty."
-              children:
-                - name: "\"GRRRRRR.. How many times do I have you tell you people?! I don't. Own. A CAR!!!!\""
-                  children:
-                    - name: "Uh, I was just joking."
-                      children:
-                        - name: "\"Were you? Awrrgh, sorry. I don't have a phone so those scammers actually come down here and disturb me all the time.\""
-                        - name: "\"Even after a good mauling those runts still keep comin'...Don't know how to stop 'em..\""
-                        - name: "\"Anyways, my name is Frost. Welcome to my home abode.\""
-                        - name: "\"Don't get too comfortable, though... You're still a stranger. Just keep away from my stuff and you'll be fine.\""
-            - name: "Option 2: Sorry, didn't know you were here!"
-              children:
-                - name: "\"Didn't know I was here..? Of course I'm here! This is my house!\""
-                - name: "\"Well, I've never seen you around before, so... The name's Frost.\""
-                - name: "\"Don't get too comfortable, though... You're still a stranger, y'know...\""
-            - name: "Option 3: Woah, you look huggable!"
-              children:
-                - name: "\"Yeah, yeah, save it. I don't know who you are, but don't you dare try and hug me.\""
-                - name: "\"At least get to know me first, or somethin'...\""
-            - name: "Option 4: Uhhhmm.. meow..?"
-              children:
-                - name: "\"???\""
-            - name: "Option 5: Where am I?"
-              children:
-                - name: "\"Well... you're in my house. If you can really call it a house.\""
-                - name: "\"Definitely feels like home to me... Whatever, just don't break anything, if you're plannin' to stay longer, that is..\""
+  - hg[Variant 1]: "Awrr? Need me?"
+  - hg[Variant 2]: "Heya."
+  - hg[Variant 3]: "Having a good day, [Player]?"
+  - hg[Variant 4]: "Hey [Player]."
+  - hg[Variant 5]: "Oh, hey [Player]!"
+  - hg[Variant 6]: "Yeah, what'd you need?"
+  - hg[Variant 7]: "What's up?"
+  - hg[Variant 8]: "Need somethin'?"
+      - hg[Option 1]: [Actions...]
+          - You: "What action will I take?"
+              - hg[Option 1]: [Leave.]
+              - hg[Option 2]: [Check.]
+                  - You: "It's Frost! It seems like you're finally friends with him now. Maybe pearcoinTM wasn't so useless after all."
+                  - You: "His tail even wags a little when you walk up to him!"
+      - hg[Option 2]: Let's talk!
+          - hg[Variant 1]: "Go for it!"
+          - hg[Variant 2]: "Sure, I've got nothing better to do."
+          - hg[Variant 3]: "Oh, sure!"
+          - hg[Variant 4]: "Sure, go on."
+          - hg[Variant 5]: "I'm down."
+          - hg[Variant 6]: "Let's!"
+              - hg[Option 1]: How long have you been here?
+                  - "Only been here a few months. Feels like an eternity though."
+              - hg[Option 2]: Let's be friends!
+                  - "Done and done. We're friends now."
+                      - Oh, alright then.
+              - hg[Option 3]: About the cave...
+                  - "Yeah, what about it?"
+                      - hg[Option 1]: What's with all of the popsicles?
+                          - "They remind me of my best friend. You know the guy you got that coin from? That's him. Pear loved eatin' those things.. He used to gouge out its eyes before chompin' down on the rest..."
+                              - hg[Option 1]: Where'd you get them?
+                                  - "I have the right to remain silent under the 5th Amendment."
+                                      - hg[Option 1]: Your silence speaks volumes.
+                                          - "..."
+                                      - hg[Option 2]: Uh, okay.
+                              - hg[Option 2]: Oh, so it was Pear!
+                                  - "Yep. I'm real glad that you showed me that coin. I haven't seem him in forever, I wonder if he still remembers me..."
+                                  - "Naaah, I'm just messin' with ya. I know you sent him my regards already! Thanks for that, by the way." (If the Animal Messenger Quest-Line's part 3 is completed)
+                                      - No problem.
+                              - hg[Option 3]: Pear's terrifying.
+                                  - "Heh, it was rather cute, actually. He's so small that he could barely wrap his mouth around the corner of one. Meanwhile, here I am, able to bite the whole thing in one go.."
+                                      - hg[Option 1]: The whole thing..?! Sheesh.. definitely terrifying.
+                                          - "You're pretty easy to scare. Either way, I found it quite delicious."
+                                      - hg[Option 2]: Please tell me you removed the stick.
+                                          - "..."
+                                          - "..."
+                                          - "Ah.."
+                                          - "That explains those frequent ulcers..."
+                      - hg[Option 2]: How'd you get all of that water?
+                          - "Beats me, just came with the place. it's nice and refreshing, though!"
+                      - hg[Option 3]: Your calendar is out of date.
+                          - "Yeahh, I'm aware. I just got it off of the side of the road, sooo.. Beggars can't be choosers, heh.."
+                              - hg[Option 1]: It isn't even October.
+                                  - "Is it not?? Sorry, it's hard to tell the time when there's no natural light..."
+                              - hg[Option 2] (If the month is October): At least you got October right.
+                                  - "Did I? That, uh, wasn't intentional."
+                                  - "Don't people have a sayin' for that..? A broken calendar is right twice a year?..? Uh, it's somethin' like that..."
+                              - hg[Option 4]: How do you have electricity?
+                                  - "Do I look like an electrician to you? I don't know how any of this works, I just shove the socket into the rock and the thing turns on!"
+                                      - hg[Option 1]: That.. sounds unsafe.
+                                          - "Uh, you have a point... Would that imply that the entire wall is electrified..? Probably best not to think about it all that much.."
+                                      - hg[Option 2]: Sheesh, sorry..
+                                          - "Ah, that did come off as pretty defensive. Sorry, sorry."
+                                      - hg[Option 3]: ???????
+                                          - "Your guess is as good as mine, bud."
+                              - hg[Option 5]: Why do you live in a cave?
+                                  - "I'll be completely honest with ya, I couldn't afford anything else. I was gonna live in that free-model town, y'know, the one with the [gas station](/bussim/events/goated-gas-station), but I couldn't afford the rent..."
+                                      - hg[Option 1]: Living in a cave is cooler anyway.
+                                          - "Mm, maybe that's true... After all, I do have lots more space than an actual house.. A free pool, too.. Yeah, I like that way of thinkin'. This IS way cooler than a house."
+                                      - hg[Option 2]: Isn't the rent there pretty low?
+                                          - "Yeah, but I still didn't have enough for it... Maybe in the future, I'll make some kinda company or somethin'... I don't know what I'd do though, maybe somethin' ice-cream related?"
+                                              - hg[Option 1]: In today's economy? Good luck...
+                                                  - "Yeah, you're right... It'd be probably be tough to get a business up and runnin' nowadays, huh? Maybe I should just give it up..."
+                                                      - Woah, I didn't mean it like THAT.
+                                                          - "Eh.. I'm a little uncertain about it now, but if you think I might be able to, I'll try..."
+                                                              - Yeah, maybe.
+                                                                  - "-sigh-"
+                                              - hg[Option 2]: I'm rooting for you, Frost!
+                                                  - "Thanks.. I don't remember the last time someone's actually believed in me before.. I'll try my best, (player), just you wait!"
+                                              - hg[Option 3]: Ouch, sorry..
+                                                  - "Eh, no need to be sorry. You didn't do anything wrong. Life just sucks sometimes. The most important thing is that I got through it. I'm pretty cozy where I am now, even if it's not really a proper home."
 
-    - type: section
-      content:
-        size: small
-        title: Stranger (0 Trust)
+  ###[Animal Messenger Quest-Line]
+  This quest-line starts from [Frostbite](/bussim/npcs/frostbite)'s Option 2, 3, 1, 2 and assuming the player hasn't completed it already. Pear's dialogue will also be added here and vice-versa. You'll also need the Part of the Pack badge and be friends with [Frost](/bussim/npcs/frostbite) to activate.
 
-    - type: npcChat
-      content:
-        id: frostbiteStranger
-        startId: start
-        chatData: /bussim-assets/chatdata/npcs/frostbite/frostbiteStranger.json
+  ###[Part 1 (Frost)]
+  ###[First Time Dialogue:]
+  - "Listen. If you ever see Pear again, I'd really appreciate it if you sent him my regards. Let that little rascal know I'm still around."
+    - Yeah, sure. I will.
+      - "Thanks. I'd do it myself, but I've just got no clue where he is..."
+  
+  ###[If you haven't sent his regards yet]
+  - "I've already told you all this before, but again, I'd really appreciate it if you sent him my regards."
+    - I'll do it eventually.
+      - "Thanks..."
+  
+  ###[Part 2 (Pear)]
+  - Frost sends his regards.
+    - "What?! Really?!"
+    - "Daaaang! I haven't seen Frost in forrrrr-everrrrrr, did you actually find him?"
+    - "That's crazy! Can you do me a favor and tell him I said hi back? I'm sure he'd be happy to hear!"
+    - "Oh, and if he doesn't believe you, just say I called him a good boy. He's actually a real big softie, but I think I'm the only person he's really opened up to?"
+    - "Don't tell him that, or he'll probably bite me the next time he sees me. Anyway, good luck!~"
 
-    - type: tree
-      content:
-        - name: "Variant 1: \"Hm?\""
-        - name: "Variant 2: \"Yeah?\""
-        - name: "Variant 3: \"Hello.\""
-        - name: "Variant 4: \"Heya.\""
-          children:
-            - name: "Option 1: Who are you, again?"
-              children:
-                - name: "\"The name's Frost.\""
-            - name: "Option 2: Uh, how are you?"
-              children:
-                - name: "\"Good. Just hanging around.\""
-            - name: "Option 3: [Actions...]"
-              children:
-                - name: "You: \"What action will I take?\""
-                  children:
-                    - name: "Option 1: [Leave.]"
-                    - name: "Option 2: [Check.]"
-                      children:
-                        - name: "You: \"Frost. This blue wolf seems to live here, and it feels remarkably colder in here than anywhere else in the cave...\""
-                        - name: "You: \"He doesn't really seem to trust you - your presence is merely tolerated. Maybe you can change that..?\""
-                    - name: "Option 3: [Offer gift: <item name>]"
-                      children:
-                        - name: "<a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicle</a>"
-                          children:
-                            - name: "\"..! Oh, one of those! Those are so rare nowadays..!\""
-                            - name: "\"...!!!\""
-                              children:
-                                - name: "You: \"Frost's tail starts to kick up dust from how hard it's wagging... (+2 trust)\""
-                        - name: "<a href='/bussim/items/ice-cream'>Ice Cream</a>"
-                          children:
-                            - name: "\"..? An ice cream..? Sure, I guess..\""
-                            - name: "\"...\""
-                            - name: "\"Not the worst thing I've ever had.. adequately creamy.. good flavor..\""
-                              children:
-                                - name: "You: \"His tail subtly beats against the rock on which he rests... (+1 trust)\""
-                        - name: "<a href='/bussim/items/gas-station-ice-cream'>Gas Station Ice Cream</a>"
-                          children:
-                            - name: "\"..? An ice cream..?\""
-                            - name: "\"...\""
-                            - name: "\"......\""
-                              children:
-                                - name: "You: \"Frost eats the gas station ice cream unceremoniously. Doesn't really seem like he particularly enjoyed it...\""
-                        - name: "<a href='/bussim/items/birthday-ice-cream'>Birthday Ice Cream</a>"
-                          children:
-                            - name: "\"Oh, uhh..\""
-                            - name: "\"That's... a bit too large. But, uh, thanks.\""
+  ###[Part 3 (Frost)]
+  - Pear says "hi" back.
+    - "Well I'll be, did they really? Do they actually remember me after all this time?"
+      - hg[Option 1]: Yeah, and they called you a good boy.
+        - "..!"
+        - "..."
+        - "Yeah, uhm, definitely sounds like him.. I believe ya.."
+        - "Um, uh.. Thanks.. I never thought I'd be able to talk to him again.. And I'm glad he, uh.. still thinks highly of me..."
+        - "!"
+        - "Pretend that none of this <big>EVER</big> happened!"
+      - hg[Option 2]: Yeah, they do.
+        - "I find that a little hard to believe, but.. Thank you. I never thought I'd be able to talk to him again, even though it was more of a.. relayed message, heh.."
 
-    - type: section
-      content:
-          title: Acquainted (1 Trust)
-          size: small
-    
-    - type: npcChat
-      content:
-        id: frostbiteAcquainted
-        startId: start
-        chatData: /bussim-assets/chatdata/npcs/frostbite/frostbiteAcquainted.json
+  ###[Part 4 (Pear)]
+  For this part, you'll have to shuffle through Pear's "Let's Talk" Dialogue until you get the h[Tub of Ice Cream] topic.
 
-    - type: tree
-      content:
-        - name: "Variant 1: \"Hi there.\""
-        - name: "Variant 2: \"You need me?\""
-        - name: "Variant 3: \"Oh, hello.\""
-          children:
-            - name: "Option 1: [Actions...]"
-              children:
-                - name: "Option 1: [Leave.]"
-                - name: "Option 2: [Check.]"
-                  children:
-                    - name: "You: \"Frost. This blue wolf seems to live here, and it feels remarkably colder in here than anywhere else in the cave...\""
-                    - name: "You: \"He seems a little more interested in you than before, his gaze following your movements...\""
-                    - name: "You: \"Giving him an ice cream was the right call, but that probably won't work again... <a href='/bussim/others/pearcoin'>what can you do?</a>\""
-                - name: "Option 3: [Show item: <a href='/bussim/others/pearcoin'>Pearcoin<sup>TM</sup></a>]"
-                  children:
-                    - name: "\"..? A coin..? Thanks, but I don't really...\""
-                    - name: "\"Hang on a second.\""
-                    - name: "\"-snf- -snf-\""
-                    - name: "\"Oh! So you're a friend of Pear's, hm? Well, any friend of Pear is a friend of mine!\""
-                    - name: "You: \"(+1 trust)\""
-            - name: "Option 2: Let's talk!"
-              children:
-                - name: "Variant 1: \"Alright.\""
-                - name: "Variant 2: \"Talk?\""
-                - name: "Variant 3: \"About what?\""
-                - name: "Variant 4: \"Eh, sure.\""
-                  children:
-                    - name: "Option 1: How long have you been here?"
-                      children:
-                        - name: "\"Only been here a few months. Feels like an eternity though.\""
-                    - name: "Option 2: Let's be friends!"
-                      children:
-                        - name: "\"Flatted, but I don't really know you too well.\""
-                          children:
-                            - name: "Well, can I fix that?"
-                              children:
-                                - name: "\"Not really in the mood to meet new people... <a href='/bussim/others/pearcoin'>Maybe if you were a friend of a friend...</a>\""
-                            - name: "Understandable."
-                    - name: "Option 3: About the cave..."
-                      children:
-                        - name: "\"Yeah, what about it?\""
-                          children:
-                            - name: "Option 1: What's with all of the popsicles?"
-                              children:
-                                - name: "\"They remind me of my best friend. That small gray rascal loved eatin' those things.. He used to gouge out its eyes before chompin' down on the rest...\""
-                                  children:
-                                    - name: "Option 1: Small.. gray.. rascal..?"
-                                      children:
-                                        - name: "\"Yep. If I ever saw them again, I'd be the happiest wolf in the world. Don't exactly know where he ran off to, though.. No scent or anything...\""
-                                    - name: "Option 2: Sounds terrifying."
-                                      children:
-                                        - name: "\"Heh, it was rather cute, actually. He's so small that he could barely wrap his mouth around the corner of one. Meanwhile, here I am, able to bite the whole thing in one go..\""
-                                          children:
-                                            - name: "Option 1: The whole thing..?! Sheesh.. definitely terrifying."
-                                              children:
-                                                - name: "\"You're pretty easy to scare. Either way, I found it quite delicious.\""
-                                            - name: "Option 2: Please tell me you removed the stick."
-                                              children:
-                                                - name: "\"...\""
-                                                - name: "\"...\""
-                                                - name: "\"Ah..\""
-                                                - name: "\"That explains those frequent ulcers...\""
-                            - name: "Option 2: Why do you live in a cave?"
-                              children:
-                                - name: "\"The economy is terrible. I just found this cave and decided to live here.\""
+  ###[First Time Dialogue]
+  - "Tell Frost he owes me a tub of ice cream next time he sees me..."
+  - "No reason in particular, I just want one!"
+    - Yeah, sure. I'll tell him.
+      - "Well, I mean, I was kinda half joking, but thanks! Maybe I'll get that ice cream after all..~"
+  
+  ###[If you haven't sent his message yet]
+  - "Tell Frost he owes me a tub of ice cream next time he sees me..."
+  - "No reason in particular, I just want one!"
+    - I'll get to it eventually.
+      - "Thanks~"
+  
+  ###[If you had sent his message but not directly told him after Part 5]
+  - "Tell Frost he owes me a tub of ice cream next time he sees me..."
+  - "No reason in particular, I just want one!"
+    - I told him.
+      - "Whuh?! You actually did?!"
+      - "Thank you.. I've been wanting to tell him that for years!" (Triggers the Animal Messenger Badge)
 
-    - type: section
-      content:
-        title: Friends (> or =2 Trust)
-        description: >- 
-          <br>
-          The following may contain dialogue that appear after you've progressed or completed the Animal Messenger Quest. 
-          The rest of the quest are in its respective sub-category.
+  ###[Part 5 (Frost)]
+  - Pear wanted to say...
+    - "Pfft, a whole tub of ice cream?"
+    - "I mean, it's definitely been some time since I've made any ice cream, but.. I'd definitely try for him!"
+    - "We'd have to find a place to meet up... And I'd have to buy the ingredients... I could make that recipe for him, finally.."
+    - "You could have some too, if you'd like. Pear always said that I'd made the best ice cream they've ever tasted.."
+    - "I mean, I don't know about that, but I could be convinced of it... Ice wolf, after all."
+    - "Anyway, enough about that. Thanks for relaying the message! I'll have to think about it later, heh"
 
-    - type: npcChat
-      content:
-        id: frostbiteFriends
-        startId: start
-        chatData: /bussim-assets/chatdata/npcs/frostbite/frostbiteFriends.json
+  ###[Part 6 (Pear)]
+  This part will give you the Animal Messenger badge upon completion- but there is one more part left!
 
-    - type: tree
-      content:
-        - name: "Variant 1: \"Awrr? Need me?\""
-        - name: "Variant 2: \"Heya.\""
-        - name: "Variant 3: \"Having a good day, [Player]?\""
-        - name: "Variant 4: \"Hey [Player].\""
-        - name: "Variant 5: \"Oh, hey [Player]!\""
-        - name: "Variant 6: \"Yeah, what'd you need?\""
-        - name: "Variant 7: \"What's up?\""
-        - name: "Variant 8: \"Need somethin'?\""
-          children:
-            - name: "Option 1: [Actions...]"
-              children:
-                - name: "You: \"What action will I take?\""
-                  children:
-                    - name: "Option 1: [Leave.]"
-                    - name: "Option 2: [Check.]"
-                      children:
-                        - name: "You: \"It's Frost! It seems like you're finally friends with him now. Maybe pearcoin<sup>TM</sup> wasn't so useless after all.\""
-                        - name: "You: \"His tail even wags a little when you walk up to him!\""
-            - name: "Option 2: Let's talk!"
-              children:
-                - name: "Variant 1: \"Go for it!\""
-                - name: "Variant 2: \"Sure, I've got nothing better to do.\""
-                - name: "Variant 3: \"Oh, sure!\""
-                - name: "Variant 4: \"Sure, go on.\""
-                - name: "Variant 5: \"I'm down.\""
-                - name: "Variant 6: \"Let's!\""
-                  children:
-                    - name: "Option 1: How long have you been here?"
-                      children:
-                        - name: "\"Only been here a few months. Feels like an eternity though.\""
-                    - name: "Option 2: Let's be friends!"
-                      children:
-                        - name: "\"Done and done. We're friends now.\""
-                          children:
-                            - name: "Oh, alright then."
-                    - name: "Option 3: About the cave..."
-                      children:
-                        - name: "\"Yeah, what about it?\""
-                          children:
-                           - name: "Option 1: What's with all of the popsicles?"
-                             children:
-                               - name: "\"They remind me of my best friend. You know the guy you got that coin from? That's him. Pear loved eatin' those things.. He used to gouge out its eyes before chompin' down on the rest...\""
-                                 children:
-                                    - name: "Option 1: Where'd you get them?"
-                                      children:
-                                        - name: "\"I have the right to remain silent under the 5th Amendment.\""
-                                          children:
-                                            - name: "Option 1: Your silence speaks volumes."
-                                              children:
-                                               - name: "\"...\""
-                                            - name: "Option 2: Uh, okay."
-                                    - name: "Option 2: Oh, so it was Pear!"
-                                      children:
-                                       - name: "\"Yep. I'm real glad that you showed me that coin. I haven't seem him in forever, I wonder if he still remembers me...\""
-                                       - name: "\"Naaah, I'm just messin' with ya. I know you sent him my regards already! Thanks for that, by the way.\" <small>(If the Animal Messenger Quest-Line's part 3 is completed)</small>"
-                                         children:
-                                           - name: "No problem."
-                                    - name: "Option 3: Pear's terrifying."
-                                      children:
-                                          - name: "\"Heh, it was rather cute, actually. He's so small that he could barely wrap his mouth around the corner of one. Meanwhile, here I am, able to bite the whole thing in one go..\""
-                                            children:
-                                              - name: "Option 1: The whole thing..?! Sheesh.. definitely terrifying."
-                                                children:
-                                                 - name: "\"You're pretty easy to scare. Either way, I found it quite delicious.\""
-                                              - name: "Option 2: Please tell me you removed the stick."
-                                                children:
-                                                  - name: "\"...\""
-                                                  - name: "\"...\""
-                                                  - name: "\"Ah..\""
-                                                  - name: "\"That explains those frequent ulcers...\""
-                           - name: "Option 2: How'd you get all of that water?"
-                             children:
-                               - name: "\"Beats me, just came with the place. it's nice and refreshing, though!\""
-                           - name: "Option 3: Your calendar is out of date."
-                             children:
-                               - name: "\"Yeahh, I'm aware. I just got it off of the side of the road, sooo.. Beggars can't be choosers, heh..\""
-                                 children:
-                                   - name: "Option 1: It isn't even October."
-                                     children:
-                                       - name: "\"Is it not?? Sorry, it's hard to tell the time when there's no natural light...\""
-                                   - name: "Option 2 (If the month is October): At least you got October right."
-                                     children:
-                                       - name: "\"Did I? That, uh, wasn't intentional.\""
-                                       - name: "\"Don't people have a sayin' for that..? A broken calendar is right twice a year?..? Uh, it's somethin' like that...\""
-                                   - name: "Option 4: How do you have electricity?"
-                                     children:
-                                       - name: "\"Do I look like an electrician to you? I don't know how any of this works, I just shove the socket into the rock and the thing turns on!\""
-                                         children:
-                                           - name: "Option 1: That.. sounds unsafe."
-                                             children:
-                                               - name: "\"Uh, you have a point... Would that imply that the entire wall is electrified..? Probably best not to think about it all that much..\""
-                                           - name: "Option 2: Sheesh, sorry.."
-                                             children:
-                                               - name: "\"Ah, that did come off as pretty defensive. Sorry, sorry.\""
-                                           - name: "Option 3: ???????"
-                                             children:
-                                               - name: "\"Your guess is as good as mine, bud.\""
-                                   - name: "Option 5: Why do you live in a cave?"
-                                     children:
-                                       - name: "\"I'll be completely honest with ya, I couldn't afford anything else. I was gonna live in that free-model town, y'know, the one with the <a href='/bussim/events/goated-gas-station'>gas station</a>, but I couldn't afford the rent...\""
-                                         children:
-                                           - name: "Option 1: Living in a cave is cooler anyway."
-                                             children:
-                                               - name: "\"Mm, maybe that's true... After all, I do have lots more space than an actual house.. A free pool, too.. Yeah, I like that way of thinkin'. This IS way cooler than a house.\""
-                                           - name: "Option 2: Isn't the rent there pretty low?"
-                                             children:
-                                               - name: "\"Yeah, but I still didn't have enough for it... Maybe in the future, I'll make some kinda company or somethin'... I don't know what I'd do though, maybe somethin' ice-cream related?\""
-                                                 children:
-                                                   - name: "Option 1: In today's economy? Good luck..."
-                                                     children:
-                                                       - name: "\"Yeah, you're right... It'd be probably be tough to get a business up and runnin' nowadays, huh? Maybe I should just give it up...\""
-                                                         children:
-                                                           - name: "Woah, I didn't mean it like THAT."
-                                                             children:
-                                                               - name: "\"Eh.. I'm a little uncertain about it now, but if you think I might be able to, I'll try...\""
-                                                                 children:
-                                                                   - name: "Yeah, maybe."
-                                                                     children:
-                                                                       - name: "\"-sigh-\""
-                                                   - name: "Option 2: I'm rooting for you, Frost!"
-                                                     children:
-                                                       - name: "\"Thanks.. I don't remember the last time someone's actually believed in me before.. I'll try my best, (player), just you wait!\""
-                                                   - name: "Option 3: Ouch, sorry.."
-                                                     children:
-                                                       - name: "\"Eh, no need to be sorry. You didn't do anything wrong. Life just sucks sometimes. The most important thing is that I got through it. I'm pretty cozy where I am now, even if it's not really a proper home.\""
-                        
-    - type: section
-      content:
-        size: small
-        title: Animal Messenger Quest-Line    
-        description: >- 
-          <br>
-          This quest-line starts from Frostbite's Option 2, 
-          3, 
-          1, 
-          2 and assuming the player hasn't completed it already. 
-          Pear's dialogue will also be added here and vice-versa. 
-          You'll also need the Part of the Pack badge and be friends with Frost to activate.
+  - Told Frost about the ice cream.
+    - "Whuh?! You actually did?!"
+    - "Thank you.. I've been wanting to tell him that for years!" (Triggers the Animal Messenger Badge)
 
-    - type: section
-      content:
-        size: small
-        title: Part 1 (Frost)
+  ###[Finale (Frost)]
+  This part occurs as soon as you re-enter Frost's den following Pear's response.
+  - hg[Variant 1]: "<Player>, hey!"
+  - hg[Variant 2]: "Oh, hey <Player>!"
+  - "I, uh, just wanted to say thank you. For everything."
+  - "I like to keep things short and sweet, so here. Catch!"
+    - You: "<You grab the object he tosses at you. Looks like a handheld mirror of some sort.>"
+      - "If ya ever feel lonely, or just want a safe space to chill, feel free to come back anytime."
+      - "Alright, see ya on the flip side."
 
-    - type: section
-      content:
-        size: small
-        title: "First Time Dialogue:"
+  ##[Trivia]
+  - Frost is [NobleReign](/bussim/npcs/noble) fursona.
+      - Despite this, both Noble and Frost don't know each other and isn't referenced in any of their dialogues.
+  - Frost is also a childhood friend of Pear, which is referenced in a few of his dialogue.
+  - Frost is referenced by multiple news shouts about stealing [Spronkbib Popsicles](/bussim/items/spronkbib-popsicle), rendering the popsicles a rarity now. This is alluded to the fact that the chances of getting one from an Ice Cream Truck is extremely rare.
+  - If you bought pearcoin^(TM) in the server without rejoining, you need to rejoin to be able to use it however [Pear's](/bussim/npcs/pear) dialogue will change without rejoin needed.
+  - If you offered Frost a [Spronkbib Popsicle](/bussim/items/spronkbib-popsicle) instead of the [Ice Cream](/bussim/items/ice-cream) + [PearcoinTM](/bussim/others/pearcoin) duo, he will still mention about receiving a PearcoinTM from you, despite not possibly even owning one nor showing it to Frost in the first place.
+  - If you really don't want to spend any Robux, the best way to get Frost's trust is to get the legendary [Spronkbib Popsicle](/bussim/items/spronkbib-popsicle), which has a 1/800 chance of getting, or by giving him multiple [Ice Creams](/bussim/items/ice-cream).
+      - The latter is still not confirmed yet.
 
-    - type: tree
-      content:
-        - name: "\"Listen. If you ever see Pear again, I'd really appreciate it if you sent him my regards. Let that little rascal know I'm still around.\""
-          children:
-            - name: "Yeah, sure. I will."
-              children:
-                - name: "\"Thanks. I'd do it myself, but I've just got no clue where he is...\""
-    - type: section
-      content:
-        size: small
-        title: "If you haven't sent his regards yet:"
-    - type: tree
-      content:
-         - name: "\"I've already told you all this before, but again, I'd really appreciate it if you sent him my regards.\""
-           children:
-             - name: "I'll do it eventually."
-               children:
-                 - name: "\"Thanks...\""
-    - type: section
-      content:
-        size: small
-        title: "Part 2 (Pear)"
-    - type: tree
-      content:
-        - name: "\"What?! Really?!\""
-        - name: "\"Daaaang! I haven't seen Frost in forrrrr-everrrrrr, did you actually find him?\""
-        - name: "\"That's crazy! Can you do me a favor and tell him I said hi back? I'm sure he'd be happy to hear!\""
-        - name: "\"Oh, and if he doesn't believe you, just say I called him a good boy. He's actually a real big softie, but I think I'm the only person he's really opened up to?\""
-        - name: "\"Don't tell him that, or he'll probably bite me the next time he sees me. Anyway, good luck!~\""
+  ##[Technical Trivia]
+  - Frostbite has a unique folder inside called TrustLevels which determines what dialogue he uses to the player depending on the player's trust. It comes with 4 levels, Acquainted (1), Friends (2), Stranger (0), and Intruder (First Introductions)
+    - He also has TrustLevels_Airhorn which has all 4 subfolders similar to TrustLevels, but ideally has different dialogue based on your current trust with Frost.
 
-    - type: section
-      content:
-        size: small
-        title: "Part 3 (Frost)"
-
-    - type: tree
-      content:
-        - name: "Pear says \"hi\" back."
-          children:
-            - name: "\"Well I'll be, did they really? Do they actually remember me after all this time?\""
-              children:
-                - name: "Option 1: Yeah, and they called you a good boy."
-                  children:
-                    - name: "\"..!\""
-                    - name: "\"...\""
-                    - name: "\"Yeah, uhm, definitely sounds like him.. I believe ya..\""
-                    - name: "\"Um, uh.. Thanks.. I never thought I'd be able to talk to him again.. And I'm glad he, uh.. still thinks highly of me...\""
-                    - name: "\"!\""
-                    - name: "\"Pretend that none of this EVER happened!\""
-                - name: "Option 2: Yeah, they do."
-                  children:
-                    - name: "\"I find that a little hard to believe, but.. Thank you. I never thought I'd be able to talk to him again, even though it was more of a.. relayed message, heh..\""
-
-    - type: section
-      content:
-        size: small
-        title: "Part 4 (Pear)"
-        description: >- 
-          <br>
-          For this part, 
-          you'll have to shuffle through Pear's "Let's talk!" Dialogue until you get the Tub of Ice Cream topic.
-
-    - type: section
-      content:
-        size: small
-        title: "First Time Dialogue:"
-
-    - type: tree
-      content:
-        - name: "\"Tell Frost he owes me a tub of ice cream next time he sees me...\""
-        - name: "\"No reason in particular, I just want one!\""
-          children:
-            - name: "Yeah, sure. I'll tell him."
-              children:
-                - name: "\"Well, I mean, I was kinda half joking, but thanks! Maybe I'll get that ice cream after all..~\""
-    - type: section
-      content:
-        size: small
-        title: "If you haven't sent his message yet:"
-
-    - type: tree
-      content:
-        - name: "\"Tell Frost he owes me a tub of ice cream next time he sees me...\""
-        - name: "\"No reason in particular, I just want one!\""
-          children:
-            - name: "I'll get to it eventually."
-              children:
-                - name: "\"Thanks~\""
-
-    - type: section
-      content:
-        size: small
-        title: "If you had sent his message but not directly told him after Part 5:"
-
-    - type: tree
-      content:
-        - name: "\"Tell Frost he owes me a tub of ice cream next time he sees me...\""
-        - name: "\"No reason in particular, I just want one!\""
-          children:
-            - name: I told him.
-              children:
-                - name: "\"Whuh?! You actually did?!\""
-                - name: "\"Thank you.. I've been wanting to tell him that for years!\" <small>(Triggers the Animal Messenger Badge)</small>"
-
-    - type: section
-      content:
-        size: small
-        title: "Part 5 (Frost)"
-
-    - type: tree
-      content:
-        - name: "Pear wanted to say..."
-          children:
-            - name: "\"Pfft, a whole tub of ice cream?\""
-            - name: "\"I mean, it's definitely been some time since I've made any ice cream, but.. I'd definitely try for him!\""
-            - name: "\"We'd have to find a place to meet up... And I'd have to buy the ingredients... I could make that recipe for him, finally..\""
-            - name: "\"You could have some too, if you'd like. Pear always said that I'd made the best ice cream they've ever tasted..\""
-            - name: "\"I mean, I don't know about that, but I could be convinced of it... Ice wolf, after all.\""
-            - name: "\"Anyway, enough about that. Thanks for relaying the message! I'll have to think about it later, heh.\""
-
-    - type: section
-      content:
-        size: small
-        title: "Part 6 (Pear)"
-        description: >- 
-          <br>
-          This part will give you the Animal Messenger badge upon completion- but there is one more part left!
-
-    - type: tree
-      content:
-        - name: "Told Frost about the ice cream."
-          children:
-            - name: "\"Whuh?! You actually did?!\""
-            - name: "\"Thank you.. I've been wanting to tell him that for years!\" <small>(Triggers the Animal Messenger Badge)</small>"
-
-    - type: section
-      content:
-        size: small
-        title: "Part Finale (Frost)"
-        description: >- 
-          <br>
-          his part occurs as soon as you re-enter Frost's den following Pear's response.
-
-    - type: tree
-      content:
-        - name: "Variant 1: \"[Player], hey!\""
-        - name: "Variant 2: \"Oh, hey [Player]!\""
-          children:
-            - name: "\"I, uh, just wanted to say thank you. For everything.\""
-            - name: "\"I like to keep things short and sweet, so here. Catch!\""
-              children:
-                - name: "You: \"[You grab the object he tosses at you. Looks like a handheld mirror of some sort.]\" <small>(Gives you the Magic Mirror)</small>"
-                  children:
-                    - name: "\"If ya ever feel lonely, or just want a safe space to chill, feel free to come back anytime.\""
-                    - name: "\"Alright, see ya on the flip side.\""
-
-    - type: section
-      content:
-        size: small
-        title: "Airhorn-Related Dialogue"
-        description: >- 
-          <br>
-          When the airhorn is used repeatedly in proximity to Frostbite:
-
-    - type: tree
-      content:
-        - name: "\"Hey, uh... I don't know if you know this, but us wolves have pretty good hearing...\""
-
-    - type: section
-      content:
-        size: small
-        title: "When the airhorn is used repeatedly in proximity to Frostbite a second time:"
-
-    - type: tree
-      content:
-        - name: "\"What I'm trying to say is... Stop that. It hurts.\""
-
-    - type: section
-      content:
-        size: small
-        title: "When the airhorn is used repeatedly in proximity to Frostbite a third time:"
-
-    - type: tree
-      content:
-        - name: "\"Seriously. Knock it off.\""
-
-    - type: section
-      content:
-        size: small
-        title: "When the airhorn is used repeatedly in proximity to Frostbite a fourth time, or more than four times when not befriended:"
-
-    - type: tree
-      content:
-        - name: "\"...\""
-
-    - type: section
-      content:
-        size: small
-        title: "When the airhorn is used repeatedly in proximity to Frostbite a fifth time, while befriended:"
-
-    - type: tree
-      content:
-        - name: "\"Listen, I'm gonna warn you one more time, because as a friend, I don't wanna have to kill you.\""
-          children:
-            - name: "<small>(The next three offenses will loop through the previous three lines.)</small>"
-
-    - type: section
-      content:
-        size: small
-        title: "Once the loop is finished:"
-
-    - type: tree
-      content:
-        - name: "\"Fine... I'm sorry I gotta do this to ya...\""
-          children:
-            - name: "<small>(Frostbite kills the player.)</small>"
-
-    - type: section
-      content:
-        size: small
-        title: "When the airhorn is used repeatedly in proximity to Frostbite a fifth time, while not friends yet:"
-
-    - type: tree
-      content:
-        - name: "\"I've had it with you.\""
-          children:
-            - name: "<small>(Frostbite kills the player.)</small>"
-
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: Frost is <a href='/bussim/npcs/noble'>NobleReign's</a> fursona.
-          children:
-            - name: Despite this, both Noble and Frost don't know each other and isn't referenced in any of their dialogues.
-        - name: Frost is also a childhood friend of Pear, which is referenced in a few of his dialogue.
-        - name: Frost is referenced by multiple news shouts about stealing <a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicles</a>, rendering the popsicles a rarity now. This is alluded to the fact that the chances of getting one from an Ice Cream Truck is extremely rare.
-        - name: If you bought pearcoin<sup>TM</sup> in the server without rejoining, you need to rejoin to be able to use it however <a href='/bussim/npcs/pear'>Pear's</a> dialogue will change without rejoin needed.
-        - name: If you offered Frost a <a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicle</a> instead of the <a href='/bussim/items/ice-cream'>Ice Cream</a> + <a href='/bussim/others/pearcoin'>Pearcoin<sup>TM</sup></a> duo, he will still mention about receiving a Pearcoin<sup>TM</sup> from you, despite not possibly even owning one nor showing it to Frost in the first place.
-        - name: If you really don't want to spend any Robux, the best way to get Frost's trust is to get the legendary <a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicle</a>, which has a 1/800 chance of getting, or by giving him multiple <a href='/bussim/items/ice-cream'>Ice Creams</a>.
-          children:
-            - name: The latter is still not confirmed yet.
-
-    - type: section
-      content:
-        title: Technical Trivia
-
-    - type: tree
-      content:
-        - name: Frostbite has a unique folder inside called TrustLevels which determines what dialogue he uses to the player depending on the player's trust. It comes with 4 levels, Acquainted (1), Friends (2), Stranger (0), and Intruder (First Introductions)
-          children:
-            - name: He also has TrustLevels_Airhorn which has all 4 subfolders similar to TrustLevels, but ideally has different dialogue based on your current trust with Frost.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/npcs/frost.webp
+  !!GALLERY [/assets/bussim/images/npcs/frost.webp]  

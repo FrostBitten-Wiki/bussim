@@ -1,29 +1,26 @@
+editable: True
 page:
   title: Fall
-  description: Fall is a biome in the game that is similar to Summer,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Fall
+  description: Doodle is one of the new biomes added to Bus Simulator. It features a notebook-paper-like floor as well as animated doodles depicting flowers, grass, bushes, and trees.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: Fall
-    description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>
+    description: |
+      Category: [Biomes](/bussim/biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/fall.webp
 
-    image: ''
-    imageBanner: /bussim-assets/images/biomes/fall.webp
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-         Fall is a biome in the game that is similar to <a href='/bussim/biomes/summer'>Summer</a>,
-         but is replaced with Orange instead of Green.
+content: |
+  ##[Info]
+  Fall is a biome in the game that is similar to [Summer](/bussim/biomes/summer), but is replaced with Orange instead of Green.
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/biomes/galleries/Pov_fall.webp
+  !!GALLERY [/assets/bussim/images/biomes/fall.webp]

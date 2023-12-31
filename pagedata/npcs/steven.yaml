@@ -1,102 +1,53 @@
+editable: True
 page:
-  title: Steven Scripts
-  description: Steven_Scripts is an NPC that appears in Bus Simulator in both Bloxdonalds and Steven Ride, he is also a developer of the game.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Steven Scripts
+  title: Steven
+  description: NPCDescription
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npc
+  
+  tags: steven, npc
+
+  header:
+    title: Steven
+    description: |
+      Category: [NPCs](/bussim/npcs)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions:
-  - "Ported & Edited By PolyframeX (@polyframex)"
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-html:
-  header:
-    title: Steven Scripts
-    description: >- 
-      Category: <a href="/bussim/npcs">NPCs</a>
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
-    
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         <i>This is for the talk-able NPC found behind <a href='/bussim/events/bloxdonalds'>Bloxdonalds</a> and appears in <a href='/bussim/events/steven-ride'>Steven Ride</a>. Both will be documented here.</i>
+content: |
+  ##[Info]
+  Steven_Scripts is an NPC that appears in Bus Simulator in both Bloxdonalds and Steven Ride, he is also a developer of the game.
 
-         <br><br>
+  ##[Appearance]
+  He appears to have a Blue-Black stripped jacket over a Lua shirt, a harmonica, 4 hearts at the left of his head, a ROBLOX cap, 150K Summer Shades, and Jeans.
 
-         Steven_Scripts is an NPC that appears in Bus Simulator in both Bloxdonalds and Steven Ride, 
-         he is also a developer of the game.
+  ##[Favourite Drink]
+  Steven's favourite drink is [Mango Juice](/bussim/events/coffee-shop). This gives you 6 Passenger Rep.
 
-    - type: section
-      content:
-        title: Appearance
-        description: >-
-          He appears to have a Blue-Black stripped jacket over a Lua shirt, 
-          a harmonica, 
-          4 hearts at the left of his head, 
-          a ROBLOX cap, 
-          150K Summer Shades, 
-          and Jeans.
+  ##[Dialogue (Bloxdonalds)]
+  !!DLEMULATOR EID:"stevenemulator" SID:"start" URL:"/assets/bussim/emulatorData/steven.json"
+  
+  - "Uh, hey."
+    - hg[Option 1]: What are you doing back here?
+    - hg[Option 2]: [Leave quietly.]
+        - "I'm just trying to eat lunch."
+            - hg[Option 1]: Why is there a body behind you?
+                - "Body? What body?"
+            - hg[Option 2]: Oookay... [Leave.] 
 
-    - type: section
-      content:
-        title: Dialogue (Bloxdonalds)
+  ##[Trivia]
+  - Compared to the many other talkative NPCs in the game, Steven_Scripts cannot be annoyed using an [Airhorn](/bussim/items/airhorn).
+    - Steven also has no new dialogue regardless if you are friends with them, similar to [Tazer](/bussim/npcs/tazer) and other NPCs.
+    - Depending on Steven's location in Steven Ride, you might also accidentally trigger [Pear](/bussim/npcs/pear).
+  - If Steven_Scripts in Steven Ride fails to exit the Bus before the [Backwalls](/bussim/events/backwalls) event happens, he can be spotted in the walls / corners of a room, violently sobbing.\n\n
+  - If the Steven Ride event is trigged while Steven is already on the bus, it will result in encountering what seems to be a humanoid shaped stone in front of the bus instead of Steven. It then gets run over by the bus and collapses, ending the event.\n\n
+  - While you may not be able to see Steven_Scripts at first glance during his introduction, the harmonica sound effect will still play before and after the introduction.\n\n
+    - The harmonica sound effect is also be distorted if you spot him in the [Backwalls](/bussim/events/backwalls).
+  - If Steven_Scripts ride on the Bus and all of the seats on the first floor are filled, Steven_Scripts will instead sit down next to the bathroom, defeated.
 
-    - type: npcChat
-      content:
-        id: steven
-        startId: start
-        chatData: /bussim-assets/chatdata/npcs/steven.json
-
-    - type: tree
-      content:
-        - name: "\"Uh, hey.\""
-          children:
-            - name: "Option 1: What are you doing back here?"
-            - name: "Option 2: [Leave quietly.]"
-              children:
-                - name: "\"I'm just trying to eat lunch.\""
-                  children:
-                    - name: "Option 1: Why is there a body behind you?"
-                      children:
-                        - name: "\"Body? What body?\""
-                    - name: "Option 2: Oookay... [Leave.]"
-
-    - type: section
-      content:
-        title: Dialogue (Steven Ride)
-
-    - type: tree
-      content:
-        - name: "Steven_Scripts <small>(First appears as ???)</small>: \"Hey, I need to get somewhere! Let me in!\""
-          children:
-            - name: "[Player]: \"..ookay?\""
-              children:
-                - name: "[Player]: \"I don't know about this...\""
-                  children:
-                    - name: "Steven_Scripts: \"Take me to the next stop.\""
-                      children:
-                         - name: "[Player]: \"Hey, it's--\""
-                           children:
-                              - name: "Steven_Scripts: \"shhhhHHH. We all know already. Get going.\""
-
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: Compared to the many other talkative NPCs in the game, Steven_Scripts cannot be annoyed using an <a href='/bussim/items/airhorn'>Airhorn</a>.
-          children:
-            - name: Steven also has no new dialogue regardless if you are friends with them, similar to <a href='/bussim/npcs/tazer'>Tazer</a> and other NPCs.
-            - name: Depending on Steven's location in Steven Ride, you might also accidentally trigger <a href='/bussim/npcs/pear'>Pear</a>.
-        - name: If Steven_Scripts in Steven Ride fails to exit the Bus before the <a href='/bussim/events/backwalls'>Backwalls</a> event happens, he can be spotted in the walls / corners of a room, violently sobbing.
-        - name: If the Steven Ride event is trigged while Steven is already on the bus, it will result in encountering what seems to be a humanoid shaped stone in front of the bus instead of Steven. It then gets run over by the bus and collapses, ending the event.
-        - name: While you may not be able to see Steven_Scripts at first glance during his introduction, the harmonica sound effect will still play before and after the introduction.
-          children:
-            - name: The harmonica sound effect is also be distorted if you spot him in the <a href='/bussim/events/backwalls'>Backwalls</a>.
-        - name: If Steven_Scripts ride on the Bus and all of the seats on the first floor are filled, Steven_Scripts will instead sit down next to the bathroom, defeated.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/npcs/steven.webp
+  !!GALLERY [/assets/bussim/images/npcs/banana.webp]  

@@ -1,43 +1,32 @@
+editable: True
 page:
   title: Tool
-  description: Tool is a temporary item that can be obtained after giving D6 a food or drink item (permanent items, such as the Snowcone, also count).
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Tool
-  tags: tool, d6 tool, event item
+  description: Tool is a temporary item that can be obtained after giving D6 a food or drink item (permanent items, such as the Snowcone, also count). 
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim item item
+  
+  tags: placeholder, tool, the almighty legendary tool
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Tool
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: quote
-      content:
-       quote: "ToolTip"
-       author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-         Tool is a temporary item that can be obtained after giving D6 a food or drink item (permanent items, such as the Snowcone, also count).
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-         <br><br>
+content: |
+  "ToolTip" -"Tool"
 
-         When triggering his dialogue asking for food, you have to deny it, 
-         where he barters to give you the tool, then accept it.
+  ##[Info]
+  Tool is a temporary item that can be obtained after giving D6 a food or drink item (permanent items, such as the Snowcone, also count).
+  \n\n
+  When triggering his dialogue asking for food, you have to deny it, where he barters to give you the tool, then accept it.
 
-    - type: section
-      content:
-        title: Trivia
+  ##[Trivia]
+  - It is the most useless item in the game because it does nothing.
 
-    - type: tree
-      content:
-        - name: It is the most useless item in the game because it does nothing.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/tool.webp
+  !!GALLERY [/assets/bussim/images/items/tool.webp]

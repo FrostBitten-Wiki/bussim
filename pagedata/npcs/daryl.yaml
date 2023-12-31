@@ -1,0 +1,46 @@
+editable: True
+page:
+  title: Daryl
+  description: Daryl, or internally known as the Ghost Employee is a special entity that spawns whenever someone who is unfortunate uses Kernels on a Cursed Popcorn Machine. 
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim ghost employee
+  
+  tags: popcorn stand, popcorn guardian, daryl, ghost, ghost employee, is that a phasmophobia reference, backwalls, popcorn, popcorn machine, popcorn bucket
+
+  header:
+    title: Daryl
+    description: |
+      Category: [NPCs](/bussim/npcs)
+    
+    image: ""
+    imageBanner: /bussim-assets/images/events/backrooms2.webp
+
+attributions: 
+  - Ported by FangedWerewolf (@noobbiom)
+
+content: |
+  ##[Info]
+  Daryl, or internally known as the Ghost Employee is a special entity that spawns whenever someone who is unfortunate uses [Kernels](/bussim/items/kernels) on a Cursed Popcorn Machine. 
+  \n\n 
+  When someone activates a Cursed Popcorn Machine, Daryl will appear being visible and invisible at random times. During this period, it will chase anyone around it and making any contact with it will instantly kill you. 
+  \n\n 
+  It is important to avoid Daryl or the Cursed Popcorn Machines in general, or to wait until the machine has finished making the popcorn, in which case; Daryl will subsequently vanish.  
+
+  ##[Appearance]
+  Daryl is a rather simple yet unknown humanoid, possessing an outfit similar to those who work in Movie Theaters, its skin is rather yellow; and it possesses no face nor any accessories. 
+  \n\n 
+  When spawned from a Cursed Popcorn Machine, the ghost will flicker. 
+
+  ##[AI]
+  Daryl's AI is rather simple, it attempts to chase down someone who is closest to it and if it were to make contact with the person; they would instantly die. 
+  \n\n 
+  It cannot pass through walls nor props, making it possible to try and get around it with some lucky terrain. 
+  \n\n 
+  Its walkspeed is also similar of that to the normal Robloxian, so while outrunning it may be difficult; using items such as [Almond Water](/bussim/items/almond-water) can help. 
+  \n\n 
+  It is unknown if it can involve itself while the person's being escorted by [Pear](/bussim/npcs/pear). 
+  \n\n 
+  Once though the Cursed Popcorn Machine has finished making popcorn, it will subsequently vanish; allowing players to receive and equip the [Popcorn Bucket](/bussim/items/popcorn-bucket). 
+
+  ##[Trivia] 
+  - The Ghost's appearance, after the Cursed Popcorn Machine is used, is based off when a ghost hunts in Phasmophobia.

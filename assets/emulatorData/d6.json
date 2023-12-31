@@ -1,0 +1,2739 @@
+{
+    "start": {
+        "name": "D6",
+        
+        "text": [
+            "im d6",
+            ["you.","Only appears if the player is on dSiiiiiix's friends list"],
+            ["man i could really go for some graham crackers right about now","Only appears if the current day is Monday"],
+            ["and if youuuuuu cant believe it","Only appears if the current day is Friday"],
+            "i cant believe i had to drive all the way to work",
+            "would you like to sign my petition? ...nevermind"
+        ],
+
+        "choices": [
+            [
+                "Any wisdom for today?",
+                ["varA1a"]
+            ],
+            [
+                "Let's Talk!",
+                ["talk"]
+            ],
+            [
+                "Nevermind.",
+                ["nvm"]
+            ],
+            [
+                "Tell me.",
+                ["tell"]
+            ]
+        ],
+        "controls": [
+            [
+                "Refresh",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA1a": {
+        "name": "System",
+        
+        "text": [
+            "Would you like a random variant or to select a variant?"
+        ],
+
+        "choices": [
+            [
+                "Random Variant",
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA2B1","wisdomA2B2a","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+            ],
+            [
+                "Select a Variant",
+                ["varA1b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA1b": {
+        "name": "System",
+        
+        "text": [
+            "Which variant would you like to select? (Page 1/4)"
+        ],
+
+        "choices": [
+            [
+                ["V1 S1", "PC Only; ''give me the keyboard''"],
+                ["wisdomA1B1"]
+            ],
+            [
+                ["V1 S2", "Phone Only; ''give me your phone''"],
+                ["wisdomA1B2"]
+            ],
+            [
+                ["V1 S3", "Console Only; ''give me the controller''"],
+                ["wisdomA1B3"]
+            ],
+            [
+                ["V2 S1", "After having wisdom today; ''you've had enough wisdom for today. come back tomorrow''"],
+                ["wisdomA2B1"]
+            ],
+            [
+                ["V2 S2", "If you use an alt account after having wisdom today; ''hey... you're not trying to use a different account to cheat the system are you''"],
+                ["wisdomA2B2a"]
+            ],
+            [
+                ["V2 S3", "If you use another alt account after having wisdom twice; ''hey there again you have multiple alts then huh''"],
+                ["wisdomA2B3a"]
+            ],
+            [
+                ["V3", "''live to die''"],
+                ["wisdomA3"]
+            ],
+            [
+                ["V4", "''if you come to a fork in the road, pick it up''"],
+                ["wisdomA4"]
+            ],
+            [
+                ["V5", "''you are playing it wrong''"],
+                ["wisdomA5"]
+            ],
+            [
+                ["V6", "''i did the art for the limbobbia tutorial. you should try it if you haven't''"],
+                ["wisdomA6"]
+            ],
+            [
+                "<highlight>Next Page</highlight>",
+                ["varA1c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["varA1a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA1c": {
+        "name": "System",
+        
+        "text": [
+            "Which variant would you like to select? (Page 2/4)"
+        ],
+
+        "choices": [
+            [
+                ["V7 S1", "Thursday Exclusive; ''today is thursday.''"],
+                ["wisdomA7B1"]
+            ],
+            [
+                ["V7 S2", "Any Day but Thursday; ''today is not thursday.''"],
+                ["wisdomA7B2"]
+            ],
+            [
+                ["V8", "''do not hesitate to defend yourself. you won't regret it''"],
+                ["wisdomA8"]
+            ],
+            [
+                ["V9", "''support your local trash goblin''"],
+                ["wisdomA9"]
+            ],
+            [
+                ["V10", "''thank Noble for doing all this; without it i would have no wisdom to share.''"],
+                ["wisdomA10"]
+            ],
+            [
+                ["V11", "''i am sincerely sorry for your loss''"],
+                ["wisdomA11"]
+            ],
+            [
+                ["V12", "''your lucky numbers for the day are [5 random 1-2 digit integers] and [random 1-2 digit integer]''"],
+                ["wisdomA12"]
+            ],
+            [
+                ["V13", "''nobody knows the troubles you've seen''"],
+                ["wisdomA13"]
+            ],
+            [
+                ["V14", "''if you don't like the new roblox death sound, you can change it to whatever you want.''"],
+                ["wisdomA14a"]
+            ],
+            [
+                ["V15", "''you can adjust the game volume via the pause menu''"],
+                ["wisdomA15"]
+            ],
+            [
+                "<highlight>Next Page</highlight>",
+                ["varA1d"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["varA1b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA1d": {
+        "name": "System",
+        
+        "text": [
+            "Which variant would you like to select? (Page 3/4)"
+        ],
+
+        "choices": [
+            [
+                ["V16", "''stand up for yourself''"],
+                ["wisdomA16"]
+            ],
+            [
+                ["V17", "''we have done something wrong at one point''"],
+                ["wisdomA17a"]
+            ],
+            [
+                ["V18", "''he's going to betray you, you know.''"],
+                ["wisdomA18"]
+            ],
+            [
+                ["V19", "''exploration can only lead to disappointment.''"],
+                ["wisdomA19"]
+            ],
+            [
+                ["V20", "''the remains of our ancestors lie beneath our feet''"],
+                ["wisdomA20a"]
+            ],
+            [
+                ["V21", "''the end is never''"],
+                ["wisdomA21"]
+            ],
+            [
+                ["V22", "''only a sinner''"],
+                ["wisdomA22"]
+            ],
+            [
+                ["V23", "''also try lethal league blaze''"],
+                ["wisdomA23"]
+            ],
+            [
+                ["V24", "''also try boneworks, if you have vr''"],
+                ["wisdomA24"]
+            ],
+            [
+                ["V25", "''i can kill you in two different ways''"],
+                ["wisdomA25"]
+            ],
+            [
+                "<highlight>Next Page</highlight>",
+                ["varA1e"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["varA1c"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA1e": {
+        "name": "System",
+        
+        "text": [
+            "Which variant would you like to select? (Page 4/4)"
+        ],
+
+        "choices": [
+            [
+                ["V26", "''i can't tell you what the Tool does you have to figure it out yourself''"],
+                ["wisdomA26"]
+            ],
+            [
+                ["V27", "''you will never be forgiven''"],
+                ["wisdomA27"]
+            ],
+            [
+                ["V28", "''think for yourself''"],
+                ["wisdomA28"]
+            ],
+            [
+                ["V29", "''believe in yourself''"],
+                ["wisdomA29"]
+            ],
+            [
+                ["V30", "''question authority''"],
+                ["wisdomA30"]
+            ],
+            [
+                ["V31", "''go outside''"],
+                ["wisdomA31"]
+            ],
+            [
+                ["V32", "''don't leave the house today''"],
+                ["wisdomA32"]
+            ],
+            [
+                ["V33", "''my brain hurts''"],
+                ["wisdomA33"]
+            ],
+            [
+                ["V34", "''may your troubles be many''"],
+                ["wisdomA34"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["varA1d"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA1B1": {
+        "name": "D6",
+
+        "text": [
+            ["give me the keyboard","Only appears if your on PC"]
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>No Thanks.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+    "wisdomA1B2": {
+        "name": "D6",
+
+        "text": [
+            ["give me your phone","Only appears if your on phone"]
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>No Thanks.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+    "wisdomA1B3": {
+        "name": "D6",
+
+        "text": [
+            ["give me the controller","Only appears if your on console"]
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>No Thanks.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA2B1": {
+        "name": "D6",
+
+        "text": [
+            ["you've had enough wisdom for today. come back tomorrow","Only appears if the player has previously selected this option within the last 12 hours"]
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    
+    "wisdomA2B2a": {
+        "name": "D6",
+
+        "text": [
+            "hey..."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA2B2b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA2B2b": {
+        "name": "D6",
+
+        "text": [
+            ["you're not trying to use a different account to cheat the system are you","Only appears if the player has selected this option on a different account under the same device"]
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA2B2c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["wisdomA2B2a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA2B2c": {
+        "name": "D6",
+
+        "text": [
+            "for shame"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA2B2d"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["wisdomA2B2b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA2B2d": {
+        "name": "D6",
+
+        "text": [
+            "i'll still give you the wisdom though"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["wisdomA2B2c"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA2B3a": {
+        "name": "D6",
+
+        "text": [
+            "hey there again"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA2B3b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["wisdomA2B2c"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA2B3b": {
+        "name": "D6",
+
+        "text": [
+            ["you have multiple alts then huh","Only appears if the player has selected this option on yet another account under the same device, following Variant 2B"]
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA2B3c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["wisdomA2B3a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA2B3c": {
+        "name": "D6",
+
+        "text": [
+            "that's cool i guess"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA1B1","wisdomA1B2","wisdomA1B3","wisdomA3","wisdomA4","wisdomA5","wisdomA6","wisdomA7B1","wisdomA7B2","wisdomA8","wisdomA9","wisdomA10","wisdomA11","wisdomA12","wisdomA13","wisdomA14a","wisdomA15","wisdomA16","wisdomA17a","wisdomA18","wisdomA19","wisdomA20a","wisdomA21","wisdomA22","wisdomA23","wisdomA24","wisdomA25","wisdomA26","wisdomA27","wisdomA28","wisdomA29","wisdomA30","wisdomA31","wisdomA32","wisdomA33","wisdomA34"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["wisdomA2B3b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA3": {
+        "name": "D6",
+
+        "text": [
+            "live to die"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA4": {
+        "name": "D6",
+
+        "text": [
+            "if you come to a fork in the road, pick it up"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA5": {
+        "name": "D6",
+
+        "text": [
+            "you are playing it wrong"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA6": {
+        "name": "D6",
+
+        "text": [
+            "i did the art for the limbobbia tutorial. you should try it if you haven't"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA7B1": {
+        "name": "D6",
+
+        "text": [
+            ["today is thursday.","Only appears if today is Thursday"]
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA7B2": {
+        "name": "D6",
+
+        "text": [
+            ["today is not thursday","Only appears if today is not Thursday"]
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA8": {
+        "name": "D6",
+
+        "text": [
+            "do not hesitate to defend yourself. you won't regret it"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA9": {
+        "name": "D6",
+
+        "text": [
+            "support your local trash goblin"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA10": {
+        "name": "D6",
+
+        "text": [
+            "thank Noble for doing all this; without it i would have no wisdom to share."
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA11": {
+        "name": "D6",
+
+        "text": [
+            "i am sincerely sorry for your loss"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA12": {
+        "name": "D6",
+
+        "text": [
+            "your lucky numbers for the day are [5 random 1-2 digit integers] and [random 1-2 digit integer]"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA13": {
+        "name": "D6",
+
+        "text": [
+            "nobody knows the troubles you've seen"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA14a": {
+        "name": "D6",
+
+        "text": [
+            "if you don't like the new roblox death sound, you can change it to whatever you want."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA14b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA14b": {
+        "name": "D6",
+
+        "text": [
+            "open the file location of your RobloxPlayerLauncher.exe"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA14c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["wisdomA14a"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA14c": {
+        "name": "D6",
+
+        "text": [
+            "go to content, then sounds. replace ouch.ogg with any .ogg file you want, rename it to ouch.ogg"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["wisdomA14b"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA15": {
+        "name": "D6",
+
+        "text": [
+            "you can adjust the game volume via the pause menu"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA16": {
+        "name": "D6",
+
+        "text": [
+            "stand up for yourself"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA17a": {
+        "name": "D6",
+
+        "text": [
+            "we have done something wrong at one point"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA17b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA17b": {
+        "name": "D6",
+
+        "text": [
+            "something we can never undo"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA17c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["wisdomA17a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA17c": {
+        "name": "D6",
+
+        "text": [
+            "and for this we are being punished"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA17d"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["wisdomA17b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA17d": {
+        "name": "D6",
+
+        "text": [
+            "This is our eternity, our prison."
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["wisdomA17c"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA18": {
+        "name": "D6",
+
+        "text": [
+            "he's going to betray you, you know."
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA19": {
+        "name": "D6",
+
+        "text": [
+            "exploration can only lead to disappointment."
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA20a": {
+        "name": "D6",
+
+        "text": [
+            "the remains of our ancestors lie beneath our feet"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA20b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA20b": {
+        "name": "D6",
+
+        "text": [
+            "sometimes i can still hear their voices"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA20c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["wisdomA20a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA20c": {
+        "name": "D6",
+
+        "text": [
+            "screaming"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["wisdomA20d"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["wisdomA20b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA20d": {
+        "name": "D6",
+
+        "text": [
+            "but sometimes its hard to hear them over my own screams."
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["wisdomA20c"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA21": {
+        "name": "D6",
+
+        "text": [
+            "the end is never"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA22": {
+        "name": "D6",
+
+        "text": [
+            "only a sinner"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA23": {
+        "name": "D6",
+
+        "text": [
+            "also try lethal league blaze"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA24": {
+        "name": "D6",
+
+        "text": [
+            "also try boneworks, if you have vr"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA25": {
+        "name": "D6",
+
+        "text": [
+            "i can kill you in two different ways"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA26": {
+        "name": "D6",
+
+        "text": [
+            "i can't tell you what the Tool does you have to figure it out yourself"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA27": {
+        "name": "D6",
+
+        "text": [
+            "you will never be forgiven"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA28": {
+        "name": "D6",
+
+        "text": [
+            "think for yourself"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA29": {
+        "name": "D6",
+
+        "text": [
+            "believe in yourself"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA30": {
+        "name": "D6",
+
+        "text": [
+            "question authority"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA31": {
+        "name": "D6",
+
+        "text": [
+            "go outside"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA32": {
+        "name": "D6",
+
+        "text": [
+            "don't leave the house today"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA33": {
+        "name": "D6",
+
+        "text": [
+            "my brain hurts"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "wisdomA34": {
+        "name": "D6",
+
+        "text": [
+            "may your troubles be many"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "talk": {
+        "name": "D6",
+
+        "text": [
+            "what"
+        ],
+
+        "choices": [
+            [
+                "Why are you in a dumpster?",
+                ["talkB1"]
+            ],
+            [
+                "Roll me a number",
+                ["talkB2a"]
+            ],
+            [
+                "Why are you so short?",
+                ["talkB3"]
+            ],
+            [
+                "What do you do?",
+                ["talkB4a"]
+            ],
+            [
+                "Hi D6.",
+                ["talkB5"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "talkB1": {
+        "name": "D6",
+
+        "text": [
+            ["why havent you been flattened by a 2 ton slab of concrete","A 2 ton slab of concrete falls from the sky and kills the player, unless under cover."]
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["talk"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "talkB2a": {
+        "name": "D6",
+
+        "text": [
+            "Why"
+        ],
+
+        "choices": [
+            [
+                "Because you're a d6?",
+                ["talkB2b"]
+            ],
+            [
+                " Nevermind.",
+                ["talkB2c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["talk"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "talkB2b": {
+        "name": "D6",
+
+        "text": [
+            "thats fair. 1",
+            "thats fair. 2",
+            "thats fair. 3",
+            "thats fair. 4",
+            "thats fair. 5",
+            "thats fair. 6"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["talkB2a"]
+            ],
+            [
+                "Refresh",
+                ["talkB2b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "talkB2c": {
+        "name": "D6",
+
+        "text": [
+            "ok"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["talk"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "talkB3": {
+        "name": "D6",
+
+        "text": [
+            [" ","The player then immediately explodes."]
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["talk"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "talkB4a": {
+        "name": "D6",
+
+        "text": [
+            "im"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["talkB4b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["talk"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "talkB4b": {
+        "name": "D6",
+
+        "text": [
+            "d6"
+        ],
+
+        "choices": [
+            [
+                "Yeah, but like what do you DO?",
+                ["talkB4c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["talkB4a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "talkB4c": {
+        "name": "D6",
+
+        "text": [
+            "yeah how about you learn to listen the first time"
+        ],
+
+        "choices": [
+            [
+                "sorry",
+                ["talkB4d"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["talkB4b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "talkB4d": {
+        "name": "D6",
+
+        "text": [
+            "hi"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Talk",
+                ["talkB4c"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "talkB5": {
+        "name": "D6",
+
+        "text": [
+            ["hi","Only appears if it's the players first time selecting this option"],
+            ["hey there again","Only appears if it's not the players first time selecting this option"]
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["talk"]
+            ],
+            [
+                "Refresh",
+                ["talkB5"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "nvm": {
+        "name": "D6",
+
+        "text": [
+            "7577234764 Dont forget it. It's the only way out.",
+            "ok"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Refresh",
+                ["nvm"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tell": {
+        "name": "D6",
+
+        "text": [
+            "ok"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["varA2a"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA2a": {
+        "name": "System",
+
+        "text": [
+            "Would you like a random variant or to select a variant?"
+        ],
+
+        "choices": [
+            [
+                "Random Variant",
+                ["tellA1","tellA2","tellA3","tellA4","tellA5a","tellA6a","tellA7","tellA8","tellA9a","tellA10a","tellA11","tellA12","tellA13"]
+            ],
+            [
+                "Select a Variant",
+                ["varA2b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tell"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+
+    "varA2b": {
+        "name": "System",
+
+        "text": [
+            "Which variant would you like to select / preview? (Page 1/2)"
+        ],
+
+        "choices": [
+            [
+                ["V1", "''dude... GLAGGLELAND??????''"],
+                ["tellA1"]
+            ],
+            [
+                ["V2", "''im d6''"],
+                ["tellA2"]
+            ],
+            [
+                ["V3", "''if i hear that dumb smelly protogen mention ram one more time...''"],
+                ["tellA3"]
+            ],
+            [
+                ["V4", "''i'm not allowed in the store anymore since i keep shoplifting but...''"],
+                ["tellA4"]
+            ],
+            [
+                ["V5", "''lets talk about embalming fluid''"],
+                ["tellA5a"]
+            ],
+            [
+                ["V6", "''sometimes i feel the sudden urge to break into someone's house and...''"],
+                ["tellA6a"]
+            ],
+            [
+                ["V7", "''Do not let it affect you in the moment. It is all ultimately meaningless...''"],
+                ["tellA7"]
+            ],
+            [
+                ["V8", "''i think i could beat that cat on the bus in a fist fight''"],
+                ["tellA8"]
+            ],
+            [
+                ["V9", "''hey so do you know what those guys are selling in there theyve chased me out with a broom like 6 times already...''"],
+                ["tellA9a"]
+            ],
+            [
+                ["V10", "''you got anything to eat''"],
+                ["tellA10a"]
+            ],
+            [
+                "<highlight>Next Page</highlight>",
+                ["varA2c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["varA2a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "varA2c": {
+        "name": "System",
+
+        "text": [
+            "Which variant would you like to select? (Page 2/2)"
+        ],
+
+        "choices": [
+            [
+                ["V11", "''i am sincerely sorry for your loss''"],
+                ["tellA11"]
+            ],
+            [
+                ["V12", "''my brain hurts''"],
+                ["tellA12"]
+            ],
+            [
+                ["V13", "''[END OF DIALOGUE]''"],
+                ["tellA13"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["varA2b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA1": {
+        "name": "D6",
+
+        "text": [
+            "dude... GLAGGLELAND??????"
+        ],
+
+        "choices": [
+            [
+            "<font color='#ffaf00'>The rides:</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tell"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA2": {
+        "name": "D6",
+
+        "text": [
+            "im d6"
+        ],
+
+        "choices": [
+            [
+                "You've made that clear, yes.",
+                ["tellA2B1a"]
+            ],
+            [
+                "you're d6",
+                ["tellA2B2a"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tell"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA2B1a": {
+        "name": "D6",
+
+        "text": [
+            [" ","The player then immediately explodes."]
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tellA2"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA2B2a": {
+        "name": "D6",
+
+        "text": [
+            "d6"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tellA2"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA3": {
+        "name": "D6",
+
+        "text": [
+            "if i hear that dumb smelly protogen mention ram one more time im gonna RAM a 2 ton block of concrete into their stupid face."
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>O...kay?</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tell"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA4": {
+        "name": "D6",
+
+        "text": [
+            "i'm not allowed in the store anymore since i keep shoplifting but if you see disc or green tell them i said hi and that im sorry and that it will happen again"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tell"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA5a": {
+        "name": "D6",
+
+        "text": [
+            "lets talk about"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["tellA5b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tell"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA5b": {
+        "name": "D6",
+
+        "text": [
+            "embalming fluid"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>...Nevermind.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tellA5a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA6a": {
+        "name": "D6",
+
+        "text": [
+            "sometimes i feel the sudden urge to break into someone's house and talk about turtle skeletons from a specific video game franchise for hours."
+        ],
+
+        "choices": [
+            [
+                " ...That sounds oddly specific.",
+                ["tellA6b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tell"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA6b": {
+        "name": "D6",
+
+        "text": [
+            "say hi to zeon for me"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tellA6a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA7": {
+        "name": "D6",
+
+        "text": [
+            "Do not let it affect you in the moment. It is all ultimately meaningless. The passage of time spares none, has spared none, and will spare none. You are no exception."
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>The rides:</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tell"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA8": {
+        "name": "D6",
+
+        "text": [
+            "i think i could beat that cat on the bus in a fist fight"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>That's mean.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tell"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA9a": {
+        "name": "D6",
+
+        "text": [
+            "hey so do you know what those guys are selling in there theyve chased me out with a broom like 6 times already."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["tellA9b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tell"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA9b": {
+        "name": "D6",
+
+        "text": [
+            "its probably because ive stolen like 4 or 5 of their hey why am i telling you this"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["tellA9c"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tellA9a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA9c": {
+        "name": "D6",
+
+        "text": [
+            "get outta here"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Sorry</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tellA9b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA10a": {
+        "name": "D6",
+
+        "text": [
+            "you got anything to eat"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["tellA10b"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tell"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA10b": {
+        "name": "D6",
+
+        "text": [
+            "hand it over im starving"
+        ],
+
+        "choices": [
+            [
+                "Sure.",
+                ["tellA10c"]
+            ],
+            [
+                " I'd... rather not.",
+                ["tellA10d"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tellA10a"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA10c": {
+        "name": "D6",
+
+        "text": [
+            ["thanks","The player hands D6 a random consumable item."]
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tellA10b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA10d": {
+        "name": "D6",
+
+        "text": [
+            "please ill give you this handy dandy Tool"
+        ],
+
+        "choices": [
+            [
+                "Deal.",
+                ["tellA10e"]
+            ],
+            [
+                "No deal.",
+                ["tellA10f"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tellA10b"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA10e": {
+        "name": "D6",
+
+        "text": [
+            ["pleasure doing business","The player hands D6 a random consumable item and receives a Tool."]
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tellA10d"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA10f": {
+        "name": "D6",
+
+        "text": [
+            "You think this is a game? Do you find this amusing?"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Kind of.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tellA10d"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+
+    "tellA11": {
+        "name": "D6",
+
+        "text": [
+            "i am sincerely sorry for your loss"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Sorry</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tell"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA12": {
+        "name": "D6",
+
+        "text": [
+            "my brain hurts"
+        ],
+
+        "choices": [
+            [
+                "<font color='#ffaf00'>Ok.</font>",
+                ["start"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tell"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "tellA13": {
+        "name": "D6",
+
+        "text": [
+            "[END OF DIALOGUE]"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["tell"]
+            ],
+
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    }
+}

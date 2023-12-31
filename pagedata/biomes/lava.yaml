@@ -1,39 +1,31 @@
+editable: True
 page:
-  title: Lava
-  description: Lava is a biome that will spawn randomly after driving through a tunnel.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Lava
+  title: Lava 
+  description: Lava is a biome that will spawn randomly after driving through a tunnel, having a more intense atmosphere and contains hazards to the players.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim, Lava
+  
+  tags: wiki, roblox bus simulator, roblox bus sim, roblox bus sim, Lava
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: Lava
-    description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>
-    image: ''
-    imageBanner: /bussim-assets/images/biomes/lava.webp
+    description: |
+      Category: [Biomes](/bussim/biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/lava.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-         Lava is a biome that will spawn randomly after driving through a tunnel. 
-         It comprises of lava surrounding the entire street with a potent orange haze for its fog.
-    - type: section
-      content:  
-        title: Trivia
- 
-    - type: tree
-      content:
-        - name: If any player touches the lava in this biome, it will cause them to jump and deal significant damage. It won't however trip them.
-          children:
-          - name: However, if a Mini-Bus were to drive on it, or assuming the player holds it; you won't take damage from it.
-          - name: This used to be not the case back then when it was introduced, only tripping players. It was only added in the 20 Million Update.
-          - name: This is may also be a reference to Super Mario 64, where if you were to be in contact with lava, Mario would jump and take damage as a result, similar to this.
+attributions: 
+  - Ported by PolyframeX (@polyframex) and Converted to Jinki by FangedWerewolf (@noobbiom)
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/biomes/galleries/Lava.webp
+content: |
+  ##[Info]
+  Lava is a biome that will spawn randomly after driving through a tunnel, having a more intense atmosphere and contains hazards to the players.
+  It comprises of lava surrounding the entire street with a potent orange haze for its fog, and any attempt to walk onto the lava will send you up in the skies, taking away your health in the process.
+
+  - If any player touches the lava in this biome, it will cause them to jump and deal significant damage. It won't however trip them.
+    - However, if a Mini-Bus were to drive on it, or assuming the player holds it; you won't take damage from it.
+    - This used to be not the case back then when it was introduced, only tripping players. It was only added in the 20 Million Update.
+    - This is may also be a reference to Super Mario 64, where if you were to be in contact with lava, Mario would jump and take damage as a result, similar to this.
+  
+  !!GALLERY [/assets/bussim/images/biomes/lava.webp]

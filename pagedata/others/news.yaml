@@ -1,432 +1,325 @@
+editable: True
 page:
   title: News
   description: News, or called News Articles or News Reporter, is a chat feature in Bus Simulator.
+  
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, News
+
+  header:
+    title: News
+    description: |
+      Category: <a href="/bussim/others">Others</a>
+    image: ''
+    imageBanner: /bussim-assets/images/others/news.webp
 
 attributions:
   - "Ported By PolyframeX (@polyframex)"
-
-html:
-  header:
-    title: News
-    description: >- 
-      Category: <a href="/bussim/others">Others</a>
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
   
-  pageContent:
-
-    - type: section
-      content:
-        size: normal
-        title: Info
-        description: >- 
-          News, or called News Articles or News Reporter, 
-          is a chat feature in Bus Simulator. 
-          Every so often, 
-          it would report on something to make chat much less empty aside from shouts. 
-          This also references a few different things including NPCs, 
-          shows, 
-          and more. 
-          There may also be scripted news, 
-          which only appear if given the right conditions.
-
-          <br><br>
-
-          In one of the many news articles, 
-          it is said that he is inside the trunk of the bus, 
-          which just so happens to just be nonexistent. 
-          However, 
-          in another news article by him he said that he has been stuck in the news station for 7 hours. 
-          Presumably either existing at different areas at once, 
-          or considers the trunk of the bus as his "news station".
-
-          <br><br>
-
-          Other than those two, 
-          there is no extra details about the character or their appearance at automatically.
-
-    - type: section
-      content:
-        size: normal
-        title: News Articles
-
-# The following news articles are provided from the game and is mentioned in chat. 
-# If you plan on adding one, make sure it doesn't already exist using CTRL+F and searching it up!
-
-    - type: section
-      content:
-        size: small
-        title: Random News Articles
-
-    - type: tree
-      content:
-        - name: "| || || |_ I bet some of you are mad now"
-        - name: "[ Content Deleted ]"
-          children:
-            - name: "A reference to the title of a certain type of clothing, gamepasses, experiences, etc. that Roblox moderated."
-        - name: "[Milk] This dragon guy came up to me and asked a question. I answered it and now everyone in the studio is looking at me funny. What'd I do??"
-          children:
-            - name: "This is referencing the <a href='/bussim/events/question-time'>Question Time</a> event, where <a href='/bussim/npcs/ectta'>Ectta</a> whom is a snakedragon, asks a question with different answers"
-              children:
-                - name: "The question in specific, is \"Milk and cereal? Cereal and milk?\", to which they responded with Milk first, thus gaining the tag [Milk] and subsequently being looked at."
-        - name: "[SHOUT] ive been here for 45 years"
-        - name: "(Greg was supposed to write this one but he stayed home to watch Netflix. Darn you Greg.)"
-        - name: "*news*"
-        - name: "*protip*: Press the jump button in order to perform a jump."
-        - name: "#SaveTheOOF"
-          children:
-            - name: "This is a referenced to the time where Roblox decided to remove the OOF sound in replacement for the 'guh' sound."
-        - name: "???"
-        - name: "24 hours? Beat my score, I've gotten -24! Yeah, my timer overflowed past the 64 bit limit, whatcha gonna do?"
-        - name: "AAAAAAAAAAAAAHHHHHRHRGRGRGRRRGURBHUBEORWPSOJWPJORGWOIRGWSGODEWPGODEWPGOHEPWO9GJEPOKSD!!!!!!!!!!!!!!!0924QU8T63095JRGHWPE09UU0PWHRGW"
-          children:
-            - name: "Yes, this is a real news article detailed letter by letter."
-        - name: "AAauuughhhh"
-        - name: "Administration team seen playing golf for an entire day. Mods concerned at behaviour. More at 6."
-        - name: "All of you should go outside more. You're missing out on such divine delicacies-- the subtle texture of grass, the scrumptious taste of a leaf.. How come nobody else is on this?!"
-        - name: "amogus"
-        - name: "Anomaly report of various people becoming sentient, worldwide bus drivers are concerned."
-        - name: "Are we there yet?"
-        - name: "Attention all fellow gamers, Noble is in trouble and need your help! He's being held hostage on another bus, and he needs lots of limited and robux to break out of it. To help him, all he needs is your moms credit card number, the three digits on the back, and the expiration month and year. But, you gotta be quick, so Noble can grab a knife, and end 4J3K's life, and achieve the epic, Victory Royale!"
-          children:
-            - name: "In newer versions, the message also includes a disclaimer not to give away details."
-        - name: "banana or kiwi? local fruit has bus riders confused."
-        - name: "Barrage of new updates sends players of Bus Simulator into a fit of rage"
-        - name: "Big Chungus declared not funny, riots in streets"
-        - name: "Bloxdonald's now have coffee on their menu"
-          children:
-            - name: "The grammar mistake is in the actual game."
-        - name: "Bloxy cola is revealed to use Sulfuric acid as a main ingredient."
-        - name: "Bloxy Cola discovered to be the main cause of 2043 previously unknown diseases."
-        - name: "Bus cleaning set goes MISSING for the first time in 10 years. \"This is an absolute travesty,\" janitor says. We'll have more for you at 11."
-        - name: "Bus Simulator got a major update before a certain other simulator game finished development."
-          children:
-            - name: "Could likely be a reference to Bus Stop Simulator."
-        - name: "Bus stop spotted, bus driver drove past"
-        - name: "Bus time travels after reaching 44 mph, is this the future of public transport"
-          children:
-            - name: "This is a reference to the <a href='/bussim/events/time-travel'>Time Travel</a> event, where the bus speeds up to 44 MPH and time travels fifty years into the future."
-        - name: "But noooo, she had to be all like \"I don't think I want-\"-Greg what do you mean the camera's running? ...Oh."
-        - name: "By the way, you should totally play Kit Battle if you're looking for a more intense experience."
-          children:
-            - name: "A reference to NobleReign's other game called Kit Battle."
-        - name: "Call 911"
-          children:
-            - name: "Don't actually call 911 unless you're in an emergency, it's just a joke."
-        - name: "Car crash rates go up to 75% after large amounts of miniature buses are mass produced"
-        - name: "Car."
-        - name: "Catgirl factory accidentally lets hundreds of catgirls loose. \"The world will never be the same after this one,\" internet streamer says."
-        - name: "Community suggests newsbot, gets added"
-          children:
-            - name: Possibly referring to the fact that the bot was not present at launch
-        - name: "Congratulations on getting this news message. This message could be anything else, but you got this. WOOHOO.. Actually not."
-        - name: "Dog"
-        - name: "dog eats local kids ice cream, police say it was a eat and run"
-        - name: "Don't clog the toilet."
-        - name: "don't tell anyone but i drank all of the hot sauce"
-        - name: "e"
-        - name: "Ermmm... what the scallop?"
-        - name: "Exploiter inserts free model; free model gave him Ebola"
-        - name: "Factory defect results in dangerous colas. Drinking may be fatal. More at 12."
-          children:
-            - name: "This is a reference to the <a href='/bussim/items/bad-cola'>Bad Cola</a> item."
-        - name: "Feeling sick? Try some Almond Water!"
-        - name: "Fourth walls are for nerds, which is why my house is structurally insecure"
-          children:
-            - name: "The fourth wall is a conceptual barrier in media that refers to the separation between the world of the media and the world of the author and reader."
-        - name: "Future bus allegedly adds vents to the corners. \"That's not suspicious at whatsoever!\" innocent passenger exclaims."
-          children:
-            - name: "This is a reference to Among Us with its vents and suspicion as its theme."
-        - name: "General population enraged at proposal for 5fps standard gameplay"
-        - name: "Give me your kidneys."
-        - name: "Government still searching for illegal bus, driver unknown"
-        - name: "Glacier dogs. That's it. That's the news line."
-        - name: "Guys! I'm about to be hip and with the kids, watch! 'yo tengo!' Is... is anyone laughing?"
-        - name: "Guys, what is 'furry hypnosis'? I've been watching this video for thirty seconds and I-"
-        - name: "Hacker flies around bus. Why though?"
-          children:
-            - name: "This is a reference to ROBLOX hackers using flyhacks, which is pointless in Bus Simulator because there is no advantage that this could possibly give."
-        - name: "Haha, I'm here alone.. in the news station.. it's dark... and I'm hearing things... please help.. I just wanna go home....."
-        - name: "Happy Birthday Bus Simulator! (did i miss it)"
-        - name: "Happy new year 2009! :)"
-        - name: "hi, my name is billy."
-        - name: "Help i need food"
-        - name: "Help.. I tripped while walking down the street, and now I don't know where I am... w-wait, w-what is that thing..? H-HHELL---"
-        - name: "Help, im stuck in the back trunk of the bus and the only form of communication i have so far is a news brodcasting system."
-        - name: "Hey, does anyone know how to make a TV channel?"
-        - name: "Hey, I just saw a tesla!"
-        - name: "hey guys remember when that one guy got fired from roblox for ###### #### ######### on stream"
-        - name: "His friend says, \"Only a spoonful\", clearly expecting him to only get a little bit of ice cream. This leads hime to taking out a comically large spoon, therefore breaking the expectation. He is able to get most, if not all of the ice cream, while technically still only having gotten one spoonful."
-          children:
-            - name: "This line is a retelling (and explanation) of King Bach's infamous Vine."
-        - name: "How do i tie a knot this is serious"
-        - name: "How long has it been?"
-        - name: "How quaint."
-        - name: "I am so hungry."
-        - name: "In life, we have road blocks... the &#128273 is to overcome it... Stay tuned for more!!"
-          children:
-            - name: "This is a reference to DJ Khaled's motivational speech short videos."
-        - name: "I desperately need sleep."
-        - name: "Ice blue wolf caught eating directly out of a soda machine's ice maker. \"It's how I keep my cool,\" says wolf of an unknown variety."
-          children:
-            - name: "The wolf in question is likely <a href='/bussim/npcs/frostbite'>Frostbite</a>."
-        - name: "I don't feel so good"
-        - name: "i hate myself for being so mean to you"
-        - name: "I just invested in this new currency called, uh.. 'pearcoin'? Apparently if you have it you can turn rich. At least that's what that cat told me."
-          children:
-            - name: "This is a reference to <a href='/bussim/others/pearcoin'>pearcoin</a>, a currency made by <a href='/bussim/npcs/pear'>Pear</a>."
-        - name: "I like to eat oreos this games sponsor big fat oreos lol boss . . . is the camera still on?"
-        - name: "I really hope I don't get replaced with some AI. This is all I have left."
-          children:
-            - name: "This references various medias talking about AI having the possibility of replacing jobs, namely journalists, freelancers, and artists."
-        - name: "I smell cheese..."
-          children:
-            - name: "A likely reference to gromit."
-        - name: "I was trying to console a friend, but for some reason my keyboard keeps autocorrecting 'oof' to 'guh'..."
-          children:
-            - name: "The \"oof\" autocorrecting to \"guh\" in this sentence refers to two things:"
-              children:
-                - name: "Tommy Tallarico trying to squeeze ROBLOX for an untold amount of money in exchange for the permission to use the \"oof\" sound effect which became popular due to ROBLOX, which caused them to outright replace the sound effect (a \"guh\" sound effect) rather than pay him."
-                - name: "The phrase \"oof\" being a response to someone expressing a rough situation, something along the lines of \"that's rough buddy\"."
-        - name: "Ice blue wolf spotted deep within a forest. \"He's a leggy boy,\" local housecat says."
-          children:
-            - name: "This is likely a reference to <a href='/bussim/npcs/pear'>Pear</a> and <a href='/bussim/npcs/frostbite'>Frostbite</a>."
-        - name: "If you or loved one has been diagnosed with Mesothelioma you may to be entitled to financial compensation, Mesothelioma is a rare cancer linked to asbestos exposure. Exposure to asbestos in the Navy, shipyards, mills, heating, construction or the automotive industries may put you at risk."
-          children:
-            - name: "This is a popular copypasta that references a commercial for a personal attorney directed at people suffering from asbestos-related cancer."
-        - name: "Is my life just one big blog post?"
-        - name: "Is this game even legal"
-        - name: "Is this thing on?"
-        - name: "It has been confirmed that ketchup is the ultimate substance"
-        - name: "Jim is dead."
-        - name: "Jojo has been outlawed"
-        - name: "just vibing"
-        - name: "kitchen table"
-        - name: "Lemon soda killed my dog"
-        - name: "Life isn't all that bad"
-        - name: "Line 102!"
-        - name: "Local admin abuses powers; gets banned by anticheat"
-        - name: "Local bus escaped from police"
-          children:
-            - name: "A reference to the <a href='/bussim/events/police'>Police</a> event."
-        - name: "Local bus goes a week without stopping. \"And we haven't even run out of gas once,\" sleep-deprived passenger states."
-        - name: "Local bus driver discovered evading taxes since 2004. Police are currently in pursuit"
-        - name: "Local cat found being a kitty cat. He is reported to dance dance dance and dance dance dance."
-          children:
-            - name: "This is also a reference to a meme, more creatively known as the 'Kitty Cat Dance' meme."
-        - name: "Local community in drought of updates, \"Where's Stoic when we *actually* need him?\", says annoyed passenger."
-        - name: "Local human writes at 1:15 am."
-        - name: "Local jail fined for just letting prisoners out. \"You gotta raise their bounty\", police force stated."
-          children:
-            - name: "This line references Jailbreak, a popular game on Roblox where there are two teams of prisoners/criminals and police. In Jailbreak, prisoners rack up bounty by killing cops and robbing places, which translates to earnable money for the police team if they were to arrest the prisoner in question."
-        - name: "Local mailbox CLAIMED by celebrity!"
-        - name: "Local man found DEAD during funeral. \"DID YOU JUST DIG INTO MY HUSBANDS GRAVE?!\", mourning family member commented."
-        - name: "Local man places eight sergals in a circle to form a cheese wheel. 'I don't know how to feel about this,' one of the sergals state."
-          children:
-            - name: "This is a reference where sergals are known to have a cheese-wedge shaped head, and that 8 of them would make a 'cheese' wheel."
-        - name: "Local man spotted sprinting around holding a diamond weapon."
-          children:
-            - name: "A reference to Minecraft."
-        - name: "Local news = Instance.new(\"RemoteEvent\")"
-        - name: "Local owner chugs red bull and does 10 updates in a row after falling asleep on his laptop in his parent's bedroom."
-        - name: "Local owner gets crowded, suffocates under his fans"
-        - name: "Local passenger dies of starvation, more at 6."
-        - name: "Local passenger sleeps in overhead bin, drowns in his own saliva"
-        - name: "Local pizza place looking for jobs. 'Jo n' Bros Pizza' ready for new customers"
-        - name: "Local player flushes self down the toilet, and finds the ancient art gallery."
-          children:
-            - name: "This may be referred to the <a href='/bussim/locations/art-gallery'>Art Gallery</a> that can be accessed via the Toilet on the bus."
-        - name: "Local player jumps out of bus door, more at 6."
-        - name: "Local protogen found eating other people's RAM. Authorities are searching for the suspect."
-        - name: "Local radio station gets bought out for 50 Robux on March 22nd, more on this story later"
-          children:
-            - name: "This could be a reference to <a href='/bussim/others/bus-radio'>MEME RADIO</a>, being bought out following the update."
-        - name: "Local robloxian ran over by gang driving miniature buses around a parking lot; only suffers minor injuries"
-        - name: "Local saxophone pings everyone, entire server enraged"
-        - name: "Local Toon causes 24-hour long traffic jam by singing through a megaphone, more at 11."
-          children:
-            - name: "This could likely be referencing Teddy's <a href='/bussim/events/teddy'>Micspam and Micoff</a> events."
-        - name: "Man dies"
-        - name: "Man dies falling off colored plate. 'It didn't help that he was colorblind,' friend says."
-        - name: "Maple syrup!"
-        - name: "Maybe you should talk to the people around. They might have lore in store for you!"
-        - name: "Me after I me after I me after I"
-        - name: "meme meme meme"
-        - name: "Missing suspect in the area, has red shirt on, big sign on head, and two swords"
-        - name: "MMh"
-        - name: "mom i am alone"
-        - name: "MY BLUE BALLOON D:"
-        - name: "My lung hurts!"
-        - name: "My therapist said that broadcasting my thoughts like this is unhealthy, and I should stop."
-        - name: "Nintendo lost all their gamecubes; \"We shouldn't have kept them in a cardboard box\" representative states"
-          children:
-            - name: "A reference to the <a href='/bussim/events/cubes'>Cubes</a> event."
-        - name: "New listing on MeBay: Gamer Girl Bath Water selling for just $299!"
-          children:
-            - name: "This is likely a reference to Belle Delphine selling her bath water."
-        - name: "New update delayed until next month, hopes high for the annual quota."
-        - name: "news"
-        - name: "Oh no! My files were encrypted!"
-          children:
-            - name: "This line references the Protegent Antivirus meme, which is an Indian-created antivirus with commercials featuring, among other things, raps about their software."
-        - name: "Ok well good luck"
-        - name: "OKAY, I'LL GET THE CHEERIOS CALM DOWN!!!... wait oH GOD THE CAMERA'S ON-"
-        - name: "Okay. Nineteen dollar Fortnite card. Who wants it? And yes, I am giving it away. Remember: Share, share, share! And trolls-- don't get blocked! Don't get blocked."
-          children:
-            - name: "A reference to the $19 Fortnite card meme."
-        - name: "Okay, Timmy fell down a well again. Does anybody have a rope?"
-        - name: "oOOOOOOOOoOOoOooOOOOooo i knew it when i met him, i loved him when i left him... whoops forgot to mute the mic"
-        - name: "Passenger checks Noble's social media (which you should totally follow if you can, <a href='https://twitter.com/NobleFurLyfe/'>@NobleFurLyfe</a>) and finds an abundance of furry art. Is this the end of the world? Probably for some people."
-        - name: "Plant beats a blue wolf at rock paper scissors, 3 innocent passengers frozen and hospitalized."
-          children:
-            - name: "While the plant may not be known yet, the blue wolf could possibly be <a href='/bussim/npcs/frostbite'>Frostbite</a>, given how the latter statement showcases cold abilities, something Frostbite possesses."
-        - name: "Players reported to be raiding Area 52. \"Are those bots?\", confused government staff member who missed the memo states."
-        - name: "Please help I've been stuck in the news station for 7 hours, the doors are all locked and its dark in here."
-        - name: "Please join the cool app in the game description."
-          children:
-            - name: "It's not 100% recommended to join anymore, as the server closed down and only became updates and announcements due to personal issues."
-        - name: "Please send help"
-        - name: "\"Please help, my bakery is flooded with catgirls! They're eating all the bread! None of the pastries, just the bread,\" confused and concerned baker pleads."
-        - name: "Police found a young man named Plenn dead next to a swing. Autopsies show that their brain was scrambled-- likely from swinging the whole 360 degrees. Man, he had some speed on him I guess!"
-        - name: "Remember to check out Channel 3 for daily updates on the richest people ever!"
-          children:
-            - name: "This is alluding to the Channel 3 in <a href='/bussim/locations/the-bus'>The Bus'</a> television, in which shows a leaderboard of the most robux spent."
-        - name: "Reporter claims that using a comically large spoon also counts as a spoonful"
-          children:
-            - name: "Same with the other Comically Large Spoon news message above, this is also a reference to King Bach's vine, in which he brandishes the aforementioned spoon in response to being told he can only have 'a spoonful of ice cream'."
-        - name: "Rocket-launching billionaire ruins perfectly good public space by acquiring it. More, if I'm not suspended tomorrow."
-          children:
-            - name: "This is probably a reference to Elon Musk buying Twitter."
-        - name: "Roll me, someone told me to eat some macaroni"
-        - name: "Roblox filters #lowly fil### ev######## in #####"
-          children:
-            - name: "A banter relating to Roblox's chat system getting more tagged over time."
-        - name: "Scientists have proven that anime isn't real"
-        - name: "Scientists say that eating glue sticks improve your lifespan by 10000000000%"
-        - name: "Scoobis Park was revealed"
-        - name: "Somebody once told me the world was gonna roll me"
-          children:
-            - name: "A reference to the song, \"All Star\"."
-        - name: "Sometimes I think about dogs. Cute, fluffy dogs."
-        - name: "Spoiler alert: Tem dies"
-          children:
-            - name: "A reference to an Undertale character named Temmie, or Tem."
-        - name: "Steven lost another one of his four hearts -- scientists say he will regenerate one soon."
-          children:
-            - name: "A reference to Steven_Scripts' avatar, with four hearts."
-        - name: "Stoic drink 30 cans of lemon soda then made 2 more events."
-        - name: "Studies have shown that you can die within the next 24 hours"
-        - name: "that was truly a bruh moment"
-        - name: "The city streets aren't actually owned by us; someone claimed them."
-        - name: "The news bot is just a desynced shout tbh"
-        - name: "The Stanley Parable wanted to sue bus simulator for using their adventure line."
-          children:
-            - name: "A reference to The Stanley Parable Adventure Line and its <a href='/bussim/events/adventure-line'>event</a>."
-        - name: "This is a robbery, go to MiroCev's profile and click three dots and then a button 'Follow' or else................................"
-        - name: "This is literally 1984."
-        - name: "This news line is useless."
-        - name: "Timmy Turner falsely got arrested for allegedly breaking the world."
-          children:
-            - name: "This may be a reference to Timmy Turner in the <a href='/bussim/events/timmy'>Timmy</a> event."
-        - name: "The quick brown fox jumps over the lazy dog."
-          children:
-            - name: "This phrase means nothing at first glance, however it's a pangram, where it uses all of the letters in the alphabet in other to form this phrase."
-        - name: "There is 24 events in game.. or not"
-          children:
-            - name: "As of June 28, 2023, there are currently 45 events in the game."
-        - name: "There is no news. Go home."
-        - name: "Truck falls over in highway-- hundreds of chocolate crepes lost."
-        - name: "Unreleased Bus Simulator build leaked, players shocked at outrageous amounts of furry references"
-        - name: "Wait, a bus going to nowhere, with no driver, full of children? something seems wrong here..."
-        - name: "Warning! A virus has been detected."
-        - name: "Want a break from the ads? If you tap now to watch a short video, you'll receive 30 minutes of ad-free music. Yes, really! If you tap now to watch a short video, you'll receive 30 minutes of ad-free music."
-          children:
-            - name: "References a sound effect occasionally used by Spotify, also sometimes played in the <a href='/bussim/others/bus-radio'>Bus' radio</a>."
-        - name: "Welcome back to Sup, Super Mario Maker"
-        - name: "Welcome to Heck!"
-        - name: "WELCOME TO heck WE HOPE YOU ENJOY YOUR STAY"
-        - name: "What? I can't hear you, I have Airpods on."
-        - name: "What's a red noob? Why are there 5050 of them?"
-          children:
-            - name: "Rednoob5050 is a ROBLOX developer who's part of FrostBitten Games and created BloxDonalds."
-        - name: "When are we getting the 9mil cola smh"
-          children:
-            - name: "We never got a 9mil Cola, only jumping from 1mil to 10mil."
-        - name: "When the i-- w-when the i- t-the im-- i-is b-- w-w- tthe--"
-          children:
-            - name: "When the IMPOSTER is SUS! (This is likely a reference to that meme in particular.)"
-        - name: "Which wall is the fourth wall on a house? Like, there's no camera."
-          children:
-            - name: "Once again, this is a reference to the concept of fourth walls in media, which separates the audience from the author."
-        - name: "WHO ARE YOU PEOPLE?!"
-        - name: "WHO IS BEAST AND WHY DO THEY WANT STARS"
-          children:
-            - name: "A possible but very likely reference to Beastars, a furry anime."
-        - name: "Why am I hearing funky music outside of my house? This literally ONLY happens on Friday nights."
-          children:
-            - name: "This could be a reference to Friday Night Funkin', A Newgrounds rhythm game."
-        - name: "Why are we here?"
-        - name: "Why do so many nukes keep going off? And I have like.. ten reports of a bus crashing into the same guy's house-- multiple times, might I add? Are we living in a simul-- [BROADCAST ENDED]"
-        - name: "Why does this cat want me to invite friends so badly?"
-          children:
-            - name: "This is a reference to a feature <a href='/bussim/npcs/pear'>Pear</a> has, where you can invite a friend to your server."
-        - name: "Why is this card reader so picky? I've been swiping for an eternity..."
-          children:
-            - name: "A reference to Among Us and The Skeld's keycard reader."
-        - name: "why has this game gotten 2 million visits boi"
-        - name: "Wikipedia is a free, open content online encyclopedia created through the collaborative effort of a community of users known as Wikipedians. Anyone registered on the site can create an article for publication; registration is not required to edit articles."
-        - name: "YOOOOOO I just got a StreetPass!!!"
-        - name: "Yummy meal"
-        - name: "You know what they say, snitches lose Switches. Which is why I have to pay another 300 bucks because I reported on some criminal the other day."
-        - name: "Ziti, Frostbite, Taylor, Pear!"
-        - name: "zxtyxzrm,yttttttttttttttttttttttt sorry that was my cat"
-
-    - type: section
-      content:
-        size: small
-        title: Scripted News Articles
-        description: >- 
-          <br>
-          These following news articles are similar to the Random versions, 
-          however they only show up if given the right conditions and are not random.
-
-    - type: tree
-      content:
-        - name: "Play Bus Stop Simulator 2! Coming out in 25 years."
-          children:
-            - name: "This news appears rapidly 10 times in the first two minutes of the server, then never appears again."
-        - name: "[BREAKING NEWS]: <player name> found a strange cola, more at 7..."
-          children:
-            - name: "This happens if a player gets a <a href='/bussim/items/bad-cola'>Bad Cola</a> instead of a Normal <a href='/bussim/items/cola'>Cola</a>. This has a 10% chance of occurring and gives you the \"<a href='https://www.roblox.com/badges/2124425352/Something-seems-off'>Something seems.. off...</a>\" badge."
-        - name: "[BREAKING NEWS]: <player name> has been playing for a whole hour!"
-          children:
-            - name: "This happens only when a player has stayed in a server for at least 1 hour. This also gives you the \"<a href='https://www.roblox.com/badges/2124472162/Pretty-Fun'>Pretty Fun</a>\" badge."
-        - name: "[BREAKING NEWS]: <player name> has an addiction to this game, they've been playing for half a day!"
-          children:
-            - name: "This happens only when a player has stayed in a server for 12 hours without disconnecting or the server crashing. This also gives you the \"<a href='https://www.roblox.com/badges/2124472163/Addicted'>Addicted</a>\" badge."
-        - name: "[BREAKING NEWS]: Okay can you guys seriously help <player name> they've been playing for 24 hours please get them off the game."
-          children:
-            - name: "This happens only when a player has stayed in a server for 24 hours without disconnecting or the server crashing. This also gives you the \"<a href='https://www.roblox.com/badges/2124472164/No-Sleep'>No Sleep</a>\" badge."
-        - name: "[BREAKING NEWS]: <player name> is a friend of a driver."
-          children:
-            - name: "This happens if the player has thanked one driver, and gives the \"<a href='https://www.roblox.com/badges/2124426073/Thanks'>Thanks!</a>\" badge."
-        - name: "[BREAKING NEWS]: <player name> is the friend of.. many drivers!"
-          children:
-            - name: "This happens if the player has thanked over 100 drivers. Giving the \"<a href='https://www.roblox.com/badges/2124534871/Thankful'>Thankful</a>\" badge."
-        - name: "[BREAKING NEWS]: <player name> is a friend of the wolves!"
-          children:
-            - name: "This happens if the player became friends with <a href='/bussim/npcs/frostbite'>Frostbite</a>, earning the \"<a href='https://www.roblox.com/badges/2130010648/Part-of-the-Pack'>Part of the Pack</a>\" badge."
-        - name: "[BREAKING NEWS]: <player name> was auto-ranked to Driver! Congratulations!"
-          children:
-            - name: "This happens when someone gets ranked to Driver from Passenger after auto-verification."
-        - name: "[BREAKING NEWS]: <new champion name> is now the WORLD RECORD HOLDER for Simon Says with <amount of rounds done> wins!!!"
-          children:
-            - name: "[BREAKING NEWS]: The previous record holder was <old champion name> with <amounts of round done>."
-              children:
-                - name: "Both of these are broadcasted everywhere regardless of server."
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/others/news.webp
+content: |
+  ##[Info]
+  News, or called News Articles or sometimes the News Reporter, is a chat feature in Bus Simulator. Every so often, it would report on something to make chat much less empty aside from shouts. 
+  \n\n
+  This also references a few different things including NPCs, shows, and more. 
+  \n\n
+  There's also be scripted news, which only appear if given the right conditions.
+  \n\n
+  ##[Lore]
+  In one of the many news articles, it is said that he is inside the trunk of the bus, which just so happens to just be nonexistent. 
+  \n\n
+  However, in another news article by him he said that he has been stuck in the news station for 7 hours. Presumably either existing at different areas at once, or considers the trunk of the bus as his news station.
+  \n\n
+  Other than those two, there is no extra details about the character or their appearance at automatically.
+  \n\n
+  ##[News Articles]
+  ###[Random News Articles]
+  - I II II I_ I bet some of you are mad now 
+    - This is a direct reference to the meme Loss, where a comic book about comedic, topical jokes on video games suddenly and abruptly move onto serious plotlines relating to miscarriages.
+      - As a result, many people critize the poor execution and delivery, and it became a known meme on the internet, with the phrase I II II I_ being an extremely simplified form of the characters' poses through the 4-panel scene.
+  - [ Content Deleted ]
+    -  A reference to the title of a certain type of clothing, gamepasses, experiences, etc. that Roblox moderated.
+  -  [Milk] This dragon guy came up to me and asked a question. I answered it and now everyone in the studio is looking at me funny. What'd I do??
+   -  This is referencing the <a href='/bussim/events/question-time'>Question Time</a> event, where <a href='/bussim/npcs/ectta'>Ectta</a> whom is a snakedragon, asks a question with different answers
+     -  The question in specific, is ''Milk and cereal? Cereal and milk?'', to which they responded with Milk first, thus gaining the tag [Milk] and subsequently being looked at.
+  -  [SHOUT] ive been here for 45 years
+  -  (Greg was supposed to write this one but he stayed home to watch Netflix. Darn you Greg.)
+  -  *news*
+  -  *protip*: Press the jump button in order to perform a jump.
+  -  #SaveTheOOF
+   -  This is a referenced to the time where Roblox decided to remove the OOF sound in replacement for the 'guh' sound.
+  -  ???
+  -  24 hours? Beat my score, I've gotten -24! Yeah, my timer overflowed past the 64 bit limit, whatcha gonna do?
+  -  AAAAAAAAAAAAAHHHHHRHRGRGRGRRRGURBHUBEORWPSOJWPJORGWOIRGWSGODEWPGODEWPGOHEPWO9GJEPOKSD!!!!!!!!!!!!!!!0924QU8T63095JRGHWPE09UU0PWHRGW
+   -  Yes, this is a real news article detailed letter by letter.
+  -  AAauuughhhh
+  -  Administration team seen playing golf for an entire day. Mods concerned at behaviour. More at 6.
+  -  All of you should go outside more. You're missing out on such divine delicacies-- the subtle texture of grass, the scrumptious taste of a leaf.. How come nobody else is on this?!
+  -  amogus
+  -  Anomaly report of various people becoming sentient, worldwide bus drivers are concerned.
+  -  Are we there yet?
+  -  Attention all fellow gamers, Noble is in trouble and need your help! He's being held hostage on another bus, and he needs lots of limited and robux to break out of it. To help him, all he needs is your moms credit card number, the three digits on the back, and the expiration month and year. But, you gotta be quick, so Noble can grab a knife, and end 4J3K's life, and achieve the epic, Victory Royale!
+    -  In newer versions, the message also includes a disclaimer not to give away details.
+  -  banana or kiwi? local fruit has bus riders confused.
+  -  Barrage of new updates sends players of Bus Simulator into a fit of rage
+  -  Big Chungus declared not funny, riots in streets
+  -  Bloxdonald's now have coffee on their menu
+   -  The grammar mistake is in the actual game.
+  -  Bloxy cola is revealed to use Sulfuric acid as a main ingredient.
+  -  Bloxy Cola discovered to be the main cause of 2043 previously unknown diseases.
+  -  Bus cleaning set goes MISSING for the first time in 10 years. ''This is an absolute travesty'', janitor says. We'll have more for you at 11.
+  -  Bus Simulator got a major update before a certain other simulator game finished development.
+   -  Could likely be a reference to Bus Stop Simulator.
+  -  Bus stop spotted, bus driver drove past
+  -  Bus time travels after reaching 44 mph, is this the future of public transport?
+   -  This is a reference to the <a href='/bussim/events/time-travel'>Time Travel</a> event, where the bus speeds up to 44 MPH and time travels fifty years into the future.
+  -  But noooo, she had to be all like ''I don't think I want-''-Greg what do you mean the camera's running? ...Oh.
+  -  By the way, you should totally play Kit Battle if you're looking for a more intense experience.
+    -  A reference to NobleReign's other game called Kit Battle.
+  -  Call 911
+   -  Don't actually call 911 unless you're in an emergency, it's just a joke.
+  -  Car crash rates go up to 75% after large amounts of miniature buses are mass produced
+  -  Car.
+  -  Catgirl factory accidentally lets hundreds of catgirls loose. ''The world will never be the same after this one,'' internet streamer says.
+  -  Community suggests newsbot, gets added
+   -  Possibly referring to the fact that the bot was not present at launch
+  -  Congratulations on getting this news message. This message could be anything else, but you got this. WOOHOO.. Actually not.
+  -  Dog
+  -  dog eats local kids ice cream, police say it was a eat and run
+  -  Don't clog the toilet.
+  -  don't tell anyone but i drank all of the hot sauce
+  -  e
+  -  Ermmm... what the scallop?
+  -  Exploiter inserts free model; free model gave him Ebola
+  -  Factory defect results in dangerous colas. Drinking may be fatal. More at 12.
+  -  This is a reference to the <a href='/bussim/items/bad-cola'>Bad Cola</a> item.
+  -  Feeling sick? Try some [Almond Water](items/almond_water)!
+  -  Fourth walls are for nerds, which is why my house is structurally insecure
+   -  The fourth wall is a conceptual barrier in media that refers to the separation between the world of the media and the world of the author and reader.
+  -  Future bus allegedly adds vents to the corners. ''That's not suspicious at whatsoever!'' innocent passenger exclaims.
+   -  This is a reference to Among Us with its vents and suspicion as its theme.
+  -  General population enraged at proposal for 5fps standard gameplay
+  -  Give me your kidneys.
+  -  Government still searching for illegal bus, driver unknown
+  -  Glacier dogs. That's it. That's the news line.
+  -  Guys! I'm about to be hip and with the kids, watch! 'yo tengo!' Is... is anyone laughing?
+  -  Guys, what is 'furry hypnosis'? I've been watching this video for thirty seconds and I-
+  -  Hacker flies around bus. Why though?
+    -  This is a reference to ROBLOX hackers using flyhacks, which is pointless in Bus Simulator because there is no advantage that this could possibly give.
+  -  Haha, I'm here alone.. in the news station.. it's dark... and I'm hearing things... please help.. I just wanna go home.....
+  -  Happy Birthday Bus Simulator! (did i miss it)
+  -  Happy new year 2009! :)
+  -  hi, my name is billy.
+  -  Help i need food
+  -  Help.. I tripped while walking down the street, and now I don't know [where I am...](events/backwalls) w-wait, [w-what is that thing..?](npcs/entities) H-HHELL---
+  -  Help, im stuck in the back trunk of the bus and the only form of communication i have so far is a news brodcasting system.
+  -  Hey, does anyone know how to make a TV channel?
+  -  Hey, I just saw a tesla!
+  -  hey guys remember when that one guy got fired from roblox for ###### #### ######### on stream
+  -  His friend says, ''Only a spoonful'', clearly expecting him to only get a little bit of ice cream. This leads hime to taking out a comically large spoon, therefore breaking the expectation. He is able to get most, if not all of the ice cream, while technically still only having gotten one spoonful.
+   -  This line is a retelling (and explanation) of King Bach's infamous Vine.
+  -  How do i tie a knot this is serious
+  -  How long has it been?
+  -  How quaint.
+  -  I am so hungry.
+  -  In life, we have road blocks... the [emoji key] is to overcome it... Stay tuned for more!!
+   -  This is a reference to DJ Khaled's motivational speech short videos.
+  -  I desperately need sleep.
+  -  Ice blue wolf caught eating directly out of a soda machine's ice maker. ''It's how I keep my cool,'' says wolf of an unknown variety.
+   -  The wolf in question is likely <a href='/bussim/npcs/frostbite'>Frostbite</a>.
+  -  I don't feel so good
+  -  i hate myself for being so mean to you
+  -  I just invested in this new currency called, uh.. '[hr[pearcoin^(TM)]](others/pearcoin)'? Apparently if you have it you can turn rich. At least that's what that cat told me.
+     -  This is a reference to [hr[pearcoin^(TM)]](others/pearcoin), a currency made by <a href='/bussim/npcs/pear'>Pear</a>.
+  -  I like to eat oreos this games sponsor big fat oreos lol boss . . . is the camera still on?
+  -  I really hope I don't get replaced with some AI. This is all I have left.
+   -  This references various medias talking about AI having the possibility of replacing jobs, namely journalists, freelancers, and artists.
+  -  I smell cheese...
+   -  A likely reference to gromit.
+  -  I was trying to console a friend, but for some reason my keyboard keeps autocorrecting 'oof' to 'guh'...
+   -  The ''oof'' autocorrecting to ''guh'' in this sentence refers to two things:
+    -  Tommy Tallarico trying to squeeze ROBLOX for an untold amount of money in exchange for the permission to use the ''oof'' sound effect which became popular due to ROBLOX, which caused them to replace the sound effect (a ''guh'' sound effect) rather than pay him.
+    -  The phrase ''oof'' being a response to someone expressing a rough situation, something along the lines of ''that's rough buddy''.
+  -  Ice blue wolf spotted deep within a forest. ''He's a leggy boy,'' local housecat says.
+    -  This is likely a reference to <a href='/bussim/npcs/pear'>Pear</a> and <a href='/bussim/npcs/frostbite'>Frostbite</a>.
+  -  If you or loved one has been diagnosed with Mesothelioma you may to be entitled to financial compensation, Mesothelioma is a rare cancer linked to asbestos exposure. Exposure to asbestos in the Navy, shipyards, mills, heating, construction or the automotive industries may put you at risk.
+   -  This is a popular copypasta that references a commercial for a personal attorney directed at people suffering from asbestos-related cancer.
+  -  Is my life just one big blog post?
+  -  Is this game even legal
+  -  Is this thing on?
+  -  It has been confirmed that ketchup is the ultimate substance
+  -  Jim is dead.
+  -  Jojo has been outlawed
+  -  just vibing
+  -  kitchen table
+  -  Lemon soda killed my dog
+  -  Life isn't all that bad
+  -  Line 102!
+    - Likely the line in which this article was made in the script. For this page it's the 156th line.
+  -  Local admin abuses powers; gets banned by anticheat
+  -  Local bus escaped from police
+   -  A reference to the <a href='/bussim/events/police'>Police</a> event.
+  -  Local bus goes a week without stopping. ''And we haven't even run out of gas once,'' sleep-deprived passenger states.
+  -  Local bus driver discovered evading taxes since 2004. Police are currently in pursuit
+  -  Local cat found being a kitty cat. He is reported to dance dance dance and dance dance dance.
+    -  This is also a reference to a meme, more creatively known as the 'Kitty Cat Dance' meme.
+  -  Local community in drought of updates, ''Where's Stoic when we *actually* need him?'', says annoyed passenger.
+  -  Local human writes at 1:15 am.
+  -  Local jail fined for just letting prisoners out. ''You gotta raise their bounty'', police force stated.
+   -  This line references Jailbreak, a popular game on Roblox where there are two teams of prisoners/criminals and police. In Jailbreak, prisoners rack up bounty by killing cops and robbing places, which translates to earnable money for the police team if they were to arrest the prisoner in question.
+  -  Local mailbox CLAIMED by celebrity!
+  -  Local man found DEAD during funeral. ''DID YOU JUST DIG INTO MY HUSBANDS GRAVE?!'', mourning family member commented.
+  -  Local man places eight sergals in a circle to form a cheese wheel. 'I don't know how to feel about this,' one of the sergals state.
+   -  This is a reference where sergals are known to have a cheese-wedge shaped head, and that 8 of them would make a 'cheese' wheel.
+  -  Local man spotted sprinting around holding a diamond weapon.
+  -  A reference to Minecraft.
+  -  Local news = Instance.new(''RemoteEvent'')
+  -  Local owner chugs red bull and does 10 updates in a row after falling asleep on his laptop in his parent's bedroom.
+  -  Local owner gets crowded, suffocates under his fans
+  -  Local passenger dies of starvation, more at 6.
+  -  Local passenger sleeps in overhead bin, drowns in his own saliva
+  -  Local pizza place looking for jobs. 'Jo n' Bros Pizza' ready for new customers
+   - A reference to one of NobleReign's seldom updated games, being piza.
+  -  Local player flushes self down the toilet, and finds the ancient art gallery.
+   -  This may be referred to the <a href='/bussim/locations/art-gallery'>Art Gallery</a> that can be accessed via the Toilet on the bus.
+  -  Local player jumps out of bus door, more at 6.
+  -  Local protogen found eating other people's RAM. Authorities are searching for the suspect.
+  -  Local radio station gets bought out for 50 Robux on March 22nd, more on this story later
+   -  This could be a reference to <a href='/bussim/others/bus-radio'>MEME RADIO</a>, being bought out following the update.
+  -  Local robloxian ran over by gang driving miniature buses around a parking lot; only suffers minor injuries
+  -  Local saxophone pings everyone, entire server enraged
+  -  Local Toon causes 24-hour long traffic jam by singing through a megaphone, more at 11.
+   -  This could likely be referencing Teddy's <a href='/bussim/events/teddy'>Micspam and Micoff</a> events.
+  -  Man dies
+  -  Man dies falling off colored plate. 'It didn't help that he was colorblind,' friend says.
+  -  Maple syrup!
+  -  Maybe you should talk to the people around. They might have lore in store for you!
+  -  Me after I me after I me after I
+  -  meme meme meme
+  -  Missing suspect in the area, has red shirt on, big sign on head, and two swords
+  -  MMh
+  -  mom i am alone
+  -  MY BLUE BALLOON D:
+  -  My lung hurts!
+  -  My therapist said that broadcasting my thoughts like this is unhealthy, and I should stop.
+  -  Nintendo lost all their gamecubes; ''We shouldn't have kept them in a cardboard box'' representative states
+   -  A reference to the <a href='/bussim/events/cubes'>Cubes</a> event.
+  -  New listing on MeBay: Gamer Girl Bath Water selling for just $299!
+   -  This is likely a reference to Belle Delphine selling her bath water.
+  -  New update delayed until next month, hopes high for the annual quota.
+  -  news
+  -  Oh no! My files were encrypted!
+    -  This line references the Protegent Antivirus meme, which is an Indian-created antivirus with commercials featuring, among other things, raps about their software.
+  -  Ok well good luck
+  -  OKAY, I'LL GET THE CHEERIOS CALM DOWN!!!... wait oH GOD THE CAMERA'S ON-
+  -  Okay. Nineteen dollar Fortnite card. Who wants it? And yes, I am giving it away. Remember: Share, share, share! And trolls-- don't get blocked! Don't get blocked.
+   -  A reference to the $19 Fortnite card meme.
+  -  Okay, Timmy fell down a well again. Does anybody have a rope?
+  -  oOOOOOOOOoOOoOooOOOOooo i knew it when i met him, i loved him when i left him... whoops forgot to mute the mic
+  -  Passenger checks Noble's social media (which you should totally follow if you can, <a href='https://twitter.com/NobleFurLyfe/'>@NobleFurLyfe</a>) and finds an abundance of furry art. Is this the end of the world? Probably for some people.
+  -  Plant beats a blue wolf at rock paper scissors, 3 innocent passengers frozen and hospitalized.
+    -  While the plant may not be known yet (perhaps Sakura), the blue wolf could possibly be <a href='/bussim/npcs/frostbite'>Frostbite</a>, given how the latter statement showcases cold abilities, something Frostbite possesses.
+  -  Players reported to be raiding Area 52. ''Are those bots?'', confused government staff member who missed the memo states.
+  -  Please help I've been stuck in the news station for 7 hours, the doors are all locked and its dark in here.
+  -  Please join the cool app in the game description.
+   -  It's not recommended to join anymore, due to it being an update and announcements only server, but there is another server where you can talk to others.
+  -  Please send help
+  -  ''Please help, my bakery is flooded with catgirls! They're eating all the bread! None of the pastries, just the bread,'' confused and concerned baker pleads.
+  -  Police found a young man named Plenn dead next to a swing. Autopsies show that their brain was scrambled-- likely from swinging the whole 360 degrees. Man, he had some speed on him I guess!
+  -  Remember to check out Channel 3 for daily updates on the richest people ever!
+   -  This is alluding to the Channel 3 in <a href='/bussim/locations/the-bus'>The Bus'</a> television, in which shows a leaderboard of the most robux spent.
+  -  Reporter claims that using a comically large spoon also counts as a spoonful
+    -  Same with the other Comically Large Spoon news message above, this is also a reference to King Bach's vine, in which he brandishes the aforementioned spoon in response to being told he can only have 'a spoonful of ice cream'.
+  -  Rocket-launching billionaire ruins perfectly good public space by acquiring it. More, if I'm not suspended tomorrow.
+    -  This is probably a reference to Elon Musk buying Twitter.
+  -  Roll me, someone told me to eat some macaroni
+  -  Roblox filters #lowly fil### ev######## in #####
+   -  A banter relating to Roblox's chat system getting more tagged over time.
+  -  Scientists have proven that anime isn't real
+  -  Scientists say that eating glue sticks improve your lifespan by 10000000000%
+  -  Scoobis Park was revealed
+  -  Somebody once told me the world was gonna roll me
+   -  A reference to the song, ''All Star''.
+  -  Sometimes I think about dogs. Cute, fluffy dogs.
+  -  Spoiler alert: Tem dies
+   -  A reference to an Undertale character named Temmie, or Tem.
+  -  Steven lost another one of his four hearts -- scientists say he will regenerate one soon.
+   -  A reference to Steven_Scripts' avatar, with four hearts and one being lost.
+  -  Stoic drink 30 cans of lemon soda then made 2 more events.
+  -  Studies have shown that you can die within the next 24 hours
+  -  that was truly a bruh moment
+  -  The city streets aren't actually owned by us; someone claimed them.
+  -  The news bot is just a desynced shout tbh
+  -  The Stanley Parable wanted to sue bus simulator for using their adventure line.
+    -  A reference to The Stanley Parable Adventure Line and its <a href='/bussim/events/adventure-line'>event</a>.
+  -  This is a robbery, go to MiroCev's profile and click three dots and then a button 'Follow' or else................................
+  -  This is literally 1984.
+  -  This news line is useless.
+  -  Timmy Turner falsely got arrested for allegedly breaking the world.
+    -  This may be a reference to Timmy Turner in the <a href='/bussim/events/timmy'>Timmy</a> event.
+  -  The quick brown fox jumps over the lazy dog.
+    -  This phrase means nothing at first glance, however it's a pangram, where it uses all of the letters in the alphabet in other to form this phrase.
+  -  There is 24 events in game.. or not
+   -  As of December 24, 2023, there are currently 48 events in the game.
+  -  There is no news. Go home.
+  -  Truck falls over in highway-- hundreds of chocolate crepes lost.
+  -  Unreleased Bus Simulator build leaked, players shocked at outrageous amounts of furry references
+  -  Wait, a bus going to nowhere, with no driver, full of children? something seems wrong here...
+  -  Warning! A virus has been detected.
+  -  Want a break from the ads? If you tap now to watch a short video, you'll receive 30 minutes of ad-free music. Yes, really! If you tap now to watch a short video, you'll receive 30 minutes of ad-free music.
+   -  References a sound effect occasionally used by Spotify, also sometimes played in the <a href='/bussim/others/bus-radio'>Bus' radio</a>.
+  -  Welcome back to Sup, Super Mario Maker
+  -  Welcome to Heck!
+  -  WELCOME TO heck WE HOPE YOU ENJOY YOUR STAY
+  -  What? I can't hear you, I have Airpods on.
+  -  What's a red noob? Why are there 5050 of them?
+   -  Rednoob5050 is a ROBLOX developer who's part of FrostBitten Games and created BloxDonalds.
+  -  When are we getting the 9mil cola smh
+   -  We never got a 9mil Cola, only jumping from 1mil to 10mil.
+  -  When the i-- w-when the i- t-the im-- i-is b-- w-w- tthe--
+  -  When the IMPOSTER is SUS! 
+   - This is a reference to Among Us.
+  -  Which wall is the fourth wall on a house? Like, there's no camera.
+   -  This is another reference to the concept of fourth walls in media, which separates the audience from the author.
+  -  WHO ARE YOU PEOPLE?!
+  -  WHO IS BEAST AND WHY DO THEY WANT STARS
+   -  A reference to Beastars, a furry anime.
+  -  Why am I hearing funky music outside of my house? This literally ONLY happens on Friday nights.
+   -  This is a reference to Friday Night Funkin', A Newgrounds rhythm game.
+  -  Why are we here?
+  -  Why do so many nukes keep going off? And I have like.. ten reports of a bus crashing into the same guy's house-- multiple times, might I add? Are we living in a simul-- [BROADCAST ENDED]
+  -  Why does this cat want me to invite friends so badly?
+    -  This is a reference to a feature <a href='/bussim/npcs/pear'>Pear</a> has, where you can invite a friend to your server.
+  -  Why is this card reader so picky? I've been swiping for an eternity...
+   -  A reference to Among Us and The Skeld's keycard reader, often it being obnoxiously insistent on swiping in a correct speed to complete.
+  -  why has this game gotten 2 million visits boi
+  -  Wikipedia is a free, open content online encyclopedia created through the collaborative effort of a community of users known as Wikipedians. Anyone registered on the site can create an article for publication; registration is not required to edit articles.
+  -  YOOOOOO I just got a StreetPass!!!
+  -  Yummy meal
+  -  You know what they say, snitches lose Switches. Which is why I have to pay another 300 bucks because I reported on some criminal the other day.
+  -  Ziti, Frostbite, Taylor, Pear!
+  -  zxtyxzrm,yttttttttttttttttttttttt sorry that was my cat
+  \n
+  ###[Scripted News Articles]
+  These following news articles are similar to the Random versions, however they only show up if given the right conditions and are not random.
+  \n
+  -  Play Bus Stop Simulator 2! Coming out in 25 years.
+   -  This news appears rapidly 10 times in the first two minutes of the server, then never appears again.
+  -  [BREAKING NEWS]: [Player] found a strange cola, more at 7...
+   -  This happens if a player gets a <a href='/bussim/items/bad-cola'>Bad Cola</a> instead of a Normal <a href='/bussim/items/cola'>Cola</a>. This has a 10% chance of occurring and gives you the ''<a href='https://www.roblox.com/badges/2124425352/Something-seems-off'>Something seems.. off...</a>'' badge.
+  -  [BREAKING NEWS]: [Player] has been playing for a whole hour!
+   -  This happens only when a player has stayed in a server for at least 1 hour. This also gives you the ''<a href='https://www.roblox.com/badges/2124472162/Pretty-Fun'>Pretty Fun</a>'' badge.
+  -  [BREAKING NEWS]: [Player] has an addiction to this game, they've been playing for half a day!
+   -  This happens only when a player has stayed in a server for 12 hours without disconnecting or the server crashing. This also gives you the ''<a href='https://www.roblox.com/badges/2124472163/Addicted'>Addicted</a>'' badge.
+  -  [BREAKING NEWS]: Okay can you guys seriously help [Player] they've been playing for 24 hours please get them off the game.
+   -  This happens only when a player has stayed in a server for 24 hours without disconnecting or the server crashing. This also gives you the ''<a href='https://www.roblox.com/badges/2124472164/No-Sleep'>No Sleep</a>'' badge.
+  -  [BREAKING NEWS]: [Player] is a friend of a driver.
+   -  This happens if the player has thanked one driver, and gives the ''<a href='https://www.roblox.com/badges/2124426073/Thanks'>Thanks!</a>'' badge.
+  -  [BREAKING NEWS]: [Player] is the friend of.. many drivers!
+   -  This happens if the player has thanked over 100 drivers. Giving the ''<a href='https://www.roblox.com/badges/2124534871/Thankful'>Thankful</a>'' badge.
+  -  [BREAKING NEWS]: [Player] is a friend of the wolves!
+   -  This happens if the player became friends with <a href='/bussim/npcs/frostbite'>Frostbite</a>, earning the ''<a href='https://www.roblox.com/badges/2130010648/Part-of-the-Pack'>Part of the Pack</a>'' badge.
+  -  [BREAKING NEWS]: [Player] was auto-ranked to Driver! Congratulations!
+   -  This happens when someone gets ranked to Driver from Passenger after auto-verification.
+  -  [BREAKING NEWS]: [New Champion] is now the WORLD RECORD HOLDER for Simon Says with [Rounds Done] wins!!!
+    -  [BREAKING NEWS]: The previous record holder was [Old Chamption] with [Rounds Done].
+      -  Both of these are broadcasted everywhere regardless of server.
+  !!GALLERY [/bussim-assets/images/others/news.webp]

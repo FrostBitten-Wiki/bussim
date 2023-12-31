@@ -1,41 +1,28 @@
+editable: True
 page:
-  title: Police
-  description: During the event Police, it would start immediately with police officers chasing the bus.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Police
-  tags: police, event
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
 
-html:
   header:
-    title: Police
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Police</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/events/police.webp
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-          During the event Police, 
-          it would start immediately with police officers chasing the bus. 
-          After a few seconds the bus would speed up and a helicopter would spawn, 
-          after a few seconds the bus would outrun the police and the event would end.
+attributions: []
 
-    - type: section
-      content:
-        title: Former Bugs
+content: |
+  ##[Info]
+  Placeholder Info
 
-    - type: tree
-      content:
-        - name: The texture wouldn't load for police vehicles suggesting the texture may of been deleted until an update where the texture was added back.
-        - name: There was a bug where the police siren would not play, it's suggested that an update broke it.
+  ##[Trivia]
+  - Trivia Here
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/events/police.webp
-          
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

@@ -1,162 +1,44 @@
 page:
   title: NPCs
-  description: There are a small handful of NPCs in Bus Simulator that you can interact with, most of them being seen in events.
+  description: Biomes appear randomly after driving through a tunnel, and they don't have any relation to events most of the time, unless if a specific event forces it (i.e. Blizzard).
+    
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npcs
+  tags: some,tags,here,that is used by the search api
   ignore: ignore
+
+  header:
+    description: |
+      Biomes appear randomly after driving through a tunnel, and they don't have any relation to events most of the time, unless if a specific event forces it (i.e. Blizzard).
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions: []
 
-html:
-  header:
-    title: NPCs
-    description: >-
-      There are a small handful of NPCs in Bus Simulator that you can interact
-      with, most of them being seen in events. Majority of the NPCs can be
-      interacted with, and have small conversations with them, while others have
-      a small quest behind them, for an item in return.
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
-    
-  pageContent:
-    - type: list
-      content:
-        items:
-          - listItemImage: /bussim-assets/images/npcs/banana.webp
-            listItemTitle: Banana
-            listItemDescription: >-
-              Banana is an NPC that can be found in the <a href="/bussim/events/backwalls">Backwalls</a>. They can be rarely found in the event.
-            listItemRedirect: /bussim/npcs/banana
-          
-          - listItemImage: /bussim-assets/images/npcs/civilian.webp
-            listItemTitle: Civilian
-            listItemDescription: >-
-              The Civilians are minor NPCs that appear in two events, <a href="/bussim/events/no-dough">No Dough</a> and <a href="/bussim/events/passengers">Passengers</a>,
-              and have no dialogue or do anything important in the game.
-            listItemRedirect: /bussim/npcs/civilian
-          
-          - listItemImage: /bussim-assets/images/npcs/d6.webp
-            listItemTitle: D6
-            listItemDescription: >-
-              D6 is an NPC in the <a href="/bussim/events/goated-gas-station">GOATed Gas Station</a> event, as well as an artist.
-            listItemRedirect: /bussim/npcs/d6
-          
-          - listItemImage: /bussim-assets/images/npcs/disc.webp
-            listItemTitle: Disc
-            listItemDescription: >-
-              Disc is an NPC that sells you the items in the <a href="/bussim/events/goated-gas-station">GOATed Gas Station</a> in exchange for Passenger rep. 
-              He is also an admin in the game, like <a href="/bussim/npcs/tazer">Tazer</a> and <a href="/bussim/npcs/zeon">Zeon</a>. 
-              He's also a new hire, with <a href="/bussim/npcs/green">Green</a> at his side.
-            listItemRedirect: /bussim/npcs/disc
-          
-          - listItemImage: /bussim-assets/images/npcs/ectta.webp
-            listItemTitle: Ectta
-            listItemDescription: >-
-              Ectta is both an Admin and Authenticatior in Bus Simulator and also appears in <a href="/bussim/events/question-time">Question Time</a>, 
-              asking different questions each time he appears.
-            listItemRedirect: /bussim/npcs/ectta
-          
-          - listItemImage: /bussim-assets/images/npcs/efeuc.webp
-            listItemTitle: Efeuc
-            listItemDescription: >-
-              Efeuc is an NPC that can be seen in the <a href="/bussim/locations/void">Void Room</a>. 
-              He's the best driver in the Bus Simulator universe, and is just chilling in the void area.
-            listItemRedirect: /bussim/npcs/efeuc
-          
-          - listItemImage: /bussim-assets/images/npcs/entity.webp
-            listItemTitle: Entities
-            listItemDescription: >-
-              Entities are NPC's found in the <a href="/bussim/events/backwalls">Backwalls</a>,
-              they're hostile towards players and will kill them if exposed enough.
-            listItemRedirect: /bussim/npcs/entity
-          
-          - listItemImage: /bussim-assets/images/npcs/fizzy.webp
-            listItemTitle: Fizzy
-            listItemDescription: >-
-              Fizzy was a very minor NPC, and can only be seen infront of the <a href="/bussim/events/bloxdonalds">Bloxdonalds</a>.
-            listItemRedirect: /bussim/npcs/fizzy
-          
-          - listItemImage: /bussim-assets/images/npcs/frost.webp
-            listItemTitle: Frostbite
-            listItemDescription: >-
-              Frostbite (or known as Frost in-game) is an NPC that only appears in the <a href="/bussim/events/glacier-cave">Glacier Cave</a> event.
-              As soon as you enter his den for the first time, Frost will be surprised at your arrival,
-              however he allows you to explore his den but without your trust.
-            listItemRedirect: /bussim/npcs/frostbite
-          
-          - listItemImage: /bussim-assets/images/npcs/green.webp
-            listItemTitle: Green
-            listItemDescription: >-
-              Green is a Janitor for the <a href="/bussim/events/goated-gas-station">GOATed Gas Station</a>.
-            listItemRedirect: /bussim/npcs/green
-          
-          - listItemImage: /bussim-assets/images/npcs/mirocev.webp
-            listItemTitle: MiroCev
-            listItemDescription: >-
-              MiroCev is a minor character in the game, and just gives out free <a href="/bussim/items/lemon-soda">Lemon Sodas</a> in the <a href="/bussim/events/soda-stand">Soda Stand</a> event.
-            listItemRedirect: /bussim/npcs/mirocev
-          
-          - listItemImage: /bussim-assets/images/npcs/mlg.webp
-            listItemTitle: MLG
-            listItemDescription: >-
-              MLGBudderCD (aka: MLG) is an NPC in the <highlight>GOATed Gas
-              Station</highlight>.
-            listItemRedirect: /bussim/npcs/mlg
-          
-          - listItemImage: /bussim-assets/images/npcs/namerelf.webp
-            listItemTitle: NamerElf
-            listItemDescription: >-
-              NamerElf is an interactable NPC in the <highlight>Glacier
-              Cave</highlight>. Not much is known about him, besides that he
-              mined the caves.
-            listItemRedirect: /bussim/npcs/namerelf
-          
-          - listItemImage: /bussim-assets/images/npcs/noble.webp
-            listItemTitle: NobleReign
-            listItemDescription: >-
-              NobleReign is an NPC in Bus Simulator. He is also the creator of Bus Simulator.
-            listItemRedirect: /bussim/npcs/noble
-          
-          - listItemImage: /bussim-assets/images/npcs/pear.webp
-            listItemTitle: Pear
-            listItemDescription: >-
-              Pear is both a Knitter and a NPC in the second floor. If you nteract with him, 
-              you can have a conversation of many things, invite a friend to gain rewards, or buy two songs for everyone in the server for 80 robux, although he recommends not to after "the incident". 
-              He is also necessary to obtain one of the badges in Bus Simulator.
-              
-              <br><br>
-              
-              He also works for clothing for the fan-group of the game as well as his own clothing group too. Most if not all of which, are purchasable.
-            listItemRedirect: /bussim/npcs/pear
-          
-          - listItemImage: /bussim-assets/images/npcs/red.webp
-            listItemTitle: Red
-            listItemDescription: >-
-              RedNoob5050 (AKA Red) is an employee as Bloxdonalds who gives you the <a href="/bussim/items/burger">Burger</a>. He also works as a developer in <a href="https://gla.dog/kit-beta">Kit Battle</a>, one of NobleReign's games.
-            listItemRedirect: /bussim/npcs/red
-          
-          - listItemImage: /bussim-assets/images/npcs/steven.webp
-            listItemTitle: Steven
-            listItemDescription: >-
-              Steven_Scripts is an NPC that appears in Bus Simulator in both <a href="/bussim/events/bloxdonalds">Bloxdonalds</a> and <a href="/bussim/events/steven-ride">Steven Ride</a>, he is also a developer of the game.
-            listItemRedirect: /bussim/npcs/steven
-          
-          - listItemImage: /bussim-assets/images/npcs/tazer.webp
-            listItemTitle: Tazer
-            listItemDescription: >-
-              Tazer is an NPC that appears in the <a href="/bussim/events/goated-gas-station">GOATed Gas Station</a>. He, like <a href="/bussim/npcs/zeon">Zeon</a>, 
-              is a moderator for both games Noble owns, being <a href="https://gla.dog/bus">Bus Simulator</a> and <a href="https://gla.dog/kit-beta">Kit Battle</a>.
-            listItemRedirect: /bussim/npcs/tazer
-          
-          - listItemImage: /bussim-assets/images/npcs/teddy.webp
-            listItemTitle: Teddy
-            listItemDescription: >-
-              Teddy is an NPC that appears most often in his events: being both <highlight>Micspam</highlight> and <highlight>Micoff</highlight>.
-              He also has a special effect where his shadow is that of a large circle, rather than raycasted off of his body.
-            listItemRedirect: /bussim/npcs/teddy
-          
-          - listItemImage: /bussim-assets/images/npcs/zeon.webp
-            listItemTitle: Zeon
-            listItemDescription: >-
-              Zeon is an NPC that appears in the GOAT Station event. 
-              She is also a moderator for games NobleReign owns, including Bus Simulator and <a href="/kitbattle">Kit Battle</a>.
-            listItemRedirect: /bussim/npcs/zeon
+content: |
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/banana.webp" TITLE:"Banana" DESCRIPTION:"Banana is an NPC that can be found in the [Backwalls](/bussim/events/backwalls). They can be rarely found in the event." REDIRECT:"/bussim/npcs/banana"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/civilian.webp" TITLE:"Civilian" DESCRIPTION:"The Civilians are minor NPCs that appear in two events, [No Dough](/bussim/events/no-dough) and [Passengers](/bussim/events/passengers), and have no dialogue or do anything important in the game." REDIRECT:"/bussim/npcs/civilian"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/customers.webp" TITLE:"Customers" DESCRIPTION:"The Customers are minor NPCs that appear on the [Coffee Shop](/bussim/events/coffee-shop) event. They act similarly to [Civilians](/bussim/npcs/civilans)" REDIRECT:"/bussim/npcs/customers"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/charlotte.webp" TITLE:"Charlotte" DESCRIPTION:"Charlotte is a NPC that can be found on the [Coffee Shop](/bussim/events/coffee-shop) event." REDIRECT:"/bussim/npcs/charlotte"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/d6.webp" TITLE:"D6" DESCRIPTION:"D6 is an NPC in the [GOATed Gas Station](/bussim/events/goated-gas-station), as well as an artist." REDIRECT:"/bussim/npcs/d6"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/daryl.webp" TITLE:"Daryl" DESCRIPTION:"Daryl, or internally known as the Ghost Employee is a special entity that spawns whenever someone who is unfortunate uses Kernels on a Cursed Popcorn Machine. " REDIRECT:"/bussim/npcs/daryl"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/disc.webp" TITLE:"Disc" DESCRIPTION:"Disc is an NPC on the [GOATed Gas Station](/bussim/events/goated-gas-station) and [Coffee Shop](/bussim/events/coffee-shop) event which sells you items in exchange for Passenger rep. He is also an Administrator in the game, like Tazer, Zeon and Ectta. He's also a new hire, with Green at his side." REDIRECT:"/bussim/npcs/disc"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/ectta.webp" TITLE:"Ectta" DESCRIPTION:"Ectta is both an Admin and Authenticatior in [Bus Simulator](https://gla.dog/bus) and also appears in [Question Time](/bussim/events/question-time), asking different questions each time he appears." REDIRECT:"/bussim/npcs/ectta"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/efeuc.webp" TITLE:"Efeuc" DESCRIPTION:"Efeuc is an NPC that can be seen in the [Void Room](/bussim/locations/void). He's the best driver in the [Bus Simulator](https://gla.dog/bus) universe, and is just chilling in the void area" REDIRECT:"/bussim/npcs/efeuc"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/entity.webp" TITLE:"Entities" DESCRIPTION:"Entities are NPCs found in the [Backwalls](/bussim/events/backwalls), they're hostile towards players and will kill them if exposed long enough." REDIRECT:"/bussim/npcs/entity"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/fizzy.webp" TITLE:"Fizzy" DESCRIPTION:"Fizzy was a very minor NPC, and can only be seen infront of [Bloxdonalds](/bussim/events/bloxdonalds)." REDIRECT:"/bussim/npcs/fizzy"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/frost.webp" TITLE:"Frostbite" DESCRIPTION:"Frostbite (or known as Frost in-game) is an NPC that only appears in the [Glacier Cave](/bussim/locations/glacier-cave) event. As soon as you enter his den for the first time, Frost will be surprised at your arrival, however he allows you to explore his den but without your trust." REDIRECT:"/bussim/npcs/frostbite"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/foxman.webp" TITLE:"FoxMan" DESCRIPTION:"FoxMan is an NPC that can be found on the [Coffee Shop](/bussim/events/coffee-shop) event. He is also an Administrator to the game, Bus Simulator." REDIRECT:"/bussim/npcs/foxman"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/green.webp" TITLE:"Green" DESCRIPTION:"Green is a Janitor in the [GOATed Gas Station](/bussim/events/goated-gas-station) event." REDIRECT:"/bussim/npcs/green"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/lnro.webp" TITLE:"lnro" DESCRIPTION:"lnro is an NPC that appears in the [Coffee Shop](/bussim/events/coffee-shop) event. They are also a developer of Bus Simulator." REDIRECT:"/bussim/npcs/lnro"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/mirocev.webp" TITLE:"MiroCev" DESCRIPTION:"MiroCev is a minor character in the game, and just gives out free [Lemon Sodas](/bussim/items/lemon-soda) in the [Soda Stand](/bussim/events/soda-stand) event." REDIRECT:"/bussim/npcs/mirocev"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/mlg.webp" TITLE:"MLG" DESCRIPTION:"MLGBudderCD (aka: MLG) is an NPC in the [GOATed Gas Station](/bussim/events/goated-gas-station) event." REDIRECT:"/bussim/npcs/mlg"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/namerelf.webp" TITLE:"NamerElf" DESCRIPTION:"NamerElf is an interactable NPC in the [Glacier Cave](/bussim/location/glacier-cave). Not much is known about him, besides that he mined the caves." REDIRECT:"/bussim/npcs/namerelf"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/noble.webp" TITLE:"NobleReign" DESCRIPTION:"NobleReign is the developer of [Bus Simulator](https://gla.dog/bus), and also an NPC in the game." REDIRECT:"/bussim/npcs/noble"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/pear.webp" TITLE:"Pear" DESCRIPTION:"Pear is both a Knitter and a NPC in the second floor. If you interact with him, you can have a conversation of many things, invite a friend to gain rewards, or buy two songs for everyone in the server for 80 robux, although he recommends not to after "the incident". He is also necessary to obtain one of the badges in Bus Simulator.\n\nHe also works for clothing for the fan-group of the game as well as his own clothing group too. Most if not all of which, are purchasable." REDIRECT:"/bussim/npcs/pear"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/sakura.webp" TITLE:"Sakura" DESCRIPTION:"Sakura is an NPC that appears in the [Coffee Shop](/bussim/events/coffee-shop) event. They are also an Administrator for Bus Simulator." REDIRECT:"/bussim/npcs/sakura"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/red.webp" TITLE:"Red" DESCRIPTION:"RedNoob5050 (aka: Red) is an employee as [Bloxdonalds](/bussim/events/bloxdonalds) who gives you the [Burger](/bussim/items/burger). He also works as a developer in [Kit Battle](https://gla.dog/kit-beta), one of NobleReign's games." REDIRECT:"/bussim/npcs/red"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/steven.webp" TITLE:"Steven" DESCRIPTION:"Steven_Scripts is an NPC that appears in Bus Simulator in both [Bloxdonalds](/bussim/events/bloxdonalds) and [Steven Ride](/bussim/events/steven-ride), he is also a developer of the game." REDIRECT:"/bussim/npcs/steven"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/tazer.webp" TITLE:"Tazer" DESCRIPTION:"Tazer is an NPC that appears in the [GOATed Gas Station](/bussim/events/goated-gas-station) and [Coffee Shop](/bussim/events/coffee-shop) event. He, like Zeon, is a moderator for both games Noble owns, being [Bus Simulator](https://gla.dog/bus) and [Kit Battle](https://gla.dog/kit-beta)." REDIRECT:"/bussim/npcs/tazer"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/teddy.webp" TITLE:"Teddy" DESCRIPTION:"Teddy is an NPC that appears most often in his events: being both [Micspam](/bussim/events/teddy) and [Micoff](/bussim/events/teddy). He also has a special effect where his shadow is that of a large circle, rather than raycasted off of his body." REDIRECT:"/bussim/npcs/teddy"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/zeon.webp" TITLE:"Zeon" DESCRIPTION:"Zeon is an NPC that appears in the [GOATed Gas Station](/bussim/events/goated-gas-station) and [Coffee Shop](/bussim/events/coffee-shop) event. She is also a moderator for games NobleReign owns, including [Bus Simulator](https://gla.dog/bus) and [Kit Battle](https://gla.dog/kit-beta)." REDIRECT:"/bussim/npcs/zeon"

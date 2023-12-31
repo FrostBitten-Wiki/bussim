@@ -1,38 +1,29 @@
+editable: True
 page:
   title: Biodiverse
-  description: Biodiverse is one of the new biomes added to Bus Simulator.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Biodiverse
-
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  description: Biodiverse is one of the new biomes added to Bus Simulator. It is composed of a much more grassy environment with forests, large grass being bigger than Robloxians, ferns, bushes, as well as moving butterflies from time to time.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
-html:
+  tags: some,tags,here,that is used by the search api
+
   header:
     title: Biodiverse
-    description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>
+    description: |
+      Category: [Biomes](/bussim/biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/biodiverse.webp
 
-    image: ''
-    imageBanner: /bussim-assets/images/biomes/biodiverse.webp
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-         Biodiverse is one of the new biomes added to Bus Simulator. 
-         It is composed of a much more grassy environment with forests, 
-         large grass being bigger than Robloxians, ferns, bushes,
-         as well as moving butterflies from time to time.
-    - type: section
-      content:
-        title: Trivia
+content: |
+  ##[Info]
+  Biodiverse is one of the new biomes added to Bus Simulator. It is composed of a much more grassy environment with forests, large grass being bigger than Robloxians, ferns, bushes, as well as moving butterflies from time to time.
 
-    - type: tree
-      content:
-        - name: In an event where <a href="/bussim/locations/the-bus">The Bus</a>  stops, you used be able to find that most of the props in this biome were collidable, and that included the butterflies.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/biomes/galleries/Biodiversity.webp
+  ##[Trivia]
+  - In an event where [The Bus](/bussim/locations/the-bus) stops, you used be able to find that most of the props in this biome were collidable, and that included the butterflies.
+  
+  !!GALLERY [/assets/bussim/images/biomes/biodiverse.webp]

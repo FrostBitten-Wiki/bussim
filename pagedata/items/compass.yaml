@@ -1,45 +1,33 @@
+editable: True
 page:
   title: Compass
-  description: The Compass is a tool obtainable by purchasing it for 4 passenger rep during the Goat Station Event,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Compass
-  tags: compass, event item, paid item, station item
+  description: The Compass is a tool obtainable by purchasing it for 4 Passenger Reputation during the Goat Station Event, or by stealing it.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: compass, north?, south?, not sure which direction this points to, lofi beats to steal cheap items in goatedgas 24/7
 
-attributions:
-  - "Ported & Edited By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Compass
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-      - type: quote
-        content:
-          quote: "Points towards north...I think."
-          author: Item Description
-      - type: section
-        content:
-         title: Info
-         description: >-
-           The Compass is a tool obtainable by purchasing it for 4 passenger rep during the <a href="/bussim/events/goated-gas-station">Goat Station Event</a>, or by stealing it.
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-           <br><br>
+content: |
+  "Points towards North... I think." -"Compass"
 
-           The tool doesn't seem to do much, as all it does is always point towards north, which is probably why its one of the cheapest tools in the gas station.
+  ##[Info]
+  The Compass is a tool obtainable by purchasing it for [4 Passenger Reputation](/bussim/others/reputation) during the [Goat Station Event](/bussim/events/goated-gas-station), or by stealing it.
+  \n\n 
+  The tool doesn't seem to do much, as all it does is always point to north, which is probably why its one of the cheapest tools in the gas station. 
+  ##[Trivia]
+  - Despite it saying it points North, in the [Time Travel Event](/bussim/events/time-travel), the compass points to the West District.
+    - This is very likely just an oversight though.
+  - Assuming it actually does point North, then The Bus has been going South throughout the entire journey.
 
-           <br><br>
-
-      - type: section
-        content:
-          title: Trivia
-
-      - type: tree
-        content:
-          - name: The compass may not actually face north, as seen by the <a href='/bussim/events/time-travel'>Time Travel</a> event. However, this could be an oversight.
-
-      - type: gallery
-        content:
-          images:
-            - /bussim-assets/images/items/compass.webp
+  !!GALLERY [/assets/bussim/images/items/compass.webp]

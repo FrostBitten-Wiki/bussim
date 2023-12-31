@@ -1,34 +1,29 @@
+editable: True
 page:
   title: Void
-  description: The Void biome is a biome that cannot be forced by the !biome command,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Void
+  description: |
+    The Void biome is a biome that cannot be forced by the !biome command, but instead can be seen in two events, Exploiter and Glitches, as well as with the !map command. The biome appears completely blank and lacks a road. The collision for the road and ground exists, but it cannot be seen. Vehicles cannot spawn in this biome, either.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: Void
-    description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>
+    description: |
+      Category: [Biomes](/bussim/biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/void.webp
 
-    image: ''
-    imageBanner: /bussim-assets/images/biomes/void.webp
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-         <i>Are you looking for the <a href="/bussim/locations/void">location</a>, instead?</i>
+content: |
+  ##[Info]
+  The Void biome is a biome that cannot be forced by the !biome command, but instead can be seen in two events, [Exploiter](/bussim/events/exploiter) and [Glitches](/bussim/events/glitches),
+  as well as with the !map command. The biome appears completely blank and lacks a road. The collision for the road and ground exists,
+  but it cannot be seen. Vehicles cannot spawn in this biome, either.
 
-         <br><br>
-
-         The Void biome is a biome that cannot be forced by the !biome command,
-         but instead can be seen in two events, <a href='/bussim/events/exploiter'>Exploiter</a> and <a href='/bussim/events/glitches'>Glitches</a>,
-         as well as with the !map command. The biome appears completely blank and lacks a road. The collision for the road and ground exists, but it cannot be seen.
-         Vehicles cannot spawn in this biome, either.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/biomes/galleries/VoidBiome.webp
+  !!GALLERY [/assets/bussim/images/biomes/void.webp]

@@ -1,0 +1,33 @@
+editable: True
+page:
+  title: Kernels
+  description: Kernels is a permanent item that doesn't do much by itself, but is needed to obtain the Popcorn Bucket.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, cafe
+
+  tags: popcorn bucket, bucket, this is a bucket. dear god, mmm yummy permanent item, worth the popcorn tbh
+
+  header:
+    title: Kernels
+    description: |
+      Category: [Items](items)
+    image: "/bussim-assets/images/banner.jpg"
+    imageBanner: /assets/bussim/images/banner.jpg
+    
+attributions:
+  - Created by FangedWerewolf (@noobbiom)
+
+content: |
+ "I wouldn't snack on those raw kernels..." -"Kernels"
+ ##[Info]
+ Kernels is a permanent item that doesn't do much by itself, but is needed to obtain the [Popcorn Bucket](/bussim/items/popcorn-bucket).
+ \n 
+ The item costs 20 Passenger Reputation to keep, and can be used on perfect-condition Popcorn Machines in the [Backwalls](/bussim/events/backwalls) to make Popcorn.
+ \n\n 
+ Using it outside of the machines will cause the player to dump out kernels, which does nothing. You also don't need to have the kernels out to start the Popcorn Machine, as long as you still have it.
+ ##[Trivia]
+ - On the side of the label, there seems to be a list of Nutrition Facts that are obviously falsified/satire. The opposing side contains instructions on how to make popcorn using the product.
+ - The fonts used are based off of the fonts used for Phasmophobia.
+ - There are 2 mistakes scribbled out and pointed out on the label, implying designer incompetence or lack of knowledge.
+
+ !!GALLERY [/assets/bussim/images/items/kernels.webp]

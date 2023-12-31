@@ -1,42 +1,32 @@
+editable: True
 page:
   title: Doodle
-  description: Doodle is one of the new biomes added to Bus Simulator.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Doodle
+  description: Doodle is one of the new biomes added to Bus Simulator. It features a notebook-paper-like floor as well as animated doodles depicting flowers, grass, bushes, and trees.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: Doodle
-    description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>
-    image: ''
-    imageBanner: /bussim-assets/images/biomes/doodle.webp
+    description: |
+      Category: [Biomes](/bussim/biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/doodle.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-         Doodle is one of the new biomes added to Bus Simulator. 
-         It features a notebook-paper-like floor as well as animated doodles depicting flowers, 
-         grass, bushes, and trees.
-      
-         <br><br>
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-         The sun and moon are also doodled and scaled bigger than normal.
+content: |
+  ##[Info]
+  Doodle is one of the new biomes added to Bus Simulator. It features a notebook-paper-like floor as well as animated doodles depicting flowers, grass, bushes, and trees.
+  \n\n
+  The sun and moon are also doodled and scaled bigger than normal.
 
-    - type: section
-      content:
-        title: Trivia
+  ##[Trivia]
+  - During testing in the Beta version, the flower and grass sprites would often get swapped involuntarily and was depicted differently across different clients, causing some clients to see them normally, while others abnormally.
+  - Some of the doodles do have collision being the bushes and trees, albeit is very simplified.
 
-    - type: tree
-      content:
-       - name: During testing in the Beta version, the flower and grass sprites would often get swapped involuntarily and was depicted differently across different clients, causing some clients to see them normally, while others abnormally.
-       - name: Some of the doodles do have collision being the bushes and trees, albeit is very simplified.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/biomes/galleries/Doodle.webp
+  !!GALLERY [/assets/bussim/images/biomes/galleries/Doodle.webp|/assets/bussim/images/biomes/doodle.webp]

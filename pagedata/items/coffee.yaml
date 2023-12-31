@@ -1,49 +1,31 @@
+editable: True
 page:
   title: Coffee
-  description: Coffee is a usable item obtained from the pool event that appears next to the edges of the pool.  
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Coffee
-  tags: coffee, event item
+  description: Coffee is a usable item obtained from the pool event that appears next to the edges of the pool. It is used much like a soda; however, it gives no additional effects. 
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: coffee, item
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Coffee
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-      - type: section
-        content:
-         title: Info
-         description: >-
-           <i >Are you looking for the <a href="/bussim/items/homemade-coffee">Homemade Coffee</a>, instead?</i>
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-           <br><br>
+content: |
+  "Old Good Coffee." -"Coffee"
 
-           Coffee is a usable item obtained from the pool event that appears next to the edges of the pool. 
-            It is used much like a soda; however, it gives no additional effects.
-
-           <br><br>
-
-           It appears to be a Bloxdonald's coffee 
-           (as can be told from a large yellow 'B') and bears significant resemblance to its real-world counterpart.
-
-            <br><br>
-
-           Its description states : "Old Good Coffee."
-
-            <br><br>
-
-            The coffee is basically identical to the <a href="/bussim/items/cola">Cola</a>, in speed, duration, 
-            and health regeneration only that this is less accessible, 
-            being in only one event. You are best just getting the Cola, 
-            but you can use coffee for cosmetic purposes.
-            <br><br>
-
-      - type: gallery
-        content:
-          images:
-            - /bussim-assets/images/items/coffee.webp
+  ##[Info]
+  Coffee is a usable item obtained from the pool event that appears next to the edges of the pool. It is used much like a soda; however, it gives no additional effects. 
+  \n\n 
+  It appears to be a [Bloxdonald's](/bussim/events/bloxdonalds) coffee (as can be told from a large yellow 'B') and bears significant resemblance to its real-world counterpart. 
+  \n\n 
+  The coffee is basically identical to the [Cola](/bussim/items/cola), in speed, duration, and health regeneration only that this is less accessible, being in only one event.
+  
+  !!GALLERY [/assets/bussim/images/items/coffee.webp]

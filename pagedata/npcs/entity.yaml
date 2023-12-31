@@ -1,58 +1,37 @@
+editable: True
 page:
-  title: Entities
-  description: Entities are NPC's found in the Backwalls,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Entities
-
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
-  header:
-    title: Entities
-    description: >- 
-      Category: <a href="/bussim/npcs">NPCs</a>
-    image: ''
-    imageBanner: /bussim-assets/images/locations/backwalls.webp
+  title: Entity
+  description: Entities are NPC's found in the Backwalls, they're hostile towards players and will kill them if exposed enough.
     
-  pageContent:
-    - type: infobox
-      content:
-        infoBoxTitle: 
-          - "Work In Progress"
-          - "#b0690b"
-        infoBoxDescription: >-
-          <i>"not much to talk here, but.. well.."</i> - efeuc
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim banana npc
+  
+  tags: entity, backwalls npc, npc
 
-          <br>
+  header:
+    title: Entity
+    description: |
+      Category: [NPCs](/bussim/npcs)
+    
+    image: ""
+    imageBanner: /bussim-assets/images/locations/backwalls.webp
 
-          <small>This page is a stub, it may not contain all of the information in the game; so adding more information to this page is always appreciated!</small>
-    - type: quote
-      content:
-        quote: The entities around here are kinda scary... I tried to hide away in a room when one spotted me, but it still knew where I was..! I guess they can still track you for a bit when you're out of sight...
-        author: Pear
-    - type: section
-      content:
-        title: Info
-        description: >-
-         Entities are NPC's found in the <a href='/bussim/events/backwalls'>Backwalls</a>, 
-         they're hostile towards players and will kill them if exposed enough.
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-    - type: section
-      content:
-        title: AI
-        description: >-
-          The AI they have works like the NPC's found in <a href='/bussim/events/no-dough'>No Dough</a> and <a href='/bussim/events/santas-gone'>Santa's Gone</a> except a few major differences.
+content: |
+  !!INFOBOX TITLE:"Stub Content" COLOR:"#ff8c2e" TEXT:"*\"not much to talk here, but.. well..\"* -Efeuc\n<small>This page is a stub, it may not contain all of the information in the game; so adding more information to this page is always appreciated!</small>"
+  "The entities around here are kinda scary... I tried to hide away in a room when one spotted me, but it still knew where I was..! I guess they can still track you for a bit when you're out of sight..." -"Pear"
 
-    - type: tree
-      content:
-        - name: If they spot a player in the Backwalls they will check the area where they last spotted them.
-        - name: They don't get distracted to any items (Example <a href='/bussim/items/airhorn'>Airhorn</a>, <a href='/bussim/items/spronkbib-popsicle'>Spronkbib Popsicle</a>, etc) making them nearly useless.
-        - name: Their speed increases when they fully spotted a player.
-        - name: Sometimes, Entities can bundle up in an area, making it harder/impossible to pass through without <a href='/bussim/items/liquid-void'>Liquid Void</a>.
-        - name: If you get spotted, you will be stunned for a second, much like getting spotted in No Dough. But you don't die immediately.
+  ##[Info]
+  Entities are NPC's found in the [Backwalls](/bussim/events/backwalls), they're hostile towards players and will kill them if exposed enough.
 
+  ##[AI (Artificial Intellegence)]
+  - The AI of the entities works like the NPCs found in [No Dough](/bussim/events/no-dough) and [Santa's Gone](/bussim/events/santas-gone) except a few major differences.
+  - If they spot a player in the Backwalls they will check the area where they last spotted them.
+  - They don't get distracted to any items (Example Airhorn, Spronkbib Popsicle, etc) making them nearly useless.
+  - Their speed increases when they fully spotted a player.
+  - Sometimes, Entities can bundle up in an area, making it harder/impossible to pass through without [Liquid Void](/bussim/items/liquid-void).
+  - If you get spotted, you will be stunned for a second, much like getting spotted in No Dough. But you don't die immediately.
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/npcs/entity.webp
+  !!GALLERY [/assets/bussim/images/npcs/banana.webp]  

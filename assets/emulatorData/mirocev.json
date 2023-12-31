@@ -1,0 +1,148 @@
+{
+    "start": {
+        "name": "MiroCev",
+        
+        "text": [
+            "Oh, a customer! Welcome to my soda stand!"
+        ],
+
+        "choices": [
+            [
+                "You're selling soda.. out here?",
+                ["sell"]
+            ],
+            [
+                "Who are you...?",
+                ["sellA3"]
+            ],
+            [
+                "Sure!",
+                ["optA2"]
+            ]
+        ],
+        "controls": [
+            [
+                "Refresh",
+                ["start"]
+            ]
+        ]
+    },
+
+    "sell": {
+        "name": "MiroCev",
+        
+        "text": [
+            "Well, I'm not selling it.. it's free!"
+        ],
+
+        "choices": [
+            [
+                "...but, why on the side of a highway? Who'd stop for that?",
+                ["sellA1"]
+            ],
+            [
+                "What? Why wouldn't you want to make some profit off it?",
+                ["sellA2"]
+            ]
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "sellA1": {
+        "name": "MiroCev",
+        
+        "text": [
+            "I mean, you did, didn't you?"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["sell"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+
+    "sellA2": {
+        "name": "MiroCev",
+        
+        "text": [
+            "I just feel generous!"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["sell"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "sellA3": {
+        "name": "MiroCev",
+        
+        "text": [
+            "Just a humble soda stand vendor!"
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    },
+
+    "optA2": {
+        "name": "MiroCev",
+        
+        "text": [
+            ["Cool! Here's your free soda! Enjoy!","The player receives a Lemon Soda"]
+        ],
+
+        "choices": [
+
+        ],
+        "controls": [
+            [
+                "Back",
+                ["start"]
+            ],
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    }
+}

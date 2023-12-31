@@ -1,39 +1,29 @@
+editable: True
 page:
   title: Expired Taco
-  description: The Expired Taco is a gear obtained from the Time Travel Event,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Expired Taco
-  tags: expired taco, event item
+  description: The Expired Taco is a gear obtained from the Time Travel event, and is obtained at the "fizzy taco stand!!!!!!." 
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: food poison, expired taco, taco, green taco, nausea
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Expired Taco
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: quote
-      content:
-        quote: "It's only been out for 50 years! What could possibly go wrong?!"
-        author: Expired Taco's Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Expired Taco is a gear obtained from the <a href="/bussim/events/time-travel">Time Travel Event</a>, 
-         and is obtained at the "fizzy taco stand!!!!!!."
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-         <br><br>
+content: |
+  "It's only been out for 50 years! What could possibly go wrong?!" -"Expired Taco"
 
-         The taco appears to have a green tint, 
-         and deals 75 damage to the player. 
-         Much more dangerous than the burger from the <a href="/bussim/events/bloxdonalds">Bloxdonalds Event</a>.
-         <br><br>
+  ##[Info]
+  The Expired Taco is a gear obtained from the [Time Travel Event](/bussim/events/time-travel), and is obtained at the "fizzy taco stand!!!!!!." 
+  \n\n 
+  The taco appears to have a green tint, and deals 75 damage to the player. Much more dangerous than the [Burger](/bussim/items/burger) from the [Bloxdonalds](/bussim/events/bloxdonalds) event. 
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/expired-taco.webp
+  !!GALLERY [/assets/bussim/images/items/expired-taco.webp]

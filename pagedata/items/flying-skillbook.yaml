@@ -1,52 +1,38 @@
+editable: True
 page:
   title: Flying Skillbook
-  description: The Flying Skillbook is a non-permanent item stolen from GOATed Gas Station.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Flying Skillbook
-  tags: flying skillbook, event item, station item, paid item, item that makes you fly
+  description: The Flying Skillbook is a non-permanent item only stolen from GOATed Gas Station. 
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: flying skillbook, skillbook, flying, how do i fly
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Flying Skillbook
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: quote
-      content:
-        quote: "The pages are glued shut."
-        author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Flying Skillbook is a non-permanent item stolen from <a href="/bussim/events/goated-gas-station">GOATed Gas Station</a>.
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-         <br><br>
+content: |
+  "The pages are glued shut." -"Flying Skillbook"
 
-         This item is simply meant to gate players from getting the Helicopter easily without having to pay, 
-         with its tooltip stating that it's glued shut. 
-         It also doesn't have any other functionality aside from being purchasable for 100  <a href="/bussim/others/reputation">Passenger Reputation</a>.
+  ##[Info]
+  The Flying Skillbook is a non-permanent item stolen from [GOATed Gas Station](/bussim/events/goated-gas-station). 
+  \n\n 
+  This item is simply meant to gate players from getting the [Helicopter](/bussim/items/helicopter) easily without having to pay, with its tooltip stating that it's glued shut. 
+  \n
+  It also doesn't have any other functionality aside from being purchasable for [100 Passenger Reputation](/bussim/others/reputation). 
+  \n\n 
+  If you do however pay for it, [Disc](/bussim/npcs/disc) will then unstick the pages allowing you to learn how to fly, it also gives you a permanent tool called [Helicopter](/bussim/items/helicopter). 
+  \n\n 
+  The cover reads: "how to FLY FREE 100% WORKING 2O22" along with a Dummy flying.
 
-         <br><br>
+  ##[Trivia]
+  - The Flying Skillbook is possibly one of the least functional items in any event, with [Tool](/bussim/items/tool) having no uses currently.
 
-         If you do however pay for it, <a href="/bussim/npcs/disc">Disc</a> will then unstick the pages allowing you to learn how to fly, it also gives you a permanent tool called <a href="/bussim/items/helicopter">Helicopter</a>.
-
-         <br><br>
-
-         The cover reads: "how to FLY FREE 100% WORKING 2O22" along with a Dummy flying.
-
-    - type: section
-      content:
-        title: Trivia
-    - type: tree
-      content:
-        - name: The Flying Skillbook is possibly one of the least functional items in any event, with <a href="/bussim/items/tool">Tool</a> having no uses currently.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/flying-skillbook.webp
+  !!GALLERY [/assets/bussim/images/items/flying-skillbook.webp]

@@ -1,47 +1,28 @@
+editable: True
 page:
-  title: Broken Down
-  description: Broke Down, or Broken Down is a simple event in Bus Simulator where The Bus breaks down in the middle of the road,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Broken Down
-  tags: broken down, events
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Broken Down
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>BrokeDown</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         Broke Down, or Broken Down is a simple event in Bus Simulator where <a href='/bussim/locations/the-bus'>The Bus</a> breaks down in the middle of the road, 
-         giving players the ability to push the bus back to its normal speed by using a push part at the back of the bus.
+attributions: []
 
-         <br><br>
+content: |
+  ##[Info]
+  Placeholder Info
 
-         After the players have successfully pushed the bus back to its normal speed, 
-         the event ends and things go as normal. 
-         If players don't push the bus however, 
-         the event will not end until it has been pushed back to normal, 
-         allowing ample time to explore the surroundings without tripping.
+  ##[Trivia]
+  - Trivia Here
 
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: This can technically be considered the longest event in the game, given how without any human interference it will last forever until someone pushes it back to normal.
-          children:
-            - name: Due to this, it also allows those especially in smaller, less active servers to get to the <a href='/bussim/others/vehicles'>Ice Cream Trucks</a> without much worry.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/events/broken-down.webp
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

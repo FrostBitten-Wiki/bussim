@@ -1,45 +1,34 @@
+editable: True
 page:
   title: Fake Rocket Launcher
-  description: The Fake Rocket Launcher is an item obtained in the Shack event.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Fake Rocket Launcher
-  tags: fake rocket launcher, event item, item that obliterates, item that explodes
-
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
-  header:
-    title: Fake Rocket Launcher
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+  description: The Fake Rocket Launcher is an item obtained in the Shack event. 
     
-  pageContent:
-    - type: quote
-      content:
-        quote: "It might still work after sitting dormant for so long."
-        author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The FakeRocket, or more commonly known as the Fake Rocket Launcher is an item obtained in the <a href="/bussim/events/shack">Shack</a> event.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: fake rocket launcher, shack item, rocket launcher, exploding item
 
-         <br><br>
+  header:
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-         When used, it will at first seem to sound like a normal rocket launcher from Roblox, 
-         but will instead explode the person who holds this item instead, 
-         It can't also be used to kill other players if you are standing next to them.
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-    - type: section
-      content:
-        title: Trivia
-    - type: tree
-      content:
-        - name: This item is an almost exact replica of the classic Roblox Rocket Launcher added in June 2006. You can find more info about the original right <a href="https://roblox.fandom.com/wiki/Rocket_Launcher">here</a>!
-        - name: The tool appears to shoot out a blue rocket in the direction you choose when clicked, but the rocket itself doesn't explode, and ignores collision.
+content: |
+  "It might still work after sitting dormant for so long." -"Fake Rocket Launcher"
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/fake-rocket-launcher.webp
+  ##[Info]
+  The Fake Rocket Launcher is an item obtained in the [Shack](/bussim/events/shack) event. 
+  \n\n 
+  When used, it will at first seem to sound like a normal rocket launcher from Roblox, but will instead explode the person who holds this item instead, It can't also be used to kill other players if you are standing next to them. 
+
+  ##[Trivia]
+  - This item is an almost exact replica of the classic Roblox Rocket Launcher added in June 2006. You can find more info about the original in the Roblox Wiki!
+  - The tool appears to shoot out a blue rocket in the direction you choose when clicked, but the rocket itself doesn't explode, and ignores collision.
+  - The tool has its gripped reverse meaning where it fires is supposed to be backwards, but still shoots forward when using it.
+
+  !!GALLERY [/assets/bussim/images/items/fake-rocket-launcher.webp]

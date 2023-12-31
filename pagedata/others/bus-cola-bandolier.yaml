@@ -1,55 +1,33 @@
+editable: True
 page:
   title: Bus-Cola Bandolier
-  description: The Bus-Cola Bandolier is an official accessory that you can buy here.
+  description: The Bus-Cola Bandolier is an official accessory that you can buy on the Roblox Marketplace.
+  
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Bus-Cola Bandolier
+
   tags: bus cola bandolier, official ugc item
+
+  header:
+    title: Bus-Cola Bandolier
+    description: |
+      Category: <a href="/bussim/others">Others</a>
+    image: "/bussim-assets/images/banner.jpg"
+    imageBanner: /assets/bussim/images/banner.jpg
 
 attributions:
   - "Ported By PolyframeX (@polyframex)"
-
-html:
-  header:
-    title: Bus-Cola Bandolier
-    description: >- 
-      Category: <a href="/bussim/others">Others</a>
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
   
-  pageContent:
-    - type: quote
-      content:
-       quote: "Never go thirsty again with this bandolier of assorted colas that we found rolling around in the back of a bus! Who knows what'll happen if you drink one?"
-       author: "Bus-Cola Bandolier"
-
-    - type: section
-      content:
-        size: normal
-        title: Info
-        description: >- 
-          The Bus-Cola Bandolier is an official accessory that you can buy <a href='https://www.roblox.com/catalog/14609231873/'>here</a>.
-          This accessory currently has no functional usage yet and can be worn anywhere even outside of Bus Simulator.
-
-    - type: section
-      content:
-        size: normal
-        title: Appearance
-        description: >-
-         The Bandolier seems to be a torso strap-on made with a sky-blue fabric. 
-         On the bandolier contains the following colas; 
-         left to right being: 
-         <a href="/bussim/items/cold-cola">Cold Cola</a>, <a href="/bussim/items/bad-cola">Bad Cola</a>, <a href="/bussim/items/hot-cola">Hot Cola</a>, and <a href="/bussim/items/cramped-cola">Cramped Cola</a>. 
-         The cola texture themselves also seem to be in much lower resolution and scale than their official game counterparts.
-
-    - type: section
-      content:
-        size: normal
-        title: Trivia
-        
-    - type: tree
-      content:
-        - name: Much like the <a href="/bussim/items/diy-mini-bus">D.I.Y. Bus</a>, this is the second non-clothing accessory to be made in relation to Bus Simulator.
-
-    - type: gallery
-      content:
-        images: 
-          - /bussim-assets/images/others/bus-cola-bandolier.webp
+content: |
+  "Never go thirsty again with this bandolier of assorted colas that we found rolling around in the back of a bus! Who knows what'll happen if you drink one?" -"Bus-Cola Bandolier"
+  ##[Info]
+  The Bus-Cola Bandolier is an official accessory that you can buy <a href='https://www.roblox.com/catalog/14609231873/'>here</a>.
+  This accessory currently has no functional usage yet and can be worn anywhere even outside of Bus Simulator.
+  \n\n
+  ##[Appearance]
+  The Bandolier seems to be a torso strap-on made with a sky-blue fabric. Within the bandolier contains the following colas; from left to right being: [Cold Cola](items/cold-cola), [Bad Cola](items/bad-cola), [Hot Cola](items/hot-cola), and [Cramped Cola](items/cramped-cola). 
+  \n\n
+  The cola texture themselves also seem to be in much lower resolution and scale than their official game counterparts.
+  \n\n
+  ##[Trivia]
+  - Much like the [D.I.Y Mini-Bus](others/diy-mini-bus), this is the second non-clothing accessory to be made in relation to Bus Simulator.
+  !!GALLERY [/bussim-assets/images/others/bus-cola-bandolier.webp]

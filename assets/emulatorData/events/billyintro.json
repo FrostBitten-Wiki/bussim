@@ -1,0 +1,251 @@
+{
+    "startDialogue": {
+        "name": "Billy (1)",
+        
+        "text": [
+            "hi! my name is billy!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["start2"]
+            ]
+        ]
+    },
+
+    "start2": {
+        "name": "Billy (2)",
+
+        "text": [
+            "i don't say \"/e free\" or \"this is weird glitch\""
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["start3"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["startDialogue"]
+            ]
+        ]
+    },
+    "start3": {
+        "name": "Billy (3)",
+
+        "text": [
+            "because i'm a pro!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["start4"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start2"]
+            ]
+        ]
+    },
+    "start4": {
+        "name": "Billy (4)",
+
+        "text": [
+            "don't you want to be like me?"
+        ],
+
+        "choices": [
+            [
+                "No.",
+                ["no"]
+            ],
+            [
+                "Yes!",
+                ["yes"]
+            ],
+            [
+                "<highlight>Abstained</highlight>",
+                ["silence"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start3"]
+            ]
+        ]
+    },
+
+    "no": {
+        "name": "Billy (5)",
+
+        "text": [
+            "too bad!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["no2"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start4"]
+            ]
+        ]
+    },
+
+    "no2": {
+        "name": "Billy (3)",
+
+        "text": [
+            "become like us."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["no3"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["no"]
+            ]
+        ]
+    },
+
+    "no3": {
+        "name": "Billy (1)",
+
+        "text": [
+            "together, we will take over roblox."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["startDialogue"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["no2"]
+            ]
+        ]
+    },
+
+    "yes": {
+        "name": "Billy (5)",
+
+        "text": [
+            "good! you don't have a choice."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["yes2"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["start4"]
+            ]
+        ]
+    },
+
+    "yes2": {
+        "name": "Billy (3)",
+
+        "text": [
+            "become like us."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["yes3"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["yes"]
+            ]
+        ]
+    },
+
+    "yes3": {
+        "name": "Billy (1)",
+
+        "text": [
+            "together, we will take over roblox."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["startDialogue"]
+            ],
+            [
+                "<highlight>Go Back</highlight>", 
+                ["yes2"]
+            ]
+        ]
+    },
+
+    "silence": {
+        "name": "Billy (5)",
+
+        "text": [
+            "coward!"
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["silence2"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["start4"]
+            ]
+        ]
+    },
+
+    "silence2": {
+        "name": "Billy (3)",
+
+        "text": [
+            "become like us."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Continue</highlight>",
+                ["silence3"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["silence"]
+            ]
+        ]
+    },
+
+    "silence3": {
+        "name": "Billy (1)",
+
+        "text": [
+            "together, we will take over roblox."
+        ],
+
+        "choices": [
+            [
+                "<highlight>Reset</highlight>",
+                ["startDialogue"]
+            ],
+            [
+                "<highlight>Go Back</highlight>",
+                ["silence2"]
+            ]
+        ]
+    }
+
+}

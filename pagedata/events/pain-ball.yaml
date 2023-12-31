@@ -1,47 +1,28 @@
+editable: True
 page:
-  title: Pain Ball
-  description: The Pain Ball is a short, but very loud event where a ball will be slammed into the windshield,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Pain Ball
-  tags: pain ball, event
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
 
-html:
   header:
-    title: Pain Ball
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>PainBall</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/events/painball2.webp
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-          The Pain Ball is a short, 
-          but very loud event where a ball will be slammed into the windshield, 
-          causing screams of pain in the process. 
-          Eventually after a while of screaming, 
-          the driver finds a way to wipe it off of the windshield, 
-          and it succeeds, 
-          ending the event.
+attributions: []
 
-          <br><br>
+content: |
+  ##[Info]
+  Placeholder Info
 
-          The ball is also collidable both inside and outside of the bus, 
-          providing a temporary platform.
+  ##[Trivia]
+  - Trivia Here
 
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: This is a reference to a roblox game Steven_Scripts has made called <a href="https://www.roblox.com/games/2179700750/balls-of-pain">balls of pain</a>.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/events/painball2.webp
-          
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

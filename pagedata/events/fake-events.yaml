@@ -1,51 +1,28 @@
+editable: True
 page:
-  title: Fake Events
-  # lol make the description better i suck -Nyx
-  description: Fake Events are various events that looks like one, but it's actually just to trick players into thinking it's one.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Fake No Gas
-  tags: fake events, events
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Fake No Gas
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>FakeNoGas</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: buttons
-      content:
-        buttons:
-          - ["<highlight>Fake No Gas</highlight>", "/bussim/events/fake-events"]
-          - ["Fake Bus Stop", "/bussim/events/fake-events/fake-bus-stop"]
+attributions: []
 
-    - type: section
-      content:
-        size: normal
-    - type: quote
-      content:
-        quote: "We ran out of gas."
-        author: Driver
+content: |
+  ##[Info]
+  Placeholder Info
 
-    - type: section
-      content:
-        size: normal
-        title: Info
-        description: >-
-         The Fake No Gas event is an event where the bus stops, 
-         and the driver acts like they're out of gas. 
-         Shortly afterwards, 
-         pranking the passengers once again, 
-         acting as a sequel to the Fake Bus Stop event.
+  ##[Trivia]
+  - Trivia Here
 
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: The event runtime is only 20 seconds, making it one of the shortest events in the game.
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

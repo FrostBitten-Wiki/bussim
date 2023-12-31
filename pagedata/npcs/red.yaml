@@ -1,83 +1,52 @@
+editable: True
 page:
-  title: Red
-  description: RedNoob5050 (AKA Red) is an employee as Bloxdonalds who gives you the Burger.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Red
+  title: NPCName
+  description: NPCDescription
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npc
+  
+  tags: npcname, npc
+
+  header:
+    title: NPCName
+    description: |
+      Category: [NPCs](/bussim/npcs)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-html:
-  header:
-    title: Red
-    description: >- 
-      Category: <a href="/bussim/npcs">NPCs</a>
-    image: ''
-    imageBanner: /bussim-assets/images/events/bloxdonalds.webp
-    
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-          RedNoob5050 (AKA Red) is an employee as Bloxdonalds who gives you the <a href='/bussim/items/burger'>Burger</a>. 
-          He also works as a developer in <a href='https://www.roblox.com/games/6549663822/Kit-Battle-Beta-Testing'>Kit Battle</a>, 
-          one of NobleReign's games.
+content: |
+  ##[Info]
+  RedNoob5050 (AKA Red) is an employee as [Bloxdonalds](/bussim/events/bloxdonalds) who gives you the Burger. He also works as a developer in [Kit Battle](https://gla.dog/kit-beta), one of NobleReign's games.
 
-    - type: section
-      content:
-        title: Appearance
-        description: >-
-         Red has a simple outfit,
-         wearing a black Cadet cap, 
-         a pair of Headphones, 
-         and his Bloxdonalds uniform.
+  ##[Favourite Drink]
+  Red's favourite drink is [Strawberry Smoothie](/bussim/events/coffee-shop). This gives you 1 Passenger Rep.
 
-    - type: section
-      content:
-        title: Dialogue
+  ##[Dialogue]
+  !!DLEMULATOR EID:"redemulator" SID:"start" URL:"/assets/bussim/emulatorData/red.json"
+  
+  - hg[Variant 1]: "Welcome to Bloxdonalds.. if you're wondering, the door is broken."
+  - hg[Variant 2]: "Welcome to Bloxdonalds.. blah, blah, blah."
+      - hg[Option 1]: Can I get an... uhhh...
+          - "Yeah, yeah. I'm guessing you're here for the burger, so, take it. ssiiigggghhhhh... I don't get paid enough for this."
+              - The player receives the [Burger](/bussim/items/burger).
+          - "Hey. I said one per customer. I can see you're hiding that burger in your pocket. Don't try..."
+              - Only appears if the player already has a [Burger](/bussim/items/burger).
+      - hg[Option 2]: Let's talk.
+          - "Make it quick."
+              - hg[Option 1]: Are you aware that somebody's hiding a body behind the store?
+                  - "Don't know who you're talking about. I'm the only person here."
+              - hg[Option 2]: Are you okay..?
+                  - "I am severely underpaid, and we are incredibly short-staffed. We don't even get any applications, because nobody knows where we are. I have to do all the work myself, and my manager is sooooo cheap that we don't even have a kitchen. Do you think I'm okay?"
+                      - I mean, I'm here..
+                          - "Well, I'm not the manager, so."
+              - hg[Option 3]: Wait, if there's no kitchen, then where..?
+                  - "Don't ask questions you aren't prepared for the answers to."
+                      - hg[Option 1]: Sheesh, sorry..
+                      - hg[Option 2]: Nevermind.
 
-    - type: npcChat
-      content:
-        id: red
-        startId: start
-        chatData: /bussim-assets/chatdata/npcs/red.json
-
-    - type: tree
-      content:
-        - name: "Variant 1: \"Welcome to Bloxdonalds.. if you're wondering, the door is broken.\""
-        - name: "Variant 2: \"Welcome to Bloxdonalds.. blah, blah, blah.\""
-          children:
-            - name: "Option 1: Can I get an... uhhh..."
-              children:
-                - name: "\"Yeah, yeah. I'm guessing you're here for the burger, so, take it. ssiiigggghhhhh... I don't get paid enough for this.\""
-                  children:
-                    - name: "<small>(The player receives the <a href='/bussim/items/burger'>Burger</a>.)</small>"
-                - name: "\"Hey. I said one per customer. I can see you're hiding that burger in your pocket. Don't try...\""
-                  children:
-                    - name: "<small>(Only appears if the player already has a Burger.)</small>"
-            - name: "Option 2: Let's talk."
-              children:
-                - name: "\"Make it quick.\""
-                  children:
-                    - name: "Option 1: Are you aware that somebody's hiding a body behind the store?"
-                      children:
-                        - name: "\"Don't know who you're talking about. I'm the only person here.\""
-                    - name: "Option 2: Are you okay..?"
-                      children:
-                        - name: "\"I am severely underpaid, and we are incredibly short-staffed. We don't even get any applications, because nobody knows where we are. I have to do all the work myself, and my manager is sooooo cheap that we don't even have a kitchen. Do you think I'm okay?\""
-                          children:
-                            - name: "I mean, I'm here.."
-                              children:
-                                - name: "\"Well, I'm not the manager, so.\""
-                    - name: "Option 3: Wait, if there's no kitchen, then where..?"
-                      children:
-                        - name: "\"Don't ask questions you aren't prepared for the answers to.\""
-                          children:
-                            - name: "Option 1: Sheesh, sorry.."
-                            - name: "Option 2: Nevermind."
-
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/npcs/red.webp
+  !!GALLERY [/assets/bussim/images/npcs/red.webp]  

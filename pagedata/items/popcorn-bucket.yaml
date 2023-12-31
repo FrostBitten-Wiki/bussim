@@ -1,0 +1,39 @@
+editable: True
+page:
+  title: Popcorn Bucket
+  description: The Popcorn Bucket is a permanent item that can be obtained from the Backwalls, and requires multiple items and an event to create.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, cafe
+
+  tags: popcorn bucket, bucket, this is a bucket. dear god, mmm yummy permanent item, worth the popcorn tbh
+
+  header:
+    title: Popcorn Bucket
+    description: |
+      Category: [Items](items)
+    image: "/bussim-assets/images/banner.jpg"
+    imageBanner: /assets/bussim/images/banner.jpg
+    
+attributions:
+  - Created by FangedWerewolf (@noobbiom)
+
+content: |
+ "My life? Probably worth the popcorn." -"Popcorn Bucket"
+ ##[Info]
+ The Popcorn Bucket is a permanent item that can be obtained from the Backwalls, and requires a [Bucket?](/bussim/items/bucket) found in Zeon's house in the [Goat Station](/bussim/events/goated-gas-station) event or from the [Picnic](/bussim/events/picnic) event, [Kernels](/bussim/items/kernels) from [Goat Station](/bussim/events/goated-gas-station) and finding a perfect condition popcorn machine within the [Backwalls](/bussim/events/backwalls). 
+ \n 
+ *(Note: It is not obtainable in Private Servers.)*
+ \n\n
+ When you find one, you have to pour the kernels into the machine by clicking on it, and then wait two minutes for the machine to stop making noise, which indicates that it's done. Click on it again, and you'll receive the Popcorn Bucket. Now, you have to escape with it to receive the item permanently.
+ \n\n
+ You can also try to used a cursed popcorn machine too, but it may have some [**serious implications**](/bussim/npcs/daryl), nonetheless you can interact with it once it's done to receive your popcorn. 
+ \n\n 
+ To eat the popcorn, simply click, tap, or press RT/R2 on console. And to throw, press Q or X/Square on console. 
+ \n
+ ##[Trivia]
+ - The popcorn kernels, bucket, and machine was all made by ComeOutTheCloset.
+ - The popcorn does heal, but only by 1 health.
+ ##[Technical Trivia]
+ - The popcorn is actually buttered, as hinted in the internal parts of the Popcorn Maker in the Backwalls, with the part name being: "itcomeswithbutter".
+ 
+ !!GALLERY [/assets/bussim/images/items/popcorn-bucket.webp]

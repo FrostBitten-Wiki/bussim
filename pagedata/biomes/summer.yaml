@@ -1,28 +1,26 @@
+editable: True
 page:
-  title: Summer
-  description: Summer is a simple biome with Grass and not much else.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Summer
+  title: Sumnmer
+  description: Summer is a simple biome with Grass and not much else. Buildings, bushes, and trees also spawn in the biome.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: Summer
-    description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>
+    description: |
+      Category: [Biomes](/bussim/biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/summer.webp
 
-    image: ''
-    imageBanner: /bussim-assets/images/biomes/summer.webp
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-         Summer is a simple biome with Grass and not much else. 
-         Buildings, bushes, and trees also spawn in the biome.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/biomes/galleries/Pov_summer.webp
+content: |
+  ##[Info]
+  Summer is a simple biome with Grass and not much else. Buildings, bushes, and trees also spawn in the biome.
+
+  !!GALLERY [/assets/bussim/images/biomes/summer.webp]

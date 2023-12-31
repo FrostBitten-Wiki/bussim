@@ -50,6 +50,15 @@ text {
     font-display: swap;
 }
 
+.hr-gradient {
+    border: none;
+    height: 2px;
+    margin-bottom: 13px;
+    background: linear-gradient(to right, #b5b5b5, transparent 45%) !important;
+    margin-left: 0; /* flex compat */
+    margin-right: 0; /* ^^ */
+}
+
 .gallery-container {
     overflow-x: auto;
     white-space: nowrap;

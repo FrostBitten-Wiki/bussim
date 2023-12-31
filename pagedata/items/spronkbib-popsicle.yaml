@@ -1,55 +1,40 @@
+editable: True
 page:
   title: Spronkbib Popsicle
-  description: The Spronkbib Popsicle is obtainable along with The Last One badge as a 1/800 (formerly 1/1000) chance from the naturally spawning ice cream vans.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Spronkbib Popsicle
-  tags: spronkbib popsicle, spongebob popsicle, rare item
+  description: The Spronkbib Popsicle is obtainable along with The Last One badge as a 1/800[1](formerly 1/1000) chance from the naturally spawning ice cream vans.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: spronkbib popsicle, spronkbib, spongebob, the last one
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Spronkbib Popsicle
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: quote
-      content:
-       quote: "Bares no resemblance to beloved childhood characters whatsoever!"
-       author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Spronkbib Popsicle is obtainable along with <a href="https://www.roblox.com/badges/2124830393/The-Last-One">The Last One</a> badge as a 1/800 (formerly 1/1000) chance from the naturally spawning ice cream vans. 
-         Once you do get it though, 
-         you won't be able to get another normal <a href="/bussim/items/ice-cream">ice cream</a> without having to delete the Last One badge. <small>(But why would you?)</small>
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-         <br><br>
+content: |
+  "Bares no resemblance to beloved childhood characters whatsoever!" -"Spronkbib Popsicle"
 
-         When held it plays the <a href="https://www.youtube.com/watch?v=Ncgv7ruZ6HU&ab_channel=PrincessAmber">Steel String</a> sound effect from Spongebob Squarepants and upon licking it, 
-         the player will receive rapid health regeneration for a short time.
+  ##[Info]
+  The Spronkbib Popsicle is obtainable along with The Last One badge as a 1/800(formerly 1/1000) chance from the naturally spawning ice cream vans.
+  \n\n 
+  Once you do get it though, you won't be able to get another normal ice cream without having to delete the Last One badge. *(But why would you?)*
+  \n\n 
+  When held it plays the Steel String sound effect from Spongebob Squarepants and upon licking it, the player will receive rapid health regeneration for a short time. 
+  \n\n 
+  It is currently obtainable in a VIP server. 
 
-         <br><br>
+  ##[Trivia]
+  - The popsicle itself is based off of the real-life version of the Spongebob popsicles.
+  - The Spronkbib Popsicle used to be a temporary item, but was changed in the 20 Million Visits update, making it permanent. 
+  - While it may not seem like much, the Spronkbib Popsicle isn't removed from the Backwalls, Santa's Gone, and No Dough, making it a slightly overpowered item in said events. 
+    - In Backwalls you can use this to heal rapidly from dark goo puddles.
+    - In No Dough and Santa's Gone, it works as a good distraction without the Airhorn.
 
-         It is currently obtainable in a VIP server.
-
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: The popsicle itself is based off of the real-life version of the Spongebob popsicles.
-        - name: The Spronkbib Popsicle used to be a temporary item, which was changed in the 20 Million Visits update.
-        - name: While it may not seem like much, the Spronkbib Popsicle isn't removed from the Backwalls, Santa's Gone, and No Dough, making it a slightly overpowered item in said events.
-          children:
-            - name: In Backwalls you can use this to heal rapidly from dark goo puddles.
-            - name: In No Dough and Santa's Gone, it works as a good distraction without the <a href="/bussim/items/airhorn">Airhorn</a>.
-        - name: You need to enable <a href="/bussim/others/vehicles">Vehicles</a> within the Performance Settings for the Ice Cream Truck (as well as other vehicles) to spawn.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/spronkbib-popsicle.webp
+  !!GALLERY [/assets/bussim/images/items/spronkbib-popsicle.webp]

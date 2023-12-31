@@ -1,0 +1,148 @@
+editable: True
+page:
+  title: Customers
+  description: The Customers are minor NPCs that appear on the Coffee Shop event. They act similarly to Civilians.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim banana npc
+  
+  tags: customers, event npc, coffee shop npc, npc
+
+  header:
+    title: Customers
+    description: |
+      Category: [NPCs](/bussim/npcs)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/coffee-shop.webp
+
+attributions: 
+  - Edited by Nyx (@nyxical)
+
+content: |
+  !!INFOBOX TITLE:"Stub Content" COLOR:"#ff8c2e" TEXT:[*"not much to talk here, but.. well.."* -Efeuc\n<small>This page is a stub, it may not contain all of the information in the game; so adding more information to this page is always appreciated!</small>]
+  
+  ##[Info]
+  The customers are NPCs that appears in the [Coffee Shop](/bussim/events/coffee-shop) event.
+  \n\n
+  Unlike Civilians, the Customers can talk and can be interacted with.
+
+  ##[Appearance]
+  Their appearance is random, but unlike [Civilians](/bussim/npcs/civilian), they use the Default Blocky Avatar, with randomized Clothing, Face and Accessories.
+  
+  ##[Dialogue (When Ordering)]
+  ###[Starting Dialogues]
+  The dialogue the customer uses when interacting with them.
+
+  - "I think I made a wrong turn trying to find Jo n' Bro's, but maybe this is better?"
+  - "You'd better be careful pal, I'm an influencer with 100 followers."
+  - "oooh, that looks good. wait, that one looks better... hmmm.."
+  - "Please give me caffeine, I'll pay you in exposure"
+  - "Wait, when did I get to the front of the line?"
+  - "Cafe 2952..? What kind of name is that..?"
+  - "Ey! Cashier! Take my order why dont'cha?"
+  - "Maybe I should try something new today?"
+  - "OH GOD I FORGOT ABOUT MY SOCIAL ANXIETY"
+  - "maybe a drink will cheer me up today..."
+  - "(wait did i forget my wallet)"
+  - "Oooh, this place looks cozy."
+  - "Hang on, lemme think..."
+  - "Dang, I'm parched..."
+  - "Oh, what a menu..."
+  - "need... coffee..."
+  - "Hello stranger."
+  - "Coffee time."
+  - "Hi, hi, hi!"
+  - "Heyo!"
+
+  ###[Choices]
+  The available choices for responding to the customer. You are only able to choose One Positive choice and Two Negative Choices.
+  These choices are all random. although the count of choices stays the same.
+  - <clr:#45ff45>(Positive): "Welcome to Cafe 2952, how may I help you?"
+  - <clr:#45ff45>(Positive): "Cool, but can I take your order?"
+  - <clr:#45ff45>(Positive): "Please tell me what you want."
+  - <clr:#45ff45>(Positive): "Right then, what'd you like?"
+  - <clr:#45ff45>(Positive): "What drink would you like?"
+  - <clr:#45ff45>(Positive): "Hey, I'll take your order."
+  - <clr:#45ff45>(Positive): "What would you like?"
+  - <clr:#45ff45>(Positive): "Your order, please?"
+  - <clr:#45ff45>(Positive): "What It'll be?"
+  \n
+  - <clr:#ff4545>(Negative): "I'd just like to interject for a moment. What you're refering to as Linux, is in fact, GNU/Linux."
+  - <clr:#ff4545>(Negative): "Would you like to try our new Furry Smoothie? Now with 100% more furry!"
+  - <clr:#ff4545>(Negative): "I don't have to serve you, I have over 50 million rep in Bus Simulator!"
+  - <clr:#ff4545>(Negative): "We don't actually sell coffee, we just put mud in a blender."
+  - <clr:#ff4545>(Negative): "Would you like to work here? No job application required!"
+  - <clr:#ff4545>(Negative): "Mind if I take a sip of your order? I'm really thirsty."
+  - <clr:#ff4545>(Negative): "We have survaillance cameras watching your every move."
+  - <clr:#ff4545>(Negative): "Please thank me. Please. Please. I need rep, please."
+  - <clr:#ff4545>(Negative): "Our barista died, you'll have to make it yourself."
+  - <clr:#ff4545>(Negative): "I am here against my will, please call for help."
+  - <clr:#ff4545>(Negative): "My mom said that I can't talk to strangers."
+  - <clr:#ff4545>(Negative): "You're not allowed to be here. Leave, now."
+  - <clr:#ff4545>(Negative): "Nice shirt, you should incinerate it."
+  - <clr:#ff4545>(Negative): "You owe me 20 dollars, pay up, chump."
+  - <clr:#ff4545>(Negative): "I will mix your coffee with my tears."
+  - <clr:#ff4545>(Negative): "I'll take your order, and your kids."
+  - <clr:#ff4545>(Negative): "Take it to go, and never come back."
+  - <clr:#ff4545>(Negative): "Looking at you makes me depressed."
+  - <clr:#ff4545>(Negative): "Where's the 'skip dialog' button?"
+  - <clr:#ff4545>(Negative): "Furries are internet subculture."
+  - <clr:#ff4545>(Negative): "Sorry, we only serve pizza here."
+  - <clr:#ff4545>(Negative): "You're going to make me cry..."
+  - <clr:#ff4545>(Negative): "What kind of monster are you?!"
+  - <clr:#ff4545>(Negative): "You're thirsty? Skill issue."
+  - <clr:#ff4545>(Negative): "Your family doesnt love you."
+  - <clr:#ff4545>(Negative): "You remind me of nightmares"
+  - <clr:#ff4545>(Negative): "You are the absolute worst."
+  - <clr:#ff4545>(Negative): "Can we get a four way tie?!"
+  - <clr:#ff4545>(Negative): "I'm on the verge of tears."
+  - <clr:#ff4545>(Negative): "Give me your wallet, NOW."
+  - <clr:#ff4545>(Negative): "I won't take your order."
+  - <clr:#ff4545>(Negative): "AAAAAAAAAAAAAAAAAAAAA!!!"
+  - <clr:#ff4545>(Negative): "Why are YOU here loser?!"
+  - <clr:#ff4545>(Negative): "I won't take your order."
+  - <clr:#ff4545>(Negative): "That's a bit sussy..."
+  - <clr:#ff4545>(Negative): "Oh, not you again!"
+  - <clr:#ff4545>(Negative): "That'll be $129.99"
+  - <clr:#ff4545>(Negative): "Try again later."
+  - <clr:#ff4545>(Negative): "What's a coffee?"
+  - <clr:#ff4545>(Negative): "Never come back."
+  - <clr:#ff4545>(Negative): "Thanks, you too."
+  - <clr:#ff4545>(Negative): "Can I pet you?"
+  - <clr:#ff4545>(Negative): "You're joking."
+  - <clr:#ff4545>(Negative): "Are you real?"
+  - <clr:#ff4545>(Negative): "Nuh uh."
+  - <clr:#ff4545>(Negative): "Bruh."
+
+  ###[Responses]
+  - <clr:#45ff45>(Positive): "Listen, this might sound a little weird, but can i get a [Drink Name]?"
+  - <clr:#45ff45>(Positive): "I... I-I'm a fan of [Drink Name]... Please don't tell my mom ;-;"
+  - <clr:#45ff45>(Positive): "[Drink Name] is the best drink to ever grace the planet."
+  - <clr:#45ff45>(Positive): "Please get me a [Drink Name], I'm literally so thirsty."
+  - <clr:#45ff45>(Positive): "I really want a [Drink Name]. Can you do that for me?"
+  - <clr:#45ff45>(Positive): "[Drink Name] is my favourite, I'd like that please!"
+  - <clr:#45ff45>(Positive): "Yeah ok, just do your job and gimme [Drink Name]."
+  - <clr:#45ff45>(Positive): "Yeah, can I get [Drink Name]?"
+  - <clr:#45ff45>(Positive): "one [Drink Name], please! :D"
+  - <clr:#45ff45>(Positive): "[Drink Name], No questions."
+  - <clr:#45ff45>(Positive): "I'll take a [Drink Name]."
+  - <clr:#45ff45>(Positive): "Give me a [Drink Name]."
+  - <clr:#45ff45>(Positive): "A [Drink Name], please!"
+  \n
+  - <clr:#ff4545>(Negative): "Maybe I should go to Bloxdonalds instead."
+  - <clr:#ff4545>(Negative): "Uh, I think I'll just make it at home."
+  - <clr:#ff4545>(Negative): "Why would you say that?!"
+  - <clr:#ff4545>(Negative): "WHERE IS YOUR MANAGER?!"
+  - <clr:#ff4545>(Negative): "What???"
+  - <clr:#ff4545>(Negative): "*cries*"
+  - <clr:#ff4545>(Negative): "?"
+
+  ##[Dialogues (After Ordering)]
+  ###[Correct Order]
+  - "Thank you!"
+  ###[Incorrect Order]
+  ###[Order Timeout]
+  - "Oh heck, I'm gonna be late for my meeting!"
+  ###[While Drinking]
+
+  !!GALLERY [/assets/bussim/images/npcs/customers.webp]  

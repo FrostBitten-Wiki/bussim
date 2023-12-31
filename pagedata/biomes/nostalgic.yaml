@@ -1,29 +1,25 @@
+editable: True
 page:
   title: Nostalgic
-  description: Nostalgic is a biome that more focuses on the "Older ROBLOX" era,
+  description: Nostalgic is a biome that more focuses on the "Older ROBLOX" era, with many classic features and props.
+    
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Nostalgic
+  
+  tags: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Nostalgic
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: Nostalgic
-    description: >-
-      Category: <a href="/bussim/biomes">Biomes</a>
-    image: ''
-    imageBanner: /bussim-assets/images/biomes/nostalgic.webp
+    description: |
+      Category: [Biomes](/bussim/biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/nostalgic.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-          Nostalgic is a biome that more focuses on the "Older ROBLOX" era, 
-          with the older studs texture, blocky bushes and trees, 
-          like for Blox Mart and Witches Brew.
+attributions: 
+  - Ported by PolyframeX (@polyframex) and Converted to Jinki by FangedWerewolf (@noobbiom)
 
-    - type: gallery
-      content:
-        images:
-        - /bussim-assets/images/biomes/galleries/Tree_And_Ad.webp
+content: |
+  ##[Info]
+  Nostalgic is a biome that more focuses on the "Older ROBLOX" era, with the older studs texture, blocky bushes and trees, like for Blox Mart and Witches Brew.
+    
+  !!GALLERY [/assets/bussim/images/biomes/nostalgic.webp] 

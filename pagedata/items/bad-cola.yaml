@@ -1,72 +1,38 @@
+editable: True
 page:
   title: Bad Cola
-  description: The Bad Cola (or occasionally called Red Cola) is a rare cola that has an appearance of the normal Cola tinted red.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Bad Cola
-  tags: bad cola, bus item
-
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
-  header:
-    title: Bad Cola
-    description: >-
-      Category: <a href="/bussim/items">Items</a>
+  description: The Bad Cola (or known as the Red Cola) is a rare cola that has an appearance of the normal Cola tinted red.
     
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: badcola, item
 
-  pageContent:
-    - type: buttons
-      content:
-        buttons:
-          - ["<highlight>Bad Cola</highlight>", "/bussim/items/bad-cola"]
-          - ["Old Bad Cola", "/bussim/items/bad-cola/old-bad-cola"]
+  header:
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-    - type: section
-      content:
-        size: normal
-    - type: quote
-      content:
-        quote: "Smells... odd."
-        author: Item Description
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-    - type: section
-      content:
-        size: normal
-        title: Info
-        description: >-
-          The Bad Cola (or occasionally called Red Cola) is a rare cola that has an appearance of the normal <a href="/bussim/items/cola">Cola</a> tinted red. 
-          You can also get it from the cola crate on the second floor of the bus. 
-          There's a 10% chance of you getting it. 
-          When held, it makes a deepened pop sound and when you drink it, 
-          the player pauses after drinking the red cola, 
-          their skin tone gets paler, and instantly dies.
+content: |
+  "Smells... odd." -"Bad Cola"
+  !!BUTTONS [<highlight>Bad Cola</highlight>,location.href=''|Old Bad Cola,location.href='/wiki/bussim/items/bad-cola/old-bad-cola']
+  ##[Info]
+  The Bad Cola (or known as the Red Cola) is a rare cola that has an appearance of the normal Cola tinted red. You can also get it from the cola crate on the second floor of the bus. There's a 10% chance of you getting it. When held, it makes a deepened pop sound and when you drink it, the player pauses after drinking the red cola, their skin tone gets paler, and instantly dies. 
+  \n\n 
+  When obtained, it will give you a badge and the news bot will say "*BREAKING NEWS*: (username) found a strange cola, more at 7..." 
+  \n\n 
+  Normally if you get this item via the Cola Crate on [The Bus](/bussim/locations/the-bus), the item would be named "Cola", without any hints that it's the Bad Cola. 
+  \n\n 
+  An exception is made however if given via VIP / Admin Commands, where it's promptly named Bad Cola, giving its name. 
 
-          <br><br>
+  ##[Trivia]
+  - There is a way to prevent dying upon consuming the cola by quickly unequipping the item shortly after drinking it. However, this will completely freeze your character's animations (sometimes even lock you in place) until you reset character.
+  - It's one of the easiest ways to die in this game as the Cola can easily be confused with this.
+  - Despite it being a [Cola](/bussim/items/cola), it doesn't heal you.
 
-          When obtained, it will give you a badge and the news bot will say "*BREAKING NEWS*: (username) found a strange cola, more at 7..."
-
-          <br><br>
-
-          Normally if you get this item via the <a href="/bussim/locations/the-bus">Cola Crate</a> on the bus, the item would be named "Cola", without any hints that it's the Bad Cola.
-
-          <br><br>
-
-          An exception is made however if given via VIP / Admin Commands, where it's promptly named Bad Cola, giving its name.
-
-    - type: section
-      content:
-        size: normal
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: There is a way to prevent dying upon consuming the cola by quickly unequipping the item shortly after drinking it. However, this will completely freeze your character's animations (sometimes even lock you in place) until you reset character.
-        - name: It's one of the easiest ways to die in this game as the cola can easily be confused with this.
-        - name: Despite it being a <a href="/bussim/items/cola">Cola</a>, it doesn't heal you.
-        
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/bad-cola.webp
+  !!GALLERY [/assets/bussim/images/items/bad-cola.webp]

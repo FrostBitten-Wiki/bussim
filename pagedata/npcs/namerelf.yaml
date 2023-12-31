@@ -1,96 +1,60 @@
+editable: True
 page:
   title: NamerElf
-  description: NamerElf is an interactable NPC in the Glacier Cave. Not much is known about him, besides that he mined the caves.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, NamerElf
+  description: NPCDescription
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim namerelf npc
+  
+  tags: namerelf, npc
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: NamerElf
-    description: >- 
-      Category: <a href="/bussim/npcs">NPCs</a>
-    image: ''
-    imageBanner: /bussim-assets/images/locations/glacier-cave.webp
+    description: |
+      Category: [NPCs](/bussim/npcs)
     
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         NamerElf is an interactable NPC in the <a href='/bussim/events/glacier-cave'>Glacier Cave</a>. Not much is known about him, besides that he mined the caves.
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-    - type: section
-      content:
-        title: Appearance
-        description: >-
-          NamerElf's Appearance It's based on his Roblox Profile, 
-          it changes every time he changes his avatar/outfit (changes every new server), 
-          and he wields a Pickaxe.
+attributions:
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-    - type: section
-      content:
-        title: Dialogue
+content: |
+  ##[Info]
+  NamerElf is an interactable NPC in the [Glacier Cave](/bussim/events/glacier-cave). Not much is known about him, besides that he mined the caves.
 
-    - type: npcChat
-      content:
-        id: namerelf
-        startId: start
-        chatData: /bussim-assets/chatdata/npcs/namerelf.json
+  ##[Appearance]
+  NamerElf's Appearance It's based on his Roblox Profile, it changes every time he changes his avatar/outfit (changes every new server), and he wields a Pickaxe.
 
-    - type: tree
-      content:
-        - name: "Variant 1: \"Yooo, how ya doin'?\""
-        - name: "Variant 2: \"Hey, how'd you get up here?\""
-        - name: "Variant 3: \"What's up?\""
-          children:
-            - name: "Option 1: What's with the clothes?"
-              children:
-                - name: "\"Oh, you mean this? Yeah, uh, I dunno! I just threw this on today. No thought into it!\""
-                  children:
-                    - name: "Option 2: I'm not sure that's appropriate to be wearing."
-                      children:
-                        - name: "\"What?! Sure it is! I think... I, uh, haven't looked in a mirror today, so I hope it is...\""
-                          children:
-                            - name: "Relatable, I guess."
-            - name: "Option 2: What are you doing here?"
-              children:
-                - name: "\"Well uh, I just got tired of standing in one spot all day. Those pedestals look nice, sure, but its sooo tiring to keep a pose. No clue how those other guys do it! Although, I hope more people actually come up and visit.. It's nice to be recognized for my work..\""
-            - name: "Option 3: Just passing by."
-              children:
-                - name: "\"Oh okay, see you around!\""
-            - name: "Option 4: Who are you?"
-              children:
-                - name: "\"I'm NamerElf, you can just call me Namer though. I made this entire cave-- don't tell that wolf dude down there though!\""
-                  children:
-                    - name: "Option 1: Don't tell them..? Why?"
-                      children:
-                        - name: "\"Wellll, it's not for any nefarious reason.. They just kinda walked up in here and started living here, and I thought it was kinda cool to have a roomie. He.. Kinda doesn't know I'm here. Or that I was here first.\""
-                          children:
-                            - name: "Option 1: And you never introduced yourself?"
-                              children:
-                                - name: "\"No... I was planning on it, but I think he's too comfy at this point... No way am I stepping into a wolf's territory!\""
-                            - name: "Option 2: Kind of goofy, but okay."
-                              children:
-                                - name: "\"I be in situations sometimes.\""
-                    - name: "Option 2: You made this?"
-                      children:
-                        - name: "\"Yep! Wasn't easy, but I carved out this whole cave with, uh.. The Roblox Studio build tools..?\""
-                    - name: "Option 3: Ah, okay."
+  ##[Dialogue]
+  !!DLEMULATOR EID:"namerelfemulator" SID:"start" URL:"/assets/bussim/emulatorData/namerelf.json"
 
+  - hg[Variant 1]: "Yooo, how ya doin'?"
+  - hg[Variant 2]: "Hey, how'd you get up here?"
+  - hg[Variant 3]: "What's up?"
+      - hg[Option 1]: What's with the clothes?
+          - "Oh, you mean this? Yeah, uh, I dunno! I just threw this on today. No thought into it!"
+              - hg[Option 2]: I'm not sure that's appropriate to be wearing.
+                  - "What?! Sure it is! I think... I, uh, haven't looked in a mirror today, so I hope it is..."
+                      - Relatable, I guess.
+      - hg[Option 2]: What are you doing here?
+          - "Well uh, I just got tired of standing in one spot all day. Those pedestals look nice, sure, but its sooo tiring to keep a pose. No clue how those other guys do it! Although, I hope more people actually come up and visit.. It's nice to be recognized for my work.."
+      - hg[Option 3]: Just passing by.
+          - "Oh okay, see you around!"
+      - hg[Option 4]: Who are you?
+          - "I'm NamerElf, you can just call me Namer though. I made this entire cave-- don't tell that wolf dude down there though!"
+              - hg[Option 1]: Don't tell them..? Why?
+                  - "Wellll, it's not for any nefarious reason.. They just kinda walked up in here and started living here, and I thought it was kinda cool to have a roomie. He.. Kinda doesn't know I'm here. Or that I was here first."
+                      - hg[Option 1]: And you never introduced yourself?
+                          - "No... I was planning on it, but I think he's too comfy at this point... No way am I stepping into a wolf's territory!"
+                      - hg[Option 2]: Kind of goofy, but okay.
+                          - "I be in situations sometimes."
+              - hg[Option 2]: You made this?
+                  - "Yep! Wasn't easy, but I carved out this whole cave with, uh.. The Roblox Studio build tools..?"
+              - hg[Option 3]: Ah, okay.
 
-    - type: section
-      content:
-        title: Trivia
+  ##[Trivia]
+  - No much is known about NamerElf, besides that he made the entire cave in Roblox Studios.\n\n
+  - His avatar changes a lot, and isn't managed manually in Studio.
 
-    - type: tree
-      content:
-        - name: "No much is known about NamerElf, besides that he made the entire cave in Roblox Studios."
-        - name: "His avatar changes a lot, and isn't managed manually in Studio."
-
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/npcs/namerelf.webp
+  !!GALLERY [/assets/bussim/images/npcs/namerelf.webp]  

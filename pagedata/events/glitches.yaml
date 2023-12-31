@@ -1,52 +1,28 @@
+editable: True
 page:
-  title: Glitches
-  description: The Glitches Event is an event that slowly starts changing biomes,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Glitches
-  tags: glitches, events
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Glitches
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Glitches</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/events/glitches.webp
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-          The Glitches Event is an event that slowly starts changing biomes, 
-          and gets faster per biome change. 
-          The event goes through every biome in the game, 
-          including one that is only seen via !map in a VIP server, 
-          or in the <a href='/bussim/events/exploiter'>Exploiter</a> event, 
-          the <a href='/bussim/biomes/void'>Void</a> biome.
+attributions: []
 
-          <br><br>
+content: |
+  ##[Info]
+  Placeholder Info
 
-          This map isn't recommended to watch if you have epilepsy, 
-          so if you start seeing the dialogue "Driving down the road is pretty relaxing." after an event, 
-          look away for about one minute.
+  ##[Trivia]
+  - Trivia Here
 
-
-
-
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: The dialogue "Who programmed this game? A child?" is a comedic jab at NobleReign, as he is indeed a child... mostly.
-        - name: This is one of the few events that forcibly changes biome, without the need of a tunnel.
-        - name: This event has a runtime of exactly 1 minute (60 seconds), which has the exact same amount of runtime as the <a href='/bussim/events/shack'>Shack</a> event, and a similar amount of runtime with the <a href='/bussim/events/bacon-hair'>Bacon Hair</a> event.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/events/glitches.webp
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

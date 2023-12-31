@@ -1,293 +1,401 @@
+editable: True
 page:
   title: Pear
-  description: Pear is both a Knitter and a NPC in the second floor.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Fizzy
+  description: |
+    Pear is both a Knitter and a NPC in the second floor. If you interact with him, you can have a conversation of many things,
+    invite a friend to gain rewards, or buy two songs for everyone in the server for 80 robux, although he recommends not to after "the incident".
+    He is also necessary to obtain one of the badges in Bus Simulator.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim pear npc
+  
+  tags: pear, npc
 
-attributions:
-  - "Ported By Nyx (@nyxical)"
-
-html:
   header:
     title: Pear
-    description: >- 
-      Category: <a href="/bussim/npcs">NPCs</a>
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [NPCs](/bussim/npcs)
     
-  pageContent:
-    - type: infobox
-      content:
-        infoBoxTitle: 
-          - "Work In Progress"
-          - "#b0690b"
-        infoBoxDescription: >-
-          <i>"not much to talk here, but.. well.."</i> - efeuc
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-          <br>
+attributions:
+  - Ported by Nyx (@nyxical)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-          <small>This page is a stub, it may not contain all of the information in the game; so adding more information to this page is always appreciated!</small>
+content: |
+  ##[Info]
+  Pear is both a Knitter and a NPC in the second floor. If you interact with him, you can have a conversation of many things,
+  invite a friend to gain rewards, or buy two songs for everyone in the server for 80 robux, although he recommends not to after "the incident".
+  He is also necessary to obtain one of the badges in Bus Simulator.
 
-    - type: section
-      content:
-        title: Info
-        description: >-
-          Pear is both a Knitter and a NPC in the second floor.
-          If you interact with him, you can have a conversation of many things, invite a friend to gain rewards,
-          or buy two songs for everyone in the server for 80 robux, although he recommends not to after "the incident".
-          He is also necessary to obtain one of the badges in Bus Simulator.
+  ##[Appearance]
+  Pear is a grey tuxedo cat that is wearing a Green Domino Crown, a collar, a cat facemask, a pair of pastel vintage glasses, a pair green and yellow arm warmers, and a small backpack.
 
-    - type: section
-      content:
-        title: Appearance
-        description: >-
-          Pear is a grey tuxedo cat that is wearing a Green Domino Crown, a collar, a cat facemask,
-          a pair of pastel vintage glasses, a pair green and yellow arm warmers, and a small backpack.
+  ##[Favourite Drink]
+  Pear's favourite drink is [Vanilla Almond Milk](/bussim/events/coffee-shop). This gives you 1 Passenger Rep.
 
-    - type: section
-      content:
-        title: Inviting Friends
-        description: >-
-          One of the new features added within the 2/04/2023 Update, following the 20 Million Update. When you talk to Pear, you can invite your friends to join you, and if you and your invited friend stays within the same server for an hour, you both get 10 Driver Rep & Passenger Rep, and you can invite up to 2 more friends granting 5 Driver Rep for each one, but 10 Passenger Rep for each one too, everyday. You'll also get badges for either being the one invited, or inviting someone.
-          <br><br>
-          You can also invite someone, and then be invited by the same person afterwards to get 2 out of 3 friends with only 1 friend.
-          <br><br>
-          At most, you can garner up to 20 Driver Rep & 30 Passenger Rep per day, assuming your friends really like to play Bus Simulator a lot.
-          <br><br>
-          You can also initiate the rewarding system by being invited by a friend from your website or desktop application, should be in your notifications once your friend invites you to the game.
+  ##[Inviting Friends]
+  One of the new features added within the 2/04/2023 Update, following the 20 Million Update. When you talk to Pear, 
+  you can invite your friends to join you, and if you and your invited friend stays within the same server for an hour, 
+  you both get 10 Driver Rep & Passenger Rep, and you can invite up to 2 more friends granting 5 Driver Rep for each one, 
+  but 10 Passenger Rep for each one too, everyday. You'll also get badges for either being the one invited, or inviting someone.
+  \n\n
+  You can also invite someone, and then be invited by the same person afterwards to get 2 out of 3 friends with only 1 friend.
+  \n\n
+  At most, you can garner up to 20 Driver Rep & 30 Passenger Rep per day, assuming your friends really like to play Bus Simulator a lot.
+  \n\n
+  You can also initiate the rewarding system by being invited by a friend from your website or desktop application, should be in your notifications once your friend invites you to the game.
 
-    - type: section
-      content:
-        title: Dialogue
+  ##[Dialogue (The Bus)]
+  !!DLEMULATOR EID:"pearemulator" SID:"start" URL:"/assets/bussim/emulatorData/pear.json"
+  
+  ##[Dialogue Tree]
+  - hg[Variant 1]: "Oh, hey <Player>!!! I know you!! (If the player is friends with Pear on Roblox)"
+  - hg[Variant 2]: "Did you know that in terms of... busses, this is a pretty nice one! What's up, though?"
+  - hg[Variant 3]: "mmrrreoww~?"
+  - hg[Variant 4]: "Oh, hey! Didn't see you there, what's up?"
+  - hg[Variant 5]: "Need something?"
+  - hg[Variant 6]: "Hold on just a second... just trading my pearcoinTM"
+  - hg[Variant 7]: "Heyaaa! What're you talkin to me for?"
+  - hg[Variant 8]: "<Player>?! I didn't expect to see you here!!"
+  - Varaint 9: "Tender soul splintered, folded in the inner...~ Huh, sorry... What's goin on?"
+      - hg[Option 1]: Sorry, just walking by.
+      - hg[Option 2]: Let's talk!
+          - hg[Variant 1] (If the player count is below 5): "I mean, it is pretty lonely in here.."
+          - hg[Variant 2] (If there's one other player in the server): "You done talking to <Other Player>? Well, uhh..."
+          - hg[Variant 3] (If there's one other player in the server): "You finally tired of talking to <Other Player>? Then, uhhhh..."
+          - hg[Variant 2] (otherwise): "There's like <x Players in Current Server> on the bus and you wanna talk to me? Okay, uh..."
+          - hg[Variant 3]: "That's gonna cost you 5 rep... Just kidding! So..."
+          - hg[Variant 4]: "You want to talk? Hmm uhh..."
+          - hg[Variant 5]: "Well I'm not sure what to talk about but uh..."
+          - Continuation (after any variant):
+              - hg[Variant 1]: "Wanna rap battle? I promise it'll be easy!"
+                  - hg[Option 1]: I don't rap.
+                      - "You probably could thoughhhh~"
+                  - hg[Option 2]: Beep Bap!
+                      - "Let's go- Oh wait... There isn't any way for us to rap, sorry!"
+              - hg[Variant 2]: "Tell Frost he owes me a tub of ice cream the next time he sees me..."
+                  - "No reason in particular, I just want one!"
+                      - hg[Option 1]: Maybe someday.
+                      - hg[Option 2]: Been there, done that. (If the player already completed and/or is still doing the Animal Messenger quest)
+              - hg[Variant 3]: "I first got on this bus like... forever ago. I can't really remember when it was, even."
+                  - "Although this bus ride has gone on for so long.. it gave me a lot of time to just think..."
+                  - "So I did! I thought about a bunch of stuff, including myself! I ended up gaining a new hobby! I took up knitting, and it's a really fun way to pass the time!"
+                  - "I think I've gotten pretty good at it.. would you like to have something of mine~?"
+                      - hg[Option 1]: Yeah, for sure!
+                          - "Thaaanks!! oh, what, you thought it was free? heck no, this is a business opportunity!"
+                              - The player is prompted to buy a random shirt from Pear's Clothing.
+                                  - If the player doesn't purchase the shirt or already owns it:
+                                      - "Oh.. I guess you didn't like it..? I'll try and do better next time.."
+                                  - If the player purchases the shirt:
+                                      - The shirt is applied to the player's avatar. (Shirt does not stay after rejoin or respawn.)
+                                          - "Whuh!! You look amazing in that! I almost wanna pay you for wearing it! I'm not lying! You've actually inspired me to keep going, so I'll have more clothes for you the next time you see me!"
+                      - hg[Option 2]: Ah, no thanks.
+                          - "Aw... You would have looked good in it, though."
+              - hg[Variant 4]: "Hey, you want some pearcoinTM?"
+                  - hg[Option 1]: Sounds like a scam.
+                      - "I would never!"
+                  - hg[Option 2]: I already have one. (If the player owns a Pearcoin)
+                      - "You do? Thanks... It's worth nothing actually!"
+                  - hg[Option 3]: Sure.
+                      - "Gotcha, I've fired up the pearcoinTM machine! Give it a try!"
+                          - The player is prompted to buy a Pearcoin for 2 Robux.
+                              - If the player already owns a Pearcoin:
+                                  - "Oh, right! I forgot to tell you. There's a limit on how much pearcoinTM you can purchase~! It's one. You can only buy one pearcoinTM. That's why its singular, not plural!"
+                              - If the player buys it:
+                                  - "Congratulations!! You're now the owner of one whole pearcoinTM!!"
+                                  - "Take it in bud, you're officially part of the 1% now..."
+                                  - "The 1% who actually fell for it... sucker~"
+                                      - (This gives you a hr[pearcoinTM], useful for befriending [Frostbite](/bussim/npcs/frostbite).)
+              - hg[Variant 5]: "My favorite pizza is just plain cheese pizza!"
+                  - "Though black olives are good too..."
+                  - "If the player has given Pear a Cheese Pizza in the game pizza:"
+                      - "You've already given me one before though~!"
+              - hg[Variant 6]: "Today feels like any other day, honestly, Wonder if you feel the same?"
+              - hg[Variant 7]: "Do you play.. err, that one battle royale game with the buildings and stuff? I do.. sometimes. I think."
+              - hg[Variant 8]: "Have you seen a brown cat? They look a bit like, uhm... the season fall? Crown necklace and earring? No? Awh... Tell me if you do, though!!"
+              - hg[Variant 9]: "I think people are confused about my gender. I figured I should clear stuff up, so remember that my pronouns are he/they!"
+                  - "Uhh, there is a third one, but my lawyers have advised me not to tell you."
+              - hg[Variant 10]: "Psst, hey! Wanna learn the secret to free rep?"
+                  - hg[Option 1]: Can you tell me more?
+                      - "Well, basically, when you hang out with your friends for like, an hour, you can both earn some driver and passenger rep..."
+                      - "You can get rewarded for up to three friends a day. You earn 10 driver rep for the first friend, and 5 driver rep for the other two. You get 10 passenger rep every time, though~"
+                      - "The friends you invite get 10 driver and passenger rep as well. Neat, right?"
+                      - "And since you can do this every day, according to my calculations, that means... uhh, carry the two.. and..."
+                      - "MEOW! That's like, 200 reputations a week or something??"
+                      - "So... You interested?"
+                          - hg[Option 1]: I'm in!
+                              - "Pawsome~ Just tell me who to call!!"
+                                  - An Invite Friends prompt appears.
+                          - hg[Option 2]: Nah.
+                              - "Alright! If you ever change your mind, you know who to call."
+                  - hg[Option 2]: Sounds good to me!
+                      - "Pawsome~ Just tell me who to call!!"
+                          - An Invite Friends prompt appears.
+                  - hg[Option 3]: I have no friends.
+                      - "Oh. Uhm, yeowch... Didn't mean to rub salt in the wound, there... Hope you find some soon...?"
+                  - hg[Option 4]: Nah.
+                      - "Alright! If you ever change your mind, you know who to call."
+              - hg[Variant 11]: "You should play Kit Battle! It's a pretty great game in my honest opinion..."
+                  - hg[Option 1]: I will play it right now.
+                      - "Good, have fun~!"
+                          - The game will teleport you to Kit Battle.
+                  - hg[Option 2]: Is this sponsored?
+                      - "Totally not!! I would never take money to advertise a game..."
+                      - "You definitely should play Kit Battle though..."
+                  - hg[Option 3]: Did you just-?
+                      - ...no?
+                      - (If the player's account age is 12 or younger \[<12\], this dialogue plays instead.)
+                          - "Hey, you should pl-- Oh, uhm..."
+                              - hg[Option 1]: I'll just go.
+                              - ...? What's up?
+                                  - "S-Sorry, looks like I'm getting a call! Please hold..."
+                                  - "Meowdy, Pear speaking~!"
+                                  - "Uh-huh... uh-huh...oh, excuse me, could you repeat that..?"
+                                  - "oh, shoot... on god? they're a...?"
+                                  - "okay, thank you so much for letting me know... talk to you later, meow~!"
+                                  - "Um, uh, heeeey, you!"
+                                      - hg[Option 1]: What was that about?
+                                          - "Um, nothing! I've gotta go now, see ya!!!"
+                                      - hg[Option 2]: Um.. hi..?
+                                          - "Yooo, you're talkin' to me? Brand new conversation, with me?! That's crazy! We should talk about how..."
+                                              - Pear then chooses a random dialogue line.
+              - hg[Variant 12] (during Bus Simulator's 5th birthday):
+                  - "Heyyy, it's the busses birthday! We're celebrating with cake! Pretty cool, right?"
+                  - "I do have a warning for you though... Whatever you do, don't drink a" [Bloxy Cola](/bussim/items/bloxy-cola) "alongside the" [cake](/bussim/items/bus-birthday-cake) "... You'll regret it~!"
+      - hg[Option 3]: Invites...
+          - This triggers the Invites Variant from the "Let's Talk" option.
+      - hg[Option 4]: Buy Songs
+          - "You sure you wanna buy songs for everyone in the server? It's a little useless after... The Incident..."
+              - hg[Option 1]: Uhm, nevermind...
+                  - "Yeah, thought so~"
+              - hg[Option 2]: Yeah, I'm sure.
+                  - "Well then... *ahem*... You feelin generous? I can give everyone in the server some songs~ Trust me, it's worth it!"
+                      - You are then prompted to buy two songs for everyone in the server for 80 Robux.
 
-    - type: npcChat
-      content:
-        id: pear
-        startId: start
-        chatData: /bussim-assets/chatdata/npcs/pear.json
+  ###[If you became billy]
+  !!DLEMULATOR EID:"billy_pearemulator" SID:"start_billy" URL:"/assets/bussim/emulatorData/pear.json"
 
-    - type: tree
-      content:
-        - name: "Variant 1: \"Oh, hey [Player]!!! I know you!! <small>(If the player is friends with Pear on Roblox)</small>\""
-        - name: "Variant 2: \"Did you know that in terms of... busses, this is a pretty nice one! What's up, though?\""
-        - name: "Variant 3: \"mmrrreoww~?\""
-        - name: "Variant 4: \"Oh, hey! Didn't see you there, what's up?\""
-        - name: "Variant 5: \"Need something?\""
-        - name: "Variant 6: \"Hold on just a second... just trading my <highlight type=\"rainbow\">pearcoin</highlight><sup><highlight type=\"rainbow\">TM</highlight></sup>\""
-        - name: "Variant 7: \"Heyaaa! What're you talkin to me for?\""
-        - name: "Variant 8: \"[Player]?! I didn't expect to see you here!!\""
-        - name: "Varaint 9: \"Tender soul splintered, folded in the inner...~ Huh, sorry... What's goin on?\""
-          children:
-            - name: "Option 1: Sorry, just walking by."
-            - name: "Option 2: Let's talk!"
-              children:
-                - name: "Variant 1 <small>(If the player count is below 5)</small>: \"I mean, it is pretty lonely in here..\""
-                - name: "Variant 2 <small>(If there's one other player in the server)</small>: \"You done talking to [Other Player]? Well, uhh...\""
-                - name: "Variant 3 <small>(If there's one other player in the server)</small>: \"You finally tired of talking to [Other Player]? Then, uhhhh...\""
-                - name: "Variant 2 <small>(otherwise)</small>: \"There's like [Number of players in the server) on the bus and you wanna talk to me? Okay, uh...\""
-                - name: "Variant 3: \"That's gonna cost you 5 rep... Just kidding! So...\""
-                - name: "Variant 4: \"You want to talk? Hmm uhh...\""
-                - name: "Variant 5: \"Well I'm not sure what to talk about but uh...\""
-                - name: "Continuation <small>(after any variant)</small>:"
-                  children:
-                    - name: "Variant 1: \"Wanna rap battle? I promise it'll be easy!\""
-                      children:
-                        - name: "Option 1: I don't rap."
-                          children:
-                            - name: "\"You probably could thoughhhh~\""
-                        - name: "Option 2: Beep Bap!"
-                          children:
-                            - name: "\"Let's go- Oh wait... There isn't any way for us to rap, sorry!\""
-                    - name: "Variant 2: \"Tell Frost he owes me a tub of ice cream the next time he sees me...\""
-                      children:
-                        - name: "\"No reason in particular, I just want one!\""
-                          children:
-                            - name: "Option 1: Maybe someday."
-                            - name: "Option 2: Been there, done that. <small>(If the player already completed and/or is still doing the Animal Messenger quest)</small>"
-                    - name: "Variant 3: \"I first got on this bus like... forever ago. I can't really remember when it was, even.\""
-                      children:
-                        - name: "\"Although this bus ride has gone on for so long.. it gave me a lot of time to just think...\""
-                        - name: "\"So I did! I thought about a bunch of stuff, including myself! I ended up gaining a new hobby! I took up knitting, and it's a really fun way to pass the time!\""
-                        - name: "\"I think I've gotten pretty good at it.. would you like to have something of mine~?\""
-                          children:
-                            - name: "Option 1: Yeah, for sure!"
-                              children:
-                                - name: "\"Thaaanks!! oh, what, you thought it was free? heck no, this is a business opportunity!\""
-                                  children:
-                                    - name: "The player is prompted to buy a random shirt from Pear's Clothing."
-                                      children:
-                                        - name: "If the player doesn't purchase the shirt or already owns it:"
-                                          children:
-                                            - name: "\"Oh.. I guess you didn't like it..? I'll try and do better next time..\""
-                                        - name: "If the player purchases the shirt:"
-                                          children:
-                                            - name: "The shirt is applied to the player's avatar. (Shirt does not stay after rejoin or respawn.)"
-                                              children:
-                                                - name: "\"Whuh!! You look amazing in that! I almost wanna pay you for wearing it! I'm not lying! You've actually inspired me to keep going, so I'll have more clothes for you the next time you see me!\""
-                            - name: "Option 2: Ah, no thanks."
-                              children:
-                                - name: "\"Aw... You would have looked good in it, though.\""
-                    - name: "Variant 4: \"Hey, you want some <highlight type=\"rainbow\">pearcoin</highlight><sup><highlight type=\"rainbow\">TM</highlight></sup>?\""
-                      children:
-                        - name: "Option 1: Sounds like a scam."
-                          children:
-                            - name: "\"I would never!\""
-                        - name: "Option 2: I already have one. <small>(If the player owns a Pearcoin)</small>"
-                          children:
-                            - name: "\"You do? Thanks... It's worth nothing actually!\""
-                        - name: "Option 3: Sure."
-                          children:
-                            - name: "\"Gotcha, I've fired up the <highlight type=\"rainbow\">pearcoin</highlight><sup><highlight type=\"rainbow\">TM</highlight></sup> machine! Give it a try!\""
-                              children:
-                                - name: "The player is prompted to buy a Pearcoin for 2 Robux."
-                                  children:
-                                    - name: "If the player already owns a Pearcoin:"
-                                      children:
-                                        - name: "\"Oh, right! I forgot to tell you. There's a limit on how much <highlight type=\"rainbow\">pearcoin</highlight><sup><highlight type=\"rainbow\">TM</highlight></sup> you can purchase~! It's one. You can only buy one <highlight type=\"rainbow\">pearcoin</highlight><sup><highlight type=\"rainbow\">TM</highlight></sup>. That's why its singular, not plural!\""
-                                    - name: "If the player buys it:"
-                                      children:
-                                        - name: "\"Congratulations!! You're now the owner of one whole <highlight type=\"rainbow\">pearcoin</highlight><sup><highlight type=\"rainbow\">TM</highlight></sup>!!\""
-                                        - name: "\"Take it in bud, you're officially part of the 1% now...\""
-                                        - name: "\"The 1% who actually fell for it... sucker~\""
-                                          children:
-                                            - name: "(This gives you a <highlight type=\"rainbow\">pearcoin</highlight><sup><highlight type=\"rainbow\">TM</highlight></sup>, useful for befriending <a href=\"/bussim/npcs/frostbite\">Frostbite</a>.)"
-                    - name: "Variant 5: \"My favorite pizza is just plain cheese pizza!\""
-                      children:
-                        - name: "\"Though black olives are good too...\""
-                        - name: "\"If the player has given Pear a Cheese Pizza in the game pizza:\""
-                          children:
-                            - name: "\"You've already given me one before though~!\""
-                    - name: "Variant 6: \"Today feels like any other day, honestly, Wonder if you feel the same?\""
-                    - name: "Variant 7: \"Do you play.. err, that one battle royale game with the buildings and stuff? I do.. sometimes. I think.\""
-                    - name: "Variant 8: \"Have you seen a brown cat? They look a bit like, uhm... the season fall? Crown necklace and earring? No? Awh... Tell me if you do, though!!\""
-                    - name: "Variant 9: \"I think people are confused about my gender. I figured I should clear stuff up, so remember that my pronouns are he/they!\""
-                      children:
-                        - name: "\"Uhh, there is a third one, but my lawyers have advised me not to tell you.\""
-                    - name: "Variant 10: \"Psst, hey! Wanna learn the secret to free rep?\""
-                      children:
-                        - name: "Option 1: Can you tell me more?"
-                          children:
-                            - name: "\"Well, basically, when you hang out with your friends for like, an hour, you can both earn some driver and passenger rep...\""
-                            - name: "\"You can get rewarded for up to three friends a day. You earn 10 driver rep for the first friend, and 5 driver rep for the other two. You get 10 passenger rep every time, though~\""
-                            - name: "\"The friends you invite get 10 driver and passenger rep as well. Neat, right?\""
-                            - name: "\"And since you can do this every day, according to my calculations, that means... uhh, carry the two.. and...\""
-                            - name: "\"MEOW! That's like, 200 reputations a week or something??\""
-                            - name: "\"So... You interested?\""
-                              children:
-                                - name: "Option 1: I'm in!"
-                                  children:
-                                    - name: "\"Pawsome~ Just tell me who to call!!\""
-                                      children:
-                                        - name: "An Invite Friends prompt appears."
-                                - name: "Option 2: Nah."
-                                  children:
-                                    - name: "\"Alright! If you ever change your mind, you know who to call.\""
-                        - name: "Option 2: Sounds good to me!"
-                          children:
-                            - name: "\"Pawsome~ Just tell me who to call!!\""
-                              children:
-                                - name: "An Invite Friends prompt appears."
-                        - name: "Option 3: I have no friends."
-                          children:
-                            - name: "\"Oh. Uhm, yeowch... Didn't mean to rub salt in the wound, there... Hope you find some soon...?\""
-                        - name: "Option 4: Nah."
-                          children:
-                            - name: "\"Alright! If you ever change your mind, you know who to call.\""
-                    - name: "Variant 11: \"You should play Kit Battle! It's a pretty great game in my honest opinion...\""
-                      children:
-                        - name: "Option 1: I will play it right now."
-                          children:
-                            - name: "\"Good, have fun~!\""
-                              children:
-                                - name: "The game will teleport you to Kit Battle."
-                        - name: "Option 2: Is this sponsored?"
-                          children:
-                            - name: "\"Totally not!! I would never take money to advertise a game...\""
-                            - name: "\"You definitely should play Kit Battle though...\""
-                        - name: "Option 3: Did you just-?"
-                          children:
-                            - name: "...no?"
-                            - name: "(If the player's account age is 12 or younger [<12], this dialogue plays instead.)"
-                              children:
-                                - name: "\"Hey, you should pl-- Oh, uhm...\""
-                                  children:
-                                    - name: "Option 1: I'll just go."
-                                    - name: "...? What's up?"
-                                      children:
-                                        - name: "\"S-Sorry, looks like I'm getting a call! Please hold...\""
-                                        - name: "\"Meowdy, Pear speaking~!\""
-                                        - name: "\"Uh-huh... uh-huh...oh, excuse me, could you repeat that..?\""
-                                        - name: "\"<small>oh, shoot... on god? they're a...?</small>\""
-                                        - name: "\"okay, thank you so much for letting me know... talk to you later, meow~!\""
-                                        - name: "\"Um, uh, heeeey, you!\""
-                                          children:
-                                            - name: "Option 1: What was that about?"
-                                              children:
-                                                - name: "\"Um, nothing! I've gotta go now, see ya!!!\""
-                                            - name: "Option 2: Um.. hi..?"
-                                              children:
-                                                - name: "\"Yooo, you're talkin' to me? Brand new conversation, with me?! That's crazy! We should talk about how...\""
-                                                  children:
-                                                    - name: "Pear then chooses a random dialogue line."
+  - Pear chooses any Intro Variants
+  - "..."
+    - hg[Variant 1]: "You trying to take over the comment section or something?"
+    - hg[Variant 2]: "I don't care who Billy sends, I'm not copy and pasting him..."
 
-                    - name: "Variant 12 <small>(during Bus Simulator's 5th birthday)</small>:"
-                      children:
-                        - name: "\"Heyyy, it's the busses birthday! We're celebrating with cake! Pretty cool, right?\""
-                        - name: "\"I do have a warning for you though... Whatever you do, don't drink a <a href=\"/bussim/items/bloxy-cola\">Bloxy Cola</a> alongside the <a href=\"/bussim/items/bus-birthday-cake\">cake</a>... You'll regret it~!\""
+  ###[Animal Messenger Quest-Line]
+  This quest-line starts from [Frostbite](/bussim/npcs/frostbite)'s hg[Option 2], 3, 1, 2 and assuming the player hasn't completed it already. Pear's dialogue will also be added here and vice-versa. You'll also need the Part of the Pack badge and be friends with [Frost](/bussim/npcs/frostbite) to activate.
 
-            - name: "Option 3: Invites..."
-              children:
-                - name: "This triggers the Invites Variant from the \"Let's Talk\" option."
+  ###[Part 1 (Frost)]
+  ###[First Time Dialogue:]
+  - "Listen. If you ever see Pear again, I'd really appreciate it if you sent him my regards. Let that little rascal know I'm still around."
+    - Yeah, sure. I will.
+      - "Thanks. I'd do it myself, but I've just got no clue where he is..."
+  
+  ###[If you haven't sent his regards yet]
+  - "I've already told you all this before, but again, I'd really appreciate it if you sent him my regards."
+    - I'll do it eventually.
+      - "Thanks..."
+  
+  ###[Part 2 (Pear)]
+  - Frost sends his regards.
+    - "What?! Really?!"
+    - "Daaaang! I haven't seen Frost in forrrrr-everrrrrr, did you actually find him?"
+    - "That's crazy! Can you do me a favor and tell him I said hi back? I'm sure he'd be happy to hear!"
+    - "Oh, and if he doesn't believe you, just say I called him a good boy. He's actually a real big softie, but I think I'm the only person he's really opened up to?"
+    - "Don't tell him that, or he'll probably bite me the next time he sees me. Anyway, good luck!~"
 
-            - name: "Option 4: Buy Songs"
-              children:
-                - name: "\"You sure you wanna buy songs for everyone in the server? It's a little useless after... The Incident...\""
-                  children:
-                    - name: "Option 1: Uhm, nevermind..."
-                      children:
-                        - name: "\"Yeah, thought so~\""
-                    - name: "Option 2: Yeah, I'm sure."
-                      children:
-                        - name: "\"Well then... *ahem*... You feelin generous? I can give everyone in the server some songs~ Trust me, it's worth it!\""
-                          children:
-                            - name: "You are then prompted to buy two songs for everyone in the server for 80 Robux."
+  ###[Part 3 (Frost)]
+  - Pear says "hi" back.
+    - "Well I'll be, did they really? Do they actually remember me after all this time?"
+      - hg[Option 1]: Yeah, and they called you a good boy.
+        - "..!"
+        - "..."
+        - "Yeah, uhm, definitely sounds like him.. I believe ya.."
+        - "Um, uh.. Thanks.. I never thought I'd be able to talk to him again.. And I'm glad he, uh.. still thinks highly of me..."
+        - "!"
+        - "Pretend that none of this <big>EVER</big> happened!"
+      - hg[Option 2]: Yeah, they do.
+        - "I find that a little hard to believe, but.. Thank you. I never thought I'd be able to talk to him again, even though it was more of a.. relayed message, heh.."
 
-    - type: section
-      content:
-        size: small
-        title: If you became billy
+  ###[Part 4 (Pear)]
+  For this part, you'll have to shuffle through Pear's "Let's Talk" Dialogue until you get the h[Tub of Ice Cream] topic.
 
-    - type: npcChat
-      content:
-        id: pear_billy
-        startId: start_billy
-        chatData: /bussim-assets/chatdata/npcs/pear.json
+  ###[First Time Dialogue]
+  - "Tell Frost he owes me a tub of ice cream next time he sees me..."
+  - "No reason in particular, I just want one!"
+    - Yeah, sure. I'll tell him.
+      - "Well, I mean, I was kinda half joking, but thanks! Maybe I'll get that ice cream after all..~"
+  
+  ###[If you haven't sent his message yet]
+  - "Tell Frost he owes me a tub of ice cream next time he sees me..."
+  - "No reason in particular, I just want one!"
+    - I'll get to it eventually.
+      - "Thanks~"
+  
+  ###[If you had sent his message but not directly told him after Part 5]
+  - "Tell Frost he owes me a tub of ice cream next time he sees me..."
+  - "No reason in particular, I just want one!"
+    - I told him.
+      - "Whuh?! You actually did?!"
+      - "Thank you.. I've been wanting to tell him that for years!" (Triggers the Animal Messenger Badge)
 
-    - type: tree
-      content:
-        - name: "Pear chooses any Intro Variant."
-        - name: "\"...\""
-          children:
-            - name: "Variant 1: \"You trying to take over the comment section or something?\""
-            - name: "Variant 2: \"I don't care who Billy sends, I'm not copy and pasting him...\""
+  ###[Part 5 (Frost)]
+  - Pear wanted to say...
+    - "Pfft, a whole tub of ice cream?"
+    - "I mean, it's definitely been some time since I've made any ice cream, but.. I'd definitely try for him!"
+    - "We'd have to find a place to meet up... And I'd have to buy the ingredients... I could make that recipe for him, finally.."
+    - "You could have some too, if you'd like. Pear always said that I'd made the best ice cream they've ever tasted.."
+    - "I mean, I don't know about that, but I could be convinced of it... Ice wolf, after all."
+    - "Anyway, enough about that. Thanks for relaying the message! I'll have to think about it later, heh"
 
-    - type: section
-      content:
-        size: small
-        title: Animal Messenger Quest-Line
-        description: >-
-          This quest-line starts from <a href="/bussim/npcs/frostbite">Frostbite</a>'s Option 2, 3, 1, 2 and assuming the player hasn't completed it already.
-          Pear's dialogue will also be added here and vice-versa.
-          You'll also need the Part of the Pack badge and be friends with <a href="/bussim/npcs/frostbite">Frost</a> to activate.
+  ###[Part 6 (Pear)]
+  This part will give you the Animal Messenger badge upon completion- but there is one more part left!
 
-    - type: section
-      content:
-        title: Trivia
-    
-    - type: tree
-      content:
-        - name: He is the only NPC that offers you something in exchange for Robux.<br><br>
-        - name: Pear can also be seen in the Backwalls event, wandering around.<br><br>
-        - name: When Pear mentions "The Incident", they're referring to the removal of most copyrighted audios on March 22nd, 2022.<br><br>
-        - name: Pear will still get annoyed at you (and afterwards, kills you) if you use the Airhorn while not on the same floor as him, but at a similar horizontal area, such as the seat directly below and above him.<br><br>
-        - name: If the private server owner uses the !seats command, Pear will stand in place instead.<br><br>
-        - name: Pear's calculations with the invite system is partially accurate, as you actually gain a maximum of 20 Driver Reputation and 30 Passenger Reputation per day, up to 140 Driver Reputation and 210 Passenger Reputation every week, for a total of 350 Reputation.
+  - Told Frost about the ice cream.
+    - "Whuh?! You actually did?!"
+    - "Thank you.. I've been wanting to tell him that for years!" (Triggers the Animal Messenger Badge)
+
+  ###[Finale (Frost)]
+  This part occurs as soon as you re-enter Frost's den following Pear's response.
+  - hg[Variant 1]: "<Player>, hey!"
+  - hg[Variant 2]: "Oh, hey <Player>!"
+  - "I, uh, just wanted to say thank you. For everything."
+  - "I like to keep things short and sweet, so here. Catch!"
+    - You: "<You grab the object he tosses at you. Looks like a handheld mirror of some sort.>"
+      - "If ya ever feel lonely, or just want a safe space to chill, feel free to come back anytime."
+      - "Alright, see ya on the flip side."
+  
+  ###[Airhorn-Related Dialogue]
+  - If the airhorn is used repeatedly in proximity to Pear
+    - "MMEEEOOOOOWWWWWWWW!!!!!"
+    - "You. Scramble like an egg, before I fold you like an omelette."
+  - If the airhorn is used repeatedly in proximity to Pear a second time
+    - "Die."
+      - The player is then killed.
+  
+  ##[Dialogue (Backwalls)]
+  
+  ###[Standard]
+
+  - hg[Variant 1]: "Oh, hey! Another person!"
+  - hg[Variant 2]: "Huh..? Oh, hey!"
+  - hg[Variant 3]: "Ah, hello!"
+  - hg[Variant 4]: "Woah! What's up?"
+    - hg[Option 1]: Uh, just passing by.
+    - hg[Option 2]: Let's talk!
+      - "That's gonna cost you your life... So..."
+      - "You want to talk? Right now...?"
+      - "Well, I'm not sure what to talk about, especially right now, but uh..."
+        - hg[Option 1]: Are you the real Pear?
+          - "Duh?"
+            - hg[Option 1]: Good enough for me.
+            - hg[Option 2]: No Skinwalker?
+              - "Just Pear!"
+                - hg[Option 1]: Alright then.
+                - hg[Option 2]: You sure?
+                  - "Yep!"
+                    - hg[Option 1]: Good.
+                    - hg[Option 2]: "How do I know you're not a skinwalker?"
+                      - "Well, you're not dead, are you?"
+                        - How can you be so sur-
+                          - '"I'm not a skinwalker, [Player".]'
+                            - I-.. Sure...
+      - hg[Option 3]: Survival Tips?
+        - hg[Variant 1]: "I've seen a few drinks on the floor while walking around. I tried that Almond Water stuff, and I felt really energized~! I also saw a dark-looking one, but I didn't interact with it, just being near it gave me the creeps... I wouldn't drink that if I were you-- but if you do, try and be a bit careful maybe?"
+        - hg[Variant 2]: "There was some black goo on the floor, and I accidentally got some of it on my paws... Uh, don't do that. It felt like my insides were melting away... Thankfully, I still had a sip of Almond Water left!"
+        - hg[Variant 3]: "The entities around here are kinda scary... I tried to hide away in a room when one spotted me, but it still knew where I was..! I guess they can still track you for a bit when you're out of sight..."
+        - hg[Variant 4]: "The Backwalls are a bit daunting.. It seems like every time I end up down here, the whole layout changes! Thankfully, one thing is always constant--the exit! There's no neon signs pointing right to it or anything, but you should look for a green ceiling light! It seems like it's never turned off, and it's always right by the exit!"
+        - hg[Variant 5]: "mmrroww? Why'd I call it the Backwalls..? Don't know, I just made up a name for the third time I ended up here! Just felt right, ya know?"
+        - hg[Variant 6]: "Once, I saw some kinda image-looking thing at the end of a hallway. It didn't look like the ones I'm used to. I didn't get any closer to it, and I never saw it again. Guess we'll never know. <small>I'm just glad it wasn't quandale again...</small>"
+        - hg[Variant 7]: "Try not to die out there~"
+        - hg[Variant 8] (after all variants 1-7 have been seen): "Uhm, thanks for listening to me ramble..! I'm kinda out of stuff to say, so I'll just start repeating myself from here on out.. Feel free to leave now if you want."
+          - The "Another tip, please" option is gone from this variant.
+          - Options:
+            - hg[Option 1]: Another tip, please?
+              - Conversation loops back to hg[Option 3]: Survival Tips?.
+            - hg[Option 2]: Thanks.
+      - hg[Option 4]: P-Pear?
+        - hg[Variant 1]: "Hm?"
+        - hg[Variant 2]: "What, did you think I'd die?"
+        - hg[Variant 3]: "Present~"
+          - You: "W-Wh.. H-How did..."
+            - hg[Option 1]: ..you stay calm?!
+              - "I-I mean, I've already been here before, so I know what to look out for..! <small>i just hope i don't run into quandale again...</small>"
+                - Oh, okay. Makes sense.
+                  - Conversation continues to Passenger Rep Trade.
+                - You've WHAT??
+                  - "Long story."
+                    - Conversation continues to Passenger Rep Trade.
+            - hg[Option 2]: ..we get here?!
+              - hg[Variant 1]: "Pff, that's simple. We no-clipped, dummy! The bus stopped right on an unstable bit of ground, and whoosh! Here we are!"
+                - I don't believe you.
+                  - "I don't blame you, I know it's really weird. Here's the deal. I actually know the way out, sooo... I can take you there... for a price."
+                    - Conversation continues to Passenger Rep Trade.
+              - hg[Variant 2] (if player drank cola and ate cake during Bus Birthday event): "Pfft... You ate the cake with the cola, dummy! You fell for a classic blunder!"
+                - I don't believe you.
+                  - "Oh, well... That's what happened, whether you like it or not, so..."
+                  - "Here's the deal. I actually know the way out, sooo... I can take you there... for a price."
+                    - A price?
+                      - "20 passenger rep. Deal, or no deal?"
+                        - Wh-- 20?! Wasn't it 10 before?!
+                          - "Uh, yeah... but like, I warned you about the cake, didn't I? You kinda deserved it..."
+                            - I'm not paying that.
+                              - "Your funeral~"
+                            - Ugh, fine.
+                              - "Thanks for the rep, sucker! The second you'll move, I'll start leading! Now, let's get outta here!"
+                                - Description needed
+                - hg[Option 3]: ..you survive?!
+                  - "I'm just too powerful."
+                - hg[Option 4]: ???
+                  - Conversation continues to Passenger Rep Trade.
+              - Passenger Rep Trade
+                - "Here's the deal. I actually know the way out, sooo... I can take you there... for a price."
+                  - hg[Option 1]: Well.. is it safe?
+                    - "Whuh? Is it safe..? Oh pssh, only like, what, (number of victims) died along the way? Pff, what's with the look? You'll be fiiiine, trust me! You're in good paws. 10 Passenger rep. Deal, or no deal?"
+                      - Conversation continues to Trade Prompt.
+                  - hg[Option 2]: A price?
+                    - "10 Passenger rep. Deal, or no deal?"
+                      - Conversation continues to Trade Prompt.
+                  - hg[Option 3]: Nah.
+                    - "Oh.. well, bye then..."
+                  - Trade Prompt
+                    - hg[Option 1]: It's a deal.
+                      - "Thanks for the rep! The second you'll move, I'll start leading! Now, let's get outta here!"
+                        - Accepting the Passenger Rep Trade deal will make Pear lead you to the exit of the Backwalls.
+                        - Whilst encountering the Entities of the Backwalls, Pear will make them not attack the player.
+                          - However, this does not protect other players that follow Pear as well.
+
+  ###[After Paying]
+
+  - hg[Variant 1]: "Here we go, on a dangerous journey to the exit!"
+
+  ###[When encountering an entity]
+
+  - hg[Variant 1]: "Hello, I'm currently leading someone away from you. If you'd be so kind as to keep them alive, that'd be great."
+  - hg[Variant 2]:
+
+  ###[When encountering another player]
+
+  - hg[Variant 1]: "Hello there, new person! Just letting you know, I'm only responsible for my client back there. Join at your own risk!"
+
+  ###[When arriving at the exit]
+
+  ###[If Pear cannot find the exit]
+
+  - "E-ehm... J-Just.. give me a second..." <small>(Pear then attempts to pathfind to the closest spot nearest to the Escape room, if possible)</small>
+    - If the pathfind check succeeds:
+      - "I'll try my best to get there, but it's not gonna be super accurate, okay?"
+        - Once Pear finds the closest spot to the exit:
+          - "This is as close as I'm able to get.. Good luck.."
+    - If the pathfind check fails:
+      - "...You're not gonna like what I'm say but... I can't remember the path. See ya!"
+        - Pear then disappears with green smoke.
+
+  ##[Trivia]
+  - He is the only NPC that offers you something in exchange for Robux.\n\n
+  - Pear can also be seen in the Backwalls event, wandering around.\n\n
+  - When Pear mentions "The Incident", they're referring to the removal of most copyrighted audios on March 22nd, 2022.\n\n
+  - Pear will still get annoyed at you (and afterwards, kills you) if you use the Airhorn while not on the same floor as him, but at a similar horizontal area, such as the seat directly below and above him.\n\n
+  - If the private server owner uses the !seats command, Pear will stand in place instead.\n\n
+  - Pear's calculations with the invite system is partially accurate, as you actually gain a maximum of 20 Driver Reputation and 30 Passenger Reputation per day, up to 140 Driver Reputation and 210 Passenger Reputation every week, for a total of 350 Reputation.
+
+  !!GALLERY [/assets/bussim/images/npcs/pear.webp]  

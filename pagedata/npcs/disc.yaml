@@ -1,327 +1,207 @@
+editable: True
 page:
   title: Disc
-  description: Disc is an NPC that sells you the items in the GOATed Gas Station in exchange for Passenger rep.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Disc
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  description: Disc is an NPC that sells you the items in the GOATed Gas Station in exchange for Passenger rep. He is also an admin in the game, like Tazer and Zeon. He's also a new hire, with Green at his side.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim banana npc
+  
+  tags: disc, station npc, npc
 
-html:
   header:
     title: Disc
-    description: >- 
-      Category: <a href="/bussim/npcs">NPCs</a>
-    image: ''
-    imageBanner: /bussim-assets/images/events/goat_station1.webp
+    description: |
+      Category: [NPCs](/bussim/npcs)
     
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         Disc is an NPC that sells you the items in the GOATed Gas Station in exchange for Passenger rep. 
-         He is also an admin in the game, 
-         like <a href='/bussim/npcs/tazer'>Tazer</a> and <a href='/bussim/npcs/zeon'>Zeon</a>. 
-         He's also a new hire, 
-         with <a href='/bussim/npcs/green'>Green</a> at his side.
+    image: ""
+    imageBanner: /assets/bussim/images/events/goat_station1.webp
 
-    - type: section
-      content:
-        title: Appearance
-        description: >-
-          Disc is a white goat wearing a Day Light Top Hat, 
-          Floating White Crown, 
-          Blue Reflective Visor Glasses, 
-          Golden Antlers of Honor, 
-          and a custom made Discord-branded shirt.
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-    - type: section
-      content:
-        title: Dialogue
+content: |
+  ##[Info]
+  Disc is an NPC that sells you the items in the GOATed Gas Station in exchange for Passenger rep. He is also an Administrator in the game, like [Tazer](/bussim/npcs/tazer) and [Zeon](/bussim/npcs/zeon). He's also a new hire, with [Green](/bussim/npcs/green) at his side.
 
-    - type: npcChat
-      content:
-        id: disc
-        startId: start
-        chatData: /bussim-assets/chatdata/npcs/disc.json
+  ##[Appearance]
+  Disc is a white goat wearing a Day Light Top Hat, Floating White Crown, Blue Reflective Visor Glasses, Golden Antlers of Honor, and a custom made Discord-branded shirt.
 
-    - type: tree
-      content:
-        - name: "Variant 1: \"Grass, hay, gas, you want it? It's yours my friend.\""
-        - name: "Variant 2: \"Hello, do I smell grass?\""
-        - name: "Variant 3: \"Good morning, afternoon, or night! Whatcha need?\""
-        - name: "Variant 4: \"Baa bah baa baaa? (Hey, how can I help you?)\""
-        - name: "Variant 5 : \"Oh, hey [Player]! Look who's got a job now...\" <small>(If the player is friends with Disc on Roblox)</small>"
-        - name: "Variant 6: \"Hiiii!! Hello!!! Hey!!! Wassup!!! Heyoo!!!\""
-        - name: "Variant 7: \"Do you want Non Toxic Cola NobleReign Burger hello?\""
-        - name: "Variant 8: \"Oh uhmm... hello? Wait, wrong punctuation mark...\""
-        - name: "Variant 9: \"Welcome to GOATed Gas, we accept grass clippings as payment!\""
-          children:
-            - name: "Option 1: Sorry, just walking by."
-              children:
-                - name: "Variant 1: \"Aw, we were about to start talking! :(\""
-                - name: "Variant 2: \"Have a nice day!\""
-                - name: "Variant 3: \"Wha...?\""
-                - name: "Variant 4: \"See you later!\""
-                - name: "Variant 5: \"Baa bah!\""
-            - name: "Option 2: Let's Talk!"
-              children:
-                - name: "\"Oh, sure! What do you wanna talk about?\""
-                  children:
-                    - name: "Option 1: Where are we?"
-                      children:
-                        - name: "\"We're in the convenience store of GOATed Gas! If you want, you can buy stuff from the shelves using Passenger Rep! You'll keep it forever.\""
-                    - name: "Option 2: What's with the lack of, well, stuff?"
-                      children:
-                        - name: "\"Well, we're kinda in the middle of nowhere.. we don't get deliveries that often. Still, feel free to buy something!\""
-                    - name: "Option 3: Who are you?"
-                      children:
-                        - name: "\"Uhm, I'm a new hire here. I'm pretty new to this gas station stuff... Although, I should've gotten a better job than this.\""
-                          children:
-                            - name: "Option 1: What do you like?"
-                              children:
-                                - name: "\"I like grass, that is all\""
-                            - name: "Option 2: Well.. is it fun?"
-                              children:
-                                - name: "\"Yeah! I like to sort items on the shelves, it gives me something to do. Also, I get FREE SNACKS!!!!\""
-                            - name: "Option 3: minimum wage lol"
-                              children:
-                                - name: "\"At least I'm making my own money, unlike you, begging for mommy's credit card!\""
-                            - name: "Option 4: Can I pet you?"
-                              children: 
-                                - name: "\"<highlight>No...</highlight>\""
-                                - name: "\"ok maybe\""
-                    - name: "Option 4: Fun Facts?"
-                      children:
-                        - name: "\"Oh, I know a lot of stuff! What do you wanna know?\""
-                          children:
-                            - name: "Option 1: About the station..."
-                              children:
-                                - name: "\"I haven't worked here for long, but I'll try..\""
-                                  children:
-                                    - name: "Option 1: The Locals"
-                                      children:
-                                        - name: "Variant 1: \"What an uncommon question.. Uhh..\""
-                                        - name: "Variant 2: \"Oh, like who comes around here? Let me remember...\""
-                                          children:
-                                            - name: "Variant 1:"
-                                              children:
-                                                - name: "\"A few weeks ago, a tall, orange dragon came in.. or maybe it was a dog..? They came in such a huge frenzy though! Fur frazzled, looking frantically for something.. Then they came up to me and they were all like..\""
-                                                  children:
-                                                    - name: "???: \"This is important, do you have any, uh, pen tips?? For drawing tablets??? Any at all???\""
-                                                      children:
-                                                        - name: "Disc: \"I had to be all like, 'Sir, this is a gas station convenience store!\""
-                                                        - name: "...\"After that, they looked really defeated and left...\""
-                                                        - name: "\"I hope they're okay!\""
-                                            - name: "Variant 2:"
-                                              children:
-                                                - name: "\"Some driver guy came in about a week ago..\""
-                                                - name: "\"They said they were running from the police, and I was like 'WHAT??'\""
-                                                - name: "\"He explained his situation, though.. Apparently he stole a straw from Bloxdonalds or something..?\""
-                                                - name: "\"I kinda feel bad for him now.. What a way to become a felon...\""
-                                            - name: "Variant 3:"
-                                              children:
-                                                - name: "\"I saw a icy blue wolf come in here the other day.. I think they said their name was like.. Frozen..? Freezy..? Frostbite??\""
-                                                  children:
-                                                    - name: "Green: \"Right, that dude.. they stole the last of those frozen sponge pops! Just sprinted out of the store like it was nothing!\""
-                                                      children:
-                                                        - name: "Disc: \"Oh, right.. well if you see him, tell him to pay us back!\""
-                                            - name: "Variant 4:"
-                                              children:
-                                                - name: "\"I don't know where this person came from, but this person named 'D6' appeared in our trash bins. We tried to get rid of D6, but ever since the 'incident' happened a few days back...\""
-                                                - name: "\"We gave up and just... let them sit there... *sniff*\""
-                                                  children:
-                                                    - name: "Green: \"Oh, don't worry about Disc. D6 threw a 2 ton slab of concrete at his head and narrowly missed. He's just a bit traumatized.\""
-                                            - name: "Variant 5:"
-                                              children:
-                                                - name: "\"Everyone in town is pretty nice, except for that one robot dude... \""
-                                                - name: "\"They always brought their Mini-Bus, and ruined our shelves!\""
-                                                - name: "\"It got to the point where we decided to add spikes to the floor entrance... Let's just say that they stopped coming in after that. >:}\""
-                                            - name: "Variant 6:"
-                                              children:
-                                                - name: "\"Once, a tiny little gray cat came through here.. he was super cute!\""
-                                                  children:
-                                                    - name: "Option 1: He will be boiled."
-                                                      children:
-                                                        - name: "\"WHAT?! Don't do that!!\""
-                                                          children:
-                                                            - name: "Green: \"Disc, I'm pretty sure they're just joking...\""
-                                                              children:
-                                                                - name: "Disc: \"I knowww, but still.. don't do that!\""
-                                                    - name: "Option 2: You mean Pear?"
-                                                      children:
-                                                        - name: "\"YOU KNOW HIM??\""
-                                                    - name: "Option 3: Elaborate."
-                                                      children:
-                                                        - name: "\"Well, he ended up buying a bunch of frozen taquitos... His little arms could barely hold them all... I don't really know what happened to him after that.\""
-                                    - name: "Option 2: The Area"
-                                      children:
-                                        - name: "Variant 1: \"The area? I might have a story or two...\""
-                                        - name: "Variant 2: \"Oh, sure! Lemme remember..\""
-                                          children:
-                                            - name: "Variant 1:"
-                                              children:
-                                                - name: "\"You might think 'Hey, this stop looks kinda cheap.\""
-                                                - name: "\"Well, you can blame the local representatives for that one... They were really lazy and just used blueprints from Google Images... Now people always call us the 'Free Model Station'...\""
-                                                - name: "\"But, rent costs next to nothing, so I guess I can't complain...\""
-                                            - name: "Variant 2:"
-                                              children:
-                                                - name: "\"One time, I went to visit the yellow house to see a friend. There was like, a bunch of people chilling in their backyard.\""
-                                                - name: "\"I was just taking a glance, and then one of them tried to jump on the trampoline...\""
-                                                - name: "\"They got launched into space! I guess the trampoline script lacked a debounce part in it...\""
-                                                - name: "\"Luckily nobody was really hurt. They bought a higher quality trampoline a few days after.\""
-                            - name: "Option 2: About the bus..."
-                              children:
-                                - name: "\"Oh, you mean the one out there? Yeah, I used to ride it all the time! What about it?\""
-                                  children:
-                                    - name: "Option 1: The Tech"
-                                      children:
-                                        - name: "\"You know, the bus used to be different back when I rode it.. I remember when it was blocker than it is today...\""
-                                        - name: "\"When I heard about that lnrOS upgrade, though, I was pretty excited!\""
-                                        - name: "\"The upgrade was so cool, though! The bus had like, eyes and emotions! It was awesome, it's like it was your friend!\""
-                                    - name: "Option 2: The Toilet"
-                                      children:
-                                        - name: "\"Oh yeah, that small cramped bathroom inside the stairs, right..? I've heard that if you flush the toilet while you're sitting on it, you might not be staying in that cramped room for so long...\""
-                                    - name: "Option 3: The Last One"
-                                      children:
-                                        - name: "\"Ever since that wolf stole the last of those sponge pops, we haven't gotten another shipment of them.\""
-                                        - name: "\"Apparently, those were discontinued a long time ago. We were unknowingly hoarding them like our life depended it!\""
-                                        - name: "\"Although those popsicles are gone, I do know some ice cream trucks have those sponges somewhere, they're just really rare...\""
-                                          children:
-                                            - name: "Green: \"True... If you ever come across even one of those popsicles, hide it with your life. Don't lose it, don't eat it, don't let someone steal it. Just lock up your fridge. You heard me, lock up your fridge.\""
-                                            - name: "\"Actually, that's not enough. LOCK UP YOUR HOUSE.\""
-                                            - name: "\"LOCK UP YOUR ENTIRE NEIGHBORHOOD, EVEN! YOU MUST PROTECT IT AT ALL COSTS!\""
-                                    - name: "Option 4: The Events"
-                                      children:
-                                        - name: "\"Oh, so you wanna know about why so much stuff occurs all the time? About why the road feels like it goes on forever? About how none of our choices really matter? Huh, [Player]? Don't you want to learn? Don't you know that the bus is--\""
-                                          children:
-                                            - name: "Green: \"Hey Disc, ain't that a little existential? I think you're freakin' out the customer!\""
-                                              children:
-                                                - name: "Disc: \"WHAT ABOUT THE SECRET BUTTON THAT'S HIDDEN NEAR THE--!\""
-                                                  children:
-                                                    - name: "Green: \"DISC, WE CAN'T TELL THEM ABOUT THAT!\""
-                                                      children:
-                                                        - name: "Disc: \"Huh...? Whaa...? S-Sorry!\""
-                                    - name: "Option 5: The Colas"
-                                      children:
-                                        - name: "\"Honestly, I've never known who or what made all those different kinds of cola in the first place!\""
-                                        - name: "\"I've only really seen those <a href='/bussim/items/cold-cola'>really cold ones</a> on the top of the bus, and the <a href='/bussim/items/hot-cola'>spicy one</a> right next to the pizza...\""
-                                        - name: "\"I've heard rumors that there's a third cola out there.. It's <a href='/bussim/items/bad-cola'>red, but when you drink it, well</a>...\""
-                                        - name: "\"E-Ehm, it's just a rumor, right..?\""
-                                    - name: "Option 6: Nevermind!"
-                                      children:
-                                        - name: "Conversation continues to Option 1: Sorry, just walking by."
-            - name: "Option 3: Checkout"
-              children:
-                - name: "Variant 1: \"Oh, you wanna checkout? Alright!\""
-                - name: "Variant 2: \"Let me help with that!\""
-                  children:
-                    - name: "If the player has no items to buy / bought something already:"
-                      children:
-                        - name: "Variant 1: \"So, no items? Ok...\""
-                        - name: "Variant 2: \"Well, I guess I could check out that little speck of dust for 0.01 rep. But I'm not gonna accept that!\""
-                        - name: "Variant 3: \"Empty, mpty, mt,\""
-                        - name: "Variant 4: \"You do know air doesn't come with a barcode, right?\""
-                        - name: "Variant 5: \"So, you're gonna buy air? That's going to cost you 99999999999 rep!\""
-                          children:
-                            - name: "Oops."
-                    - name: "If the player has an item that can be bought and is purchasable:"
-                      children:
-                        - name: "Variant 1: \"The luxurious items are going for [total price] rep! Going once... Going Twice...\""
-                        - name: "Variant 2: \"Psst... that things gonna cost you [total price] rep... Do you want it?\""
-                          children:
-                            - name: "Option 1 (if the player has a Pearcoin<sup>TM</sup>): Instead of rep, can I pay with Pearcoin<sup>TM</sup>?"
-                              children:
-                                - name: "\"A Pearcoin<sup>TM</sup>? I've never heard of that before, but it sounds fun..! Let's do it! One pearcoin<sup>TM</sup> for..-\""
-                                  children:
-                                    - name: "Green: \"Disc, no... That's just another one of those.. crypto, scam things... For your information, we only take rep. None of that digital currency garbage. Get lost.\""
-                                      children:
-                                        - name: "Disc: \"U-uhhm, yeah! What she said! Get lost..!!\""
-                            - name: "Option 2: Clear all items."
-                              children:
-                                - name: "\"Alright, all of your buyable items have been cleared!\""
-                                  children:
-                                    - name: <small>(All of the player's buyable items are then cleared.)</small>
-                            - name: "Option 3: It's a deal."
-                              children:
-                                - name: "After successfully purchasing the item:"
-                                  children:
-                                    - name: "\"Have fun with your stuff! It's bonded with you now.\""
-                                      children:
-                                        - name: "<small>(The player permanently now has any item that they've bought.)</small>"
-                                - name: "If the player tries to buy the Flying Skillbook again, after obtaining Helicopter:"
-                                  children:
-                                    - name: "\"... and, you already owned some of the stuff you bought, so I didn't charge you for it! You saved 100 rep.\""
-                                - name: "If the player successfully buys the Flying Skillbook:"
-                                  children:
-                                    - name: "Variant 1: \"Have fun with your stuff! It's bonded with you now. ... oh yeah, we glued the pages on those skillbooks for security purposes. Let me just... There! Now have fun!\""
-                                    - name: "Variant 2: \"Have fun with your stuff! It's bonded with you now. ... by the way, you're not using this skill for anything malicious, right?\""
-                                    - name: "Variant 3: \"Have fun with your stuff! It's bonded with you now. ... oh, and the skillbook! Hold on, I gotta get a saw blade just to open every...single... page...\""
-                                    - name: "Variant 4: \"Have fun with your stuff! It's bonded with you now. ... I, uh, unglued the book, by the way.\""
-                            - name: "Option 4: No thanks."
-                              children:
-                                - name: "\"Oh.. well, if you change your mind, let me know!\""
-                    - name: "If the player's [total price] exceeds their current Passenger Rep:"
-                      children:
-                        - name: "Variant 1: \"Sorry, but you don't have enough rep to purchase that!\""
-                        - name: "Variant 2: \"Hey [Player], if you look to the top of your screen, you'll see that you don't have enough rep to purchase this...\""
-                          children:
-                            - name: "Option 1 (if the player has a Pearcoin<sup>TM</sup>): Really? How about a shiny Pearcoin<sup>TM</sup><sup>TM</sup> instead?"
-                              children:
-                                - name: "\"A Pearcoin<sup>TM</sup>? I've never heard of that before, but it sounds fun..! Let's do it! One Pearcoin<sup>TM</sup> for..-\""
-                                  children:
-                                    - name: "Green: \"Disc, no... That's just another one of those.. crypto, scam things... For your information, we only take rep. None of that digital currency garbage. Get lost.\""
-                                      children:
-                                        - name: "Disc: \"U-uhhm, yeah! What she said! Get lost..!!\""
-                            - name: "Option 2: Clear all items."
-                              children:
-                                - name: "\"Alright, all of your buyable items have been cleared!\""
-                                  children:
-                                    - name: "<small>(All of the player's buyable items are then cleared.)</small>"
-                            - name: "Option 3: Oh."
-                            
+  ##[Favourite Drink]
+  Disc's favourite drink is [Vanilla Iced Coffee](/bussim/events/coffee-shop). This gives you 2 Passenger Rep.
 
+  ##[Dialogue]
+  !!DLEMULATOR EID:"discemulator" SID:"start" URL:"/assets/bussim/emulatorData/disc.json"
 
-    - type: section
-      content:
-        size: small
-        title: AFK-Related Dialogue
+  - hg[Variant 1]: "Grass, hay, gas, you want it? It's yours my friend."
+  - hg[Variant 2]: "Hello, do I smell grass?"
+  - hg[Variant 3]: "Good morning, afternoon, or night! Whatcha need?"
+  - hg[Variant 4]: "Baa bah baa baaa? (Hey, how can I help you?)"
+  - hg[Variant 5]: "Oh, hey <Player>! Look who's got a job now..." (If the player is friends with Disc on Roblox)
+  - hg[Variant 6]: "Hiiii!! Hello!!! Hey!!! Wassup!!! Heyoo!!!"
+  - hg[Variant 7]: "Do you want Non Toxic Cola NobleReign Burger hello?"
+  - hg[Variant 8]: "Oh uhmm... hello? Wait, wrong punctuation mark..."
+  - hg[Variant 9]: "Welcome to GOATed Gas, we accept grass clippings as payment!"
+      - hg[Option 1]: Sorry, just walking by.
+          - hg[Variant 1]: "Aw, we were about to start talking! :("
+          - hg[Variant 2]: "Have a nice day!"
+          - hg[Variant 3]: "Wha...?"
+          - hg[Variant 4]: "See you later!"
+          - hg[Variant 5]: "Baa bah!"
+      - hg[Option 2]: Let's Talk!
+          - "Oh, sure! What do you wanna talk about?"
+              - hg[Option 1]: Where are we?
+                  - "We're in the convenience store of GOATed Gas! If you want, you can buy stuff from the shelves using Passenger Rep! You'll keep it forever."
+              - hg[Option 2]: What's with the lack of, well, stuff?
+                  - "Well, we're kinda in the middle of nowhere.. we don't get deliveries that often. Still, feel free to buy something!"
+              - hg[Option 3]: Who are you?
+                  - "Uhm, I'm a new hire here. I'm pretty new to this gas station stuff... Although, I should've gotten a better job than this."
+                      - hg[Option 1]: What do you like?
+                          - "I like grass, that is all"
+                      - hg[Option 2]: Well.. is it fun?
+                          - "Yeah! I like to sort items on the shelves, it gives me something to do. Also, I get FREE SNACKS!!!!"
+                      - hg[Option 3]: minimum wage lol
+                          - "At least I'm making my own money, unlike you, begging for mommy's credit card!"
+                      - hg[Option 4]: Can I pet you?
+                          - "No..."
+                          - "ok maybe"
+              - hg[Option 4]: Fun Facts?
+                  - "Oh, I know a lot of stuff! What do you wanna know?"
+                      - hg[Option 1]: About the station...
+                          - "I haven't worked here for long, but I'll try.."
+                              - hg[Option 1]: The Locals
+                                  - hg[Variant 1]: "What an uncommon question.. Uhh.."
+                                  - hg[Variant 2]: "Oh, like who comes around here? Let me remember..."
+                                      - hg[Variant 1]:
+                                          - "A few weeks ago, a tall, orange dragon came in.. or maybe it was a dog..? They came in such a huge frenzy though! Fur frazzled, looking frantically for something.. Then they came up to me and they were all like.."
+                                              - ???: "This is important, do you have any, uh, pen tips?? For drawing tablets??? Any at all???"
+                                                  - Disc: "I had to be all like, 'Sir, this is a gas station convenience store!"
+                                                  - ..."After that, they looked really defeated and left..."
+                                                  - "I hope they're okay!"
+                                      - hg[Variant 2]:
+                                          - "Some driver guy came in about a week ago.."
+                                          - "They said they were running from the police, and I was like 'WHAT??'"
+                                          - "He explained his situation, though.. Apparently he stole a straw from Bloxdonalds or something..?"
+                                          - "I kinda feel bad for him now.. What a way to become a felon..."
+                                      - hg[Variant 3]:
+                                          - "I saw a icy blue wolf come in here the other day.. I think they said their name was like.. Frozen..? Freezy..? Frostbite??"
+                                              - Green: "Right, that dude.. they stole the last of those frozen sponge pops! Just sprinted out of the store like it was nothing!"
+                                                  - Disc: "Oh, right.. well if you see him, tell him to pay us back!"
+                                      - hg[Variant 4]:
+                                          - "I don't know where this person came from, but this person named 'D6' appeared in our trash bins. We tried to get rid of D6, but ever since the 'incident' happened a few days back..."
+                                          - "We gave up and just... let them sit there... \*sniff\*"
+                                              - Green: "Oh, don't worry about Disc. D6 threw a 2 ton slab of concrete at his head and narrowly missed. He's just a bit traumatized."
+                                      - hg[Variant 5]:
+                                          - "Everyone in town is pretty nice, except for that one robot dude... "
+                                          - "They always brought their Mini-Bus, and ruined our shelves!"
+                                          - "It got to the point where we decided to add spikes to the floor entrance... Let's just say that they stopped coming in after that. >:}"
+                                      - hg[Variant 6]:
+                                          - "Once, a tiny little gray cat came through here.. he was super cute!"
+                                              - hg[Option 1]: He will be boiled.
+                                                  - "WHAT?! Don't do that!!"
+                                                      - Green: "Disc, I'm pretty sure they're just joking..."
+                                                          - Disc: "I knowww, but still.. don't do that!"
+                                              - hg[Option 2]: You mean Pear?
+                                                  - "YOU KNOW HIM??"
+                                              - hg[Option 3]: Elaborate.
+                                                  - "Well, he ended up buying a bunch of frozen taquitos... His little arms could barely hold them all... I don't really know what happened to him after that."
+                              - hg[Option 2]: The Area
+                                  - hg[Variant 1]: "The area? I might have a story or two..."
+                                  - hg[Variant 2]: "Oh, sure! Lemme remember.."
+                                      - hg[Variant 1]:
+                                          - "You might think 'Hey, this stop looks kinda cheap."
+                                          - "Well, you can blame the local representatives for that one... They were really lazy and just used blueprints from Google Images... Now people always call us the 'Free Model Station'..."
+                                          - "But, rent costs next to nothing, so I guess I can't complain..."
+                                      - hg[Variant 2]:
+                                          - "One time, I went to visit the yellow house to see a friend. There was like, a bunch of people chilling in their backyard."
+                                          - "I was just taking a glance, and then one of them tried to jump on the trampoline..."
+                                          - "They got launched into space! I guess the trampoline script lacked a debounce part in it..."
+                                          - "Luckily nobody was really hurt. They bought a higher quality trampoline a few days after."
+                      - hg[Option 2]: About the bus...
+                          - "Oh, you mean the one out there? Yeah, I used to ride it all the time! What about it?"
+                              - hg[Option 1]: The Tech
+                                  - "You know, the bus used to be different back when I rode it.. I remember when it was blocker than it is today..."
+                                  - "When I heard about that lnrOS upgrade, though, I was pretty excited!"
+                                  - "The upgrade was so cool, though! The bus had like, eyes and emotions! It was awesome, it's like it was your friend!"
+                              - hg[Option 2]: The Toilet
+                                  - "Oh yeah, that small cramped bathroom inside the stairs, right..? I've heard that if you flush the toilet while you're sitting on it, you might not be staying in that cramped room for so long..."
+                              - hg[Option 3]: The Last One
+                                  - "Ever since that wolf stole the last of those sponge pops, we haven't gotten another shipment of them."
+                                  - "Apparently, those were discontinued a long time ago. We were unknowingly hoarding them like our life depended it!"
+                                  - "Although those popsicles are gone, I do know some ice cream trucks have those sponges somewhere, they're just really rare..."
+                                      - Green: "True... If you ever come across even one of those popsicles, hide it with your life. Don't lose it, don't eat it, don't let someone steal it. Just lock up your fridge. You heard me, lock up your fridge."
+                                      - "Actually, that's not enough. LOCK UP YOUR HOUSE."
+                                      - "LOCK UP YOUR ENTIRE NEIGHBORHOOD, EVEN! YOU MUST PROTECT IT AT ALL COSTS!"
+                              - hg[Option 4]: The Events
+                                  - "Oh, so you wanna know about why so much stuff occurs all the time? About why the road feels like it goes on forever? About how none of our choices really matter? Huh, <player>? Don't you want to learn? Don't you know that the bus is--"
+                                      - Green: "Hey Disc, ain't that a little existential? I think you're freakin' out the customer!"
+                                          - Disc: "WHAT ABOUT THE SECRET BUTTON THAT'S HIDDEN NEAR THE--!"
+                                              - Green: "DISC, WE CAN'T TELL THEM ABOUT THAT!"
+                                                  - Disc: "Huh...? Whaa...? S-Sorry!"
+                              - hg[Option 5]: The Colas
+                                  - "Honestly, I've never known who or what made all those different kinds of cola in the first place!"
+                                  - "I've only really seen those" [really cold ones](/bussim/items/cold-cola) "on the top of the bus, and the" [spicy one](/bussim/items/hot-cola) "right next to the pizza..."
+                                  - "I've heard rumors that there's a third cola out there.. It's" [red, but when you drink it](/bussim/items/bad-cola)", well..."
+                                  - "E-Ehm, it's just a rumor, right..?"
+                              - hg[Option 6]: Nevermind!
+                                  - Conversation continues to hg[Option 1]: Sorry, just walking by.
+      - hg[Option 3]: Checkout
+          - hg[Variant 1]: "Oh, you wanna checkout? Alright!"
+          - hg[Variant 2]: "Let me help with that!"
+              - If the player has no items to buy / bought something already:
+                  - hg[Variant 1]: "So, no items? Ok..."
+                  - hg[Variant 2]: "Well, I guess I could check out that little speck of dust for 0.01 rep. But I'm not gonna accept that!"
+                  - hg[Variant 3]: "Empty, mpty, mt,"
+                  - hg[Variant 4]: "You do know air doesn't come with a barcode, right?"
+                  - hg[Variant 5]: "So, you're gonna buy air? That's going to cost you 99999999999 rep!"
+                      - Oops.
+              - If the player has an item that can be bought and is purchasable:
+                  - hg[Variant 1]: "The luxurious items are going for <total price> rep! Going once... Going Twice..."
+                  - hg[Variant 2]: "Psst... that things gonna cost you <total price> rep... Do you want it?"
+                      - hg[Option 1] (if the player has a PearcoinTM): Instead of rep, can I pay with PearcoinTM?
+                          - "A PearcoinTM? I've never heard of that before, but it sounds fun..! Let's do it! One pearcoinTM for..-"
+                              - Green: "Disc, no... That's just another one of those.. crypto, scam things... For your information, we only take rep. None of that digital currency garbage. Get lost."
+                                  - Disc: "U-uhhm, yeah! What she said! Get lost..!!"
+                      - hg[Option 2]: Clear all items.
+                          - "Alright, all of your buyable items have been cleared!"
+                              - (All of the player's buyable items are then cleared.)
+                      - hg[Option 3]: It's a deal.
+                          - After successfully purchasing the item:
+                              - "Have fun with your stuff! It's bonded with you now."
+                                  - (The player permanently now has any item that they've bought.)
+                          - If the player tries to buy the Flying Skillbook again, after obtaining Helicopter:
+                              - "... and, you already owned some of the stuff you bought, so I didn't charge you for it! You saved 100 rep."
+                          - If the player successfully buys the Flying Skillbook:
+                              - hg[Variant 1]: "Have fun with your stuff! It's bonded with you now. ... oh yeah, we glued the pages on those skillbooks for security purposes. Let me just... There! Now have fun!"
+                              - hg[Variant 2]: "Have fun with your stuff! It's bonded with you now. ... by the way, you're not using this skill for anything malicious, right?"
+                              - hg[Variant 3]: "Have fun with your stuff! It's bonded with you now. ... oh, and the skillbook! Hold on, I gotta get a saw blade just to open every...single... page..."
+                              - hg[Variant 4]: "Have fun with your stuff! It's bonded with you now. ... I, uh, unglued the book, by the way."
+                      - hg[Option 4]: No thanks.
+                          - "Oh.. well, if you change your mind, let me know!"
+              - If the player's [total price] exceeds their current Passenger Rep:
+                  - hg[Variant 1]: "Sorry, but you don't have enough rep to purchase that!"
+                  - hg[Variant 2]: "Hey <Player>, if you look to the top of your screen, you'll see that you don't have enough rep to purchase this..."
+                      - hg[Option 1] (if the player has a PearcoinTM): Really? How about a shiny PearcoinTMTM instead?
+                          - "A PearcoinTM? I've never heard of that before, but it sounds fun..! Let's do it! One PearcoinTM for..-"
+                              - Green: "Disc, no... That's just another one of those.. crypto, scam things... For your information, we only take rep. None of that digital currency garbage. Get lost."
+                                  - Disc: "U-uhhm, yeah! What she said! Get lost..!!"
+                      - hg[Option 2]: Clear all items.
+                          - "Alright, all of your buyable items have been cleared!"
+                              - (All of the player's buyable items are then cleared.)
+                      - hg[Option 3]: Oh.
 
-    - type: tree
-      content:
-        - name: "\"Guess we're starting a staring contest..\""
+  ###[AFK-Related Dialogue]
+  - If the player has been idle for too long
+    - "Guess we're starting a staring contest.."
+  
+  ###[Airhorn-Related Dialogue]
+  - If the airhorn is used repeatedly in close proximity to Disc
+    - "Owwwww... That's not very nice, you knowww..."
+  - If the airhorn is used repeatedly in proximity to Disc for a second time and so on
+    - "Why are you so meaannnn??? baaaaa???! :'("
+  
 
-    - type: section
-      content:
-        size: small
-        title: Airhorn-Related Dialogue
-        description: >- 
-          <br>
-          If the airhorn is used repeatedly in proximity to Disc:
+  ##[Trivia]
+  - Disc voiced his own "[bebebese](https://nookipedia.com/wiki/Bebebese)" speech sound.
 
-    - type: tree
-      content:
-        - name: "\"Owwwww... That's not very nice, you knowww...\""
-
-    - type: text
-      content:
-        text: >- 
-          If the airhorn is used repeatedly in proximity to Disc for a second time and so on:
-
-    - type: tree
-      content:
-        - name: "\"Why are you so meaannnn??? baaaaa???! :'(\""
-
-          
-    - type: section
-      content:
-        size: normal
-        title: Trivia
-        
-    - type: tree
-      content:
-        - name: Disc voiced his own "<a href='https://nookipedia.com/wiki/Bebebese'>bebebese</a>" speech sound.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/npcs/disc.webp
+  
+  !!GALLERY [/assets/bussim/images/npcs/banana.webp]  

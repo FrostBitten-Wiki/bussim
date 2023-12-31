@@ -1,49 +1,28 @@
+editable: True
 page:
-  title: Adventure Line
-  description: The Adventure Line is an event based off of the Stanley Parable,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Adventure Line
-  tags: adventure line, events
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Adventure Line
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Line</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/events/line.webp
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Adventure Line is an event based off of the Stanley Parable, 
-         and is about the riders of the bus following The Adventure Line<small>TM</small>. 
-         The line leads into a sewer grate, 
-         and the music is a lower quality version of the original version from the game. 
-         The event lasts just short of a minute.
+attributions: []
 
-    - type: section
-      content:
-        title: Dialogue
-    - type: tree
-      content:
-        - name: "The Narrator: \"Players decided to follow the adventure line.\""
-        - name: After 45 seconds...
-        - name: "Event: \"I think i already seen this somewhere.. Lets go, 15 seconds.\""
+content: |
+  ##[Info]
+  Placeholder Info
 
-    - type: section
-      content:
-        title: Trivia
+  ##[Trivia]
+  - Trivia Here
 
-    - type: tree
-      content:
-        - name: The Adventure Line<small>TM</small> is impossible to follow by walking on the path directly without use of Hoverboots, Helicopter, climbing in VR, or even using a Mini-Bus glitch, due to the line going upwards several dozen studs, and having a totally flat surface.
-        - name: The audio being lower resolution was potentially due to bypass the ROBLOX audio system, so it can be played in the game.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/events/line.webp
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

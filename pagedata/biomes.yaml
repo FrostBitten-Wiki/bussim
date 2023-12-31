@@ -2,163 +2,38 @@ page:
   title: Biomes
   description: Biomes appear randomly after driving through a tunnel, and they don't have any relation to events most of the time, unless if a specific event forces it (i.e. Blizzard).
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes
+  
+  tags: some,tags,here,that is used by the search api
   ignore: ignore
+
+  header:
+    description: |
+      Biomes appear randomly after driving through a tunnel, and they don't have any relation to events most of the time, unless if a specific event forces it (i.e. Blizzard).
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions: []
 
-html:
-  header:
-    title: Biomes
-    description: Biomes appear randomly after driving through a tunnel, and they don't have any relation to events most of the time, unless if a specific event forces it (i.e. Blizzard).
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
-  pageContent:
-    - type: list
-      content:
-        items:
-          - listItemImage: /bussim-assets/images/biomes/biodiverse.webp
-            listItemTitle: Biodiverse
-            listItemDescription: >
-              Biodiverse is composed of a much more grassy environment with forests,
-              large grass being bigger than Robloxians, ferns, bushes, as well as moving butterflies from time to time.
-            listItemRedirect: /bussim/biomes/biodiverse
-
-          - listItemImage: /bussim-assets/images/biomes/bricks.webp
-            listItemTitle: Bricks
-            listItemDescription: >
-              The Bricks biome is a simple biome where the ground is just bricks, and any hills are also textured with bricks.
-              Buildings also spawn in the biome, but that's about it.
-            listItemRedirect: /bussim/biomes/bricks
-
-          - listItemImage: /bussim-assets/images/biomes/desert.webp
-            listItemTitle: Desert
-            listItemDescription: >
-              Desert is a biome that will spawn randomly after driving through a tunnel.
-            listItemRedirect: /bussim/biomes/desert
-
-          - listItemImage: /bussim-assets/images/biomes/doodle.webp
-            listItemTitle: Doodle
-            listItemDescription: >
-              Doodle is one of the new biomes added to Bus Simulator.
-              It features a notebook-paper-like floor as well as animated doodles depicting flowers, grass, bushes, and trees.
-              The sun and moon are also doodled and scaled bigger than normal.
-            listItemRedirect: /bussim/biomes/doodle
-
-          - listItemImage: /bussim-assets/images/biomes/fall.webp
-            listItemTitle: Fall
-            listItemDescription: >
-              Fall is a biome in the game that is similar to <a href='/bussim/biomes/summer'>Summer</a>,
-              but is replaced with Orange instead of Green..
-            listItemRedirect: /bussim/biomes/fall
-
-          - listItemImage: /bussim-assets/images/biomes/forest.webp
-            listItemTitle: Forest
-            listItemDescription: >
-              The Forest is a biome that's very similar to <a href='/bussim/biomes/summer'>Summer</a>,
-              but more dense with fog and has more trees spawning, commonly in a line of five trees.
-              They spawn in both large and small sizes randomly around the biome.
-            listItemRedirect: /bussim/biomes/forest
-
-          - listItemImage: /bussim-assets/images/biomes/frozen.webp
-            listItemTitle: Frozen
-            listItemDescription: >
-              Frozen is a biome that will spawn randomly after driving through a tunnel.
-              It comprises of ice spikes, trees, and occasionally crashed helicopters. It also has a slightly desaturated light blue for its fog.
-            listItemRedirect: /bussim/biomes/frozen
-
-          - listItemImage: /bussim-assets/images/biomes/lava.webp
-            listItemTitle: Lava
-            listItemDescription: >
-              Lava is a biome that will spawn randomly after driving through a tunnel.
-              It comprises of lava surrounding the entire street with a potent orange haze for its fog.
-            listItemRedirect: /bussim/biomes/lava
-
-          - listItemImage: /bussim-assets/images/biomes/mythic.webp
-            listItemTitle: Mythic
-            listItemDescription: >
-              Mythic is a biome that is dark, and fantasy-like, where the shading is more blue.
-              The biome has blue grass and gigantic trees with blue leaves.
-            listItemRedirect: /bussim/biomes/mythic
-
-          - listItemImage: /bussim-assets/images/biomes/nostalgic.webp
-            listItemTitle: Nostalgic
-            listItemDescription: >
-              Nostalgic is a biome that more focuses on the "Older ROBLOX" era, with the older studs texture,
-              blocky bushes and trees, and even billboards that shows the old ROBLOX ads, like for Blox Mart and Witches Brew.
-            listItemRedirect: /bussim/biomes/nostalgic
-
-          - listItemImage: /bussim-assets/images/biomes/overseas.webp
-            listItemTitle: Overseas
-            listItemDescription: >
-              Overseas is a biome that will spawn randomly after driving through a tunnel.
-              It comprises of the street being a bridge and the terrain being completely non-existent.
-              It also has a similar haze to Nostalgia among a few others.
-            listItemRedirect: /bussim/biomes/overseas
-
-          - listItemImage: /bussim-assets/images/biomes/plains.webp
-            listItemTitle: Plains
-            listItemDescription: >
-              Plains is a biome similar to <a href='/bussim/biomes/summer'>Summer</a>, but doesn't include hills.
-              Instead, it includes crashed helicopters, as well as trees, bushes, and buildings.
-            listItemRedirect: /bussim/biomes/plains
-
-          - listItemImage: /bussim-assets/images/biomes/plastic-bricks.webp
-            listItemTitle: Plastic Bricks
-            listItemDescription: >
-              Plastic Bricks is a biome that appears with a Smooth Plastic material in green.
-              A unique tree mesh and red plastic bricks spawn on the terrain, as well as buildings.
-              The biome used to be called LEGO, but was changed potentially due to copyright reasons.
-            listItemRedirect: /bussim/biomes/plastic-bricks
-
-          - listItemImage: /bussim-assets/images/biomes/rocky.webp
-            listItemTitle: Rocky
-            listItemDescription: >
-              Rocky is a biome that will spawn randomly after driving through a tunnel. 
-              The biome is rather simple, being made entirely out of rocks and boulders.
-            listItemRedirect: /bussim/biomes/rocky
-
-          - listItemImage: /bussim-assets/images/biomes/snowy.webp
-            listItemTitle: Snowy
-            listItemDescription: >
-              Snowy is a biome that will spawn randomly after driving through a tunnel. 
-              The biome is based on winter, having the ground and trees covered in snow.
-            listItemRedirect: /bussim/biomes/snowy
-
-          - listItemImage: /bussim-assets/images/biomes/summer.webp
-            listItemTitle: Summer
-            listItemDescription: >
-              Summer is a simple biome with Grass and not much else. Buildings, bushes, and trees also spawn in the biome.
-            listItemRedirect: /bussim/biomes/summer
-
-          - listItemImage: /bussim-assets/images/biomes/thorns.webp
-            listItemTitle: Thorns
-            listItemDescription: >
-              Thorns is a biome that will spawn randomly after driving through a tunnel. 
-              It has a darker appearance, with many large, thorn-like spikes around the area. 
-              The biome is based off of The Landscape of Thorns, which is a physical marker for how dangerous the area is for people in the future.
-            listItemRedirect: /bussim/biomes/thorns
-
-          - listItemImage: /bussim-assets/images/biomes/vaporwave.webp
-            listItemTitle: Vaporwave
-            listItemDescription: >
-              The Vaporwave biome is a biome that is very different than the rest, which uses a lot of pink and black.
-              The buildings are black with pink outlines, and the ground is a grid with pink lines and black squares.
-              Whenever it rains, the rain appears pink as well.
-            listItemRedirect: /bussim/biomes/vaporwave
-
-          - listItemImage: /bussim-assets/images/biomes/void.webp
-            listItemTitle: Void
-            listItemDescription: >
-              The Void biome is a biome that cannot be forced by the !biome command,
-              but instead can be seen in two events, <a href='/bussim/events/exploiter'>Exploiter</a> and <a href='/bussim/events/glitches'>Glitches</a>,
-              as well as with the !map command. The biome appears completely blank and lacks a road. The collision for the road and ground exists, but it cannot be seen.
-              Vehicles cannot spawn in this biome, either.
-            listItemRedirect: /bussim/biomes/void
-
-          - listItemImage: /bussim-assets/images/biomes/wasteland.webp
-            listItemTitle: Wasteland
-            listItemDescription: >
-              Wasteland is a biome that has a similar appearance to <a href='/bussim/biomes/thorns'>Thorns</a>. 
-              The ground has rust covering it, and it spawns dead bushes, hills, and equally-rusted buildings. 
-              The skybox is red, cloudy, and ominous, and is the "<a href='https://create.roblox.com/marketplace/asset/54009801/End-of-the-world-skybox%3Fkeyword=&pageNumber=&pagePosition='>End of the World</a>" skybox, made by tyler7778.
-            listItemRedirect: /bussim/biomes/wasteland
+content: |
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/biodiverse.webp" TITLE:"Biodiverse" DESCRIPTION:"Biodiverse is one of the new biomes added to Bus Simulator. It is composed of a much more grassy environment with forests, large grass being bigger than Robloxians, ferns, bushes, as well as moving butterflies from time to time." REDIRECT:"/bussim/biomes/biodiverse"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/birchforest.webp" TITLE:"Birch Forest" DESCRIPTION:"The Birch Forest is a biome in Bus Simulator submitted by FangedWerewolf (@Noobbiom). The biome features groups of tall birch trees with some normally being taller than the others, and often have beehives located underneath the leaves." REDIRECT:"/bussim/biomes/birch-forest"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/bricks.webp" TITLE:"Bricks" DESCRIPTION:"The Bricks biome is a simple biome where the ground is just bricks, and any hills are also textured with bricks. Buildings also spawn in the biome, but that's about it." REDIRECT:"/bussim/biomes/bricks"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/desert.webp" TITLE:"Desert" DESCRIPTION:"Desert is a biome that will spawn randomly after driving through a tunnel." REDIRECT:"/bussim/biomes/desert"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/doodle.webp" TITLE:"Doodle" DESCRIPTION:"Doodle is one of the new biomes added to Bus Simulator. It features a notebook-paper-like floor as well as animated doodles depicting flowers, grass, bushes, and trees." REDIRECT:"/bussim/biomes/doodle"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/fall.webp" TITLE:"Fall" DESCRIPTION:"Fall is a biome in the game that is similar to [Summer](/bussim/biomes/summer), but is replaced with Orange instead of Green." REDIRECT:"/bussim/biomes/fall"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/forest.webp" TITLE:"Forest" DESCRIPTION:"The Forest is a biome that's very similar to [Summer](/bussim/biomes/summer), but more dense with fog and has more trees spawning, commonly in a line of five trees. They spawn in both large and small sizes randomly around the biome." REDIRECT:"/bussim/biomes/forest"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/frozen.webp" TITLE:"Frozen" DESCRIPTION:"Frozen is a biome that will spawn randomly after driving through a tunnel. It comprises of ice spikes, trees, and occasionally crashed helicopters. It also has a slightly desaturated light blue for its fog." REDIRECT:"/bussim/biomes/frozen"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/lava.webp" TITLE:"Lava" DESCRIPTION:"Lava is a biome that will spawn randomly after driving through a tunnel. It comprises of lava surrounding the entire street with a potent orange haze for its fog." REDIRECT:"/bussim/biomes/lava"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/mythic.webp" TITLE:"Mythic" DESCRIPTION:"Mythic is a biome that is dark, and fantasy-like, where the shading is more blue. The biome has blue grass and gigantic trees with blue leaves" REDIRECT:"/bussim/biomes/mythic"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/nostalgic.webp" TITLE:"Nostalgic" DESCRIPTION:"Nostalgic is a biome that more focuses on the "Older ROBLOX" era, with the older studs texture, blocky bushes and trees, like for Blox Mart and Witches Brew." REDIRECT:"/bussim/biomes/nostalgic"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/overseas.webp" TITLE:"Overseas" DESCRIPTION:"Overseas is a biome that will spawn randomly after driving through a tunnel. It comprises of the street being a bridge and the terrain being completely non-existent. It also has a similar haze to Nostalgia among a few others." REDIRECT:"/bussim/biomes/overseas"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/plains.webp" TITLE:"Plains" DESCRIPTION:"Plains is a biome similar to [Summer](/bussim/biomes/summer), but doesn't include hills. Instead, it includes crashed helicopters, as well as trees, bushes, and buildings." REDIRECT:"/bussim/biomes/plains"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/plastic-bricks.webp" TITLE:"Plastic Bricks" DESCRIPTION:"Plastic Bricks is a biome that appears with a Smooth Plastic material in green. A unique tree mesh and red plastic bricks spawn on the terrain, as well as buildings. The biome used to be called LEGO, but was changed potentially due to copyright reasons." REDIRECT:"/bussim/biomes/plastic-bricks"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/rocky.webp" TITLE:"Rocky" DESCRIPTION:"Rocky is a biome that will spawn randomly after driving through a tunnel. The biome is rather simple, being made entirely out of rocks and boulders." REDIRECT:"/bussim/biomes/rocky"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/snowy.webp" TITLE:"Snowy" DESCRIPTION:"Snowy is a biome that will spawn randomly after driving through a tunnel. The biome is based on winter, having the ground and trees covered in snow." REDIRECT:"/bussim/biomes/snowy"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/summer.webp" TITLE:"Summer" DESCRIPTION:"Summer is a simple biome with Grass and not much else. Buildings, bushes, and trees also spawn in the biome." REDIRECT:"/bussim/biomes/summer"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/thorns.webp" TITLE:"Thorns" DESCRIPTION:"Thorns is a biome that will spawn randomly after driving through a tunnel. It has a darker appearance, with many large, thorn-like spikes around the area. The biome is based off of The Landscape of Thorns, which is a physical marker for how dangerous the area is for people in the future." REDIRECT:"/bussim/biomes/thorns"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/vaporwave.webp" TITLE:"Vaporwave" DESCRIPTION:"The Vaporwave biome is a biome that is very different than the rest, which uses a lot of pink and black. The buildings are black with pink outlines, and the ground is a grid with pink lines and black squares. Whenever it rains, the rain appears pink as well." REDIRECT:"/bussim/biomes/vaporwave"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/void.webp" TITLE:"Void" DESCRIPTION:"The Void biome is a biome that cannot be forced by the !biome command, but instead can be seen in two events, [Exploiter](/bussim/events/exploiter) and [Glitches](/bussim/events/glitches), as well as with the !map command. The biome appears completely blank and lacks a road. The collision for the road and ground exists, but it cannot be seen. Vehicles cannot spawn in this biome, either." REDIRECT:"/bussim/biomes/void"
+  !!LISTITEM IMAGE:"/bussim-assets/images/biomes/wasteland.webp" TITLE:"Wasteland" DESCRIPTION:"Wasteland is a biome that has a similar appearance to [Thorns](/bussim/biomes/thorns). The ground has rust covering it, and it spawns dead bushes, hills, and equally-rusted buildings. The skybox is red, cloudy, and ominous, and is the "End of the World" skybox, made by tyler7778." REDIRECT:"/bussim/biomes/wasteland"

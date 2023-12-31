@@ -1,55 +1,28 @@
+editable: True
 page:
-  title: Pool
-  description: The Pool is a short and simple event,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Pool
-  tags: pool, event
-  
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
-  header:
-    title: Pool
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>PoolEvent</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/events/pool2.webp
-
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-          The Pool is a short and simple event, 
-          where a pool will magically spawn next to the edge of the third floor in The Bus, 
-          within this pool will contain a few ducks and Coffee, 
-          which acts similarly in function to Cola.
-
-    - type: section
-      content:
-        title: Dialogue
+  title: Placeholder
+  description: Placeholder
     
-    - type: tree
-      content:
-        - name: "Event: \"A pool spawned on top of the bus!\""
-          children:
-             - name: "You: \"Oh, nice.\""
-               children:
-                  - name: "(40 seconds later...)"
-                    children:
-                      - name: "Event: \"It's going to disappear!\""
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
 
-    - type: section
-      content:
-        title: Trivia
+  header:
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-    - type: tree
-      content:
-        - name: This is one of the only events that includes water.
-        - name: The event has a runtime of 55 seconds, making the amount of runtime the exact same as the <a href='/bussim/events/obby'>Obby</a> event.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/events/pool2.webp
-          - /bussim-assets/images/events/pool1.webp
-          
+attributions: []
+
+content: |
+  ##[Info]
+  Placeholder Info
+
+  ##[Trivia]
+  - Trivia Here
+
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

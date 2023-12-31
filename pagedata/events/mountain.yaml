@@ -1,45 +1,28 @@
+editable: True
 page:
-  title: Mountain
-  description: The Mountain is a pretty basic event in Bus Simulator,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Mountain
-  tags: mountain, events
-
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
-html:
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
+
   header:
-    title: Mountain
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Mountains</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/events/mountains2.webp
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-          The Mountain is a pretty basic event in Bus Simulator, 
-          where the bus stops at a nearby mountain, 
-          after a while the driver tells everyone to get back to the bus, 
-          and the event ends. 
-          You may encounter ducks in a pond that quack occasionally.
+attributions: []
 
-    - type: section
-      content:
-        title: Trivia
+content: |
+  ##[Info]
+  Placeholder Info
 
-    - type: tree
-      content:
-        - name: The models for the mountains are always kept constant due to when the mountains was first released, being before biomes existed. Therefore regardless of biome the model won't change.
-        - name: If this event rolls in the <a href='/bussim/biomes/lava'>Lava</a> biome, its water is coincidentally deep enough that you will end up being burnt just by stepping on it.
-        - name: This was one of the events added in the poll for the next events, despite it being placed 2nd, it still got added later on.
-        - name: After this event's debut, many people wanted this event to be removed due to the inaccuracy to actual mountains and the lack of anything special to it, however after following a poll in the Bus SImulator Updates discord server, it was decided to keep it in.
-          children:
-            - name: It still has not been updated ever since, but never removed.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/events/mountains2.webp
-          - /bussim-assets/images/events/mountains1.webp
+  ##[Trivia]
+  - Trivia Here
+
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

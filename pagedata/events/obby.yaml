@@ -1,55 +1,28 @@
+editable: True
 page:
-  title: Obby
-  description: Obby is a simple event in Bus Simulator,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Obby
-  tags: obby, event
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Obby
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Obby</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/events/obby2.webp
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-          Obby is a simple event in Bus Simulator, 
-          where the bus briefly stops at a small obby next to the sidewalk of the road. 
-          The players can choose to complete it in any way possible, 
-          being awarded with a can of <a href='/bussim/items/hyper-soda'>Hyper Soda</a> at the end. 
-          The event ends shortly afterwards.
+attributions: []
 
-    - type: section
-      content:
-        title: Dialouge
+content: |
+  ##[Info]
+  Placeholder Info
 
-    - type: tree
-      content:
-        - name: "Event: \"Hey look, is that a classic obby?\""
-          children:
-            - name: "You: \"I should complete it!\""
-              children:
-               - name: "(After around 40 seconds has passed...)"
-                 children:
-                   - name: "Event: \"We are leaving soon.\""
+  ##[Trivia]
+  - Trivia Here
 
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: The event runtime is only 55 seconds, the exact same amount of runtime as the <a href='/bussim/events/pool'>Pool</a> event.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/events/obby2.webp
-          - /bussim-assets/images/events/obby1.webp
-          
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

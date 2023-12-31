@@ -1,44 +1,34 @@
+editable: True
 page:
   title: RoEmulator
-  description: The RoEmulator is a gamepass item that lets you play games on your own.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, RoEmulator
-  tags: roemulator, paid item, game thing
+  description: The RoEmulator is a gamepass item that lets you play games on your own. 
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: roemulator, emulate these games, booyah
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: RoEmulator
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-          <i>Not to be Confused with <a href="/bussim/items/gameboy-advance">Gameboy Advance</a>.</i>
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-          <br><br>
+content: |
+  "Emulate a Classic Game!" -"RoEmulator
 
-          The RoEmulator is a gamepass item that lets you play games on your own. 
-          It has options of three games: Adventure Island, Race The Sunset, and Lunar Lander. 
-          More details of the games can be seen <a href="/bussim/others/games">here</a>.
+  ##[Info]
+  The RoEmulator is a gamepass item that lets you play games on your own. 
+  \n\n
+  It has options of three games: Adventure Island, Race The Sunset, and Lunar Lander. More details of the games can be seen [here](/bussim/others/games). 
 
-    - type: section
-      content:
-        title: Trivia
+  ##[Trivia]
+  - Despite the name, it can only play those 3 games, and cannot play any cartridge games.
+  - The item is the same one as the Adventure Island gear in ROBLOX.
+  - All 3 games can be purchased as gears on ROBLOX.
 
-    - type: tree
-      content:
-        - name: Despite the name, it can only play those 3 games, and cannot play any cartridge games.
-        - name: The item is the same one as the Adventure Island gear in ROBLOX.
-        - name: All 3 games can be purchased as gears on ROBLOX.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/roemulator.webp
-          
+  !!GALLERY [/assets/bussim/images/items/roemulator.webp]

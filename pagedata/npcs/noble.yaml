@@ -1,63 +1,38 @@
+editable: True
 page:
   title: NobleReign
-  description: NobleReign is an NPC in Bus Simulator. He is also the creator of Bus Simulator.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, NobleReign
+  description: NPCDescription
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npc
+  
+  tags: noble, noblereign, npc
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
     title: NobleReign
-    description: >- 
-      Category: <a href="/bussim/npcs">NPCs</a>
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [NPCs](/bussim/npcs)
     
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-          NobleReign is an NPC in Bus Simulator. He is also the creator of Bus Simulator.
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-    - type: section
-      content:
-        title: Appearance
-        description: >-
-         He appears to wear purity wings, 
-         a ninja headband, 
-         a jacket that overlays a shirt with Noble's Emblem on it, 
-         cat ears, 
-         black jeans and white shoes, 
-         shaggy hair and has a back sword.
+attributions:
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
 
-    - type: section
-      content:
-        title: Dialogue
+content: |
+  ##[Info]
+  NobleReign is an NPC in Bus Simulator. He is also the creator of Bus Simulator.
 
+  ##[Dialogue]
+  There is currently no available emulator for NobleReign.
 
-    - type: tree
-      content:
-        - name: "\"WOAH! . . . . . *sigh* this happens every Wednesday, it's not my fault that they built this house on a highway...feel free to explore, while my bank account sobs in pain.\""
-          children:
-            - name: "<small>(After some time, and the event ends)</small>"
-              children:
-                - name: "\"Just.. feel free to go through the other wall.. *long, defeated sigh*\""
+  - "OAH!..... *sigh* this happens every Wednesday, it's not my fault that they built this house on a highway...feel free to explore, while my bank account sobs in pain."
+    - <small>(After some time, and the event ends)</small>
+      - "Just.. feel free to go through the other wall.. *long, defeated sigh*"
 
+  ##[Trivia]
+  - Although NobleReign has a fursona called [Frostbite](/bussim/npcs/frostbite), within the game Noble doesn't acknowledge the existence of [Frostbite](/bussim/npcs/frostbite), and neither does [Frostbite](/bussim/npcs/frostbite).\n\n
+  - Unlike other NPCs, you can't annoy NobleReign with an airhorn.\n\n
+  - This is one of the only NPCs in the game that still uses the Event Textbox instead of the new NPC Dialouge system that other NPCs use. (ex. [Frostbite](/bussim/npcs/frostbite), [MLG](/bussim/npcs/mlg), [Disc](/bussim/npcs/disc), [Tazer](/bussim/npcs/tazer), etc.)
 
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: Although NobleReign has a fursona called Frostbite, within the game Noble doesn't acknowledge the existence of <a href='/bussim/npcs/frostbite'>Frostbite</a>, and neither does Frostbite.
-        - name: Unlike other NPCs, you can't annoy NobleReign with an <a href='/bussim/items/airhorn'>airhorn</a>.
-        - name: This is one of the only NPCs in the game that still uses the Event Textbox instead of the new NPC Dialouge system that other NPCs use. (ex. Frostbite, MLG, D1sc, T4zer, etc.)
-
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/npcs/noble.webp
+  !!GALLERY [/assets/bussim/images/npcs/noble.webp]  

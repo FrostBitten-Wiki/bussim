@@ -1,46 +1,31 @@
+editable: True
 page:
   title: Megaphone
-  description: The Megaphone is a gamepass item in Bus Simulator.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Megaphone
-  tags: megaphone, paid item, item that makes you talk to other servers
+  description: The Megaphone is a gamepass item in Bus Simulator. It costs 45 R$, with its variants costing more. 
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: how to shout, shout, megaphone, normal megaphone, larger micro..phone?
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Megaphone
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: quote
-      content:
-        quote: "Yell across the time-space continnum!"
-        author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Megaphone is a gamepass item in Bus Simulator. 
-         It costs 45 robux, 
-         with its variants costing more. 
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-         <br><br>
+content: |
+  "Yell across the time-space continnum!" -"Megaphone"
 
-         To use, simply hold the item and then talk using the Roblox chat, 
-         once you entered your message it will automatically shout to all servers except those who have !shouts turned off. 
-         It also has a 30 second cooldown, 
-         with it being partially noticeable by the transparency of the megaphone.
+  ##[Info]
+  The Megaphone is a gamepass item in Bus Simulator. It costs 45 R$, with its variants costing more. 
+  \n\n 
+  To use, simply hold the item and then talk using the Roblox chat, once you entered your message it will automatically shout to all servers except those who have !shouts turned off. It also has a 30 second cooldown, with it being partially noticeable by the transparency of the megaphone. 
+  \n\n 
+  The shout message will be around the same size as a normal message would. 
 
-         <br><br>
-
-         The shout message will be around the same size as a normal message would.
-         <br><br>
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/megaphone.webp
-          
+  !!GALLERY [/assets/bussim/images/items/megaphone.webp]

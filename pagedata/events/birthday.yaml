@@ -1,60 +1,28 @@
+editable: True
 page:
-  title: Birthday
-  description: Bus Birthday is an event where a random player is chosen to be celebrated for their birthday.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Birthday
-  tags: birthday, events
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Birthday
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>BusBirthday</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/events/birthday.webp
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         Bus Birthday is an event where a random player is chosen to be celebrated for their birthday. 
-         The player will get a <a href='/bussim/items/birthday-ice-cream'>Birthday Ice Cream</a> instantly, 
-         and everyone will get <a href='/bussim/items/free-modelled-cake'>Free-modelled Cake</a> shortly. 
-         "Happy birthday to you" will be played during the event, 
-         but on kazoo. 
-         A large part will also hover above the bus, 
-         emitting particle confetti over it. 
-         The event then ends, 
-         however you'll keep both items until you die.
+attributions: []
 
-    - type: section
-      content:
-        title: Dialogue
+content: |
+  ##[Info]
+  Placeholder Info
 
-    - type: tree
-      content:
-        - name: "EVENT: \"Hey, it's [Selected Player]'s birthday right now!\""
-          children:
-            - name: "You: \"Happy birthday!\""
-              children:
-                - name: "After some time has passed..."
-                  children:
-                    - name: "[Selected Player]: \"Free (modelled) cake for everyone!\""
+  ##[Trivia]
+  - Trivia Here
 
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: The birthday player is completely random and while it happening during your real birthday is purely coincidental, it is completely possible!
-        - name: There's a chance that the player will not recieve the <a href='/bussim/items/birthday-ice-cream'>Birthday Ice Cream</a>, even if they were chosen as the birthday person.
-        - name: The event has 45 seconds of runtime, which has the exact same amount of runtime as both the <a href='/bussim/events/in-the-sky'>In The Sky</a> and the <a href='/bussim/events/space'>Space</a> events. There's also a really similar runtime with the <a href='/bussim/events/exploiter'>Exploiter</a> event.
-        - name: The <a href='https://www.youtube.com/watch?v=N63GSop8Xz4&ab_channel=tidlfqpahn'>audio</a> originated from a birthday kazoo youtube video that was published in Sep 16, 2014.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/events/birthday.webp
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

@@ -1,147 +1,37 @@
 page:
   title: Others
-  description: Description
+  description: The Others category contains pages that don't fit into any of the other categories, but still has some use to the wiki mainly being miscellaneous.
+    
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim others
+  
+  tags: some,tags,here,that is used by the search api
   ignore: ignore
 
-attributions: []
-
-html:
   header:
-    title: Others
-    description: The Others category will have pages that don't fit into any of the other categories, and is generally miscellaneous, but still has some use to the wiki.
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
-  pageContent:
-    - type: list
-      content:
-        items:
-          - listItemImage: /bussim-assets/images/others/billboards.webp
-            listItemTitle: Billboards
-            listItemDescription: >-
-              There are billboards in the game that appears on the sides of the road around every 3 minutes and 30 seconds. 
-              The billboards showcase real advertisements to companies, such as <a href='https://en.wikipedia.org/wiki/H%26M'>H&M</a> and 
-              <a href='https://en.wikipedia.org/wiki/Nike,_Inc'>Nike</a>, for example. These billboards can only be seen if your account age is 13+, 
-              as they cannot be advertised to people if they are 12 or younger.
-            listItemRedirect: /bussim/others/billboards
-          
-          - listItemImage: /bussim-assets/images/others/bus-radio-icon.webp
-            listItemTitle: Bus Radio
-            listItemDescription: >-
-              The Radio is a functional prop in <a href='/bussim/locations/the-bus'>The Bus</a> in Bus Simulator. 
-              It plays a large variety of songs and intermissions around the bus, and can be listened to via <a href='/bussim/items/airpods'>Airpods</a>.
-            listItemRedirect: /bussim/others/bus-radio
-          
-          - listItemImage: /bussim-assets/images/others/bus-cola-bandolier.webp
-            listItemTitle: Bus-Cola Bandolier
-            listItemDescription: >-
-              The Bus-Cola Bandolier is an official accessory that you can buy <a href='https://www.roblox.com/catalog/14609231873/'>here</a>.
-              This accessory currently has no functional usage yet and can be worn anywhere even outside of Bus Simulator.
-            listItemRedirect: /bussim/others/bus-cola-bandolier
-          
-          - listItemImage: /bussim-assets/images/others/commands.webp
-            listItemTitle: Commands
-            listItemDescription: >-
-              Commands are a feature in Bus Simulator used to change small elements of the game, 
-              such as chat tag customisation and private server commands.
-            listItemRedirect: /bussim/others/commands
-          
-          - listItemImage: /bussim-assets/images/others/cosmetics.webp
-            listItemTitle: Cosmetics
-            listItemDescription: >-
-              In Bus Simulator, there are currently six cosmetics in the game, and they are exclusive to a specific player.
-              While the page will not list their ROBLOX username, we will show the cosmetics, and what they go by online.
-              The cosmetics can also be seen in <a href="/kitbattle">Kit Battle</a>.
-            listItemRedirect: /bussim/others/cosmetics
-          
-          - listItemImage: /bussim-assets/images/others/diy-mini-bus.webp
-            listItemTitle: D.I.Y. Mini-Bus
-            listItemDescription: >-
-              The D.I.Y. Minibus is an official accessory that you can buy <a href='https://www.roblox.com/catalog/14448729069/D-I-Y-Minibus'>here</a>.
-              The accessory, if worn in-game, will change colors based off of what color you set with !color if you have the <a href='/bussim/items/mini-bus'>Mini-Bus</a> gamepass.
-              Otherwise it'll act as a normal waist accessory in any other game on Roblox.
-            listItemRedirect: /bussim/others/diy-mini-bus
-          
-          - listItemImage: /bussim-assets/images/others/games.webp
-            listItemTitle: Games
-            listItemDescription: >-
-              In Bus Simulator, you are able to play smaller games while waiting for events to arise mostly thanks to both the <a href='/bussim/items/gameboy-advance'>Gameboy Advance</a>, 
-              and the <a href='/bussim/items/roemulator'>RoEmulator</a>, while three of them are locked behind a paywall, 
-              you can still have extra fun while waiting between events on the bus.
-            listItemRedirect: /bussim/others/games
-          
-          - listItemImage: /bussim-assets/images/items/gps.webp
-            listItemTitle: GPS Locations
-            listItemDescription: >-
-              The <a href='/bussim/items/gps'>GPS</a> lists locations that the Bus is currently in, and this is the list that shows most of them.
-              They're all just cosmetic, and have no correlation to the biome you're in. There are 396 locations so far in this list (excluding "Recalculating.." and event-exclusive locations [e.g. 2648 Goat Ave <a href='/bussim/events/goated-gas-station'>Goat Station</a>], including Routes [e.g. Route 27]). 
-              If you find a location that isn't on this list, feel free to add one to this list by editing this page!
-            listItemRedirect: /bussim/locations/gps-locations
-          
-          - listItemImage: /bussim-assets/images/others/new-years.webp
-            listItemTitle: New Years
-            listItemDescription: >-
-              If you play Bus Simulator during <highlight>December 30th</highlight> and <highlight>31st</highlight>, you can get free stuff every hour to celebrate new years.
-            listItemRedirect: /bussim/others/new-years
-          
-          - listItemImage: /bussim-assets/images/others/news.webp
-            listItemTitle: News
-            listItemDescription: >-
-              News, or called News Articles or News Reporter, is a chat feature in Bus Simulator. 
-              Every so often, it would report on something to make chat much less empty aside from shouts.
-              This also references a few different things including NPCs, shows, and more. 
-              There may also be scripted news, which only appear if given the right conditions.
-            listItemRedirect: /bussim/others/news
-          
-          - listItemImage: /bussim-assets/images/others/pearcoin.webp
-            listItemTitle: Pearcoin<sup>TM</sup>
-            listItemDescription: >-
-              The pearcoin<sup>TM</sup> is a gamepass that is only obtainable through <a href='/bussim/npcs/pear'>Pear</a>, or through somebody's inventory, and costs 2 R$ to purchase. 
-              The item doesn't appear in your inventory. All the pearcoin<sup>TM</sup> does is give you extra dialogues for <a href='/bussim/npcs/frostbite'>Frostbite</a>, 
-              <a href='/bussim/npcs/pear'>Pear</a>, and <a href='/bussim/npcs/disc'>Disc</a>. 
-              The gamepass is meant to be an "investment", but is actually just a scam, like cryptocurrency.
+    description: |
+     The Others category contains pages that don't fit into any of the other categories, but still has some use to the wiki mainly being miscellaneous.
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-              <br><br>
+attributions: 
+  - Edited By Nyx and Ported by FangedWerewolf (@noobbiom)
 
-              You can only have one pearcoin<sup>TM</sup> at a time. If you show the pearcoin<sup>TM</sup> to Frostbite, he will immediately gain your trust (if you give him an <a href='/bussim/items/ice-cream'>Ice Cream</a> before, however.)
-            listItemRedirect: /bussim/others/pearcoin
-          
-          - listItemImage: /bussim-assets/images/others/ranks-tags.webp
-            listItemTitle: Ranks/Tags
-            listItemDescription: >-
-              There's a small handful of chat tags in the game that you can obtain by simple means, with some either being permanent or temporary.
-              This page will go over them, and give short explanations of them.
-            listItemRedirect: /bussim/others/ranks-tags
-          
-          - listItemImage: /bussim-assets/images/others/reputation.webp
-            listItemTitle: Reputation
-            listItemDescription: >-
-              Reputation (or more commonly known as 'rep') is a statistic in Bus Simulator that works either as collection for milestones like as
-              heart tags, or currency for permanent items, and it also has two different forms, both of which can be obtained in different ways.
-            listItemRedirect: /bussim/others/reputation
-          
-          - listItemImage: /bussim-assets/images/others/tv.webp
-            listItemTitle: TV
-            listItemDescription: >-
-              The Television, or TV for short, is an interactive prop that appears both in <a href='/bussim/locations/the-bus'>The Bus</a> and <a href='/bussim/events/nobles-house'>Noble's House</a>.
-            listItemRedirect: /bussim/others/tv
-          
-          - listItemImage: /bussim-assets/images/others/vehicles.webp
-            listItemTitle: Vehicles
-            listItemDescription: >-
-              In Bus Simulator, when you have vehicles enabled by default in the Performance Settings (On by default.), vehicles will spawn in the road besides the bus.
-            listItemRedirect: /bussim/others/vehicles
-
-          - listItemImage: /bussim-assets/images/others/vr.webp
-            listItemTitle: VR
-            listItemDescription: >-
-              VR is a method of playing for all Roblox games, with varying degrees of compatibility. 
-              For Bus Simulator, VR is mostly compatible with little to no hinderance, and even offers you a few perks for playing with a headset.
-            listItemRedirect: /bussim/others/vr
-
-          - listItemImage: /bussim-assets/images/others/weather.webp
-            listItemTitle: Weather
-            listItemDescription: >-
-              The weather is a visual feature in Bus Simulator that has zero impact to the game-play, 
-              but adds both visuals and sounds depending on what weather is currently active as you wait for the next event.
-            listItemRedirect: /bussim/others/weather
+content: |
+  !!LISTITEM IMAGE:"/bussim-assets/images/others/billboards.webp" TITLE:"Billboards" DESCRIPTION:" Billboards are props that appears on the sides of the road around every 3 minutes and 30 seconds. Often showcasing advertisements from companies." REDIRECT:"/bussim/others/billboards"
+  !!LISTITEM IMAGE:"/bussim-assets/images/others/bus-radio-icon.webp" TITLE:"Bus Radio" DESCRIPTION:"The Radio is a functional prop in The Bus in Bus Simulator. It plays a large variety of songs and intermissions around the bus, and can be listened to via Airpods<" REDIRECT:"/bussim/others/bus-radio"
+  !!LISTITEM IMAGE:"/bussim-assets/images/others/bus-cola-bandolier.webp" TITLE:"Bus-Cola Bandolier" DESCRIPTION:"The Bus-Cola Bandolier is an official accessory that you can buy in the Roblox Marketplace." REDIRECT:"/bussim/others/bus-cola-bandolier"
+  !!LISTITEM IMAGE:"/bussim-assets/images/others/commands.webp" TITLE:"Commands" DESCRIPTION:"Commands are a feature in Bus Simulator used to change small elements of the game, such as chat tag customisation and private server commands." REDIRECT:"/bussim/others/commands"
+  !!LISTITEM IMAGE:"/bussim-assets/images/others/cosmetics.webp" TITLE:"Cosmetics" DESCRIPTION:"Cosmetics are custom-made accessories tailored to a specific user with custom effects and sounds, mainly to NobleReign's friends. They may also appear in NobleReign's other games as well." REDIRECT:"/bussim/others/cosmetics"
+  !!LISTITEM IMAGE:"/bussim-assets/images/others/diy-mini-bus.webp" TITLE:"D.I.Y. Mini-Bus" DESCRIPTION:"The D.I.Y. Minibus is an official accessory that you can buy in the Roblox Marketplace." REDIRECT:"/bussim/others/diy-mini-bus"
+  !!LISTITEM IMAGE:"/bussim-assets/images/others/games.webp" TITLE:"Games" DESCRIPTION:"Games are small, classic minigames one can play to pass the time in Bus Simulator, most of which are in the Gameboy Advance or the Roemulator." REDIRECT:"/bussim/others/games"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/gps.webp" TITLE:"GPS Locations" DESCRIPTION:"The GPS Locations are flavor text locations randomly made by the GPS. This attempts to document all of it." REDIRECT:"/bussim/locations/gps-locations"
+  !!LISTITEM IMAGE:"/bussim-assets/images/others/new-years.webp" TITLE:"New Years" DESCRIPTION:"The New Years is a passive event that happens every hour during December 31st to January 1st of every year. During this time, you'll recieve different rewards every hour." REDIRECT:"/bussim/others/new-years"
+  !!LISTITEM IMAGE:"/bussim-assets/images/others/news.webp" TITLE:"News" DESCRIPTION:"News, or called News Articles or sometimes the News Reporter, is a chat feature in Bus Simulator. Every so often, it would report on something to make chat much less empty aside from shouts." REDIRECT:"/bussim/others/news"
+  !!LISTITEM IMAGE:"/bussim-assets/images/others/pearcoin.webp" TITLE:"<float>hr[Pearcoin^(TM)]</float>" DESCRIPTION:"The <float>hr[Pearcoin^(TM)]</float> is a gamepass that is only obtainable through Pear, or through somebody's inventory, and costs 2 R$ to purchase." REDIRECT:"/bussim/others/pearcoin"
+  !!LISTITEM IMAGE:"/bussim-assets/images/others/ranks-tags.webp" TITLE:"Ranks/Tags" DESCRIPTION:"Ranks and tags are cosmetic tags that appear before your username and are obtained in many ways." REDIRECT:"/bussim/others/ranks-tags"
+  !!LISTITEM IMAGE:"/bussim-assets/images/others/reputation.webp" TITLE:"Reputation" DESCRIPTION:"Reputation (or more commonly known as 'rep') is a statistic in Bus Simulator that works either as collection for milestones like heart tags, or currency for permanent items, and it also has two different forms, both of which can be obtained in different ways." REDIRECT:"/bussim/others/reputation"
+  !!LISTITEM IMAGE:"/bussim-assets/images/others/tv.webp" TITLE:"TV" DESCRIPTION:"The Television, or TV for short, is an interactive prop that appears both in he Bus and Noble's House." REDIRECT:"/bussim-assets/images/others/vehicles.webp"
+  !!LISTITEM IMAGE:"/bussim-assets/images/others/vehicles.webp" TITLE:"Vehicles" DESCRIPTION:"Vehicles are moving props that go alongside The Bus and may sometimes collide with each other, often making the game more lively." REDIRECT:"/bussim/others/vehicles"
+  !!LISTITEM IMAGE:"/bussim-assets/images/others/vr.webp" TITLE:"VR" DESCRIPTION:"VR is a platform that you can use to play Bus Simulator in, and comes with a few perks in doing so. This page provides a guide and other things related to VR." REDIRECT:"/bussim/others/vr"
+  !!LISTITEM IMAGE:"/bussim-assets/images/others/weather.webp" TITLE:"Weather" DESCRIPTION:"The weather is a visual feature in Bus Simulator that has zero impact to the game-play, but adds both visuals and sounds depending on what weather is currently active as you wait for the next event." REDIRECT:"/bussim/others/weather"

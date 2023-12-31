@@ -1,39 +1,33 @@
+editable: True
 page:
-  title: Meygaphone
-  description: Meygaphone~ is similar to the Megaphone.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Meygaphone
-  tags: meygaphone ex, paid item, item that makes you talk to other server, item that makes you talk like a furry
+  title: Meygaphone~
+  description: Meygaphone~ is similar to the Megaphone. The only difference is that there's an emoji of 2 paws when doing a shout, and some words are 'furryified'. Costing around 62 R$.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: cursed megaphone, meygaphone, furry megaphone, 62 bux is still 62 bux
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Meygaphone
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         Meygaphone~ is similar to the <a href="/bussim/items/megaphone">Megaphone</a>. 
-         The only difference is that there's an emoji of 2 paws when doing a shout, 
-         and some words are 'furryified'. 
-         'Oofs' are also replaced with 'meows'
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-    - type: section
-      content:
-        title: Trivia
+content: |
+  "Purr across the time-space continnum!" -"Meygaphone~"
 
-    - type: tree
-      content:
-        - name: This gamepass used to cost way more, that being 621 Robux. It was later decreased to 62. People who owned it when it was still 621 robux has a different version of the Meygaphone with a halved cooldown. The tool is named "Founders Meygaphone~"
+  ##[Info]
+  Meygaphone~ is similar to the Megaphone. The only difference is that there's an emoji of 2 paws when doing a shout, and some words are 'furryified'. Costing around 62 R$.
+  \n
+  'Oofs' are also replaced with 'meows'.
+  
+  ##[Trivia]
+  - This gamepass used to cost way more, that being 621 Robux. It was later decreased to 62.
+    - People who owned it when it was still 621 robux has a different version of the Meygaphone with a halved cooldown. The tool is named "Founders Meygaphone~"
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/meygaphone.webp
-          
+  !!GALLERY [/assets/bussim/images/items/meygaphone.webp]

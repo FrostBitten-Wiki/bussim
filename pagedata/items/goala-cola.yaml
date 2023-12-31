@@ -1,37 +1,30 @@
+editable: True
 page:
   title: Goala Cola
-  description: The Goala Cola is an item you can obtain at the GOATed Gas Station.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Goala Cola
-  tags: goala cola, event item, cola that makes you do an animation
+  description: The Goala Cola is an item you can obtain at the GOATed Gas Station. The item is purely cosmetic, making you do a little dance while "Goooaaaalllll!" plays after drinking it. 
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: goala cola, those cheap drinks that cannot be bought, wh whats with the amount of As, what the????
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Goala Cola
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Goala Cola is an item you can obtain at the GOATed Gas Station. 
-         The item is purely cosmetic, 
-         making you do a little dance while "Goooaaaalllll!" plays after drinking it.
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-    - type: section
-      content:
-        title: Trivia
+content: |
+  "GOAAAAAAAAAAAAAAAAAAAAAAAAAAAAL" -"Goala Cola"
 
-    - type: tree
-      content:
-        - name: The item is clearly based off of the <a href="https://www.roblox.com/catalog/28672001/Goala-Cola">official gear</a>.
+  ##[Info]
+  The Goala Cola is an item you can obtain at the [GOATed Gas Station](/bussim/events/goated-gas-station). The item is purely cosmetic, making you do a little dance while "Goooaaaalllll!" plays after drinking it. 
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/goala-cola.webp
+  ##[Trivia]
+  - The item is based off of the actual gear on Roblox.
+
+  !!GALLERY [/assets/bussim/images/items/goala-cola.webp]

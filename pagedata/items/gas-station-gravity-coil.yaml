@@ -1,38 +1,31 @@
+editable: True
 page:
   title: Gas Station Gravity Coil
-  description: The Gas Station Gravity Coil is a tool obtainable by purchasing it for 15 passenger rep during the Goat Station Event event,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Gas Station Gravity Coil
-  tags: gas station gravity coil, event item, paid item, item that makes you float
+  description: The Gas Station Gravity Coil is a tool obtainable by purchasing it for 15 Passenger Reputation during the Goat Station Event, or by stealing it. 
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: gas station gravity coil, gravity coil, gravity, coil
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-html:
   header:
-    title: Gas Station Gravity Coil
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
-  pageContent:
-    - type: quote
-      content:
-        quote: Everything's always slightly off when it comes from a gas station..
-        author: Gas Station Gravity Coil Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Gas Station Gravity Coil is a tool obtainable by purchasing it for 15 passenger rep during the <a href="/bussim/events/goated-gas-station">Goat Station Event</a> event, 
-         or by stealing it.
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-         <br><br>
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-         Upon equipping, your character's gravity will be reduced by a small amount, 
-         less than half as effective as the normal Gravity Coil. 
-         It'll also play a flangey sounding gravity coil sound effect, 
-         further driving the idea that this is a weaker item than one would expect.
-         <br><br>
+content: |
+  "Everything's always slightly off when it comes from a gas station.." -"Gas Station Gravity Coil"
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/gas-station-gravity-coil.webp
+  ##[Info]
+  The Gas Station Gravity Coil is a tool obtainable by purchasing it for [15 Passenger Reputation](/bussim/others/reputation) during the [Goat Station Event](/bussim/events/goated-gas-station), or by stealing it. 
+  \n\n 
+  Upon equipping, your character's gravity will be reduced by a small amount, less than half as effective as the normal Gravity Coil.
+  \n\n 
+  It'll also play a flangey sounding gravity coil sound effect, further driving the idea that this is a weaker item than one would expect. 
+
+  !!GALLERY [/assets/bussim/images/items/gas-station-gravity-coil.webp]

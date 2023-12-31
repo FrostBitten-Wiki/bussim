@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.75">
+        <title>Bus Simulator: {{ title }}</title>
+
+        <link rel="stylesheet" href="/assets/bussim/style.css">
+            
+        <audio id="soundSource" style="display: none;">
+            <source type="audio/mp3">
+        </audio>
+    </head>
+
+    <body>
+        <style>
+            #wikiContent {
+                font-family:'Starbound';
+                color: white;
+                word-spacing: 5px;
+                text-shadow: 0 2px 0 #000000;
+            }
+
+            #searchScreen {
+                position: fixed;
+                height: 50%; width: 100vw;
+                background: #10099680;
+                backdrop-filter: blur(5px);
+
+                transition: bottom 1s;
+            }
+
+            #results {
+                height: 435px;
+                overflow: auto;
+                scrollbar-width: thin;
+                scrollbar-color: transparent transparent;
+            }
+
+            #results::-webkit-scrollbar {
+                width: 6px;
+            }
+
+            #results::-webkit-scrollbar-thumb {
+                background-color: transparent;
+            }
+
+            table {
+                border: none;
+                border-collapse: collapse;
+                width: 100%;
+                margin-bottom: 20px;
+                box-sizing: border-box;
+                font-family: "Starbound";
+                background-color: #070446;
+                overflow-x: scroll;
+            }
+
+            th {
+                background-color: #05032e;
+            }
+
+            tr {
+                border-bottom: none;
+                transition: 500ms;
+            }
+
+            td, th {
+                padding: 12px;
+                text-align: left;
+            }
+
+            tr:hover {
+                background-color: #0d0774;
+            }
+
+            @keyframes floatAnimation {
+                0%, 100% {
+                  transform: translateY(0);
+                }
+                50% {
+                  transform: translateY(-5px);
+                }
+            }
+
+            float {
+                display: inline-block;
+                font-size: 24px;
+                word-spacing: -5px;
+            }
+
+            float text {
+                color: grey;
+                font-size: 16px;
+                display: inline-block;
+                animation: floatAnimation 1s ease-in-out infinite alternate;
+                animation-delay: var(--delay);
+            }
+
+            .previewBg {
+                background-color: rgba(0,0,0,.8);
+                backdrop-filter: blur(2px);
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                z-index: 10;
+            }
+
+            .previewImg {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                animation: grow .4s forwards;
+            }
+
+            @keyframes grow {
+                from {
+                    opacity: 0;
+                    transform: translate(-50%, -50%) scale(85%);
+                } to {
+                    opacity: 1;
+                    transform: translate(-50%, -50%) scale(100%);
+                }
+            }
+
+            .hr-gradient {
+                border: none;
+                height: 2px;
+                margin-bottom: 13px;
+                background: linear-gradient(to right, #b5b5b5, transparent 45%) !important;
+            }
+
+            #results > div > div {
+                background-color: rgba(25, 21, 117, 0.6) !important;
+                border-radius: 5.76px;
+            }
+
+            @keyframes wave {
+                0% {
+                    transform: translateY(15%);
+                } 50% {
+                    transform: translateY(-15%);
+                } 100% {
+                    transform: translateY(15%);
+                }
+            }
+        </style>
+
+        <div style="position: fixed; top: 0; width: 100%;">
+            <div class="tooltip" id="custom-tooltip"></div>
+        </div>
+
+        <div style="width: 100%; z-index: 1;">
+            <div style="position: absolute; top: 0; width: 100vw; z-index: -1;">
+                <img id="bannerImage" src="{{ pageBanner }}" width="100%" height="250" style="object-fit: cover; user-select: none;">
+                <div style="position: absolute; top: 0; height: 250px; width: 100%; background: linear-gradient(to bottom, transparent 0%, rgba(8, 4, 83, 1) 90%);"></div>
+            </div>
+
+            <div style="transition: margin 500ms; margin-top: 50px; margin-left: 10vw; margin-right: 10vw;">
+                <div style="width: 80vw;">
+                    <div style="z-index: 2;">
+                        <text style="font-size: 50px;" id="title">{{ title }}</text><br>
+                        <text style="font-size: 17px;" id="description">{{ pageDescription }}</text><br><br>
+                    </div>
+                </div>
+
+                <div style="width: 80vw;">
+                    <div id="wikiContent">
+                        {{ content }}
+                    </div>
+
+                    <div style="margin-top: 10px; margin-bottom: 20px;" id="attributions">
+                    </div>
+                    
+                    <br><br><br><br>
+                </div>
+                
+            </div>
+        </div>
+
+        <script>
+            const previewImage = image => {
+                console.log(image)
+
+                const bg = document.createElement("div")
+                bg.className = "previewBg"
+                document.body.prepend(bg)
+
+                bg.addEventListener("click", () => bg.remove())
+
+                const img = image.cloneNode(true)
+                img.onclick = ""
+                img.className = "previewImg"
+                bg.appendChild(img)
+            }
+        </script>
+
+        <script src="https://unpkg.com/gsap@3.9.0"></script>
+        <script src="/assets/bussim/scripts/others.js"></script>
+        <script src="/assets/bussim/scripts/tooltip.js"></script>
+        <script src="/assets/bussim/scripts/dialogueEmulator.js"></script>
+        <script src="/assets/bussim/scripts/wave.js"></script>
+    </body>
+</html>

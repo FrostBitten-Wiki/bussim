@@ -1,54 +1,28 @@
+editable: True
 page:
-  title: In The Sky
-  description: The Hyperspeed event is an event that causes the bus to suddenly speed up,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, In The Sky
-  tags: in the sky, events
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: In The Sky
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>InTheSky</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/events/inthesky2.webp
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-          The In The Sky event, 
-          or known as Falling from the Sky event, 
-          is an event that teleports the bus instantly into the skies, 
-          making the bus fall down at immense speeds. 
-          It is highly recommended not to jump or go to the third floor as you will be instantly blown away from the bus. 
-          Eventually though, 
-          it ends as the bus falls down back on the ground.
+attributions: []
 
-          <br><br>
+content: |
+  ##[Info]
+  Placeholder Info
 
-          While this event isn't dangerous in the slightest, 
-          you are almost guaranteed to trip over the invisible road once you are blown away, 
-          only being protected thanks to the invisible barrier at the end of the road.
+  ##[Trivia]
+  - Trivia Here
 
-
-
-
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: This is one of the events that changes the map, changing it to the <a href='/bussim/events/space'>Space</a> map.
-        - name: Oddly enough, while the event states that the bus is falling from the sky, the player when in mid-air will instead fall straight into the road horizontally, rather than flying upwards as well.
-        - name: This event is the fastest event in the game, with 80 mph during the early-mid stages and 185 mph (both shown in the speedometer) in the last stage, this is theoretically enough to time travel as discussed in the <a href='/bussim/events/time-travel'>Time Travel</a> Event, but it can be noted that most of it is likely vertical movement.
-        - name: The runtime of this event is 45 seconds, which has the exact same runtime as both the <a href='/bussim/events/bus-birthday'>Bus Birthday</a> and the <a href='/bussim/events/space'>Space</a> events, but also a really similar uptime with the <a href='/bussim/events/exploiter'>Exploiter</a> event.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/events/inthesky2.webp
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

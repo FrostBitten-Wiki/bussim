@@ -1,47 +1,28 @@
+editable: True
 page:
-  title: Gandalf
-  description: The Gandalf event is a reference to The Lord of the Rings,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Gandalf
-  tags: gandalf, events, you shall not pass
-
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
-html:
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
+
   header:
-    title: Gandalf
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Gandalf</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/events/gandalf.webp
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-          The Gandalf event is a reference to <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)">The Lord of the Rings</a>, 
-          where Gandalf stops the bus while yelling "YOU SHALL NOT PASS!"
+attributions: []
 
-          <br><br>
+content: |
+  ##[Info]
+  Placeholder Info
 
-          This lasts for quite a while eventually causing the driver to become impatient. 
-          Eventually Gandalf disappears and the Bus continues its journey as usual.
+  ##[Trivia]
+  - Trivia Here
 
-
-
-
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: The event runtime is 50 seconds, similar to the <a href='/bussim/events/glacier-cave'>Glacier Cave</a> event.
-        - name: This event is a good opportunity to get some <a href='/bussim/items/ice-cream'>Ice Cream</a> from the Ice Cream truck if its nearby the bus, or if you have the <a href='/bussim/items/mini-bus'>Mini-Bus</a> or <a href='/bussim/items/hoverboots'>Hoverboots</a>.
-        - name: You can stand on the bubble surrounding Gandalf until it disappears after the event ends.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/events/gandalf.webp
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

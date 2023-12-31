@@ -1,49 +1,28 @@
+editable: True
 page:
-  title: Cloned Bus
-  description: The Clone Event is an event in Bus Simulator,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Cloned Bus
-  tags: cloned bus, events
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Cloned Bus
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Clone</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/events/clone1.webp
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Clone Event is an event in Bus Simulator, 
-         where the bus gets cloned. 
-         Eventually it turns out it's unstable and disappears shortly after.
+attributions: []
 
-         <br><br>
+content: |
+  ##[Info]
+  Placeholder Info
 
-         In the cloned bus you may find everything from the normal bus, 
-         but the driver seat isn't working properly, 
-         the next stop and eyes are different, 
-         and some features aren't usable.
+  ##[Trivia]
+  - Trivia Here
 
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: The cloned bus may be quite hard to get to if it happens in a tunnel, as you are likely to bump your head and fall, and while a bit unnecessary, you can use <a href='/bussim/items/hoverboots'>Hoverboots</a> or <a href='/bussim/items/helicopter'>Helicopter</a> to get there, or simply waiting for the bus to leave the tunnel.
-        - name: This is one of the more earlier events in this game.
-        - name: Despite the name suggesting it being a clone, it doesn't clone any modifications to the Bus like <a href='/bussim/locations/the-bus'>Seasonal Changes</a> nor <a href='/bussim/items/edit'>Edits</a>.
-        - name: The runtime for this event is 1 minute and 25 seconds, similar to the <a href='/bussim/events/teddy'>MicSpam</a> event.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/events/clone1.webp
-          - /bussim-assets/images/events/clone2.webp
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

@@ -1,61 +1,28 @@
+editable: True
 page:
-  title: Acid Rain
-  description: Acid Rain is an event where acid starts raining from the sky,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Acid Rain
-  tags: acid rain, events
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
 
-html:
   header:
-    title: Acid Rain
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>AcidRain</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/events/acid_rain.webp
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
+attributions: []
 
-    - type: section
-      content:
-        title: Info
-        description: >-
-         Acid Rain is an event where acid starts raining from the sky, 
-         damaging everyone as long as the sky is exposed, 
-         whether it'd be outside, 
-         by the stairs, 
-         or even the third floor. 
-         The event can be easily avoided if you stay on the second floor, 
-         or if the bus is in a tunnel.
+content: |
+  ##[Info]
+  Placeholder Info
 
-         <br><br>
-         
-         The damage during most of the event is enough to outpace healing items, 
-         however in the last stage it isn't fast enough to outpace <a href='/bussim/items/cola'>Cola</a>, 
-         <a href='/bussim/items/homemade-coffee'>Homemade Coffee</a>, 
-         and other healing items.
+  ##[Trivia]
+  - Trivia Here
 
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: The acid rain used to be physical parts, and would heavily lag the game, depending on how many players are in the server.
-        - name: Any parts made using btools (gained via admin commands) can protect players from the acid rain, although the particles will still spawn and fall past the parts, dealing no damage.
-        - name: Acid rain is a real phenomenon, albeit much weaker and is usually caused by pollution and elevated acidity.
-
-    - type: section
-      content:
-        title: Technical Trivia
-
-    - type: tree
-      content:
-        - name: "Unlike other events, this particular event doesn't have any <highlight>Height Immunity</highlight> and instead checks if the player's HumanoidRootPart has any collidable part above it, whether it'd be from the base game or from <a href='/bussim/items/edit'>F3X</a> with its range being around 65 studs high. If it succeeds: you won't take any damage, otherwise you will."
-          children:
-            - name: When using commands or items that allows you to resize your character, the studs required for you to not take damage will also change significantly, albeit not drastically.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/events/acid_rain.webp
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

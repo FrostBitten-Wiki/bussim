@@ -1,42 +1,28 @@
+editable: True
 page:
-  title: Soda Stand
-  description: Soda Stand is an event where the bus will stop next to a random soda stand.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Soda Stand
-  tags: soda stand, event
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Soda Stand
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>LemonSoda</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/events/soda_stand2.webp
+    title: Placeholder
+    description: |
+      Category: [Events](/bussim/events)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: section
-      content:
-        title: Info
-        description: >- 
-          Soda Stand is an event where the bus will stop next to a random soda stand. 
-          The driver says that someone is handing out free soda.
-          Players can click on MiroCev and can receive get a <a href='/bussim/items/lemon-soda'>Lemon Soda</a>.
-          Within less than a minute, 
-          the driver mentions the soda killed their dog and that they have to evacuate to the bus. 
-          This is referenced in a news article.
-    - type: section
-      content:
-        title: Trivia
+attributions: []
 
-    - type: tree
-      content:
-        - name: This is one of the few events to have items that can be claimed by players.
-        - name: The Lemon Soda, along with the <a href='/bussim/items/burger'>Bloxdonalds burger</a> and <a href='/bussim/items/expired-taco'>Expired Taco</a>, are the only items known to cause the players screen to become green and also cause a distorted sound to be heard.
-        - name: The runtime for this event is 1 minute and 57 seconds, making the event slightly moderate in length.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/events/soda_stand2.webp
-          
+content: |
+  ##[Info]
+  Placeholder Info
+
+  ##[Trivia]
+  - Trivia Here
+
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

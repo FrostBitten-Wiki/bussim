@@ -1,51 +1,32 @@
+editable: True
 page:
   title: Lemon Soda
-  description: The Lemon Soda is an item in Bus Simulator that is obtained from its own respective event.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Lemon Soda
-  tags: lemon soda, event item, expired lemon soda
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: piss soda, lemon soda, yellow soda, questionable soda, yellow cola, lemon cola
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-html:
   header:
-    title: Lemon Soda
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
-  pageContent:
-    - type: buttons
-      content:
-        buttons:
-          - ["<highlight>Lemon Soda</highlight>", "/bussim/items/lemon-soda"]
-          - ["Lemonade", "/bussim/items/lemon-soda/lemonade"]
+    description: |
+      Category: [Items](/bussim/items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-    - type: section
-      content:
-        size: normal
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
-    - type: quote
-      content:
-        quote: "I don't trust this thing."
-        author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-          The Lemon Soda is an item in Bus Simulator that is obtained from its own respective event. 
-          When drank, it deals 25 damage to the player, 
-          and causes nausea as well. 
-          Spitting noises may also be heard.
+content: |
+  "I don't trust this thing." -"Lemon Soda"
+  !!BUTTONS [<highlight>Lemon Soda</highlight>,location.href=''|Lemonade,location.href='/wiki/bussim/items/lemonade']
+  ##[Info]
+  The Lemon Soda is an item in Bus Simulator that is obtained from its own respective event. When drank, it deals 25 damage to the player, and causes nausea as well. Spitting noises may also be heard. 
 
-    - type: section
-      content:
-        title: Trivia
-    - type: tree
-      content:
-        - name: In one of the many news reports, the anchor states that their dog died drinking lemon soda. This alludes to the fact that it damages players upon consumption, and dogs are easily hurt as well.
-          children:
-            - name: The driver also mentions it killing their dog before the event ends.
-        - name: Although the damage may be substantial for one, it is heaps less dangerous compared to other colas like Bad Cola or Red Cola, both of which instantly kills you.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/lemon-soda.webp
+  ##[Trivia]
+  - In one of the many news reports, the anchor states that their dog died drinking lemon soda. This alludes to the fact that it damages players upon consumption, and dogs are easily hurt as well. 
+    - The driver also mentions it killing their dog before the event ends.
+  - Although the damage may be substantial for one, it is heaps less dangerous compared to other colas like [Bad Cola](/bussim/items/bad-cola), which instantly kills you.
+
+  !!GALLERY [/assets/bussim/images/items/lemon-soda.webp]
