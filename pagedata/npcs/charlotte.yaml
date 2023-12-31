@@ -1,10 +1,10 @@
-editable: True
+editable: true
 page:
   title: Charlotte
   description: Charlotte is a NPC that can be found on the Coffee Shop event.
-    
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npc
-  
+
   tags: npcname, npc
   ignore: ignore
 
@@ -12,14 +12,14 @@ page:
     title: Charlotte
     description: |
       Category: [NPCs](/bussim/npcs)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/coffee-shop.webp
 
 attributions:
   - Edited by Nyx (@nyxical)
 
-content: |
+content: |-
   !!INFOBOX TITLE:"Stub Content" COLOR:"#ff8c2e" TEXT:"*\"not much to talk here, but.. well..\"* -Efeuc\n<small>This page is a stub, it may not contain all of the information in the game; so adding more information to this page is always appreciated!</small>"
 
   ##[Info]
@@ -27,7 +27,7 @@ content: |
   They also used to work on the [GOATed Gas Station](/bussim/events/goated-gas-station), although they immediately got fired since they blew up the station.
 
   ##[Favourite Drink]
-  Charlotte's favourite drink is [Hot Chocolate](/bussim/events/coffee-shop). This gives you 1 Passenger Rep.
+  Charlotte's favourite drink is [Hot Chocolate](/bussim/events/coffee-shop). This gives you either 1 Passenger Rep or 1 Driver Rep.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"charlotteemulator" SID:"start" URL:"/assets/bussim/emulatorData/charlotte.json"
