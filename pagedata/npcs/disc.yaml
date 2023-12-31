@@ -29,7 +29,7 @@ content: |-
   Disc is a white goat wearing a Day Light Top Hat, Floating White Crown, Blue Reflective Visor Glasses, Golden Antlers of Honor, and a custom made Discord-branded shirt.
 
   ##[Favourite Drink]
-  Disc's favourite drink is [Vanilla Iced Coffee](/bussim/events/coffee-shop). This gives you either 2 Passenger Rep or 2 Driver rep, however this may only be done at the Cafe event.
+  Disc's favourite drink is [Vanilla Iced Coffee](/bussim/items/cafe-coffee/recipes). This gives you either 2 Passenger Rep or 2 Driver rep, however this may only be done at the Cafe event.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"discemulator" SID:"start" URL:"/assets/bussim/emulatorData/disc.json"

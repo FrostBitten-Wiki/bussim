@@ -24,7 +24,7 @@ content: |-
   RedNoob5050 (AKA Red) is an employee as [Bloxdonalds](/bussim/events/bloxdonalds) who gives you the Burger. He also works as a developer in [Kit Battle](https://gla.dog/kit-beta), one of NobleReign's games.
 
   ##[Favourite Drink]
-  Red's favourite drink is [Strawberry Smoothie](/bussim/events/coffee-shop). This gives you either 1 Passenger Rep or 1 Driver Rep.
+  Red's favourite drink is [Strawberry Smoothie](/bussim/items/cafe-coffee/recipes). This gives you either 1 Passenger Rep or 1 Driver Rep.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"redemulator" SID:"start" URL:"/assets/bussim/emulatorData/red.json"

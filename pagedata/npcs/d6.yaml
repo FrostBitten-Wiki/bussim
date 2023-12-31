@@ -33,7 +33,7 @@ content: |-
   a White Kobold snout and frills, white fur, a White Lizard Tail, and the Hexxed symbol on his chest.
 
   ##[Favourite Drink]
-  D6's favourite drink is [The Sludge](/bussim/events/coffee-shop). This gives you either 4 Passenger Rep or 4 Driver Rep.
+  D6's favourite drink is [The Sludge](/bussim/items/cafe-coffee/recipes). This gives you either 4 Passenger Rep or 4 Driver Rep.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"d6emulator" SID:"start" URL:"/assets/bussim/emulatorData/d6.json"
