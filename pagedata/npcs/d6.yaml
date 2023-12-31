@@ -1,25 +1,25 @@
-editable: True
+editable: true
 page:
   title: D6
   description: D6 is an NPC in the GOATed Gas Station event, as well as an artist.
-    
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim banana npc
-  
+
   tags: d6, station npc, npc
 
   header:
     title: D6
     description: |
       Category: [NPCs](/bussim/npcs)
-    
-    image: ""
+
+    image: ''
     imageBanner: /bussim-assets/images/events/goat_station1.webp
 
-attributions: 
+attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical)
 
-content: |
+content: |-
   ##[Info]
   D6 is an NPC in the [GOATed Gas Station](/bussim/events/goated-gas-station) event, as well as an artist.
 
@@ -33,7 +33,7 @@ content: |
   a White Kobold snout and frills, white fur, a White Lizard Tail, and the Hexxed symbol on his chest.
 
   ##[Favourite Drink]
-  D6's favourite drink is [The Sludge](/bussim/events/coffee-shop). This gives you 4 Passenger Rep.
+  D6's favourite drink is [The Sludge](/bussim/events/coffee-shop). This gives you either 4 Passenger Rep or 4 Driver Rep.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"d6emulator" SID:"start" URL:"/assets/bussim/emulatorData/d6.json"
@@ -256,7 +256,7 @@ content: |
                       - Ok.
               - hg[Variant 13]:
                   - "END OF DIALOGUE"
-  
+
   ###[Airhorn-Related "Dialogue"]
   If the airhorn is used repeatedly in close proximity to D6:
   - The player automatically unequips the airhorn.
@@ -273,5 +273,5 @@ content: |
   - When Bus Simulator got age restricted for 14+ for the first time, the reasoning as to why it was restricted was because D6's "why havent you been flattened by a 2 ton slab of concrete" was more than enough for the game to receive a Violence tag.
       - This was appealed however, but it wasn't the last time Bus Simulator had been age-restricted before.
   - D6 is the only NPC to respond when the player spams the [Airhorn](/bussim/items/airhorn), but without talking once.
-  
+
   !!GALLERY [/assets/bussim/images/npcs/banana.webp]  
