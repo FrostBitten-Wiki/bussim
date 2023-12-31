@@ -1,228 +1,26 @@
+editable: True
 page:
-  title: Games
-  description: In Bus Simulator, you are able to play smaller games while waiting for events to arise mostly thanks to both the Gameboy Advance,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Games
+  title: Placeholder
+  description: Placeholder
 
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim placeholder
+
+  tags: placeholder, others
+
+  header:
+    description: |
+      Category: <a href="/bussim/others">Others</a>
+
+    imageBanner: /assets/bussim/images/banner.jpg
+    
 attributions:
   - "Ported By PolyframeX (@polyframex)"
 
-html:
-  header:
-    title: Games
-    description: >- 
-      Category: <a href="/bussim/others">Others</a>
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
-  
-  pageContent:
+content: |
+  ##[Info]
+  Placeholder
 
-    - type: section
-      content:
-        size: normal
-        title: Info
-        description: >- 
-          In Bus Simulator, 
-          you are able to play smaller games while waiting for events to arise mostly thanks to both the <a href='/bussim/items/gameboy-advance'>Gameboy Advance</a>, 
-          and the <a href='/bussim/items/roemulator'>RoEmulator</a>, 
-          while three of them are locked behind a paywall, 
-          you can still have extra fun while waiting between events on the bus.
+  ##[Trivia]
+  - Placeholder
 
-    - type: section
-      content:
-        size: normal
-        title: Simon Says
-        description: >-
-         Simon Says is a simple memory game that tests how long you can remember the pattern. 
-         Every round randomizes the color sequence, 
-         and adds one additional color to it (1 -> 2 -> 3...). 
-         If you beat the global/server high score, 
-         you will hear a party blower, 
-         confetti will pop out, 
-         and your username/display name will show up on the slip of paper next to it, 
-         and has your quote underneath it, 
-         if you set one via !quote.
-
-    - type: section
-      content:
-        size: normal
-        title: RoEmulator
-        description: >- 
-          If you purchased the <a href='/bussim/items/roemulator'>RoEmulator</a> gamepass, 
-          you can play three games: 
-          Adventure Island, 
-          Race the Sunset, 
-          and Lunar Lander.
-
-    - type: section
-      content:
-        size: small
-        title: Adventure Island
-        description: >- 
-          <br>
-          Adventure island is a side-scroller game that lasts up until the 4th level, 
-          in which it ends. 
-          You play as a caveman, 
-          throwing axes at enemies and collecting fruits, 
-          while reaching the goal without spending too much energy or dying.
-
-          <br><br>
-
-          Each fruit will give you more energy, 
-          and energy depletes over time. 
-          You can also encounter objects that can boost your movement along the stage.
-
-    - type: section
-      content:
-        size: small
-        title: Race The Sunset
-        description: >- 
-          <br>
-          Race the Sunset is an endless side-scroller game where you play as a slime dashing ontop of islands, 
-          collecting orbs to get points. 
-          The further you get, 
-          the faster the game is, 
-          and the more points you score.
-
-    - type: section
-      content:
-        size: small
-        title: Lunar Lander
-        description: >- 
-          <br>
-          Lunar Lander is a space-themed flying game where you have to pick up a box and bring it back to the surface. 
-          The game only has 8 levels, 
-          varying in difficulty. 
-          If you go too fast and crash into a wall, 
-          fail to escort the box, 
-          among a few other methods, 
-          it's game over.
-
-    - type: section
-      content:
-        size: normal
-        title: Gameboy Advance
-        description: >- 
-          If you own the <a href="https://www.roblox.com/game-pass/7313794/Game-Cartridge">Cartridge</a> gamepass, 
-          or found it in <a href='/bussim/events/nobles-house'>Noble's House</a>, 
-          you can invite another player to play game's with them. 
-          The game's are based off of real games you can also play in real life.
-
-    - type: section
-      content:
-        size: small
-        title: Tic-Tac-Toe
-        description: >- 
-          <br>
-          You play on a 3x3 board, 
-          with an objective to get three of your symbol (X or O's) in a row. 
-          Host always plays as X, 
-          and goes first. 
-          The game will be a tie if nobody gets a row.
-
-    - type: section
-      content:
-        size: small
-        title: Connect Four
-        description: >- 
-          <br>
-          You play on an 8x8 tile wall, 
-          with an objective to get 4 of your matching colors in a row. 
-          It can be done either horizontally, 
-          vertically, 
-          or diagonally. 
-          The host always plays as red and goes first.
-
-    - type: section
-      content:
-        size: small
-        title: Battle Wagons
-        description: >- 
-          <br>
-          You and the other player set up five wagons on a 11x9 piece, 
-          and try guessing where the enemy wagons are on the top half. 
-          The players get a five-tile long wagon, 
-          as well as four, 
-          three (x2), 
-          and two-tile wagons. 
-          Both players start with five shoots, 
-          one per wagon. 
-          If you lose a wagon, 
-          you get one less shot, 
-          making your turns more strategic the more you lose your wagons. 
-          The game is more focused on trial and error, 
-          to find where the enemy wagons are. 
-          White pegs on the top of the board is a miss, 
-          while red ones are a hit.
-
-    - type: section
-      content:
-        size: small
-        title: Friday Night
-        description: >- 
-          <br>
-          You can challenge a friend to a rap battle, 
-          and play up to seven songs, 
-          some with a Hard difficulty, 
-          to see who's better at beatboxing. 
-          The game also has customization, 
-          like custom keys per arrow, 
-          up/down scroll, 
-          and more.
-
-    - type: section
-      content:
-        size: small
-        title: Rock Gun Knife
-        description: >- 
-          <br>
-          You and a friend pick between Rock &#128511, 
-          Paper &#128220, 
-          Scissors &#9986, 
-          Gun &#128299, 
-          Shield &#9960, 
-          and Knife &#128298. 
-          Knife only appears four rounds into the game, 
-          and whoever clicks on it first wins the game with 9999 points. 
-          You can also win by getting 3 points prior to the Knife being an option too.
-
-    - type: section
-      content:
-        size: normal
-        title: Counters
-        description: >- 
-          Each element counters the following opposing elements:
-
-    - type: tree
-      content:
-        - name: Rock
-          children:
-            - name: Scissors
-            - name: Shield
-        - name: Paper
-          children:
-            - name: Rock
-            - name: Shield
-        - name: Scissors
-          children:
-            - name: Paper
-            - name: Shield
-        - name: Gun
-          children:
-            - name: Rock
-            - name: Paper
-            - name: Scissors
-        - name: Shield
-          children:
-            - name: Gun
-        - name: Knife
-          children:
-            - name: Rock
-            - name: Paper            
-            - name: Scissors
-            - name: Gun
-            - name: Shield
-
-    - type: gallery
-      content:
-        images: 
-          - /bussim-assets/images/others/games.webp
+  !!GALLERY [/bussim-assets/images/others/billboard/Billboard.webp|/bussim-assets/images/others/billboard/Ad_Billboard.webp]
