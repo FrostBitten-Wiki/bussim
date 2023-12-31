@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=0.75">
-        <title>Bus Simulator: {{ page["title"] }}</title>
+        <title>Wiki Editor</title>
         <link rel="icon" href="/assets/bussim/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="/assets/bussim/style.css">
         <link rel="stylesheet" href="/assets/bussim/editor.css">
@@ -30,29 +30,33 @@
 
                 <script>
                     function updateFile() {
-                        $.ajax({
-                            type: "POST",
-                            url: window.location.pathname.replace("edit", "update-edit"),
-                            contentType: "application/json",
-                            data: JSON.stringify({ 
-                                // embed
-                                "title": $("#embedTitle").val(),
-                                "embedKeywords": $("#embedKeywords").val(),
-                                "embedDescription": $("#embedDescription").val(),
+                        var url = window.location.pathname.replace("edit", "update-edit");
+                        var data = {
+                            "title": document.getElementById("embedTitle").value,
+                            "embedKeywords": document.getElementById("embedKeywords").value,
+                            "embedDescription": document.getElementById("embedDescription").value,
+                            "pageTags": document.getElementById("pageTags").value,
+                            "pageBanner": document.getElementById("pageBanner").value,
+                            "pageDescription": document.getElementById("pageDescription").value,
+                            "content": document.getElementById("content").value,
 
-                                // page
-                                "pageTags": $("#pageTags").val(),
-                                "pageBanner": $("#pageBanner").val(),
-                                "pageDescription": $("#pageDescription").val(),
-                                "content": $("#content").val(),
-                            }),
-                            success: function (data) {
-                                alert(data.message);
+                            "password": document.getElementById("password").value,
+                        };
+
+                        fetch(url, {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
                             },
-                            error: function (data) {
-                                alert("Error updating file");
-                            }
-                        });
+                            body: JSON.stringify(data),
+                        })
+                            .then(response => response.json())
+                            .then(data => {
+                                alert(data.message);
+                            })
+                            .catch(error => {
+                                alert(error);
+                            });
                     }
 
                     function openPreview() {
@@ -64,7 +68,7 @@
                         });
 
                         var targetPage = '/preview';
-                        var windowFeatures = 'width=1000,height=600';
+                        var windowFeatures = 'width=1100,height=600';
                         var newWindow = window.open('', '_blank', windowFeatures);
 
                         fetch(targetPage, {
