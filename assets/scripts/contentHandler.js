@@ -2,7 +2,7 @@ function renderHTML(url) {
     document.getElementById('loadScreen').style.display = "block";
     document.getElementById('loadScreenText').style.display = "flex";
     document.getElementById('loadScreen').style.opacity = 1;
-
+    
     fetch(url.replace("wiki", "api/jinki"))
         .then(response => {
             if (!response.ok) {
@@ -29,14 +29,6 @@ function renderHTML(url) {
         .then(htmlContent => {
             var tempDiv = document.createElement('div');
             tempDiv.innerHTML = htmlContent;
-
-            var scripts = tempDiv.getElementsByTagName('script');
-            for (var i = 0; i < scripts.length; i++) {
-                var script = document.createElement('script');
-                script.text = scripts[i].text;
-                document.head.appendChild(script).parentNode.removeChild(script);
-            }
-            
 
             // set title and description and other stuff
             fetch(url.replace("wiki", "contentinfo"))
@@ -65,6 +57,13 @@ function renderHTML(url) {
             .catch(error => {
                 console.error('Error fetching data:', error);
             });
+
+            var scripts = tempDiv.getElementsByTagName('script');
+            for (var i = 0; i < scripts.length; i++) {
+                var script = document.createElement('script');
+                script.text = scripts[i].text;
+                document.head.appendChild(script).parentNode.removeChild(script);
+            }
             
             window.history.pushState({}, null, url.replace("api/jinki", "wiki"));
             document.getElementById('wikiContent').innerHTML = tempDiv.innerHTML;
