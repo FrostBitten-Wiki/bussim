@@ -1,29 +1,30 @@
-editable: True
+editable: true
 page:
   title: Efeuc
-  description: Efeuc is an NPC that can be seen in the Void Room. He's the best driver in the Bus Simulator universe, and is just chilling in the void area.
-    
+  description: Efeuc is an NPC that can be seen in the Void Room. He's the best driver
+    in the Bus Simulator universe, and is just chilling in the void area.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim efeuc npc
-  
+
   tags: efeuc, void npc, npc
 
   header:
     title: Efeuc
     description: |
       Category: [NPCs](/bussim/npcs)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-attributions: 
+attributions:
   - Edited By Nyx
 
-content: |
+content: |-
   ##[Info]
   Efeuc is an NPC that can be seen in the Void Room. He's the best driver in the Bus Simulator universe, and is just chilling in the void area.
 
   ##[Favourite Drink]
-  Efeuc's favourite drink is ["Decaf"](/bussim/events/coffee-shop). This gives you 1 Passenger Rep.
+  Efeuc's favourite drink is ["Decaf"](/bussim/events/coffee-shop). This gives you either 1 Passenger Rep or 1 Driver Rep.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"efeucemulator" SID:"start" URL:"/assets/bussim/emulatorData/efeuc.json"
@@ -108,6 +109,6 @@ content: |
   - Efeuc is canonically the best driver in the Bus Simulator universe.
   - This is one of the few NPCs that doesn't get annoyed when you spam the Airhorn.
   - This is also perhaps the only NPC that is shown to take notice of your driver reputation, as having it higher than him will lead you to the first intro dialogue.
-  
+
 
   !!GALLERY [/assets/bussim/images/npcs/banana.webp]  
