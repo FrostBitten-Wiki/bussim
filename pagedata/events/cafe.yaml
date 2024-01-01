@@ -14,7 +14,7 @@ page:
     description: |
       Category: [Cafe](/bussim/events)
     image: ''
-    imageBanner: /bussim-assets/images/events/coffeeshopleak.webp
+    imageBanner: /bussim-assets/images/banners/coffee-shop.webp
 
 
 attributions:
@@ -58,4 +58,4 @@ content: |-
   - This event is also similar of that to <a href='/bussim/events/goated-gas-station'>Goat Station</a>, where you'll be able to explore within a large area for a long period of time.
   - This is the only event where you get rewarded with Passenger Reputation and Driver Reputation.
   - The name 2952, is similar to Bus Simulator's Bus Radio being 295.2 and The Bus' license plate being 2952.
-   !!GALLERY [/bussim-assets/images/events/coffeeshopleak.webp] 
+   !!GALLERY [/bussim-assets/images/events/cafe.webp|/bussim-assets/images/banners/coffee-shop.webp] 

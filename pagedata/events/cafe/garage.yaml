@@ -14,7 +14,7 @@ page:
     description: |
       Category: [Events](/bussim/events)
     image: ''
-    imageBanner: /bussim-assets/images/events/coffeeshopleak.webp
+    imageBanner: /bussim-assets/images/banners/tazers-garage.webp
 
 
 attributions:
@@ -37,4 +37,5 @@ content: |-
   ##[Trivia]
   - This is also the only event in the game that allows you to customize your Mini-Bus outside of !color.
    - The design for the E-Bus is also made by Inro.
-  !!GALLERY [/bussim-assets/images/events/garageleak.webp] 
+
+  !!GALLERY [/bussim-assets/images/banners/tazers-garage.webp]
