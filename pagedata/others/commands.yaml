@@ -1,26 +1,44 @@
-editable: True
+editable: true
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Commands
+  description: Commands are a feature in Bus Simulator used to change small elements
+    of the game, such as chat tag customisation and private server commands.
 
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim placeholder
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim commands
 
-  tags: placeholder, others
+  tags: commands, others, admin commands real
 
   header:
     description: |
-      Category: <a href="/bussim/others">Others</a>
+      Category: [Others](/bussim/others)
 
     imageBanner: /assets/bussim/images/banner.jpg
-    
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
 
+attributions:
+  - Ported By PolyframeX (@polyframex)
 content: |
   ##[Info]
-  Placeholder
+  Commands are a feature in Bus Simulator used to change small elements of the game, such as chat tag customisation and private server commands.
+  \n\n
+  Most commands use the ! prefix, excluding the default emote command, which requires /e instead. This page will list all of the commands you can do both in public and private servers.
 
-  ##[Trivia]
-  - Placeholder
+  ##[Commands]
+  ###[All Servers - Emotes]
+  Emotes can be used in all servers and are mostly meant for fun, some emotes like /e smug have special effects only visible with certain settings, and others like /e honda can be used while walking. The following are all of the emotes you can currently do.
 
-  !!GALLERY [/bussim-assets/images/others/billboard/Billboard.webp|/bussim-assets/images/others/billboard/Ad_Billboard.webp]
+  \n\n
+
+  | Command | Description | Special Effects | GIFs / Images |
+  |---------|-------------|-----------------|---------------|
+  | /e apose | A standstull emote of your character posing with arms similar to the slanted lines of the letter A.\nThis is often used in development for 3D models for rigging purposes. | <0px>(.) | ![256x512]() |
+  | /e cali  | An animated emote of your character doing the California Girls dance.\nThe dance was popularized by Friday the 13th memes involving a specific character doing the same dance. | Plays a bit-remixed part of California Girls | ![256x512]() |
+  | /e cheer | A quick emote of your character waving their arms in glee. | <0px>(.) | ![256x512]() |
+  | /e cryingandshaking | An emote involving your character in a closed sit, shaking back and forth.\nA similar emote plays when [Steven_Scripts](/bussim/npcs/steven-scripts) is found in the [Backwalls](/bussim/events/backwalls). | <0px>(.) | ![256x512]() |
+  | /e dab   | A simple emote of your character dabbing, once popularized back at 2015. | <0px>(.) | ![256x512]() |
+  | /e dance\n/e dance2\n/e dance3 | All roblox emotes that you can use in every other Roblox game, nothing to detail much. | <0px>(.) | <0px>(.) |
+  | /e dance4 | A custom dance variant that causes your character to spin in an immense speed for a few seconds then stopping. | <0px>(.) | ![256x512]() |
+  | /e default | An emote that plays the "Poison" dance from the Scrubs but was later popularized by Fortnite using this as their default dance. | <0px>(.) | ![256x512]() |
+  | /e duck | An emote that causes your avatar to duck, this doesn't stop until you move or jump. | <0px>(.) | ![256x512]() |
+  | /e flip | An emote that causes your character to do a backflip. This only happens once and doesn't loop. | <0px>(.) | ![256x512]() |
+  | /e griddy | A dance that involves the character tapping their heels while alternating and swinging their arms back and forth.\nOnce started back at 2019 and was popularized following 2020. | This emote can be used when walking, and only stops when jumping.\nPlays an audio based off the Griddy meme. | ![256x512]() |
+  | /e honda | A looped dance based off of Mio Honda's Fried Chicken video that had the song "Step!" from the Idolm@ster while Honda is dancing.\nOften popularized for people making edits that stray away from the original context. | This emote can be used even when walking, and onl stops when jumping.\nPlays a looped instrumental of Step! from The Idolm@ster. | ![256x512]() |
