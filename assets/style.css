@@ -203,65 +203,6 @@ highlight[type="rainbow"] {
     }
 }
 
-/* deprecated css
-div.sidebar {
-    /*height: calc(100% - 10px);
-    width: 50px; position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #100996;
-    padding: 5px;
-    color: white;
-}
-
-div.sidebar button {
-    font-family:'Starbound';
-    background-color: #1a149c;
-    backdrop-filter: blur(5px);
-
-    width: 50px;
-    height: 32px;
-    border: none;
-    transition: 0.3s;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    overflow: hidden;
-    margin-bottom: 5px;
-}
-
-div.sidebar button[type="menuBack"] {
-    background-color: #eb4034;
-}
-
-div.sidebar button:hover[type="menuBack"] {
-    background-color: #eb403480;
-}
-
-div.sidebar button:hover {
-    width: 250px;
-    cursor: pointer;
-    color: white;
-    background-color: #2c269a80;
-}
-
-div.sidebar button text[type="hoverText"] {
-    opacity: 0;
-    margin-top: 3px;
-    transition: opacity 0.2s;
-}
-
-div.sidebar button:hover text[type="hoverText"] {
-    opacity: 1;
-}
-
-div.sidebar bottomButtons {
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-} */
-
 .sidebar {
     padding: 10px;
     display: flex;
