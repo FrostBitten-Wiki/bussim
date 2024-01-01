@@ -1,7 +1,7 @@
 editable: True
 page:
   title: New Years
-  description: The New Years is a passive event that happens every hour during December 31st to January 1st of every year.
+  description: The New Years is a passive event that happens every half-hour during December 31st to January 1st of every year and is completely based on your timezone.
   
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, New Years
 
@@ -14,13 +14,29 @@ page:
 
 attributions:
   - "Ported By PolyframeX (@polyframex)"
+  - "Updated By FangedWerewolf (@noobbiom)"
 
 content: |
   ##[Info]
-  The New Years is a passive event that happens every hour during December 31st to January 1st of every year. During this time, you'll recieve different rewards every hour, the rewards are as follows:
-  - Driver Reputation (up to 5)
-  - Passenger Reputation (up to 5)
-  - Free Songs (up to 5)
-  - Advanced Event Token (1-3)
-  \n
-  Also during this period, firework launchers will appear on the third floor of [The Bus](locations/the-bus), occassionally shooting fireworks. You'll also recieve the [Sparkler](items/sparkler), although it is revoked once it ends.
+  "Hey, the New Year's event is starting for you! From now on, you'll receive a gift every hour, on the hour and its accompanying half hour.\n\nHave fun riding into the new years with your friends!" -"New Years"
+  The New Years is a passive event that happens during December 31st to January 1st of every year and is completely based on your timezone. During this time, you'll recieve different rewards every half hour, the rewards are as follows:
+  - +3 / +5 Driver Reputation 
+  - +3 / +5 Passenger Reputation 
+  - +2 Free Songs
+  - +1 / +3 Advanced Event Token 
+  - +20 Passenger Reputation & +10 Driver Reputation  
+  \n 
+  And the following dialogue will also display: 
+  - Every half-hour, you receive a gift in celebration of the new year! You received: _!
+  \n\n 
+  You can also receive other rewards to such as: 
+  - [Sparkler](/bussim/items/sparkler) - A temporary item that releases sparkles of various colors. Obtained as soon as you join the game during this period and is revoked following January 1st.
+  - [New Years Chocolate](/bussim/items/new-years-chocolate) - A permanent item that can be obtained within the first half-hour of rewards. 
+  - [P15-Maisto](/bussim/items/p15-maisto) - A temporary item that shoots out fireworks during the event, also obtained within the first half-hour of rewards. Disappears following January 1st.
+    - If you obtained this item during New Years 2023 however, this instead becomes a **permanent** item. You also need to have the New Years Chocolate first to obtain.
+  \n\n
+  ##[Changes and Additions]
+  During this period, firework launchers will appear on the third floor of [The Bus](/bussim/locations/the-bus), occassionally shooting fireworks; and those who have hit 12:00 AM will have their name announced by a [BREAKING NEWS] Article:
+  - Happy new year, ___ (and ___)!
+  Lastly, one it's past 12:00 AM in your timezone, the following message will display: 
+  - Hourly rewards have concluded. Thank you for playing Bus Simulator. I hope you have a wonderful start to the new year! :blue_heart: - Noble
