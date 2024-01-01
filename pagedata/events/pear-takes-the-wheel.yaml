@@ -5,14 +5,13 @@
 #   Made By PolyframeX :)
 editable: True
 page:
-  title: Pear Takeover
+  title: Pear Takes The Wheel
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Avian Potion
   ignore: ignore
 
 
   header:
-    title: Pear Takeover
     description: >-
       Category: [Events](/bussim/events)\nEvent Name: h[PearTakesTheWheel]
     image: ''
