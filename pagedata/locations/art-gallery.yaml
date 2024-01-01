@@ -1,26 +1,71 @@
-editable: True
+editable: true
 page:
-  title: Placeholder
-  description: Placeholder
-    
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim placeholder location
-  
-  tags: placeholder, location
+  title: Art Gallery
+  description: The Art Gallery or otherwise known as the Credits Room, is a location
+    in Bus Simulator found by flushing yourself down The Bus' toilet.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim art gallery,
+    art gallery, credits room, credits, podiums, art
+
+  tags: art gallery, location, credits room, podium, credits, list of cool people,
+    actually cool indeed, art, gallery
 
   header:
     description: |
       Category: [Locations](/bussim/locations)
-    
-    image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+
+    image: ''
+    imageBanner: /assets/bussim/images/locations/art-gallery.webp
 
 attributions: []
 
 content: |
+  "i just dont know how i am apparently worth yall going out of your way and taking a few hours of your day to put your artistic abilities to use but thank you all so much i appreciate all of it ;w;\n\n\nhi fan art is here and stuff if u want to go back D I E thanks bye\n\njk just touch the puddle" -"Art Gallery"
+
   ##[Info]
-  Info Here
+  The Art Gallery or otherwise known as the Credits Room, is a location in Bus Simulator found by flushing yourself down [The Bus'](/bussim/locations/the-bus) toilet.
+  \n\n 
+  The gallery is composed of many pictures, whom of which are made by artists with conveyor belts around the map as well as jump-pads from LittleBigPlanet 2 to help you traverse.
+  \n\n
+  Currently there are 34 different fan arts as of the time of editing (June 24, 2023), possibly more in the future including the ability to take a full view of any art that you click on. 
+  \n
+  There are also podiums for everyone who has contributed to the game thus far.
+  \n\n 
+  It also plays a music that can be heard from anywhere inside of the gallery, being "[Diamanten (2022 Remastered Version)](https://www.youtube.com/watch?v=dlTcxGq4klk)". But it originally used to play PaRappa the Rapper.
+  \n\n 
+  Contrary to the second quote, you are able to leave the gallery by tripping onto the puddle, which will send you back onto the Bus. You can also activate a button next to it that'll teleport you to the VRChat version of Bus Simulator.
+
+  ##[Podiums and Credits]
+  | Person                  | Role                                  | Contribution                                                                                                                                                                 |
+  |-------------------------|---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  | skatecar_01             | Knitters                              | Made the new seat models, righteous emote, clothing for Cafe.                                                                                                                |
+  | NobleReign              | Creator / Builder / Scripter          | Created Bus Simulator.                                                                                                                                                       |
+  | MiroCev                 | Former Developer / Builder / Scripter |<0px>(.) |
+  | 4J3K                    | Former Developer / Builder            |<0px>(.)|
+  | Steven_Scripts          | Developer / Scripter                  | Gave permission to use the BSS map.                                                                                                                                          |
+  | Inr_o                   | <0px>(.)| Redesigned the bus, helped with making BSS look abandoned, primary builder for the [Cafe Event](/bussim/events/cafe) , and made the models for: Megaphone EX, the new Mini-Bus model + its variants. |
+  | 3razerhead              |<0px>(.)| Updated the mini-fridge.                                                                                                                                                     |
+  | helicores               |<0px>(.)| Created smug dance animation.                                                                                                                                                |
+  | frederikhome            |<0px>(.)| Audio searching API.                                                                                                                                                         |
+  | avodey                  |<0px>(.)| Basis for the FNF engine.                                                                                                                                                    |
+  | Elttob                  | Emotional Support                     | Fusion, VOLUMIKA.                                                                                                                                                            |
+  | Tazer                   |<0px>(.)| Monstercat music selection for the radio.                                                                                                                                    |
+  | NamerElf    |<0px>(.)|**I'm tired of standing in the same spot. Bro, I'm out.**\n\n(Made the [Glacier Cave](/bussim/events/glacier-cave))                                                                                 |
+  | CuhUnit                 |<0px>(.)| Made the griddy, sakura, and honda emotes.                                                                                                                                                    |
+  | WaffleWizYeah & Ocublox | Knitters                              | Made the Bus Sim UGC: both [D.I.Y. Mini-Bus](/bussim/others/diy-mini-bus) and [Bus-Cola Bandolier](/bussim/others/bus-cola-bandolier).                                                                                                   |
+  | kenziestarlight         |<0px>(.)| Made the shimy emote.                                                                                                                                                       |
+  | ComeOutTheCloset_1      |<0px>(.)| Made the [Popcorn Bucket](/bussim/items/popcorn-bucket) and assets relating to it.                                                                                                                       |
+  | Noobbiom                |<0px>(.)| Made the [Birch Forest](/bussim/biome/birch-forest) biome.                                                                                                                                             |
 
   ##[Trivia]
-  - Trivias Here
+  - There are also extra texts from NobleReign, mostly from his first ever fanart that he had received.
+   - The first one on the left is the first and original fanart, and it says: *"this IS my first ever fanart by Dysphorian (now tal1y) they brought it back from the dead :)"*
+   - On the right side shows the more updated version of the left, and it says: *"they also made this one, its like a revamped version :D"*
+   - There's also some text that is displayed above the Emergency Button that sends you back to the Bus, due to VR players unable to trip onto the puddle.
+    - It also had an advertisement of the VRChat version of Bus Simulator being this :*"vr players check out the vrchat version of bus sim"*
+     - It was removed due to it being a possible offsite link and possibly breaking Roblox's TOS, and is now replaced by this: *"vr players hit this instead"*
+  - If you join in the VRChat version of Bus Simulator, you can flush yourself down the toilet and be sent to the Art Gallery, but instead of it having fanart of Bus Simulator and the Credits Podium, it'll instead be a catalog of Frostbite's commissioned art.
+   - The large message on the wall says *"oops all my fursona"*, and going next to the default 'bean' shape will say *"free me from this hell"*, which teleports you back to the Bus.
+  - In one of the past builds of Bus Simulator, the Art Gallery also had a larger text above in red saying make efeuc fanart. This was later removed in an unknown build.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/locations/art-gallery.webp|/assets/bussim/images/locations/galleries/vrchat-art-gallery.webp]
