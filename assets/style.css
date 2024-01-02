@@ -118,16 +118,29 @@ highlight[type="grey"] {
 }
 
 highlight[type="rainbow"] {
-    background-image: repeating-linear-gradient(69deg, red, orange, yellow, green, blue, indigo, purple, red, orange);
     text-align: center;
     overflow: visible;
     background-size: 2048px 256px;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: rainbow 2s linear infinite;
     text-shadow: none;
     display: flex;
+}
+
+highlight[type="rainbow"] > float-child,
+highlight[type="rainbow"] > sup > float-child
+{
+    color: transparent;
+    background-image: repeating-linear-gradient(69deg, red, rgb(250, 184, 4), yellow, rgb(29, 212, 29), rgb(39, 78, 255), rgb(124, 31, 190), rgb(199, 40, 199), red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-attachment: fixed;
+    background-size: 2048px 256px;
+}
+
+sup {
+    font-size: x-small !important;
 }
 
 @keyframes rainbow { 
