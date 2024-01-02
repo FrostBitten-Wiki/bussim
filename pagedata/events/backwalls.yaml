@@ -13,7 +13,7 @@ page:
   header:
     title: Placeholder
     description: |
-      Category: [Events](/bussim/events)
+      Category: [Events](/bussim/events)\n
       Event Name: h[Backwalls]
 
     image: ''
@@ -36,14 +36,38 @@ content: |
   ##[Dangers of the Backwalls]
   "Apparently there's this tall shadow figure that chases you if you aren't careful, though. Hopefully they aren't too common." -"Tazer"
 
+  In the Backwalls you will encounter a [tall shadow figure](/bussim/npcs/entity) that patrols the area. When you meet eye contact with it long enough, it will chase after you until you either die or lose all attention from the entity. While you can avoid dying by being small, it prevents you from escaping attention and any jump will kill you.
+
+  You may also encounter dark goo puddles around the Backwalls as well. upon touching it, goo will coat your entire character dealing significant damage until you are at 1 health left or if it expires. This also easily attracts the figures as well.
+
+  There's also very rarely a .png in one of the areas, when in range it dashes at you at extraordinary speeds ragdolling you constantly. In this event you are likely to die easily from the other two dangers.
+
   ##[Benefits of the Backwalls]
+  However though, not all is bad in the Backwalls, for there are three things that will help you both inside and outside of the event.
+  \n\n
+  [Almond Water](/bussim/items/almond-water) can be found plenty throughout the area, when drunk it grants a significant speed boost and massively regenerates your health. It has two uses though.
+  \n\n
+  [Liquid Void](/bussim/items/liquid-void) also can appear rarely as well, when drunk it makes the player temporarily invisible, rendering you undetectable for as long as the effect is active. However consuming it again for less than 20~ seconds after it has been used before will instantly kill the user.
+  \n\n
+  You may also find Popcorn Machines scattered very sparsely throughout the area. If you have both the [Kernels](/bussim/items/kernels) and the [Bucket?](/bussim/items/bucket), you'll be able to get the [Popcorn Bucket](/bussim/items/popcorn-bucket), allowing you to eat and toss popcorn scrumptiously.
+  \n\n
+  The ones fully lit are completely safe, trying to use a weathered or partially lit one may have.. [severe consequences](/bussim/npcs/daryl). Although can still be used the same.
+  \n\n
+  [Pear](/bussim/npcs/pear) can also be found walking anywhere in the Backwalls and when talked to, you can have a conversation with him. You can also ask him to find the exit at a cost of 10 Passenger Reputation. He is also immortal in the Backwalls, not dying nor caring about the dangers that lie.
+  \n\n
+  Do note however, that if you enter via the Birthday Cake method, he will charge you 20 Passenger Reputation instead as a result of your unwise decisions.
+  You may also find pitch black walls that emanate dark smoke, this may be helpful since when walked upon they teleport you to a random area. Useful for escaping entities or finding a way out.
+  \n\n
+  Another thing to note is that while you won't be able to know what events are happening while you are inside, you are completely immune to all events, this includes Flash Flood, Lava Floor, Acid Rain, Blizzard, and more. Although it's more unintentional and not recommended.
+  \n\n
+  The exit in the Backwalls is an open hole in the wall with a ladder and with a green light in the ceiling.
 
   ##[After the Event]
-  Once you have escaped with Almond Water or Liquid Void, you have a 33% / 20% chance respectively in any server public or private, to permanently obtain them in your inventory outside of the event. You can also always get the Popcorn Bucket if you carry it with you to the end.
+  Once you have escaped with [Almond Water](/bussim/items/almond-water) or [Liquid Void](/bussim/items/liquid-void), you have a 33% / 20% chance respectively in any server public or private, to permanently obtain them in your inventory outside of the event. You can also always get the [Popcorn Bucket](/bussim/items/popcorn-bucket) if you carry it with you to the end.
   \n\n
-  (Note: the Popcorn Bucket is impossible to obtain in a VIP Server and likewise for the Almond and Liquid.)
+  *(Note: the Popcorn Bucket is impossible to obtain in a VIP Server and likewise for the Almond and Liquid.)*
   \n\n
-  You can also permanently obtain the Bus Birthday Cake by exiting the Backwalls successfully whilst still holding the Cake via the Birthday Cake method, allowing you to freely teleport to the Backwalls regardless if the event has been rolled. This has become unobtainable but used to be a 30% chance.
+  You can also permanently obtain the [Bus Birthday Cake](/bussim/items/bus-birthday-cake) by exiting the Backwalls successfully whilst still holding the Cake via the Birthday Cake method, allowing you to freely teleport to the Backwalls regardless if the event has been rolled. This has become unobtainable but used to be a 30% chance.
 
   ##[Trivia]
   - Although the event causes all players to teleport into the Backwalls, the event timer still ticks down immediately after. Which means that events will still occur right after the Backwalls has taken effect.
