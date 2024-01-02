@@ -1,28 +1,75 @@
-editable: True
+editable: true
 page:
-  title: Placeholder
-  description: Placeholder
-    
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
-  tags: some,tags,here,that is used by the search api
+  title: Backwalls
+  description: The Backwalls is a rare event where a person mentions about the bus
+    having a few hiccups or something isn't feeling right. Afterwards all players
+    (assuming they are not in Frost's Den) are then teleported into the Backwalls.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim backwalls event
+
+  tags: backwalls, event
   ignore: ignore
 
   header:
     title: Placeholder
     description: |
       Category: [Events](/bussim/events)
-    
-    image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+      Event Name: h[Backwalls]
+
+    image: ''
+    imageBanner: /assets/bussim/images/events/backwalls.webp
 
 attributions: []
-
 content: |
   ##[Info]
-  Placeholder Info
+  The Backwalls is a rare event where a person mentions about the bus having a few hiccups or something isn't feeling right. 
+  Afterwards all players <small>(assuming they are not in Frost's Den)</small> are then teleported into the Backwalls.
+  \n\n
+  You also would've been able to enter the Backwalls during Bus Simulator's 5th Birthday by eating the [Bus Birthday Cake](/bussim/items/bus-birthday-cake) and immediately drinking [Cola](/bussim/items/cola) right after. 
+  During this instance however, you'll keep both the Cake and Cola and have a chance to obtain the Cake permanently after the escape.
+  \n\n
+  The Backwalls is also not a pre-meditated area, generating new rooms and such everytime the event is rolled, and assuming all players have died or escaped it.
+  \n\n
+  The Backwalls is a dangerous place, containing entities and puddles that damage you over time. 
+  There are however some benefits to it in such a place, as you can find [Pear](/bussim/npcs/pear), [Almond Water](/bussim/items/almond-water), a [Popcorn Machine](/bussim/items/popcorn-bucket) and [Liquid Void](/bussim/items/liquid-void) in areas.
+
+  ##[Dangers of the Backwalls]
+  "Apparently there's this tall shadow figure that chases you if you aren't careful, though. Hopefully they aren't too common." -"Tazer"
+
+  ##[Benefits of the Backwalls]
+
+  ##[After the Event]
+  Once you have escaped with Almond Water or Liquid Void, you have a 33% / 20% chance respectively in any server public or private, to permanently obtain them in your inventory outside of the event. You can also always get the Popcorn Bucket if you carry it with you to the end.
+  \n\n
+  (Note: the Popcorn Bucket is impossible to obtain in a VIP Server and likewise for the Almond and Liquid.)
+  \n\n
+  You can also permanently obtain the Bus Birthday Cake by exiting the Backwalls successfully whilst still holding the Cake via the Birthday Cake method, allowing you to freely teleport to the Backwalls regardless if the event has been rolled. This has become unobtainable but used to be a 30% chance.
 
   ##[Trivia]
-  - Trivia Here
+  - Although the event causes all players to teleport into the Backwalls, the event timer still ticks down immediately after. Which means that events will still occur right after the Backwalls has taken effect.
+    - However, the Backwalls also has a bit of an infamous reputation for causing event timers to freeze, thus halting events entirely and dulling the entire server. Multiple fixes have been made and now it is uncertain if it'll happen again.
+  - The Backwalls, is obviously inspired and taken references off of the Backrooms, which poses a similar theme.
+  - You can only hold 1 type of item at a time (e.g. you can only have 1 Almond Water and 1 Liquid Void). Trying to pick up another makes nothing happen.
+  - If Steven_Scripts (Not to be confused with the actual person, Steven himself) was still in the bus as soon as this event happened, you will find him doing the :cryingandshaking: emote in the walls of the Backwalls.
+  - Since the Backwalls relies on RNG generation, the size of it is also randomized; when it's small you can find little to no entities but also little items.
+    - Similarly, if the size is massive, you can expect many entities but also many items to use and escape with.
+  - Originally, the chances for Almond Water & Liquid Void were believed to be 1/3rd, however after its increase the chances are now fully transparent.
+    - The chances for Almond Water before were 10%, and Liquid Void was 4%.
+  - The event is both technically the shortest and longest event in the game, as you enter the Backwalls within 12 seconds and ends; however, at the same time, in the Backwalls, it continues until the last person escapes or dies, which could possibly last a long time.
+  - If the last person dies or escapes the Backwalls, the current generation of it will be completely deleted, and those who enter it afterwards will generate a new layout with restocked items.
+  - If you ragdoll or find another way to prevent being teleported, you'll be able to see a part of the bridge no-clipping onto The Bus, this will also temporarily stop the bus for a second. It is also at the same time everyone else who is unfortunate enough gets sent to the Backwalls.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  ##[Technical Trivia]
+  - Using [Edit](/bussim/items/edit), the model for the entire Backwalls layout is called Backwalls_Map and contains multiple rooms, junctions, as well as an exit as separate models, each with their own layout and all being editable.
+    - In one of the rooms / junctions, you may also find [Entities](/bussim/npcs/entities), Furnitures, Puddles, and [Banana](/bussim/npcs/banana) as their own models, presumably where they spawned.
+      - Likewise, Almond Water and Liquid Void also spawn in rooms. Almond Water being named as AWatr_Obj, and Liquid Void as LVoid_Obj.
+      - The Popcorn Machines also spawn here, with the normal being Popcorn Maker and the cursed being Cursed Popcorn Maker.
+        - Within the popcorn machines come with a part named itcomeswithbutter, hinting that the [Popcorn Bucket](/bussim/npcs) is already buttered.
+        - If you attempt to use the Cursed Popcorn Maker, a new model will also appear named GhostEmployee or [Daryl](/bussim/npcs/daryl).
+      - [Pear](/bussim/npcs/pear) however, spawns using his own model rather than being based on an existing room.
+        - Pear and the Entities also inflict an effect when you get near them that is similar to the effect you get when you enter the Backwalls normally.
+      - Each of the rooms may also have different colored parts that are hidden normally, and may suggest a purpose in each of the colors.
+    - The map generates by branching itself from a "Start" model, with the base of it residing at x: -6000, y: 4500, and z: 1500.
+  - If you enter the Backwalls using abnormal methods <small>(Teleporting using [Edit](/bussim/items/editQQ) or with the help of an admin, or getting spotted by Pear or an Entity)</small>, you'll be able to keep all of your items, however will still be inflicted with the same effect one would have.
+
+  !!GALLERY [/assets/bussim/images/events/backwalls.webp]
