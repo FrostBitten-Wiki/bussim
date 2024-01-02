@@ -1,8 +1,10 @@
-editable: True
+editable: true
 page:
   title: NPCs
-  description: Biomes appear randomly after driving through a tunnel, and they don't have any relation to events most of the time, unless if a specific event forces it (i.e. Blizzard).
-    
+  description: Biomes appear randomly after driving through a tunnel, and they don't
+    have any relation to events most of the time, unless if a specific event forces
+    it (i.e. Blizzard).
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npcs
   tags: some,tags,here,that is used by the search api
   ignore: ignore
@@ -10,8 +12,8 @@ page:
   header:
     description: |
       Biomes appear randomly after driving through a tunnel, and they don't have any relation to events most of the time, unless if a specific event forces it (i.e. Blizzard).
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions: []
@@ -26,7 +28,7 @@ content: |
   !!LISTITEM IMAGE:"/bussim-assets/images/npcs/disc.webp" TITLE:"Disc" DESCRIPTION:"Disc is an NPC on the [GOATed Gas Station](/bussim/events/goated-gas-station) and [Coffee Shop](/bussim/events/coffee-shop) event which sells you items in exchange for Passenger rep. He is also an Administrator in the game, like Tazer, Zeon and Ectta. He's also a new hire, with Green at his side." REDIRECT:"/bussim/npcs/disc"
   !!LISTITEM IMAGE:"/bussim-assets/images/npcs/ectta.webp" TITLE:"Ectta" DESCRIPTION:"Ectta is both an Admin and Authenticatior in [Bus Simulator](https://gla.dog/bus) and also appears in [Question Time](/bussim/events/question-time), asking different questions each time he appears." REDIRECT:"/bussim/npcs/ectta"
   !!LISTITEM IMAGE:"/bussim-assets/images/npcs/efeuc.webp" TITLE:"Efeuc" DESCRIPTION:"Efeuc is an NPC that can be seen in the [Void Room](/bussim/locations/void). He's the best driver in the [Bus Simulator](https://gla.dog/bus) universe, and is just chilling in the void area" REDIRECT:"/bussim/npcs/efeuc"
-  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/entity.webp" TITLE:"Entities" DESCRIPTION:"Entities are NPCs found in the [Backwalls](/bussim/events/backwalls), they're hostile towards players and will kill them if exposed long enough." REDIRECT:"/bussim/npcs/entity"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/entity.webp" TITLE:"Entity" DESCRIPTION:"Entity is an NPC found in the [Backwalls](/bussim/events/backwalls), they're hostile towards players and will kill them if exposed long enough." REDIRECT:"/bussim/npcs/entity"
   !!LISTITEM IMAGE:"/bussim-assets/images/npcs/fizzy.webp" TITLE:"Fizzy" DESCRIPTION:"Fizzy was a very minor NPC, and can only be seen infront of [Bloxdonalds](/bussim/events/bloxdonalds)." REDIRECT:"/bussim/npcs/fizzy"
   !!LISTITEM IMAGE:"/bussim-assets/images/npcs/frost.webp" TITLE:"Frostbite" DESCRIPTION:"Frostbite (or known as Frost in-game) is an NPC that only appears in the [Glacier Cave](/bussim/locations/glacier-cave) event. As soon as you enter his den for the first time, Frost will be surprised at your arrival, however he allows you to explore his den but without your trust." REDIRECT:"/bussim/npcs/frostbite"
   !!LISTITEM IMAGE:"/bussim-assets/images/npcs/foxman.webp" TITLE:"FoxMan" DESCRIPTION:"FoxMan is an NPC that can be found on the [Coffee Shop](/bussim/events/coffee-shop) event. He is also an Administrator to the game, Bus Simulator." REDIRECT:"/bussim/npcs/foxman"
