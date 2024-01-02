@@ -1,7 +1,10 @@
 editable: true
 page:
   title: Placeholder
-  description: Placeholder
+  description: "Acid Rain is an event where acid starts raining from the sky, damaging
+    everyone as long as the sky is exposed, \r\nwhether it'd be outside, by the stairs,
+    or even the third floor. The event can be easily avoided if you stay on the second
+    floor, \r\nor if the bus is in a tunnel."
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
@@ -14,15 +17,26 @@ page:
       Category: [Events](/bussim/events)
 
     image: ''
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/acid-rain.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  Acid Rain is an event where acid starts raining from the sky, damaging everyone as long as the sky is exposed, 
+  whether it'd be outside, by the stairs, or even the third floor. The event can be easily avoided if you stay on the second floor, 
+  or if the bus is in a tunnel.
+  \n\n
+  The damage during most of the event is enough to outpace healing items, however in the last stage it isn't fast enough to outpace 
+  [Cola](/bussim/items/cola), [Homemade Coffee](/bussim/items/homemade-coffee), and other healing items.
 
   ##[Trivia]
-  - Trivia Here
+  - The acid rain used to be physical parts, and would heavily lag the game, depending on how many players are in the server.
+  - Any parts made using btools (gained via admin commands) can protect players from the acid rain, although the particles will still spawn and fall past the parts, dealing no damage.
+  - Acid rain is a real phenomenon, albeit much weaker and is usually caused by pollution and elevated acidity.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  ##[Technical Trivia]
+  - Unlike other events, this particular event doesn't have any __Height Immunity__ and instead checks if the player's HumanoidRootPart has any collidable part above it, whether it'd be from the base game or from [F3X](/bussim/items/edit) with its range being around 65 studs high. If it succeeds: you won't take any damage, otherwise you will.
+    - When using commands or items that allows you to resize your character, the studs required for you to not take damage will also change significantly, albeit not drastically.
+
+  !!GALLERY [/assets/bussim/images/events/acid-rain.webp]
