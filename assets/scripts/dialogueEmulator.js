@@ -1,11 +1,3 @@
-let dialogueData;
-
-fetch("/bussim-assets/dialoguedata/dialogue.json")
-.then((response) => response.json())
-.then((jsonData) => {
-    dialogueData = jsonData;
-});
-
 function changeDialogue(id, dialogueId) {
     console.log(id, dialogueId)
     var speakerName = document.getElementById(`${id}-name`);
