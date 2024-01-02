@@ -24,7 +24,7 @@ content: |-
   Efeuc is an NPC that can be seen in the Void Room. He's the best driver in the Bus Simulator universe, and is just chilling in the void area.
 
   ##[Favourite Drink]
-  Efeuc's favourite drink is ["Decaf"](/bussim/items/cafe-coffee/recipes). This gives you either 1 Passenger Rep or 1 Driver Rep.
+  Efeuc's favourite drink is ["Decaf"](cafe-coffee/recipes). This gives you either 1 Passenger Rep or 1 Driver Rep.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"efeucemulator" SID:"start" URL:"/assets/bussim/emulatorData/efeuc.json"
@@ -105,7 +105,7 @@ content: |-
 
   ##[Trivia]
   - This is one of the only two NPCs that can actually fling a player based on dialogue choices
-    - The only other NPC that does that is [Tazer](/bussim/npcs/tazer).
+    - The only other NPC that does that is [Tazer](tazer).
   - Efeuc is canonically the best driver in the Bus Simulator universe.
   - This is one of the few NPCs that doesn't get annoyed when you spam the Airhorn.
   - This is also perhaps the only NPC that is shown to take notice of your driver reputation, as having it higher than him will lead you to the first intro dialogue.

@@ -22,7 +22,7 @@ content: |
   "All toasters toast toast." -"Toast"
 
   ##[Info]
-  The Toast is a temporary item from the [GOATed Gas Station](/bussim/events/goated-gas-station) event, which can be obtained by clicking on the Toaster in [Zeon](/bussim/npcs/zeon)'s house, and waiting a few seconds until it pops out.
+  The Toast is a temporary item from the [GOATed Gas Station](goated-gas-station) event, which can be obtained by clicking on the Toaster in [Zeon](zeon)'s house, and waiting a few seconds until it pops out.
   \n\n
   The item, when consumed, wiil recover a small amount of health.
 

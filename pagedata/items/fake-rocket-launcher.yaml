@@ -22,7 +22,7 @@ content: |
   "It might still work after sitting dormant for so long." -"Fake Rocket Launcher"
 
   ##[Info]
-  The Fake Rocket Launcher is an item obtained in the [Shack](/bussim/events/shack) event. 
+  The Fake Rocket Launcher is an item obtained in the [Shack](shack) event. 
   \n\n 
   When used, it will at first seem to sound like a normal rocket launcher from Roblox, but will instead explode the person who holds this item instead, It can't also be used to kill other players if you are standing next to them. 
 

@@ -22,7 +22,7 @@ content: |
   "This will be aerial transport in 2093." -"Helicopter"
 
   ##[Info]
-  The Helicopter is a permanent item bought from [GOATed Gas Station](/bussim/events/goated-gas-station) for [100 Passenger Reputation](/bussim/others/reputation) if you have the [Flying Skillbook](/bussim/items/flying-skillbook) in your inventory. 
+  The Helicopter is a permanent item bought from [GOATed Gas Station](goated-gas-station) for [100 Passenger Reputation](reputation) if you have the [Flying Skillbook](flying-skillbook) in your inventory. 
   \n\n 
   When equipped, it will slowly raise you off the ground speeding up until you reach a certain height, it also has a timer before you are forced to stop flying which then slowly charges over time while it's unused. 
   \n\n 
@@ -31,4 +31,4 @@ content: |
   ##[Trivia]
   - The Helicopter is the only item you cannot steal from GOATed Gas Station, as you take the skillbook instead, which have all the pages glued down. When you purchase it, Disc, the store cashier, will un-stick all the pages, giving you the Helicopter tool instead.
   - If you attempt to buy the book again even after buying it for the first time, Disc will mention that you had already payed for this, and will refund you back the same amount of reputation that would've required to buy this.
-  - Another item also shares a slightly similar function to the Helicopter, being the [Hoverboots](/bussim/items/hoverboots) which was a limited tool only obtainable during the 10 Million Event. It has much better mobility overall, however still suffers from a timer-based system.
+  - Another item also shares a slightly similar function to the Helicopter, being the [Hoverboots](hoverboots) which was a limited tool only obtainable during the 10 Million Event. It has much better mobility overall, however still suffers from a timer-based system.

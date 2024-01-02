@@ -22,15 +22,15 @@ content: |
   "happy bday" -"Birthday Ice Cream"
 
   ##[Info]
-  The Birthday Ice Cream is a large ice cream in a cone. During the [Birthday](/bussim/events/birthday) event, when a random player has been picked in that event, the player will get the Birthday Ice Cream item in their inventory immediately. 
+  The Birthday Ice Cream is a large ice cream in a cone. During the [Birthday](birthday) event, when a random player has been picked in that event, the player will get the Birthday Ice Cream item in their inventory immediately. 
   \n\n 
-  Surprisingly, this item is also quite good at short burst healing, with it's healing speed surpassing the [Cola](/bussim/items/cola), and [Homemade Coffee](/bussim/items/homemade-coffee), but it lacks the duration, which requires you to constantly use it. 
+  Surprisingly, this item is also quite good at short burst healing, with it's healing speed surpassing the [Cola](cola), and [Homemade Coffee](homemade-coffee), but it lacks the duration, which requires you to constantly use it. 
   \n\n 
-  You can also try and give it to [Frost](/bussim/npcs/frostbite) only for him to reject it because it's too big to consume. 
+  You can also try and give it to [Frost](frostbite) only for him to reject it because it's too big to consume. 
   \n 
   The easiest way to get this would either to be in a private server all by yourself (either yours or someone else's) or in a very low populated public server.
 
   ##[Trivia]
-  - Sometimes when being selected in the [Birthday](/bussim/events/birthday) event, it won't be given to you arbitrarily, nobody knows how or why.
+  - Sometimes when being selected in the [Birthday](birthday) event, it won't be given to you arbitrarily, nobody knows how or why.
 
   !!GALLERY [/assets/bussim/images/items/birthday-ice-cream.webp]

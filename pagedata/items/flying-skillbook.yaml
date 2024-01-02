@@ -23,17 +23,17 @@ content: |
   "The pages are glued shut." -"Flying Skillbook"
 
   ##[Info]
-  The Flying Skillbook is a non-permanent item stolen from [GOATed Gas Station](/bussim/events/goated-gas-station). 
+  The Flying Skillbook is a non-permanent item stolen from [GOATed Gas Station](goated-gas-station). 
   \n\n 
-  This item is simply meant to gate players from getting the [Helicopter](/bussim/items/helicopter) easily without having to pay, with its tooltip stating that it's glued shut. 
+  This item is simply meant to gate players from getting the [Helicopter](helicopter) easily without having to pay, with its tooltip stating that it's glued shut. 
   \n
-  It also doesn't have any other functionality aside from being purchasable for [100 Passenger Reputation](/bussim/others/reputation). 
+  It also doesn't have any other functionality aside from being purchasable for [100 Passenger Reputation](reputation). 
   \n\n 
-  If you do however pay for it, [Disc](/bussim/npcs/disc) will then unstick the pages allowing you to learn how to fly, it also gives you a permanent tool called [Helicopter](/bussim/items/helicopter). 
+  If you do however pay for it, [Disc](disc) will then unstick the pages allowing you to learn how to fly, it also gives you a permanent tool called [Helicopter](helicopter). 
   \n\n 
   The cover reads: "how to FLY FREE 100% WORKING 2O22" along with a Dummy flying.
 
   ##[Trivia]
-  - The Flying Skillbook is the second-least functional item in any event, with [Tool](/bussim/items/tool) being the least, the latter having absolutely no functionality.
+  - The Flying Skillbook is the second-least functional item in any event, with [Tool](tool) being the least, the latter having absolutely no functionality.
 
   !!GALLERY [/assets/bussim/images/items/flying-skillbook.webp]

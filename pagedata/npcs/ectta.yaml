@@ -22,20 +22,20 @@ attributions:
 
 content: |-
   ##[Info]
-  Ectta is both an Administrator and Authenticatior in Bus Simulator and also appears in [Question Time](/bussim/events/question-time), asking different questions each time he appears.
+  Ectta is both an Administrator and Authenticatior in Bus Simulator and also appears in [Question Time](question-time), asking different questions each time he appears.
 
   ##[Appearance]
   Ectta is a tall, black-green snakedragon, that wears layered jeans as well as suspenders. He also wears an Overseer Hat, a black-white bandana, and horns alongside a pair of wings.
 
   ##[Favourite Drink]
-  Ectta's favourite drink is [Communion Coffee](/bussim/items/cafe-coffee/recipes). This gives you either 6 Passenger Rep or 6 Driver Rep.
+  Ectta's favourite drink is [Communion Coffee](cafe-coffee/recipes). This gives you either 6 Passenger Rep or 6 Driver Rep.
 
   ##[Dialogue]
   There is currently no available emulator for Ectta.
   \n\n
 
   ###[First-Time Dialogue]
-  - This only appears when you meet Ectta for the first time ever in the [Question Time](/bussim/events/question-time) event.
+  - This only appears when you meet Ectta for the first time ever in the [Question Time](question-time) event.
     - "Oh, hey. I don't think I've seen you before?"
     - "I'm Ectta, and my whole thing is that I ask you random questions or whatever. Feel free to debate amongst yourselves afterward."
     - "Yes, I do mean debate. You get a chat tag for 7 minutes after answering the question. So yeah, time for a question."
@@ -84,10 +84,10 @@ content: |-
   - hg[Variant 3]: "Later."
 
   ##[Trivia]
-  - If you combine all of the possible variants Ectta could use, Ectta would have a total of 190,512 dialogue options, or 4,536 if excluding the variants from [Question Time](/bussim/events/question-time). (This is prone to change the more Question Time variants as well as dialogue gets added, always update it to the latest after an update, thanks!)
-    - This technically makes him have the most amount of dialogue in Bus Simulator, assuming that a combination of variants can be counted as one. But if not, then that title holds to [D6](/bussim/npcs/d6).
-  - Ectta cannot be annoyed by the [Airhorn](/bussim/items/airhorn).
+  - If you combine all of the possible variants Ectta could use, Ectta would have a total of 190,512 dialogue options, or 4,536 if excluding the variants from [Question Time](question-time). (This is prone to change the more Question Time variants as well as dialogue gets added, always update it to the latest after an update, thanks!)
+    - This technically makes him have the most amount of dialogue in Bus Simulator, assuming that a combination of variants can be counted as one. But if not, then that title holds to [D6](d6).
+  - Ectta cannot be annoyed by the [Airhorn](airhorn).
   - It used to be possible to make Ectta fall over at times when he was being moved by players during his respective event. This has been patched out in an undetermined update to the game.
-  - Ectta currently has the most amount of choices available to the player in the game, with a total of 9 choices in the 34th variation of his question in [Question Time](/bussim/events/question-time).
+  - Ectta currently has the most amount of choices available to the player in the game, with a total of 9 choices in the 34th variation of his question in [Question Time](question-time).
 
   !!GALLERY [/assets/bussim/images/npcs/banana.webp]  

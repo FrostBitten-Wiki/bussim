@@ -186,23 +186,23 @@ content: |
 
  ##[NPC Interactions]
  "That cafe does delivery? I don't remember ordering this.. but thanks." -"Zeon (Goat Station)"
- You're also able to give any type of coffee to the majority of the NPCs in the game, and it's also crucial to the Cafe's main mechanic where you give them to your [Customers](/bussim/npcs/customers), with multiple interactions and even rewards as a result.
- The following are NPCs that can be gifted outside of [Customers](/bussim/npcs/customers) and their favorite drinks. Do note, that the rewards are randomized to either [Passenger or Driver Reputation](/bussim/others/reputation). And are claimable once every few hours.
+ You're also able to give any type of coffee to the majority of the NPCs in the game, and it's also crucial to the Cafe's main mechanic where you give them to your [Customers](customers), with multiple interactions and even rewards as a result.
+ The following are NPCs that can be gifted outside of [Customers](customers) and their favorite drinks. Do note, that the rewards are randomized to either [Passenger or Driver Reputation](reputation). And are claimable once every few hours.
  \n\n
  | Name | Location | Favorite Drink | Rewards |
  |------|-------------|--------|
- |[Charlottte](/bussim/npcs/charlottte)|Cafe|Hot Chocolate|1| 
- |[D6](/bussim/npcs/d6)|Cafe|***The Sludge.*** |4|
- |[Disc](/bussim/npcs/disc)|Goat Station|Vanilla Iced Coffee|2|
- |[Ectta](/bussim/npcs/ectta)|Question Time|Communion Coffee|6|
- |[Efeuc](/bussim/npcs/efeuc)|The Void Room|'Decaf'|1| 
- |[Frost](/bussim/npcs/frost)|Glacier Cave|The Blizzard|2| 
- |[MLG](/bussim/npcs/mlg)|Cafe|Pumpkin Spice Mocha|1| 
- |[Pear](/bussim/npcs/pear)|The Bus|Vanilla Almond Milk|1| 
- |[Red](/bussim/npcs/red)|Bloxdonalds|Strawberry Smoothie|1| 
- |[Steven_Scripts](/bussim/npcs/steven)|Steven Ride|Mango Juice|6| 
- |[Tazer](/bussim/npcs/tazer)|Cafe|Cup of Glowstick Fluid|3| 
- |[Zeon](/bussim/npcs/zeon)|Goat Station / Cafe|Strawberry Smoothie|1|
+ |[Charlottte](charlottte)|Cafe|Hot Chocolate|1| 
+ |[D6](d6)|Cafe|***The Sludge.*** |4|
+ |[Disc](disc)|Goat Station|Vanilla Iced Coffee|2|
+ |[Ectta](ectta)|Question Time|Communion Coffee|6|
+ |[Efeuc](efeuc)|The Void Room|'Decaf'|1| 
+ |[Frost](frost)|Glacier Cave|The Blizzard|2| 
+ |[MLG](mlg)|Cafe|Pumpkin Spice Mocha|1| 
+ |[Pear](pear)|The Bus|Vanilla Almond Milk|1| 
+ |[Red](red)|Bloxdonalds|Strawberry Smoothie|1| 
+ |[Steven_Scripts](steven)|Steven Ride|Mango Juice|6| 
+ |[Tazer](tazer)|Cafe|Cup of Glowstick Fluid|3| 
+ |[Zeon](zeon)|Goat Station / Cafe|Strawberry Smoothie|1|
  \n
  You can also give the NPCs other drinks outside of their favored drink, however will either deny or try it out; taking it from your inventory.
  \n 

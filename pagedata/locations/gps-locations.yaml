@@ -419,17 +419,17 @@ content: |
   * York Street
 
   ##[Event-Exclusive Locations (11)]
-  * ??? ([Art Gallery](/bussim/locations/art-gallery) & [Ragdoll](/bussim/others/commands#ragdoll))
-  * ?????? ([Backwalls](/bussim/events/backwalls))
-  * 2648 Goat Ave ([GOATed Gas Station](/bussim/events/goated-gas-station))
-  * 472 Luacode Lane ([Noble's House](/bussim/events/nobles-house))
-  * Act of Despair ([No Dough](/bussim/events/no-dough))
-  * Billy Nation ([Billy](/bussim/events/billy))
-  * Bloxdonalds ([Bloxdonalds](/bussim/events/bloxdonalds))
-  * NO SIGNAL ([Glacier Cave](/bussim/events/glacier-cave) & [Void (Location)](/bussim/locations/void))
-  * POSITIONING ERROR ([Time Travel](/bussim/events/time-travel))
-  * Santa's Grave ([Santa's Gone](/bussim/events/santas-gone))
-  * Wait, what?! ([Space](/bussim/events/space))
+  * ??? ([Art Gallery](art-gallery) & [Ragdoll](commands#ragdoll))
+  * ?????? ([Backwalls](backwalls))
+  * 2648 Goat Ave ([GOATed Gas Station](goated-gas-station))
+  * 472 Luacode Lane ([Noble's House](nobles-house))
+  * Act of Despair ([No Dough](no-dough))
+  * Billy Nation ([Billy](billy))
+  * Bloxdonalds ([Bloxdonalds](bloxdonalds))
+  * NO SIGNAL ([Glacier Cave](glacier-cave) & [Void (Location)](void))
+  * POSITIONING ERROR ([Time Travel](time-travel))
+  * Santa's Grave ([Santa's Gone](santas-gone))
+  * Wait, what?! ([Space](space))
 
   ##[Technical Trivia]
   - The GPS can lose signal if you reach heights above 5000 studs, beyond that point you will only see NO SIGNAL instead of the standard location and time.

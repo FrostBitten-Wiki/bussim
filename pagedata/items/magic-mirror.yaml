@@ -22,9 +22,9 @@ content: |
   "Takes you back to Frost's den." -"Magic Mirror"
 
   ##[Info]
-  The Magic Mirror is an item obtained by returning to the [Glacier Cave](/bussim/events/glacier-cave) after receiving the Animal Messenger badge from Frostbite's questline. 
+  The Magic Mirror is an item obtained by returning to the [Glacier Cave](glacier-cave) after receiving the Animal Messenger badge from Frostbite's questline. 
   \n\n 
-  On use, it will teleport you to the [Glacier Cave](/bussim/events/glacier-cave), just several feet away from the [Frost](/bussim/npcs/frostbite).
+  On use, it will teleport you to the [Glacier Cave](glacier-cave), just several feet away from the [Frost](frostbite).
 
   ##[Trivia]
   - This item, as well as the event and badges, was added with the 20 Million / Christmas update, but isn't a limited-time item.

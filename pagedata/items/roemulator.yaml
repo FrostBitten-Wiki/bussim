@@ -24,7 +24,7 @@ content: |
   ##[Info]
   The RoEmulator is a gamepass item that lets you play games on your own. 
   \n\n
-  It has options of three games: Adventure Island, Race The Sunset, and Lunar Lander. More details of the games can be seen [here](/bussim/others/games). 
+  It has options of three games: Adventure Island, Race The Sunset, and Lunar Lander. More details of the games can be seen [here](games). 
 
   ##[Trivia]
   - Despite the name, it can only play those 3 games, and cannot play any cartridge games.

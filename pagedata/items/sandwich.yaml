@@ -22,7 +22,7 @@ content: |
   "Made with love." -"Sandwich"
 
   ##[Info]
-  The Sandwich is a food item obtainable from the [Picnic Event](/bussim/events/picnic). 
+  The Sandwich is a food item obtainable from the [Picnic Event](picnic). 
   \n
   The item, when consumed, heals a tiny bit of health. 
 

@@ -27,7 +27,7 @@ content: |-
   He appears to have a Blue-Black stripped jacket over a Lua shirt, a harmonica, 4 hearts at the left of his head, a ROBLOX cap, 150K Summer Shades, and Jeans.
 
   ##[Favourite Drink]
-  Steven's favourite drink is [Mango Juice](/bussim/items/cafe-coffee/recipes). This gives you either 6 Passenger Rep or Driver Rep.
+  Steven's favourite drink is [Mango Juice](cafe-coffee/recipes). This gives you either 6 Passenger Rep or Driver Rep.
 
   ##[Dialogue (Bloxdonalds)]
   !!DLEMULATOR EID:"stevenemulator" SID:"start" URL:"/assets/bussim/emulatorData/steven.json"
@@ -41,13 +41,13 @@ content: |-
             - hg[Option 2]: Oookay... [Leave.] 
 
   ##[Trivia]
-  - Compared to the many other talkative NPCs in the game, Steven_Scripts cannot be annoyed using an [Airhorn](/bussim/items/airhorn).
-    - Steven also has no new dialogue regardless if you are friends with them, similar to [Tazer](/bussim/npcs/tazer) and other NPCs.
-    - Depending on Steven's location in Steven Ride, you might also accidentally trigger [Pear](/bussim/npcs/pear).
-  - If Steven_Scripts in Steven Ride fails to exit the Bus before the [Backwalls](/bussim/events/backwalls) event happens, he can be spotted in the walls / corners of a room, violently sobbing.\n\n
+  - Compared to the many other talkative NPCs in the game, Steven_Scripts cannot be annoyed using an [Airhorn](airhorn).
+    - Steven also has no new dialogue regardless if you are friends with them, similar to [Tazer](tazer) and other NPCs.
+    - Depending on Steven's location in Steven Ride, you might also accidentally trigger [Pear](pear).
+  - If Steven_Scripts in Steven Ride fails to exit the Bus before the [Backwalls](backwalls) event happens, he can be spotted in the walls / corners of a room, violently sobbing.\n\n
   - If the Steven Ride event is trigged while Steven is already on the bus, it will result in encountering what seems to be a humanoid shaped stone in front of the bus instead of Steven. It then gets run over by the bus and collapses, ending the event.\n\n
   - While you may not be able to see Steven_Scripts at first glance during his introduction, the harmonica sound effect will still play before and after the introduction.\n\n
-    - The harmonica sound effect is also be distorted if you spot him in the [Backwalls](/bussim/events/backwalls).
+    - The harmonica sound effect is also be distorted if you spot him in the [Backwalls](backwalls).
   - If Steven_Scripts ride on the Bus and all of the seats on the first floor are filled, Steven_Scripts will instead sit down next to the bathroom, defeated.
 
   !!GALLERY [/assets/bussim/images/npcs/banana.webp]  

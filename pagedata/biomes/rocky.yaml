@@ -24,6 +24,6 @@ content: |
   Rocky is a biome that will spawn randomly after driving through a tunnel. The biome is rather simple, being made entirely out of rocks and boulders.
 
   ##[Trivia]
-  - During the event [Cave](/bussim/events/cave), this biome would appear until the next biome.
+  - During the event [Cave](cave), this biome would appear until the next biome.
 
   !!GALLERY [/assets/bussim/images/biomes/rocky.webp]

@@ -21,13 +21,13 @@ attributions:
 
 content: |-
   ##[Info]
-  Tazer is an NPC that appears in the [GOATed Gas Station](/bussim/events/goated-gas-station) and [Coffee Shop](/bussim/events/coffee-shop) event. He, like, is a moderator for both games Noble owns, being Bus Simulator and Kit Battle.
+  Tazer is an NPC that appears in the [GOATed Gas Station](goated-gas-station) and [Coffee Shop](coffee-shop) event. He, like, is a moderator for both games Noble owns, being Bus Simulator and Kit Battle.
 
   ##[Appearance]
   Tazer wears a set based off of the Cyber Critter 9004, for both his clothing as well as his visor. He also has a PDA on his wrist, a pair of wings, a fabulous ladies hat, and both a banner and a relay pack on his back.
 
   ##[Favourite Drink (Coffee Shop)]
-  Tazer's favourite drink is [Cup of Glowstick Fluid](/bussim/items/cafe-coffee/recipes). This gives you either 3 Passenger Rep or 3 Driver Rep, however this may only be done at the Cafe event.
+  Tazer's favourite drink is [Cup of Glowstick Fluid](cafe-coffee/recipes). This gives you either 3 Passenger Rep or 3 Driver Rep, however this may only be done at the Cafe event.
 
   ##[Dialogue Emulator]
   !!DLEMULATOR EID:"tazeremulator" SID:"start" URL:"/assets/bussim/emulatorData/tazer.json"
@@ -38,8 +38,8 @@ content: |-
   - hg[Variant 4]: "Am I finally out of detention? Oh, you're not the principal. What do you want?"
       - hg[Option 1]: Do you know about the gas station over there?
           - "Oh, that place? Don't know much about it, but I drove my Mini-Bus around in there a few days ago and got kicked out. They said something like.."
-          - [Disc](/bussim/npcs/disc): "Stop driving your Mini-Bus around in places it's not supposed to be in!"
-          - [Green](/bussim/npcs/green): "I swear to God, I'm gonna lose it if I have to clean up your skid marks again! You gotta go!"
+          - [Disc](disc): "Stop driving your Mini-Bus around in places it's not supposed to be in!"
+          - [Green](green): "I swear to God, I'm gonna lose it if I have to clean up your skid marks again! You gotta go!"
           - "But driving is fun..!"
       - hg[Option 2]: How long have you been here for?
           - "I don't know, like, probably a few hours. I think..."
@@ -61,11 +61,11 @@ content: |-
                   - hg[Option 1]: There's no way you said it unironically.
                       - "Yeah, what's it to you? Do you want the rep or not?"
                           - hg[Option 1]: Sure, I guess so.
-                              - "Cool. I don't know where you'd find one, though. Maybe [Zeon"(/bussim/npcs/zeon) has one?]
+                              - "Cool. I don't know where you'd find one, though. Maybe [Zeon"(zeon) has one?]
                           - hg[Option 2]: No.
                               - ":("
                   - hg[Option 2]: Sure.
-                      - "Awesome. I don't know where you'd find some though. Maybe [Zeon"(/bussim/npcs/zeon) has a stick?]
+                      - "Awesome. I don't know where you'd find some though. Maybe [Zeon"(zeon) has a stick?]
                   - I have your RAM (Only appears if the player already has RAM)
                       - Proceeds to hg[Option 5] Variants 1 - 2
       - hg[Option 5]: I'm back, and I have your RAM. (Only appears if the player has the ram stick)
@@ -101,6 +101,6 @@ content: |-
   -Tazer is the only person to have a custom reskin of the Mini-Bus, being a Race Car.
     - You can also find and use the same skin in [Minibus Racing](https://www.roblox.com/games/5556164542/Minibus-Racing-Very-Early-Pre-Alpha) by purchasing it in the shop, as well as in Kit Battle, as a cosmetic for him.
   - It is entirely possible to get the Illegal RAM dialogue without assistance of an Admin by double-clicking Tazer to where he has two versions of himself, and swiftly double-clicking the RAM option.\n\n
-  - Tazer, [D6](/bussim/npcs/d6), and [MLG](/bussim/npcs/mlg) are fully capable of killing the player by their normal dialogue options, however doesn't actually kill them when annoyed via an Airhorn, compared to other more passive NPCs like [Frostbite](/bussim/npcs/frostbite).
+  - Tazer, [D6](d6), and [MLG](mlg) are fully capable of killing the player by their normal dialogue options, however doesn't actually kill them when annoyed via an Airhorn, compared to other more passive NPCs like [Frostbite](frostbite).
 
   !!GALLERY [/assets/bussim/images/npcs/tazer.webp]  

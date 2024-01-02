@@ -1,0 +1,26 @@
+editable: True
+page:
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim placeholder location
+  
+  tags: placeholder, location
+
+  header:
+    description: |
+      Category: [Locations](/bussim/locations)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+
+attributions: []
+
+content: |
+  ##[Info]
+  Info Here
+
+  ##[Trivia]
+  - Trivias Here
+
+  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

@@ -26,13 +26,13 @@ content: |
   \n\n 
   When obtained, it will give you a badge and the news bot will say "*BREAKING NEWS*: (username) found a strange cola, more at 7..." 
   \n\n 
-  Normally if you get this item via the Cola Crate on [The Bus](/bussim/locations/the-bus), the item would be named "Cola", without any hints that it's the Bad Cola. 
+  Normally if you get this item via the Cola Crate on [The Bus](the-bus), the item would be named "Cola", without any hints that it's the Bad Cola. 
   \n\n 
   An exception is made however if given via VIP / Admin Commands, where it's promptly named Bad Cola, giving its name. 
 
   ##[Trivia]
   - There is a way to prevent dying upon consuming the cola by quickly unequipping the item shortly after drinking it. However, this will completely freeze your character's animations (sometimes even lock you in place) until you reset character.
   - It's one of the easiest ways to die in this game as the Cola can easily be confused with this.
-  - Despite it being a [Cola](/bussim/items/cola), it doesn't heal you.
+  - Despite it being a [Cola](cola), it doesn't heal you.
 
   !!GALLERY [/assets/bussim/images/items/bad-cola.webp]

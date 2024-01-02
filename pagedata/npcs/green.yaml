@@ -21,7 +21,7 @@ attributions:
 
 content: |
   ##[Info]
-  Green is a Janitor and for the [GOATed Gas Station](/bussim/events/goated-gas-station) event.
+  Green is a Janitor and for the [GOATed Gas Station](goated-gas-station) event.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"greenemulator" SID:"start" URL:"/assets/bussim/emulatorData/green.json"
@@ -51,7 +51,7 @@ content: |
                   - "Oh, that guy's chill. Steals things from the station but he stops if we just bring trash out to them. I've tried bringing fresh food out to them, but they declined. Real cool dude though."
               - hg[Option 2]: Why do you just have a trident?
                   - "Well, you ever just take the bus home and the most random things happen? It sounds weird since buses are pretty boring most of the time, but I've seen crazy things on a couple rides."
-                  - "This sounds made up, but there was this one time where I got stuck in a place called, like... the" [backwalls](/bussim/events/backwalls)? "Don't wanna be defenseless in there, especially with that" [weird cat thing...](/bussim/npcs/pear) "I don't trust that for a second."
+                  - "This sounds made up, but there was this one time where I got stuck in a place called, like... the" [backwalls](backwalls)? "Don't wanna be defenseless in there, especially with that" [weird cat thing...](pear) "I don't trust that for a second."
               - hg[Option 3]: Who's the Manager?
                   - "I... I don't know? Honest to god I've never actually met the manager, I just got an email one day saying I was hired.Then I just like... woke up here on my first day?"
                   - "It's weird because one time my shift was over and I passed out again and just ended up back in my bed. I don't know how I get here half the time??? And that scares me?? help???"

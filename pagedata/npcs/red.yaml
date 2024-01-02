@@ -21,10 +21,10 @@ attributions:
 
 content: |-
   ##[Info]
-  RedNoob5050 (AKA Red) is an employee as [Bloxdonalds](/bussim/events/bloxdonalds) who gives you the Burger. He also works as a developer in [Kit Battle](https://gla.dog/kit-beta), one of NobleReign's games.
+  RedNoob5050 (AKA Red) is an employee as [Bloxdonalds](bloxdonalds) who gives you the Burger. He also works as a developer in [Kit Battle](https://gla.dog/kit-beta), one of NobleReign's games.
 
   ##[Favourite Drink]
-  Red's favourite drink is [Strawberry Smoothie](/bussim/items/cafe-coffee/recipes). This gives you either 1 Passenger Rep or 1 Driver Rep.
+  Red's favourite drink is [Strawberry Smoothie](cafe-coffee/recipes). This gives you either 1 Passenger Rep or 1 Driver Rep.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"redemulator" SID:"start" URL:"/assets/bussim/emulatorData/red.json"
@@ -33,9 +33,9 @@ content: |-
   - hg[Variant 2]: "Welcome to Bloxdonalds.. blah, blah, blah."
       - hg[Option 1]: Can I get an... uhhh...
           - "Yeah, yeah. I'm guessing you're here for the burger, so, take it. ssiiigggghhhhh... I don't get paid enough for this."
-              - The player receives the [Burger](/bussim/items/burger).
+              - The player receives the [Burger](burger).
           - "Hey. I said one per customer. I can see you're hiding that burger in your pocket. Don't try..."
-              - Only appears if the player already has a [Burger](/bussim/items/burger).
+              - Only appears if the player already has a [Burger](burger).
       - hg[Option 2]: Let's talk.
           - "Make it quick."
               - hg[Option 1]: Are you aware that somebody's hiding a body behind the store?

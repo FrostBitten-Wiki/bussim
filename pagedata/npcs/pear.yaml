@@ -32,7 +32,7 @@ content: |-
   Pear is a grey tuxedo cat that is wearing a Green Domino Crown, a collar, a cat facemask, a pair of pastel vintage glasses, a pair green and yellow arm warmers, and a small backpack.
 
   ##[Favourite Drink]
-  Pear's favourite drink is [Vanilla Almond Milk](/bussim/items/cafe-coffee/recipes). This gives you either 1 Passenger Rep or 1 Driver Rep.
+  Pear's favourite drink is [Vanilla Almond Milk](cafe-coffee/recipes). This gives you either 1 Passenger Rep or 1 Driver Rep.
 
   ##[Inviting Friends]
   One of the new features added within the 2/04/2023 Update, following the 20 Million Update. When you talk to Pear, 
@@ -106,7 +106,7 @@ content: |-
                                   - "Congratulations!! You're now the owner of one whole pearcoinTM!!"
                                   - "Take it in bud, you're officially part of the 1% now..."
                                   - "The 1% who actually fell for it... sucker~"
-                                      - (This gives you a hr[pearcoinTM], useful for befriending [Frostbite](/bussim/npcs/frostbite).)
+                                      - (This gives you a hr[pearcoinTM], useful for befriending [Frostbite](frostbite).)
               - hg[Variant 5]: "My favorite pizza is just plain cheese pizza!"
                   - "Though black olives are good too..."
                   - "If the player has given Pear a Cheese Pizza in the game pizza:"
@@ -162,7 +162,7 @@ content: |-
                                               - Pear then chooses a random dialogue line.
               - hg[Variant 12] (during Bus Simulator's 5th birthday):
                   - "Heyyy, it's the busses birthday! We're celebrating with cake! Pretty cool, right?"
-                  - "I do have a warning for you though... Whatever you do, don't drink a" [Bloxy Cola](/bussim/items/bloxy-cola) "alongside the" [cake](/bussim/items/bus-birthday-cake) "... You'll regret it~!"
+                  - "I do have a warning for you though... Whatever you do, don't drink a" [Bloxy Cola](bloxy-cola) "alongside the" [cake](bus-birthday-cake) "... You'll regret it~!"
       - hg[Option 3]: Invites...
           - This triggers the Invites Variant from the "Let's Talk" option.
       - hg[Option 4]: Buy Songs
@@ -182,7 +182,7 @@ content: |-
     - hg[Variant 2]: "I don't care who Billy sends, I'm not copy and pasting him..."
 
   ###[Animal Messenger Quest-Line]
-  This quest-line starts from [Frostbite](/bussim/npcs/frostbite)'s hg[Option 2], 3, 1, 2 and assuming the player hasn't completed it already. Pear's dialogue will also be added here and vice-versa. You'll also need the Part of the Pack badge and be friends with [Frost](/bussim/npcs/frostbite) to activate.
+  This quest-line starts from [Frostbite](frostbite)'s hg[Option 2], 3, 1, 2 and assuming the player hasn't completed it already. Pear's dialogue will also be added here and vice-versa. You'll also need the Part of the Pack badge and be friends with [Frost](frostbite) to activate.
 
   ###[Part 1 (Frost)]
   ###[First Time Dialogue:]

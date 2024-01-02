@@ -21,27 +21,27 @@ attributions:
 
 content: |-
   ##[Info]
-  Frostbite (or known as Frost in-game) is an NPC that only appears in the [Glacier Cave](/bussim/events/glacier-cave) event.
+  Frostbite (or known as Frost in-game) is an NPC that only appears in the [Glacier Cave](glacier-cave) event.
   As soon as you enter his den for the first time, Frost will be surprised at your arrival,
   however he allows you to explore his den but without your trust.
   \n\n
   It is known that Frost is a childhood friend of Pear, which may come fruitful in the two methods to obtain badges.
 
   ##[Favourite Drink]
-  Frostbite's favourite drink is [The Blizzard](/bussim/items/cafe-coffee/recipes). This gives you either 2 Passenger Rep or 2 Driver Rep.
+  Frostbite's favourite drink is [The Blizzard](cafe-coffee/recipes). This gives you either 2 Passenger Rep or 2 Driver Rep.
 
   ##[Trust]
   Frost has a unique mechanic compared to most NPCs,
   where he has different dialogue based on his trust level which goes from 0 to 2 at max.
-  In order to fully gain Frost's trust, you can give him an [Ice Cream](/bussim/items/ice-cream) and [Pearcoin^(TM)](/bussim/others/pearcoin) to make him trust you 
+  In order to fully gain Frost's trust, you can give him an [Ice Cream](ice-cream) and [Pearcoin^(TM)](pearcoin) to make him trust you 
   Or by giving him the Spronkbib Popsicle.
   \n\n
   The latter choice is locked if you decide to give him Ice Cream instead.
   \n\n
-  Maxing out his trust by offering the [Spronkbib Popsicle](/bussim/items/spronkbib-popsicle) (or showing [pearcoin^(TM)](/bussim/others/pearcoin) following the [Ice Cream](/bussim/items/ice-cream)) will give you a badge [Part of the Pack](https://www.roblox.com/badges/2130010648/Part-of-the-Pack), 
+  Maxing out his trust by offering the [Spronkbib Popsicle](spronkbib-popsicle) (or showing [pearcoin^(TM)](pearcoin) following the [Ice Cream](ice-cream)) will give you a badge [Part of the Pack](https://www.roblox.com/badges/2130010648/Part-of-the-Pack), 
   and is necessary to unlock the second one. His dialogue and choices also change afterwards.
   \n\n
-  Certain items can also be offered, however they don't provide any trust such as [Gas Station Ice Cream](/bussim/items/gas-station-ice-cream) and [Birthday Ice Cream](/bussim/items/birthday-ice-cream).
+  Certain items can also be offered, however they don't provide any trust such as [Gas Station Ice Cream](gas-station-ice-cream) and [Birthday Ice Cream](birthday-ice-cream).
 
   ##[Dialogue]
   ###[Intruder (First Introduction)]
@@ -90,21 +90,21 @@ content: |-
                   - You: "He doesn't really seem to trust you - your presence is merely tolerated. Maybe you can change that..?"
               - hg[Option 3]: [Offer gift: ]
 
-                  - [Spronkbib Popsicle](/bussim/items/spronkbib-popsicle)
+                  - [Spronkbib Popsicle](spronkbib-popsicle)
                       - "..! Oh, one of those! Those are so rare nowadays..!"
                       - "...!!!"
                           - You: "Frost's tail starts to kick up dust from how hard it's wagging... (+2 trust)"
-                  - [Ice Cream](/bussim/items/ice-cream)
+                  - [Ice Cream](ice-cream)
                       - "..? An ice cream..? Sure, I guess.."
                       - "..."
                       - "Not the worst thing I've ever had.. adequately creamy.. good flavor.."
                           - You: "His tail subtly beats against the rock on which he rests... (+1 trust)"
-                  - [Gas Station Ice Cream](/bussim/items/gas-station-ice-cream)
+                  - [Gas Station Ice Cream](gas-station-ice-cream)
                       - "..? An ice cream..?"
                       - "..."
                       - "......"
                           - You: "Frost eats the gas station ice cream unceremoniously. Doesn't really seem like he particularly enjoyed it..."
-                  - [Birthday Ice Cream](/bussim/items/birthday-ice-cream)
+                  - [Birthday Ice Cream](birthday-ice-cream)
                       - "Oh, uhh.."
                       - "That's... a bit too large. But, uh, thanks."
 
@@ -119,8 +119,8 @@ content: |-
           - hg[Option 2]: [Check.]
               - You: "Frost. This blue wolf seems to live here, and it feels remarkably colder in here than anywhere else in the cave..."
               - You: "He seems a little more interested in you than before, his gaze following your movements..."
-              - You: "Giving him an ice cream was the right call, but that probably won't work again... [what can you do?](/bussim/others/pearcoin)"
-          - hg[Option 3]: [Show item: [PearcoinTM](/bussim/others/pearcoin)]
+              - You: "Giving him an ice cream was the right call, but that probably won't work again... [what can you do?](pearcoin)"
+          - hg[Option 3]: [Show item: [PearcoinTM](pearcoin)]
               - "..? A coin..? Thanks, but I don't really..."
               - "Hang on a second."
               - "-snf- -snf-"
@@ -136,7 +136,7 @@ content: |-
               - hg[Option 2]: Let's be friends!
                   - "Flatted, but I don't really know you too well."
                       - Well, can I fix that?
-                          - "Not really in the mood to meet new people... [Maybe if you were a friend of a friend...](/bussim/others/pearcoin)"
+                          - "Not really in the mood to meet new people... [Maybe if you were a friend of a friend...](pearcoin)"
                       - Understandable.
               - hg[Option 3]: About the cave...
                   - "Yeah, what about it?"
@@ -225,7 +225,7 @@ content: |-
                                       - hg[Option 3]: ???????
                                           - "Your guess is as good as mine, bud."
                               - hg[Option 5]: Why do you live in a cave?
-                                  - "I'll be completely honest with ya, I couldn't afford anything else. I was gonna live in that free-model town, y'know, the one with the [gas station](/bussim/events/goated-gas-station), but I couldn't afford the rent..."
+                                  - "I'll be completely honest with ya, I couldn't afford anything else. I was gonna live in that free-model town, y'know, the one with the [gas station](goated-gas-station), but I couldn't afford the rent..."
                                       - hg[Option 1]: Living in a cave is cooler anyway.
                                           - "Mm, maybe that's true... After all, I do have lots more space than an actual house.. A free pool, too.. Yeah, I like that way of thinkin'. This IS way cooler than a house."
                                       - hg[Option 2]: Isn't the rent there pretty low?
@@ -242,7 +242,7 @@ content: |-
                                                   - "Eh, no need to be sorry. You didn't do anything wrong. Life just sucks sometimes. The most important thing is that I got through it. I'm pretty cozy where I am now, even if it's not really a proper home."
 
   ###[Animal Messenger Quest-Line]
-  This quest-line starts from [Frostbite](/bussim/npcs/frostbite)'s Option 2, 3, 1, 2 and assuming the player hasn't completed it already. Pear's dialogue will also be added here and vice-versa. You'll also need the Part of the Pack badge and be friends with [Frost](/bussim/npcs/frostbite) to activate.
+  This quest-line starts from [Frostbite](frostbite)'s Option 2, 3, 1, 2 and assuming the player hasn't completed it already. Pear's dialogue will also be added here and vice-versa. You'll also need the Part of the Pack badge and be friends with [Frost](frostbite) to activate.
 
   ###[Part 1 (Frost)]
   ###[First Time Dialogue:]
@@ -325,13 +325,13 @@ content: |-
       - "Alright, see ya on the flip side."
 
   ##[Trivia]
-  - Frost is [NobleReign](/bussim/npcs/noble) fursona.
+  - Frost is [NobleReign](noble) fursona.
       - Despite this, both Noble and Frost don't know each other and isn't referenced in any of their dialogues.
   - Frost is also a childhood friend of Pear, which is referenced in a few of his dialogue.
-  - Frost is referenced by multiple news shouts about stealing [Spronkbib Popsicles](/bussim/items/spronkbib-popsicle), rendering the popsicles a rarity now. This is alluded to the fact that the chances of getting one from an Ice Cream Truck is extremely rare.
-  - If you bought pearcoin^(TM) in the server without rejoining, you need to rejoin to be able to use it however [Pear's](/bussim/npcs/pear) dialogue will change without rejoin needed.
-  - If you offered Frost a [Spronkbib Popsicle](/bussim/items/spronkbib-popsicle) instead of the [Ice Cream](/bussim/items/ice-cream) + [PearcoinTM](/bussim/others/pearcoin) duo, he will still mention about receiving a PearcoinTM from you, despite not possibly even owning one nor showing it to Frost in the first place.
-  - If you really don't want to spend any Robux, the best way to get Frost's trust is to get the legendary [Spronkbib Popsicle](/bussim/items/spronkbib-popsicle), which has a 1/800 chance of getting, or by giving him multiple [Ice Creams](/bussim/items/ice-cream).
+  - Frost is referenced by multiple news shouts about stealing [Spronkbib Popsicles](spronkbib-popsicle), rendering the popsicles a rarity now. This is alluded to the fact that the chances of getting one from an Ice Cream Truck is extremely rare.
+  - If you bought pearcoin^(TM) in the server without rejoining, you need to rejoin to be able to use it however [Pear's](pear) dialogue will change without rejoin needed.
+  - If you offered Frost a [Spronkbib Popsicle](spronkbib-popsicle) instead of the [Ice Cream](ice-cream) + [PearcoinTM](pearcoin) duo, he will still mention about receiving a PearcoinTM from you, despite not possibly even owning one nor showing it to Frost in the first place.
+  - If you really don't want to spend any Robux, the best way to get Frost's trust is to get the legendary [Spronkbib Popsicle](spronkbib-popsicle), which has a 1/800 chance of getting, or by giving him multiple [Ice Creams](ice-cream).
       - The latter is still not confirmed yet.
 
   ##[Technical Trivia]

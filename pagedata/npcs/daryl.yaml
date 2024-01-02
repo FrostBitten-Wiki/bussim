@@ -20,7 +20,7 @@ attributions:
 
 content: |
   ##[Info]
-  Daryl, or internally known as the Ghost Employee is a special entity that spawns whenever someone who is unfortunate uses [Kernels](/bussim/items/kernels) on a Cursed Popcorn Machine. 
+  Daryl, or internally known as the Ghost Employee is a special entity that spawns whenever someone who is unfortunate uses [Kernels](kernels) on a Cursed Popcorn Machine. 
   \n\n 
   When someone activates a Cursed Popcorn Machine, Daryl will appear being visible and invisible at random times. During this period, it will chase anyone around it and making any contact with it will instantly kill you. 
   \n\n 
@@ -36,11 +36,11 @@ content: |
   \n\n 
   It cannot pass through walls nor props, making it possible to try and get around it with some lucky terrain. 
   \n\n 
-  Its walkspeed is also similar of that to the normal Robloxian, so while outrunning it may be difficult; using items such as [Almond Water](/bussim/items/almond-water) can help. 
+  Its walkspeed is also similar of that to the normal Robloxian, so while outrunning it may be difficult; using items such as [Almond Water](almond-water) can help. 
   \n\n 
-  It is unknown if it can involve itself while the person's being escorted by [Pear](/bussim/npcs/pear). 
+  It is unknown if it can involve itself while the person's being escorted by [Pear](pear). 
   \n\n 
-  Once though the Cursed Popcorn Machine has finished making popcorn, it will subsequently vanish; allowing players to receive and equip the [Popcorn Bucket](/bussim/items/popcorn-bucket). 
+  Once though the Cursed Popcorn Machine has finished making popcorn, it will subsequently vanish; allowing players to receive and equip the [Popcorn Bucket](popcorn-bucket). 
 
   ##[Trivia] 
   - The Ghost's appearance, after the Cursed Popcorn Machine is used, is based off when a ghost hunts in Phasmophobia.

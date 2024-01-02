@@ -27,7 +27,7 @@ content: |-
   When the event starts, The Bus arrives in a city in the middle of the road. The driver then tells everyone to explore around, as The Bus stops on its tracks near a coffee shop.
   \n\n
   Throughout the duration of the event, players will be able to go around the city and talk to various NPCs, as well as providing different tasks for Passenger Reputation as compensation. The many NPCs you can find here are: Zeon, NobleReign, Tazer, MLG, and some new ones being: Sakura, Inro, Charlotte (Green Goat), and Foxman.
-  !!BUTTONS [Coffee Shop,renderHTML('/wiki/bussim/events/cafe')|<highlight>Tazer's Garage</highlight>,location.href='#']
+  !!BUTTONS [Coffee Shop,location.href='cafe'|<highlight>Tazer's Garage</highlight>,location.href='#']
   ##[The Garage]
   "What's up? Need somethin'?" -"Tazer"
   The Garage is a location situated near the Coffee Shop within the city, run by Tazer. You'll be able to customize your Mini-Bus to the E-Bus from one of NobleReign's games: Mini-Bus Racing for the cost of <b>45</b> Passenger Reputation, afterwards once it has been paid for; you'll be able to change it back to the original, and vice versa for free.

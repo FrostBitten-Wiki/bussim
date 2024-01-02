@@ -21,7 +21,7 @@ attributions:
 
 content: |-
   ##[Info]
-  D6 is an NPC in the [GOATed Gas Station](/bussim/events/goated-gas-station) event, as well as an artist.
+  D6 is an NPC in the [GOATed Gas Station](goated-gas-station) event, as well as an artist.
 
   ##[Appearance]
   As of July 20th 2023, D6's design has been changed to one more complex, now having a long black hair with what seems to be horns poking out of it,
@@ -33,7 +33,7 @@ content: |-
   a White Kobold snout and frills, white fur, a White Lizard Tail, and the Hexxed symbol on his chest.
 
   ##[Favourite Drink]
-  D6's favourite drink is [The Sludge](/bussim/items/cafe-coffee/recipes). This gives you either 4 Passenger Rep or 4 Driver Rep.
+  D6's favourite drink is [The Sludge](cafe-coffee/recipes). This gives you either 4 Passenger Rep or 4 Driver Rep.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"d6emulator" SID:"start" URL:"/assets/bussim/emulatorData/d6.json"
@@ -244,7 +244,7 @@ content: |-
                           - "please ill give you this handy dandy Tool"
                               - hg[Option 1]: Deal.
                                   - "pleasure doing business"
-                                      - (The player hands D6 a random consumable item and receives a [Tool](/bussim/items/tool).)
+                                      - (The player hands D6 a random consumable item and receives a [Tool](tool).)
                               - hg[Option 2]: No deal.
                                   - "You think this is a game? Do you find this amusing?"
                                       - Kind of.
@@ -268,10 +268,10 @@ content: |-
      - ["man i could really go for some graham crackers right about now"](https://twitter.com/GandalfGetsTo) is a reference to a TikTok account where a cat owner lets their cat, named Gandalf, gets to lick a Graham Cracker every Monday.
      - ["i cant believe i had to drive all the way to work"](https://www.youtube.com/watch?v=b-LTE6vIb9U&ab_channel=HigherQualityUploads) is a reference to a line from Toy Story 2, where Al has to drive across the street to his job on a Saturday.
      - "dude... GLAGGLELAND??????" is a reference to a bunch of videos about Glaggleland, a fictional amusement park filled with smileys and silliness.
-     - "...and talk about turtle skeletons from a specific video game franchise for hours." is a reference to [Dry Bones](https://www.mariowiki.com/Dry_Bones) from the Super Mario franchise, that both D6 and [Zeon](/bussim/npcs/zeom) indeed like talking about.
+     - "...and talk about turtle skeletons from a specific video game franchise for hours." is a reference to [Dry Bones](https://www.mariowiki.com/Dry_Bones) from the Super Mario franchise, that both D6 and [Zeon](zeom) indeed like talking about.
      - "7577234764 Dont forget it. It's the only way out.". 7577234764 is actually a Roblox marketplace ID for an image of a paper D6 that dSiiiiiix has.
   - When Bus Simulator got age restricted for 14+ for the first time, the reasoning as to why it was restricted was because D6's "why havent you been flattened by a 2 ton slab of concrete" was more than enough for the game to receive a Violence tag.
       - This was appealed however, but it wasn't the last time Bus Simulator had been age-restricted before.
-  - D6 is the only NPC to respond when the player spams the [Airhorn](/bussim/items/airhorn), but without talking once.
+  - D6 is the only NPC to respond when the player spams the [Airhorn](airhorn), but without talking once.
 
   !!GALLERY [/assets/bussim/images/npcs/banana.webp]  

@@ -22,16 +22,16 @@ content: |
   "Of the 32GB variety." -"RAM"
 
   ##[Info]
-  RAM is a unique item in [Goat Station](/bussim/events/goated-gas-station), where you need to trigger a side quest to be able to pick up the item. 
+  RAM is a unique item in [Goat Station](goated-gas-station), where you need to trigger a side quest to be able to pick up the item. 
   \n\n 
   To trigger the side quest, talk to Tazer in the Principle's Office, until he mentions that hes a bit hungry, and asks you for a stick of RAM. 
   \n\n 
   Go to the yellow house, and to the bedroom on the left of the bathroom down the hall.
   \n 
-  On the desk, there will be the stick of RAM, and you have to walk over it to obtain it. Take it back to Tazer and give it to him, and you will be rewarded with [2 Driver Reputation](/bussim/others/reputation). 
+  On the desk, there will be the stick of RAM, and you have to walk over it to obtain it. Take it back to Tazer and give it to him, and you will be rewarded with [2 Driver Reputation](reputation). 
 
   ##[Trivia]
   - If you try to get this item using admin commands, Tazer will mention that it's not the real one and won't give you any reputation.
-    - If you also attempt to gift Tazer a RAM stick from the previous [Goat Station](/bussim/events/goated-gas-station), he will mention he gets deja vu and won't gift you driver rep as well.
+    - If you also attempt to gift Tazer a RAM stick from the previous [Goat Station](goated-gas-station), he will mention he gets deja vu and won't gift you driver rep as well.
 
   !!GALLERY [/assets/bussim/images/items/ram.webp]

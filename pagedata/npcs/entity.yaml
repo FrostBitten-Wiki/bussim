@@ -24,14 +24,14 @@ content: |
   "The entities around here are kinda scary... I tried to hide away in a room when one spotted me, but it still knew where I was..! I guess they can still track you for a bit when you're out of sight..." -"Pear"
 
   ##[Info]
-  Entities are NPC's found in the [Backwalls](/bussim/events/backwalls), they're hostile towards players and will kill them if exposed enough.
+  Entities are NPC's found in the [Backwalls](backwalls), they're hostile towards players and will kill them if exposed enough.
 
   ##[AI (Artificial Intellegence)]
-  - The AI of the entities works like the NPCs found in [No Dough](/bussim/events/no-dough) and [Santa's Gone](/bussim/events/santas-gone) except a few major differences.
+  - The AI of the entities works like the NPCs found in [No Dough](no-dough) and [Santa's Gone](santas-gone) except a few major differences.
   - If they spot a player in the Backwalls they will check the area where they last spotted them.
   - They don't get distracted to any items (Example Airhorn, Spronkbib Popsicle, etc) making them nearly useless.
   - Their speed increases when they fully spotted a player.
-  - Sometimes, Entities can bundle up in an area, making it harder/impossible to pass through without [Liquid Void](/bussim/items/liquid-void).
+  - Sometimes, Entities can bundle up in an area, making it harder/impossible to pass through without [Liquid Void](liquid-void).
   - If you get spotted, you will be stunned for a second, much like getting spotted in No Dough. But you don't die immediately.
 
   !!GALLERY [/assets/bussim/images/npcs/banana.webp]  

@@ -26,9 +26,9 @@ content: |
   \n\n 
   You can only obtain it by waiting for an event where the bus stops, as the Ice Cream truck moves along with the bus. 
   \n\n 
-  If you own a [Mini-Bus](/bussim/items/mini-bus), and the bus has stopped, you can drive back to where the cars spawn, and wait for an Ice Cream truck to spawn, if you can get beyond the invisible barrier. 
+  If you own a [Mini-Bus](mini-bus), and the bus has stopped, you can drive back to where the cars spawn, and wait for an Ice Cream truck to spawn, if you can get beyond the invisible barrier. 
   ##[Trivia]
   - It's an item that is unobtainable through standard means, such as an event, or on-board the bus.
-  - You can feed it to [Frost](/bussim/npcs/frostbite) to gain 1 trust.
+  - You can feed it to [Frost](frostbite) to gain 1 trust.
 
   !!GALLERY [/assets/bussim/images/items/ice-cream.webp]

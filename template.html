@@ -4,48 +4,23 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=0.75">
         {% if page %}
-            <title>Bus Simulator: {{ page["title"] }}</title>
-            <meta name="description" content="{{ page["description"] }}">
+            <title>Bus Simulator: {{ page.title }}</title>
 
-            <meta property="og:url" content="">
             <meta property="og:type" content="website">
-            <meta property="og:title" content="Bus Simulator: {{ page["title"] }}">
-            <meta property="og:description" content="">
-            <meta property="og:image" content="{{ page['header']['imageBanner'] }}">
+            <meta property="og:title" content="Bus Simulator: {{ page.title }}">
+            <meta property="og:description" content="{{ page.description | truncate(48, True, '...') }}">
+            <meta property="og:image" content="{{ page.header.imageBanner }}">
 
             <meta name="twitter:card" content="summary_large_image">
             <meta property="twitter:domain" content="wiki.wolfdo.gg">
-            <meta property="twitter:url" content="">
-            <meta name="twitter:title" content="Bus Simulator: {{ page["title"] }}">
-            <meta name="twitter:description" content="">
-            <meta name="twitter:image" content="{{ page['header']['imageBanner'] }}">
+            <meta name="twitter:title" content="Bus Simulator: {{ page.title }}">
+            <meta name="twitter:description" content="{{ page.description | truncate(48, True, '...') }}">
+            <meta name="twitter:image" content="{{ page.header.imageBanner }}">
 
-            <meta name="keywords" content="{{ page['keywords'] }}">
+            <meta name="keywords" content="{{ page.keywords }}">
 
             <link rel="icon" href="/assets/bussim/favicon.ico" type="image/x-icon">
             <link rel="stylesheet" href="/assets/bussim/style.css">
-
-            <script>
-                function truncateText(text) {
-                    if (text.length > 50) {
-                        return text.substring(0, 50) + '...';
-                    } else {
-                        return text;
-                    }
-                }
-
-                var currentPath = window.location.pathname;
-    
-                var ogUrlMetaTag = document.querySelector('meta[property="og:url"]');
-                var twitterUrlMetaTag = document.querySelector('meta[name="twitter:url"]');
-                var ogSiteDescription = document.querySelector('meta[property="og:description"]');
-                var twitterSiteDescription = document.querySelector('meta[name="twitter:description"]');
-
-                ogUrlMetaTag.setAttribute('content', currentPath);
-                twitterUrlMetaTag.setAttribute('content', currentPath);
-                ogSiteDescription.setAttribute('content', truncateText('{{ page["description"] }}'));
-                twitterSiteDescription.setAttribute('content', truncateText('{{ page["description"] }}'));
-            </script>
         {% endif %}
 
         <link rel="stylesheet" href="/assets/bussim/dialogue.css">
@@ -192,28 +167,12 @@
         </style>
         
         <div id="extraScreens">
-            <div id="loadScreen" style="transition: opacity 1s; position: fixed; top: 0; width: 100vw; height: 100vh; backdrop-filter: blur(5px) grayscale(25%); z-index: 6;">
-                <div id="loadScreenText" style="display: flex; align-items: center; justify-content: center; height: 100vh;">
-                    <text style="font-size: 250%;">Loading Content...</text>
-                </div>
-            </div>
-
-            <div id="searchScreen" style="bottom: -50vh;">
-                <div style="transition: margin 500ms; margin-top: 30px; margin-left: 10vw; margin-right: 10vw; box-sizing: border-box;">
-                    <text style="font-size: 35px;">Search Results</text>
-
-                    <hr class="hr-gradient">
-
-                    <div id="results">
-
-                    </div>
-                </div>
-            </div>
+            <!-- no extras rn.. will add soon so keep this -->
         </div>
 
         <div id="menuParent" style="background-color: #100996; position: fixed; bottom: 0; height: 55px; width: 100%; z-index: 5; display: flex; justify-content: right;">
             <div class="sidebar sidebarMenu" id="mainMenu" style="display: flex; top: 0; left: 0; flex-direction: row; justify-content: left; flex: 1;">
-                <button onclick="renderHTML('/wiki/bussim/home')">
+                <button onclick="location.href='home'">
                     <img src="/assets/bussim/images/menuIcons/home.webp" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Home</text>
                 </button>
@@ -227,80 +186,6 @@
                     <img src="/assets/bussim/images/menuIcons/menuothers.webp" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Other Stuff</text>
                 </button>
-
-                <input id="searchBar" placeholder="Search" onclick="document.getElementById('searchScreen').style.bottom = '55px'" autocomplete="off">
-
-                <script>
-                    let width = document.body.clientWidth
-
-                    window.addEventListener("resize", e => {
-                        width = e.target.outerWidth
-                    })
-
-                    setInterval(() => {
-                        if(width < 777) {
-                            if(document.getElementById("otherStuff").querySelectorAll("#searchBar").length == 0) {
-                                document.getElementById("otherStuff").appendChild(document.getElementById("searchBar"))
-                            }
-                        } else {
-                            if(document.getElementById("mainMenu").querySelectorAll("#searchBar").length == 0) {
-                                document.getElementById("mainMenu").appendChild(document.getElementById("searchBar"))
-                            }
-                        }
-                    }, 100)
-                </script>
-
-                <script>
-                    document.addEventListener('click', function (event) {
-                        const searchScreen = document.getElementById('searchScreen');
-                        const searchBar = document.getElementById('searchBar');
-                        const isSearchScreen = searchScreen.contains(event.target);
-                        const isSearchBar = searchBar.contains(event.target);
-
-                        if (!isSearchScreen && !isSearchBar) {
-                            searchScreen.style.bottom = '-50vh';
-                        }
-                    });
-                    
-                    let typingTimer;
-                
-                    document.getElementById('searchBar').addEventListener('input', function() {
-                        clearTimeout(typingTimer);
-                        typingTimer = setTimeout(doneTyping, 250);
-                    });
-                
-                    function doneTyping() {
-                        fetch(`https://wiki.wolfdo.gg/bussim-search/${document.getElementById('searchBar').value}`)
-                        .then(response => {
-                            if (!response.ok) {
-                              throw new Error(`HTTP error! Status: ${response.status}`);
-                            }
-                            return response.json();
-                        })
-                        .then(data => {
-                            createElements(data);
-                        })
-                        .catch(error => {
-                            console.error('Fetch error:', error);
-                        });
-                    }
-
-                    function createElements(data) {
-                        const resultContainer = document.getElementById('results');
-                        
-                        resultContainer.innerHTML = '';
-                        data.forEach(item => {
-                            const element = document.createElement('div');
-                            element.innerHTML = `
-                            <div style="background-color: #16116d; padding: 5px; margin-bottom: 5px; cursor: pointer;" onclick="renderHTML('${item.path}')">
-                                <text>${item.name}</text><br>
-                                <text style="font-size: 10px;">${item.description}</text>
-                            </div>
-                            `;
-                            resultContainer.appendChild(element);
-                        });
-                    }
-                  </script>
             </div>
 
             <div class="sidebar sidebarMenu" id="wikiPages" style="display: none; position: absolute; top: 0; left: 0; flex-direction: row;">
@@ -309,37 +194,37 @@
                     <text type="hoverText">Back to Menu</text>
                 </button>
             
-                <button onclick="renderHTML('/wiki/bussim/events')">
+                <button onclick="location.href='events'">
                     <img src="/assets/bussim/images/menuIcons/events.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Events</text>
                 </button>
             
-                <button onclick="renderHTML('/wiki/bussim/biomes')">
+                <button onclick="location.href='biomes'">
                     <img src="/assets/bussim/images/menuIcons/biomes.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Biomes</text>
                 </button>
     
-                <button onclick="renderHTML('/wiki/bussim/badges')">
+                <button onclick="location.href='badges'">
                     <img src="/assets/bussim/images/menuIcons/badges.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Badges</text>
                 </button>
             
-                <button onclick="renderHTML('/wiki/bussim/items')">
+                <button onclick="location.href='items'">
                     <img src="/assets/bussim/images/menuIcons/items.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Items</text>
                 </button>
             
-                <button onclick="renderHTML('/wiki/bussim/locations')">
+                <button onclick="location.href='locations'">
                     <img src="/assets/bussim/images/menuIcons/locations.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Locations</text>
                 </button>
             
-                <button onclick="renderHTML('/wiki/bussim/npcs')">
+                <button onclick="location.href='npcs'">
                     <img src="/assets/bussim/images/menuIcons/npcs.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">NPCs</text>
                 </button>
             
-                <button onclick="renderHTML('/wiki/bussim/others')">
+                <button onclick="location.href='others'">
                     <img src="/assets/bussim/images/menuIcons/others.png" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Others</text>
                 </button>
@@ -351,7 +236,7 @@
                     <text type="hoverText">Back to Menu</text>
                 </button>
             
-                <button onclick="renderHTML('/wiki/bussim/contributors')">
+                <button onclick="location.href='contributors'">
                     <img src="/assets/bussim/images/menuIcons/contributors.webp" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Contributors</text>
                 </button>
@@ -360,24 +245,12 @@
                     <img src="/assets/bussim/images/menuIcons/github.webp" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Wiki Repository</text>
                 </button>
-            </div>
 
-            <div class="sidebar" style="top: 0; right: 0; flex-direction: row-reverse; display: flex;">
-                <button onclick="randomDialogueEvent(false)">
-                    <img src="/assets/bussim/images/menuIcons/books.webp" style="user-select: none; margin-left: 7px;" width="24" height="auto">
-                    <text type="hoverText">Force Dialogue</text>
-                </button>
-
-                <button onclick="location.href = window.location.pathname.replace('wiki', 'edit');" type="menuback">
-                    <img src="/assets/bussim/images/menuIcons/edit.webp" style="user-select: none; margin-left: 7px;" width="24" height="auto">
-                    <text type="hoverText">Edit Page</text>
-                </button>
-            
                 <button onclick="window.open('https://discord.gg/frostbitegames', '_blank')">
                     <img src="/assets/bussim/images/menuIcons/discord.webp" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">FrostBitten Games</text>
                 </button>
-
+    
                 <button onclick="window.open('https://discord.gg/gtuMqnt4YG', '_blank')">
                     <img src="/assets/bussim/images/menuIcons/discord.webp" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">ForstBitten Wiki</text>
@@ -387,6 +260,19 @@
                     <img src="/assets/bussim/images/menuIcons/discord.webp" style="user-select: none; margin-left: 7px;" width="24" height="auto">
                     <text type="hoverText">Bus Simulator Discord</text>
                 </button>
+            </div>
+
+            <div class="sidebar" style="top: 0; right: 0; flex-direction: row-reverse; display: flex;">
+                <button onclick="randomDialogueEvent(false)">
+                    <img src="/assets/bussim/images/menuIcons/books.webp" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <text type="hoverText">Force Dialogue</text>
+                </button>
+
+                <button onclick="location.href = '/edit' + window.location.pathname;" type="menuback">
+                    <img src="/assets/bussim/images/menuIcons/edit.webp" style="user-select: none; margin-left: 7px;" width="24" height="auto">
+                    <text type="hoverText">Edit Page</text>
+                </button>
+            
             </div>
 
             <script>
@@ -415,21 +301,21 @@
 
         <div style="width: 100%; z-index: 1;">
             <div style="position: absolute; top: 0; width: 100vw; z-index: -1;">
-                <img id="bannerImage" src="" width="100%" height="250" style="object-fit: cover; user-select: none;">
+                <img id="bannerImage" src="{{ page.header.imageBanner }}" width="100%" height="250" style="object-fit: cover; user-select: none;">
                 <div style="position: absolute; top: 0; height: 250px; width: 100%; background: linear-gradient(to bottom, transparent 0%, rgba(8, 4, 83, 1) 90%);"></div>
             </div>
 
             <div style="transition: margin 500ms; margin-top: 50px; margin-left: 10vw; margin-right: 10vw;">
                 <div style="width: 80vw;">
                     <div style="z-index: 2;">
-                        <text style="font-size: 50px;" id="title"></text><br>
-                        <text style="font-size: 17px;" id="description"></text><br><br>
+                        <text style="font-size: 50px;" id="title">{{ page.title }}</text><br>
+                        <text style="font-size: 17px;" id="description">{{ page.header.description }}</text><br><br>
                     </div>
                 </div>
 
                 <div style="width: 80vw;">
                     <div id="wikiContent">
-
+                        {{ content }}
                     </div>
 
                     <div style="margin-top: 10px; margin-bottom: 20px;" id="attributions">
@@ -457,6 +343,7 @@
         <script>
             const previewImage = image => {
                 console.log(image)
+                playSound("page", 0.5, 0)
 
                 const bg = document.createElement("div")
                 bg.className = "previewBg"
@@ -474,7 +361,6 @@
         <script src="https://unpkg.com/gsap@3.9.0"></script>
         <script src="/assets/bussim/scripts/others.js"></script>
         <script src="/assets/bussim/scripts/tooltip.js"></script>
-        <script src="/assets/bussim/scripts/contentHandler.js"></script>
         <script src="/assets/bussim/scripts/dialogueSystem.js"></script>
         <script src="/assets/bussim/scripts/dialogueEmulator.js"></script>
         <script src="/assets/bussim/scripts/wave.js"></script>

@@ -283,43 +283,12 @@ syntaxes = {
     "table": (synpat.TABLE[0], re.MULTILINE | re.DOTALL, synpat.TABLE[1]),
     "tree": (synpat.TREE[0], re.MULTILINE, synpat.TREE[1]),
 }
-
-@app.get("/api/jinki/{repo}/{jinkipath:path}")
-async def jinkyapi(repo: str, jinkipath: str):
-    if jinkipath == "": jinkipath = "home"
-    data = open(f"./pagedata/{jinkipath.rstrip("/")}.yaml", "r").read()
-    data = safe_load(data)
-
-    return HTMLResponse(jinki.render(data.get('content', ''), syntaxes))
     
 # Asset Delivery
 @app.get("/{repo}-assets/{file:path}") # for backwards-compatibility
 @app.get("/assets/{repo}/{file:path}")
 async def assetDelivery(request: Request, repo: str, file: str):
     return FileResponse(f"./assets/{file}")
-
-@app.get("/contentinfo/{repo}/{file:path}")
-async def infoDelivery(request: Request, repo: str, file: str):
-    response = open(f"./pagedata/{file.rstrip("/")}.yaml").read()
-    data = safe_load(response)
-
-    formedData = {
-        "page": {
-            "title": data["page"]["title"],
-            "description": data["page"]["description"],
-            "keywords": data["page"]["keywords"],
-        },
-
-        "header": {
-            "title": data["page"]["title"],
-            "description": jinki.render(data["page"]["header"]["description"], syntaxes),
-            "banner": data["page"]["header"]["imageBanner"],
-        },
-
-        "attributions": data["attributions"]
-    }
-
-    return JSONResponse(formedData)
 
 if __name__ == "__main__":
     run("main:app", host="0.0.0.0", port=8080, reload=True)
