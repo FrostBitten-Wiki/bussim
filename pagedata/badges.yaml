@@ -1,24 +1,25 @@
-editable: True
+editable: true
 page:
   title: Badges
-  description: Badges are collectibles in Bus Simulator that are obtained in specific conditions. Some are limited while others give an item for unlocking.
+  description: Badges are collectibles in Bus Simulator that are obtained in specific
+    conditions. Some are limited while others give an item for unlocking.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim badges
-  
+
   tags: badges, badge
   ignore: ignore
 
   header:
     description: |
       Badges are collectibles in Bus Simulator that are obtained in specific conditions. Some are limited while others give an item for unlocking.
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-attributions: 
+attributions:
   - Created and Converted to Jinki by FangedWerewolf (@noobbiom)
 
 content: |
-  !!INFOBOX TITLE:"Obtainable Badges" COLOR:"#FFFFFF" TEXT:[These badges are obtainable through specific conditions, but generally aren't limited and can be unlocked anytime.]
+  !!INFOBOX TITLE:"Obtainable Badges" COLOR:"#FFFFFF" TEXT:"These badges are obtainable through specific conditions, but generally aren't limited and can be unlocked anytime."
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/1cfe22543d72d0f39c7211769f5728b4/150/150/Image/Png" TITLE:"Hey Beter" DESCRIPTION:"Yes ROBLOXIAN from Bus Simulator? (earn this badge by finding and touching Beter)\n\n> You can obtain this badge by heading over to the [Beter Box](locations/beter-box), in front of The Bus." REDIRECT:"https://www.roblox.com/badges/2119284083/Hey-eter"
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/0dbafb120cb2cff615c34b7087cadec0/150/150/Image/Png" TITLE:"Something seems.. off..." DESCRIPTION:"Should you drink it? (earn this badge by finding the Red Cola)\n\n> You can obtain this by getting the [Bad Cola](items/bad-cola), with a ~10% chance when clicking on the Cola Crate." REDIRECT:"https://www.roblox.com/badges/2124425352/Something-seems-off"
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/f5d214b10ac88e4b9aac96b663cb3010/150/150/Image/Png" TITLE:"Thanks!" DESCRIPTION:"What a nice passenger you are as well! (earn this badge by thanking the bus driver)\n\n> You can obtain this by thanking the driver, being 'thanks, thx, tank' and >=3 or more letters of the driver's user / display name." REDIRECT:"https://www.roblox.com/badges/2124426073/Thanks"
@@ -43,23 +44,23 @@ content: |
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/5734d2dbdb1c86eb406f333b566cf544/150/150/Image/Png" TITLE:"Living Wage" DESCRIPTION:"Okay, next try to unionize. (earn this badge by walking into the cafe while wearing the full uniform. [Shirt](https://www.roblox.com/catalog/15708474232/Shirt) and [Pants](https://www.roblox.com/catalog/15708485012/Pants)\n\n> Walk into [Cafe 2952](events/cafe) while wearing the uniform." REDIRECT:"https://www.roblox.com/badges/881948006274079/Living-Wage"
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/a33288dbd96f4fdda87432196cf35eaa/150/150/Image/Png" TITLE:"Melancholy" DESCRIPTION:"Sitting in silence, watching the world go by... (earn this badge by sitting alone in a server for 30 minutes straight.) \n\n> Wait for 30 minutes with nobody but you on the server." REDIRECT:"https://www.roblox.com/badges/682951209544927/Melancholy"
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/00f3eace89df21bb91667f4f0cc32134/150/150/Image/Png" TITLE:"Shocking Results" DESCRIPTION:"He did warn you. (earn this badge by stubbornly touching a vehicle that isn't yours.)\n\n> Touch [Tazer's](npcs/tazer) Mini-Bus in [Goat Station](events/goat-station) three times in a row." REDIRECT:"https://www.roblox.com/badges/4250341624761294/Shocking-Results"
-  
-  !!INFOBOX TITLE:"Unobtainable Badges" COLOR:"#777777" TEXT:[These badges were limited at some point in time following their introduction, but are now no longer obtainable.]
+
+  !!INFOBOX TITLE:"Unobtainable Badges" COLOR:"#777777" TEXT:"These badges were limited at some point in time following their introduction, but are now no longer obtainable."
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/0d9afa3b9da58bf672258bfae8ae56ea/150/150/Image/Png" TITLE:"A One in a Millionth Mistake" DESCRIPTION:"...Wow. Seriously unlucky. How did you even-- it's literally a one in a millionth mistake. (earn this badge by drinking the 1M Cola... and being extremely unlucky.) Happy 1 Million Visits!\n\n> Obtained by drinking the 1 Million Cola and getting extremely unlucky. (1/1000000)" REDIRECT:"https://www.roblox.com/badges/2124426511/A-One-in-a-Millionth-Mistake"
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/5b7bfb3aee29dd34c6f3a943de1822c5/150/150/Image/Png" TITLE:"Santa Frauds" DESCRIPTION:"Y-Yeah, you were totally prepared for Christmas this year..! (earn this badge by finding and wearing the festive paper bag) [only available during Winter 2019!]\n\n> Obtained by wearing the festive paper bag." REDIRECT:"ttps://www.roblox.com/badges/2124495984/Santa-Frauds"
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/8e484d48009e6502d41ef2036d423bca/150/150/Image/Png" TITLE:"10 Million Visits Badge" DESCRIPTION:"wow!! you really did it!! you got the most useless badge of them all! (earn this badge by chance.) [only available during the 10M visits event!]\n\n> Obtained by spinning the 10 Million Visits Wheel and getting it by chance." REDIRECT:"https://www.roblox.com/badges/2124622089/10-Million-Visits-Badge"
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/21832511020a8f3219aadff27836bc52/150/150/Image/Png" TITLE:"The Bringer of Gifts" DESCRIPTION:"Sure, you may have ruined everything, but it's the thought that counts.. right? (earn this badge by being a part of 20 successful gift deliveries.) [only available during Winter '21 and '22!]\n\n> Obtained by securing the presents 20 times while [Santa's Gone](events/santas-gone) was still enabled. Rewards you with the [Candied Cane](items/candied-cane)." REDIRECT:"https://www.roblox.com/badges/2124884560/The-Bringer-of-Gifts"
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/e09c1b3c10215e11aa2482ded7bd8f1d/150/150/Image/Png" TITLE:"Plasticky Birthday Goodness" DESCRIPTION:"Oh, it's the bus's birthday! Happy birthday Bus Simulator! (earn this badge by taking a bite of the bus's birthday cake) [only available during the week of Bus Simulator's 5th birthday]\n\n> Obtained by eating the [Bus Birthday Cake](items/bus-birthday-cake)." REDIRECT:"https://www.roblox.com/badges/2148621518/Plasticky-Birthday-Goodness"
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/360f422355b6f64af13426b9cc987cae/150/150/Image/Png" TITLE:"Plasticky Cola Hell" DESCRIPTION:"At least it wasn't a purple shake. (earn this badge by using some Cola to wash it all down) [only available during the week of Bus Simulator's 5th birthday]\n\n> Obtained by eating the [Bus Birthday Cake](items/bus-birthday-cake) and [Cola](items/cola) quickly." REDIRECT:"https://www.roblox.com/badges/2148621577/Plasticky-Cola-Hell"
-  
-  !!INFOBOX TITLE:"Archived Badges" COLOR:"#5555ff" TEXT:[These badges have been replaced or deleted at some point, this is just purely for archival.]
+
+  !!INFOBOX TITLE:"Archived Badges" COLOR:"#5555ff" TEXT:"These badges have been replaced or deleted at some point, this is just purely for archival."
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/e6b1e2fb0569a3fb881a71fc24894435/150/150/Image/Png" TITLE:"TBA" DESCRIPTION:"what could this badge be for? only time will tell...\n\n> ???" REDIRECT:"https://www.roblox.com/badges/3244323279038885/TBA"
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/e6b1e2fb0569a3fb881a71fc24894435/420/420/Image/Png" TITLE:"TBA 2" DESCRIPTION:"100 what?\n\n> Obtained by having / completing / giving 100 of ???..?" REDIRECT:"https://www.roblox.com/badges/4484097064509729/TBA-2"
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/e6b1e2fb0569a3fb881a71fc24894435/420/420/Image/Png" TITLE:"TBA 3" DESCRIPTION:"a throwback...\n\n> ???" REDIRECT:"https://www.roblox.com/badges/4331907466395285/TBA-3"
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/e6b1e2fb0569a3fb881a71fc24894435/420/420/Image/Png" TITLE:"TBA 4" DESCRIPTION:"new threads...\n\n> ???" REDIRECT:"https://www.roblox.com/badges/881948006274079/TBA-4"
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/e6b1e2fb0569a3fb881a71fc24894435/420/420/Image/Png" TITLE:"TBA 5" DESCRIPTION:"like a wolf...\n\n> ???" REDIRECT:"https://www.roblox.com/badges/682951209544927/TBA-5"
   !!LISTITEM IMAGE:"https://tr.rbxcdn.com/e6b1e2fb0569a3fb881a71fc24894435/420/420/Image/Png" TITLE:"TBA 6" DESCRIPTION:"don't overstep...\n\n> ???" REDIRECT:"https://www.roblox.com/badges/4250341624761294/TBA-6"
-  
+
   ##[Trivia]
   - The Plasticky Cola Goodness and Plasticky Cola Hell are both inspired from The Grimace Shake meme, where people would celebrate Grimace's birthday and drink his shake, only to be subsequently unconscious or die in horrific ways, typically accompanied with purple stains.
   - The Last One used to not give you a Spronkbib Popsicle on spawn when it was first introduced. It was only after the 20 Million Update that having the badge will give you the Spronkbib Popsicle. 

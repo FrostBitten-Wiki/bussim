@@ -1,28 +1,41 @@
-editable: True
+editable: true
 page:
-  title: Placeholder
-  description: Placeholder
-    
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
-  tags: some,tags,here,that is used by the search api
+  title: Adventure Line
+  description: The Adventure Line is an event based off of the Stanley Parable, and
+    is about the riders of the bus following The Adventure LineTM. The line leads
+    into a sewer grate, and the music is a lower quality version of the original version
+    from the game. The event lasts just short of a minute.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim adventure line
+    event
+
+  tags: adventure line, events
   ignore: ignore
 
   header:
     title: Placeholder
     description: |
       Category: [Events](/bussim/events)
-    
-    image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+
+    image: ''
+    imageBanner: /assets/bussim/images/events/line.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  The Adventure Line is an event based off of the Stanley Parable, 
+  and is about the riders of the bus following The Adventure Line^(TM).
+  The line leads into a sewer grate, and the music is a lower quality version of the original version from the game. 
+  The event lasts just short of a minute.
+
+  ##[Dialogue]
+  - hg[The Narrator]: Players decided to follow the adventure line.
+  - *After 45 seconds...*
+  - hg[Event]: I think i already seen this somewhere.. Lets go, 15 seconds.
 
   ##[Trivia]
-  - Trivia Here
+  - The Adventure Line^(TM) is impossible to follow by walking on the path directly without use of Hoverboots, Helicopter, climbing in VR, or even using a Mini-Bus glitch, due to the line going upwards several dozen studs, and having a totally flat surface.
+  - The audio being lower resolution was potentially due to bypass the ROBLOX audio system, so it can be played in the game.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/events/line.webp]
