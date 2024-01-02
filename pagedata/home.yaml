@@ -40,7 +40,3 @@ content: |-
 
   ##[Browse the Wiki]
   You can browse the wiki's contents from the bar below!
-
-  \n\n
-
-  <clr:#45ff45>(<text onclick="playSound("kaching", 0.5, 0)">click this</text>)
