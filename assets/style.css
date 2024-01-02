@@ -120,7 +120,7 @@ highlight[type="grey"] {
 highlight[type="rainbow"] {
     background-image: repeating-linear-gradient(69deg, red, orange, yellow, green, blue, indigo, purple, red, orange);
     text-align: center;
-    overflow: auto;
+    overflow: visible;
     background-size: 2048px 256px;
     background-clip: text;
     -webkit-background-clip: text;
