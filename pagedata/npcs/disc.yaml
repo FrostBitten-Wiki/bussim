@@ -12,7 +12,7 @@ page:
   header:
     title: Disc
     description: |
-      Category: [NPCs](/bussim/npcs)
+      Category: [NPCs](npcs)
 
     image: ''
     imageBanner: /assets/bussim/images/events/goat_station1.webp

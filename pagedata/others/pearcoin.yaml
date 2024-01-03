@@ -11,7 +11,7 @@ page:
   header:
     title: <highlight type="rainbow"><float>Pearcoin<sup>TM</sup></float></highlight>
     description: >-
-      Category: <a href="/wiki/bussim/others">Others</a>
+      Category: [Others](others)
     image: ''
     imageBanner: /bussim-assets/images/others/pearcoin.webp
 

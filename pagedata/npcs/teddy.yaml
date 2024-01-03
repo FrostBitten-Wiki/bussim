@@ -11,7 +11,7 @@ page:
   header:
     title: Teddy
     description: |
-      Category: [NPCs](/bussim/npcs)
+      Category: [NPCs](npcs)
     
     image: ""
     imageBanner: /assets/bussim/images/banners/bus-banner.webp

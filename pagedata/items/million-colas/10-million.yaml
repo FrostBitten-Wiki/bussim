@@ -1,54 +1,23 @@
+editable: True
 page:
-  title: 10 Million Cola
-  description: 10 Million Cola is an item that could've been obtained in the 10 Million Event from the Wheel.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, 10 Million Cola
-  tags: million colas, exclusive item
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: placeholder, item
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: 10 Million Cola
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: buttons
-      content:
-        buttons:
-          - ["1 Million", "/bussim/items/million-colas"]
-          - ["<highlight>10 Million</highlight>", "/bussim/items/million-colas/10-million"]
-          - ["20 Million","/bussim/items/million-colas/20-million"]
+attributions: []
 
-    - type: section
-      content:
-        size: normal
-    - type: quote
-      content:
-        quote: "Thanks you guys for this number... This is such an awesome day for the developers!"
-        author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-         10 Million Cola is an item that could've been obtained in the 10 Million Event from the Wheel. 
-         The can appears more blue, 
-         similar to the bus color. 
-         The soda inside appears pink when you drink it.
+content: |
+  ##[Info]
+  test
 
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: There is a bug with the 1M and 10M if you drink it and swap to another item, you can no longer use it.
-        - name: This is the only milestone cola that is a permanent item.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/10Million.webp
-          
+  !!GALLERY [/assets/bussim/images/items/cola.webp]

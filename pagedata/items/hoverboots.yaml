@@ -1,46 +1,23 @@
+editable: True
 page:
-  title: Hoverboots
-  description: The Hoverboots is a pair of boots that allows you to fly,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Hoverboots
-  tags: hoverboots, paid item, exclusive item, item that makes you fly
-
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
-  header:
-    title: Hoverboots
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+  title: Placeholder
+  description: Placeholder
     
-  pageContent:
-    - type: quote
-      content:
-        quote: "Jump up for the sky!"
-        author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Hoverboots is a pair of boots that allows you to fly, 
-         similar to the <a href="/bussim/items/helicopter">Helicopter</a> item. 
-         It could've been obtained from the 10 Middle Event Wheel. 
-         To use the item, simply press the jump button while having it equipped to start flying, 
-         and you can click to have a speed boost while flying, 
-         which changes your particles to orange. 
-         However, the Hoverboots has limited fuel, and will turn off if you reach 0%, 
-         making you fall from whatever distance you were flying at. 
-         The item recharges when you're on the ground.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: placeholder, item
 
-    - type: section
-      content:
-        title: Trivia
-    - type: tree
-      content:
-        - name: The item can also be seen with the <a href="https://kit-battle.fandom.com/wiki/Holo_Kit">Holo Kit</a> from NobleReigns other game, <a href="https://www.roblox.com/games/2724098741/Kit-Battle">Kit Battle</a>.
+  header:
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/hoverboots.webp
+attributions: []
+
+content: |
+  ##[Info]
+  test
+
+  !!GALLERY [/assets/bussim/images/items/cola.webp]

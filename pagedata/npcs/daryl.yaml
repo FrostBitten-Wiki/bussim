@@ -10,7 +10,7 @@ page:
   header:
     title: Daryl
     description: |
-      Category: [NPCs](/bussim/npcs)
+      Category: [NPCs](npcs)
     
     image: ""
     imageBanner: /bussim-assets/images/events/backrooms2.webp

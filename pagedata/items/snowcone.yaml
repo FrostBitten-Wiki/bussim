@@ -1,56 +1,23 @@
+editable: True
 page:
-  title: Snowcone
-  description: The Snowcone is a permanent healing item obtainable from either the 2019 Christmas event or the 20 Million Visits event.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Snowcone
-  tags: snowcone, event item, exclusive item
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: placeholder, item
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Snowcone
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: quote
-      content:
-        quote: "A snowier version of ice cream."
-        author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-          The Snowcone is a permanent healing item obtainable from either the 2019 Christmas event or the 20 Million Visits event. 
-          During both of these events, you had a 50/50 chance to get either the Snowcone or the <a href="/bussim/items/snowglobe">Snowglobe</a>.
+attributions: []
 
-          <br><br>
+content: |
+  ##[Info]
+  test
 
-          On use, you will be healed a small amount, but with a very short cooldown.
-
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: This item has CanCollide enabled, which is presumably unintended.
-
-    - type: section
-      content:
-        title: Technical Trivia
-
-    - type: tree
-      content:
-        - name: It is currently possible to utilize this item as a form of teleportation, first use the item multiple times then unequip it at the first spot.
-        - name: 'Secondly, go to any spot outside of your first spot and drink the <a href="/bussim/items/cramped-cola">Cramped Cola</a>, and lastly: equip the Snowcone again. This will force you to teleport back to your first spot at any point in the game.'
-          children:
-            - name: The same applies for <a href="/bussim/items/candied-cane">Candied Cane</a>, but is much less precise and is capable of flinging you upon teleportation.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/snowcone.webp
-          
+  !!GALLERY [/assets/bussim/images/items/cola.webp]

@@ -10,7 +10,7 @@ page:
   header:
     title: Forest
     description: |
-      Category: [Biomes](/bussim/biomes)
+      Category: [Biomes](biomes)
     
     image: ""
     imageBanner: /assets/bussim/images/biomes/Forest.webp

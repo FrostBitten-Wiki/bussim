@@ -10,7 +10,7 @@ page:
   header:
     title: Banana
     description: |
-      Category: [NPCs](/bussim/npcs)
+      Category: [NPCs](npcs)
     
     image: ""
     imageBanner: /assets/bussim/images/locations/backwalls.webp

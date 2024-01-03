@@ -1,53 +1,23 @@
+editable: True
 page:
-  title: 20 Million Cola
-  description: 20 Million Cola is an item that could've been obtained in the 20 Million Event.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, 20 Million Cola
-  tags: million colas, exclusive item
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: placeholder, item
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: 20 Million Cola
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: buttons
-      content:
-        buttons:
-          - ["1 Million", "/bussim/items/million-colas"]
-          - ["10 Million", "/bussim/items/million-colas/10-million"]
-          - ["<highlight>20 Million</highlight>","/bussim/items/million-colas/20-million"]
+attributions: []
 
-    - type: section
-      content:
-        size: normal
-    - type: quote
-      content:
-        quote: "IT'S LIKE 10M COLA BUT LARGER AND WITH NO MUSIC!!!!"
-        author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-         20 Million Cola is an item that could be obtained in the 20 Million Event. 
-         The item appears larger than the other two, 
-         and cyan in color.
+content: |
+  ##[Info]
+  test
 
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: Unlike the other two, the 20M Cola has a shorter cooldown.
-        - name: The party poppers on the item appears more pink compared to the other colas.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/20Million.webp
-          
+  !!GALLERY [/assets/bussim/images/items/cola.webp]

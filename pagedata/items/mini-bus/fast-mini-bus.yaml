@@ -1,81 +1,23 @@
+editable: True
 page:
-  title: Fast Mini-Bus
-  description: The Fast-Minibus is a VIP / Admin-Exclusive item in Bus Simulator that is a super outdated,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Fast Mini-Bus
-  tags: Fast Mini-Bus, paid item, how do you get car, car
-
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
-  header:
-    title: Fast Mini-Bus
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
-
-  pageContent:
-    - type: buttons
-      content:
-        buttons:
-          - ["Mini-Bus", "/bussim/items/mini-bus"]
-          - ["<highlight>Fast Mini-Bus</highlight>", "/bussim/items/mini-bus/fast-mini-bus"]
-
-    - type: section
-      content:
-        size: normal
+  title: Placeholder
+  description: Placeholder
     
-    - type: infobox
-      content:
-        infoBoxTitle: 
-          - "Admin Exclusive Content"
-          - "#b00b69"
-        infoBoxDescription: >-
-          <i>"I saw some dude jumping around with some sort of rocket launcher made of cones a while ago. Not sure how it works, but if I were you, I wouldn't make them angry."</i> - Tazer
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: placeholder, item
 
-          <br>
+  header:
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-          <small>This page has content exclusive to admins of the game. This may include scrapped / hidden content that is normally inaccessible during normal gameplay.</small>
+attributions: []
 
-    - type: quote
-      content:
-        quote: "Hey, you're special."
-        author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Fast-Minibus is a VIP / Admin-Exclusive item in Bus Simulator that is a super outdated, 
-         but uniquely designed version of the regular Mini-Bus. 
-         The Fast Mini-Bus drives faster, 
-         but unlike the modern counterpart, 
-         it collides with non-collidable parts, 
-         and cannot drift.
+content: |
+  ##[Info]
+  test
 
-    - type: section
-      content:
-        title: Appearance.
-
-        description: >-
-          The Fast-Minibus most notably has a pyramid at the front, 
-          giving an extra wheel at the front, 
-          as well as an additional, 
-          smaller pair of headlights, 
-          thrusters on the side, 
-          thrusters on the sides, 
-          a spoiler on the back, 
-          as well as two antennas on the back.
-
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: The item used to be exclusive to the devs, as well as efeuc, which is known as the best driver in the Bus Simulator lore.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/Fastminibus.webp
-          
+  !!GALLERY [/assets/bussim/images/items/cola.webp]

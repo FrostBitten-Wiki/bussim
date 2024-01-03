@@ -11,7 +11,7 @@ page:
   header:
     title: Fizzy
     description: |
-      Category: [NPCs](/bussim/npcs)
+      Category: [NPCs](npcs)
     
     image: ""
     imageBanner: /bussim-assets/images/events/bloxdonalds.webp

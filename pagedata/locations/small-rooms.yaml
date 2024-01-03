@@ -11,7 +11,7 @@ html:
   header:
     title: Small Rooms
     description: >-
-      Category: <a href="/bussim/locations">Locations</a>
+      Category: [Locations](locations)
 
     image: ""
     imageBanner: /bussim-assets/images/banner.jpg

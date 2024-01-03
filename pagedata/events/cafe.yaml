@@ -12,7 +12,7 @@ page:
   header:
     title: Cafe
     description: |
-      Category: [Cafe](/bussim/events)
+      Category: [Cafe](events)
     image: ''
     imageBanner: /bussim-assets/images/banners/coffee-shop.webp
 

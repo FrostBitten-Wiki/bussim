@@ -10,7 +10,7 @@ page:
   header:
     title: Rocky
     description: |
-      Category: [Biomes](/bussim/biomes)
+      Category: [Biomes](biomes)
     
     image: ""
     imageBanner: /assets/bussim/images/biomes/rocky.webp

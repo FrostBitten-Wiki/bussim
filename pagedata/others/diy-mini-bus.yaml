@@ -10,7 +10,7 @@ page:
   header:
     title: D.I.Y Mini-Bus
     description: |
-      Category: <a href="/bussim/others">Others</a>
+      Category: [Others](others)
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
 

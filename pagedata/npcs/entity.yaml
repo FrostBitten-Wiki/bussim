@@ -10,7 +10,7 @@ page:
   header:
     title: Entity
     description: |
-      Category: [NPCs](/bussim/npcs)
+      Category: [NPCs](npcs)
     
     image: ""
     imageBanner: /bussim-assets/images/locations/backwalls.webp

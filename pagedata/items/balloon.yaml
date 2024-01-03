@@ -9,7 +9,7 @@ page:
 
   header:
     description: |
-      Category: [Items](/bussim/items)
+      Category: [Items](items)
     
     image: ""
     imageBanner: /assets/bussim/images/items/balloon/collection1.webp

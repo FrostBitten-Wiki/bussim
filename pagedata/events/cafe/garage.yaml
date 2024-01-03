@@ -12,7 +12,7 @@ page:
   header:
     title: Cafe
     description: |
-      Category: [Events](/bussim/events)
+      Category: [Events](events)
     image: ''
     imageBanner: /bussim-assets/images/banners/tazers-garage.webp
 

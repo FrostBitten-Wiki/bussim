@@ -1,49 +1,23 @@
+editable: True
 page:
-  title: Fake Bus Stop
-  description: The Fake Bus Stop event is an event where the bus driver distracts players by acting like they made it to the bus stop,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Fake Bus Stop
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-html:
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: placeholder, item
+
   header:
-    title: Fake Bus Stop
-    description: >-
-     Category: <a href="/bussim/events">Events</a><br>Event Name: <highlight>Stop</highlight>
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: buttons
-      content:
-        buttons:
-          - ["Fake No Gas", "/bussim/events/fake-events"]
-          - ["<highlight>Fake Bus Stop</highlight>", "/bussim/events/fake-events/fake-bus-stop"]
+attributions: []
 
-    - type: section
-      content:
-        size: normal
+content: |
+  ##[Info]
+  test
 
-    - type: quote
-      content:
-        quote: "Sike! That was a distraction!"
-        author: Driver
-
-    - type: section
-      content:
-        title: Info
-        size: normal
-        description: >-  
-          The Fake Bus Stop event is an event where the bus driver distracts players by acting like they made it to the bus stop, 
-          and then drives off, 
-          making players respawn on the bus. 
-          The event has a similar appearance to the <a href='/bussim/events/passengers'>Passengers</a> event, 
-          where it also stops at a bus stop, 
-          but it has no passengers waiting for the bus.
-
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: The event runtime is only 15 seconds, making it the shortest event in the game (if you don't include the <a href='/bussim/events/backwalls'>Backwalls</a> event's 12-second or server shutdown runtime).
+  !!GALLERY [/assets/bussim/images/items/cola.webp]

@@ -7,7 +7,7 @@ page:
   header:
     title: Weather
     description: | 
-      Category: <a href="/bussim/others">Others</a>
+      Category: [Others](others)
     image: ''
     imageBanner: /bussim-assets/images/banner.jpg
     

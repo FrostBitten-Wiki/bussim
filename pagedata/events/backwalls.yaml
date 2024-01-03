@@ -13,7 +13,7 @@ page:
   header:
     title: Placeholder
     description: |
-      Category: [Events](/bussim/events)\n
+      Category: [Events](events)\n
       Event Name: h[Backwalls]
 
     image: ''
@@ -88,7 +88,7 @@ content: |
     - In one of the rooms / junctions, you may also find [Entities](entities), Furnitures, Puddles, and [Banana](banana) as their own models, presumably where they spawned.
       - Likewise, Almond Water and Liquid Void also spawn in rooms. Almond Water being named as AWatr_Obj, and Liquid Void as LVoid_Obj.
       - The Popcorn Machines also spawn here, with the normal being Popcorn Maker and the cursed being Cursed Popcorn Maker.
-        - Within the popcorn machines come with a part named itcomeswithbutter, hinting that the [Popcorn Bucket](/bussim/npcs) is already buttered.
+        - Within the popcorn machines come with a part named itcomeswithbutter, hinting that the [Popcorn Bucket](npcs) is already buttered.
         - If you attempt to use the Cursed Popcorn Maker, a new model will also appear named GhostEmployee or [Daryl](daryl).
       - [Pear](pear) however, spawns using his own model rather than being based on an existing room.
         - Pear and the Entities also inflict an effect when you get near them that is similar to the effect you get when you enter the Backwalls normally.

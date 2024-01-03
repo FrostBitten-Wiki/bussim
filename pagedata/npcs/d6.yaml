@@ -10,7 +10,7 @@ page:
   header:
     title: D6
     description: |
-      Category: [NPCs](/bussim/npcs)
+      Category: [NPCs](npcs)
 
     image: ''
     imageBanner: /bussim-assets/images/events/goat_station1.webp

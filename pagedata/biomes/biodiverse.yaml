@@ -10,7 +10,7 @@ page:
   header:
     title: Biodiverse
     description: |
-      Category: [Biomes](/bussim/biomes)
+      Category: [Biomes](biomes)
     
     image: ""
     imageBanner: /assets/bussim/images/biomes/biodiverse.webp

@@ -10,7 +10,7 @@ page:
   header:
     title: Overseas
     description: |
-      Category: [Biomes](/bussim/biomes)
+      Category: [Biomes](biomes)
     
     image: ""
     imageBanner: /assets/bussim/images/biomes/overseas.webp

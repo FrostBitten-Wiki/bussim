@@ -11,7 +11,7 @@ page:
   header:
     title: Placeholder
     description: |
-      Category: [Events](/bussim/events)
+      Category: [Events](events)
     
     image: ""
     imageBanner: /assets/bussim/images/banners/bus-banner.webp

@@ -1,51 +1,23 @@
+editable: True
 page:
-  title: Cone Soda
-  description: The Cone Soda is an unused item that is purely cosmetic,
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Cone Soda
-  tags: cone soda, unused item
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: placeholder, item
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Cone Soda
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: infobox
-      content:
-        infoBoxTitle: 
-          - "Admin Exclusive Content"
-          - "#b00b69"
-        infoBoxDescription: >-
-          <i>"I saw some dude jumping around with some sort of rocket launcher made of cones a while ago. Not sure how it works, but if I were you, I wouldn't make them angry."</i> - Tazer
+attributions: []
 
-          <br>
+content: |
+  ##[Info]
+  test
 
-          <small>This page has content exclusive to admins of the game. This may include scrapped / hidden content that is normally inaccessible during normal gameplay.</small>
-    - type: quote
-      content:
-       quote: "Become a cone with it."
-       author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Cone Soda is an unused item that is purely cosmetic, 
-         and has no effects. The soda color is blue, 
-         as well as the cone on the label. However, it was likely meant to be an event item and have an actual affect,
-          although it is unknown that it was meant to do before it was scrapped.
-
-    - type: section
-      content:
-        title: Trivia
-    - type: tree
-      content:
-        - name: It's suggested that this cone would've probably turned the player into a cone because of the description of this item.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/cone-soda.webp
+  !!GALLERY [/assets/bussim/images/items/cola.webp]

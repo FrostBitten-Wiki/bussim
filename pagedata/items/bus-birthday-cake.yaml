@@ -1,69 +1,23 @@
+editable: True
 page:
-  title: Bus Birthday Cake
-  description: The Bus Birthday Cake was a limited-edition variant of the Free-Modelled Cake,  
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Bus Birthday Cake
-  tags: bus birthday cake, limited game item
+  title: Placeholder
+  description: Placeholder
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: placeholder, item
 
-attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Bus Birthday Cake
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: quote
-      content:
-       quote: "Tastes like limited edition plastic"
-       author: Item Description (Non-Permanent)
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Bus Birthday Cake was a limited-edition variant of the <a href="/bussim/items/free-modelled-cake">Free-Modelled Cake</a>, 
-         added to celebrate Bus Simulator's 5th Birthday. 
-         During the week after its introduction, 
-         you'll always start with this item.
+attributions: []
 
-         <br><br>
+content: |
+  ##[Info]
+  test
 
-         When consumed, it will heal you a tiny amount of health. However, 
-         if paired with  <a href="/bussim/items/cola">Cola</a>, you'll end up teleporting to the <a href="/bussim/events/backwalls">Backwalls</a>. 
-         This will also force you to trip upon entry, unlike the <a href="/bussim/events/backwalls">Backwalls</a> event, 
-         where you simply teleport there.
-
-         <br><br>
-
-         The <a href="/bussim/events/backwalls">Backwalls</a> itself follows the same principles as if you had entered using its titular event, 
-         however with a few changes: you'll keep the Cake and Cola (<a href="/bussim/items/bad-cola">including its other variant</a>), 
-         the Cola will have a new tooltip, and Pear will charge 20 <a href="/bussim/others/reputation">Passenger Rep</a> for a guide to the exit, 
-         as well as some new dialogue. Both the Cake and Cola are one-time use, however.
-
-    - type: quote
-      content:
-        quote: "Tastes like... a never-ending party!... but also plastic. (from Bus Simulator's 5th birthday event)"
-        author: "Bus Birthday Cake (Permanent)"
-
-    - type: text
-      content:
-        text: >-
-          If you manage to escape with the Cake, you'll have around a 30% chance to permanently obtain it, 
-          making this cake a useful teleportation tool for gathering the last two items or to simply torment yourself.
-    - type: section
-      content:
-        title: Trivia
-    - type: tree
-      content:
-        - name: This is the only item to have two badges linked to them. Being <a href="https://www.roblox.com/badges/2148621518/Plasticky-Birthday-Goodness">Plasticky Birthday Goodness</a>, and <a href="https://www.roblox.com/badges/2148621577/Plasticky-Cola-Hell">Plasticky Cola Hell</a>.
-          children:
-            - name: It's also the second item that allows you to teleport to a location, the first being the <a href="/bussim/items/magic-mirror">Magic Mirror</a> that leads you to the <a href="/bussim/locations/glacier-cave">Glacier Cave</a>.
-        - name: The texture for the cake was made by Pixel_N3ko, otherwise known as Sakura_Floran.
-          children:
-            - name: You can hear the "<a href="https://www.youtube.com/watch?v=JFDrett2fNs&ab_channel=Xynforce25">W.D. Gaster Fade</a>" sound affect when somebody teleports to the Backwalls with the item.
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/bus-birthday-cake.webp
+  !!GALLERY [/assets/bussim/images/items/cola.webp]

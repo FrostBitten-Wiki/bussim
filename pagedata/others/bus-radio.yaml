@@ -14,7 +14,7 @@ page:
   header:
     title: Bus-Cola Bandolier
     description: |
-      Category: [Others](/bussim/others)
+      Category: [Others](others)
     image: /bussim-assets/images/banner.jpg
     imageBanner: /assets/bussim/images/banner.jpg
 

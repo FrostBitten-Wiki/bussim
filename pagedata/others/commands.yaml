@@ -10,7 +10,7 @@ page:
 
   header:
     description: |
-      Category: [Others](/bussim/others)
+      Category: [Others](others)
 
     imageBanner: /assets/bussim/images/banner.jpg
 
@@ -33,7 +33,7 @@ content: |
   | /e apose | A standstull emote of your character posing with arms similar to the slanted lines of the letter A.\nThis is often used in development for 3D models for rigging purposes. | <0px>(.) | ![256x512]() |
   | /e cali  | An animated emote of your character doing the California Girls dance.\nThe dance was popularized by Friday the 13th memes involving a specific character doing the same dance. | Plays a bit-remixed part of California Girls | ![256x512]() |
   | /e cheer | A quick emote of your character waving their arms in glee. | <0px>(.) | ![256x512]() |
-  | /e cryingandshaking | An emote involving your character in a closed sit, shaking back and forth.\nA similar emote plays when [Steven_Scripts](/bussim/npcs/steven-scripts) is found in the [Backwalls](/bussim/events/backwalls). | <0px>(.) | ![256x512]() |
+  | /e cryingandshaking | An emote involving your character in a closed sit, shaking back and forth.\nA similar emote plays when [Steven_Scripts](steven-scripts) is found in the [Backwalls](backwalls). | <0px>(.) | ![256x512]() |
   | /e dab   | A simple emote of your character dabbing, once popularized back at 2015. | <0px>(.) | ![256x512]() |
   | /e dance\n/e dance2\n/e dance3 | All roblox emotes that you can use in every other Roblox game, nothing to detail much. | <0px>(.) | <0px>(.) |
   | /e dance4 | A custom dance variant that causes your character to spin in an immense speed for a few seconds then stopping. | <0px>(.) | ![256x512]() |

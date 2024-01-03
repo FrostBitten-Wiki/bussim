@@ -9,7 +9,7 @@ page:
   header:
     title: News
     description: |
-      Category: <a href="/bussim/others">Others</a>
+      Category: [Others](others)
     image: ''
     imageBanner: /bussim-assets/images/others/news.webp
 
