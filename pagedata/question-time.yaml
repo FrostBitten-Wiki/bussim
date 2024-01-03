@@ -1,0 +1,91 @@
+editable: true
+page:
+  title: Question Time
+  description: Question Time is an event where Ectta runs up to the bus, making it
+    stop, and asks you a question. You will get a custom chat tag based off of what
+    you answer for 7 minutes. If you do not answer the question on time, you will
+    get an [abstained] tag.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim question time
+    event
+
+  tags: some,tags,here,that is used by the search api
+  ignore: ignore
+
+  header:
+    title: Placeholder
+    description: |
+      Category: [Events](events)\n
+      Event Name: h[QuestionTime]
+
+    image: ''
+    imageBanner: /assets/bussim/images/events/questiontime.webp
+
+attributions: []
+
+content: |
+  !!INFOBOX TITLE:"Unfinished Content" COLOR:"#6d6d6d" TEXT:"\"not much to talk here, but.. well..\" -Efeuc\n<small>This page is a stub, it may not contain all of the information in the game; so adding more information to this page is always appreciated!</small>"
+
+  ##[Info]
+  <ref id="ref1">Question Time is an event where Ectta runs up to the bus, making it stop, and asks you a question. You will get a custom chat tag based off of what you answer for 7 minutes. If you do not answer the question on time, you will get an [abstained] tag[(1)](#lref1).</ref>
+  \n\n
+  After the question has expired for everyone; answered or not, Ectta will then walk onto the sidewalk and dance as the bus moves onwards, ending the event.
+  \n\n
+  Currently there are 43 variations of this event so far, if there are any missing, take a screenshot of the question and the answers and list them down in here, thanks! <small>(Also this is very likely subjected to change with Noble adding more variations in the future)</small>
+
+  ##[Questions]
+  | Question | Choices |
+  |----------|---------|
+  | Is the cup half full or half empty? | > Half empty. (pessimist)\n> Half full! (optimist) |
+  | What's your favourite flavour of Ice Cream? | > Chocolate (chocolate)\n> Vanilla (vanilla)\n> Strawberry (strawberry)\n> Mint (mint)\n> Cookies n' Cream (cookies n cream)\n> Rocky Road (rocky road)\n> Secret 7th option (other flavor) |
+  | Who would win in a chess match? | > A mind reader (🧠📚)\n> The person who can see in the future (🔮⌚) |
+  | Would you give your friend the off-brand controller? | > Yes. You take the SYKO. (on-brand)\n> No. Take one for the team. (syko sufferer) |
+  | Flight or teleportation? |
+  | Do you want a VR headset? |
+  | Will Will Smith smith Will Smith? |
+  | 100 pieces of furry art, or a new fursuit? |
+  | Little Seesurs or Bloxco Pizza? |
+  | Would you rather own a rough but clear sphere, or a smooth but opaque sphere? |
+  | Would you rather reach your stop and never play this game again, or never reach the stop but keep playing Bus Simulator? |
+  | Ring a small bell, or a gigantic church bell? |
+  | Who would win in a fight? |
+  | If you had the blue bird app, would you still use it if a billionaire took over? |
+  | Would you rather be able to explore the infinite universe, or explore the entirety of Earth? |
+  | Would you rather be convicted for a crime you didn't commit, or be free, but now your best friend is in jail for the crime YOU committed? |
+  | Which of these do you think would win in a fight? |
+  | Pancakes or waffles? |
+  | Bus Sim or Bus Stop Sim? |
+  | Who would win: 30 million Spronkbibs or one spiky-haired anime man? |
+  | Tap water or filtered water? |
+  | Would you rather live life hated forever, or go to prison for 60 years but be beloved by all afterward? |
+  | Would you rather speak all languages fluently or play all instruments skillfully? |
+  | How do you laugh? |
+  | Would you rather live in a world that was always honest, or live in a world that was always kind? |
+  | Would you rather be able to teleport anywhere, or be able to pause time? |
+  | Does Driver Rep actually matter? |
+  | Favorite day of the week? |
+  | Who would win? A man with a freshly baked potato out of the oven, or a person holding a very miniature longsword. |
+  | Is Comic Sans a good font? |
+  | Super strength or super speed? |
+  | Do you use... uh, that one app that sounds like a clock? |
+  | Unlimited bacon but no video games, or unlimited games but no more bacon? |
+  | Do you perform well under pressure? <small>(You only get a few seconds for this question.)</small> |
+  | Milk and cereal? Cereal and milk? |
+  | Pizza, Tacos, or Burgers. Which one would you eat forever, provided you can't eat anything else ever again? |
+  | Mobile games or PC games? |
+  | Is it color, or colour? |
+  | Would you rather live without your computer, or your phone? |
+  | Are you patient? <small>(You get doubled to tripled the amount of seconds for this question.)</small> |
+  | Would you rather have a slow computer 10 years in the future, or a supercomputer from 10 years in the past? |
+  | Would you rather be able to change the future, but have no way of changing it after you know, or be able to change the future however you want, with no control over how it ends up getting there? |
+  | The billionaire... will you comply with their demands? Will you follow the rebrand? |
+
+  ##[Trivia]
+  - If the same event happens twice, the tags you select won't stack onto each other, but are rather replaced.
+  - This is the only event in the game that actively gives out tags without relying on group roles, donation, among other things.
+  - The runtime for this event is 1 minute and 17 seconds, which has the exact same runtime as the [Nuke](nuke) event.
+
+  ##[References]
+  - <ref id="lref1">[An exception is made in the 40th variation, where you instead get the patient tag for abstaining.](#ref1)</ref>
+
+  !!GALLERY [/assets/bussim/images/events/questiontime.webp]
