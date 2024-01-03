@@ -1,4 +1,4 @@
-editable: True
+editable: true
 page:
   title: Placeholder
   description: Placeholder
@@ -12,15 +12,30 @@ page:
       Category: [Others](others)
 
     imageBanner: /assets/bussim/images/banner.jpg
-    
+
 attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-content: |
+  - Ported By PolyframeX (@polyframex)
+content: |-
   ##[Info]
-  Placeholder
+  There's a small handful of chat tags in the game that you can obtain by simple means, with some either being permanent or temporary. This page will go over them, and give short explanations of them.
+  \n\n
+  Do note that as of now, the only tags you can change is your heart tags, but other tags like group / donation tags can't be changed without having to leave the group / delete the gamepass associated with it. This is subjected to change soon.
 
-  ##[Trivia]
-  - Placeholder
+  ##[Heart Tags]
+  This category already has [its own page](reputation), but for convenience purposes, here's a quick list on all of the hearts you can get. You can also change them anytime using !setheart.
+
+  | Heart       | Driver Reputation |
+  |-------------|-------------------|
+  | [&#128151]  | 
+  | [&#129505]  | 
+  | [&#10084]   | 
+  | [&#128153]  |
+  | [&#128154]  |
+  | [&#128156]  |
+  | [&#128155]  |
+  | [&#128420]  |
+  | [&#129505+] |
+  | [&#10084+]  |
+  | [&#128153+] |
 
   !!GALLERY [/bussim-assets/images/others/billboard/Billboard.webp|/bussim-assets/images/others/billboard/Ad_Billboard.webp]

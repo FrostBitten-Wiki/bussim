@@ -41,7 +41,7 @@ content: |-
   If nobody has initiated the mini-game, the event will still end after a certain point.
   \n\n
   ##[Coffee]
-  Main Article: [h[Cafe Coffee]](items/cafe-coffee)
+  Main Article: [h[Cafe Coffee]](cafe-coffee)
   \n\n
   As one of it's main mechanics of this event, you'll be able to make many types of coffee based on the ingredients you input onto your cup. It must contain 90ml of liquid only drinks and 100ml for mixed in order for it to blend, for recipes specifically solids like Spice in a Cup, you should add the Peppers last.
   \n\n

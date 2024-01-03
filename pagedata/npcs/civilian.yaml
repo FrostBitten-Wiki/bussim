@@ -1,8 +1,8 @@
 editable: true
 page:
   title: Civilian
-  description: Banana is an NPC that can be found in the Backwalls. This NPC rarely
-    spawns in the event.
+  description: The Civilians are minor NPCs that appear in three events, No Dough,
+    Passengers, and Cafe.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim banana npc
 
@@ -20,39 +20,44 @@ attributions:
   - Ported By PolyframeX (@polyframex)
   - Edited and Converted to Jinki Markdown by Nyx (@nyxical)
 
-content: |-
+content: |
   ##[Info]
-  The Civilians are minor NPCs that appear in two events, [No Dough](no-dough), [Passengers](passengers), and [Cafe](cafe), 
-  and have no dialogue or do anything important in the game (excluding the Cafe event).
+  The Civilians are minor NPCs that appear in three events, [No Dough](no-dough), [Passengers](passengers), and [Cafe](cafe). 
+  They have no dialogue and don't do anything important in the game, excluding the Cafe event.
 
   ##[Appearance]
-  Their appearance is random, as they are based off of player IDs, which means that
-  NPCs' appearance is based off of what player the script chose to wear, which is commonly the 3.0 Man Default with the Smile face.
+  In [No Dough](no-dough) and [Passengers](passengers) their appearance is based off of random player IDs. The script copies the outfit of the player with the ID chosen by the script.\n
+  Due to the amount of players on Roblox who don't change their appearance, the NPCs will commonly be wearing the default "Bacon Hair" outfit.
   \n\n
-  However, there are also IDs for NobleReign's friends that has a higher, but still rare, chance of appearing in the events,
-  which do also include some NPCs from events, like the NPCs from [GOATed Gas Station](goated-gas-station) event.
+  However, there are also IDs for NobleReign's friends that have a rare chance of appearing in the events,
+  which do also include some NPCs from events, like the NPCs from [GOATed Gas](goated-gas-station).
+  \n\n
+  At the [Cafe](cafe), their appearance is created using pre-determined accessories and clothing, randomly chosen by the game.
 
   ##[Actions]
-  The Civilians don't do much in events, but is still notable in some way,
+  The Civilians don't do much in events, but are still notable in some way,
   mostly in the [No Dough](no-dough) event where Civilians act as security.
 
   ###[Passengers]
+  *Main article: [Passengers](passengers)*\n\n
   In the Passengers event, three random Civilians from a Bus Stop will board the bus and take the nearest available seat,
   and will ride the bus for a random amount of time. After some time, the Civilians will get off the seat, wave for a couple of seconds,
   then jump off the bus.
   \n\n
-  They don't say anything when they're boarding or jumping off the bus. Unlike [Steven](steven) from his event, [Steven Ride](steven-ride)
+  They don't say anything when they're boarding or jumping off the bus. Unlike [Steven](steven) from his event, [Steven Ride](steven-ride).
 
   ###[No Dough / Santa's Gone]
+  *Main articles: [No Dough](no-dough), [Santa's Gone](santas-gone)*\n\n
   In the No Dough event, the Civilians act more like security, and will kill you instantly if you're spotted long enough.
   \n\n
-  They will also get alerted based off of noise (for more information, refer to it's [event](no-dough) page), and will go towards the noise if alerted.
+  They will also get alerted based off of noise (for more information, refer to the [event](no-dough) page), and will go towards the noise if alerted.
   \n\n
   This is great for clearing out an crowded area, but a risky move getting away from the oncoming crowd of Civilians.
 
   ###[Cafe]
-  Civilians will come into randomly generated outfits, ask for a drink (if the player chooses the correct option), and will sit down at any available
-  seat, awaiting for their drink. The civilian leaves if they recieve the correct/incorrect drink, or if they haven't been served and time has ran out.
+  *Main article: [Cafe](cafe)*\n\n
+  Civilians will come in with randomly generated outfits, ask for a drink (if the player chooses the correct option), and sit down at any available
+  seat, awaiting their drink. The civilian leaves if they recieve the correct drink, or if they haven't been served and time has ran out.
 
   ##[Trivia]
   - If there are no open seats, the Civilians will stand in the back of the bus, near the restroom.
