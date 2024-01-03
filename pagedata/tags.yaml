@@ -1,0 +1,84 @@
+editable: true
+page:
+  title: Placeholder
+  description: Placeholder
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim placeholder
+
+  tags: placeholder, others
+
+  header:
+    description: |
+      Category: [Others](others)
+
+    imageBanner: /assets/bussim/images/banner.jpg
+
+attributions:
+  - Ported By PolyframeX (@polyframex)
+content: |-
+  ##[Info]
+  There's a small handful of chat tags in the game that you can obtain by simple means, with some either being permanent or temporary. This page will go over them, and give short explanations of them.
+  \n\n
+  Do note that as of now, the only tags you can change is your heart tags, but other tags like group / donation tags can't be changed without having to leave the group / delete the gamepass associated with it. This is subjected to change soon.
+
+  ##[Heart Tags]
+  This category already has [its own page](reputation), but for convenience purposes, here's a quick list on all of the hearts you can get. You can also change them anytime using !setheart.
+
+  \n\n
+
+  | Heart                                     | Driver Reputation |
+  |-------------------------------------------|-------------------|
+  | <clr:#86512b>([&#128151] Beating Heart)   | 10                |
+  | <clr:#fca542>([&#129505] Orange Heart)    | 25                |
+  | <clr:#ff0000>([&#10084] Red Heart)        | 50                |
+  | <clr:#4069e5>([&#128153] Blue Heart)      | 75                |
+  | <clr:#00ff00>([&#128154] Green Heart)     | 100               |
+  | <clr:#ff00ff>([&#128156] Purple heart)    | 125               |
+  | <clr:#ffff00>([&#128155] Yellow Heart)    | 150               |
+  | <clr:#333333>([&#128420] Black Heart)     | 200               |
+  | <clr:#ffac33>([&#129505+] Orange Heart +) | 315               |
+  | <clr:#ec0101>([&#10084+] Red Heart+)      | 430               |
+  | <clr:#0000fc>([&#128153+] Blue Heart+)    | 545               |
+  | <clr:#01fc00>([&#128154+] Green Heart+)   | 660               |
+  | <clr:#8a2be2>([&#128156+] Purple Heart+)  | 770               |
+  | <clr:#f8fb39>([&#128155+] Yellow Heart+)  | 885               |
+  | <clr:#000000>([&#128420+] Black Heart+)   | 1000              |
+  | [&#129293] White Heart                    | 5000              |
+  | [&#129293+] White Heart+                  | 10000             |
+  | [???] Numbers                             | 50000+            |
+
+  ##[Group Ranks]
+  | Ranks / Tags                   | Description |
+  |--------------------------------|-------------|
+  | Unverified                     | You weren't verified manually or via the Verification place on the Bus Sim official group. You don't get a tag in-game for being unverified. |
+  | <clr:#001793>([Passenger])     | The lowest obtainable rank in the group. Obtained simply by getting verified. |
+  | <clr:#e771a1>([Verifier])      | A rank that only one person currently has, and is not obtainable normally. Verifiers can only rank Unverified people up to Passenger. |
+  | <clr:#00bd2f>([Driver])        | The most commonly obtained rank, as it's incredibly easy to get. You need to meet the vague requirements to get the Driver rank, which requires the following to get:\n\n> Be verified in the group\n> Certain amount of messages sent in-game in total\n> Certain amount of Driver Rep (Most likely 10 rep at minimum)\n\nOwning the [Driver Gamepass](https://www.roblox.com/game-pass/4894984/Bus-Driver) also helps with the process, but **is not required** to own, nor does it give you the Driver rank automatically. Drivers get "+14" additional rep, but it has no value at all aside from kicking players. |
+  | <clr:#e1a200>([OG Driver])     | An unobtainable rank that was given to as many people with the Driver rank as possible before Driver was made obtainable again. OG Driver gets a free <a href='/bussim/items/mini-bus'>Mini-Bus</a> <b><small>(if the player doesn't own one)</small></b>, and it's sparkly. You also get +16 additional rep. |
+  | <clr:#30ee53>([Best Driver])   | A rank that only efeuc can have. It's mainly a cosmetic tag, like Group Bot and Noble. He also has +18 additional rep. |
+  | <clr:#f43f08>([Contributor])   | You can obtain the rank by contributing to the game in some way, like making a seat anim, clothing, etc. If you own this rank, your <a href='/bussim/items/mini-bus'>Mini-Bus</a> will sparkle. Those in the contributer rank also get +20 additional rep. |
+  | <clr:#8e40ed>([Knitter])       | A rank that was only given to those who upload UGC or clothing to the Bus Simulator The Fan Group store. There may be some vague requirements aside from that. |
+  | <clr:#8729b1>([Authenticator]) | A rank similar to Verifier, but has more powers, like exiling people, deleting messages, etc. The rank is very rare, and only has two members. However, they are often seen ingame. |
+  | <clr:#9100c1>([Developer])     | A co-owner like rank that shows people who is a main developer of the game. |
+  | Group Bot                      | It's rather self explanatory. A rank for the group bot that auto-ranks people whenever it's not broken. |
+  | <clr:#5902c9>([Noble])         | It's NobleReign. He also gets +30 additional rep. |
+
+  ##[Donation Tags]
+  Donation tags are usable in [Bus Simulator](https://www.roblox.com/games/2091563160/Bus-Simulator) and [Bus Simulator Beta](https://www.roblox.com/games/5269977437/Bus-Simulator-Beta-Test). and give you a tag based off of how much you donate. The cent tags are based off of how much NobleReign makes in DevEx. You can also turn them off by doing !togglepd.
+
+  \n\n
+
+  | Tags                               | Description                  | Amount                    |
+  |------------------------------------|------------------------------|---------------------------|
+  | <clr:#984c25>([4&#8373])           | save your money please       | <clr:#45ff45>(10 R$)      |
+  | <clr:#996012>([35&#8373])          | i said save it               | <clr:#45ff45>(100 R$)     |
+  | <clr:#4a9400>([frivelous])         | SAVE. IT.                    | <clr:#45ff45>(1,000 R$)   |
+  | <clr:#00bb7d>([money waster])      | why. stop it.                | <clr:#45ff45>(10,000 R$)  |
+  | <clr:#bb0e10>([good lord])         | you're insane. in a bad way. | <clr:#45ff45>(100,000 R$) |
+
+  ##[Question Time Tags]
+  You can also get tags, albeit temporarily by based off of the answers you choose during Question Time, 
+  all of the tags so far can be found over [here](question-time).
+
+  ##[Trivia]
+  - Despite Verifier being a tag that is normally exclusive similar to Contributors, Authenticators and such; it's currently possible for Verifiers to get auto-ranked to Drivers accidentally due to the current system.
