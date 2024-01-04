@@ -23,7 +23,7 @@ content: |-
 
   ##[Heart Tags]
   This category already has [its own page](reputation), but for convenience purposes, here's a quick list on all of the hearts you can get. You can also change them anytime using !setheart.
-  \n
+  \n\n
   | Heart                               | Driver Reputation |
   |-------------------------------------|-------------------|
   | <clr:#86512b>([💗] Beating Heart)  | 10                 |
@@ -64,7 +64,7 @@ content: |-
 
   ##[Donation Tags]
   Donation tags are usable in [Bus Simulator](https://www.roblox.com/games/2091563160/Bus-Simulator) and [Bus Simulator Beta Test](https://www.roblox.com/games/5269977437/Bus-Simulator-Beta-Test), and give you a tag based off of how much you donate. The cent tags are based off of how much NobleReign makes in DevEx. You can also turn them off by doing !togglepd.
-  \n
+  \n\n
   | Donation Tag                   | Description                  | Amount       |
   |--------------------------------|------------------------------|--------------|
   | <clr:#984c25>([4¢])            | save your money please       | 10 R$        |
