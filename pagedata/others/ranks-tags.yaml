@@ -62,5 +62,16 @@ content: |-
   | Group Bot                      | It's rather self explanatory. A rank for the group bot that auto-ranks people whenever it's not broken |
   | <clr:#5902c9>([Noble])         | It's NobleReign. He also gets "+30" additional rep. |
 
+  ##[Donation Tags]
+  Donation tags are usable in [Bus Simulator](https://www.roblox.com/games/2091563160/Bus-Simulator) and [Bus Simulator Beta Test](https://www.roblox.com/games/5269977437/Bus-Simulator-Beta-Test), and give you a tag based off of how much you donate. The cent tags are based off of how much NobleReign makes in DevEx. You can also turn them off by doing !togglepd.
+  \n
+  | Donation Tag                   | Description                  | Amount       |
+  |--------------------------------|------------------------------|--------------|
+  | <clr:#984c25>([4¢])            | save your money please       | 10 R$        |
+  | <clr:#996012>([35¢])           | i said save it               | 100 R$       |
+  | <clr:#4a9400>([frivelous])     | SAVE. IT.                    | 1,000 R$     |
+  | <clr:#00bb7d>([money waster])  | why. stop it.                | 10,000 R$    |
+  | <clr:#bb0e10>([good lord])     | you're insane. in a bad way. | 100,000 R$   |
+
 
   !!GALLERY [/bussim-assets/images/others/billboard/Billboard.webp|/bussim-assets/images/others/billboard/Ad_Billboard.webp]
