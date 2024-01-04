@@ -23,19 +23,27 @@ content: |-
 
   ##[Heart Tags]
   This category already has [its own page](reputation), but for convenience purposes, here's a quick list on all of the hearts you can get. You can also change them anytime using !setheart.
+  \n
+  | Heart                               | Driver Reputation |
+  |-------------------------------------|-------------------|
+  | <clr:#86512b>([💗] Beating Heart)  | 10                 |
+  | <clr:#fca542>([🧡] OrangeHeart)    | 25                 |
+  | <clr:red>([❤️] Red Heart)          | 50                 |
+  | <clr:#4069e5>([💙] Blue Heart)     | 75                 |
+  | <clr:green>([💚] Green Heart)      | 100                |
+  | <clr:purple>([💜] Purple Heart)    | 125                |
+  | <clr:yellow>([💛] Yellow Heart)    | 150                |
+  | <clr:#333333>([🖤] Black Heart)    | 200                |
+  | <clr:#ffac33>([🧡+] Orange Heart+) | 315                |
+  | <clr:#ec0101>([❤️+] Red Heart+)    | 430                |
+  | <clr:#0000fc>([💙+] Blue Heart+)   | 545                |
+  | <clr:#01fc00>([💚+] Green Heart+)  | 660                |
+  | <clr:#8a2be2>([💜+] Purple Heart+) | 770                |
+  | <clr:#f8fb39>([💛+] Yellow Heart+) | 885                |
+  | <clr:#000000>([🖤+] Black Heart+)  | 1,000              |
+  | [🤍] White Heart                   | 5,000              |
+  | [🤍+] White Heart+                 | 10,000             |
+  | [???] Numbers                       | 50,000+            |
 
-  | Heart       | Driver Reputation |
-  |-------------|-------------------|
-  | [&#128151]  | 
-  | [&#129505]  | 
-  | [&#10084]   | 
-  | [&#128153]  |
-  | [&#128154]  |
-  | [&#128156]  |
-  | [&#128155]  |
-  | [&#128420]  |
-  | [&#129505+] |
-  | [&#10084+]  |
-  | [&#128153+] |
 
   !!GALLERY [/bussim-assets/images/others/billboard/Billboard.webp|/bussim-assets/images/others/billboard/Ad_Billboard.webp]
