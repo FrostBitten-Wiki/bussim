@@ -43,7 +43,7 @@ content: |-
   - Variant 3 : "man i could really go for some graham crackers right about now" (If the current day is Monday)
   - Variant 4 : "and if youuuuuu cant believe it" (If the current day is Friday)
   - Variant 5 : "i cant believe i had to drive all the way to work" (If the current day is Saturday)
-  - Variant 6 : "would you like to sign my petition? ...nevermind"
+  - Variant 6 : "would you like to sign my petition? ...nevermind" (
       - hg[Option 1]: Any wisdom for today?
           - hg[Variant 1]:
               - Variant 1A (PC):
@@ -267,7 +267,6 @@ content: |-
   -  Their lines make plenty of references to memes, their own personal interests, or general media.
      - ["man i could really go for some graham crackers right about now"](https://twitter.com/GandalfGetsTo) is a reference to a TikTok account where a cat owner lets their cat, named Gandalf, gets to lick a Graham Cracker every Monday.
      - ["i cant believe i had to drive all the way to work"](https://www.youtube.com/watch?v=b-LTE6vIb9U&ab_channel=HigherQualityUploads) is a reference to a line from Toy Story 2, where Al has to drive across the street to his job on a Saturday.
-     - ["would you like to sign my petition?"](https://www.youtube.com/watch?v=9JoJUkIhEjs&t=192s) is a reference to the game Postal 2, where on Tuesday, the Postal Dude must collect signatures for a petition to 'make whiney congressmen play violent video games'.
      - "dude... GLAGGLELAND??????" is a reference to a bunch of videos about Glaggleland, a fictional amusement park filled with smileys and silliness.
      - "...and talk about turtle skeletons from a specific video game franchise for hours." is a reference to [Dry Bones](https://www.mariowiki.com/Dry_Bones) from the Super Mario franchise, that both D6 and [Zeon](zeom) indeed like talking about.
      - "7577234764 Dont forget it. It's the only way out.". 7577234764 is actually a Roblox marketplace ID for an image of a paper D6 that dSiiiiiix has.
@@ -275,5 +274,6 @@ content: |-
   - When Bus Simulator got age restricted for 14+ for the first time, the reasoning as to why it was restricted was because D6's "why havent you been flattened by a 2 ton slab of concrete" was more than enough for the game to receive a Violence tag.
       - This was appealed however, but it wasn't the last time Bus Simulator had been age-restricted before.
   - D6 is the only NPC to respond when the player spams the [Airhorn](airhorn), but without talking once.
+  - In one of their dialogues during the coffee event, it is heavily implied that D6 comes from The Backwalls.
 
   !!GALLERY [/assets/bussim/images/npcs/banana.webp]  
