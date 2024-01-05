@@ -27,7 +27,7 @@ content: |-
   Tazer wears a set based off of the Cyber Critter 9004, for both his clothing as well as his visor. He also has a PDA on his wrist, a pair of wings, a fabulous ladies hat, and both a banner and a relay pack on his back.
 
   ##[Favourite Drink (Coffee Shop)]
-  Tazer's favourite drink is [Cup of Glowstick Fluid](cafe-coffee/recipes). This gives you either 3 Passenger Rep or 3 Driver Rep, however this may only be done at the Cafe event.
+  Tazer's favourite drink is [Cup of Glowstick Fluid](cafe-coffee-recipes). This gives you either 3 Passenger Rep or 3 Driver Rep, however this may only be done at the Cafe event.
 
   ##[Dialogue Emulator]
   !!DLEMULATOR EID:"tazeremulator" SID:"start" URL:"/assets/bussim/emulatorData/tazer.json"

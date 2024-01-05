@@ -26,7 +26,7 @@ content: |
  When making one, the player will go into a focus-mode state, being able to pick any ingredients and measure them out carefully. Recipes are also provided on the left, with all of the specific ingredients needed to make a drink.
  \n\n
  While you do not need to be extremely accurate, as long as you have the appropriate ingredients; it'll blend into the drink that you want. 
- !!BUTTONS [Ingredients,location.href='/wiki/bussim/items/cafe-coffee'|Recipes / Mixtures,location.href='/wiki/bussim/items/cafe-coffee/recipes'|<highlight>NPC Interactions</highlight>,location.href='']
+ !!BUTTONS [Ingredients,location.href='cafe-coffee'|Recipes / Mixtures,location.href='cafe-coffee-recipes'|<highlight>NPC Interactions</highlight>,location.href='']
  ##[NPC Interactions]
  "That cafe does delivery? I don't remember ordering this.. but thanks." -"Zeon (Goat Station)"
  You're also able to give any type of coffee to the majority of the NPCs in the game, and it's also crucial to the Cafe's main mechanic where you give them to your [Customers](customers), with multiple interactions and even rewards as a result.

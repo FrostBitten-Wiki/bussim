@@ -24,7 +24,7 @@ content: |-
   MLGBudderCD (Also known as MLG) is an NPC in the [GOATed Gas Station](goated-gas-station) and [Coffee Shop](coffee-shop) event.
 
   ##[Favourite Drink]
-  MLG's favourite drink is [Pumpkin Spice Mocha](cafe-coffee/recipes). This gives you either 1 Passenger Rep or 1 Driver Rep.
+  MLG's favourite drink is [Pumpkin Spice Mocha](cafe-coffee-recipes). This gives you either 1 Passenger Rep or 1 Driver Rep.
 
   ##[Dialogue (GOATed Gas Station)]
   !!DLEMULATOR EID:"goat_mlgemulator" SID:"start" URL:"/assets/bussim/emulatorData/mlg.json"

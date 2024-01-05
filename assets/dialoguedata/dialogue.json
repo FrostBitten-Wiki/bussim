@@ -408,6 +408,18 @@
             
         },
 
+        "d6001": {
+            "rarity": 100,
+            "dialogue": [
+                [[3000, 25], "D6", "default", "did you know?"],
+                [[5000, 25], "D6", "default", "..."],
+                [[8000, 25], "D6", "default", "....."],
+                [[11000, 25], "D6", "default", ".........."],
+                [[3000, 25], "D6", "default", "well? i'm asking you, are you just gonna sit there and continue staring vacantly on your screen or what?"]
+            ]
+            
+        },
+
         "polyframex001": {
             "rarity": 25,
             "dialogue": [

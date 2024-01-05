@@ -27,7 +27,7 @@ content: |-
   When making one, the player will go into a focus-mode state, being able to pick any ingredients and measure them out carefully. Recipes are also provided on the left, with all of the specific ingredients needed to make a drink.
   \n\n
   While you do not need to be extremely accurate, as long as you have the appropriate ingredients; it'll blend into the drink that you want. 
-  !!BUTTONS [Ingredients,location.href='/wiki/bussim/items/cafe-coffee'|<highlight>Recipes / Mixtures</highlight>,location.href=''|NPC Interactions,location.href='/wiki/bussim/items/cafe-coffee/npcs']
+  !!BUTTONS [Ingredients,location.href='cafe-coffee'|<highlight>Recipes / Mixtures</highlight>,location.href=''|NPC Interactions,location.href='cafe-coffee-npcs']
   ##[Recipes and Mixtures]
   "This tastes so good. Trust." -"Mixture / Abomination"
   Recipes and Mixtures are one of the main mechanics when making coffee. Each recipe contains a list of ingredients and getting around that point (90% accuracy) will blend into the recipe that is closest. If otherwise, it'll instead be your personal concoction, with varying effects based on the ingredients you used.

@@ -33,7 +33,7 @@ content: |-
   a White Kobold snout and frills, white fur, a White Lizard Tail, and the sigil of Lucifer on his chest.
 
   ##[Favourite Drink]
-  D6's favourite drink is [The Sludge](cafe-coffee/recipes). This gives you either 4 Passenger Rep or 4 Driver Rep.
+  D6's favourite drink is [The Sludge](cafe-coffee-recipes). This gives you either 4 Passenger Rep or 4 Driver Rep.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"d6emulator" SID:"start" URL:"/assets/bussim/emulatorData/d6.json"
