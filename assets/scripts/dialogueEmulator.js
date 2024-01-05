@@ -4,6 +4,7 @@ fetch("/bussim-assets/dialoguedata/dialogue.json")
 .then((response) => response.json())
 .then((jsonData) => {
     dialogueData = jsonData;
+    console.log("emu loaded")
 });
 
 function changeDialogue(id, dialogueId) {
