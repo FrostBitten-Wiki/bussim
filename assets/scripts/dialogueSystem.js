@@ -13,8 +13,8 @@ fetch("/bussim-assets/dialoguedata/dialogue.json")
 .then((response) => response.json())
 .then((jsonData) => {
     dialogueData = jsonData;
+    console.log("sys loaded")
 });
-
 
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 const audioBuffers = {};
