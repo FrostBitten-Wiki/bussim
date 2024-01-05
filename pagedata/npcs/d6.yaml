@@ -278,3 +278,4 @@ content: |-
   - In one of their dialogues during the coffee event, it is heavily implied that D6 comes from The Backwalls.
 
   !!GALLERY [/assets/bussim/images/npcs/banana.webp]  
+  <script>randomDialogueEvent(true, "d6001")</script>
