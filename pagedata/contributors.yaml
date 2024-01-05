@@ -1,30 +1,30 @@
-editable: True
+editable: true
 page:
   title: Contributors
   description: All of the current contributors of this wiki!
-    
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim
-  
+
   tags: some,tags,here,that is used by the search api
   ignore: ignore
 
   header:
     description: |
       All of the current contributors of this wiki!
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions: []
 
 content: |
-    !!LISTITEM IMAGE:"/api/discord-avatar/802681082603896852" TITLE:"NotFunnyClown (@fridaytheidiotclown)" DESCRIPTION:"Wiki Owner, Game Contributor\n\n" none "\n\nContributions:" REDIRECT:""
-    !!LISTITEM IMAGE:"/api/discord-avatar/583200866631155714" TITLE:"Nyx (@nyxical)" DESCRIPTION:"Wiki Hoster/Maintainer, Game Contributor, Wiki Manager, Wiki Editor\n\n" do the whip "\n\nContributions:" REDIRECT:""
-    !!LISTITEM IMAGE:"/api/discord-avatar/762463197617061908" TITLE:"FangedWerewolf (@noobbiom)" DESCRIPTION:"Game Contributor, Wiki Manager, Wiki Editor, Former Wiki Editor for Both Wikis\n\n" oougghh "\n\nContributions:" REDIRECT:""
-    !!LISTITEM IMAGE:"/api/discord-avatar/457989416573599758" TITLE:"PolyframeX (@polyframex)" DESCRIPTION:"Wiki Editor\n\n" placeholder "\n\nContributions:" REDIRECT:""
-    !!LISTITEM IMAGE:"https://mediumkey.xyz/images/pfp.png?size=2048" TITLE:"Mediumkey (@mediumkey)" DESCRIPTION:"The one who asked Noble if we can create this Wiki which ends up being more than just a bus sim wiki\n\n" placeholder "\n\nContributions:" REDIRECT:""
-    !!LISTITEM IMAGE:"/api/discord-avatar/805490469051826246" TITLE:"kalcifur (@kalcifur)" DESCRIPTION:"Contributor, Front-end Developer\n\n" placeholder "\n\nContributions:" REDIRECT:""
-    !!LISTITEM IMAGE:"/api/discord-avatar/396049440110280714" TITLE:"Tazer (@tazer_tricity)" DESCRIPTION:"Game Administrator, Game Contributor, Wiki Editor\n\n" placeholder "\n\nContributions:" REDIRECT:""
-    !!LISTITEM IMAGE:"/api/discord-avatar/685150112137478202" TITLE:"Niko (@niko_gaming)" DESCRIPTION:"existing\n\n" placeholder "\n\nContributions:" REDIRECT:""
-    
-    #![!!LISTITEM IMAGE:"imagehere" TITLE:"placeholder" DESCRIPTION:"placeholder\n\n" placeholder "\n\nContributions:" REDIRECT:""]
+  !!LISTITEM IMAGE:"/api/discord-avatar/802681082603896852" TITLE:"NotFunnyClown (@fridaytheidiotclown)" DESCRIPTION:"Wiki Owner, Game Contributor\n\n" none "\n\nContributions:" REDIRECT:""
+  !!LISTITEM IMAGE:"/api/discord-avatar/583200866631155714" TITLE:"Nyx (@nyxical)" DESCRIPTION:"Wiki Hoster/Maintainer, Game Contributor, Wiki Manager, Wiki Editor\n\n" do the whip "\n\nContributions:" REDIRECT:""
+  !!LISTITEM IMAGE:"/api/discord-avatar/762463197617061908" TITLE:"FangedWerewolf (@noobbiom)" DESCRIPTION:"Game Contributor, Wiki Manager, Wiki Editor, Former Wiki Editor for Both Wikis\n\n" oougghh "\n\nContributions:" REDIRECT:""
+  !!LISTITEM IMAGE:"/api/discord-avatar/457989416573599758" TITLE:"PolyframeX (@polyframex)" DESCRIPTION:"Wiki Editor\n\n" placeholder "\n\nContributions:" REDIRECT:""
+  !!LISTITEM IMAGE:"https://mediumkey.xyz/images/pfp.png?size=2048" TITLE:"Mediumkey (@mediumkey)" DESCRIPTION:"The one who asked Noble if we can create this Wiki which ends up being more than just a bus sim wiki\n\n" It do not matter. "\n\nContributions:" REDIRECT:""
+  !!LISTITEM IMAGE:"/api/discord-avatar/805490469051826246" TITLE:"kalcifur (@kalcifur)" DESCRIPTION:"Contributor, Front-end Developer\n\n" placeholder "\n\nContributions:" REDIRECT:""
+  !!LISTITEM IMAGE:"/api/discord-avatar/396049440110280714" TITLE:"Tazer (@tazer_tricity)" DESCRIPTION:"Game Administrator, Game Contributor, Wiki Editor\n\n" placeholder "\n\nContributions:" REDIRECT:""
+  !!LISTITEM IMAGE:"/api/discord-avatar/685150112137478202" TITLE:"Niko (@niko_gaming)" DESCRIPTION:"existing\n\n" placeholder "\n\nContributions:" REDIRECT:""
+
+  #![!!LISTITEM IMAGE:"imagehere" TITLE:"placeholder" DESCRIPTION:"placeholder\n\n" placeholder "\n\nContributions:" REDIRECT:""]
