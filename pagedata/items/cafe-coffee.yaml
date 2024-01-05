@@ -25,7 +25,7 @@ content: |
  When making one, the player will go into a focus-mode state, being able to pick any ingredients and measure them out carefully. Recipes are also provided on the left, with all of the specific ingredients needed to make a drink.
  \n\n
  While you do not need to be extremely accurate, as long as you have the appropriate ingredients; it'll blend into the drink that you want. 
- !!BUTTONS [<highlight>Ingredients</highlight>,location.href=''|Recipes / Mixtures,location.href='cafe-coffee-recipes'|NPC Interactions,location.href='cafe-coffee-npcs']
+ !!BUTTONS [<highlight>Ingredients</highlight>,location.href=''|Recipes / Mixtures,location.href='cafecoffee-recipes'|NPC Interactions,location.href='cafecoffee-npcs']
  ##[Ingredients]
  \n
  Ingredients are the main component in making coffee, with all of them boosting a stat or decreasing them. You can add as many as 32 of a solid ingredient, and 190 ml of a liquid / dry ingredient.

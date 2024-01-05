@@ -29,7 +29,7 @@ content: |-
   She wears a purple zip-up jacket, purple shadow antlers, Brighteye's hair, black pants with purple stripes on the sides, 3D glasses, and a purple scarf.
 
   ##[Favourite Drink]
-  Zeon's favourite drink is [Strawberry Smoothie](cafe-coffee-recipes). This gives you either 1 Passenger Rep or 1 Driver Rep.
+  Zeon's favourite drink is [Strawberry Smoothie](cafecoffee-recipes). This gives you either 1 Passenger Rep or 1 Driver Rep.
 
   ##[Dialogue (GOATed Gas Station)]
   !!DLEMULATOR EID:"gas_zeonemulator" SID:"start" URL:"/assets/bussim/emulatorData/zeon.json"
