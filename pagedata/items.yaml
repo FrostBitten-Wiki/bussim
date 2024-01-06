@@ -1,18 +1,19 @@
-editable: True
+editable: true
 page:
   title: Items
-  description: Items are tools that have their own special functions and abilities, mostly obtained by Events.
-  
+  description: Items are tools that have their own special functions and abilities,
+    mostly obtained by Events.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
+
   tags: some,tags,here,that is used by the search api
   ignore: ignore
 
   header:
     description: |
       Items are tools that have their own special functions and abilities, mostly obtained by Events.
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions: []
@@ -26,7 +27,7 @@ content: |
   !!LISTITEM IMAGE:"/bussim-assets/images/items/birthday-ice-cream.webp" TITLE:"Birthday Ice Cream" DESCRIPTION:"The Birthday Ice Cream is a large ice cream cone, obtainable by being the birthday person during the Birthday event." REDIRECT:"birthday-ice-cream"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/burger.webp" TITLE:"Burger" DESCRIPTION:"The Burger is an edible item that is obtained from the Bloxdonalds event.\n\nWhen the player consumes it, their screen becomes green, their camera jolts upwards going down, and it deals 25 health." REDIRECT:"burger"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/coffee.webp" TITLE:"Coffee" DESCRIPTION:"Coffee is a usable item obtained from the pool event that appears next to the edges of the pool.\n\nIt is used much like a soda; however, it gives no additional effects." REDIRECT:"coffee"
-  !!LISTITEM IMAGE:"/bussim-assets/images/items/cafecoffee.webp" TITLE:"Coffee (Cafe)" DESCRIPTION:"The Coffee from the [Cafe](events/cafe) Event is a customizable drink used with ingredients given to the player at any moment when interacting with the Coffee Machine, and is used to either give to NPCs or to drink from." REDIRECT:"cafe-coffee"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/cafecoffee.webp" TITLE:"Coffee (Cafe)" DESCRIPTION:"The Coffee from the h[Cafe] Event is a customizable drink used with ingredients given to the player at any moment when interacting with the Coffee Machine, and is used to either give to NPCs or to drink from." REDIRECT:"cafe-coffee"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/cola.webp" TITLE:"Cola" DESCRIPTION:"The Cola is an item that is obtainable at the second floor of The Bus.\n\nWhen used, you'll restore a significant amount of health." REDIRECT:"cola"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/cold-cola.webp" TITLE:"Cold Cola" DESCRIPTION:"The Cold Cola is a variant of Colas that can be either found on the third floor of The Bus, or inside of Glacier Cave.\n\nWhen used, the player will freeze for around 4 seconds and thaws after 6 seconds after freezing." REDIRECT:"cold-cola"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/compass.webp" TITLE:"Compass" DESCRIPTION:"The Compass is a tool obtainable by purchasing it for 4 passenger rep during the Goat Station Event, or by stealing it.\n\nWhen held, it'll always show an arrow pointing behind The Bus." REDIRECT:"compass"
@@ -45,7 +46,7 @@ content: |
   !!LISTITEM IMAGE:"/bussim-assets/images/items/hot-cola.webp" TITLE:"Hot Cola" DESCRIPTION:"Hot Cola is an item that can be found on the second floor of The Bus underneath the Pizza Box.\n\nWhen used, it'll set you ablaze, killing you after a while if not extinguished." REDIRECT:"hot-cola"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/hyper-soda.webp" TITLE:"Hyper Soda" DESCRIPTION:"The Hyper Soda is a soda variant that can be obtained at the top of the platform next to the sign in the Obby event.\n\nWhen used, it will provide a similar speed compared to Almond Water, but after a few seconds after consumption will massive spike in speed, then after a massive drop, making you slower than normal." REDIRECT:"hyper-soda"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/ice-cream.webp" TITLE:"Ice Cream" DESCRIPTION:"The Ice Cream is an edible item that is obtained from the ice cream truck.\n\nWhen used, you'll regenerate a small amount of health." REDIRECT:"ice-cream"
-  !!LISTITEM IMAGE:"/bussim-assets/images/items/kernels.webp" TITLE:"Kernels" DESCRIPTION:"Kernals is a permanent that doesn't do much by itself, but is needed to obtain the [Popcorn Bucket](popcorn-bucket). The item costs 20 rep to keep, and can be used on perfect-condition Popcorn machines to make Popcorn. Using it will cause the player to dump out kernals, but does nothing afterwards. You don't need to have the kernels out to start the Popcorn machine." REDIRECT:"kernels"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/kernels.webp" TITLE:"Kernels" DESCRIPTION:"Kernals is a permanent that doesn't do much by itself, but is needed to obtain the h[Popcorn Bucket]. The item costs 20 rep to keep, and can be used on perfect-condition Popcorn machines to make Popcorn. Using it will cause the player to dump out kernals, but does nothing afterwards. You don't need to have the kernels out to start the Popcorn machine." REDIRECT:"kernels"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/lemon-soda.webp" TITLE:"Lemon Soda" DESCRIPTION:"The Lemon Soda is an item in Bus Simulator that is obtained from its own respective event. When drank, it deals 25 damage to the player, and causes nausea as well. Spitting noises may also be heard." REDIRECT:"lemon-soda"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/liquid-void.webp" TITLE:"Liquid Void" DESCRIPTION:"Liquid Void is an item obtainable from random floor spawns in the Backwalls.\n\nWhen used you will turn invisible for 20 seconds, then start flashing in an out until finally turning opaque again. However, if used less than 20 seconds after the effects are over, you will instead be killed." REDIRECT:"liquid-void"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/magic-mirror.webp" TITLE:"Magic Mirror" DESCRIPTION:"The Magic Mirror is an item obtained by returning to the Glacier Cave after receiving the Animal Messenger badge from Frostbite's questline.\n\nWhen used, you'll teleport to Frost's Den anytime, anywhere." REDIRECT:"magic-mirror"
@@ -56,7 +57,7 @@ content: |
   !!LISTITEM IMAGE:"/bussim-assets/images/items/mini-bus.webp" TITLE:"Mini-Bus" DESCRIPTION:"The Mini-Bus is a miniature vehicle which resembles the bus used in the game. It can only fit 1 player, but drives faster than the bus.\n\nThe Mini-Bus costs h[R$125] to obtain." REDIRECT:"mini-bus"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/phone.webp" TITLE:"Phone" DESCRIPTION:"Phone is one of the first tools in the game you obtain.\n\nWhen used, it'll illuminate light out of its back." REDIRECT:"phone"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/pizza.webp" TITLE:"Pizza" DESCRIPTION:"The Pizza is an item obtainable from a pizza box in the second floor of the bus.\n\nWhen used, it will heal you by a bit and equipping it will play a sound effect saying 'Pizza Time'." REDIRECT:"pizza"
-  !!LISTITEM IMAGE:"/bussim-assets/images/items/popcorn-bucket.webp" TITLE:"Popcorn Bucket" DESCRIPTION:"The Popcorn Bucket is a permanent item that can be obtained from the [Backwalls](backwalls), and requires a bucket found in Zeon's house in the [GOATed Gas Station](goated-gas/station) event or from the [Picnic](picnic) event, [Kernels](kernels) from the gas station, and finding a perfect condition popcorn machine within the Backwalls." REDIRECT:"popcorn-bucket"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/popcorn-bucket.webp" TITLE:"Popcorn Bucket" DESCRIPTION:"The Popcorn Bucket is a permanent item that can be obtained from the h[Backwalls], and requires a bucket found in Zeon's house in the h[GOATed Gas Station] event or from the h[Picnic] event, h[Kernels] from the gas station, and finding a perfect condition popcorn machine within the Backwalls." REDIRECT:"popcorn-bucket"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/ram.webp" TITLE:"RAM" DESCRIPTION:"RAM is a unique item at the GOATed Gas Station event, where you need to trigger a side quest to be able to pick up the item.\n\nIt has no function on its own, and is used merely to give to Tazer." REDIRECT:"ram"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/redblox.webp" TITLE:"Redblox" DESCRIPTION:"The RedBlox is an item in the GOATed Gas Station Event, and is a one-time use that makes you walk faster for a few seconds, like the Hyper Soda." REDIRECT:"redblox"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/roemulator.webp" TITLE:"RoEmulator" DESCRIPTION:"The RoEmulator is a gamepass item that lets you play games on your own, costing R$20. It has options of three games: Adventure Island, Race The Sunset, and Lunar Lander." REDIRECT:"roemulator"
@@ -65,7 +66,7 @@ content: |
   !!LISTITEM IMAGE:"/bussim-assets/images/items/spronkbib-popsicle.webp" TITLE:"Spronkbib Popsicle" DESCRIPTION:"The Spronkbib Popsicle is obtainable along with The Last One badge as a 1/800 (formerly 1/1000) chance from the naturally spawning ice cream vans.\n\nWhen used, it'll regenerate a significant amount, and persists in a couple of events." REDIRECT:"spronkbib-popsicle"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/toast.webp" TITLE:"Toast" DESCRIPTION:"The Toast is a temporary item from the Goat Station event, which can be obtained by clicking on the Toaster in Zeon's house.\n\nWhen used, it'll regenerate a tiny amount of your health." REDIRECT:"toast"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/tool.webp" TITLE:"Tool" DESCRIPTION:"Tool is a temporary item that can be obtained after giving D6 a food or drink item, it does nothing." REDIRECT:"tool"
-  
+
   !!INFOBOX TITLE:"Unobtainable / Exclusive Items" COLOR:"#6d6d6d" TEXT:"The following items are only obtainable in special conditions or are no longer obtainable by normal means."
   !!LISTITEM IMAGE:"/bussim-assets/images/items/avian-potion.webp" TITLE:"Avian Potion" DESCRIPTION:"The Avian Potion is a consumable that can only be obtained by admin commands.\n\nWhen used, you'll be given the ability to mash space mid-air for a tiny loft." REDIRECT:"avian-potion"
   !!LISTITEM IMAGE:"/bussim-assets/images/items/balloon/collection1.webp" TITLE:"Balloon" DESCRIPTION:"The Balloon is a permanent item only gifted to those who have a Contributor or higher role in the Bus Simulator Fan Group. " REDIRECT:"balloon"
