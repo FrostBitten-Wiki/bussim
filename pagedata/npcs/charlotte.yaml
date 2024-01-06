@@ -119,7 +119,7 @@ content: |-
             - hg[Option 1]: Another tip, please.
               - h[The Dialogue refreshes to a new Variant.]
             - hg[Option 2]: Thanks.
-              - h[Dialogue End]
+              - "I hope a tip stood out to you!"
     - hg[Option 2]: Cool bottle.
       - "Oh gosh, thanks! I'm proud to be who I am today, and i wear this bottle with all my pride!"\n\n
       - "And because it's unobtainable now... and i think it's cooler because of that..."\n\n
