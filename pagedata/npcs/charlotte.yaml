@@ -35,9 +35,10 @@ content: |-
   - hg[Variant 1]: "Did you need something?"\n\n
   - hg[Variant 2]: "Oh, um... hi?"\n\n
   - hg[Variant 3]: "OH- sorry, you scared me a little, can I help you?"\n\n
-  - hg[Variant 4]: "Huh? Sorry, I dazed off, were you saying something?"\n\n
-  - hg[Variant 5]: "outered... wilds... my beloved!" <small>(Rare Dialogue)</small>\n\n
-  - hg[Variant 6]: "Oh dear, is that a bomb? Oh gosh i hope you dont explode in 3 seconds, that would be quite unfortunate" <small>(Rare Dialogue, chances unknown, The player then explodes after 3 seconds)</small>
+  - hg[Variant 4]: "..mm? Oh, sorry! I dazed off... Were you saying something?"\n\n
+  - hg[Variant 5]: "Huh? Sorry, I dazed off, were you saying something?"\n\n
+  - hg[Variant 6]: "outered... wilds... my beloved!" <small>(Rare Dialogue)</small>\n\n
+  - hg[Variant 7]: "Oh dear, is that a bomb? Oh gosh i hope you dont explode in 3 seconds, that would be quite unfortunate" <small>(Rare Dialogue, chances unknown, The player then explodes after 3 seconds)</small>
     - hg[Option 1]: I have a question...
       - hg[Variant 1]: "About what?"\n\n
       - hg[Variant 2]: "Oh, ask away!"\n\n
