@@ -20,7 +20,7 @@ attributions:
   - Edited by Nyx (@nyxical)
 
 content: |-
-  !!INFOBOX TITLE:"Stub Content" COLOR:"#ff8c2e" TEXT:"*"not much to talk here, but.. well.."* -Efeuc\n<small>This page is a stub, it may not contain all of the information in the game; so adding more information to this page is always appreciated!</small>"
+  !!INFOBOX TITLE:"Stub Content" COLOR:"#ff8c2e" TEXT:"*\"not much to talk here, but.. well..\"* -Efeuc\n<small>This page is a stub, it may not contain all of the information in the game; so adding more information to this page is always appreciated!</small>"
 
   ##[Info]
   Charlotte is a NPC that can be found on the Coffee Shop event.
@@ -35,9 +35,10 @@ content: |-
   - hg[Variant 1]: "Did you need something?"\n\n
   - hg[Variant 2]: "Oh, um... hi?"\n\n
   - hg[Variant 3]: "OH- sorry, you scared me a little, can I help you?"\n\n
-  - hg[Variant 4]: "Huh? Sorry, I dazed off, were you saying something?"\n\n
-  - hg[Variant 5]: "outered... wilds... my beloved!" <small>(Rare Dialogue)</small>\n\n
-  - hg[Variant 6]: "Oh dear, is that a bomb? Oh gosh i hope you dont explode in 3 seconds, that would be quite unfortunate" <small>(Rare Dialogue, chances unknown, The player then explodes after 3 seconds)</small>
+  - hg[Variant 4]: "..mm? Oh, sorry! I dazed off... Were you saying something?"\n\n
+  - hg[Variant 5]: "Huh? Sorry, I dazed off, were you saying something?"\n\n
+  - hg[Variant 6]: "outered... wilds... my beloved!" <small>(Rare Dialogue)</small>\n\n
+  - hg[Variant 7]: "Oh dear, is that a bomb? Oh gosh i hope you dont explode in 3 seconds, that would be quite unfortunate" <small>(Rare Dialogue, chances unknown, The player then explodes after 3 seconds)</small>
     - hg[Option 1]: I have a question...
       - hg[Variant 1]: "About what?"\n\n
       - hg[Variant 2]: "Oh, ask away!"\n\n
@@ -118,11 +119,11 @@ content: |-
             - hg[Option 1]: Another tip, please.
               - h[The Dialogue refreshes to a new Variant.]
             - hg[Option 2]: Thanks.
-              - h[Dialogue End]
+              - "I hope a tip stood out to you!"
     - hg[Option 2]: Cool bottle.
       - "Oh gosh, thanks! I'm proud to be who I am today, and i wear this bottle with all my pride!"\n\n
       - "And because it's unobtainable now... and i think it's cooler because of that..."\n\n
     - hg[Option 3]: Nevermind.
-      - h[Dialogue End]
+      - "Alright then, see ya."
 
   !!GALLERY [/assets/bussim/images/npcs/charlotte.webp]  
