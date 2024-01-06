@@ -13,7 +13,7 @@ page:
     description: |-
       Category: [Others](others)
     image: /bussim-assets/images/banner.jpg
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions:
   - Ported By PolyframeX (@polyframex)

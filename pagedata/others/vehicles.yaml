@@ -10,7 +10,7 @@ page:
     description: |
       Category: [Others](others)
     image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
   
 
 attributions:
