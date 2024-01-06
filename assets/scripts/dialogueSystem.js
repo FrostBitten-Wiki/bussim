@@ -7,17 +7,11 @@ let soundSource = document.getElementById("soundSource");
 
 let dialogueRunning = false;
 let previousImage;
-let dialogueData;
-
-fetch("/bussim-assets/dialoguedata/dialogue.json")
-.then((response) => response.json())
-.then((jsonData) => {
-    dialogueData = jsonData;
-    console.log("sys loaded")
-});
 
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 const audioBuffers = {};
+
+console.log(dialogueData)
 
 function loadAudioFile(soundfile) {
     if (!audioBuffers[soundfile]) {

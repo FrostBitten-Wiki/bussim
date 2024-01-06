@@ -12,6 +12,8 @@ from yaml import load, safe_load, SafeLoader
 import jinki
 import re
 
+import os
+
 app = FastAPI(
     docs_url=None,
     redoc_url=None
@@ -96,7 +98,6 @@ class PostProcessors:
             changeDialogue("{emulatorId}", "{startId}");
         }})
         .catch(error => console.error('Emulator Dataset failed to Load: ', error));
-
     </script>
 <div>
 """
@@ -229,14 +230,26 @@ class PostProcessors:
 async def siteHome():
     return "Available Wiki: https://wiki.wolfdo.gg/wiki/bussim/"
 
-@app.get("/wiki/{repo}/{file:path}")
-async def wiki(request: Request, repo: str, file: str):
-    if file == "": file = "home"
+@app.get("/wiki/{repo}/{page}")
+async def wiki(request: Request, repo: str, page: str):
+    if page == "": page = "home"
     templateHTML = open("template.html", "r").read()
-    templateData = open(f"./pagedata/{file.rstrip("/")}.yaml", "r").read()
+    #templateData = open(f"./pagedata/{file.rstrip("/")}.yaml", "r").read()
+
+    def findFile(folder_path, file_name):
+        for root, dirs, files in os.walk(folder_path):
+            for file in files:
+                if file == file_name:
+                    return os.path.join(root, file_name)
+        return None
+
+    templateData = open(findFile('./pagedata', f'{page}.yaml'), "r").read()
+    templateData = load(templateData, Loader=SafeLoader)
+    templateData["content"] = jinki.render(templateData["content"], syntaxes)
+    templateData["page"]["header"]["description"] = jinki.render(templateData["page"]["header"]["description"], syntaxes)
 
     html_template = Template(templateHTML)
-    rendered_html = html_template.render(load(templateData, Loader=SafeLoader))
+    rendered_html = html_template.render(templateData)
     
     return HTMLResponse(rendered_html)
 

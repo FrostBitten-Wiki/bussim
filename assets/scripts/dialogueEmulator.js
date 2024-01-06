@@ -4,7 +4,6 @@ fetch("/bussim-assets/dialoguedata/dialogue.json")
 .then((response) => response.json())
 .then((jsonData) => {
     dialogueData = jsonData;
-    console.log("emu loaded")
 });
 
 function changeDialogue(id, dialogueId) {
@@ -20,13 +19,13 @@ function changeDialogue(id, dialogueId) {
     var dialogueId = random(dialogueId.split(","))
 
     var chatData = window[`${id}chatDataset`][dialogueId];
-    var userData = chatData[chatData.name];
 
     choices.innerHTML = "";
     controls.innerHTML = "";
     window[`${id}dialogueDelay`] = 25;
     
     // Update Dialogue Box
+    console.log(window["dialogueData"])
     speakerName.innerText = chatData.name;
     dialogueBox.style.setProperty("--color1", dialogueData.characterData[chatData.name]["dialogueColors"][0]);
     dialogueBox.style.setProperty("--color2", dialogueData.characterData[chatData.name]["dialogueColors"][1]);
