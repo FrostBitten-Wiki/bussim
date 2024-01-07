@@ -29,7 +29,8 @@ content: |-
   ##[Favourite Drink (Coffee Shop)]
   Tazer's favourite drink is [Cup of Glowstick Fluid](cafe-coffee-recipes). This gives you either 3 Passenger Rep or 3 Driver Rep, however this may only be done at the Cafe event.
 
-  ##[Dialogue Emulator]
+  ##[Dialogue]
+  ###[Goat Station]
   !!DLEMULATOR EID:"tazeremulator" SID:"start" URL:"/assets/bussim/emulatorData/tazer.json"
 
   - hg[Variant 1]: "Beep boop?"
@@ -71,29 +72,51 @@ content: |-
       - hg[Option 5]: I'm back, and I have your RAM. (Only appears if the player has the ram stick)
           - hg[Variant 1]: "Wait, really? Thanks! Here's that rep I promised."
           - hg[Variant 2]: "Here's your rep, now get lost! Haha just kidding! Feel free to talk to me again sometime."
-              - The player then receives 2 Driver rep.
+              - The player then receives 2 Driver Reputation.
           - hg[Variant 3] (Illegal RAM): "Wait, really? Hey, wait a second.. This RAM is unmarked! Bootleg! Are you trying to scam me? Well, this'll be the last scam you'll ever pull."
-              - The player then explodes
+              - The player then explodes.
           - hg[Variant 4] (If already completed): "Uhh.. I kinda feel like I've done this before.. I don't really feel that hungry anymore.."
       - hg[Option 6]: Nevermind.
           - hg[Variant 1]: "Then stop wasting my time."
           - hg[Variant 2]: "Cya then."
           - hg[Variant 3]: "Bruh..."
           - hg[Variant 4]: "With regards from Tazer..."
-              - The player is then flung
+              - The player is then flung.
           - hg[Variant 5]: "Tazer jumpscare"
               - Tazer then kills the player by "jumpscaring" them.
 
   ###[Airhorn-Related Dialogue]
-  - If the airhorn is used repeatedly in proximity to Tazer
+  - If the airhorn is used repeatedly in proximity to Tazer:
     - "It's already hard enough being in detention, can you not?"
-  - If the airhorn is used repeatedly in proximity to Tazer for a second time
-    - ""No, like actually stop it. I'm not even allowed to leave the room."
-  - If the airhorn is used repeatedly in proximity to Tazer for a third time
+  - If the airhorn is used repeatedly in proximity to Tazer for a second time:
+    - "No, like actually stop it. I'm not even allowed to leave the room."
+  - If the airhorn is used repeatedly in proximity to Tazer for a third time:
     - "And I thought I was obnoxious..."
-  - If the airhorn is used repeatedly in proximity to Tazer for a fourth time and so on
+  - If the airhorn is used repeatedly in proximity to Tazer for a fourth time and so on:
     - "With regards from Tazer."
-      - The player then gets flung
+      - The player then gets flung.
+
+  ###[Mini-Bus Related Dialogue]
+  - If you click on Tazer's Mini-Bus:
+    - "Don't. Even. ***THINK***. About. It."
+  - If you click on Tazer's Mini-Bus a second time:
+    - "You are ***NOT*** getting my minibus. Stop trying."
+  - If you click on Tazer's Mini-Bus a third time:
+    - "***STOP.***"
+  - If you click on Tazer's Mini-Bus a fourth time and so on:
+    - "That's it. You gotta go. <20px>(<clr:#ffff00>(***NOW!!!***))"
+      - The player then violently explodes from a thunderbolt. <13px>((Triggers the Shocking Results Badge.))
+
+  ##[Cafe]
+  - hg[Variant 1]: "Beep boop!"
+  - hg[Variant 2]: "Beep boop?"
+  - hg[Variant 3]: "Watts up?"
+  - hg[Variant 4]: "What do ya want? I'm busy here, can't you see?"
+  - hg[Variant 5]: "Hey, can you pass me the ratchet- Huh? Oh, you're not Inro. What's up?"
+  - hg[Variant 6]: "Need somethin'?"
+  - hg[Variant 7]: "You know, it's funny. Today is Sunday but like, why do they call it that if the sun is out every day? Wouldn't that technically make every day Sunday? Hahah! Anyways, what's up?" (If the current day is Sunday)
+  #![wip will work on it tomorrow -fang]
+
 
   ##[Trivia]
   - When you visit GoatedGas, you're able to find a discarded note in the trash can, inspecting it gives you what is written on the note:
