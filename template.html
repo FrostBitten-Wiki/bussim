@@ -358,6 +358,16 @@
             }
         </script>
 
+        <script>
+            var dialogueData;
+
+            fetch("/bussim-assets/dialoguedata/dialogue.json")
+            .then((response) => response.json())
+            .then((jsonData) => {
+                dialogueData = jsonData;
+            });
+        </script>
+
         <script src="https://unpkg.com/gsap@3.9.0"></script>
         <script src="/assets/bussim/scripts/others.js"></script>
         <script src="/assets/bussim/scripts/tooltip.js"></script>
