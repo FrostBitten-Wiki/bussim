@@ -98,7 +98,13 @@ class PostProcessors:
                 console.log("dataset append -> {emulatorId}");
                 changeDialogue("{emulatorId}", "{startId}");
             }})
-            .catch(error => console.error('Emulator Dataset failed to Load: ', error));
+            .catch(error => {{
+                document.getElementById("{emulatorId}-name").innerText = "Emulator Error";
+                document.getElementById("{emulatorId}-dialogue").style.setProperty("--color1", "#190000");
+                document.getElementById("{emulatorId}-dialogue").style.setProperty("--color2", "#260000");
+                document.getElementById("{emulatorId}-dialogue").style.setProperty("--color3", "red");
+                document.getElementById("{emulatorId}-chat").innerHTML = "The server could not load the Dialogue Dataset. Please refresh the page!<br><br>If this error persists, please check if the dataset is in the correct path with a correct filename. or if the Start ID is configured to the correct StartID on the dataset.";
+            }});
         }});
     </script>
 <div>
