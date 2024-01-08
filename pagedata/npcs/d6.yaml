@@ -19,5 +19,263 @@ attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical)
 
-content: |-
-  raw
+content: |
+  ##[Info]
+  D6 is an NPC in the [GOATed Gas Station](goated-gas-station) event, as well as an artist.
+  
+  ##[Appearance]
+  D6 is a presumably humanoid entity with long black hair that has two horn-like strands curving upwards. 
+  They wear a black T-shirt with long black gloves, a black scarf, dark gray cargo pants, and flannel tied around their waist.
+  \n\n
+  Their face appears to be complely obscured by shadow, with only one of their eyes visible.
+  \n\n
+  Previously, D6 had a more simple design, with black arms and legs, yellow torso, and a white head. They wore White Oni Horns, Outrageous Builders Club Hard Hat,
+  a White Kobold snout and frills, white fur, a White Lizard Tail, and the sigil of Lucifer on their chest.
+  
+  ##[Favourite Drink]
+  D6's favourite drink is [The Sludge](cafe-coffee-recipes). This gives you either 4 Passenger Rep or 4 Driver Rep.
+  
+  ##[Dialogue]
+  !!DLEMULATOR EID:"d6emulator" SID:"start" URL:"/assets/bussim/emulatorData/d6.json"
+  
+  - Variant 1 : "im d6"
+  - Variant 2 : "you." (If the player is on dSiiiiiix's friends list)
+  - Variant 3 : "man i could really go for some graham crackers right about now" (If the current day is Monday)
+  - Variant 4 : "and if youuuuuu cant believe it" (If the current day is Friday)
+  - Variant 5 : "i cant believe i had to drive all the way to work" (If the current day is Saturday)
+  - Variant 6 : "would you like to sign my petition? ...nevermind" (If the current day is Tuesday)
+      - hg[Option 1]: Any wisdom for today?
+          - hg[Variant 1]:
+              - Variant 1A (PC):
+                  - "give me the keyboard"
+                      - No Thanks
+              - Variant 1B (Mobile):
+                  - "give me your phone"
+                      - No Thanks
+              - Variant 1C (Console):
+                  - "give me the controller"
+                      - No thanks.
+          - Variant 2 (if the player has previously selected this option within the last 12 hours):
+              - Variant 2A (default):
+                  - "you've had enough wisdom for today. come back tomorrow"
+                      - Ok.
+              - Variant 2B (if the player has selected this option on a different account under the same device):
+                  - "hey..." "you're not trying to use a different account to cheat the system are you" "for shame" "i'll still give you the wisdom though"
+                      - (The dialogue then proceeds to a random variant outside of Variant 2)
+              - Variant 2C (If the player has selected this option on yet another account under the same device, following Variant 2B):
+                  - "hey there again" "you have multiple alts then huh" "that's cool i guess"
+                      - (The dialogue then proceeds to a random variant outside of Variant 2)
+          - hg[Variant 3]:
+              - "live to die"
+                  - Ok.
+          - hg[Variant 4]:
+              - "if you come to a fork in the road, pick it up"
+                  - Ok.
+          - hg[Variant 5]:
+              - "you are playing it wrong"
+                  - Ok.
+          - hg[Variant 6]:
+              - "i did the art for the" [limbobbia](https://www.roblox.com/games/6728212466/Limbobbia?AssetId=6728212466) "tutorial. you should try it if you haven't"
+                  - Ok.
+          - hg[Variant 7]:
+              - Variant 7A (if today is Thursday):
+                  - "today is thursday."
+                      - Ok.
+              - Variant 7B (otherwise):
+                  - "today is not thursday"
+                      - Ok.
+          - hg[Variant 8]:
+              - "do not hesitate to defend yourself. you won't regret it"
+                  - Ok.
+          - hg[Variant 9]:
+              - "support your local trash goblin"
+                  - Ok.
+          - hg[Variant 10]:
+              - "thank Noble for doing all this; without it i would have no wisdom to share."
+                  - Ok.
+          - hg[Variant 11]:
+              - "i am sincerely sorry for your loss"
+                  - Ok.
+          - hg[Variant 12]:
+              - "your lucky numbers for the day are [5 random 1-2 digit integers" and [random 1-2 digit integer]]
+                  - Ok.
+          - hg[Variant 13]:
+              - "nobody knows the troubles you've seen"
+                  - Ok.
+          - hg[Variant 14]:
+              - "if you don't like the new roblox death sound, you can change it to whatever you want."
+              - "open the file location of your RobloxPlayerLauncher.exe"
+              - "go to content, then sounds. replace ouch.ogg with any .ogg file you want, rename it to ouch.ogg."
+                  - Ok.
+          - hg[Variant 15]:
+              - "you can adjust the game volume via the pause menu"
+                  - Ok.
+          - hg[Variant 16]:
+              - "stand up for yourself"
+                  - Ok.
+          - hg[Variant 17]:
+              - "we have done something wrong at one point"
+              - "something we can never undo"
+              - "and for this we are being punished"
+              - "This is our eternity, our prison."
+                  - Ok.
+          - hg[Variant 18]:
+              - "he's going to betray you, you know."
+                  - Ok.
+          - hg[Variant 19]:
+              - "exploration can only lead to disappointment."
+                  - Ok.
+          - hg[Variant 20]:
+              - "the remains of our ancestors lie beneath our feet"
+              - "sometimes i can still hear their voices"
+              - "screaming"
+              - "but sometimes its hard to hear them over my own screams."
+                  - Ok.
+          - hg[Variant 21]:
+              - "the end is never"
+                  - Ok.
+          - hg[Variant 22]:
+              - "only a sinner"
+                  - Ok.
+          - hg[Variant 23]:
+              - "also try lethal league blaze"
+                  - Ok.
+          - hg[Variant 24]:
+              - "also try boneworks, if you have vr"
+                  - Ok.
+          - hg[Variant 25]:
+              - "i can kill you in two different ways"
+                  - Ok.
+          - hg[Variant 26]:
+              - "i can't tell you what the Tool does you have to figure it out yourself"
+                  - Ok.
+          - hg[Variant 27]:
+              - "you will never be forgiven"
+                  - Ok.
+          - hg[Variant 28]:
+              - "think for yourself"
+                  - Ok.
+          - hg[Variant 29]:
+              - "believe in yourself"
+                  - Ok.
+          - hg[Variant 30]:
+              - "question authority"
+                  - Ok.
+          - hg[Variant 31]:
+              - "go outside"
+                  - Ok.
+          - hg[Variant 32]:
+              - "don't leave the house today"
+                  - Ok.
+          - hg[Variant 33]:
+              - "my brain hurts"
+                  - Ok.
+          - hg[Variant 34]:
+              - "may your troubles be many"
+                  - Ok.
+      - hg[Option 2]: Let's talk!
+          - "what"
+              - hg[Option 1]: Why are you in a dumpster?
+                  - "why havent you been flattened by a 2 ton slab of concrete"
+                      - (A 2 ton slab of concrete falls from the sky and kills the player, unless under cover.)
+              - hg[Option 2]: Roll me a number.
+                  - "Why"
+                      - hg[Option 1]: Because you're a d6?
+                          - "thats fair. [random number 1-6"]
+                      - hg[Option 2]: Nevermind.
+                          - "ok"
+              - hg[Option 3]: Why are you so short?
+                  - " "
+                      - (The player then immediately explodes.)
+              - hg[Option 4]: What do you do?
+                  - "im"
+                  - "d6"
+                      - Yeah, but like what do you DO?
+                          - "yeah how about you learn to listen the first time"
+                              - sorry
+                                  - "hi"
+              - hg[Option 5]: Hi D6.
+                  - Variant 1 (first time selecting this option): "hi"
+                  - Variant 2 (otherwise): "hey there again"
+      - hg[Option 3]: Nevermind.
+          - hg[Variant 1]: "7577234764 Dont forget it. It's the only way out."
+          - hg[Variant 2]: "ok"
+      - hg[Option 4]: Tell me.
+          - "ok"
+              - hg[Variant 1]:
+                  - "dude... GLAGGLELAND??????"
+                      - The rides:
+              - hg[Variant 2]:
+                  - "im d6"
+                      - You've made that clear, yes.
+                          - " "
+                              - (The player then explodes.)
+                      - you're d6
+                          - "d6"
+              - hg[Variant 3]:
+                  - "if i hear that dumb smelly protogen mention ram one more time im gonna RAM a 2 ton block of concrete into their stupid face."
+                      - O...kay?
+              - hg[Variant 4]:
+                  - "i'm not allowed in the store anymore since i keep shoplifting but if you see disc or green tell them i said hi and that im sorry and that it will happen again"
+                      - Ok.
+              - hg[Variant 5]:
+                  - "lets talk about"
+                  - "embalming fluid"
+                      - ...Nevermind.
+              - hg[Variant 6]:
+                  - "sometimes i feel the sudden urge to break into someone's house and talk about turtle skeletons from a specific video game franchise for hours."
+                      - ...That sounds oddly specific.
+                          - "say hi to zeon for me"
+              - hg[Variant 7]:
+                  - "Do not let it affect you in the moment. It is all ultimately meaningless. The passage of time spares none, has spared none, and will spare none. You are no exception."
+                      - The rides:
+              - hg[Variant 8]:
+                  - "i think i could beat that cat on the bus in a fist fight"
+                      - That's mean.
+              - hg[Variant 9]:
+                  - "hey so do you know what those guys are selling in there theyve chased me out with a broom like 6 times already." "its probably because ive stolen like 4 or 5 of their hey why am i telling you this" "get outta here"
+                      - Sorry
+              - hg[Variant 10]:
+                  - "you got anything to eat" "hand it over im starving"
+                      - hg[Option 1]: Sure.
+                          - (The player hands D6 a random consumable item.)
+                              - "thanks"
+                      - hg[Option 2]: I'd... rather not.
+                          - "please ill give you this handy dandy Tool"
+                              - hg[Option 1]: Deal.
+                                  - "pleasure doing business"
+                                      - (The player hands D6 a random consumable item and receives a [Tool](tool).)
+                              - hg[Option 2]: No deal.
+                                  - "You think this is a game? Do you find this amusing?"
+                                      - Kind of.
+              - hg[Variant 11]:
+                  - "i am sincerely sorry for your loss"
+                      - Sorry
+              - hg[Variant 12]:
+                  - "my brain hurts"
+                      - Ok.
+              - hg[Variant 13]:
+                  - "END OF DIALOGUE"
+  
+  ###[Airhorn-Related "Dialogue"]
+  If the airhorn is used repeatedly in close proximity to D6:
+  - The player automatically unequips the airhorn.
+  
+  ##[Trivia]
+  - D6 is second to having the most amount of dialogue lines, only being behind by Pear by 34 lines or more.
+    - Despite this though, they have the most amount of variants a character can have, and likely the most amount of dialogue bytes in the game.
+  -  Their lines make plenty of references to memes, their own personal interests, or general media.
+     - ["man i could really go for some graham crackers right about now"](https://twitter.com/GandalfGetsTo) is a reference to a TikTok account where a cat owner lets their cat, named Gandalf, gets to lick a Graham Cracker every Monday.
+     - ["i cant believe i had to drive all the way to work"](https://www.youtube.com/watch?v=b-LTE6vIb9U&ab_channel=HigherQualityUploads) is a reference to a line from Toy Story 2, where Al has to drive across the street to his job on a Saturday.
+     - ["would you like to sign my petition?"](https://youtu.be/9JoJUkIhEjs?si=gXelL-pGidlWmaYj) is a reference to Postal 2, wherein on Tuesday, the Postal Dude is tasked with collecting signatures for a petition to 'make whiney congressmen play violent video games'.
+     - "dude... GLAGGLELAND??????" is a reference to a bunch of videos about Glaggleland, a fictional amusement park filled with smileys and silliness.
+     - "...and talk about turtle skeletons from a specific video game franchise for hours." is a reference to [Dry Bones](https://www.mariowiki.com/Dry_Bones) from the Super Mario franchise, that both D6 and [Zeon](zeom) indeed like talking about.
+     - "7577234764 Dont forget it. It's the only way out.". 7577234764 is actually a Roblox marketplace ID for an image of a paper D6 that DSiiiiiix has.
+     - Numerous other lines are references to The End Is Nigh and The Binding of Isaac, both games by Edmund McMillen.
+  - When Bus Simulator got age restricted for 14+ for the first time, the reasoning as to why it was restricted was because D6's "why havent you been flattened by a 2 ton slab of concrete" was more than enough for the game to receive a Violence tag.
+      - This was appealed however, but it wasn't the last time Bus Simulator had been age-restricted before.
+  - D6 is the only NPC to respond when the player spams the [Airhorn](airhorn), but without talking once.
+  - In one of their dialogues during the coffee event, it is heavily implied that D6 comes from The Backwalls.
+  
+  !!GALLERY [/assets/bussim/images/npcs/d6.webp]  
+  <script>randomDialogueEvent(true, "d6001")</script>
