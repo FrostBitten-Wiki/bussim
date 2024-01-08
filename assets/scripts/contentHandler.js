@@ -1,3 +1,6 @@
+// script is now deprecated, atleast for now.
+// i may still maybe go bak to this.
+
 function renderHTML(url) {
     document.getElementById('loadScreen').style.display = "block";
     document.getElementById('loadScreenText').style.display = "flex";

@@ -6,7 +6,7 @@ page:
 
   header:
     title: Weather
-    description: | 
+    description: |
       Category: [Others](others)
     image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp

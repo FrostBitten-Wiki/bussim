@@ -89,15 +89,17 @@ class PostProcessors:
         var {emulatorId}chatDataset;
         var {emulatorId}dialogueDelay = 25;
 
-        fetch("{datasetURL}")
-        .then(response => response.json())
-        .then(data => {{
-            console.log(data);
-            {emulatorId}chatDataset = data;
-            console.log("dataset append -> {emulatorId}");
-            changeDialogue("{emulatorId}", "{startId}");
-        }})
-        .catch(error => console.error('Emulator Dataset failed to Load: ', error));
+        document.addEventListener('DOMContentLoaded', function() {{
+            fetch("{datasetURL}")
+            .then(response => response.json())
+            .then(data => {{
+                console.log(data);
+                {emulatorId}chatDataset = data;
+                console.log("dataset append -> {emulatorId}");
+                changeDialogue("{emulatorId}", "{startId}");
+            }})
+            .catch(error => console.error('Emulator Dataset failed to Load: ', error));
+        }});
     </script>
 <div>
 """
@@ -148,21 +150,19 @@ class PostProcessors:
 </div>
 """
         else:
-            if redir.startswith("/wiki"):
-                redir = f"{redir}"
-            else:
-                redir = f"/wiki{redir}"
-            
             if image == "":
                 return f"""
-<div class="container" style="padding: 10px; cursor: pointer;" onclick="renderHTML(`{redir}`)">
+<a href="{redir}">
+<div class="container" style="padding: 10px; cursor: pointer;">
     <text style="font-size: 25px;">{title}</text><br>
     <text>{desc}</text>
 </div>
+</a>
 """
             else:
                 return f"""
-<div class="container" style="padding: 10px; cursor: pointer; display: grid; grid-template-columns: 128px 1fr; gap: 10px;" onclick="renderHTML(`{redir}`)">
+<a href="{redir}">
+<div class="container" style="padding: 10px; cursor: pointer; display: grid; grid-template-columns: 128px 1fr; gap: 10px;">
     <img src="{image}" height="128" width="128" style="object-fit: cover;" loading="lazy">
 
     <div>
@@ -170,6 +170,7 @@ class PostProcessors:
         <text>{desc}</text>
     </div>
 </div>
+</a>
 """
     
     @staticmethod
@@ -205,18 +206,6 @@ class PostProcessors:
     <text>{text}</text>
 </div>
 """
-
-    @staticmethod
-    def link(match):
-        text = match.group(1)
-        url = match.group(2)
-        if not url.startswith("https://"):
-            if url.startswith("/wiki"):
-                return f'<a onclick="renderHTML(\'{url}\');">{text}</a>'
-            else:
-                return f'<a onclick="renderHTML(\'/wiki{url}\');">{text}</a>'
-        else:
-            return f'<a href="{url}">{text}</a>'
 
     @staticmethod
     def image(match):
@@ -287,7 +276,7 @@ syntaxes = {
     "underline": (synpat.UNDERLINE[0], None, synpat.UNDERLINE[1]),
     "italic": (synpat.ITALIC[0], None, synpat.ITALIC[1]),
     "strike": (synpat.STRIKE[0], None, synpat.STRIKE[1]),
-    "link": (synpat.LINK[0], None, PostProcessors.link),
+    "link": (synpat.LINK[0], None, synpat.LINK[1]),
     "bold": (synpat.BOLD[0], None, synpat.BOLD[1]),
     "sub": (synpat.SUB[0], None, synpat.SUB[1]),
     "sup": (synpat.SUP[0], None, synpat.SUP[1]),
