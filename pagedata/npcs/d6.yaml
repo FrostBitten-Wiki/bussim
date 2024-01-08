@@ -277,5 +277,5 @@ content: |-
   - D6 is the only NPC to respond when the player spams the [Airhorn](airhorn), but without talking once.
   - In one of their dialogues during the coffee event, it is heavily implied that D6 comes from The Backwalls.
 
-  !!GALLERY [/assets/bussim/images/npcs/banana.webp]  
+  !!GALLERY [/assets/bussim/images/npcs/d6.webp]  
   <script>randomDialogueEvent(true, "d6001")</script>
