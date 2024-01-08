@@ -24,13 +24,13 @@ content: |-
   D6 is an NPC in the [GOATed Gas Station](goated-gas-station) event, as well as an artist.
 
   ##[Appearance]
-  As of July 20th 2023, D6's design has been changed to one more complex, now having a long black hair with what seems to be horns poking out of it,
-  along with a maroon punk jacket, suspenders and pauldrons.
+  D6 is a presumably humanoid entity with long black hair that has two horn-like strands curving upwards. 
+  They wear a black T-shirt with long black gloves, a black scarf, dark gray cargo pants, and flannel tied around their waist.
   \n\n
-  His face appears to be complely obscured by shadow, with only one of their eyes visible.
+  Their face appears to be complely obscured by shadow, with only one of their eyes visible.
   \n\n
-  Before this, D6 had a more simple design, with black arms and legs, yellow torso, and a white head. He wore White Oni Horns, Outrageous Builders Club Hard Hat,
-  a White Kobold snout and frills, white fur, a White Lizard Tail, and the Hexxed symbol on his chest.
+  Previously, D6 had a more simple design, with black arms and legs, yellow torso, and a white head. They wore White Oni Horns, Outrageous Builders Club Hard Hat,
+  a White Kobold snout and frills, white fur, a White Lizard Tail, and the sigil of Lucifer on their chest.
 
   ##[Favourite Drink]
   D6's favourite drink is [The Sludge](cafe-coffee/recipes). This gives you either 4 Passenger Rep or 4 Driver Rep.
@@ -97,7 +97,7 @@ content: |-
               - "i am sincerely sorry for your loss"
                   - Ok.
           - hg[Variant 12]:
-              - "your lucky numbers for the day are \[5 random 1-2 digit integers\" and \[random 1-2 digit integer\]]
+              - "your lucky numbers for the day are [5 random 1-2 digit integers" and [random 1-2 digit integer]]
                   - Ok.
           - hg[Variant 13]:
               - "nobody knows the troubles you've seen"
@@ -181,7 +181,7 @@ content: |-
               - hg[Option 2]: Roll me a number.
                   - "Why"
                       - hg[Option 1]: Because you're a d6?
-                          - "thats fair. \[random number 1-6\"]
+                          - "thats fair. [random number 1-6"]
                       - hg[Option 2]: Nevermind.
                           - "ok"
               - hg[Option 3]: Why are you so short?
