@@ -115,8 +115,153 @@ content: |-
   - hg[Variant 5]: "Hey, can you pass me the ratchet- Huh? Oh, you're not Inro. What's up?"
   - hg[Variant 6]: "Need somethin'?"
   - hg[Variant 7]: "You know, it's funny. Today is Sunday but like, why do they call it that if the sun is out every day? Wouldn't that technically make every day Sunday? Hahah! Anyways, what's up?" (If the current day is Sunday)
-  #![wip will work on it tomorrow -fang]
+    - hg[Option 1]: You seem very familiar…
+      - "Yeaah, I'm the one who broke those glass doors at that gas station not too long ago."
+        - hg[Option 1]: Right. That explains the skidmarks.
+          - "And the broken shelf.."
+        - hg[Option 2]: Weren't you also in detention or something?
+          - "We don't talk about that…"
+        - hg[Option 3]: Did you ever get those doubled gas prices worked out?
+          - "How did you know about that? You didn't steal the note, did you?"
+            - hg[Option 1]: I think they threw it away.
+              - "*sigh...* Of course they did."
+            - hg[Option 2]: Wouldn't you like to know? 
+              - "Yeah, I do... That's why I asked..?"
+            - hg[Option 3]: Lucky guess.
+              - "Dang....."
+    - hg[Option 2]: What are you doing?
+      - "Tuning up my minibus, replacing broken and damaged parts and whatnot.. Who knew something so small could have so many complex components?"
+        - hg[Option 1]: Why?
+          - "Why *not*? Can't I have a little fun with my minibus?"
+            - hg[I guess.]
+        - hg[Option 2]: Can you tune my minibus next? <13px>((Accessible if you have a Mini-Bus.))
+          - "Alright, but don't get mad at me if it ain't what ya want. And I ain't doin this free, either. Pay up or no tune."
+          - "**45** passenger rep for part cost and a body kit. I'll also need your keys to dyno it after to make sure everything runs right."
+            - hg[Option 1]: No thank you..
+              - "Aight, your choice then."
+            - hg[Option 2]: Deal!
+              - "Pass over the rep and your keys." <13px>((Player then purchases the E-Bus design if they have enough.))
+                - If the player doesn't have enough reputation:
+                  - "Woahh, hold up a second bud..." 
+                  - "You ain't got the rep for this. No can do, sorry. Come back once ya got enough rep to pay me."
+                  - "Just in case you forgot, you can get more passenger rep by thanking your Driver."
+            - hg[Option 3]: Do you have another body kit?
+                      - "Nah, that was the last style I had still laying around... I'm all out of race car kits."
+                      - "Just sold off the last one a few days ago, said they were entering a minibus race or somethin'? I'm sure you'll probably find some there if you enter some races."
+                        - hg[Aw.]
+                        - hg[Tell me more about these races.]
+                          - "Well, all that I really know about these races is that they take place across various abandoned roads and race tracks that were too risky for cars to drive on, so, they eventually got shut down.."
+                          - "I also heard that they apparently have some crazy tracks in space or something? Not sure if that's true or even possible, it was just a rumor that I heard from someone."
+                          - "Careful though, I also heard that you might get speeding tickets if you get caught racing."
+          - If the player has already purchased the design:
+            - "Sure thing. You already own the kit for your minibus, and I still have most of the parts layin' around. Let me know what you want to do with it."
+             - hg[Option 1]: I've changed my mind.
+               - "Aight, your choice then."
+             - hg[Option 2]: Swap Mini-Bus Body <13px>((Changes between the E-Bus and the Mini-Bus design.))
+               - If you have the E-Bus equipped:
+                 - "Got it. I've restored the Mini-Bus to its original state."
+               - If you have the Mini-Bus equipped:
+                 - "Aight. I've re-applied the body kit."
+      - hg[Option 3]: Tell me a joke!
+        - hg[Variant 1]: "Oh, I got a good one!"
+        - hg[Variant 2]: "Okay, let's see here..."
+        - hg[Variant 3]: "Aight, bet."
+        - hg[Variant 4]: "Sure thing."
+        - hg[Variant 5]: "I can do that!"
+          - hg[Variant 1]: 
+            - "A jumper cable walks into a restaurant."
+            - "The waiter says to it ''I can serve you, but you better not start anything!''"
+          - hg[Variant 2]:
+            - "I walked in on someone trying to break a fuse yesterday. I had to stop them and tell them that was an abuse of power."
+          - hg[Variant 3]: 
+            - "I saw someone replacing a muffler on their car the other day."
+            - "It was exhausting!"
+          - hg[Variant 4]:
+            - "I was trying to find a diagram to fix an automatic transmission the other day, but all they had were manuals..."
+          - hg[Variant 5]: 
+            - "Did you hear about the mechanic who got into the habit of drinking brake fluid?"
+            - "He said he could stop at any time!"
+          - hg[Variant 6]: 
+            - "A wind turbine saw a solar panel at the energy convention, so he leaned down to the solar panel and said ''hey, I'm a big fan!''"
+          - hg[Variant 7]:
+            - "Other mechanics might disagree, but eyedrops are technically blinker fluid."
+          - hg[Variant 8]:
+            - "I tried to talk to a robotic frog the other day, but all it said back was ''rivet''."
+          - hg[Variant 9]: 
+            - "People ask me how it feels when you stick your finger in an electrical outlet."
+            - "To be honest, it hertz."
+          - hg[Variant 10]:
+            - "I saw a few boulders playing guitar the other day."
+            - "I approached them and said ''Hey, that rocks!''"
+      - hg[Option 4]: Let's Talk!
+        - hg[Variant 1]: Alright.
+        - hg[Variant 2]: Yeah, sure.
+        - hg[Variant 3]: Fine, but I really should get back to working after.
+        - hg[Variant 4]: Sure thing!
+          - hg[Variant 1]:
+            - "I found a way to get into the Backwalls not too long ago! Those shadow creatures are no joke, huh? They seem to just chase you forever! I wonder if there's a way to cloak yourself from them and sneak past.."
+          - hg[Variant 2]:
+            - "I snuck into this weird facility a while ago. I think it was called like, 'Kit Co.' or something like that? Weird place. There were a bunch of computers and stuff everywhere."
+            - "I think they might've been running like, some kind of battle simulation or something? I thought I heard some gunshots and explosions, so I ran off and hid in a vent 'cause I got kinda scared."
+            - "Might go back to see what's going on there some time, though. I dunno."
+          - hg[Variant 3]: 
+            - " This garage is great! It's got everything I'll ever need! Tools, parts, even a working dyno over there in the corner! It's super useful to make sure my tuning setup on my minibus is *perfect*!"
+          - hg[Variant 4]:
+            - "Have you noticed the prices of oil just *skyrocketing* nowadays?! It really makes working on cars hard. They better start dropping soon..."
+          - hg[Variant 5]: 
+            - "You know, being a mechanic is pretty fun. Challenging, sure, maintaining a car or minibus isn't the easiest thing ever, but it's nice being able to trick out your ride the way you want to."
+            - "Part cost does unfortunately make it a bit hard to get into as a hobby, but it's worth the cost for having some fun."
+          - hg[Variant 6]: <13px>((If today is Monday.))
+            - "Ugh.. is it seriously Monday already? I might just head home and go to sleep through the rest of the day or something.."
+          - hg[Variant 7]: <13px>((If today is Wednesday.))
+            - "You know, it feels like I'm forgetting something... Not sure what it could be, but it feels like there's something I need to do before tomorrow..."
+          - hg[Variant 8]: <13px>((If today is Saturday.))
+            - "I should probably be out causing trouble on my minibus right now, but doing a bit more tuning on it first couldn't hurt."
+      - hg[Option 5]: What do you drink? <13px>((Accessible after giving Tazer the wrong drink for the first time.))
+        - "Funny that you ask, but I'm feeling a bit stubborn. So, instead of telling you directly, I'll let you figure that out with a riddle!"
+          - hg[Option 1]: Why not just tell me directly?
+            - "Much less fun that way, isn't it? Plus, this way gets the gears turning in your head, if you know what I mean."
+              - hg[Whatever, just say it.]
+                - "What doesn't work until you break it, but gets lighter even though it weighs the same?"
+                  - hg[...]
+          - hg[Option 2]: Uhh, okay..?
+            - "What doesn't work until you break it, but gets lighter even though it weighs the same?"
+              - hg[...]
+      - hg[Option 6]: My Mini-Bus... <13px>((Accessible after purchasing the E-Bus design.))
+        - "What about it?"
+          - hg[Option 1]: Swap Mini-Bus Body <13px>((Changes between the E-Bus and the Mini-Bus design.))
+            - If you have the E-Bus equipped:
+              - "Got it. I've restored the Mini-Bus to its original state."
+            - If you have the Mini-Bus equipped:
+              - "Aight. I've re-applied the body kit."
+          - hg[Option 2]: Nevermind.
+            - "..Okay then."
+      - hg[Option 7]: Actually, I think I have something else to do...
+        - hg[Variant 1]: "Seriously?..."
+        - hg[Variant 2]: "Guess I'll just get back to tuning my minibus then."
+        - hg[Variant 3]: "Well, so do I."
+        - hg[Variant 4]: "Then stop wasting my time."
+        - hg[Variant 5]: "Cya I guess."
+        - hg[Variant 6]: "With regards from Tazer..."
+          - The player is then flunged.
+        - hg[Variant 7]: "Then scram before I hit ya with a wrench! Haha, just kidding. Feel free to stop by whenever!"
 
+  ###[Drink Responses]
+  - If you give Tazer the wrong drink:
+    - hg[Variant 1]: "Looks delicious, but I can't drink that. Sorry. Maybe someone else would like it though."
+    - hg[Variant 2]: "Thanks, but no thanks."
+    - hg[Variant 3]: "Do you honestly think that I would be able to drink this? Seriously, are you trying to kill me or something?"
+  - If you give Tazer (<clr:#151812>(***The Sludge.***):
+    - "What is this? Some new type of fuel or something? What's its octane rating?"
+    - "Hang on, this is the stuff that the guy who always hangs out by the dumpster likes, isn't it? How'd you get that on your hands?"
+    - "Hm... maybe I could try putting it in my Mini-Bus to see how well it works as a fuel alternative."
+    - "Who knows, maybe I might get more power out of my Mini-Bus by using it as fuel!"
+  - If you give Tazer <clr:#7300fe>(***Cup of Glowstick Fluid***):
+    - "Well, you actually figured it out. I must admit, I'm honestly impressed."
+    - "And hey, since I put you through all the hassle of solving a riddle all on your own, here's 3 passenger rep to make up for it."
+      - If you given him another <clr:#7300fe>(***Cup of Glowstick Fluid***):
+        - "Another one, huh?"
+        - "Awesome."
 
   ##[Trivia]
   - When you visit GoatedGas, you're able to find a discarded note in the trash can, inspecting it gives you what is written on the note:
