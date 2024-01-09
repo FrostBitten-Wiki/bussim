@@ -15,7 +15,7 @@ page:
       Category: [NPCs](npcs)
 
     image: ''
-    imageBanner: /assets/bussim/images/events/goat_station1.webp
+    imageBanner: /assets/bussim/images/banners/station-banner.webp
 
 attributions:
   - Ported by PolyframeX (@polyframex)
