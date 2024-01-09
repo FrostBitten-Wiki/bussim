@@ -43,7 +43,7 @@ content: |-
   - Variant 3 : "man i could really go for some graham crackers right about now" (If the current day is Monday)
   - Variant 4 : "and if youuuuuu cant believe it" (If the current day is Friday)
   - Variant 5 : "i cant believe i had to drive all the way to work" (If the current day is Saturday)
-  - Variant 6 : "would you like to sign my petition? ...nevermind"
+  - Variant 6 : "would you like to sign my petition? ...nevermind" (If the current day is Tuesday)
       - hg[Option 1]: Any wisdom for today?
           - hg[Variant 1]:
               - Variant 1A (PC):
