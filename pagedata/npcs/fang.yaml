@@ -34,7 +34,7 @@ content: |-
   ##[Trust]
   Similar to [Frost](frostbite), he also has his own trust level, with each increasing by one, up to 3 at most. You can increase it by striking specific conversations with him and by offering navigation tools to him.
   With each level, more dialogue and options will be accessible and remains permanent afterwards.
-  Once you have achieved more than 2 trust with him, he will also appear in the [Cafe](cafe).
+  Once you have achieved more than 3 trust with him, he will also appear in the [Cafe](cafe).
 
   ##[Dialogue]
   ###[**Intruder (Intro)**]
@@ -59,7 +59,7 @@ content: |-
           - "I've been in this forest for a while now. And when I heard a sudden noise, I had to check what's going on." 
             - hg[Option 1]: Oh alright. 
               - "Now that's all cleared up.. I'll help you guys back to speed." 
-            - hg[Option 2]: Why could you talk to us immediately?
+            - hg[Option 2]: Why couldn't you have talked to us immediately?
               - "Well, I doubt *anyone* would enjoy a random werewolf potentially ambusing folks no?"
                 - hg[Can't argue against that.] 
                   - "Now that's all cleared up.. Looks like I'll be able to help you guys back to speed." 
@@ -81,11 +81,16 @@ content: |-
         - hg[Yup.]
           - "I might be able to help. Just know though that we are just acquaintances."
 
-  ###[Acquaintances (0 Trust) (Intro)]
+  ###[Acquaintances / Companion / Trusted / Friends (0-3 Trust) (Intro)]
   - hg[Variant 1]: "Again?"
   - hg[Variant 2]: "..well this is awkward."
   - hg[Variant 3]: "Got stranded again?"
-  - hg[Variant 4]: "Well dang, didn't expect you here again [Player]." <13px>((IF you are friends with Noobbiom.))
+  - hg[Variant 4]: "Well dang, didn't expect you here again [Player]." <13px>((If you are friends with Noobbiom.))
+  - hg[Variant 5]: "Mondays, am I right?" <13px>((If today is Monday and you are friends with Fang.))
+  - hg[Variant 6]: "No idea how we keep crossing paths, but you seem to be in a bad spot." <13px>((If you are friends with Fang.))
+  - hg[Variant 7]: "Clearly the mechanic didn't reinforce the repairs, *sigh*.. I'll talk to Inro about this.." <13px>((If you are friends with Fang.))
+  - hg[Variant 8]: "man" <13px>((If you are friends with Fang.))
+  - hg[Variant 9]: "wow this sucks" <13px>((If you are friends with Fang.))
     - hg[Yup.]
       - "Alright, let's cut to the chase- I'll fix the bus. Get, set, go!"
 
@@ -97,8 +102,7 @@ content: |-
   - hg[Variant 5]: "Oh, hey there [Player]! Just.. wait a moment-! There we go, anyways you doing alright?" <13px>((If you are friends with Noobbiom.))
   - hg[Variant 6]: "wow this bus sucks" <13px>((If today is Monday.))
   - hg[Variant 7]: "I could go for some smores.. the store nearby doesn't have them though.. augh..." <13px>((If today is Tuesday))
-  - hg[Variant 8]: "efeuc, I have The Sludge and will give it to you in 5 seconds. **You will not survive.**" <13px>((Rare, only happens if you are efeuc.))
-    - efeuc then dies.
+  - hg[Variant 8]: "efeuc, I have The Sludge and will give it to you in 5 seconds. **You will not survive.**" <13px>((Rare, only happens if you are efeuc. He also dies.))
     - hg[Option 1]: You need some help there?
       - "Maybe.. I don't think you know much about how this bus works... It's all.. weird quantum components and stuff."
         - hg[Option 1]: Quantum components?
@@ -142,8 +146,20 @@ content: |-
   ###[Acquaintances (0 Trust) (After Helping)]
     - "Alright, I fixed it enough to where you should find a mechanic before my repairs break down."
     - "Be on your way."
+
+  ###[Companion (1 Trust) (While Helping)]
+  - hg[Variant 1]: "You need something?"
+  - hg[Variant 2]: "Hmm, I seem to understand a bit of this more.. still don't know exactly how..."
+  - hg[Variant 3]: "Something on your mind?"
+  - hg[Variant 4]: "This bus seems to be breaking down every time, did something go wrong inside of this..?"
+  - hg[Variant 5]: "Excuse me for a moment- Hey there [Player]! Was just busy messing with some of the circuitry." <13px>((If you are friends with Noobbiom.))
+  - hg[Variant 6]: "Oh, hey there [Player]! Just.. wait a moment-! There we go, anyways you doing alright?" <13px>((If you are friends with Noobbiom.))
+  - hg[Variant 7]: "wow this bus sucks" <13px>((If today is Monday.))
+  - hg[Variant 8]: "I could go for some smores.. the store nearby doesn't have them though.. augh..." <13px>((If today is Tuesday))
+  - hg[Variant 9]: "What game will I play once I get back home..? Hmm..." <13px>((If today is Wednesday))
             
   ##[Trivia] 
+  - Fang's scale 1.15x larger than the other NPCs in the game.
   - how did you even find this lmao 
     - anyways, good job finding this out! i plan on working more on this.. that is if nyx and poly is on board with this :sob:
 
