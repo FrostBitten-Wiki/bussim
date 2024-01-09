@@ -10,14 +10,11 @@ page:
     event
 
   tags: adventure line, events
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
       Category: [Events](events)
 
-    image: ''
     imageBanner: /assets/bussim/images/events/line.webp
 
 attributions: []

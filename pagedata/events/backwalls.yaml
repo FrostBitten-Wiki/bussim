@@ -11,12 +11,10 @@ page:
   ignore: ignore
 
   header:
-    title: Placeholder
     description: |
       Category: [Events](events)\n
       Event Name: h[Backwalls]
 
-    image: ''
     imageBanner: /assets/bussim/images/events/backwalls.webp
 
 attributions: []

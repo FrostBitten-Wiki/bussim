@@ -1,22 +1,19 @@
 editable: true
 page:
-  title: Placeholder
+  title: Acid Rain
   description: "Acid Rain is an event where acid starts raining from the sky, damaging
-    everyone as long as the sky is exposed, \r\nwhether it'd be outside, by the stairs,
+    everyone as long as the sky is exposed, whether it'd be outside, by the stairs,
     or even the third floor. The event can be easily avoided if you stay on the second
-    floor, \r\nor if the bus is in a tunnel."
+    floor, or if the bus is in a tunnel."
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
       Category: [Events](events)
 
-    image: ''
     imageBanner: /assets/bussim/images/events/acid-rain.webp
 
 attributions: []

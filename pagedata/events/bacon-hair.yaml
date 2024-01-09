@@ -1,24 +1,13 @@
 editable: true
 page:
   title: Bacon Hair
-  description: Bacon Hair Event is an event that happens in the game. When this event
-    happens, The bus stops and Bacon hairs are seen all over the bus. The Bacon hairs
-    will follow anyone that is outside and also follows them. They can come inside
-    the bus if the person that is chased by bacon hairs runs inside the bus, there
-    is a chance they will come inside. They can kill anyone that is outside of the
-    bus or if it touches a player. An Unknown man's voice can be heard in the bus
-    speaker saying, "Bacon hair lives matter". Soon afterwards, the driver will then
-    inform all players to evacuate to the bus now. Then, the driver will speed away
-    from the Bacon Hairs.
+  description: Bacon Hair Event is an event that happens in the game. When this event happens, The bus stops and Bacon hairs are seen all over the bus. The Bacon hairs will follow anyone that is outside and also follows them.
 
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim bacon hair
-    event
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim bacon hair event
 
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
       Category: [Events](events)\n
       Event Name: h[BaconHair]
