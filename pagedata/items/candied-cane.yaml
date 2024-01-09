@@ -1,11 +1,11 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Candied Cane
+  description: The Candied Cane is a healing item given by obtaining The Bringer of Gifts badge from the Santa's Gone event. 
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
-  tags: placeholder, item
+  tags: candied cane, candy cane, cane, movement 
 
   header:
     description: |
@@ -14,10 +14,24 @@ page:
     image: ""
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-attributions: []
+attributions:
+  - Original Conversion by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by FangedWerewolf (@noobbiom)
 
 content: |
+  "A literal candy cane." -"Candied Cane"
   ##[Info]
-  test
+  The Candied Cane is a healing item given by obtaining The Bringer of Gifts badge from the Santa's Gone event. 
+  \n\n
+  When held, it will give you a mild speed boost, and on top of that, clicking will also heal you and provide an extra speed boost. 
 
-  !!GALLERY [/assets/bussim/images/items/cola.webp]
+  ##[Trivia] 
+  - This item has a slower cooldown than most healing items, e.g. the colas.
+  - The item makes a very quiet "Tunk" sound when equipped, and can only be heard in super quiet environments (i.e. Glaicer Cave) and/or with headphones on.
+
+  ##[Technical Trivia] 
+  - It is currently possible to utilize this item as a form of teleportation, first use the item multiple times then unequip it at the first spot. Secondly, go to any spot outside of your first spot and drink the [Cramped Cola](cramped-cola), and lastly: equip the Candied Cane again. This will force you to teleport back to your first spot at any point in the game. 
+    - The same applies for [Snowcone](snowcone), but is much more precise and isn't capable of flinging you upon teleportation.
+    - Do note though, that it occasionally slows you down for one-life per teleport. So it's recommend to use it wisely.
+
+  !!GALLERY [/assets/bussim/images/items/candied-cane.webp]

@@ -55,17 +55,15 @@ content: |-
                 - hg[We could help you with that.]
                   - "I appreciate the offer... but I'll decline for now."
                   - "In the meantime though, I'll help you guys back to speed, or well; until you find a mechanic to properly deal with this.."
-                  - "There's also a few pieces of scrap laying about that I'll also need, so I need those too."
         - hg[Option 2]: How did you know?
           - "I've been in this forest for a while now. And when I heard a sudden noise, I had to check what's going on." 
             - hg[Option 1]: Oh alright. 
               - "Now that's all cleared up.. I'll help you guys back to speed." 
-              - "Know though that I'll also need some parts, as the internals need some repairs.."
             - hg[Option 2]: Why could you talk to us immediately?
               - "Well, I doubt *anyone* would enjoy a random werewolf potentially ambusing folks no?"
                 - hg[Can't argue against that.] 
                   - "Now that's all cleared up.. Looks like I'll be able to help you guys back to speed." 
-                  - "Just know that I'll also need parts to work on. They should be around here."
+                  - "Just know that we are just acquaintances."
     - hg[Option 2]: Who are you?
       - "Uhh... not sure if I should really say it, but; name's Fang."
       - "Yours?"
@@ -75,14 +73,13 @@ content: |-
             - hg[...yup.]
               - "Darn. It also seems like the bus you were on is busted.. and there's no mechanic in sight."
               - "I might be able to help fix the bus back to speed, not for much longer; but hopefully enough to find a mechanic somewhere on the road."
-              - "There's some scrap laying about in the forest, so you can also help me fetch those too."
+              - "Just know we have just met so, I can't fully trust you."
     - hg[Option 3]: Hey, aren't you similar to that ice wolf in those caverns?
       - "???" 
       - "Why do I feel like I know him, but also not..?"
       - "Anyways.. looks like you guys got stuck there huh?"
         - hg[Yup.]
           - "I might be able to help. Just know though that we are just acquaintances."
-          - "Also, this spot is particularly filled with scrap so I'll also need those too."
 
   ###[Acquaintances (0 Trust) (Intro)]
   - hg[Variant 1]: "Again?"
@@ -90,7 +87,7 @@ content: |-
   - hg[Variant 3]: "Got stranded again?"
   - hg[Variant 4]: "Well dang, didn't expect you here again [Player]." <13px>((IF you are friends with Noobbiom.))
     - hg[Yup.]
-      - "Alright, let's cut to the chase- I'll fix the bus, you fetch me the parts. Get, set, go!"
+      - "Alright, let's cut to the chase- I'll fix the bus. Get, set, go!"
 
   ###[Acquaintances (0 Trust) (While Helping)]
   - hg[Variant 1]: "This bus should've collapsed by now... what kind of material were they using- Oh uh, hey!"
@@ -118,7 +115,7 @@ content: |-
               - "Still plannin' on going back to the city though, well if I even find a way back."
                 - Following this dialogue will allow you to offer the [Compass](compass) to him.
         - hg[Option 2]: Anything I can do to help?
-          - "You could help me fetch some materials in the forest, they're pretty compatible with this. Just be careful getting them though."
+          - "Not much unfortunately.. best you can do though is not get lost in the forest like I did."
     - hg[Option 2]: Anything about your past?
       - "Don't feel like opening much, but I can share a few things or more."
        - hg[Option 1]: About yourself...
@@ -133,7 +130,7 @@ content: |-
             - hg[You seem pretty excited.]
               - "Heh, yeah. Can't help it though as they always bring a smile to my face thinking about them.."
               - "Well, I'll find my way back to them eventually."
-    - hg[Option 3]: You need anything aside from scrap?
+    - hg[Option 3]: You need anything?
       - "Not much actually, I have managed to bring some food and water.. but nothing that would help me get back..."
         - hg[Navigation tools, perhaps?] <13px>((Accessible once you've unlocked the offer.))
           - "Dead right you are! I uhm... don't seem to have any though." 
@@ -141,30 +138,10 @@ content: |-
             - hg[Offer item: Compass]
               - "A.. compass? That's something that I needed! Well.. not like I'll find anything familar but.. thank you!"
               - *You: Looks like that compass finally had some use. +1 trust*
-    - hg[Option 4]: Where do these scraps come from?
-      - "I.. actually don't know? They're all kind of close to each other but I haven't seen where it came from."
-      - "Looks to me though that a certain landslide happened here and it just so happened to have metal."
-        - hg[That sounds improbable.]
-          - "Well, there's no way I can perfectly make this a logical scenario now would I?"
-            - hg[Fair enough.]
-    - hg[Option 5]: Any tips?
-      - hg[Variant 1]: "Make sure to always have light with you if it's dark. It's easy to get lost here so you might struggle getting back to the bus." 
-      - hg[Variant 2]: "If you feel like not participating, you can just wait on the bus. It's unlikely that these repairs without scrap will be enough.. but I think it works.."
-      - hg[Variant 3]: "Don't be too worried about anything lurking in the unknown. It's alright to fear it but letting it control you will hinder your capabilities."
-      - hg[Variant 4]: "The sounds you hear are just your own footsteps, I don't think anything is actually in there."
-      - hg[Variant 5]: "If you ever reach a mechanic, please do not tell them about my attempts repairing this..." 
-      - hg[Variant 6]: "No. Just because we're stranded in a birch forest does not mean there's any entities lurking about. I think."
       
   ###[Acquaintances (0 Trust) (After Helping)]
-  - If you didn't participate / help:
     - "Alright, I fixed it enough to where you should find a mechanic before my repairs break down."
     - "Be on your way."
-  - If you participared / helped him:
-    - "Alright! That should be it." 
-    - "Before you go, I have to say thanks for helping me."
-    - "I suppose you also wanted something for your efforts, so uh... tada! Have [1-5] driver rep!" <13px>((Driver Reputation amount is determined by how much scrap you fetched.))
-    - "..I hope these repairs will be enough for someone more professional to tackle this."
-    - "Alright, see you on the other side."
             
   ##[Trivia] 
   - how did you even find this lmao 

@@ -1,55 +1,35 @@
+editable: True
 page:
   title: Snatch
-  description: The snatch item is an item with the ability to pick up other players and throw them.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Snatch
-  tags: airhorn, paid item, annoying shit, item that annoys npcs, item that annoys people
+  description: The Snatch item is an item with the ability to pick up other players and throw them.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: item that cripples me, sign, most basic item ever
 
-attributions:
-  - "Created By PolyframeX (@polyframex)"
-
-html:
   header:
-    title: Snatch
-    description: >-
-      Category: <a href="/bussim/items">Items</a>
-      
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-  pageContent:
-    - type: infobox
-      content:
-        infoBoxTitle: 
-          - "Admin Exclusive Content"
-          - "#b00b69"
-        infoBoxDescription: >-
-          <i>"I saw some dude jumping around with some sort of rocket launcher made of cones a while ago. Not sure how it works, but if I were you, I wouldn't make them angry."</i> - Tazer
+attributions: 
+  - Created By PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by FangedWerewolf (@noobbiom)
 
-          <br>
+content: |
+  !!TEMPLATE Admin
+  "Pay attention Pay attention Pay attention Pay attention This is my weapon I have no problem" -"Snatch"
 
-          <small>This page has content exclusive to admins of the game. This may include scrapped / hidden content that is normally inaccessible during normal gameplay.</small>
-    - type: section
-      content:
-        size: normal
-        title: Info
-        description: >- 
-          The snatch item is an item with the ability to pick up other players and throw them. 
-          This is only accessible through VIP servers or if you are an admin. 
-          However this item can be quite buggy at times under certain circumstances.
+  ##[Info]
+  The Snatch item is an item with the ability to pick up other players and throw them. This is only accessible through VIP servers or if you are an admin. However this item can be quite buggy at times under certain circumstances.
+  \n\n
+  You can also hold down LMB to charge up your shot, and releasing it will launch the player farther than normal.
 
-
-    - type: section
-      content:
-        size: normal
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: The Snatch Item has the ability to pick people up at all times, even when inside a seat.
-        - name: When a player tries picking up somebody while being held, typically this will override being held, dropping the player.
-        - name: The Snatch Item can be used to noclip carried people through walls.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/snatch.webp
+  ##[Trivia]
+  - The Snatch Item has the ability to pick people up at all times, even when inside a seat.
+  - When a player tries picking up somebody while being held, typically this will override being held, dropping the player.
+  - The Snatch Item can be used to noclip carried people through walls.
+  - This originally was an item for NobleReign's other game being Kit Battle. This was then re-used to prevent scripting the same mechanic.
+  !!GALLERY [/assets/bussim/images/items/snatch.webp]

@@ -1,6 +1,6 @@
 editable: True
 page:
-  title: Placeholder
+  title: Cone Soda
   description: Placeholder
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
@@ -14,10 +14,16 @@ page:
     image: ""
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-attributions: []
+attributions:
+  - Original Conversion by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by FangedWerewolf (@noobbiom)
 
 content: |
+  "Become a cone with it." -"Cone Soda"
   ##[Info]
-  test
-
-  !!GALLERY [/assets/bussim/images/items/cola.webp]
+  The Cone Soda is an unused item that is purely cosmetic, and has no effects. 
+  \n 
+  The soda color is blue, as well as the cone on the label. However, it was likely meant to be an event item and have an actual affect, although it is unknown that it was meant to do before it was scrapped. 
+  ##[Trivia] 
+  - It's suggested that this cone would've probably turned the player into a cone because of the description of this item.
+  !!GALLERY [/assets/bussim/images/items/cone-soda.webp]
