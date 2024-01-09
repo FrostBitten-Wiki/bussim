@@ -1,11 +1,11 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Bus Birthday Cake
+  description: The Bus Birthday Cake was a limited-edition variant of the Free-modelled Cake, added to celebrate Bus Simulator's 5th Birthday.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
-  tags: placeholder, item
+  tags: bus birthday cake, bus birthday, birthday cake
 
   header:
     description: |
@@ -14,10 +14,30 @@ page:
     image: ""
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-attributions: []
+attributions:
+  - Original Conversion by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by FangedWerewolf (@noobbiom)
 
 content: |
+  "Tastes like limited edition plastic" -"Bus Birthday Cake"
   ##[Info]
-  test
+  The Bus Birthday Cake was a limited-edition variant of the Free-modelled Cake, added to celebrate Bus Simulator's 5th Birthday.
+  During the week after its introduction, you'll always start with this item. 
+  \n\n 
+  When consumed, it will heal you a tiny amount of health. However, if paired with [Cola](cola), you'll end up teleporting to the [Backwalls](backwalls). 
+  \n
+  This will also force you to trip upon entry, unlike the Backwalls event, where you simply teleport there.
+  \n\n 
+  The Backwalls itself follows the same principles as if you had entered using its titular event, however with a few changes: you'll keep the Cake and Cola (including its [other variant](bad-cola)), the Cola will have a new tooltip, and Pear will charge 20 Passenger Rep for a guide to the exit, as well as some new dialogue. Both the Cake and Cola are one-time use, however. 
+  \n\n 
+  "Tastes like... a never-ending party!... but also plastic. (from Bus Simulator's 5th birthday event)" -"Bus Birthday Cake (Permanent Acquisition)"
+  \n\n 
+  If you manage to escape with the Cake, you'll have around a 30% chance to permanently obtain it, making this cake a useful teleportation tool for gathering the last two items or to simply torment yourself. 
 
-  !!GALLERY [/assets/bussim/images/items/cola.webp]
+  ##[Trivia]
+  - This is the only item to have two badges linked to them. Being Plasticky Birthday Goodness, and Plasticky Cola Hell. 
+    - It's also the second item that allows you to teleport to a location, the first being the Magic Mirror that leads you to the Glacier Cave.
+  - The texture for the cake was made by Pixel_N3ko, otherwise known as Sakura_Floran. 
+  - You can hear the "W.D. Gaster Fade" sound affect when somebody teleports to the Backwalls with the item.
+
+  !!GALLERY [/assets/bussim/images/items/bus-birthday-cake.webp]

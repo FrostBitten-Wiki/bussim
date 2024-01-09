@@ -1,11 +1,11 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Hoverboots 
+  description: The Hoverboots is a pair of boots that allows you to fly, similar to the Helicopter item.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
-  tags: placeholder, item
+  tags: hoverboots, fly away, fly high
 
   header:
     description: |
@@ -17,7 +17,12 @@ page:
 attributions: []
 
 content: |
+  "Jump up for the sky!" -"Hoverboots"
   ##[Info]
-  test
+  The Hoverboots is a pair of boots that allows you to fly, similar to the Helicopter item, only obtainable during the 10 Million Visits Event, or via Admin Commands.
+  \n\n 
+  To use the item, simply press the jump button while having it equipped to start flying, and you can click to have a speed boost while flying, which changes your particles to orange. However, the Hoverboots has limited fuel, and will turn off if you reach 0%, making you fall from whatever distance you were flying at. The item recharges when you're on the ground. 
+  ##[Trivia] 
+  - The item can also be seen with the Holo Kit from NobleReigns other game, Kit Battle.
 
-  !!GALLERY [/assets/bussim/images/items/cola.webp]
+  !!GALLERY [/assets/bussim/images/items/hoverboots.webp]

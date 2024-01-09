@@ -20,14 +20,129 @@ attributions:
   - Made by FangedWerewolf (@noobbiom)
 
 content: |-
-  !!INFOBOX TITLE:"Easter Egg Content" COLOR:"#A1FFEF" TEXT:"*\"How did you find this? ..I'm impressed!\"* - Fang\nv(This page is mainly easter egg content and is *never* found in normal gameplay. This is also where Wiki Contributors mess around.)"
+  !!INFOBOX TITLE:"Easter Egg Content" COLOR:"#A1FFEF" TEXT:"*\"How did you find this? ..I'm impressed!\"* - Fang\nv(This page is mainly easter egg content and is *never* found in the game. This is also where Wiki Contributors mess around.)"
 
   ##[Info]
-  Fang or known as FangedWerewolf is a contributor in Bus Simulator that has worked on the many wikis relating of this game, alongside contributing the [Birch Forest](birch-forest) biome, and the [Shivering](commands) emote.
+  Fang or known as FangedWerewolf is a contributor in Bus Simulator that has worked on the many wikis relating of this game, alongside contributing the [Birch Forest](birch-forest) biome, and the [Shivering](commands) emote. He is also a digital artist.
   
   ##[Appearance]
   Fang wears the Werewolf Set alongside Wolf Aviators from JohnDrinkIn, he also pairs it with shirts that he has made himself; and wears a black pair of jeans.
 
+  ##[Favourite Drink]
+  Fang's favourite drink is the <clr:#000099>[Blueberry Milkshake](cafe-coffee-recipes). This gives you either 6 passenger or driver rep.
+
+  ##[Trust]
+  Similar to [Frost](frostbite), he also has his own trust level, with each increasing by one, up to 3 at most. You can increase it by striking specific conversations with him and by offering navigation tools to him.
+  With each level, more dialogue and options will be accessible and remains permanent afterwards.
+  Once you have achieved more than 2 trust with him, he will also appear in the [Cafe](cafe).
+
+  ##[Dialogue]
+  ###[**Intruder (Intro)**]
+  #![!!DLEMULATOR EID:"fangemulator" SID:"start" URL:"/assets/bussim/emulatorData/intrudedfang.json"]
+  - hg[Variant 1]: "Uh.. who are you..?"
+  - hg[Variant 2]: "Well this is a surprise."
+  - hg[Variant 3]: "*Sigh*, the connection here is really bad, I'm not sure if I'l- huh?"
+  - hg[Variant 4]: "Excuse me, but are you also lost here?"
+    - hg[Option 1]: IS THAT A WEREWOLF???
+      - "H-Hey! Don't be too intimated by my presence, I'm all bark and no bite! <8px>(How did you even know who I was anyways..?)"
+      - "Regardless.. looks like your bus has gotten stranded here I'm guessing?" 
+        - hg[Option 1]: Lucky guess...
+          - "Dang, looks like I'm not the only person to be in this forest..."
+          - "Say, I could help you in the process. But I'll have my suspicions."
+            - hg[Why's that?]
+              - "Well, it's obvious isn't it? I can't really trust you that much especially since we just first met."
+              - "But I still have to find my way back home though... hmm..."
+                - hg[We could help you with that.]
+                  - "I appreciate the offer... but I'll decline for now."
+                  - "In the meantime though, I'll help you guys back to speed, or well; until you find a mechanic to properly deal with this.."
+        - hg[Option 2]: How did you know?
+          - "I've been in this forest for a while now. And when I heard a sudden noise, I had to check what's going on." 
+            - hg[Option 1]: Oh alright. 
+              - "Now that's all cleared up.. I'll help you guys back to speed." 
+            - hg[Option 2]: Why could you talk to us immediately?
+              - "Well, I doubt *anyone* would enjoy a random werewolf potentially ambusing folks no?"
+                - hg[Can't argue against that.] 
+                  - "Now that's all cleared up.. Looks like I'll be able to help you guys back to speed." 
+                  - "Just know that we are just acquaintances."
+    - hg[Option 2]: Who are you?
+      - "Uhh... not sure if I should really say it, but; name's Fang."
+      - "Yours?"
+        - hg[[Player].]
+          - "[Player], huh? Well I suppose it's been a while since I've last seen someone stranded here."
+          - "Guessing your bus broke down in the middle of the road?"
+            - hg[...yup.]
+              - "Darn. It also seems like the bus you were on is busted.. and there's no mechanic in sight."
+              - "I might be able to help fix the bus back to speed, not for much longer; but hopefully enough to find a mechanic somewhere on the road."
+              - "Just know we have just met so, I can't fully trust you."
+    - hg[Option 3]: Hey, aren't you similar to that ice wolf in those caverns?
+      - "???" 
+      - "Why do I feel like I know him, but also not..?"
+      - "Anyways.. looks like you guys got stuck there huh?"
+        - hg[Yup.]
+          - "I might be able to help. Just know though that we are just acquaintances."
+
+  ###[Acquaintances (0 Trust) (Intro)]
+  - hg[Variant 1]: "Again?"
+  - hg[Variant 2]: "..well this is awkward."
+  - hg[Variant 3]: "Got stranded again?"
+  - hg[Variant 4]: "Well dang, didn't expect you here again [Player]." <13px>((IF you are friends with Noobbiom.))
+    - hg[Yup.]
+      - "Alright, let's cut to the chase- I'll fix the bus. Get, set, go!"
+
+  ###[Acquaintances (0 Trust) (While Helping)]
+  - hg[Variant 1]: "This bus should've collapsed by now... what kind of material were they using- Oh uh, hey!"
+  - hg[Variant 2]: "Hm.. I don't think I can comprehend what any of these components are but... uh, hey there!"
+  - hg[Variant 3]: "I could've sworn a friend of mine have sent me a manual to work with these busses.. Ironic how it's come to use..." 
+  - hg[Variant 4]: "Got anything you need?"
+  - hg[Variant 5]: "Oh, hey there [Player]! Just.. wait a moment-! There we go, anyways you doing alright?" <13px>((If you are friends with Noobbiom.))
+  - hg[Variant 6]: "wow this bus sucks" <13px>((If today is Monday.))
+  - hg[Variant 7]: "I could go for some smores.. the store nearby doesn't have them though.. augh..." <13px>((If today is Tuesday))
+  - hg[Variant 8]: "efeuc, I have The Sludge and will give it to you in 5 seconds. **You will not survive.**" <13px>((Rare, only happens if you are efeuc.))
+    - efeuc then dies.
+    - hg[Option 1]: You need some help there?
+      - "Maybe.. I don't think you know much about how this bus works... It's all.. weird quantum components and stuff."
+        - hg[Option 1]: Quantum components?
+          - "Well, I've had my experience in these busses, and I've only been able to grasp on what they do.."
+            - hg[Option 1]: Can't be *that* hard!
+              - "Well then, explain this!"
+              - *You*: You look into the panel that Fang is working on.. 
+              - *You*: It suddenly fills you with immense confusion.
+                - hg[???]
+                  - "Yeah.. not sure how one can do this without much experience.. and I'm not a mechanic either..."
+            - hg[Option 2]: You've been to this bus before?
+              - "Not specifically this bus, but I have been plenty of times."
+              - "Weird thing is, I can't seem to remember how I even escaped it. I just woke up in the forest one day."
+              - "Still plannin' on going back to the city though, well if I even find a way back."
+                - Following this dialogue will allow you to offer the [Compass](compass) to him.
+        - hg[Option 2]: Anything I can do to help?
+          - "Not much unfortunately.. best you can do though is not get lost in the forest like I did."
+    - hg[Option 2]: Anything about your past?
+      - "Don't feel like opening much, but I can share a few things or more."
+       - hg[Option 1]: About yourself...
+         - "Well, I wasn't really much of a cityfolk, or even any at all. But I've wanted to know what it's like to be in those shimmering lights every night."
+         - "Unfortunately, those lights are no longer around here. So I'm not familiar with this area."
+           - hg[You could perhaps join us.]
+             - "Definitely inviting, but no thanks. I feel a bad omen going back to that bus everytime."
+             - "Maybe if I had something to help me navigate through this forest, then that would be very appreciated.."
+               - Following this dialogue will allow you to offer the [Compass](compass) to him.
+       - hg[Option 2]: Any friends perhaps?
+          - "Ah, I have a lot of friends, particularly those back in those cities. I think you might've seen them once or twice before!"
+            - hg[You seem pretty excited.]
+              - "Heh, yeah. Can't help it though as they always bring a smile to my face thinking about them.."
+              - "Well, I'll find my way back to them eventually."
+    - hg[Option 3]: You need anything?
+      - "Not much actually, I have managed to bring some food and water.. but nothing that would help me get back..."
+        - hg[Navigation tools, perhaps?] <13px>((Accessible once you've unlocked the offer.))
+          - "Dead right you are! I uhm... don't seem to have any though." 
+          - "I could *try* following the day and moon, but they seem to go anywhere at this point."
+            - hg[Offer item: Compass]
+              - "A.. compass? That's something that I needed! Well.. not like I'll find anything familar but.. thank you!"
+              - *You: Looks like that compass finally had some use. +1 trust*
+      
+  ###[Acquaintances (0 Trust) (After Helping)]
+    - "Alright, I fixed it enough to where you should find a mechanic before my repairs break down."
+    - "Be on your way."
+            
   ##[Trivia] 
   - how did you even find this lmao 
     - anyways, good job finding this out! i plan on working more on this.. that is if nyx and poly is on board with this :sob:

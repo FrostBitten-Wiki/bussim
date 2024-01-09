@@ -30,7 +30,7 @@ content: |-
   Tazer's favourite drink is [Cup of Glowstick Fluid](cafe-coffee-recipes). This gives you either 3 Passenger Rep or 3 Driver Rep, however this may only be done at the Cafe event.
 
   ##[Dialogue]
-  ###[Goat Station]
+  ###[**Goat Station**]
   !!DLEMULATOR EID:"tazeremulator" SID:"start" URL:"/assets/bussim/emulatorData/tazer.json"
 
   - hg[Variant 1]: "Beep boop?"
@@ -107,7 +107,7 @@ content: |-
     - "That's it. You gotta go. <20px>(<clr:#ffff00>(***NOW!!!***))"
       - The player then violently explodes from a thunderbolt. <13px>((Triggers the Shocking Results Badge.))
 
-  ##[Cafe]
+  ###[**Cafe**]
   - hg[Variant 1]: "Beep boop!"
   - hg[Variant 2]: "Beep boop?"
   - hg[Variant 3]: "Watts up?"
