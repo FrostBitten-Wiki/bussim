@@ -213,6 +213,17 @@
             ]
         },
 
+        "fang004": {
+            "rarity": 25,
+            "dialogue": [
+                [[3000, 25], "Fang", "point", "Did you know?"],
+                [[3000, 25], "Fang", "default", "There's more that meets the eye in this wiki."],
+                [[3000, 25], "Fang", "default", "If I were to give you a hint it's this."],
+                [[3000, 25], "Fang", "default", "Contributors."],
+                [[3000, 25], "Fang", "default", "Good luck."]
+            ]
+        },
+
 
 
         "nyx001": {
