@@ -1,0 +1,31 @@
+editable: True
+page:
+  title: 10 Million Cola
+  description: 10 Million Cola is an item that was originally obtainable from the 10 Million Wheel, but is now only obtainable via Admin Commands.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: 10 mil, 10 million, 10 million cola
+
+  header:
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+
+attributions: []
+
+content: |
+  !!BUTTONS [1 Million,location.href='1-million-cola'|<highlight>10 Million</highlight>,location.href=''|20 Million,location.href='20-million-cola']
+  "Thanks you guys for this number... This is such an awesome day for the developers!" -"10 Million Cola"
+  ##[Info]
+  10 Million Cola is an item that was originally obtainable from the 10 Million Wheel, but is now only obtainable via Admin Commands.
+  \n 
+  The can appears more blue, similar to the bus color. The soda inside appears pink when you drink it. 
+
+  ##[Trivia] 
+  - There is a bug with the 1M and 10M if you drink it and swap to another item, you can no longer use it.
+  - This is the only milestone cola that is a permanent item.
+
+  !!GALLERY [/assets/bussim/images/items/10-million-cola.webp]

@@ -1,0 +1,32 @@
+editable: True
+page:
+  title: 1 Million Cola
+  description: The 1M Cola is an item that was originally obtainable during the 1 Million Event, but is now only obtainable via Admin Commands.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: 1 million, million cola, the 1 million cola
+
+  header:
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+
+attributions: []
+
+content: |
+  !!BUTTONS [<highlight>1 Million</highlight>,location.href=''|10 Million,location.href='10-million-cola'|20 Million,location.href='20-million-cola']
+  "Thanks you guys for this number... This is such an awesome day for the developers!" -"1 Million Cola"
+  ##[Info]
+  The 1M Cola is an item that was originally obtainable during the 1 Million Event, but is now only obtainable via Admin Commands.
+  \n
+  The can is purple in color, and has the party popper emoji on it, as well as the rest. The soda inside appears as a bright pink. 
+
+  ##[Trivia]
+  - There is a 1 Million Chance that something unlucky would happen because of the A One in a Millionth Mistake badge.
+  - The cola doesn't make confetti when you open it, unlike the other two.
+  - There is a bug with the 1M and 10M if you drink it and swap to another item, you can no longer use it.
+
+  !!GALLERY [/assets/bussim/images/items/million-colas.webp]
