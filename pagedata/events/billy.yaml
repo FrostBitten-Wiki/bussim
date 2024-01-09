@@ -1,28 +1,81 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Billy
+  description: The Billy event is an event in Bus Simulator that lasts for a few minutes. As soon as the event starts, The Bus will encounter three Billies in the distance, similar to Ectta in Question Time as well as Teddy in its titular event. It will then introduce and ask the player if they would like to be a Billy. If you decline or agree they will say that they will take over Roblox as more Billies start spawning around The Bus, as well as a machine landing behind the three original Billies, with a low-quality explosion png.
     
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim billy event
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[Billy]
     
-    image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/billy.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  The Billy event is an event in Bus Simulator that lasts for a few minutes.
+  \n\n
+  As soon as the event starts, The Bus will encounter three Billies in the distance, similar to Ectta in Question Time as well as Teddy in its titular event. It will then introduce and ask the player if they would like to be a Billy. If you decline or agree they will say that they will take over Roblox as more Billies start spawning around The Bus, as well as a machine landing behind the three original Billies, with a low-quality explosion png.
+  \n\n
+  Afterwards during the event, players must stay on top of The Bus similar to the Bacon Hair event, anyone who touches a Billy will end up getting taken away to then be tossed into the machine, and if they go into the machine, it'll turn them into a Billy.
+  \n\n
+  However you can escape by button mashing to free yourself from the Billies, and it ignores anyone that has used Cramped Cola and / or Liquid Void.
+  \n\n
+  If you try to explore the event using a Mini-Bus, the Billies will end up forcing you out of the Mini-Bus, causing you to be subsequently taken away.
+  \n\n
+  Finally, after a few minutes a couple outcomes will occur whether or not half of the server are infected by Billies:
+  \n\n
+  If less than half or nobody becomes a Billy, the Billies will then explode as The Bus drives over the machine, ending the event.
+  If more than half of the server becomes a Billy, then the Billies will then mention taking over Roblox as the event ends, with The Bus going back to speed.
+
+  ##[Dialogue]
+  ###[Intro]
+  !!DLEMULATOR EID:"billyintro_emulator" SID:"startDialogue" URL:"/assets/bussim/emulatorData/events/billyintro.json"
+
+  - hg[Billy (1)]: "hi! my name is billy!"
+  - hg[Billy (2)]: "i don't say "/e free" or "this weird glitch""
+  - hg[Billy (3)]: "because i'm a **pro**!"
+  - hg[Billy (4)]: "don't you want to be like me?"
+    - hg[Option 1]: No.
+      - hg[Billy (5)]: "too bad!"
+      - hg[Billy (3)]: "become like us."
+      - hg[Billy (1)]: "together, we will take over roblox."
+    - hg[Option 2]: Yes!
+      - hg[Billy (5)]: "good! you don't have a choice."
+      - hg[Billy (3)]: "become like us."
+      - hg[Billy (1)]: "together, we will take over roblox."
+    - hg[Option 3]: Abstained (Player doesn't answer the question)
+      - hg[Billy (5)]: "coward!"
+      - hg[Billy (3)]: "become like us."
+      - hg[Billy (1)]: "together, we will take over roblox."
+
+  ###[If everybody already became Billy...]
+  !!DLEMULATOR EID:"billyall_emulator" SID:"startDialogue" URL:"/assets/bussim/emulatorData/events/billyall.json"
+
+  - hg[Billy (1)]: "hi! my name is billy!"
+  - hg[Billy (2)]: "it seems like you've already copy & pasted me everywhere..."
+  - hg[Billy (3)]: "you truly are a **pro**!"
+  - hg[Billy (4)]: "thank you for doing your part in helping us taking over roblox."
+  - hg[Billy (5)]: "we'll let you go now."
+
+  ##[Tips]
+  - It is highly recommended NOT to use the [Mini-Bus](mini-bus) as Billies will force you out of it and holster you until you reach the Machine.
+  - If you do end up getting caught but not infected, mash as hard as you can then immediately head back to the Bus. You only are given a few seconds before another Billy holsters you.
+  - If you are in the Bus, simply stay inside. They can't open doors.
+  - If you really want to explore the outside despite it all, drink [Cramped Cola](cramped-cola) or [Liquid Void](liquid-void) as that'll negate any attention.
 
   ##[Trivia]
-  - Trivia Here
+  - The [GPS](gps) will say "Billy Nation" during the event instead of any random street name.
+  - You can also obtain a badge called [Voluntary Adjustment](badges#voluntary-adjustment) by sneaking into the machine without getting thrown by a Billy. This can be trivialized with [Cramped Cola](cramped-cola).
+  - Billies use the same tool that you can obtain using Admin Commands, which gives you the ability to holster other players as well as throw them anywhere yourself. The players can also escape likewise by mashing space as if they were holstered by a Billy.
+  - If you enter the machine while being small (due to [Cramped Cola](cramped-cola)), you will become a normal sized billy. However, if you drink the [Cramped Cola](cramped-cola) again, you will become MASSIVE! (See Gallery)
+  - If you get crushed under the Billy machine, you'll actually die from it, and so can other Billies.
+  - The door on the bus will automatically close itself when the Billies start moving.
+    - This is the only instance where the door closes itself with no input from any other player.
 
   !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

@@ -1,28 +1,39 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Birthday
+  description: Bus Birthday is an event where a random player is chosen to be celebrated for their birthday. The player will get a Birthday Ice Cream instantly, and everyone will get Free-modelled Cake shortly.
     
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim birthday event
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[BusBirthday]
     
-    image: ""
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  Bus Birthday is an event where a random player is chosen to be celebrated for their birthday.
+  The player will get a [Birthday Ice Cream](birthday-ice-cream) instantly, and everyone will get [Free-modelled Cake](free-modelled-cake) shortly.
+  "Happy birthday to you" will be played during the event, but on kazoo.
+  A large part will also hover above the bus, emitting particle confetti over it.
+  The event then ends, however you'll keep both items until you die.
+
+  ##[Dialogue]
+  - hg[Event]: "Hey, it's [Player]'s birthday right now!"
+    - hg[You]: "Happy birthday!"
+      - After some time has passed...
+        - hg[Player]: "Free (modelled) cake for everyone!"
 
   ##[Trivia]
-  - Trivia Here
+  - The birthday player is completely random and while it happening during your real birthday is purely coincidental, it is completely possible!
+  - There's a chance that the player will not recieve the [Birthday Ice Cream](birthday-ice-cream), even if they were chosen as the birthday person.
+  - The event has 45 seconds of runtime, which has the exact same amount of runtime as both the [In The Sky](in-the-sky) and the Space events. There's also a really similar runtime with the [Exploiter](exploiter) event.
+  - The audio originated from a [birthday kazoo youtube video](https://www.youtube.com/watch?v=N63GSop8Xz4) that was published in Sep 16, 2014.
 
   !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
