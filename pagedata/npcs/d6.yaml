@@ -13,7 +13,7 @@ page:
       Category: [NPCs](npcs)
 
     image: ''
-    imageBanner: /bussim-assets/images/events/goat_station1.webp
+    imageBanner: /bussim-assets/images/banners/d6-station.webp
 
 attributions:
   - Ported by PolyframeX (@polyframex)
@@ -24,13 +24,13 @@ content: |-
   D6 is an NPC in the [GOATed Gas Station](goated-gas-station) event, as well as an artist.
 
   ##[Appearance]
-  As of July 20th 2023, D6's design has been changed to one more complex, now having a long black hair with what seems to be horns poking out of it,
-  along with a maroon punk jacket, suspenders and pauldrons.
+  D6 is a presumably humanoid entity with long black hair that has two horn-like strands curving upwards.
+  They wear a black T-shirt with long black gloves, a black scarf, dark gray cargo pants, and flannel tied around their waist.
   \n\n
-  His face appears to be complely obscured by shadow, with only one of their eyes visible.
+  Thair face appears to be completely obscured by shadow, with only one of their eyes visible.
   \n\n
-  Before this, D6 had a more simple design, with black arms and legs, yellow torso, and a white head. He wore White Oni Horns, Outrageous Builders Club Hard Hat,
-  a White Kobold snout and frills, white fur, a White Lizard Tail, and the Hexxed symbol on his chest.
+  Previously, D6 had a more simple design, with black arms and legs, yellow torso, and a white head. They wore White Oni Horns, Outrageous Builders Club Hard Hat,
+  a White Kobold snout and frills, white fur, a White Lizard Tail, and the sigil of Lucifer on their chest.
 
   ##[Favourite Drink]
   D6's favourite drink is [The Sludge](cafe-coffee/recipes). This gives you either 4 Passenger Rep or 4 Driver Rep.
@@ -43,7 +43,7 @@ content: |-
   - Variant 3 : "man i could really go for some graham crackers right about now" (If the current day is Monday)
   - Variant 4 : "and if youuuuuu cant believe it" (If the current day is Friday)
   - Variant 5 : "i cant believe i had to drive all the way to work" (If the current day is Saturday)
-  - Variant 6 : "would you like to sign my petition? ...nevermind"
+  - Variant 6 : "would you like to sign my petition? ...nevermind" (If the current day is Tuesday)
       - hg[Option 1]: Any wisdom for today?
           - hg[Variant 1]:
               - Variant 1A (PC):
@@ -97,7 +97,7 @@ content: |-
               - "i am sincerely sorry for your loss"
                   - Ok.
           - hg[Variant 12]:
-              - "your lucky numbers for the day are \[5 random 1-2 digit integers\" and \[random 1-2 digit integer\]]
+              - "your lucky numbers for the day are [5 random 1-2 digit integers" and [random 1-2 digit integer]]
                   - Ok.
           - hg[Variant 13]:
               - "nobody knows the troubles you've seen"
@@ -181,7 +181,7 @@ content: |-
               - hg[Option 2]: Roll me a number.
                   - "Why"
                       - hg[Option 1]: Because you're a d6?
-                          - "thats fair. \[random number 1-6\"]
+                          - "thats fair. [random number 1-6"]
                       - hg[Option 2]: Nevermind.
                           - "ok"
               - hg[Option 3]: Why are you so short?
@@ -264,14 +264,15 @@ content: |-
   ##[Trivia]
   - D6 is second to having the most amount of dialogue lines, only being behind by Pear by 34 lines or more.
     - Despite this though, he has the most amount of variants a character can have, and likely the most amount of dialogue bytes in the game.
-  -  His lines make plenty of references to memes, his own personal interest, or general media.
-     - ["man i could really go for some graham crackers right about now"](https://twitter.com/GandalfGetsTo) is a reference to a TikTok account where a cat owner lets their cat, named Gandalf, gets to lick a Graham Cracker every Monday.
-     - ["i cant believe i had to drive all the way to work"](https://www.youtube.com/watch?v=b-LTE6vIb9U&ab_channel=HigherQualityUploads) is a reference to a line from Toy Story 2, where Al has to drive across the street to his job on a Saturday.
-     - "dude... GLAGGLELAND??????" is a reference to a bunch of videos about Glaggleland, a fictional amusement park filled with smileys and silliness.
-     - "...and talk about turtle skeletons from a specific video game franchise for hours." is a reference to [Dry Bones](https://www.mariowiki.com/Dry_Bones) from the Super Mario franchise, that both D6 and [Zeon](zeom) indeed like talking about.
-     - "7577234764 Dont forget it. It's the only way out.". 7577234764 is actually a Roblox marketplace ID for an image of a paper D6 that dSiiiiiix has.
+  - His lines make plenty of references to memes, his own personal interest, or general media.
+    - ["man i could really go for some graham crackers right about now"](https://twitter.com/GandalfGetsTo) is a reference to a TikTok account where a cat owner lets their cat, named Gandalf, gets to lick a Graham Cracker every Monday.
+    - ["i cant believe i had to drive all the way to work"](https://www.youtube.com/watch?v=b-LTE6vIb9U&ab_channel=HigherQualityUploads) is a reference to a line from Toy Story 2, where Al has to drive across the street to his job on a Saturday.
+    - "dude... GLAGGLELAND??????" is a reference to a bunch of videos about Glaggleland, a fictional amusement park filled with smileys and silliness.
+    - "...and talk about turtle skeletons from a specific video game franchise for hours." is a reference to [Dry Bones](https://www.mariowiki.com/Dry_Bones) from the Super Mario franchise, that both D6 and [Zeon](zeom) indeed like talking about.
+    - "7577234764 Dont forget it. It's the only way out.". 7577234764 is actually a Roblox marketplace ID for an image of a paper D6 that dSiiiiiix has.
+    - ["would you like to sign my petition?"](https://www.youtube.com/watch?v=9JoJUkIhEjs) is a reference to Postal 2, wherein on Tuesday, the Postal Dude is tasked with collecting signaures for a petition to 'make whiney congressmen play violent video games'.
   - When Bus Simulator got age restricted for 14+ for the first time, the reasoning as to why it was restricted was because D6's "why havent you been flattened by a 2 ton slab of concrete" was more than enough for the game to receive a Violence tag.
-      - This was appealed however, but it wasn't the last time Bus Simulator had been age-restricted before.
+    - This was appealed however, but it wasn't the last time Bus Simulator had been age-restricted before.
   - D6 is the only NPC to respond when the player spams the [Airhorn](airhorn), but without talking once.
 
-  !!GALLERY [/assets/bussim/images/npcs/banana.webp]  
+  !!GALLERY [/assets/bussim/images/npcs/d6.webp]  

@@ -13,7 +13,7 @@ page:
       Category: [NPCs](npcs)
 
     image: ''
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/banners/tazer-banner.webp
 
 attributions:
   - Ported by PolyframeX (@polyframex)

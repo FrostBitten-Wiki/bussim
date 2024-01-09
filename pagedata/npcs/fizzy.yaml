@@ -14,7 +14,7 @@ page:
       Category: [NPCs](npcs)
     
     image: ""
-    imageBanner: /bussim-assets/images/events/bloxdonalds.webp
+    imageBanner: /bussim-assets/images/banners/bloxdonalds-banner.webp
 
 attributions:
   - Ported by PolyframeX (@polyframex)
