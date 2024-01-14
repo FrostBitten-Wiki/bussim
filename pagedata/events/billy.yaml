@@ -10,7 +10,8 @@ page:
   header:
     description: |
       Category: [Events](events)\n
-      Event Name: h[Billy]
+      Event Name: h[Billy]\n
+      Event Runtime: h[Unknown]
     
     imageBanner: /assets/bussim/images/events/billy.webp
 

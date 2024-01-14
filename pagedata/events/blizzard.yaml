@@ -1,18 +1,17 @@
 editable: True
 page:
-  title: Placeholder
+  title: Blizzard
   description: Placeholder
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
       Category: [Events](events)\n
-      Event Name: h[Blizzard]
+      Event Name: h[Blizzard]\n
+      Event Runtime: h[Unknown]
     
     image: ""
     imageBanner: /assets/bussim/images/banners/bus-banner.webp

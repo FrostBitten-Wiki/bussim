@@ -9,13 +9,12 @@ page:
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim cave event
 
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |-
       Category: [Events](events)\n
-      Event Name: h[Cave]
+      Event Name: h[Cave]\n
+      Event Runtime: h[1 minute 33 seconds (93 seconds)]
 
     image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp

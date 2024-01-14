@@ -1,17 +1,17 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Bloxdonalds
+  description: The Bloxdonalds is both an Event and a Location in Bus Simulator.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[Bloxdonalds]\n
+      Event Runtime: h[1 minute 40 seconds (100 seconds)]
     
     image: ""
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
@@ -20,9 +20,26 @@ attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  The Bloxdonalds is both an Event and a Location in Bus Simulator.
+  \n\n
+  When this event happens, the Bus will stop and a random player will mention seeing a Bloxdonalds in the distance. Players are then able to go inside the building and receive a Burger. After some time has passed, the driver will mention an oddity within the burgers and afterwards leave, ending the event.
+  \n\n
+  During the event, you'll also be able to interact with characters such as: Red and Steven Scripts. There's also a hidden interactable NPC next to the door, and used to be another NPC in its place but was removed for reasons.
+
+  ###[Trying to interact with the last NPC says the following]
+  - You: "..?"
+  - You: "The vibes are kinda off in this specific spot... was someone here before?"
+
+  ##[Dialogue]
+  - Player: "Woah! I think I see a Bloxdonalds in the distance!"
+  - You: "\*gasp\*"
+  - h[After some time has passed...]
+  - Player: "I'm 99% sure there's something in these burgers.. Evacuate to the bus."
 
   ##[Trivia]
-  - Trivia Here
+  - This is the second largest amount of interactable NPCs, having half as much as [GOATed Gas Station](goated-gas-station).
+  - If you use a [GPS](gps) while the event is ongoing, rather than it be a random location, it'll instead say Bloxdonalds.
+  - This is also a reference to Bus Stop Simulator's Bloxdonalds, where it shares similar details to the Bus Simulator version, but without the dangers that lurk there.
+  - The runtime of this event is 1 minute and 40 seconds (exactly 100 seconds). This makes the event a similar runtime to the [Cave](cave) event.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/banners/bloxdonalds-banner.webp]

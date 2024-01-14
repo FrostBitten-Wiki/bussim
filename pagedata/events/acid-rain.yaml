@@ -12,7 +12,9 @@ page:
 
   header:
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[AcidRain]
+      Event Runtime: h[Unknown]
 
     imageBanner: /assets/bussim/images/events/acid-rain.webp
 

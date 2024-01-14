@@ -1,17 +1,17 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Traffic Light
+  description: The Traffic Light event is a rather simple and straight-forward, when this event is rolled, the bus will stop and waits until the traffic light turns back to green because they are a good driver, disregarding the
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[TrafficLight]\n
+      Event Runtime: h["a minute or so"]
     
     image: ""
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
@@ -20,9 +20,13 @@ attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  The Traffic Light event is a rather simple and straight-forward, when this event is rolled, the bus will stop and waits until the traffic light turns back to green because they are a good driver,
+  disregarding the [speeding](time-travel), [resisting arrest](police), [reckless driving](nobles-house), [vehicular manslaughter](santas-gone), [stealing](https://www.roblox.com/game-pass/4894984/Bus-Driver), [evading taxes](news), [potential grand theft auto](news), [involvement in robbery](no-dough), and perhaps other crimes the bus driver has committed prior to this. 
+  The event ends after a minute or so.
 
   ##[Trivia]
-  - Trivia Here
+  - Although the bus stops once the traffic light hits red, no other vehicle except the Ice Cream Truck obeys the traffic light.
+    - This makes getting ice cream during this event accessible, unless the Ice Cream Truck is either non-existent or has been crashed by another vehicle.
+  - This can be considered as one of the more basic events in the game that doesn't involve a feature. Other examples are [Mountain](mountain) and [Nothing](nothing).
 
   !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

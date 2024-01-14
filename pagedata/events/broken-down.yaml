@@ -8,13 +8,13 @@ page:
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
     title: Placeholder
     description: |-
       Category: [Events](events)\n
-      Event Name: h[BrokeDown]
+      Event Name: h[BrokeDown]\n
+      Event Runtime: h[Depends on Player Activity (Short or Long)]
 
     image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
