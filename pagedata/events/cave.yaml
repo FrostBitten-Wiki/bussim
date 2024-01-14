@@ -1,6 +1,6 @@
 editable: true
 page:
-  title: Placeholder
+  title: Cave
   description: Cave event is an event that takes place in a cave. When this happens,
     the Driver mentions there is a Cave ahead. Then, within seconds, the map becomes
     dark and changes to a cave. Then eventually the bus begins to drive through the
