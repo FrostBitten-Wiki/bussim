@@ -14,7 +14,7 @@ page:
     description: |
       Category: [Others](others)
 
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/others/ranks-tags.webp
 
 attributions:
   - Ported By PolyframeX (@polyframex)
@@ -76,7 +76,7 @@ content: |-
   | <clr:#00bb7d>([money waster])  | why. stop it.                | 10,000 R$    |
   | <clr:#bb0e10>([good lord])     | you're insane. in a bad way. | 100,000 R$   |
 
-  ##[Questim Time Tags]
+  ##[Question Time Tags]
   You can also get tags, albeit temporarily by based off of the answers you choose during Question Time, all of the tags so far can be found over [here](question-time).
 
   ##[Trivia]

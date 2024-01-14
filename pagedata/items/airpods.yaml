@@ -22,7 +22,7 @@ content: |
   ##[Info]
   The AirPods are based off of Apple's AirPods, which are their own TWS (True Wireless Stereo) headphones that were introduced back in 2016. Their function in the game allows you to listen to Roblox Audio IDs locally, via the handy interface on the left of the screen with them selected in your hotbar.
   \n\n
-  They are available for purchase as a gamepass, for R$8, along with the Colored AirPods gamepass for R$32, which allows you to color both Pods respectively with !lcolor and !rcolor.
+  They are available for purchase as a gamepass, for 8 R$, along with the Colored AirPods gamepass for 32 R$, which allows you to color both Pods respectively with !lcolor and !rcolor.
 
   ##[Technical Details]
   If you take one airpod out, you can still listen to the music that's playing through them. This works by mounting a part with a sound object to the player's camera to the right or left, and follows it as you zoom, pan, and move around the world in the game. This can lead to some interference and stutter in the audio, because the game has to track your camera and move those parts to your camera's position. Using both will instead have a locally playing sound object irrespective of where your camera sits.

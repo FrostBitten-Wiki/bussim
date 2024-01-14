@@ -1,28 +1,34 @@
-editable: True
+editable: true
 page:
-  title: Placeholder
-  description: Placeholder
-    
+  title: Broken Down
+  description: Broke Down, or Broken Down is a simple event in Bus Simulator where
+    The Bus breaks down in the middle of the road, giving players the ability to push
+    the bus back to its normal speed by using a push part at the back of the bus.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
+
   tags: some,tags,here,that is used by the search api
   ignore: ignore
 
   header:
     title: Placeholder
-    description: |
-      Category: [Events](events)
-    
-    image: ""
+    description: |-
+      Category: [Events](events)\n
+      Event Name: h[BrokeDown]
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  Broke Down, or Broken Down is a simple event in Bus Simulator where [The Bus](the-bus) breaks down in the middle of the road, giving players the ability to push the bus back to its normal speed by using a push part at the back of the bus.
+  \n\n
+  After the players have successfully pushed the bus back to its normal speed, the event ends and things go as normal. If players don't push the bus however, the event will not end until it has been pushed back to normal, allowing ample time to explore the surroundings without tripping.
 
   ##[Trivia]
-  - Trivia Here
+  - This can technically be considered the longest event in the game, given how without any human interference it will last forever until someone pushes it back to normal.
+    - Due to this, it also allows those especially in smaller, less active servers to get to the [Ice Cream Trucks](vehicles) without much worry.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/events/broken-down.webp]

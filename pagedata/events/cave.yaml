@@ -1,28 +1,36 @@
-editable: True
+editable: true
 page:
-  title: Placeholder
-  description: Placeholder
-    
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
+  title: Cave
+  description: Cave event is an event that takes place in a cave. When this happens,
+    the Driver mentions there is a Cave ahead. Then, within seconds, the map becomes
+    dark and changes to a cave. Then eventually the bus begins to drive through the
+    cave.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim cave event
+
   tags: some,tags,here,that is used by the search api
   ignore: ignore
 
   header:
     title: Placeholder
-    description: |
-      Category: [Events](events)
-    
-    image: ""
+    description: |-
+      Category: [Events](events)\n
+      Event Name: h[Cave]
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  Cave event is an event that takes place in a cave. When this happens, the Driver mentions there is a Cave ahead. Then, within seconds, the map becomes dark and changes to a cave. Then eventually the bus begins to drive through the cave. Then within 50 seconds, the driver mentions they are halfway out and then tells the passengers to hang on tight and then the map becomes darker. And then after that, the map changes to the region the bus was driving on before.
+  \n\n
+  This event is a great way to show off the Futuristic lighting that is used in the game, via the Headlights, [Phone](phone)'s flashlight, etc.
 
   ##[Trivia]
-  - Trivia Here
+  - This event was most likely more of a test for the futuristic lighting and to show off on how it looks ingame.
+  - When the event spawns, the biome would change to Rocky.
+  - The event runtime is 1 minute and 33 seconds, similar to both the [Noble's House](nobles-house) and [Bloxdonalds](bloxdonalds) events.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/events/cave.webp]

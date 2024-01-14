@@ -1,0 +1,66 @@
+editable: True
+page:
+  title: Mini-Bus
+  description: The Mini-Bus is a miniature vehicle which resembles the bus used in the game. It can only fit 1 player, but drives faster than the bus. The Mini-Bus costs 125 R$ to obtain. 
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: mini-bus, bus but smaller, rideable bus, car 
+  
+  header:
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
+
+content: |
+  "Drive your own miniature version of the Bus now!" -"Mini-Bus' Gamepass Description"
+  !!BUTTONS [<highlight>Mini-Bus</highlight>,location.href=''|Fast Mini-Bus,location.href='fast-mini-bus']
+  ##[Info]
+  The Mini-Bus is a miniature vehicle which resembles the bus used in the game. It can only fit 1 player, but drives faster than the bus. The Mini-Bus costs 125 R$ to obtain. 
+  \n\n 
+  The Mini-Bus is a common gamepass, and sometimes people will even start a race with other Mini-Bus Drivers. 
+  \n\n 
+  You can also customize it further in the [Cafe](cafe) Event, where you'll be able to purchase the E-Bus design for only 45 Passenger Reputation from [Tazer](tazer). 
+
+  ##[Appearance]
+  ###[Default]
+  The Mini-Bus has a Navy Blue (RGB 33, 84, 185) color for the default body paint. 
+  \n 
+  On the sides of the bus, there are two large windows, followed by vents behind them. At the back of the bus, there are two antennas which tilt when turning, and wobble at speed. 
+  \n 
+  The Mini-Bus has headlights up front that are covered by a grill, with a single red accent. 
+  \n\n 
+  People that have the OG Driver and Contributor rank in-game will get sparkles on their Mini-Bus and also obtain one for free if they haven't bought it.
+  \n\n 
+  The previous Mini-Bus design was much simpler, and had a design closer to the older Bus design, with fake windows and a couple of avatars in them. 
+  ###[E-Bus]
+  The E-Bus has a futuristic-like appearance, that resembles a bit of a truck. On the front of the bus, it was two cricle headlights, as well as two slanted headlight lines on the bottom, and a windshield on top.
+  \n 
+  On the sides, it has two mini doors on it, and a tiny red line next to it on both sides, and has no walls beyond the doors. 
+  \n 
+  The back has two antennas which tilt when turning, and wobble at speed, and has four tiny circular headlights, as well as a license plate slot, with nothing inside it, and a tilted red line, that roes outwards.
+  \n\n 
+  There's additional space behind the drivers seat, but has nothing on the inside. 
+
+  ##[VR Controls]
+  If you're looking for how to drive the Mini-Bus in VR, check out the VR page linked [here](vr#Mini-Bus).
+
+  ##[Tips]
+  - If you perform a jump while driving you will start doing a drift. the longer you hold down the jump button, the faster the boost will before. 
+    - If you hold it down for a short while, blue sparks will appear giving you a small boost. 
+    - If you hold it down for around 2 seconds, yellow sparks will appear giving a moderate boost. 
+    - If you hold it to do one full drift circle, red sparks will appear giving a large boost that switches back to yellow after a second, before ending the boost.
+
+  ##[Trivia]
+  - The default color on the Mini-Bus matches the color of the bus when it's not in a seasonal event.
+  - The drifting mechanic is a reference to the Mario Kart series by Nintendo.
+  - The Mini-Bus' current design was based off of Cyberpunk 2077's Quadra Turbo V-Tech.
+  - The Mini-Bus allows you to also survive in the [Flash Flood](flash-flood) Event. It is unknown if it's intentional.
+
+  !!GALLERY [/assets/bussim/images/items/mini-bus.webp]
