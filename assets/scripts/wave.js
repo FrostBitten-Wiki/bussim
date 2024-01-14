@@ -41,4 +41,4 @@ setInterval(() => {
             el.innerHTML = processedString
         }
     })
-}, 1333)
+}, 100)
