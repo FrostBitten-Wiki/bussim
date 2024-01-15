@@ -1,7 +1,7 @@
 editable: true
 page:
   title: Fang
-  description: How did you even find this? You must be someone who goes a lot deeper than normal!
+  description: Fang or known as FangedWerewolf is a contributor in Bus Simulator that has worked on the many wikis relating of this game, he is also a digital artist.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim contributor
 
@@ -81,7 +81,7 @@ content: |-
         - hg[Yup.]
           - "I might be able to help. Just know though that we are just acquaintances."
 
-  ###[Acquaintances / Companion / Trusted / Friends (0-3 Trust) (Intro)]
+  ###[Repeated Intro]
   - hg[Variant 1]: "Again?"
   - hg[Variant 2]: "..well this is awkward."
   - hg[Variant 3]: "Got stranded again?"
@@ -142,6 +142,11 @@ content: |-
             - hg[Offer item: Compass]
               - "A.. compass? That's something that I needed! Well.. not like I'll find anything familar but.. thank you!"
               - *You: Looks like that compass finally had some use. +1 trust*
+    - hg[Option 4]: Nevermind. 
+      - hg[Variant 1]: "Ah, alright then!"
+      - hg[Variant 2]: "Ah, okay."
+      - hg[Variant 3]: "Alrighty."
+      - hg[Variant 4]: "Take care."
       
   ###[Acquaintances (0 Trust) (After Helping)]
     - "Alright, I fixed it enough to where you should find a mechanic before my repairs break down."
@@ -157,10 +162,93 @@ content: |-
   - hg[Variant 7]: "wow this bus sucks" <13px>((If today is Monday.))
   - hg[Variant 8]: "I could go for some smores.. the store nearby doesn't have them though.. augh..." <13px>((If today is Tuesday))
   - hg[Variant 9]: "What game will I play once I get back home..? Hmm..." <13px>((If today is Wednesday))
-            
+    - hg[Option 1]: You need some help there?
+      - "Perhaps.. although I can relatively do this myself, just need some breaks here and there and-"
+      - *The Bus*: "##%^@%^$!!"
+      - "oops"
+        - hg[Yikes.]
+          - "D-don't worry! Slip ups happen all the time! <8px>(hopefully this isn't the last time...)"
+    - hg[Option 2]: Anything about your past? 
+      - "Yeah sure, I could tell a story or two." 
+        - hg[Option 1]: About yourself... 
+          - "Anything you want to know about more?"
+            - hg[Option 1]: Were you a cityfolk? 
+              - "Well, I wasn't really much of a cityfolk, or even any at all. But I've wanted to know what it's like to be in those shimmering lights every night."
+              - "Thankfully the compass helps, but I still need something to figure out where I am..."
+                - hg[A map, maybe?]
+                  - "Oh that! No idea how to get one though..."
+                  - "Say, someone must have a map especially in their homes; quite a common trend really..."
+                    - hg[..you want to break into a house?] 
+                      - "WHAT? NO!!! I meant just asking them if you can have a look and take a photo of it!"
+                      - "But.. I don't mind having an actual map myself..."
+                        - hg[Option 1]: You are really polite for a werewolf.
+                          - "Thanks for that, although the proper outfit would've already given that way."
+                            - Following this dialogue will allow you to offer the [Map](fang-map) to him.
+                        - hg[Option 2]: I'll see what I can do.
+                          - "Alright, just.. don't commit crimes okay?.."
+                            - Following this dialogue will allow you to offer the [Map](fang-map) to him.
+            - hg[Option 2]: Did you have a human form?
+              - "Well, I probably did have one.. but I don't remember who I was back then."
+              - "I don't mind it though, probably what I originally wanted; I get cool strength and stuff!!"
+                - hg[Option 1]: The silver in question:
+                  - "We don't talk about that..."
+                - hg[Option 2]: How did you get bit anyways?
+                  - "That's a blur..."
+                - hg[Option 3]: Wouldn't this make you a worgen then?
+                  - "You're right but I don't think anyone really knows what worgens are instead of werewolves so..."
+                    - hg[Fair enough.] 
+        - hg[Option 2]: About your friends...
+          - "Hm? What about them?"
+            - hg[Option 1]: You have any friends perhaps?
+              - "Ah, I have a lot of friends, particularly those back in those cities. I think you might've seen them once or twice before!"
+                - hg[You seem pretty excited.]
+                  - "Heh, yeah. Can't help it though as they always bring a smile to my face thinking about them.."
+                  - "Well, I'll find my way back to them eventually."
+            - hg[Option 2]: Have I met them already?
+              - "Well, I have a few being a snakedragon.."
+                - hg[Ectta.]
+                  - "A light blue wolf.."
+                    - hg[Frostbite.]
+                      - "A protogen..."
+                        - hg[Tazer.]
+                          - "..wow you actually met some of my friends! I'm surprised!"
+                          - "There's still a lot more, but it would be dragging at this point, heh."
+            - hg[Option 3]: You seem to value them a lot.
+              - "I do, even though at times it does feel the opposite; and I'm not sure if it's what is being received..."
+              - "I do appreciate them despite it all though, and I find that to be essential when maintaining friendships."
+          - hg[Option 3]: Any stories to tell?
+            - "Well, I can give it a shot."
+              - Variant 1:
+                - "I noticed during my time on The Bus that the new formula for the Cramped Cola now reduces your moovement capabilities after use." 
+                - "It felt like a scam! Until I realized that the old formulas exist."
+                - "I.. still haven't found a need to use the old ones though.. but they taste good!"
+              - Variant 2:
+                - "I found that there were some weird structures up in the sky whenever I look far enough."            
+                - "No idea what they could be, but I saw one of them completely black and on top The Bus, and the other farther away.. with a beige tint 'n all..."
+                - "The more you know, I suppose."
+              - Variant 3:
+                - "I remember being in that one race back then, the one with the Mini-Buses and it was WILD! People were getting airstriked left and right, all the while I had a rocket change after me!."
+                - "It didn't seem to deal any damage to me thankfully, just only reduced my speed.. I hope the parking officers aren't mad at me..."
+    - hg[Option 3]: You need anything?
+      - "Well, apart from the compass, I don't seem to have a map that I can use to navigate..."
+        - hg[Offer item: Map]
+          - "A map? Tha-"
+          - "HEY! Did you just steal this map?!" 
+            - hg[Option 1]: I didn't.
+              - "Oh, well thank you then! I might be able to return back to the city now!"
+              - *You: You definitely stole it, but it should work fine. +1 trust*
+            - hg[Option 2]: I did...
+              - "Well.. at least you are being honest about it." 
+              - "Best you can do though is to at least put it back if we ever meet again. Then again.. a map doesn't cost that much anyways.."
+              - "Thoughts aside, thanks for helping me a lot. I might be able to return back now!"
+              - *You: Hopefully it should be enough. +1 trust*
+    - hg[Option 4]: Nevermind. 
+      - hg[Variant 1]: "Ah, alright then!"
+      - hg[Variant 2]: "Ah, okay."
+      - hg[Variant 3]: "Alrighty."
+      - hg[Variant 4]: "Take care."
+      
   ##[Trivia] 
   - Fang's scale 1.15x larger than the other NPCs in the game.
-  - how did you even find this lmao 
-    - anyways, good job finding this out! i plan on working more on this.. that is if nyx and poly is on board with this :sob:
 
   <script>randomDialogueEvent(true, "fang003")</script>
