@@ -164,10 +164,10 @@ content: |-
   - hg[Variant 9]: "What game will I play once I get back home..? Hmm..." <13px>((If today is Wednesday))
     - hg[Option 1]: You need some help there?
       - "Perhaps.. although I can relatively do this myself, just need some breaks here and there and-"
-      - *The Bus*: "##%^@%^$!!"
-      - "oops"
-        - hg[Yikes.]
-          - "D-don't worry! Slip ups happen all the time! <8px>(hopefully this isn't the last time...)"
+        - *The Bus*: "##%^@%^$!!"
+          - "oops"
+            - hg[Yikes.]
+              - "D-don't worry! Slip ups happen all the time! <8px>((hopefully this isn't the last time...))"
     - hg[Option 2]: Anything about your past? 
       - "Yeah sure, I could tell a story or two." 
         - hg[Option 1]: About yourself... 
