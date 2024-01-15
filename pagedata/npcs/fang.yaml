@@ -67,7 +67,7 @@ content: |-
     - hg[Option 2]: Who are you?
       - "Uhh... not sure if I should really say it, but; name's Fang."
       - "Yours?"
-        - hg[[Player].]
+        - hg[[Player.]
           - "[Player], huh? Well I suppose it's been a while since I've last seen someone stranded here."
           - "Guessing your bus broke down in the middle of the road?"
             - hg[...yup.]
@@ -167,7 +167,7 @@ content: |-
         - *The Bus*: "**[EXTREMELY LOUD BEEPING NOISE]**"
           - "oops"
             - hg[Yikes.]
-              - "D-don't worry! Slip ups happen all the time! <8px>((hopefully this isn't the last time...))"
+              - "D-don't worry! Slip ups happen all the time! <8px>(hopefully this isn't the last time...)"
     - hg[Option 2]: Anything about your past? 
       - "Yeah sure, I could tell a story or two." 
         - hg[Option 1]: About yourself... 
