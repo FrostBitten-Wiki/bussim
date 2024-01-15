@@ -10,7 +10,8 @@ page:
   header:
     description: |
       Category: [Events](events)\n
-      Event Name: h[BusBirthday]
+      Event Name: h[BusBirthday]\n
+      Event Runtime: h[45 seconds]
     
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 

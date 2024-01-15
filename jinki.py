@@ -74,10 +74,8 @@ class Patterns:
     
 
 def render(text: str, syntaxes: dict):
-    for syntaxName, (pattern, flags, replacement) in syntaxes.items():
-        if flags == None: pattern = re.compile(pattern)
-        else: pattern = re.compile(pattern, flags)
-
+    for pattern, flags, replacement in syntaxes.values():
+        pattern = re.compile(pattern) if flags is None else re.compile(pattern, flags)
         text = pattern.sub(replacement, text)
 
     return text

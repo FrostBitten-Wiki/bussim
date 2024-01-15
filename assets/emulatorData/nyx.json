@@ -1,0 +1,59 @@
+{
+    "start": {
+        "name": "Nyx",
+        
+        "text": [
+            "yo.",
+            "hey there.",
+            "yo! what's up?",
+            "i don't think you should be here but.. what's up?"
+        ],
+
+        "choices": [
+            [
+                "WHERE AM I!?",
+                ["whereami"]
+            ],
+            [
+                "who are you?",
+                ["whoareyou"]
+            ],
+            [
+                ["get me out of here", "This option only shows up if the Player have given her 25 rep."],
+                ["exitrealm"]
+            ],
+            [
+                "nevermind.",
+                ["end"]
+            ]
+        ],
+
+        "controls": [
+            [
+                "Refresh",
+                ["start"]
+            ]
+        ]
+    },
+
+    "end": {
+        "name": "Nyx",
+        
+        "text": [
+            "uh.. suuure.",
+            "uhm..???",
+            "okay."
+        ],
+
+        "choices": [
+
+        ],
+
+        "controls": [
+            [
+                "Reset",
+                ["start"]
+            ]
+        ]
+    }
+}

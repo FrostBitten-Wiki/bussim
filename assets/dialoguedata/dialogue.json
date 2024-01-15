@@ -3,12 +3,12 @@
         "disc001": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Disc", "point", "Hey! Did you know that you can buy items on the GOATed Gas Station?"],
-                [[3000, 25], "Disc", "lean", "Below of each item has a price tag listed, that is the amount you need to pay with Passenger Reputation!"],
-                [[3000, 25], "Disc", "point", "And when you feel like buying them, you can head over to me and proceed to checkout!"],
-                [[3000, 25], "Disc", "point", "Those items afterwards are now bonded with you, so you'll bring it everywhere you go!"],
-                [[3000, 25], "Disc", "angry", "Oh, you certainly can try stealing them..."],
-                [[3000, 25], "Disc", "close", "<highlight>That is, until you become our next Halloween decoration..</highlight>"]
+                [[2000, 25], "Disc", "point", "Hey! Did you know that you can buy items on the GOATed Gas Station?"],
+                [[2000, 25], "Disc", "lean", "Below of each item has a price tag listed, that is the amount you need to pay with Passenger Reputation!"],
+                [[2000, 25], "Disc", "point", "And when you feel like buying them, you can head over to me and proceed to checkout!"],
+                [[2000, 25], "Disc", "point", "Those items afterwards are now bonded with you, so you'll bring it everywhere you go!"],
+                [[2000, 25], "Disc", "angry", "Oh, you certainly can try stealing them..."],
+                [[2000, 25], "Disc", "close", "<highlight>That is, until you become our next Halloween decoration..</highlight>"]
             ]
         },
 
@@ -16,26 +16,26 @@
             "rarity": 100,
             "dialogue": [
                 [[2000, 25], "Disc", "think", "And then I said sir, this is a gas station- I feel bad for hi-"],
-                [[3000, 25], "Disc", "sweat", "..."],
-                [[3000, 25], "Disc", "sweat", "..wait, is this still on?"]
+                [[1000, 25], "Disc", "sweat", "..."],
+                [[2000, 25], "Disc", "sweat", "..wait, is this still on?"]
             ]
         },
 
         "disc003": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Disc", "think", "Did you know that you can't buy the two colas on the refrigerators?"],
-                [[3000, 25], "Disc", "sweat", "Well... we couldn't really care much on how much they costed and stuff..."],
-                [[3000, 25], "Disc", "lean", "So you can take them for free! They won't be bonded with you however."],
-                [[3000, 25], "Disc", "default", "Maybe for the best though, those drinks have some really weird effects."]
+                [[2000, 25], "Disc", "think", "Did you know that you can't buy the two colas on the refrigerators?"],
+                [[2000, 25], "Disc", "sweat", "Well... we couldn't really care much on how much they costed and stuff..."],
+                [[2000, 25], "Disc", "lean", "So you can take them for free! They won't be bonded with you however."],
+                [[2000, 25], "Disc", "default", "Maybe for the best though, those drinks have some really weird effects."]
             ]
         },
 
         "pear001": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Pear", "pointLeft", "Hey! Did you know that the <highlight>Ragdoll</highlight> Gamepass does more than it should do?"],
-                [[3000, 25], "Pear", "think", "A lot of events actually become a piece of cake once you ragdoll, and I heard it even prevents you from no-clipping..."],
+                [[2000, 25], "Pear", "pointLeft", "Hey! Did you know that the <highlight>Ragdoll</highlight> Gamepass does more than it should do?"],
+                [[2000, 25], "Pear", "think", "A lot of events actually become a piece of cake once you ragdoll, and I heard it even prevents you from no-clipping..."],
                 [[2000, 25], "Pear", "sweat", "Just don't try it during a flood!"],
                 [[2000, 25], "Pear", "lean", "You might regret it!~"],
                 [[2000, 25], "Pear", "sweat", "In the meantime though, Noble's probbably planning on fixing it..."],
@@ -47,30 +47,30 @@
         "pear002": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Pear", "angry", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
-                [[3000, 25], "Pear", "pointLeft", "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"]
+                [[2000, 25], "Pear", "angry", "Hey! Are you tired of someone spamming the <highlight>Airhorn</highlight> and you no longer want to hear it anymore?"],
+                [[2000, 25], "Pear", "pointLeft", "You can mute the <highlight>Airhorn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Tool Sounds!"]
             ]
         },
 
         "pear003": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Pear", "angry", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
-                [[3000, 25], "Pear", "pointLeft", "You can mute the <highlight>Bus Horn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
+                [[2000, 25], "Pear", "angry", "Hey! Are you tired of the driver spamming the horn and you no longer want to hear it anymore?"],
+                [[2000, 25], "Pear", "pointLeft", "You can mute the <highlight>Bus Horn</highlight> by going to the <highlight>Audio Settings</highlight>, and muting Environment Sounds!"]
             ]
         },
 
         "pear004": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Pear", "pointLeft", "Hey! Did you know that you can instantly befriend Frost with this one simple trick?"],
+                [[2000, 25], "Pear", "pointLeft", "Hey! Did you know that you can instantly befriend Frost with this one simple trick?"],
                 [[1000, 25], "Pear", "think", "All you need is a special..."],
                 [[1000, 25], "Pear", "think", "exclusive..."],
-                [[3000, 25], "Pear", "shock", "Spronkbib Popsicle!!"],
+                [[2000, 25], "Pear", "shock", "Spronkbib Popsicle!!"],
                 [[3500, 25], "Pear", "pointRight", "Funnily enough, this actually ends up making Frostbite confused enough to think you gave him a special 'token' of-"],
-                [[3000, 25], "Pear", "sweat", "...uhm.."],
-                [[3000, 25], "Pear", "sweat", "Y-eah! All you need is to get lucky enough!"],
-                [[3000, 25], "Pear", "lean", "Hopefully by then though, you didn't give him a normal ice cream~"]
+                [[2000, 25], "Pear", "sweat", "...uhm.."],
+                [[2000, 25], "Pear", "sweat", "Y-eah! All you need is to get lucky enough!"],
+                [[2000, 25], "Pear", "lean", "Hopefully by then though, you didn't give him a normal ice cream~"]
             ]
         },
 
@@ -80,7 +80,7 @@
                 [[2000, 25], "Pear", "call", "<text style=\"color: #6d6d6d\">*ring*</text>"],
                 [[1000, 25], "Pear", "call", "<text style=\"color: #6d6d6d\">Hello!</text>"],
                 [[1500, 25], "Pear", "call", "<text style=\"color: #6d6d6d\">I've been reaching you about your car's ext-</text>"],
-                [[3000, 25], "Pear", "callConcerned", "I don't own a car though..."]
+                [[2000, 25], "Pear", "callConcerned", "I don't own a car though..."]
             ]
         },
 
@@ -89,86 +89,86 @@
         "red001": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Red", "default", "Did you know that I didn't write the dialogue for my NPC?"],
-                [[3000, 25], "Red", "shrug", "I didn't write the dialogue for these either!"]
+                [[2000, 25], "Red", "default", "Did you know that I didn't write the dialogue for my NPC?"],
+                [[2000, 25], "Red", "shrug", "I didn't write the dialogue for these either!"]
             ]
         },
 
         "red002": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Red", "default", "Also try Kit Battle!"]
+                [[2000, 25], "Red", "default", "Also try Kit Battle!"]
             ]
         },
 
         "red003": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Red", "default", "I'm everywhere!"],
-                [[3000, 25], "Red", "think", "You just have to look a bit harder."]
+                [[2000, 25], "Red", "default", "I'm everywhere!"],
+                [[2000, 25], "Red", "think", "You just have to look a bit harder."]
             ]
         },
 
         "red004": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Red", "default", "im red :]"]
+                [[2000, 25], "Red", "default", "im red :]"]
             ]
         },
 
         "red005": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Red", "default", "Did you know?"],
-                [[3000, 25], "Red", "default", "I made the party popper without Noble knowing!"]
+                [[2000, 25], "Red", "default", "Did you know?"],
+                [[2000, 25], "Red", "default", "I made the party popper without Noble knowing!"]
             ]
         },
 
         "red006": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Red", "default", "Did you know?"],
-                [[3000, 25], "Red", "default", "I currently hold the world record speeding on Adventure Island! (subject to change..!)"]
+                [[2000, 25], "Red", "default", "Did you know?"],
+                [[2000, 25], "Red", "default", "I currently hold the world record speeding on Adventure Island! (subject to change..!)"]
             ]
         },
 
         "red007": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Red", "default", "Did you know?"],
-                [[3000, 25], "Red", "default", "I could beat Noble in a fight!"]
+                [[2000, 25], "Red", "default", "Did you know?"],
+                [[2000, 25], "Red", "default", "I could beat Noble in a fight!"]
             ]
         },
 
         "red008": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Red", "default", "Did you know?"],
-                [[3000, 25], "Red", "shrug", "My design is sourced from 2018!"],
-                [[3000, 25], "Red", "guilty", "That's pretty old..."]
+                [[2000, 25], "Red", "default", "Did you know?"],
+                [[2000, 25], "Red", "shrug", "My design is sourced from 2018!"],
+                [[2000, 25], "Red", "guilty", "That's pretty old..."]
             ]
         },
 
         "red009": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Red", "default", "Did you know?"],
-                [[3000, 25], "Red", "think", "I sure didn't."]
+                [[2000, 25], "Red", "default", "Did you know?"],
+                [[2000, 25], "Red", "think", "I sure didn't."]
             ]
         },
 
         "red010": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Red", "default", "Made you look."]
+                [[2000, 25], "Red", "default", "Made you look."]
             ]
         },
 
         "red011": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Red", "default", "Did you know?"],
-                [[3000, 25], "Red", "think", "You just lost the game!"]
+                [[2000, 25], "Red", "default", "Did you know?"],
+                [[2000, 25], "Red", "think", "You just lost the game!"]
             ]
         },
 
@@ -179,37 +179,37 @@
             "dialogue": [
                 [[2000, 25], "Fang", "default", "..."],
                 [[1000, 25], "Fang", "default", "WH-"],
-                [[3000, 25], "Fang", "sweat", "oh uh.. hey there?"],
-                [[3000, 25], "Fang", "sweat", "didn't expect you to find me here but uhm.."],
-                [[3000, 25], "Fang", "point", "I hope you're enjoying this wiki! It's quite hard to still understand how it works but..."],
-                [[3000, 25], "Fang", "point", "I've been getting the hang of it. well, I have to go do something in the meantime!"],
-                [[3000, 25], "Fang", "default", "oh and uh, before i go..."],
-                [[3000, 25], "Fang", "default", "shoutout philippines"]
+                [[2000, 25], "Fang", "sweat", "oh uh.. hey there?"],
+                [[2000, 25], "Fang", "sweat", "didn't expect you to find me here but uhm.."],
+                [[2000, 25], "Fang", "point", "I hope you're enjoying this wiki! It's quite hard to still understand how it works but..."],
+                [[2000, 25], "Fang", "point", "I've been getting the hang of it. well, I have to go do something in the meantime!"],
+                [[2000, 25], "Fang", "default", "oh and uh, before i go..."],
+                [[2000, 25], "Fang", "default", "shoutout philippines"]
             ]
         },
 
         "fang002": {
             "rarity": 25,
             "dialogue": [
-                [[3000, 25], "Fang", "point", "Hey did you know?"],
-                [[3000, 25], "Fang", "point", "I've been an editor for all of the past Bus Simulator Wikis!"],
-                [[3000, 25], "Fang", "point", "Ever since it was mainly maintained by Zeon, to when NotFunnyClown announced the 'new' wiki!"],
-                [[3000, 25], "Fang", "sweat", "As a result, I'm kinda a lot more knowledgable about these kinds of stuff..."],
-                [[3000, 25], "Fang", "point", "So feel free to drop a question if you'd like!"],
-                [[3000, 25], "Fang", "sweat", "Well, as long as you don't find me in a bad mood that is.."],
-                [[3000, 25], "Fang", "default", "But most often, I'll hang around in The Bus, so if you see me at one point.."],
-                [[3000, 25], "Fang", "point", "Say hi to me! That is all."]
+                [[2000, 25], "Fang", "point", "Hey did you know?"],
+                [[2000, 25], "Fang", "point", "I've been an editor for all of the past Bus Simulator Wikis!"],
+                [[2000, 25], "Fang", "point", "Ever since it was mainly maintained by Zeon, to when NotFunnyClown announced the 'new' wiki!"],
+                [[2000, 25], "Fang", "sweat", "As a result, I'm kinda a lot more knowledgable about these kinds of stuff..."],
+                [[2000, 25], "Fang", "point", "So feel free to drop a question if you'd like!"],
+                [[2000, 25], "Fang", "sweat", "Well, as long as you don't find me in a bad mood that is.."],
+                [[2000, 25], "Fang", "default", "But most often, I'll hang around in The Bus, so if you see me at one point.."],
+                [[2000, 25], "Fang", "point", "Say hi to me! That is all."]
             ]
         },
 
         "fang003": {
             "rarity": 25,
             "dialogue": [
-                [[3000, 25], "Fang", "point", "Hey did you know?"],
-                [[3000, 25], "Fang", "sweat", "FangedWerewolf is a bit of a pun in of itself, you see.."],
-                [[3000, 25], "Fang", "point", "My fursona's name is Fang! As a result, I've made a terrible mistake in making this masterpiece of a name!"],
-                [[3000, 25], "Fang", "sweat", "Just... uh... don't question if he's actually a werewolf or a worgen..."],
-                [[3000, 25], "Fang", "sweat", "I, uh... just find werewolf cooler than worgens as a name...."]
+                [[2000, 25], "Fang", "point", "Hey did you know?"],
+                [[2000, 25], "Fang", "sweat", "FangedWerewolf is a bit of a pun in of itself, you see.."],
+                [[2000, 25], "Fang", "point", "My fursona's name is Fang! As a result, I've made a terrible mistake in making this masterpiece of a name!"],
+                [[2000, 25], "Fang", "sweat", "Just... uh... don't question if he's actually a werewolf or a worgen..."],
+                [[2000, 25], "Fang", "sweat", "I, uh... just find werewolf cooler than worgens as a name...."]
             ]
         },
 
@@ -229,11 +229,7 @@
         "nyx001": {
             "rarity": 50,
             "dialogue": [
-                [[2000, 25], "Nyx", "", "Hello there!"],
-                [[2000, 25], "Nyx", "", "I'm just here to tell you that thank you for visiting the wiki!"],
-                [[2000, 25], "Nyx", "", "I've put my time on making this entire wiki, and how it works"],
-                [[2000, 25], "Nyx", "", "Thanks to Fang and PolyframeX for porting content from fandom!"],
-                [[2000, 25], "Nyx", "", "and for Noble on making this wiki possible!"]
+                [[2000, 25], "Nyx", "", "You should kill people with hammers."]
             ]
         },
 
@@ -253,7 +249,7 @@
                 [[2000, 25], "Tazer", "point", "Did you know?"],
                 [[4000, 25], "Tazer", "default", "You can drift with the <highlight>Mini Bus</highlight> by holding the <highlight>SPACE</highlight> key!"],
                 [[2000, 25], "Green", "angry", "Just..."],
-                [[3000, 25], "Green", "angry", "Try not to drift inside the station like what Tazer did!"],
+                [[2000, 25], "Green", "angry", "Try not to drift inside the station like what Tazer did!"],
                 [[4000, 25], "Tazer", "sweat", "Hey! Don't call me out like that!"]
             ]
         },
@@ -261,15 +257,15 @@
         "tazer002": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Tazer", "point", "On fire?"],
-                [[3000, 25], "Tazer", "default", "You can put yourself out by drinking a cold cola."]
+                [[2000, 25], "Tazer", "point", "On fire?"],
+                [[2000, 25], "Tazer", "default", "You can put yourself out by drinking a cold cola."]
             ]
         },
 
         "tazer003": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Tazer", "default", "Ever listen to the radio?"],
+                [[2000, 25], "Tazer", "default", "Ever listen to the radio?"],
                 [[4000, 25], "Tazer", "point", "We've got an amazing selection of music and memes, alongside awesome DJs to help out between music transitions!"]
             ]
         },
@@ -277,38 +273,38 @@
         "tazer004": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Tazer", "default", "If you own the Airhorn gamepass, you should try using it near some of the people you encounter."],
-                [[3000, 25], "Tazer", "default", "Just don't tell them I told you to do it."]
+                [[2000, 25], "Tazer", "default", "If you own the Airhorn gamepass, you should try using it near some of the people you encounter."],
+                [[2000, 25], "Tazer", "default", "Just don't tell them I told you to do it."]
             ]
         },
 
         "tazer005": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Tazer", "point", "You can check out the beta version of the game to see things being added to the game in future updates!"],
-                [[3000, 25], "Tazer", "point", "Just remember, not everything there is always going to be fully functional."]
+                [[2000, 25], "Tazer", "point", "You can check out the beta version of the game to see things being added to the game in future updates!"],
+                [[2000, 25], "Tazer", "point", "Just remember, not everything there is always going to be fully functional."]
             ]
         },
 
         "tazer006": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Tazer", "default", "Want a small passenger rep boost?"],
-                [[3000, 25], "Tazer", "default", "You know who to look out for."]
+                [[2000, 25], "Tazer", "default", "Want a small passenger rep boost?"],
+                [[2000, 25], "Tazer", "default", "You know who to look out for."]
             ]
         },
 
         "tazer007": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Tazer", "angry", "If you see Green or Disc around, tell them to lower my gas prices!"]
+                [[2000, 25], "Tazer", "angry", "If you see Green or Disc around, tell them to lower my gas prices!"]
             ]
         },
 
         "tazer008": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Tazer", "default", "If you ever find yourself in a sticky situation in the backwalls, you can use liquid void to camouflage yourself."]
+                [[2000, 25], "Tazer", "default", "If you ever find yourself in a sticky situation in the backwalls, you can use liquid void to camouflage yourself."]
             ]
         },
         
@@ -316,7 +312,7 @@
             "rarity": 100,
             "dialogue": [
                 [[15000, 25], "Tazer", "point", "Did you know?"],
-                [[3000, 25], "Tazer", "point", "Well, now you do!"]
+                [[2000, 25], "Tazer", "point", "Well, now you do!"]
             ]
         },
         
@@ -326,7 +322,7 @@
             "dialogue": [
                 [[2000, 25], "Zeon", "default", "Hey, thanks for checking us out!"],
                 [[2000, 25], "Zeon", "point", "Just remember your common sense.."],
-                [[3000, 25], "Zeon", "angry", "..and DON'T break into people's houses. Even if it's just for RAM..."]
+                [[2000, 25], "Zeon", "angry", "..and DON'T break into people's houses. Even if it's just for RAM..."]
             ]
         },
 
@@ -336,7 +332,7 @@
                 [[250, 25], "Zeon", "close", "Be sure to like, comment and-"],
                 [[1000, 25], "Zeon", "default", "Wait..."],
                 [[2000, 25], "Zeon", "default", "wrong place.."],
-                [[3000, 25], "Zeon", "point", "Just enjoy expanding your knowledge!"]
+                [[2000, 25], "Zeon", "point", "Just enjoy expanding your knowledge!"]
             ]
         },
 
@@ -345,45 +341,45 @@
             "dialogue": [
                 [[2000, 50], "Zeon", "default", "Wait..."],
                 [[2000, 25], "Zeon", "close", "You seem familiar..."],
-                [[3000, 25], "Zeon", "point", "Didn't you break into my house before?"]
+                [[2000, 25], "Zeon", "point", "Didn't you break into my house before?"]
             ]
         },
 
         "zeon004": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Zeon", "point", "I heard a cat sells some knitted sweaters!"],
-                [[3000, 25], "Zeon", "point", "You should talk to him some time!"]
+                [[2000, 25], "Zeon", "point", "I heard a cat sells some knitted sweaters!"],
+                [[2000, 25], "Zeon", "point", "You should talk to him some time!"]
             ]
         },
 
         "zeon005": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Zeon", "point", "Remember to support local businesses!"]
+                [[2000, 25], "Zeon", "point", "Remember to support local businesses!"]
             ]
         },
 
         "zeon006": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Zeon", "point", "You can survive the Flash Flood by eating some quick-healing items!"],
-                [[3000, 25], "Zeon", "close", "Just hope it doesn't taste soggy..."]
+                [[2000, 25], "Zeon", "point", "You can survive the Flash Flood by eating some quick-healing items!"],
+                [[2000, 25], "Zeon", "close", "Just hope it doesn't taste soggy..."]
             ]
         },
 
         "zeon007": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Zeon", "point", "Don't forget!"],
-                [[3000, 25], "Zeon", "close", "<text style=\"color: red;\">You're here forever.</text>"]
+                [[2000, 25], "Zeon", "point", "Don't forget!"],
+                [[2000, 25], "Zeon", "close", "<text style=\"color: red;\">You're here forever.</text>"]
             ]
         },
 
         "zeon008a": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Zeon", "point", "My dialogue <highlight>michael</highlight> is related to both the cat and a zombie-horde survival game based off of said cat meme!"]
+                [[2000, 25], "Zeon", "point", "My dialogue <highlight>michael</highlight> is related to both the cat and a zombie-horde survival game based off of said cat meme!"]
             ]
         },
 
@@ -391,14 +387,14 @@
             "rarity": 100,
             "dialogue": [
                 [[2000, 25], "Zeon", "point", "My dialogue <highlight>michael</highlight> is related to both the cat and a zombie-horde survival game based off of said cat meme!"],
-                [[3000, 25], "Zeon", "close", "michael"]
+                [[2000, 25], "Zeon", "close", "michael"]
             ]
         },
 
         "zeon009": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Zeon", "close", "king my beloved"]
+                [[2000, 25], "Zeon", "close", "king my beloved"]
             ]
         },
 
@@ -407,14 +403,14 @@
             "dialogue": [
                 [[1000, 25], "Zeon", "point", "Hey, if you see somebody in a dumpster behind the gas station..."],
                 [[2000, 25], "Zeon", "point", "Tell them I said they can come over! We still need to talk about those fictional turtle skeletons."],
-                [[3000, 25], "Zeon", "point", "They're so rad..."]
+                [[2000, 25], "Zeon", "point", "They're so rad..."]
             ]
         },
 
         "zeon011": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "Zeon", "close", "michael"]
+                [[1000, 25], "Zeon", "close", "michael"]
             ]
             
         },
@@ -422,11 +418,11 @@
         "d6001": {
             "rarity": 100,
             "dialogue": [
-                [[3000, 25], "D6", "default", "did you know?"],
+                [[2000, 25], "D6", "default", "did you know?"],
                 [[5000, 25], "D6", "default", "..."],
                 [[8000, 25], "D6", "default", "....."],
                 [[11000, 25], "D6", "default", ".........."],
-                [[3000, 25], "D6", "default", "well? i'm asking you, are you just gonna sit there and continue staring vacantly on your screen or what?"]
+                [[2000, 25], "D6", "default", "well? i'm asking you, are you just gonna sit there and continue staring vacantly on your screen or what?"]
             ]
             
         },
@@ -434,7 +430,7 @@
         "polyframex001": {
             "rarity": 25,
             "dialogue": [
-                [[3000, 25], "PolyframeX", "", "So... you like busses?"]
+                [[2000, 25], "PolyframeX", "", "So... you like busses?"]
             ]
         },
 
@@ -607,8 +603,8 @@
         "Contributors": "Character Data for Contributors",
 
         "Nyx": {
-            "dialogueSfx": ["event", 1, 250],
-            "dialogueColors": ["#333333", "grey", "grey"],
+            "dialogueSfx": ["nyx", 0.5, 250],
+            "dialogueColors": ["#802d25", "#c73c38", "#ff4545"],
             "dialogueEmoteName": "nyx"
         },
         "Fang": {

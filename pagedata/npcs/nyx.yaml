@@ -1,0 +1,100 @@
+editable: True
+page:
+  title: Nyx
+  description: Fizzy is a very minor NPC, and can only be seen infront of the Bloxdonalds.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim fizzy npc
+  
+  tags: nyx, npc
+  ignore: ignore
+
+  header:
+    description: |
+      Category: [NPCs](npcs)
+    
+    imageBanner: /bussim-assets/images/banners/bus-banner.webp
+
+attributions: []
+
+content: |
+  !!INFOBOX TITLE:"Easter Egg Content" COLOR:"#A1FFEF" TEXT:"*\"you are not supposeed to be here\"* - Nyx\nv(This page is mainly easter egg content and is *never* found in the game. This is also where Wiki Contributors mess around.)"
+  
+  ##[Info]
+  Nyx is a contributor in Bus Simulator, she also made this entire website, with some help by kalcifur and chadgpt.
+  \n\n
+  Nyx can be found on the Crimson Realm. sometimes found (by chance) in other events. like [Bloxdonalds](bloxdonalds), [GOATed Gas Station](goated-gas-station), and more. (mainly events that has structure and lasts a few minutes or so.)
+
+  ##[Appearance]
+  Nyx wears a Crimson Wolf Hat, a Spiky Collar, a Double-Sided Crimson Scythe, Red Flannel Pants and Black Bandages around her Torso and Hands.
+  \n\n
+  Her eyes is obstructed by the Hat and her Hair, with only her Big Spiky Smile visible.
+
+  ##[Favourite Drink]
+  Nyx's favourite drink is [Crimson Elixir](recipes#items). This gives you 4 driver or passenger rep.
+
+  ##[Dialogue]
+  !!DLEMULATOR EID:"nyxemulator" SID:"start" URL:"/assets/bussim/emulatorData/nyx.json"
+
+  - hg[Variant 1]: "yo."
+  - hg[Variant 2]: "hey there."
+  - hg[Variant 3]: "yo! what's up?"
+  - hg[Variant 4]: "i don't think you should be here but.. what's up?"
+  - hg[Variant 5]: "heyyyyyyyyyyyyyy..... what's up?"
+    - hg[Choice 1]: WHERE AM I!?
+      - "welcome to the crimson realm!"
+        - hg[Choice 1]: sounds like a knockoff to the shadow realms...
+          - "SHUT. UP. this is NOT the SHADOW REALMS."
+            - hg[Choice 1]: im sorry.
+              - "you better be."
+        - hg[Choice 2]: cool name
+          - "i know right?"
+        - hg[Choice 3]: is there any way out?
+          - "yeah there is."
+          - "if you can pay me some rep, i can spawn a portal out of here."
+          - "just do note that.. it costs really.. really expensive... is it a deal?"
+            - hg[Choice 1]: deal.
+              - "are you sure about that? like, i haven't told you the price yet."
+                - hg[Choice 1]: yeah.
+                  - "alright, that will be 500 rep~"
+                  - "haha, just kidding. that will be 25 rep. deal?"
+                    - hg[Choice 1]: deal.
+                      - "alright, thanks for the rep!"
+                      - "and... get scammed!"
+                      - h[This unlocks the "get me out of here" choice]
+                - hg[Choice 1]: how much is it?
+                  - "glad you asked!"
+                  - "that will cost around.. 25 rep. deal?"
+                    - hg[Choice 1]: deal.
+                      - "alright, cool!"
+                      - "just talk to me again if you wanna get out of here."
+                      - h[This unlocks the "get me out of here" choice]
+                    - hg[Choice 2]: actually, nevermind.
+                      - "so.. you wanna stay?"
+            - hg[Choice 1]: i dont have enough rep...
+              - h[If the player has >25+ rep]
+                - "oh.. no.. don't lie to my face."
+                - "i can see that you have enough rep."
+                  - hg[Choice 1]: did you just-?
+                    - "no..."
+                    - "so um, is it a deal?"
+                      - hg[Choice 1]: ..deal.
+                        - "you sound very unsure about that."
+                      - hg[Choice 2]: nevermind.
+              - h[If the player has <25 rep]
+                - "oh... uhm..."
+                - "look! a cool looking red orb behind you!"
+            - hg[Choice 1]: instead of rep, can i pay with <float>hr[pearcoin^(TM)]</float>?
+              - "..huh? that sounds like a scam..."
+    - hg[Choice 2]: who are you
+      - "i'm nyx."
+      - "who are you?"
+        - hg[Choice 1]: [Introduce yourself]
+          - "hi [Player]! what's up?"
+        - hg[Choice 1]: [Leave quietly.]
+          - "uhh.. bye?"
+    - hg[Choice 3]: get me out of here <small>(choice shows up if you have paid her rep)</small>
+    - hg[Choice 4]: nevermind.
+      - hg[Variant 1]: "uh.. suuure."
+      - hg[Variant 1]: "uhm..???"
+      - hg[Variant 1]: "okay.."
+    

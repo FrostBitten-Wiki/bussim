@@ -1,17 +1,18 @@
 editable: True
 page:
-  title: Placeholder
+  title: Cubes
   description: Placeholder
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
     title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[Cubes]\n
+      Event Runtime: h[5 minutes (300 seconds)]
     
     image: ""
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
@@ -20,9 +21,13 @@ attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  During the event Cubes, cubes move all around the bus, playing many xylophone notes. After some time, the driver announces they've convinced the cubes to go back to Nintendo Land. A few moments after that, the event ends.
 
   ##[Trivia]
-  - Trivia Here
+  - This event is an obvious reference to the Nintendo GameCube startup sequence.
+  - Perhaps another, unintentional reference, the "Nintendo Land" that the cubes return to is the same name as a Wii U launch title.
+  - Sometimes a cube can make a sound that goes "Boom! Fricko!"
+    - It comes from the game [Boom and Fricko](https://www.roblox.com/games/2081092459/Boom-and-Fricko).
+  - The runtime of this event is 1 minute and 5 seconds, making it a really similar runtime to both the BaconHair and Glitches events.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/events/cubes.webp]

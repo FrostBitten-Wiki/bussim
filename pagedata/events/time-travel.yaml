@@ -11,7 +11,9 @@ page:
   header:
     title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[TimeTravel]\n
+      Event Runtime: h[Unknown]  
     
     image: ""
     imageBanner: /assets/bussim/images/banners/bus-banner.webp

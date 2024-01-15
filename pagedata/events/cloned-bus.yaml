@@ -1,17 +1,17 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Cloned Bus
+  description: The Clone Event is an event in Bus Simulator, where the bus gets cloned. Eventually it turns out it's unstable and disappears shortly after.
     
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim cloned bus event
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[Clone]
+      Event Runtime h[Unknown]
     
     image: ""
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
