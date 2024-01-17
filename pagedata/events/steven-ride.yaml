@@ -1,17 +1,18 @@
 editable: True
 page:
-  title: Placeholder
+  title: Steven Ride
   description: Placeholder
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
     title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[StevenRide]\n
+      Event Runtime: h[25 seconds (Pickup) + Event being \*truly\* over: Random Seconds]
     
     image: ""
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
@@ -20,9 +21,50 @@ attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  Steven Ride event or known as Steven_Scripts (Event), is an event that is almost identical to the [Passengers](passengers) event in Bus Simulator.
+  \n\n
+  When this event happens, a black figurine will appear in front of the bus, after the driver allows the mysterious figure to go inside the bus, it is then revealed to be Steven_Scripts himself.
+  \n\n
+  The event afterwards will function the same with Steven_Scripts having an assigned timer on random, and jumping off once it expires. If Steven_Scripts' timer expires whilst the Bus is stopped however, Steven_Scripts will briefly do a quick dialogue before flying into space.
+  \n\n
+  If however the [Backwalls](backwalls) happens before Steven_Scripts can jump off, you will find him in the Backwalls, violently sobbing in one of the rooms.
+  \n\n
+  Lastly, if the same exact event happens while Steven_Scripts is still on the bus, it will instead show a stone statue in a T-pose, before the driver promptly runs it over.
+  
+  ##[Dialogue]
+  ###[Intro Dialogue]
+  - EVENT: "What the..?"
+  - ???: "Hey, I need to get somewhere! Let me in!"
+  - Player: "..ookay?"
+  - Player: "I don't know about this..."
+  - Steven_Scripts: "Take me to the next stop."
+  - Player: "Hey, it's--"
+  - Steven_Scripts: "shhhhHHH. We all know already. Get going."
+  
+  ###[Exit Dialogue]
+  - Steven_Scripts: "Hey! You just drove past my stop, you friggin-"
+  - Steven_Scripts: "Agh, Max is gonna be so mad if I din't catch it. Gotta go!"
+  - EVENT: "The event is \*truly\* over!"
 
-  ##[Trivia]
-  - Trivia Here
+  ###[If Steven_Scripts doesn't die...]
+  - Steven_Scripts: "Oh, I'm alive."
+  - Steven_Scripts: "Well bye"
+
+  ###[If Steven_Scripts was sent to the Backwalls before leaving...]
+  - Steven_Scripts: \*violent sobbing\*
+
+  ###[If the Steven Ride is chosen again before Steven_Scripts can leave...]
+  - EVENT: "Oh god, not anothe--"
+  - EVENT: "Actually, that's just a rock. Huh."
+
+  ##[Trivia]  
+  - While you may not be able to see Steven_Scripts at first glance during his introduction, the harmonica sound effect will still play before and after the introduction.
+    - The harmonica sound effect is also be distorted if you spot him in the [Backwalls](backwalls).
+  - If Steven_Scripts ride on the Bus and all of the seats in the first floor are filled, Steven_Scripts will instead sit down next to the bathroom, defeated.
+  - Unlike the [Steven_Scripts](steven) found behind [Bloxdonalds](bloxdonalds), you can't talk nor interact with him in any way.
+    - You can't also annoy both [Steven_Scripts](steven) using the [Airhorn](airhorn), however depending on his position you might accidentally annoy [Pear](pear).
+  - The pickup only takes 25 seconds, however the time the event is \*truly\* over is random.
+  - Steven_Scripts actually changes his name in the End Dialogue, where he is referred to as Steven instead.
+  - Steven_Scripts also T-Poses before entering the Bus, akin to his other version where it is a Stone Statue if Steven's already in the Bus.
 
   !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
