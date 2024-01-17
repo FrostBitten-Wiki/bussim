@@ -232,16 +232,12 @@ content: |-
     - hg[Option 3]: You need anything?
       - "Well, apart from the compass, I don't seem to have a map that I can use to navigate..."
         - hg[Offer item: Map]
-          - "A map? Tha-"
-          - "HEY! Did you just steal this map?!" 
-            - hg[Option 1]: I didn't.
-              - "Oh, well thank you then! I might be able to return back to the city now!"
-              - *You: You definitely stole it, but it should work fine. +1 trust*
-            - hg[Option 2]: I did...
-              - "Well.. at least you are being honest about it." 
-              - "Best you can do though is to at least put it back if we ever meet again. Then again.. a map doesn't cost that much anyways.."
-              - "Thoughts aside, thanks for helping me a lot. I might be able to return back now!"
-              - *You: Hopefully it should be enough. +1 trust*
+          - "A map? Thanks! I might be able to go back to  the city now!"
+            - *You: You definitely stole it, but it should work fine! +1 trust*
+              - "Oh, also.."
+              - "I wonder how you got this map?"
+                - hg[Uh...] 
+                  - "Well, beats me. Thanks for it though!"
     - hg[Option 4]: Nevermind. 
       - hg[Variant 1]: "Ah, alright then!"
       - hg[Variant 2]: "Ah, okay."

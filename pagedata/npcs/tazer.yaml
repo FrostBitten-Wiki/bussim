@@ -82,7 +82,7 @@ content: |-
           - hg[Variant 2]: "Cya then."
           - hg[Variant 3]: "Bruh..."
           - hg[Variant 4]: "With regards from Tazer..."
-              - The player is then flung.
+              - The player is then flinged.
           - hg[Variant 5]: "Tazer jumpscare"
               - Tazer then kills the player by "jumpscaring" them.
 
@@ -244,7 +244,7 @@ content: |-
         - hg[Variant 4]: "Then stop wasting my time."
         - hg[Variant 5]: "Cya I guess."
         - hg[Variant 6]: "With regards from Tazer..."
-          - The player is then flunged.
+          - The player is then flinged.
         - hg[Variant 7]: "Then scram before I hit ya with a wrench! Haha, just kidding. Feel free to stop by whenever!"
 
   ###[Drink Responses]

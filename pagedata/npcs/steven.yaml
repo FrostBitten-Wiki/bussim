@@ -39,6 +39,52 @@ content: |-
             - hg[Option 1]: Why is there a body behind you?
                 - "Body? What body?"
             - hg[Option 2]: Oookay... [Leave.] 
+    - hg[Option 3]: Wait, weren't you just on the bus?
+      - "I dunno :3"
+        - hg[Option 1]: Okay...
+        - hg[Option 2]: What?
+          - "What?"
+      
+  ##[Dialogue (Steven Ride)]
+  !!DLEMULATOR EID:"stevenrideemulator" SID:"start" URL:"/assets/bussim/emulatorData/stevenride.json"
+
+  - hg[Variant 1]: "Hey."
+  - hg[Variant 2]: "Yeah?"
+  - hg[Variant 3]: "What's up?"
+  - hg[Variant 4]: "What?"
+  - hg[Variant 5]: "Uh, hey."
+    - hg[Option 1]: Where are you going?
+      - "Home."
+        - hg[Option 1]: Where is that? 
+          - "...Why would I tell you that?"
+        - hg[Option 2]: Okay.
+    - hg[Option 2]: Who are you again?
+      - "I'm Steven. I made *Bus Stop Simulator*."
+        - hg[Option 1]: What's that?
+          - "Ah, it's an old hangout game I made when I was younger. This game was partially inspired by it." 
+            - hg[Option 1]: Aren't you breaking the fourth wall?
+              - "Aren't you breaking it by asking?"
+            - hg[Option 2]: Cool.
+        - hg[Option 2]: Okay.
+    - hg[Option 3]: Your harmonica...
+      - "Hm?" 
+        - hg[Option 1]: Doesn't that cost a lot of money?
+          - "Yea. It was worth it."
+        - hg[Option 2]: Take it off. It's annoying.
+          - "Nope."
+            - hg[Option 1]: Take it off.
+              - "Nope."
+                - hg[Option 1]: Take it off.
+                  - "Nope." <8px>((This repeats forever until you select hg[Dang.]))
+                - hg[Option 2]: Dang.
+            - hg[Option 2]: Dang.
+        - hg[Option 3]: Okay.
+    - hg[Option 4]: Nevermind.
+    - hg[Option 5]: Why is there another one of you behind the bloxdonalds? <8px>((Only accessible during the Bloxdonalds Event.))
+      - "Ugh. Don't mention him."
+        - hg[Option 1]: Alright.
+        - hg[Option 2]: Why?
+          - "Long story. No time to talk about it."
 
   ##[Trivia]
   - Compared to the many other talkative NPCs in the game, Steven_Scripts cannot be annoyed using an [Airhorn](airhorn).
