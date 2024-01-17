@@ -1,15 +1,13 @@
 editable: True
 page:
-  title: Placeholder
+  title: Teddy (Micoff)
   description: Placeholder
     
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim teddy event, roblox bus sim micoff event
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
       Category: [Events](events)
     
