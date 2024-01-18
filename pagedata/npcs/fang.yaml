@@ -177,23 +177,26 @@ content: |-
               - "Thankfully the compass helps, but I still need something to figure out where I am..."
                 - hg[A map, maybe?]
                   - "Oh that! No idea how to get one though..."
-                  - "Say, someone must have a map especially in their homes; quite a common trend really..."
-                    - hg[..you want to break into a house?] 
-                      - "WHAT? NO!!! I meant just asking them if you can have a look and take a photo of it!"
-                      - "But.. I don't mind having an actual map myself..."
-                        - hg[Option 1]: You are really polite for a werewolf.
-                          - "Thanks for that, although the proper outfit would've already given that way."
+                  - "I know that they used to be popular in many shops, but I think they all got sold out during my time there..."
+                    - hg[..so you want to break into a house?] 
+                      - "wait what"
+                        - hg[Option 1]: You heard me.
+                          - "Uh.. no thanks. I'd rather not break into a house just for a map."
+                          - "But there may still be some maps on sale somewhere.. At least, I hope so."
                             - Following this dialogue will allow you to offer the [Map](fang-map) to him.
-                        - hg[Option 2]: I'll see what I can do.
-                          - "Alright, just.. don't commit crimes okay?.."
-                            - Following this dialogue will allow you to offer the [Map](fang-map) to him.
+                        - hg[Option 2]: ..nevermind.
+                          - "You said that with such confidence earlier, did you-"
+                            - hg[**Let's not talk about that incident.**]
+                              - "I.. okay then."
+                              - "I think there may still be some maps left on sale though. At least, I think.."
+                                - Following this dialogue will allow you to offer the [Map](fang-map) to him.
             - hg[Option 2]: Did you have a human form?
               - "Well, I probably did have one.. but I don't remember who I was back then."
-              - "I don't mind it though, probably what I originally wanted; I get cool strength and stuff!!"
+              - "I don't mind it though, probably what I originally wanted; I get cool strength and stuff!"
                 - hg[Option 1]: The silver in question:
                   - "We don't talk about that..."
                 - hg[Option 2]: How did you get bit anyways?
-                  - "That's a blur..."
+                  - "Can't remember..."
                 - hg[Option 3]: Wouldn't this make you a worgen then?
                   - "You're right but I don't think anyone really knows what worgens are instead of werewolves so..."
                     - hg[Fair enough.] 
@@ -235,8 +238,8 @@ content: |-
           - "A map? Thanks! I might be able to go back to  the city now!"
             - *You: You definitely stole it, but it should work fine! +1 trust*
               - "Oh, also.."
-              - "I wonder how you got this map?"
-                - hg[Uh...] 
+              - "..how did you get this map?"
+                - hg[...Uh.] 
                   - "Well, beats me. Thanks for it though!"
     - hg[Option 4]: Nevermind. 
       - hg[Variant 1]: "Ah, alright then!"
