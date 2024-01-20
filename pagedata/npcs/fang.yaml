@@ -32,9 +32,9 @@ content: |-
   Fang's favourite drink is the <clr:#000099>[Blueberry Milkshake](cafe-coffee-recipes). This gives you either 6 passenger or driver rep.
 
   ##[Trust]
-  Similar to [Frost](frostbite), he also has his own trust level, with each increasing by one, up to 3 at most. You can increase it by striking specific conversations with him and by offering navigation tools to him.
+  Similar to [Frost](frostbite), he also has his own trust level, with each increasing by one, up to 2 at most. You can increase it by striking specific conversations with him and by offering navigation tools to him.
   With each level, more dialogue and options will be accessible and remains permanent afterwards.
-  Once you have achieved more than 3 trust with him, he will also appear in the [Cafe](cafe).
+  Once you have achieved more than 2 trust with him, he will also appear in the [Cafe](cafe).
 
   ##[Dialogue]
   ###[**Intruder (Intro)**]
@@ -176,7 +176,7 @@ content: |-
               - "Well, I wasn't really much of a cityfolk, or even any at all. But I've wanted to know what it's like to be in those shimmering lights every night."
               - "Thankfully the compass helps, but I still need something to figure out where I am..."
                 - hg[A map, maybe?]
-                  - "Oh that! No idea how to get one though..."
+                  - "Oh that! No idea how to get one though."
                   - "I know that they used to be popular in many shops, but I think they all got sold out during my time there..."
                     - hg[..so you want to break into a house?] 
                       - "wait what"
@@ -188,7 +188,7 @@ content: |-
                           - "You said that with such confidence earlier, did you-"
                             - hg[**Let's not talk about that incident.**]
                               - "I.. okay then."
-                              - "I think there may still be some maps left on sale though. At least, I think.."
+                              - "I think there may still be some maps left on sale though. At least, I think."
                                 - Following this dialogue will allow you to offer the [Map](fang-map) to him.
             - hg[Option 2]: Did you have a human form?
               - "Well, I probably did have one.. but I don't remember who I was back then."
@@ -196,9 +196,9 @@ content: |-
                 - hg[Option 1]: The silver in question:
                   - "We don't talk about that..."
                 - hg[Option 2]: How did you get bit anyways?
-                  - "Can't remember..."
+                  - "Can't remember."
                 - hg[Option 3]: Wouldn't this make you a worgen then?
-                  - "You're right but I don't think anyone really knows what worgens are instead of werewolves so..."
+                  - "You're right, but I don't think anyone really knows what worgens are instead of werewolves so..."
                     - hg[Fair enough.] 
         - hg[Option 2]: About your friends...
           - "Hm? What about them?"
@@ -232,15 +232,21 @@ content: |-
               - Variant 3:
                 - "I remember being in that one race back then, the one with the Mini-Buses and it was WILD! People were getting airstriked left and right, all the while I had a rocket change after me!."
                 - "It didn't seem to deal any damage to me thankfully, just only reduced my speed.. I hope the parking officers aren't mad at me..."
+              - Variant 4:
+                - "Hey, if you ever see some human wearing a purple sweater, scarf and has purple hair; tell them I said hello!" 
+                  - hg[Aren't you the black wolf with glasses she was talking about?] <8px>((Only accessible if Zeon uses this specific variant.))
+                    - "Oh, you know her too? Nice."
+                    - "Well, at least we got to talk even if I'm.. still lost out here."
     - hg[Option 3]: You need anything?
       - "Well, apart from the compass, I don't seem to have a map that I can use to navigate..."
         - hg[Offer item: Map]
           - "A map? Thanks! I might be able to go back to  the city now!"
             - *You: You definitely stole it, but it should work fine! +1 trust*
               - "Oh, also.."
-              - "..how did you get this map?"
-                - hg[...Uh.] 
-                  - "Well, beats me. Thanks for it though!"
+              - "....how did you get this map?"
+                - hg[...Uhm.] 
+                  - "Well, beats me. I can't thank you enough for this though, feels like I can now get out of this dang forest."
+                  - "Alright then, see you on the flipside!"
     - hg[Option 4]: Nevermind. 
       - hg[Variant 1]: "Ah, alright then!"
       - hg[Variant 2]: "Ah, okay."

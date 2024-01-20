@@ -20,18 +20,19 @@ attributions:
   - Converted to Jinki Markdown by Nyx (@nyxical)
 
 content: |
-  !!INFOBOX TITLE:"Stub Content" COLOR:"#ff8c2e" TEXT:"*\"not much to talk here, but.. well..\"* -Efeuc\n<small>This page is a stub, it may not contain all of the information in the game; so adding more information to this page is always appreciated!</small>"
   "The entities around here are kinda scary... I tried to hide away in a room when one spotted me, but it still knew where I was..! I guess they can still track you for a bit when you're out of sight..." -"Pear"
 
   ##[Info]
-  Entities are NPC's found in the [Backwalls](backwalls), they're hostile towards players and will kill them if exposed enough.
-
-  ##[AI (Artificial Intellegence)]
-  - The AI of the entities works like the NPCs found in [No Dough](no-dough) and [Santa's Gone](santas-gone) except a few major differences.
-  - If they spot a player in the Backwalls they will check the area where they last spotted them.
-  - They don't get distracted to any items (Example Airhorn, Spronkbib Popsicle, etc) making them nearly useless.
-  - Their speed increases when they fully spotted a player.
-  - Sometimes, Entities can bundle up in an area, making it harder/impossible to pass through without [Liquid Void](liquid-void).
-  - If you get spotted, you will be stunned for a second, much like getting spotted in No Dough. But you don't die immediately.
+  Entities are NPCs found in the [Backwalls](backwalls), they're hostile towards players and will kill them if they directly contact the player. They also have a faint unnatural sound and cannot attack [Pear](pear).
+  \n 
+  ##[Appearance]
+  The entities are both tall and slim, with a very unnatural material composition. They possess only white eyes and have a dark aura around them. 
+  \n 
+  ##[Tips]
+  Much like the Civilians from [No Dough](no-dough) and [Santa's Gone](santas-gone), they can detect players within their range, but with a few alterations.
+  - Entities can detect players in a much wider range and remembers your position if the line of sight breaks, they are also generally faster and undistractable by sound items. 
+  - Once they detect you, you won't instantly die but get stunned. Only a well timed [Almond Water](almond-water) and [Liquid Void](liquid-void) can save you in this case. 
+    - You may also try to use the teleporters if you are near one or the exit, but there's no guarantee it's a risk worth taking.
+  - You may also use Liquid Void to evade them completely or by timing your movements right.
 
   !!GALLERY [/assets/bussim/images/npcs/entity.webp]  
