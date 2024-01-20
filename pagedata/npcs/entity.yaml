@@ -28,7 +28,7 @@ content: |
   ##[Appearance]
   The entities are both tall and slim, with a very unnatural material composition. They possess only white eyes and have a dark aura around them. 
   \n 
-  ##[Tips]
+  ##[AI]
   Much like the Civilians from [No Dough](no-dough) and [Santa's Gone](santas-gone), they can detect players within their range, but with a few alterations.
   - Entities can detect players in a much wider range and remembers your position if the line of sight breaks, they are also generally faster and undistractable by sound items. 
   - Once they detect you, you won't instantly die but get stunned. Only a well timed [Almond Water](almond-water) and [Liquid Void](liquid-void) can save you in this case. 
