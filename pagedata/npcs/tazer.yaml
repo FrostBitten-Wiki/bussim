@@ -262,7 +262,9 @@ content: |-
     - "And hey, since I put you through all the hassle of solving a riddle all on your own, here's 3 passenger rep to make up for it."
       - If you given him another <clr:#7300fe>(***Cup of Glowstick Fluid***):
         - "Another one, huh?"
-        - "Awesome."
+        - hg[Variant 1]: "Awesome."
+        - hg[Variant 2]: "Thanks, I'll drink this later."
+
 
   ##[Trivia]
   - When you visit GoatedGas, you're able to find a discarded note in the trash can, inspecting it gives you what is written on the note:
