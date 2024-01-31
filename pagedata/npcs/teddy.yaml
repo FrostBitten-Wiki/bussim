@@ -1,26 +1,26 @@
-editable: True
+editable: true
 page:
   title: Teddy
   description: |
     Teddy is an NPC that appears most often in his events: being both Micspam and Micoff. He also has a special effect where his shadow is that of a large circle, rather than raycasted off of his body.
-    
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim teddy npc
-  
+
   tags: teddy, npc
 
   header:
     title: Teddy
     description: |
       Category: [NPCs](npcs)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical)
 
-content: |
+content: |-
   !!BUTTONS [<highlight>Micspam</highlight>,renderHTML('/bussim/npcs/teddy')|Micoff,renderHTML('/bussim/npcs/teddy/micoff')]
 
   ##[Info]
@@ -30,6 +30,7 @@ content: |
   Teddy wears a simple black-gold top hat as well as a box as his torso clothing. He also often has a megaphone at hand too when appearing.
 
   ##[Trivia]
+  - The event originalated from when Teddy was playing Arsenal, and would play the same song with the same megaphone emote from the game, and he nicknamed it the "Arsenal OST".
   - Teddy has been referenced before in a [News Article](news), about a local toon causing a 24-hour traffic jam by singing through a megaphone.\n\n
   - The custom shadow that Teddy has is referenced from Toontown, where his avatar is also inspired from.
 
