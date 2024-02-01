@@ -19,7 +19,11 @@ page:
 attributions: []
 
 content: |
-  ##[Locations]
+  ##[Info] 
+  The GPS Locations are namely just flavor text that the GPS provides ever so often. This entire page attempts to document as much locations that are found within the game, with over __**396**__ Locations in this list, excluding special locations.
+  \n\n 
+  If you found a location that is within the game, feel free to message us on Forstbitten Gnag Wiki! 
+  ##[Random Locations (396)]
   * 1st Avenue
   * 1st Street
   * 2nd Avenue
@@ -324,7 +328,6 @@ content: |
   * Race Street
   * Railroad Avenue
   * Railroad Street
-  * Recalculating.. (Shows up for a split second when you equip the GPS or for a couple of seconds when an event with a special GPS location ends)
   * Redwood Drive
   * Ridge Avenue
   * Ridge Road
@@ -418,11 +421,13 @@ content: |
   * York Road
   * York Street
 
-  ##[Event-Exclusive Locations (11)]
+  ##[Special Locations (13)]
+  * Recalculating.. (Shows up for a split second when you equip the GPS or for a couple of seconds when an event with a special GPS location ends)
   * ??? ([Art Gallery](art-gallery) & [Ragdoll](commands#ragdoll))
   * ?????? ([Backwalls](backwalls))
   * 2648 Goat Ave ([GOATed Gas Station](goat-station))
   * 472 Luacode Lane ([Noble's House](nobles-house))
+  * 5120 Wrench Ave ([Cafe](cafe))
   * Act of Despair ([No Dough](no-dough))
   * Billy Nation ([Billy](billy))
   * Bloxdonalds ([Bloxdonalds](bloxdonalds))

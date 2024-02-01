@@ -1,7 +1,7 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Games
+  description: Games are rather simple mini-games played either with a RoEmulator, a Gameboy Advance, or the Simon Says on the third floor of The Bus; mainly serve to wait inbetween Events.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim placeholder
 
@@ -14,13 +14,56 @@ page:
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
     
 attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  - "Ported By FangedWerewolf (@noobbiom)"
 
 content: |
   ##[Info]
-  Placeholder
+  Games are rather simple mini-games played either with a [RoEmulator](roemulator), a [Gameboy Advance](gameboy-advannce), or the Simon Says on the third floor of [The Bus](the-bus); mainly serve to wait inbetween Events.
 
-  ##[Trivia]
-  - Placeholder
+  ##[Simon Says]
+  Simon Says is a simple memory game that tests how long you can remember the pattern. Every round randomizes the color sequence, and adds one additional color to it. (1 -> 2 -> 3...)
+  \n\n 
+  If you beat the global/server high score, you will hear a party blower, confetti will pop out, and your username/display name will show up on the slip of paper next to it, and has your quote underneath it, if you set one via !quote.
 
-  !!GALLERY [/bussim-assets/images/others/billboard/Billboard.webp|/bussim-assets/images/others/billboard/Ad_Billboard.webp]
+  ##[RoEmulator]
+  If you purchased the [RoEmulator Gamepass](https://www.roblox.com/game-pass/6167070/RoEmulator), you can play three games: Adventure Island, Race the Sunset, and Lunar Lander, all of which are classic Roblox games. 
+
+  ###[Adventure Island]
+  Adventure island is a side-scroller game that lasts up until the 4th level, in which it ends. You play as a caveman, throwing axes at enemies and collecting fruits, while reaching the goal without spending too much energy or dying. 
+  \n\n 
+  Each fruit will give you more energy, and energy depletes over time. You can also encounter objects that can boost your movement along the stage. 
+
+  ###[Race The Sunset]
+  Race the Sunset is an endless side-scroller game where you play as a slime dashing ontop of islands, collecting orbs to get points. The further you get, the faster the game is, and the more points you score. 
+
+  ###[Lunar Lander]
+  Lunar Lander is a space-themed flying game where you have to pick up a box and bring it back to the surface. The game only has 8 levels, varying in difficulty. If you go too fast and crash into a wall, fail to escort the box, among a few other methods, it's game over. 
+
+  ##[Gameboy Advance]
+  If you own the [Cartridge Gamepass](https://www.roblox.com/game-pass/7313794/Game-Cartridge), or found it in [Noble's House](nobles-house), you can invite another player to play game's with them. The games' are based off of either real games you can play in real life or in relation of other videogames. 
+
+  ###[Tic-Tac-Toe]
+  You play on a 3x3 board, with an objective to get three of your symbol (X or O's) in a row. Host always plays as X, and goes first. The game will be a tie if nobody gets a row. 
+
+  ###[Connect Four]
+  You play on an 8x8 tile wall, with an objective to get 4 of your matching colors in a row. It can be done either horizontally, vertically, or diagonally. The host always plays as red and goes first. 
+
+  ###[Battle Wagons]
+  You and the other player set up five wagons on a 11x9 piece, and try guessing where the enemy wagons are on the top half. The players get a five-tile long wagon, as well as four, three (x2), and two-tile wagons. Both players start with five shoots, one per wagon. If you lose a wagon, you get one less shot, making your turns more strategic the more you lose your wagons. 
+  \n\n 
+  The game is more focused on trial and error, to find where the enemy wagons are. White pegs on the top of the board is a miss, while red ones are a hit. 
+
+  ###[Friday Night]
+  You can challenge a friend to a rap battle, and play up to more than seven songs, some with a Hard difficulty, to see who's better at beatboxing. The game also has customization, like custom keys per arrow, up/down scroll, and more. An obvious reference to Friday Night Funkin.
+
+  ###[Rock Gun Knife]
+  You and a friend pick between Rock 🗿, Paper 📜, Scissors, ✂️, Gun 🔫, Shield 🛡️, and Knife 🔪. Knife only appears four rounds into the game, and whoever clicks on it first wins the game with 9999 points. You can also win by getting 3 points prior to the Knife being an option too. 
+  \n 
+  Each element also has its own unique counters and weaknesses, the knife however; counters all with no weaknesses. 
+  | Main Element | Counters | Weakness |
+  |--------------|----------|----------| 
+  | Rock 🗿 | - Scissors \n- Shield | - Paper \n- Gun |
+  | Paper 📜 | - Rock \n- Shield | - Scissors \n- Gun |
+  | Scissors ✂️ | - Paper \n- Shield | - Rock \n- Gun |
+  | Gun 🔫 | - Rock \n- Paper \n- Scissors | - Shield |
+  | Shield 🛡️ | - Gun | - Rock \n- Paper \n- Scissors |
