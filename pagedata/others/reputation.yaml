@@ -1,7 +1,10 @@
 editable: true
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Reputation
+  description: Reputation (or more commonly known as 'rep') is a statistic in Bus
+    Simulator that works either as collection for milestones like as heart tags, or
+    currency for permanent items, and it also has two different forms, both of which
+    can be obtained in different ways.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim placeholder
 
@@ -18,32 +21,39 @@ attributions:
 
 content: |-
   Reputation (or more commonly known as 'rep') is a statistic in Bus Simulator that works either as collection for milestones like as heart tags, or currency for permanent items, and it also has two different forms, both of which can be obtained in different ways.
+  \n\n 
+  Originally, it was meant to just be a collectable stat; with only Driver Reputation offering [Heart Tags](ranks-tags) as milestones and kicking lower reputable players.
+  \n\n
+  However, following the 10 Million Update and the introduction of [Goat Station](goated-gas-station), Passenger Reputation has become a currency as well, providing permanent items, services, and even [Mini-Bus](mini-bus) design(s).
 
   ##[Passenger Reputation]
-
-  Passenger reputation is obtained by:
-
-  * Thanking your current Bus Driver (using "thanks" "thx" "thank" "+rep" "tank", etc.) and the driver's name after that. The name also must have at least the first three letters of their display/username.
-      * An example would be: "+rep Joe" or "thanks Try" (Display Name: Tryhard | Username: Joe47478)
-
-  * Getting it as an hourly gift from the New Year's event. (1-5 Any Rep)
-  * Inviting or being invited by a friend, and staying with them for an hour. (10 passenger rep per friend, up to 30 per day)
-
-  You can use passenger reputation in buying permanent items from Goated Gas, or you can spend it on Pear in the Backwalls event to find the way out. The two badges related to it are "Thanks!" which requires just on passenger rep, and "Thankful" which requires 100 passenger rep. You also won't be able to thank the same driver twice unless you already spent your reputation tied to them.
-
+  Passenger Reputation can be obtained by: 
+  - Thanking your current Bus Driver **<12px>((using "thanks" "thx" "thank" "+rep" "tank", etc.))** and the driver's name after that. The name also must have at least the first three letters of their display/username. **(1 Passenger Reputation)**
+       - An example would be: "+rep Joe" or "thanks Try" **<12px>((Display Name: Tryhard | Username: Joe47478))**
+  - Getting it as a half-hourly gift from the New Year's event. **(3-20 Passenger Reputation)**
+  - Inviting or being invited by a friend, and staying with them for an hour. **(10 Passenger Reputation per friend, up to 30 per day)**
+  - Giving [Drinks](cafe-coffee) to [NPCs](npcs). **(1-6 Passenger Reputation)** 
+  - Finishing the [Cafe](cafe) mini-game with high scores. **(5-6 Passenger Reputation)** 
+  \n
+  Likewise, it can also be spent by: 
+  - Purchasing items in [Goated Gas](goated-gas-station). **(-4 to -100 Passenger Reputation)**
+  - Purchasing the E-Bus design in the [Cafe](cafe). **(-45 Passenger Reputation)**
+  - Purchasing Pear's service within the [Backwalls](backwalls). **(-10 / -20 Passenger Reputation)** 
+      - If you entered the Backwalls using the [Bus Birthday Cake](bus-birthday-cake) method, Pear would charge you 20 Passenger Reputation.
   ##[Driver Reputation]
-
-  Similarly, Driver Reputation is obtained by four methods:
-
-  * Being the one thanked by passengers. (This requires sitting on the Driver's Seat.)
-      * Occasionally, you won't gain any reputation when someone thanks you. It is unknown if this is a bug or a feature, and it seems to happen arbitrarily.
-  * Completing Tazer's RAM Quest. (2 driver rep per completion.)
-  * From the New Years gift. (1-5 Any Rep)
-  * Inviting or being invited by a friend, and staying with them for an hour. (10 driver rep for the first friend and 5 for subsequent friends, up to 20 per day)
-
-  Driver reputation has a couple uses, being that you can kick other people from the driver seat if your driver reputation exceeds theirs and you own the Driver gamepass However, if you have less than them, you won't be able to kick them off.
-
-  Driver Reputation can also give you heart tags depending on how much you have, with the last heart at 50,000. You can change which one you want to use with the !setheart command.
-
+  Similarly, Driver Reputation can be obtained by: 
+  - Being the one thanked by passengers. **<12px>((This requires sitting on the Driver's Seat.))** **(Arbitrarily 1 Driver Reputation)**
+      - It is still largely unknown whether the arbitrary chance of getting reputation is a bug or a feature.
+  - Completing [Tazer's](tazer) RAM Quest. **(2 Driver Reputation)**
+  - Getting it as a half-hourly gift from the New Year's event. **(3-10 Driver Reputation)**
+  - Inviting or being invited by a friend, and staying with them for an hour. **(10 Driver Reputation for the first friend and 5 for subsequent friends, up to 20 per day)**
+  - Giving [Drinks](cafe-coffee) to [NPCs](npcs). **(1-6 Driver Reputation)** 
+  \n
+  Driver Reputation also has a main use, that being the ability to kick other drivers off. 
+  \n 
+  This only works if you have both the Bus Driver Gamepass and higher Driver Reputation than the current driver, doing so otherwise will fail unless the current driver lacks the gamepass.
+  \n\n
+  Driver Reputation can also give you heart tags depending on how much you have, with the last heart at 50,000. You can change which one you want to use with the **!setheart** command.
+  \n 
   ##[Trivia]
-  There originally was meant to be a Broken Heart for getting 10 Driver Rep, but this has been replaced with the Beating Heart.
+  - There originally was meant to be a Broken Heart for getting 10 Driver Rep, but this has been replaced with the Beating Heart.
