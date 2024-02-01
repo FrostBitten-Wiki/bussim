@@ -20,11 +20,12 @@ attributions:
   - Ported By PolyframeX (@polyframex)
 
 content: |-
+  ##[Info]
   Reputation (or more commonly known as 'rep') is a statistic in Bus Simulator that works either as collection for milestones like as heart tags, or currency for permanent items, and it also has two different forms, both of which can be obtained in different ways.
   \n\n 
   Originally, it was meant to just be a collectable stat; with only Driver Reputation offering [Heart Tags](ranks-tags) as milestones and kicking lower reputable players.
   \n\n
-  However, following the 10 Million Update and the introduction of [Goat Station](goated-gas-station), Passenger Reputation has become a currency as well, providing permanent items, services, and even [Mini-Bus](mini-bus) design(s).
+  However, following the 10 Million Update and the introduction of [Goat Station](goat-station), Passenger Reputation has become a currency as well, providing permanent items, services, and even [Mini-Bus](mini-bus) design(s).
 
   ##[Passenger Reputation]
   Passenger Reputation can be obtained by: 
@@ -36,7 +37,7 @@ content: |-
   - Finishing the [Cafe](cafe) mini-game with high scores. **(5-6 Passenger Reputation)** 
   \n
   Likewise, it can also be spent by: 
-  - Purchasing items in [Goated Gas](goated-gas-station). **(-4 to -100 Passenger Reputation)**
+  - Purchasing items in [Goated Gas](goat-station). **(-4 to -100 Passenger Reputation)**
   - Purchasing the E-Bus design in the [Cafe](cafe). **(-45 Passenger Reputation)**
   - Purchasing Pear's service within the [Backwalls](backwalls). **(-10 / -20 Passenger Reputation)** 
       - If you entered the Backwalls using the [Bus Birthday Cake](bus-birthday-cake) method, Pear would charge you 20 Passenger Reputation.

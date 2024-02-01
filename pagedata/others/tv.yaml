@@ -1,26 +1,52 @@
-editable: True
+editable: true
 page:
-  title: Placeholder
-  description: Placeholder
+  title: TV
+  description: The Television, or TV for short, is an interactive prop that appears both in The Bus and Noble's House. 
 
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim placeholder
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim tv, TV
 
-  tags: placeholder, others
+  tags: tv, television, bus sim tv
 
   header:
-    description: |
-      Category: [Others]
+    title: TV
+    description: |-
+      Category: [Others](others)
+    image: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/others/tv.webp
 
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
-    
 attributions:
-  - "Ported By PolyframeX (@polyframex)"
-
-content: |
+  - Ported By FangedWerewolf (@noobbiom)
+content: |-
   ##[Info]
-  Placeholder
+  The Television, or TV for short, is an interactive prop that appears both in [The Bus](the-vus) and [Noble's House](nobles-house). 
+  \n\n
+  The TV has 12* channels, with some of which, e.g. the donation leaderboard, being dynamic. There are remotes in the previously mentioned places, with the Blue Button incrementing the channel, and the Red Button turning the TV off or on. If the channel goes past 12, it'll loop back to 1. 
+  \n\n
+  *If [Pear Takes The Wheel](pear-takes-the-wheel) is active, it'll instead go to CH 😺, being the 13th channel, after his event ends; it'll change back to what the channel previously was before his takeover. 
+  \n\n 
+  The TV in The Bus can only be changed if you are currently in the driver's seat. 
 
+  ##[Channels]
+  | Channel ID | Name | Description | Image |
+  |------------|------|-------------|-------|
+  | 1 | Peter Griffin | Shows a gif of Peter Griffin from Family Guy groaning on the side of the road due to a leg injury. A corresponding sound effect is looped. | ![552x275](/bussim-assets/images/others/tv/peter.webp) |
+  | 2 | Danger Tick | Shows a slideshow of a tick trying to attack something but ends up dying. Occasionally shows a title screen saying "DANGER TICK". \nThis is a reference to Parrapa the Rapper. | ![552x275](/bussim-assets/images/others/tv/danger.webp) |
+  | 3 | Most Robux Wasted | Shows a leaderboard of the top donators to the game. Only forced events and songs purchased count towards this. \nPlays the [LittleBigPlanet Vita Pod](https://www.youtube.com/watch?v=sL8mOg7omoM) music in the background. | ![552x275](/bussim-assets/images/others/tv/most-robux.webp) |
+  | 3 (Alt) | Trying to Watch | Trying to Watch | In Noble's House, this channel will display instead of the one in The Bus. This one will instead display a leaderboard of people attempting to watch the TV. You don't need to look at it to be in the leaderboards as you just have to be in range. \nPlays the [LittleBigPlanet Vita Pod](https://www.youtube.com/watch?v=sL8mOg7omoM) music in the background. | ![552x275](/bussim-assets/images/others/tv/trying.webp) |
+  | 4 | Furries | Shows a gif of two furry characters hugging. \nPlays [The Furry Song](https://www.youtube.com/watch?v=RXHncd9h7HY) music in the background. We recommend having high mental fortitude if you wish to listen fully. | ![552x275](/bussim-assets/images/others/tv/furries.webp) |
+  | 5 | Petting | Shows a gif of a human touching a black wolf's ears, with water ambience and various noises in the background. | ![552x275](/bussim-assets/images/others/tv/petting.webp) |
+  | 6 | Super Mario RPG | Shows a still image of Mario with the text "siuper mario rpg" and "start" while the song Waltz of the Forest plays. This is a reference to Nintendo's game "Super Mario RPG" for the NES, or recently, Switch. \n The audio that plays is also found within the [Radio's Tracks](bus-radio). | ![552x275](/bussim-assets/images/others/tv/super-mario.webp) |
+  | 7 | Pear Jumpscare | Shows a still image of Pear as scary ambience plays on loop. This image has been changed multiple times, with the current variant being created by FarDraws. | ![552x275](/bussim-assets/images/others/tv/pear-jumpscare.webp) |
+  | 8 | Thanksgiving | Shows a shaking image of Noble eating pizza in the place called [map_Thanksgiving](https://www.roblox.com/games/4283011070/map-Thanksgiving). You can also see Pear on the left of Noble. \nThe audio that plays is also found within the [Radio's Tracks](bus-radio), namely "[Palmtree Panic Past (Salad Plain Past)](https://www.youtube.com/watch?v=eQzrfwBFwQA)" from Sonic CD. | ![552x275](/bussim-assets/images/others/tv/super-mario.webp) |![552x275](/bussim-assets/images/others/tv/thanksgiving.webp) |
+  | 9 | Bighead | Shows a spinning bighead as an [8-bit Remix of the Roblox Anthem](https://www.youtube.com/watch?v=8f6Fk5EVDh4) plays. | ![552x275](/bussim-assets/images/others/tv/bighead.webp) |
+  | 10 | A Talking Teapot | Shows a short old-school animation of a Robloxian breaking through a small room by running away from a comically large talking teapot. | ![552x275](/bussim-assets/images/others/tv/teapot.webp) |
+  | 11 | Roblox World Headquarters | Shows a lengthy old-school animation of a story about Roblox Admins and hackers. | ![552x275](/bussim-assets/images/others/tv/roblox-headquarters.webp) |
+  | 12 | The Epic Fight | Shows a short old-school animation of two robloxians fighting over pancakes, with one throwing it onto the face of the other, before both are ran over by a third-party. | ![552x275](/bussim-assets/images/others/tv/epic-fight.webp) |
+  | 😺 | Pear Takes The Wheel | Shows a looping animation of Pear going up and down. Colors flash in the background and also plays [Funk In My Bedroom](https://www.youtube.com/watch?v=sfnYcT0YZyc). |  ![552x275](/bussim-assets/images/others/tv/pear.webp) | 
+  \n\n
   ##[Trivia]
-  - Placeholder
-
-  !!GALLERY [/bussim-assets/images/others/billboard/Billboard.webp|/bussim-assets/images/others/billboard/Ad_Billboard.webp]
+  - Even though The Bus's TV has 13 channels, the one in Noble's House is still stuck at 9.
+  - There was a deleted channel that is only accessible today by older builds of Bus Simulator, this being :
+  | Channel ID | Name | Description | Image |
+  |------------|------|-------------|-------|
+  | DELETED | Murder TV | Shows a variety of old memes, being Snoop Dog, Nyan Cat, and Hypnofrog. This was prior to the remote and the other channels.| ![552x275](/bussim-assets/images/others/tv/murdertv.webp) |
