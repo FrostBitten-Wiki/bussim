@@ -455,7 +455,69 @@
                [[4000, 25], "PolyframeX", "", "You didn't expect to see me here, did you?"],
                [[4000, 25], "PolyframeX", "", "I didn't either."]
             ]
-        }
+        },
+
+        "foxman001": {
+            "rarity": 100,
+            "dialogue": [
+                [[4000, 25], "Foxman", "point", "Wanna know a fun fact?"],
+                [[4000, 25], "Foxman", "lean", "So did I!"]
+             ]
+         },
+
+         "foxman002": {
+            "rarity": 100,
+            "dialogue": [
+                [[4000, 25], "Foxman", "point", "Hey! If you ever see a fox on the bus wielding a sword, then that's probably me!"],
+                [[4000, 25], "Foxman", "default", "Just make sure not to tell Pear I was the one killing him by accident.."],
+                [[5000, 25], "Pear", "angry", "..."],
+                [[3000, 25], "Foxman", "sweat", "Whoops! Gotta go!"]
+             ]
+         },
+
+         "foxman003": {
+            "rarity": 100,
+            "dialogue": [
+                [[4000, 25], "Foxman", "close", "Want a break from the clams?"],
+                [[4000, 25], "Foxman", "default", "If you tap now to watch a short video, you'll receive 30 minutes of clam-free clams."]
+             ]
+         },
+
+         "foxman004": {
+            "rarity": 100,
+            "dialogue": [
+                [[4000, 25], "Foxman", "default", "By the time you are reading this, I might've bought another fish or clam!"],
+                [[8000, 25], "Foxman", "pointRight2", "Or maybe a scallop! Or a leopard wrasse!"],
+                [[4000, 25], "Foxman", "sweat", "..Okay... maybe I haven't bought one yet..."]
+             ]
+         },
+
+         "foxman005": {
+            "rarity": 100,
+            "dialogue": [
+                [[4000, 25], "Foxman", "sweat", "Y'know of all of the folks I met on here, I'm glad I haven't met someone who is a roach.."],
+                [[4000, 25], "Foxman", "sweat", "Those things scare me beyond comprehension! And they're fast and can catch you at your worst!"],
+                [[4000, 25], "Foxman", "shy", "Seriously, horrific stuff."],
+                [[4000, 25], "Foxman", "default", "Hopefully I won't have to encounter one..."]
+             ]
+         },
+
+         "foxman006": {
+            "rarity": 100,
+            "dialogue": [
+                [[4000, 25], "Foxman", "lean", "Despite my appearance, I'm actually a toy!"],
+                [[4000, 25], "Foxman", "sweat", "..a uh, war toy that is."],
+                [[4000, 25], "Foxman", "default", "Don't ask how that happens, I don't know either!"]
+             ]
+         },
+
+         "foxman007": {
+            "rarity": 100,
+            "dialogue": [
+                [[4000, 25], "Foxman", "lean", "Did you know I have a clam called Clam Johnson?"],
+                [[4000, 25], "Foxman", "default", "He's the realest G I know of."]
+             ]
+         }
     },
 
     "characterData": {
