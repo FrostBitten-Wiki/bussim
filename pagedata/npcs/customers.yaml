@@ -141,6 +141,7 @@ content: |-
   ##[Dialogues (After Ordering)]
   ###[Correct Order]
   - "Thank you!"
+
   ###[Incorrect Order]
   - "Where's my (drink request)?"
   - "What WAS that?! (Incorrect drink)?! I wanted an (drink request).."
@@ -148,6 +149,7 @@ content: |-
   - "If you don't give me (drink request), I will make you suffer."
   - "Yuck, (incorrect drink). That's soooo 2019, (drink request) is actually the new craze right now."
   - "BLEGH!!! This tastes disgusting! I asked for a (drink request), not (incorrect drink)!!"
+
   ###[Order Timeout]
   - "Oh heck, I'm gonna be late for my meeting!"
   - "*cries gently*"
@@ -160,7 +162,13 @@ content: |-
   - "OH NO, I'M GONNA MISS MY FLIGHT BACK HOME"
   - "I'm gonna be late for work..."
 
-
   ###[While Drinking]
-
+  - "Hm. It's alright."
+  - "Quenchy!"
+  - "Love it."
+  - "Not bad."
+  - "Flavorful."
+  - "That was nice."
+  - "Satisfying."
+  - "
   !!GALLERY [/assets/bussim/images/npcs/customers.webp]  
