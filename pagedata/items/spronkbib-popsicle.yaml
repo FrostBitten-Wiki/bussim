@@ -1,20 +1,21 @@
-editable: True
+editable: true
 page:
   title: Spronkbib Popsicle
-  description: The Spronkbib Popsicle is obtainable along with The Last One badge as a 1/800[1](formerly 1/1000) chance from the naturally spawning ice cream vans.
-    
+  description: The Spronkbib Popsicle is obtainable along with The Last One badge
+    as a 1/800[1](formerly 1/1000) chance from the naturally spawning ice cream vans.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
+
   tags: spronkbib popsicle, spronkbib, spongebob, the last one
 
   header:
     description: |
       Category: [Items](items)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-attributions: 
+attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
@@ -24,7 +25,7 @@ content: |
   ##[Info]
   The Spronkbib Popsicle is obtainable along with The Last One badge as a 1/800(formerly 1/1000) chance from the naturally spawning ice cream vans.
   \n\n 
-  Once you do get it though, you won't be able to get another normal ice cream without having to delete the Last One badge. *(But why would you?)*
+  Once you do get it though, you won't be able to get another normal [Ice Cream](ice-cream) without having to delete the Last One badge <10px>([But why would you?]), or by giving it to [D6](d6) during the [Goat Station](goat-station) event in exchange for the [Tool](tool). 
   \n\n 
   When held it plays the Steel String sound effect from Spongebob Squarepants and upon licking it, the player will receive rapid health regeneration for a short time. 
   \n\n 
