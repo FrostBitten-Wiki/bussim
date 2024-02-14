@@ -1,7 +1,9 @@
 editable: true
 page:
   title: Commands
-  description: Commands are a feature in Bus Simulator used to change elements of the game, both small and large. Some can be accessed anytime, while others require special permissions or access to use them.
+  description: Commands are a feature in Bus Simulator used to change elements of
+    the game, both small and large. Some can be accessed anytime, while others require
+    special permissions or access to use them.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim commands
 
@@ -49,14 +51,14 @@ content: |
   | /e relax |A near standstill emote of your character laying down, arms behind their head, as your torso also slightly moves up and down, simulating breathing.   | <0px>(.) | ![128xauto](/bussim-assets/images/others/emotes/RelaxEmote.webp) |
   | /e sakura |An emote of your character first kicking their legs whilst having their arms closed at first similar to kazotsky, only to then start breakdancing later on.\n Its origin debut as a viral TikTok video revolving the game Sakura School Simulator, where the character nonchalantly stares at a cat breakdancing. It was later popularized at 2022.  | Plays a (possibly remixed) looped of a familiar music played in the original.  | ![128xauto](/bussim-assets/images/others/emotes/SakuraEmote.webp) |
   | /e sitdown |An emote where your character sits down.   | <0px>(.) | ![128xauto](/bussim-assets/images/others/emotes/SitdownEmote.webp) |
-  | /e shimmy |A simple emote of your character moving their shoulders and legs.   | <0px>(.) | ![128xauto](/bussim-assets/images/others/emotes/ShimmyEmote.webp) |
+  | /e shimmy |A simple emote of your character moving their shoulders and legs.  \nThis is a reference to Lethal Company, where this dance is used. | <0px>(.) | ![128xauto](/bussim-assets/images/others/emotes/ShimmyEmote.webp) |
   | /e smug |An emote based off of A Hat In Time, where Hat Kid dances while Peace and Tranquility is playing in the background. |This emote produces afterimages of each frame following the last. This can only be viewed on your own emote and can be very intensive. Worsens as the more layered clothing you stack on too.\n Plays an audio based off of one of the tracks in A Hat in Time.  | ![128xauto](/bussim-assets/images/others/emotes/SmugEmote.webp) |
   | /e tpose |A standstill emote of your character T-posing, with the arms perfectly horizontal.\n Often used for both rigging as well as character designing.   | <0px>(.) | ![128xauto](/bussim-assets/images/others/emotes/TPoseEmote.webp) |
   | /e wave |An emote that makes your character wave. It is similar to the Hello emote, however is less intensified. | <0px>(.) | ![128xauto](/bussim-assets/images/others/emotes/WaveEmote.webp) |
   \n
   ###[Seat Animations]
   You can change your seat animation using !anim, however you can only do this while you are out of a seat. The command will show a menu containing a large array of emotes, made by both the creator and the community. 
-  
+
   \n\n 
 
   | Seat Animation | Creators / Authors                            | In-Game Description                                                                                      | Animation Description                                                                                                                                                      | GIFS / Images            |
@@ -132,7 +134,7 @@ content: |
   \n 
   ##[Commands - VIP / Private Server Owners]
   These commands largely are only restricted to the owner of the private server and NobleReign. Most of these involve commands that can massively impact the game.
-  
+
   \n\n 
 
   | Commands              | Effects                                                                                                                                                                         |
