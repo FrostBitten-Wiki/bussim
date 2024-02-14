@@ -553,7 +553,7 @@
             "dialogueColors": ["#190000", "#260000", "red"],
             "dialogueEmoteName": "efeuc"
         },
-        "FoxMan": {
+        "Foxman": {
             "dialogueSfx": ["foxman", 2.5, 250],
             "dialogueColors": ["#261a0c", "#191107", "#ffac4e"],
             "dialogueEmoteName": "foxman"
