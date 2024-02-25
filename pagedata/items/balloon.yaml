@@ -1,20 +1,22 @@
-editable: True
+editable: true
 page:
   title: Balloon
-  description: The Balloon is a permanent item only gifted to those who have a Contributor or higher role in the Bus Simulator Fan Group. 
-    
+  description: The Balloon is a permanent item only gifted to those who have a Contributor
+    or higher role in the Bus Simulator Fan Group.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
-  tags: baloon, balloon, contributor only, literally a better gas station gravity coil you CANNOT DENY THAT-, Balloon, better gas station coil, shimy yay
+
+  tags: baloon, balloon, contributor only, literally a better gas station gravity
+    coil you CANNOT DENY THAT-, Balloon, better gas station coil, shimy yay
 
   header:
     description: |
       Category: [Items](items)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/items/balloon/collection1.webp
 
-attributions: 
+attributions:
   - Made by Zeon (@zeon)
   - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
@@ -68,4 +70,4 @@ content: |
   - Far - Light Pink in color, and has an image of her own character on it.
   - [Noble](noble) - Light Blue in color, and has an image of Frost on it.
 
-  !!GALLERY [/assets/bussim/images/items/balloon/collection1.webp|/assets/bussim/images/items/balloon/collection2.webp|/assets/bussim/images/items/balloon/collection3.webp|/assets/bussim/images/items/balloon/collection4.webp|/assets/bussim/images/items/balloon/collection5.webp|/assets/bussim/images/items/balloon/collection6.webp|/assets/bussim/images/items/balloon/efeuc.webp|/assets/bussim/images/items/balloon/far.webp]
+  !!GALLERY [/bussim-assets/images/items/green_balloon.webp|/assets/bussim/images/items/balloon/collection1.webp|/assets/bussim/images/items/balloon/collection2.webp|/assets/bussim/images/items/balloon/collection3.webp|/assets/bussim/images/items/balloon/collection4.webp|/assets/bussim/images/items/balloon/collection5.webp|/assets/bussim/images/items/balloon/collection6.webp|/assets/bussim/images/items/balloon/efeuc.webp|/assets/bussim/images/items/balloon/far.webp]
