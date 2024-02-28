@@ -209,6 +209,17 @@ content: |-
                                           - "That explains those frequent ulcers..."
                       - hg[Option 2]: How'd you get all of that water?
                           - "Beats me, just came with the place. it's nice and refreshing, though!"
+                            - hg[Option 1]: Can I take a sip?
+                                - "You can try if you want to, but I could also just give you a proper drink too..."
+                                    - hg[Option 1]: I'll drink the water, thanks. 
+                                        - "Suit yourself, I guess."
+                                    - hg[Option 2]: Oh, sure. 
+                                        - If the player doesn't possess the [Frozen Chocolate](frozen-chocolate) item:
+                                            - "There. A nice and refreshing drink. I made it myself, can't ya tell?" 
+                                                - The player then obtains the [Frozen Chocolate](frozen-chocolate).
+                                        - If the player already possesses the [Frozen Chocolate](frozen-chocolate) item: 
+                                            - "Actually, didn't I already give you some? You should finish that one first before askin' for another..."
+                            - hg[Option 2]: Cool.
                       - hg[Option 3]: Your calendar is out of date.
                           - "Yeahh, I'm aware. I just got it off of the side of the road, sooo.. Beggars can't be choosers, heh.."
                               - hg[Option 1]: It isn't even October.

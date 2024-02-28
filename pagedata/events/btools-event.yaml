@@ -1,0 +1,28 @@
+editable: True
+page:
+  title: Btools
+  description: Not to be confused by the actual Btools, being Edit!!! | The Fake Btools event is a simple event where The Bus encounters a table, accompanied with 'Btools' and a sign from an 'Admin'.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+
+  header:
+    description: |
+      Category: [Events](events)\n
+      Event Name: h[Btools]\n
+      Event Runtime: h["30 Seconds"]
+    
+    image: ""
+    imageBanner: /assets/bussim/images/events/btools.webp
+
+attributions: []
+
+content: |
+  *Not to be confused with [Edit](edit), the actual building tools.*
+  ##[Info]
+  Btools is an event contributed by both Zeon and ComeOutTheCloset_1, where the bus driver stops by the side of the road, seeing a small table with F3x Building Tools, as well as a sign stating that an admin is out for lunch. 
+  \n
+  Clicking on the item will give you the item [FakeBuildTools](fake-btools). The event lasts around roughly 30 seconds. 
+
+  !!GALLERY [/assets/bussim/images/events/btools.webp]

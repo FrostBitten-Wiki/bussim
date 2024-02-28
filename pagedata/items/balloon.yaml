@@ -21,12 +21,12 @@ attributions:
   - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
 content: |
-  "For your efforts, you get a free balloon!! Hooray!!! (May be highly sensitive; can regen however)" -"Balloon"
+  "For your efforts, you get a free balloon!! Hooray!!! (Q to Swap or Reset when popped)" -"Balloon"
 
   ##[Info]
   The Balloon is a permanent item only gifted to those who have a Contributor or higher role in the Bus Simulator Fan Group. 
   \n\n 
-  When held, it'll show your custom balloon depending on the account, otherwise it'll instead show as a green balloon. You can pop it as well to receive another color, but afterwards won't be able to get your custom balloon unless you reset.
+  When held, it'll show your custom balloon depending on the account, otherwise it'll instead show as a green balloon. You can pop it as well to receive another color, but afterwards won't be able to get your custom balloon unless you press Q in which it'll reset back to your contributor-only ballon.
   \n\n 
   It also decreases your gravity by a significant amount, similar of that to the Roblox Gravity Coil, making it an indirect upgrade from the Gas Station Gravity Coil. 
 

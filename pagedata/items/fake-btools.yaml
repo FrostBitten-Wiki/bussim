@@ -1,0 +1,33 @@
+editable: True
+page:
+  title: FakeBuildTools
+  description: FakeBuildTools is an item obtained from the Btools event, where it simply changes color upon interacting, attempting to mimic actual building tools.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim item item
+  
+  tags: placeholder, tool, the almighty legendary tool
+
+  header:
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
+
+content: |
+  "get, pranked noob. - Admin" -"FakeBuildTools"
+  *Not to be confused with [Edit](edit), the actual building tools.*
+  ##[Info]
+  FakeBuildTools is an item lobtained from the Btools event, where it simply changes color upon interacting, attempting to mimic actual building tools.
+  \n\n
+  The tool cannot have brighter colors (i.e. Shades of White), to prevent the visbility of the labels on each side of the cube. 
+
+  ##[Trivia]
+  - It is  perhaps the second most useless, with [Tool](tool) being the most useless of all. 
+  - While it is possible to assume one has BTools, the model used for the actual tools alongside the colors are widely different.
+
+  !!GALLERY [/assets/bussim/images/items/fakebuildtools.webp]

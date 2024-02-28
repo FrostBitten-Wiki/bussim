@@ -1,0 +1,25 @@
+editable: True
+page:
+  title: Crystals
+  description: The Crystals is a biome in Bus Simulator submitted by PolyframeX (@polyframex).
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim crystals
+  
+  tags: crystals, finally a new cave biome, crystal
+
+  header:
+    description: |
+      Category: [Biomes](biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/crystals.webp
+
+attributions: 
+  - Created by FangedWerewolf (@noobbiom)
+
+content: |
+  ##[Info]
+  The Crystals is a biome in Bus Simulator submitted by PolyframeX (@polyframex). 
+  \n\n 
+  The biome features a similar composition to [Rocky](rocky), however features many purple gemstones with varying sizes.
+  !!GALLERY [/assets/bussim/images/biomes/crystals.webp]

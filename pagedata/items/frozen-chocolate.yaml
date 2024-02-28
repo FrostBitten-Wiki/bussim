@@ -1,0 +1,44 @@
+editable: True
+page:
+  title: Frozen Chocolate
+  description: The Frozen Chocolate is a special consumable obtained by talking to Frostbite.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, frozen chocolate
+
+  tags: frozen chocolate, cold cocoa
+
+  header:
+    title: Kernels
+    description: |
+      Category: [Items](items)
+    image: "/bussim-assets/images/banner.jpg"
+    imageBanner: /assets/bussim/images/banner.jpg
+    
+attributions:
+  - Ported by FangedWerewolf (@noobbiom)
+
+content: |
+ "The entire drink is frozen like a brick..." -"Frozen Chocolate"
+ ##[Info]
+ The Frozen Chocolate is a special consumable obtained by talking to [Frostbite](frostbite) following specific actions. You must also have max trust in him to gain access.
+ \n\n 
+ When consumed, you'll heal rapidly for 50 HP following a short delay, which is particularly helpful to prolong yourself against a [Blizzard](blizzard).
+ \n\n 
+ The mug also has a unique sipping animation which differs from other drink tools. 
+
+ ##[Appearance]
+ The mug reads "1# WOLF DAWG", in a more crude writing.
+ \n 
+ It is also colored sky blue similarly to Frostbite, and has chilled cocoa with ice cubes inside. 
+ \n
+ The mug also produces a faint mist effect when held out. 
+ \n\n
+ Drinking it would cause the player to receive a visible fog coming out the mouth, replicating condensation. 
+
+ ##[Trivia]
+ - This item was made by ComeOutTheCloset_1, who also made the Popcorn Bucket and Balloon items.
+ - The delay is based upon the gulp in Cola's drink sound.
+ - It isn't clear if this is the same or different than the kind of hot cocoa that can be made in the Cafe.
+ - Despite the drink being frozen, it doesn't have the ability to freeze you, unlike the [Cold Cola](cold-cola). 
+
+ !!GALLERY [/assets/bussim/images/items/frozen-chocolate.webp]

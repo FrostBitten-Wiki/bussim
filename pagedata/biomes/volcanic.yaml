@@ -1,0 +1,25 @@
+editable: True
+page:
+  title: Volcanic
+  description: The Volanic is a biome in Bus Simulator submitted by MaxTheGuy (@polyframex).
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim volcanic
+  
+  tags: volcanic, volcano, volcanoes
+
+  header:
+    description: |
+      Category: [Biomes](biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/volcanic.webp
+
+attributions: 
+  - Created by FangedWerewolf (@noobbiom)
+
+content: |
+  ##[Info]
+  The Volcanic is a biome in Bus Simulator submitted by MaxTheGuy (@polyframex). 
+  \n\n 
+  The biome features a similar composition to [Rocky](rocky), however features many purple gemstones with varying sizes.
+  !!GALLERY [/assets/bussim/images/biomes/volcanic.webp]

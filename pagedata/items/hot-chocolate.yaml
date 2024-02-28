@@ -1,0 +1,44 @@
+editable: True
+page:
+  title: Hot Chocolate
+  description: The Hot Chocolate is a special consumable obtained by talking to Pear under snowy conditions.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, hot chocolate
+
+  tags: hot chocolate, chocolate, cocoa
+
+  header:
+    title: Kernels
+    description: |
+      Category: [Items](items)
+    image: "/bussim-assets/images/banner.jpg"
+    imageBanner: /assets/bussim/images/banner.jpg
+    
+attributions:
+  - Ported by FangedWerewolf (@noobbiom)
+
+content: |
+ "The entire drink is frozen like a brick..." -"Hot Chocolate"
+ ##[Info]
+ The Hot Chocolate is a special consumable obtained by talking to [Pear](pear) while you are in a [Snowy](snowy) or [Frozen](frozen) biome.
+ \n\n 
+ When consumed, you'll heal rapidly for 50 HP following a short delay, which is particularly helpful to prolong yourself against a [Blizzard](blizzard).
+ \n\n 
+ The mug also has a unique sipping animation which differs from other drink tools. 
+
+ ##[Appearance]
+ The mug reads "CAT PERSON :3", in a more basic font.
+ \n 
+ It is also colored with green and yellow stripes, similar to Pear, and has hot cocoa with marshmallows inside. 
+ \n
+ The mug also produces a faint steam effect when held out. 
+ \n\n
+ Drinking it would cause the player to receive a visible fog coming out the mouth, replicating condensation. 
+
+ ##[Trivia]
+ - This item was made by ComeOutTheCloset_1, who also made the Popcorn Bucket and Balloon items.
+ - The delay is based upon the gulp in Cola's drink sound.
+ - It isn't clear if this is the same or different than the kind of hot cocoa that can be made in the Cafe.
+ - Despite the drink being hot, it doesn't have the ability to burn you, unlike the [Hot Cola](hot-cola). 
+
+ !!GALLERY [/assets/bussim/images/items/frozen-chocolate.webp]

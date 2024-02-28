@@ -46,6 +46,15 @@ content: |-
   \n\n
   You can also initiate the rewarding system by being invited by a friend from your website or desktop application, should be in your notifications once your friend invites you to the game.
 
+  ##[Rap Battling]
+  hg[This can only be unlocked after obtaining a [Magic Mirror](magic-mirror), guide to obtain it is provided underneath the main dialogue!]
+  \n\n
+  During one of Pear's dialogue variations, you are able to invite Pear to rap battle, provided you have an item to teleport somewhere quieter. Afterwards Pear will give you a cardboard microphone, as Pearing Out plays.
+  \n 
+  Throughout the song, you and Pear will rap battle on [The Bus](the-bus), eventually though an event will appear; causing The Bus to crash into [Noble's House](nobles-house). From then on, you battle against both Pear and Noble, alongside a difficult chart.
+  \n\n 
+  After the song ends, depending on your score will determine how well you did: if you exceed past 10,000 in scores then you win against Pear; otherwise you lose. You'll also gain access to play against Pear with other songs following Pearing Out. 
+
   ##[Dialogue (The Bus)]
   !!DLEMULATOR EID:"pearemulator" SID:"start" URL:"/assets/bussim/emulatorData/pear.json"
 
@@ -72,8 +81,22 @@ content: |-
               - hg[Variant 1]: "Wanna rap battle? I promise it'll be easy!"
                   - hg[Option 1]: I don't rap.
                       - "You probably could thoughhhh~"
-                  - hg[Option 2]: Beep Bap!
+                  - hg[Option 2]: Beep Bap! (Archived)
                       - "Let's go- Oh wait... There isn't any way for us to rap, sorry!"
+                  - hg[Option 2]: Beep Bap!
+                      - "Let's goooo! Maybe not on the bus though... Do you have anything that could [take us somewhere quieter?](magic-mirror)
+                          - If the player uses the [Magic Mirror](magic-mirror) next to Pear afterwards:
+                              - "Woah, you actually have something like that?!"
+                              - "This is a great stage, but why's the mic made out of cardboard?"
+                              - "Eh, I guess it'll work. Let's rap!"
+                                  - Pearing Out then plays. Two outcomes will occur based on if you win or lose throughout the song. 
+                                      - If you win:
+                                          - "Woah, you did pretty good actually!!!"
+                                          - "That was fun! Feel free to rap battle me again sometime!"
+                                          - "I've put my song in your roster so you can play it with others as well! Enjoy~"
+                                              - Pear then evaporates in a green dust. Pearing Out is afterwards unlocked in your Friday Night song selection screen.
+                                      - If you lose:
+                                          - TBA
               - hg[Variant 2]: "Tell Frost he owes me a tub of ice cream the next time he sees me..."
                   - "No reason in particular, I just want one!"
                       - hg[Option 1]: Maybe someday.
@@ -109,7 +132,7 @@ content: |-
                                       - (This gives you a hr[pearcoinTM], useful for befriending [Frostbite](frostbite).)
               - hg[Variant 5]: "My favorite pizza is just plain cheese pizza!"
                   - "Though black olives are good too..."
-                  - "If the player has given Pear a Cheese Pizza in the game pizza:"
+                  - If the player has given Pear a Cheese Pizza in the game piza:
                       - "You've already given me one before though~!"
               - hg[Variant 6]: "Today feels like any other day, honestly, Wonder if you feel the same?"
               - hg[Variant 7]: "Do you play.. err, that one battle royale game with the buildings and stuff? I do.. sometimes. I think."
@@ -148,7 +171,7 @@ content: |-
                       - (If the player's account age is 12 or younger \[<12\], this dialogue plays instead.)
                           - "Hey, you should pl-- Oh, uhm..."
                               - hg[Option 1]: I'll just go.
-                              - ...? What's up?
+                              - hg[Option 2]: ...? What's up?
                                   - "S-Sorry, looks like I'm getting a call! Please hold..."
                                   - "Meowdy, Pear speaking~!"
                                   - "Uh-huh... uh-huh...oh, excuse me, could you repeat that..?"
@@ -160,9 +183,32 @@ content: |-
                                       - hg[Option 2]: Um.. hi..?
                                           - "Yooo, you're talkin' to me? Brand new conversation, with me?! That's crazy! We should talk about how..."
                                               - Pear then chooses a random dialogue line.
-              - hg[Variant 12] (during Bus Simulator's 5th birthday):
+              - hg[Variant 12]
+                  - "It's pretty nice out today, wouldn't you agree?"
+                      - hg[Option 1]: Yeah. 
+                          - "Yeah~"
+                      - hg[Option 2]: Nah. 
+                          - "Agree to disagree~"
+              - hg[Variant 13]
+                  - My favorite drink is Vanilla Almond Milk!
+                      - "Although... I wonder what a shield potion tastes like..."
+              - hg[Variant 14] (during Bus Simulator's 5th birthday):
                   - "Heyyy, it's the busses birthday! We're celebrating with cake! Pretty cool, right?"
                   - "I do have a warning for you though... Whatever you do, don't drink a" [Bloxy Cola](bloxy-cola) "alongside the" [cake](bus-birthday-cake) "... You'll regret it~!"
+              - hg[Variant 15] (while in a Snowy / Frozen biome):
+                  - If the player doesn't possess the [Hot Chocolate](hot-chocolate) item:
+                      - "Hey, you look cold. Want a warm drink?"
+                          - hg[Option 1]: Yeah. 
+                              - "Here, take one. I made a bunch a while back. I wonder how they're still warm..?" 
+                                - The player then obtains the [Hot Chocolate](hot-chocolate).
+                          - hg[Option 2]: Nah. 
+                              - "Suit yourself."
+                  - If the player already possesses the [Hot Chocolate](hot-chocolate) item:
+                      - "Enjoying your hot chocolate?"
+                          - hg[Option 1]: Yeah. 
+                              - "Good, 'cause I made it with love~"
+                          - hg[Option 2]: Nah. 
+                              - "Oh... Sorry..."
       - hg[Option 3]: Invites...
           - This triggers the Invites Variant from the "Let's Talk" option.
       - hg[Option 4]: Buy Songs
@@ -172,6 +218,9 @@ content: |-
               - hg[Option 2]: Yeah, I'm sure.
                   - "Well then... *ahem*... You feelin generous? I can give everyone in the server some songs~ Trust me, it's worth it!"
                       - You are then prompted to buy two songs for everyone in the server for 80 Robux.
+      - hg[Option 5]: Let's rap! (only unlockable after beating Pearing Out)
+          - "Oh, sure! Use that mirror of yours and we can start!"
+              - AFter the player uses the [Magic Mirror](magic-mirror) next to Pear, you'll gain access to play other songs in Friday Night alongside Pearing Out. 
 
   ###[If you became billy]
   !!DLEMULATOR EID:"billy_pearemulator" SID:"start_billy" URL:"/assets/bussim/emulatorData/pear.json"
