@@ -12,7 +12,7 @@ page:
   header:
     title: Cafe
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
       Event Name: h[Cafe]\n
       Event Runtime: h["~9 Minutes"]
     image: ''

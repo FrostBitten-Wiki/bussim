@@ -11,18 +11,22 @@ page:
     description: |
       Category: [Events](events)\n
       Event Name: h[Clone]
-      Event Runtime h[Unknown]
+      Event Runtime h[1 Minute and 25 Seconds (1:25)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/clone.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  The Clone Event is an event in Bus Simulator, where the bus gets cloned. Eventually it turns out it's unstable and disappears shortly after.
+  \n\n 
+  In the cloned bus you may find everything from the normal bus, but the driver seat isn't working properly, the next stop and eyes are different, and some features aren't usable. 
 
   ##[Trivia]
-  - Trivia Here
+  - It isn't recommended to jump to the cloned bus and vice versa while inside a tunnel, as you can very much fall inbetween the gap. And while it's a bit unnecessary as it is, you can use either [Hoverboots](hoverboots) or [Helicopter](helicopter) to easily travel between the two busses.
+  - This is one of the more earlier events in this game, which is also why the cloned bus has less features as it's an older version of [The Bus](the-bus).
+  - Despite the name suggesting it being a clone, it doesn't clone any modifications to the Bus like Seasonal Changes nor Edits.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/event/clone.webp]

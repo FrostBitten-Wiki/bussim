@@ -1,9 +1,9 @@
 editable: True
 page:
   title: Cubes
-  description: Placeholder
+  description: Cubes is an event that appears every 5 minutes similar to all other events and lasts for a minute. During this event, The Bus is unknowingly raided by rogue Gamecubes that escaped from Nintendo Land, creating noises and often blockages throughout the entire bus.
     
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim cubes, roblox event cubes, roblox bus sim cube
   
   tags: some,tags,here,that is used by the search api
 
@@ -12,16 +12,18 @@ page:
     description: |
       Category: [Events](events)\n
       Event Name: h[Cubes]\n
-      Event Runtime: h[5 minutes (300 seconds)]
+      Event Runtime: h[1 Minute and 5 Seconds (1:05)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/banners/cubes.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  During the event Cubes, cubes move all around the bus, playing many xylophone notes. After some time, the driver announces they've convinced the cubes to go back to Nintendo Land. A few moments after that, the event ends.
+  Cubes is an event that appears every 5 minutes similar to all other events and lasts for a minute. 
+  \n
+  During this event, The Bus is unknowingly raided by rogue Gamecubes that escaped from Nintendo Land, creating noises and often blockages throughout the entire bus. After a while though, the bus driver announcements that they managed to convince the gamecubes to return back to Nintendo Land, and soon after, the event ends.
 
   ##[Trivia]
   - This event is an obvious reference to the Nintendo GameCube startup sequence.
@@ -29,5 +31,6 @@ content: |
   - Sometimes a cube can make a sound that goes "Boom! Fricko!"
     - It comes from the game [Boom and Fricko](https://www.roblox.com/games/2081092459/Boom-and-Fricko).
   - The runtime of this event is 1 minute and 5 seconds, making it a really similar runtime to both the BaconHair and Glitches events.
+  - A [news](news) article references this particular event: "Nintendo lost all their gamecubes; ''We shouldn't have kept them in a cardboard box'' representative states.".
 
   !!GALLERY [/assets/bussim/images/events/cubes.webp]
