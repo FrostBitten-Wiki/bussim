@@ -10,7 +10,7 @@ page:
   header:
     description: |
       Category: [Events](events)\n
-      Event Name: h[BaconHair]
+      Event Name: h[BaconHair]\n
       Event Runtime: h[1 Minute and 4 Seconds (1:04)]
 
     image: ''
@@ -29,7 +29,7 @@ content: |
     - hg[You]: "Oh no!"
       - hg[Event]: "Evacuate to the bus now! twenty-five seconds!"
         - h[After 25 seconds...]
-          - hg[Event]: "Lets get out of here fast... Speed up! "
+          - hg[Event]: "Lets get out of here fast... Speed up!"
 
   ##[Trivia]
   - Compared to other events in the game, this is one of the only few that has some grammatical errors.

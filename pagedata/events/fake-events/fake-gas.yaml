@@ -19,7 +19,7 @@ page:
 attributions: []
 
 content: |
-  !!BUTTONS [<highlight>Fake Bus Stop</highlight>,location.href='fake-events'|Fake Gas Stop,location.href='#']
+  !!BUTTONS [Fake Bus Stop,location.href='fake-events'|<highlight>Fake Gas Stop</highlight>,location.href='#']
   ##[Info]
   The Fake No Gas event is an event where the bus stops, and the driver acts like they're out of gas. \n
   Shortly afterwards, pranking the passengers once again, acting as a sequel to the Fake Bus Stop event. 

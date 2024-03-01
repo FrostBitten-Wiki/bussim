@@ -14,7 +14,7 @@ page:
   header:
     description: |
       Category: [Events](events)\n
-      Event Name: h[Line]
+      Event Name: h[Line]\n
       Event Runtime: h[Unknown]
 
     imageBanner: /assets/bussim/images/events/line.webp

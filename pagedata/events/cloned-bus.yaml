@@ -10,7 +10,7 @@ page:
   header:
     description: |
       Category: [Events](events)\n
-      Event Name: h[Clone]
+      Event Name: h[Clone]\n
       Event Runtime h[1 Minute and 25 Seconds (1:25)]
     
     image: ""
