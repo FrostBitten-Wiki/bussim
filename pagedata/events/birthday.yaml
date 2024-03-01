@@ -11,7 +11,7 @@ page:
     description: |
       Category: [Events](events)\n
       Event Name: h[BusBirthday]\n
-      Event Runtime: h[45 seconds]
+      Event Runtime: h[45 Seconds (0:45)]
     
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
@@ -28,7 +28,7 @@ content: |
   ##[Dialogue]
   - hg[Event]: "Hey, it's [Player]'s birthday right now!"
     - hg[You]: "Happy birthday!"
-      - After some time has passed...
+      - h[After some time has passed...]
         - hg[Player]: "Free (modelled) cake for everyone!"
 
   ##[Trivia]

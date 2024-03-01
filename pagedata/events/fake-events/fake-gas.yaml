@@ -1,0 +1,35 @@
+editable: True
+page:
+  title: Fake Gas Stop
+  description: Fake Events is a collection of two events, being NoGas and Stop. Both of these events are very similar in that it leads to the bus driver tricking passengers off the bus, before leaving them right after.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+
+  header:
+    description: |
+      Category: [Events](events)\n
+      Event Name: h[FakeNoGas]\n
+      Event Runtime: h[20 Seconds (0:20)]
+    
+    image: ""
+    imageBanner: /assets/bussim/images/events/fake-events.webp
+
+attributions: []
+
+content: |
+  !!BUTTONS [<highlight>Fake Bus Stop</highlight>,location.href='fake-events'|Fake Gas Stop,location.href='#']
+  ##[Info]
+  The Fake No Gas event is an event where the bus stops, and the driver acts like they're out of gas. \n
+  Shortly afterwards, pranking the passengers once again, acting as a sequel to the Fake Bus Stop event. 
+
+  ##[Dialogue]
+  - hg[Event]: "Wait i think we are out of gas."
+    - hg[You]: "That's bad."
+      - hg[Event]: "Ha! It was a distraction again!"
+
+  ##[Trivia]
+  - This is one of the shortest, being behind Fake Bus Stop (and by technically, the Backwalls), only lasting 20 seconds.
+
+  !!GALLERY [/assets/bussim/images/events/fake-events.webp]

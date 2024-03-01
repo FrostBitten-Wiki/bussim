@@ -1,17 +1,17 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Gandalf
+  description: The Gandalf event is a reference to The Lord of the Rings, where Gandalf stops the bus while yelling "YOU SHALL NOT PASS!" 
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[Gandalf]\n
+      Event Runtime: h[50 Seconds (0:50)]
     
     image: ""
     imageBanner: /assets/bussim/images/banners/gandalf-banner.webp
@@ -20,9 +20,18 @@ attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  The Gandalf event is a reference to The Lord of the Rings, where Gandalf stops the bus while yelling "YOU SHALL NOT PASS!" \n
+  This lasts for quite a while eventually causing the driver to become impatient. Eventually Gandalf disappears and the Bus continues its journey as usual.
+
+  ##[Dialogue]
+  - hg[Gandalf]: "YOU SHALL NOT PASS!"
+    - hg[Event]: "What the?"
+      - h[After a while...]
+        - hg[Event]: "I am losing patience."
+          - hg[EVENT]: "He teleported out of here.. Lets keep riding!"
 
   ##[Trivia]
-  - Trivia Here
+  - This event is a good opportunity to get some [Ice Cream](ice-cream) from the Ice Cream truck if its near the bus.
+  - You can stand on the bubble surrounding Gandalf until it disappears after the event ends.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/events/gandalf.webp]

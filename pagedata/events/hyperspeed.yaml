@@ -1,7 +1,7 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Hyperspeed
+  description: The Hyperspeed Event is an event that causes the bus to suddenly speed up, creating a yellow trail from the tires all the while Running in the 90's play (albeit loudly), in the background. 
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -9,20 +9,22 @@ page:
   ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[HyperSpeed]\n
+      Event Runtime: h[25 Seconds (0:25)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/hyperspeed.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  The Hyperspeed Event is an event that causes the bus to suddenly speed up, creating a yellow trail from the tires all the while [Running in the 90's](https://www.youtube.com/watch?v=BJ0xBCwkg3E) plays (albeit loudly), in the background. 
 
-  ##[Trivia]
-  - Trivia Here
+  ##[Dialogue]
+  - hg[Event]: "WE'RE GOING HYPERSPEED!!!!!"
+    - hg[You]: "REEEEEEEEEEEEEEEEEEEEE"
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/events/hyperspeed.webp]

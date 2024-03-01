@@ -25,4 +25,9 @@ content: |
   \n
   Clicking on the item will give you the item [FakeBuildTools](fake-btools). The event lasts around roughly 30 seconds. 
 
+  ##[Dialogue]
+  - hg[Event]: "Oh hey, somebody left something here. Let's check it out."
+    - h[15 seconds later...]
+      - hg[Event]: "I don't think we should have this... Back in the bus. Fifteen seconds." 
+
   !!GALLERY [/assets/bussim/images/events/btools.webp]

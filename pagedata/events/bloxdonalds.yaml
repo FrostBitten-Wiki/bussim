@@ -27,14 +27,14 @@ content: |
   During the event, you'll also be able to interact with characters such as: Red and Steven Scripts. There's also a hidden interactable NPC next to the door, and used to be another NPC in its place but was removed for reasons.
 
   ###[Trying to interact with the last NPC says the following]
-  - You: "..?"
-  - You: "The vibes are kinda off in this specific spot... was someone here before?"
+  - hg[You]: "..?"
+    - hg[You]: "The vibes are kinda off in this specific spot... was someone here before?"
 
   ##[Dialogue]
-  - Player: "Woah! I think I see a Bloxdonalds in the distance!"
-  - You: "\*gasp\*"
-  - h[After some time has passed...]
-  - Player: "I'm 99% sure there's something in these burgers.. Evacuate to the bus."
+  - hg[Player]: "Woah! I think I see a Bloxdonalds in the distance!"
+    - hg[You]: "\*gasp\*"
+      - h[After some time has passed...]
+        - hg[Player]: "I'm 99% sure there's something in these burgers.. Evacuate to the bus."
 
   ##[Trivia]
   - This is the second largest amount of interactable NPCs, having half as much as [GOATed Gas Station](goat-station).

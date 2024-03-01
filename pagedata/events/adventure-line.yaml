@@ -29,9 +29,9 @@ content: |
   The event lasts just short of a minute.
 
   ##[Dialogue]
-  - hg[The Narrator]: Players decided to follow the adventure line.
-  - *After 45 seconds...*
-  - hg[Event]: I think i already seen this somewhere.. Lets go, 15 seconds.
+  - hg[The Narrator]: "Players decided to follow the adventure line."
+    - h[After 45 seconds...]
+      - hg[Event]: "I think I've already seen this somewhere.. Lets go, 15 seconds."
 
   ##[Trivia]
   - The Adventure Line^(TM) is impossible to follow by walking on the path directly without use of Hoverboots, Helicopter, climbing in VR, or even using a Mini-Bus glitch, due to the line going upwards several dozen studs, and having a totally flat surface.

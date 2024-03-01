@@ -8,7 +8,6 @@ page:
   tags: some,tags,here,that is used by the search api
 
   header:
-    title: Placeholder
     description: |
       Category: [Events](events)\n
       Event Name: h[Cubes]\n
@@ -24,6 +23,12 @@ content: |
   Cubes is an event that appears every 5 minutes similar to all other events and lasts for a minute. 
   \n
   During this event, The Bus is unknowingly raided by rogue Gamecubes that escaped from Nintendo Land, creating noises and often blockages throughout the entire bus. After a while though, the bus driver announcements that they managed to convince the gamecubes to return back to Nintendo Land, and soon after, the event ends.
+
+  ##[Dialogue]
+  - hg[Event]: "THE CUBES ARE ATTACKING!!!"
+    - hg[You]: "Who plugged in the Gamecube?!"
+      - h[After some time has passed...]
+        - hg[Event]: "I've convinced the cubes to go back to Nintendo Land. They'll leave any second now."
 
   ##[Trivia]
   - This event is an obvious reference to the Nintendo GameCube startup sequence.

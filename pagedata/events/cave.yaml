@@ -14,7 +14,7 @@ page:
     description: |-
       Category: [Events](events)\n
       Event Name: h[Cave]\n
-      Event Runtime: h[1 minute 33 seconds (93 seconds)]
+      Event Runtime: h[1 minute 33 seconds (1:33)]
 
     image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
@@ -26,6 +26,26 @@ content: |
   Cave event is an event that takes place in a cave. When this happens, the Driver mentions there is a Cave ahead. Then, within seconds, the map becomes dark and changes to a cave. Then eventually the bus begins to drive through the cave. Then within 50 seconds, the driver mentions they are halfway out and then tells the passengers to hang on tight and then the map becomes darker. And then after that, the map changes to the region the bus was driving on before.
   \n\n
   This event is a great way to show off the Futuristic lighting that is used in the game, via the Headlights, [Phone](phone)'s flashlight, etc.
+
+  ##[Dialogue]
+  - hg[Event]: "Hm, I see a cave in the distance."
+    - hg[Event]: "Get ready, it's going to get really dark for a while." 
+      - h[After a while...]
+        - hg[Event]: "We're halfway there, hang tight." 
+          - hg[Variant 1 : Player]: "Dang, no service.." 
+          - hg[Variant 2 : Player]: "It's cold in here." 
+          - hg[Variant 3 : Player]: "Are we there yet?" 
+          - hg[Variant 4 : Player]: "ECHO!" 
+          - hg[Variant 5 : Player]: "How much longer?" 
+          - hg[Variant 6 : Player]: "Why does this road even go through a cave?" 
+          - hg[Variant 7 : Player]: "This cave is pretty..." 
+            - h[After bit more...]
+              - hg[Event]: "We made it out!" 
+                - hg[Variant 1 : Player]: "Did everyone get cool pictures?" 
+                - hg[Variant 2 : Player]: "Yesssss!"
+                - hg[Variant 3 : Player]: "But it looked so pretty!"
+                - hg[Variant 4 : Player]: "Woohoo!" 
+                - hg[Variant 5 : Player]: "Oh, okay." 
 
   ##[Trivia]
   - This event was most likely more of a test for the futuristic lighting and to show off on how it looks ingame.

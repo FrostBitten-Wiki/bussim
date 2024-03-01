@@ -1,7 +1,7 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: In The Sky
+  description: The In The Sky event, or known as Falling from the Sky event, is an event that teleports the bus instantly into the skies, making the bus fall down at immense speeds until it crashes straight into the ground.. unscathed, of course.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -9,9 +9,10 @@ page:
   ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[InTheSky]\n
+      Event Runtime: h[45 Seconds (0:45)]
     
     image: ""
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
@@ -20,9 +21,18 @@ attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  The In The Sky event, or known as Falling from the Sky event, is an event that teleports the bus instantly into the skies, making the bus fall down at immense speeds until it crashes straight into the ground.. unscathed, of course. \n 
+  \n\n 
+  While this event isn't dangerous in the slightest, you are almost guaranteed to trip over the invisible road once you are blown away, only being protected thanks to the invisible barrier at the end of the road. 
+
+  ##[Dialogue]
+  - hg[EVENT]: "We are in the sky!"
+    - hg[You]: "OH GOD"
+      - hg[Event]: "WE ARE FALLING DOWN"
 
   ##[Trivia]
-  - Trivia Here
+  - Oddly enough, while the event states that the bus is falling from the sky, the player when in mid-air will instead fall straight into the road horizontally, rather than flying upwards as well.
+  - This event is the fastest event in the game, with 80 mph during the early-mid stages and 185 mph (both shown in the speedometer) in the last stage, this is theoretically enough to [time travel](time-travel), but it can be noted that most of it is likely vertical movement.
+  - This event actually uses both names, being EVENT and Event, with the latter interchangeable with the bus driver's name.
 
   !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

@@ -1,28 +1,41 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
-    
+  title: Glitches
+  description: The Glitches Event is an event that slowly starts changing biomes after everything seems relaxing at first, and gets faster per biome change. The event goes through every biome in the game, including hidden ones. It ends with a randomized biome after a jab at Noble. 
+  
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[Glitches]\n
+      Event Runtime: h[1 Minute (1:00)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/glitches.webp
 
 attributions: []
 
 content: |
+  ##[Warning]
+  h[This event can cause epilepsy for some people. If you are know you have this condition, it is very much recommended to look away for a minute or to shift your camera anywhere but outside. Especially if you see "Driving down the road is pretty relaxing."]
+ 
   ##[Info]
-  Placeholder Info
+  The Glitches Event is an event that slowly starts changing biomes after everything seems relaxing at first, and gets faster per biome change. The event goes through every biome in the game, including one that is only seen via !map in a VIP server, or in a few events, the [Void](void) biome.  \n
+  After a jab against NobleReign, the event ends with a randomized biome.
+
+  ##[Dialogue]
+  - hg[Event]: "Driving down the road is pretty relaxing."
+    - h[After a while...]
+      - hg[Event]: "Hm, looks like we got some glitches here, folks."
+        - hg[Event]: "Yep, we're in a video game. "
+          - hg[You]: "\*sigh*\"
+            - hg[Event]: "Ah, that's better."
+               - hg[Player]: "Who programmed this game? A child?"
 
   ##[Trivia]
-  - Trivia Here
+  - This is one of the few events that forcibly changes biome, without the need of a tunnel.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/events/glitches.webp]

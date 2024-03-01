@@ -10,7 +10,6 @@ page:
   tags: some,tags,here,that is used by the search api
 
   header:
-    title: Broken Down
     description: |-
       Category: [Events](events)\n
       Event Name: h[BrokeDown]\n
@@ -26,6 +25,10 @@ content: |
   Broke Down, or Broken Down is a simple event in Bus Simulator where [The Bus](the-bus) breaks down in the middle of the road, giving players the ability to push the bus back to its normal speed by using a push part at the back of the bus.
   \n\n
   After the players have successfully pushed the bus back to its normal speed, the event ends and things go as normal. If players don't push the bus however, the event will not end until it has been pushed back to normal, allowing ample time to explore the surroundings without tripping.
+
+  ##[Dialogue]
+  - hg[Event]: "The bus broke down! You'll need to find a way to fix it!"
+    - hg[You]: "Hmmmm, maybe if we push the bus, we'll get back up and running!"
 
   ##[Trivia]
   - This can technically be considered the longest event in the game, given how without any player interference it will last forever until someone pushes it back to normal.

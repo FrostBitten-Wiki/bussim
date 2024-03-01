@@ -24,6 +24,13 @@ content: |
   \n\n 
   In the cloned bus you may find everything from the normal bus, but the driver seat isn't working properly, the next stop and eyes are different, and some features aren't usable. 
 
+  ##[Dialogue]
+  - hg[Event]: "The bus got cloned!"
+    - hg[You]: "Intriguing."
+      - h[After some time has passed...]
+        - hg[Event]: "The clone seems to be unstable..."
+          - hg[Event]: "it's gonna disappear!"
+
   ##[Trivia]
   - It isn't recommended to jump to the cloned bus and vice versa while inside a tunnel, as you can very much fall inbetween the gap. And while it's a bit unnecessary as it is, you can use either [Hoverboots](hoverboots) or [Helicopter](helicopter) to easily travel between the two busses.
   - This is one of the more earlier events in this game, which is also why the cloned bus has less features as it's an older version of [The Bus](the-bus).

@@ -29,6 +29,12 @@ content: |
   The damage during most of the event is enough to outpace healing items, however in the last stage it isn't fast enough to outpace 
   [Cola](cola), [Homemade Coffee](homemade-coffee), and other healing items.
 
+  ##[Dialogue]
+  - hg[Event]: "It's acid raining! Find shelter!"
+    - hg[You]: "why are you like this mother nature"
+      - h[After some time has passed...]
+        - hg[Player]: "It looks like the rain's calming down."
+
   ##[Trivia]
   - The acid rain used to be physical parts, and would heavily lag the game, depending on how many players are in the server.
   - Any parts made using btools (gained via admin commands) can protect players from the acid rain, although the particles will still spawn and fall past the parts, dealing no damage.

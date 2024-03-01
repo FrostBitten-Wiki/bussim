@@ -1,28 +1,48 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Flash Flood
+  description: The Flash Flood or just simply called Flood, is an event where the bus becomes flooded slowly until it reaches the third floor.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[FlashFlood]\n
+      Event Runtime: h[Unknown]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/flash-flood.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  The Flash Flood or just simply called Flood, is an event where the bus becomes flooded slowly until it reaches the third floor.  \n
+  Players will have to swim by holding Q and seek high ground before they drown, those that are in seats will also be automatically dismounted once the water hits them unless they hold Q. Eventually, the water will dissipate and the event ends right after. 
+  \n\n 
+  While the damage dealt from drowning may be substantial especially given its long run time, it can be negated or avoided in different ways. \n
+  One of the more unconventional ways is to outpace it, this may require multiple healing items as a single item may not be enough to outpace it. Pairs like [Coffee](coffee) (or its [Homemade](homemade-coffee) variant) and [Cola](cola) can help outpace the drowning speeds when used together in a fast pace. 
+  \n\n 
+  You can also use the [Mini-Bus](mini-bus) instead to completely negate the damage dealt, or avoid it entirely by residing in some areas like the Glacier Cave, Backwalls, and the Void Box.
+
+  ##[Dialogue]
+  - hg[EVENT]: "FLASH FLOOD! Get to high ground!"
+    - hg[PROTIP]: "You can hold Q to dive underwater!"
+      - h[After a while...]
+        - hg[EVENT]: "The water is dissipating..."
 
   ##[Trivia]
-  - Trivia Here
+  - The Flash Flood event along with the [Acid Rain](acid-rain) event and the [Blizzard](blizzard) event are the only events that are weather-related and is referred to real-life Natural Disasters.
+  - It is unknown how the flood realistically reaches such a height that goes up to the second floor, but a couple of hypothesises suggest a lack of other water bodies and / or a massive rainfall.
+  - The flood is seen when the player falls off the map, and in the [Overseas](overseas) biome. It's unknown why its there, but its possibly to prevent the player from going in the null-zone and / or just a feature to make it look like the area is flooded when the flood event happens.
+  - While it seems unconventional, you can also stand on the edges of the [Beter Box] and survive.
+  - The bus very slowly moves backwards at the peak of the event, at a speed of -0.01. Afterwards it slowly raises back to the normal speed. 
+    - This also makes it the second event that makes the bus speed go into the negatives, with the [Timmy](timmy) event being the other one.
+  - This event has been known to also very rarely cause clients to think that the flood is still there, even though it already ended. This causes them to still swim and take damage mid-air from other perspectives.
+  - This event is the only one to use the name PROTIP, as all other events don't have it. 
+    - Likewise, the name EVENT is different from Event, where the latter is interchangeable with the current bus driver.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/events/flash-flood.webp]
