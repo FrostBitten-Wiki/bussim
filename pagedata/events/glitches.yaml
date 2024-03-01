@@ -31,7 +31,7 @@ content: |
     - h[After a while...]
       - hg[Event]: "Hm, looks like we got some glitches here, folks."
         - hg[Event]: "Yep, we're in a video game. "
-          - hg[You]: "\*sigh*\"
+          - hg[You]: "\*sigh\*"
             - hg[Event]: "Ah, that's better."
                - hg[Player]: "Who programmed this game? A child?"
 
