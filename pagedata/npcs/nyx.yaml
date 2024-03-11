@@ -1,24 +1,24 @@
-editable: True
+editable: true
 page:
   title: Nyx
   description: Fizzy is a very minor NPC, and can only be seen infront of the Bloxdonalds.
-    
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim fizzy npc
-  
+
   tags: nyx, npc
   ignore: ignore
 
   header:
     description: |
       Category: [NPCs](npcs)
-    
+
     imageBanner: /bussim-assets/images/banners/bus-banner.webp
 
 attributions: []
 
-content: |
-  !!INFOBOX TITLE:"Easter Egg Content" COLOR:"#A1FFEF" TEXT:"*\"you are not supposeed to be here\"* - Nyx\nv(This page is mainly easter egg content and is *never* found in the game. This is also where Wiki Contributors mess around.)"
-  
+content: |-
+  !!INFOBOX TITLE:"Easter Egg Content" COLOR:"#A1FFEF" TEXT:"*"you are not supposed to be here"* - Nyx\nv(This page is mainly easter egg content and is *never* found in the game. This is also where Wiki Contributors mess around.)"
+
   ##[Info]
   Nyx is a contributor in Bus Simulator, she also made this entire website, with some help by kalcifur and chadgpt.
   \n\n
