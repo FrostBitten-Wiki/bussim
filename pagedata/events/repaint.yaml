@@ -1,28 +1,65 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
-    
+  title: Repaint
+  description: The Repaint Event is an event that happens every 5 minutes at random, giving players the option to vote for what color that should be painted onto The Bus for around 16-20 minutes (or roughly 3-4 events). 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[Repaint]\n
+      Event Runtime: h[1 Minute or Less (1:00)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/repaint.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
-
+  The Repaint Event is an event that happens every 5 minutes at random, giving players the option to vote for what color that should be painted onto [The Bus](the-bus) for around 16-20 minutes (or roughly 3-4 events). 
+  \n\n 
+  There are 8 different colors to choose from, and each of them will paint the bus, slowly fading back to the natural color after the event has concluded. 
+  \n\n 
+  In the event that two or more colors are voted the most however, the paint will instead be roughly distributed around the bus, with a two-way tie being 50/50, to an impossible eight-way tie. You'll also get the [Colorful Chaos](https://www.roblox.com/badges/2130114796/Colorful-Chaos) if you get a four-way or higher tie. 
+  ##[Dialogue]
+  ###[Intro DIalogue]
+    - hg[Variant 1 : Player]: "Y'know, this bus is gettng kinda bland.. why don't we spice it up a little?"
+    - hg[Variant 2 : Player]: "I'm kinda tired of staring out of the window. Can we watch paint dry instead?"
+      - hg[Variant 1 : Player]: "Yeah sure, let's repaint the bus."
+      - hg[Variant 2 : Player]: "Good idea! We can all vote on what color we should paint the bus."
+      - hg[Variant 3 : Player]: "I mean, alright. If you can find the paint for it, I guess..."
+  ###[Poll Dialogue]
+    - hg[Variant 1 : Player]: "Why is blue even an option?"
+    - hg[Variant 2 : Player]: "I hope my color wins..."
+    - hg[Variant 3 : Player]: "Oh, an actual voting UI. Fancy."
+    - hg[Variant 4 : Player]: "I wonder if we can tie..."
+  ###[After Poll Dialogue]
+    - h[If a single color wins...]
+      - hg[Variant 1 : Player]: "Turned out better than I thought it would."
+      - hg[Variant 2 : Player]: "...<winning color>, huh? Interesting choice..."
+        - hg[Variant 1 : Player]: "Snazzy."
+   - h[If multiple colors win...]
+     - hg[Variant 1 : Player]: "Oh, it's a tie. Uh.. let's have the best of both worlds..?"
+        - hg[Variant 1 : Player]: "Oh good god this looks so bad."
+        - hg[Variant 2 : Player]: "I regret everything."
+   - h[If no colors win...]
+     - hg[Variant 1 : Player]: "Eh, actually, I don't care anymore."
+  ###[Extra Dialogue]
+    - h[If the event happens while paint is still on...]
+      - hg[Player]: "I kinda don't like this color"
+       - hg[Player]: "too bad lol"'
+   - h[Once the color dries off...]
+     - hg[Variant 1 : Player]: "Huh, looks like the paint finally wore away."
+      - hg[Variant 2 : Player]: "Awh, the paint wore off."
+    - h[If the event happens within a Private Server...]
+     - hg[Player]: "Hey, wanna change the bus color?"
+        - hg[Player]: "I think we'd have to let the owner handle that.. this is a private bus, after all."
   ##[Trivia]
-  - Trivia Here
-
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  - If the event occurs on a private server, it'll instead mention about the server owner changing it themselves, this is to prevent getting the Colorful Chaos so easily. <12px>([and it prevents it from recoloring what the server owner may have already recolored])
+  ##[Technical Trivia]
+  - If one tries to copy a part of the Bus using [Edit](edit) while the paint is still wearing off, it'll retain that color and is also given another coat on top of the previous paint during another Repaint. 
+    - Similarly, parts of the Bus that are colored manually will be the new default color, with paints only being layered on top of it. This can be seen outside of using Edit by doing the event during Halloween.
+  !!GALLERY [/assets/bussim/images/events/repaint.webp]

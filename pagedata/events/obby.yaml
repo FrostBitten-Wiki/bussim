@@ -1,28 +1,30 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
-    
+  title: Obby
+  description:  The Obby is a simple event in Bus Simulator, where the bus briefly stops at a small obby next to the sidewalk of the road. The players can choose to complete it in any way possible, being awarded with a can of Hyper Soda at the end.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[obby]\n
+      Event Runtime: h[55 Seconds (0:55)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/obby.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
-
-  ##[Trivia]
-  - Trivia Here
-
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  The Obby is a simple event in Bus Simulator, where the bus briefly stops at a small obby next to the sidewalk of the road. 
+  \n\n 
+  The players can choose to complete it in any way possible, being awarded with a can of [Hyper Soda](hyper-soda) at the end. The event ends shortly afterwards.
+  ##[Dialogue]
+    - hg[Event]: "Hey look, is that a classic obby?"
+      - hg[You]: "I should complete it!"
+        - h[After 40 seconds have passed...]
+          - hg[Event]: "We are leaving soon."
+  !!GALLERY [/assets/bussim/images/events/obby.webp]

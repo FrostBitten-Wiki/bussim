@@ -1,21 +1,21 @@
 editable: True
 page:
   title: Steven Ride
-  description: Placeholder
+  description: Steven Ride event or known as Steven_Scripts (Event), is an event that is almost identical to the Passengers event in Bus Simulator. During this event, Steven_Scripts will ride the bus waiting for his stop, only to abruptly leave to prevent being late in an unknown meeting. The event truly ends thereafter.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
 
   header:
-    title: Placeholder
+    title: Steven Ride
     description: |
       Category: [Events](events)\n
       Event Name: h[StevenRide]\n
       Event Runtime: h[25 seconds (Pickup) + Event being \*truly\* over: Random Seconds]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/steven-rides.webp
 
 attributions: []
 
@@ -67,4 +67,4 @@ content: |
   - Steven_Scripts actually changes his name in the End Dialogue, where he is referred to as Steven instead.
   - Steven_Scripts also T-Poses before entering the Bus, akin to his other version where it is a Stone Statue if Steven's already in the Bus.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/events/steven-rides.webp]

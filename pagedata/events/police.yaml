@@ -1,28 +1,30 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
-    
+  title: Police
+  description: The Police event is an event that happens every 5 minutes. During this event, the police starts to pursue the Bus due to reasons perhaps related to the current Bus Driver. The Bus however, speeds up in retaliation. As a result, throughout the event players will be subjected to high speeds as the police continues to catch up in response. 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[Police]\n
+      Event Runtime: h[1 Minute and 10 Seconds (1:10)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/police.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
-
-  ##[Trivia]
-  - Trivia Here
-
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  The Police event is an event that happens every 5 minutes. During this event, the police starts to pursue the Bus due to reasons perhaps related to the current Bus Driver. The Bus however, speeds up in retaliation. As a result, throughout the event players will be subjected to high speeds as the police continues to catch up in response. 
+  \n\n 
+  Eventually though, the Bus manages to drive fast enough for the police to drop the pursuit, as the event ends thereafter.
+  ##[Dialogue]
+    - hg[Event]: "W-Wh?! It's the police!"
+      - hg[You]: "OH NO!!!"
+        - h[After a while...]
+          - hg[Event]: "We're losing em'! Let's speed up!"
+  !!GALLERY [/assets/bussim/images/events/police.webp]

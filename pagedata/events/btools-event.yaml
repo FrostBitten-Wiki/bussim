@@ -11,7 +11,7 @@ page:
     description: |
       Category: [Events](events)\n
       Event Name: h[Btools]\n
-      Event Runtime: h["30 Seconds"]
+      Event Runtime: h[30 Seconds (0:30)]
     
     image: ""
     imageBanner: /assets/bussim/images/events/btools.webp

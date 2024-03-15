@@ -1,28 +1,32 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
-    
+  title: Passengers
+  description: The passenger event is a very simple event, where the bus stops at a stop as passengers hop inside the bus. A player will say "This feels similar to another game", a reference to Bus Stop Simulator and the event ends. The NPCs are randomly generated from existing user IDs, and there's a chance you can see NobleReigns friends. 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[BusStopRiders]\n
+      Event Runtime: h[28 Seconds (0:28)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/passengers.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
-
+  The passenger event is a very simple event, where the bus stops at a stop as passengers hop inside the bus. A player will say "This feels similar to another game", a reference to Bus Stop Simulator and the event ends. The NPCs are randomly generated from existing user IDs, and there's a chance you can see NobleReigns friends. 
+  \n\n 
+  Even though the event has ended, the passengers will still remain inside the bus at random times, eventually when that random time expires the NPC passenger opens the door and hops right off, similar to [Steven_Scripts](steven) in his titular event.
+  \n 
+  Unfortunately this doesn't seem to have any special effects when landing safely or if they were sent into the [Backwalls](backwalls).
+  ##[Dialogue]
+    - hg[Event]: "Hey, some passengers! Come on, get in!"
+      - hg[Player]: "This feels similar to some other game."
   ##[Trivia]
-  - Trivia Here
-
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  - The stop is the same stop in the [fake version](fake-events), although players can easily realize the difference by how there's now passengers.
+  !!GALLERY [/assets/bussim/images/events/passengers.webp]

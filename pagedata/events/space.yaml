@@ -1,28 +1,31 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
-    
+  title: Space
+  description: The Space Event is an event in Bus Simulator, where the map is instantly changed to be in space.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[Space]\n
+      Event Runtime: h[45 Seconds (0:45)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/space.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
-
+  The Space Event is an event in Bus Simulator, where the map is instantly changed to be in space.
+  \n\n
+  During this event, all players' gravity will be drastically reduced, with gravity-related items like the [Gas Station Gravity Coil](gas-station-gravity-coil) being able to make players shoot up into outer space. Eventually though, the event soon ends as gravity resumes back to normal.
+  ##[Dialogue]
+    - hg[EVENT]: "Houston, we have a big problem."
+      - hg[Houston]: "fix it yourself im on break"
   ##[Trivia]
-  - Trivia Here
-
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  - The map used during the event is almost the same as the [Void (Biome)](void), however the time is set to night instead. 
+    - Another event, called [In The Sky](in-the-sky) also uses the same event too.
+  !!GALLERY [/assets/bussim/images/events/space.webp]

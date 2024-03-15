@@ -230,18 +230,18 @@ content: |-
     - hg[Variant 1]: "You trying to take over the comment section or something?"
     - hg[Variant 2]: "I don't care who Billy sends, I'm not copy and pasting him..."
 
-  ###[Animal Messenger Quest-Line]
-  This quest-line starts from [Frostbite](frostbite)'s hg[Option 2], 3, 1, 2 and assuming the player hasn't completed it already. Pear's dialogue will also be added here and vice-versa. You'll also need the Part of the Pack badge and be friends with [Frost](frostbite) to activate.
+   ###[Animal Messenger Quest-Line]
+  This quest-line starts from [Frostbite](frostbite)'s Option 2, 3, 1, 2 and assuming the player hasn't completed it already. Pear's dialogue will also be added here and vice-versa. You'll also need the Part of the Pack badge and be friends with [Frost](frostbite) to activate.
 
   ###[Part 1 (Frost)]
   ###[First Time Dialogue:]
   - "Listen. If you ever see Pear again, I'd really appreciate it if you sent him my regards. Let that little rascal know I'm still around."
-    - Yeah, sure. I will.
+    - hg[Yeah, sure. I will.]
       - "Thanks. I'd do it myself, but I've just got no clue where he is..."
 
   ###[If you haven't sent his regards yet]
   - "I've already told you all this before, but again, I'd really appreciate it if you sent him my regards."
-    - I'll do it eventually.
+    - hg[I'll do it eventually.]
       - "Thanks..."
 
   ###[Part 2 (Pear)]
@@ -271,19 +271,19 @@ content: |-
   ###[First Time Dialogue]
   - "Tell Frost he owes me a tub of ice cream next time he sees me..."
   - "No reason in particular, I just want one!"
-    - Yeah, sure. I'll tell him.
+    - hg[Yeah, sure. I'll tell him.]
       - "Well, I mean, I was kinda half joking, but thanks! Maybe I'll get that ice cream after all..~"
 
   ###[If you haven't sent his message yet]
   - "Tell Frost he owes me a tub of ice cream next time he sees me..."
   - "No reason in particular, I just want one!"
-    - I'll get to it eventually.
+    - hg[I'll get to it eventually.]
       - "Thanks~"
 
   ###[If you had sent his message but not directly told him after Part 5]
   - "Tell Frost he owes me a tub of ice cream next time he sees me..."
   - "No reason in particular, I just want one!"
-    - I told him.
+    - hg[I told him.]
       - "Whuh?! You actually did?!"
       - "Thank you.. I've been wanting to tell him that for years!" (Triggers the Animal Messenger Badge)
 
@@ -312,7 +312,7 @@ content: |-
     - You: "<You grab the object he tosses at you. Looks like a handheld mirror of some sort.>"
       - "If ya ever feel lonely, or just want a safe space to chill, feel free to come back anytime."
       - "Alright, see ya on the flip side."
-
+      
   ###[Airhorn-Related Dialogue]
   - If the airhorn is used repeatedly in proximity to Pear
     - "MMEEEOOOOOWWWWWWWW!!!!!"

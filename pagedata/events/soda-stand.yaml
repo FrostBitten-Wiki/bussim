@@ -1,28 +1,32 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
-    
+  title: Soda Stand
+  description: Soda Stand is an event where the bus will stop next to a random soda stand. The driver says that someone is handing out free soda. Players can click on MiroCev and can receive get a Lemon Soda. Within less than a minute, the driver mentions the soda killed their dog and that they have to evacuate to the bus. This is referenced in a news article. 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[LemonSoda]\n
+      Event Runtime: h[1 Minute and 57 Seconds (1:57)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/soda-stand.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
-
+  Soda Stand is an event where the bus will stop next to a random soda stand. The driver says that someone is handing out free soda. Players can click on [MiroCev](mirocev) and can receive get a [Lemon Soda](lemon-soda). 
+  \n\n
+  Within less than a minute, the driver mentions the soda killed their dog and that they have to evacuate to the bus. This is referenced in a news article. 
+  ##[Dialogue]
+    - hg[Player]: "Hey, someone's giving free soda on the side of the road!"
+      - hg[You]: "Oh, cool."
+        - h[After some time <12px>(and some spitting...)]
+          - hg[Event]: "That soda killed my dog. Let's go, twenty seconds." 
   ##[Trivia]
-  - Trivia Here
-
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  - The Lemon Soda, along with the [Bloxdonalds Burger](burger) and [Expired Taco](expired-taco), are the only items known to cause the players screen to become green and also cause a distorted sound to be heard.
+  !!GALLERY [/assets/bussim/images/events/soda-stand.webp]

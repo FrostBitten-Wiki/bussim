@@ -96,4 +96,4 @@ content: |-
     - The harmonica sound effect is also be distorted if you spot him in the [Backwalls](backwalls).
   - If Steven_Scripts ride on the Bus and all of the seats on the first floor are filled, Steven_Scripts will instead sit down next to the bathroom, defeated.
 
-  !!GALLERY [/assets/bussim/images/npcs/banana.webp]  
+  !!GALLERY [/assets/bussim/images/npcs/steven.webp|/assets/bussim/images/npcs/steven-instances/stevenbathroom.webp|/assets/bussim/images/npcs/steven-instances/stevenbackwallswebp]  

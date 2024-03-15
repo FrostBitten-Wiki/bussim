@@ -1,28 +1,65 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Noble's House
+  description:  The No Gas event, or internally known as Gas Up, is the true version of the Fake No Gas, where instead of the bus driver fooling their passengers again, the bus actually runs out of gas and the players will have to collect 6 gas cans near the road. 
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[NoblesHouse]\n
+      Event Runtime: h[1 Minutes and 32 Seconds (1:32)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/nobles-house.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  Noble's House is an event where the bus ends up crashing onto the house owned and lived by Noble, which coincidentally is in the middle of the road.
+  \n\n 
+  Players will be able to explore around his house, grabbing a couple of colas from the refridgerator, interacting with the TV, and also a hidden gameboy cartridge for your [Gameboy Advance](gameboy-advance)!
+  \n\n 
+  Despite this, it ends rather short. After the Bus Driver comments on the situation, Noble gives the permission for the bus to drive through his house one more time to continue their journey. The event soon ends afterwards.
+  ###[Interacting with the hidden sparkle behind the desktop says the following]:
+    - hg[You]: "[You can see something sparkling behind Noble's PC. Investigate?]"
+      - hg[Option 1]: Sure.
+       - hg[You]: "[You decide to take a look...]"
+        - h[If the player already has a Gameboy Cartridge...]
+          - hg[You]: "[...and found a cartridge for the GBA... you already have one, though.]"
+        - h[If the player already had interacted with it before...]
+          - hg[You]: "[...and found nothing of value.]"
+        - h[If the player doesn't have a Gameboy Cartridge...]
+          - hg[You]: "[...and found a cartridge for the GBA! You'll be able to use it until you die.]"
+      - hg[Option 2]: Nah.
 
+  ##[Dialogue]
+  - hg[NobleReign]: "WOAH! . . . . . *sigh* this happens every Wednesday, it's not my fault that they built this house on a highway..."
+  - hg[NobleReign]: "feel free to explore, while my bank account sobs in pain."
+    - [After some time...]
+      - hg[Variant 1 : Event]: "I really need to use the bathroom, please hurry."
+      - hg[Variant 2 : Event]: "I am not paying for this house."
+      - hg[Variant 3 : Event]: "Uhmm.. nice house.. I think we'll be taking our leave now."
+      - hg[Variant 4 : Event]: "this is some yah yeet epic vlog material lets go upload it"
+      - hg[Variant 5 : Event]: "...This is getting awkward. Let's go."
+      - hg[Variant 5 : Event]: "I am going to womit if we will not leave this very unepic house."
+      - hg[Variant 6 : Event]: "I wish I had enough money to afford this kind of house... let's go before I get jealous and steal it."
+      - hg[Variant 7 : Event]: "Good thing I have no driver's license. Let's go before he actually calls the cops!"
+      - hg[Variant 8 : Event]: "Done exploring the poor guy's house? Well you should be, because we're leaving soon."
+      - hg[Variant 9 : Event]: "Eh, 3/5 on Yelp."
+      - hg[Variant 10 : Event]: "I'm bored, leaving in a few."
+      - hg[Variant 11 : Event]: "Okay Google, what's the fastest way to leave all your passengers behind?"
+      - hg[Variant 12] : Event: "I've already seen this house like, 20 times."
+      - hg[Variant 13 : Event]: "I hope whoever owns this bus had saved 15% or more on bus insurance.."
+      - hg[Variant 14 : Event]: "We should probably go, we're interrupting his developer work."
+      - hg[Variant 15 : Event]: "Okay, we're leaving now. Nice house by the way."  
+            - hg[NobleReign]: "Just.. feel free to go through the other wall.. *long, defeated sigh*"
   ##[Trivia]
-  - Trivia Here
-
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  - Noble's Desktop has a chance to have different decals, being single colors but also rarely; the stereotypical green furry used by new furs.
+  - When going on Channel 3 in the TV, it will instead display the players that are watching it based on a range instead of a typical "Most Robux Wasted" leaderboards.
+  - When you go inside the fridge, you will end up being electrocuted to death with hidden laser beams inside.
+  !!GALLERY [/assets/bussim/images/events/nobles-house.webp]

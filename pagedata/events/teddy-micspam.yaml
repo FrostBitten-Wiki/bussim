@@ -1,26 +1,29 @@
 editable: True
 page:
-  title: Teddy (Micspam)
-  description: Placeholder
-    
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim teddy event, roblox bus sim teddy micspam event
+  title: MicSpam
+  description: MicSpam is an event in Bus Simulator, where the Bus will forcibly stop to see a rabbit wearing a box in the middle of the lane that the Bus is on.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
 
   header:
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[Micspam]\n
+      Event Runtime: h[1 Minute and 20 Seconds (1:20)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/npcs/teddy.webp
 
 attributions: []
 
 content: |
+  !!BUTTONS [<highlight>MicSpam</highlight>,location.href='#'|MicOff,location.href='teddy-micoff']
+  "my ears hurt" -"Bus Passenger"
   ##[Info]
-  Placeholder Info
-
+  MicSpam is an event in Bus Simulator, where the Bus will forcibly stop to see a rabbit wearing a box in the middle of the lane that the Bus is on. After about one minute, Teddy will begin to sing a song using his megaphone and after it has finished, it will promptly drop down a hole, and the event will end. The passengers or driver will then exclaim signs of hearing problems or part of the song's lyrics. 
   ##[Trivia]
-  - Trivia Here
-
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  - Teddy is also likely referenced in one [news article](news): "Local Toon causes 24-hour long traffic jam by singing through a megaphone, more at 11"
+  - This event was originally added as a result of Teddy (the user) often using the Megaphone Emote paired with a micspamming ID within Arsenal, a Roblox game.
+    - Despite this, following the March 22, 2022 incident, the ID Teddy used has now been replaced by Alvin and the Chimpmunks. It is unknown if it's better or worse than the original audio.
+  !!GALLERY [/assets/bussim/images/npcs/teddy.webp]

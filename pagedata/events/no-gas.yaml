@@ -1,28 +1,56 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: No Gas
+  description:  The No Gas event, or internally known as Gas Up, is the true version of the Fake No Gas, where instead of the bus driver fooling their passengers again, the bus actually runs out of gas and the players will have to collect 6 gas cans near the road. 
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[GasUp]\n
+      Event Runtime: h[5 Minutes or Less (5:00)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/gas-up.webp
 
 attributions: []
 
 content: |
+  Are you looking for the [fake version](fake-gas) of this event, perhaps?
   ##[Info]
-  Placeholder Info
-
+  The No Gas event, or internally known as Gas Up, is the true version of the Fake No Gas, where instead of the bus driver fooling their passengers again, the bus actually runs out of gas and the players will have to collect 6 gas cans near the road. 
+  \n\n 
+  While an event such as this may be harmless, it can be obstructed by generating terrain, spawn in the skies, or happen during a biome unsuitable for such event. <12px>([Examples being, Overseas & Lava]) Which can make getting the gas cans harder, if not inaccessible without proper equipment like [Helicopter](helicopter), [Gas Station Gravity Coil](gas-station-gravity-coil) [Hoverboots](hoverboots), and others. 
+  \n\n 
+  Eventually though after 5 minutes, to prevent soft-locking; the event will forcibly end regardless if the requirements are met as to not make the event permanent. 
+  ##[Dialogue]
+  - hg[Variant 1]:
+    - hg[Event]: "The bus ran out of gas. Find the six gas cans to get us back on the road."
+      - hg[You]: "Wow, you just sound like an in-game announcement."
+  - hg[Variant 2]:
+    - hg[Event]: "Oof ouch"
+      - hg[You]: "Oof ouch why do we have to do all the work"
+  - hg[Variant 3]:
+    - hg[Event]: "NOOOO MY PRECIOUS WE RAN OUT OF YOUR JUICES WE NEED TO FIND MORE"
+      - hg[You]: "O_O Okay..."
+  - hg[Variant 4]:
+    - hg[Event]: "Haha, guys look, the gas meter is on 'E' for EPIC!"
+      - hg[You]: "Haha lol xd Lets xd Go lol Find lmao xd Some xd Gas lol xd lmao epic"
+  - hg[Variant 5]:
+    - hg[Event]: "h"
+      - hg[You]: "ditto let's find gas"
+  - hg[Variant 6]:
+    - hg[Event]: "...we ran out of gas..."
+      - hg[You]: "Okay, let's go get the gas... out the bus we go!"
+  - h[After getting the gas...]
+    - h[Event]: "Alright, our tank is full. Get on, we're leaving in 20 seconds."
+  - h[If nobody has collected all gas canisters within 5 minutes...]
+    - h[Event]: "Screw it, who needs gas? Get back on the bus."
+      - h[You]: "oh okay"
   ##[Trivia]
-  - Trivia Here
-
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  - When it comes to determining a Fake No Gas compared to the real one, it is easy to tell based on the different dialogue, since this event contains multiple dialogue, whilst the fake event has only one.
+  - The added difficulty when it comes to this occurring in unsuitable biomes are mainly unintentional, for it was an old event and it is rare for such conditions to happen.
+  !!GALLERY [/assets/bussim/images/events/gas-up.webp]

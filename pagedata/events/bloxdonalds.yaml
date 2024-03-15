@@ -11,7 +11,7 @@ page:
     description: |
       Category: [Events](events)\n
       Event Name: h[Bloxdonalds]\n
-      Event Runtime: h[1 minute 40 seconds (100 seconds)]
+      Event Runtime: h[1 Minute and 40 Seconds (1:40)]
     
     image: ""
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
@@ -26,15 +26,15 @@ content: |
   \n\n
   During the event, you'll also be able to interact with characters such as: Red and Steven Scripts. There's also a hidden interactable NPC next to the door, and used to be another NPC in its place but was removed for reasons.
 
-  ###[Trying to interact with the last NPC says the following]
+  ###[Trying to interact with the last NPC says the following]:
   - hg[You]: "..?"
     - hg[You]: "The vibes are kinda off in this specific spot... was someone here before?"
 
   ##[Dialogue]
-  - hg[Player]: "Woah! I think I see a Bloxdonalds in the distance!"
+  - hg[Event]: "Woah! I think I see a Bloxdonalds in the distance!"
     - hg[You]: "\*gasp\*"
       - h[After some time has passed...]
-        - hg[Player]: "I'm 99% sure there's something in these burgers.. Evacuate to the bus."
+        - hg[Event]: "I'm 99% sure there's something in these burgers.. Evacuate to the bus."
 
   ##[Trivia]
   - This is the second largest amount of interactable NPCs, having half as much as [GOATed Gas Station](goat-station).

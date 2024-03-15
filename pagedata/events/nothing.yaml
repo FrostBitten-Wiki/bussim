@@ -1,28 +1,39 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Nothing
+  description:  The nothing event is well... nothing? There isn't much to detail for this event other than a conversation of dialogue between the player and the event, but that's it.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[Nothing]\n
+      Event Runtime: h[49 Seconds (0:49)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/nothing.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
-
+  The nothing event is well... nothing? There isn't much to detail for this event other than a conversation of dialogue between the player and the event, but that's it.
+  \n\n 
+  There is no hidden features into it, no special dialogue or any happenings, it is essentially nothing. Let's just hope it doesn't happen again right after the first.
+  ##[Dialogue]
+  - hg[You]: "..."
+  - hg[You]: "So.."
+    - hg[Player]: "Where's the event?"
+       - hg[GAME]: "There is no event."
+        - hg[You]: "..what?"
+          - hg[GAME]: "The event is that there is no event, and that's the event." 
+             - hg[You]: "...I don't get it."
+              - hg[GAME]: "You may not get it now, but trust me. This is the deepest event in the game. You just don't know it yet." 
+                 - hg[You]: "?????????" 
   ##[Trivia]
-  - Trivia Here
-
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  - This event for many, is considered useless and objectively so, for it is literally nothing, with [Traffic Light](traffic-light), and [Mountain](mountain) being behind it based on community reception. 
+    - You can also do an Advanced Force Event specifically for this, but you *definitely* shouldn't pick this event. (120 R$ down the drain!)
+  !!GALLERY [/assets/bussim/images/events/literallynothing.webp]

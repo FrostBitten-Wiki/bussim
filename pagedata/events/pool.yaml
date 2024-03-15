@@ -1,28 +1,28 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
-    
+  title: Pool
+  description: The Pool is a short and simple event, where a pool will magically spawn next to the edge of the third floor in The Bus, within this pool will contain a few ducks and Coffee, which acts similarly in function to Cola. 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[Pool]\n
+      Event Runtime: h[55 Seconds (0:55)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/pool.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
-
-  ##[Trivia]
-  - Trivia Here
-
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  The Pool is a short and simple event, where a pool will magically spawn next to the edge of the third floor in [The Bus](the-bus), within this pool will contain a few ducks and [Coffee](coffee), which acts similarly in function to [Cola](cola). 
+  ##[Dialogue]
+    - hg[Event]: "A pool spawned on top of the bus!"
+      - hg[You]: "Oh, nice." 
+        - h[After 40 seconds...]
+          - hg[Event]: "It's going to disappear!" 
+  !!GALLERY [/assets/bussim/images/events/pool.webp]

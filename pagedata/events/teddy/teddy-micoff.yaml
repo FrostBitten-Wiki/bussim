@@ -1,0 +1,32 @@
+editable: True
+page:
+  title: MicOff
+  description: MicOff is the secondary ending to MicSpam, where the driver finally snaps, running over Teddy and ending his event prematurely.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+
+  header:
+    description: |
+      Category: [Events](events)\n
+      Event Name: h[MicOff]\n
+      Event Runtime: h[37 Seconds (0:37)]
+    
+    image: ""
+    imageBanner: /assets/bussim/images/events/TeddyDead.webp
+
+attributions: []
+
+content: |
+  !!BUTTONS [MicSpam,location.href='teddy-micspam'|<highlight>MicOff</highlight>,location.href='#']
+  "SHUT UP!!!" -"Bus Driver"
+  ##[Info]
+  MicOff is the secondary ending, that is assumed to be after the first outcome, being MicSpam. When this happens the same exact event will occur being that Teddy will sing his song, but before he can continue the later parts of the song, the driver finally snaps and backpedals the Bus to then push the gas, running over Teddy and finally ending his song early. The event will also end right after that. 
+  \n 
+  This will also cause Teddy to explode into parts when being ran over. 
+  \n\n 
+  The passengers or driver will then exclaim signs of either relief or concern afterwards. 
+  ##[Trivia]
+  - This is the one of the only events in the game to feature two identical versions but with slight alterations, similar to [No Dough](no-dough) and its inaccessible version, [Santas Gone](santas-gone).
+  - While it is heavily implied that MicOff is the outcome after MicSpam, It's possible to roll MicOff first before MicSpam.
+  !!GALLERY [/assets/bussim/images/events/TeddyDead.webp]

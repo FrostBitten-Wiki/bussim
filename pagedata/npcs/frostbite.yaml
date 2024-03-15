@@ -117,9 +117,9 @@ content: |-
       - hg[Option 1]: [Actions...]
           - hg[Option 1]: [Leave.]
           - hg[Option 2]: [Check.]
-              - You: "Frost. This blue wolf seems to live here, and it feels remarkably colder in here than anywhere else in the cave..."
-              - You: "He seems a little more interested in you than before, his gaze following your movements..."
-              - You: "Giving him an ice cream was the right call, but that probably won't work again... [what can you do?](pearcoin)"
+              - You: "[Frost. This blue wolf seems to live here, and it feels remarkably colder in here than anywhere else in the cave...]"
+              - You: "[He seems a little more interested in you than before, his gaze following your movements...]"
+              - You: "{Giving him an ice cream was the right call, but that probably won't work again... [what can you do?](pearcoin)}"
           - hg[Option 3]: [Show item: [PearcoinTM](pearcoin)]
               - "..? A coin..? Thanks, but I don't really..."
               - "Hang on a second."
@@ -168,11 +168,11 @@ content: |-
   - hg[Variant 7]: "What's up?"
   - hg[Variant 8]: "Need somethin'?"
       - hg[Option 1]: [Actions...]
-          - You: "What action will I take?"
+          - You: "[What action will I take?]"
               - hg[Option 1]: [Leave.]
               - hg[Option 2]: [Check.]
-                  - You: "It's Frost! It seems like you're finally friends with him now. Maybe pearcoinTM wasn't so useless after all."
-                  - You: "His tail even wags a little when you walk up to him!"
+                  - You: "[It's Frost! It seems like you're finally friends with him now. Maybe pearcoinTM wasn't so useless after all.]"
+                  - You: "[His tail even wags a little when you walk up to him!]"
       - hg[Option 2]: Let's talk!
           - hg[Variant 1]: "Go for it!"
           - hg[Variant 2]: "Sure, I've got nothing better to do."
@@ -184,7 +184,7 @@ content: |-
                   - "Only been here a few months. Feels like an eternity though."
               - hg[Option 2]: Let's be friends!
                   - "Done and done. We're friends now."
-                      - Oh, alright then.
+                      - hg[Oh, alright then.]
               - hg[Option 3]: About the cave...
                   - "Yeah, what about it?"
                       - hg[Option 1]: What's with all of the popsicles?
@@ -197,7 +197,7 @@ content: |-
                               - hg[Option 2]: Oh, so it was Pear!
                                   - "Yep. I'm real glad that you showed me that coin. I haven't seem him in forever, I wonder if he still remembers me..."
                                   - "Naaah, I'm just messin' with ya. I know you sent him my regards already! Thanks for that, by the way." (If the Animal Messenger Quest-Line's part 3 is completed)
-                                      - No problem.
+                                      - hg[No problem.]
                               - hg[Option 3]: Pear's terrifying.
                                   - "Heh, it was rather cute, actually. He's so small that he could barely wrap his mouth around the corner of one. Meanwhile, here I am, able to bite the whole thing in one go.."
                                       - hg[Option 1]: The whole thing..?! Sheesh.. definitely terrifying.
@@ -243,9 +243,9 @@ content: |-
                                           - "Yeah, but I still didn't have enough for it... Maybe in the future, I'll make some kinda company or somethin'... I don't know what I'd do though, maybe somethin' ice-cream related?"
                                               - hg[Option 1]: In today's economy? Good luck...
                                                   - "Yeah, you're right... It'd be probably be tough to get a business up and runnin' nowadays, huh? Maybe I should just give it up..."
-                                                      - Woah, I didn't mean it like THAT.
+                                                      - hg[Woah, I didn't mean it like THAT.]
                                                           - "Eh.. I'm a little uncertain about it now, but if you think I might be able to, I'll try..."
-                                                              - Yeah, maybe.
+                                                              - hg[Yeah, maybe.]
                                                                   - "-sigh-"
                                               - hg[Option 2]: I'm rooting for you, Frost!
                                                   - "Thanks.. I don't remember the last time someone's actually believed in me before.. I'll try my best, (player), just you wait!"
@@ -258,12 +258,12 @@ content: |-
   ###[Part 1 (Frost)]
   ###[First Time Dialogue:]
   - "Listen. If you ever see Pear again, I'd really appreciate it if you sent him my regards. Let that little rascal know I'm still around."
-    - Yeah, sure. I will.
+    - hg[Yeah, sure. I will.]
       - "Thanks. I'd do it myself, but I've just got no clue where he is..."
 
   ###[If you haven't sent his regards yet]
   - "I've already told you all this before, but again, I'd really appreciate it if you sent him my regards."
-    - I'll do it eventually.
+    - hg[I'll do it eventually.]
       - "Thanks..."
 
   ###[Part 2 (Pear)]
@@ -293,19 +293,19 @@ content: |-
   ###[First Time Dialogue]
   - "Tell Frost he owes me a tub of ice cream next time he sees me..."
   - "No reason in particular, I just want one!"
-    - Yeah, sure. I'll tell him.
+    - hg[Yeah, sure. I'll tell him.]
       - "Well, I mean, I was kinda half joking, but thanks! Maybe I'll get that ice cream after all..~"
 
   ###[If you haven't sent his message yet]
   - "Tell Frost he owes me a tub of ice cream next time he sees me..."
   - "No reason in particular, I just want one!"
-    - I'll get to it eventually.
+    - hg[I'll get to it eventually.]
       - "Thanks~"
 
   ###[If you had sent his message but not directly told him after Part 5]
   - "Tell Frost he owes me a tub of ice cream next time he sees me..."
   - "No reason in particular, I just want one!"
-    - I told him.
+    - hg[I told him.]
       - "Whuh?! You actually did?!"
       - "Thank you.. I've been wanting to tell him that for years!" (Triggers the Animal Messenger Badge)
 

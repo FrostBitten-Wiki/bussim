@@ -1,28 +1,111 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Nuke
+  description:  The Nuke event is a very simple event where the bus stops to take a break, figuring out what object is flying down in the distance.. only to find out that it's a nuke that's being dropped near them.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[Nuke]\n
+      Event Runtime: h[1 Minute and 17 Seconds (1:17)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/nuke.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
-
+  The Nuke event is a very simple event where the bus stops to take a break, figuring out what object is flying down in the distance.. only to find out that it's a nuke that's being dropped near them. Soon after, nuclear alarms start blaring in the background, as the bus quickly speeds up to very fast speeds just grazing the nuclear blast.
+  \n\n 
+  The event ends then after.
+  ##[Dialogue]
+  - hg[Event]: "Eh, we've been here for a while. Let's stop."
+    - hg[You]: "Okay."
+      - hg[Event]: "..What's that in the distance?"
+        - hg[Variant 1 : Event]: "That's a pretty <adjective> ufo..."
+        - hg[Variant 2 : Event]: "That's a pretty <adjective> space shuttle..."
+        - hg[Variant 3 : Event]: "That's a pretty <adjective> orange..."
+        - hg[Variant 4 : Event]: "That's a pretty <adjective> vbuck..."
+        - hg[Variant 5 : Event]: "That's a pretty <adjective> bird..."
+        - hg[Variant 6 : Event]: "That's a pretty <adjective> star..."
+        - hg[Variant 7 : Event]: "That's a pretty <adjective> grass block from minecraft..."
+        - hg[Variant 8 : Event]: "That's a pretty <adjective> potato..."
+        - hg[Variant 9 : Event]: "That's a pretty <adjective> shooting star..."
+        - hg[Variant 10 : Event]: "That's a pretty <adjective> fly..."
+        - hg[Variant 11 : Event]: "That's a pretty <adjective> watermelon..."
+        - hg[Variant 12 : Event]: "That's a pretty <adjective> epic gamer..."
+        - hg[Variant 13 : Event]: "That's a pretty <adjective> ball..."
+        - hg[Variant 14 : Event]: "That's a pretty <adjective> cloned bus..."
+          - h[Note: Adjectives are of the following:]
+            - Big
+            - Cool 
+            - Disgusting
+            - Epic
+            - Fast  
+            - Small
+            - Weird 
+            - Weirdly-shaped 
+          - hg[Variant 1 : Event]: "..is it a ufo?"
+          - hg[Variant 2 : Event]: "..is it a space shuttle?"
+          - hg[Variant 3 : Event]: "..is it a orange?"
+          - hg[Variant 4 : Event]: "..is it a vbuck?"
+          - hg[Variant 5 : Event]: "..is it a bird?"
+          - hg[Variant 6 : Event]: "..is it a star?"
+          - hg[Variant 7 : Event]: "..is it a grass block from minecraft?"
+          - hg[Variant 8 : Event]: "..is it a potato?"
+          - hg[Variant 9 : Event]: "..is it a shooting star?"
+          - hg[Variant 10 : Event]: "..is it a fly?"
+          - hg[Variant 11 : Event]: "..is it a watermelon?"
+          - hg[Variant 12 : Event]: "..is it a epic gamer"
+          - hg[Variant 13 : Event]: "..is it a ball?"
+          - hg[Variant 14 : Event]: "..is it a cloned bus?"
+            - hg[Variant 1 : Event]: "OW!! That's a really loud alarm..."
+            - hg[Variant 2 : Event]: "oof mates that's a nuke"
+            - hg[Variant 3 : Event]: "wait.. no.. oh.. OH GOD.. IS THAT A NUKE?!"
+            - hg[Variant 4 : Event]: "That might not be epic....."
+            - hg[Variant 5 : Event]: "This is it my friends.."
+            - hg[Variant 6 : Event]: "Okay Google, how to survive a nuclear attack?"
+            - hg[Variant 7 : Event]: "I don't get paid enough to endure such nuclear attacks..."
+              - hg[Variant 1 : Event]: "Goodbye my friends.." 
+              - hg[Variant 2 : Event]: "I HOPE THIS iS A PRANK!!!"
+              - hg[Variant 3 : Event]: "This doesn't seem epic..."
+              - hg[Variant 4 : Event]: "WE NEED TO GET OUT OF HERE!" 
+              - hg[Variant 5 : Event]: "I HOPE YOU ARE NOT FAR AWAY FROM THE BUS, GET ON THE BUS NOW!"
+              - hg[Variant 6 : Event]: "DO YOU WANT TO SURVIVE OR DIE"
+              - hg[Variant 7 : Event]: "LET'S GET OUT OF HERE NOW!"
+              - hg[Variant 8 : Event]: "WE NEED TO ESCAPE FROM THE BOOM!"
+              - hg[Variant 9 : Event]: "I DONT WAMT TO END UP LIKE BILL IN LEFT4DEAD2"
+                - hg[Variant 1 : Event]: "MOMMY!!!"
+                - hg[Variant 2 : Event]: "WE WILL HAVE A BLAST!!"
+                - hg[Variant 3 : Event]: "I JUST WANTED BLOXDONALDS!"
+                - hg[Variant 4 : Event]: "I AM TOO YOUNG TO DIE"
+                - hg[Variant 5 : Event]: "THAT WASN'T A PRANK"
+                - hg[Variant 6 : Event]: "this is fine"
+                - hg[Variant 7 : Event]: "Oooooooh, mama.."
+                - hg[Variant 8 : Event]: "GOTTA STEP ON THE GAS AND TURN TO THE RIGHT"
+                - hg[Variant 9 : Event]: "OH MIGHTY STEVEN!" 
+                - hg[Variant 10 : Event]: "THIS IS NOT EPIC!!" 
+                - hg[Variant 11 : Event]: "WHY IS THERE A NUKE ALL THE WAY OUT HERE?!" 
+                - hg[Variant 12 : Event]: "LETS GET OUT OF HERE NOW" 
+                - hg[Variant 13 : Event]: "LTIME TO GO FULL THROTTLE" 
+                  - h[AFter the nuke disappears...]
+                     - hg[Variant 1 : Event]: "Huh.. That was close."
+                     - hg[Variant 2 : Event]: "Oh my god, I'm so glad to live another day."
+                     - hg[Variant 3 : Event]: "I hope you changed your pants already."
+                     - hg[Variant 4 : Event]: "That was intense."
+                     - hg[Variant 5 : Event]: "HOW AM I STILL ALIVE???"
+                     - hg[Variant 6 : Event]: "Was that 'Tsar-Bomba'?"
+                     - hg[Variant 7 : Event]: "...Nice! Everybody, back in your seats!"
+                     - hg[Variant 8 : Event]: "That was NOT epic..."
+                     - hg[Variant 9 : Event]: "I think I peed my pants."
+                     - hg[Variant 10 : Event]: "I feel... like I'm... gonna have... a heart attack."
   ##[Trivia]
-  - Trivia Here
-
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  - Before March 22, 2022, the music used to be [Screech](https://www.youtube.com/watch?v=LUT-GjQXdOI), from PAYDAY 2.
+    - You can also do an Advanced Force Event specifically for this, but you *definitely* shouldn't pick this event. (120 R$ down the drain!)
+  - This event has undeniably the most amount of dialogue combinations in the entire game, totalling at 917,280 dialogue options.
+  !!GALLERY [/assets/bussim/images/events/nuke.webp]

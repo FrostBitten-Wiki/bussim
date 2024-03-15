@@ -1,28 +1,37 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Lava Floor
+  description:  The Lava Floor, or commonly known as The Floor is Lava event, is a sudden, yet deadly event in Bus Simulator, where for the remainder of 32 seconds, stepping on the floor on any level of the bus will swiftly deal 3 damage.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
-  ignore: ignore
 
   header:
-    title: Placeholder
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[LavaFloor]\n
+      Event Runtime: h[32 Seconds (0:32)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/lavafloor.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  The Lava Floor, or commonly known as The Floor is Lava event, is a sudden, yet deadly event in Bus Simulator, where for the remainder of 32 seconds, stepping on the floor on any level of the bus will swiftly deal 3 damage.
+  \n\n 
+  To avoid the damage, simply sitting on a chair or anything but the floor works. You can also use [Helicopter](helicopter) or [Hoverboots](hoverboots) to fly away from the ground or use healing items such as [Cola](cola) to outpace the damage.
+  \n 
+  You may also use the [Magic Mirror](magic-mirror) to teleport to the Glacier Cave to avoid the event entirely, or be stuck inside of the [Backwalls](backwalls), as only the main area is where the event is applicable. 
+
+  ##[Dialogue]
+  - hg[EVENT]: "The floor is lava!!!"
+    - hg[You]: "AHHHHH"
 
   ##[Trivia]
-  - Trivia Here
-
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  - Back then, this event used to count seats and props as lava and had a silent, yet deadly system, giving itself its infamy for being the most deadliest event in the game. This was later changed by Red (@RedNoob5050) to make it only count floors, and deal swift but noticable damage.
+  ##[Technical Trivia] 
+  - This event similar to others is exempted when it comes to h[Height Immunity], which is to say that at above 5,000 studs from the origin, events like this won't apply. Areas that are above or around this level are the [Void Room](void-box), [Glacier Cave](glacier-cave), and the [Backwalls](backwalls), thus giving them their event immunity traits.
+  !!GALLERY [/assets/bussim/images/events/lavafloor.webp]
