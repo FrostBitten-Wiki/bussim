@@ -1,20 +1,21 @@
-editable: True
+editable: true
 page:
   title: Magic Mirror
-  description: The Magic Mirror is an item obtained by returning to the Glacier Cave after receiving the Animal Messenger badge from Frostbite's questline. 
-    
+  description: The Magic Mirror is an item obtained by returning to the Glacier Cave
+    after receiving the Animal Messenger badge from Frostbite's questline.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
+
   tags: magic mirror, shimy mirror, mirror, magic. frost den, teleport item
 
   header:
     description: |
       Category: [Items](items)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
-attributions: 
+attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
@@ -24,7 +25,7 @@ content: |
   ##[Info]
   The Magic Mirror is an item obtained by returning to the [Glacier Cave](glacier-cave) after receiving the Animal Messenger badge from Frostbite's questline. 
   \n\n 
-  On use, it will teleport you to the [Glacier Cave](glacier-cave), just several feet away from the [Frost](frostbite).
+  On use, it will teleport you to the [Glacier Cave](glacier-cave), just several feet away from the [Frost](frostbite). Using it again next to the [Fake Window](glacier-cave) however, will teleport you back to [The Bus](the-bus).
 
   ##[Trivia]
   - This item, as well as the event and badges, was added with the 20 Million / Christmas update, but isn't a limited-time item.
