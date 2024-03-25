@@ -18,13 +18,13 @@ page:
 attributions: []
 
 content: |
-  !!LISTITEM IMAGE:"/api/discord-avatar/802681082603896852" TITLE:"NotFunnyClown (@fridaytheidiotclown)" DESCRIPTION:"Wiki Owner, Game Contributor\n\n" none "\n\nContributions:" REDIRECT:""
-  !!LISTITEM IMAGE:"/api/discord-avatar/583200866631155714" TITLE:"Nyx (@nyxical)" DESCRIPTION:"Wiki Hoster/Maintainer, Game Contributor, Wiki Manager, Wiki Editor\n\n" do the whip "\n\nContributions:" REDIRECT:""
-  !!LISTITEM IMAGE:"/api/discord-avatar/762463197617061908" TITLE:"FangedWerewolf (@noobbiom)" DESCRIPTION:"Game Contributor, Wiki Manager, Wiki Editor, Former Wiki Editor for Both Wikis\n\n" oougghh "\n\nContributions:" REDIRECT:""
-  !!LISTITEM IMAGE:"/api/discord-avatar/457989416573599758" TITLE:"PolyframeX (@polyframex)" DESCRIPTION:"Wiki Editor\n\n" placeholder "\n\nContributions:" REDIRECT:""
+  !!LISTITEM IMAGE:"https://cdn.discordapp.com/avatars/802681082603896852/8ea5a0a56942f5a4d1b986a9804799d9.webp" TITLE:"NotFunnyClown (@fridaytheidiotclown)" DESCRIPTION:"Wiki Owner, Game Contributor\n\n" none "\n\nContributions:" REDIRECT:""
+  !!LISTITEM IMAGE:"https://cdn.discordapp.com/avatars/583200866631155714/f377567b11f3850bb03b3281e43764a1.webp" TITLE:"Nyx (@nyxical)" DESCRIPTION:"Wiki Hoster/Maintainer, Game Contributor, Wiki Manager, Wiki Editor\n\n" do the whip "\n\nContributions:" REDIRECT:""
+  !!LISTITEM IMAGE:"https://cdn.discordapp.com/avatars/762463197617061908/f9bb3bfa080e2e784c7b67878fa737e4.png" TITLE:"FangedWerewolf (@noobbiom)" DESCRIPTION:"Game Contributor, Wiki Manager, Wiki Editor, Former Wiki Editor for Both Wikis\n\n" oougghh "\n\nContributions:" REDIRECT:""
+  !!LISTITEM IMAGE:"https://cdn.discordapp.com/avatars/457989416573599758/3cc6f90197ffba90da4ed1a84e45946f.webp" TITLE:"PolyframeX (@polyframex)" DESCRIPTION:"Wiki Editor\n\n" placeholder "\n\nContributions:" REDIRECT:""
   !!LISTITEM IMAGE:"https://mediumkey.xyz/images/pfp.png?size=2048" TITLE:"Mediumkey (@mediumkey)" DESCRIPTION:"The one who asked Noble if we can create this Wiki which ends up being more than just a bus sim wiki\n\n" It do not matter. "\n\nContributions:" REDIRECT:""
-  !!LISTITEM IMAGE:"/api/discord-avatar/805490469051826246" TITLE:"kalcifur (@kalcifur)" DESCRIPTION:"Contributor, Front-end Developer\n\n" placeholder "\n\nContributions:" REDIRECT:""
-  !!LISTITEM IMAGE:"/api/discord-avatar/396049440110280714" TITLE:"Tazer (@tazer_tricity)" DESCRIPTION:"Game Administrator, Game Contributor, Wiki Editor\n\n" placeholder "\n\nContributions:" REDIRECT:""
-  !!LISTITEM IMAGE:"/api/discord-avatar/685150112137478202" TITLE:"Niko (@niko_gaming)" DESCRIPTION:"existing\n\n" placeholder "\n\nContributions:" REDIRECT:""
+  !!LISTITEM IMAGE:"https://cdn.discordapp.com/avatars/805490469051826246/717064bfc3dcf191d15710a3a2f459ca.webp" TITLE:"kalcifur (@kalcifur)" DESCRIPTION:"Contributor, Front-end Developer\n\n" placeholder "\n\nContributions:" REDIRECT:""
+  !!LISTITEM IMAGE:"https://cdn.discordapp.com/avatars/396049440110280714/df35ce5e2cda818de31ef10759e5c13c.webp" TITLE:"Tazer (@tazer_tricity)" DESCRIPTION:"Game Administrator, Game Contributor, Wiki Editor\n\n" placeholder "\n\nContributions:" REDIRECT:""
+  !!LISTITEM IMAGE:"https://cdn.discordapp.com/guilds/568125734296485903/users/685150112137478202/avatars/4cda6aecb3d63b990485f87e5727aa27.webp" TITLE:"Niko (@niko_gaming)" DESCRIPTION:"existing\n\n" placeholder "\n\nContributions:" REDIRECT:""
   !!LISTITEM IMAGE:"https://wiki.wolfdo.gg/assets/bussim/images/npcs/zeon.webp" TITLE:"Zeon (@iimzeon)" DESCRIPTION:" Game Administrator, Co-Founded the new Fandom Bus Sim Wiki (technically), Wiki Editor, Former Editor for Both Wikis \n\n" Dry Bones my beloved <3 "\n\nContributions:" REDIRECT:""
   #![!!LISTITEM IMAGE:"imagehere" TITLE:"placeholder" DESCRIPTION:"placeholder\n\n" placeholder "\n\nContributions:" REDIRECT:""]
