@@ -69,7 +69,7 @@ content: |
   This one will hg[Highlight a text that is inside it, but its grey].\n
   And this one... hr[rainbow]!!!!!\n
   This one modifies the text to be small, and it can be ^(above) or v(below).\n
-  And this one <10px>(changes the font size of text.)
+  And this one <12px>(changes the font size of text.)
 
   \n\n
 

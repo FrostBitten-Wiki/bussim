@@ -33,7 +33,8 @@ content: |
 
   ##[GOATed Gas Station]
   "We're in the convenience store of GOATed Gas! If you want, you can buy stuff from the shelves using Passenger Rep! You'll keep it forever." -"Disc"
-  GOATed Gas is a gas station next to the Bus and Zeon & MLG's house. The station contains 8 items which is free to take, with 5 of them being permanent assuming you buy them using Passenger Reputation. The table of cost is as follows. 
+  GOATed Gas is a gas station next to the Bus and Zeon & MLG's house. The station contains 8 items which is free to take, with 5 of them being permanent assuming you buy them using Passenger Reputation. The table of cost is as follows: 
+  \n\n
   |Item|Passenger Reputation Cost|Status After Purchase|
   |----|-------------------------|---------------------|
   |[Goala Cola](goala-cola)|Free|Not Permanent|
@@ -43,7 +44,7 @@ content: |
   |[Gas Station Ice Cream](gas-station-ice-cream)|8|Permanent|
   |[Gas Station Gravity Coil](gas-station-gravity-coil)|15|Permanent|
   |[Kernels](kernels)|20|Permanent|
-  |[Flying Skillbook](flying-skillbook)\n{[Helicopter](helicopter)}|100|Permanent\n<10px>([You'll recieve the Helicopter instead after purchase.|
+  |[Flying Skillbook](flying-skillbook)\n[(Helicopter)](helicopter)|100|Permanent\n<12px>([You'll recieve the Helicopter instead after purchase.])|
   \n\n
   Although you can take them for free just by walking out, any item you haven't purchased yet will not be permanent*. Goala Colas, Colas and Redbloxes are always never permanent.
   \n\n 
@@ -78,7 +79,7 @@ content: |
 
   ##[Quests]
   Despite everything, there's more that meets the eye in this event which are quests. There are currently two quests in this event that gives you a reward for completing. 
-  <10px>([(Do note though that these quest names are not official, but are generally named simply because it is much easier to refer to one specific quest.)])
+  <12px>([(Do note though that these quest names are not official, but are generally named simply because it is much easier to refer to one specific quest.)])
   
   ###[A Simple Snack]
   This request simply involves you giving Tazer a stick of RAM, this is done by first talking to Tazer using "Let's Talk!" until you get him talking about being hungry, accept the quest then head over to Zeon's House and go to her bedroom. Here you will find a stick of RAM, take it and then head back to Tazer and he will reward you 2 driver reputation every time this quest is completed except for if you already did this quest today where he says he feels Deja vu and dosent give you any rep. 

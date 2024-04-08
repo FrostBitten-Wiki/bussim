@@ -31,10 +31,11 @@ content: |
   At the end, there are two outcomes once the stash of money is taken:
   - If everyone gets caught, the bus will leave empty-handed.
   - If at least once or more escapes successfully, the bus will leave as normal. 
-  \n\n 
+
   During Christmas of 2021, the event was first seen as "[Santa's Gone](santas-gone)", where the gameplay is the same as No Dough, but The Bus accidentally runs over Santa, and so have to break into their house to deliver the presents to the Christmas Tree. You could also obtain The Bringer of Gifts badge, where you would unlock the Candied Cane. You can no longer obtain this indefinitely.
   \n\n 
   Some items also get revoked when you enter the chimney. The following are the items that get removed on entry: 
+  \n\n
   |Items Revoked Upon Entry|
   |------------------------|
   |[Gameboy Advance](gameboy-advance)|
@@ -102,14 +103,14 @@ content: |
   - hg[Variant 1 : Event]: "We did it!"
   - hg[Variant 2 : Event]: "Great job out there, guys!"
     - hg[Variant 3 : Event]: "Nice job escaping!"
-    - hg[Variant 4 : Event]: "All you got caught?! Yikes, let's hope they don't call the cops.." h[(Happens if everyone gets caught after taking the cash)]
-    - hg[Variant 5 : Event]: "Well, you all got caught, but at least we finished the main job." h[(Happens if everyone gets caught after taking the cash)]
+    - hg[Variant 4 : Event]: "All you got caught?! Yikes, let's hope they don't call the cops.." <12px>([Happens if everyone gets caught after taking the cash])]
+    - hg[Variant 5 : Event]: "Well, you all got caught, but at least we finished the main job." <12px>([Happens if everyone gets caught after taking the cash])
       - hg[Variant 1 : Player]: "Hey, can we break into another house later? I wanna buy an Elttob Watch."
       - hg[Variant 2 : Player]: "Well, hopefully that's enough to get us some more gas. Let's keep going!"
       - hg[Variant 3 : Player]: "That was.. invigorating. Can we break into more houses later?"
       - hg[Variant 4 : Player]: "Remember kids, don't commit robberies in real life!"
         - hg[Variant 5 : Player]: "I would say I feel dirty, but it's likely I've done a lot worse."
-        - hg[Variant 6 : Player]: "I can't tell what's worse, the fact that we failed the mission, or the fact that we're still stuck in an infinite bus purgatory." h[(Happens if everyone gets caught after taking the cash)]
+        - hg[Variant 6 : Player]: "I can't tell what's worse, the fact that we failed the mission, or the fact that we're still stuck in an infinite bus purgatory." <12px>([Happens if everyone gets caught after taking the cash])
   ##[Conditional Dialogue]
   ###[VIP Server Dialogue]
   - hg[Variant 1 : EVENT]: "Oh, and you can't earn badges in VIP servers-- you might be cheating using admin."
@@ -146,6 +147,6 @@ content: |
   - It is possible to unexpectedly meet any of NobleReign's friends as there is a rare chance a Civilian will be replaced by one of his friends. 
     - This also includes those that already exist in other events such as [Cafe](cafe), [Goat Station](goat-station), and more. 
   - Just like other events such as [No Gas](no-gas) and [Obby](obby), it is completely possible for the house to be situated atop the [Overseas](overseas) biome if you are extremely unlucky.
-  - NoDough can be considered as the longest event in the game if excluding [Broken Down](broken-down), since you can postpone entering the house until h[0:59], then postpone getting the cash until h[9:59], and postpone escaping until h[4:59], essentially getting 15 Minutes and 57 Seconds of event runtime, making this the longest event in the game without disregarding its intent.
+  - NoDough can be considered as the longest event in the game if excluding [Broken Down](broken-down), since you can postpone entering the house until h[0:59], then postpone getting the cash until h[9:59], and postpone escaping until h[4:59], essentially getting h[15 Minutes and 57 Seconds] of event runtime, making this the longest event in the game without disregarding its intent.
 
   !!GALLERY [/assets/bussim/images/events/no-dough.webp]
