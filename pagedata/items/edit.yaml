@@ -26,13 +26,14 @@ content: |
   \n\n 
   If you want to give somebody Edit in your VIP server (Server Owner required), you just would say "!btools (Username. Can be partial)".
   ##[Keybinds]
-  Here are the list of keybinds you can also use to maximize its potential.
+  Here are the list of keybinds you can also use to maximize its potential:
+  \n\n
   |Keybinds|Effects|
   |--------|-------|
   |Alt (Hold)|Allows you to select any children part within a model. Doesn't go in multiple models at once.|
   |Shift (Hold)|Allows you to manually select parts, can also be paired with Alt and is effective at mass adjustments.
   |Shift + Z (Same Time)|Undos your last action if possible.|
-  |Shift + Y (Same TIme)|Redos your last action if possible.|
+  |Shift + Y (Same Time)|Redos your last action if possible.|
   |Shift + X (Same Time)|Deletes your selected part, also deletes any part inside your selected part such as models.|
   |Shift + P (Same Time)|"Exports" your selection, but is banned in Bus Simulator. Use !save [1-5] instead!|
   |Shift + C (Same Time)|Clones your selected part.|
