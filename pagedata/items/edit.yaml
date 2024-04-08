@@ -25,5 +25,22 @@ content: |
   Similar to Btools, Edit allows you to build stuff with the F3X builder tool. The blueprints also change in color, based on what you're using (i.e. Yellow - Move, Black - New Part, etc.).
   \n\n 
   If you want to give somebody Edit in your VIP server (Server Owner required), you just would say "!btools (Username. Can be partial)".
+  ##[Keybinds]
+  Here are the list of keybinds you can also use to maximize its potential.
+  |Keybinds|Effects|
+  |--------|-------|
+  |Alt (Hold)|Allows you to select any children part within a model. Doesn't go in multiple models at once.|
+  |Shift (Hold)|Allows you to manually select parts, can also be paired with Alt and is effective at mass adjustments.
+  |Shift + Z (Same Time)|Undos your last action if possible.|
+  |Shift + Y (Same TIme)|Redos your last action if possible.|
+  |Shift + X (Same Time)|Deletes your selected part, also deletes any part inside your selected part such as models.|
+  |Shift + P (Same Time)|"Exports" your selection, but is banned in Bus Simulator. Use !save [1-5] instead!|
+  |Shift + C (Same Time)|Clones your selected part.|
+  |Shift + T (Toggle)|Allows you to select between Parts Only (Selects parts irregardless if it is within a model) or Group and Parts (Selects parts if it's not within a model, otherwise selects the model). The default is Groups and Parts.|
+  |Shift + G|Groups any selected part into one model. Effective for mass selection.|
+  |Shift + F (Same Time)|Groups any selected part into a folder. Allows mass selection as well.|
+  |Shift + U|Ungroups any selected model or folder into parts. Especially effective for making event parts persist beyond its time or to pluck out parts fast.|
+  |Shift + H|Opens up the explorer, allowing you to manually select parts regardless of visibility or hitbox. May also contain some hidden knowledge within!|
+  |Alt + F|Allows you to go deeper, allowing you to select parts from a model within a model. This can repeat infinitely until there are no more children models left.|
 
   !!GALLERY [/assets/bussim/images/items/edit.webp]

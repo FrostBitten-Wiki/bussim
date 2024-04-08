@@ -1,28 +1,39 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
-    
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  title: Santa's Gone
+  description: Santa's Gone was a limited time event that came before the No Dough event, which was a limited time event in December 2021 and 2022. 
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>, please help me - fang, hohoh holy WHAT
   
   tags: some,tags,here,that is used by the search api
   ignore: ignore
 
   header:
-    title: Placeholder
+    title: Santa's Gone
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[SantasGone]\n
+      Event Runtime: h[15 Minutes and 57 Seconds or Less (15:57)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/santas-gone.webp
 
 attributions: []
 
 content: |
+  "...This may quite possibly be the worst decision we've ever made." -"Passenger"
+  !!BUTTONS [No Dough,location.href='no-dough'|<highlight>Santa's Gone</highlight>,location.href='#']
   ##[Info]
-  Placeholder Info
+  Santa's Gone was a limited time event that came before the No Dough event, which was a limited time event in December 2021 and 2022. 
+  \n\n 
+  The event works the same way as No Dough, but has a different story. Instead of running low on gas, the driver runs over Santa and his reindeer after speeding up, and now the passengers take role in finishing the job for him, which is to put the presents under the tree, and escape unnoticed. 
+  \n\n 
+  There were badges you could obtain during the event, being Master Escapee and The Bringer of Gifts, and they couldn't be farmed in a VIP Server, with the latter especially being indefinitely unobtainable.
+  \n\n 
+  After December 2021, this was changed into the more well-known and currently accessible version called [No Dough](no-dough), having the same features but following a rethemeing. It was also reintroduced in December 2022, alongside No Dough, allowing both events to co-exist temporarily.
 
   ##[Trivia]
-  - Trivia Here
-
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  - Santa's Gone was originally going to be removed completely at one point, but instead got changed to No Dough, the predecessor of Santa's Gone.
+  - During December 2022, this and No Dough were and are the only two events that are both similar, yet are able to co-exist within the game.
+  
+  !!GALLERY [/assets/bussim/images/events/santas-gone.webp]

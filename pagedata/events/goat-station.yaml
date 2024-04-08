@@ -1,7 +1,7 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Goat Station
+  description: The Goat Station is a rare event similar to the Backwalls, filled with various items, npcs, quests, and locations.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -9,9 +9,11 @@ page:
   ignore: ignore
 
   header:
-    title: Placeholder
+    title: Goat Station
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[GoatedGas]\n
+      Event Runtime: h[9 Minutes and 26 Seconds (9:26)]
     
     image: ""
     imageBanner: /assets/bussim/images/banners/goat-station-banner.webp
@@ -19,10 +21,82 @@ page:
 attributions: []
 
 content: |
+  "It'll only take about eight minutes to get back up and running again. Let's get out, and talk to whoever's around." -"Bus Driver"
   ##[Info]
-  Placeholder Info
+  The Goat Station is a rare event similar to the Backwalls, filled with various items, npcs, quests, and locations.
+  \n\n 
+  When this event happens, the players decide to take a nap and rest, only to wake themselves up in Goat Station, a sub-urban area with locals such as [Zeon](zeon), [Tazer](tazer), [Green](green), [Disc](disc), [D6](d6), and [MLG](mlg). The driver then exclaims that they will have to wait for around 8 minutes. 
+  \n\n 
+  This event comprises of a permanent item shop, two quests and a lot of talkable NPCs. 
+  \n\n 
+  You'll also be able to utilize the [Airhorn](airhorn) to get special interactions with the many townsfolk, just beware that <clr:#ff1919>(they may not be kind).
 
+  ##[GOATed Gas Station]
+  "We're in the convenience store of GOATed Gas! If you want, you can buy stuff from the shelves using Passenger Rep! You'll keep it forever." -"Disc"
+  GOATed Gas is a gas station next to the Bus and Zeon & MLG's house. The station contains 8 items which is free to take, with 5 of them being permanent assuming you buy them using Passenger Reputation. The table of cost is as follows. 
+  |Item|Passenger Reputation Cost|Status After Purchase|
+  |----|-------------------------|---------------------|
+  |[Goala Cola](goala-cola)|Free|Not Permanent|
+  |[Redblox](redblox)|Free|Not Permanent|
+  |[Cola](cola)|Free|Not Permanent|
+  |[Compass](compass)|4|Permanent|
+  |[Gas Station Ice Cream](gas-station-ice-cream)|8|Permanent|
+  |[Gas Station Gravity Coil](gas-station-gravity-coil)|15|Permanent|
+  |[Kernels](kernels)|20|Permanent|
+  |[Flying Skillbook](flying-skillbook)\n{[Helicopter](helicopter)}|100|Permanent\n<10px>([You'll recieve the Helicopter instead after purchase.|
+  \n\n
+  Although you can take them for free just by walking out, any item you haven't purchased yet will not be permanent*. Goala Colas, Colas and Redbloxes are always never permanent.
+  \n\n 
+  *One particular item though is the Flying Skillbook, which when at its book form will do nothing, that is however until you purchase it, in which you will instead get the [Helicopter](helicopter), a permanent item. 
+  \n\n 
+  Outside of that, you can see car marks in the entrance as well as gas pumps, if given the right conditions the pumps can also explode. You may also fight a massive wall of stickers in the back and left side featuring [D6](d6) on top of a garbage dump. You can also find a sign that has smaller sticks plastered all over the back. 
+  ##[Zeon and MLG's House]
+  "WHY ARE YOU IN MY HOUSE?!?!?!?!?!?!" -"Zeon"
+  Zeon and MLG's house is located next to the bus as well, being that it is a large house with an RGB of (199, 172, 120) or peach. You can find an empty garage, a kitchen stocked with appliances, and much more. 
+  \n\n 
+  When you enter the house and talk to Zeon, she will be shocked at your sudden presence. If you are however her friend, she is much less shocked but still questions. Inside the house you can find a kitchen with a Coffee Maker that makes [Homemade Coffee](homemade-coffee), a Toaster that makes [Toast](toast), a [Popcorn Bucket](bucket) within the top cabinets, and a few other interactables; however they don't give the player anything.
+  \n\n 
+  You can also find a piano that when sat on will produce music, do note though that you don't actually control what keys you press. 
+  \n
+  On the right door in the hallway, you can find MLG's bedroom where you can talk to him. On the left door and top right door, you have empty bedrooms which aren't particularly useful and lastly, on the top left you have Zeon's bedroom which has [RAM](ram) on her desk, and on the middle you have the bathroom.  
+  
+  ##[Empty House]
+  "sorry we ran out of budget, no npcs here." -"Note"
+  The empty house is as self-explanatory as it sounds, it is a green house next to Zeon and MLG's house but contains zero NPCs inside. It does have some functional furniture but overall it lacks interior design. 
+  \n\n 
+  The dialogue is as it says: 
+  - Note: "sorry we ran out of budget, no npcs here."
+    - You: "What a ripoff."
+  
+  ##[School]
+  "Am I finally out of detention? Oh, you're not the principal. What do you want?" -"Tazer"
+  The school is the fourth and last part of Goat Station. It contains multiple rooms such as Room 101, Room 102, Library, Bathrooms, Janitor Room, and the Principal's Office. 
+  \n\n 
+  In Room 101 and 102, you can find messages in the whiteboards that are about game development and Roblox, while in the Library it is comprised of many books that you can't interact with. The bathrooms also comprise of toilets and other furniture, and the janitor's room contains cleaning equipment including some Roblox gear. 
+  \n\n 
+  Lastly, the Principal's Office is where [Tazer](tazer) lies, where you can talk to him and get a quest as a result. You can also ask him about other things as well. 
+
+  ##[Quests]
+  Despite everything, there's more that meets the eye in this event which are quests. There are currently two quests in this event that gives you a reward for completing. 
+  <10px>([(Do note though that these quest names are not official, but are generally named simply because it is much easier to refer to one specific quest.)])
+  
+  ###[A Simple Snack]
+  This request simply involves you giving Tazer a stick of RAM, this is done by first talking to Tazer using "Let's Talk!" until you get him talking about being hungry, accept the quest then head over to Zeon's House and go to her bedroom. Here you will find a stick of RAM, take it and then head back to Tazer and he will reward you 2 driver reputation every time this quest is completed except for if you already did this quest today where he says he feels Deja vu and dosent give you any rep. 
+  
+  ###[Haggling with D6 / An Exchange]
+  This other quest simply involves you talking to D6 until he mentions being hungry, afterwards, reject the first offer and then D6 will let you trade with another item, only then you can give him any food / drink item (permanent or otherwise), and he will give you the [Tool](tool), which does practically nothing. 
+  
   ##[Trivia]
-  - Trivia Here
+  - Even though the school has Room 101 and Room 102, there is no rooms prior to these numbers. 
+    - Secondly, it seems as though as the principal isn't present nor any staffs throughout the entire premises of the event.
+  - There is a note in the trash bin in GOATed Gas, which was from Tazer. It simply contains Tazer complaining about gas prices and such.
+  - You can attempt to purchase any of the items using <float>hr[Pearcoin^(TM)]</float> from [Pear](pear), but Green will intercept and tell Disc to not fall for cryptocurrencies.
+  - If you are friends with an NPC in this event, their dialogue actually changes to be in a much friendlier tone. This does not affect dialogues after choices however.
+  - This is the only event that gives you permanent items at the cost of Passenger Reputation. 
+    - Technically the same could be true for the [Backwalls](backwalls) by being assisted by Pear and finding items along the way, however it's completely possible to permanently get these items without any assistance and therefore not spending any Passenger Reputation.
+  - It's likely the second longest event in the game, on par with the [Cafe Event](cafe) at around 9 minutes. But the first are two events, both being [No Dough](no-dough), and [Santa's Gone](santas-gone). 
+    - Technically, the [Broken Down Event](broken-down) is the longest, which would make the Cafe and Goat Station around 3rd, Santa's Gone and No Dough at 2nd, and Broken Down at 1st. But it's ultimately dependent on player participation. 
+  - The total amount of Passenger Reputation you need to buy all of the permanent items is 147.
+  - During one of Disc's dialogue, it uses an NPC that is nowhere to be found in the Goat Station map normally, but with [Edit](edit), the NPC's actually buried underneath the GoatedGas.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/events/goat-station.webp|/assets/bussim/images/banners/goat-station-banner.webp]

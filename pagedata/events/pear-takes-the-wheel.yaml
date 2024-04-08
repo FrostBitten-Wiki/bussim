@@ -12,7 +12,9 @@ page:
 
   header:
     description: >-
-      Category: [Events](events)\nEvent Name: h[PearTakesTheWheel]
+      Category: [Events](events)\n
+      Event Name: h[PearTakesTheWheel]\n
+      Event Runtime: h[Unknown]
     image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
 

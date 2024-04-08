@@ -17,6 +17,7 @@ page:
     description: |
       Category: [Events](events)\n
       Event Name: h[QuestionTime]
+      Event Runtime: h[Dependent on Player Participation and Questions]
 
     image: ''
     imageBanner: /assets/bussim/images/banners/question-time-banner.webp

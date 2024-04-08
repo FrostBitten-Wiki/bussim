@@ -1,7 +1,7 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Glacier Cave
+  description: Glacier Cave is a rare event in Bus Simulator where the Bus stops next to a cave, players are able to enter through the cave through any means of traversal until they are teleported to the interior of the cave.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -9,20 +9,68 @@ page:
   ignore: ignore
 
   header:
-    title: Placeholder
+    title: Glacier Cave
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[GlacierCave]\n
+      Event Runtime: h[51 Seconds (0:51)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/locations/glacier-cave.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Placeholder Info
+  Glacier Cave is a rare event in Bus Simulator where the Bus stops next to a cave, players are able to enter through the cave through any means of traversal until they are teleported to the interior of the cave. The event ends shortly afterwards. 
+  \n\n 
+  While the event is rather short, the inside of the Glacier Cave will always remain present regardless of how many players are inside or the event status. 
+  ##[Dialogue]
+  - hg[Player]: "Ooh, that cave looks pretty cool."
+    - hg[You]: "It looks a little out of place to me..."
+      - h[After a while...]
+        - hg[Event]: "Alright, the bus is leaving now. No more cave time."
+  ##[Glacier Cave]
+  "Ooh, that cave looks pretty cool." -"Passenger"
+  The interior is a massive cave filled with crystals, with some having pickaxes stuck within, crates, and a ladder that leads upwards. It also uses a special type of volumetric lighting called VOLUMIKA, which can be disabled at any time.
+  \n\n 
+  You can also find and talk to [NamerElf](namerelf) in the left side of the cave, just above the cliffs. There's many routes accessible to them, but using tools such as [Helicopter](helicopter) and / or [Gas Station Gravity Coil](gas-station-gravity-coil) works best. 
+  \n\n 
+  An interesting quirk within this cave is that, as long as you are inside, no events including [Backwalls](backwalls) or [EA Sellout](ea-sellout) will be able to damage you nor forcibly teleport you back into the Bus, making it ideal for those who simply don't want to be involved in the chaos. It won't however nullify worldwide sounds such as the explosion within the [Nuke Event](nuke), the sudden brakes in the [Backwalls Event](backwalls), and the entire theme during [Hyperspeed](hyperspeed)
+  ##[Frost's Den]
+  "Frost. This blue wolf seems to live here, and it feels remarkably colder in here than anywhere else in the cave... He doesn't really seem to trust you - your presence is merely tolerated. Maybe you can change that..?" -"You"
+  Frost's Den, as it implies, is [Frostbite's](frostbite) home abode. There's a variety of props within the den, with most of them having their own dialogue or function. The props are of the following: 
+  |Props / Furniture|Description|Dialogue|
+  |-----------------|-----------|--------|
+  |Radio|A slightly worse radio that is in sync with the one in [The Bus](the-bus). You won't be able to request songs in this radio though. |<0px>(.)|
+  |Calendar|Set at October 2013, which is heavily outdated and Frostbite seems to partially acknowledge it. |<0px>(.)|
+  |Cold Cola Cooler|A cooler that contains an endless supply of [Cold Colas](cold-cola), has the same design as the one in [The Bus](the-bus).|<0px>(.)|
+  |Melted Spronkbib Pile|A massive pile of slightly melted [Spronkbib Popsicles](spronkbib-popsicle), this also references both the [news articles](news) related to it along with its absurd chance of obtaining it. |<0px>(.)|
+  |Fake Window|An extremely unconvincing window underground, however, using a [Magic Mirror](magic-mirror) next to it will teleport you back into [The Bus](the-bus).|"A mirror shaped to look like a window. Presumably to mask the fact that we're underground."\n\n"..."\n\n "Needless to say, it's extremely unconvincing."|
+  |"Fishing Pond"|A very small pond with a fishing rod provided next to it. Interacting the fishing rod provides some self-dialogue.|"...A whole fishing rod."\n\n"Why? There's literally nothing to catch in here."|
+  |Cardboard Microphone Stand|A pretty thin microphone stand built out of purely cardboard. Has no function but is used as a microphone during Pearing Out, a Friday Night song.|"A microphone made out of cardboard."\n\n"It's so lightweight, he literally had to put a pebble on it just to make it stay in one place."|
+  |Discarded Recipe Papers|A pile of different papers, presumably being scribbled out recipes related to ice cream flavors. The one next to the spilled eggnog provides some self-dialogue alongside the massive pile of discarded recipes.|hg[Ice-cream Eggnog Recipe]\n\n"[A few of the recipes lie next to the pile of split eggnog. The handwriting here is just barely legible. Read it?]"\n\n(What could it say..?) / (I'm good.) [Ends the self-conversation.]\n\n"[You pick up one of the recipes.]"\n\n"Eggnog Ice Cream"\n\n"You need 2 cups of eggnog, 2 cups heavy cream, a 10 ounce can of sweetened condensed milk, and 1 teaspoon vanilla extract (you can use extra)"\n\n"Mix eggnog, cream, milk, and vanilla in bowl."\n\n"Place both paws inside. Lower body temperature. Continuous stir until right consistency."\n\n"Put result into a plastic container and cover with plastic wrap."\n\n"Let ice-cream stay in freezer for 2 to 12 hours. (note to self must be freezer, paws dont work here)"\n\n"Finally got the recipe down! He said he likes eggnog, I think? Hope he'll like it!"\n<10px>([The "he" in question is very likely Pear.])\n\nhg[Discarded Recipes]\n\n"[A bunch of scattered papers, seemingly only containing ice-cream recipes.]"\n\n"[Most of the papers were scribbled over, or have giant Xs hastily marked onto them.]"\n\n"[You can only make out a few of the flavors, such as "Chocolate", "Blueberry-Lime", and "Shrimp". The chocolate recipe seems to use carob instead of actual chocolate. Blueberry-Lime was scribbled away.]"\n\n"[Shrimp has multiple giant Xs on it and a badly drawn vomit emoji in the bottom right corner.]"|
+  |Christmas Props|Although the calendar from earlier is shown to be in October, there seems to be Christmas props nonetheless, with fairy lights along with a Christmas Tree, inbetween the calendar and the radio.|<0px>(.)|
+  |Signs & Books|A couple of signs seem to be shown around the den, with one above Frostbite's bed showing a warning sign related to dogs. The other one is found behind a rock column, showing the Live Laugh Love sign.\n\nThe books are found next to the bed seem to be classical books made by Roblox, the names are : Thievius Raccoons, Reading, Music Theory, Cheezburger The Complete History, Economics, Learn to Program C++, Chemistry, and Darkness.|<0px>(.)|
+  |Boxes & Bed|Lastly, you'll be able to find boxes near the "Fishing Pond" and next to the bed, the bed in which you are not able to rest on.|<0px>(.)|
 
   ##[Trivia]
-  - Trivia Here
+  - While the main way to enter is through the cave event itself, you can enter the cave without needing it via a [Magic Mirror](magic-mirror). 
+    - It does however require the other two badges that can be unlocked in this cave: Part of the Pack and Animal Messenger.
+  - This is one of the two events in the game that contain more than one badge (if any actually), the other one being both [Santa's Gone](santas-gone) and [No Dough](no-dough).
+  - If you try and use the GPS in this area, it'll say NO SIGNAL, since you are inside of an underground cave.
+  - Despite the area meant to be somewhere underground, using BTools or such; it is actually extremely high above the ground. 
+    - This is because underneath the bus is an endless pool of water and the void, putting the cave in there will simply make it extremely hard to traverse.
+    - Both the GPS and this will be explained within the Technical Trivia. 
+  ##[Technical Trivia]
+  - Glacier Cave unlike the many other locations, de-loads after around 2000 studs away from its center point, which also causes the entire model itself to vanish off of Explorer when using [Edit](edit).
+    - The de-loading seems to vary quite a lot, and is mainly dependent on client-sided player location. 
+      - This means you can't have someone be in range constantly having the cave loaded for all clients.
+      - So far, the de-loading can vary based on how many times you have tabbed out of your client, but could be from other unknown factors.
+  - Frost's location in specific is 8,501 x, 8040 y, and 8105 z. or about 8000 studs away from the center point when using [Edit](edit). 
+  - If you go beyond around a 400 stud range from any axis, you will be flashbanged and gain / lose the VOLUMIKA lighting if you entered or exited the range respectfully.
+  - Duplicating any part of the cave won't also make it immune to de-loading, but most of their scripts still remain. 
+    - Ungrouping the cave however by pressing Shift + U while selecting it in [Edit](edit) will allow you to prevent it from de-loading.
+    - However, it will allow you to move the parts even after it has de-loaded.
 
   !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]

@@ -1,28 +1,151 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: No Dough
+  description: The No Dough event is an event where the bus runs out of gas, but nobody can afford to buy gas. The bus then pulls up at a house, with the passengers needing to break in via chimney to get some money and escape unnoticed.
     
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>, please help me - fang
   
   tags: some,tags,here,that is used by the search api
   ignore: ignore
 
   header:
-    title: Placeholder
+    title: No Dough
     description: |
-      Category: [Events](events)
+      Category: [Events](events)\n
+      Event Name: h[NoDough]\n
+      Event Runtime: h[15 Minutes and 57 Seconds or Less (15:57)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/no-dough.webp
 
 attributions: []
 
 content: |
+  "...This may quite possibly be the worst decision we've ever made." -"Passenger"
+  !!BUTTONS [<highlight>No Dough</highlight>,location.href='#'|Santa's Gone,location.href='santas-gone']
   ##[Info]
-  Placeholder Info
+  The No Dough event is an event where the bus runs out of gas, but nobody can afford to buy gas. The bus then pulls up at a house, with the passengers needing to break in via chimney to get some money and escape unnoticed.
+  \n\n 
+  The house is randomized per event including decoration and furniture, making all passages randomized. You are given 10 minutes to find the stash of money. Once somebody finds it, everybody participating in the event is given 5 minutes to return back to the bus via escaping the same way you enter, and people are locked from re-entering the house.
+  \n\n 
+  At the end, there are two outcomes once the stash of money is taken:
+  - If everyone gets caught, the bus will leave empty-handed.
+  - If at least once or more escapes successfully, the bus will leave as normal. 
+  \n\n 
+  During Christmas of 2021, the event was first seen as "[Santa's Gone](santas-gone)", where the gameplay is the same as No Dough, but The Bus accidentally runs over Santa, and so have to break into their house to deliver the presents to the Christmas Tree. You could also obtain The Bringer of Gifts badge, where you would unlock the Candied Cane. You can no longer obtain this indefinitely.
+  \n\n 
+  Some items also get revoked when you enter the chimney. The following are the items that get removed on entry: 
+  |Items Revoked Upon Entry|
+  |------------------------|
+  |[Gameboy Advance](gameboy-advance)|
+  |[RoEmulator](roemulator)|
+  |[Hoverboots](hoverboots)|
+  |[Helicopter](helicopter)|
+  |[Mini-Bus](mini-bus)|
+  |[Gas Station Gravity Coil](gas-station-gravity-coil)|
+  |[Magic Mirror](magic-mirror)|
+  |[Tool](tool)|
+  |[Compass](compass)|
+  |[Sign](sign)|
+  |[Edit + Building Tools](edit)\n- This also includes [FakeBuildTools](fake-btools).|
+  |[Marker](marker)|
+  |All drink items (Colas, Sodas, etc.)\n- An exception however, is made for [Lemon Soda](lemon-soda) specifically, assuming you got it via Admin Commands.|
+  |All food items (Ice Creams, Cakes, Sandwich, Popcorn Bucket, etc.)\n- An exception is made for the following items: [Spronkbib Popsicle](spronkbib-popsicle), [Candied Cane](candied-cane), [Pizza](pizza), and both [Burger](burger) and [Ice Cream](ice-cream), assuming you got both of them via Admin Commands.|
+  |Mostly all scrapped / admin-exclusive items (Fast Mini-Bus, Avian Potion, etc.)\n- [Lemonade](lemonade) and [Sparkler Candle](sparkler) are however whitelisted.|
+  \n\n 
+  The rest of the items can be used, but have a unique factor. Their sound effects are treated as audible noise*, which will alert nearby house guests on the floor, depending on the volume. The airhorn is the loudest item, which alerts everybody on the floor, and the Phone is the quietest, having a small range. Noise can be useful to move NPCs to a different area, making it easier to find the money unnoticed, if you can get past how many NPCs you alerted. 
+  \n\n 
+  *An exception is made for [Snowglobe](snowglobe), with it creating a sound but not audible for anyone to hear. 
+  \n\n 
+  There are several NPCs in the house, which shares the same ID generation as the [Passengers Event](passengers) (so you can see some "special characters", like NobleReigns friends), and will spot you if you are in their line of sight for a little while, killing you. You cannot be spotted while ragdolled. 
+  ##[Dialogue]
+  ###[Intro Dialogue]
+  - hg[Variant 1 : Event]: "Oh, we need more gas! That's not good."
+  - hg[Variant 2 : Event]: "This is your driver speaking, we may need to make a gas stop."
+  - hg[Variant 3 : Event]: "Oh shoot! Guys, we're running out of gas.."
+    - hg[Variant 1 : Player]: "Oh, okay! ..does anyone have the money to pay for that..?"
+    - hg[Variant 2: : Player]: "We're kinda.. out of money, though..."
+    - hg[Variant 3 : Player]: "We don't have enough money for this! The bus is gonna break down!"
+    - hg[Variant 4: Player]: "Alright, easy fix! All we need is some.. money.. oh."
+      - hg[Variant 1 : Player]: "The poor bus! It's basically running on empty!"
+      - hg[Variant 2 : Player]: "Well now what? We can't just drive on empty.."
+        - hg[Variant 1 : You]: "Well, we obviously need money from somewhere. Where, though?"
+        - hg[Variant 2 : You]: "We need money, and we need it fast. Where can we get a quick buck?"
+        - hg[Variant 3 : You]: "We're dirt poor.. if we don't get some money quick, we're doomed.."
+          - hg[Variant 1 : Player]: "Hey, look over there, a house!
+          - hg[Variant 2 : Player]: "Maybe that place, right there?"
+          - hg[Variant 3 : Player]: "Hey, there's a house in the distance..!"
+          - hg[Variant 4 : Player]: "What about over there?"
+  ###[Stopping at the House Dialogue]
+  - hg[Variant 1 : Player]: "I mean, as long as we're sneaky about it, right..?"
+  - hg[Variant 2 : Player]: "Okay, I'm fine with running over people, I'm good with running from the police, but stealing?! Guys.. we're better than this, right..?"
+  - hg[Variant 3 : Player]: "...This may quite possibly be the worst decision we've ever made."
+  - hg[Variant 4 : Player]: "...We'll steal it! No-one will ever know!"
+  - hg[Variant 5 : Player]: "... I'll do it, but if anyone asks, I'm not associated with any of you."
+  - hg[Variant 6 : Player]: "I really gotta get to Stevensville. I'm for this."
+  - hg[Variant 7 : Player]: "I mean, 20 bucks for gas is 20 bucks for gas..]
+    - hg[Variant 1 : Event]: "O-Okay, look. Let's make this quick. Go in, take the cash, get out, alright? And be quiet about it, please!"
+    - hg[Variant 2 : Event]: "Just make sure not to leave any evidence behind, okay..? And don't let anybody see or hear you!"
+    - hg[Variant 3: Event]: "Everyone, be careful. We don't wanna get caught.. Stay sneaky, stay silent."
+  ###[Entering the House Dialogue]
+  - hg[Variant 1 : Event]: "Hurry up guys, we should do this in like, ten minutes, tops!!"
+  - hg[Variant 2 : Event]: "Ten minutes, make it work. Don't linger."
+  - hg[Variant 3 : Event]: "I can wait out here for like, ten minutes.. Longer than that and I'm gonna.. I dunno, push the bus to the nearest gas station."
+  ###[Taking the Cash Dialogue]
+  - hg[Variant 1 : Player]: "Let's hope we don't get arrested for this.."
+  - hg[Variant 2 : Player]: "YES! Bag secured."
+  - hg[Variant 3 : Player]: "What kind of family just has valuables lying around in some far off room?!"
+    - hg[Variant 1 : Event]: "He-hey, you did it! Now get out here! We got five minutes!"
+    - hg[Variant 2 : Event]: "Ayyy, congrats guys. I'll give ya bonus points if you can sneak out undetected within five minutes."
+    - hg[Variant 3 : Event]: "Let's gooo! Now come on out, we only have five minutes before we gotta go!"
+  ###[Escape Dialogue]
+  - hg[Variant 1 : Event]: "We did it!"
+  - hg[Variant 2 : Event]: "Great job out there, guys!"
+    - hg[Variant 3 : Event]: "Nice job escaping!"
+    - hg[Variant 4 : Event]: "All you got caught?! Yikes, let's hope they don't call the cops.." h[(Happens if everyone gets caught after taking the cash)]
+    - hg[Variant 5 : Event]: "Well, you all got caught, but at least we finished the main job." h[(Happens if everyone gets caught after taking the cash)]
+      - hg[Variant 1 : Player]: "Hey, can we break into another house later? I wanna buy an Elttob Watch."
+      - hg[Variant 2 : Player]: "Well, hopefully that's enough to get us some more gas. Let's keep going!"
+      - hg[Variant 3 : Player]: "That was.. invigorating. Can we break into more houses later?"
+      - hg[Variant 4 : Player]: "Remember kids, don't commit robberies in real life!"
+        - hg[Variant 5 : Player]: "I would say I feel dirty, but it's likely I've done a lot worse."
+        - hg[Variant 6 : Player]: "I can't tell what's worse, the fact that we failed the mission, or the fact that we're still stuck in an infinite bus purgatory." h[(Happens if everyone gets caught after taking the cash)]
+  ##[Conditional Dialogue]
+  ###[VIP Server Dialogue]
+  - hg[Variant 1 : EVENT]: "Oh, and you can't earn badges in VIP servers-- you might be cheating using admin."
+  - hg[Variant 2 : EVENT]: "You can't earn badges in VIP servers, 'cause you might be cheating. Sorry..!"
+  ###[If everyone only has three minutes to find the cash...]
+  - hg[Variant 1 : Event]: "Hurry it up, we have three minutes left! Go go go!"
+  - hg[Variant 2 : Event]: "I'm only waiting three more minutes, after that, it's over!"
+  ###[If everyone ran out of time finding the cash...]
+  - hg[Variant 1 : Event]: "Mission failed! Abort, abort!"
+  - hg[Variant 2 : Event]: "Sorry, but that's all the time I have! We gotta go!!"
+  ###[If nobody escaped within five minutes...]
+  - hg[Event]: "Was five minutes not enough? Well, bye!"
+  ###[If nobody entered the house within a minute...]
+  - hg[Variant 1 : Driver]: "You know what..? We actually have plenty of gas..! Bye!!"
+  - hg[Variant 2 : Driver]: "Guess you guys don't want to even attempt that..? Understandable! Erm, let's go!"
+  - hg[Variant 3 : Driver]: "I was joking, by the way. The bus is a hybrid. We can keep going."
+  - hg[Variant 4 : Driver]: O-Okay..! W-We've definitely been lingering too long, let's just hit the pedal and hope for the best..!
+    - hg[Variant 1 : Player]: "...So, how are we still moving..?"
+    - hg[Variant 2 : Player]: "...Let us never speak of this again."
+    - hg[Variant 3 : Player]: "Look on the bright side, guys! Maybe the bus will finally sto-- WHY ARE WE MOVING??"
+    - hg[Variant 4 : Player]: "Wow, that really sucked."
 
+  ##[Tips]
+  - Use the [Airhorn](airhorn) to your advantage, by using it in tight mostly areas then escaping before the [Civilians](civilian) go towards it; you'll be able to clear paths that otherwise would be extremely difficult without [Candied Cane](candied-cane). 
+    - Do note though that if you get eye-contact with an NPC that's being lured, they will immediately stop getting lured.
+  - Don't be too scared over the stealth mechanic, [Civilians](civilian) are very short-sighted and often times won't see you in less than 10 studs away, and your Alert decreases over time.
+  - By using shift-lock on PC devices on the walls, you'll be able to see the entire layout of the house, and this can sometimes include the targetted room, displayed by a room double the height than normal.
+  - If you manage to get the [Candied Cane](candied-cane), most of the event is practically trivialized as the slight boost in speed and range of attractness can make some of the toughest piles much more easier.
+  
   ##[Trivia]
-  - Trivia Here
+  - The NoDough house changes color when the event is hosted again, which means it has a chance to have the same colors as the famous Happy Home of Robloxia.
+  - Despite [Liquid Void](liquid-void) being an item that you'd except to have in the house due to its invisibility powers, it gets taken away when entering. 
+    - Its effects also don't work on [Civilians](civilian).
+  - It is possible to unexpectedly meet any of NobleReign's friends as there is a rare chance a Civilian will be replaced by one of his friends. 
+    - This also includes those that already exist in other events such as [Cafe](cafe), [Goat Station](goat-station), and more. 
+  - Just like other events such as [No Gas](no-gas) and [Obby](obby), it is completely possible for the house to be situated atop the [Overseas](overseas) biome if you are extremely unlucky.
+  - NoDough can be considered as the longest event in the game if excluding [Broken Down](broken-down), since you can postpone entering the house until h[0:59], then postpone getting the cash until h[9:59], and postpone escaping until h[4:59], essentially getting 15 Minutes and 57 Seconds of event runtime, making this the longest event in the game without disregarding its intent.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/events/no-dough.webp]
