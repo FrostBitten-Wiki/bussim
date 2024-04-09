@@ -17,7 +17,7 @@ page:
 attributions: []
 
 content: |
-  !!TEMPLATE Admin
+  !!INFOBOX TITLE:"Admin Exclusive Content" COLOR:"#ff66ff" TEXT:"*\"Sometimes I've seen a bus that has a lot of other strange stuff on or around it, as well as some dude holding some Blueprints. How do they do it...?\"* - Zeon\nv(This page has content exclusive to admins of the game. This may include scrapped / hidden content that is normally inaccessible during normal gameplay.)"
   "Gives you the essentials!" -"Starter Box"
 
   ##[Info]
