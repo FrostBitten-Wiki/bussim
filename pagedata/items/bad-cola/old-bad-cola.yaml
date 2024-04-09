@@ -12,7 +12,7 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/old-bad-cola.webp
 
 attributions: 
   - Ported by PolyframeX (@polyframex)
@@ -20,8 +20,9 @@ attributions:
 
 content: |
   !!TEMPLATE Admin
-  "Smells... odd." -"Old Bad Cola"
   !!BUTTONS [Bad Cola,location.href='/wiki/bussim/items/bad-cola'|<highlight>Old Bad Cola</highlight>,location.href='']
+  "Smells... odd." -"Old Bad Cola"
+
   ##[Info]
   The OldBadCola was presumably the original Bad Cola that became deprecated following the new and current version, and it can be shown by how it functions as both the mechanic and texture seem to be missing. 
   \n\n 
@@ -32,4 +33,4 @@ content: |
     - When using Edit, you'll also see that after the removal both the Mesh and Texture are identical to the Bloxy Cola mesh, being 10470609.
   - Despite it being a Cola, it still doesn't heal you.
 
-  !!GALLERY [/assets/bussim/images/items/OldBadCola.webp]
+  !!GALLERY [/assets/bussim/images/items/old-bad-cola.webp]

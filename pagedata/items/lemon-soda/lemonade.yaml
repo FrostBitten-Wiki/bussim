@@ -12,7 +12,7 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/lemonade.webp
 
 attributions: 
   - Ported by PolyframeX (@polyframex)
@@ -20,8 +20,9 @@ attributions:
 
 content: |
   !!TEMPLATE Admin
-  "Not Poison" -"Lemonade"
   !!BUTTONS [Lemon Soda,location.href='/wiki/bussim/items/lemon-soda'|<highlight>Lemonade</highlight>,location.href='']
+  "Not Poison" -"Lemonade"
+  
   ##[Info]
   Lemonade is a VIP / Admin-Exclusive item in Bus Simulator that acts similarly to Lemon Soda, perhaps being the original Lemon Soda prior to being scrapped.
   \n\n

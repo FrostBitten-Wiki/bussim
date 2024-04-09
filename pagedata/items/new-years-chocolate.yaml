@@ -12,7 +12,7 @@ page:
     description: |
       Category: [Items](items)
     image: "/bussim-assets/images/banner.jpg"
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /assets/bussim/images/items/new-years-chocolate.webp
     
 attributions:
   - Ported by FangedWerewolf (@noobbiom)

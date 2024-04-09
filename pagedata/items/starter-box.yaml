@@ -1,7 +1,7 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Starter Box
+  description: The Starter Box is an obtainable item from the 10 Million Visits event. Appearing as a purple and violet present, the item can be opened with left click giving you all the items on the bus.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -12,12 +12,20 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/starter-box.webp
 
 attributions: []
 
 content: |
-  ##[Info]
-  test
+  !!TEMPLATE Admin
+  "Gives you the essentials!" -"Starter Box"
 
-  !!GALLERY [/assets/bussim/images/items/cola.webp]
+  ##[Info]
+  The Starter Box is an obtainable item from the 10 Million Visits event. Appearing as a purple and violet present, the item can be opened with left click giving you all the items on [The Bus](the-bus), being: [Cola](cola), [Hot Cola](hot-cola), [Cold Cola](cold-cola), [Cramped Cola](cramped-cola), [Pizza](pizza), [Gameboy Advance](gameboy-advance), [Sign](sign), and [Marker](marker).
+  \n\n 
+  The box is likely a reskin of the "Royal Gift of Kings" hat from 2016/2017, in which the gift was part of a set of similar items which could be bought for large sums of robux to unbox into a limited item after a period of time. 
+
+  ##[Trivia] 
+  - This item used to only give all but the [Marker](marker) and [Pizza](pizza), due to the former being released after the box and the latter being an oversight. It was then changed to include both to the box 2 years after release.
+
+  !!GALLERY [/assets/bussim/images/items/starter-box.webp]

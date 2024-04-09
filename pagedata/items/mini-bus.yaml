@@ -12,15 +12,16 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/mini-bus.webp
 
 attributions: 
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
 content: |
-  "Drive your own miniature version of the Bus now!" -"Mini-Bus' Gamepass Description"
   !!BUTTONS [<highlight>Mini-Bus</highlight>,location.href=''|Fast Mini-Bus,location.href='fast-mini-bus']
+  "Drive your own miniature version of the Bus now!" -"Mini-Bus' Gamepass Description"
+
   ##[Info]
   The Mini-Bus is a miniature vehicle which resembles the bus used in the game. It can only fit 1 player, but drives faster than the bus. The Mini-Bus costs 125 R$ to obtain. 
   \n\n 
@@ -39,6 +40,7 @@ content: |
   People that have the OG Driver and Contributor rank in-game will get sparkles on their Mini-Bus and also obtain one for free if they haven't bought it.
   \n\n 
   The previous Mini-Bus design was much simpler, and had a design closer to the older Bus design, with fake windows and a couple of avatars in them. 
+
   ###[E-Bus]
   The E-Bus has a futuristic-like appearance, that resembles a bit of a truck. On the front of the bus, it was two cricle headlights, as well as two slanted headlight lines on the bottom, and a windshield on top.
   \n 
@@ -63,4 +65,4 @@ content: |
   - The Mini-Bus' current design was based off of Cyberpunk 2077's Quadra Turbo V-Tech.
   - The Mini-Bus allows you to also survive in the [Flash Flood](flash-flood) Event. It is unknown if it's intentional.
 
-  !!GALLERY [/assets/bussim/images/items/mini-bus.webp]
+  !!GALLERY [/assets/bussim/images/items/mini-bus.webp|/assets/bussim/images/items/e-bus.webp]

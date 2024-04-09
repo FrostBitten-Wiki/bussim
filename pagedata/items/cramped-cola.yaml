@@ -12,7 +12,7 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/cramped-cola.webp
 
 attributions: 
   - Ported by PolyframeX (@polyframex)
@@ -33,5 +33,8 @@ content: |
   ##[Trivia]
   - At some point, Cramped Cola was reworked to have more realistic physics than before, as a result a lot of its internal mechanics were changed alongside different ways to go around issues. This also patched existing issues with the item beforehand. 
     - Despite this though, there now exists an item only given via Admin Commands called Cramped Cola_Old, which as stated in its title, works just like the Cramped Cola prior to it being reworked.
+
+  ##[Technical Trivia]
+  - It is currently possible to utilize this item as a form of teleportation, first use any item with collisions such as: [Candied Cane](candied-cane), [Snowcone](snowcone), and / or [Popsicle](popsicle) and then unequip it at the first spot. Secondly, go to any spot outside of your first spot and drink the Cramped Cola, and lastly: equip the item you used previously again. This will force you to teleport back to your first spot at any point in the game. 
 
   !!GALLERY [/assets/bussim/images/items/cramped-cola.webp]

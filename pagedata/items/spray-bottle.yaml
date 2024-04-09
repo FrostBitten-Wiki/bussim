@@ -1,7 +1,7 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Spray Bottle
+  description: The Spray Bottle is an Admin-Exclusive item that is capable of blurring other players' screens for a while, with each subsequent use increasing the blurring.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -12,12 +12,22 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/spray-bottle.webp
 
 attributions: []
 
 content: |
-  ##[Info]
-  test
+  !!TEMPLATE Admin
+  "Blind them all." -"Spray Bottle"
 
-  !!GALLERY [/assets/bussim/images/items/cola.webp]
+  ##[Info]
+  The Spray Bottle is an Admin-Exclusive item that is capable of blurring other players' screens for a while, with each subsequent use increasing the blurring.
+  \n\n 
+  Each spray inflicted reaches up to 16 studs and is 7 studs wide, and anyone who is unfortunate enough to be caught in it will have their screen blurred temporarily. 
+  \n\n
+  Those who are caught under 16 studs will have theirs blurred for a significant amount of time, whereas ones that are specifically 16 studs away will only be blinded for a couple of seconds.
+  \n\n 
+  Apart from that, it's a pretty harmless toy that can be a bit bothersome to the eyes, but not so much to the ears with the [Airhorn](airhorn). 
+
+
+  !!GALLERY [/assets/bussim/images/items/spray-bottle.webp]

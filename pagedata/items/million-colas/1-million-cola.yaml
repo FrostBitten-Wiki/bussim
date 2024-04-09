@@ -12,13 +12,14 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/million-colas.webp
 
 attributions: []
 
 content: |
   !!BUTTONS [<highlight>1 Million</highlight>,location.href=''|10 Million,location.href='10-million-cola'|20 Million,location.href='20-million-cola']
   "Thanks you guys for this number... This is such an awesome day for the developers!" -"1 Million Cola"
+
   ##[Info]
   The 1M Cola is an item that was originally obtainable during the 1 Million Event, but is now only obtainable via Admin Commands.
   \n

@@ -1,7 +1,7 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Snowcone
+  description: The Snowcone is a permanent healing item obtainable from either the 2019 Christmas event or the 20 Million Visits event, during which, you had a 50/50 chance to get either it or the Snowglobe.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -12,12 +12,23 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/snowcone.webp
 
 attributions: []
 
 content: |
+  "A snowier version of ice cream." -"Snowcone"
   ##[Info]
-  test
+  The Snowcone is a permanent healing item obtainable from either the 2019 Christmas event or the 20 Million Visits event, during which, you had a 50/50 chance to get either it or the [Snowglobe](snowglobe). 
+  \n\n 
+  On use, you will be healed a small amount, but with a very short cooldown, allowing rapid consumption. 
 
-  !!GALLERY [/assets/bussim/images/items/cola.webp]
+  ##[Trivia] 
+  - This item has CanCollide enabled, which is presumably unintended.
+    - This also applies to [Popsicle](popsicle), and [Candied Cane](candied-cane). 
+  
+  ##[Technical Trivia]
+  - It is currently possible to utilize this item as a form of teleportation, first use the item multiple times then unequip it at the first spot. Secondly, go to any spot outside of your first spot and drink the [Cramped Cola](cramped-cola), and lastly: equip the Snowcone again. This will force you to teleport back to your first spot at any point in the game. 
+    - The same can apply to both [Popsicle](popsicle), and [Candied Cane](candied-cane), but are more inaccurate and prone to flinging you. 
+
+  !!GALLERY [/assets/bussim/images/items/snowcone.webp]

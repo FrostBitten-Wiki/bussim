@@ -12,13 +12,14 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/10-million-cola.webp
 
 attributions: []
 
 content: |
   !!BUTTONS [1 Million,location.href='1-million-cola'|<highlight>10 Million</highlight>,location.href=''|20 Million,location.href='20-million-cola']
   "Thanks you guys for this number... This is such an awesome day for the developers!" -"10 Million Cola"
+
   ##[Info]
   10 Million Cola is an item that was originally obtainable from the 10 Million Wheel, but is now only obtainable via Admin Commands.
   \n 

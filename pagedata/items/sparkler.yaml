@@ -1,7 +1,7 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Sparkler
+  description: The sparkler is a limited-time item that is only given out from December 30th - Jan 1st, to celebrate new years.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -12,12 +12,17 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/sparkler.webp
 
 attributions: []
 
 content: |
-  ##[Info]
-  test
+  !!BUTTONS [<highlight>Sparkler</highlight>,location.href=''|Sparkler Candle,location.href='sparkler-candle']
+  "It's just a free model, but whatever.. Happy new year!" -"Sparkler"
 
-  !!GALLERY [/assets/bussim/images/items/cola.webp]
+  ##[Info]
+  The sparkler is a limited-time item that is only given out from December 30th - Jan 1st, to celebrate new years. The sparkler will make sparkles when equipped, and you can swap through colors by clicking, but it'll turn off in-between colors. The sparkles can be Red, Blue, and Green. 
+  \n\n 
+  The sparkler is just a cosmetic item, and has no effects to the player nor gameplay, disappearing after January 1st.
+
+  !!GALLERY [/assets/bussim/images/items/sparkler.webp]

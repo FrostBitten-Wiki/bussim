@@ -1,7 +1,7 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Snowglobe
+  description: The Snowglobe is a permanent item obtained by joining during either the 2019 Christmas event, or the 20 Million Visits event, which was also situated around Christmas. During both of these events, you had a 50/50 chance to get either the Snowglobe or the Snowcone. 
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -12,12 +12,19 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/snowglobe.webp
 
 attributions: []
 
 content: |
+  "It jingles, for some reason." -"Snowglobe"
   ##[Info]
-  test
+  The Snowglobe is a permanent item obtained by joining during either the 2019 Christmas event, or the 20 Million Visits event, which was also situated around Christmas. During both of these events, you had a 50/50 chance to get either the Snowglobe or the [Snowcone](snowcone). 
+  \n\n 
+  When used, the player shakes the Snowglobe, making blue-white sparkles. It has no other practical use as it cannot heal, distract NPCs, or damage you. 
 
-  !!GALLERY [/assets/bussim/images/items/cola.webp]
+  ##[Trivia] 
+  - Despite the Snowglobe making sound when used, it surprisingly doesn't attract the NPCs in [Santa's Gone](santas-gone) and [No Dough](no-dough).
+    - Alongside that, it isn't taken away in the two events mentioned either. The Backwalls, however, will take it away.
+
+  !!GALLERY [/assets/bussim/images/items/snowglobe.webp]

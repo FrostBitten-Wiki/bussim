@@ -12,15 +12,16 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/lemon-soda.webp
 
 attributions: 
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
 content: |
+  !!BUTTONS [<highlight>Lemon Soda</highlight>,location.href=''|Lemonade,location.href='lemonade']
   "I don't trust this thing." -"Lemon Soda"
-  !!BUTTONS [<highlight>Lemon Soda</highlight>,location.href=''|Lemonade,location.href='/wiki/bussim/items/lemonade']
+
   ##[Info]
   The Lemon Soda is an item in Bus Simulator that is obtained from its own respective event. When drank, it deals 25 damage to the player, and causes nausea as well. Spitting noises may also be heard. 
 

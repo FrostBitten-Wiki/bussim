@@ -12,7 +12,7 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/candied-cane.webp
 
 attributions:
   - Original Conversion by PolyframeX (@polyframex)
@@ -31,7 +31,7 @@ content: |
 
   ##[Technical Trivia] 
   - It is currently possible to utilize this item as a form of teleportation, first use the item multiple times then unequip it at the first spot. Secondly, go to any spot outside of your first spot and drink the [Cramped Cola](cramped-cola), and lastly: equip the Candied Cane again. This will force you to teleport back to your first spot at any point in the game. 
-    - The same applies for [Snowcone](snowcone), but is much more precise and isn't capable of flinging you upon teleportation.
+    - The same applies for [Snowcone](snowcone) and likely [Popsicle](popsicle), with the former being most precise, and the latter being likely inaccurate.
     - Do note though, that it occasionally slows you down for one-life per teleport. So it's recommend to use it wisely.
 
   !!GALLERY [/assets/bussim/images/items/candied-cane.webp]

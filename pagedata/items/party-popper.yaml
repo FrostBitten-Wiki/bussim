@@ -1,44 +1,30 @@
+editable: true
 page:
   title: Party Popper
-  description: The Party Popper is a cosmetic item obtained from the 10 Million Visits event.
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Party Popper
-  tags: party popper, exclusive item
+  description: The Party Popper is a permanent cosmetic item obtained from the 10 Million Visits event. The item makes a small blast of confetti, and has a cooldown of 2 seconds.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, cafe
+
+  tags: party popper, tada, 🎉🎉🎉🎉🎉🎉🎉
+
+  header:
+    title: Party-Popper
+    description: |
+      Category: [Items](items)
+    image: /bussim-assets/images/banner.jpg
+    imageBanner: /assets/bussim/images/party-popper.webp
 
 attributions:
-  - "Ported By PolyframeX (@polyframex)"
+  - Created by FangedWerewolf (@noobbiom)
 
-html:
-  header:
-    title: Party Popper
-    description: 'Category: <a href="/bussim/items">Items</a>'
-    image: ''
-    imageBanner: /bussim-assets/images/banner.jpg
+content: |-
+  "🎉" -"Party-Popper"
+  ##[Info]
+  The Party Popper is a permanent cosmetic item obtained from the 10 Million Visits event. The item makes a small blast of confetti, and has a cooldown of 2 seconds.
 
-  pageContent:
-    - type: quote
-      content:
-        quote: "<font size='8'>&#127881</font>"
-        author: Item Description
-    - type: section
-      content:
-        title: Info
-        description: >-
-         The Party Popper is a cosmetic item obtained from the 10 Million Visits event. 
-         The item makes a small blast of confetti, 
-         and has a cooldown of 2 seconds.
+  ##[Trivia]
+  - In the [No Dough](no-dough) or alternatively, [Santa's Gone](santas-gone), this can be used to distract [Civilians](civilian).
+  - This item is also part of the item pool that you can get from the [Randomized Kit](https://kit-battle.fandom.com/wiki/Randomized_Kit) in [Kit Battle](https://www.roblox.com/games/6549663822/Kit-Battle-Beta-Testing), although the functionality is the same as here.
+  - The item was previously seen in a Bloxdonalds clothing store.
 
-    - type: section
-      content:
-        title: Trivia
-
-    - type: tree
-      content:
-        - name: In the <a href="/bussim/events/no-dough">No Dough</a>/<a href="/bussim/events/santas-gone">Santas Gone</a> event, this item can be used to distract the Civilians.
-        - name: The item can be seen in the <a href="https://kit-battle.fandom.com/wiki/Randomized_Kit">Randomized Kit</a> in the <a href="https://www.roblox.com/games/6549663822/Kit-Battle-Beta-Testing">Kit Battle Beta</a>.
-        - name: The item was previously seen in a Bloxdonalds clothing store.
-
-    - type: gallery
-      content:
-        images:
-          - /bussim-assets/images/items/party-popper.webp
-          
+  !!GALLERY [/assets/bussim/images/items/party-popper.webp]

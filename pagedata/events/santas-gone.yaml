@@ -22,7 +22,7 @@ attributions: []
 
 content: |
   "...This may quite possibly be the worst decision we've ever made." -"Passenger"
-  !!BUTTONS [No Dough,location.href='no-dough'|<highlight>Santa's Gone</highlight>,location.href='#']
+  !!BUTTONS [No Dough,location.href='no-dough'|<highlight>Santa's Gone</highlight>,location.href='']
   ##[Info]
   Santa's Gone was a limited time event that came before the No Dough event, which was a limited time event in December 2021 and 2022. 
   \n\n 

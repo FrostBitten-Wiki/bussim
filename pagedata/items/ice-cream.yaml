@@ -12,7 +12,7 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/ice-cream.webp
 
 attributions: 
   - Ported by PolyframeX (@polyframex)

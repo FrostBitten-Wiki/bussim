@@ -12,7 +12,7 @@ page:
     description: |
       Category: [Items](items)
     image: "/bussim-assets/images/banner.jpg"
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /assets/bussim/images/items/hot-chocolate.webp
     
 attributions:
   - Ported by FangedWerewolf (@noobbiom)
@@ -41,4 +41,4 @@ content: |
  - It isn't clear if this is the same or different than the kind of hot cocoa that can be made in the Cafe.
  - Despite the drink being hot, it doesn't have the ability to burn you, unlike the [Hot Cola](hot-cola). 
 
- !!GALLERY [/assets/bussim/images/items/frozen-chocolate.webp]
+ !!GALLERY [/assets/bussim/images/items/hot-chocolate.webp]

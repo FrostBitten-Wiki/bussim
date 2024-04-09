@@ -13,7 +13,7 @@ page:
       Category: [Items](items)
 
     image: ''
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/fakebuildtools.webp
 
 attributions:
   - Ported by PolyframeX (@polyframex)

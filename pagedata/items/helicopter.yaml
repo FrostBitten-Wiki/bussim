@@ -12,7 +12,7 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/helicopter.webp
 
 attributions: 
   - Ported by PolyframeX (@polyframex)
@@ -32,3 +32,5 @@ content: |
   - The Helicopter is the only item you cannot steal from GOATed Gas Station, as you take the skillbook instead, which have all the pages glued down. When you purchase it, Disc, the store cashier, will un-stick all the pages, giving you the Helicopter tool instead.
   - If you attempt to buy the book again even after buying it for the first time, Disc will mention that you had already payed for this, and will refund you back the same amount of reputation that would've required to buy this.
   - Another item also shares a slightly similar function to the Helicopter, being the [Hoverboots](hoverboots) which was a limited tool only obtainable during the 10 Million Event. It has much better mobility overall, however still suffers from a timer-based system.
+
+  !!GALLERY [/assets/bussim/images/items/helicopter.webp]

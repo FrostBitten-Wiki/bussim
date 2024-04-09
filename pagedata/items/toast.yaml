@@ -1,18 +1,18 @@
 editable: True
 page:
-  title: Tool
+  title: Toast
   description: The Toast is a temporary item from the Goat Station Event, which can be obtained by clicking on the Toaster in Zeon's house, and waiting a few seconds until it pops out.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim item item
   
-  tags: toast, toastyy, oh this one doesnt actually kill? damn.
+  tags: toast, toastyy, oh this one doesnt actually kill? damn., lmao - fang
 
   header:
     description: |
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/toast.webp
 
 attributions: 
   - Ported by PolyframeX (@polyframex)

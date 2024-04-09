@@ -1,0 +1,27 @@
+editable: True
+page:
+  title: Sparkler Candle
+  description: The Sparkler Candle is a VR-Exclusive permanent item that only appears in a VR players inventory, unless if given by an admin via admin commands. The sparkler is a light source, emitting vibrant sparks at the tip and creates a long-duration trail.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: placeholder, item
+
+  header:
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/items/sparkler-candle.webp
+
+attributions: []
+
+content: |
+  !!BUTTONS [Sparkler,location.href='sparkler'|<highlight>Sparkler Candle</highlight>,location.href='']
+
+  ##[Info]
+  The Sparkler Candle is a VR-Exclusive permanent item that only appears in a VR players inventory, unless if given by an admin via admin commands. The sparkler is a light source, emitting vibrant sparks at the tip and creates a long-duration trail.
+  \n\n 
+  Just like the Sparkler, it is just a cosmetic item and disappears if you play Bus Simulator on any other platform but VR.
+
+  !!GALLERY [/assets/bussim/images/items/sparkler-candle.webp]

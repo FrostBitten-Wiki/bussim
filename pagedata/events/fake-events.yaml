@@ -19,7 +19,7 @@ page:
 attributions: []
 
 content: |
-  !!BUTTONS [<highlight>Fake Bus Stop</highlight>,location.href='#'|Fake Gas Stop,location.href='fake-gas']
+  !!BUTTONS [<highlight>Fake Bus Stop</highlight>,location.href=''|Fake Gas Stop,location.href='fake-gas']
   ##[Info]
   The Fake Bus Stop event is an event where the bus driver distracts players by acting like they made it to the bus stop, and then drives off, making players respawn on the bus. \n
   The event has a similar appearance to the Passengers event, where it also stops at a bus stop, but it has no passengers waiting for the bus. 

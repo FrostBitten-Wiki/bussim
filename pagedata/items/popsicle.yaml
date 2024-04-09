@@ -1,23 +1,34 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Popsicle
+  description: Popsicle is obtained from the 10 Million Event Wheel. When used, it'll heal you by a significant amount similarly to Snowcone and can be used quite rapidly.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
-  tags: placeholder, item
+  tags: yummy
 
   header:
     description: |
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/popsicle.webp
 
 attributions: []
 
 content: |
+  "It tastes good, I guess?" -"Popsicle"
   ##[Info]
-  test
+  Popsicle is a permanent healing item obtained from the 10 Million Event Wheel. 
+  \n\n 
+  When used, it'll heal you by a significant amount similarly to [Snowcone](snowcone) and can be used quite rapidly. Despite that though, it is a good healing starter item to have. 
 
-  !!GALLERY [/assets/bussim/images/items/cola.webp]
+  ##[Trivia] 
+  - The popsicle is based off the Rocket Popsicles, or "Firecrackers" by Popsicle(R) P O P S I C L E.
+  - Interestingly enough though, it has collision similar to [Snowcone](snowcone) and [Candied Cane](candied-cane).
+
+  ##[Technical Trivia]
+  - It is currently possible to utilize this item as a form of teleportation, first use the item multiple times then unequip it at the first spot. Secondly, go to any spot outside of your first spot and drink the [Cramped Cola](cramped-cola), and lastly: equip the Popsicle again. This will force you to teleport back to your first spot at any point in the game. 
+    - The same can apply to both [Snowcone](snowcone), and [Candied Cane](candied-cane), with the former being more specific and the latter being more inaccurate.
+
+  !!GALLERY [/assets/bussim/images/items/popsicle.webp]

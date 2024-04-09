@@ -18,7 +18,7 @@ page:
 attributions: []
 
 content: |
-  !!BUTTONS [<highlight>MicSpam</highlight>,location.href='#'|MicOff,location.href='teddy-micoff']
+  !!BUTTONS [<highlight>MicSpam</highlight>,location.href=''|MicOff,location.href='teddy-micoff']
   "my ears hurt" -"Bus Passenger"
   ##[Info]
   MicSpam is an event in Bus Simulator, where the Bus will forcibly stop to see a rabbit wearing a box in the middle of the lane that the Bus is on. After about one minute, Teddy will begin to sing a song using his megaphone and after it has finished, it will promptly drop down a hole, and the event will end. The passengers or driver will then exclaim signs of hearing problems or part of the song's lyrics. 

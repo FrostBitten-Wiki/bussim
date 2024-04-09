@@ -12,7 +12,7 @@ page:
     description: |
       Category: [Items](items)
     image: "/bussim-assets/images/banner.jpg"
-    imageBanner: /assets/bussim/images/banner.jpg
+    imageBanner: /assets/bussim/images/items/popcorn-bucket.webp
     
 attributions:
   - Created by FangedWerewolf (@noobbiom)

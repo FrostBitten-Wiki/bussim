@@ -12,15 +12,16 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/bad-cola.webp
 
 attributions: 
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
 content: |
+  !!BUTTONS [<highlight>Bad Cola</highlight>,location.href=''|Old Bad Cola,location.href='old-bad-cola']
   "Smells... odd." -"Bad Cola"
-  !!BUTTONS [<highlight>Bad Cola</highlight>,location.href=''|Old Bad Cola,location.href='/wiki/bussim/items/bad-cola/old-bad-cola']
+
   ##[Info]
   The Bad Cola (or known as the Red Cola) is a rare cola that has an appearance of the normal Cola tinted red. You can also get it from the cola crate on the second floor of the bus. There's a 10% chance of you getting it. When held, it makes a deepened pop sound and when you drink it, the player pauses after drinking the red cola, their skin tone gets paler, and instantly dies. 
   \n\n 

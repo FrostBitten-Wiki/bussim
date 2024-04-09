@@ -13,7 +13,7 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/items/fast-mini-bus.webp
 
 attributions: 
   - Ported by PolyframeX (@polyframex)
@@ -21,8 +21,9 @@ attributions:
 
 content: |
   !!TEMPLATE Admin
-  "Hey, you're special." -"Fast Mini-Bus"
   !!BUTTONS [Mini-Bus,location.href='mini-bus'|<highlight>Fast Mini-Bus</highlight>,location.href='']
+  "Hey, you're special." -"Fast Mini-Bus"
+
   ##[Info]
   The Fast-Minibus is a VIP / Admin-Exclusive item in Bus Simulator that is a super outdated, but uniquely designed version of the regular Mini-Bus. 
   \n\n 
