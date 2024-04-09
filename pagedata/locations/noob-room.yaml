@@ -1,7 +1,7 @@
 editable: True
 page:
-  title: Placeholder
-  description: Placeholder
+  title: Noob Room
+  description: The Noob Room is an area in Bus Simulator only accessible by going through the door that lies far away from the back of The Bus, assuming the secret button has been pressed.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim placeholder location
   
@@ -12,15 +12,22 @@ page:
       Category: [Locations](/bussim/locations)
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/locations/noob-room.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  Info Here
+  The Noob Room is an area in Bus Simulator only accessible by going through the door that lies far away from the back of The Bus, assuming the secret button has been pressed.
+  \n\n 
+  Within the area is a world with bright yellow grass, stony hills, two faceless noobs, a stone statue, and a big sun with a default face on it. In some cases, getting near and interacting the noobs may have a chance of slapping you, sending you backwards for a bit. 
+  \n\n 
+  You can also use various items such as [Hoverboots](hoverboots), [Helicopter](helicopter), and the [Mini-Bus](mini-bus) to clip out of the area or to elevate yourself ontop of the hills. 
+  \n\n 
+  Unlike other rooms within the game, there's no known nor intended method of escaping aside from resetting, relying on force teleporation such as the [EA Sellout Event](ea-sellout) and the [backwalls](backwalls), or by using the [Magic Mirror](magic-mirror). \
 
   ##[Trivia]
-  - Trivias Here
+  - This is one of, if not the only non-event area in the game to not feature any NPCs especially ones that are talkable, such as the [Void Box](void-box), [Glacier Cave](glacier-cave), etc. 
+  - If you have high enough quality, you'll be able to see the entire structure off in the distance, being farther than where the road deloads.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/locations/noob-room.webp|/assets/bussim/images/locations/the-door.webp]

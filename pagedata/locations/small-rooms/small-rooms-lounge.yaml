@@ -1,0 +1,33 @@
+editable: True
+page:
+  title: Small Rooms 
+  description: The Small Rooms are hidden areas within The Bus that are only accessible via the usage of a Cramped Cola, containing a few secrets, furniture, and more.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim placeholder location
+  
+  tags: placeholder, location
+
+  header:
+    description: |
+      Category: [Locations](/bussim/locations)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/locations/small-rooms/lounge-room.webp
+
+attributions: []
+
+content: |
+  ##[Info]
+  The Small Rooms are hidden areas within [The Bus](the-bus) that are only accessible via the usage of a [Cramped Cola](cramped-cola), containing a few secrets, furniture, and more.
+  \n\n
+  !!BUTTONS [Furturistic Bench,location.href='small-rooms'|<highlight>Lounge Room</highlight>,location.href=''|Vibe Room,location.href='vibe-room']
+  
+  ##[Lounge Room]
+  The Lounge Room is found within the staircases of the first floor of [The Bus](the-bus).
+  \n\n 
+  Upon entering, you'll find a fridge, a TV showing Family Guy, a couch suitable up to three people, an unknown mesh, and a door that leads to the [Vibe Room](vibe-room).
+
+  ##[Trivia]
+  - The door used to have no function until the 20 Million Update, in which is now used to enter the aforementioned [Vibe Room](vibe-room).
+
+  !!GALLERY [/assets/bussim/images/locations/small-rooms/lounge-room.webp]

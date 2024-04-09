@@ -1,0 +1,33 @@
+editable: True
+page:
+  title: Small Rooms 
+  description: The Small Rooms are hidden areas within The Bus that are only accessible via the usage of a Cramped Cola, containing a few secrets, furniture, and more.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim placeholder location
+  
+  tags: placeholder, location
+
+  header:
+    description: |
+      Category: [Locations](/bussim/locations)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/locations/small-rooms/vibe-room.webp
+
+attributions: []
+
+content: |
+  ##[Info]
+  The Small Rooms are hidden areas within [The Bus](the-bus) that are only accessible via the usage of a [Cramped Cola](cramped-cola), containing a few secrets, furniture, and more.
+  \n\n
+  !!BUTTONS [Furturistic Bench,location.href='small-rooms'|Lounge Room,location.href='small-rooms-lounge'|<highlight>Vibe Room</highlight>,location.href='']
+  
+  ##[Vibe Room]
+  The Vibe Room is an area only accessible from the door within the [Lounge](small-rooms-lounge).
+  \n\n 
+  The area contains a few arcade machines, changing colors ever so often; bean bags, couches, and posters from various medias such as Among Us and Hotline Miami. The area also has background music playing at all times.
+
+  ##[Trivia]
+  - Back when it was first introduced, the screens on the arcade machines were non-anchored, allowing players to knock them down intentionally or not. This was later patched in a future update.
+
+  !!GALLERY [/assets/bussim/images/locations/small-rooms/vibe-room.webp]

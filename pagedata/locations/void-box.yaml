@@ -1,0 +1,34 @@
+editable: True
+page:
+  title: Void Box
+  description: The Void is a medium-sized black room that has two monitors in the top-right corner with Efeuc laying down next to them.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim placeholder location
+  
+  tags: placeholder, location
+
+  header:
+    description: |
+      Category: [Locations](/bussim/locations)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/locations/void-box.webp
+
+attributions: []
+
+content: |
+  ##[Info]
+  The Void is a medium-sized black room that has two monitors in the top-right corner with Efeuc laying down next to them, and a sign simply saying "back", which being clicked or tapped on, will take you back to the front of the second floor on the bus. 
+  \n\n
+  The location can simply be entered if you click or tap on the purple eye on the second floor. 
+
+  ##[Trivia]
+  - The Void Box can actually be seen even on [The Bus](the-bus) if you set your quality up to max whilst on the rooftop. Only works in certain biomes due to fog.
+    - You can also try to get up there by using the [Gravity Coil](gas-station-gravity-coil) + [Space](space) trick, although the odds of landing is low, but possible. 
+      - If you do manage to land on top of it though, you'll also be immune to forced teleportation like the [Backwalls](backwalls) for example. This is later explained in the Technical Trivia. 
+
+  ##[Technical Trivia]
+  - The Void Box is located specifically above 5000 studs from [The Bus](the-bus) which puts it within the Height Immunity zone, in which events like the [Backwalls](backwalls) or [Acid Rain](acid-rain) will have no effect on you. Likewise, this also disables the [GPS](gps) from providing data.
+    - This is also the same zone where [No Dough's house generation](no-dough) and [Glacier Cave](glacier-cave) are located, albeit higher than the Void Box.
+
+  !!GALLERY [/assets/bussim/images/locations/void-box.webp]
