@@ -20,7 +20,7 @@ content: |
   ##[Info]
   The Small Rooms are hidden areas within [The Bus](the-bus) that are only accessible via the usage of a [Cramped Cola](cramped-cola), containing a few secrets, furniture, and more.
   \n\n
-  !!BUTTONS [<highlight>Furturistic Bench</highlight>,location.href=''|Lounge Room,location.href='small-rooms-lounge'|Vibe Room,location.href='small-rooms-vibe']
+  !!BUTTONS [<highlight>Furturistic Bench</highlight>,location.href=''|Lounge Room,location.href='lounge-room'|Vibe Room,location.href='vibe-room']
   
   ##[Futuristic Bench]
   The Futuristic Bench is a room that is accessible via a hidden wall on the right side of [The Bus](the-bus).
