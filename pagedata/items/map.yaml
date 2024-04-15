@@ -1,7 +1,8 @@
 editable: true
 page:
   title: Map
-  description: The Map is an item that is used within the Backwalls to draw out areas you have already explored and marking the escape room with a large X.
+  description: The Map is an item that is used within the Backwalls to draw out areas
+    you have already explored and marking the escape room with a large X.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
@@ -18,7 +19,7 @@ attributions:
   - early port lets go
 
 content: |
-  !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Gotta strike iron while its hot!\"* - Fang\nv(This page is content reserved for a future update, mainly so this doesn't become much of an issue once this releases.)"
+  !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*"Gotta strike iron while its hot!"* - Fang\nv(This page is content reserved for a future update, mainly so this doesn't become much of an issue once this releases.)"
   "i literally have a map and i'm still ####ing lost" -"Map"
 
   ##[Info]
@@ -31,4 +32,4 @@ content: |
   ##[Trivia]
   - suddenly an uprise in faceplanting
 
-  !!GALLERY [/assets/bussim/images/items/map.webp|/assets/bussim/images/items/galleries/map-usage.webp]
+  !!GALLERY [/assets/bussim/images/items/map.webp|/assets/bussim/images/items/galleries/map-usage.webm]
