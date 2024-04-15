@@ -1,0 +1,37 @@
+editable: true
+page:
+  title: Map
+  description: The Map is an item that is used within the Backwalls to draw out areas you have already explored and marking the escape room with a large X.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+
+  tags: magic mirror, shimy mirror, mirror, magic. frost den, teleport item
+
+  header:
+    description: |
+      Category: [Items](items)
+
+    image: ''
+    imageBanner: /assets/bussim/images/items/map.webp
+
+attributions:
+  - early port lets go
+
+content: |
+  !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Gotta strike iron while its hot!\"* - Fang\nv(This page is content reserved for a future update, mainly so this doesn't become much of an issue once this releases.)"
+  "i literally have a map and i'm still ####ing lost" -"Map"
+
+  ##[Info]
+  The Map is an item that is used within the [Backwalls](backwalls) to draw out areas you have already explored and marking the escape room with a large X. 
+  \n\n 
+  To obtain this, you must [INFORMATION REDACTED UNTIL RELEASE] with [INFORMATION REDACTED UNTIL RELEASE] and [INFORMATION REDACTED UNTIL RELEASE]
+  \n\n 
+  Its appearance and function is exactly the same as the [Buried Treasure Map](https://minecraft.wiki/w/Explorer_Map), with a large cross and a player locator for whoever holds the map. 
+
+  ##[Trivia]
+  - This item, as well as the event and badges, was added with the 20 Million / Christmas update, but isn't a limited-time item.
+  - This is a reference to an item of the same name from Terraria.
+  - On September 10th, the neon mesh part of the Magic Mirror was moderated for no apparent reason, causing the item to look hollow compared the item shown in the Infobox. 
+    - This has been fixed following after, with it having a similar appearance.
+
+  !!GALLERY [/assets/bussim/images/items/map.webp|/assets/bussim/images/items/galleries/map-usage.webm]
