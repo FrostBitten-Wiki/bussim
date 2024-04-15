@@ -12,7 +12,7 @@ page:
     description: |
       Category: [Items](items)
     image: /bussim-assets/images/banner.jpg
-    imageBanner: /assets/bussim/images/party-popper.webp
+    imageBanner: /assets/bussim/images/items/party-popper.webp
 
 attributions:
   - Created by FangedWerewolf (@noobbiom)

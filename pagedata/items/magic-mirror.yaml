@@ -13,7 +13,7 @@ page:
       Category: [Items](items)
 
     image: ''
-    imageBanner: /assets/bussim/images/items/marker.webp
+    imageBanner: /assets/bussim/images/items/magic-mirror.webp
 
 attributions:
   - Ported by PolyframeX (@polyframex)

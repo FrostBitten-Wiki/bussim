@@ -12,7 +12,7 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/items/Avian-Potion.webp
+    imageBanner: /assets/bussim/images/items/avian-potion.webp
 
 attributions: 
   - Ported by PolyframeX (@polyframex)
@@ -30,4 +30,4 @@ content: |
   ##[Trivia]
   - It is unknown when it first made its debut, nor what it is referenced by, but it exists within the game.
 
-  !!GALLERY [/assets/bussim/images/items/Avian-Potion.webp]
+  !!GALLERY [/assets/bussim/images/items/avian-potion.webp]

@@ -12,7 +12,7 @@ page:
       Category: [Items](items)
     
     image: ""
-    imageBanner: /assets/bussim/images/items/Burger.webp
+    imageBanner: /assets/bussim/images/items/burger.webp
 
 attributions: 
   - Ported by PolyframeX (@polyframex)
@@ -33,4 +33,4 @@ content: |
   - Originally after the revamped NPC Dialogue was introduced, whenever you asked for a burger, you won't be able to proceed without taking a bite to end the conversation. Which while wasn't much forced people to eat it. 
     - Following the 20 Million Update, this was changed so that now the burger isn't automatically on your hands and you can proceed the conversation as normal.
 
-  !!GALLERY [/assets/bussim/images/items/Burger.webp]
+  !!GALLERY [/assets/bussim/images/items/burger.webp]
