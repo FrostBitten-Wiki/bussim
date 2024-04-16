@@ -13,7 +13,7 @@ page:
   header:
     description: |
       Category: [Events](events)\n
-      Event Name: h[Backwalls]
+      Event Name: h[Backwalls]\n
       Event Runtime: h[Unknown]
 
     imageBanner: /assets/bussim/images/events/backwalls.webp
