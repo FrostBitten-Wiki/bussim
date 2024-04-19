@@ -19,6 +19,7 @@ attributions:
   - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
 
 content: |
+  !!BUTTONS [Megaphone,location.href='megaphone'|<highlight>Megaphone EX</highlight>,location.href=''|Meygaphone~,location.href='meygaphone']
   "Yell across the time-space continnum-- with InroOS!" -"Megaphone EX"
 
   ##[Info]
