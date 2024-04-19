@@ -14,13 +14,14 @@ page:
       Event Name: h[SushiShop]\n
       Event Runtime: h[Unknown]
     image: ''
-    imageBanner: /bussim-assets/images/banners/sushi-whop.webp
+    imageBanner: /bussim-assets/images/banners/sushi-shop.webp
 
 
 attributions:
   - Made by FangedWerewolf (@noobbiom)
 
 content: |-
+  !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Gotta strike iron while it's hot!\"* - Fang\nv(This page is content reserved for a future update, mainly so this doesn't become much of an issue once this releases.)"
   "yooo sushi shop" -"Passenger"
   ##[Info]
   The Sushi Shop is an event in Bus Simulator, in which [The Bus](the-bus) stops at a nearby sushi resturant, allowing passengers to buy them with [Passenger Reputation](reputation) or steal them, with each sushi having different effects.
@@ -35,4 +36,4 @@ content: |-
 
   ##[Trivia]
   - This is the only event where you can spend Passenger Reputation on a non-permanent item.
-   !!GALLERY [/bussim-assets/images/events/cafe.webp|/bussim-assets/images/banners/sushi-shop.webp] 
+   !!GALLERY [/bussim-assets/images/banners/sushi-shop.webp] 
