@@ -21,7 +21,7 @@ content: |
  !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Gotta strike iron while it's hot!\"* - Fang\nv(This page is content reserved for a future update, mainly so this doesn't become much of an issue once this releases.)"
  "Tasty!" -"Sushi"
  ##[Info]
- Sushi is a collection of items obtained from the [Sushi Shop Event](sushi-shop), providing healing, or an array of special effects depending on if you buy or steal them. Each sushi is randomized whenever you click on them and are all temporary.
+ Sushi is a collection of items obtained from the [Sushi Shop Event](sushi-shop), providing healing, or an array of special effects depending on if you buy or steal them with buying providing mostly beneficial effects, and stealing providing negative effects. Each sushi is randomized whenever you click on them and are all temporary.
  \n\n
  Some of these effects range from increased max health, to emergency healing, or knocking you up, and while some are hard-coded in specific values, some heal different amounts based on the server instance, so it may not be consistent.
  \n\n
@@ -65,4 +65,4 @@ content: |
  | Roe Gunkan | Normal | Extremely large roe sits ontop of rice while wrapped in nori. | Nothing |![120x120](/bussim-assets/images/items/sushi/roe-kura.webp)|
  \n
  ##[Trivia]
- - e
+  - This is the only non-permanent item that you can spend [Passenger Reputation](reputation) on. 
