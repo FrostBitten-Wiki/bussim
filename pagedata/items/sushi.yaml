@@ -1,0 +1,68 @@
+editable: True
+page:
+  title: Sushi
+  description: This page is about the various types of sushi and their effects in the Sushi event.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, cafe
+
+  tags: sushi, suuushi, btw special mention to disc for liking california maki, i too do like it a lot
+
+  header:
+    title: Sushi
+    description: |
+      Category: [Items](items)
+    image: "/bussim-assets/images/items/sushi/healthy-maki.webp"
+    imageBanner: /assets/bussim/images/items/sushi/healthy-maki.webp
+    
+attributions:
+  - Created by FangedWerewolf (@noobbiom)
+
+content: |
+ !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Gotta strike iron while it's hot!\"* - Fang\nv(This page is content reserved for a future update, mainly so this doesn't become much of an issue once this releases.)"
+ "Tasty!" -"Sushi"
+ ##[Info]
+ Sushi is a collection of items obtained from the [Sushi Shop Event](sushi-shop), providing healing, or an array of special effects depending on if you buy or steal them. Each sushi is randomized whenever you click on them and are all temporary.
+ \n\n
+ Some of these effects range from increased max health, to emergency healing, or knocking you up, and while some are hard-coded in specific values, some heal different amounts based on the server instance, so it may not be consistent.
+ \n\n
+ ##[Sushi Types]
+ \n\n
+ ###[Uramakis]
+ | Name | Class | Description | Effects | Image |
+ |------|-------|-------------|---------|-------|
+ | Spicy-Mayo Tuna Uramaki | <clr:#9CFF9C>(Heal) | Tuna scraps filled with spicy mayo, with some sesame seeds, and a splatter of spicy mayo. | <clr:#9CFF9C>(Heals up to 10 HP) |![120x120](/bussim-assets/images/items/sushi/spicy-tuna-uramaki.webp)|
+ | Crab Rangoon Uramaki | <clr:#9CFF9C>(Heal) | Crab Rangoon filling with sweet and sour sauce and eel sauce. | <clr:#9CFF9C>(Heals up to 10 HP) |![120x120](/bussim-assets/images/items/sushi/crab-rangoon-uramaki.webp)|
+ | Imitation Crab Uramaki | <clr:#9CFF9C>(Heal a)<clr:#B3FFBD>(n)<clr:#C9FFDD>(d Max Health Boost) | Roll consisting of Cucumber, Avocado, and Imitation Crab. | <clr:#9CFF9C>(Heals up to 10 HP)\n\n<clr:#C9FFDD>(Increases Max Health by 15\nNot stackable.)|![120x120](/bussim-assets/images/items/sushi/imitation-crab-uramaki.webp)|
+ | Ao Zakana Uramaki | <clr:#5900B3>(Damage) | Legend of The Ao Zakana's truth is questionable, but not unproven. | <clr:#5900B3>(Deals 50 rapid damage or 50% of current health, whichever is least damaging.) |![120x120](/bussim-assets/images/items/sushi/ao-zakana-uramaki.webp)|
+ | Spicy-Mayo Catfish Uramaki | <clr:#FF3112>(Rage) | A fried catfish with EXTRA cucumber and spicy mayo. | <clr:#FF3112>(Enrages you, giving you the following effects:)\n- Take 4 DPS\n- Gives you a red aura and every part below your head is tinted red\n- Increases Walkspeed by 1.5x\n- Increases Jump Power by 1.25x\n- Effect lasts up to 4 minutes unless the player hits below / equals to 5% of their Max HP.\n\nIf the player is below 5% of their Max HP when consuming this, the effect immediately ends.|![120x120](/bussim-assets/images/items/sushi/spicy-catfish-uramaki.webp)|
+ 
+ \n
+ ###[Makis] 
+ | Name | Class | Description | Effects | Image |
+ |------|-------|-------------|---------|-------|
+ | Healthy Maki | Normal | Roll filled with avocado, carrot, and cucumber; it sounds pretty healthy. | Nothing |![120x120](/bussim-assets/images/items/sushi/healthy-maki.webp)|
+ | Unique Maki | Normal | A unique roll containing carrot, cucumber, fish cake, ham, and egg. | Nothing |![120x120](/bussim-assets/images/items/sushi/unique-maki.webp)|
+ | Burrito Maki | Normal | A tiny burrito with ground beef, lettuce, and some fresh cherry tomatoes. | Nothing |![120x120](/bussim-assets/images/items/sushi/burrito-maki.webp)|
+ 
+ \n 
+ ###[Nigiris]
+ | Name | Class | Description | Effects | Image |
+ |------|-------|-------------|---------|-------|
+ | Hamachi Nigiri | <clr:#9CFF9C>(Heal) | A Hamachi slice lays on the mattress of rice | <clr:#9CFF9C>(Heals up to 5 HP) |![120x120](/bussim-assets/images/items/sushi/hamachi-nigiri.webp)|
+ | Alaskan Salmon Nigiri | <clr:#9CFF9C>(Heal) | Wild-Caught Alaskan Salmon, sliced perfectly on a bed of rice. | <clr:#9CFF9C>(Heals up to 5 HP) |![120x120](/bussim-assets/images/items/sushi/alaskan-salmon-nigiri.webp)|
+ | Bluefin Tuna Nigiri | <clr:#9CFF9C>(Heal) | A deep red Bluefin Tuna slice sitting on a couch of rice | <clr:#9CFF9C>(Heals up to 5 HP) |![120x120](/bussim-assets/images/items/sushi/bluefin-tuna-nigiri.webp)|
+ 
+ \n 
+ ###[Temakis]
+ | Name | Class | Description | Effects | Image |
+ |------|-------|-------------|---------|-------|
+ | Poultry-Cucumber Temaki | <clr:#9CFF9C>(Heal) | Poultry marinated with sauce alongside sliced cucumber. | <clr:#9CFF9C>(Heals up to 10 HP) |![120x120](/bussim-assets/images/items/sushi/poultry-cucumber-temaki.webp)|
+
+ \n
+ ###[Gunkans]
+ | Name | Class | Description | Effects | Image |
+ |------|-------|-------------|---------|-------|
+ | Roe Gunkan | Normal | Extremely large roe sits ontop of rice while wrapped in nori. | Nothing |![120x120](/bussim-assets/images/items/sushi/roe-kura.webp)|
+ \n
+ ##[Trivia]
+ - e
