@@ -1,32 +1,32 @@
-editable: True
+editable: true
 page:
   title: NobleReign
   description: NPCDescription
-    
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npc
-  
+
   tags: noble, noblereign, npc
 
   header:
     title: NobleReign
     description: |
       Category: [NPCs](npcs)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/banners/nobles-house-banner.webp
 
 attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical)
 
-content: |
+content: |-
   ##[Info]
   NobleReign is an NPC in Bus Simulator. He is also the creator of Bus Simulator.
 
   ##[Dialogue]
   There is currently no available emulator for NobleReign.
 
-  - "OAH!..... *sigh* this happens every Wednesday, it's not my fault that they built this house on a highway...feel free to explore, while my bank account sobs in pain."
+  - "WOAH!..... *sigh* this happens every Wednesday, it's not my fault that they built this house on a highway...feel free to explore, while my bank account sobs in pain."
     - <small>(After some time, and the event ends)</small>
       - "Just.. feel free to go through the other wall.. *long, defeated sigh*"
 
