@@ -1,0 +1,34 @@
+editable: True
+page:
+  title: 10 Million Event
+  description: The 10 Million Event is a passive event that happened from October 15, 2020 to November 1st, 2020. During this event, you'll be granted a spin when you first enter the game, with items and a badge with various rarities and a re-roll for the cost of 15 Passenger Reputation.
+  
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, 10 million event
+
+  header:
+    title: New Years
+    description: |
+      Category: [Others](others)
+    image: ''
+    imageBanner: /assets/bussim/images/banners/10-million-event.webp
+
+attributions:
+  - "Created By FangedWerewolf (@noobbiom)"
+
+content: |
+  ##[Info]
+  "Thank you all so much for 10 million visits! To celebrate, anyone who logs in during the event will be entitled to ONE FREE PERMANENT ITEM! It costs 15 passenger rep to re-roll, so cross your fingers and hope you get a Legendary!" -"10 Million Event"
+  The 10 Million Event is a passive event that happened from October 15, 2020 to November 1st, 2020. During this event, you'll be granted a spin when you first enter the game, with items and a badge with various rarities and a re-roll for the cost of 15 [Passenger Reputation](reputation). There was also optionally a button to skip the animation and a command to reroll, being !reroll.
+  \n\n
+  The following rewards and rarities are of the following:
+  \n
+  | Reward | Rarity | Image |
+  |--------|--------|-------|
+  | [10M Cola](10-million-cola) | Common | /assets/bussim/images/others/10-million-rarities/cola-rarity.webp |
+  | [Party Popper](party-popper) | Common | /assets/bussim/images/others/10-million-rarities/party-popper-rarity.webp |
+  | [Useless Badge](https://www.roblox.com/badges/2124622089/10-Million-Visits-Badge) | Common | /assets/bussim/images/others/10-million-rarities/useless-badge-rarity.webp |
+  | [Popsicle](popsicle) | Uncommon | /assets/bussim/images/others/10-million-rarities/popsicle-rarity.webp |
+  | [Starter Box](starter-box) | Uncommon | /assets/bussim/images/others/10-million-rarities/starter-box-rarity.webp |
+  | [Hoverboots](hoverboots) | Legendary | /assets/bussim/images/others/10-million-rarities/hoverboots-rarity.webp |
+  \n
+  !!GALLERY [/bussim-assets/images/banners/10-million-event.webp]
