@@ -10,7 +10,7 @@ page:
     description: |
       Category: [Others](others)
     image: ''
-    imageBanner: /assets/bussim/images/others/10-million-event.webp
+    imageBanner: /assets/bussim/images/others/10-million-event/10-million-banner.webp
 
 attributions:
   - "Created By FangedWerewolf (@noobbiom)"
@@ -24,11 +24,11 @@ content: |
   \n
   | Reward | Rarity | Image |
   |--------|--------|-------|
-  | [10M Cola](10-million-cola) | Common | /assets/bussim/images/others/10-million-rarities/cola-rarity.webp |
-  | [Party Popper](party-popper) | Common | /assets/bussim/images/others/10-million-rarities/party-popper-rarity.webp |
-  | [Useless Badge](https://www.roblox.com/badges/2124622089/10-Million-Visits-Badge) | Common | /assets/bussim/images/others/10-million-rarities/useless-badge-rarity.webp |
-  | [Popsicle](popsicle) | Uncommon | /assets/bussim/images/others/10-million-rarities/popsicle-rarity.webp |
-  | [Starter Box](starter-box) | Uncommon | /assets/bussim/images/others/10-million-rarities/starter-box-rarity.webp |
-  | [Hoverboots](hoverboots) | Legendary | /assets/bussim/images/others/10-million-rarities/hoverboots-rarity.webp |
+  | [10M Cola](10-million-cola) | Common | /assets/bussim/images/others/10-million-event/cola-rarity.webp |
+  | [Party Popper](party-popper) | Common | /assets/bussim/images/others/10-million-event/party-popper-rarity.webp |
+  | [Useless Badge](https://www.roblox.com/badges/2124622089/10-Million-Visits-Badge) | Common | /assets/bussim/images/others/10-million-event/useless-badge-rarity.webp |
+  | [Popsicle](popsicle) | Uncommon | /assets/bussim/images/others/10-million-event/popsicle-rarity.webp |
+  | [Starter Box](starter-box) | Uncommon | /assets/bussim/images/others/10-million-event/starter-box-rarity.webp |
+  | [Hoverboots](hoverboots) | Legendary | /assets/bussim/images/others/10-million-event/hoverboots-rarity.webp |
   \n
-  !!GALLERY [/bussim-assets/images/others/10-million-event.webp]
+  !!GALLERY [/bussim-assets/images/others/10-million-event/10-million-banner.webp|/bussim-assets/images/others/10-million-event/win.webp ]
