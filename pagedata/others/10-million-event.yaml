@@ -29,11 +29,11 @@ content: |
   \n
   | Reward | Rarity | Image |
   |--------|--------|-------|
-  | [10M Cola](10-million-cola) | Common | ![120xq20](/bussim-assets/images/others/10-million-event/cola-rarity.webp) |
-  | [Party Popper](party-popper) | Common | ![120x120](/bussim-assets/images/others/10-million-event/party-popper-rarity.webp) |
-  | [Useless Badge](https://www.roblox.com/badges/2124622089/10-Million-Visits-Badge) | Common | ![120x120](/bussim-assets/images/others/10-million-event/useless-badge-rarity.webp) |
-  | [Popsicle](popsicle) | Uncommon | ![120x120](/bussim-assets/images/others/10-million-event/popsicle-rarity.webp) |
-  | [Starter Box](starter-box) | Uncommon | ![120x120](/bussim-assets/images/others/10-million-event/starter-box-rarity.webp) |
-  | [Hoverboots](hoverboots) | Legendary | ![120x120](/bussim-assets/images/others/10-million-event/hoverboots-rarity.webp) |
+  | [10M Cola](10-million-cola) | Common | ![120xauto](/bussim-assets/images/others/10-million-event/cola-rarity.webp) |
+  | [Party Popper](party-popper) | Common | ![120xauto](/bussim-assets/images/others/10-million-event/party-popper-rarity.webp) |
+  | [Useless Badge](https://www.roblox.com/badges/2124622089/10-Million-Visits-Badge) | Common | ![120xauto](/bussim-assets/images/others/10-million-event/useless-badge-rarity.webp) |
+  | [Popsicle](popsicle) | Uncommon | ![120xauto](/bussim-assets/images/others/10-million-event/popsicle-rarity.webp) |
+  | [Starter Box](starter-box) | Uncommon | ![120xauto](/bussim-assets/images/others/10-million-event/starter-box-rarity.webp) |
+  | [Hoverboots](hoverboots) | Legendary | ![120xauto](/bussim-assets/images/others/10-million-event/hoverboots-rarity.webp) |
   \n
   !!GALLERY [/bussim-assets/images/others/10-million-event/10-million-banner.webp|/bussim-assets/images/others/10-million-event/win.webp ]
