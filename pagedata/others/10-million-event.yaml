@@ -10,7 +10,7 @@ page:
     description: |
       Category: [Others](others)
     image: ''
-    imageBanner: /assets/bussim/images/banners/10-million-event.webp
+    imageBanner: /assets/bussim/images/others/10-million-event.webp
 
 attributions:
   - "Created By FangedWerewolf (@noobbiom)"
@@ -31,4 +31,4 @@ content: |
   | [Starter Box](starter-box) | Uncommon | /assets/bussim/images/others/10-million-rarities/starter-box-rarity.webp |
   | [Hoverboots](hoverboots) | Legendary | /assets/bussim/images/others/10-million-rarities/hoverboots-rarity.webp |
   \n
-  !!GALLERY [/bussim-assets/images/banners/10-million-event.webp]
+  !!GALLERY [/bussim-assets/images/others/10-million-event.webp]
