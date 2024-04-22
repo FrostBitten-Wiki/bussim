@@ -40,9 +40,10 @@ content: |
  ###[Makis] 
  | Name | Class | Description | Effects | Image |
  |------|-------|-------------|---------|-------|
+ | Burrito Maki | <clr:#33DDFF>(Double Jump) | A tiny burrito with ground beef, lettuce, and some fresh cherry tomatoes. | <clr:#33DDFF>(Allows you to double jump by double-tapping your jump button, with the second jump being much weaker than the first.) |![120x120](/bussim-assets/images/items/sushi/burrito-maki.webp)|
  | Healthy Maki | Normal | Roll filled with avocado, carrot, and cucumber; it sounds pretty healthy. | Nothing |![120x120](/bussim-assets/images/items/sushi/healthy-maki.webp)|
  | Unique Maki | Normal | A unique roll containing carrot, cucumber, fish cake, ham, and egg. | Nothing |![120x120](/bussim-assets/images/items/sushi/unique-maki.webp)|
- | Burrito Maki | Normal | A tiny burrito with ground beef, lettuce, and some fresh cherry tomatoes. | Nothing |![120x120](/bussim-assets/images/items/sushi/burrito-maki.webp)|
+ 
  
  \n 
  ###[Nigiris]
@@ -66,3 +67,4 @@ content: |
  \n
  ##[Trivia]
   - This is the only non-permanent item that you can spend [Passenger Reputation](reputation) on. 
+  !!GALLERY [/assets/bussim/images/items/sushi/burrito-sushi-demonstration.webp]
