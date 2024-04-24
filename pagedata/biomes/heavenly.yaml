@@ -13,7 +13,7 @@ page:
       Category: [Biomes](biomes)
     
     image: ""
-    imageBanner: /assets/bussim/images/biomes/yheavenly.webp
+    imageBanner: /assets/bussim/images/biomes/heavenly.webp
 
 attributions: 
   - Converted to Jinki Markdown by Nyx (@nyxical)
@@ -21,8 +21,5 @@ attributions:
 content: |
   ##[Info]
   Heavenly is a biome submitted by 9n (@9n25). It is composed to pale yellow grass, coupled with buildings, flora, and a bright atmosphere.
-
-  ##[Trivia]
-  - In an event where [The Bus](the-bus) stops, you used be able to find that most of the props in this biome were collidable, and that included the butterflies.
   
   !!GALLERY [/assets/bussim/images/biomes/heavenly.webp]
