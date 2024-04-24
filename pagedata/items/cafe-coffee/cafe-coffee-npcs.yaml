@@ -47,9 +47,12 @@ content: |-
   |[Steven_Scripts](steven)|Steven Ride|Mango Juice|6| 
   |[Tazer](tazer)|Cafe|Cup of Glowstick Fluid|3| 
   |[Zeon](zeon)|Goat Station / Cafe|Strawberry Smoothie|1|
+  |[Foxman](foxman)|Cafe|Apple Juice|1|
   \n
   You can also give the NPCs other drinks outside of their favored drink, however will either deny or try it out; taking it from your inventory.
   \n 
   You can also give them ***The Sludge.*** Although most would deny it, someone who is unfortunate enough might disregard it...
   ##[Trivia]
   - The Cup of Glowstick Fluid and the Glowstick Fluid ingredient are normally inaccessible, but become unlocked after you give Tazer the wrong drink and receiving his riddle.
+  - Foxman is the only NPC that dies throughout the event of its appearance if fed the Sludge.
+    - efeuc similarly dies as well if fed the Sludge, however respawns once nobody is in the [Void Box](void-box).
