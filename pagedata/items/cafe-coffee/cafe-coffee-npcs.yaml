@@ -1,7 +1,8 @@
-editable: True
+editable: true
 page:
   title: Coffee (Cafe)
-  description: This page is about the various types of coffee and ingredients you can make and use during the Cafe event.
+  description: This page is about the various types of coffee and ingredients you
+    can make and use during the Cafe event.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, cafe
 
@@ -12,43 +13,43 @@ page:
     title: Coffee (Cafe)
     description: |
       Category: [Items](items)
-    image: "/bussim-assets/images/items/cafecoffee.webp"
+    image: /bussim-assets/images/items/cafecoffee.webp
     imageBanner: /assets/bussim/images/items/cafecoffee.webp
-    
+
 attributions:
   - Created by FangedWerewolf (@noobbiom)
 
-content: |
- "A barista's empty canvas." -"Empty Cup"
- ##[Info]
- The Coffee from the [Cafe](events/cafe) Event is a customizable drink used with ingredients given to the player at any moment when interacting with the Coffee Machine, and is used to either give to NPCs or to drink from.
- \n\n
- When making one, the player will go into a focus-mode state, being able to pick any ingredients and measure them out carefully. Recipes are also provided on the left, with all of the specific ingredients needed to make a drink.
- \n\n
- While you do not need to be extremely accurate, as long as you have the appropriate ingredients; it'll blend into the drink that you want. 
- !!BUTTONS [Ingredients,location.href='cafe-coffee'|Recipes / Mixtures,location.href='cafe-coffee-recipes'|<highlight>NPC Interactions</highlight>,location.href='']
- ##[NPC Interactions]
- "That cafe does delivery? I don't remember ordering this.. but thanks." -"Zeon (Goat Station)"
- You're also able to give any type of coffee to the majority of the NPCs in the game, and it's also crucial to the Cafe's main mechanic where you give them to your [Customers](customers), with multiple interactions and even rewards as a result.
- The following are NPCs that can be gifted outside of [Customers](customers) and their favorite drinks. Do note, that the rewards are randomized to either [Passenger or Driver Reputation](reputation). And are claimable once every few hours.
- \n\n
- | Name | Location | Favorite Drink | Rewards |
- |------|-------------|--------|
- |[Charlotte](charlotte)|Cafe|Hot Chocolate|1| 
- |[D6](d6)|Cafe|***The Sludge.*** |4|
- |[Disc](disc)|Goat Station|Vanilla Iced Coffee|2|
- |[Ectta](ectta)|Question Time|Communion Coffee|6|
- |[Efeuc](efeuc)|The Void Room|'Decaf'|1| 
- |[Frost](frostbite)|Glacier Cave|The Blizzard|2| 
- |[MLG](mlg)|Cafe|Pumpkin Spice Mocha|1| 
- |[Pear](pear)|The Bus|Vanilla Almond Milk|1| 
- |[Red](red)|Bloxdonalds|Strawberry Smoothie|1| 
- |[Steven_Scripts](steven)|Steven Ride|Mango Juice|6| 
- |[Tazer](tazer)|Cafe|Cup of Glowstick Fluid|3| 
- |[Zeon](zeon)|Goat Station / Cafe|Strawberry Smoothie|1|
- \n
- You can also give the NPCs other drinks outside of their favored drink, however will either deny or try it out; taking it from your inventory.
- \n 
- You can also give them ***The Sludge.*** Although most would deny it, someone who is unfortunate enough might disregard it...
- ##[Trivia]
- - The Cup of Glowstick Fluid and the Glowstick Fluid ingredient are normally inaccessible, but become unlocked after you give Tazer the wrong drink and receiving his riddle.
+content: |-
+  "A barista's empty canvas." -"Empty Cup"
+  ##[Info]
+  The Coffee from the [Cafe](events/cafe) Event is a customizable drink used with ingredients given to the player at any moment when interacting with the Coffee Machine, and is used to either give to NPCs or to drink from.
+  \n\n
+  When making one, the player will go into a focus-mode state, being able to pick any ingredients and measure them out carefully. Recipes are also provided on the left, with all of the specific ingredients needed to make a drink.
+  \n\n
+  While you do not need to be extremely accurate, as long as you have the appropriate ingredients; it'll blend into the drink that you want. 
+  !!BUTTONS [Ingredients,location.href='cafe-coffee'|Recipes / Mixtures,location.href='cafe-coffee-recipes'|<highlight>NPC Interactions</highlight>,location.href='']
+  ##[NPC Interactions]
+  "That cafe does delivery? I don't remember ordering this.. but thanks." -"Zeon (Goat Station)"
+  You're also able to give any type of coffee to the majority of the NPCs in the game, and it's also crucial to the Cafe's main mechanic where you give them to your [Customers](customers), with multiple interactions and even rewards as a result.
+  The following are NPCs that can be gifted outside of [Customers](customers) and their favorite drinks. Do note, that the rewards are randomized to either [Passenger or Driver Reputation](reputation). And are claimable once every few hours.
+  \n\n
+  | Name | Location | Favorite Drink | Rewards |
+  |------|-------------|--------|
+  |[Charlotte](charlotte)|Cafe|Hot Chocolate|1| 
+  |[D6](d6)|Cafe|***The Sludge.*** |4|
+  |[Disc](disc)|Goat Station|Vanilla Iced Coffee|4|
+  |[Ectta](ectta)|Question Time|Communion Coffee|6|
+  |[Efeuc](efeuc)|The Void Room|'Decaf'|1| 
+  |[Frost](frostbite)|Glacier Cave|The Blizzard|2| 
+  |[MLG](mlg)|Cafe|Pumpkin Spice Mocha|1| 
+  |[Pear](pear)|The Bus|Vanilla Almond Milk|1| 
+  |[Red](red)|Bloxdonalds|Strawberry Smoothie|1| 
+  |[Steven_Scripts](steven)|Steven Ride|Mango Juice|6| 
+  |[Tazer](tazer)|Cafe|Cup of Glowstick Fluid|3| 
+  |[Zeon](zeon)|Goat Station / Cafe|Strawberry Smoothie|1|
+  \n
+  You can also give the NPCs other drinks outside of their favored drink, however will either deny or try it out; taking it from your inventory.
+  \n 
+  You can also give them ***The Sludge.*** Although most would deny it, someone who is unfortunate enough might disregard it...
+  ##[Trivia]
+  - The Cup of Glowstick Fluid and the Glowstick Fluid ingredient are normally inaccessible, but become unlocked after you give Tazer the wrong drink and receiving his riddle.
