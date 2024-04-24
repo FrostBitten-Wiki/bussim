@@ -20,6 +20,7 @@ page:
 
 attributions: []
 content: |
+  !!BUTTONS [<highlight>The Backwalls</highlight>,location.href=''|The Red Zone,location.href='danger-backwalls'|Bloxdonalds?,location.href='bloxdonalds-backwalls']
   ##[Info]
   The Backwalls is a rare event where a person mentions about the bus having a few hiccups or something isn't feeling right. 
   Afterwards all players <small>(assuming they are not in Frost's Den)</small> are then teleported into the Backwalls.
@@ -60,6 +61,20 @@ content: |
   Another thing to note is that while you won't be able to know what events are happening while you are inside, you are completely immune to all events, this includes Flash Flood, Lava Floor, Acid Rain, Blizzard, and more. Although it's more unintentional and not recommended.
   \n\n
   The exit in the Backwalls is an open hole in the wall with a ladder and with a green light in the ceiling.
+
+  ##[The Red Zone of the Backwalls]
+  
+
+
+  ##[The Beneficial Areas of the Backwalls]
+  Occassionally, you may find areas that you don't expect to find in the Backwalls, namely locations that seem oddly familiar. You may even find a familiar face!.. A tired face that is.
+  \n 
+  ###[Bloxdonalds?]
+  The Bloxdonalds? area is an area found within the Backwalls, handled by [Red](red) again. Upon asking him again, he will state that their menu has changed to accomodate the new enviroment, allowing you to manually choose any item for the rest of your trip. The following items are:
+  - [Almond Water](almond-water)
+  - [Liquid Void](liquid-void)
+  - [Void Burger](void-burger)
+  - [Or something else?](map)
 
   ##[After the Event]
   Once you have escaped with [Almond Water](almond-water) or [Liquid Void](liquid-void), you have a 33% / 20% chance respectively in any server public or private, to permanently obtain them in your inventory outside of the event. You can also always get the [Popcorn Bucket](popcorn-bucket) if you carry it with you to the end.

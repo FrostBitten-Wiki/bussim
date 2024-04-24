@@ -1,0 +1,42 @@
+editable: True
+page:
+  title: Void Burger
+  description: The Void Burger is uh.. uh...
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: black soda, mmm yummy black soda, what does it contain? void?, liquid void
+
+  header:
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/items/void-burger.webp
+
+attributions: 
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
+
+content: |
+  "This is the most upsetting burger you have ever had the displeasure of holding." -"Void Burger"
+
+  ##[Info]
+  Liquid Void is an item obtainable from random floor spawns in the [Backwalls Event](backwalls), when used you will turn invisible for 20 seconds, then start flashing in an out until finally turning opaque again.
+  \n
+  However, if used less than 20 seconds after the effects are over, you will instead be killed. 
+  \n\n
+  Despite the invisibility however, it won't make you immune to [Entities](entities) especially if angered, but it does allow you to make safer escapes if you successfully get away from them. 
+  \n\n
+  "Through a stroke of luck, your Liquid Void has come to you into the real world.." -"Liquid Void (Permanent Acquisition)"
+  
+  If you do however manage to escape the [Backwalls](backwalls) with the item in your inventory, you will have a 20% chance (formerly 4%) to bring it back to the real world, and getting it permanently.
+  \n\n 
+  This doesn't have many practical uses outside of the [Backwalls Event](backwalls), but it's a good item to start off when the event does happen. 
+  
+  ##[Trivia]
+  - This item has black effects around it, although it may be hard to notice visibly.
+  - This item originally used to have a 4% chance to be able to get it permanently, as Noble thought the chances were fair and achievable. 
+    - This was then later changed to 20% after a mini-update following Bus Simulator's 5th Birthday.
+  - Despite the Liquid Void being a very helpful tool especially in events related to the stealth mechanic with its invisibility, you cannot carry it to both [No Dough](no-dough) and [Santa's Gone](santas-gone), making its usage only limited in a few events. 
+    - It is however, applicable to the Billies in the [Billy Event](billy), oddly enough.
+  !!GALLERY [/assets/bussim/images/items/liquid-void.webp]

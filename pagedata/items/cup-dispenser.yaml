@@ -1,0 +1,34 @@
+editable: true
+page:
+  title: Cup Dispenser
+  description: The Cup Dispenser is a gamepass item that allows you to create your own coffee drinks and give them to others (even players) on-the-go!
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+
+  tags: magic mirror, shimy mirror, mirror, magic. frost den, teleport item
+
+  header:
+    description: |
+      Category: [Items](items)
+
+    image: ''
+    imageBanner: /assets/bussim/images/items/cup-dispenser.webp
+
+attributions:
+  - early port lets go
+
+content: |
+  "Coffee Cups on the go." -"Cup Dispenser"
+
+  ##[Info]
+  The Cup Dispenser is a gamepass item that allows you to create your own [coffee drinks](cafe-coffee) and give them to others (even players) on-the-go. When activated, it'll dispense an Empty Cup which does nothing, but interacting with that Empty Cup will allow you to create any drinks similar to the [Cafe Event](cafe).
+  \n\n 
+  It's currently available for purchase as a gamepass, for 450 R$.
+  \n\n 
+  Its appearance is similar of that to the cup tray back at the [Cafe Event](cafe), but as a holdable item.
+
+  ##[Trivia]
+  - Its expensiveness is likely attributed to how you can still fufill orders from [NPCs](npcs) using the dispenser, effectively making this a reliable generator for [Reputation](reputation).
+  - If you attempt to give a drink to someone who already has 3 cafe coffee drinks, a pop-up will appear saying that they can't hold anymore drinks.
+
+  !!GALLERY [/assets/bussim/images/items/cup-dispenser.webp]
