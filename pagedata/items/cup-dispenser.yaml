@@ -21,7 +21,7 @@ content: |
   "Coffee Cups on the go." -"Cup Dispenser"
 
   ##[Info]
-  The Cup Dispenser is a gamepass item that allows you to create your own [coffee drinks](cafe-coffee) and give them to others (even players) on-the-go. When activated, it'll dispense an Empty Cup with a minute cooldown, but interacting with the Empty Cup will allow you to create any drinks similar to the [Cafe Event](cafe).
+  The Cup Dispenser is a gamepass item that allows you to create your own [coffee drinks](cafe-coffee) and give them to others (even players) on-the-go. When activated, it'll dispense an Empty Cup for up to 3 times, with a minute cooldown on the last one. Interacting with the Empty Cups will allow you to create any drinks similar to the [Cafe Event](cafe).
   \n\n 
   It's currently available for purchase as a gamepass, for 450 R$.
   \n\n 
