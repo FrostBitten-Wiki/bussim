@@ -37,7 +37,7 @@ content: |
   ##[Draw Tool]
   The draw tool is the 2nd button when holding the Marker, when clicked on you'll enter Drawing Mode: where you'll be able to draw lines with different colors* almost anywhere in the game. 
   \n\n 
-  There are 4 free colors to use, being Red, Green, Blue, and Black with Black as default. There's also two other features being Glow in the Dark and Custom Colors, however are both locked by their own respective gamepasses. 
+  There are 4 free colors to use, being Red, Green, Blue, and Black with Black as default. It also shows your most recent colors chosen, for up to 7 colors at a time. There's also two other features being Glow in the Dark and Custom Colors, however are both locked by their own respective gamepasses. 
   \n\n 
   The Glow in the Dark gamepass is as you'd expect, making it glow regardless of lighting; costing only 50 R$. *Likewise, the Custom Colors gamepass allows you to make any other color aside from the 4 using both a selectable color wheel as well as 6 values (being RGB and HSV) and a brightness slider to use specific colors, only costing 65 R$. 
   \n\n 
