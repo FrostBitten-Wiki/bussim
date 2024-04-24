@@ -19,7 +19,7 @@ page:
 
 attributions: []
 content: |
-  !!BUTTONS [The Backwalls,location.href='backwalls'|The Red Zone,location.href='danger-backwalls'|<highlight>Bloxdonalds?</highlight>,location.href='bloxdonalds-backwalls']
+  !!BUTTONS [The Backwalls,location.href='backwalls'|The Dangerous Backwalls,location.href='danger-backwalls'|<highlight>Bloxdonalds?</highlight>,location.href='']
   ##[Info]
   "Welcome to Bloxdonalds, if you thought it was bad normally, you haven't seen this." -"Red"
   The Bloxdonalds area is an area found within the Backwalls, handled by [Red](red). Upon asking him again, he will state that their menu has changed to accomodate the new enviroment, allowing you to manually choose any item for the rest of your trip. The following items are:

@@ -21,7 +21,7 @@ page:
 
 attributions: []
 content: |
-  !!BUTTONS [<highlight>The Backwalls</highlight>,location.href=''|The Red Zone,location.href='danger-backwalls'|Bloxdonalds?,location.href='bloxdonalds-backwalls']
+  !!BUTTONS [The Backwalls,location.href='backwalls'|<highlight>The Dangerous Backwalls</highlight>,location.href=''|Bloxdonalds?,location.href='bloxdonalds-backwalls']
   ##[Info]
   This definitely isn't a good place to be in. This section of the Backwalls is lit up with red lights and [Entities](entities) in this area are much more aggressive, being much faster at catching up victims.
 

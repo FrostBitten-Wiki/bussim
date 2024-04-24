@@ -20,7 +20,7 @@ page:
 
 attributions: []
 content: |
-  !!BUTTONS [<highlight>The Backwalls</highlight>,location.href=''|The Red Zone,location.href='danger-backwalls'|Bloxdonalds?,location.href='bloxdonalds-backwalls']
+  !!BUTTONS [<highlight>The Backwalls</highlight>,location.href=''|The Dangerous Backwalls,location.href='danger-backwalls'|Bloxdonalds?,location.href='bloxdonalds-backwalls']
   ##[Info]
   The Backwalls is a rare event where a person mentions about the bus having a few hiccups or something isn't feeling right. 
   Afterwards all players <small>(assuming they are not in Frost's Den)</small> are then teleported into the Backwalls.
@@ -62,19 +62,22 @@ content: |
   \n\n
   The exit in the Backwalls is an open hole in the wall with a ladder and with a green light in the ceiling.
 
-  ##[The Red Zone of the Backwalls]
-  
-
-
-  ##[The Beneficial Areas of the Backwalls]
-  Occassionally, you may find areas that you don't expect to find in the Backwalls, namely locations that seem oddly familiar. You may even find a familiar face!.. A tired face that is.
+  ##[The Areas of the Backwalls]
+  Occassionally, you may find areas that you don't expect to find in the Backwalls, namely locations that seem oddly familiar, yet not at the same time.
+  \n
+  ###[The Ballpit]
+  The Ballpit is a single room that contains a pit, with balls. Jumping into the pit will move any balls in contact and makes a sound. Despite this, it does create immense lag. It is recommended you avoid this room unless you have to hide from [Entities](entities) if you want to spare your low-end devices. 
+  \n\n 
+  Do note that hiding from Entities will not work if you aggrovate them while inside the pit. They can get in too.
   \n 
-  ###[Bloxdonalds?]
-  The Bloxdonalds? area is an area found within the Backwalls, handled by [Red](red) again. Upon asking him again, he will state that their menu has changed to accomodate the new enviroment, allowing you to manually choose any item for the rest of your trip. The following items are:
-  - [Almond Water](almond-water)
-  - [Liquid Void](liquid-void)
-  - [Void Burger](void-burger)
-  - [Or something else?](map)
+  ###[The Void Pits]
+  The Void Pits is a large room that is mainly composed of holes arranged in a pattern. Each of them works the same as the void walls you encounter throughout your journey, teleporting you into a random spot once you go in.
+  \n 
+  ###[Broken Elevator]
+  The Broken Elevator is a small room that is about an elevator broken down within the walls of the Backwalls. It can't be interacted with. 
+  \n 
+  ###[The Maze]
+  The Maze is a very large room that is composed of walls with varying heights, twists, turns and offsets, potentially confusing players and steering them off track. It is best to carry a [Marker](marker) for this scenario.
 
   ##[After the Event]
   Once you have escaped with [Almond Water](almond-water) or [Liquid Void](liquid-void), you have a 33% / 20% chance respectively in any server public or private, to permanently obtain them in your inventory outside of the event. You can also always get the [Popcorn Bucket](popcorn-bucket) if you carry it with you to the end.
@@ -110,4 +113,4 @@ content: |
     - The map generates by branching itself from a "Start" model, with the base of it residing at x: -6000, y: 4500, and z: 1500.
   - If you enter the Backwalls using abnormal methods <small>(Teleporting using [Edit](editQQ) or with the help of an admin, or getting spotted by Pear or an Entity)</small>, you'll be able to keep all of your items, however will still be inflicted with the same effect one would have.
 
-  !!GALLERY [/assets/bussim/images/events/backwalls.webp]
+  !!GALLERY [/assets/bussim/images/events/backwalls.webp|/assets/bussim/images/banners/void-pits-backwalls.webp|/assets/bussim/images/bannersballpit-backwalls.webp]
