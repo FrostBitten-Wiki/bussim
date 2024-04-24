@@ -122,7 +122,7 @@ content: |
   ###[Nameplates & Tags]
   **!togglepd & !setheart** are the two commands that currently alter chat tags, and **!region** is the only command that can customize your nameplate.
   \n\n 
-  **!setrole** - Allows you to set any of your role tags. Goes from highest ranking to lowest and allows highest available to be selected.
+  **!setrole** - Allows you to set any of your role tags. Goes from highest ranking to lowest and allows highest available to be selected. Does not let you select tags that you haven't unlocked but have surpassed.
   \n\n
   **!setheart** - Allows you to choose a heart to display next to your name, comes in many varieties, ending at the Numbers Heart, at 50,000 Driver Reputation.
   \n\n 
