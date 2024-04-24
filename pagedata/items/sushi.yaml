@@ -40,7 +40,7 @@ content: |
  ###[Makis] 
  | Name | Class | Description | Effects | Image |
  |------|-------|-------------|---------|-------|
- | Burrito Maki\n\n<clr:#4DC3FF>([Double Jump]) | <clr:#4DC3FF>(Double Jump) | A tiny burrito with ground beef, lettuce, and some fresh cherry tomatoes.\n\n<clr:#4DC3FF>("I kinda feel floaty...")  | <clr:#4DC3FF>(Allows you to double jump by double-tapping your jump button, with the second jump being much weaker than the first.) |![120x120](/bussim-assets/images/items/sushi/burrito-maki.webp)|
+ | Burrito Maki\n\n<clr:#B3E5FF>([Double Jump]) | <clr:#B3E5FF>(Double Jump) | A tiny burrito with ground beef, lettuce, and some fresh cherry tomatoes.\n\n<clr:#B3E5FF>("I kinda feel floaty...")  | <clr:#B3E5FF>(Allows you to double jump by double-tapping your jump button, with the second jump being much weaker than the first.) |![120x120](/bussim-assets/images/items/sushi/burrito-maki.webp)|
  | Healthy Maki | Normal | Roll filled with avocado, carrot, and cucumber; it sounds pretty healthy. | Nothing |![120x120](/bussim-assets/images/items/sushi/healthy-maki.webp)|
  | Unique Maki | Normal | A unique roll containing carrot, cucumber, fish cake, ham, and egg. | Nothing |![120x120](/bussim-assets/images/items/sushi/unique-maki.webp)|
  
