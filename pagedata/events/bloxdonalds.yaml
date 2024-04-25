@@ -35,7 +35,7 @@ content: |
 
   ##[Dialogue]
   - hg[Event]: "Woah! I think I see a Bloxdonalds in the distance!"
-    - hg[You]: "\*gasp\*"
+    - hg[You]: "*gasp*"
       - h[After some time has passed...]
         - hg[Event]: "I'm 99% sure there's something in these burgers.. Evacuate to the bus."
 
