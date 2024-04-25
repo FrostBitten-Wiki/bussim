@@ -61,7 +61,7 @@ content: |
   \n\n
   The exit in the Backwalls is an open hole in the wall with a ladder and with a green light in the ceiling.
 
-  ##[The Normal Areas of the Backwalls]
+  ##[The Areas of the Backwalls]
   Occassionally, you may find areas that you don't expect to find in the Backwalls, namely locations that seem oddly familiar, yet not at the same time. You may even find a familiar face!.. A tired face that is.
   \n
   ###[The Ballpit]
@@ -77,7 +77,7 @@ content: |
   \n 
   ###[The Maze]
   The Maze is a very large room that is composed of walls with varying heights, twists, turns and offsets, potentially confusing players and steering them off track. It is best to carry a [Marker](marker) for this scenario.
-  n
+  \n
   ###[Fake Exit]
   The Fake Exits is a room similar of that to the actual exit, only that the top lights are White instead of gGeen, and the exit panel is Yellow instead of White. Entering this will teleport you to any spot similar to the Void Pits and the Void Walls.
   \n 
