@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Void Burger
-  description: The Void Burger is uh.. uh...
+  description: The Void Burger is an item that can be bought from Red in the Backwalls Bloxdonalds for 2 Passenger Reputation or for free if you have no Passenger Reputation.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -20,23 +20,11 @@ attributions:
 content: |
   "This is the most upsetting burger you have ever had the displeasure of holding." -"Void Burger"
 
-  ##[Info]
-  Liquid Void is an item obtainable from random floor spawns in the [Backwalls Event](backwalls), when used you will turn invisible for 20 seconds, then start flashing in an out until finally turning opaque again.
+  ##[Info] 
+  The Void Burger is an item that can be bought from [Red](red) in the [Backwalls Bloxdonalds](bloxdonalds-backwalls) for [2 Passenger Reputation](reputation) or for free if you have no Passenger Reputation.
   \n
-  However, if used less than 20 seconds after the effects are over, you will instead be killed. 
-  \n\n
-  Despite the invisibility however, it won't make you immune to [Entities](entities) especially if angered, but it does allow you to make safer escapes if you successfully get away from them. 
-  \n\n
-  "Through a stroke of luck, your Liquid Void has come to you into the real world.." -"Liquid Void (Permanent Acquisition)"
-  
-  If you do however manage to escape the [Backwalls](backwalls) with the item in your inventory, you will have a 20% chance (formerly 4%) to bring it back to the real world, and getting it permanently.
-  \n\n 
-  This doesn't have many practical uses outside of the [Backwalls Event](backwalls), but it's a good item to start off when the event does happen. 
-  
+  When eaten, you recieve the same effects as one would when drinking [Liquid Void](liquid-void), but with it being only a one-time use. It also takes away 33 of your health but without inflicting nausea. This makes it effective for quick getaways if you cannot afford the liquid variant.
+
   ##[Trivia]
-  - This item has black effects around it, although it may be hard to notice visibly.
-  - This item originally used to have a 4% chance to be able to get it permanently, as Noble thought the chances were fair and achievable. 
-    - This was then later changed to 20% after a mini-update following Bus Simulator's 5th Birthday.
-  - Despite the Liquid Void being a very helpful tool especially in events related to the stealth mechanic with its invisibility, you cannot carry it to both [No Dough](no-dough) and [Santa's Gone](santas-gone), making its usage only limited in a few events. 
-    - It is however, applicable to the Billies in the [Billy Event](billy), oddly enough.
-  !!GALLERY [/assets/bussim/images/items/liquid-void.webp]
+  - This item unlike its [liquid version](liquid-void) is not permanent and will not carry over outside of the [Backwalls](backwalls).
+  !!GALLERY [/assets/bussim/images/items/void-burger.webp]

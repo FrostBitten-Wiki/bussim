@@ -103,12 +103,28 @@ content: |-
           - hg[Variant 3]: "take care,"
           - hg[Variant 4]: "bye"
 
+  ###[Drink Responses]
+  - If you give Efeuc the wrong drink:
+    - "thank u"
+  - If you give Efeuc (<clr:#151812>(***The Sludge.***):
+    - "is this coffee?"
+    - "..."
+        - Efeuc then turns into a gravestone with the following message: \nhere lies efeuc\n\nit wasn't coffee
+  - If you give Efeuc <clr:#FFF8E8>(***'Decaf'***):
+    - "thanks, appreciate it a lot, but how'd you know that's my favorite, huh?"
+    - "yeah, get outta here"
+      - If you given him another <clr:#FFF8E8>(***'Decaf'***):
+        - "thanks, appreciate it a lot, but how'd you know that's my favorite, huh?"
+        - "yeah, get outta here"
+
   ##[Trivia]
-  - This is one of the only two NPCs that can actually fling a player based on dialogue choices
+  - This is one of the only two NPCs that can actually fling a player based on dialogue choices.
     - The only other NPC that does that is [Tazer](tazer).
   - Efeuc is canonically the best driver in the Bus Simulator universe.
   - This is one of the few NPCs that doesn't get annoyed when you spam the Airhorn.
   - This is also perhaps the only NPC that is shown to take notice of your driver reputation, as having it higher than him will lead you to the first intro dialogue.
-
+  - Efeuc is wanted within [BloxDonalds](bloxdonalds) for making it lose an "irrecoverable h[12c] in losses". He is also meant to be detained on sight.
+  - He is one of the only few people who can actually die if fed the [Sludge](cafe-coffee). Turning into a gravestone after consuming it. 
+    - He does however respawn after a few minutes as long as nobody is within the [Void Box](void-box).
 
   !!GALLERY [/assets/bussim/images/npcs/efeuc.webp]  

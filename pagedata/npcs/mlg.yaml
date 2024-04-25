@@ -53,7 +53,36 @@ content: |-
   ##[Dialogue (Coffee Shop)]
   There is currently no available emulator for MLG's Coffee Shop dialogue.
 
+  ###[Drink Responses (Cafe)]
+  - If you give MLG the wrong drink:
+    - "What is this? A gift for me?"
+    - "..."
+    - "EW, what is in this thing?! Take it back, I don't want this nasty 'drink'."
+  - If you give MLG (<clr:#151812>(***The Sludge.***):
+    - "What is this? A gift for me?"
+    - "..." 
+    - "EW, what is in this thing?! Take it back, I don't want this nasty 'drink'."
+  - If you give MLG <clr:#E39254>(***Pumpkin Spice Mocha***):
+    - "Oh, for me? Thanks!"
+    - "..."
+    - "Mmmmm, that's soo gooooood. I love this place's Pumpkin Mochas, how'd you know? Thank you so much, buddy."
+      - If you given him another <clr:#E39254>(***Pumpkin Spice Mocha***):
+        - "Oh, for me? Thanks!"
+        - "..."
+        - "Mmmmm, that's soo gooooood. I love this place's Pumpkin Mochas, how'd you know? Thank you so much, buddy."
+  
+  ###[Drink Responses (Goat Station)]
+  - If you give MLG the wrong drink:
+    - No dialogue happens.
+  - If you give MLG (<clr:#151812>(***The Sludge.***):
+    - No dialogue happens.
+  - If you give MLG <clr:#E39254>(***Pumpkin Spice Mocha***):
+    - No dialogue happens, but you still get rewarded.
+      - If you given him another <clr:#E39254>(***Pumpkin Spice Mocha***):
+        - No dialogue happens.
+
   ##[Trivia]
   - MLG is one of the few NPCs that won't instantly kill you when annoyed, but gets real close to doing so.
+  - MLG used to work at [BloxDonalds](bloxdonalds) at one point, but had moved away as evidenced with the Bulletin Board within the [Backwalls version of BloxDonalds](bloxdonalds-backwalls).
 
   !!GALLERY [/assets/bussim/images/npcs/mlg.webp]  

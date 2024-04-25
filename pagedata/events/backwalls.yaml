@@ -20,7 +20,6 @@ page:
 
 attributions: []
 content: |
-  !!BUTTONS [<highlight>The Backwalls</highlight>,location.href=''|The Dangerous Backwalls,location.href='danger-backwalls'|Bloxdonalds?,location.href='bloxdonalds-backwalls']
   ##[Info]
   The Backwalls is a rare event where a person mentions about the bus having a few hiccups or something isn't feeling right. 
   Afterwards all players <small>(assuming they are not in Frost's Den)</small> are then teleported into the Backwalls.
@@ -62,11 +61,11 @@ content: |
   \n\n
   The exit in the Backwalls is an open hole in the wall with a ladder and with a green light in the ceiling.
 
-  ##[The Areas of the Backwalls]
-  Occassionally, you may find areas that you don't expect to find in the Backwalls, namely locations that seem oddly familiar, yet not at the same time.
+  ##[The Normal Areas of the Backwalls]
+  Occassionally, you may find areas that you don't expect to find in the Backwalls, namely locations that seem oddly familiar, yet not at the same time. You may even find a familiar face!.. A tired face that is.
   \n
   ###[The Ballpit]
-  The Ballpit is a single room that contains a pit, with balls. Jumping into the pit will move any balls in contact and makes a sound. Despite this, it does create immense lag. It is recommended you avoid this room unless you have to hide from [Entities](entities) if you want to spare your low-end devices. 
+  The Ballpit is a single room that contains a pit, with balls. Jumping into the pit will move any balls in contact and makes a sound. Despite this, it does create immense lag. It is recommended you avoid this room unless you have to hide from [Entities](entity) if you want to spare your low-end devices. 
   \n\n 
   Do note that hiding from Entities will not work if you aggrovate them while inside the pit. They can get in too.
   \n 
@@ -78,7 +77,18 @@ content: |
   \n 
   ###[The Maze]
   The Maze is a very large room that is composed of walls with varying heights, twists, turns and offsets, potentially confusing players and steering them off track. It is best to carry a [Marker](marker) for this scenario.
-
+  n
+  ###[Fake Exit]
+  The Fake Exits is a room similar of that to the actual exit, only that the top lights are White instead of gGeen, and the exit panel is Yellow instead of White. Entering this will teleport you to any spot similar to the Void Pits and the Void Walls.
+  \n 
+  ###[The Button]
+  The Button is a rare room that spawns a simple button on a pedestal in the middle of the room with a sticky note attached saying "DO NOT PRESS". Pressing it will turn all of the lights red. Although, nothing seems to change apart from decreased Void Puddle visibility.
+  \n 
+  ###[BloxDonalds]
+  Main Article: [Backwalls Bloxdonalds](bloxdonalds-backwalls)
+  \n\n
+  The Bloxdonalds is an that appears as a large room, with [Red](red) managing the area again. You can order various items in exchange for [Passenger Reputation](reputation) and more. [Pear](pear) will also often arrive here, standing by. 
+  \n
   ##[After the Event]
   Once you have escaped with [Almond Water](almond-water) or [Liquid Void](liquid-void), you have a 33% / 20% chance respectively in any server public or private, to permanently obtain them in your inventory outside of the event. You can also always get the [Popcorn Bucket](popcorn-bucket) if you carry it with you to the end.
   \n\n
@@ -102,7 +112,7 @@ content: |
 
   ##[Technical Trivia]
   - Using [Edit](edit), the model for the entire Backwalls layout is called Backwalls_Map and contains multiple rooms, junctions, as well as an exit as separate models, each with their own layout and all being editable.
-    - In one of the rooms / junctions, you may also find [Entities](entities), Furnitures, Puddles, and [Banana](banana) as their own models, presumably where they spawned.
+    - In one of the rooms / junctions, you may also find [Entities](entity), Furnitures, Puddles, and [Banana](banana) as their own models, presumably where they spawned.
       - Likewise, Almond Water and Liquid Void also spawn in rooms. Almond Water being named as AWatr_Obj, and Liquid Void as LVoid_Obj.
       - The Popcorn Machines also spawn here, with the normal being Popcorn Maker and the cursed being Cursed Popcorn Maker.
         - Within the popcorn machines come with a part named itcomeswithbutter, hinting that the [Popcorn Bucket](npcs) is already buttered.
@@ -113,4 +123,4 @@ content: |
     - The map generates by branching itself from a "Start" model, with the base of it residing at x: -6000, y: 4500, and z: 1500.
   - If you enter the Backwalls using abnormal methods <small>(Teleporting using [Edit](editQQ) or with the help of an admin, or getting spotted by Pear or an Entity)</small>, you'll be able to keep all of your items, however will still be inflicted with the same effect one would have.
 
-  !!GALLERY [/assets/bussim/images/events/backwalls.webp|/assets/bussim/images/banners/void-pits-backwalls.webp|/assets/bussim/images/bannersballpit-backwalls.webp]
+  !!GALLERY [/assets/bussim/images/events/backwalls.webp|/assets/bussim/images/banners/backwalls/void-pits-backwalls.webp|/assets/bussim/images/banners/backwalls/ballpit-backwalls.webp|/assets/bussim/images/banners/backwalls/fake-exit-backwalls.webp|/assets/bussim/images/banners/backwalls/the-red-backwalls.webp]

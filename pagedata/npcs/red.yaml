@@ -1,7 +1,7 @@
 editable: true
 page:
   title: Red
-  description: NPCDescription
+  description: RedNoob5050 (AKA Red) is an employee that works within various areas of BloxDonalds both in reality and out of reality. He also works as a developer in Kit Battle, one of NobleReign's games.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npc
 
@@ -18,19 +18,21 @@ page:
 attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical)
+  - Updated by FangedWerewolf (@noobbiom)
 
 content: |-
   ##[Info]
-  RedNoob5050 (AKA Red) is an employee as [Bloxdonalds](bloxdonalds) who gives you the Burger. He also works as a developer in [Kit Battle](https://gla.dog/kit-beta), one of NobleReign's games.
+  RedNoob5050 (AKA Red) is an employee that works within various areas of [BloxDonalds](bloxdonalds) both in reality and [out of reality](bloxdonalds-backwalls). He also works as a developer in [Kit Battle](https://gla.dog/kit-beta), one of NobleReign's games.
 
   ##[Favourite Drink]
   Red's favourite drink is [Strawberry Smoothie](cafe-coffee-recipes). This gives you either 1 Passenger Rep or 1 Driver Rep.
 
   ##[Dialogue]
+  ###[BloxDonalds]
   !!DLEMULATOR EID:"redemulator" SID:"start" URL:"/assets/bussim/emulatorData/red.json"
 
-  - hg[Variant 1]: "Welcome to Bloxdonalds.. if you're wondering, the door is broken."
-  - hg[Variant 2]: "Welcome to Bloxdonalds.. blah, blah, blah."
+  - hg[Variant 1]: "Welcome to BloxDonalds.. if you're wondering, the door is broken."
+  - hg[Variant 2]: "Welcome to BloxDonalds.. blah, blah, blah."
       - hg[Option 1]: Can I get an... uhhh...
           - "Yeah, yeah. I'm guessing you're here for the burger, so, take it. ssiiigggghhhhh... I don't get paid enough for this."
               - The player receives the [Burger](burger).
@@ -48,5 +50,116 @@ content: |-
                   - "Don't ask questions you aren't prepared for the answers to."
                       - hg[Option 1]: Sheesh, sorry..
                       - hg[Option 2]: Nevermind.
+  ###[Bloxdonalds (Backwalls)]
+  !!DLEMULATOR EID:"redemulator" SID:"start" URL:"/assets/bussim/emulatorData/red-backwalls.json"
+
+    - hg[Variant 1]: "Welcome to BloxDonalds, it's not what you are expecting."
+    - hg[Variant 2]: "Welcome to BloxDonalds, if you thought it was bad normally, you haven't seen this."
+    - hg[Variant 3]: "Welcome to BloxDonalds, you probably won't like it."
+    - hg[Variant 4]: "Welcome to BloxDonalds, the creatures are dangerous and so are our burgers."
+    - hg[Variant 5]: "Welcome to BloxDonalds, not the saddest place but it's definitely up there."
+        - hg[Option 1]: Can I get an... uuhhh...
+            - "Our menu has changed, yadda yadda yadda."
+                - hg[Option 1]: Something else.
+                    - "What? Brah, this is *all we* have, what could you possibly mean by ''something else''??"
+                        - hg[Option 1]: I want information.
+                            - "Informatio--?! I am **NOT** paid enough to be explaining *Bus Simulator* lore on the job. Just go and read the [wiki](home) brah." 
+                                - hg[Option 1]: Did you just..?
+                                    - "Uh-huh? What's it to ya, <float>gonna report me to the video game police?</float>"
+                                    - "Good luck with that, brah. You don't even know where their headquarters are located, do you? I don't think so brah."
+                                - hg[Option 2]: Ugh, fine.
+                                    - "I'd tell you where the [wiki](home) is, but that's against the rules."
+                        - hg[Option 2]: Show me the exit. 
+                            - "Brah, what makes you think I know where the exit is?!"
+                                - hg[Option 1]: [Bribe with 5 rep]
+                                    - "..."
+                                    - "Fine brah. 5 rep is 5 rep."
+                                    - "What, you expect me to lead you there? I'm still on the clock brah. Take this map and go figure it out yourself."
+                                    - "Thanks for choosing Bloxdonalds."
+                                - hg[Option 2]: I don't know...
+                                    - "Then why bother asking?! Order off the menu next time!"
+                        - hg[Option 3]: True, nevermind.
+                            - "Pick something *actually* on the menu next time."
+                - hg[Option 2]: Almond Water
+                    - hg[Variant 1]: "An Almond Water for 8 rep, yeah?"
+                    - hg[Variant 2]: "One Almond Water for 8 rep, you sure?"
+                    - hg[Variant 3]: "An Almond Water's gonna set you back 24 rep."
+                        - hg[Option 1]: Actually, nah. 
+                            - "Okay brah, why bother asking then?"
+                        - hg[Option 2]: Yeah.
+                            - "One Almond Water for 8 rep, it's done."
+                - hg[Option 3]: Void Burger
+                    - hg[Variant 1]: "A Void Burger for 2 rep, yeah?"
+                    - hg[Variant 2]: "One Void Burger for 2 rep, you sure?"
+                    - hg[Variant 3]: "A Void Burger's gonna set you back 2 rep."
+                        - hg[Option 1]: Actually, nah. 
+                            - "Okay brah, why bother asking then?"
+                        - hg[Option 2]: Yeah.
+                            - hg[Variant 1]: "Done. Enjoy your Void Burger, brah."
+                            - hg[Variant 2]: "Here. Huh, first sale in ages..."
+                - hg[Option 4]: Liquid Void
+                    - hg[Variant 1]: "A Liquid Void for 24 rep, yeah?"
+                    - hg[Variant 2]: "One Liquid Void for 24 rep, you sure?"
+                    - hg[Variant 3]: "A Liquid Void's gonna set you back 24 rep."
+                        - hg[Option 1]: Actually, nah. 
+                            - "Okay brah, why bother asking then?"
+                        - hg[Option 2]: Yeah.
+                            - "One Liquid Void for 24 rep, it's done."
+                - hg[Option 5]: Nevermind.
+        - hg[Option 2]: Let's talk!
+            - "Nothing much better to do."
+                - hg[Option 1]: Why is there a Bloxdonalds here?
+                    - "Corporate decision... Something about ''serving the universe and beyond'' or whatever..."
+                    - "Different planets and timelines? Understandable. But did we *really* need a location *here...?*"
+                    - "The only upside is that this one actually has a kitchen..."
+                        - hg[Option 1]: Wait, what?
+                            - "I *said*, ''this one actually has a kitchen.'' You've been to the Bloxdonalds out in reality, right?"
+                            - "You might have more questions than answers at this point, but I'm not paid enough to care about that."
+                        - hg[Option 2]: Ah, okay.
+                - hg[Option 2]: How long have you been here?
+                    - "How long HAVEN'T I been here?"
+                    - "Brah, I couldn't tell you even if I wanted to. There's no natural light in this place. My phone died forever ago."
+                    - "I should've enabled Airplane Mode..."
+                - hg[Option 3]: How did you get here?
+                    - "...'Cuz it's my job...? I work here."
+                - hg[Option 4]: Can I work here?
+                    - "Why would you want to work HERE of all places?" 
+                        - hg[Option 1]: It's nice and quiet.
+                            - "But it's also REALLLY depressing brah. You sit here and do nothing every day, waiting for a customer to come by..."
+                                - "The days slowly mesh together, your sense of time blurs, and you eventually look up at the clock..."
+                                - "Half-past twelve. But it's been half-past twelve for the past... who knows how long. The clock's battery ran dry long ago."
+                                - "You'd just be stuck here. Stuck in this grimy restaurant, barely surviving off the limited resources..."
+                                    - If the player last stayed at the [Goat Station](goat-station)...
+                                        - "Don't work here, brah. You've got better opportunities elsewhere..."
+                                     - If the player last stayed at [Cafe 2952](cafe)... 
+                                         - "Don't work here, brah. See if the cafe has a full-time spot open instead..."
+                                    - If the player last stayed at [Noble's House](nobles-house)...
+                                         - "Don't work here, brah. I bet Noble's looking for a real estate agent,. it's never too late to become one..."
+                                    - If the player's' last event was [No Dough](no-dough)... 
+                                         - "Don't work here, brah. Live a life of crime if you have to, literally anything's more fufilling than this."
+                        - hg[Option 2]: I don't know? 
+                            - "Then why bother asking?!"
+                        - hg[Option 3]: I like money.
+                            - "What are you, that greedy crab from *Spronkbib*?"
+                            - "What money is there in even working here anyways? How many customers do you see coming to the *Backwalls* of all places?"
+                            - "apart from you, of course."
+                - hg[Option 5]: Are you scared?
+                    - "Not really. I think I'm the scary one at this point."
+                    - "You've got no clue what I've had to resort to survive down here... It's not a very glamarous lifestyle, let me tell ya."
+                - hg[Option 6]: What's with the diary? (Only accessible if you had read his diary.)
+                    - "*You looked at my diary?* Sheesh, can't even get privacy outside of reality nowadays."
+                    - "Oh, you're wondering about the missing pages?"
+                    - "Well, I ran out of paper towels, what else was I supposed to use?"
+        - hg[Option 3]: Nevermind.
+
+  ###[Drink Responses]
+  - If you give Red the wrong drink:
+    - "Yeah... No thanks."
+  - If you give Red (<clr:#151812>(***The Sludge.***):
+    - "Yeah... No thanks."
+  - If you give Red <clr:#FFC9C9>(***Strawberry Smoothie***):
+    - "A strawberry smoothie? Sure I guess."
+      - If you given him another <clr:#FFC9C9>(***Strawberry Smoothie***):
+        - "That cafe does delivery? I don't remember ordering this.. but thanks."
 
   !!GALLERY [/assets/bussim/images/npcs/red.webp]  

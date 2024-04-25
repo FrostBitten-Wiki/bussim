@@ -10,7 +10,7 @@ page:
   header:
     description: |
       Category: [Events](events)\n
-      Event Name: h[Bloxdonalds]\n
+      Event Name: h[BloxDonalds]\n
       Event Runtime: h[1 Minute and 40 Seconds (1:40)]
     
     image: ""
@@ -19,6 +19,9 @@ page:
 attributions: []
 
 content: |
+  !!BUTTONS [<highlight>Bloxdonalds</highlight>,location.href=''|Backwalls Bloxdonalds,location.href='bloxdonalds-backwalls']
+  "Welcome to BloxDonalds.. blah, blah, blah." -"Red"
+
   ##[Info]
   The Bloxdonalds is both an Event and a Location in Bus Simulator.
   \n\n
@@ -37,9 +40,13 @@ content: |
         - hg[Event]: "I'm 99% sure there's something in these burgers.. Evacuate to the bus."
 
   ##[Trivia]
-  - This is the second largest amount of interactable NPCs, having half as much as [GOATed Gas Station](goat-station).
+  - This is the third largest amount of interactable NPCs, having half as much as [GOATed Gas Station](goat-station).
   - If you use a [GPS](gps) while the event is ongoing, rather than it be a random location, it'll instead say Bloxdonalds.
   - This is also a reference to Bus Stop Simulator's Bloxdonalds, where it shares similar details to the Bus Simulator version, but without the dangers that lurk there.
   - The runtime of this event is 1 minute and 40 seconds (exactly 100 seconds). This makes the event a similar runtime to the [Cave](cave) event.
+  - Based off of [Red](red)'s comments and the bulletin board within the [Backwalls](backwalls), a few assumptions can be made about the business. 
+    - It's a corporation that attempts to serve "the universe and beyond" with access to technologies to teleport into areas even out of reality. This means it may not be the second time we see Bloxdonalds running in business.
+    - [efeuc](efeuc) is wanted within Bloxdonalds for making it lose an "irrecoverable h[12c] in losses". He is also meant to be detained on sight. 
+    - Both [Steven](steven) and [MLG](mlg) used to work at Bloxdonalds, but one [vanished](steven-ride), while the other [moved away](goat-station).
 
   !!GALLERY [/assets/bussim/images/banners/bloxdonalds-banner.webp]

@@ -27,6 +27,9 @@ content: |
   Foxman is an orange Fox with flowing pastel blue hair, a custom-made military suit, a military side cap, white glasses, a MARKA-17M on their back, a Wind up key, satchel, and Silver Aiguillettes.
   \n<12px>(hg[- Ported from Fandom Wiki])
 
+  ##[Favourite Drink]
+  Foxman's favourite drink is [Apple Juice](cafe-coffee-recipes). This gives you either 2 Passenger Rep or 2 Driver Rep.
+
   ##[Dialogue]
   !!DLEMULATOR EID:"foxmanemulator" SID:"start" URL:"/assets/bussim/emulatorData/foxman.json"
 
@@ -55,11 +58,27 @@ content: |
     - hg[Option 4]: Bye
       - "Tschuss!"
 
+  ###[Drink Responses]
+  - If you give Foxman the wrong drink:
+    - hg[Variant 1]: "Eh? Well ain't ya kind!"
+    - hg[Variant 2]: "Oh? What's this? Free for lil ole' me, eh? Well, thank ya kindly!"
+  - If you give Foxman (<clr:#151812>(***The Sludge.***):
+    - "..."
+      - Foxman's head then explodes.
+  - If you give Foxman <clr:#FFFAAD>(***Apple Juice***):
+    - "Apple juice? How'd ya know? Apple is my favorite!"
+      - If you given him another <clr:#FFFAAD>(***Apple Juice***):
+        - "Ya know, I like apples more than any other fruit... Sure it's basic, but I appreciate the simple flavors..."
+
   ###[AFK-Related Dialogue]
   - "Um... You there?"
   - "Somebody leave the lights on up there?"
   - "Whatever..."
   - "Like are you in there..?"
+
+  ##[Trivia]
+  - He is one of the only few people who can actually die if fed the [Sludge](cafe-coffee). Having his head explode after consuming it.
+    - Unlike [efeuc](efeuc) who suffers a similar fate, he doesn't respawn throughout the entirety of the event, completely locking away his option to recieve coffee or an option to talk to him. 
 
   !!GALLERY [/assets/bussim/images/npcs/foxman.webp]
 

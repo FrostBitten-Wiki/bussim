@@ -18,16 +18,20 @@ attributions:
   - early port lets go
 
 content: |
-  "i literally have a map and i'm still ####ing lost" -"Map"
+  "This feels out of place. Is it even from your universe? Why did Red have this???" -"Exit Explorer Map"
 
   ##[Info]
   The Exit Explorer Map is an item that is used within the [Backwalls](backwalls) to draw out areas you have already explored and marking the escape room with a large X. 
   \n\n 
-  To obtain this, you must talk to [Red](red) within the [Backwalls](backwalls), and ask for Something Else. After asking him for an exit plus a cost of [5 Passenger Reputation](reputation), he will then give you the map.
+  To obtain this, you must talk to [Red](red) within the [Backwalls Bloxdonalds](bloxdonalds-backwalls), and ask for Something Else. After asking him for an exit plus a cost of [5 Passenger Reputation](reputation), he will then give you the map.
   \n\n 
-  Its appearance and function is exactly the same as the [Buried Treasure Map](https://minecraft.wiki/w/Explorer_Map#Buried_Treasure), with a large cross and a player locator for whoever holds the map. 
+  Its appearance and function is similarly as the [Buried Treasure Map](https://minecraft.wiki/w/Explorer_Map#Buried_Treasure), with a large cross and a player locator for whoever holds the map, however it also marks areas like Bloxdonalds if found.
+  \n 
+  You will also need to have a [Compass](compass) to be able to see your character's direction on the map, giving it a use.
 
   ##[Trivia]
-  - suddenly an uprise in faceplanting
+  - Attempting to look down using your third-person camera or up in first-person will flatten the map. 
+  - Using the map may cause your character to trip or clip outside of bounds within the area since your animation changes.
+  - This is perhaps the first two items that cooperatives with each other, namely with the [Compass](compass).
 
   !!GALLERY [/assets/bussim/images/items/map.webp|/assets/bussim/images/items/galleries/map-usage.webp]

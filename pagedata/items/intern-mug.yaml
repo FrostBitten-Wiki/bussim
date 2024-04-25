@@ -18,14 +18,30 @@ page:
 attributions:
 
 content: |
-  "For your efforts, you get a free balloon!! Hooray!!! (Q to Swap or Reset when popped)" -"Balloon"
+  "No, this isn't how you are supposed to play the game!" -"Intern Mug"
 
   ##[Info]
   The Intern Mugs are a collection of mugs obtained by getting coffee from the coffee machines within the [Cafe Event](cafe).
   \n\n 
-  When obtained, the appearance given is randomized but its healing properties still remain the same. You can only obtain and hold one at a time.
+  When held, the appearance given is randomized alongside its description, but its healing properties still remain the same. You can only obtain and hold one at a time normally.
 
   ##[List of Intern Mugs]
- 
+  | Design Name | Appearance | Description |
+  |-------------|------------|-------------|
+  | Kit Co. Fighter 2024 | A blue mug with a red strip across. | Sigh... Is this just a promotion? |
+  | Jo N' Bro's Best Chef 2024 | A blue-green gradient mug with a red strip across. | What was the last time I ever ordered a pizza from there? |
+  | Cafe 2952 Barista 2024 | A blue mug with a yellow strip across. | 'Pretty competent barista',. I'd say. |
+  | Goated Gas Cashier 2024 | A navy mug with a blue strip across. | ... but there's no job openings there. |
+  | Bloxdonalds Cashier 2024 | A deep blue mug with a yellow strip across. | Hey, doesn't that one noob guy work theere too? |
+  | Student Bus Driver 2024 | A blurple mug with a yellow strip across. The 'dent' is scribbled. | Someone rude scribbled all over this! |
+  | Twilight Daycare Veteran | A light green mug with a yellow strip across. | It... It... was traumatizing... |
+  | Roblox Intern 2024 | A blue mug with a yellow strip across. | They say inspiration is fueled by delicious coffee...and Chavez. |
+  | Bus Sim's Negative Nancy 2024 | A pale yellow mug with a blue strip across. | I cannot possibly grasp the concept of fun. |
+  | Mug Collector 2024 | A blue mug with a yellow strip across. | I like mugs. |
+  \n 
+  ##[Trivia]
+  - The Twilight Daycare Veteran mug is referencing The Hunt, an official event on Roblox where it was part of the many games needed to obtain items. 
+    - Likewise, due to its unfitting nature compared to other games like Combat Warriors, Fruit Battlegrounds and the like, it was one of the most mentally punishing game of all just for the idea of it.
+  - The "No, this isn't how you are supposed to play the game!" is the tool-tip for the intern mug prior to its randomization.
 
   !!GALLERY [/bussim-assets/images/items/intern-mug.webp]

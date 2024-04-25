@@ -27,7 +27,7 @@ content: |-
   He appears to have a Blue-Black stripped jacket over a Lua shirt, a harmonica, 4 hearts at the left of his head, a ROBLOX cap, 150K Summer Shades, and Jeans.
 
   ##[Favourite Drink]
-  Steven's favourite drink is [Mango Juice](cafe-coffee-recipes). This gives you either 6 Passenger Rep or Driver Rep.
+  Steven's favourite drink is [Mango Juice](cafe-coffee-recipes). This gives you either 8 Passenger Rep or Driver Rep.
 
   ##[Dialogue (Bloxdonalds)]
   !!DLEMULATOR EID:"stevenemulator" SID:"start" URL:"/assets/bussim/emulatorData/steven.json"
@@ -86,6 +86,16 @@ content: |-
         - hg[Option 2]: Why?
           - "Long story. No time to talk about it."
 
+  ###[Drink Responses]
+  - If you give Red the wrong drink:
+    - "I appreciate it, but I think I'll pass on that one."
+  - If you give Red (<clr:#151812>(***The Sludge.***):
+    - "I appreciate it, but I think I'll pass on that one."
+  - If you give Red <clr:#FFD4B3>(***Mango Juice***):
+    - "Oh, you actually brought me mango juice. Thanks."
+      - If you given him another <clr:#FFD4B3>(***Mango Juice***):
+        - "Oh, you actually brought me mango juice. Thanks."
+
   ##[Trivia]
   - Compared to the many other talkative NPCs in the game, Steven_Scripts cannot be annoyed using an [Airhorn](airhorn).
     - Steven also has no new dialogue regardless if you are friends with them, similar to [Tazer](tazer) and other NPCs.
@@ -95,5 +105,6 @@ content: |-
   - While you may not be able to see Steven_Scripts at first glance during his introduction, the harmonica sound effect will still play before and after the introduction.\n\n
     - The harmonica sound effect is also be distorted if you spot him in the [Backwalls](backwalls).
   - If Steven_Scripts ride on the Bus and all of the seats on the first floor are filled, Steven_Scripts will instead sit down next to the bathroom, defeated.
+  - Steven used to work at [BloxDonalds](bloxdonalds) at one point, but had nmoved away as evidenced with the Bulletin Board within the [Backwalls version of BloxDonalds](bloxdonalds-backwalls).
 
   !!GALLERY [/assets/bussim/images/npcs/steven.webp|/assets/bussim/images/npcs/steven-instances/stevenbathroom.webp|/assets/bussim/images/npcs/steven-instances/stevenbackwalls.webp]  

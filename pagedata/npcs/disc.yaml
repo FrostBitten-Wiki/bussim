@@ -191,6 +191,20 @@ content: |-
                               - (All of the player's buyable items are then cleared.)
                       - hg[Option 3]: Oh.
 
+  ###[Drink Responses (Goat Station)]
+  - If you give Disc the wrong drink:
+    - "Ohh, uhhm, I don't really drink that... Thanks for your offer, but you should give it to someone else!"
+  - If you give Disc (<clr:#151812>(***The Sludge.***):
+    - "Ohh, uhhm, I don't really drink that... Thanks for your offer, but you should give it to someone else!"
+  - If you give Disc <clr:#FFFAF5>(***Vanilla Iced Coffee***):
+    - "Oh hello! Do I smell Vanilla Iced Coffee?"
+    - "Just in time, I'm still a bit sleepy from yesterday's all-nighter..."
+    - "Thank you!! Baaa!"
+      - If you given him another <clr:#FFFAF5>(***Vanilla Iced Coffee***):
+        - "Oh hello! Do I smell Vanilla Iced Coffee?"
+        - "Just in time, I'm still a bit sleepy from yesterday's all-nighter..."
+        - "Thank you!! Baaa!"
+
   ###[AFK-Related Dialogue]
   - If the player has been idle for too long
     - "Guess we're starting a staring contest.."

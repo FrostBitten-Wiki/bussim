@@ -83,6 +83,22 @@ content: |-
   - hg[Variant 2]: "Okay, byeeee."
   - hg[Variant 3]: "Later."
 
+  ###[Drink Responses]
+  - If you give Ectta the wrong drink:
+    - "Oh, trying to get on my good side huh?"
+    - "I'll let you in on a secret: my favorite drink only uses one ingredient."
+    - "And FYI, guessing correctly won't save you from my questions."
+  - If you give Ectta (<clr:#151812>(***The Sludge.***):
+    - "Oh, trying to get on my good side huh?"
+    - "I'll let you in on a secret: my favorite drink only uses one ingredient."
+    - "And FYI, guessing correctly won't save you from my questions."
+  - If you give Ectta <clr:#472E1A>(***Communion Coffee***):
+    - "Oh, so you're like that, huh?"
+    - "I'm kidding, thanks."
+      - If you given him another <clr:#472E1A>(***Communion Coffee***):
+        - "Oh, so you're like that, huh?"
+       - "I'm kidding, thanks."
+
   ##[Trivia]
   - If you combine all of the possible variants Ectta could use, Ectta would have a total of 190,512 dialogue options, or 4,536 if excluding the variants from [Question Time](question-time). (This is prone to change the more Question Time variants as well as dialogue gets added, always update it to the latest after an update, thanks!)
     - This technically makes him have the most amount of dialogue as an NPC in Bus Simulator, assuming that a combination of variants can be counted as one. But if not, then that title holds to [D6](d6).

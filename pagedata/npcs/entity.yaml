@@ -33,6 +33,6 @@ content: |
   - Entities can detect players in a much wider range and remembers your position if the line of sight breaks, they are also generally faster and undistractable by sound items. 
   - Once they detect you, you won't instantly die but get stunned. Only a well timed [Almond Water](almond-water) and [Liquid Void](liquid-void) can save you in this case. 
     - You may also try to use the teleporters if you are near one or the exit, but there's no guarantee it's a risk worth taking.
-  - You may also use Liquid Void to evade them completely or by timing your movements right.
+  - You may also use [Liquid Void](liquid-void) or a [Void Burger](void-burger) to evade them completely or by timing your movements right.
 
   !!GALLERY [/assets/bussim/images/npcs/entity.webp]  

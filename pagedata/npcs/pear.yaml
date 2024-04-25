@@ -312,6 +312,22 @@ content: |-
     - You: "<You grab the object he tosses at you. Looks like a handheld mirror of some sort.>"
       - "If ya ever feel lonely, or just want a safe space to chill, feel free to come back anytime."
       - "Alright, see ya on the flip side."
+  
+  ###[Drink Responses]
+  - If you give Pear the wrong drink:
+    - "Oh, is that drink for me? Thanks!"
+  - If you give Pear (<clr:#151812>(***The Sludge.***):
+    - "Wh... WHAT is that???"
+    - "Uh... yeah... thank you?"
+    - "I'll... uh... drink that... later... haha... when you walk away... totally..."
+    - "..."
+      - Pear then throws out <clr:#151812>(***The Sludge.***)
+  - If you give Pear <clr:#FFF5EB>(***Vanilla Almond Milk***):
+    - "Oh? Is that for me????"
+    - "Thank you!! That's my favorite drink..."
+      - If you given him another <clr:#FFF5EB>(***Vanilla Almond Milk***):
+        - "Oh? Is that for me????"
+          - "Thank you!! That's my favorite drink..."
       
   ###[Airhorn-Related Dialogue]
   - If the airhorn is used repeatedly in proximity to Pear

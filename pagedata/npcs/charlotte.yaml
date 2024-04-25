@@ -125,5 +125,16 @@ content: |-
       - "And because it's unobtainable now... and i think it's cooler because of that..."\n\n
     - hg[Option 3]: Nevermind.
       - "Alright then, see ya."
+  
+  ###[Drink Responses (Cafe)]
+  - If you give Charlotte the wrong drink:
+    - "Oh, this is the uh... wrong thing? I don't really like this, sorry. Could I have something more comforting instead? I appreciate the offer though..."
+      - Oops.
+  - If you give Charlotte (<clr:#151812>(***The Sludge.***):
+    - "Um... I don't think I can drink this, sorry. Something about that noise it made just really, really gets into me. Reminds me of something that... oh gosh, no."
+  - If you give Charlotte <clr:#261805>(***Hot Chocolate***):
+    - "Woah! Thanks so much, this tastes wonderful!"
+      - If you given her another <clr:#261805>(***Hot Chocolate***):
+        - "Woah! Thanks so much, this tastes wonderful!"
 
   !!GALLERY [/assets/bussim/images/npcs/charlotte.webp]  
