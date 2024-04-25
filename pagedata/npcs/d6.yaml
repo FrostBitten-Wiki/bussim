@@ -257,7 +257,55 @@ content: |-
                   - "my brain hurts"
                       - Ok.
               - hg[Variant 13]:
-                  - "END OF DIALOGUE"
+                  - "[END OF DIALOGUE]"
+              - hg[Variant 14]:
+                  - "are you wondering about the hyena thing"
+                      - hg[Option 1]: Not really.
+                          - "good. ignorance is bliss"
+                      - hg[Option 2]: Yeah.
+                          - "this isnt my final form" "take that as you will"
+              - hg[Variant 15]:
+                  - "so i found this joke book lyin around buuuuuut all the pages slipped out when i picked them up" "i should mention that none of these pages are numbered so i don't really know what order they go in"
+                      - hg[Option 1]: Tell me a joke.
+                          - "sure"
+                          - "ahem..."
+                              - hg[Part 1]:
+                                  - "new york?"
+                                  - "band aid?"
+                                  - "geneva convention?" 
+                                  - "the bird flu?" 
+                                  - "road work ahead?"
+                                  - "half life?" 
+                                  - "chef's kiss?" 
+                                  - "salad dressing?"
+                                  - "cancel culture?" 
+                                  - "apartment complex?" 
+                                  - "radioactive?" 
+                                  - "based?" 
+                                  - "what's upstairs?" 
+                                  - "wood fired pizza?" 
+                                  - "psychotherapist?"
+                                  - "shrimp fried rice?"
+                              - hg[Part 2]:
+                                  - "did we buy tickets this year?"
+                                  - "give it some privacy"
+                                  - "how come they're entitled to medical benefits?!"
+                                  - "based on what?"
+                                  - "where's the full one?"
+                                  - "do they really?"
+                                  - "is it better than the old one?"
+                                  - "you should get a new therapist"
+                                  - "why? culture is so beautiful..."
+                                  - "how's pizza gonna get a job now?"
+                                  - "they cant talk"
+                                  - "yeah, my radio works"
+                                  - "i find it quite simple, actually"
+                                  - "i hardly know her"
+                                  - "uhh yeah, i sure hope it does."
+                                  - "they can't talk"
+                      - hg[Option 2]: Dang.
+              - hg[Variant 16]: (If you already talked to d6 about the joke book, this will replace it instead. The optiosn and dialogue are the same.)
+                  - "im still trying to make sense of the pages"
 
   ###[Drink Responses (Cafe)]
   - If you give D6 the wrong drink:
