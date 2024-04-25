@@ -132,12 +132,12 @@ content: |-
                                 - "Half-past twelve. But it's been half-past twelve for the past... who knows how long. The clock's battery ran dry long ago."
                                 - "You'd just be stuck here. Stuck in this grimy restaurant, barely surviving off the limited resources..."
                                     - If the player last stayed at the [Goat Station](goat-station)...
-                                       - "Don't work here, brah. You've got better opportunities elsewhere..."
-                                    - If the player last stayed at [Cafe 2952](cafe)... 
-                                       - "Don't work here, brah. See if the cafe has a full-time spot open instead..."
+                                        - "Don't work here, brah. You've got better opportunities elsewhere..."
+                                     - If the player last stayed at [Cafe 2952](cafe)... 
+                                         - "Don't work here, brah. See if the cafe has a full-time spot open instead..."
                                     - If the player last stayed at [Noble's House](nobles-house)...
                                          - "Don't work here, brah. I bet Noble's looking for a real estate agent,. it's never too late to become one..."
-                                    - If the player's last event was [No Dough](no-dough)... 
+                                    - If the player's' last event was [No Dough](no-dough)... 
                                          - "Don't work here, brah. Live a life of crime if you have to, literally anything's more fufilling than this."
                         - hg[Option 2]: I don't know? 
                             - "Then why bother asking?!"
@@ -157,11 +157,11 @@ content: |-
   ###[Drink Responses]
   - If you give Red the wrong drink:
     - "Yeah... No thanks."
-  - If you give Red (<clr:#151812>(***The Sludge.***):
+  - If you give Red <clr:#151812>(***The Sludge.***):
     - "Yeah... No thanks."
   - If you give Red <clr:#FFC9C9>(***Strawberry Smoothie***):
     - "A strawberry smoothie? Sure I guess."
       - If you given him another <clr:#FFC9C9>(***Strawberry Smoothie***):
-        - "That cafe does delivery? I don't remember ordering this.. but thanks."
+        - "A strawberry smoothie? Sure I guess."
 
   !!GALLERY [/assets/bussim/images/npcs/red.webp]  
