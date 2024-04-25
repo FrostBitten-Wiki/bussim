@@ -42,7 +42,7 @@ content: |-
   - If you give Fang the wrong drink:
     - "Oh, is this for me?"
     - "I'll take it, thanks!"
-  - If you give Fang (<clr:#151812>(***The Sludge.***):
+  - If you give Fang <clr:#151812>(***The Sludge.***):
     - "Oh, uhm... thanks..?" 
     - "..."
     - "<7px>(cough cough-)<12px>(oh dear g-)<18px>(COUGH-)"

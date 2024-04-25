@@ -316,7 +316,7 @@ content: |-
   ###[Drink Responses]
   - If you give Pear the wrong drink:
     - "Oh, is that drink for me? Thanks!"
-  - If you give Pear (<clr:#151812>(***The Sludge.***):
+  - If you give Pear <clr:#151812>(***The Sludge.***):
     - "Wh... WHAT is that???"
     - "Uh... yeah... thank you?"
     - "I'll... uh... drink that... later... haha... when you walk away... totally..."

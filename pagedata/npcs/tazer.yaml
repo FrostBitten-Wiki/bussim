@@ -250,7 +250,7 @@ content: |-
     - hg[Variant 1]: "Looks delicious, but I can't drink that. Sorry. Maybe someone else would like it though."
     - hg[Variant 2]: "Thanks, but no thanks."
     - hg[Variant 3]: "Do you honestly think that I would be able to drink this? Seriously, are you trying to kill me or something?"
-  - If you give Tazer (<clr:#151812>(***The Sludge.***):
+  - If you give Tazer <clr:#151812>(***The Sludge.***):
     - "What is this? Some new type of fuel or something? What's its octane rating?"
     - "Hang on, this is the stuff that the guy who always hangs out by the dumpster likes, isn't it? How'd you get that on your hands?"
     - "Hm... maybe I could try putting it in my Mini-Bus to see how well it works as a fuel alternative."

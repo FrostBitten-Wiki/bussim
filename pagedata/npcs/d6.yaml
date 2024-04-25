@@ -267,12 +267,12 @@ content: |-
     - "go give it to disc or something im sure he'll drink it"
     - "hah. goats."
         - My bad.
-  - If you give D6 (<clr:#151812>(***The Sludge.***):
+  - If you give D6 <clr:#151812>(***The Sludge.***):
     - "..."
     - "splendid."
     - "this is almost as good as bloxy cola"
         - You're welcome.
-            - If you given them another (<clr:#151812>(***The Sludge.***):
+            - If you given them another <clr:#151812>(***The Sludge.***):
             - "..."
             - "splendid."
             - "this is almost as good as bloxy cola"

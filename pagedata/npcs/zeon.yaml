@@ -113,7 +113,7 @@ content: |-
   - If you give Zeon the wrong drink:
     - "Oh, uhm... I didn't ask for this."
       - Oops.
-  - If you give Zeon (<clr:#151812>(***The Sludge.***):
+  - If you give Zeon <clr:#151812>(***The Sludge.***):
     - "I don't know WHAT that is but it's definitely not what I ordered."
   - If you give Zeon <clr:#FFC9C9>(***Strawberry Smoothie***):
     - "Oh, it's the smoothie I ordered. Thanks."
@@ -124,7 +124,7 @@ content: |-
   ###[Drink Responses (Goat Station)]
   - If you give Zeon the wrong drink:
     - "Thanks for the offer I guess, but I don't really need it. You drink it."
-  - If you give Zeon (<clr:#151812>(***The Sludge.***):
+  - If you give Zeon <clr:#151812>(***The Sludge.***):
     - "Why did you bring this to me? This is literally poison..."
   - If you give Zeon <clr:#FFC9C9>(***Strawberry Smoothie***):
     - "That cafe does delivery? I don't remember ordering this.. but thanks."

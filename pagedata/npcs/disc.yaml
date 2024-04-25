@@ -194,7 +194,7 @@ content: |-
   ###[Drink Responses (Goat Station)]
   - If you give Disc the wrong drink:
     - "Ohh, uhhm, I don't really drink that... Thanks for your offer, but you should give it to someone else!"
-  - If you give Disc (<clr:#151812>(***The Sludge.***):
+  - If you give Disc <clr:#151812>(***The Sludge.***):
     - "Ohh, uhhm, I don't really drink that... Thanks for your offer, but you should give it to someone else!"
   - If you give Disc <clr:#FFFAF5>(***Vanilla Iced Coffee***):
     - "Oh hello! Do I smell Vanilla Iced Coffee?"

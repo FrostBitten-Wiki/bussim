@@ -89,7 +89,7 @@ content: |-
   ###[Drink Responses]
   - If you give Red the wrong drink:
     - "I appreciate it, but I think I'll pass on that one."
-  - If you give Red (<clr:#151812>(***The Sludge.***):
+  - If you give Red <clr:#151812>(***The Sludge.***):
     - "I appreciate it, but I think I'll pass on that one."
   - If you give Red <clr:#FFD4B3>(***Mango Juice***):
     - "Oh, you actually brought me mango juice. Thanks."

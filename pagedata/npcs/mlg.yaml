@@ -58,7 +58,7 @@ content: |-
     - "What is this? A gift for me?"
     - "..."
     - "EW, what is in this thing?! Take it back, I don't want this nasty 'drink'."
-  - If you give MLG (<clr:#151812>(***The Sludge.***):
+  - If you give MLG <clr:#151812>(***The Sludge.***):
     - "What is this? A gift for me?"
     - "..." 
     - "EW, what is in this thing?! Take it back, I don't want this nasty 'drink'."
@@ -74,7 +74,7 @@ content: |-
   ###[Drink Responses (Goat Station)]
   - If you give MLG the wrong drink:
     - No dialogue happens.
-  - If you give MLG (<clr:#151812>(***The Sludge.***):
+  - If you give MLG <clr:#151812>(***The Sludge.***):
     - No dialogue happens.
   - If you give MLG <clr:#E39254>(***Pumpkin Spice Mocha***):
     - No dialogue happens, but you still get rewarded.

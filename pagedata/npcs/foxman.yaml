@@ -62,7 +62,7 @@ content: |
   - If you give Foxman the wrong drink:
     - hg[Variant 1]: "Eh? Well ain't ya kind!"
     - hg[Variant 2]: "Oh? What's this? Free for lil ole' me, eh? Well, thank ya kindly!"
-  - If you give Foxman (<clr:#151812>(***The Sludge.***):
+  - If you give Foxman <clr:#151812>(***The Sludge.***):
     - "..."
       - Foxman's head then explodes.
   - If you give Foxman <clr:#FFFAAD>(***Apple Juice***):

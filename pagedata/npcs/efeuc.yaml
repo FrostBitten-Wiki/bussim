@@ -106,7 +106,7 @@ content: |-
   ###[Drink Responses]
   - If you give Efeuc the wrong drink:
     - "thank u"
-  - If you give Efeuc (<clr:#151812>(***The Sludge.***):
+  - If you give Efeuc <clr:#151812>(***The Sludge.***):
     - "is this coffee?"
     - "..."
         - Efeuc then turns into a gravestone with the following message: \nhere lies efeuc\n\nit wasn't coffee

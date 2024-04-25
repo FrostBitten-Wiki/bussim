@@ -341,7 +341,7 @@ content: |-
     - "..." 
     - "Uh... Interesting..."
     - "Thanks for that, I guess..? Don't think I'd choose to drink that myself, though..."
-  - If you give Frost (<clr:#151812>(***The Sludge.***):
+  - If you give Frost <clr:#151812>(***The Sludge.***):
     - "Uh- WOAH... That smells awful."
     - "A little word of advice, I don't think ya should drink that..?"
     - "What even *is* it? Why is it in a cup?"
