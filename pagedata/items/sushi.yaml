@@ -90,7 +90,7 @@ content: |
  |------|-------|-------------|---------|-------|
  | Raw Dough & Ketchup | <clr:#B9E697>(Poison) | It's literally raw dough and ketchup. | <clr:#B9E697>(Poisons you, dealing up to 50 damage.) |![120x120](/bussim-assets/images/items/sushi/raw-dough-sushi.webp)|
  | Raw Rice Nori Film | <clr:#BD16FA>(Damage) | A tiny sheet of nori... AND RAW RICE, WHY?! | <clr:#BD16FA>(Deals a tremendously deadly 1 damage.) | ![120x120](/bussim-assets/images/items/sushi/raw-rice-nori-film.webp)|
- | Play Clay Sushi | <clr:#FF57B6>(Rainbow Vision) | It's entirely made out of play clay. Just pretend to eat it. | <clr:#FF57B6>(Tones your entire screen to the rainbow throughout the effect.) |![120x120](/bussim-assets/images/items/sushi/play-clay-sushi.webp)|
+ | Play Clay Sushi | hr[Rainbow Vision] | It's entirely made out of play clay. Just pretend to eat it. | hr[Tones your entire screen to the rainbow throughout the effect.] |![120x120](/bussim-assets/images/items/sushi/play-clay-sushi.webp)|
  \n
 
  ##[Trivia]
