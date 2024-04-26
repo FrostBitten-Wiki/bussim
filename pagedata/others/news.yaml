@@ -325,4 +325,8 @@ content: |-
   -  [BREAKING NEWS]: [New Champion] is now the WORLD RECORD HOLDER for Simon Says with [Rounds Done] wins!!!
     -  [BREAKING NEWS]: The previous record holder was [Old Chamption] with [Rounds Done].
       -  Both of these are broadcasted everywhere regardless of server.
+    - [BREAKING NEWS]: (player) has been to every biome in the game!
+      - This happens when a player gets the [Worldwide Passenger](https://www.roblox.com/badges/2589101138535417/Worldwide-Passenger) badge, where you have been in every biome in the game.
+    - [BREAKING NEWS]: (player) survived every single danger  thrown their way!
+      - This happens when a player survived every event that can kill you (Excluding NoblesHouse, Backwalls, Cafe, GoatStation, an NoDough), and gets the [Survivor](https://www.roblox.com/badges/3408555492434090/Survivor) badge.
   !!GALLERY [/bussim-assets/images/others/news.webp]
