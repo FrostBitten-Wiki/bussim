@@ -32,14 +32,14 @@ content: |
  |------|-------|-------------|---------|-------|
  | Spicy-Mayo Tuna Uramaki\n\n<clr:#E60000>([Crimson Eyes : Detection]) | <clr:#9CFF9C>(Heal)\n\n<clr:#E60000>(Player Detection) | Tuna scraps filled with spicy mayo, with some sesame seeds, and a splatter of spicy mayo.\n\n<clr:#E60000>("I suddenly know where everyone is.") | <clr:#9CFF9C>(Heals up to 10 HP)\n\n<clr:#E60000>(Allows you to see any player nearby with a lime outline [green for friends, red for animated NPCs] coupled with a blue flame upon area of activation for up to 50 studs away with a red tinted screen. Can be toggled by clicking while holding the ability.)|![120x120](/bussim-assets/images/items/sushi/spicy-tuna-uramaki.webp)|
  | Crab Rangoon Uramaki | <clr:#9CFF9C>(Heal) | Crab Rangoon filling with sweet and sour sauce and eel sauce. | <clr:#9CFF9C>(Heals up to 10 HP) |![120x120](/bussim-assets/images/items/sushi/crab-rangoon-uramaki.webp)|
- | Imitation Crab Uramaki | <clr:#9CFF9C>(Heal)\n\n<clr:#C9FFDD>(Max Health Boost) | Roll consisting of Cucumber, Avocado, and Imitation Crab. | <clr:#9CFF9C>(Heals up to 10 HP)\n\n<clr:#C9FFDD>(Increases Max Health by 15\nNot stackable.)|![120x120](/bussim-assets/images/items/sushi/imitation-crab-uramaki.webp)|
- | Ao Zakana Uramaki | <clr:#BD16FA>(Damage) | Legend of The Ao Zakana's truth is questionable, but not unproven. | <clr:#BD16FA>(Deals 50 rapid damage or 50% of current health, whichever is least damaging.) |![120x120](/bussim-assets/images/items/sushi/ao-zakana-uramaki.webp)|
+ | Imitation Crab Uramaki | <clr:#9CFF9C>(Heal)\n\n<clr:#C9FFDD>(Max Health Boost) | Roll consisting of Cucumber, Avocado, and Imitation Crab. | <clr:#9CFF9C>(Heals up to 25 HP)\n\n<clr:#C9FFDD>(Increases Max Health by 15\nNot stackable.)|![120x120](/bussim-assets/images/items/sushi/imitation-crab-uramaki.webp)|
+ | Ao Zakana Uramaki | <clr:#BD16FA>(Damage) | Legend of The Ao Zakana's truth is questionable, but not unproven. | <clr:#BD16FA>(Deals 50 rapid damage or 50% of current health, whichever is least damaging. Cannot go below 25% of your Max HP.) |![120x120](/bussim-assets/images/items/sushi/ao-zakana-uramaki.webp)|
  | Spicy-Mayo Catfish Uramaki | <clr:#FF3112>(Rage) | A fried catfish with EXTRA cucumber and spicy mayo.\n\n<clr:#FF3112>("UNLEASH THE ENERGY FROM THE KING OF WORLDS!!") | <clr:#FF3112>(Enrages you, giving you the following effects:)\n- Take 4 DPS\n- Gives you a red aura and every part below your head is tinted red\n- Increases Walkspeed by 1.5x\n- Increases Jump Power by 1.25x\n- Effect lasts up to 4 minutes unless the player hits below / equals to 5% of their Max HP.\n\nIf the player is below 5% of their Max HP when consuming this, the effect immediately ends.|![120x120](/bussim-assets/images/items/sushi/spicy-catfish-uramaki.webp)|
  !!INFOBOX TITLE:"Makis" COLOR:"#ffffff" TEXT:"Sushi that's wrapped with seaweed with rice and ingredients in the middle." 
  | Name | Class | Description | Effects | Image |
  |------|-------|-------------|---------|-------|
  | Burrito Maki\n\n<clr:#B3E5FF>([Double Jump]) | <clr:#B3E5FF>(Double Jump) | A tiny burrito with ground beef, lettuce, and some fresh cherry tomatoes.\n\n<clr:#B3E5FF>("I kinda feel floaty...")  | <clr:#B3E5FF>(Allows you to double jump by double-tapping your jump button, with the second jump being much weaker than the first.) |![120x120](/bussim-assets/images/items/sushi/burrito-maki.webp)|
- | Healthy Maki | Normal | Roll filled with avocado, carrot, and cucumber; it sounds pretty healthy. | Nothing |![120x120](/bussim-assets/images/items/sushi/healthy-maki.webp)|
+ | Healthy Maki | <clr:#99FF66>(Slow Regeneration) | Roll filled with avocado, carrot, and cucumber; it sounds pretty healthy. | <clr:#99FF66>(Restores 6-8 HP every 5 seconds and lasts up to 2 minutes and 30 seconds, up to 180-240 HP after effect.) |![120x120](/bussim-assets/images/items/sushi/healthy-maki.webp)|
  | Unique Maki | Normal | A unique roll containing carrot, cucumber, fish cake, ham, and egg. | Nothing |![120x120](/bussim-assets/images/items/sushi/unique-maki.webp)|
  !!INFOBOX TITLE:"Nigiris" COLOR:"#ffffff" TEXT:"A slice of raw fish placed ontop of a bed of rice." 
  | Name | Class | Description | Effects | Image |
@@ -79,7 +79,7 @@ content: |
  | Name | Class | Description | Effects | Image |
  |------|-------|-------------|---------|-------|
  | Alaskan Salmon Nigiri? | <clr:#B9E697>(Poison) | Salmon very orange, very delicious. | <clr:#B9E697>(Poisons you, dealing up to 50 damage.) |![120x120](/bussim-assets/images/items/sushi/alaskan-salmon-nigiri.webp)|
- | Bluefin Tuna Nigiri? | <clr:#B9E697>(Poison)) | Now where's the soy sauce? | <clr:#B9E697>(Poisons you, dealing up to 50 damage.) |![120x120](/bussim-assets/images/items/sushi/bluefin-tuna-nigiri.webp)|
+ | Bluefin Tuna Nigiri? | <clr:#B9E697>(Poison) | Now where's the soy sauce? | <clr:#B9E697>(Poisons you, dealing up to 50 damage.) |![120x120](/bussim-assets/images/items/sushi/bluefin-tuna-nigiri.webp)|
  | Frozen Fish Nigiri | <clr:#BD16FA>(Damage) | ...The fish is still frozen. | <clr:#BD16FA>(Deals 5 damage.) |![120x120](/bussim-assets/images/items/sushi/frozen-nigiri.webp)|
  !!INFOBOX TITLE:"Gunkans" COLOR:"#ffffff" TEXT:"Sushi that contains only one ingredient, often roe in the center, and is wrapped in seaweed."
  | Name | Class | Description | Effects | Image |
@@ -90,7 +90,7 @@ content: |
  |------|-------|-------------|---------|-------|
  | Raw Dough & Ketchup | <clr:#B9E697>(Poison) | It's literally raw dough and ketchup. | <clr:#B9E697>(Poisons you, dealing up to 50 damage.) |![120x120](/bussim-assets/images/items/sushi/raw-dough-sushi.webp)|
  | Raw Rice Nori Film | <clr:#BD16FA>(Damage) | A tiny sheet of nori... AND RAW RICE, WHY?! | <clr:#BD16FA>(Deals a tremendously deadly 1 damage.) | ![120x120](/bussim-assets/images/items/sushi/raw-rice-nori-film.webp)|
- | Play Clay Sushi | hr[Rainbow Vision] | It's entirely made out of play clay. Just pretend to eat it. | hr[Tones your entire screen to the rainbow throughout the effect.] |![120x120](/bussim-assets/images/items/sushi/play-clay-sushi.webp)|
+ | Play Clay Sushi | <clr:#FFB3E6>(Rainbow Vision) | It's entirely made out of play clay. Just pretend to eat it. | <clr:#FFB3E6>(Tones your entire screen to the rainbow throughout the effect. Also plays a slightly distorted meow effect when eating.) |![120x120](/bussim-assets/images/items/sushi/play-clay-sushi.webp)|
  \n
 
  ##[Trivia]
