@@ -199,6 +199,8 @@ content: |-
               - hg[Option 5]: Hi D6.
                   - Variant 1 (first time selecting this option): "hi"
                   - Variant 2 (otherwise): "hey there again"
+              - hg[Option 6]: You're stinky.
+                 - The player explodes.
       - hg[Option 3]: Nevermind.
           - hg[Variant 1]: "7577234764 Dont forget it. It's the only way out."
           - hg[Variant 2]: "ok"
@@ -263,7 +265,8 @@ content: |-
                       - hg[Option 1]: Not really.
                           - "good. ignorance is bliss"
                       - hg[Option 2]: Yeah.
-                          - "this isnt my final form" "take that as you will"
+                          - "this isnt my final form" 
+                          - "take that as you will"
               - hg[Variant 15]:
                   - "so i found this joke book lyin around buuuuuut all the pages slipped out when i picked them up" "i should mention that none of these pages are numbered so i don't really know what order they go in"
                       - hg[Option 1]: Tell me a joke.
