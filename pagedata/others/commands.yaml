@@ -177,8 +177,12 @@ content: |
   \n 
   You can also have a similar power by joining your Private Server, assuming somebody else is already in it. 
   \n\n 
-  The only command available is **cmdbar/**, the other admin commands will not be listed as to make sure that it is only limited to the game's admins. 
-  #![sorry you still don't get the full admin command list nananabooboo]
+  The only command available is **cmdbar/**, the other admin commands will not be listed as to make sure that it is only limited to the game's admins, but we will include useful ones for private servers.
+  \n\n 
+  | Commands              | Effects                                                                                                                                                                         |
+  |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  |give/player/item       | Gives the player the listed item. Item name is not case sensitive, and typing "all" as the item gives the player every [item](https://wiki.wolfdo.gg/wiki/bussim/items) in the game.
+  |refresh/player         | Respawns the player and puts them exactly where they were. Not including a playername will respawn the user instead.
 
 
 
