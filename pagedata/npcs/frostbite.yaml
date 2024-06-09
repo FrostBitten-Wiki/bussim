@@ -120,7 +120,7 @@ content: |-
               - You: "[Frost. This blue wolf seems to live here, and it feels remarkably colder in here than anywhere else in the cave...]"
               - You: "[He seems a little more interested in you than before, his gaze following your movements...]"
               - You: "{Giving him an ice cream was the right call, but that probably won't work again... [what can you do?](pearcoin)}"
-          - hg[Option 3]: [Show item: [PearcoinTM](pearcoin)]
+          - hg[Option 3]: Show item: [PearcoinTM](pearcoin)
               - "..? A coin..? Thanks, but I don't really..."
               - "Hang on a second."
               - "-snf- -snf-"

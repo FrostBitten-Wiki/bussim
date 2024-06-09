@@ -64,7 +64,7 @@
         "name": "You",
         
         "text": [
-            "It's Frost! It seems like you're finally friends with him now. Maybe <highlight type=\"rainbow\">pearcoin</highlight><sup><highlight type=\"rainbow\">TM</highlight></sup> wasn't so useless after all."
+            "It's Frost! It seems like you're finally friends with him now. Maybe <float>hr[Pearcoin^(TM)]</float> wasn't so useless after all."
         ],
 
         "choices": [
