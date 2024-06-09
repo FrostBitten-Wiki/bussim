@@ -25,7 +25,9 @@ content: |-
   ##[Info]
   The customers are NPCs that appears in the [Coffee Shop](coffee-shop) event.
   \n\n
-  Unlike Civilians, the Customers can talk and can be interacted with.
+  Unlike Civilians, the Customers can talk and can be interacted with, allowing you to give drinks to them whether it'd be what they asked for or didn't ask for. 
+  \n\n 
+  Customers can also be given <clr:#151812>(***The Sludge.***), but it may result in some... h[potential consequences].
 
   ##[Appearance]
   Their appearance is random, but unlike [Civilians](civilian), they use the Default Blocky Avatar, with randomized Clothing, Face and Accessories.
@@ -170,5 +172,12 @@ content: |-
   - "Flavorful."
   - "That was nice."
   - "Satisfying."
+
+  ###[The Sludge Responses]
+  - "I ask for a (drink request) and you give me chemical warfare in a cup."
+  - "Okay now was that really necessary?"
+  - "(drink request).. n-not.. that.."
+  - "I don't know what you did to this #singularwanted, but I don't think I'll be the same ever again."
+  - "My insides are melting. My insides are melting. My. insides. Are. Melting."
 
   !!GALLERY [/assets/bussim/images/npcs/customers.webp]  
