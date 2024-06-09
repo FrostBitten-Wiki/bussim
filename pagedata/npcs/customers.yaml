@@ -1,7 +1,7 @@
 editable: true
 page:
   title: Customers
-  description: The Customers are minor NPCs that appear on the Coffee Shop event.
+  description: The Customers are minor NPCs that appear in the Cafe event.
     They act similarly to Civilians.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim banana npc
@@ -14,16 +14,20 @@ page:
       Category: [NPCs](npcs)
 
     image: ''
-    imageBanner: /assets/bussim/images/banners/coffee-shop.webp
+    imageBanner: /assets/bussim/images/npcs/customers.webp
 
 attributions:
   - Edited by Nyx (@nyxical)
+  - Updated by FangedWerewolf (@noobbiom)
+  - Provided info by JP0826 (sludge responses)
 
 content: |-
   ##[Info]
-  The customers are NPCs that appears in the [Coffee Shop](coffee-shop) event.
+  The customers are NPCs that appears in the [Cafe](cafe) event.
   \n\n
   Unlike Civilians, the Customers can talk and can be interacted with, allowing you to give drinks to them whether it'd be what they asked for or didn't ask for. 
+  \n\n
+  Giving them their correct drink contributes your score during the minigame, whereas doing otherwise does nothing to the score.
   \n\n 
   Customers can also be given <clr:#151812>(***The Sludge.***), but it may result in some... h[potential consequences].
 
