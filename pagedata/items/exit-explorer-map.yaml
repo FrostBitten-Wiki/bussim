@@ -32,6 +32,6 @@ content: |
   ##[Trivia]
   - Attempting to look down using your third-person camera or up in first-person will flatten the map. 
   - Using the map may cause your character to trip or clip outside of bounds within the area since your animation changes.
-  - This is perhaps the first two items that cooperatives with each other, namely with the [Compass](compass).
+  - This is perhaps the first two items that cooperates with each other, namely with the [Compass](compass).
 
   !!GALLERY [/assets/bussim/images/items/map.webp|/assets/bussim/images/items/galleries/map-usage.webp]
