@@ -462,5 +462,7 @@ content: |-
   - Pear will still get annoyed at you (and afterwards, kills you) if you use the Airhorn while not on the same floor as him, but at a similar horizontal area, such as the seat directly below and above him.\n\n
   - If the private server owner uses the !seats command, Pear will stand in place instead.\n\n
   - Pear's calculations with the invite system is partially accurate, as you actually gain a maximum of 20 Driver Reputation and 30 Passenger Reputation per day, up to 140 Driver Reputation and 210 Passenger Reputation every week, for a total of 350 Reputation.
+  - If Pear were to somehow be involved with gears that would normally kill him, he would retaliate by activating his counter, instantly killing anyone near him.
+    - This was done to prevent [Pear Takes The Wheel](pear-takes-the-wheel) from being softlocked.
 
-  !!GALLERY [/assets/bussim/images/npcs/pear.webp]  
+  !!GALLERY [/assets/bussim/images/npcs/pear.webp|/assets/bussim/images/npcs/pear-counter.webp]  
