@@ -68,11 +68,14 @@ content: |-
                   - I have your RAM (Only appears if the player already has RAM)
                       - Proceeds to hg[Option 5] Variants 1 - 2
       - hg[Option 5]: I'm back, and I have your RAM. (Only appears if the player has the ram stick)
-          - hg[Variant 1]: "Wait, really? Thanks! Here's that rep I promised."
+        - "Wait, really?" 
+          - hg[Variant 1]: "Thanks! Here's that rep I promised."
           - hg[Variant 2]: "Here's your rep, now get lost! Haha just kidding! Feel free to talk to me again sometime."
-              - The player then receives 2 Driver Reputation.
-          - hg[Variant 3] (Illegal RAM): "Wait, really? Hey, wait a second.. This RAM is unmarked! Bootleg! Are you trying to scam me? Well, this'll be the last scam you'll ever pull."
-              - The player then explodes.
+            - The player then receives 2 Driver Reputation.
+          - hg[Variant 3] (Illegal RAM): "Hey, wait a second.. This RAM is unmarked! Bootleg! Are you trying to scam me? Well, this'll be the last scam you'll ever pull."
+            - The player then explodes.
+          - hg[Variant 4] (Missing RAM, extremely rare): "Hey, wait a second.. you lied to me! There's no ram here! This'll teach you for being such a trickster..."
+            - The player then explodes.
           - hg[Variant 4] (If already completed): "Uhh.. I kinda feel like I've done this before.. I don't really feel that hungry anymore.."
           - hg[Variant 5] (If already completed): "Ehhhh... I'm kind of feeling a bit spooked right now. I have a big sense of like, deja vu.. Maybe next time.."
       - hg[Option 6]: Nevermind.

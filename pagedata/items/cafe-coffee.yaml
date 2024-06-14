@@ -33,8 +33,8 @@ content: |
  \n\n
  | Stats | Description | Positive Stat Effects (+) | Negative Stat Effects (-)|
  |-------|-------------|--------------------------|-------------------------|
- |Temperature|Determines how hot or cold the drink is.|Freezes you in place instantly.| Sets you ablaze. |
- |Quenchiness|Determines how fast you regenerate upon consumption.|Regenerates health quickly.|Drains health quickly.|
+ |Temperature|Determines how hot or cold the drink is.|Freezes you in place instantly.\n\nHolding a drink at very high Temperature will have mist effects around the drink. | Sets you ablaze.\n\nHolding a drink at very low Temperature will have the drink unleash a barrage of smoke, and fire from within. Also emanates a fizzing sound.|
+ |Quenchiness|Determines how fast you regenerate upon consumption.|Regenerates health quickly.\n\nHolding a drink at very high Quenchiness will have stars around it.|Drains health quickly.\n\nHolding a drink at very low Quenchiness will have purple effects falling off of it.|
  |Sweetness|Determines the cooldown between each sip.|Very fast cooldown.|Very slow cooldown.|
  |Energy|Determines the speed boost you recieve within each sip. Overconsuming this will also kill you.|Increases speed drastically.|Reduces speed significantly.|
  
