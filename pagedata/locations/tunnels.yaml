@@ -1,0 +1,38 @@
+editable: True
+page:
+  title: Tunnels
+  description: The Tunnels are a reoccuring structure that appears right before every natural biome shift and comes in different varieties.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim placeholder location
+  
+  tags: placeholder, location
+
+  header:
+    description: |
+      Category: [Locations](/bussim/locations)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/locations/tunnels/old-tunnel.webp
+
+attributions: []
+
+content: |
+  !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Still striking iron while it's hot.\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update a whole lot easier! Really convienient, don't ya think?)"
+  ##[Info]
+  The Tunnels are a reoccuring structure that appears right before every natural biome shift and comes in different varieties. It often lasts a couple of minutes and ends once the next biome has setted in.
+  \n\n 
+  The tunnels can be disabled by either doing [!map](commands) or by doing [!tunnels](commands); the latter in which completely disables tunnels from spawning.
+  \n\n 
+  The current structure of the tunnels allow drastically less headroom than normal, making it extremely difficult for one to traverse from the roof to other areas without the use of [Hoverboots](hoverboots) and / or [Helicopter](helicopter).
+  \n\n 
+  You can also bump into them at the very entrance, producing a slap sound as you get soft flinged into the ground.
+  
+  ##[Tunnel Types]
+  ###[__Default__]
+  The default tunnel is a concrete tunnel paired with yellow lights as its ceiling lights. It used to be the only tunnel in the game prior to it having multiple varieties paired with an overhaul, and is the first among others. 
+
+  ##[Trivia]
+  - You can still activate a tunnel's bump mechanic by no-clipping into the tunnel's roof, but be warned that without a [Mini-Bus](mini-bus), movement is heavily restricted until the tunnel passes.
+  - The very first tunnel used to be a single-lane tunnel that only fits the bus, until it extended into a triple-lane and had its height increased to fit three floors.
+    - The headroom prior to the overhaul was still cramped, making it extremely difficult to traverse without aid of hovering / flying items.
+  !!GALLERY [/assets/bussim/images/locations/tunnels/old-tunnel.webp]
