@@ -85,13 +85,16 @@ content: |-
         - hg[Option 1]: Alright.
         - hg[Option 2]: Why?
           - "Long story. No time to talk about it."
+    - hg[Option 6]: Favorite drink? <8px>((Only accessible during the Cafe Event.))
+      - "My favorite drink? Well, right now I'm actually craving, uh... it's a round tropical fruit. I forgot the name..."
+      - "Oh, this isn't what I was thinking. I remembered it- it's lychee. I like mango too, though. Thanks."
 
   ###[Drink Responses]
-  - If you give Red the wrong drink:
+  - If you give Steven the wrong drink:
     - "I appreciate it, but I think I'll pass on that one."
-  - If you give Red <clr:#151812>(***The Sludge.***):
+  - If you give Steven <clr:#151812>(***The Sludge.***):
     - "I appreciate it, but I think I'll pass on that one."
-  - If you give Red <clr:#FFD4B3>(***Mango Juice***):
+  - If you give Steven <clr:#FFD4B3>(***Mango Juice***):
     - "Oh, you actually brought me mango juice. Thanks."
       - If you given him another <clr:#FFD4B3>(***Mango Juice***):
         - "Oh, you actually brought me mango juice. Thanks."
