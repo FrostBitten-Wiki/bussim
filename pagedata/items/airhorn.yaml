@@ -1,20 +1,24 @@
-editable: True
+editable: true
 page:
   title: Airhorn
-  description: The Airhorn is an expensive gamepass item in Bus Simulator, costing 275R$, making it the second most expensive right behind the Licensed Barista. When used it produces a loud sound from where the player used it. It also has no cooldown per use allowing players to freely spam it, much to the inconvinience of others. 
-    
+  description: The Airhorn is an expensive gamepass item in Bus Simulator, costing
+    275R$, making it the second most expensive right behind the Licensed Barista.
+    When used it produces a loud sound from where the player used it. It also has
+    no cooldown per use allowing players to freely spam it, much to the inconvinience
+    of others.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
+
   tags: placeholder, item
 
   header:
     description: |
       Category: [Items](items)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/items/airhorn.webp
 
-attributions: 
+attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical)
   - Brought back (whoops) by FangedWerewolf (@noobbiom)
@@ -23,7 +27,7 @@ content: |
   "lol." -"Airhorn"
 
   ##[Info]
-  The Airhorn is an item obtained by purchasing its titular gamepass, costing 275R$, making it the second most expensive right behind the Licensed Barista. 
+  The Airhorn is an item obtained by purchasing its titular gamepass, costing 275R$; making it the second most expensive right behind the Licensed Barista. 
   \n\n 
   When used it produces a loud sound from where the player used it, and has no cooldown on use allowing players to freely spam it, much to the inconvinience of others.
   \n\n
@@ -34,7 +38,7 @@ content: |
   ##[Trivia]
   - It uses the Airhorn sound used for meme culture.
   - It also made its appearance in Kit Battle's Meme Boi Kit, where you can use the Airhorn to knockback players in a large range.
-  - While you can distract the house guests in [No Dough]no-dough) / [Santa's Gone](santas-gone), you can't use it in the [Backwalls](backwalls) to distract the [Entities](entity).
+  - While you can distract the house guests in [No Dough](no-dough) / [Santa's Gone](santas-gone), you can't use it in the [Backwalls](backwalls) to distract the [Entities](entity).
   - Despite it producing a loud sound, it can't echo in the caves, the bus, nor in the Backwalls.
   - This is the only gamepass item that has a badge locked behind it, being the [DEFENSTRATED badge](https://www.roblox.com/badges/2141806851/DEFENESTRATED), whereas all other badges are limited / obtainable freely. (Except Private Bus Owner, where you will need a private server.)
   #![comment tip: just mute your tool volume for the airhorn to be muted!!! its that simple!!!!]
