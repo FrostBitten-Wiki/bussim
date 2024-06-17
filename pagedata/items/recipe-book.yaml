@@ -1,0 +1,49 @@
+editable: true
+page:
+  title: Recipe Book
+  description: The Recipe Book is an item paired with the Cup Dispenser as part of the Licensed Barista Gamepass, which costs 450 R$.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+
+  tags: recipe book, book for recipes, lmao
+
+  header:
+    description: |
+      Category: [Items](items)
+
+    image: ''
+    imageBanner: /assets/bussim/images/items/recipe-book.webp
+
+attributions:
+  - hi lol - FangedWerewolf
+
+content: |
+  "Yummy Yummy Fun Time" -"Recipe Book"
+
+  ##[Info]
+  The Recipe Book is an item paired with the [Cup Dispenser](cup-dispenser) as part of the Licensed Barista Gamepass, which costs 450 R$.
+  \n\n 
+  When used, it displays custom recipes either made by you or from other players, with specific measurements on ingredients, order, and with name and description. It also shows you your last custom drink that you have made, giving you the option to create a custom recipe for itself.
+  \n\n 
+  ##[Creating Custom Recipes]
+  After creating a custom drink, you have the option to name your drink and give it a description (assuming it follows Roblox TOS). It has up to 6 slots of ingredients and allows you to share with them for others to use.
+  \n\n
+  The custom recipe shows the person who made it, when it was created (when the author first made it), and when it was discovered (when you recieved the recipe).
+  \n
+  ##[Modifying Custom Recipes]
+  \n
+  When modifying the recipe as the author, you have indirect control over how it affects those who have your recipe:
+  \n\n
+  Abandoning your recipe will delete it to the owner only, and those who have the recipe will have it be completely disassociated with your identity, showing a blank name and avatar. Even then, it is still possible to recover with the aid of others who have it, but it will still be disassociated from you.
+  \n\n 
+  Renaming the name and / or the description of your recipe won't instantly apply to everyone who has your recipe, but is rather provided with updated info alongside the old info for when they first recieved the recipe.
+  \n\n 
+  Lastly, you can also decide whether the recipe can be shared from those who have your recipe. This won't affect your ability to share your recipe with others, but prevent said others from sharing it further. 
+  \n\n
+  Abandoning your recipe will also have the share function kept as it was prior to being abandoned.
+
+  ##[Trivia]
+  - If any liquid / dry ingredients are poured even after reaching 190ml within the Recipe Creation UI, an image of Sisyphus will appear as the [World's Smallest Violin](https://www.youtube.com/watch?v=XdofmoYcJNE) plays in the background.
+    - Originally it was going to play the [Sisyphus Theme](https://www.youtube.com/watch?v=jcYvDZKLQJ0), as per with the image shown but is unfortunately copyrighted.
+
+  !!GALLERY [/assets/bussim/images/items/recipe-book.webp]
