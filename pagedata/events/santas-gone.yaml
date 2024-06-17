@@ -21,7 +21,6 @@ page:
 attributions: []
 
 content: |
-  !!INFOBOX TITLE:"Archived Content" COLOR:"#5555ff" TEXT:"*\"this isnt my final form, take that as you will\"* - D6\nv(This page has content that used to exist but was overhauled or replaced in the process, however will still be kept purely for archiving.)"
   !!BUTTONS [No Dough,location.href='no-dough'|<highlight>Santa's Gone</highlight>,location.href='']
   "...This may quite possibly be the worst decision we've ever made." -"Passenger"
 
