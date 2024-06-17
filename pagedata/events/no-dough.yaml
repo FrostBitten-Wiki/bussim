@@ -21,8 +21,8 @@ page:
 attributions: []
 
 content: |
-  "...This may quite possibly be the worst decision we've ever made." -"Passenger"
   !!BUTTONS [<highlight>No Dough</highlight>,location.href=''|Santa's Gone,location.href='santas-gone']
+  "...This may quite possibly be the worst decision we've ever made." -"Passenger"
   ##[Info]
   The No Dough event is an event where the bus runs out of gas, but nobody can afford to buy gas. The bus then pulls up at a house, with the passengers needing to break in via chimney to get some money and escape unnoticed.
   \n\n 

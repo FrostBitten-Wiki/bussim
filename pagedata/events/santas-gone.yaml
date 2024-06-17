@@ -21,8 +21,10 @@ page:
 attributions: []
 
 content: |
-  "...This may quite possibly be the worst decision we've ever made." -"Passenger"
+  !!INFOBOX TITLE:"Archived Content" COLOR:"#5555ff" TEXT:"*\"this isnt my final form, take that as you will\"* - D6\nv(This page is content that used to exist but was overhauled or replaced in the process, however will still be kept purely for archiving.)"
   !!BUTTONS [No Dough,location.href='no-dough'|<highlight>Santa's Gone</highlight>,location.href='']
+  "...This may quite possibly be the worst decision we've ever made." -"Passenger"
+
   ##[Info]
   Santa's Gone was a limited time event that came before the No Dough event, which was a limited time event in December 2021 and 2022. 
   \n\n 
