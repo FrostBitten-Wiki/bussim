@@ -24,22 +24,33 @@ attributions:
 content: |
  !!BUTTONS [<highlight>Lorem Ispum</highlight>,renderHTML('/wiki/bussim/mockup')|Dialogue Mockup,renderHTML('/wiki/bussim/mockup/dialogue')]
 
- ##[]
+ #[Holy Guacamole Section]
+ #![this never gets used lmao]
+ ##[Big Section / Main Section]
+ ###[Small Section / Sub Section]
 
- !!INFOBOX TITLE:"Admin Exclusive Content" COLOR:"#c00c70" TEXT:"*\"I saw some dude jumping around with some sort of rocket launcher made of cones a while ago. Not sure how it works, but if I were you, I wouldn't make them angry.\"* - Tazer\nv(This page has content exclusive to admins of the game. This may include scrapped / hidden content that is normally inaccessible during normal gameplay.)"
-
- !!INFOBOX TITLE:"Future Update" COLOR:"#70c00c" TEXT:"*\"New update delayed until next month, hopes high for the annual quota.\"* - News Bot\nv(This page has content planned to be added, but not yet implemented. All content is subject to change.)"
-
+ ##[Infoboxes]
+ This is mainly put here for sampling infoboxes on various pages, depending if their context fits.
+ ###[Admin Exclusive Content]
+ !!INFOBOX TITLE:"Admin Exclusive Content" COLOR:"#ff66ff" TEXT:"*\"Sometimes I've seen a bus that has a lot of other strange stuff on or around it, as well as some dude holding some Blueprints. How do they do it...?\"* - Zeon\nv(This page has content exclusive to admins of the game. This may include scrapped / hidden content that is normally inaccessible during normal gameplay.)"
+ Color: Pink \n\n
+ ###[Early Access Content]
+ !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Still striking iron while it's hot.\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update a whole lot easier! Really convienient, don't ya think?)"
+ Color: Orange \n\n
+ ###[Stubbed Content]
  !!INFOBOX TITLE:"Work In Progress" COLOR:"#c0700c" TEXT:"*\"not much to talk here, but.. well..\"* - efeuc\nv(This page is a stub, it may not contain all of the information in the game; so adding more information to this page is always appreciated!)"
-
- !!INFOBOX TITLE:"Contributor Exclusive Content" COLOR:"#c00c0c" TEXT:"*\"Text\"* -random guy\nv(This page has content exclusive to contributors of the game. This will include hidden content that is normally inaccessible during normal gameplay.)"
-
+ Color: Brown \n\n
+ ###[Deleted / Archived Content]
  !!INFOBOX TITLE:"Deleted Content" COLOR:"#700c0c" TEXT:"*\"Ehhhh... I'm kind of feeling a bit spooked right now. I have a big sense of like, deja vu.. Maybe next time...\"* -Tazer guy\nv(This page has content that's already been deleted from the game, however will be kept purely for archival purposes.)"
+ Color: Pure Red \n\n
+ ###[Easter Egg Content]
+ !!INFOBOX TITLE:"Easter Egg Content" COLOR:"#A1FFEF" TEXT:"*\"funny\"* - Fang\nv(This page is mainly easter egg content and is *never* found in the game. This is also where Wiki Contributors mess around.)"
+ Color: Baby Blue \n\n
 
+ ##[Quotes]
  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." -"Lorem ipsum dolor sit amet"
 
- ##[Info]
-
+ ##[Info / Text]
  Lorem ipsum dolor sit amet, 
  consectetur adipiscing elit, 
  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
