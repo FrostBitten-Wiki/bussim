@@ -53,7 +53,7 @@ content: |-
 
   ###[**Cafe**]
   There is currently no available emulator for MLG's Coffee Shop dialogue.
-  ##[**Cafe (Intro / Post-Idle)**]
+  ###[**Cafe (Intro / Post-Idle)**]
   - hg[Variant 1]: "Uh, who're you? <Player>? Do I know you?"
   - hg[Variant 2]: "Oh, hey. What's up, whoever you are?"
   - hg[Variant 3]: "Don't know how I'm still allowed back here... Oh, hey."
@@ -91,12 +91,12 @@ content: |-
           - "Yeah, whatever. Buzz off."
     - hg[Option 3]: Bye. 
       - "Oh, bye?"
-  ##[**Cafe (During Minigame)**]
-  ##[**Cafe (Evaluation)**]
+  ###[**Cafe (During Minigame)**]
+  ###[**Cafe (Evaluation)**]
   - If the players have <clr:#45ff45>(successfully) provided almost all of the customers with the correct order:
   - If the players have <clr:#ff4545>(failed) to provide almost all of the customers with the correct order:
 
-  ##[**Cafe (Post Evaluation)**]
+  ###[**Cafe (Post Evaluation)**]
 
   ###[Drink Responses (Cafe)]
   - If you give MLG the wrong drink:
