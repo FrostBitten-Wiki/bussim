@@ -43,7 +43,7 @@ content: |-
         - hg[Option 1]: Unfortunate!
     - hg[Option 2]: Okay.
 
-  ###[When the bus has been parked for too long]
+  ###[**Cafe (Idle, if no players started the minigame for a while)**]
   - "That bus has been out there for a while now..." <small>(This is said on the Roblox Chat)</small>
   - "Hey um, can you move? You're taking up all of the parking space.. I don't think my customers can get in like this."
   - You: "We can't"

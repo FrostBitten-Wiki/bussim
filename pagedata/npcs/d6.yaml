@@ -38,14 +38,15 @@ content: |-
   D6's favourite drink is [The Sludge](cafe-coffee-recipes). This gives you either 4 Passenger Rep or 4 Driver Rep.
 
   ##[Dialogue]
+  ###[**Goat Station**]
   !!DLEMULATOR EID:"d6emulator" SID:"start" URL:"/assets/bussim/emulatorData/d6.json"
 
-  - Variant 1 : "im d6"
-  - Variant 2 : "you." (If the player is on dSiiiiiix's friends list)
-  - Variant 3 : "man i could really go for some graham crackers right about now" (If the current day is Monday)
-  - Variant 4 : "and if youuuuuu cant believe it" (If the current day is Friday)
-  - Variant 5 : "i cant believe i had to drive all the way to work" (If the current day is Saturday)
-  - Variant 6 : "would you like to sign my petition? ...nevermind" (If the current day is Tuesday)
+  - hg[Variant 1] : "im d6"
+  - hg[Variant 2] : "you." (If the player is on dSiiiiiix's friends list)
+  - hg[Variant 3] : "man i could really go for some graham crackers right about now" (If the current day is Monday)
+  - hg[Variant 4] : "and if youuuuuu cant believe it" (If the current day is Friday)
+  - hg[Variant 5] : "i cant believe i had to drive all the way to work" (If the current day is Saturday)
+  - hg[Variant 6]: "would you like to sign my petition? ...nevermind" (If the current day is Tuesday)
       - hg[Option 1]: Any wisdom for today?
           - hg[Variant 1]:
               - Variant 1A (PC):
@@ -307,8 +308,80 @@ content: |-
                                   - "uhh yeah, i sure hope it does."
                                   - "they can't talk"
                       - hg[Option 2]: Dang.
-              - hg[Variant 16]: (If you already talked to d6 about the joke book, this will replace it instead. The optiosn and dialogue are the same.)
+              - hg[Variant 16]: (If you already talked to d6 about the joke book, this will replace it instead. The options and dialogue are the same.)
                   - "im still trying to make sense of the pages"
+  ###[**Cafe**]
+  - hg[Variant 1]: "qhar"
+  - hg[Variant 2]: "waugh"
+  - hg[Variant 3]: "Utter your feeble words, peasant. Reveal to me the audacity that summons you to intrude upon mine realm. What purpose, what wretched business do you dare bring before me."
+  - hg[Variant 4]: "whar"
+  - hg[Variant 5]: "wawa"
+  - hg[Variant 6]: "wjat"
+  - hg[Variant 7]: "??????"
+  - hg[Variant 8]: "huh whuh"
+  - hg[Variant 9]: "hm"
+  - hg[Variant 10]: "what"
+    - hg[Option 1]: Questions...
+        - "ask away" 
+            - hg[Option 1]: Why do I only find you in dumpsters?
+                - "you know the pipes from the series with the italian plumber dude?"
+                    - hg[Option 1]: No. 
+                        - "ok"
+                    - hg[Option 2]: Yeah. 
+                        - "that"
+            - hg[Option 2]: What are you doing? 
+                - hg[Variant 1]: "pyromancy" (First time selection)
+                    - hg[Option 1]: Why? 
+                        - "..."
+                        - "i don't know."
+                    - hg[Option 2]: Cool.
+                - hg[Variant 2]: "nothing" (After first time)
+                    - Cool.
+            - hg[Option 3]: What do you do?
+                - "im"
+                - "d6" 
+                    - Yeah, but like what do you DO?
+                        - "yeah how about you learn to listen the first time" 
+                            - sorry 
+                                - "hi"
+            - hg[Option 4]: Why the cans?
+                - "i REALLY love bloxy cola dude" (The word "REALLY" uses effects that makes it incomprehensible.)
+                - "seriously they do Not have this where im from"
+                - "i might be addicted"
+                    - hg[Option 1]: That seems unhealthy.
+                        - "Silence yourself. Keep thy forked tounge behind thine teeth. Leave me to rot in a pool of my own indulgence."
+                            - Ok.
+                    - hg[Option 2]: Where're you from? 
+                        - "oh you know"
+                        - "big mazey place, lots of walls, moldy carpet stench..."
+                        - "weird gray feline that shows you the way out for a scamworthy amount of rep"
+                        - "..." 
+                        - "Perhaps I have said too much." 
+                            - Perchance.
+                                - ". . .. . .. . .you can't just say 'perchance'."
+                    - hg[Option 3]: Can I have one? (If the player doesn't have Cola in their inventory)
+                        - "" 
+                        - "" 
+                        - ""
+                        - "sure"
+                        - "it would be impolite of me to leave a visitor bloxy cola-less"
+                            - Thanks.
+                            - The player then recieves a [Bloxy Cola](cola).
+                    - hg[Option 4]: Want another? (If the player has Cola in their inventory) 
+                        - hg[Variant 1]: 
+                        - hg[Variant 2]: "yeah nice try dude." (If the player picks this option twice)
+                            - The player is then resized to 0.1% of their original length and shortly after explodes.
+    - hg[Option 2]: Nevermind. 
+        - "ok"
+    - hg[Option 3]: Wisdom?
+        - "mmm"
+        - "No."
+        - "i cannot wisdom here. no sir no sir"
+        - "catch me behind the gas station though. the 5g waves are stronger there"
+            - "Ok."
+    - hg[Option 4]: Hi.
+        - "EXPLODE"
+            - The player immediately explodes.
 
   ###[Drink Responses (Cafe)]
   - If you give D6 the wrong drink:
@@ -346,5 +419,6 @@ content: |-
   - When Bus Simulator got age restricted for 14+ for the first time, the reasoning as to why it was restricted was because D6's "why havent you been flattened by a 2 ton slab of concrete" was more than enough for the game to receive a Violence tag.
     - This was appealed however, but it wasn't the last time Bus Simulator had been age-restricted before.
   - D6 is the only NPC to respond when the player spams the [Airhorn](airhorn), but without talking once.
+  - Based off of the dialogue for where he originated from, the hints provided alongside the ['weird gray feline'](pear) allude to his origin place being the [Backwalls](backwalls).
 
   !!GALLERY [/assets/bussim/images/npcs/d6.webp|/assets/bussim/images/npcs/d6-really-old.webp]  

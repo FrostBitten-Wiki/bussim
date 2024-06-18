@@ -29,9 +29,9 @@ content: |-
   ##[Favourite Drink]
   Steven's favourite drink is [Mango Juice](cafe-coffee-recipes). This gives you either 8 Passenger Rep or Driver Rep.
 
-  ##[Dialogue (Bloxdonalds)]
+  ##[Dialogue]
+  ##[**Bloxdonalds]
   !!DLEMULATOR EID:"stevenemulator" SID:"start" URL:"/assets/bussim/emulatorData/steven.json"
-
   - "Uh, hey."
     - hg[Option 1]: What are you doing back here?
     - hg[Option 2]: [Leave quietly.]
@@ -45,9 +45,8 @@ content: |-
         - hg[Option 2]: What?
           - "What?"
       
-  ##[Dialogue (Steven Ride)]
+  ###[**Steven Ride]
   !!DLEMULATOR EID:"stevenrideemulator" SID:"start" URL:"/assets/bussim/emulatorData/stevenride.json"
-
   - hg[Variant 1]: "Hey."
   - hg[Variant 2]: "Yeah?"
   - hg[Variant 3]: "What's up?"

@@ -26,7 +26,8 @@ content: |-
   ##[Favourite Drink]
   MLG's favourite drink is [Pumpkin Spice Mocha](cafe-coffee-recipes). This gives you either 1 Passenger Rep or 1 Driver Rep.
 
-  ##[Dialogue (GOATed Gas Station)]
+  ##[Dialogue]
+  ###[**Goat Station**]
   !!DLEMULATOR EID:"goat_mlgemulator" SID:"start" URL:"/assets/bussim/emulatorData/mlg.json"
 
   - "Hey, what are you doing here? Did we leave the door open?"
@@ -39,7 +40,7 @@ content: |-
                     - hg[Option 1]: WOAH, okay! Fine! I won't!
                         - "Good."
                     - hg[Option 2]: I'm not scared of you.
-                        - (The Player Dies)
+                        - The player dies.
     - hg[Option 2]: Bye.
     - hg[Option 3]: Who are you?
         - "Oh, uh, my name is MLG. It's short for MLGBudderCD. I'm only here because of how dirt cheap the rent is around here."
@@ -50,8 +51,52 @@ content: |-
                     - hg[Option 2]: Neat, bye.
             - hg[Option 2]: 'Kay, bye.
 
-  ##[Dialogue (Coffee Shop)]
+  ###[**Cafe**]
   There is currently no available emulator for MLG's Coffee Shop dialogue.
+  ##[**Cafe (Intro / Post-Idle)**]
+  - hg[Variant 1]: "Uh, who're you? <Player>? Do I know you?"
+  - hg[Variant 2]: "Oh, hey. What's up, whoever you are?"
+  - hg[Variant 3]: "Don't know how I'm still allowed back here... Oh, hey."
+  - hg[Variant 4]: "...hm? Oh, sorry, I was staring off into the void. Did you need something?"
+    - hg[Option 1]: Do you... work here?
+      - "Uh, no? Why would you think that?"
+        - hg[Option 1]: Can I get a large coffee? Er, veinte coffee? Venting??
+          - <clr:#ff4545>("I don't work here. Go away.")
+            - hg[Option 1]: But my coffee... 
+              - <clr:#ff4545>("Don't care, didn't ask, get out of my sight.")
+            - hg[Option 2]: Ok :(
+        - hg[Option 2]: You're behind the counter?
+          - "Oh, I just stand back here 'cause it's nice and quiet, and it lets me get a good stretch in. Nobody's tried to stop me, so I don't think anyone cares... Plus, this place doesn't pay nearly enough for me to want to work here..."
+            - hg[Option 1]: I need to find an employee. 
+              - "Good luck with that."
+            - hg[Option 2]: Why are you HERE anyway?
+        - hg[Option 3]: Nevermind.
+          - "See you later? Or not."
+    - hg[Option 2]: Why are you blue?
+      - "A bit rude to just ask somebody that out of nowhere..."
+        - hg[Option 1]: Yeah, okay. But why?
+          - "Ugh, fine."
+          - "It's a side effect of multiversal travel. I used my tech too much and now I'm all blue. Thankfully that's the only side effect... <small>hg[The only one I notice, at least.]</small>"
+            - hg[Option 1]: Multiversal what now???
+              - "Yeah, I kind of... invented my own form of it. It's very useful for getting around. Turning blue was worth it, in my opinion."
+              - "I'm not gonna go into any more detail, 'cause I don't want you to copy me. Can't spill all my secrets."
+            - hg[Option 2]: That's really cool. 
+              - "Oh, uh, glad you think so. I worked really hard on it."
+            - hg[Option 3]: Skill issue. 
+              - "WOW, okay. Do you know how long it took for me to figure this out? This is MULTIVERSAL TRAVEL we're talking about. ALTERNATE UNIVERSES."
+              - "I'd like to see YOU come up with the formula for it, let alone acquiring the hardware. The nerve."
+            - hg[Option 4]: Uh, okay.
+              - "Yeah, it's.. it's complex."
+        - hg[Option 2]: Oops, sorry.
+          - "Yeah, whatever. Buzz off."
+    - hg[Option 3]: Bye. 
+      - "Oh, bye?"
+  ##[**Cafe (During Minigame)**]
+  ##[**Cafe (Evaluation)**]
+  - If the players have <clr:#45ff45>(successfully) provided almost all of the customers with the correct order:
+  - If the players have <clr:#ff4545>(failed) to provide almost all of the customers with the correct order:
+
+  ##[**Cafe (Post Evaluation)**]
 
   ###[Drink Responses (Cafe)]
   - If you give MLG the wrong drink:

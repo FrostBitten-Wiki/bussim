@@ -31,7 +31,8 @@ content: |-
   ##[Favourite Drink]
   Zeon's favourite drink is [Strawberry Smoothie](cafe-coffee-recipes). This gives you either 1 Passenger Rep or 1 Driver Rep.
 
-  ##[Dialogue (GOATed Gas Station)]
+  ##[Dialogue]
+  ###[**Goat Station**]
   !!DLEMULATOR EID:"gas_zeonemulator" SID:"start" URL:"/assets/bussim/emulatorData/zeon.json"
 
   - hg[Variant 1]: "WHY ARE YOU IN MY HOUSE?!?!?!?!?!?!"
@@ -64,7 +65,7 @@ content: |-
   - If the airhorn is used repeatedly in proximity to Zeon for a second time and so on
     - "Ugh...."
 
-  ##[Dialogue (Coffee Shop)]
+  ##[**Cafe**]
   - hg[Variant 1]: "Oh uh... hey there."
   - hg[Variant 2]: "omg hiii!! haiii!!! :D" (Friend-Exclusive)
   - hg[Variant 3]: "Hey, what's up?"

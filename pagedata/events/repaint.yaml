@@ -40,6 +40,7 @@ content: |
     - h[If a single color wins...]
       - hg[Variant 1 : Player]: "Turned out better than I thought it would."
       - hg[Variant 2 : Player]: "...<winning color>, huh? Interesting choice..."
+      - hg[Variant 3 : Player] "Heyy, <winning color> won!"
         - hg[Variant 1 : Player]: "Snazzy."
    - h[If multiple colors win...]
      - hg[Variant 1 : Player]: "Oh, it's a tie. Uh.. let's have the best of both worlds..?"

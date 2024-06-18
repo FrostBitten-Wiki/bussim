@@ -30,7 +30,7 @@ content: |-
   Red's favourite drink is [Strawberry Smoothie](cafe-coffee-recipes). This gives you either 1 Passenger Rep or 1 Driver Rep.
 
   ##[Dialogue]
-  ###[BloxDonalds]
+  ###[**BloxDonalds**]
   !!DLEMULATOR EID:"redemulator" SID:"start" URL:"/assets/bussim/emulatorData/red.json"
 
   - hg[Variant 1]: "Welcome to BloxDonalds.. if you're wondering, the door is broken."
@@ -52,7 +52,7 @@ content: |-
                   - "Don't ask questions you aren't prepared for the answers to."
                       - hg[Option 1]: Sheesh, sorry..
                       - hg[Option 2]: Nevermind.
-  ###[Bloxdonalds (Backwalls)]
+  ###[**BloxDonalds (Backwalls)**]
   !!DLEMULATOR EID:"redemulator" SID:"start" URL:"/assets/bussim/emulatorData/red-backwalls.json"
 
     - hg[Variant 1]: "Welcome to BloxDonalds, it's not what you are expecting."

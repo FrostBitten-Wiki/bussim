@@ -40,6 +40,9 @@ content: |
         - "Just a humble soda stand vendor!"
     - hg[Option 3]: Sure!
         - "Cool! Here's your free soda! Enjoy!"
-            - Lemon Soda
+          - If the player doesn't have one currently:
+            - The player recieves a [Lemon Soda](lemon-soda)
+          - If the player already has one: 
+            - "Hey...you already have a soda! One per customer!"
 
   !!GALLERY [/assets/bussim/images/npcs/mirocev.webp]  

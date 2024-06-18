@@ -58,9 +58,8 @@ content: |
   \n\n
 
   ##[Dialogue]
-
+  *Related Article:* [Pear](pear)
   ###[Event Intro]
-
   - hg[Variant 1]:
     - "Oh, an event is starting, huh?"
     - "Wait, actually that's for me. I'm taking over the bus!"
@@ -70,20 +69,19 @@ content: |
   - hg[Variant 3]:
     - "Not another event... Which one is it gonna be now?"
     - "Actually.. that's it. Your new event: ME."
-
-  All Intro Dialogue Ends With Pear Saying "To the bus driver: you'd better scramble like an egg, before I *FOLD YOU* like an *OMLETTE*.
+      - Continuation (after any variant):
+        - "To the bus driver: you'd better scramble like an egg, before I *FOLD YOU* like an *OMELETTE*.
 
   ###[Interacting With Pear (Only New Dialogue)]
-
   - "Hey, I'm trying to focus on driving, make it quick."
   - "I wish i could trade <float>hr[Pearcoin^(TM)]</float> while driving..."
   - "This is certainly the vehicle ever..."
     - hg[Option 2]: Let's Talk!
       - "You better thank me for this."
-      - "Okay fine, give me a second"
-      - "Okay fine, I guess it is kinda quite in here."
+      - "Okay fine, give me a second."
+      - "Okay fine, I guess it is kinda quiet in here."
       - "You want to talk? While I'm driving?"
-      - (If the player count is above 5) "There's like (current players) people on the bus, and you want to talk to the only person who has to focus on the road..."
+      - (If the player count is above 5) "There's like <x Players in Current Server> people on the bus, and you want to talk to the only person who has to focus on the road..."
         - hg[Variant 1]:
           - "I'd challenge you to a rap battle right now..."
           - "But I'm driving the bus!"

@@ -55,10 +55,9 @@ content: |-
   \n\n 
   After the song ends, depending on your score will determine how well you did: if you exceed past 10,000 in scores then you win against Pear; otherwise you lose. You'll also gain access to play against Pear with other songs following Pearing Out. 
 
-  ##[Dialogue (The Bus)]
+  ##[Dialogue]
   !!DLEMULATOR EID:"pearemulator" SID:"start" URL:"/assets/bussim/emulatorData/pear.json"
-
-  ##[Dialogue Tree]
+  ###[**The Bus (Default)**]
   - hg[Variant 1]: "Oh, hey <Player>!!! I know you!! (If the player is friends with Pear on Roblox)"
   - hg[Variant 2]: "Did you know that in terms of... busses, this is a pretty nice one! What's up, though?"
   - hg[Variant 3]: "mmrrreoww~?"
@@ -67,7 +66,7 @@ content: |-
   - hg[Variant 6]: "Hold on just a second... just trading my pearcoinTM"
   - hg[Variant 7]: "Heyaaa! What're you talkin to me for?"
   - hg[Variant 8]: "<Player>?! I didn't expect to see you here!!"
-  - Varaint 9: "Tender soul splintered, folded in the inner...~ Huh, sorry... What's goin on?"
+  - hg[Variant 9]: "Tender soul splintered, folded in the inner...~ Huh, sorry... What's goin on?"
       - hg[Option 1]: Sorry, just walking by.
       - hg[Option 2]: Let's talk!
           - hg[Variant 1] (If the player count is below 5): "I mean, it is pretty lonely in here.."
@@ -222,7 +221,7 @@ content: |-
           - "Oh, sure! Use that mirror of yours and we can start!"
               - AFter the player uses the [Magic Mirror](magic-mirror) next to Pear, you'll gain access to play other songs in Friday Night alongside Pearing Out. 
 
-  ###[If you became billy]
+  ##[**The Bus (Billy)**]
   !!DLEMULATOR EID:"billy_pearemulator" SID:"start_billy" URL:"/assets/bussim/emulatorData/pear.json"
 
   - Pear chooses any Intro Variants
@@ -337,10 +336,175 @@ content: |-
     - "Die."
       - The player is then killed.
 
-  ##[Dialogue (Backwalls)]
+  ###[**The Bus (Pear Takes The Wheel)**]
+  !!INFOBOX TITLE:"Work In Progress" COLOR:"#c0700c" TEXT:"*\"not much to talk here, but.. well..\"* - efeuc\nv(This page is a stub, it may not contain all of the information in the game; so adding more information to this page is always appreciated!)"
+  *Related Article:* [Pear Takes The Wheel](pear-takes-the-wheel)
+  - hg[Variant 1]: "This is certainly the vehicle ever..."
+  - hg[Variant 2]: "Hey, I'm trying to focus on driving, make it quick."
+  - hg[Variant 3]: "I wish i could trade <float>hr[Pearcoin^(TM)]</float> while driving..."
+  - hg[Variant 4]: "Need something?"
+  - hg[Variant 5]: "<Player>?! I didn't expect to see you here!!" (Unconfirmed)
+  - hg[Variant 6]: "Tender soul splintered, folded in the inner...~ Huh, sorry... What's goin on?"
+      - hg[Option 1]: Sorry, just walking by.
+      - hg[Option 2]: Let's talk!
+          - hg[Variant 1]: You want to talk? While I'm driving?
+          - hg[Variant 2] "You better thank me for this."
+          - hg[Variant 3] (If the player count is below 5): "Okay fine, I guess it is kinda quiet in here."
+          - hg[Variant 4] (If the player count is above 5) "There's like <x Players in Current Server> people on the bus, and you want to talk to the only person who has to focus on the road..."
+          - hg[Variant 5]: "Okay fine, give me a second."
+          - Continuation (after any variant):
+              - hg[Variant 1]: "I'd challenge you to a rap battle right now..."
+                  - "But I'm driving the bus!"
+              - hg[Variant 2]: "Tell Frost he owes me a tub of ice cream the next time he sees me..."
+                  - "No reason in particular, I just want one!"
+                      - hg[Option 1]: Maybe someday.
+                      - hg[Option 2]: Been there, done that. (If the player already completed and/or is still doing the Animal Messenger quest)
+              - hg[Variant 3]: "I first got on this bus like... forever ago. I can't really remember when it was, even."
+                  - "Although this bus ride has gone on for so long.. it gave me a lot of time to just think..."
+                  - "So I did! I thought about a bunch of stuff, including myself! I ended up gaining a new hobby! I took up knitting, and it's a really fun way to pass the time!"
+                  - "I think I've gotten pretty good at it.. would you like to have something of mine~?"
+                      - hg[Option 1]: Yeah, for sure!
+                          - "Thaaanks!! oh, what, you thought it was free? heck no, this is a business opportunity!"
+                              - The player is prompted to buy a random shirt from Pear's Clothing.
+                                  - If the player doesn't purchase the shirt or already owns it:
+                                      - "Oh.. I guess you didn't like it..? I'll try and do better next time.."
+                                  - If the player purchases the shirt:
+                                      - The shirt is applied to the player's avatar. (Shirt does not stay after rejoin or respawn.)
+                                          - "Whuh!! You look amazing in that! I almost wanna pay you for wearing it! I'm not lying! You've actually inspired me to keep going, so I'll have more clothes for you the next time you see me!"
+                      - hg[Option 2]: Ah, no thanks.
+                          - "Aw... You would have looked good in it, though."
+              - hg[Variant 4]: "Hey, you want some pearcoinTM?"
+                  - hg[Option 1]: Sounds like a scam.
+                      - "I would never!"
+                  - hg[Option 2]: I already have one. (If the player owns a Pearcoin)
+                      - "You do? Thanks... It's worth nothing actually!"
+                  - hg[Option 3]: Sure.
+                      - "Gotcha, I've fired up the pearcoinTM machine! Give it a try!"
+                          - The player is prompted to buy a Pearcoin for 2 Robux.
+                              - If the player already owns a Pearcoin:
+                                  - "Oh, right! I forgot to tell you. There's a limit on how much pearcoinTM you can purchase~! It's one. You can only buy one pearcoinTM. That's why its singular, not plural!"
+                              - If the player buys it:
+                                  - "Congratulations!! You're now the owner of one whole pearcoinTM!!"
+                                  - "Take it in bud, you're officially part of the 1% now..."
+                                  - "The 1% who actually fell for it... sucker~"
+                                      - (This gives you a hr[pearcoinTM], useful for befriending [Frostbite](frostbite).)
+              - hg[Variant 5]: "My favorite pizza is just plain cheese pizza!"
+                  - "Though black olives are good too..."
+                  - If the player has given Pear a Cheese Pizza in the game piza:
+                      - "You've already given me one before though~!"
+              - hg[Variant 6]: "Today feels like any other day, honestly, Wonder if you feel the same?"
+              - hg[Variant 7]: "Do you play.. err, that one battle royale game with the buildings and stuff? I do.. sometimes. I think."
+              - hg[Variant 8]: "Have you seen a brown cat? They look a bit like, uhm... the season fall? Crown necklace and earring? No? Awh... Tell me if you do, though!!"
+              - hg[Variant 9]: "I think people are confused about my gender. I figured I should clear stuff up, so remember that my pronouns are he/they!"
+                  - "Uhh, there is a third one, but my lawyers have advised me not to tell you."
+              - hg[Variant 10]: "Psst, hey! Wanna learn the secret to free rep?"
+                  - hg[Option 1]: Can you tell me more?
+                      - "Well, basically, when you hang out with your friends for like, an hour, you can both earn some driver and passenger rep..."
+                      - "You can get rewarded for up to three friends a day. You earn 10 driver rep for the first friend, and 5 driver rep for the other two. You get 10 passenger rep every time, though~"
+                      - "The friends you invite get 10 driver and passenger rep as well. Neat, right?"
+                      - "And since you can do this every day, according to my calculations, that means... uhh, carry the two.. and..."
+                      - "MEOW! That's like, 200 reputations a week or something??"
+                      - "So... You interested?"
+                          - hg[Option 1]: I'm in!
+                              - "Pawsome~ Just tell me who to call!!"
+                                  - An Invite Friends prompt appears.
+                          - hg[Option 2]: Nah.
+                              - "Alright! If you ever change your mind, you know who to call."
+                  - hg[Option 2]: Sounds good to me!
+                      - "Pawsome~ Just tell me who to call!!"
+                          - An Invite Friends prompt appears.
+                  - hg[Option 3]: I have no friends.
+                      - "Oh. Uhm, yeowch... Didn't mean to rub salt in the wound, there... Hope you find some soon...?"
+                  - hg[Option 4]: Nah.
+                      - "Alright! If you ever change your mind, you know who to call."
+              - hg[Variant 11]: "You should play Kit Battle! It's a pretty great game in my honest opinion..."
+                  - hg[Option 1]: I will play it right now.
+                      - "Good, have fun~!"
+                          - The game will teleport you to Kit Battle.
+                  - hg[Option 2]: Is this sponsored?
+                      - "Totally not!! I would never take money to advertise a game..."
+                      - "You definitely should play Kit Battle though..."
+                  - hg[Option 3]: Did you just-?
+                      - ...no?
+                      - (If the player's account age is 12 or younger \[<12\], this dialogue plays instead.)
+                          - "Hey, you should pl-- Oh, uhm..."
+                              - hg[Option 1]: I'll just go.
+                              - hg[Option 2]: ...? What's up?
+                                  - "S-Sorry, looks like I'm getting a call! Please hold..."
+                                  - "Meowdy, Pear speaking~!"
+                                  - "Uh-huh... uh-huh...oh, excuse me, could you repeat that..?"
+                                  - "oh, shoot... on god? they're a...?"
+                                  - "okay, thank you so much for letting me know... talk to you later, meow~!"
+                                  - "Um, uh, heeeey, you!"
+                                      - hg[Option 1]: What was that about?
+                                          - "Um, nothing! I've gotta go now, see ya!!!"
+                                      - hg[Option 2]: Um.. hi..?
+                                          - "Yooo, you're talkin' to me? Brand new conversation, with me?! That's crazy! We should talk about how..."
+                                              - Pear then chooses a random dialogue line.
+              - hg[Variant 12]
+                  - "It's pretty nice out today, wouldn't you agree?"
+                      - hg[Option 1]: Yeah. 
+                          - "Yeah~"
+                      - hg[Option 2]: Nah. 
+                          - "Agree to disagree~"
+              - hg[Variant 13]
+                  - My favorite drink is Vanilla Almond Milk!
+                      - "Although... I wonder what a shield potion tastes like..."
+              - hg[Variant 14] (during Bus Simulator's 5th birthday):
+                  - "Heyyy, it's the busses birthday! We're celebrating with cake! Pretty cool, right?"
+                  - "I do have a warning for you though... Whatever you do, don't drink a" [Bloxy Cola](bloxy-cola) "alongside the" [cake](bus-birthday-cake) "... You'll regret it~!"
+              - hg[Variant 15] (while in a Snowy / Frozen biome):
+                  - If the player doesn't possess the [Hot Chocolate](hot-chocolate) item:
+                      - "Hey, you look cold. Want a warm drink?"
+                          - hg[Option 1]: Yeah. 
+                              - "Here, take one. I made a bunch a while back. I wonder how they're still warm..?" 
+                                - The player then obtains the [Hot Chocolate](hot-chocolate).
+                          - hg[Option 2]: Nah. 
+                              - "Suit yourself."
+                  - If the player already possesses the [Hot Chocolate](hot-chocolate) item:
+                      - "Enjoying your hot chocolate?"
+                          - hg[Option 1]: Yeah. 
+                              - "Good, 'cause I made it with love~"
+                          - hg[Option 2]: Nah. 
+                              - "Oh... Sorry..."
+      - hg[Option 3]: Invites...
+          - This triggers the Invites Variant from the "Let's Talk" option.
+      - hg[Option 4]: Buy Songs
+          - "You sure you wanna buy songs for everyone in the server? It's a little useless after... The Incident..."
+              - hg[Option 1]: Uhm, nevermind...
+                  - "Yeah, thought so~"
+              - hg[Option 2]: Yeah, I'm sure.
+                  - "Well then... *ahem*... You feelin generous? I can give everyone in the server some songs~ Trust me, it's worth it!"
+                      - You are then prompted to buy two songs for everyone in the server for 80 Robux.
+      - hg[Option 5]: Let's rap! (only unlockable after beating Pearing Out)
+          - "Oh, sure! Use that mirror of yours and we can start!"
+              - AFter the player uses the [Magic Mirror](magic-mirror) next to Pear, you'll gain access to play other songs in Friday Night alongside Pearing Out. 
+  
+  ###[Drink Responses (Pear Takes The Wheel)]
+  - If you give Pear the wrong drink:
+    - "Oh, is that drink for me? Thanks!"
+  - If you give Pear <clr:#151812>(***The Sludge.***):
+    - "Wh... WHAT is that???"
+    - "Uh... yeah... thank you?"
+    - "I'll... uh... drink that... later... haha... when you walk away... totally..."
+    - "..."
+      - Pear then throws out <clr:#151812>(***The Sludge.***)
+  - If you give Pear <clr:#FFF5EB>(***Vanilla Almond Milk***):
+    - "Oh? Is that for me????"
+    - "Thank you!! That's my favorite drink..."
+      - If you given him another <clr:#FFF5EB>(***Vanilla Almond Milk***):
+        - "Oh? Is that for me????"
+          - "Thank you!! That's my favorite drink..."
+      
+  ###[Airhorn-Related Dialogue]
+  - If the airhorn is used repeatedly in proximity to Pear
+    - "MMEEEOOOOOWWWWWWWW!!!!!"
+    - "You. Scramble like an egg, before I fold you like an omelette."
+  - If the airhorn is used repeatedly in proximity to Pear a second time
+    - "Die."
+      - The player is then killed.
 
-  ###[Standard]
-
+  ###[**The Backwalls**]
   - hg[Variant 1]: "Oh, hey! Another person!"
   - hg[Variant 2]: "Huh..? Oh, hey!"
   - hg[Variant 3]: "Ah, hello!"
@@ -429,23 +593,19 @@ content: |-
                         - Whilst encountering the Entities of the Backwalls, Pear will make them not attack the player.
                           - However, this does not protect other players that follow Pear as well.
 
-  ###[After Paying]
-
+  ###[**The Backwalls (After Paying)**]
   - hg[Variant 1]: "Here we go, on a dangerous journey to the exit!"
 
-  ###[When encountering an entity]
-
+  ###[**The Backwalls (Entity Encounter)**]
   - hg[Variant 1]: "Hello, I'm currently leading someone away from you. If you'd be so kind as to keep them alive, that'd be great."
   - hg[Variant 2]:
 
-  ###[When encountering another player]
-
+  ###[**The Backwalls (Player Encounter, has to be different from Pear's Client)***]
   - hg[Variant 1]: "Hello there, new person! Just letting you know, I'm only responsible for my client back there. Join at your own risk!"
 
-  ###[When arriving at the exit]
+  ###[**The Backwalls (Exit Arrival)**]
 
-  ###[If Pear cannot find the exit]
-
+  ###[**The Backwalls (If the direct path to the exit fails)**]
   - "E-ehm... J-Just.. give me a second..." <small>(Pear then attempts to pathfind to the closest spot nearest to the Escape room, if possible)</small>
     - If the pathfind check succeeds:
       - "I'll try my best to get there, but it's not gonna be super accurate, okay?"
