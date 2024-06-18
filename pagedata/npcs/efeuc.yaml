@@ -30,7 +30,7 @@ content: |-
   !!DLEMULATOR EID:"efeucemulator" SID:"start" URL:"/assets/bussim/emulatorData/efeuc.json"
 
   - hg[Variant 1]: "oh wow, how did you get that much rep? you got more than me, fair play." (If the player has more rep than efeuc.)
-  - hg[Variant 2]: "it's been a year, <Player>. i really miss y- oh sorry, i was thinking about something whats up."
+  - hg[Variant 2]: "it's been a year, [Player]. i really miss y- oh sorry, i was thinking about something whats up."
   - hg[Variant 3]: "take your time, i'm here all day."
   - hg[Variant 4]: "welcome to my humble abode"
   - hg[Variant 5]: "10684, 10685, 1068- oh hey, a new person."

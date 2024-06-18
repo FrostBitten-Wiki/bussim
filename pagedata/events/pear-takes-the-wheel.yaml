@@ -58,7 +58,7 @@ content: |
   \n\n
 
   ##[Dialogue]
-  *Related Article:* [Pear](pear)
+  *Related Article: [Pear](pear)*
   ###[Event Intro]
   - hg[Variant 1]:
     - "Oh, an event is starting, huh?"
@@ -81,7 +81,7 @@ content: |
       - "Okay fine, give me a second."
       - "Okay fine, I guess it is kinda quiet in here."
       - "You want to talk? While I'm driving?"
-      - (If the player count is above 5) "There's like <x Players in Current Server> people on the bus, and you want to talk to the only person who has to focus on the road..."
+      - (If the player count is above 5) "There's like [x Players in Current Server] people on the bus, and you want to talk to the only person who has to focus on the road..."
         - hg[Variant 1]:
           - "I'd challenge you to a rap battle right now..."
           - "But I'm driving the bus!"

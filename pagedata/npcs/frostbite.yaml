@@ -327,8 +327,8 @@ content: |-
 
   ###[Finale (Frost)]
   This part occurs as soon as you re-enter Frost's den following Pear's response.
-  - hg[Variant 1]: "<Player>, hey!"
-  - hg[Variant 2]: "Oh, hey <Player>!"
+  - hg[Variant 1]: "[Player], hey!"
+  - hg[Variant 2]: "Oh, hey [Player]!"
   - "I, uh, just wanted to say thank you. For everything."
   - "I like to keep things short and sweet, so here. Catch!"
     - You: "<You grab the object he tosses at you. Looks like a handheld mirror of some sort.>"

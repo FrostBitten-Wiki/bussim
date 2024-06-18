@@ -54,7 +54,7 @@ content: |-
   ###[**Cafe**]
   There is currently no available emulator for MLG's Coffee Shop dialogue.
   ###[**Cafe (Intro / Post-Idle)**]
-  - hg[Variant 1]: "Uh, who're you? <Player>? Do I know you?"
+  - hg[Variant 1]: "Uh, who're you? [Player]? Do I know you?"
   - hg[Variant 2]: "Oh, hey. What's up, whoever you are?"
   - hg[Variant 3]: "Don't know how I'm still allowed back here... Oh, hey."
   - hg[Variant 4]: "...hm? Oh, sorry, I was staring off into the void. Did you need something?"
