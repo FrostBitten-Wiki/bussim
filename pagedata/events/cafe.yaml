@@ -37,6 +37,7 @@ content: |-
   \n\n
   Afterwards, you're then tasked to make the correct coffee types for the correct customer. Doing so will increase your collective performance once the mini-game is over.
   \n\n
+  At the end, depending on your team's performance, [MLG](npcs/mlg) will talk to you the results of it, from being very poor to being excellent. At the same time [Inro](npcs/lnro) fixes up [The Bus](locations/the-bus) and also pays you some Passenger Reputation if you had done a good job. Soon after, the event ends following the interaction.
   At the end, depending on your team's performance, [MLG](npcs/mlg) will talk to you the results of it, from being very poor to being excellent. At the same time [Inro](npcs/lnro) fixes up [The Bus](locations/the-bus) and also pays you 6-8 Passenger Reputation if you had done a good job. Soon after, the event ends following the interaction.
   \n\n
   If nobody has initiated the mini-game, the event will still end after a certain point.
