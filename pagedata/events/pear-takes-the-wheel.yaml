@@ -76,6 +76,7 @@ content: |
   - "Hey, I'm trying to focus on driving, make it quick."
   - "I wish i could trade <float>hr[Pearcoin^(TM)]</float> while driving..."
   - "This is certainly the vehicle ever..."
+  - "Tender soul splintered, folded in the inner...~ Huh, sorry... What'd you need?"
     - hg[Option 2]: Let's Talk!
       - "You better thank me for this."
       - "Okay fine, give me a second."
@@ -96,7 +97,7 @@ content: |
 
   ###[When Reputation Is Given To Another Player]
 
-  - "How about I give that to [player] instead?"
+  - "How about I give that to [Player] instead?"
   - "Double it and give it to the next person."
   - "[Player] needs that WAY more than I do..."
   - "WOW you spelled [Player] REALLY wrong!"
@@ -112,7 +113,7 @@ content: |
   - "That's just cruel."
   - "nuh uh"
   - "Nope."
-  - "He rolled a [10-20] and you rolled a [Lower Number]. Better luck next time."
+  - "He rolled a [10-20] and you rolled a [1-9]. Better luck next time."
 
   ###[Dialouge For Pears Voting]
 

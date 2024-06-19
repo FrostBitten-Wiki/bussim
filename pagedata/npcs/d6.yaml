@@ -42,7 +42,7 @@ content: |-
   !!DLEMULATOR EID:"d6emulator" SID:"start" URL:"/assets/bussim/emulatorData/d6.json"
 
   - hg[Variant 1] : "im d6"
-  - hg[Variant 2] : "you." (If the player is on dSiiiiiix's friends list)
+  - hg[Variant 2] : "you." (Friend-Exclusive)
   - hg[Variant 3] : "man i could really go for some graham crackers right about now" (If the current day is Monday)
   - hg[Variant 4] : "and if youuuuuu cant believe it" (If the current day is Friday)
   - hg[Variant 5] : "i cant believe i had to drive all the way to work" (If the current day is Saturday)
@@ -310,6 +310,11 @@ content: |-
                       - hg[Option 2]: Dang.
               - hg[Variant 16]: (If you already talked to d6 about the joke book, this will replace it instead. The options and dialogue are the same.)
                   - "im still trying to make sense of the pages"
+
+  ###[Airhorn Responses (Goat Station)]
+  If the airhorn is used repeatedly in close proximity to D6:
+  - The player automatically unequips the airhorn.
+
   ###[**Cafe**]
   - hg[Variant 1]: "qhar"
   - hg[Variant 2]: "waugh"
@@ -321,6 +326,7 @@ content: |-
   - hg[Variant 8]: "huh whuh"
   - hg[Variant 9]: "hm"
   - hg[Variant 10]: "what"
+  - hg[Variant 11]: "whuh"
     - hg[Option 1]: Questions...
         - "ask away" 
             - hg[Option 1]: Why do I only find you in dumpsters?
@@ -334,8 +340,9 @@ content: |-
                     - hg[Option 1]: Why? 
                         - "..."
                         - "i don't know."
+                            - D6 then hides their pyromancy spell and instead holds a [Bloxy Cola](cola).
                     - hg[Option 2]: Cool.
-                - hg[Variant 2]: "nothing" (After first time)
+                - hg[Variant 2]: "nothing" (If D6 hides their pyromancy spell)
                     - Cool.
             - hg[Option 3]: What do you do?
                 - "im"
@@ -368,8 +375,9 @@ content: |-
                             - Thanks.
                             - The player then recieves a [Bloxy Cola](cola).
                     - hg[Option 4]: Want another? (If the player has Cola in their inventory) 
-                        - hg[Variant 1]: 
-                        - hg[Variant 2]: "yeah nice try dude." (If the player picks this option twice)
+                        - hg[Variant 1]: "absolutely" (If the Cola originated from The Bus)
+                        - hg[Variant 2]: "say, this one looks rather familiar..." (If the Cola originated from D6)
+                        - hg[Variant 3]: "yeah nice try dude." (If the player picks this option again, resets after 24 hours)
                             - The player is then resized to 0.1% of their original length and shortly after explodes.
     - hg[Option 2]: Nevermind. 
         - "ok"
@@ -382,6 +390,8 @@ content: |-
     - hg[Option 4]: Hi.
         - "EXPLODE"
             - The player immediately explodes.
+    - hg[Option 5]: JERMA (Rare)
+                - jerma.png
 
   ###[Drink Responses (Cafe)]
   - If you give D6 the wrong drink:
@@ -401,10 +411,6 @@ content: |-
             - "splendid."
             - "this is almost as good as bloxy cola"
                 - You're welcome.
-
-  ###[Airhorn-Related "Dialogue"]
-  If the airhorn is used repeatedly in close proximity to D6:
-  - The player automatically unequips the airhorn.
 
   ##[Trivia]
   - D6 is second to having the most amount of dialogue lines, only being behind by Pear by 34 lines or more.

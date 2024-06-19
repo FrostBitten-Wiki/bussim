@@ -87,7 +87,7 @@ content: |-
           - hg[Variant 5]: "Tazer jumpscare"
               - Tazer then kills the player by "jumpscaring" them.
 
-  ###[Airhorn-Related Dialogue]
+  ###[Airhorn Responses (Goat Station)]
   - If the airhorn is used repeatedly in proximity to Tazer:
     - "It's already hard enough being in detention, can you not?"
   - If the airhorn is used repeatedly in proximity to Tazer for a second time:

@@ -58,8 +58,18 @@ content: |-
           - "Well, hey there."
       - hg[Option 6]: Sorry! Didn't know I was breaking in... (Stranger-Exclusive)
           - "How did you just- Okay.. Just... Get outta here Or don't. I'm an NPC, I can't force you to do something."
+  
+  ###[Drink Responses (Goat Station)]
+  - If you give Zeon the wrong drink:
+    - "Thanks for the offer I guess, but I don't really need it. You drink it."
+  - If you give Zeon <clr:#151812>(***The Sludge.***):
+    - "Why did you bring this to me? This is literally poison..."
+  - If you give Zeon <clr:#FFC9C9>(***Strawberry Smoothie***):
+    - "That cafe does delivery? I don't remember ordering this.. but thanks."
+      - If you given her another <clr:#FFC9C9>(***Strawberry Smoothie***):
+        - "That cafe does delivery? I don't remember ordering this.. but thanks."
 
-  ###[Airhorn-Related Dialogue]
+  ###[Airhorn Responses (Goat Station)]
   - If the airhorn is used repeatedly in proximity to Zeon
     - "You know, I'm trying to read here..."
   - If the airhorn is used repeatedly in proximity to Zeon for a second time and so on
@@ -120,17 +130,6 @@ content: |-
     - "Oh, it's the smoothie I ordered. Thanks."
       - If you given her another <clr:#FFC9C9>(***Strawberry Smoothie***):
         - "Oh, it's the smoothie I ordered. Thanks."
-    
-
-  ###[Drink Responses (Goat Station)]
-  - If you give Zeon the wrong drink:
-    - "Thanks for the offer I guess, but I don't really need it. You drink it."
-  - If you give Zeon <clr:#151812>(***The Sludge.***):
-    - "Why did you bring this to me? This is literally poison..."
-  - If you give Zeon <clr:#FFC9C9>(***Strawberry Smoothie***):
-    - "That cafe does delivery? I don't remember ordering this.. but thanks."
-      - If you given her another <clr:#FFC9C9>(***Strawberry Smoothie***):
-        - "That cafe does delivery? I don't remember ordering this.. but thanks."
 
   ##[Trivia]
   - The "michael" dialogue is a reference to "[Michael Zombies](https://www.roblox.com/games/8054462345/Michaels-Zombies)", which is also a reference to the michael meme.\n\n

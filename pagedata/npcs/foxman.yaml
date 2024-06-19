@@ -69,8 +69,17 @@ content: |
     - "Apple juice? How'd ya know? Apple is my favorite!"
       - If you given him another <clr:#FFFAAD>(***Apple Juice***):
         - "Ya know, I like apples more than any other fruit... Sure it's basic, but I appreciate the simple flavors..."
+  
+  ###[Airhorn Responses]
+  - If the airhorn is used repeatedly in proximity to Foxman :
+     - "Ow... You're gonna have not to do that..."
+  - If the airhorn is used repeatedly in proximity to Foxman a second time:
+    - "Ack! Cut it dork, dork!"
+  - If the airhorn is used repeatedly in proximity to Foxman a third time and so on:
+    - "That's it! Try honkin' at me now!"
+      - The player's arms are removed from the body.
 
-  ###[AFK-Related Dialogue]
+  ###[AFK Responses]
   - "Um... You there?"
   - "Somebody leave the lights on up there?"
   - "Whatever..."

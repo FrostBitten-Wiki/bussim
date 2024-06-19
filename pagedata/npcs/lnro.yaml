@@ -27,9 +27,9 @@ content: |-
 
   ##[Dialogue]
   There is currently no available emulator for lnro.
-
+  ###[Cafe (Intro)]
   - "Oh-! I'll be there in a bit, please wait patiently up front!"
-    - hg[Option 1]: Have you seen a mechanic around here?
+    - hg[Option 1A]: Have you seen a mechanic around here?
       - "Seen a mechanic? I *am* a mechanic."
       - "I'm gonna be busy with the cafe all day though. None of my employees came in today, so it's just me..."
         - hg[Option 1]: I can fill in.
@@ -38,12 +38,17 @@ content: |-
             - hg[Option 1]: Actually...
               - "Oh, no, don't worry, I understand. You're the customer... I shouldn't have you doing my job."
             - hg[Option 2]: Deal.
-              - "Okay, awesome." (first visit..? -Nyx)
-              - "I'll get to it then, so you should to!" (not enough info given. -Nyx)
+              - "Okay, awesome."
+              - "I'll get to it then, so you should to!" 
+                - Following this will start the minigame.
         - hg[Option 1]: Unfortunate!
+    - hg[Option 1B]: Us again. (Replaces Option 1; Available if the player has started and finished the minigame earlier today.)
+      - "Oh, right. Hey. Same deal?"
+      - "I'll get to it then, you know what to do."
+        - Following this will start the minigame.
     - hg[Option 2]: Okay.
 
-  ###[**Cafe (Idle, if no players started the minigame for a while)**]
+  ###[**Cafe (Idle, if no players started the minigame for a while; around 3 minutes)**]
   - "That bus has been out there for a while now..." <small>(This is said on the Roblox Chat)</small>
   - "Hey um, can you move? You're taking up all of the parking space.. I don't think my customers can get in like this."
   - You: "We can't"
@@ -51,6 +56,23 @@ content: |-
   - "*sigh*... I guess i can fix it for you. But you're gonna have to leave once I'm done. <12px>(hg[I'm already being stretched thin as-is..])"
     - After a while
       - "It's all fixed up now. Be on your way."
+  
+  ###[**Cafe (Evaluation)**]
+  - If the players have <clr:#45ff45>(successfully) provided almost all of the customers with the correct order:
+    - MLG: "Huh. You did better than I thought you would."
+    - MLG: "Nice job. She put the cafe in good hands, I guess. You'll probably get some compensation for your time."
+      - "Whew! That bus should be up and running again." 
+      - "Before you go, I just wanted to say thanks. Fixing that bus felt like a break for me, I'm feeling ready to take the next day head-on!"
+      - "Oh, and since you were kind of an employee, I might as well pay you something. Take **6-8** passenger rep as compensation."
+      - "I hope to see you again soon! Hopefully without being stranded."
+  - If the players have <clr:#ff0000>(failed) to provide almost all of the customers with the correct order:
+    - MLG: "Wow. That was pretty lousy."
+    - MLG: "What, you thought I wouldn't notice? I'm still half paying attention to you, you know."
+    - MLG: "I'm not sure lnro's gonna be too happy after that performance."
+      - "Hey! The bus should be up and running again." 
+      - "Oh, and by the way..."
+      - "My phone was blowing up while I was fixing the bus... What did you do?"
+      - "I really hope my ratings haven't dropped too much..."
 
 
 

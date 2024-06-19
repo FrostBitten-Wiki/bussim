@@ -38,7 +38,7 @@ content: |-
   - hg[Variant 2]: "Hello, do I smell grass?"
   - hg[Variant 3]: "Good morning, afternoon, or night! Whatcha need?"
   - hg[Variant 4]: "Baa bah baa baaa? (Hey, how can I help you?)"
-  - hg[Variant 5]: "Oh, hey [Player]! Look who's got a job now..." (If the player is friends with Disc on Roblox)
+  - hg[Variant 5]: "Oh, hey [Player]! Look who's got a job now..."  (Friend-Exclusive)
   - hg[Variant 6]: "Hiiii!! Hello!!! Hey!!! Wassup!!! Heyoo!!!"
   - hg[Variant 7]: "Do you want Non Toxic Cola NobleReign Burger hello?"
   - hg[Variant 8]: "Oh uhmm... hello? Wait, wrong punctuation mark..."

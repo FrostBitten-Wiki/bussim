@@ -30,7 +30,7 @@ content: |
   - hg[Variant 2]: "Yo, need something?"
   - hg[Variant 3]: "Sup, can I help at all?"
   - hg[Variant 4]: "Do you want something?"
-  - hg[Variant 5]: "Fancy bus you got there, own it yourself?" (If the player is in a VIP Server.)
+  - hg[Variant 5]: "Fancy bus you got there, own it yourself?" (VIP-Server Exclusive)
   - hg[Variant 6]: "Come on, can't ya just ask the guy over at the cash register? Fine, what do you want?"
   - hg[Variant 7]: "Inro. I've planted a bomb in your chest. You will explode in 3 seconds." (Only lnr01 can see this.)
       - hg[Option 1]: Can I buy something?
@@ -38,7 +38,7 @@ content: |
               - Sorry...
       - hg[Option 2]: Are you guys hiring?
           - hg[Variant 1]: "Well, you'd have to take that up with our boss, though... He tends to just hire people who are "goated with the sauce," I think he means like caprinae? Sheeps and goats and such.""
-          - hg[Variant 2]: "Hm, well, you do seem... "goated with the sauce," I'm sure the boss would hire you, sadly he ain't here right now."" (If the player is wearing any goat accessories, this will instead play.)
+          - hg[Variant 2]: "Hm, well, you do seem... "goated with the sauce," "I'm sure the boss would hire you, sadly he ain't here right now." (If the player is wearing any goat accessories, this will instead play.)
               - hg[Option 1]: That's a shame!
               - hg[Option 2]: You're goated?
                   - "You're pretty Nosy huh? I'll have you know that these horns are, in fact, real. My DNA test says that I'm 100%... A biological anomaly."

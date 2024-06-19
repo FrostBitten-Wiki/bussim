@@ -50,6 +50,23 @@ content: |-
                         - "A wee bit hurtful that you would need to ask, but yes, I do have friends. In and out of this town. Green, D6, Zeon, and Tazer are a handful of them that live here. Noble's another one, but I don't see him in town often. Now go away, I've had enough socializing about myself for now."
                     - hg[Option 2]: Neat, bye.
             - hg[Option 2]: 'Kay, bye.
+  
+  ###[Drink Responses (Goat Station)]
+  - If you give MLG the wrong drink:
+    - No dialogue happens.
+  - If you give MLG <clr:#151812>(***The Sludge.***):
+    - No dialogue happens.
+  - If you give MLG <clr:#E39254>(***Pumpkin Spice Mocha***):
+    - No dialogue happens, but you still get rewarded.
+      - If you given him another <clr:#E39254>(***Pumpkin Spice Mocha***):
+        - No dialogue happens.
+
+  ###[Airhorn Responses (Goat Station)]
+  - If the airhorn is used repeatedly in proximity to MLG:
+    - "..."
+  - If the airhorn is used repeatedly in proximity to MLG a second time:
+    - The player is then [defenstrated](https://www.roblox.com/badges/2141806851/DEFENESTRATED), being launched into the air and taking massive damage in the process.
+      - The entire response is then repeated afterwards, with further defenstrations dealing no damage.
 
   ###[**Cafe**]
   There is currently no available emulator for MLG's Coffee Shop dialogue.
@@ -58,7 +75,60 @@ content: |-
   - hg[Variant 2]: "Oh, hey. What's up, whoever you are?"
   - hg[Variant 3]: "Don't know how I'm still allowed back here... Oh, hey."
   - hg[Variant 4]: "...hm? Oh, sorry, I was staring off into the void. Did you need something?"
-    - hg[Option 1]: Do you... work here?
+  - hg[Variant 5]: "Bestie haiiii, how're you!! Hiiii :]" (Friend-Exclusive)
+    - hg[Option 1A]: Know where a mechanic is? (This option is unavailable after [lnro](lnro) starts to fix The Bus herself.)
+      - "A mechanic? Oh, is that bus out there broken?"
+      - "Well, [Tazer](tazer) would probably help, but he's busy working on his Mini-Bus like always."
+      - "Maybe lnro could help you out? She's the owner of this cafe."
+      - "Oh, but she's the only one on staff today, apparently. She'll probably be exhausted after work..."
+        - hg[Option 1]: Aren't you staff?
+          - "Uh, no? Why would you think of that?"
+            - hg[Option 1]: Can I get a large coffee? Er, veinte coffee? Venting??
+               - <clr:#ff4545>("I don't work here. Go away.")
+                - hg[Option 1]: But my coffee... 
+                  - <clr:#ff4545>("Don't care, didn't ask, get out of my sight.")
+                - hg[Option 2]: Ok :(
+             - hg[Option 2]: You're behind the counter?
+                - "Oh, I just stand back here 'cause it's nice and quiet, and it lets me get a good stretch in. Nobody's tried to stop me, so I don't think anyone cares... Plus, this place doesn't pay nearly enough for me to want to work here..."
+                  - hg[Option 1]: Move, then. I'm taking over.
+                    - "You're... gonna work? Really?"
+                    - "I can't say that I'd do it in this economy, but I guess I respect the grind."
+                    - "The store isn't open right now though... You'd need to ask lnro. She's over there cleaning that window."
+                  - hg[Option 2]: I need to find an employee. 
+                    - "Good luck with that."
+                  - hg[Option 2]: Why are you HERE anyway?
+                    - "A bunch of my friends hang out here, and it's usually pleasant and quiet. The Pumpkin Mochas they sell here are great too, I get one every time I visit. You should try one. You should get me one too, even."
+                      - hg[Option 1]: I.. don't like pumpkin.
+                        - "... Ok." 
+                      - hg[Option 2]: Okay, bye.
+            - hg[Option 3]: Nevermind.
+                - "See you later? Or not."
+        - hg[Option 2]: I can help. 
+          - "You.. want to help her?"
+          - "Oh, I get it! If she has more staff, she'll have her hands free for you!"
+          - "Not a bad idea.. Let me call her over."
+          - "HEY, LNRO!"
+            - lnro: "What's up? Who's this?"
+              - "This is.. uh.. what's your name?"
+                - You: "[Player]."
+                  - "This is [Player]. They were on that bus outside, and need someone to fix it."
+                    - lnro: "Oh, I see. I'm not sure if I can do that today, we're alreaady short-staffed..."
+                      - "That's why they're gonna help you today!"
+                        - lnro: "Huh? Help me? I guess I wouldn't mind a helping hand..."
+                        - lnro: "That should work then. You go serve the customers and make the drinks, while I go out there and fix your bus. Deal? Deal."
+                        - lnro: "MLG, you're gonna have to move so they can take orders."
+                          - "Right, sorry."
+                            - Following this will start the minigame.
+    - hg[Option 1B]: Mechanic? (Replaces Option 1; Available if the player has started and finished the minigame earlier today.)
+      - "You again? Same thing?"
+        - hg[Option 1]: Actually... 
+          - "Don't feel like working? I get that. I won't tell her."
+        - hg[Option 2]: Yup.
+          - "LNROOO!!"
+            - lnro: "Huh? OH- Them again?!"
+            - lnro: "Alright, then. Same deal. You run the store, I fix the bus. Ready? Go."
+              - Following this will start the minigame.
+    - hg[Option 2]: Do you... work here?
       - "Uh, no? Why would you think that?"
         - hg[Option 1]: Can I get a large coffee? Er, veinte coffee? Venting??
           - <clr:#ff4545>("I don't work here. Go away.")
@@ -70,6 +140,10 @@ content: |-
             - hg[Option 1]: I need to find an employee. 
               - "Good luck with that."
             - hg[Option 2]: Why are you HERE anyway?
+              - "A bunch of my friends hang out here, and it's usually pleasant and quiet. The Pumpkin Mochas they sell here are great too, I get one every time I visit. You should try one. You should get me one too, even."
+                - hg[Option 1]: I.. don't like pumpkin.
+                  - "... Ok." 
+                - hg[Option 2]: Okay, bye.
         - hg[Option 3]: Nevermind.
           - "See you later? Or not."
     - hg[Option 2]: Why are you blue?
@@ -91,12 +165,41 @@ content: |-
           - "Yeah, whatever. Buzz off."
     - hg[Option 3]: Bye. 
       - "Oh, bye?"
-  ###[**Cafe (During Minigame)**]
+  ###[**Cafe (During / Post-Minigame)**]
+  - hg[Variant 1]: "Oh, uh, yeah..?" 
+  - hg[Variant 2]: Aren't you meant to be working..?
+  - hg[Variant 3]: Need something..? Just as long as it's not work-related?
+  - hg[Variant 4]: Had enough of working food service yet?
+    - hg[Option 1]: Why are you blue? 
+      - "A bit rude to just ask somebody that out of nowhere..."
+        - hg[Option 1]: Yeah, okay. But why?
+          - "Ugh, fine."
+          - "It's a side effect of multiversal travel. I used my tech too much and now I'm all blue. Thankfully that's the only side effect... <small>hg[The only one I notice, at least.]</small>"
+            - hg[Option 1]: Multiversal what now???
+              - "Yeah, I kind of... invented my own form of it. It's very useful for getting around. Turning blue was worth it, in my opinion."
+              - "I'm not gonna go into any more detail, 'cause I don't want you to copy me. Can't spill all my secrets."
+            - hg[Option 2]: That's really cool. 
+              - "Oh, uh, glad you think so. I worked really hard on it."
+            - hg[Option 3]: Skill issue. 
+              - "WOW, okay. Do you know how long it took for me to figure this out? This is MULTIVERSAL TRAVEL we're talking about. ALTERNATE UNIVERSES."
+              - "I'd like to see YOU come up with the formula for it, let alone acquiring the hardware. The nerve."
+            - hg[Option 4]: Uh, okay.
+              - "Yeah, it's.. it's complex."
+        - hg[Option 2]: Oops, sorry.
+          - "Yeah, whatever. Buzz off."
+    - hg[Option 2]: Want a drink?
+      - "Uh, sure I guess. If I had to pick anything it'd be a Pumpkin Spice Mocha. They taste so good here!"
+    - hg[Option 3]: Nevermind.
+      - "Oh, bye?"
+
   ###[**Cafe (Evaluation)**]
   - If the players have <clr:#45ff45>(successfully) provided almost all of the customers with the correct order:
-  - If the players have <clr:#ff4545>(failed) to provide almost all of the customers with the correct order:
-
-  ###[**Cafe (Post Evaluation)**]
+    - "Huh. You did better than I thought you would."
+    - "Nice job. She put the cafe in good hands, I guess. You'll probably get some compensation for your time."
+  - If the players have <clr:#ff0000>(failed) to provide almost all of the customers with the correct order:
+    - "Wow. That was pretty lousy."
+    - "What, you thought I wouldn't notice? I'm still half paying attention to you, you know."
+    - "I'm not sure lnro's gonna be too happy after that performance."
 
   ###[Drink Responses (Cafe)]
   - If you give MLG the wrong drink:
@@ -115,16 +218,10 @@ content: |-
         - "Oh, for me? Thanks!"
         - "..."
         - "Mmmmm, that's soo gooooood. I love this place's Pumpkin Mochas, how'd you know? Thank you so much, buddy."
-  
-  ###[Drink Responses (Goat Station)]
-  - If you give MLG the wrong drink:
-    - No dialogue happens.
-  - If you give MLG <clr:#151812>(***The Sludge.***):
-    - No dialogue happens.
-  - If you give MLG <clr:#E39254>(***Pumpkin Spice Mocha***):
-    - No dialogue happens, but you still get rewarded.
-      - If you given him another <clr:#E39254>(***Pumpkin Spice Mocha***):
-        - No dialogue happens.
+
+  ###[Airhorn Responses (Cafe)]
+  - If the airhorn is used repeatedly in proximity to MLG:
+    - "..."
 
   ##[Trivia]
   - MLG is one of the few NPCs that won't instantly kill you when annoyed, but gets real close to doing so.
