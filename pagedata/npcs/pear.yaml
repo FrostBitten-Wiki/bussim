@@ -621,10 +621,24 @@ content: |-
   - hg[Variant 1]: "Hello, I'm currently leading someone away from you. If you'd be so kind as to keep them alive, that'd be great."
   - hg[Variant 2]:
 
-  ###[**The Backwalls (Player Encounter, has to be different from Pear's Client)***]
+  ###[**The Backwalls (Puddle Encounter)**]
+  -
+
+  ###[**The Backwalls (Player Encounter)***]
   - hg[Variant 1]: "Hello there, new person! Just letting you know, I'm only responsible for my client back there. Join at your own risk!"
 
+  ###[**The Backwalls (If the player stopped moving / is too far behind)**]
+  - hg[Variant 1]: "Hey..! Stay close!"
+
+  ###[**The Backwalls (If the Path to the Exit is very long)**]
+  - 
+
+  ###[**The Backwalls (If the Pathfinding takes a while)**]
+  - "Just a little longer. Hang in there."
+
   ###[**The Backwalls (Exit Arrival)**]
+  - "Here's the exit hole! That wasn't too bad, was it?"
+  - "Alright then, see you later!"
 
   ###[**The Backwalls (If the direct path to the exit fails)**]
   - "E-ehm... J-Just.. give me a second..." <small>(Pear then attempts to pathfind to the closest spot nearest to the Escape room, if possible)</small>
