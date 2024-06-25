@@ -29,7 +29,8 @@ content: |
   ##[Dialogue]
   !!DLEMULATOR EID:"mirocevemulator" SID:"start" URL:"/assets/bussim/emulatorData/mirocev.json"
 
-  - "Oh, a customer! Welcome to my soda stand!"
+  - hg[Variant 1]: "Oh, a customer! Welcome to my soda stand!"
+  - hg[Variant 2]: "Hey there, welcome! Would you like some soda?"
     - hg[Option 1]: You're selling soda.. out here?
         - "Well, I'm not selling it.. it's free!"
             - hg[Option 1]: ...but, why on the side of a highway? Who'd stop for that?

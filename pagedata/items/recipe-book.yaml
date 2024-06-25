@@ -26,7 +26,7 @@ content: |
   When used, it displays custom recipes either made by you or from other players, with specific measurements on ingredients, order, and with name and description. It also shows you your last custom drink that you have made, giving you the option to create a custom recipe for itself.
   \n\n 
   ##[Creating Custom Recipes]
-  After creating a custom drink, you have the option to name your drink and give it a description (assuming it follows Roblox TOS). It has up to 6 slots of ingredients with customizable levels of accuracy (Exact, Around, and Normal) and allows you to share with them for others to use.
+  After creating a custom drink, you have the option to name your drink and give it a description (assuming it follows Roblox TOS). It has up to infinite slots of ingredients with customizable levels of accuracy (Exact, Around, and Normal) and allows you to share with them for others to use.
   \n\n
   The accuracy chosen can make the drink more specific, with h[Exact] being the exact listed recipe measurements, h[Default] having the usual leniency in normal drink-making, and h[Around] being the most lenient.
   \n\n 
@@ -60,5 +60,6 @@ content: |
   - This is the first gamepass that includes two items in one, being the [Cup Dispenser](cup-dispenser) and the Recipe Book.
   - If you create a drink under an abandoned recipe, it also adds in an extra description at the end of the recipe's description: "A long lost recipe."
     - If it was prepared by someone else, it'll also merge with the other extra description, turning it into "A long lost recipe, prepared by [Player]."
+  - This item can be brought along within the [Backwalls](backwalls) interestingly enough. Not the [Cup Dispenser](cup-dispenser) though.
 
   !!GALLERY [/assets/bussim/images/items/recipe-book.webp]

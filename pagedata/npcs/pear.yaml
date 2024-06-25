@@ -683,7 +683,8 @@ content: |-
           - hg[Variant 1]: "This is as close as I'm able to get.. Good luck.."
           - hg[Variant 2]: "Here's.. the exit... I think...?"
     - If the pathfind check fails:
-      - "...You're not gonna like what I'm say but... I can't remember the path. See ya!"
+      - hg[Variant 1]: "...You're not gonna like what I'm say but... I can't remember the path. See ya!"
+      - hg[Variant 2]: "S-Sike, you're never getting out of here! Thanks for the rep..! Haha.. ha.."
         - Pear then disappears with green smoke.
 
   ##[Trivia]

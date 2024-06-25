@@ -1,0 +1,55 @@
+editable: true
+page:
+  title: Stanley
+  description: Stanley is an NPC in Bus Simulator found within the crashed bus on the Cafe map. 
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npc
+
+  tags: steven, npc
+
+  header:
+    title: Steven
+    description: |
+      Category: [NPCs](npcs)
+
+    image: ''
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+
+attributions:
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical)
+
+content: |-
+  ##[Info]
+  Stanley is an NPC in Bus Simulator found within the crashed bus on the [Cafe](cafe) map. He is an OC that MediumKey made.
+
+  ##[Appearance]
+  Stanley wears the BloxDonalds outfit that you can buy on the Marketplace and wears a cap to pair with it. He also has bagged eyes.
+
+  ##[Dialogue]
+  !!DLEMULATOR EID:"stanleyemulator" SID:"start" URL:"/assets/bussim/emulatorData/stanley.json"
+  - "Uh, hey."
+    - hg[Option 1]: What are you doing back here?
+    - hg[Option 2]: [Leave quietly.]
+        - "I'm just trying to eat lunch."
+            - hg[Option 1]: Why is there a body behind you?
+                - "Body? What body?"
+            - hg[Option 2]: Oookay... [Leave.] 
+    - hg[Option 3]: Wait, weren't you just on the bus?
+      - "I dunno :3"
+        - hg[Option 1]: Okay...
+        - hg[Option 2]: What?
+          - "What?"
+      
+  ##[Trivia]
+  - Compared to the many other talkative NPCs in the game, Steven_Scripts cannot be annoyed using an [Airhorn](airhorn).
+    - Steven also has no new dialogue regardless if you are friends with them, similar to [Tazer](tazer) and other NPCs.
+    - Depending on Steven's location in Steven Ride, you might also accidentally trigger [Pear](pear).
+  - If Steven_Scripts in Steven Ride fails to exit the Bus before the [Backwalls](backwalls) event happens, he can be spotted in the walls / corners of a room, violently sobbing.\n\n
+  - If the Steven Ride event is trigged while Steven is already on the bus, it will result in encountering what seems to be a humanoid shaped stone in front of the bus instead of Steven. It then gets run over by the bus and collapses, ending the event.\n\n
+  - While you may not be able to see Steven_Scripts at first glance during his introduction, the harmonica sound effect will still play before and after the introduction.\n\n
+    - The harmonica sound effect is also be distorted if you spot him in the [Backwalls](backwalls).
+  - If Steven_Scripts ride on the Bus and all of the seats on the first floor are filled, Steven_Scripts will instead sit down next to the bathroom, defeated.
+  - Steven used to work at [BloxDonalds](bloxdonalds) at one point, but had moved away as evidenced with the Bulletin Board within the [Backwalls version of BloxDonalds](bloxdonalds-backwalls).
+
+  !!GALLERY [/assets/bussim/images/npcs/steven.webp|/assets/bussim/images/npcs/steven-instances/stevenbathroom.webp|/assets/bussim/images/npcs/steven-instances/stevenbackwalls.webp]  

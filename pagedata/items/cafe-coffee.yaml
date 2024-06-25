@@ -25,6 +25,9 @@ content: |
  When making one, the player will go into a focus-mode state, being able to pick any ingredients and measure them out carefully. Recipes are also provided on the left, with all of the specific ingredients needed to make a drink.
  \n\n
  While you do not need to be extremely accurate, as long as you have the appropriate ingredients; it'll blend into the drink that you want. 
+ \n\n 
+ You can also carry the drinks into the [Backwalls](backwalls), and the amount of usage depends entirely on how useful it can be within the [Backwalls](backwalls).
+
  !!BUTTONS [<highlight>Ingredients</highlight>,location.href=''|Recipes / Mixtures,location.href='cafe-coffee-recipes'|NPC Interactions,location.href='cafe-coffee-npcs']
  ##[Ingredients]
  \n
