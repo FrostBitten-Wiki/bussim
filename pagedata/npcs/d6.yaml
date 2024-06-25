@@ -311,25 +311,6 @@ content: |-
               - hg[Variant 16]: (If you already talked to d6 about the joke book, this will replace it instead. The options and dialogue are the same.)
                   - "im still trying to make sense of the pages"
 
-  ###[Drink Responses (Goat Station)]
-  - If you give D6 the wrong drink:
-    - "..."
-    - "RIDICOLOUS FOLLY. INEXCUSABLE."
-    - "I CANNOT CONSUME THIS FOUL SUBSTANCE YOU PEANUT BRAINED FOOL."
-    - "go give it to disc or something im sure he'll drink it"
-    - "hah. goats."
-        - My bad.
-  - If you give D6 <clr:#151812>(***The Sludge.***):
-    - "..."
-    - "splendid."
-    - "this is almost as good as bloxy cola"
-        - You're welcome.
-            - If you given them another <clr:#151812>(***The Sludge.***):
-            - "..."
-            - "splendid."
-            - "this is almost as good as bloxy cola"
-                - You're welcome.
-
   ###[Airhorn Responses (Goat Station)]
   If the airhorn is used repeatedly in close proximity to D6:
   - The player automatically unequips the airhorn.
@@ -412,7 +393,7 @@ content: |-
     - hg[Option 5]: JERMA (Rare)
                 - jerma.png
 
-  ###[Drink Responses (Cafe)]
+  ###[Drink Responses (Goat Station & Cafe)]
   - If you give D6 the wrong drink:
     - "..."
     - "RIDICOLOUS FOLLY. INEXCUSABLE."
