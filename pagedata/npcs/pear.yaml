@@ -63,7 +63,7 @@ content: |-
   - hg[Variant 3]: "mmrrreoww~?"
   - hg[Variant 4]: "Oh, hey! Didn't see you there, what's up?"
   - hg[Variant 5]: "Need something?"
-  - hg[Variant 6]: "Hold on just a second... just trading my pearcoinTM"
+  - hg[Variant 6]: "Hold on just a second... just trading my  <float>hr[Pearcoin^(TM)]</float>."
   - hg[Variant 7]: "Heyaaa! What're you talkin to me for?"
   - hg[Variant 8]: "[Player]?! I didn't expect to see you here!!"
   - hg[Variant 9]: "Tender soul splintered, folded in the inner...~ Huh, sorry... What's goin on?"
@@ -83,7 +83,8 @@ content: |-
                   - hg[Option 2]: Beep Bap! (Archived)
                       - "Let's go- Oh wait... There isn't any way for us to rap, sorry!"
                   - hg[Option 2]: Beep Bap!
-                      - "Let's goooo! Maybe not on the bus though... Do you have anything that could [take us somewhere quieter?](magic-mirror)
+                      - "Let's goooo! Maybe not on the bus though... Do you have anything that could [take us somewhere quieter?](magic-mirror) (If the player has the Magic Mirror)
+                      - "Let's go-.. Actually, maybe not on the bus... If only there was a way to teleport away..."
                           - If the player uses the [Magic Mirror](magic-mirror) next to Pear afterwards:
                               - "Woah, you actually have something like that?!"
                               - "This is a great stage, but why's the mic made out of cardboard?"
@@ -128,7 +129,8 @@ content: |-
                                   - "Congratulations!! You're now the owner of one whole pearcoinTM!!"
                                   - "Take it in bud, you're officially part of the 1% now..."
                                   - "The 1% who actually fell for it... sucker~"
-                                      - (This gives you a hr[pearcoinTM], useful for befriending [Frostbite](frostbite).)
+                                  - "Thanks for your patronageeee~"
+                                      - (This gives you a <float>hr[Pearcoin^(TM)]</float>, useful for befriending [Frostbite](frostbite).)
               - hg[Variant 5]: "My favorite pizza is just plain cheese pizza!"
                   - "Though black olives are good too..."
                   - If the player has given Pear a Cheese Pizza in the game piza:
@@ -208,6 +210,14 @@ content: |-
                               - "Good, 'cause I made it with love~"
                           - hg[Option 2]: Nah. 
                               - "Oh... Sorry..."
+              - hg[Variant 16]:
+                - <float>"Now what's the deal with bus food?"</float>
+                  - hg[Option 1]: I have no idea?
+                    - "I have no idea either..."
+                  - hg[Option 2]: Not funny.
+                    - "I mean... it's a little funny?"
+              - hg[Variant 17]:
+                - "Do you play.. err, that rhythm game that has a racing game, survival game, and battle royale game attached to it? I do.. sometimes. I think."
       - hg[Option 3]: Invites...
         - "Oh? What about them?" 
           - hg[Option 1]: Let's send some! 
@@ -345,7 +355,7 @@ content: |-
           - "Thank you!! That's my favorite drink..."
 
   ###[**The Bus (Pear Takes The Wheel)**]
-  *Related Article: [Pear Takes The Wheel](pear-takes-the-wheel)*
+  Related Article: [Pear Takes The Wheel](pear-takes-the-wheel)
   - hg[Variant 1]: "This is certainly the vehicle ever..."
   - hg[Variant 2]: "Hey, I'm trying to focus on driving, make it quick."
   - hg[Variant 3]: "I wish i could trade <float>hr[Pearcoin^(TM)]</float> while driving..."
@@ -394,6 +404,7 @@ content: |-
                                   - "Congratulations!! You're now the owner of one whole pearcoinTM!!"
                                   - "Take it in bud, you're officially part of the 1% now..."
                                   - "The 1% who actually fell for it... sucker~"
+                                  - "Thanks for your patronageeee~"
                                       - (This gives you a hr[pearcoinTM], useful for befriending [Frostbite](frostbite).)
               - hg[Variant 5]: "My favorite pizza is just plain cheese pizza!"
                   - "Though black olives are good too..."
@@ -409,7 +420,7 @@ content: |-
                       - "Well, basically, when you hang out with your friends for like, an hour, you can both earn some driver and passenger rep..."
                       - "You can get rewarded for up to three friends a day. You earn 10 driver rep for the first friend, and 5 driver rep for the other two. You get 10 passenger rep every time, though~"
                       - "The friends you invite get 10 driver and passenger rep as well. Neat, right?"
-                      - "And since you can do this every day, according to my calculations, that means... uhh, carry the two.. and..."
+                      - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
                       - "MEOW! That's like, 200 reputations a week or something??"
                       - "So... You interested?"
                           - hg[Option 1]: I'm in!
@@ -474,6 +485,14 @@ content: |-
                               - "Good, 'cause I made it with love~"
                           - hg[Option 2]: Nah. 
                               - "Oh... Sorry..."
+              - hg[Variant 16]:
+                - <float>"Now what's the deal with bus food?"</float>
+                  - hg[Option 1]: I have no idea?
+                    - "I could go for some right now..."
+                  - hg[Option 2]: Not funny.
+                    - "I mean... it's a little funny?"
+              - hg[Variant 17]:
+                - "Do you play.. err, that rhythm game that has a racing game, survival game, and battle royale game attached to it? I do.. sometimes. I think."
       - hg[Option 3]: Invites...
         - "Oh? What about them?" 
           - hg[Option 1]: Let's send some! 
@@ -521,9 +540,9 @@ content: |-
     - "You. Scramble like an egg, before I fold you like an omelette."
   - If the airhorn is used repeatedly in proximity to Pear a second time and so on:
     - "MMEEEOOOOOWWWWWWWW!!!!!"
-      - <25px>(<clr:#ff0000>("DIE."))
-        - The player is then killed.
-        - The entire response is then repeated afterwards.
+    - <25px>(<clr:#ff0000>("DIE."))
+      - The player is then killed.
+      - The entire response is then repeated afterwards.
 
   ###[**The Backwalls**]
   - hg[Variant 1]: "Oh, hey! Another person!"
@@ -592,7 +611,7 @@ content: |-
                               - "Your funeral~"
                             - Ugh, fine.
                               - "Thanks for the rep, sucker! The second you'll move, I'll start leading! Now, let's get outta here!"
-                                - Description needed
+                                - Pear will now walk towards the exit, and any [Entity](entity) he encounters first (before it can to you) will be pacified throughout the journey.
                 - hg[Option 3]: ..you survive?!
                   - "I'm just too powerful."
                 - hg[Option 4]: ???
@@ -616,36 +635,53 @@ content: |-
 
   ###[**The Backwalls (After Paying)**]
   - hg[Variant 1]: "Here we go, on a dangerous journey to the exit!"
+  - hg[Variant 2]: "Alright, you've paid up! Just follow my lead! Watch for entities, though."
+  - hg[Variant 3]: "This cat'll take you right to where you need to be!
+  - hg[Variant 4]: "Come with me, and you'll see, a hole of pure illumination!"
 
   ###[**The Backwalls (Entity Encounter)**]
-  - hg[Variant 1]: "Hello, I'm currently leading someone away from you. If you'd be so kind as to keep them alive, that'd be great."
-  - hg[Variant 2]:
+  - hg[Variant 1]: "Hello, I'm currently leading someone awa y from you. If you'd be so kind as to keep them alive, that'd be great."
+  - hg[Variant 2]: "Pardon me, I'm just attempting to bring this player with me to the exit. Remain calm, I do not wish to disturb you."
+  - hg[Variant 3]: "Hi, my name is Pear Paw. I'm crossing paths with you on business terms. Please keep me and my client in one piece."
+  - hg[Variant 4]: "Excuse me, I have a client with me. It'd be nice of you to hold your aggro for a lil bit/"
 
   ###[**The Backwalls (Puddle Encounter)**]
-  -
+  - "Don't worry about me. I can't die from this, I'm too powerful."
 
   ###[**The Backwalls (Player Encounter)***]
   - hg[Variant 1]: "Hello there, new person! Just letting you know, I'm only responsible for my client back there. Join at your own risk!"
 
   ###[**The Backwalls (If the player stopped moving / is too far behind)**]
   - hg[Variant 1]: "Hey..! Stay close!"
-
-  ###[**The Backwalls (If the Path to the Exit is very long)**]
-  - 
+  - hg[Variant 2]: "Hey, did you just pay me to be nice, or are you gonna actually follow me?"
+  - hg[Variant 3]: "mmrow? Hey, get moving!"
 
   ###[**The Backwalls (If the Pathfinding takes a while)**]
-  - "Just a little longer. Hang in there."
+  - "Yeah sorry, it's really far away. I really do know where it is though, trust!"
+    - "Just a little longer. Hang in there." (If it takes a while...)
+      - "Dang, my legs are getting tired..." (If it takes a good while...) 
+        - "Fun walking simulator." (If it takes a very long while...)
+          - "This is just like Plural Life..." (If it takes an absurdly long while...)
 
   ###[**The Backwalls (Exit Arrival)**]
-  - "Here's the exit hole! That wasn't too bad, was it?"
-  - "Alright then, see you later!"
+  - hg[Variant 1]: "Here's the exit hole! That wasn't too bad, was it?"
+  - hg[Variant 2]: "Tadaaaa, here we are at the exit! Thanks again for the rep~"
+  - hg[Variant 3]: "We made it in one pieece! I mean, I would have made it either way, but you were totally a liability!"
+  - hg[Variant 4]: "Jump through this hole and you'll be back in no time~"
+    - Continuation (after any variant):
+      - hg[Variant 1]: "Alright then, see you later!"
+      - hg[Variant 2]: "Hope you're satisfied! I'm just gonna do my own thing now." 
 
   ###[**The Backwalls (If the direct path to the exit fails)**]
-  - "E-ehm... J-Just.. give me a second..." <small>(Pear then attempts to pathfind to the closest spot nearest to the Escape room, if possible)</small>
+  - hg[Variant 1]: "E-ehm... J-Just.. give me a second..." 
+  - hg[Variant 2]: "U-Uhh, h-hang on, I need some time to remember where to go..."
+    - (In all variations will Pear attempt to pathfind to the closest spot nearest to the Escape room, if possible.)
     - If the pathfind check succeeds:
-      - "I'll try my best to get there, but it's not gonna be super accurate, okay?"
+      - hg[Variant 1]: "I'll try my best to get there, but it's not gonna be super accurate, okay?"
+      - hg[Variant 2]: "Uh, I couldn't remember the direct path. I'll get you somewhere nearby though. Sorry."
         - Once Pear finds the closest spot to the exit:
-          - "This is as close as I'm able to get.. Good luck.."
+          - hg[Variant 1]: "This is as close as I'm able to get.. Good luck.."
+          - hg[Variant 2]: "Here's.. the exit... I think...?"
     - If the pathfind check fails:
       - "...You're not gonna like what I'm say but... I can't remember the path. See ya!"
         - Pear then disappears with green smoke.
@@ -656,8 +692,10 @@ content: |-
   - When Pear mentions "The Incident", they're referring to the removal of most copyrighted audios on March 22nd, 2022.\n\n
   - Pear will still get annoyed at you (and afterwards, kills you) if you use the Airhorn while not on the same floor as him, but at a similar horizontal area, such as the seat directly below and above him.\n\n
   - If the private server owner uses the !seats command, Pear will stand in place instead.\n\n
-  - Pear's calculations with the invite system is partially accurate, as you actually gain a maximum of 20 Driver Reputation and 30 Passenger Reputation per day, up to 140 Driver Reputation and 210 Passenger Reputation every week, for a total of 350 Reputation.
+  - Pear's calculations with the invite system is partially accurate, as you actually gain a maximum of 20 Driver Reputation and 30 Passenger Reputation per day, up to 140 Driver Reputation and 210 Passenger Reputation every week, for a total of 350 Reputation.\n\n
   - If Pear were to somehow be involved with gears that would normally kill him, he would retaliate by activating his counter, instantly killing anyone near him.
-    - This was done to prevent [Pear Takes The Wheel](pear-takes-the-wheel) from being softlocked.
+    - This was done to prevent [Pear Takes The Wheel](pear-takes-the-wheel) from being softlocked.\n\n
+  - Pear's fourth variant in arriving at the exit is a direct reference to [Pure Imagination](https://www.youtube.com/watch?v=SVi3-PrQ0pY), a song composed by Gene Wilder for Willy Wonka & The Chocolate Factory.\n\n 
+  - Pear's 5th dialogue if it takes an absurdly long time to reach to the exit is a direct reference to [Second Life](https://secondlife.com/).
 
   !!GALLERY [/assets/bussim/images/npcs/pear.webp|/assets/bussim/images/npcs/pear-counter.webp]  

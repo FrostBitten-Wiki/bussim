@@ -5,7 +5,7 @@ page:
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
-  tags: magic mirror, shimy mirror, mirror, magic. frost den, teleport item
+  tags: cup dispenser
 
   header:
     description: |
@@ -27,11 +27,14 @@ content: |
   \n\n 
   Its appearance is similar of that to the cup tray back at the [Cafe Event](cafe), but as a holdable item.
 
-  #![Custom Recipes - The Cup Dispenser also allows you to create your own custom recipes, with specific measurements on any ingredients for up to 6 slots, and allows you to share them with others to use, fitted with a custom name and description.\n\nThe custom recipe shows the person who made it, when it was created (when the author first made it), and when it was discovered (when you recieved the recipe).\n__Modifying Custom Recipes__-\nWhen modifying the recipe as the author, you have indirect control over how it affects those who have your recipe:\n\nDeleting your recipe will delete it to the owner only, and those who have the recipe will have it be completely disassociated with your identity, showing a blank name and avatar.\n\n Renaming the name and / or the description of your recipe won't instantly apply to everyone who has your recipe, but is rather provided with updated info alongside the old info for when they first recieved the recipe.]
-  #![turn this huge ass line into a block when the update drops!! thank you!!]
+  ##[Custom Recipes]
+  Main Article: [Recipe Book](recipe-book) 
+  \n\n
+  The Licensed Barista gamepass also gives you a [Recipe Book](recipe-book), allowing one to create their own recipes fitted with a name, description, and ingredients for up to 400 slots.
 
   ##[Trivia]
   - Its expensiveness is likely attributed to how you can still fufill orders from [NPCs](npcs) using the dispenser, effectively making this a reliable generator for [Reputation](reputation).
-  - If you attempt to give a drink to someone who already has 3 cafe coffee drinks, a pop-up will appear saying that they can't hold anymore drinks.
+  - If you attempt to give a drink to someone who already has 3 cups, a pop-up will appear saying that they can't hold anymore drinks.
+  - This is the first gamepass that includes two items in one, being the Cup Dispenser and the [Recipe Book](recipe-book).
 
   !!GALLERY [/assets/bussim/images/items/cup-dispenser.webp]

@@ -34,7 +34,7 @@ content: |
  | Stats | Description | Positive Stat Effects (+) | Negative Stat Effects (-)|
  |-------|-------------|--------------------------|-------------------------|
  |Temperature|Determines how hot or cold the drink is.|Freezes you in place instantly.\n\nHolding a drink at very high Temperaturess will have mist effects around the drink. | Sets you ablaze.\n\nHolding a drink at very low Temperatures will have the drink unleash a barrage of smoke and fire from within.\n\nAlso emanates a fizzing sound.|
- |Quenchiness|Determines how fast you regenerate upon consumption.|Regenerates health quickly.\n\nHolding a drink at very high Quenchiness will have stars around it.|Drains health quickly.\n\nHolding a drink at very low Quenchiness will have purple effects falling off of it.|
+ |Quenchiness|Determines how fast you regenerate upon consumption.|Regenerates health quickly.\n\nHolding a drink at very high Quenchiness will have stars around it.|Drains health quickly.\n\nHolding a drink at very low Quenchiness will have purple effects falling off of it.\n\nHaving it exceed below a certain point will instead vaporize you upon drinking, dealing 99 damage and producing an audible gasp.|
  |Sweetness|Determines the cooldown between each sip.|Very fast cooldown.|Very slow cooldown.|
  |Energy|Determines the speed boost you recieve within each sip. Overconsuming this will also kill you.|Increases speed drastically.|Reduces speed significantly.|
  
@@ -80,10 +80,10 @@ content: |
  ###[Spices]
  | Name | Class | Description | Effects | Image |
  |--------------|--------------|--------------|
- | Cinnamon | Dry | Not for use in a challenge. | - Quenchiness|![120x120](/bussim-assets/images/items/ingredients/cinnamon.webp)|
+ | Cinnamon | Dry | Not for use in a challenge. | -- Quenchiness|![120x120](/bussim-assets/images/items/ingredients/cinnamon.webp)|
  | Peppers | Solid | A literal chili pepper. What. | - Quenchiness\n++ Temperature|![120x120](/bussim-assets/images/items/ingredients/pepper.webp)|
  | Pumpkin Spice | Dry | Default Description | - Quenchiness|![120x120](/bussim-assets/images/items/ingredients/pumpkin.webp)|
- | Salt | Dry | Freshly sourced from the Rifts. | -- Quenchiness|![120x120](/bussim-assets/images/items/ingredients/salt.webp)|
+ | Salt | Dry | Freshly sourced from the Rifts. | --- Quenchiness|![120x120](/bussim-assets/images/items/ingredients/salt.webp)|
  \n 
  ###[Dairy]
  | Name | Class | Description | Effects | Image |

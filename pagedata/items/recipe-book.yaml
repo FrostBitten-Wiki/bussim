@@ -18,16 +18,19 @@ attributions:
   - hi lol - FangedWerewolf
 
 content: |
-  "Yummy Yummy Fun Time" -"Recipe Book"
+  "A scrapbook full of drink recipes you've collected!" -"Recipe Book"
 
-  !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Still striking iron while it's hot.\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update a whole lot easier! Really convienient, don't ya think?)"
   ##[Info]
   The Recipe Book is an item paired with the [Cup Dispenser](cup-dispenser) as part of the Licensed Barista Gamepass, which costs 450 R$.
   \n\n 
   When used, it displays custom recipes either made by you or from other players, with specific measurements on ingredients, order, and with name and description. It also shows you your last custom drink that you have made, giving you the option to create a custom recipe for itself.
   \n\n 
   ##[Creating Custom Recipes]
-  After creating a custom drink, you have the option to name your drink and give it a description (assuming it follows Roblox TOS). It has up to 6 slots of ingredients and allows you to share with them for others to use.
+  After creating a custom drink, you have the option to name your drink and give it a description (assuming it follows Roblox TOS). It has up to 6 slots of ingredients with customizable levels of accuracy (Exact, Around, and Normal) and allows you to share with them for others to use.
+  \n\n
+  The accuracy chosen can make the drink more specific, with h[Exact] being the exact listed recipe measurements, h[Default] having the usual leniency in normal drink-making, and h[Around] being the most lenient.
+  \n\n 
+  Each player will also have a limit of up to 400 custom recipes, allowing one to create hundreds for any given motive.
   \n\n
   The custom recipe shows the person who made it, when it was created (when the author first made it), and when it was discovered (when you recieved the recipe).
   \n
@@ -42,9 +45,20 @@ content: |
   Lastly, you can also decide whether the recipe can be shared from those who have your recipe. This won't affect your ability to share your recipe with others, but prevent said others from sharing it further. 
   \n\n
   Abandoning your recipe will also have the share function kept as it was prior to being abandoned.
-
+  \n\n 
+  If you are however someone but the owner of the recipe, you can instead Forget the recipe, requiring you to have assistance from others if you want to get it back.
+  \n 
+  ##[Sharing Custom Recipes]
+  After making your custom recipe, you can share it by clicking the share button within the recipe that you'd like to share. You'll also need another player holding the recipe book in order for it to work. 
+  \n\n 
+  Once you click the selected player with your recipe, they can either decline or accept the recipe, including your recipe into their books until they abandon it.
+  
+  \n
   ##[Trivia]
-  - If any liquid / dry ingredients are poured even after reaching 190ml within the Recipe Creation UI, an image of Sisyphus will appear as the [World's Smallest Violin](https://www.youtube.com/watch?v=XdofmoYcJNE) plays in the background.
+  - If any step in the automatic preview somehow gets stuck before the drink is finished, an image of Sisyphus will appear as the [World's Smallest Violin](https://www.youtube.com/watch?v=XdofmoYcJNE) plays in the background.
     - Originally it was going to play the [Sisyphus Theme](https://www.youtube.com/watch?v=jcYvDZKLQJ0), as per with the image shown but is unfortunately copyrighted.
+  - This is the first gamepass that includes two items in one, being the [Cup Dispenser](cup-dispenser) and the Recipe Book.
+  - If you create a drink under an abandoned recipe, it also adds in an extra description at the end of the recipe's description: "A long lost recipe."
+    - If it was prepared by someone else, it'll also merge with the other extra description, turning it into "A long lost recipe, prepared by [Player]."
 
   !!GALLERY [/assets/bussim/images/items/recipe-book.webp]

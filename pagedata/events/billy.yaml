@@ -74,7 +74,7 @@ content: |
   - The [GPS](gps) will say "Billy Nation" during the event instead of any random street name.
   - You can also obtain a badge called [Voluntary Adjustment](badges#voluntary-adjustment) by sneaking into the machine without getting thrown by a Billy. This can be trivialized with [Cramped Cola](cramped-cola).
   - Billies use the same tool that you can obtain using Admin Commands, which gives you the ability to holster other players as well as throw them anywhere yourself. The players can also escape likewise by mashing space as if they were holstered by a Billy.
-  - If you enter the machine while being small (due to [Cramped Cola](cramped-cola)), you will become a normal sized billy. However, if you drink the [Cramped Cola](cramped-cola) again, you will become MASSIVE! (See Gallery)
+  - If you enter the machine while being shrunken down via [Cramped Cola](cramped-cola) and re-use it after transforming, your player size becomes drastically larger than normal.
   - If you get crushed under the Billy machine, you'll actually die from it, and so can other Billies.
   - The door on the bus will automatically close itself when the Billies start moving.
     - This is the only instance where the door closes itself with no input from any other player.

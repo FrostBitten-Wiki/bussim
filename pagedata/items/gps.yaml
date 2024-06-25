@@ -24,7 +24,7 @@ content: |
   ##[Info]
   The GPS is a Gamepass item in Bus Simulator. It costs 12 R$.
   \n\n 
-  The location shown on the GPS is randomly generated, but some events have set locations to better reflect the situation. 
+  When held, it displays the time it'll take before the next event by minutes, the [Biome](biome) you are currently in, and any randomly (or event-specific) Location. It serves no other purpose aside from displaying information.
   \n
   All the locations can be seen [here.](gps-locations)
 

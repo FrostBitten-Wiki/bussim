@@ -24,7 +24,8 @@ content: |
 
   ##[Info]
   Entities are NPCs found in the [Backwalls](backwalls), they're hostile towards players and will kill them if they directly contact the player. They also have a faint unnatural sound and cannot attack [Pear](pear).
-  \n 
+  \n\n 
+  If you paid for Pear's services at the cost of 10 Passenger Reputation, any entity that Pear encounters (assuming they don't find you first) will be pacified, being unable to catch you even when being next to them.
   ##[Appearance]
   The entities are both tall and slim, with a very unnatural material composition. They possess only white eyes and have a dark aura around them. 
   \n 
@@ -34,5 +35,8 @@ content: |
   - Once they detect you, you won't instantly die but get stunned. Only a well timed [Almond Water](almond-water) and [Liquid Void](liquid-void) can save you in this case. 
     - You may also try to use the teleporters if you are near one or the exit, but there's no guarantee it's a risk worth taking.
   - You may also use [Liquid Void](liquid-void) or a [Void Burger](void-burger) to evade them completely or by timing your movements right.
+  - Their line of sight also breaks at any obstacle, especially [Pear](pear). If you are his client and got detected first before Pear could pacify it, hiding behind him can significantly reduce your speed of detection.
+  - If Pear encounters it with his client first before it could to the player, their AI will temporarily be pacified, allowing Pear's client to get away without being detected no matter what circumstances would trigger its detection. 
+    - This doesn't work if the Entity finds the client first before Pear could intervene, or if other players had tagged along with the client.
 
   !!GALLERY [/assets/bussim/images/npcs/entity.webp]  
