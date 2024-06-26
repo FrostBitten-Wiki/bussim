@@ -23,7 +23,7 @@ attributions:
 
 content: |-
   ##[Info]
-  Zeon is an NPC that appears in the [GOATed Gas Station](goat-station) and [Coffee Shop](coffee-shop) event. She is also a moderator for games NobleReign owns, including Bus Simulator and Kit Battle.
+  Zeon is an NPC that appears in the [GOATed Gas Station](goat-station) and [Coffee Shop](coffee-shop) event. She is also a moderator for Bus Simulator.
 
   ##[Appearance]
   She wears a purple zip-up jacket, purple shadow antlers, Brighteye's hair, black pants with purple stripes on the sides, 3D glasses, and a purple scarf.
@@ -58,7 +58,7 @@ content: |-
           - "Well, hey there."
       - hg[Option 6]: Sorry! Didn't know I was breaking in... (Stranger-Exclusive)
           - "How did you just- Okay.. Just... Get outta here Or don't. I'm an NPC, I can't force you to do something."
-  
+
   ###[Drink Responses (Goat Station)]
   - If you give Zeon the wrong drink:
     - "Thanks for the offer I guess, but I don't really need it. You drink it."
