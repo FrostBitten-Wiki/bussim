@@ -45,7 +45,7 @@ content: |
  ###[Sweets]
  | Name | Class | Description | Effects | Image |
  |--------------|--------------|--------------|
- | Cookies | Solid | It's actually from a cereal, but it's close enough. | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/cookies.webp)|
+ | Cookies | Solid | It's actually from a cereal, but it's close enough. | - Quenchiness\n+ Sweetness |![120x120](/bussim-assets/images/items/ingredients/cookies.webp)|
  | Honey | Liquid | Jazzy. | + Sweetness\n + Quenchiness |![120x120](/bussim-assets/images/items/ingredients/honey.webp)|
  | Marshmallows | Solid | They made sugar soft, no way! | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/marshmallows.webp)|
  | Sugar | Dry | The sweetest of crystals | ++ Sweetness|![120x120](/bussim-assets/images/items/ingredients/sugar.webp)|
