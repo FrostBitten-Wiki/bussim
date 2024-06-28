@@ -1,9 +1,10 @@
-editable: True
+editable: true
 page:
   title: Pain Ball
-  description: The Pain Ball is a short, but very loud event where a ball will be slammed into the windshield, causing screams of pain in the process.
+  description: The Pain Ball is a short, but very loud event where a ball will be
+    slammed into the windshield, causing screams of pain in the process.
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
+
   tags: some,tags,here,that is used by the search api
 
   header:
@@ -11,13 +12,13 @@ page:
       Category: [Events](events)\n
       Event Name: h[PainBall]\n
       Event Runtime: h[1 Minute and 30 Seconds (1:30)]
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/events/painball.webp
 
 attributions: []
 
-content: |
+content: |-
   ##[Info]
   The Pain Ball is a short, but very loud event where a ball will be slammed into the windshield, causing screams of pain in the process. Eventually after a while of screaming, the driver finds a way to wipe it off of the windshield, and it succeeds, ending the event. 
   \n\n 
@@ -28,4 +29,5 @@ content: |
         - hg[Event]: "It looks like the ball is falling off of the windshield."
   ##[Trivia]
   - This is a reference to a roblox game Steven_Scripts has made called [balls of pain](https://www.roblox.com/games/2179700750/balls-of-pain).
+  - The screams are actually from Sr Pelos "Underpants" mini-series. Specifically using Sans, and two from Asgore.
   !!GALLERY [/assets/bussim/images/events/painball.webp]
