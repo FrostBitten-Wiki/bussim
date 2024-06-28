@@ -35,7 +35,7 @@ content: |
   - hg[Variant 7]: "Inro. I've planted a bomb in your chest. You will explode in 3 seconds." (Only lnr01 can see this.)
       - hg[Option 1]: Can I buy something?
           - "What do I look like to you, a cash register? It's literally like 2 feet to the left. It doesn't take much thinking, stupid."
-              - Sorry...
+              - hg[Sorry...]
       - hg[Option 2]: Are you guys hiring?
           - hg[Variant 1]: "Well, you'd have to take that up with our boss, though... He tends to just hire people who are "goated with the sauce," I think he means like caprinae? Sheeps and goats and such.""
           - hg[Variant 2]: "Hm, well, you do seem... "goated with the sauce," "I'm sure the boss would hire you, sadly he ain't here right now." (If the player is wearing any goat accessories, this will instead play.)
@@ -64,6 +64,6 @@ content: |
     - "Hey kid, I got two jobs and zero patience. Ever think about shutting the heck up for once? This is my one and only warning."
   - If the airhorn is used repeatedly in proximity to Green for a second time
     - We've already been over this before. You asked for it.
-      - The player then explodes.
+      - (The player then explodes.)
 
   !!GALLERY [/assets/bussim/images/npcs/green.webp]  

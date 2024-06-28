@@ -101,7 +101,7 @@ content: |-
       - "...whenever I need some extra funds. My rent is kind of due..."
         - hg[Option 1]: Why arent you behind the counter then?
           - "It's my day off."
-        - hg[Option 2]: That's rough
+        - hg[Option 2]: That's rough.
     - hg[Option 5]: What's on your mind?
       - "A fair amount of stuff, Here's one for ya."
         - hg[Variant 1]: "If you see an English gentleman wearing a coat and a tophat, as well as a small child wearing blue with him, don't be afraid to give them a puzzle! They're both really good at solving 'em."
@@ -122,7 +122,7 @@ content: |-
   ###[Drink Responses (Cafe)]
   - If you give Zeon the wrong drink:
     - "Oh, uhm... I didn't ask for this."
-      - Oops.
+      - hg[Oops.]
   - If you give Zeon <clr:#151812>(***The Sludge.***):
     - "I don't know WHAT that is but it's definitely not what I ordered."
   - If you give Zeon <clr:#FFC9C9>(***Strawberry Smoothie***):

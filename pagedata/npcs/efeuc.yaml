@@ -38,20 +38,20 @@ content: |-
   - hg[Variant 7]: "GOOOODDDDD ISSSSSS GOOOOOOOOOOOOOOOOOOD, GOOODDDD ISSSSS GREAAAAT GOD IS GOOOHOHOOOOHOO" (1/300 chance, also explodes the player.)
       - hg[Option 1]: Is there anything you do, like at all?
           - "no"
-              - Then why do you exist?
-              - Fair.
-                  - "you ask too many questions, are you always this annoying?"
-                      - Sheesh, so moody...
+              - hg[Option 1]: Then why do you exist?
+                - "you ask too many questions, are you always this annoying?"
+                      - hg[Sheesh, so moody...]
+              - hg[Option 2]: Fair.
       - hg[Option 2]: This is just like the Backrooms!
           - "NO. shush, your not funny. this is NOT the backwalls. i don't even know what a 'backrooms' is. sounds like some cheap ripoff."
       - hg[Option 3]: Where are we?
           - "we are in the void, i got my two monitors for entertainment albeit one of them is broken."
               - hg[Option 1]: How do I leave?!
                   - "idk, i havent figured that one out yet.. but it's pretty chill in here, since i don't have to be running from the police."
-                      - Can you try helping me get out of here?
+                      - hg[Can you try helping me get out of here?]
                           - "heh, ok i'll throw you in a random direction, ready?"
                               - (The player gets flung in a random direction.)
-                      - Guess this is my life now..
+                      - hg[Guess this is my life now..]
               - hg[Option 2]: Ah, okay.
       - hg[Option 4]: Let's talk!
           - hg[Variant 1]: "not much to talk here, but.. well.."
@@ -61,46 +61,46 @@ content: |-
                       - Weird.
               - hg[Variant 2]:
                   - "hey, if you ever find a way out of here, tell my friend Darkahrii that i'll be late to The Meeting."
-                      - What if I don't?
+                      - hg[Option 1]: What if I don't?
                           - (The player gets flung.)
-                      - Okay.
+                      - hg[Option 2]: Okay.
                           - "thanks."
               - hg[Variant 3]:
                   - "sometimes some strange sirens starts blaring in here, and momentarily go away. i have no clue what it is, but i've just gotten used to it now."
-                      - You mean the events?
+                      -  hg[Option 1] :You mean the events?
                           - "events? what events? literally nothing ever happens here."
-                      - Weird.
+                      -  hg[Option 2]: Weird.
                           - "i know, right?"
               - hg[Variant 4]:
                   - "isn't it weird how we are in a world where anthropomorphic animals that can talk to human beings?"
-                      - You're probably overthinking it.
+                      - hg[Option 1]: You're probably overthinking it.
                           - "yea, maybe i am"
-                      - Woof.
+                      - hg[Option 2]:  Woof.
                           - "what"
               - hg[Variant 5]:
                   - "i'd set up a shop in here for any visitors... but i ran out of materials a long time ago."
               - hg[Variant 6]:
                   - "i bet i could beat you in a link cable game, but my batteries are out of charge. maybe later?"
-                      - I would destroy you.
+                      -  hg[Option 1]: I would destroy you.
                           - "bet"
-                      - What's a link cable?
+                      -  hg[Option 2]: What's a link cable?
                           - "L"
               - hg[Variant 7]:
                   - "hollup, aint you nathaniel b?"
-                      - No?
+                      -  hg[Option 1]: No?
                           - "i thought you look like him for a moment, nevermind"
-                      - What?
+                      -  hg[Option 2]: What?
                           - "nvm"
               - hg[Variant 8]:
                   - "sometimes i miss the outside world... its been a while since ive seen more than 1 person... but i mean... the police are out there and i am safe here so... hmm"
-                      - I guess that's good.
+                      -  hg[Option 1]: I guess that's good.
                           - "yeah, i guess"
-                      - I'll report you to the police.
+                      -  hg[Option 2]: I'll report you to the police.
                           - "yea, try to get the police in here i dare you"
       - hg[Option 5]: Nevermind.
           - hg[Variant 1]: "why are you talking to me then?"
           - hg[Variant 2]: "???????????"
-          - hg[Variant 3]: "take care,"
+          - hg[Variant 3]: "take care."
           - hg[Variant 4]: "bye"
 
   ###[Drink Responses]
@@ -109,7 +109,7 @@ content: |-
   - If you give Efeuc <clr:#151812>(***The Sludge.***):
     - "is this coffee?"
     - "..."
-        - Efeuc then turns into a gravestone with the following message: \nhere lies efeuc\n\nit wasn't coffee
+        - (Efeuc then turns into a gravestone with the following message: \nhere lies efeuc\n\nit wasn't coffee)
   - If you give Efeuc <clr:#FFF8E8>(***'Decaf'***):
     - "thanks, appreciate it a lot, but how'd you know that's my favorite, huh?"
     - "yeah, get outta here"

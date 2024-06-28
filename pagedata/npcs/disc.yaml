@@ -76,8 +76,8 @@ content: |-
                                       - hg[Variant 1]:
                                           - "A few weeks ago, a tall, orange dragon came in.. or maybe it was a dog..? They came in such a huge frenzy though! Fur frazzled, looking frantically for something.. Then they came up to me and they were all like.."
                                               - ???: "This is important, do you have any, uh, pen tips?? For drawing tablets??? Any at all???"
-                                                  - Disc: "I had to be all like, 'Sir, this is a gas station convenience store!"
-                                                  - ..."After that, they looked really defeated and left..."
+                                                  - "I had to be all like, 'Sir, this is a gas station convenience store!"
+                                                  - "...After that, they looked really defeated and left..."
                                                   - "I hope they're okay!"
                                       - hg[Variant 2]:
                                           - "Some driver guy came in about a week ago.."
@@ -85,7 +85,7 @@ content: |-
                                           - "He explained his situation, though.. Apparently he stole a straw from Bloxdonalds or something..?"
                                           - "I kinda feel bad for him now.. What a way to become a felon..."
                                       - hg[Variant 3]:
-                                          - "I saw a icy blue wolf come in here the other day.. I think they said their name was like.. Frozen..? Freezy..? Frostbite??"
+                                          - "I saw a icy blue wolf come in here the other day.. I think they said their name was like.. Frozen..? Freezy..? [Frostbite](frostbite)??"
                                               - Green: "Right, that dude.. they stole the last of those frozen sponge pops! Just sprinted out of the store like it was nothing!"
                                                   - Disc: "Oh, right.. well if you see him, tell him to pay us back!"
                                       - hg[Variant 4]:
@@ -93,11 +93,11 @@ content: |-
                                           - "We gave up and just... let them sit there... \*sniff\*"
                                               - Green: "Oh, don't worry about Disc. D6 threw a 2 ton slab of concrete at his head and narrowly missed. He's just a bit traumatized."
                                       - hg[Variant 5]:
-                                          - "Everyone in town is pretty nice, except for that one robot dude... "
+                                          - "Everyone in town is pretty nice, except for that [one robot dude](tazer)... "
                                           - "They always brought their Mini-Bus, and ruined our shelves!"
                                           - "It got to the point where we decided to add spikes to the floor entrance... Let's just say that they stopped coming in after that. >:}"
                                       - hg[Variant 6]:
-                                          - "Once, a tiny little gray cat came through here.. he was super cute!"
+                                          - "Once, a [tiny little gray cat](pear) came through here.. he was super cute!"
                                               - hg[Option 1]: He will be boiled.
                                                   - "WHAT?! Don't do that!!"
                                                       - Green: "Disc, I'm pretty sure they're just joking..."
@@ -155,7 +155,7 @@ content: |-
                   - hg[Variant 3]: "Empty, mpty, mt,"
                   - hg[Variant 4]: "You do know air doesn't come with a barcode, right?"
                   - hg[Variant 5]: "So, you're gonna buy air? That's going to cost you 99999999999 rep!"
-                      - Oops.
+                    - hg[Oops.]
               - If the player has an item that can be bought and is purchasable:
                   - hg[Variant 1]: "The luxurious items are going for <total price> rep! Going once... Going Twice..."
                   - hg[Variant 2]: "Psst... that things gonna cost you <total price> rep... Do you want it?"

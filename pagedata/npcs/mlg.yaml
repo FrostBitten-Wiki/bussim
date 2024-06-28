@@ -40,7 +40,7 @@ content: |-
                     - hg[Option 1]: WOAH, okay! Fine! I won't!
                         - "Good."
                     - hg[Option 2]: I'm not scared of you.
-                        - The player dies.
+                        - (The player dies.)
     - hg[Option 2]: Bye.
     - hg[Option 3]: Who are you?
         - "Oh, uh, my name is MLG. It's short for MLGBudderCD. I'm only here because of how dirt cheap the rent is around here."
@@ -64,7 +64,7 @@ content: |-
   - If the airhorn is used repeatedly in proximity to MLG:
     - "..."
   - If the airhorn is used repeatedly in proximity to MLG a second time:
-    - The player is then [defenstrated](https://www.roblox.com/badges/2141806851/DEFENESTRATED), being launched into the air and taking massive damage in the process.
+    - (The player is then [defenstrated](https://www.roblox.com/badges/2141806851/DEFENESTRATED), being launched into the air and taking massive damage in the process.)
       - The entire response is then repeated afterwards, with further defenstrations dealing no damage.
 
   ###[**Cafe**]

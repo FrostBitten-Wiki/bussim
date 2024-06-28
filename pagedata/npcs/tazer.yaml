@@ -71,11 +71,11 @@ content: |-
         - "Wait, really?" 
           - hg[Variant 1]: "Thanks! Here's that rep I promised."
           - hg[Variant 2]: "Here's your rep, now get lost! Haha just kidding! Feel free to talk to me again sometime."
-            - The player then receives 2 Driver Reputation.
+            - (The player then receives 2 Driver Reputation.)
           - hg[Variant 3] (Illegal RAM): "Hey, wait a second.. This RAM is unmarked! Bootleg! Are you trying to scam me? Well, this'll be the last scam you'll ever pull."
-            - The player then explodes.
+            - (The player then explodes.)
           - hg[Variant 4] (Missing RAM, extremely rare): "Hey, wait a second.. you lied to me! There's no ram here! This'll teach you for being such a trickster..."
-            - The player then explodes.
+            - (The player then explodes.)
           - hg[Variant 4] (If already completed): "Uhh.. I kinda feel like I've done this before.. I don't really feel that hungry anymore.."
           - hg[Variant 5] (If already completed): "Ehhhh... I'm kind of feeling a bit spooked right now. I have a big sense of like, deja vu.. Maybe next time.."
       - hg[Option 6]: Nevermind.
@@ -83,9 +83,9 @@ content: |-
           - hg[Variant 2]: "Cya then."
           - hg[Variant 3]: "Bruh..."
           - hg[Variant 4]: "With regards from Tazer..."
-              - The player is then flinged.
+              - (The player is then flung.)
           - hg[Variant 5]: "Tazer jumpscare"
-              - Tazer then kills the player by "jumpscaring" them.
+              - (Tazer then kills the player by "jumpscaring" them.)
 
   ###[Airhorn Responses (Goat Station)]
   - If the airhorn is used repeatedly in proximity to Tazer:
@@ -96,7 +96,7 @@ content: |-
     - "And I thought I was obnoxious..."
   - If the airhorn is used repeatedly in proximity to Tazer for a fourth time and so on:
     - "With regards from Tazer."
-      - The player then gets flung.
+      - (The player then gets flung.)
 
   ###[Mini-Bus Related Dialogue]
   - If you click on Tazer's Mini-Bus:
@@ -107,7 +107,7 @@ content: |-
     - "***STOP.***"
   - If you click on Tazer's Mini-Bus a fourth time and so on:
     - "That's it. You gotta go. <20px>(<clr:#ffff00>(***NOW!!!***))"
-      - The player then violently explodes from a thunderbolt. <13px>((Triggers the Shocking Results Badge.))
+      - (The player then violently explodes from a thunderbolt. <13px>((Triggers the Shocking Results Badge.)))
 
   ###[**Cafe**]
   - hg[Variant 1]: "Beep boop!"
@@ -245,10 +245,10 @@ content: |-
         - hg[Variant 4]: "Then stop wasting my time."
         - hg[Variant 5]: "Cya I guess."
         - hg[Variant 6]: "With regards from Tazer..."
-          - The player is then flung.
+          - (The player is then flung.)
         - hg[Variant 7]: "Then scram before I hit ya with a wrench! Haha, just kidding. Feel free to stop by whenever!"
 
-  ###[Drink Responses]
+  ###[Drink Responses (Cafe)]
   - If you give Tazer the wrong drink:
     - hg[Variant 1]: "Looks delicious, but I can't drink that. Sorry. Maybe someone else would like it though."
     - hg[Variant 2]: "Thanks, but no thanks."

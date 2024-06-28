@@ -50,11 +50,11 @@ content: |-
   ###[**Cafe (Idle, if no players started the minigame for a while; around 3 minutes)**]
   - "That bus has been out there for a while now..." <small>(This is said on the Roblox Chat)</small>
   - "Hey um, can you move? You're taking up all of the parking space.. I don't think my customers can get in like this."
-  - You: "We can't"
-  - "What? Is that bus broken down..?"
-  - "*sigh*... I guess i can fix it for you. But you're gonna have to leave once I'm done. <12px>(hg[I'm already being stretched thin as-is..])"
-    - After a while
-      - "It's all fixed up now. Be on your way."
+    - You: "We can't."
+      - "What? Is that bus broken down..?"
+      - "*sigh*... I guess i can fix it for you. But you're gonna have to leave once I'm done. <12px>(hg[I'm already being stretched thin as-is..])"
+        - After a while...
+          - "It's all fixed up now. Be on your way."
   
   ###[**Cafe (Evaluation)**]
   - If the players have <clr:#45ff45>(successfully) provided almost all of the customers with the correct order:

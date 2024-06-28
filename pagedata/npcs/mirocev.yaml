@@ -42,7 +42,7 @@ content: |
     - hg[Option 3]: Sure!
         - "Cool! Here's your free soda! Enjoy!"
           - If the player doesn't have one currently:
-            - The player recieves a [Lemon Soda](lemon-soda)
+            - (The player recieves a [Lemon Soda](lemon-soda))
           - If the player already has one: 
             - "Hey...you already have a soda! One per customer!"
 

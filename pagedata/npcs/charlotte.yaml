@@ -49,7 +49,6 @@ content: |-
           - "I've got a RoEmulator that I play games on, a yo-yo that my partner gave to me, a *LOT* of trash I keep forgetting to throw away, I keep looking for a trash can, and a COOL ROCK!"\n\n
           - "I'm gonna give the rock to my partner, it seems like something that she'd find neat!"
         - hg[Option 2]: Actually, nevermind...
-          - h[Dialogue End]
         - hg[Option 3]: You're a goat, right?
           - "Wh- bwh- *HUHH??????*"\n\n
           - "I'm not a goat! I'm a sheep!!! How can you people *not* tell the difference?!"
@@ -66,7 +65,6 @@ content: |-
               - "Shut up!!!!! It's not a me problem!!!"\n\n
               - "Why are you being so mean?!"
             - hg[Option 4]: Er, sorry.
-              - h[Dialogue End]
         - hg[Option 4]: What's your deal?
           - "Huh? Oh, I'm just sitting around here is all, I just like being here!"\n\n
           - "It's nice and cozy so I spend my free time here frequently! Talking to the other customers sometimes and just hanging out."
@@ -83,7 +81,6 @@ content: |-
             - hg[Option 2]: That sounds boring.
               - "Well... it's nice to me!!"
             - hg[Option 3]: Oh, Okay.
-              - h[Dialogue End]
         - hg[Option 5]: Want a coffee?
           - "Bleh!! No, thank you!"\n\n
           - "Wah, sorry... That stuff's just so bitter! And gross!"\n\n
@@ -117,7 +114,7 @@ content: |-
           - hg[Variant 26]: "When attempting to do a cassoosted fuper, make sure not to buffer your dash too early, else you won't perform your super on queue!"\n\n
           - hg[Variant 27]: "Non-disclosure agreements, or NDAs, are contracts that prevent people from discussing certain topics, typically used for actors and people who work in the media. There are loopholes to them though, if you read them closely you might be able to leak facts early, like a game's existence!"
             - hg[Option 1]: Another tip, please.
-              - h[The Dialogue refreshes to a new Variant.]
+              - (The dialogue refreshes to a new Variant.)
             - hg[Option 2]: Thanks.
               - "I hope a tip stood out to you!"
     - hg[Option 2]: Cool bottle.
@@ -129,7 +126,7 @@ content: |-
   ###[Drink Responses (Cafe)]
   - If you give Charlotte the wrong drink:
     - "Oh, this is the uh... wrong thing? I don't really like this, sorry. Could I have something more comforting instead? I appreciate the offer though..."
-      - Oops.
+      - hg[Oops.]
   - If you give Charlotte <clr:#151812>(***The Sludge.***):
     - "Um... I don't think I can drink this, sorry. Something about that noise it made just really, really gets into me. Reminds me of something that... oh gosh, no."
   - If you give Charlotte <clr:#261805>(***Hot Chocolate***):

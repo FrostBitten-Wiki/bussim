@@ -70,12 +70,12 @@ content: |-
       - hg[Option 1]: Sorry, just walking by.
       - hg[Option 2]: Let's talk!
           - hg[Variant 1] (If the player count is below 5): "I mean, it is pretty lonely in here.."
-          - hg[Variant 2] (If there's one other player in the server): "You done talking to <Other Player>? Well, uhh..."
-          - hg[Variant 3] (If there's one other player in the server): "You finally tired of talking to <Other Player>? Then, uhhhh..."
-          - hg[Variant 2] (otherwise): "There's like <x Players in Current Server> on the bus and you wanna talk to me? Okay, uh..."
-          - hg[Variant 3]: "That's gonna cost you 5 rep... Just kidding! So..."
-          - hg[Variant 4]: "You want to talk? Hmm uhh..."
-          - hg[Variant 5]: "Well I'm not sure what to talk about but uh..."
+          - hg[Variant 2] (If there's one other player in the server): "You done talking to [Other Player]? Well, uhh..."
+          - hg[Variant 3] (If there's one other player in the server): "You finally tired of talking to [Other Player]? Then, uhhhh..."
+          - hg[Variant 4] (otherwise): "There's like [x Players in Current Server] on the bus and you wanna talk to me? Okay, uh..."
+          - hg[Variant 5]: "That's gonna cost you 5 rep... Just kidding! So..."
+          - hg[Variant 6]: "You want to talk? Hmm uhh..."
+          - hg[Variant 7]: "Well I'm not sure what to talk about but uh..."
           - Continuation (after any variant):
               - hg[Variant 1]: "Wanna rap battle? I promise it'll be easy!"
                   - hg[Option 1]: I don't rap.
@@ -89,7 +89,7 @@ content: |-
                               - "Woah, you actually have something like that?!"
                               - "This is a great stage, but why's the mic made out of cardboard?"
                               - "Eh, I guess it'll work. Let's rap!"
-                                  - Pearing Out then plays. Two outcomes will occur based on if you win or lose throughout the song. 
+                                  - (Pearing Out then plays. Two outcomes will occur based on if you win or lose throughout the song.)
                                       - If you win:
                                           - "Woah, you did pretty good actually!!!"
                                           - "That was fun! Feel free to rap battle me again sometime!"
@@ -107,11 +107,11 @@ content: |-
                   - "I think I've gotten pretty good at it.. would you like to have something of mine~?"
                       - hg[Option 1]: Yeah, for sure!
                           - "Thaaanks!! oh, what, you thought it was free? heck no, this is a business opportunity!"
-                              - The player is prompted to buy a random shirt from Pear's Clothing.
+                              - (The player is prompted to buy a random shirt from Pear's Clothing.)
                                   - If the player doesn't purchase the shirt or already owns it:
                                       - "Oh.. I guess you didn't like it..? I'll try and do better next time.."
                                   - If the player purchases the shirt:
-                                      - The shirt is applied to the player's avatar. (Shirt does not stay after rejoin or respawn.)
+                                      - (The shirt is applied to the player's avatar. (Shirt does not stay after rejoin or respawn.))
                                           - "Whuh!! You look amazing in that! I almost wanna pay you for wearing it! I'm not lying! You've actually inspired me to keep going, so I'll have more clothes for you the next time you see me!"
                       - hg[Option 2]: Ah, no thanks.
                           - "Aw... You would have looked good in it, though."
@@ -150,12 +150,12 @@ content: |-
                       - "So... You interested?"
                           - hg[Option 1]: I'm in!
                               - "Pawsome~ Just tell me who to call!!"
-                                  - An Invite Friends prompt appears.
+                                  - (An Invite Friends prompt appears.)
                           - hg[Option 2]: Nah.
                               - "Alright! If you ever change your mind, you know who to call."
                   - hg[Option 2]: Sounds good to me!
                       - "Pawsome~ Just tell me who to call!!"
-                          - An Invite Friends prompt appears.
+                          - (An Invite Friends prompt appears.)
                   - hg[Option 3]: I have no friends.
                       - "Oh. Uhm, yeowch... Didn't mean to rub salt in the wound, there... Hope you find some soon...?"
                   - hg[Option 4]: Nah.
@@ -163,7 +163,7 @@ content: |-
               - hg[Variant 11]: "You should play Kit Battle! It's a pretty great game in my honest opinion..."
                   - hg[Option 1]: I will play it right now.
                       - "Good, have fun~!"
-                          - The game will teleport you to Kit Battle.
+                          - (The game will teleport you to Kit Battle.)
                   - hg[Option 2]: Is this sponsored?
                       - "Totally not!! I would never take money to advertise a game..."
                       - "You definitely should play Kit Battle though..."
@@ -183,7 +183,7 @@ content: |-
                                           - "Um, nothing! I've gotta go now, see ya!!!"
                                       - hg[Option 2]: Um.. hi..?
                                           - "Yooo, you're talkin' to me? Brand new conversation, with me?! That's crazy! We should talk about how..."
-                                              - Pear then chooses a random dialogue line.
+                                              - (Pear then chooses a random dialogue line.)
               - hg[Variant 12]
                   - "It's pretty nice out today, wouldn't you agree?"
                       - hg[Option 1]: Yeah. 
@@ -201,7 +201,7 @@ content: |-
                       - "Hey, you look cold. Want a warm drink?"
                           - hg[Option 1]: Yeah. 
                               - "Here, take one. I made a bunch a while back. I wonder how they're still warm..?" 
-                                - The player then obtains the [Hot Chocolate](hot-chocolate).
+                                - (The player then obtains the [Hot Chocolate](hot-chocolate).)
                           - hg[Option 2]: Nah. 
                               - "Suit yourself."
                   - If the player already possesses the [Hot Chocolate](hot-chocolate) item:
@@ -231,7 +231,7 @@ content: |-
             - "So... You interested?"
              - hg[Option 1]: I'm in!
                - "Pawsome~ Just tell me who to call!!"
-                  - An Invite Friends prompt appears.
+                  - (An Invite Friends prompt appears.)
               - hg[Option 2]: Nah.
                 - "Alright! If you ever change your mind, you know who to call."
            - hg[Option 3]: Nevermind.
@@ -242,10 +242,10 @@ content: |-
                   - "Yeah, thought so~"
               - hg[Option 2]: Yeah, I'm sure.
                   - "Well then... *ahem*... You feelin generous? I can give everyone in the server some songs~ Trust me, it's worth it!"
-                      - You are then prompted to buy two songs for everyone in the server for 80 Robux.
+                      - (You are then prompted to buy two songs for everyone in the server for 80 Robux.)
       - hg[Option 5]: Let's rap! (only unlockable after beating Pearing Out)
           - "Oh, sure! Use that mirror of yours and we can start!"
-              - AFter the player uses the [Magic Mirror](magic-mirror) next to Pear, you'll gain access to play other songs in Friday Night alongside Pearing Out. 
+              - After the player uses the [Magic Mirror](magic-mirror) next to Pear, you'll gain access to play other songs in Friday Night alongside Pearing Out. 
 
   ##[**The Bus (Billy)**]
   !!DLEMULATOR EID:"billy_pearemulator" SID:"start_billy" URL:"/assets/bussim/emulatorData/pear.json"
@@ -380,11 +380,11 @@ content: |-
                   - "I think I've gotten pretty good at it.. would you like to have something of mine~?"
                       - hg[Option 1]: Yeah, for sure!
                           - "Thaaanks!! oh, what, you thought it was free? heck no, this is a business opportunity!"
-                              - The player is prompted to buy a random shirt from Pear's Clothing.
+                              - (The player is prompted to buy a random shirt from Pear's Clothing.)
                                   - If the player doesn't purchase the shirt or already owns it:
                                       - "Oh.. I guess you didn't like it..? I'll try and do better next time.."
                                   - If the player purchases the shirt:
-                                      - The shirt is applied to the player's avatar. (Shirt does not stay after rejoin or respawn.)
+                                      - (The shirt is applied to the player's avatar. (Shirt does not stay after rejoin or respawn.))
                                           - "Whuh!! You look amazing in that! I almost wanna pay you for wearing it! I'm not lying! You've actually inspired me to keep going, so I'll have more clothes for you the next time you see me!"
                       - hg[Option 2]: Ah, no thanks.
                           - "Aw... You would have looked good in it, though."
@@ -423,12 +423,12 @@ content: |-
                       - "So... You interested?"
                           - hg[Option 1]: I'm in!
                               - "Pawsome~ Just tell me who to call!!"
-                                  - An Invite Friends prompt appears.
+                                  - (An Invite Friends prompt appears.)
                           - hg[Option 2]: Nah.
                               - "Alright! If you ever change your mind, you know who to call."
                   - hg[Option 2]: Sounds good to me!
                       - "Pawsome~ Just tell me who to call!!"
-                          - An Invite Friends prompt appears.
+                          - (An Invite Friends prompt appears.)
                   - hg[Option 3]: I have no friends.
                       - "Oh. Uhm, yeowch... Didn't mean to rub salt in the wound, there... Hope you find some soon...?"
                   - hg[Option 4]: Nah.
@@ -436,7 +436,7 @@ content: |-
               - hg[Variant 11]: "You should play Kit Battle! It's a pretty great game in my honest opinion..."
                   - hg[Option 1]: I will play it right now.
                       - "Good, have fun~!"
-                          - The game will teleport you to Kit Battle.
+                          - (The game will teleport you to Kit Battle.)
                   - hg[Option 2]: Is this sponsored?
                       - "Totally not!! I would never take money to advertise a game..."
                       - "You definitely should play Kit Battle though..."
@@ -456,7 +456,7 @@ content: |-
                                           - "Um, nothing! I've gotta go now, see ya!!!"
                                       - hg[Option 2]: Um.. hi..?
                                           - "Yooo, you're talkin' to me? Brand new conversation, with me?! That's crazy! We should talk about how..."
-                                              - Pear then chooses a random dialogue line.
+                                              - (Pear then chooses a random dialogue line.)
               - hg[Variant 12]
                   - "It's pretty nice out today, wouldn't you agree?"
                       - hg[Option 1]: Yeah. 
@@ -474,7 +474,7 @@ content: |-
                       - "Hey, you look cold. Want a warm drink?"
                           - hg[Option 1]: Yeah. 
                               - "Here, take one. I made a bunch a while back. I wonder how they're still warm..?" 
-                                - The player then obtains the [Hot Chocolate](hot-chocolate).
+                                - (The player then obtains the [Hot Chocolate](hot-chocolate).)
                           - hg[Option 2]: Nah. 
                               - "Suit yourself."
                   - If the player already possesses the [Hot Chocolate](hot-chocolate) item:
@@ -515,7 +515,7 @@ content: |-
                   - "Yeah, thought so~"
               - hg[Option 2]: Yeah, I'm sure.
                   - "Well then... *ahem*... You feelin generous? I can give everyone in the server some songs~ Trust me, it's worth it!"
-                      - You are then prompted to buy two songs for everyone in the server for 80 Robux.
+                      - (You are then prompted to buy two songs for everyone in the server for 80 Robux.)
   
   ###[Drink Responses (Pear Takes The Wheel)]
   - If you give Pear the wrong drink:
@@ -537,7 +537,7 @@ content: |-
   - If the airhorn is used repeatedly in proximity to Pear a second time and so on:
     - "MMEEEOOOOOWWWWWWWW!!!!!"
     - <25px>(<clr:#ff0000>("DIE."))
-      - The player is then killed.
+      - (The player is then killed.)
       - The entire response is then repeated afterwards.
 
   ###[**The Backwalls**]
@@ -547,9 +547,9 @@ content: |-
   - hg[Variant 4]: "Woah! What's up?"
     - hg[Option 1]: Uh, just passing by.
     - hg[Option 2]: Let's talk!
-      - "That's gonna cost you your life... So..."
-      - "You want to talk? Right now...?"
-      - "Well, I'm not sure what to talk about, especially right now, but uh..."
+      - hg[Variant 1]: "That's gonna cost you your life... So..."
+      - hg[Variant 2]: "You want to talk? Right now...?"
+      - hg[Variant 3]: "Well, I'm not sure what to talk about, especially right now, but uh..."
         - hg[Option 1]: Are you the real Pear?
           - "Duh?"
             - hg[Option 1]: Good enough for me.
@@ -561,9 +561,9 @@ content: |-
                     - hg[Option 1]: Good.
                     - hg[Option 2]: "How do I know you're not a skinwalker?"
                       - "Well, you're not dead, are you?"
-                        - How can you be so sur-
+                        - hg[How can you be so sur-]
                           - '"I'm not a skinwalker, [Player".]'
-                            - I-.. Sure...
+                            - hg[I-.. Sure...]
       - hg[Option 3]: Survival Tips?
         - hg[Variant 1]: "I've seen a few drinks on the floor while walking around. I tried that Almond Water stuff, and I felt really energized~! I also saw a dark-looking one, but I didn't interact with it, just being near it gave me the creeps... I wouldn't drink that if I were you-- but if you do, try and be a bit careful maybe?"
         - hg[Variant 2]: "There was some black goo on the floor, and I accidentally got some of it on my paws... Uh, don't do that. It felt like my insides were melting away... Thankfully, I still had a sip of Almond Water left!"
@@ -572,12 +572,10 @@ content: |-
         - hg[Variant 5]: "mmrroww? Why'd I call it the Backwalls..? Don't know, I just made up a name for the third time I ended up here! Just felt right, ya know?"
         - hg[Variant 6]: "Once, I saw some kinda image-looking thing at the end of a hallway. It didn't look like the ones I'm used to. I didn't get any closer to it, and I never saw it again. Guess we'll never know. <small>I'm just glad it wasn't quandale again...</small>"
         - hg[Variant 7]: "Try not to die out there~"
-        - hg[Variant 8] (after all variants 1-7 have been seen): "Uhm, thanks for listening to me ramble..! I'm kinda out of stuff to say, so I'll just start repeating myself from here on out.. Feel free to leave now if you want."
-          - The "Another tip, please" option is gone from this variant.
-          - Options:
-            - hg[Option 1]: Another tip, please?
-              - Conversation loops back to hg[Option 3]: Survival Tips?.
-            - hg[Option 2]: Thanks.
+        - hg[Variant 8]: "Uhm, thanks for listening to me ramble..! I'm kinda out of stuff to say, so I'll just start repeating myself from here on out.. Feel free to leave now if you want." (after all variants 1-7 have been seen)
+          - hg[Option 1]: Another tip, please?
+            - (Conversation loops back to hg[Option 3]: Survival Tips?, disappears after Variant 8.)
+          - hg[Option 2]: Thanks.
       - hg[Option 4]: P-Pear?
         - hg[Variant 1]: "Hm?"
         - hg[Variant 2]: "What, did you think I'd die?"
@@ -585,29 +583,30 @@ content: |-
           - You: "W-Wh.. H-How did..."
             - hg[Option 1]: ..you stay calm?!
               - "I-I mean, I've already been here before, so I know what to look out for..! <small>i just hope i don't run into quandale again...</small>"
-                - Oh, okay. Makes sense.
+                - hg[Oh, okay. Makes sense.]
                   - Conversation continues to Passenger Rep Trade.
-                - You've WHAT??
+                - hg[You've WHAT??]
                   - "Long story."
                     - Conversation continues to Passenger Rep Trade.
             - hg[Option 2]: ..we get here?!
               - hg[Variant 1]: "Pff, that's simple. We no-clipped, dummy! The bus stopped right on an unstable bit of ground, and whoosh! Here we are!"
-                - I don't believe you.
+                - hg[I don't believe you.]
                   - "I don't blame you, I know it's really weird. Here's the deal. I actually know the way out, sooo... I can take you there... for a price."
                     - Conversation continues to Passenger Rep Trade.
-              - hg[Variant 2] (if player drank cola and ate cake during Bus Birthday event): "Pfft... You ate the cake with the cola, dummy! You fell for a classic blunder!"
-                - I don't believe you.
+              - hg[Variant 2] (If player drank [Cola](cola) and ate the [Bus Birthday Cake](bus-birthday-cake)): "Pfft... You ate the cake with the cola, dummy! You fell for a classic blunder!"
+                - hg[I don't believe you.]
                   - "Oh, well... That's what happened, whether you like it or not, so..."
                   - "Here's the deal. I actually know the way out, sooo... I can take you there... for a price."
-                    - A price?
+                    - hg[A price?]
                       - "20 passenger rep. Deal, or no deal?"
-                        - Wh-- 20?! Wasn't it 10 before?!
+                        - hg[Wh-- 20?! Wasn't it 10 before?!]
                           - "Uh, yeah... but like, I warned you about the cake, didn't I? You kinda deserved it..."
-                            - I'm not paying that.
+                            - hg[Variant 1]: I'm not paying that.
                               - "Your funeral~"
-                            - Ugh, fine.
+                            - hg[Variant 2]: Ugh, fine.
                               - "Thanks for the rep, sucker! The second you'll move, I'll start leading! Now, let's get outta here!"
-                                - Pear will now walk towards the exit, and any [Entity](entity) he encounters first (before it can to you) will be pacified throughout the journey.
+                                - (Pear will now walk towards the exit, and any [Entity](entity) he encounters first (before it can to you) will be pacified throughout the journey.)
+                                  - However, this does not protect other players that follow Pear as well.
                 - hg[Option 3]: ..you survive?!
                   - "I'm just too powerful."
                 - hg[Option 4]: ???
@@ -615,7 +614,7 @@ content: |-
               - Passenger Rep Trade
                 - "Here's the deal. I actually know the way out, sooo... I can take you there... for a price."
                   - hg[Option 1]: Well.. is it safe?
-                    - "Whuh? Is it safe..? Oh pssh, only like, what, (number of victims) died along the way? Pff, what's with the look? You'll be fiiiine, trust me! You're in good paws. 10 Passenger rep. Deal, or no deal?"
+                    - "Whuh? Is it safe..? Oh pssh, only like, what, [number of victims] died along the way? Pff, what's with the look? You'll be fiiiine, trust me! You're in good paws. 10 Passenger rep. Deal, or no deal?"
                       - Conversation continues to Trade Prompt.
                   - hg[Option 2]: A price?
                     - "10 Passenger rep. Deal, or no deal?"
@@ -625,8 +624,7 @@ content: |-
                   - Trade Prompt
                     - hg[Option 1]: It's a deal.
                       - "Thanks for the rep! The second you'll move, I'll start leading! Now, let's get outta here!"
-                        - Accepting the Passenger Rep Trade deal will make Pear lead you to the exit of the Backwalls.
-                        - Whilst encountering the Entities of the Backwalls, Pear will make them not attack the player.
+                        - (Pear will now walk towards the exit, and any [Entity](entity) he encounters first (before it can to you) will be pacified throughout the journey.)
                           - However, this does not protect other players that follow Pear as well.
 
   ###[**The Backwalls (After Paying)**]
@@ -656,17 +654,17 @@ content: |-
   - hg[Variant 3]: "mmrow? Hey, get moving!"
   - hg[Variant 4]: "Alright. I'll stop and wait."
   - hg[Variant 5]: "What are you standing around for? It's dangerous out here!"
-    - Continuing from all variations, Pear will stop moving for a bit and waits for the player.
+    - (Continuing from all variations, Pear will stop moving for a bit and waits for the player.)
 
   ###[**The Backwalls (If the player actively heads in the wrong path)**] 
   - hg[Variant 1]: "W-Whuh?! Where are you going..?!"
   - hg[Variant 2]; "Wrong way, dummy! What the heck??"
-    - Continuing from all variations, Pear will actively move to the player, speeding up and stops moving upon reuniting. 
+    - (Continuing from all variations, Pear will actively move to the player, speeding up and stops moving upon reuniting. )
     - After Pear is reunited with the player: 
       - hg[Variant 1]: "Why'd you wander off like that..?! Give me another second to think.."
       - hg[Variant 2]: "What the heck.. why..? Now we're off course.."
       - hg[Variant 3]: "Sheesh.. giving me a heart attack.. Now I gotta rethink our path.."
-        - Continuing from all variations, Pear then resumes his path.
+        - (Continuing from all variations, Pear then resumes his path.)
 
   ###[**The Backwalls (If the Pathfinding takes a while)**]
   - "Yeah sorry, it's really far away. I really do know where it is though, trust!"
@@ -698,7 +696,7 @@ content: |-
     - If the pathfind check fails:
       - hg[Variant 1]: "...You're not gonna like what I'm say but... I can't remember the path. See ya!"
       - hg[Variant 2]: "S-Sike, you're never getting out of here! Thanks for the rep..! Haha.. ha.."
-        - Pear then disappears with green smoke.
+        - (Pear then disappears with green smoke.)
 
   ##[Trivia]
   - He is the only NPC that offers you something in exchange for Robux.\n\n

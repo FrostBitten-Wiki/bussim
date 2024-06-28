@@ -77,7 +77,7 @@ content: |
     - "Ack! Cut it dork, dork!"
   - If the airhorn is used repeatedly in proximity to Foxman a third time and so on:
     - "That's it! Try honkin' at me now!"
-      - The player's arms are removed from the body.
+      - (The player's arms are removed from the body.)
 
   ###[AFK Responses]
   - "Um... You there?"
