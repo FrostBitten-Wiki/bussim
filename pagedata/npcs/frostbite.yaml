@@ -350,10 +350,7 @@ content: |-
     - "Oh, that's for me..?"
     - "Brrrrrrrr, that's *COLD*..."
     - "Just the way I like it, heh. Thanks for the drink."
-      - If you given him another <clr:#C7FFFF>(***The Blizzard***):
-        - "Oh, that's for me..?"
-         - "Brrrrrrrr, that's *COLD*..."
-        - "Just the way I like it, heh. Thanks for the drink."
+      - This dialogue repeats even with another favorite drink.
 
   ##[Trivia]
   - Frost is [NobleReign](noble) fursona.

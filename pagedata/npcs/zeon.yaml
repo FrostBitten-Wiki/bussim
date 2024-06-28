@@ -66,8 +66,7 @@ content: |-
     - "Why did you bring this to me? This is literally poison..."
   - If you give Zeon <clr:#FFC9C9>(***Strawberry Smoothie***):
     - "That cafe does delivery? I don't remember ordering this.. but thanks."
-      - If you given her another <clr:#FFC9C9>(***Strawberry Smoothie***):
-        - "That cafe does delivery? I don't remember ordering this.. but thanks."
+      - This dialogue repeats even with another favorite drink.
 
   ###[Airhorn Responses (Goat Station)]
   - If the airhorn is used repeatedly in proximity to Zeon
@@ -128,8 +127,7 @@ content: |-
     - "I don't know WHAT that is but it's definitely not what I ordered."
   - If you give Zeon <clr:#FFC9C9>(***Strawberry Smoothie***):
     - "Oh, it's the smoothie I ordered. Thanks."
-      - If you given her another <clr:#FFC9C9>(***Strawberry Smoothie***):
-        - "Oh, it's the smoothie I ordered. Thanks."
+      - This dialogue repeats even with another favorite drink.
 
   ##[Trivia]
   - The "michael" dialogue is a reference to "[Michael Zombies](https://www.roblox.com/games/8054462345/Michaels-Zombies)", which is also a reference to the michael meme.\n\n

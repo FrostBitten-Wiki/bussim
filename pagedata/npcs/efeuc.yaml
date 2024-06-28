@@ -113,9 +113,7 @@ content: |-
   - If you give Efeuc <clr:#FFF8E8>(***'Decaf'***):
     - "thanks, appreciate it a lot, but how'd you know that's my favorite, huh?"
     - "yeah, get outta here"
-      - If you given him another <clr:#FFF8E8>(***'Decaf'***):
-        - "thanks, appreciate it a lot, but how'd you know that's my favorite, huh?"
-        - "yeah, get outta here"
+      - This dialogue repeats even with another favorite drink.
 
   ##[Trivia]
   - This is one of the only two NPCs that can actually fling a player based on dialogue choices.

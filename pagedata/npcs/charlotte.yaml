@@ -134,7 +134,6 @@ content: |-
     - "Um... I don't think I can drink this, sorry. Something about that noise it made just really, really gets into me. Reminds me of something that... oh gosh, no."
   - If you give Charlotte <clr:#261805>(***Hot Chocolate***):
     - "Woah! Thanks so much, this tastes wonderful!"
-      - If you given her another <clr:#261805>(***Hot Chocolate***):
-        - "Woah! Thanks so much, this tastes wonderful!"
+      - This dialogue repeats even with another favorite drink.
 
   !!GALLERY [/assets/bussim/images/npcs/charlotte.webp]  

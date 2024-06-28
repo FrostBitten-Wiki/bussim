@@ -406,11 +406,7 @@ content: |-
     - "splendid."
     - "this is almost as good as bloxy cola"
         - You're welcome.
-            - If you given them another <clr:#151812>(***The Sludge.***):
-            - "..."
-            - "splendid."
-            - "this is almost as good as bloxy cola"
-                - You're welcome.
+            - This dialogue repeats even with another favorite drink.
 
   ##[Trivia]
   - D6 is second to having the most amount of dialogue lines, only being behind by Pear by 34 lines or more.

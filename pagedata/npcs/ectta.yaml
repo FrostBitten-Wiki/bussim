@@ -95,9 +95,7 @@ content: |-
   - If you give Ectta <clr:#472E1A>(***Communion Coffee***):
     - "Oh, so you're like that, huh?"
     - "I'm kidding, thanks."
-      - If you given him another <clr:#472E1A>(***Communion Coffee***):
-        - "Oh, so you're like that, huh?"
-       - "I'm kidding, thanks."
+      - This dialogue repeats even with another favorite drink.
 
   ##[Trivia]
   - If you combine all of the possible variants Ectta could use, Ectta would have a total of 190,512 dialogue options, or 4,536 if excluding the variants from [Question Time](question-time). (This is prone to change the more Question Time variants as well as dialogue gets added, always update it to the latest after an update, thanks!)

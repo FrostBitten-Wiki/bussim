@@ -52,6 +52,7 @@ content: |-
                   - "Don't ask questions you aren't prepared for the answers to."
                       - hg[Option 1]: Sheesh, sorry..
                       - hg[Option 2]: Nevermind.
+
   ###[**BloxDonalds (Backwalls)**]
   !!DLEMULATOR EID:"redemulator" SID:"start" URL:"/assets/bussim/emulatorData/red-backwalls.json"
 
@@ -163,7 +164,8 @@ content: |-
     - "Yeah... No thanks."
   - If you give Red <clr:#FFC9C9>(***Strawberry Smoothie***):
     - "A strawberry smoothie? Sure I guess."
-      - If you given him another <clr:#FFC9C9>(***Strawberry Smoothie***):
-        - "A strawberry smoothie? Sure I guess."
+      - This dialogue repeats even with another favorite drink.
 
+  ##[Trivia] 
+  - Based off of [Stanley](stanley)'s dialogue, Red typically puts ingredients (even trashed) into the food as a cost-effective measure in Stanley's universe. 
   !!GALLERY [/assets/bussim/images/npcs/red.webp]  

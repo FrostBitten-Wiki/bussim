@@ -95,8 +95,7 @@ content: |-
     - "I appreciate it, but I think I'll pass on that one."
   - If you give Steven <clr:#FFD4B3>(***Mango Juice***):
     - "Oh, you actually brought me mango juice. Thanks."
-      - If you given him another <clr:#FFD4B3>(***Mango Juice***):
-        - "Oh, you actually brought me mango juice. Thanks."
+      - This dialogue repeats even with another favorite drink.
 
   ##[Trivia]
   - Compared to the many other talkative NPCs in the game, Steven_Scripts cannot be annoyed using an [Airhorn](airhorn).

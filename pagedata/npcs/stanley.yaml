@@ -1,7 +1,7 @@
 editable: true
 page:
   title: Stanley
-  description: Stanley is an NPC in Bus Simulator found within the crashed bus on
+  description: Stanley is an NPC in Bus Simulator found within the crashed bus on the [Cafe](cafe) map. He is an OC that MediumKey made and originated from a universe where h[BloxDonalds] was a much better business than it is currently.
     the Cafe map.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npc
@@ -22,7 +22,7 @@ attributions:
 
 content: |-
   ##[Info]
-  Stanley is an NPC in Bus Simulator found within the crashed bus on the [Cafe](cafe) map. He is an OC that MediumKey made.
+  Stanley is an NPC in Bus Simulator found within the crashed bus on the [Cafe](cafe) map. He is an OC that MediumKey made and originated from a universe where h[BloxDonalds] was a much better business than it is currently.
 
   ##[Appearance]
   Stanley wears the BloxDonalds outfit that you can buy on the Marketplace and wears a cap to pair with it. He also has bagged eyes.
@@ -35,14 +35,14 @@ content: |-
     - hg[Option 1]: Who are you?
       - "Oh, uh... I'm stanley. I work at BloxDonalds. Or, uh, at least I was."
       - "I'm not really sure how I got up here to be honest... All I remember is what happened beforehand..."
-      - "Some guy with blue skin ordered something so baffling that I burst out laughing. Yeah I know, not very professional, but this is BloxDonalds we're talking about..."
+      - "[Some guy with blue skin](mlg) ordered something so baffling that I burst out laughing. Yeah I know, not very professional, but this is BloxDonalds we're talking about..."
       - "He stormed out angrily and told me I'd "regret messing with him," or something like that."
       - "I'm guessing it was the guy who got me here, but I've got no clue HOW he got me here. I'm not complaining too much though, I love this view."
       - "Anyway, uh, can you do me a favor? If you see my friend Axel around, can you tell him I'll be gone for a while? I need to figure out where I am, and how to get down from here..."
         - hg[Option 1]: No offence, but you're weird.
           - "WHAT??? High offence, I'll have you know that I graduated in the top of my class in the BloxDonalds New Staff Orientation, and I can grill a perfect burger in under a minute! *Do you think I'm playing games here?!"*
             - hg[Option 1]: Honestly yeah
-              - *The player gets defenestrated.*
+              - The player is then [defenstrated](https://www.roblox.com/badges/2141806851/DEFENESTRATED), being launched out of the bus and taking massive damage in the process.
             - hg[Option 2]: I'm sorry,,,
               - "Good. You better be. Think before you speak next time, yeah?"
         - hg[Option 2]: No thanks, but good luck!
@@ -96,8 +96,8 @@ content: |-
       
   ##[Trivia]
   - Based off of the dialogue, it's very probable that Stanley arrived as a result of aggrovating [MLG](mlg), as described as having blue skin and changing through realities.
-  - The BloxDonalds that Stanley is involved in is drastically better compared to the current [BloxDonalds](bloxdonalds)
-  - Stanley likely came from an alternate universe of the game, indicated by the potential fact that [Zeon](zeon) and MLG don't live in the same house Stanley refers to, but in the same exact location.
+  - The BloxDonalds that Stanley is involved in is drastically better compared to the current [BloxDonalds](bloxdonalds).
+  - Stanley likely came from an alternate universe of the game, indicated by the potential fact that [Zeon](zeon) and [MLG](mlg) don't live in the same house Stanley refers to, but in the same exact location.
   - Stanley is one of the only two characters confirmed to work at BloxDonalds, excluding the player.
-  - You can also get the DEFENESTRATED badge this way, giving the badge both a free and paid option to obtain it.
+  - You can also get the [DEFENSTRATED badge](https://www.roblox.com/badges/2141806851/DEFENESTRATED) this way, giving the badge both a free and [paid option](airhorn) to obtain it.
   !!GALLERY [/assets/bussim/images/npcs/stanley.webp]  

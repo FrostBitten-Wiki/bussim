@@ -350,9 +350,7 @@ content: |-
   - If you give Pear <clr:#FFF5EB>(***Vanilla Almond Milk***):
     - "Oh? Is that for me????"
     - "Thank you!! That's my favorite drink..."
-      - If you given him another <clr:#FFF5EB>(***Vanilla Almond Milk***):
-        - "Oh? Is that for me????"
-          - "Thank you!! That's my favorite drink..."
+      - This dialogue repeats even with another favorite drink.
 
   ###[**The Bus (Pear Takes The Wheel)**]
   Related Article: [Pear Takes The Wheel](pear-takes-the-wheel)
@@ -530,9 +528,7 @@ content: |-
   - If you give Pear <clr:#FFF5EB>(***Vanilla Almond Milk***):
     - "Vanilla Almond Milk? While I'm driving???"
     - "Fine, I guess... But only because it's my favorite!!"
-      - If you given him another <clr:#FFF5EB>(***Vanilla Almond Milk***):
-        - "Vanilla Almond Milk? While I'm driving???"
-          - "Fine, I guess... But only because it's my favorite!!"
+      - This dialogue repeats even with another favorite drink.
       
   ###[Airhorn Responses (The Bus & Pear Takes The Wheel)]
   - If the airhorn is used repeatedly in proximity to Pear:
@@ -638,6 +634,7 @@ content: |-
   - hg[Variant 2]: "Alright, you've paid up! Just follow my lead! Watch for entities, though."
   - hg[Variant 3]: "This cat'll take you right to where you need to be!
   - hg[Variant 4]: "Come with me, and you'll see, a hole of pure illumination!"
+  - hg[Variant 5]: "Don't need to worry about me, I'm too powerful for the entities. You aren't, though."
 
   ###[**The Backwalls (Entity Encounter)**]
   - hg[Variant 1]: "Hello, I'm currently leading someone awa y from you. If you'd be so kind as to keep them alive, that'd be great."
@@ -650,11 +647,26 @@ content: |-
 
   ###[**The Backwalls (Player Encounter)***]
   - hg[Variant 1]: "Hello there, new person! Just letting you know, I'm only responsible for my client back there. Join at your own risk!"
+  - hg[Variant 2]: "Ah, hello there. Planning on joining us? I'm legally obliged to let you know that you won't be protected by me in case of an entity attack."
+  - hg[Variant 3]: "Hello! If you're gonna follow us, just know that I'm not legally responsible for anything that happens to you!"
 
   ###[**The Backwalls (If the player stopped moving / is too far behind)**]
   - hg[Variant 1]: "Hey..! Stay close!"
   - hg[Variant 2]: "Hey, did you just pay me to be nice, or are you gonna actually follow me?"
   - hg[Variant 3]: "mmrow? Hey, get moving!"
+  - hg[Variant 4]: "Alright. I'll stop and wait."
+  - hg[Variant 5]: "What are you standing around for? It's dangerous out here!"
+    - Continuing from all variations, Pear will stop moving for a bit and waits for the player.
+
+  ###[**The Backwalls (If the player actively heads in the wrong path)**] 
+  - hg[Variant 1]: "W-Whuh?! Where are you going..?!"
+  - hg[Variant 2]; "Wrong way, dummy! What the heck??"
+    - Continuing from all variations, Pear will actively move to the player, speeding up and stops moving upon reuniting. 
+    - After Pear is reunited with the player: 
+      - hg[Variant 1]: "Why'd you wander off like that..?! Give me another second to think.."
+      - hg[Variant 2]: "What the heck.. why..? Now we're off course.."
+      - hg[Variant 3]: "Sheesh.. giving me a heart attack.. Now I gotta rethink our path.."
+        - Continuing from all variations, Pear then resumes his path.
 
   ###[**The Backwalls (If the Pathfinding takes a while)**]
   - "Yeah sorry, it's really far away. I really do know where it is though, trust!"
@@ -671,6 +683,7 @@ content: |-
     - Continuation (after any variant):
       - hg[Variant 1]: "Alright then, see you later!"
       - hg[Variant 2]: "Hope you're satisfied! I'm just gonna do my own thing now." 
+      - hg[Variant 3]: "Thanks for your patronage~! I'm gonna search for more customers."
 
   ###[**The Backwalls (If the direct path to the exit fails)**]
   - hg[Variant 1]: "E-ehm... J-Just.. give me a second..." 

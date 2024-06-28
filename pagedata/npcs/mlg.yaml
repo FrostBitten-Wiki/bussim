@@ -58,8 +58,7 @@ content: |-
     - No dialogue happens.
   - If you give MLG <clr:#E39254>(***Pumpkin Spice Mocha***):
     - No dialogue happens, but you still get rewarded.
-      - If you given him another <clr:#E39254>(***Pumpkin Spice Mocha***):
-        - No dialogue happens.
+      - This repeats even with another favorite drink.
 
   ###[Airhorn Responses (Goat Station)]
   - If the airhorn is used repeatedly in proximity to MLG:
@@ -214,10 +213,7 @@ content: |-
     - "Oh, for me? Thanks!"
     - "..."
     - "Mmmmm, that's soo gooooood. I love this place's Pumpkin Mochas, how'd you know? Thank you so much, buddy."
-      - If you given him another <clr:#E39254>(***Pumpkin Spice Mocha***):
-        - "Oh, for me? Thanks!"
-        - "..."
-        - "Mmmmm, that's soo gooooood. I love this place's Pumpkin Mochas, how'd you know? Thank you so much, buddy."
+      - This dialogue repeats even with another favorite drink.
 
   ###[Airhorn Responses (Cafe)]
   - If the airhorn is used repeatedly in proximity to MLG:
