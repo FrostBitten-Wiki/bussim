@@ -93,31 +93,32 @@ content: |
 
   ###[When Thanking Pear (Without Giving Reputation)]
 
-  - "Please don't thank me, I don't want any rep."
-  - "Hey, save your breath for people who need it more."
-  - "I decline."
-  - "I don't really need it, but thanks."
-  - "Uh, I'm good without rep.. thanks though."
+  - hg[Variant 1]: "Please don't thank me, I don't want any rep."
+  - hg[Variant 2]: "Hey, save your breath for people who need it more."
+  - hg[Variant 3]: "I decline."
+  - hg[Variant 4]: "I don't really need it, but thanks."
+  - hg[Variant 5]: "Uh, I'm good without rep.. thanks though."
+  - hg[Variant 6]: "Did you expect to get a badge for that or something?"
 
   ###[When Reputation Is Given To Another Player]
 
-  - "How about I give that to [Player] instead?"
-  - "Double it and give it to the next person."
-  - "[Player] needs that WAY more than I do..."
-  - "WOW you spelled [Player] REALLY wrong!"
-  - "Nah, here [Player], you can have that instead."
+  - hg[Variant 1]: "How about I give that to [Player] instead?"
+  - hg[Variant 2]: "Double it and give it to the next person."
+  - hg[Variant 3]: "[Player] needs that WAY more than I do..."
+  - hg[Variant 4]: "WOW you spelled [Player] REALLY wrong!"
+  - hg[Variant 5]: "Nah, here [Player], you can have that instead."
 
   ###[When Trying To Kick Off Pear]
 
-  - "He looks too cute, you can't..."
-  - "You know you can't move a cat when they sit somewhere, right?"
-  - "This cat has the Plot armor gamepass, so you can't kick them off. (one million trillion gazillion more driver's rep needed to kick)"
-  - "No. He fits, he sits."
-  - "You can't kick him off. He's too powerful."
-  - "That's just cruel."
-  - "nuh uh"
-  - "Nope."
-  - "He rolled a [10-20] and you rolled a [1-9]. Better luck next time."
+  - hg[Variant 1]: "He looks too cute, you can't..."
+  - hg[Variant 2]: "You know you can't move a cat when they sit somewhere, right?"
+  - hg[Variant 3]: "This cat has the Plot armor gamepass, so you can't kick them off. (one million trillion gazillion more driver's rep needed to kick)"
+  - hg[Variant 4]: "No. He fits, he sits."
+  - hg[Variant 5]: "You can't kick him off. He's too powerful."
+  - hg[Variant 6]: "That's just cruel."
+  - hg[Variant 7]: "nuh uh"
+  - hg[Variant 8]: "Nope."
+  - hg[Variant 9]: "He rolled a [10-20] and you rolled a [1-9]. Better luck next time."
 
   ###[Dialouge For Pears Voting]
 
@@ -144,11 +145,11 @@ content: |
 
   ###[Voting Results]
 
-  - "Okay, [Location] it is."
-  - "Well, I don't know where [Location] is, but I can try..."
-  - "Ah, so you have chosen [Location]."
-  - "Okay, we're going to [Location]."
-  - "So, you've chosen to go to [Location]."
+  - hg[Variant 1]: "Okay, [Location] it is."
+  - hg[Variant 2]: "Well, I don't know where [Location] is, but I can try..."
+  - hg[Variant 3]: "Ah, so you have chosen [Location]."
+  - hg[Variant 4]: "Okay, we're going to [Location]."
+  - hg[Variant 5]: "So, you've chosen to go to [Location]."
 
   ###[If All Players Are Abstained]
 
@@ -156,10 +157,10 @@ content: |
   - "I'll just go back to my seat, I guess..."
 
   ###[Pear Preparing To Drive]
-  - "Okay, try not to black out challenge, 3-2-1-GO!"
-  - *"Buckle up if you want to live"*
-  - "Get ready for some *fast travel~*"
-  - "We're going full throttle for this one, so buckle up RIGHT MEOW!"
+  - hg[Variant 1]: "Okay, try not to black out challenge, 3-2-1-GO!"
+  - hg[Variant 2]: *"Buckle up if you want to live"*
+  - hg[Variant 3]: "Get ready for some *fast travel~*"
+  - hg[Variant 4]: "We're going full throttle for this one, so buckle up RIGHT MEOW!"
 
   ###[Location Arrival Dialogues]
 
