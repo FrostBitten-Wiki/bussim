@@ -1,7 +1,8 @@
 editable: true
 page:
   title: Stanley
-  description: Stanley is an NPC in Bus Simulator found within the crashed bus on the Cafe map. 
+  description: Stanley is an NPC in Bus Simulator found within the crashed bus on
+    the Cafe map.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npc
 
@@ -28,18 +29,70 @@ content: |-
 
   ##[Dialogue]
   !!DLEMULATOR EID:"stanleyemulator" SID:"start" URL:"/assets/bussim/emulatorData/stanley.json"
-  - "Uh, hey."
-    - hg[Option 1]: What are you doing back here?
-    - hg[Option 2]: [Leave quietly.]
-        - "I'm just trying to eat lunch."
-            - hg[Option 1]: Why is there a body behind you?
-                - "Body? What body?"
-            - hg[Option 2]: Oookay... [Leave.] 
-    - hg[Option 3]: Wait, weren't you just on the bus?
-      - "I dunno :3"
-        - hg[Option 1]: Okay...
-        - hg[Option 2]: What?
-          - "What?"
+  - Variant 1: "Hummm..."
+  - Variant 2: "Are you a real person...?"
+  - Variant 3: "What a view..."
+    - hg[Option 1]: Who are you?
+      - "Oh, uh... I'm stanley. I work at BloxDonalds. Or, uh, at least I was."
+      - "I'm not really sure how I got up here to be honest... All I remember is what happened beforehand..."
+      - "Some guy with blue skin ordered something so baffling that I burst out laughing. Yeah I know, not very professional, but this is BloxDonalds we're talking about..."
+      - "He stormed out angrily and told me I'd "regret messing with him," or something like that."
+      - "I'm guessing it was the guy who got me here, but I've got no clue HOW he got me here. I'm not complaining too much though, I love this view."
+      - "Anyway, uh, can you do me a favor? If you see my friend Axel around, can you tell him I'll be gone for a while? I need to figure out where I am, and how to get down from here..."
+        - hg[Option 1]: No offence, but you're weird.
+          - "WHAT??? High offence, I'll have you know that I graduated in the top of my class in the BloxDonalds New Staff Orientation, and I can grill a perfect burger in under a minute! *Do you think I'm playing games here?!"*
+            - hg[Option 1]: Honestly yeah
+              - *The player gets defenestrated.*
+            - hg[Option 2]: I'm sorry,,,
+              - "Good. You better be. Think before you speak next time, yeah?"
+        - hg[Option 2]: No thanks, but good luck!
+          - "Awh, okay. I'll try to find him myself then, but it'll definitely take a lot longer... Thanks for the luck, anyway."
+        - hg[Option 3]: Uh... sure.
+          - "Thanks!"
+        - hg[Option 4]: Who's Axel???
+          - "Oh, right, uh... He wears purple stuff all the time, and I think his shirt is plaid? He's a Bloxy Cola addict too. Always carries around an entire freezer of that stuff. You'll know him when you see him."
+            - hg[Option 1]: Okay, sure. I'll tell him.
+              - "Thanks!"
+            - hg[Option 2]: I won't tell him.
+              - "Then why'd you bother making me explain his appearance...?"
+    - hg[Option 2]: Let's Talk!
+        - "Uh-huh?"
+            - hg[Option 1]: Favorite BloxDonalds order?
+                - "It's gotta be the Burger Bob. Love those things. It's got lettuce, cheese, tomatoes, mayo, flour, tumeric, Himalayan salt, sweetened pickles, mustard, caramelized onions, and a jumbo patty... Oh, and can't forget the special BloxDonalds sauce... Just thinking about it makes me hungry..."
+                  - hg[Option 1]: You get edible food???
+                    - "! What do you mean by that?! BloxDonalds cares greatly about the quality of their product, all of our food is perfectly edible! well, when it is when it isn't Reds shift..."
+                      - hg[Option 1]: I wish to live in a universe where that were true.
+                        - "What?! Implying that it's so bad you'd need to *move universes???* Ugh, I'm done talking with you..."
+                      - hg[Option 2]: This is indescribably false and you know it.
+                        - "No, I don't know actually. We really do take great pride in using fresh ingredients. I don't understand how you don't recogni-- ...Hm. Maybe it's just a regional issue. That's probably it. If the BloxDonalds near you is having quality issues, you really need to report that. They can't fix anything if they don't know anything's wrong in the first place...
+                      - hg[Option 3]: [Let him live in blissful ignorance]
+                        - "It's fine to say you don't like it, but to say it's inedible... Sheesh..."
+                  - hg[Option 2]: That's on the menu?
+                    - "Yeah, it's on the menu of every BloxDonalds. What kind of BloxDonalds have you been visiting?"
+                    - You: "*You get the feeling that he's missing some context.*"
+                  - hg[Option 3]: Sounds good.
+                    - "It really, really is... You should swing by and try one sometime!"
+            - hg[Option 2]: You should come to my bus.
+              - "I'd LOVE to, but I literally cannot."
+              - "You see where we are right now, right? How am I meant to get down from here? I can't just jump off, that'd hurt!"
+              - "Plus, your bus looks... weird. It's like mine, but not like mine at the same time...? I don't know how else to describe it."
+              - "I just have this odd feeling... I don't think I'm from here, so if I went with you I might not need to make it to where I need to go. Do you get what I'm saying?"
+                - hg[Option 1]: Where do you need to go?
+                  - "Well, I was actually promoted by Red last week! He said I'd be transferring to the BloxDonalds in Stevensville."
+                  - "I was supposed to be going there this week once Red worked out ther logistics of the trip... I hope I won't be late..."
+                  - "I uh, I won't be late, right???"
+                    - hg[Option 1]: I hate to tell you this...
+                      - "Ah, I see... Well, I hope I don't get fired then..."
+                      - "Thanks for the honesty..."
+                    - hg[Option 2]: You'll find a way.
+                      - "Yeah, I really hope so. Thanks for the comforting words."
+                - hg[Option 2]: No, not really.
+                  - "Oh. Well, maybe you'll get it in the future."
+                - hg [Option 3]: Completely.
+                  - "Yeah, I knew you would. You look like the kind of person who'd get it."
+                  - "I wish you good luck on your journey, I hope you wish me good luck through mine."
+    - hg[Option 3]: Bye!
+      - The conversation immediately ends.
       
   ##[Trivia]
   - Based off of the dialogue, it's very probable that Stanley arrived as a result of aggrovating [MLG](mlg), as described as having blue skin and changing through realities.
