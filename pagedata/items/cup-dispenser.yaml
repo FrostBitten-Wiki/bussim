@@ -23,7 +23,7 @@ content: |
   ##[Info]
   The Cup Dispenser is a gamepass item that allows you to create your own [coffee drinks](cafe-coffee) and give them to others (even players) on-the-go. When activated, it'll dispense an Empty Cup for up to 3 times, and will start regenerating all of them within a minute once no cups are left. Interacting with the Empty Cups will allow you to create any drinks just like within the [Cafe Event](cafe).
   \n\n 
-  It's currently available for purchase as a gamepass, for 450 R$.
+  It's currently available for purchase as a gamepass, for 400 R$ and is bundled with a [Recipe Book](recipe-book).
   \n\n 
   Its appearance is similar of that to the cup tray back at the [Cafe Event](cafe), but as a holdable item.
 
@@ -36,5 +36,6 @@ content: |
   - Its expensiveness is likely attributed to how you can still fufill orders from [NPCs](npcs) using the dispenser, effectively making this a reliable generator for [Reputation](reputation).
   - If you attempt to give a drink to someone who already has 3 cups, a pop-up will appear saying that they can't hold anymore drinks.
   - This is the first gamepass that includes two items in one, being the Cup Dispenser and the [Recipe Book](recipe-book).
+  - Originally upon release, this costed 450 R$, however after the introduction of the recipe book, the price was re-adjusted to 400 R$.
 
   !!GALLERY [/assets/bussim/images/items/cup-dispenser.webp]

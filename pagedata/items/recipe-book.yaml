@@ -1,7 +1,7 @@
 editable: true
 page:
   title: Recipe Book
-  description: The Recipe Book is an item paired with the Cup Dispenser as part of the Licensed Barista Gamepass, which costs 450 R$.
+  description: The Recipe Book is an item paired with the Cup Dispenser as part of the Licensed Barista Gamepass, which costs 400 R$.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
@@ -21,7 +21,7 @@ content: |
   "A scrapbook full of drink recipes you've collected!" -"Recipe Book"
 
   ##[Info]
-  The Recipe Book is an item paired with the [Cup Dispenser](cup-dispenser) as part of the Licensed Barista Gamepass, which costs 450 R$.
+  The Recipe Book is an item paired with the [Cup Dispenser](cup-dispenser) as part of the Licensed Barista Gamepass, which costs 400 R$.
   \n\n 
   When used, it displays custom recipes either made by you or from other players, with specific measurements on ingredients, order, and with name and description. It also shows you your last custom drink that you have made, giving you the option to create a custom recipe for itself.
   \n\n 
