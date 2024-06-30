@@ -388,8 +388,9 @@ content: |-
         - "catch me behind the gas station though. the 5g waves are stronger there"
             - hg[Ok.]
     - hg[Option 4]: Hi.
-        - "EXPLODE"
-            - (The player immediately explodes.)
+        - hg[Variant 1]: "EXPLODE"
+        - hg[Variant 2]: "SMALL TALK DETECTED, ACTIVATING KILL AGENT"
+            - (In all variations, the player immediately explodes.)
     - hg[Option 5]: JERMA (Rare)
                 - jerma.png
 
