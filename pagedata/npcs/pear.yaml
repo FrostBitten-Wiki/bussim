@@ -648,6 +648,9 @@ content: |-
   - hg[Variant 2]: "Ah, hello there. Planning on joining us? I'm legally obliged to let you know that you won't be protected by me in case of an entity attack."
   - hg[Variant 3]: "Hello! If you're gonna follow us, just know that I'm not legally responsible for anything that happens to you!"
 
+  ###[**The Backwalls (Client Dies)***]
+  - "Good game, I guess."
+
   ###[**The Backwalls (If the player stopped moving / is too far behind)**]
   - hg[Variant 1]: "Hey..! Stay close!"
   - hg[Variant 2]: "Hey, did you just pay me to be nice, or are you gonna actually follow me?"

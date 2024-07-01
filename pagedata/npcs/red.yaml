@@ -61,8 +61,10 @@ content: |-
     - hg[Variant 3]: "Welcome to BloxDonalds, you probably won't like it."
     - hg[Variant 4]: "Welcome to BloxDonalds, the creatures are dangerous and so are our burgers."
     - hg[Variant 5]: "Welcome to BloxDonalds, not the saddest place but it's definitely up there."
+    - hg[Variant 6]: "Welcome to BloxDonalds, haven't seen you around *here* before." (First-Interaction)
         - hg[Option 1]: Can I get an... uuhhh...
-            - "Our menu has changed, yadda yadda yadda."
+            - hg[Variant 1]: "Our menu has changed, yadda yadda yadda."
+            - hg[Variant 2]: "*sighhhh...* Our menu has changed since your previous visit, please review to make sure your order is correct." (First-Interaction)
                 - hg[Option 1]: Something else.
                     - "What? Brah, this is *all we* have, what could you possibly mean by ''something else''??"
                         - hg[Option 1]: I want information.
@@ -100,6 +102,7 @@ content: |-
                         - hg[Option 2]: Yeah.
                             - hg[Variant 1]: "Done. Enjoy your Void Burger, brah."
                             - hg[Variant 2]: "Here. Huh, first sale in ages..."
+                            - hg[Variant 3]: "One Void Burger for 2 rep, it's done."
                 - hg[Option 4]: Liquid Void
                     - hg[Variant 1]: "A Liquid Void for 24 rep, yeah?"
                     - hg[Variant 2]: "One Liquid Void for 24 rep, you sure?"

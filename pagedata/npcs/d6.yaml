@@ -389,7 +389,7 @@ content: |-
             - hg[Ok.]
     - hg[Option 4]: Hi.
         - hg[Variant 1]: "EXPLODE"
-        - hg[Variant 2]: "SMALL TALK DETECTED, ACTIVATING KILL AGENT"
+        - hg[Variant 2]: "SMALL TALK DETECTED, ACTIVATING KILL AGENT" (Rare)
             - (In all variations, the player immediately explodes.)
     - hg[Option 5]: JERMA (Rare)
                 - jerma.png
