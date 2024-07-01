@@ -60,11 +60,11 @@ content: |-
                   - hg[Option 1]: There's no way you said it unironically.
                       - "Yeah, what's it to you? Do you want the rep or not?"
                           - hg[Option 1]: Sure, I guess so.
-                              - "Cool. I don't know where you'd find one, though. Maybe [Zeon"(zeon) has one?]
+                              - "Cool. I don't know where you'd find one, though. Maybe [Zeon](zeon) has one?"
                           - hg[Option 2]: No.
                               - ":("
                   - hg[Option 2]: Sure.
-                      - "Awesome. I don't know where you'd find some though. Maybe [Zeon"(zeon) has a stick?]
+                      - "Awesome. I don't know where you'd find some though. Maybe [Zeon](zeon) has a stick?"
                   - I have your RAM (Only appears if the player already has RAM)
                       - Proceeds to hg[Option 5] Variants 1 - 2
       - hg[Option 5]: I'm back, and I have your RAM. (Only appears if the player has the ram stick)
