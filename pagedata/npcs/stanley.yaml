@@ -58,18 +58,23 @@ content: |-
     - hg[Option 2]: Let's Talk!
         - "Uh-huh?"
             - hg[Option 1]: Favorite BloxDonalds order?
-                - "It's gotta be the Burger Bob. Love those things. It's got lettuce, cheese, tomatoes, mayo, flour, tumeric, Himalayan salt, sweetened pickles, mustard, caramelized onions, and a jumbo patty... Oh, and can't forget the special BloxDonalds sauce... Just thinking about it makes me hungry..."
+                - "It's gotta be the Burger Bob. Love those things."
+                - "It's got lettuce, cheese, tomatoes, mayo, flour, tumeric, Himalayan salt, sweetened pickles, mustard, caramelized onions, and a jumbo patty..."
+                - "Oh, and can't forget the special BloxDonalds sauce... Just thinking about it makes me hungry..."
                   - hg[Option 1]: You get edible food???
-                    - "! What do you mean by that?! BloxDonalds cares greatly about the quality of their product, all of our food is perfectly edible! well, when it is when it isn't Reds shift..."
+                    - "!"
+                    - "What do you mean by that?! BloxDonalds cares greatly about the quality of their product, all of our food is perfectly edible! hg[well, when it is when it isn't Reds shift...]"
                       - hg[Option 1]: I wish to live in a universe where that were true.
                         - "What?! Implying that it's so bad you'd need to *move universes???* Ugh, I'm done talking with you..."
                       - hg[Option 2]: This is indescribably false and you know it.
-                        - "No, I don't know actually. We really do take great pride in using fresh ingredients. I don't understand how you don't recogni-- ...Hm. Maybe it's just a regional issue. That's probably it. If the BloxDonalds near you is having quality issues, you really need to report that. They can't fix anything if they don't know anything's wrong in the first place...
+                        - "No, I don't know actually. We really do take great pride in using fresh ingredients. I don't understand how you don't recogni--"
+                        - "...Hm. Maybe it's just a regional issue. That's probably it. If the BloxDonalds near you is having quality issues, you really need to report that."
+                        - "They can't fix anything if they don't know anything's wrong in the first place..."
                       - hg[Option 3]: [Let him live in blissful ignorance]
                         - "It's fine to say you don't like it, but to say it's inedible... Sheesh..."
                   - hg[Option 2]: That's on the menu?
                     - "Yeah, it's on the menu of every BloxDonalds. What kind of BloxDonalds have you been visiting?"
-                    - You: "*You get the feeling that he's missing some context.*"
+                      - You: "*You get the feeling that he's missing some context.*"
                   - hg[Option 3]: Sounds good.
                     - "It really, really is... You should swing by and try one sometime!"
             - hg[Option 2]: You should come to my bus.
@@ -91,6 +96,25 @@ content: |-
                 - hg [Option 3]: Completely.
                   - "Yeah, I knew you would. You look like the kind of person who'd get it."
                   - "I wish you good luck on your journey, I hope you wish me good luck through mine."
+            - hg[Option 3]: How's BloxDonalds going?
+              - "I don't know how it's doing right now, but last time I was there, business was rather slow..."
+              - "I remember throwing out some expired ingredients, but Red kept fishing them out of the garbage and putting them back into the food. He kept insisting to use them as a 'cost-cutting measure'..."
+              - "Yeah, I... never really got along with him. I hope he's worried about me being gone, though..."
+            - hg[Option 4]: Where are you from? 
+              - "Well, I lived across the street from a gas station... I never paid attention to the name, but I think they [only hired goats or something](goat-station)?"
+              - "I always passed by in the morning to grab some Bloxiade for later in the day, It's incredible how much stock they always had, I guess not many people drove by... hg[or maybe it was their outrageous price tags...]"
+              - "There were other weird things about that place too, like that house across the street that just had nobody living in it. Who put that trampoline there? Why's there a grill in the backyard?" 
+              - "I don't think the two people from the gas station lived there, and I couldn't find anyone else around who would've. I've always wondered about that..."
+                - hg[Option 1]: Isn't that where Zeon and MLG live?
+                  - "Who and what now? I've never heard of those names in my life..."
+                  - "Well- wait... The second name sounds familiar... MLG..."
+                  - "I think I might've seen them before, while I was at work... I don't remember seeing them in that house, though? And I've been living there for like a year now..."
+                - hg[Option 2]: How did you get to work?
+                  - "I took the bus, of course!"
+                  - "I'm not really sure how I'm gonna make my commute once I get back home though. You know, with the bus stuck in the side of a building and all..."
+                  - "I guess that's not my problem so much as it is the company's..."
+                - hg[Option 3]: Hm. Okay.
+                  - The conversation immediately ends.
     - hg[Option 3]: Bye!
       - The conversation immediately ends.
       
