@@ -1,0 +1,54 @@
+editable: True
+page:
+  title: Bus Birthday Pie
+  description: The Bus Birthday Pie is a limited-edition item similarly to the Bus Birthday Cake, added to celebrate Bus Simulator's 6th Birthday.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: bus birthday cake, bus birthday, birthday cake
+
+  header:
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/items/bus-birthday-pie.webp
+
+attributions:
+  - ae
+
+content: |
+  "You really just hope that's just food dye." -"Bus Birthday Pie"
+  ##[Info]
+  The Bus Birthday Pie is a limited-edition item similarly to the [Bus Birthday Cake](bus-birthday-cake), added to celebrate Bus Simulator's 6th Birthday.
+  \n
+  During the week starting from the day Bus Simulator marked its 6th Birthday, you'll always start with this item, with it being revoked by the end if you haven't obtained it permanently yet.
+  \n\n 
+  Its appearance is that of a normal pie slice, only that the filling is dark blue paired with yellow chunks. It is also sized much bigger compared to other items.
+  \n\n 
+  When consumed, it will heal you a miniscule amount of health. However, if paired with [The Sludge](cafe-coffee-recipes), you'll end up teleporting to the [Backwalls](backwalls), similarly as the last birthday event.
+  \n
+  This will also force you to trip upon entry, unlike the Backwalls event, where you simply teleport there.
+  \n\n 
+  "my tummy hurts 💔" -"Backwalls (Bus Birthday Pie)"
+  The Backwalls itself still follows the same principles as if you had entered using its titular event, however with a few changes: you'll keep both The Sludge and Pie, The Sludge will have a new tooltip, and Pear will charge 20 Passenger Rep for a guide to the exit, as well as some new dialogue. 
+  \n\n
+  This other method also changes the dialogue upon entering and also makes the pie only a one-time use.
+  \n\n 
+  "You really hope that's just food dye. (from Bus Simulator's 6th birthday event)" -"Bus Birthday Pie (Permanent-Edition)"
+  If you manage to escape with the Pie, you're guaranteed to obtain it permanently, making it a useful teleportation tool for gathering the last three items or to simply torment yourself, just like the cake!
+  \n\n 
+  You'll also recieve exclusive dialogue for acquiring it permanently: 
+  - "Oh hey, escaping that time made you eligble for a funny perk..."
+  - "You get to keep the birthday pie forever. Enjoy having a free, permanent window into the Backwalls."
+
+  ##[Trivia]
+  - This is the third item that allows you to teleport to a specified location, the first originally being the [Magic Mirror](magic-mirror), and the [Bus Birthday Cake](bus-birthday-cake)
+    - It's also the second birthday item, which similarly to the first, will teleport you to the [Backwalls](backwalls) if paired with a specified drink.
+  - Unlike the [Bus Birthday Cake](bus-birthday-cake), instead of the player falling on the ground and subsequently vanishing, the player will instead turn invisible similar to [Liquid Void](liquid-void), and then teleport directly to the [Backwalls](backwalls).
+  - The lines when entering the [Backwalls](backwalls) also changes after using both the Pie and The Sludge, the lines are of the following:
+    - "my tummy hurts 💔"
+    - "That wasn't a great idea."
+    - "Hello, Backwalls."
+
+  !!GALLERY [/assets/bussim/images/items/bus-birthday-pie.webp]

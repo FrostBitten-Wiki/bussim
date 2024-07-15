@@ -22,6 +22,7 @@ content: |
   "Tastes like limited edition plastic" -"Bus Birthday Cake"
   ##[Info]
   The Bus Birthday Cake was a limited-edition variant of the Free-modelled Cake, added to celebrate Bus Simulator's 5th Birthday.
+  \n
   During the week after its introduction, you'll always start with this item. 
   \n\n 
   When consumed, it will heal you a tiny amount of health. However, if paired with [Cola](cola), you'll end up teleporting to the [Backwalls](backwalls). 
@@ -30,9 +31,12 @@ content: |
   \n\n 
   The Backwalls itself follows the same principles as if you had entered using its titular event, however with a few changes: you'll keep the Cake and Cola (including its [other variant](bad-cola)), the Cola will have a new tooltip, and Pear will charge 20 Passenger Rep for a guide to the exit, as well as some new dialogue. Both the Cake and Cola are one-time use, however. 
   \n\n 
-  "Tastes like... a never-ending party!... but also plastic. (from Bus Simulator's 5th birthday event)" -"Bus Birthday Cake (Permanent Acquisition)"
-  \n\n 
-  If you manage to escape with the Cake, you'll have around a 30% chance to permanently obtain it, making this cake a useful teleportation tool for gathering the last two items or to simply torment yourself. 
+  "Tastes like... a never-ending party!... but also plastic. (from Bus Simulator's 5th birthday event)" -"Bus Birthday Cake (Permanent-Edition)"
+  If you manage to escape with the Cake, you'll have around a 30% chance to permanently obtain it, making this cake a useful teleportation tool for gathering the last three items or to simply torment yourself. 
+  \n\n
+  You'll also recieve exclusive dialogue for acquiring it permanently: 
+  - "Oh hey, escaping that time made you eligble for a funny perk..."
+  - "You get to keep the birthday cake forever. Enjoy having a free, permanent window into the Backwalls."
 
   ##[Trivia]
   - This is the only item to have two badges linked to them. Being Plasticky Birthday Goodness, and Plasticky Cola Hell. 

@@ -218,6 +218,8 @@ content: |-
                     - "I mean... it's a little funny?"
               - hg[Variant 17]:
                 - "Do you play.. err, that rhythm game that has a racing game, survival game, and battle royale game attached to it? I do.. sometimes. I think."
+              - hg[Variant 18]:
+                - "Honestly, could go for a graham cracker right now..."
       - hg[Option 3]: Invites...
         - "Oh? What about them?" 
           - hg[Option 1]: Let's send some! 
@@ -491,6 +493,8 @@ content: |-
                     - "I mean... it's a little funny?"
               - hg[Variant 17]:
                 - "Do you play.. err, that rhythm game that has a racing game, survival game, and battle royale game attached to it? I do.. sometimes. I think."
+              - hg[Variant 18]:
+                - "Honestly, could go for a graham cracker right now..."
       - hg[Option 3]: Invites...
         - "Oh? What about them?" 
           - hg[Option 1]: Let's send some! 
@@ -550,6 +554,7 @@ content: |-
       - hg[Variant 1]: "That's gonna cost you your life... So..."
       - hg[Variant 2]: "You want to talk? Right now...?"
       - hg[Variant 3]: "Well, I'm not sure what to talk about, especially right now, but uh..."
+      - hg[Variant 4]: "There's like a horde of entities threatening to kill us and you want to talk to me? Okay, uh..."
         - hg[Option 1]: Are you the real Pear?
           - "Duh?"
             - hg[Option 1]: Good enough for me.
@@ -584,45 +589,53 @@ content: |-
             - hg[Option 1]: ..you stay calm?!
               - "I-I mean, I've already been here before, so I know what to look out for..! <small>i just hope i don't run into quandale again...</small>"
                 - hg[Oh, okay. Makes sense.]
-                  - Conversation continues to Passenger Rep Trade.
+                  - Conversation continues to <clr:#B3FFFF>(Passenger Rep Trade)
                 - hg[You've WHAT??]
                   - "Long story."
-                    - Conversation continues to Passenger Rep Trade.
+                    - Conversation continues to <clr:#B3FFFF>(Passenger Rep Trade)
             - hg[Option 2]: ..we get here?!
               - hg[Variant 1]: "Pff, that's simple. We no-clipped, dummy! The bus stopped right on an unstable bit of ground, and whoosh! Here we are!"
                 - hg[I don't believe you.]
                   - "I don't blame you, I know it's really weird. Here's the deal. I actually know the way out, sooo... I can take you there... for a price."
-                    - Conversation continues to Passenger Rep Trade.
+                    - Conversation continues to <clr:#B3FFFF>(Passenger Rep Trade)
               - hg[Variant 2] (If player drank [Cola](cola) and ate the [Bus Birthday Cake](bus-birthday-cake)): "Pfft... You ate the cake with the cola, dummy! You fell for a classic blunder!"
-                - hg[I don't believe you.]
+                - hg[Option 1]: I don't believe you.
                   - "Oh, well... That's what happened, whether you like it or not, so..."
-                  - "Here's the deal. I actually know the way out, sooo... I can take you there... for a price."
-                    - hg[A price?]
-                      - "20 passenger rep. Deal, or no deal?"
-                        - hg[Wh-- 20?! Wasn't it 10 before?!]
-                          - "Uh, yeah... but like, I warned you about the cake, didn't I? You kinda deserved it..."
-                            - hg[Variant 1]: I'm not paying that.
-                              - "Your funeral~"
-                            - hg[Variant 2]: Ugh, fine.
-                              - "Thanks for the rep, sucker! The second you'll move, I'll start leading! Now, let's get outta here!"
-                                - (Pear will now walk towards the exit, and any [Entity](entity) he encounters first (before it can to you) will be pacified throughout the journey.)
-                                  - However, this does not protect other players that follow Pear as well.
+                  - Conversation continues to <clr:#B3FFFF>(Passenger Rep Trade)
+                - hg[Option 2]: Makes sense.
+                  - Conversation continues to <clr:#B3FFFF>(Passenger Rep Trade)
+              - hg[Variant 3] (If player drank [The Sludge](cafe-coffee-recipes) and ate the [Bus Birthday Pie](bus-birthday-pie)): "Pfft... You ate the pie-sludge combo, dummy! You fell for a classic blunder!"
+                - hg[Option 1]: I don't believe you.
+                  - "Oh, well... That's what happened, whether you like it or not, so..."
+                  - Conversation continues to <clr:#B3FFFF>(Passenger Rep Trade)
+                - hg[Option 2]: Makes sense.
+                  - Conversation continues to <clr:#B3FFFF>(Passenger Rep Trade)
                 - hg[Option 3]: ..you survive?!
                   - "I'm just too powerful."
                 - hg[Option 4]: ???
-                  - Conversation continues to Passenger Rep Trade.
-              - Passenger Rep Trade
+                  - Conversation continues to <clr:#B3FFFF>(Passenger Rep Trade)
+              - <clr:#B3FFFF>(Passenger Rep Trade)
                 - "Here's the deal. I actually know the way out, sooo... I can take you there... for a price."
                   - hg[Option 1]: Well.. is it safe?
                     - "Whuh? Is it safe..? Oh pssh, only like, what, [number of victims] died along the way? Pff, what's with the look? You'll be fiiiine, trust me! You're in good paws. 10 Passenger rep. Deal, or no deal?"
-                      - Conversation continues to Trade Prompt.
+                      - Conversation continues to <clr:#B3FFFF>(Trade Prompt)
                   - hg[Option 2]: A price?
-                    - "10 Passenger rep. Deal, or no deal?"
-                      - Conversation continues to Trade Prompt.
+                    - hg[Variant 1]: "10 Passenger rep. Deal, or no deal?"
+                    - hg[Variant 2]: "20 Passenger rep. Deal or no deal?" (If the player entered through the Cola-Cake method or the Pie-Sludge method.)
+                      - Conversation continues to <clr:#B3FFFF>(Trade Prompt)
                   - hg[Option 3]: Nah.
                     - "Oh.. well, bye then..."
-                  - Trade Prompt
-                    - hg[Option 1]: It's a deal.
+                  - <clr:#B3FFFF>(Trade Prompt)
+                    - hg[Option 1]: Wh-- 20?! Wasn't it 10 before?! (If the player entered through the Cola-Cake method or the Pie-Sludge method.)
+                      - hg[Variant 1]: "Uh, yeah... but like, I warned you about the cake, didn't I? You kinda deserved it..." (Cola-Cake)
+                      - hg[Variant 2]: "Uh, yeah... but like, I warned you about the pie, didn't I? You kinda deserved it..." (Pie-Sludge)
+                        - hg[Option 1]: I'm not paying that.
+                          - "Your funeral~"
+                        - hg[Option 2]: Ugh, fine.
+                          - "Thanks for the rep, sucker! The second you'll move, I'll start leading! Now, let's get outta here!"
+                            - (Pear will now walk towards the exit, and any [Entity](entity) he encounters first (before it can to you) will be pacified throughout the journey.)
+                               - However, this does not protect other players that follow Pear as well.
+                    - hg[Option 2]: It's a deal.
                       - "Thanks for the rep! The second you'll move, I'll start leading! Now, let's get outta here!"
                         - (Pear will now walk towards the exit, and any [Entity](entity) he encounters first (before it can to you) will be pacified throughout the journey.)
                           - However, this does not protect other players that follow Pear as well.
