@@ -93,7 +93,7 @@ content: |-
                       - "Yeah, I really hope so. Thanks for the comforting words."
                 - hg[Option 2]: No, not really.
                   - "Oh. Well, maybe you'll get it in the future."
-                - hg [Option 3]: Completely.
+                - hg[Option 3]: Completely.
                   - "Yeah, I knew you would. You look like the kind of person who'd get it."
                   - "I wish you good luck on your journey, I hope you wish me good luck through mine."
             - hg[Option 3]: How's BloxDonalds going?
