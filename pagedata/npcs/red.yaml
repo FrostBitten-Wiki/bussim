@@ -52,6 +52,10 @@ content: |-
                   - "Don't ask questions you aren't prepared for the answers to."
                       - hg[Option 1]: Sheesh, sorry..
                       - hg[Option 2]: Nevermind.
+      - hg[Option 3]: I- Wh- Weren't you just in the Backwalls? (If the player has seen Red in the Backwalls Bloxdonalds)
+        - "Yes, someone can actually *move* from one place to another. It came as a surprise to many."
+        - "...Except I don't move from this spot, I co-exist in serveral points in space and time--"
+        - "Y'know what, let's just say that I move here when you're here, and I move elsewhere when you're elsewhere."
 
   ###[**BloxDonalds (Backwalls)**]
   !!DLEMULATOR EID:"redemulator" SID:"start" URL:"/assets/bussim/emulatorData/red-backwalls.json"
