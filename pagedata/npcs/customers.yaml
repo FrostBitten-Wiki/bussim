@@ -141,6 +141,7 @@ content: |-
   - <clr:#ff4545>(Negative): "What???"
   - <clr:#ff4545>(Negative): "*cries*"
   - <clr:#ff4545>(Negative): "?"
+  - <clr:#ff4545>(Negative): "no"
 
   ##[Dialogues (After Ordering)]
   ###[Correct Order]
