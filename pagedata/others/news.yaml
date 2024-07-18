@@ -334,3 +334,5 @@ content: |-
     - [BREAKING NEWS]: (player) survived every single danger  thrown their way!
       - This happens when a player survived every event that can kill you (Excluding NoblesHouse, Backwalls, Cafe, GoatStation, an NoDough), and gets the [Survivor](https://www.roblox.com/badges/3408555492434090/Survivor) badge.
   !!GALLERY [/bussim-assets/images/others/news.webp]
+    - [BREAKING NEWS]: Congratulations. You have no friends!
+      - Seen if the player has been alone in a server for 30 minutes. Can be seen every 30 minutes, but resets if another player joins until they leave.
