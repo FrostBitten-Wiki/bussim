@@ -49,6 +49,17 @@ content: |-
   |Cancel|Button|Allows you to manually end Focus Mode.|
   |Finish|Button|Finishes the drink you have made, assuming it's valid for a recipe. Automatically ends Focus Mode after blending.|
   |Recipes Toggle|Button|Toggles the recipe sidebar.|
+  ###[__Console__]
+  Lastly, Console uses buttons around the controller when making drinks. The following buttons are as follows:
+  | Controls | Buttons | Description |
+  |----------|------|-------------|
+  |Category Select|D-Pad Up / D-Pad Down|Allows you to shift between the previous and next category of ingredients.|
+  |Ingredient Select|D-Pad Left / D-Pad Right|Allows you to select between the previous and next ingredient within the same category.|
+  |Dispense|Square / X|Dispenses the ingredient. Holding it down will repeat this action until it is released.\n\nYou can also do short bursts for more precise dispensing.|
+  |Try Again / Cancel|Circle / B|Allows you to clear all of the ingredients within a cup, perferrably if you wanted to restart or to reset over a softlock.\n\nPressing it again while the cup is empty will manually end Focus Mode.|
+  |Finish|Triangle / Y|Finishes the drink you have made, assuming it's valid for a recipe. Automatically ends Focus Mode after blending.|
+  |Recipes Toggle|L3 / LA|Toggles the recipe sidebar.|
+  
 
   !!BUTTONS [Ingredients,location.href='cafe-coffee'|<highlight>Recipes / Mixtures</highlight>,location.href=''|NPC Interactions,location.href='cafe-coffee-npcs']
   ##[Recipes and Mixtures]
