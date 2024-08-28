@@ -27,6 +27,28 @@ content: |-
   When making one, the player will go into a focus-mode state, being able to pick any ingredients and measure them out carefully. Recipes are also provided on the left, with all of the specific ingredients needed to make a drink.
   \n\n
   While you do not need to be extremely accurate, as long as you have the appropriate ingredients; it'll blend into the drink that you want. 
+  ##[Controls]
+  ###[__Desktop / PC__]
+  For Desktop / PC, making drinks only uses the keyboard. The keys are as follows:
+  |----------|------|-------------|
+  |Category Select|W / S|Allows you to shift between the previous and next category of ingredients.|
+  |Ingredient Select|A / D|Allows you to select between the previous and next ingredient within the same category.|
+  |Dispense|Space|Dispenses the ingredient. Holding it down will repeat this action until it is released.\n\nYou can also do short bursts for more precise dispensing.|
+  |Try Again / Cancel|L|Allows you to clear all of the ingredients within a cup, perferrably if you wanted to restart or to reset over a softlock.\n\nPressing it again while the cup is empty will manually end Focus Mode.|
+  |Finish|Enter|Finishes the drink you have made, assuming it's valid for a recipe. Automatically ends Focus Mode after blending.|
+  |Recipes Toggle|R|Toggles the recipe sidebar.|
+  ###[__Mobile__]
+  Unlike Desktop, Mobile has buttons you can click on the bottom to do various actions, and requires you to finger-swipe within the ingredients UI in order to select categories and ingredients. 
+  | Controls | Actions | Description |
+  |----------|------|-------------|
+  |Category Select|Up-Swipe / Down-Swipe|Allows you to shift between the previous and next category of ingredients.|
+  |Ingredient Select|Left-Swipe / Right-Swipe|Allows you to select between the previous and next ingredient within the same category.|
+  |Dispense|Button|Dispenses the ingredient. Holding it down will repeat this action until it is released.\n\nYou can also do short bursts for more precise dispensing.|
+  |Try Again|Button|Allows you to clear all of the ingredients within a cup, perferrably if you wanted to restart or to reset over a softlock.|
+  |Cancel|Button|Allows you to manually end Focus Mode.|
+  |Finish|Button|Finishes the drink you have made, assuming it's valid for a recipe. Automatically ends Focus Mode after blending.|
+  |Recipes Toggle|Button|Toggles the recipe sidebar.|
+  
   !!BUTTONS [Ingredients,location.href='cafe-coffee'|Recipes / Mixtures,location.href='cafe-coffee-recipes'|<highlight>NPC Interactions</highlight>,location.href='']
   ##[NPC Interactions]
   "That cafe does delivery? I don't remember ordering this.. but thanks." -"Zeon (Goat Station)"
