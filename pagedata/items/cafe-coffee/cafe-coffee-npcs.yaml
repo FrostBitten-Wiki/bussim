@@ -30,6 +30,7 @@ content: |-
   ##[Controls]
   ###[__Desktop / PC__]
   For Desktop / PC, making drinks only uses the keyboard. The keys are as follows:
+  | Controls | Keys | Description |
   |----------|------|-------------|
   |Category Select|W / S|Allows you to shift between the previous and next category of ingredients.|
   |Ingredient Select|A / D|Allows you to select between the previous and next ingredient within the same category.|

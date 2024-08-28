@@ -30,6 +30,7 @@ content: |-
   ##[Controls]
   ###[__Desktop / PC__]
   For Desktop / PC, making drinks only uses the keyboard. The keys are as follows:
+  | Controls | Keys | Description |
   |----------|------|-------------|
   |Category Select|W / S|Allows you to shift between the previous and next category of ingredients.|
   |Ingredient Select|A / D|Allows you to select between the previous and next ingredient within the same category.|
@@ -48,7 +49,7 @@ content: |-
   |Cancel|Button|Allows you to manually end Focus Mode.|
   |Finish|Button|Finishes the drink you have made, assuming it's valid for a recipe. Automatically ends Focus Mode after blending.|
   |Recipes Toggle|Button|Toggles the recipe sidebar.|
-  
+
   !!BUTTONS [Ingredients,location.href='cafe-coffee'|<highlight>Recipes / Mixtures</highlight>,location.href=''|NPC Interactions,location.href='cafe-coffee-npcs']
   ##[Recipes and Mixtures]
   "This tastes so good. Trust." -"Mixture / Abomination"
