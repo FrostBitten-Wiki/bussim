@@ -60,7 +60,7 @@ content: |
   The dialer allows you to call others. Currently it is non-functional.
 
   ##[Trivia]
-  - When booting up Nulltech, you'll be able to see sparkles and stars before the homescreen loads. This is a sign that your save data within the phone successfully loaded.
+  - The boot-up screen of Nulltech also signifies if your data has been saved and loaded properly if you see sparkles around the screen.
   - The time system doesn't display AM / PM within the 12-hour format.
   - The background of your avatar and your chat messages within the Messages app is directly linked with your chat color on Roblox.
   - The original phone, one that has been prevalent throughout the majority of Bus Simulator's life was a drastically simpler version, being a simple-handheld that allows you to activate a flashlight and also displayed the in-game time.
