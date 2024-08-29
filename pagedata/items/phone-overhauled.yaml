@@ -1,0 +1,65 @@
+editable: True
+page:
+  title: Phone
+  description: The Phone is one of the first tools in the game, later overhauled with an entirely new spin. It can be used for messaging, games, lighting, and many more.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: phone, starter item, android, android nougat, is nougat a real thing?
+
+  header:
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/items/phone-new.webp
+
+attributions: 
+  - made by fang
+
+content: |
+  "Runs something or other!" -"Phone"
+  
+  ##[Info]
+  The Phone is the first tool added in Bus Simulator and similarly is the first tool you spawn off with, recieving a full overhaul throughout the end of August 2024. It serves a multitude of functions, from being a flashlight to communicating with others privately; all with customizations to your desire.
+  \n\n
+  When held for the first time within a session, an arrow will pop up next to your phone, which appears next to the power button. Hold-pressing it will then boot up Nulltech, allowing you access to your phone.
+  \n\n 
+  The Phone is usually kept during some events like [Backwalls](backwalls) or [No Dough](no-dough). Particles and chat bubbles will not appear through the phone due to it being glass. 
+  !!BUTTONS [<highlight>General Info</highlight>,location.href=''|STAR Applications,location.href='phone-star-apps']
+  ##[Features]
+  The general features that the phone provides are basically akin of that of normal phones. The top-left displays the time, synchronized with your real-life time and can be configured to display either in seconds or in a 24-hour format within your Settings. Swiping down from the upper edge shows you your notifications and quick-access buttons.
+  \n\n
+  The following quick-access actions, going from left to right are of the following:
+  | Actions | Description |
+  |---------|-------------|
+  |Flashlight|Allows you to turn the phone into a flashlight. It's synchronized with either your cursor or your finger when pointed outside of the screen.|
+  |Airplane Mode|Enables Airplane Mode, disabling all cell reception on your phone. Also denies you from messaging or being messaged.|
+  |Do Not Disturb|Disables you from recieving any messages, calls, or notifications.|
+  |Battery Saver|Mainly an aesthetics function, darkens your screen.|
+  |Volume Adjustment|Adjusts the volume of your system, notifications, and media.|
+  You'll also be able to back out within an app by swiping to your left from the right edge, or back out into your homescreen by swiping up from the bottom edge within any app. You can also drag your phone to anywhere else within your screen by toggling on Drag Mode.
+  \n\n 
+  You also will start off with a few apps by default, being a Dialer, Messages, Settings, and STAR.
+  ##[Home]
+  Much like any phone, you can customize your home screen by adding widgets or apps allowing easy access. Over the course of your usage, you'll be able to sort and create new pages for your homescreen. You can also swipe up slightly away from the bottom edge to view all of your apps, both within and not within your home screen.
+  \n\n 
+  Hold-pressing on the home screen will allow you to add widgets or directly customize your wallpaper.
+  ##[Settings]
+  The Settings is where you'll be able to customize your phone, which will save after leaving. You'll be able to customize your system's theme, notification sounds, fonts, as well as your wallpaper. The wallpaper in particular, can be customized to either any of the ones provided already or to any custom decal / image, with options provided to fit for your liking. You can also change how time is formatted, to either being 24-hours and / or having seconds as part of the clock.
+  ##[Messages]
+  The Messages app allows you to privately and directly communicate with players within and outside the server. You'll also be able to respond to any inboxes, deny all incoming requests, and also block people.
+  \n\n 
+  To communicate with anyone privately, click the button on the bottom-right to start a conversation. From there, you can either start a conversation from anyone within the server as you, or start one outside; assuming you provide their username / User ID.
+  ##[STAR]
+  STAR is an application store that uses coins as your balance. You'll be able to download and purchase any apps- provided with the balance that is. It also displays Today's Top Picks for both free and paid apps, and more.
+  \n\n 
+  Information about these apps individually are reserved in another page. But, an exception will be Pear's Place, a free application that allows you to gain coins by doing quests in-game. As such, it is currently the only method to obtain coins and subsequently spend it on / for various applications.
+  ##[Dialer]
+  The dialer allows you to call others. Currently it is non-functional.
+
+  ##[Trivia]
+  - When booting up Nulltech, you'll be able to see sparkles and stars before the homescreen loads. This is a sign that your save data within the phone successfully loaded.
+  - The time system doesn't display AM / PM within the 12-hour format.
+
+  !!GALLERY [/assets/bussim/images/items/phone-new.webp]
