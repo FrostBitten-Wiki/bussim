@@ -68,5 +68,6 @@ content: |
   - The boot-up screen of Nulltech can tell if your data has been saved and loaded properly. If there are sparkles around Nulltech when booting up, then your data was both successfully saved and loaded.
   - The time system doesn't display AM / PM within the 12-hour format.
   - The background of your avatar and your chat messages within the Messages app is directly linked with your chat color on Roblox.
+  - Clicking, typing, and using the flashlight all have their own unique animations for the player.
   - The original phone, one that has been prevalent throughout the majority of Bus Simulator's life was a drastically simpler version, being a simple-handheld that allows you to activate a flashlight and also displayed the in-game time.
   !!GALLERY [/assets/bussim/images/items/phone-new.webp|/assets/bussim/images/items/phone.webp]
