@@ -51,7 +51,7 @@ content: |
   ##[Messages]
   The Messages app allows you to privately and directly communicate with players within and outside the server. You'll also be able to respond to any inboxes, deny all incoming requests, and also block people.
   \n\n 
-  To communicate with anyone privately, click the button on the bottom-right to start a conversation. From there, you can either start a conversation from anyone within the server as you, or start one outside; assuming you provide their username / User ID.
+  To communicate with anyone privately, click the button on the bottom-right to start a conversation. From there, you can either start a conversation from anyone within the server as you, or start one outside; assuming you provide their username / User ID. Conversation data will also be saved once a conversation starts.
   ##[STAR]
   STAR is an application store that uses coins as your balance. You'll be able to download and purchase any apps- provided with the balance that is. It also displays Today's Top Picks for both free and paid apps, and more.
   \n\n 
