@@ -31,7 +31,7 @@ content: |
   ##[Features]
   The general features that the phone provides are basically akin of that of normal phones. The top-left displays the time, synchronized with your real-life time and can be configured to display either in seconds or in a 24-hour format within your Settings. Swiping down from the upper edge shows you your notifications and quick-access buttons.
   \n\n
-  The following quick-access actions, going from left to right are of the following:
+  The quick-access actions, going from left to right are of the following:
   | Actions | Description |
   |---------|-------------|
   |Flashlight|Allows you to turn the phone into a flashlight. It's synchronized with either your cursor or your finger when pointed outside of the screen.|
@@ -47,7 +47,12 @@ content: |
   \n\n 
   Hold-pressing on the home screen will allow you to add widgets or directly customize your wallpaper and Drag-holding the moment before the context menu (App Info, Add to Shelf & Remove) appears will allow you to move the app / widget around.
   ##[Settings]
-  The Settings is where you'll be able to customize your phone, which will save after leaving. You'll be able to customize your system's theme, notification sounds, fonts, as well as your wallpaper. The wallpaper in particular, can be customized to either any of the ones provided already or to any custom decal / image, with options provided to fit for your liking. You can also change how time is formatted, to either being 24-hours and / or having seconds as part of the clock.
+  The Settings is where you'll be able to customize your phone, which will save after leaving. You'll be able to customize your system's theme, notification sounds, fonts, as well as your wallpaper. The wallpaper in particular, can be customized to either any of the ones provided already or to any custom decal / image, with options provided to fit for your liking. 
+  \n\n 
+  You can also change how time is formatted, to either being 24-hours and / or having seconds as part of the clock and what system it's currently on. The following time systems are: 
+  - Operating System - Is based on your device's operating system's time, or most often than not- your real life time.
+  - In-game Time - A system based within the game's own time for its day and night cycle. Moves at around 3 in-game minutes per real life second.
+  - .beat - A decimal time system made to market a line of .beat watches. Divides the entire day into 1000 beats with each beat lasting 86.4 seconds in real time.
   ##[Messages]
   The Messages app allows you to privately and directly communicate with players within and outside the server. You'll also be able to respond to any inboxes, deny all incoming requests, and also block people.
   \n\n 
