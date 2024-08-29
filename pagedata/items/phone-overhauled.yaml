@@ -27,7 +27,7 @@ content: |
   When held for the first time within a session, an arrow will pop up next to your phone, which appears next to the power button. Hold-pressing it will then boot up Nulltech, allowing you access to your phone.
   \n\n 
   The Phone is usually kept during some events like [Backwalls](backwalls) or [No Dough](no-dough). Particles and chat bubbles will not appear through the phone due to it being glass. 
-  !!BUTTONS [<highlight>General Info</highlight>,location.href=''|STAR Applications,location.href='phone-star-apps']
+  !!BUTTONS [<highlight>General Info</highlight>,location.href=''|STAR Applications,location.href='']
   ##[Features]
   The general features that the phone provides are basically akin of that of normal phones. The top-left displays the time, synchronized with your real-life time and can be configured to display either in seconds or in a 24-hour format within your Settings. Swiping down from the upper edge shows you your notifications and quick-access buttons.
   \n\n
@@ -35,8 +35,8 @@ content: |
   | Actions | Description |
   |---------|-------------|
   |Flashlight|Allows you to turn the phone into a flashlight. It's synchronized with either your cursor or your finger when pointed outside of the screen.|
-  |Airplane Mode|Enables Airplane Mode, disabling all cell reception on your phone. Also denies you from messaging or being messaged.|
-  |Do Not Disturb|Disables you from recieving any messages, calls, or notifications.|
+  |Airplane Mode|Enables Airplane Mode, disabling all cell reception on your phone. Currently is non-functional.|
+  |Do Not Disturb|Disables you from recieving any messages, calls, or notifications. Currently is non-functional.|
   |Battery Saver|Mainly an aesthetics function, darkens your screen.|
   |Volume Adjustment|Adjusts the volume of your system, notifications, and media.|
   You'll also be able to back out within an app by swiping to your left from the right edge, or back out into your homescreen by swiping up from the bottom edge within any app. You can also drag your phone to anywhere else within your screen by toggling on Drag Mode.
