@@ -78,4 +78,9 @@ content: |
   |![120x120](/bussim-assets/images/items/liquid-void.webp)|[Liquid Void](liquid-void)|<clr:#FFE669>(1750 Coins) | Indecipherable liquid substance. Makes you invisible when consumed in moderation. | [Backwalls](backwalls) |
   |![120x120](/bussim-assets/images/items/almond-water.webp)|[Almond Water](almond0water)|<clr:#FFE669>(500 Coins) | Refreshing and rejuvenating water-like liquid. Heals injuries almost immediately. | [Backwalls](backwalls) |
   |![120x120](/bussim-assets/images/items/void-burger.webp)|[Void Burger](void-burger)|<clr:#FFE669>(650 Coins) | Burger with a void-based patty. Makes you invisible when consumed in moderation. | [Backwalls](backwalls) |
-  
+  ##[Trivia]
+  - The items that can't be purchased but are part of the events are those that are only purchasable (and permanent) with [Passenger Reputation](reputation).
+    - Examples such as [Compass](compass), [Gas Station Coil](gas-station-coil), [Gas Station Ice Cream](gas-station-ice-cream) and [Flying Skillbook](flying-skillbook) all cannot be purchased with <clr:#FFE669>(Coins).
+    - Other items that are specifically limited / are now classified as unobtainable cannot be purchased in the <clr:#FFE669>(Coins) Shop, as well as items obtained through [NPCS](npcs).
+      - Examples of this are the [Candied Cane](candied-cane), [Hoverboots](hoverboots), [Frozen Chocolate](frozen-chocolate), and [Magic Mirror](magic-mirror).
+  - Items such as Liquid Void and Almond Water are not permanent when bought with <clr:#FFE669>(Coins), and are meant to be unlocked manually.
