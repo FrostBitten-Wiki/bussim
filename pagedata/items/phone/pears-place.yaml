@@ -39,7 +39,7 @@ content: |
   The quests are as follows, do know with discretion that it can and will change! 
   | Quest | Reward | Description | Notes |
   |-------|--------|-------------|-------|
-  |Win a Friday Night match against someone | <clr:#FFE669>(500 Coins) | <clr:#B9FF8A>(Pear - "If you know me well enough, I'll let you play against me~")\n\n<clr:#85B1FF>(Noble - "If you see me in-game, just know that I- [rest of text is occupied by Noble])" | Challenging Pear counts for this quest. |
+  |Win a Friday Night match against someone | <clr:#FFE669>(500 Coins) | <clr:#B9FF8A>(Pear - "If you know me well enough, I'll let you play against me~")\n\n<clr:#85B1FF>(Noble - "If you see me in-game, just know that I- [rest of text is occupied by Noble]") | Challenging Pear counts for this quest. |
   |Sit in your seat for 3 minutes straight| <clr:#FFE669>(100 Coins) | <clr:#B9FF8A>(Pear - "Hope you're able to sit still!")\n\n <clr:#85B1FF>(Noble - "i'm cooked....") | <0px>(.) |
   |Play the game for 15 minutes| <clr:#FFE669>(200 Coins) | "lol lmao" | Simply just being in the game works. |
   |Chill in the Crystal Cavern for 5 minutes| <clr:#FFE669>(??? Coins) | "lol lmao" | You may need either a [Magic Mirror](magic-mirror) or an [event](glacier-cave) to do this. |
@@ -80,7 +80,7 @@ content: |
   |![120x120](/bussim-assets/images/items/void-burger.webp)|[Void Burger](void-burger)|<clr:#FFE669>(650 Coins) | Burger with a void-based patty. Makes you invisible when consumed in moderation. | [Backwalls](backwalls) |
   ##[Trivia]
   - The items that can't be purchased but are part of the events are those that are only purchasable (and permanent) with <clr:#FFE669>(Coins) or originally [Passenger Reputation](reputation).
-    - Examples such as [Compass](compass), [Gas Station Coil](gas-station-coil), [Gas Station Ice Cream](gas-station-ice-cream) and [Flying Skillbook](flying-skillbook) all cannot be purchased with <clr:#FFE669>(Coins).
+    - Examples such as [Compass](compass), [Gas Station Coil](gas-station-coil), [Gas Station Ice Cream](gas-station-ice-cream) and [Flying Skillbook](flying-skillbook) all can be purchased with <clr:#FFE669>(Coins) but aren't on the Shop.
     - Other items that are specifically limited / are now classified as unobtainable cannot be purchased in the <clr:#FFE669>(Coins) Shop, as well as items obtained through [NPCS](npcs).
       - Examples of this are the [Candied Cane](candied-cane), [Hoverboots](hoverboots), [Frozen Chocolate](frozen-chocolate), and [Magic Mirror](magic-mirror).
   - Items such as Liquid Void and Almond Water are not permanent when bought with <clr:#FFE669>(Coins), and are meant to be unlocked manually.
