@@ -1,0 +1,81 @@
+editable: True
+page:
+  title: Pear's Place
+  description: Pear's Place is an App in Bus Simulator that allows you to gain Coins as a form of currency and allows you to spend them on items you've already seen before.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: phone, starter item, android, android nougat, is nougat a real thing?
+
+  header:
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/items/phone/pears-place.webp
+
+attributions: 
+  - made by fang
+
+content: |
+  !!INFOBOX TITLE:"Early Access Content" COLOR:"#23358C" TEXT:"*\"The night's still young!\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update easier. Most of the info shown are with the discretion that it can and will change.)"
+  "meow" -"Pear's Place"
+  !!BUTTONS [Phone Overview,location.href='phone-overhauled'|<highlight>Pear's Place</highlight>,location.href=''|STAR Applications,location.href='']
+  ##[Info]
+  Pear's Place is an App in Bus Simulator that allows you to gain <clr:#FFE669>(Coins) as a form of currency and allows you to spend them on items you've already seen before.
+  \n\n
+  ##[Hosts]
+  Hosts allows you to change the person being shown in the Quests section, assuming you buy / unlock them. It also changes the theme to be associated with each of them. 
+  \n\n 
+  The hosts are as follows:
+  | Host | Cost |
+  |------|------|
+  | Pear | <clr:#FFE669>(Free) |
+  | Noble | <clr:#FFE669>(100 Coins) |
+  ##[Quests]
+  "Another quest bites the dust!" -"Pear"
+  The app features 4 daily quests, one of which is locked behind Premium, and gives you <clr:#FFE669>(Coins) if you complete them. Some of these range from simply sitting at your seat for a few minutes to appreciating a biome.
+  \n\n 
+  The quests are as follows, do know with discretion that it can and will change! 
+  | Quest | Reward | Description | Notes |
+  |-------|--------|-------------|-------|
+  |Win a Friday Night match against someone | <clr:#FFE669>(500 Coins) | "If you know me well enough, I'll let you play against me~"\n\n Noble - "If you see me in-game, just know that I- (rest of text is occupied by Noble)" | Challenging Pear counts for this quest. |
+  |Sit in your seat for 3 minutes straight| <clr:#FFE669>(100 Coins) | Pear - "Hope you're able to sit still!"\n\n Noble - "i'm cooked...." | <0px>(.) |
+  |Play the game for 15 minutes| <clr:#FFE669>(200 Coins) | "lol lmao" | Simply just being in the game works. |
+  |Chill in the Crystal Cavern for 5 minutes| <clr:#FFE669>(??? Coins) | "lol lmao" | You may need either a [Magic Mirror](magic-mirror) or an [event](glacier-cave) to do this. |
+  |Get the Knife in Rock Gun Knife| <clr:#FFE669>(300 Coins) | "lol lmao" | The Knife appears after 4 rounds within Rock Gun Knife. |
+  |Appreciate the X biome for 60 seconds| <clr:#FFE669>(200 Coins) | Pear - "A little nature goes a long way~!"\n\nNoble - "I put a LOT of work into making these for you..." | Requires you to be within or on [The Bus](the-bus) while in said biome.\n\nBiome can be any within the game. |
+  ##[Shop]
+  The shop allows you to purchase event items that you have encountered throughout your journey and can also be traded for <clr:#8793FF>(Tokens), which allows one to initiate a forced event without paying any Robux.
+  \n\n 
+  The catalog for every item you can purchase are as follows:
+  ###[__<clr:#8793FF>(Tokens)__]
+  | Image | Item | Cost | Description |
+  |-------|------|------|-------------|
+  |![120x120](/bussim-assets/images/items/phone/pears-place/basic-event-token.webp)|Basic Event Token| <clr:#FFE669>(1600 Coins) | Allows you to force a random event. |
+  |![120x120](/bussim-assets/images/items/phone/pears-place/advanced-event-token.webp)|Advanced Event Token| <clr:#FFE669>(4500 Coins) | Allows you to force an event of your choosing. |
+  |![120x120](/bussim-assets/images/items/phone/pears-place/song-token.webp)|Song Token| <clr:#FFE669>(500 Coins) | Allows you to request a song on the radio. |
+  \n 
+  ###[__The Event Collection__]
+  | Image | Item | Cost | Description | Origin / Requirement |
+  |-------|------|------|-------------|----------------------|
+  |![120x120](/bussim-assets/images/items/burger.webp)|[Burger](burger)|<clr:#FFE669>(10 Coins) | Cheeseburger of dubious quality. | [BloxDonalds](bloxdonalds) |
+  |![120x120](/bussim-assets/images/items/coffee.webp)|[Coffee](coffee)| <clr:#FFE669>(20 Coins) | Coffee from BloxDonalds, found in a pool for some reason. | [Pool](pool) |
+  |![120x120](/bussim-assets/images/items/expired-taco.webp)|[Expired Taco](expired-taco)| <clr:#FFE669>(10 Coins) | Egregiously out of date, dangerous to consume. | [Time Travel](time-travel) |
+  |![120x120](/bussim-assets/images/items/fakebuildtools.webp)|[Fake BTools](fake-btools)|<clr:#FFE669>(5 Coins) | Useless colorful cube. | [BTools](btools-event) |
+  |![120x120](/bussim-assets/images/items/fake-rocket-launcher.webp)|['Rocket Launcher'](fake-rocket-launcher)|<clr:#FFE669>(10 Coins) | Manufacted by ACME. | [Shack](shack) |
+  |![120x120](/bussim-assets/images/items/free-modelled-cake.webp)|[Free-modelled Cake](free-modelled-cake)|<clr:#FFE669>(20 Coins) | Plastic cake handed out to birthday participants. | [Birthday](birthday) |
+  |![120x120](/bussim-assets/images/items/goala-cola.webp)|[Goala Cola](goala-cola)|<clr:#FFE669>(50 Coins) | GOOOOOOOAAAALL!!! | [Goat Station](goat-station) |
+  |![120x120](/bussim-assets/images/items/homemade-coffee.webp)|[Homemade Coffee](homemade-coffee)|<clr:#FFE669>(20 Coins) | Would buying it from here still count as 'homemade'? | [Goat Station](goat-station) |
+  |![120x120](/bussim-assets/images/items/hyper-soda.webp)|[Hyper Soda](hyper-soda)|<clr:#FFE669>(30 Coins) | A reward for beating a classic obby. This is pay-to-win... | [Obby](obby) |
+  |![120x120](/bussim-assets/images/items/intern-mug.webp)|[Intern Mug](intern-mug)|<clr:#FFE669>(50 Coins) | Somebody forgot to patch this one out. | [Cafe](cafe) |
+  |![120x120](/bussim-assets/images/items/kernels.webp)|[Kernels](kernels)|<clr:#FFE669>(100 Coins) | Popcorn pre-pop. | [Goat Station](goat-station) |
+  |![120x120](/bussim-assets/images/items/bucket.webp)|[Bucket?](bucket)|<clr:#FFE669>(100 Coins) | A bucket commonly used to hold popcorn. | [Goat Station](goat-station) / [Picnic](picnic) |
+  |![120x120](/bussim-assets/images/items/lemon-soda.webp)|[Lemon Soda](lemon-soda)|<clr:#FFE669>(10 Coins) | Extremely sour soda, given out for free on the side of the road. | [Soda Stand](soda-stand) |
+  |![120x120](/bussim-assets/images/items/redblox.webp)|[Redblox](redblox)|<clr:#FFE669>(80 Coins) | Average gas station energy drink. | [Goat Station](goat-station) |
+  |![120x120](/bussim-assets/images/items/sandwich.webp)|[Sandwich](sandwich)|<clr:#FFE669>(10 Coins) | A simple sandwich to snack on. | [Picnic](picnic) |
+  |![120x120](/bussim-assets/images/items/toast.webp)|[Toast](toast)|<clr:#FFE669>(10 Coins) | Cooked bread. | [Goat Station](goat-station) |
+  |![120x120](/bussim-assets/images/items/liquid-void.webp)|[Liquid Void](liquid-void)|<clr:#FFE669>(1750 Coins) | Indecipherable liquid substance. Makes you invisible when consumed in moderation. | [Backwalls](backwalls) |
+  |![120x120](/bussim-assets/images/items/almond-water.webp)|[Almond Water](almond0water)|<clr:#FFE669>(500 Coins) | Refreshing and rejuvenating water-like liquid. Heals injuries almost immediately. | [Backwalls](backwalls) |
+  |![120x120](/bussim-assets/images/items/void-burger.webp)|[Void Burger](void-burger)|<clr:#FFE669>(650 Coins) | Burger with a void-based patty. Makes you invisible when consumed in moderation. | [Backwalls](backwalls) |
+  
