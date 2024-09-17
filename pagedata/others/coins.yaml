@@ -18,7 +18,7 @@ attributions:
   - woof woof bark bark
 
 content: |-
-  "HOW ARE YOU IN - <clr:#FFE669>(Coins)"
+  "HOW ARE YOU IN" -"<clr:#FFE669>(Coins)"
   ##[Info]
   <clr:#FFE669>(Coins) are the main currency in Bus Simulator, used to purchase apps, items, and more. Replacing [Passenger Reputation](reputation) as a form of currency in almost all purchases in the game.
   \n\n 
