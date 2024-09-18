@@ -29,6 +29,8 @@ content: |
   The Phone is usually kept during some events like [Backwalls](backwalls) or [No Dough](no-dough). Particles and chat bubbles will not appear through the phone due to it being glass. 
   \n\n
   The general features that the phone provides are basically akin of that of normal phones. The top-left displays the time, synchronized with your real-life time and can be configured to display either in seconds or in a 24-hour format within your Settings. Swiping down from the upper edge shows you your notifications and quick-access buttons.
+  \n\n 
+  There will also be three buttons on the right (or left if space is unavailable) outside of the phone, going from top to bottom, the top opens your notifications, the middle sends you back home, and the bottom backs out of / or in an app.
   \n\n
   The quick-access actions, going from left to right are of the following:
   | Actions | Description |
