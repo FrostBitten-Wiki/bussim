@@ -36,7 +36,7 @@ content: |
   | Actions | Description |
   |---------|-------------|
   |Flashlight|Allows you to turn the phone into a flashlight. It's synchronized with either your cursor or your finger when pointed outside of the screen.|
-  |Airplane Mode|Enables Airplane Mode, disabling all cell reception on your phone. Currently is non-functional.|
+  |Airplane Mode|Enables Airplane Mode, disabling all cell reception on your phone. It also disables purchasing items within the shop, messaging, and downloading any apps.|
   |Do Not Disturb|Disables you from recieving any messages, calls, or notifications. Currently is non-functional.|
   |Battery Saver|Mainly an aesthetics function, darkens your screen.|
   |Volume Adjustment|Adjusts the volume of your system, notifications, and media.|
@@ -55,9 +55,11 @@ content: |
   - In-game Time - A system based within the game's own time for its day and night cycle. Moves at around 3 in-game minutes per real life second.
   - .beat - A decimal time system made to market a line of .beat watches. Divides the entire day into 1000 beats with each beat lasting 86.4 seconds in real time.
   ##[Messages]
-  The Messages app allows you to privately and directly communicate with players within and outside the server. You'll also be able to respond to any inboxes, deny all incoming requests, and also block people.
+  The Messages app allows you to privately and directly communicate with players within and outside the server. You'll also be able to respond to any inboxes, deny all incoming requests, and also block people. You can only view the history of it and are unable to send any messages while having no cell reception / signal.
   \n\n 
   To communicate with anyone privately, click the button on the bottom-right to start a conversation. From there, you can either start a conversation from anyone within the server as you, or start one outside; assuming you provide their username / User ID. Conversation data will also be saved once a conversation starts.
+  \n\n
+  One last extra detail is that chat bubbles are colored based on your username color on Roblox.
   ##[STAR]
   STAR is an application store that uses coins as your balance. You'll be able to download and purchase any apps- provided with the balance that is. It also displays Today's Top Picks for both free and paid apps, and more.
   \n\n 
