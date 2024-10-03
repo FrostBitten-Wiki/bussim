@@ -47,5 +47,6 @@ content: |
   - Harmful Consumable (Items that are dangerous to the user directly)
   - Pairable Item (Items that can be paired with others)
   - Broken Item (Used or was planned to have "a" function)
+  - Soda (Contributes to the Soda quest)
 
   !!GALLERY [/assets/bussim/images/items/ice-cream.webp]
