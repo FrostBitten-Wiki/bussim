@@ -10,7 +10,8 @@ page:
   header:
     title: Kernels
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Permanent on Special Conditions, Pairable Item]
     image: "/bussim-assets/images/banner.jpg"
     imageBanner: /assets/bussim/images/items/kernels.webp
     

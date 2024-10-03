@@ -9,7 +9,8 @@ page:
 
   header:
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
+      Tags: h[Unobtainable Item, Permanent, "Healing" Consumable]
     
     image: ""
     imageBanner: /assets/bussim/images/items/snowcone.webp

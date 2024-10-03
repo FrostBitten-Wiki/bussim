@@ -11,8 +11,8 @@ page:
 
   header:
     description: |
-      Category: [Items](items)
-
+      Category: h[Applications]
+      
     image: ''
     imageBanner: /assets/bussim/images/items/phone/pears-place.webp
 

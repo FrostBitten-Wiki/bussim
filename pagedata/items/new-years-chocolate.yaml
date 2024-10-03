@@ -8,9 +8,10 @@ page:
   tags: new years mug, new years permanent, new years chocolate
 
   header:
-    title: Kernels
+    title: New Years Chocolate
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
+      Tags: h[Unobtainable Item, Permanent, Healing Consumable]
     image: "/bussim-assets/images/banner.jpg"
     imageBanner: /assets/bussim/images/items/new-years-chocolate.webp
     

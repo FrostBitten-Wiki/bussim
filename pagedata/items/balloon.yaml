@@ -11,7 +11,8 @@ page:
 
   header:
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
+      Tags: h[Contributer-Only Item, Permanent on Special Conditions, Gravity Booster]
 
     image: ''
     imageBanner: /assets/bussim/images/items/balloon/collection1.webp

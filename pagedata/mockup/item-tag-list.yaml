@@ -1,0 +1,51 @@
+editable: True
+page:
+  title: Item Tag List
+  description: Just as a catalog of the various tags within items.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: ice cream, not the birthday ice cream, not the other ice cream, natural ice cream
+
+  header:
+    description: |
+      Category: [Items](items)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/items/ice-cream.webp
+
+attributions: 
+  - Ported by PolyframeX (@polyframex)
+  - Converted to Jinki Markdown by Nyx (@nyxical) and FangedWerewolf (@noobbiom)
+
+content: |
+  "hi lol" -"fang"
+
+  ##[Info]
+  ###[__Obtainment Tags__]
+  - Gamepass Item (If the item is purchsable with Robux)
+  - Admin-Only Item (If the item is only obtained via Admin)
+  - Contributer-Only Item (If the item is only obtained by being Contributer or above)
+  - Efeuc-Only Item (him.)
+  - VR-Only Item (Item can only be obtained in VR)
+  - Unobtainable Item (If the item used to be obtainable but is no longer the case)
+  - Obtainable Item (If the item is obtainable right now)
+  - Annually Obtainable Item (Item is only obtainable annually)
+  ###[__Status Tags__]
+  - Permanent (If the item retains on death and leaving)
+  - Permanent on Special Conditions (Same as above, but by default is temporary unless certain conditions are met)
+  - Temporary (Simply cannot be kept)
+  ###[__Utility Tags__]
+  - Equippable (Ex, airpods, items that can be 'equipped')
+  - Wildcard Consumable (Consumables that can have any effect)
+  - Special Consumable (Consumables with special effects)
+  - Healing Consumable (Consumables that heal)
+  - "Healing" Consumable (Consumables that heal a marginally small and inconsequential amount)
+  - Speed Consumable (Consumables that boost the speed of the user)
+  - Gravity Booster (Items that boost the jump power of the user)
+  - Instant Kill Item (Items that instantly kill the user)
+  - Harmful Consumable (Items that are dangerous to the user directly)
+  - Pairable Item (Items that can be paired with others)
+  - Broken Item (Used or was planned to have "a" function)
+
+  !!GALLERY [/assets/bussim/images/items/ice-cream.webp]

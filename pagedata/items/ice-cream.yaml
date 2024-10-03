@@ -9,7 +9,8 @@ page:
 
   header:
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Temporary, "Healing" Consumable]
     
     image: ""
     imageBanner: /assets/bussim/images/items/ice-cream.webp
@@ -24,7 +25,7 @@ content: |
   ##[Info]
   The Ice Cream is an edible item that is obtained from the ice cream truck. 
   \n\n 
-  You can only obtain it by waiting for an event where the bus stops, as the Ice Cream truck moves along with the bus. 
+  You can only obtain it by waiting for an event where the bus stops, as the Ice Cream truck moves along with the bus. When consumed, it heals a miniscule amount of health.
   \n\n 
   If you own a [Mini-Bus](mini-bus), and the bus has stopped, you can drive back to where the cars spawn, and wait for an Ice Cream truck to spawn, if you can get beyond the invisible barrier. 
   ##[Trivia]

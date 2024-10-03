@@ -10,7 +10,8 @@ page:
   header:
     title: Sushi
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Temporary, Wildcard Consumable]
     image: "/bussim-assets/images/items/sushi/healthy-maki.webp"
     imageBanner: /assets/bussim/images/items/sushi/healthy-maki.webp
     

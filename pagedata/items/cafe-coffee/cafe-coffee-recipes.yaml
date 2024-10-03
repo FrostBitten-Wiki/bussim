@@ -12,7 +12,8 @@ page:
   header:
     title: Coffee (Cafe)
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Temporary, Wildcard Consumable, Pairable Item]
     image: /bussim-assets/images/items/cafecoffee.webp
     imageBanner: /assets/bussim/images/items/cafecoffee.webp
 

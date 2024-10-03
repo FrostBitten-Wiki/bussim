@@ -10,7 +10,8 @@ page:
   header:
     title: Party-Popper
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
+      Tags: h[Unobtainable Item, Permanent]
     image: /bussim-assets/images/banner.jpg
     imageBanner: /assets/bussim/images/items/party-popper.webp
 

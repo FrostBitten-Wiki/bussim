@@ -9,7 +9,8 @@ page:
 
   header:
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
+      Tags: h[Gamepass Item, Permanent, Equippable]
     
     image: ""
     imageBanner: /assets/bussim/images/items/airpods.webp

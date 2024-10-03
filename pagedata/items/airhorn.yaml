@@ -14,7 +14,7 @@ page:
   header:
     description: |
       Category: [Items](items)\n
-      Tags: Gamepass Item, Permanent
+      Tags: h[Gamepass Item, Permanent]
 
     image: ''
     imageBanner: /assets/bussim/images/items/airhorn.webp

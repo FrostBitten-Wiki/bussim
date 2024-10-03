@@ -10,7 +10,8 @@ page:
 
   header:
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Permanent, Healing Consumable]
 
     image: ''
     imageBanner: /assets/bussim/images/items/spronkbib-popsicle.webp
@@ -23,7 +24,7 @@ content: |
   "Bares no resemblance to beloved childhood characters whatsoever!" -"Spronkbib Popsicle"
 
   ##[Info]
-  The Spronkbib Popsicle is obtainable along with The Last One badge as a 1/800(formerly 1/1000) chance from the naturally spawning ice cream vans.
+  The Spronkbib Popsicle is obtainable along with The Last One badge as a 1/800 (formerly 1/1000) chance from the naturally spawning ice cream vans.
   \n\n 
   Once you do get it though, you won't be able to get another normal [Ice Cream](ice-cream) without having to delete the Last One badge <12px>([But why would you?]), or by giving it to [D6](d6) during the [Goat Station](goat-station) event in exchange for the [Tool](tool). 
   \n\n 

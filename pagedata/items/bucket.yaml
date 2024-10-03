@@ -10,7 +10,8 @@ page:
   header:
     title: Bucket?
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Temporary, Pairable Item]
     image: "/bussim-assets/images/banner.jpg"
     imageBanner: /assets/bussim/images/items/bucket.webp
     

@@ -10,7 +10,8 @@ page:
 
   header:
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Temporary, Healing Consumable]
 
     image: ''
     imageBanner: /assets/bussim/images/items/intern-mug.webp

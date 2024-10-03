@@ -9,7 +9,8 @@ page:
 
   header:
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Permanent on Special Conditions, Instant Kill / Special Consumable]
     
     image: ""
     imageBanner: /assets/bussim/images/items/liquid-void.webp

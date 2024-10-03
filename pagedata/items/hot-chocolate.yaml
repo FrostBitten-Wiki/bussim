@@ -10,7 +10,8 @@ page:
   header:
     title: Kernels
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Temporary, Healing Consumable]
     image: "/bussim-assets/images/banner.jpg"
     imageBanner: /assets/bussim/images/items/hot-chocolate.webp
     

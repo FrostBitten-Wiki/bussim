@@ -9,7 +9,8 @@ page:
 
   header:
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Permanent]
     
     image: ""
     imageBanner: /assets/bussim/images/items/phone-new.webp

@@ -9,7 +9,8 @@ page:
 
   header:
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Permanent on Special Conditions, Pairable Item]
     
     image: ""
     imageBanner: /assets/bussim/images/items/compass.webp
@@ -29,6 +30,6 @@ content: |
   - Despite it saying it points North, in the [Time Travel Event](time-travel), the compass points to the West District.
     - This is very likely just an oversight though.
   - Assuming it actually does point North, then The Bus has been going South throughout the entire journey.
-  - This is perhaps the first two items that cooperates with each other, namely with the [Exit Explorer Map](exit-explorer-map).
+  - This was the first two items that were given the ability to cooperate with each other, being the [Exit Explorer Map](exit-explorer-map) and the Compass.
 
   !!GALLERY [/assets/bussim/images/items/compass.webp]

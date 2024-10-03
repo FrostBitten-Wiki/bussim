@@ -12,7 +12,8 @@ page:
   header:
     title: Popcorn Bucket
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Permanent, Healing Consumable]
     image: /bussim-assets/images/banner.jpg
     imageBanner: /assets/bussim/images/items/popcorn-bucket.webp
 
