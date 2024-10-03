@@ -21,7 +21,7 @@ attributions:
 
 content: |
   !!INFOBOX TITLE:"Admin Exclusive Content" COLOR:"#ff66ff" TEXT:"*\"Sometimes I've seen a bus that has a lot of other strange stuff on or around it, as well as some dude holding some Blueprints. How do they do it...?\"* - Zeon\nv(This page has content exclusive to admins of the game. This may include scrapped / hidden content that is normally inaccessible during normal gameplay.)"
-  !!BUTTONS [Bad Cola,location.href='/wiki/bussim/items/bad-cola'|<highlight>Old Bad Cola</highlight>,location.href='']
+  !!BUTTONS [Bad Cola,location.href='/wiki/bussim/bad-cola'|<highlight>Old Bad Cola</highlight>,location.href='']
   "Smells... odd." -"Old Bad Cola"
 
   ##[Info]
