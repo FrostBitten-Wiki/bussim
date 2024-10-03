@@ -44,4 +44,4 @@ content: |
   - Unlike other events, this particular event doesn't have any __Height Immunity__ and instead checks if the player's HumanoidRootPart has any collidable part above it, whether it'd be from the base game or from [F3X](edit) with its range being around 65 studs high. If it succeeds: you won't take any damage, otherwise you will.
     - When using commands or items that allows you to resize your character, the studs required for you to not take damage will also change significantly, albeit not drastically.
 
-  !!GALLERY [/assets/bussim/images/events/acid-rain.webp|/assets/bussim/images/events/acid-rain2.webp]
+  !!GALLERY [/assets/bussim/images/events/acid-rain.webp]
