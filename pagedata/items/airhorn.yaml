@@ -13,7 +13,7 @@ page:
 
   header:
     description: |
-      Category: [Items](items)
+      Category: [Items](items)\n
       Tags: Gamepass Item, Permanent
 
     image: ''
