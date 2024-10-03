@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Blizzard
-  description: Placeholder
+  description: The Blizzard is an event that can happen every 5 minutes and affects everywhere in the game until you go extremely high. During the event, players would notice a blizzard forming as the biome forcibly changes to [Snowy](snowy) then [Frozen](frozen), and would have to start huddling in order to prevent taking damage. 
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -14,7 +14,7 @@ page:
       Event Runtime: h[Unknown]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/blizzard.webp
 
 attributions: []
 
@@ -54,4 +54,4 @@ content: |
   - It is possible to heal more than take damage if you are completely exposed during the peak of the event by using more than 3 effective healing items.
   - The wind sound that plays is similar of that to Natural Disaster Survival's wind sound effects, with similar mechanics as well.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/events/blizzard.webp/assets/bussim/images/events/blizzard2.webp]

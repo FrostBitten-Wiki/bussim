@@ -79,4 +79,4 @@ content: |
   - The door on the bus will automatically close itself when the Billies start moving.
     - This is the only instance where the door closes itself with no input from any other player.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/events/billy.webp|/assets/bussim/images/events/billy2.webp]
