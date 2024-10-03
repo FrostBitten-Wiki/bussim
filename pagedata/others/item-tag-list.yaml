@@ -6,7 +6,8 @@ page:
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: ice cream, not the birthday ice cream, not the other ice cream, natural ice cream
-
+  ignore: ignore
+  
   header:
     description: |
       Category: [Items](items)
