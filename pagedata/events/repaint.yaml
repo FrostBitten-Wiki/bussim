@@ -1,9 +1,11 @@
-editable: True
+editable: true
 page:
   title: Repaint
-  description: The Repaint Event is an event that happens every 5 minutes at random, giving players the option to vote for what color that should be painted onto The Bus for around 16-20 minutes (or roughly 3-4 events). 
+  description: The Repaint Event is an event that happens every 5 minutes at random,
+    giving players the option to vote for what color that should be painted onto The
+    Bus for around 16-20 minutes (or roughly 3-4 events).
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
+
   tags: some,tags,here,that is used by the search api
 
   header:
@@ -11,13 +13,13 @@ page:
       Category: [Events](events)\n
       Event Name: h[Repaint]\n
       Event Runtime: h[1 Minute or Less (1:00)]
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/events/repaint.webp
 
 attributions: []
 
-content: |
+content: |-
   ##[Info]
   The Repaint Event is an event that happens every 5 minutes at random, giving players the option to vote for what color that should be painted onto [The Bus](the-bus) for around 16-20 minutes (or roughly 3-4 events). 
   \n\n 
@@ -48,6 +50,7 @@ content: |
         - hg[Variant 2 : Player]: "I regret everything."
    - h[If no colors win...]
      - hg[Variant 1 : Player]: "Eh, actually, I don't care anymore."
+     - hg[Variant 2 : Player]: "Y'know what? It's fine the way it is..."
   ###[Extra Dialogue]
     - h[If the event happens while paint is still on...]
       - hg[Player]: "I kinda don't like this color"
