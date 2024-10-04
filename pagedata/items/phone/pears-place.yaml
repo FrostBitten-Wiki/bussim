@@ -91,7 +91,7 @@ content: |-
   |![120x120](/bussim-assets/images/items/sandwich.webp)|[Sandwich](sandwich)|<clr:#FFE669>(10 Coins) | A simple sandwich to snack on. | [Picnic](picnic) |
   |![120x120](/bussim-assets/images/items/toast.webp)|[Toast](toast)|<clr:#FFE669>(10 Coins) | Cooked bread. | [Goat Station](goat-station) |
   |![120x120](/bussim-assets/images/items/liquid-void.webp)|[Liquid Void](liquid-void)|<clr:#FFE669>(1750 Coins) | Indecipherable liquid substance. Makes you invisible when consumed in moderation. | [Backwalls](backwalls) |
-  |![120x120](/bussim-assets/images/items/almond-water.webp)|[Almond Water](almond0water)|<clr:#FFE669>(500 Coins) | Refreshing and rejuvenating water-like liquid. Heals injuries almost immediately. | [Backwalls](backwalls) |
+  |![120x120](/bussim-assets/images/items/almond-water.webp)|[Almond Water](almond-water)|<clr:#FFE669>(500 Coins) | Refreshing and rejuvenating water-like liquid. Heals injuries almost immediately. | [Backwalls](backwalls) |
   |![120x120](/bussim-assets/images/items/void-burger.webp)|[Void Burger](void-burger)|<clr:#FFE669>(650 Coins) | Burger with a void-based patty. Makes you invisible when consumed in moderation. | [Backwalls](backwalls) |
   ##[Trivia]
   - The items that can't be purchased but are part of the events are those that are only purchasable (and permanent) with <clr:#FFE669>(Coins) or originally [Passenger Reputation](reputation).
