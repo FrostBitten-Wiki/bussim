@@ -29,4 +29,4 @@ content: |
       - hg[Player]: "This feels similar to some other game."
   ##[Trivia]
   - The stop is the same stop in the [fake version](fake-events), although players can easily realize the difference by how there's now passengers.
-  !!GALLERY [/assets/bussim/images/events/passengers.webp]
+  !!GALLERY [/assets/bussim/images/events/passengers.webp|/assets/bussim/images/events/passengers2.webp]
