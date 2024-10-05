@@ -49,5 +49,6 @@ content: |
   - Pairable Item (Items that can be paired with others)
   - Broken Item (Used or was planned to have "a" function)
   - Soda (Contributes to the Soda quest)
+  - Flight Tool (Allows the user to fly or hover with this item)
 
   !!GALLERY [/assets/bussim/images/items/ice-cream.webp]

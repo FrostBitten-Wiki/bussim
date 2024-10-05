@@ -10,7 +10,7 @@ page:
   header:
     description: |
       Category: [Items](items)\n
-      Tags: h[Obtainable Item, Permanent]
+      Tags: h[Obtainable Item, Permanent, Flight Tool]
     
     image: ""
     imageBanner: /assets/bussim/images/items/helicopter.webp
