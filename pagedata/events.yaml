@@ -26,8 +26,9 @@ page:
 
       While most of the events shown in this category are displayed officially from within the game,
       some are perhaps too subtle or completely invisible for it to be properly photographed,
-      so now some of the events will have h[community-made icons] to help
-      represent it properly!
+      as a result, various events will instead use icons from RIDER or by the community themselves!
+      \n 
+      (Credits goes to @noobbiom for the RIDER icons and @orfriday36 for the other event icons)
 
       <br><br>
 
@@ -57,7 +58,7 @@ content: |-
   !!LISTITEM IMAGE:"/bussim-assets/images/events/cubes.webp" TITLE:"Cubes" DESCRIPTION:"During the event, cubes move all around the bus, playing the h[Nintendo Gamecube Intro] sound. After some time, the driver announces they've convinced the cubes to go back to Nintendo Land. A few moments after that, the event ends." REDIRECT:"cubes"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/ea-sellout.webp" TITLE:"EA Sellout" DESCRIPTION:"The EA Sellout or its more technical name, Bought Out is an event where everyone will be forcibly teleported back to the first floor of the Bus after having been bought out by Economic Arcs, a parody of Electronic Arts." REDIRECT:"ea-sellout"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/exploiter.webp" TITLE:"Exploiter" DESCRIPTION:"The Exploiter event is an event where an exploiter (which is not a real exploiter) deletes the road and the terrain. Shortly after some comedic stabs at the creator of the game, the terrain and road restore themselves back to normal, and everything returns back to normal." REDIRECT:"exploiter"
-  !!LISTITEM IMAGE:"/bussim-assets/images/events/fake-events.webp" TITLE:"Fake Events" DESCRIPTION:"The Fake No Gas event is an event where the bus stops, and the driver acts like they're out of gas. Shortly afterwards, pranking the passengers once again, acting as a sequel to the Fake Bus Stop event." REDIRECT:"fake-events"
+  !!LISTITEM IMAGE:"/bussim-assets/images/events/fake-events.webp" TITLE:"Fake Events" DESCRIPTION:"The Fake Events are a collage of two events: Fake Gas and Fake Stop, both of which serve the same purpose, to prank passengers so that they will be left behind." REDIRECT:"fake-events"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/flash-flood.webp" TITLE:"Flash Flood" DESCRIPTION:"The Flash Flood or just simply called Flood, is an event where the bus becomes flooded slowly until it reaches the third floor. Players will have to swim by holding Q and seek high ground before they drown, those that are in seats will also be automatically dismounted once the water hits them unless they hold Q as mentioned earlier. Eventually, the water will dissipate and the event ends right after." REDIRECT:"flash-flood"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/gandalf.webp" TITLE:"Gandalf" DESCRIPTION:"The Gandalf event is a reference to h[The Lord of the Rings], where Gandalf stops the bus while yelling "YOU SHALL NOT PASS!"" REDIRECT:"gandalf"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/glacier-cave.webp" TITLE:"Glacier Cave" DESCRIPTION:"Glacier Cave is a rare event in Bus Simulator where the Bus stops next to a cave, players are able to enter through the cave through any means of traversal until they are teleported to the interior of the cave. The event ends shortly afterwards." REDIRECT:"glacier-cave"
@@ -85,7 +86,7 @@ content: |-
   !!LISTITEM IMAGE:"/bussim-assets/images/events/soda-stand.webp" TITLE:"Soda Stand" DESCRIPTION:"Soda Stand is an event where the bus will stop next to a random soda stand. The driver says that someone is handing out free soda. Players can click on MiroCev and can receive get a h[Lemon Soda]." REDIRECT:"soda-stand"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/space.webp" TITLE:"Space" DESCRIPTION:"The Space Event is an event in Bus Simulator,where the map is instantly changed to be in space. During this event, all players' gravity will be drastically reduced, with gravity-related items like the h[Gas Station Gravity Coil] being able to make players shoot up into outer space." REDIRECT:"space"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/steven-rides.webp" TITLE:"Steven Ride" DESCRIPTION:"Steven Ride event or known as Steven_Scripts (Event), is an event that is almost identical to the h[Passengers] event in Bus Simulator." REDIRECT:"steven-ride"
-  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/teddy.webp" TITLE:"Teddy" DESCRIPTION:"This event has two unique endings leading to two different descriptions. Click here for more information." REDIRECT:"teddy-micspam"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/teddy.webp" TITLE:"Teddy" DESCRIPTION:"This event has two unique endings leading to two different descriptions, with a common theme being a rabbit (loudly) singing in front of The Bus. Click here for more information." REDIRECT:"teddy-micspam"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/time-travel.webp" TITLE:"Time Travel" DESCRIPTION:"The Time Travel event is an event in Bus Simulator, where the bus momentarily stops only to speed up to time travel 50 years into the future, ending up in Bus Stop Simulator.. or at least.. what remains of it." REDIRECT:"time-travel"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/timmy.webp" TITLE:"Timmy" DESCRIPTION:"The Timmy Event is a short yet simple event in Bus Simulator. When this event happens, the Bus will move backwards rather than forwards, as well as the gravity being significantly reduced." REDIRECT:"timmy"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/traffic-light.webp" TITLE:"Traffic Light" DESCRIPTION:"The Traffic Light event is a rather simple and straight-forward, when this event is rolled, the bus will stop and waits until the traffic light turns back to green because they are a good driver... unless..." REDIRECT:"traffic-light"
