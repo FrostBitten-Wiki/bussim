@@ -10,7 +10,7 @@ page:
   header:
     description: |
       Category: [Items](items)\n
-      Tags: h[Admin-Only Item, Temporary, Special Consumable]
+      Tags: h[Admin-Only Item, Temporary, Special Consumable, Flight Tool]
     
     image: ""
     imageBanner: /assets/bussim/images/items/avian-potion.webp
