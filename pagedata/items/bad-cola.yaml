@@ -10,7 +10,7 @@ page:
   header:
     description: |
       Category: [Items](items)\n
-      Tags: h[Obtainable Item, Temporary, Instant Kill Item]
+      Tags: h[Obtainable Item, Temporary, Instant Kill Item, Soda]
     
     image: ""
     imageBanner: /assets/bussim/images/items/bad-cola.webp
