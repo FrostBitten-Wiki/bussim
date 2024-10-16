@@ -51,6 +51,7 @@ content: |-
    - h[If no colors win...]
      - hg[Variant 1 : Player]: "Eh, actually, I don't care anymore."
      - hg[Variant 2 : Player]: "Y'know what? It's fine the way it is..."
+     - hg[Variant 3 : Player]: "Oh. Nobody voted."
   ###[Extra Dialogue]
     - h[If the event happens while paint is still on...]
       - hg[Player]: "I kinda don't like this color"
