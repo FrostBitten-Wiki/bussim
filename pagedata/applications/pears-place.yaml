@@ -1,9 +1,7 @@
 editable: true
 page:
   title: Pear's Place
-  description: Pear's Place is an App in Bus Simulator that allows you to gain Coins
-    as a form of currency and allows you to spend them on items you've already seen
-    before.
+  description: Pear's Place is a free external application developed by Pear Paw in Bus Simulator. The app allows you to gain Coins as a form of currency and has an array of various hosts and quests to choose from. It also features a totally-not shady shop, allowing you to purchase items that you have experienced within events previously... with a fee, of course.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
@@ -21,11 +19,10 @@ attributions:
 
 content: |-
   !!INFOBOX TITLE:"Early Access Content" COLOR:"#23358C" TEXT:"*"The night's still young!"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update easier. Most of the info shown are with the discretion that it can and will change.)"
-  "meow" -"Pear's Place"
-  !!BUTTONS [Phone Overview,location.href='phone-overhauled'|<highlight>Pear's Place</highlight>,location.href=''|STAR Applications,location.href='']
+  "Do you feel lost? Directionless? Like your life is going nowhere?\nMaybe you should try doing some quests!" -"Pear's Place"
   ##[Info]
-  Pear's Place is an App in Bus Simulator that allows you to gain <clr:#FFE669>(Coins) as a form of currency and allows you to spend them on items you've already seen before.
-  \n\n
+  Pear's Place is a free external application developed by Pear Paw in Bus Simulator. The app allows you to gain Coins as a form of currency, and has an array of various hosts and quests to choose from.
+  \nIt also features a totally-not shady shop, allowing you to purchase items that you have experienced within events previously... with a fee, of course.
   ##[Hosts]
   Hosts allows you to change the person being shown in the Quests section, assuming you buy / unlock them. It also changes the theme to be associated with each of them. 
   \n\n 
