@@ -21,13 +21,12 @@ attributions:
 content: |
   !!INFOBOX TITLE:"Early Access Content" COLOR:"#23358C" TEXT:"*\"The night's still young!\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update easier. Most of the info shown are with the discretion that it can and will change.)"
   "Runs something or other!" -"Phone"
-  !!BUTTONS [<highlight>Phone Overview</highlight>,location.href=''|Pear's Place,location.href='pears-place'|STAR Applications,location.href='']
   ##[Info]
   The Phone is the first tool added in Bus Simulator and similarly is the first tool you spawn off with, recieving a full overhaul throughout the end of August 2024. It serves a multitude of functions, from being a flashlight to communicating with others privately; all with customizations to your desire.
   \n\n
   When held for the first time within a session, an arrow will pop up next to your phone, which appears next to the power button. Hold-pressing it will then boot up Nulltech, allowing you access to your phone.
   \n\n 
-  The Phone is usually kept during some events like [Backwalls](backwalls) or [No Dough](no-dough). Particles and chat bubbles will not appear through the phone due to it being glass. 
+  The Phone is also the only item that is kept throughout all of the events within Bus Simulator, allowing you access to it anywhere you go. It can also crack, if you get hit by a moving vehicle while holding it, which can only be repaired by accessing [Pear's Place](pears-place).
   \n\n
   The general features that the phone provides are basically akin of that of normal phones. The top-left displays the time, synchronized with your real-life time and can be configured to display either in seconds or in a 24-hour format within your Settings. Swiping down from the upper edge shows you your notifications and quick-access buttons.
   \n\n 
