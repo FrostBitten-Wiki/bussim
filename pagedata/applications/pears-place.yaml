@@ -18,7 +18,7 @@ attributions:
   - made by fang
 
 content: |-
-  !!INFOBOX TITLE:"Early Access Content" COLOR:"#23358C" TEXT:"*"The night's still young!"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update easier. Most of the info shown are with the discretion that it can and will change.)"
+  !!INFOBOX TITLE:"Early Access Content / Beta Content" COLOR:"#23358C" TEXT:"*\"Careful now...\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update easier. Most of the info shown are with the discretion that it can and will change.)"
   "Do you feel lost? Directionless? Like your life is going nowhere?\nMaybe you should try doing some quests!" -"Pear's Place"
   ##[Info]
   Pear's Place is a free external application developed by Pear Paw in Bus Simulator. The app allows you to gain Coins as a form of currency, and has an array of various hosts and quests to choose from.
@@ -104,7 +104,7 @@ content: |-
   ###[__Miscellaneous__]
   | Image | Item | Cost | Description |
   |-------|------|------|-------------|
-  |![120x120](/bussim-assets/images/items/phone/pears-place/screen-repair.webp)|Screen Repair| <clr:#FFE669>(115 Coins) | Fix a cracked display. |
+  |![120x120](/bussim-assets/images/items/phone/screen-repair.webp)|Screen Repair| <clr:#FFE669>(115 Coins) | Fix a cracked display. |
   ##[Trivia]
   - The items that can't be purchased but are part of the events are those that are only purchasable (and permanent) with <clr:#FFE669>(Coins) or originally [Passenger Reputation](reputation).
     - Examples such as [Compass](compass), [Gas Station Coil](gas-station-coil), [Gas Station Ice Cream](gas-station-ice-cream) and [Flying Skillbook](flying-skillbook) all can be purchased with <clr:#FFE669>(Coins) but aren't on the Shop.
