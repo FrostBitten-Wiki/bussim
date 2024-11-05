@@ -19,11 +19,89 @@ attributions:
 
 content: |-
   !!INFOBOX TITLE:"Early Access Content / Beta Content" COLOR:"#23358C" TEXT:"*\"Careful now...\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update easier. Most of the info shown are with the discretion that it can and will change.)"
-  !!INFOBOX TITLE:"Work In Progress / Placeholder Content" COLOR:"#C4FF96" TEXT:"*\"Oh dear, is that a bomb? Oh gosh i hope you dont explode in 3 seconds, that would be quite unfortunate.\"* - Charlotte\nv(This page is under construction and is only here so that it won't lead to an error!! I promise I'll work on it!!!! - Fang)"
-  "Do you feel lost? Directionless? Like your life is going nowhere?\nMaybe you should try doing some quests!" -"Pear's Place"
+  "Keep track of your bus-related affairs with Rider!\nPersonal achivements, ride statistics, anything you've ever seen and experienced, all in one place.\nIf you're riding in a compatible vehicle, you can also request songs on the radio, right from your device.\n\nMay you reach your destination soon, friend." -"Rider"
   ##[Info]
-  Rider is a free external application that tracks various things throughout your entire bus journey, from events, currently playing radio songs, badges, items, to even some of the most bizzare things you didn't anticipate would be on here.
-  \n 
-
+  Rider is a free external application that tracks various things throughout your entire bus journey, from events, currently playing radio songs, badges, items, and various stats within the game.
+  \n\n
+  The app is composed of 4 main sections, En Route, Badges, Statistics, and Almanac.
+  ##[En Route]
+  En Route is the home of Rider, composed of what song is currently being placed on the [Bus Radio](bus-radio), the time elapsed since you started boarding the bus (your current session time), and patch notes.
+  \n\n 
+  You can also remotely request for songs without needing to physically go to the Radio, assuming you either have enough Robux or songs to fill in. Furthermore, it also shows your estimated arrival (N/A), where you are headed (Stevensville, MT), and the vehicle system software.
+  ##[Badges]
+  The Badges is your main collection of badges, all visible in-game. It shows you your most recently unlocked badges, and other locked badges that are normally obtainable alongside a timestamp of when you unlocked them. 
+  \n\n 
+  Interacting with any of the badges allows you to check their full description as well as an interactable model of said badge. 
+  \n\n 
+  For any badges that are no longer obtainable such as limited time badges, or badges that requires Robux, they will be considered hidden. They won't count towards 100% and are only visible if you had unlocked them previously. Same goes for Addicted and No Sleep, being badges that require extraordinary session times to obtain.
+  ##[Statistics]
+  The one of the main courses of Rider. It showcases the majority of things you have experienced or done throughout your journey, and includes some obscure statistics. The stats are of the following: 
+  | Stat | Description |
+  |------|-------------|
+  | Friends made here | The amount of friends you have made within this game. |
+  | Chat messages sent | Chat messages you have sent within this game, self-explanatory. |
+  | Events experienced | Amount of events you have endured throughout your journey. |
+  | Longest session | Longest amount of time you have played within a single session. This statistic is universal for both Main and Beta. |
+  | Friends invited | Friends you have invited to this game. |
+  | Been invited | Likewise, times you were invited to this game. |
+  | Thanked the driver | The amount of times you've thanked someone within the driver's seat. Here's some [key phrases](reputation) in thanking one. |
+  | Been thanked | Likewise, times you were the one being thanked. |
+  | Sessions on Desktop |A mount of times you played on Desktop devices. |
+  | Sessions on Mobile | Amount of times you played on a phone. |
+  | Sessions in VR | Amount of times you played using a VR Headset. |
+  | Overall playtime | Your total playtime throughout your journey. Doesn't sync between Main and Beta. |
+  | Time sitting done | Total time spent sitting at a chair. |
+  | Time in driver's seat | Total time spent sitting in the driver's seat. |
+  | Shouts heard | Amount of shout messages you have recieved throughout your journey. |
+  | Messages sent | Messages sent through the Messages app. |
+  | Messages read | Messages you have read through the Messages app. |
+  | Notifications recieved | How many notifications you have recieved in total. |
+  | Screen time | You. (How much time you've spent holding your phone.) |
+  | Coins earned | Total amount of coins you have earned throughout your journey. |
+  | Coins spent| Total amount of coins you have spent.|
+  | Driver rep earned | How much driver reputation you have earned. |
+  | Passenger rep earned | Likewise, but with passenger reputation. |
+  | Robux spent | How much Robux you have spent within this game. |
+  | Requested songs | How many songs you have used within the Bus Radio. |
+  | Forced random events | How many times you forced a random or specific event. |
+  | Death count | How many times you have died. Don't ask how and where they get them from. |
+  | Dangerous events survived | Amount of dangerous events you have suffered throughout your journey. |
+  | Successful Backwalls excursions | Amount of times in which you managed to escape the [Backwalls](backwalls) successfully. |
+  | Successful money heists | Amount of times you have successfully completed [No Dough](no-dough). |
+  | Times jumped into ballpits | Amount of times you have jumped into a ballpit within the Backwalls. |
+  | Car accidents | Amount of times you were accidentally (or not) in front of a moving vehicle. |
+  | Road impacts | Amount of times you have bounced off of the road while The Bus is moving. |
+  | Tunnel bonks | Amount of times you slammed your body into the tunnel entrance. |
+  | Drinks made | Amount of drinks you have made. Doesn't include eldritch abominations. |
+  | Horrors created | Said eldritch abominations. (Amount of times you have made The Sludge.) |
+  | Drinks served to NPCs | The amount of times you gave drinks to NPCs. Includes horrors created too! |
+  | Favorite drinks served | Amount of times you gave an NPC their favorite drink. |
+  | Horrors unleashed onto NPCs | Drinks served to NPCs but specifically for The Sludge. Joyous! |
+  | Sips taken | Amount of times you have used a drink consumable. |
+  | Bites taken | Amount of times you have used a food consumable. |
+  | Defenestrations | Times you have been thrown off a window by someone. |
+  | Conversations struck | Times you have made conversation with an NPC. |
+  | Things inspected | Amount of times you've interacted with an object, often props that are player-monologues when interacted with. |
+  | Decisions made during dialog | Amount of decisions you have made. |
+  | Link cable matches | Amount of matches you have played with a [Gameboy Advance](games)
+  | Played Tic Tac Toe | Times you have played Tic Tac Toe with someone. |
+  | Played Connect Four | Times you have played Connect Four with someone. |
+  | Played Battle Wagons | Times you have played Battle Wagons with someone. | 
+  | Played Rock Gun Knife | Times you have played Rock Gun Knife with someone. |
+  | Rap battled | Amount of times you have rap battle or played Friday Night with someone / an NPC. |
+  | Won / Tied / Lost Tic Tac Toe | Self-explanatory. |
+  | Won / Lost Connnect Four | Self-explanatory. |
+  | Tied Connect Four | A rare one! But also self-explanatory. |
+  | Won / Lost Battle Wagons | Self-explanatory. |
+  | Won / Lost Rock Gun Knife | Self-explanatory. |
+  | Won / Lost a rap battle | Whether you have the most / least score within a song. |
+  | Messages translated | Times you have translated a message using Roblox's experimental feature. Right-click any message in attempt to translate it to your language. |
+  ##[Almanac]
+  The Almanac is a journal log of all of the events, bioems, and items you have experienced throughout your journey. All three of which has a bar that shows how many you have seen and ones you have not seen. 
+  \n\n 
+  Likewise, any items or events that aren't normally attainable are considered hidden, and won't count towards the total collection. Robux-payed items also are considered hidden. 
   ##[Trivia]
-  - boo
+  - The icons for each of the events are made by FangedWerewolf (@noobbiom), same person who made the [Birch Forest](birch-forest).
+    - As for why, Noble liked the idea of each event being drawn instead of being a screenshot of each event. 
+  - In the Statistics section, a render of your avatar can be seen behind the stats.
+  - Unlike the [Bus Radio](bus-radio), the radio UI within the En Route finishes with the text before it restarts, which often leads to some songs with very long names to now be fully seen.
