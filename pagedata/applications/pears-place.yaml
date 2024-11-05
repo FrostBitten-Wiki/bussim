@@ -13,7 +13,8 @@ page:
 
   header:
     description: |
-      Category: h[Applications]
+      Category: [Applications](applications)\n  
+      Tags: h[Economy // Personal]
 
     image: ''
     imageBanner: /assets/bussim/images/items/phone/pears-place.webp
