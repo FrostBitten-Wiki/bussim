@@ -104,7 +104,7 @@ content: |-
   ###[__Miscellaneous__]
   | Image | Item | Cost | Description |
   |-------|------|------|-------------|
-  |![120x120](/bussim-assets/images/items/phone/screen-repair.webp)|Screen Repair| <clr:#FFE669>(115 Coins) | Fix a cracked display. |
+  |![autoxauto](/bussim-assets/images/items/phone/screen-repair.webp)|Screen Repair| <clr:#FFE669>(115 Coins) | Fix a cracked display. |
   ##[Trivia]
   - The items that can't be purchased but are part of the events are those that are only purchasable (and permanent) with <clr:#FFE669>(Coins) or originally [Passenger Reputation](reputation).
     - Examples such as [Compass](compass), [Gas Station Coil](gas-station-coil), [Gas Station Ice Cream](gas-station-ice-cream) and [Flying Skillbook](flying-skillbook) all can be purchased with <clr:#FFE669>(Coins) but aren't on the Shop.
