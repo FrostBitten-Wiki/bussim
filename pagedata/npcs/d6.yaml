@@ -59,14 +59,13 @@ content: |-
                   - "give me the controller"
                       - hg[No thanks.]
           - Variant 2 (if the player has previously selected this option within the last 12 hours):
-              - Variant 2A (default):
                   - "you've had enough wisdom for today. come back tomorrow"
                       - hg[Ok.]
-              - Variant 2B (if the player has selected this option on a different account under the same device):
+              - Variant 2B (if the player has selected this option on a different account under the same device): (Archived)
                   - "hey..." "you're not trying to use a different account to cheat the system are you" "for shame" "i'll still give you the wisdom though"
-                      - (The dialogue then proceeds to a random variant outside of Variant 2)
-              - Variant 2C (If the player has selected this option on yet another account under the same device, following Variant 2B):
-                  - "hey there again" "you have multiple alts then huh" "that's cool i guess"
+                      - (The dialogue then proceeds to a random variant outside of Variant 2) 
+              - Variant 2C (If the player has selected this option on yet another account under the same device, following Variant 2B): (Archived)
+                  - "hey there again" "you have multiple alts then huh" "that's cool i guess" 
                       - (The dialogue then proceeds to a random variant outside of Variant 2)
           - hg[Variant 3]:
               - "live to die"
