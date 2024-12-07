@@ -18,6 +18,7 @@ page:
 attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Nyx (@nyxical)
+  - 
 
 content: |
   ##[Info]
@@ -65,5 +66,9 @@ content: |
   - If the airhorn is used repeatedly in proximity to Green for a second time
     - We've already been over this before. You asked for it.
       - (The player then explodes.)
+
+  ##[Trivia]
+  - 'd6 is really cool'
+    - It was a request done by D6 themselves. It simply exists here from a now archived line from [D6](d6)'s page.
 
   !!GALLERY [/assets/bussim/images/npcs/green.webp]  
