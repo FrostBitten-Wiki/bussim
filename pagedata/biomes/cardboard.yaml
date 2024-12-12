@@ -1,0 +1,27 @@
+editable: True
+page:
+  title: Cardboard
+  description: Cardboard is a biome submitted by Red (thereddice). The floor is made out of lime cardboard, and all the props are made of cardboard and are just stand-up props.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+
+  header:
+    title: Cardboard
+    description: |
+      Category: [Biomes](biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/cardboard.webp
+
+attributions: 
+  - Converted to Jinki Markdown by Nyx (@nyxical)
+
+content: |
+  !!INFOBOX TITLE:"Early Access Content / Beta Content" COLOR:"#23358C" TEXT:"*\"Careful now...\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update easier. Most of the info shown are with the discretion that it can and will change.)"
+  " -"Rider (Almanac)"
+  ##[Info]
+  Cardboard is a biome submitted by Red (thereddice). The floor is made out of lime cardboard, and all the props are made of cardboard and are just stand-up props.
+  
+  !!GALLERY [/assets/bussim/images/biomes/cardboard.webp]

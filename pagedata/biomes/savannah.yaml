@@ -1,0 +1,27 @@
+editable: True
+page:
+  title: Savannah
+  description: Savannah is a biome submitted by Red (thereddice). It is composed of pale yellow grass, with small ponds, rocks, grass, bushes, and acacia trees.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+
+  header:
+    title: Savannah
+    description: |
+      Category: [Biomes](biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/savannah.webp
+
+attributions: 
+  - Converted to Jinki Markdown by Nyx (@nyxical)
+
+content: |
+  !!INFOBOX TITLE:"Early Access Content / Beta Content" COLOR:"#23358C" TEXT:"*\"Careful now...\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update easier. Most of the info shown are with the discretion that it can and will change.)"
+  "" -"Rider (Almanac)"
+  ##[Info]
+  Savannah is a biome submitted by Red (thereddice). It is composed of pale yellow grass, with small ponds, rocks, grass, bushes, and acacia trees.
+  
+  !!GALLERY [/assets/bussim/images/biomes/savannah.webp]

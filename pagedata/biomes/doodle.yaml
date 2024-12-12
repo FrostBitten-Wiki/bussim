@@ -20,6 +20,7 @@ attributions:
   - Converted to Jinki Markdown by Nyx (@nyxical)
 
 content: |
+  "A sketchy place where *everything* is hand drawn, not even celestial bodies were exempt from this treatment!" -"Rider (Almanac)"
   ##[Info]
   Doodle is one of the new biomes added to Bus Simulator. It features a notebook-paper-like floor as well as animated doodles depicting flowers, grass, bushes, and trees.
   \n\n
@@ -28,5 +29,6 @@ content: |
   ##[Trivia]
   - During testing in the Beta version, the flower and grass sprites would often get swapped involuntarily and was depicted differently across different clients, causing some clients to see them normally, while others abnormally.
   - Some of the doodles do have collision being the bushes and trees, albeit is very simplified.
+  - Noble had commissioned an artist to draw the assets needed for the biome.
 
   !!GALLERY [/assets/bussim/images/biomes/galleries/Doodle.webp|/assets/bussim/images/biomes/doodle.webp]

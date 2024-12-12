@@ -1,0 +1,31 @@
+editable: True
+page:
+  title: Aquatic
+  description:  Aquatic is a biome submitted by Zeon (@z_30n). It is composed of a sand floor, paired with different colored corals spawning around the biome. The atmosphere is also changed to represent being underwater.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+
+  header:
+    title: Aquatic
+    description: |
+      Category: [Biomes](biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/aquatic.webp
+
+attributions: 
+  - Converted to Jinki Markdown by Nyx (@nyxical)
+
+content: |
+  !!INFOBOX TITLE:"Early Access Content / Beta Content" COLOR:"#23358C" TEXT:"*\"Careful now...\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update easier. Most of the info shown are with the discretion that it can and will change.)"
+  "A biome taking place underwater, filled with coral. Strange that no fish or aquatic mammals are here..." -"Rider (Almanac)"
+  ##[Info]
+  Aquatic is a biome submitted by Zeon (@z_30n). It is composed of a sand floor, paired with different colored corals spawning around the biome. The atmosphere is also changed to represent being underwater.
+  \n\n
+  Fortunately, you can't drown in the Aquatic biome by default.
+  ##[Trivia]
+  - It is completely possible for [Flash Flood](flash-flood) to still happen even in the Aquatic biome, which may or may not break the immersiveness of the biome.
+
+  !!GALLERY [/assets/bussim/images/biomes/aquatic.webp]

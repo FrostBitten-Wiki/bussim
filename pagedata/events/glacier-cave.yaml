@@ -63,6 +63,7 @@ content: |
   - Despite the area meant to be somewhere underground, using BTools or such; it is actually extremely high above the ground. 
     - This is because underneath the bus is an endless pool of water and the void, putting the cave in there will simply make it extremely hard to traverse.
     - Both the GPS and this will be explained within the Technical Trivia. 
+  - The recipe for the Ice-Cream Eggnog, while unintended to be replicated in real life by Noble, not only works, being done by a community member; but has been tested to work as a good recipe for ice cream.
   ##[Technical Trivia]
   - Similar to other locations like the [Void Box](void-box), this area in specific is located 8000 studs away from The Bus in all axis, this puts it beyond the height where other events have no effect and likewise have the GPS display a NO SIGNAL.
   - Glacier Cave unlike the many other locations, de-loads after around 2000 studs away from its center point, which also causes the entire model itself to vanish off of Explorer when using [Edit](edit).

@@ -1,0 +1,27 @@
+editable: True
+page:
+  title: Runic
+  description: Runic is a biome submitted by 9n (@9n25). It is composed of a pale blue floor with strange runics from scissors to massive helixes. The atmosphere in particular carries a special pink fog.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+
+  header:
+    title: Runic
+    description: |
+      Category: [Biomes](biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/runic.webp
+
+attributions: 
+  - Converted to Jinki Markdown by Nyx (@nyxical)
+
+content: |
+  !!INFOBOX TITLE:"Early Access Content / Beta Content" COLOR:"#23358C" TEXT:"*\"Careful now...\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update easier. Most of the info shown are with the discretion that it can and will change.)"
+  "A pink and blue wasteland littered with ancient runes; you don't know what they mean, but they look cool nonetheless." -"Rider (Almanac)"
+  ##[Info]
+  Runic is a biome submitted by 9n (@9n25). It is composed of a pale blue floor with strange runics from scissors to massive helixes. The atmosphere in particular carries a special pink fog.
+  
+  !!GALLERY [/assets/bussim/images/biomes/runic.webp]
