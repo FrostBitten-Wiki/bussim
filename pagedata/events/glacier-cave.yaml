@@ -1,10 +1,12 @@
-editable: True
+editable: true
 page:
   title: Glacier Cave
-  description: Glacier Cave is a rare event in Bus Simulator where the Bus stops next to a cave, players are able to enter through the cave through any means of traversal until they are teleported to the interior of the cave.
-    
+  description: Glacier Cave is a rare event in Bus Simulator where the Bus stops next
+    to a cave, players are able to enter through the cave through any means of traversal
+    until they are teleported to the interior of the cave.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
+
   tags: some,tags,here,that is used by the search api
   ignore: ignore
 
@@ -14,12 +16,11 @@ page:
       Category: [Events](events)\n
       Event Name: h[GlacierCave]\n
       Event Runtime: h[Unknown]
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/locations/glacier-cave.webp
 
 attributions: []
-
 content: |
   ##[Info]
   Glacier Cave is a rare event in Bus Simulator where the Bus stops next to a cave, players are able to enter through the cave through any means of traversal until they are teleported to the interior of the cave. The event ends shortly afterwards. 
@@ -63,7 +64,7 @@ content: |
   - Despite the area meant to be somewhere underground, using BTools or such; it is actually extremely high above the ground. 
     - This is because underneath the bus is an endless pool of water and the void, putting the cave in there will simply make it extremely hard to traverse.
     - Both the GPS and this will be explained within the Technical Trivia. 
-  - The recipe for the Ice-Cream Eggnog, while unintended to be replicated in real life by Noble, not only works, being done by a community member; but has been tested to work as a good recipe for ice cream.
+  - The recipe for the Ice-Cream Eggnog, while unintended to be replicated in real life by Noble, not only works, being done by a community member (@spider.boi); but has been tested to work as a good recipe for ice cream.
   ##[Technical Trivia]
   - Similar to other locations like the [Void Box](void-box), this area in specific is located 8000 studs away from The Bus in all axis, this puts it beyond the height where other events have no effect and likewise have the GPS display a NO SIGNAL.
   - Glacier Cave unlike the many other locations, de-loads after around 2000 studs away from its center point, which also causes the entire model itself to vanish off of Explorer when using [Edit](edit).
