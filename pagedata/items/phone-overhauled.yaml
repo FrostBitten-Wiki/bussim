@@ -22,13 +22,11 @@ content: |
   !!INFOBOX TITLE:"Early Access Content / Beta Content" COLOR:"#23358C" TEXT:"*\"Careful now...\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update easier. Most of the info shown are with the discretion that it can and will change.)"
   "Runs something or other!" -"Phone"
   ##[Info]
-  The Phone is the first tool added in Bus Simulator and similarly is the first tool you spawn off with, recieving a full overhaul throughout the end of August 2024. It serves a multitude of functions, from being a flashlight to communicating with others privately; all with customizations to your desire.
+  The Phone, or more specifically; Lnro Corp's Vali A, is the first tool added in Bus Simulator and similarly is the first tool you spawn off with, recieving a full overhaul throughout the end of August 2024. It serves a multitude of functions, from being a flashlight to communicating with others privately; all with customizations to your desire.
   \n\n
-  When held for the first time within a session, an arrow will pop up next to your phone, which appears next to the power button. Hold-pressing it will then boot up Nulltech, allowing you access to your phone.
+  When held for the first time within a session, an arrow will pop up next to your phone, which appears next to the power button. Hold-pressing it will then boot up Nulltech, allowing you access to your phone. You can also press it again to put the phone to sleep, and hold it to shutdown.
   \n\n 
   The Phone is also the only item that is kept throughout all of the events within Bus Simulator, allowing you access to it anywhere you go. It can also crack, if you get hit by a moving vehicle, which can only be repaired by accessing [Pear's Place](pears-place).
-  \n\n 
-  Likewise with all electronic devices, the phone can drain its battery over time if it's outside of [The Bus](the-bus) or [Frost's Den](glacier-cave) and will drain heavily in areas with no cell service such as the [Backwalls](backwalls), and [The Void](void-box). The phone can only charge while you stay inside of [The Bus](the-bus).
   \n\n
   The general features that the phone provides are basically akin of that of normal phones. The top-left displays the time, synchronized with your real-life time and can be configured to display either in seconds or in a 24-hour format within your Settings. Swiping down from the upper edge shows you your notifications and quick-access buttons.
   \n\n 
@@ -37,14 +35,28 @@ content: |
   The quick-access actions, going from left to right are of the following:
   | Actions | Description |
   |---------|-------------|
-  |Flashlight|Allows you to turn the phone into a flashlight. It's synchronized with either your cursor or your finger when pointed outside of the screen.|
-  |Airplane Mode|Enables Airplane Mode, disabling all cell reception on your phone. It also disables purchasing items within the shop, messaging, and downloading any apps.|
+  |Flashlight|Allows you to turn the phone into a flashlight. It's synchronized with either your cursor or your finger when pointed outside of the screen. Does increase battery drainage.|
+  |Airplane Mode|Enables Airplane Mode, disabling all cell reception on your phone. It also disables purchasing items within the shop, messaging, and downloading any apps. It also massively reduces your battery drainage by preventing the phone from trying to reach any cell towers.|
   |Do Not Disturb|Disables you from recieving any messages, calls, or notifications. Currently is non-functional.|
-  |Battery Saver|Darkens your screen, reducing your power consumption.|
+  |Battery Saver|Darkensim your screen, reducing your power consumption.|
   |Volume Adjustment|Adjusts the volume of your system, notifications, and media.|
   You'll also be able to back out within an app by swiping to your left from the right edge, or back out into your homescreen by swiping up from the bottom edge within any app. You can also drag your phone to anywhere else within your screen by toggling on Drag Mode.
   \n\n 
-  You also will start off with a few apps by default, being a Dialer, Messages, Settings, and STAR.
+  You also will start off with a few apps by default, being a Dialer, Messages, Settings, Get Help, and STAR.
+  ##[Battery System]
+  "Your NULLTECH device comes with an all-day battery^(1), but that's only under the best of conditions.\nIn reality, various things can put your battery under load, draining it faster.\nTo ensure a long-lasting battery, follow these tips:" -"NULLTECH"
+  Much like any electronic device, it needs electricity to run, and the phone is no exception. While it charges inside of [The Bus](the-bus) or areas with high static-electricity, allowing you to freely use it for as much as you want, there's various areas and factors that leads to your phone's battery draining. From most positive to negative, here are the factors contributing to your phone's battery.
+  | Actions | Battery Impact |
+  |---------|----------------|
+  | Staying at [The Bus](the-bus) or [Frost's Den](glacier-cave) | <clr:#45ECFF>(Positive\nCharges your phone, taking more than around 3 minutes to charge from 0% to 100% based on other factors.) |
+  | Shutting off your phone | <clr:#45ECFF>(Positive\nMassively reduces battery drainage, only if it's necessary.) |
+  | Activating Airplane Mode | <clr:#45ECFF>(Positive\nMassively reduces battery drainage if under areas with no cell towers.) |
+  | Activating Battery Saver | <clr:#45ECFF>(Positive\nSignificantly reduces battery drainage in general.) |
+  | Putting the phone to sleep | <clr:#45ECFF>(Positive\nSignificantly reduces battery drainage.) |
+  | Going anywhere except [The Bus](the-bus) or [Frost's Den](glacier-cave) | <clr:#FFF945>(Negative\nStarts battery drainage.) |
+  | Activating Flashlight | <clr:#FFF945>(Negative\nMildly increases battery drainage.) |
+  | Staying at [The Backwalls](backwalls) or [The Void](void-box)\n...with Airplane Mode Off | <clr:#FFF945>(Negative\nMassively increases battery drainage. Your phone will try as *much* as it can to connect, creating extreme battery load without Airplane Mode on.) |
+  At full capacity, it takes around 80 minutes by default before the phone completely drains if it isn't in a chargable area. Use your phone with discretion.
   ##[Home]
   Much like any phone, you can customize your home screen by adding widgets or apps allowing easy access. Over the course of your usage, you'll be able to sort and create new pages for your homescreen. You can also swipe up slightly away from the bottom edge to view all of your apps, both within and not within your home screen.
   \n\n 
@@ -56,6 +68,8 @@ content: |
   - Operating System - Is based on your device's operating system's time, or most often than not- your real life time.
   - In-game Time - A system based within the game's own time for its day and night cycle. Moves at around 3 in-game minutes per real life second.
   - .beat - A decimal time system made to market a line of .beat watches. Divides the entire day into 1000 beats with each beat lasting 86.4 seconds in real time.
+  \n\n 
+  You can also view your phone, in which it will detail all of its device information, and just like in real phones, pressing the build number more than a few times gives you access to Developer Tools.
   ##[Messages]
   The Messages app allows you to privately and directly communicate with players within and outside the server. You'll also be able to respond to any inboxes, deny all incoming requests, and also block people. You can only view the history of it and are unable to send any messages while having no cell reception / signal.
   \n\n 
@@ -72,6 +86,8 @@ content: |
   More information is within its own individual page.
   ##[Dialer]
   The dialer allows you to call others within the server, following the same block list within your Messages and on Roblox. This requires you to have Voice Chat enabled, otherwise its inoperable.
+  ##[Get Help]
+  An application meant to be a tutorial for new players. Contains a variety of tutorials and sub-tutorials
 
   ##[Trivia]
   - The boot-up screen of Nulltech can tell if your data has been saved and loaded properly. If there are sparkles around Nulltech when booting up, then your data was both successfully saved and loaded.

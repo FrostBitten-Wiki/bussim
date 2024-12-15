@@ -62,5 +62,6 @@ content: |
   - If you create a drink under an abandoned recipe, it also adds in an extra description at the end of the recipe's description: "A long lost recipe."
     - If it was prepared by someone else, it'll also merge with the other extra description, turning it into "A long lost recipe, prepared by [Player]."
   - This item can be brought along within the [Backwalls](backwalls) interestingly enough. Not the [Cup Dispenser](cup-dispenser) though.
+    - Reasons as to why is to prevent any bugs or glitches that would happen had the Recipe Book been taken away.
 
   !!GALLERY [/assets/bussim/images/items/recipe-book.webp]
