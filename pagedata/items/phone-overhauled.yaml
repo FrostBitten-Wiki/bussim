@@ -27,6 +27,8 @@ content: |
   When held for the first time within a session, an arrow will pop up next to your phone, which appears next to the power button. Hold-pressing it will then boot up Nulltech, allowing you access to your phone.
   \n\n 
   The Phone is also the only item that is kept throughout all of the events within Bus Simulator, allowing you access to it anywhere you go. It can also crack, if you get hit by a moving vehicle, which can only be repaired by accessing [Pear's Place](pears-place).
+  \n\n 
+  Likewise with all electronic devices, the phone can drain its battery over time if it's outside of [The Bus](the-bus) or [Frost's Den](glacier-cave) and will drain heavily in areas with no cell service such as the [Backwalls](backwalls), and [The Void](void-box). The phone can only charge while you stay inside of [The Bus](the-bus).
   \n\n
   The general features that the phone provides are basically akin of that of normal phones. The top-left displays the time, synchronized with your real-life time and can be configured to display either in seconds or in a 24-hour format within your Settings. Swiping down from the upper edge shows you your notifications and quick-access buttons.
   \n\n 
@@ -38,7 +40,7 @@ content: |
   |Flashlight|Allows you to turn the phone into a flashlight. It's synchronized with either your cursor or your finger when pointed outside of the screen.|
   |Airplane Mode|Enables Airplane Mode, disabling all cell reception on your phone. It also disables purchasing items within the shop, messaging, and downloading any apps.|
   |Do Not Disturb|Disables you from recieving any messages, calls, or notifications. Currently is non-functional.|
-  |Battery Saver|Mainly an aesthetics function, darkens your screen.|
+  |Battery Saver|Darkens your screen, reducing your power consumption.|
   |Volume Adjustment|Adjusts the volume of your system, notifications, and media.|
   You'll also be able to back out within an app by swiping to your left from the right edge, or back out into your homescreen by swiping up from the bottom edge within any app. You can also drag your phone to anywhere else within your screen by toggling on Drag Mode.
   \n\n 
