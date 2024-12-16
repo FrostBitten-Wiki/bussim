@@ -19,13 +19,13 @@ attributions:
 content: |
   Vehicles are moving props that go alongside The Bus and may sometimes collide with each other, often making the game more lively. There are multiple types of vehicles and it goes as follows:
   - Normal Car - Goes at a random speed, from slow to fast.
-  - SUV - Goes at a normal speed, a bit different from your average car.
-  - Police Car - Naturally goes quite fast.
+  - SUV - Goes at a normal speed, a bit different from your average car. The model is based on a [Lexus LX 570](https://en.wikipedia.org/wiki/Lexus_LX#2015%E2%80%932021).
+  - Police Car - Naturally goes quite fast. The model is based on a [BMW M3 (E46)](https://en.wikipedia.org/wiki/BMW_M3#E46_generation_2000%E2%80%932006) police car.
   - Motorcycle - A bacon hair will ride a motorcycle in a fast speed, when collided with a vehicle it'll cause a deepened OOF sound.
   - Ice Cream Truck - A truck that goes moderately fast and stops when the bus stops, being able to hand out ice creams.
   - Truck - A slow moving truck that might cause some collateral damage on collision.
-  - Rally Car - A slow moving car that produces a subtle noise, also features a sleek exterior.
-  - Sports Car - A sleek car, and always drives real fast.
+  - Rally Car - A slow moving car that produces a subtle noise, also features a sleek exterior. The model is based on a [Peugeot 206 WRC](https://en.wikipedia.org/wiki/Peugeot_206_WRC).
+  - Sports Car - A sleek car, and always drives real fast. The model is based on a [W Motors Fenyr Supersport](https://en.wikipedia.org/wiki/W_Motors_Fenyr_SuperSport).
 
   If any of those eight vehicles collide either by speed and such, it'll cause an explosion and eventually the two collided vehicles despawn momentarily. 
   \n\n
