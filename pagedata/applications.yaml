@@ -26,9 +26,9 @@ page:
 attributions: []
 
 content: |
-  !!INFOBOX TITLE:"Free Applications" COLOR:"#eb4034" TEXT:"The following applications can be downloaded without an initial fee. Doesn't exempt them though from having in-app transactions."
+  !!INFOBOX TITLE:"Free Applications" COLOR:"#4DA6FF" TEXT:"The following applications can be downloaded without an initial fee. Doesn't exempt them though from having in-app transactions."
   !!LISTITEM IMAGE:"/bussim-assets/images/applications/pears-place.webp" TITLE:"Pear's Place!" DESCRIPTION:"hg[Pear Paw // Economy // Personal]\n\nPear's Place is a free external application that allows you to gain Coins as a form of currency and has an array of various hosts and quests to choose from.\n\nIt also features a totally-not shady shop, allowing you to purchase items that you have experienced within events previously... with a fee, of course." REDIRECT:"pears-place"
   !!LISTITEM IMAGE:"/bussim-assets/images/applications/rider.webp" TITLE:"Rider - For the wanderers" DESCRIPTION:"hg[enlightened // Utility // Personal // Transit]\n\nRider is a free external application that tracks various things throughout your entire bus journey, from events, currently playing radio songs, badges, items, to even some of the most bizzare things you didn't anticipate would be on here." REDIRECT:"rider"
 
-  !!INFOBOX TITLE:"Paid Applications" COLOR:"#6d6d6d" TEXT:"The following applications must be payed an intial fee prior to downloading it. Often these possess a larger, more unique function."
+  !!INFOBOX TITLE:"Paid Applications" COLOR:"#FFE669>" TEXT:"The following applications must be payed an intial fee prior to downloading it. Often these possess a larger, more unique function."
   !!LISTITEM IMAGE:"/bussim-assets/images/applications/caser.webp" TITLE:"Caser" DESCRIPTION:"hg[Lnro Corporation // Utility // Personal // Customization]\n<clr:#FFE669>(1000 Coins)\n\nThe Caser app is a paid external application within Bus Simulator that allows you to customize the casing of your phone, either by material, color, or adding a decal to it. Don't question how it works with the hyper-advanced nanotechnology. It's just how it is." REDIRECT:"caser"
