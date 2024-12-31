@@ -82,7 +82,7 @@ content: |
   The Maze is a very large room that is composed of walls with varying heights, twists, turns and offsets, potentially confusing players and steering them off track. It is best to carry a [Marker](marker) for this scenario.
   \n
   ###[Fake Exit]
-  The Fake Exits is a room similar of that to the actual exit, only that the top lights are White instead of gGeen, and the exit panel is Yellow instead of White. Entering this will teleport you to any spot similar to the Void Pits and the Void Walls.
+  The Fake Exits is a room similar of that to the actual exit, only that the top lights are White instead of Green, and the exit panel is Yellow instead of White. Entering this will teleport you to any spot similar to the Void Pits and the Void Walls.
   \n 
   ###[The Button]
   The Button is a rare room that spawns a simple button on a pedestal in the middle of the room with a sticky note attached saying "DO NOT PRESS". Pressing it will turn all of the lights red. Although, nothing seems to change apart from decreased Void Puddle visibility.
