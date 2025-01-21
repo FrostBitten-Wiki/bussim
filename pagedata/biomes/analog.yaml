@@ -1,0 +1,29 @@
+editable: True
+page:
+  title: Analog
+  description:  Analog is a biome submitted by Usef (@userzooooo). It is a biome meant to be a take of Nostalgic, but with a more somber twist.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: some,tags,here,that is used by the search api
+
+  header:
+    title: Analog
+    description: |
+      Category: [Biomes](biomes)
+    
+    image: ""
+    imageBanner: /assets/bussim/images/biomes/analog.webp
+
+attributions: 
+  - Converted to Jinki Markdown by Nyx (@nyxical)
+
+content: |
+  !!INFOBOX TITLE:"Early Access Content / Beta Content" COLOR:"#23358C" TEXT:"*\"Careful now...\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update easier. Most of the info shown are with the discretion that it can and will change.)"
+  "You feel nauseous..." -"Rider (Almanac)"
+  ##[Info]
+  Analog is a biome submitted by Usef (@userzooooo). It is a biome meant to be a take of Nostalgic, but with a more somber twist.
+  \n\n
+  The grass is darker, the trees are bent, the billboard image is changed to NO HOPE written on it, and the general ambience is sullen and depressing.
+  
+  !!GALLERY [/assets/bussim/images/biomes/analog.webp]
