@@ -38,14 +38,14 @@ content: |-
   | <clr:#85B1FF>(Noble) | <clr:#FFE669>(100 Coins) |
   | <clr:#BFFFFD>(Frostbite) | <clr:#BFFFFD>(Free; Need to be friends with Frostbite) |
   | <clr:#D6D374>(D6) | <clr:#FFE669>(6 Coins) |
-  | <clr:#7625b8>(Zeon) | <clr:#FFE669>(100 Coins) |
-  | <clr:#878FFF>(Disc) | <clr:#FFE669>(Free) |
+  | <clr:#7625b8>(Zeon) | <clr:#FFE669>(150 Coins) |
+  | <clr:#878FFF>(Disc) | <clr:#FFE669>(200) |
   | <clr:#FF9B4F>(MLG) | <clr:#FF9B4F>(Free; Need to give MLG Pumpkin Spice Mocha) |
-  | <clr:#FFFDEB>(Neo) | <clr:#FFE669>(Free) |
-  | <clr:#2C35B8>(Fang) | <clr:#FFE669>(100 Coins) |
+  | <clr:#FFFDEB>(Neo) | <clr:#FFE669>(TBA) |
+  | <clr:#2C35B8>(Fang) | <clr:#FFE669>(250 Coins) |
   | <clr:#4b4060>(User) | <clr:#4b4060>(Free; Player must have 175 Driver Reputation) |
-  | <clr:#7FB896>(9n25) | <clr:#FFE669>(Free) |
-  | <clr:#D36BFF>(Axel) | <clr:#FFE669>(Free) |
+  | <clr:#7FB896>(9n25) | <clr:#FFE669>(TBA) |
+  | <clr:#D36BFF>(Axel) | <clr:#FFE669>(440 Coins) |
   ##[Quests]
   "Another quest bites the dust!" -"Pear"
   The app features 4 daily quests, one of which is locked behind Premium, and gives you <clr:#FFE669>(Coins) if you complete them. Some of these range from simply sitting at your seat for a few minutes to appreciating a biome.
