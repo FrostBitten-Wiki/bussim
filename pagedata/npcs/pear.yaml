@@ -37,12 +37,12 @@ content: |-
   ##[Inviting Friends]
   One of the new features added within the 2/04/2023 Update, following the 20 Million Update. When you talk to Pear, 
   you can invite your friends to join you, and if you and your invited friend stays within the same server for an hour, 
-  you both get 10 Driver Rep & Passenger Rep, and you can invite up to 2 more friends granting 5 Driver Rep for each one, 
+  you both get 10 Driver Rep & Passenger Rep, as well as 500 coins for the invitee and 300 coins for the invited, and you can invite up to 2 more friends granting 5 Driver Rep & 300 Coins for each one, 
   but 10 Passenger Rep for each one too, everyday. You'll also get badges for either being the one invited, or inviting someone.
   \n\n
   You can also invite someone, and then be invited by the same person afterwards to get 2 out of 3 friends with only 1 friend.
   \n\n
-  At most, you can garner up to 20 Driver Rep & 30 Passenger Rep per day, assuming your friends really like to play Bus Simulator a lot.
+  At most, you can garner up to 20 Driver Rep & 30 Passenger Rep as well as 1100 Coins per day, assuming your friends really like to play Bus Simulator a lot.
   \n\n
   You can also initiate the rewarding system by being invited by a friend from your website or desktop application, should be in your notifications once your friend invites you to the game.
 
@@ -142,17 +142,24 @@ content: |-
                   - "Uhh, there is a third one, but my lawyers have advised me not to tell you."
               - hg[Variant 10]: "Psst, hey! Wanna learn the secret to free rep?"
                   - hg[Option 1]: Can you tell me more?
-                      - "Well, basically, when you hang out with your friends for like, an hour, you can both earn some driver and passenger rep..."
+                    - (Archived)
+                      - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn some driver and passenger rep..." 
                       - "You can get rewarded for up to three friends a day. You earn 10 driver rep for the first friend, and 5 driver rep for the other two. You get 10 passenger rep every time, though~"
                       - "The friends you invite get 10 driver and passenger rep as well. Neat, right?"
                       - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
                       - "MEOW! That's like, 200 reputations a week or something??"
-                      - "So... You interested?"
-                          - hg[Option 1]: I'm in!
-                              - "Pawsome~ Just tell me who to call!!"
-                                  - (An Invite Friends prompt appears.)
-                          - hg[Option 2]: Nah.
-                              - "Alright! If you ever change your mind, you know who to call."
+                    - (Current)
+                      - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn coins, plus some driver and passenger rep..." 
+                      - "You can get rewarded for up to three friends a day. You earn 10 driver rep with 500 coins for the first friend, and 5 driver rep with 300 coins for the other two. You get 10 passenger rep every time, though~"
+                      - "The friends you invite get 10 of each rep as well, plus 300 coins. Neat, right?"
+                      - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
+                      - "MEOW! That's like, 200 reputations a week or something?? 1000 coins in a day??!"
+                    - "So... You interested?"
+                     - hg[Option 1]: I'm in!
+                        - "Pawsome~ Just tell me who to call!!"
+                          - (An Invite Friends prompt appears.)
+                     - hg[Option 2]: Nah.
+                        - "Alright! If you ever change your mind, you know who to call."
                   - hg[Option 2]: Sounds good to me!
                       - "Pawsome~ Just tell me who to call!!"
                           - (An Invite Friends prompt appears.)
@@ -225,11 +232,18 @@ content: |-
           - hg[Option 1]: Let's send some! 
             - "Quite the social butterfly~ Sure, I can do that for you!"
           - hg[Option 2]: Tell me more. 
-            - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn some driver and passenger rep..."
-            - "You can get rewarded for up to three friends a day. You earn 10 driver rep for the first friend, and 5 driver rep for the other two. You get 10 passenger rep every time, though~"
-            - "The friends you invite get 10 driver and passenger rep as well. Neat, right?"
-            - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
-            - "MEOW! That's like, 200 reputations a week or something??"
+            - (Archived)
+              - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn some driver and passenger rep..." 
+              - "You can get rewarded for up to three friends a day. You earn 10 driver rep for the first friend, and 5 driver rep for the other two. You get 10 passenger rep every time, though~"
+              - "The friends you invite get 10 driver and passenger rep as well. Neat, right?"
+              - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
+              - "MEOW! That's like, 200 reputations a week or something??"
+            - (Current)
+              - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn coins, plus some driver and passenger rep..." 
+              - "You can get rewarded for up to three friends a day. You earn 10 driver rep with 500 coins for the first friend, and 5 driver rep with 300 coins for the other two. You get 10 passenger rep every time, though~"
+              - "The friends you invite get 10 of each rep as well, plus 300 coins. Neat, right?"
+              - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
+              - "MEOW! That's like, 200 reputations a week or something?? 1000 coins in a day??!"
             - "So... You interested?"
              - hg[Option 1]: I'm in!
                - "Pawsome~ Just tell me who to call!!"
@@ -417,17 +431,24 @@ content: |-
                   - "Uhh, there is a third one, but my lawyers have advised me not to tell you."
               - hg[Variant 10]: "Psst, hey! Wanna learn the secret to free rep?"
                   - hg[Option 1]: Can you tell me more?
-                      - "Well, basically, when you hang out with your friends for like, an hour, you can both earn some driver and passenger rep..."
-                      - "You can get rewarded for up to three friends a day. You earn 10 driver rep for the first friend, and 5 driver rep for the other two. You get 10 passenger rep every time, though~"
-                      - "The friends you invite get 10 driver and passenger rep as well. Neat, right?"
-                      - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
-                      - "MEOW! That's like, 200 reputations a week or something??"
-                      - "So... You interested?"
-                          - hg[Option 1]: I'm in!
-                              - "Pawsome~ Just tell me who to call!!"
-                                  - (An Invite Friends prompt appears.)
-                          - hg[Option 2]: Nah.
-                              - "Alright! If you ever change your mind, you know who to call."
+                     - (Archived)
+                       - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn some driver and passenger rep..." 
+                       - "You can get rewarded for up to three friends a day. You earn 10 driver rep for the first friend, and 5 driver rep for the other two. You get 10 passenger rep every time, though~"
+                       - "The friends you invite get 10 driver and passenger rep as well. Neat, right?"
+                       - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
+                       - "MEOW! That's like, 200 reputations a week or something??"
+                    - (Current)
+                       - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn coins, plus some driver and passenger rep..." 
+                       - "You can get rewarded for up to three friends a day. You earn 10 driver rep with 500 coins for the first friend, and 5 driver rep with 300 coins for the other two. You get 10 passenger rep every time, though~"
+                       - "The friends you invite get 10 of each rep as well, plus 300 coins. Neat, right?"
+                       - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
+                       - "MEOW! That's like, 200 reputations a week or something?? 1000 coins in a day??!"
+                    - "So... You interested?"
+                      - hg[Option 1]: I'm in!
+                        - "Pawsome~ Just tell me who to call!!"
+                          - (An Invite Friends prompt appears.)
+                      - hg[Option 2]: Nah.
+                          - "Alright! If you ever change your mind, you know who to call."
                   - hg[Option 2]: Sounds good to me!
                       - "Pawsome~ Just tell me who to call!!"
                           - (An Invite Friends prompt appears.)
@@ -500,11 +521,18 @@ content: |-
           - hg[Option 1]: Let's send some! 
             - "Quite the social butterfly~ Sure, I can do that for you!"
           - hg[Option 2]: Tell me more. 
-            - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn some driver and passenger rep..."
-            - "You can get rewarded for up to three friends a day. You earn 10 driver rep for the first friend, and 5 driver rep for the other two. You get 10 passenger rep every time, though~"
-            - "The friends you invite get 10 driver and passenger rep as well. Neat, right?"
-            - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
-            - "MEOW! That's like, 200 reputations a week or something??"
+            - (Archived)
+              - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn some driver and passenger rep..." 
+              - "You can get rewarded for up to three friends a day. You earn 10 driver rep for the first friend, and 5 driver rep for the other two. You get 10 passenger rep every time, though~"
+              - "The friends you invite get 10 driver and passenger rep as well. Neat, right?"
+              - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
+              - "MEOW! That's like, 200 reputations a week or something??"
+            - (Current)
+              - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn coins, plus some driver and passenger rep..." 
+              - "You can get rewarded for up to three friends a day. You earn 10 driver rep with 500 coins for the first friend, and 5 driver rep with 300 coins for the other two. You get 10 passenger rep every time, though~"
+              - "The friends you invite get 10 of each rep as well, plus 300 coins. Neat, right?"
+              - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
+              - "MEOW! That's like, 200 reputations a week or something?? 1000 coins in a day??!"
             - "So... You interested?"
              - hg[Option 1]: I'm in!
                - "Pawsome~ Just tell me who to call!!"
@@ -589,50 +617,54 @@ content: |-
             - hg[Option 1]: ..you stay calm?!
               - "I-I mean, I've already been here before, so I know what to look out for..! <small>i just hope i don't run into quandale again...</small>"
                 - hg[Oh, okay. Makes sense.]
-                  - Conversation continues to <clr:#B3FFFF>(Passenger Rep Trade)
+                  - Conversation continues to <clr:#B3FFFF>(Trade Offer)
                 - hg[You've WHAT??]
                   - "Long story."
-                    - Conversation continues to <clr:#B3FFFF>(Passenger Rep Trade)
+                    - Conversation continues to <clr:#B3FFFF>(Trade Offer)
             - hg[Option 2]: ..we get here?!
               - hg[Variant 1]: "Pff, that's simple. We no-clipped, dummy! The bus stopped right on an unstable bit of ground, and whoosh! Here we are!"
                 - hg[I don't believe you.]
                   - "I don't blame you, I know it's really weird. Here's the deal. I actually know the way out, sooo... I can take you there... for a price."
-                    - Conversation continues to <clr:#B3FFFF>(Passenger Rep Trade)
+                    - Conversation continues to <clr:#B3FFFF>(Trade Offer)
               - hg[Variant 2] (If player drank [Cola](cola) and ate the [Bus Birthday Cake](bus-birthday-cake)): "Pfft... You ate the cake with the cola, dummy! You fell for a classic blunder!"
                 - hg[Option 1]: I don't believe you.
                   - "Oh, well... That's what happened, whether you like it or not, so..."
-                  - Conversation continues to <clr:#B3FFFF>(Passenger Rep Trade)
+                  - Conversation continues to <clr:#B3FFFF>(Trade Offer)
                 - hg[Option 2]: Makes sense.
-                  - Conversation continues to <clr:#B3FFFF>(Passenger Rep Trade)
+                  - Conversation continues to <clr:#B3FFFF>(Trade Offer)
               - hg[Variant 3] (If player drank [The Sludge](cafe-coffee-recipes) and ate the [Bus Birthday Pie](bus-birthday-pie)): "Pfft... You ate the pie-sludge combo, dummy! You fell for a classic blunder!"
                 - hg[Option 1]: I don't believe you.
                   - "Oh, well... That's what happened, whether you like it or not, so..."
-                  - Conversation continues to <clr:#B3FFFF>(Passenger Rep Trade)
+                  - Conversation continues to <clr:#B3FFFF>(Trade Offer)
                 - hg[Option 2]: Makes sense.
-                  - Conversation continues to <clr:#B3FFFF>(Passenger Rep Trade)
+                  - Conversation continues to <clr:#B3FFFF>(Trade Offer)
                 - hg[Option 3]: ..you survive?!
                   - "I'm just too powerful."
                 - hg[Option 4]: ???
-                  - Conversation continues to <clr:#B3FFFF>(Passenger Rep Trade)
-              - <clr:#B3FFFF>(Passenger Rep Trade)
+                  - Conversation continues to <clr:#B3FFFF>(Trade Offer)
+              - <clr:#B3FFFF>(Trade Offer)
                 - "Here's the deal. I actually know the way out, sooo... I can take you there... for a price."
                   - hg[Option 1]: Well.. is it safe?
                     - "Whuh? Is it safe..? Oh pssh, only like, what, [number of victims] died along the way? Pff, what's with the look? You'll be fiiiine, trust me! You're in good paws. 10 Passenger rep. Deal, or no deal?"
                       - Conversation continues to <clr:#B3FFFF>(Trade Prompt)
                   - hg[Option 2]: A price?
-                    - hg[Variant 1]: "10 Passenger rep. Deal, or no deal?"
-                    - hg[Variant 2]: "20 Passenger rep. Deal or no deal?" (If the player entered through the Cola-Cake method or the Pie-Sludge method.)
+                    - hg[Variant 1]: "200 Coins. Deal, or no deal?"
+                    - hg[Variant 1]: "10 Passenger rep. Deal, or no deal?" (Archived)
+                    - hg[Variant 2]: "400 Coins. Deal or no deal?" (If the player entered through the Cola-Cake method or the Pie-Sludge method.)
+                    - hg[Variant 2]: "20 Passenger rep. Deal or no deal?" (If the player entered through the Cola-Cake method or the Pie-Sludge method.) (Archived)
                       - Conversation continues to <clr:#B3FFFF>(Trade Prompt)
                   - hg[Option 3]: Nah.
                     - "Oh.. well, bye then..."
                   - <clr:#B3FFFF>(Trade Prompt)
-                    - hg[Option 1]: Wh-- 20?! Wasn't it 10 before?! (If the player entered through the Cola-Cake method or the Pie-Sludge method.)
+                    - hg[Option 1]: Wh-- 400?! Wasn't it 200 before?! (If the player entered through the Cola-Cake method or the Pie-Sludge method.)
+                    - hg[Option 1]: Wh-- 20?! Wasn't it 10 before?! (If the player entered through the Cola-Cake method or the Pie-Sludge method.) (Archived)
                       - hg[Variant 1]: "Uh, yeah... but like, I warned you about the cake, didn't I? You kinda deserved it..." (Cola-Cake)
                       - hg[Variant 2]: "Uh, yeah... but like, I warned you about the pie, didn't I? You kinda deserved it..." (Pie-Sludge)
                         - hg[Option 1]: I'm not paying that.
                           - "Your funeral~"
                         - hg[Option 2]: Ugh, fine.
-                          - "Thanks for the rep, sucker! The second you'll move, I'll start leading! Now, let's get outta here!"
+                          - "Thanks for the coins, sucker! The second you'll move, I'll start leading! Now, let's get outta here!"
+                          - "Thanks for the rep, sucker! The second you'll move, I'll start leading! Now, let's get outta here!" (Archived)
                             - (Pear will now walk towards the exit, and any [Entity](entity) he encounters first (before it can to you) will be pacified throughout the journey.)
                                - However, this does not protect other players that follow Pear as well.
                     - hg[Option 2]: It's a deal.
@@ -651,7 +683,7 @@ content: |-
   - hg[Variant 1]: "Hello, I'm currently leading someone awa y from you. If you'd be so kind as to keep them alive, that'd be great."
   - hg[Variant 2]: "Pardon me, I'm just attempting to bring this player with me to the exit. Remain calm, I do not wish to disturb you."
   - hg[Variant 3]: "Hi, my name is Pear Paw. I'm crossing paths with you on business terms. Please keep me and my client in one piece."
-  - hg[Variant 4]: "Excuse me, I have a client with me. It'd be nice of you to hold your aggro for a lil bit/"
+  - hg[Variant 4]: "Excuse me, I have a client with me. It'd be nice of you to hold your aggro for a lil bit."
 
   ###[**The Backwalls (Puddle Encounter)**]
   - "Don't worry about me. I can't die from this, I'm too powerful."
