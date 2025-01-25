@@ -58,7 +58,7 @@ content: |
   | Going anywhere except [The Bus](the-bus) or [Frost's Den](glacier-cave) | <clr:#ff4545>(Negative\nStarts battery drainage.) |
   | Activating Flashlight | <clr:#ff4545>(Negative\nMildly increases battery drainage.) |
   | Staying at [The Backwalls](backwalls) or [The Void](void-box)\n...with Airplane Mode Off | <clr:#ff4545>(Negative\nMassively increases battery drainage. Your phone will try as *much* as it can to connect, creating extreme battery load without Airplane Mode on.) |
-  At full capacity, it takes around 80 minutes by default before the phone completely drains if it isn't in a chargable area. Use your phone with discretion.
+  At full capacity, it takes around 8 minutes by default before the phone completely drains if it isn't in a chargable area. Use your phone with discretion.
   ##[Home]
   Much like any phone, you can customize your home screen by adding widgets or apps allowing easy access. Over the course of your usage, you'll be able to sort and create new pages for your homescreen. You can also swipe up slightly away from the bottom edge to view all of your apps, both within and not within your home screen.
   \n\n 
