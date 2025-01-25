@@ -1,21 +1,23 @@
-editable: True
+editable: true
 page:
   title: Phone
-  description: The Phone is one of the first tools in the game, later overhauled with an entirely new spin. It can be used for messaging, games, lighting, and many more.
-    
+  description: The Phone is one of the first tools in the game, later overhauled with
+    an entirely new spin. It can be used for messaging, games, lighting, and many
+    more.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
+
   tags: phone, starter item, android, android nougat, is nougat a real thing?
 
   header:
     description: |
       Category: [Items](items)\n
       Tags: h[Obtainable Item, Permanent]
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/items/phone-new.webp
 
-attributions: 
+attributions:
   - made by fang
 
 content: |
@@ -96,4 +98,5 @@ content: |
   - Trying to start a conversation with yourself using the Messages app will just tell you to use Notepad for it.
   - Clicking, typing, and using the flashlight all have their own unique animations for the player.
   - The original phone, one that has been prevalent throughout the majority of Bus Simulator's life was a drastically simpler version, being a simple-handheld that allows you to activate a flashlight and also displayed the in-game time.
+  - VR players hold their phone in their left hand. This is so they can use their cursor, which can only be used on the right hand.
   !!GALLERY [/assets/bussim/images/items/phone-new.webp|/assets/bussim/images/items/phone.webp]
