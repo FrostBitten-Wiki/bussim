@@ -1,29 +1,31 @@
-editable: True
+editable: true
 page:
   title: Vector
-  description: Vector is a biome in Bus Simulator submitted by Lunar (@MegaRacer5000). The biome is composed purely of vectors, being pure rays of light in the form of trees and housing. The floor and sky are pitch black.
-    
+  description: Vector is a biome in Bus Simulator submitted by Lunar (@MegaRacer5000).
+    The biome is composed purely of vectors, being pure rays of light in the form
+    of trees and housing. The floor and sky are pitch black.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
+
   tags: some,tags,here,that is used by the search api
 
   header:
     title: Biodiverse
     description: |
       Category: [Biomes](biomes)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/biomes/vector.webp
 
-attributions: 
+attributions:
   - Converted to Jinki Markdown by Nyx (@nyxical)
 
-content: |
+content: |-
   !!INFOBOX TITLE:"Early Access Content / Beta Content" COLOR:"#23358C" TEXT:"*\"Careful now...\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update easier. Most of the info shown are with the discretion that it can and will change.)"
   "A biome made up of vector lines, like in very old arcade games!" -"Rider (Almanac)"
   ##[Info]
-  Vector is a biome in Bus Simulator submitted by Lunar (@MegaRacer5000). The biome is composed purely of vectors, being pure rays of light in the form of trees and housing. The floor and sky are pitch black.
+  Vector is a biome in Bus Simulator submitted by Lunar (@LunarThePr0t0g3n). The biome is composed purely of vectors, being pure rays of light in the form of trees and housing. The floor and sky are pitch black.
   ##[Trivia]
   - The biome's structures use GUIs instead of parts, theoretically making this biome the only part-less biome with a proper ground.
-  
+
   !!GALLERY [/assets/bussim/images/biomes/vector.webp]
