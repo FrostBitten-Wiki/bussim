@@ -45,4 +45,4 @@ content: |
   - This event is the only one to use the name PROTIP, as all other events don't have it. 
     - Likewise, the name EVENT is different from Event, where the latter is interchangeable with the current bus driver.
 
-  !!GALLERY [/assets/bussim/images/events/flash-flood.webp]
+  !!GALLERY [/assets/bussim/images/events/flash-flood.webp|/assets/bussim/images/events/flash-flood2.webp]
