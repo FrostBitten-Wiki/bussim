@@ -1,27 +1,27 @@
-editable: True
+editable: true
 page:
   title: Hellscape
   description: The Hellscape is a biome in Bus Simulator submitted by Lunar (@MegaRacer5000).
-    
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim hellscapes
-  
+
   tags: hellscapes, hell, is this hell?, truly it is worse than hell
 
   header:
     title: Hellscape
     description: |
       Category: [Biomes](biomes)
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/biomes/hellscape.webp
 
-attributions: 
+attributions:
   - Created by FangedWerewolf (@noobbiom)
 
-content: |
+content: |-
   "A very hot biome, featuring a lot of red, as well as small lava pools, spikes, and oddly enough, housing." -"Rider (Almanac)"
   ##[Info]
-  The Hellscape is a biome in Bus Simulator submitted by Lunar (@MegaRacer5000). 
+  The Hellscape is a biome in Bus Simulator submitted by Lunar (@LunarThePr0t0g3n). 
   \n\n 
   The biome features a hell-like atmosphere and enviroment, with lava puddles, spikes, and rarely cages on top of lava. Despite these conditions, residential buildings still spawn here.
   !!GALLERY [/assets/bussim/images/biomes/hellscape.webp]
