@@ -648,9 +648,9 @@ content: |-
                     - "Whuh? Is it safe..? Oh pssh, only like, what, [number of victims] died along the way? Pff, what's with the look? You'll be fiiiine, trust me! You're in good paws. 10 Passenger rep. Deal, or no deal?"
                       - Conversation continues to <clr:#B3FFFF>(Trade Prompt)
                   - hg[Option 2]: A price?
-                    - hg[Variant 1]: "200 Coins. Deal, or no deal?"
+                    - hg[Variant 1]: "250 Coins. Deal, or no deal?"
                     - hg[Variant 1]: "10 Passenger rep. Deal, or no deal?" (Archived)
-                    - hg[Variant 2]: "400 Coins. Deal or no deal?" (If the player entered through the Cola-Cake method or the Pie-Sludge method.)
+                    - hg[Variant 2]: "500 Coins. Deal or no deal?" (If the player entered through the Cola-Cake method or the Pie-Sludge method.)
                     - hg[Variant 2]: "20 Passenger rep. Deal or no deal?" (If the player entered through the Cola-Cake method or the Pie-Sludge method.) (Archived)
                       - Conversation continues to <clr:#B3FFFF>(Trade Prompt)
                   - hg[Option 3]: Nah.
