@@ -20,7 +20,7 @@ attributions: []
 
 content: |
   ##[<highlight>Warning</highlight>]
-  This event can cause epilepsy for some people. If you have this condition, it is very much recommended to look away for a minute or to shift your camera anywhere but outside. Especially if you see "Driving down the road is pretty relaxing.".
+  h[This event can cause epilepsy for some people. If you have this condition, it is very much recommended to look away for a minute or to shift your camera anywhere but outside. Especially if you see "Driving down the road is pretty relaxing.".]
  
   ##[Info]
   The Glitches Event is an event that slowly starts changing biomes after everything seems relaxing at first, and gets faster per biome change. The event goes through every biome in the game, including one that is only seen via !map in a VIP server, or in a few events, the [Void](void) biome.  \n
@@ -31,7 +31,7 @@ content: |
     - h[After a while...]
       - hg[Event]: "Hm, looks like we got some glitches here, folks."
         - hg[Event]: "Yep, we're in a video game."
-          - hg[You]: "\*sigh\*"
+          - hg[You]: "*sigh*"
             - hg[Event]: "Ah, that's better."
                - hg[Player]: "Who programmed this game? A child?"
 
