@@ -663,12 +663,13 @@ content: |-
                         - hg[Option 1]: I'm not paying that.
                           - "Your funeral~"
                         - hg[Option 2]: Ugh, fine.
-                          - "Thanks for the coins, sucker! The second you'll move, I'll start leading! Now, let's get outta here!"
                           - "Thanks for the rep, sucker! The second you'll move, I'll start leading! Now, let's get outta here!" (Archived)
+                          - "Thanks for the coins, sucker! The second you'll move, I'll start leading! Now, let's get outta here!"
                             - (Pear will now walk towards the exit, and any [Entity](entity) he encounters first (before it can to you) will be pacified throughout the journey.)
                                - However, this does not protect other players that follow Pear as well.
                     - hg[Option 2]: It's a deal.
-                      - "Thanks for the rep! The second you'll move, I'll start leading! Now, let's get outta here!"
+                      - "Thanks for the rep! The second you'll move, I'll start leading! Now, let's get outta here!" (Archived)
+                      - "Thanks for the coins! The second you'll move, I'll start leading! Now, let's get outta here!"
                         - (Pear will now walk towards the exit, and any [Entity](entity) he encounters first (before it can to you) will be pacified throughout the journey.)
                           - However, this does not protect other players that follow Pear as well.
 
@@ -743,7 +744,8 @@ content: |-
           - hg[Variant 2]: "Here's.. the exit... I think...?"
     - If the pathfind check fails:
       - hg[Variant 1]: "...You're not gonna like what I'm say but... I can't remember the path. See ya!"
-      - hg[Variant 2]: "S-Sike, you're never getting out of here! Thanks for the rep..! Haha.. ha.."
+      - hg[Variant 2]: "S-Sike, you're never getting out of here! Thanks for the rep..! Haha.. ha.." (Archived)
+      - hg[Variant 2]: "S-Sike, you're never getting out of here! Thanks for the coins..! Haha.. ha.." (Archived)
         - (Pear then disappears with green smoke.)
 
   ##[Trivia]
