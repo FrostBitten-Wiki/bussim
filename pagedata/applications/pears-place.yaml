@@ -45,10 +45,10 @@ content: |-
   | <clr:#34eb7d>(Nyx) | <clr:#34eb7d>(Free; Enter the Konami Code whilst holding the Gameboy Advance, with Enter replacing Start) |
   | <clr:#2C35B8>(Fang) | <clr:#FFE669>(250 Coins) |
   | <clr:#4b4060>(User) | <clr:#4b4060>(Free; Player must have 175 Driver Reputation) |
-  | <clr:#7FB896>(9n25) | <clr:#FFE669>(TBA) |
+  | <clr:#7FB896>(9n25) | <clr:#FFE669>(92 Coins) |
   | <clr:#D36BFF>(Axel) | <clr:#D36BFF>(440 Coins; Player must talk to Stanley first) |
   | <clr:#C219FF>(Lunar) | <clr:#FFE669>(50 Coins) |
-  | <clr:#B9FF8A>(R)<clr:#85B1FF>(a)<clr:#C219FF>(n)<clr:#2C35B8>(d)<clr:#34eb7d>(o)<clr:#FF9B4F>(m) | <clr:#BFFFFD(Free; Uses all unlocked hosts, host will be randomly selected upon opening the app) |
+  | <clr:#B9FF8A>(R)<clr:#85B1FF>(a)<clr:#C219FF>(n)<clr:#2C35B8>(d)<clr:#34eb7d>(o)<clr:#FF9B4F>(m) | <clr:#BFFFFD>(Free; Uses all unlocked hosts, host will be randomly selected upon opening the app) |
   ##[Quests]
   "Another quest bites the dust!" -"Pear"
   The app features 4 daily quests, one of which is locked behind Premium, and gives you <clr:#FFE669>(Coins) if you complete them. Some of these range from simply sitting at your seat for a few minutes to appreciating a biome.
