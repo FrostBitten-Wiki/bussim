@@ -86,13 +86,9 @@ content: |-
             - hg[Option 1]: Just curious.
               - "Oookkkayyy....?"
             - hg[Option 2]: Waiting on something?
-              - "Not really, no."
+              - "Besides my <clr:#FFC9C9>(***Strawberry Smoothie***), not really."
     - hg[Option 2]: Haven't I seen you before?
       - "No idea who you are. I don't recall seeing you ever before."
-    - hg[Option 3]: Want something to drink?
-      - "Oh, how nice of you!"
-      - "Can you get me a Vanilla Latte? I'd appreciate it."
-      - "If you don't mind paying for it, either!"
     - hg[Option 4]: What are you doing here?
       - "Am i not allowed to go to places now?"
       - "Just messin' with ya."
