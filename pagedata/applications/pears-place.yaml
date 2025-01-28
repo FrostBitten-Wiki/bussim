@@ -35,21 +35,21 @@ content: |-
   The hosts are as follows:
   | Host | Cost / Requires |
   |------|------|
-  | <clr:#B9FF8A>(Pear) | <clr:#B9FF8A>(Free) |
-  | <clr:#85B1FF>(Noble) | <clr:#85B1FF>(100 Coins) |
-  | <clr:#BFFFFD>(Frostbite) | <clr:#BFFFFD>(Free; Need to be friends with Frostbite) |
-  | <clr:#3D3D3D>(D6) | <clr:#3D3D3D>(6 Coins; Need to talk to D6 for the first time) |
-  | <clr:#7625b8>(Zeon) | <clr:#7625b8>(150 Coins) |
-  | <clr:#878FFF>(Disc) | <clr:#878FFF>(200 Coins) |
-  | <clr:#FF9B4F>(MLG) | <clr:#FF9B4F>(Free; Need to give MLG Pumpkin Spice Mocha) |
-  | <clr:#34eb7d>(Nyx) | <clr:#34eb7d>(Free; Enter the Konami Code whilst holding the Gameboy Advance, with Enter replacing Start) |
-  | <clr:#2C35B8>(Fang) | <clr:#2C35B8>(250 Coins) |
-  | <clr:#14FFF7>(Tazer) | <clr:#14FFF7>(TBA) |
-  | <clr:#4b4060>(User) | <clr:#4b4060>(Free; Player must have 175 Driver Reputation) |
-  | <clr:#800000>(9n25) | <clr:#800000>(92 Coins) |
-  | <clr:#D36BFF>(Axel) | <clr:#D36BFF>(440 Coins; Player must talk to Stanley first) |
-  | <clr:#C219FF>(Lunar) | <clr:#C219FF>(50 Coins) |
-  | <clr:#FF6666>(R)<clr:#FFB366>(a)<clr:#FFFF66>(n)<clr:#80FF66>(d)<clr:#6699FF>(o)<clr:#B366FF>(m) | <clr:#FF66CC>(Free; Uses all unlocked hosts, host will be randomly selected upon opening the app) |
+  | <clr:#B9FF8A>(Pear) | <clr:#FFE669>(Free) |
+  | <clr:#85B1FF>(Noble) | <clr:#FFE669>(100 Coins) |
+  | <clr:#BFFFFD>(Frostbite) | <clr:#FFE669>(Free; Need to be friends with Frostbite) |
+  | <clr:#3D3D3D>(D6) | <clr:#FFE669>(6 Coins; Need to talk to D6 for the first time) |
+  | <clr:#7625b8>(Zeon) | <clr:#FFE669>(150 Coins) |
+  | <clr:#878FFF>(Disc) | <clr:#FFE669>(200 Coins) |
+  | <clr:#FF9B4F>(MLG) | <clr:#FFE669>(Free; Need to give MLG Pumpkin Spice Mocha) |
+  | <clr:#34eb7d>(Nyx) | <clr:#FFE669>(Free; Enter the Konami Code whilst holding the Gameboy Advance, with Enter replacing Start) |
+  | <clr:#2C35B8>(Fang) | <clr:#FFE669>(250 Coins) |
+  | <clr:#14FFF7>(Tazer) | <clr:#FFE669>(TBA) |
+  | <clr:#4b4060>(User) | <clr:#FFE669>(Free; Player must have 175 Driver Reputation) |
+  | <clr:#800000>(9n25) | <clr:#FFE669>(92 Coins) |
+  | <clr:#D36BFF>(Axel) | <clr:#FFE669>(440 Coins; Player must talk to Stanley first) |
+  | <clr:#C219FF>(Lunar) | <clr:#FFE669>(50 Coins) |
+  | <clr:#FF6666>(R)<clr:#FFB366>(a)<clr:#FFFF66>(n)<clr:#80FF66>(d)<clr:#6699FF>(o)<clr:#B366FF>(m) | <clr:#FFE669>(Free; Uses all unlocked hosts, host will be randomly selected upon opening the app) |
   ##[Quests]
   "Another quest bites the dust!" -"Pear"
   The app features 4 daily quests, one of which is locked behind Premium, and gives you <clr:#FFE669>(Coins) if you complete them. Some of these range from simply sitting at your seat for a few minutes to appreciating a biome.
