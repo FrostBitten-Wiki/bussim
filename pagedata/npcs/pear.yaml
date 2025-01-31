@@ -149,11 +149,11 @@ content: |-
                       - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
                       - "MEOW! That's like, 200 reputations a week or something??"
                     - (Current)
-                      - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn coins, plus some driver and passenger rep..." 
-                      - "You can get rewarded for up to three friends a day. You earn 10 driver rep with 500 coins for the first friend, and 5 driver rep with 300 coins for the other two. You get 10 passenger rep every time, though~"
-                      - "The friends you invite get 10 of each rep as well, plus 300 coins. Neat, right?"
+                      - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn coins alongside some driver and passenger rep..." 
+                      - "You can get rewarded for up to three friends a day. You earn 500 coins and 10 driver rep with for the first friend, then 300 coins and 5 driver rep for the other two. You get 10 passenger rep every time, though~"
+                      - "The friends you invite get 300 coins, plus 10 driver rep and passenger rep as well. Neat, right?"
                       - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
-                      - "MEOW! That's like, 200 reputations a week or something?? 1000 coins in a day??!"
+                      - "MEOW! That's like, 4,000 coins and 200 reputations a week or something??"
                     - "So... You interested?"
                      - hg[Option 1]: I'm in!
                         - "Pawsome~ Just tell me who to call!!"
@@ -239,11 +239,11 @@ content: |-
               - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
               - "MEOW! That's like, 200 reputations a week or something??"
             - (Current)
-              - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn coins, plus some driver and passenger rep..." 
-              - "You can get rewarded for up to three friends a day. You earn 10 driver rep with 500 coins for the first friend, and 5 driver rep with 300 coins for the other two. You get 10 passenger rep every time, though~"
-              - "The friends you invite get 10 of each rep as well, plus 300 coins. Neat, right?"
+              - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn coins alongside some driver and passenger rep..." 
+              - "You can get rewarded for up to three friends a day. You earn 500 coins and 10 driver rep with for the first friend, then 300 coins and 5 driver rep for the other two. You get 10 passenger rep every time, though~"
+              - "The friends you invite get 300 coins, plus 10 driver rep and passenger rep as well. Neat, right?"
               - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
-              - "MEOW! That's like, 200 reputations a week or something?? 1000 coins in a day??!"
+              - "MEOW! That's like, 4,000 coins and 200 reputations a week or something??"
             - "So... You interested?"
              - hg[Option 1]: I'm in!
                - "Pawsome~ Just tell me who to call!!"
@@ -438,11 +438,11 @@ content: |-
                        - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
                        - "MEOW! That's like, 200 reputations a week or something??"
                     - (Current)
-                       - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn coins, plus some driver and passenger rep..." 
-                       - "You can get rewarded for up to three friends a day. You earn 10 driver rep with 500 coins for the first friend, and 5 driver rep with 300 coins for the other two. You get 10 passenger rep every time, though~"
-                       - "The friends you invite get 10 of each rep as well, plus 300 coins. Neat, right?"
+                       - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn coins alongside some driver and passenger rep..." 
+                       - "You can get rewarded for up to three friends a day. You earn 500 coins and 10 driver rep with for the first friend, then 300 coins and 5 driver rep for the other two. You get 10 passenger rep every time, though~"
+                       - "The friends you invite get 300 coins, plus 10 driver rep and passenger rep as well. Neat, right?"
                        - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
-                       - "MEOW! That's like, 200 reputations a week or something?? 1000 coins in a day??!"
+                       - "MEOW! That's like, 4,000 coins and 200 reputations a week or something??"
                     - "So... You interested?"
                       - hg[Option 1]: I'm in!
                         - "Pawsome~ Just tell me who to call!!"
@@ -528,11 +528,11 @@ content: |-
               - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
               - "MEOW! That's like, 200 reputations a week or something??"
             - (Current)
-              - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn coins, plus some driver and passenger rep..." 
-              - "You can get rewarded for up to three friends a day. You earn 10 driver rep with 500 coins for the first friend, and 5 driver rep with 300 coins for the other two. You get 10 passenger rep every time, though~"
-              - "The friends you invite get 10 of each rep as well, plus 300 coins. Neat, right?"
+              - "Well... Basically, when you hang out with your friends for like, an hour, you can both earn coins alongside some driver and passenger rep..." 
+              - "You can get rewarded for up to three friends a day. You earn 500 coins and 10 driver rep with for the first friend, then 300 coins and 5 driver rep for the other two. You get 10 passenger rep every time, though~"
+              - "The friends you invite get 300 coins, plus 10 driver rep and passenger rep as well. Neat, right?"
               - "And since you can do this every day, according to my calculations, that means... hg[uhh, carry the two.. and...]"
-              - "MEOW! That's like, 200 reputations a week or something?? 1000 coins in a day??!"
+              - "MEOW! That's like, 4,000 coins and 200 reputations a week or something??"
             - "So... You interested?"
              - hg[Option 1]: I'm in!
                - "Pawsome~ Just tell me who to call!!"
@@ -754,7 +754,7 @@ content: |-
   - When Pear mentions "The Incident", they're referring to the removal of most copyrighted audios on March 22nd, 2022.\n\n
   - Pear will still get annoyed at you (and afterwards, kills you) if you use the Airhorn while not on the same floor as him, but at a similar horizontal area, such as the seat directly below and above him.\n\n
   - If the private server owner uses the !seats command, Pear will stand in place instead.\n\n
-  - Pear's calculations with the invite system is partially accurate, as you actually gain a maximum of 20 Driver Reputation and 30 Passenger Reputation per day, up to 140 Driver Reputation and 210 Passenger Reputation every week, for a total of 350 Reputation.\n\n
+  - Pear's calculations with the invite system is partially accurate, as you actually gain up to 1,100 Coins, 20 Driver Reputation and 30 Passenger Reputation per day, up to 7,700 Coins, 140 Driver Reputation and 210 Passenger Reputation every week, for a total of 350 Reputation. This is only including inviting your friends, and not the other way around.\n\n
   - If Pear were to somehow be involved with gears that would normally kill him, he would retaliate by activating his counter, instantly killing anyone near him.
     - This was done to prevent [Pear Takes The Wheel](pear-takes-the-wheel) from being softlocked.\n\n
   - Pear's fourth variant in arriving at the exit is a direct reference to [Pure Imagination](https://www.youtube.com/watch?v=SVi3-PrQ0pY), a song composed by Gene Wilder for Willy Wonka & The Chocolate Factory.\n\n 
