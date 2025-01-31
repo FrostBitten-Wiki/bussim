@@ -57,6 +57,12 @@ content: |-
               - Variant 1C (Console):
                   - "give me the controller"
                       - hg[No thanks.]
+              - Variant 1D (VR):
+                  - "give me your headset"
+                      - hg[No thanks.]
+              - Variant 1E (PC, Mouse Only):
+                  - "give me that mouse"
+                      - hg[No thanks.]
           - Variant 2 (if the player has previously selected this option within the last 12 hours):
                   - "you've had enough wisdom for today. come back tomorrow"
                       - hg[Ok.]
@@ -438,7 +444,7 @@ content: |-
     - Sometimes, D6 will say "7577234764 Dont forget it. It's the only way out.". The number is a Roblox marketplace ID that leads to an image of D6's former fursona, drawn in the style of Paper Mario. The quote itself is not a reference
     - ["would you like to sign my petition?"](https://www.youtube.com/watch?v=9JoJUkIhEjs) is a reference to Postal 2, wherein on Tuesday, the Postal Dude is tasked with collecting signaures for a petition to 'make whiney congressmen play violent video games'.
     - There are numerous references to Edmund McMillen's *The Binding of Isaac*, most of which come from the fortune telling machine.
-        - “you are playing it wrong” “give me [X]”\n[X can be the controller / the keyboard / your phone, depending on the device you played in.]
+        - “you are playing it wrong” “give me [X]”\n[X can be the controller / the keyboard / your phone / your headset / that mouse, depending on the device you played in / what you used to initiate the dialogue.]
         - “live to die”
         - “if you come to a fork in the road, pick it up”
         - “nobody knows the troubles you've seen”
