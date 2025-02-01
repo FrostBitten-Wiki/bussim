@@ -14,7 +14,7 @@ page:
 
       
     image: ''
-    imageBanner: /assets/bussim/images/items/phone/rider.webp
+    imageBanner: /assets/bussim/images/applications/rider.webp
 
 attributions:
   - made by fang
@@ -107,3 +107,5 @@ content: |-
     - As for why, Noble liked the idea of each event being drawn instead of being a screenshot of each event. 
   - In the Statistics section, a render of your avatar can be seen behind the stats.
   - Unlike the [Bus Radio](bus-radio), the radio UI within the En Route finishes with the text before it restarts, which often leads to some songs with very long names to now be fully seen.
+
+  !!GALLERY [/assets/bussim/images/applications/rider.webp]  

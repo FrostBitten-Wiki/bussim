@@ -17,7 +17,7 @@ page:
       Tags: h[Economy / Personal]
 
     image: ''
-    imageBanner: /assets/bussim/images/items/phone/pears-place.webp
+    imageBanner: /assets/bussim/images/applications/pears-place.webp
 
 attributions:
   - made by fang
@@ -129,7 +129,7 @@ content: |-
   ###[__Miscellaneous__]
   | Image | Item | Cost | Description |
   |-------|------|------|-------------|
-  |![autoxauto](/bussim-assets/images/items/phone/screen-repair.webp)|Screen Repair| <clr:#FFE669>(115 Coins) | Fix a cracked display. |
+  |![autoxauto](/bussim-assets/images/applications/pears-place/screen-repair.webp)|Screen Repair| <clr:#FFE669>(115 Coins) | Fix a cracked display. |
   ##[Trivia]
   - The items that can't be purchased but are part of the events are those that are only purchasable (and permanent) with <clr:#FFE669>(Coins) or originally [Passenger Reputation](reputation).
     - Examples such as [Compass](compass), [Gas Station Coil](gas-station-coil), [Gas Station Ice Cream](gas-station-ice-cream) and [Flying Skillbook](flying-skillbook) all can be purchased with <clr:#FFE669>(Coins) but aren't on the Shop.
@@ -160,3 +160,5 @@ content: |-
   - This is the newest longest wiki page, and will only get longer when more quests and hosts get added.
   ##[Technical Trivia]
   - This is also the widest wiki page in its code, mainly due to how tables are formatted, with the current widest line being experiencing a specific biome, at 4182 columns / letters wide.
+
+  !!GALLERY [/assets/bussim/images/applications/pears-place.webp]  
