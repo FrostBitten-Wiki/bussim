@@ -13,7 +13,7 @@ page:
       Event Runtime: h[45 Seconds (0:45)]
     
     image: ""
-    imageBanner: /assets/bussim/images/events/space.webp
+    imageBanner: /assets/bussim/images/events/space2.webp
 
 attributions: []
 
@@ -28,4 +28,4 @@ content: |
   ##[Trivia]
   - The map used during the event is almost the same as the [Void (Biome)](void), however the time is set to night instead. 
     - Another event, called [In The Sky](in-the-sky) also uses the same event too.
-  !!GALLERY [/assets/bussim/images/events/space.webp]
+  !!GALLERY [/assets/bussim/images/events/space2.webp|/assets/bussim/images/events/space.webp]

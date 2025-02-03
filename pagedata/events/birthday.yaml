@@ -13,7 +13,7 @@ page:
       Event Name: h[BusBirthday]\n
       Event Runtime: h[45 Seconds (0:45)]
     
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/birthday2.webp
 
 attributions: []
 
@@ -38,4 +38,4 @@ content: |
   - The event has 45 seconds of runtime, which has the exact same amount of runtime as both the [In The Sky](in-the-sky) and the Space events. There's also a really similar runtime with the [Exploiter](exploiter) event.
   - The audio originated from a [birthday kazoo youtube video](https://www.youtube.com/watch?v=N63GSop8Xz4) that was published in Sep 16, 2014.
 
-  !!GALLERY [/assets/bussim/images/events/birthday.webp|/assets/bussim/images/events/birthday2.webp]
+  !!GALLERY [/assets/bussim/images/events/birthday2.webp|/assets/bussim/images/events/birthday.webp]

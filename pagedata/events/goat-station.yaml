@@ -16,7 +16,7 @@ page:
       Event Runtime: h[9 Minutes and 26 Seconds (9:26)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/goat-station-banner.webp
+    imageBanner: /assets/bussim/images/events/goat-station2.webp
 
 attributions: []
 
@@ -100,4 +100,4 @@ content: |
   - The total amount of Passenger Reputation you need to buy all of the permanent items is 147.
   - During one of Disc's dialogue, it uses an NPC that is nowhere to be found in the Goat Station map normally, but with [Edit](edit), the NPC's actually buried underneath the GoatedGas.
 
-  !!GALLERY [/assets/bussim/images/events/goat-station.webp|/assets/bussim/images/banners/goat-station-banner.webp]
+  !!GALLERY [/assets/bussim/images/events/goat-station2.webp|/assets/bussim/images/events/goat-station.webp|/assets/bussim/images/banners/goat-station-banner.webp]

@@ -17,7 +17,7 @@ page:
       Event Runtime: h[1 Minute 33 Seconds (1:33)]
 
     image: ''
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/cave2.webp
 
 attributions: []
 
@@ -52,4 +52,4 @@ content: |
   - When the event spawns, the biome would change to Rocky.
   - The event runtime is 1 minute and 33 seconds, similar to both the [Noble's House](nobles-house) and [Bloxdonalds](bloxdonalds) events.
 
-  !!GALLERY [/assets/bussim/images/events/cave.webp|/assets/bussim/images/events/cave2.webp]
+  !!GALLERY [/assets/bussim/images/events/cave2.webp|/assets/bussim/images/events/cave.webp]

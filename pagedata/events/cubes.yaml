@@ -14,7 +14,7 @@ page:
       Event Runtime: h[1 Minute and 5 Seconds (1:05)]
     
     image: ""
-    imageBanner: /assets/bussim/images/events/cubes.webp
+    imageBanner: /assets/bussim/images/events/cubes2.webp
 
 attributions: []
 
@@ -38,4 +38,4 @@ content: |
   - The runtime of this event is 1 minute and 5 seconds, making it a really similar runtime to both the BaconHair and Glitches events.
   - A [news](news) article references this particular event: "Nintendo lost all their gamecubes; ''We shouldn't have kept them in a cardboard box'' representative states.".
 
-  !!GALLERY [/assets/bussim/images/events/cubes.webp|/assets/bussim/images/events/cubes2.webp]
+  !!GALLERY [/assets/bussim/images/events/cubes2.webp|/assets/bussim/images/events/cubes.webp]

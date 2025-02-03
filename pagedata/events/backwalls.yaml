@@ -16,7 +16,7 @@ page:
       Event Name: h[Backwalls]\n
       Event Runtime: h[Unknown]
 
-    imageBanner: /assets/bussim/images/events/backwalls.webp
+    imageBanner: /assets/bussim/images/events/backwalls2.webp
 
 attributions: []
 content: |
@@ -128,4 +128,4 @@ content: |
     - The map generates by branching itself from a "Start" model, with the base of it residing at x: -6000, y: 4500, and z: 1500.
   - If you enter the Backwalls using abnormal methods <small>(Teleporting using [Edit](editQQ) or with the help of an admin, or getting spotted by Pear or an Entity)</small>, you'll be able to keep all of your items, however will still be inflicted with the same effect one would have.
 
-  !!GALLERY [/assets/bussim/images/events/backwalls.webp|/assets/bussim/images/events/backwalls2.webp|/assets/bussim/images/banners/backwalls/void-pits-backwalls.webp|/assets/bussim/images/banners/backwalls/ballpit-backwalls.webp|/assets/bussim/images/banners/backwalls/fake-exit-backwalls.webp|/assets/bussim/images/banners/backwalls/the-red-backwalls.webp]
+  !!GALLERY [/assets/bussim/images/events/backwalls2.webp|/assets/bussim/images/events/backwalls.webp|/assets/bussim/images/banners/backwalls/void-pits-backwalls.webp|/assets/bussim/images/banners/backwalls/ballpit-backwalls.webp|/assets/bussim/images/banners/backwalls/fake-exit-backwalls.webp|/assets/bussim/images/banners/backwalls/the-red-backwalls.webp]

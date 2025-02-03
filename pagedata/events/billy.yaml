@@ -13,7 +13,7 @@ page:
       Event Name: h[Billy]\n
       Event Runtime: h[Unknown]
     
-    imageBanner: /assets/bussim/images/events/billy.webp
+    imageBanner: /assets/bussim/images/events/billy2.webp
 
 attributions: []
 
@@ -80,4 +80,4 @@ content: |
     - This is the only instance where the door closes itself with no input from any other player.
   - The Billy event icon is referenced off of the Thousand Yard Stare meme.
 
-  !!GALLERY [/assets/bussim/images/events/billy.webp|/assets/bussim/images/events/billy2.webp]
+  !!GALLERY [/assets/bussim/images/events/billy2.webp|/assets/bussim/images/events/billy.webp]

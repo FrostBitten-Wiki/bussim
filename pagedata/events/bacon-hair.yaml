@@ -14,7 +14,7 @@ page:
       Event Runtime: h[1 Minute and 4 Seconds (1:04)]
 
     image: ''
-    imageBanner: /assets/bussim/images/events/bacon-hair.webp
+    imageBanner: /assets/bussim/images/events/bacon-hair2.webp
 
 attributions: []
 
@@ -35,4 +35,4 @@ content: |
   - Compared to other events in the game, this is one of the only few that has some grammatical errors.
   - There's more peaceful Bacon Hair NPCs than harmful ones, meaning if you go further out, you will *likely* not be attacked by them.
 
-  !!GALLERY [/assets/bussim/images/events/bacon-hair.webp|/assets/bussim/images/events/bacon-hair2.webp]
+  !!GALLERY [/assets/bussim/images/events/bacon-hair2.webp|/assets/bussim/images/events/bacon-hair.webp]

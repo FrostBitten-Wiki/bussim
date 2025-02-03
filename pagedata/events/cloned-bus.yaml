@@ -14,7 +14,7 @@ page:
       Event Runtime h[1 Minute and 25 Seconds (1:25)]
     
     image: ""
-    imageBanner: /assets/bussim/images/events/clone.webp
+    imageBanner: /assets/bussim/images/events/clone2.webp
 
 attributions: []
 
@@ -36,4 +36,4 @@ content: |
   - This is one of the more earlier events in this game, which is also why the cloned bus has less features as it's an older version of [The Bus](the-bus).
   - Despite the name suggesting it being a clone, it doesn't clone any modifications to the Bus like Seasonal Changes nor Edits.
 
-  !!GALLERY [/assets/bussim/images/events/clone.webp|/assets/bussim/images/events/clone2.webp]
+  !!GALLERY [/assets/bussim/images/events/clone2.webp|/assets/bussim/images/events/clone.webp]
