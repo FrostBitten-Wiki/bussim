@@ -24,15 +24,11 @@ page:
 
       <br><br>
 
-      While most of the events shown in this category are displayed officially from within the game,
-      some are perhaps too subtle or completely invisible for it to be properly photographed,
-      as a result, various events will instead use icons from RIDER or by the community themselves!
-      \n 
-      (Credits goes to @noobbiom for the RIDER icons and @orfriday36 for the other event icons!)
+      All of the icons shown are in sync with [Rider's event icons](rider), all being made by FangedWerewolf (@noobbiom)! In-game screenshots will be presented as well within each event's individual pages, as well as older iterations / representations by NotFunnyClown (@orfriday36) for events that were unable to be photographed prior to Rider's existence.
 
       <br><br>
 
-      Note: If you are to force these events in a VIP server via the !event command, the event names are Case Sensitive.
+      Note: If you are to force these events in a VIP server via the !event command, the event names are **Case Sensitive**.
       (i.e. Bloxdonalds won't be forced if you spell it with all UPPERCASE or lowercase.)
 
     image: ''
