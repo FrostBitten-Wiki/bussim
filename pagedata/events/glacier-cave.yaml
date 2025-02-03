@@ -18,7 +18,7 @@ page:
       Event Runtime: h[Unknown]
 
     image: ''
-    imageBanner: /assets/bussim/images/locations/glacier-cave.webp
+    imageBanner: /assets/bussim/images/events/glacier-cave2.webp
 
 attributions: []
 content: |
@@ -77,4 +77,4 @@ content: |
     - Ungrouping the cave however by pressing Shift + U while selecting it in [Edit](edit) will allow you to prevent it from de-loading.
     - However, it will allow you to move the parts even after it has de-loaded.
 
-  !!GALLERY [/assets/bussim/images/locations/glacier-cave2.webp|/assets/bussim/images/locations/glacier-cave.webp]
+  !!GALLERY [/assets/bussim/images/events/glacier-cave2.webp|/assets/bussim/images/events/glacier-cave.webp|/assets/bussim/images/locations/glacier-cave.webp]
