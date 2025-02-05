@@ -14,7 +14,7 @@ page:
       Event Runtime: h[1 Minute and 17 Seconds (1:17)]
     
     image: ""
-    imageBanner: /assets/bussim/images/events/nuke.webp
+    imageBanner: /assets/bussim/images/events/nuke2.webp
 
 attributions: []
 
@@ -109,4 +109,5 @@ content: |
   - Before March 22, 2022, the music used to be [Screech](https://www.youtube.com/watch?v=LUT-GjQXdOI), from PAYDAY 2.
     - You can also do an Advanced Force Event specifically for this, but you *definitely* shouldn't pick this event. (120 R$ down the drain!)
   - This event has undeniably the most amount of dialogue combinations in the entire game, totalling at 1,783,600 dialogue options.
-  !!GALLERY [/assets/bussim/images/events/nuke.webp]
+  - This event icon was actually helped by Enthalpy (@axioenth), adapting from FangedWerewolf's original submission of the icon to improve the lighting and visceral of the event.
+  !!GALLERY [/assets/bussim/images/events/nuke2.webp|/assets/bussim/images/events/nuke.webp]
