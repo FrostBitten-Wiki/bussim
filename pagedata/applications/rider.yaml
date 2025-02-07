@@ -1,7 +1,9 @@
 editable: true
 page:
   title: Rider
-  description: Rider is a free external application that tracks various things throughout your entire bus journey, from events, currently playing radio songs, badges, items, to even some of the most bizzare things you didn't anticipate would be on here.
+  description: Rider is a free external application that tracks various things throughout
+    your entire bus journey, from events, currently playing radio songs, badges, items,
+    to even some of the most bizzare things you didn't anticipate would be on here.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
@@ -12,7 +14,7 @@ page:
       Category: [Applications](applications)\n  
       Tags: h[Utility / Personal / Transit]
 
-      
+
     image: ''
     imageBanner: /assets/bussim/images/applications/rider.webp
 
@@ -107,5 +109,5 @@ content: |-
     - As for why, Noble liked the idea of each event being drawn instead of being a screenshot of each event. 
   - In the Statistics section, a render of your avatar can be seen behind the stats.
   - Unlike the [Bus Radio](bus-radio), the radio UI within the En Route finishes with the text before it restarts, which often leads to some songs with very long names to now be fully seen.
-
+  - If you have Pretty Fun, Addicted or No Sleep before the Phone gets added to the game, the Longest Session tracker will default to the highest badge if the three. For example, if you have Addicted, it will default to 12 hours.
   !!GALLERY [/assets/bussim/images/applications/rider.webp]  
