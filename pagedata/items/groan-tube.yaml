@@ -1,0 +1,64 @@
+editable: true
+page:
+  title: Groan Tube
+  description: The Groan Tube is an item that uses the server / client physics for it to produce sound. It's also obtainable in No Dough, adding an extra challenge to an already silent mission.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+
+  tags: placeholder, item
+
+  header:
+    description: |
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Permanent on Special Conditions]
+
+    image: ''
+    imageBanner: /assets/bussim/images/items/groan-tube.webp
+
+content: |
+  !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Still striking iron while it's hot.\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update a whole lot easier! Really convienient, don't ya think?)"
+  "lol." -"Airhorn"
+
+  ##[Info]
+  The Groan Tube is an item that uses the server / client physics for it to produce sound. It's also obtainable in [No Dough](no-dough), adding an extra challenge to an already silent mission.
+  \n\n
+  Once obtained as a permanent item, you can customize its color, shape, sound, and decals plastered on the top of the tube. When used too, you flip the Groan Tube, causing it to shriek, or if you are in VR, can be manually tilted to achieve more specific results.
+  ##["A Disturbance of Peace" Challenge]
+  The Groan Tube is only obtained by opening a drawer closest to the entrance of the house's cash room. When clicked on, assuming you haven't already beaten the challenge before (or are playing in VR), the Groan Tube will be holstered on your waist and is temporary until you successfully escape with it. 
+  \n\n 
+  Only one player can hold at a time, and if the one holstering it dies, it will drop the Groan Tube, producing a massive shriek in its wake, but will allow others to collect it.
+  \n\n 
+  Throughout the challenge, your goal is to minimize producing as much sound as you can to avoid getting caught by [Civilians](civilians), unfortunately for you, the Groan Tube is sensitive to movement, and if you fail to be sneaky, you'll end up make sounds heard within a large range.
+  \n\n 
+  Even something as trivial as just moving produces a fainter, but noticable sound, as you must use the Groan Tube and surroundings in your advantage to escape with your life. Once you escape, you'll permanently recieve the Groan Tube. 
+  \n\n 
+  Additionally, throughout the challenge, a holographic / translucent red slider will also be present within the Groan Tube. This represents the server's view of the slider, allowing you to be aware ahead of time, as the physics is reliant on the **server, not you.**. 
+  \n\n 
+  Furthermore, if this is played while in VR, you'll have the ability to balance and rotate the Groan Tube yourself, but comes with it further strategies and risks, if you want to escape alive. 
+  ##[Soundpacks]
+  As part of the Groan Tube's customization, you can also change the sound that it produces, the soundpacks of the following:
+  - [Minecraft Shrieker](https://www.youtube.com/watch?v=2Iq_x5vaqj4)
+  ##[Trivia]
+  - If this item is used in scenarios where the gravity deviates from the usual, the follow effects will apply accordingly:
+    - If the item is used <clr:#BD8AFF>(while under low gravity), the item will produce a fainter, but longer lasting sound as the slider moves.
+    - If the item is used <clr:#781FFF>(while under high gravity), the item will produce a stronger, but shorter sound as the slider moves. 
+  - Emotes can affect the Groan Tube too, but only for the Permanent and VR-Challenge states.
+  - Rarely, the Groan Tube can produce a sound only heard to you or others very rarely (1/1000 Chance for both you and the player listening), and are often jumpscare-related sounds.
+    - The easter egg sounds are of the following:
+    - [Half-Life 2 Shrieker](https://www.youtube.com/watch?v=rUr_OFeqnYk)
+    - Stock Scream
+  - This was originally an item planned for submission by ComeOutTheCloset, but was later taken by Zoi (@zoiudolo) to work on the idea of it being a contrast to a certain event about being silent, suggested by FangedWerewolf (@noobbiom).
+  ##[Technical Trivia]
+  - The Groan Tube, despite it acting with different properties based on conditions, isn't a group of unique Groan Tubes packaged as one, but rather a single combined Groan Tube. 
+    - Using attributes, the Groan Tube's behavior can easily be toggled to different states, allowing it to exist in three different states. VR-Challenge, Challenge and Permanent. 
+  - The Groan Tube's Challenge / VR-Challenge / Client all have different behaviors, and are listed here: 
+    - VR-Challenge Groan Tube - A server-sided Groan Tube that is relative to the tube itself. 
+    - Challenge Groan Tube (Other Consoles) - A server-sided Groan Tube that is relative to the character itself. 
+    - Permanent Groan Tube (All Consoles) - A client-sided Groan Tube relative to the tube itself. 
+      - For some technical definitions:
+      - [Server-Sided] - The physics of the Groan Tube relies on the server, and will cause desync if the client has high ping. A red slider will appear for the player to see where the slider actually is in the perspective of the server. 
+      - [Client-Sided] - The physics of the Groan Tube is in your favor, with it being perfectly in sync as to how you view it. 
+      - [Relative to the Tube] - The physics of the Groan Tube relies on the actual item itself. Character animations *will* affect it, with some having higher intensity and others little to none. 
+      - [Relative to the Character] - The physics of the Groan Tube relies on your character, aka its HumanoidRootPart (The body part that designates one's position in the server.). Character animations *will not* affect it.
+
+  !!GALLERY [/assets/bussim/images/items/groan-tube.webp]
