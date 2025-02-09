@@ -23,13 +23,13 @@ attributions:
 
 content: |-
   ##[Info]
-  Disc is an NPC that sells you the items in the GOATed Gas Station in exchange for Passenger rep. He is also an Administrator in the game, like [Tazer](tazer) and [Zeon](zeon). He's also a new hire, with [Green](green) at his side.
+  Disc is an NPC that sells you the items in the GOATed Gas Station in exchange for [Coins](coins). He is also an Administrator in the game, like [Tazer](tazer) and [Zeon](zeon). He's also a new hire, with [Green](green) at his side.
 
   ##[Appearance]
   Disc is a white goat wearing a Day Light Top Hat, Floating White Crown, Blue Reflective Visor Glasses, Golden Antlers of Honor, and a custom made Discord-branded shirt.
 
   ##[Favourite Drink]
-  Disc's favourite drink is [Vanilla Iced Coffee](cafecoffee-recipes). This gives you either 2 Passenger Rep or 2 Driver rep, however this may only be done at the Cafe event.
+  Disc's favourite drink is [Vanilla Iced Coffee](cafecoffee-recipes). This gives you 140 Coins and either 2 Passenger Rep or 2 Driver Rep, however this may only be done at the Goat Station event.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"discemulator" SID:"start" URL:"/assets/bussim/emulatorData/disc.json"
@@ -52,7 +52,8 @@ content: |-
       - hg[Option 2]: Let's Talk!
           - "Oh, sure! What do you wanna talk about?"
               - hg[Option 1]: Where are we?
-                  - "We're in the convenience store of GOATed Gas! If you want, you can buy stuff from the shelves using Passenger Rep! You'll keep it forever."
+                  - "We're in the convenience store of GOATed Gas! If you want, you can buy stuff from the shelves using Coins! You'll keep it forever."
+                  - "We're in the convenience store of GOATed Gas! If you want, you can buy stuff from the shelves using Passenger Rep! You'll keep it forever." [Archived]
               - hg[Option 2]: What's with the lack of, well, stuff?
                   - "Well, we're kinda in the middle of nowhere.. we don't get deliveries that often. Still, feel free to buy something!"
               - hg[Option 3]: Who are you?
@@ -151,17 +152,22 @@ content: |-
           - hg[Variant 2]: "Let me help with that!"
               - If the player has no items to buy / bought something already:
                   - hg[Variant 1]: "So, no items? Ok..."
-                  - hg[Variant 2]: "Well, I guess I could check out that little speck of dust for 0.01 rep. But I'm not gonna accept that!"
+                  - hg[Variant 2]: "Well, I guess I could check out that little speck of dust for 0.01 coins. But I'm not gonna accept that!"
+                  - hg[Variant 2]: "Well, I guess I could check out that little speck of dust for 0.01 rep. But I'm not gonna accept that!" [Archived]
                   - hg[Variant 3]: "Empty, mpty, mt,"
                   - hg[Variant 4]: "You do know air doesn't come with a barcode, right?"
-                  - hg[Variant 5]: "So, you're gonna buy air? That's going to cost you 99999999999 rep!"
+                  - hg[Variant 5]: "So, you're gonna buy air? That's going to cost you 99999999999 coins!"
+                  - hg[Variant 5]: "So, you're gonna buy air? That's going to cost you 99999999999 rep!" [Archived]
                     - hg[Oops.]
               - If the player has an item that can be bought and is purchasable:
-                  - hg[Variant 1]: "The luxurious items are going for <total price> rep! Going once... Going Twice..."
-                  - hg[Variant 2]: "Psst... that things gonna cost you <total price> rep... Do you want it?"
-                      - hg[Option 1] (if the player has a PearcoinTM): Instead of rep, can I pay with PearcoinTM?
+                  - hg[Variant 1]: "The luxurious items are going for <total price> coins! Going once... Going Twice..."
+                  - hg[Variant 1]: "The luxurious items are going for <total price> rep! Going once... Going Twice..." [Archived]
+                  - hg[Variant 2]: "Psst... that things gonna cost you <total price> coins... Do you want it?"
+                  - hg[Variant 2]: "Psst... that things gonna cost you <total price> rep... Do you want it?" [Archived]
+                      - hg[Option 1] (If the player has a PearcoinTM): Instead of rep, can I pay with PearcoinTM?
                           - "A PearcoinTM? I've never heard of that before, but it sounds fun..! Let's do it! One pearcoinTM for..-"
-                              - Green: "Disc, no... That's just another one of those.. crypto, scam things... For your information, we only take rep. None of that digital currency garbage. Get lost."
+                              - Green: "Disc, no... That's just another one of those.. crypto, scam things... For your information, we only take coins. None of that digital currency garbage. Get lost."
+                              - Green: "Disc, no... That's just another one of those.. crypto, scam things... For your information, we only take rep. None of that digital currency garbage. Get lost." [Archived]
                                   - Disc: "U-uhhm, yeah! What she said! Get lost..!!"
                       - hg[Option 2]: Clear all items.
                           - "Alright, all of your buyable items have been cleared!"
@@ -172,6 +178,7 @@ content: |-
                                   - (The player permanently now has any item that they've bought.)
                           - If the player tries to buy the Flying Skillbook again, after obtaining Helicopter:
                               - "... and, you already owned some of the stuff you bought, so I didn't charge you for it! You saved 100 rep."
+                              - "... and, you already owned some of the stuff you bought, so I didn't charge you for it! You saved 100 rep." [Archived]
                           - If the player successfully buys the Flying Skillbook:
                               - hg[Variant 1]: "Have fun with your stuff! It's bonded with you now. ... oh yeah, we glued the pages on those skillbooks for security purposes. Let me just... There! Now have fun!"
                               - hg[Variant 2]: "Have fun with your stuff! It's bonded with you now. ... by the way, you're not using this skill for anything malicious, right?"
