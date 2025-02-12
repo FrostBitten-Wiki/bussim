@@ -1,0 +1,27 @@
+editable: true
+page:
+  title: Tomato
+  description: The Tomato is a consumable throwing item as part of ComeOutTheCloset_1's Toybox Collection, collected from a garden in the Cafe event.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+
+  tags: placeholder, item
+
+  header:
+    description: |
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Temporary]
+
+    image: ''
+    imageBanner: /assets/bussim/images/items/tomato.webp
+
+content: |
+  !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Still striking iron while it's hot.\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update a whole lot easier! Really convienient, don't ya think?)"
+  "Tomato potato..." -"Tomato"
+
+  ##[Info]
+  The Tomato is a consumable throwing item as part of ComeOutTheCloset_1's Toybox Collection, collected from a garden in the [Cafe](cafe) event.
+  \n\n 
+  When used, you throw the tomato within an arc.
+
+  !!GALLERY [/assets/bussim/images/items/tomato.webp]
