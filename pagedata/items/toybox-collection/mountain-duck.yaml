@@ -1,0 +1,25 @@
+editable: true
+page:
+  title: Mountain Duck
+  description: The Mountain Duck is an item that uses the server / client physics for it to produce sound. It's also obtainable in No Dough, adding an extra challenge to an already silent mission.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+
+  tags: placeholder, item
+
+  header:
+    description: |
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Temporary]
+
+    image: ''
+    imageBanner: /assets/bussim/images/items/groan-tube.webp
+
+content: |
+  !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Still striking iron while it's hot.\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update a whole lot easier! Really convienient, don't ya think?)"
+  "quack." -"Mountain Duck"
+
+  ##[Info]
+  The Mountain Duck is a temporary toy item as part of ComeOutTheCloset_1's Toybox Collection, collected from the [Mountain](mountain) event. When clicked, it produces a sound.
+
+  !!GALLERY [/assets/bussim/images/items/groan-tube.webp]

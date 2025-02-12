@@ -1,0 +1,27 @@
+editable: true
+page:
+  title: Gumballs
+  description: The Gumballs are a collection of items as part of ComeOutTheCloset_1's Toybox Collection, purchased from the [Goat Station](goat-station) event for 50 Coins each.  When used, your character will blow out a large bubble colored by the respective gumball, and works as a gravity-reducer, however has a limited duration and generally has drastically weaker gravity power compared to the likes of Gas Station Gravity Coil and Balloon.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+
+  tags: placeholder, item
+
+  header:
+    description: |
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Temporary, Gravity Booster]
+
+    image: ''
+    imageBanner: /assets/bussim/images/items/gumball.webp
+
+content: |
+  !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Still striking iron while it's hot.\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update a whole lot easier! Really convienient, don't ya think?)"
+  "try not to confuse gumballs with bouncy balls challenge" -"Gumballs"
+
+  ##[Info]
+  The Gumballs are a collection of items as part of ComeOutTheCloset_1's Toybox Collection, purchased from the [Goat Station](goat-station) event for 50 [Coins](coins) each. 
+  \n\n 
+  When used, your character will blow out a large bubble colored by the respective gumball, and works as a gravity-reducer, however has a limited duration and generally has drastically weaker gravity power compared to the likes of [Gas Station Gravity Coil](gas-station-gravity-coil) and [Balloon](balloon).
+
+  !!GALLERY [/assets/bussim/images/items/gumball.webp]

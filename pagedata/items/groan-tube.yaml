@@ -17,7 +17,7 @@ page:
 
 content: |
   !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Still striking iron while it's hot.\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update a whole lot easier! Really convienient, don't ya think?)"
-  "lol." -"Airhorn"
+  "uaaa auuu" -"Groan Tube"
 
   ##[Info]
   The Groan Tube is an item that uses the server / client physics for it to produce sound. It's also obtainable in [No Dough](no-dough), adding an extra challenge to an already silent mission.
@@ -49,7 +49,7 @@ content: |
     - [Zaytoven Vox Chant](https://www.youtube.com/watch?v=r9TOmAeJSHE) [Suggested by 9n (@9n25)]
     - [Half-Life 2 Shrieker](https://www.youtube.com/watch?v=rUr_OFeqnYk)
     - Stock Scream
-  - This was originally an item planned for submission by ComeOutTheCloset, but was later taken by Zoi (@zoiudolo) to work on the idea of it being a contrast to a certain event about being silent, suggested by FangedWerewolf (@noobbiom).
+  - This was originally an item planned for submission by ComeOutTheCloset_1, but was later taken by Zoi (@zoiudolo) to work on the idea of it being a contrast to a certain event about being silent, suggested by FangedWerewolf (@noobbiom).
   ##[Technical Trivia]
   - The Groan Tube, despite it acting with different properties based on conditions, isn't a group of unique Groan Tubes packaged as one, but rather a single combined Groan Tube. 
     - Using attributes, the Groan Tube's behavior can easily be toggled to different states, allowing it to exist in three different states. VR-Challenge, Challenge and Permanent. 

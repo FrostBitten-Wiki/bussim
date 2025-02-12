@@ -96,10 +96,11 @@ content: |-
   |Win a Friday Night match against someone | <clr:#FFE669>(500 Coins) | <clr:#800000>(9n25 - "i don't know what to say here, i've never played it. good luck!")\n\n<clr:#D36BFF>(Axel - "I'm awful at rhythm games, unlike my friend Dave.")\n\n<clr:#3052DB>(Cerus - "Give me some time to think of something, I'll challenge you eventually.")\n\n<clr:#3D3D3D>(D6\n- "I actually despise this game, like genuinely." [Variant 1]\n- "NEXT GAME" [Variant 2])\n\n<clr:#878FFF>(Disc - "Used to be good at it! Until I broke my fingers...")\n\n<clr:#2C35B8>(Fang - "Hopefully you got someone to fight with... and a cartridge at that...")\n\n<clr:#F5BA45>(Foxman - "I ain't so rhythm talented...but I do sing pretty well ive been told...")\n\n<clr:#BFFFFD>(Frostbite - "Oh, is that the game that Pear talks about? Feel free to use my stage for it!")\n\n<clr:#C219FF>(Lunar - "i suck at sightreading :{")\n\n<clr:#FF9B4F>(MLG - "I love hit rhythm game!!! I'm pretty decent at it too!")\n\n<clr:#85B1FF>(Noble - "If you see me in-game, just know that I won't back down.")\n\n<clr:#75FFBF>(NotFunnyCardboardClown - "Get pear or someone to help you with that one.")\n\n<clr:#34eb7d>(Nyx\n- "I'm REALLY good at rhythm games!" [Variant 1]\n- "If you were the person that I told that I was good at rhythm games... no.. not THAT good!" [Variant 2] [Rare, 1/24 Chance])\n\n<clr:#B9FF8A>(Pear\n- "If you know me well enough, I'll let you play against me~" [Archived]\n- "")\n\n<clr:#FF00FF>(Tazer - "I'd rather be mixing music on a deck...")\n\n<clr:#4b4060>(User - "i'm not the biggest fan of this.")\n\n<clr:#8c35d4>(Zeon - "I'm not good at it... Maybe ask Pear instead?")\n\n<clr:#FFC670>(Ziti - "FNF? Oh I've done that before!")|Challenging Pear counts for this quest. |
   |Witness the DVD logo hit the corner of the screen| <clr:#FFE669>(200 Coins) | <clr:#800000>(9n25 - "Even if it's meaningless... sometimes, nice things happen.")\n\n<clr:#D36BFF>(Axel - "It's like key jiggling for the past generation.")\n\n<clr:#3052DB>(Cerus - "I remember having one of those players back in the day.")\n\n<clr:#3D3D3D>(D6\n- "attention span check" [Variant 1]\n- "this one requires an attention span longer than *hey what's that over there*" [Variant 2])\n\n<clr:#878FFF>(Disc - "I prefer those sorting algorithm videos...")\n\n<clr:#2C35B8>(Fang - "YOOOOOOOOOOOOOOO")\n\n<clr:#F5BA45>(Foxman\n- "Such great memories..." [Variant 1]\n- "Must be one of them port dealies ya know?" [Variant 2])\n\n<clr:#BFFFFD>(Frostbite - "Do people even have DVD players anymore?")\n\n<clr:#C219FF>(Lunar - "YOOOOOO IT HIT THE CORNER GUYS!!!")\n\n<clr:#FF9B4F>(MLG - "Funny how with the onset of modern tech, you don't really see the DVD logo anymore.")\n\n<clr:#85B1FF>(Noble - "Remember to keep the TV on-screen!")\n\n<clr:#75FFBF>(NotFunnyCardboardClown - "People really lose their minds over the DVD logo hitting the corner huh?")\n\n<clr:#34eb7d>(Nyx\n- "This has been really nice to watch since my childhood!" [Variant 1]\n- "This won't take long! Just get up and drink a cup of water." [Variant 2]\n- "I'd waste hours of my time waiting for the logo to hit the corner!" [Variant 3]\n- "Tell me if the DVD Logo hits the corner of the screen! Or I'll hit you with a DVD Player instead." [Variant 4]\n- "A quick break to drink water while looking at the TV screen would make this a piece of cake to do!" [Variant 5])\n\n<clr:#B9FF8A>(Pear\n- "The suspense is killing meeee!!!" [Archived]\n- "")\n\n<clr:#FF00FF>(Tazer - "What we watchin'?")\n\n<clr:#4b4060>(User - "YOOOOOOOOO")\n\n<clr:#8c35d4>(Zeon - "Oh DUDE it's more awesome than you think!!!!")\n\n<clr:#FFC670>(Ziti - "I could watch it bounce for hours.")|<0px>(.) |
   ##[Shop]
-  The shop allows you to purchase event items that you have encountered throughout your journey and can also be traded for <clr:#8793FF>(Tokens), which allows one to initiate a forced event without paying any Robux.
+  The shop allows you to purchase non-permanent items that you have encountered throughout your journey and can also be traded for <clr:#8793FF>(Tokens), which allows one to initiate a forced event without paying any Robux.
   \n\n 
   The catalog for every item you can purchase are as follows:
-  ###[__Tokens__]
+  ###[__Token Trade__]
+  "convert coins into various tokens" -"Token Trade"
   | Image | Item | Cost | Description |
   |-------|------|------|-------------|
   |![120x120](/bussim-assets/images/items/phone/pears-place/basic-event-token.webp)|Basic Event Token| <clr:#FFE669>(1600 Coins) | Allows you to force a random event. |
@@ -107,6 +108,7 @@ content: |-
   |![120x120](/bussim-assets/images/items/phone/pears-place/song-token.webp)|Song Token| <clr:#FFE669>(500 Coins) | Allows you to request a song on the radio. |
   \n 
   ###[__The Event Collection__]
+  "items from events you've experienced" -"The Event Collection"
   | Image | Item | Cost | Description | Origin / Requirement |
   |-------|------|------|-------------|----------------------|
   |![120x120](/bussim-assets/images/items/burger.webp)|[Burger](burger)|<clr:#FFE669>(10 Coins) | Cheeseburger of dubious quality. | [BloxDonalds](bloxdonalds) |
@@ -128,7 +130,13 @@ content: |-
   |![120x120](/bussim-assets/images/items/liquid-void.webp)|[Liquid Void](liquid-void)|<clr:#FFE669>(1750 Coins) | Indecipherable liquid substance. Makes you invisible when consumed in moderation. | [Backwalls](backwalls) |
   |![120x120](/bussim-assets/images/items/almond-water.webp)|[Almond Water](almond-water)|<clr:#FFE669>(500 Coins) | Refreshing and rejuvenating water-like liquid. Heals injuries almost immediately. | [Backwalls](backwalls) |
   |![120x120](/bussim-assets/images/items/void-burger.webp)|[Void Burger](void-burger)|<clr:#FFE669>(650 Coins) | Burger with a void-based patty. Makes you invisible when consumed in moderation. | [Backwalls](backwalls) |
+  ###[__Nook of Knowledge__]
+  "select items discovered outside of events" -"Nook of Knowledge"
+  | Image | Item | Cost | Description | Origin / Requirement |
+  |-------|------|------|-------------|----------------------|
+   |![120x120](/bussim-assets/images/items/ice-cream.webp)|[Ice Cream](ice-cream)|<clr:#FFE669>(20 Coins) | Simple vanilla cone. | [Ice Cream Truck](vehicles) |
   ###[__Miscellaneous__]
+  "other things you might need" -"Miscellaneous"
   | Image | Item | Cost | Description |
   |-------|------|------|-------------|
   |![autoxauto](/bussim-assets/images/applications/pears-place/screen-repair.webp)|Screen Repair| <clr:#FFE669>(115 Coins) | Fix a cracked display. |

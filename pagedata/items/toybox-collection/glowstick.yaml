@@ -1,0 +1,25 @@
+editable: true
+page:
+  title: Glowstick
+  description: The Glowstick is an item as part of ComeOutTheCloset_1's Toybox Collection, purchased from the [Goat Station](goat-station) event.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+
+  tags: placeholder, item
+
+  header:
+    description: |
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Permanent on Special Conditions]
+
+    image: ''
+    imageBanner: /assets/bussim/images/items/glowstick.webp
+
+content: |
+  !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Still striking iron while it's hot.\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update a whole lot easier! Really convienient, don't ya think?)"
+  "Forbidden juice." -"Glowstick"
+
+  ##[Info]
+  The Glowstick is an item as part of ComeOutTheCloset_1's Toybox Collection, purchased from the [Goat Station](goat-station) event.
+
+  !!GALLERY [/assets/bussim/images/items/glowstick.webp]
