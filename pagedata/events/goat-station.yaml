@@ -33,18 +33,18 @@ content: |
 
   ##[GOATed Gas Station]
   "We're in the convenience store of GOATed Gas! If you want, you can buy stuff from the shelves using Passenger Rep! You'll keep it forever." -"Disc"
-  GOATed Gas is a gas station next to the Bus and Zeon & MLG's house. The station contains 8 items which is free to take, with 5 of them being permanent assuming you buy them using Passenger Reputation. The table of cost is as follows: 
+  GOATed Gas is a gas station next to the Bus and Zeon & MLG's house. The station contains 8 items which is free to take, with 5 of them being permanent assuming you buy them using [Coins](coins). The table of cost is as follows: 
   \n\n
-  |Item|Passenger Reputation Cost|Status After Purchase|
+  |Item|Coin Cost|Status After Purchase|
   |----|-------------------------|---------------------|
   |[Goala Cola](goala-cola)|Free|Not Permanent|
   |[Redblox](redblox)|Free|Not Permanent|
   |[Cola](cola)|Free|Not Permanent|
-  |[Compass](compass)|4|Permanent|
-  |[Gas Station Ice Cream](gas-station-ice-cream)|8|Permanent|
-  |[Gas Station Gravity Coil](gas-station-gravity-coil)|15|Permanent|
-  |[Kernels](kernels)|20|Permanent|
-  |[Flying Skillbook](flying-skillbook)\n[(Helicopter)](helicopter)|100|Permanent\n<12px>([You'll recieve the Helicopter instead after purchase.])|
+  |[Compass](compass)|100|Permanent|
+  |[Gas Station Ice Cream](gas-station-ice-cream)|135|Permanent|
+  |[Gas Station Gravity Coil](gas-station-gravity-coil)|415|Permanent|
+  |[Kernels](kernels)|300|Permanent|
+  |[Flying Skillbook](flying-skillbook)\n[(Helicopter)](helicopter)|4,500|Permanent\n<12px>([You'll recieve the Helicopter instead after purchase.])|
   \n\n
   Although you can take them for free just by walking out, any item you haven't purchased yet will not be permanent*. Goala Colas, Colas and Redbloxes are always never permanent.
   \n\n 

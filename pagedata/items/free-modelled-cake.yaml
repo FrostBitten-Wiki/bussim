@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Free-Modelled Cake
-  description: The Free-modeled Cake (or known as Birthday Cake) is a consumable item in Bus Simulator, gotten from everyone in the Birthday Event.
+  description: The Free-modeled Cake (or known as Birthday Cake) is a consumable item in Bus Simulator, gotten from everyone in the Birthday Event. It can also be bought in Pear's Place for 20 Coins after being unlocked.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -23,7 +23,7 @@ content: |
   "Tastes like plastic... but that's fine with you." -"Free-Modelled Cake"
 
   ##[Info]
-  The Free-modeled Cake (or known as Birthday Cake) is a consumable item in Bus Simulator, gotten from everyone in the [Birthday Event](birthday).
+  The Free-modeled Cake (or known as Birthday Cake) is a consumable item in Bus Simulator, gotten from everyone in the [Birthday Event](birthday) or from [Pear's Place](pears-place) for 20 [Coins] once unlocked / obtained once.
   \n\n 
   It has the same model and texture as the classic ROBLOX Cake. It doesn't heal nor reduce your health, and isn't a permanent item. 
 

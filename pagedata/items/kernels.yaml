@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Kernels
-  description: The Kernels is a permanent item that doesn't do much by itself, but is needed to obtain the Popcorn Bucket.
+  description: The Kernels is a permanent item that doesn't do much by itself, but is needed to obtain the Popcorn Bucket. It can also be bought in Pear's Place for 100 Coins after being unlocked, and 300 Coins in Goat Station for permanent access.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, cafe
 
@@ -23,7 +23,7 @@ content: |
  ##[Info]
  The Kernels is a permanent item that doesn't do much by itself, but is needed to obtain the [Popcorn Bucket](popcorn-bucket).
  \n 
- The item costs 300 [Coins](coins), or originally 20 Passenger Reputation to keep, and can be used on perfect-condition Popcorn Machines in the [Backwalls](backwalls) to make Popcorn. It can also be stolen and obtained for free, but will always be temporary.
+ The item costs 300 [Coins](coins), or originally 20 [Passenger Reputation](reputation) to keep in [Goat Station](goat-station), or 100 [Coins](coins) if bought in Pear's Place. Only purchased item in Goat Station counts as permanent, and can be used on perfect-condition Popcorn Machines in the [Backwalls](backwalls) to make Popcorn. It can also be stolen and obtained for free, but will always be temporary.
  \n\n 
  Using it outside of the machines will cause the player to dump out kernels, which does nothing. You also don't need to have the kernels out to start the Popcorn Machine, as long as you still have it.
  ##[Trivia]

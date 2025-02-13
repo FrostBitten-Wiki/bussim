@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Ice Cream
-  description: The Ice Cream is an edible item that is obtained from the ice cream truck. 
+  description: The Ice Cream is an edible item that is obtained from the ice cream truck. It can also be bought in Pear's Place for 20 Coins after being unlocked.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -23,7 +23,7 @@ content: |
   "Super Cold!" -"Ice Cream"
 
   ##[Info]
-  The Ice Cream is an edible item that is obtained from the ice cream truck. 
+  The Ice Cream is an edible item that is obtained from the ice cream truck or from [Pear's Place](pears-place) for 20 [Coins] once unlocked / obtained once.
   \n\n 
   You can only obtain it by waiting for an event where the bus stops, as the Ice Cream truck moves along with the bus. When consumed, it heals a miniscule amount of health.
   \n\n 

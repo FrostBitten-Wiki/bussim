@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Bucket?
-  description: Bucket? is an item that doesn't do much by itself, but is needed to obtain the Popcorn Bucket.
+  description: Bucket? is an item that doesn't do much by itself, but is needed to obtain the Popcorn Bucket. It can also be bought in Pear's Place for 100 Coins after being unlocked.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, cafe
 
@@ -21,7 +21,7 @@ attributions:
 content: |
  "Empty bucket... Empty stomach..." -"Bucket?"
  ##[Info]
- The Bucket? is an item obtainable within both Zeon's House during the [Goat Station](goat-station) event and the [Picnic](picnic) event, and is mainly used to carry over to the Backwalls, where it's used as a vessel for the [Popcorn Bucket](popcorn-bucket). 
+ The Bucket? is an item obtainable within both Zeon's House during the [Goat Station](goat-station) event, the [Picnic](picnic) event or from [Pear's Place](pears-place) for 100 [Coins] once unlocked / obtained once, and is mainly used to carry over to the Backwalls, where it's used as a vessel for the [Popcorn Bucket](popcorn-bucket). 
  \n\n
  This does nothing on its own and is more rather paired with [Kernels](kernels) and the Popcorn Machine to create the [Popcorn Bucket](popcorn-bucket). 
 

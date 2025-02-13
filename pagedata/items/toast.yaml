@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Toast
-  description: The Toast is a temporary item from the Goat Station Event, which can be obtained by clicking on the Toaster in Zeon's house, and waiting a few seconds until it pops out.
+  description: The Toast is a temporary item from the Goat Station Event, which can be obtained by clicking on the Toaster in Zeon's house, and waiting a few seconds until it pops out. It can also be bought in Pear's Place for 10 Coins after being unlocked.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim item item
   
@@ -23,7 +23,7 @@ content: |
   "All toasters toast toast." -"Toast"
 
   ##[Info]
-  The Toast is a temporary item from the [GOATed Gas Station](goat-station) event, which can be obtained by clicking on the Toaster in [Zeon](zeon)'s house, and waiting a few seconds until it pops out.
+  The Toast is a temporary item from the [GOATed Gas Station](goat-station) event, which can be obtained by clicking on the Toaster in [Zeon](zeon)'s house, and waiting a few seconds until it pops out. It can also be obtained from [Pear's Place](pears-place) for 10 [Coins] once unlocked / obtained once.
   \n\n
   The item, when consumed, wiil recover a small amount of health.
   ##[Obtaining]

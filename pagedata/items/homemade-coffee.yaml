@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Homemade Coffee
-  description: The Homemade Coffee is an temporary item from the Goat Station event, and recovers more health than the Cola and regular Coffee.
+  description: The Homemade Coffee is an temporary item from the Goat Station event, and recovers more health than the Cola and regular Coffee. It can also be bought in Pear's Place for 20 Coins after being unlocked.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -23,7 +23,7 @@ content: |
   "Tastes.. genuine." -"Homemade Coffee"
 
   ##[Info]
-  The Homemade Coffee is an temporary item from the Goat Station event, and recovers more health than the [Cola](cola) and regular [Coffee](coffee).
+  The Homemade Coffee is an temporary item from the Goat Station event or from [Pear's Place](pears-place) for 20 [Coins] once unlocked / obtained once, and recovers more health than the [Cola](cola) and regular [Coffee](coffee).
   \n\n 
   The item is the same as the regular Coffee, but is in a mug instead of a BloxDonalds cup. 
   \n\n

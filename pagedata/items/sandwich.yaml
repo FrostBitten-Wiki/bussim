@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Sandwich
-  description: The Sandwich is a food item obtainable from the Picnic event.
+  description: The Sandwich is a food item obtainable from the Picnic event. It can also be bought in Pear's Place for 10 Coins after being unlocked.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -23,7 +23,7 @@ content: |
   "Made with love." -"Sandwich"
 
   ##[Info]
-  The Sandwich is a food item obtainable from the [Picnic Event](picnic). 
+  The Sandwich is a food item obtainable from the [Picnic Event](picnic) or from [Pear's Place](pears-place) for 10 [Coins] once unlocked / obtained once. 
   \n
   The item, when consumed, heals a tiny bit of health. 
 

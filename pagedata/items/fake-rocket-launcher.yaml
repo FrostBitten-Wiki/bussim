@@ -1,7 +1,7 @@
 editable: True
 page:
   title: 'Rocket Launcher'
-  description: The Fake Rocket Launcher is an item obtained in the Shack event. 
+  description: The Fake Rocket Launcher is an item obtained in the Shack event. It can also be bought in Pear's Place for 10 Coins after being unlocked.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -23,7 +23,7 @@ content: |
   "It might still work after sitting dormant for so long." -"'Rocket Launcher'"
 
   ##[Info]
-  The Fake Rocket Launcher or now known as the 'Rocket Launcher' is an item obtained in the [Shack](shack) event. 
+  The Fake Rocket Launcher or now known as the 'Rocket Launcher' is an item obtained in the [Shack](shack) event or from [Pear's Place](pears-place) for 10 [Coins] once unlocked / obtained once. 
   \n\n 
   When used, it will at first seem to sound like a normal rocket launcher from Roblox, but will instead explode the person who holds this item instead, It can't also be used to kill other players if you are standing next to them. 
 
