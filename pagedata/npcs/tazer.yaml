@@ -27,7 +27,7 @@ content: |-
   Tazer wears a set based off of the Cyber Critter 9004, for both his clothing as well as his visor. He also has a PDA on his wrist, a pair of wings, a fabulous ladies hat, and both a banner and a relay pack on his back.
 
   ##[Favourite Drink (Coffee Shop)]
-  Tazer's favourite drink is [Cup of Glowstick Fluid](cafe-coffee-recipes). This gives you either 3 Passenger Rep or 3 Driver Rep, however this may only be done at the Cafe event.
+  Tazer's favourite drink is [Cup of Glowstick Fluid](cafe-coffee-recipes). This gives you either 3 Passenger Rep or 3 Driver Rep alongside 210 Coins. However this may only be done at the [Cafe](cafe) event.
 
   ##[Dialogue]
   ###[**Goat Station**]
@@ -35,7 +35,8 @@ content: |-
 
   - hg[Variant 1]: "Beep boop?"
   - hg[Variant 2]: "zzzzz.... Wha?... Oh, what's up?"
-  - hg[Variant 3]: "Can you believe the prices of gas these days? It cost me 55 passenger rep just to fill up the gas tank on my Mini Bus!"
+  - hg[Variant 3]: "Can you believe the prices of gas these days? It cost me 2000 coins just to fill up the gas tank on my Mini Bus!"
+  - hg[Variant 3]: "Can you believe the prices of gas these days? It cost me 55 passenger rep just to fill up the gas tank on my Mini Bus!" [Archived]
   - hg[Variant 4]: "Am I finally out of detention? Oh, you're not the principal. What do you want?"
       - hg[Option 1]: Do you know about the gas station over there?
           - "Oh, that place? Don't know much about it, but I drove my Mini-Bus around in there a few days ago and got kicked out. They said something like.."
@@ -56,9 +57,11 @@ content: |-
                       - "If I wasn't being watched by the teachers so closely, don't you think I would have already DONE that by now?"
                   - hg[Option 2]: F
               - hg[Variant 4]: "I saw some dude jumping around with some sort of rocket launcher made of cones a while ago. Not sure how it works, but if I were you, I wouldn't make them angry."
-              - hg[Variant 5]: "I'm a bit hungry. How about if you can find a stick of RAM and bring it back to me, I can give you... How about 2 Driver Rep in return?"
+              - hg[Variant 5]: "I'm a bit hungry. How about if you can find a stick of RAM and bring it back to me, I can give you... How about **2 Driver Rep** and **200 Coins** in return?"
+              - hg[Variant 5]: "I'm a bit hungry. How about if you can find a stick of RAM and bring it back to me, I can give you... How about **2 Driver Rep** in return?" [Archived]
                   - hg[Option 1]: There's no way you said it unironically.
-                      - "Yeah, what's it to you? Do you want the rep or not?"
+                      - "Yeah, what's it to you? Do you want the reward or not?"
+                      - "Yeah, what's it to you? Do you want the rep or not?" [Archived]
                           - hg[Option 1]: Sure, I guess so.
                               - "Cool. I don't know where you'd find one, though. Maybe [Zeon](zeon) has one?"
                           - hg[Option 2]: No.
@@ -69,9 +72,11 @@ content: |-
                       - Proceeds to hg[Option 5] Variants 1 - 2
       - hg[Option 5]: I'm back, and I have your RAM. (Only appears if the player has the ram stick)
         - "Wait, really?" 
-          - hg[Variant 1]: "Thanks! Here's that rep I promised."
-          - hg[Variant 2]: "Here's your rep, now get lost! Haha just kidding! Feel free to talk to me again sometime."
-            - (The player then receives 2 Driver Reputation.)
+          - hg[Variant 1]: "Thanks! Here's that reward I promised."
+          - hg[Variant 1]: "Thanks! Here's that rep I promised." [Archived]
+          - hg[Variant 2]: "Here's your stuff, now get lost!" 
+          - hg[Variant 2]: "Here's your rep, now get lost! Haha just kidding! Feel free to talk to me again sometime." [Archived]
+            - (The player then receives 2 Driver Reputation and 200 Coins.)
           - hg[Variant 3] (Illegal RAM): "Hey, wait a second.. This RAM is unmarked! Bootleg! Are you trying to scam me? Well, this'll be the last scam you'll ever pull."
             - (The player then explodes.)
           - hg[Variant 4] (Missing RAM, extremely rare): "Hey, wait a second.. you lied to me! There's no ram here! This'll teach you for being such a trickster..."
@@ -138,12 +143,17 @@ content: |-
             - hg[I guess.]
         - hg[Option 2]: Can you tune my minibus next? <13px>((Accessible if you have a Mini-Bus.))
           - "Alright, but don't get mad at me if it ain't what ya want. And I ain't doin this free, either. Pay up or no tune."
-          - "**45** passenger rep for part cost and a body kit. I'll also need your keys to dyno it after to make sure everything runs right."
+          - "**???** coins for part cost and a body kit. I'll also need your keys to dyno it after to make sure everything runs right."
+          - "**45** passenger rep for part cost and a body kit. I'll also need your keys to dyno it after to make sure everything runs right." [Archived]
             - hg[Option 1]: No thank you..
               - "Aight, your choice then."
             - hg[Option 2]: Deal!
-              - "Pass over the rep and your keys." <13px>((Player then purchases the E-Bus design if they have enough.))
-                - If the player doesn't have enough reputation:
+              - "Pass over the coins and your keys." <13px>((Player then purchases the E-Bus design if they have enough.))
+                - If the player doesn't have enough coins:
+                  - "Woahh, hold up a second bud..." 
+                  - "You ain't got the coins for this. No can do, sorry. Come back once ya got enough coins to pay me."
+                  - "Just in case you forgot, you can get more passenger rep by thanking your Driver."
+                - If the player doesn't have enough reputation: [Archived]
                   - "Woahh, hold up a second bud..." 
                   - "You ain't got the rep for this. No can do, sorry. Come back once ya got enough rep to pay me."
                   - "Just in case you forgot, you can get more passenger rep by thanking your Driver."
@@ -260,7 +270,7 @@ content: |-
     - "Who knows, maybe I might get more power out of my Mini-Bus by using it as fuel!"
   - If you give Tazer <clr:#7300fe>(***Cup of Glowstick Fluid***):
     - "Well, you actually figured it out. I must admit, I'm honestly impressed."
-    - "And hey, since I put you through all the hassle of solving a riddle all on your own, here's 3 some rep to make up for it."
+    - "And hey, since I put you through all the hassle of solving a riddle all on your own, here's some rep and coins to make up for it."
       - If you given him another <clr:#7300fe>(***Cup of Glowstick Fluid***):
         - "Another one, huh?"
         - hg[Variant 1]: "Awesome."

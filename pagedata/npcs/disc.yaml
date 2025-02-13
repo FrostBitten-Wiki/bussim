@@ -2,7 +2,7 @@ editable: true
 page:
   title: Disc
   description: Disc is an NPC that sells you the items in the GOATed Gas Station in
-    exchange for Passenger rep. He is also an admin in the game, like Tazer and Zeon.
+    exchange for Coins. He is also an admin in the game, like Tazer and Zeon.
     He's also a new hire, with Green at his side.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim banana npc
@@ -164,7 +164,8 @@ content: |-
                   - hg[Variant 1]: "The luxurious items are going for <total price> rep! Going once... Going Twice..." [Archived]
                   - hg[Variant 2]: "Psst... that things gonna cost you <total price> coins... Do you want it?"
                   - hg[Variant 2]: "Psst... that things gonna cost you <total price> rep... Do you want it?" [Archived]
-                      - hg[Option 1] (If the player has a PearcoinTM): Instead of rep, can I pay with PearcoinTM?
+                      - hg[Option 1] (If the player has a PearcoinTM): Instead of coins, can I pay with PearcoinTM?
+                      - hg[Option 1] (If the player has a PearcoinTM): Instead of rep, can I pay with PearcoinTM? [Archived]
                           - "A PearcoinTM? I've never heard of that before, but it sounds fun..! Let's do it! One pearcoinTM for..-"
                               - Green: "Disc, no... That's just another one of those.. crypto, scam things... For your information, we only take coins. None of that digital currency garbage. Get lost."
                               - Green: "Disc, no... That's just another one of those.. crypto, scam things... For your information, we only take rep. None of that digital currency garbage. Get lost." [Archived]
@@ -177,7 +178,7 @@ content: |-
                               - "Have fun with your stuff! It's bonded with you now."
                                   - (The player permanently now has any item that they've bought.)
                           - If the player tries to buy the Flying Skillbook again, after obtaining Helicopter:
-                              - "... and, you already owned some of the stuff you bought, so I didn't charge you for it! You saved 100 rep."
+                              - "... and, you already owned some of the stuff you bought, so I didn't charge you for it! You saved 4,500 coins."
                               - "... and, you already owned some of the stuff you bought, so I didn't charge you for it! You saved 100 rep." [Archived]
                           - If the player successfully buys the Flying Skillbook:
                               - hg[Variant 1]: "Have fun with your stuff! It's bonded with you now. ... oh yeah, we glued the pages on those skillbooks for security purposes. Let me just... There! Now have fun!"
@@ -186,7 +187,14 @@ content: |-
                               - hg[Variant 4]: "Have fun with your stuff! It's bonded with you now. ... I, uh, unglued the book, by the way."
                       - hg[Option 4]: No thanks.
                           - "Oh.. well, if you change your mind, let me know!"
-              - If the player's [total price] exceeds their current Passenger Rep:
+              - If the player's [total price] exceeds their current Coins:
+                  - hg[Variant 1]: "Sorry, but you don't have enough coins to purchase that!"
+                  - hg[Variant 2]: "Hey [Player], if you look to the top of your screen, you'll see that you don't have enough coins to purchase this..."
+                      - hg[Option 1] (if the player has a PearcoinTM): Really? How about a shiny PearcoinTMTM instead?
+                          - "A PearcoinTM? I've never heard of that before, but it sounds fun..! Let's do it! One PearcoinTM for..-"
+                              - Green: "Disc, no... That's just another one of those.. crypto, scam things... For your information, we only take coins. None of that digital currency garbage. Get lost."
+                                  - Disc: "U-uhhm, yeah! What she said! Get lost..!!"
+              - If the player's [total price] exceeds their current Passenger Rep: [Archived]
                   - hg[Variant 1]: "Sorry, but you don't have enough rep to purchase that!"
                   - hg[Variant 2]: "Hey [Player], if you look to the top of your screen, you'll see that you don't have enough rep to purchase this..."
                       - hg[Option 1] (if the player has a PearcoinTM): Really? How about a shiny PearcoinTMTM instead?
