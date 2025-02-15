@@ -34,17 +34,17 @@ content: |
  !!INFOBOX TITLE:"Admin Exclusive Content" COLOR:"#ff66ff" TEXT:"*\"Sometimes I've seen a bus that has a lot of other strange stuff on or around it, as well as some dude holding some Blueprints. How do they do it...?\"* - Zeon\nv(This page has content exclusive to admins of the game. This may include scrapped / hidden content that is normally inaccessible during normal gameplay.)"
  Color: Pink \n\n
  !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Still striking iron while it's hot.\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update a whole lot easier! Really convienient, don't ya think?)"
- Color: Orange \n\n
+ Color: Orange (Not Present in Beta / Main) \n\n
  !!INFOBOX TITLE:"Early Access Content" COLOR:"#23358C" TEXT:"*\"The night's still young!\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update easier. Most of the info shown are with the discretion that it can and will change.)"
  Color: Navy (ALT Early Access) \n\n
  !!INFOBOX TITLE:"Early Access Content / Beta Content" COLOR:"#23358C" TEXT:"*\"Careful now...\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update easier. Most of the info shown are with the discretion that it can and will change.)"
- Color: Navy (Beta Early Access)
+ Color: Navy (Present Only in Beta / Early Access)
  !!INFOBOX TITLE:"Early Access Content / Beta Content on or with Existing Content" COLOR:"#33D6FF" TEXT:"*\"Don't mind the mess!\"* - Fang\nv(This category has slightly new content reserved for a future update, which includes a whole bunch of new stuff, and is here to make editing post-update easier. Most of the info shown are with the discretion that it may not hold up to the base game.)"
  Color: Aqua (Merged Beta Content to Existing Content)
- !!INFOBOX TITLE:"Work In Progress / Placeholder Content" COLOR:"#C4FF96" TEXT:"*\"Oh dear, is that a bomb? Oh gosh i hope you dont explode in 3 seconds, that would be quite unfortunate.\"* - Charlotte\nv(This page is under construction and is only here so that it won't lead to an error!! I promise I'll work on it!!!! - Fang)"
- Color: Pale Lime (Placeholder Severity)
+ !!INFOBOX TITLE:"Massive Work In Progress / Placeholder Content" COLOR:"#C4FF96" TEXT:"*\"Oh dear, is that a bomb? Oh gosh i hope you dont explode in 3 seconds, that would be quite unfortunate.\"* - Charlotte\nv(This page is under construction and is only here so that it won't lead to an error!! I promise I'll work on it!!!! - Fang)"
+ Color: Pale Lime (Serious Placeholders)
  !!INFOBOX TITLE:"Work In Progress" COLOR:"#c0700c" TEXT:"*\"not much to talk here, but.. well..\"* - efeuc\nv(This page is a stub, it may not contain all of the information in the game; so adding more information to this page is always appreciated!)"
- Color: Ginger \n\n
+ Color: Ginger (Casual Placeholders) \n\n
  !!INFOBOX TITLE:"Deleted Content" COLOR:"#ff0000" TEXT:"*\"Ehhhh... I'm kind of feeling a bit spooked right now. I have a big sense of like, deja vu.. Maybe next time...\"* -Tazer\nv(This page has content that's already been deleted from the game, however will be kept purely for archival purposes.)"
  Color: Pure Red \n\n
  !!INFOBOX TITLE:"Easter Egg Content" COLOR:"#A1FFEF" TEXT:"*\"funny!\"* - Fang\nv(This page is mainly easter egg content and is *never* found in the game. This is also where Wiki Contributors mess around.)"

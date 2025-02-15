@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Gas Station Gravity Coil
-  description: The Gas Station Gravity Coil is a tool obtainable by purchasing it for 415 Coins, or originally 15 Passenger Reputation during the Goat Station Event, or for free by stealing it. Stealing the item will always be temporary.
+  description: The Gas Station Gravity Coil is a tool obtainable by purchasing it for 415 Coins during the Goat Station Event, or for free by stealing it. Stealing the item will always be temporary.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -23,10 +23,12 @@ content: |
   "Everything's always slightly off when it comes from a gas station.." -"Gas Station Gravity Coil"
 
   ##[Info]
-  The Gas Station Gravity Coil is a tool obtainable by purchasing it for 415 [Coins](coins), or originally [15 Passenger Reputation](reputation) during the [Goat Station Event](goat-station), or for free by stealing it. Stealing the item will always be temporary.
+  The Gas Station Gravity Coil is a tool obtainable by purchasing it for 415 [Coins](coins) during the [Goat Station Event](goat-station), or for free by stealing it. Stealing the item will always be temporary.
   \n\n 
   Upon equipping, your character's gravity will be reduced by a small amount, less than half as effective as the normal Gravity Coil.
   \n\n 
   It'll also play a flangey sounding gravity coil sound effect, further driving the idea that this is a weaker item than one would expect. 
+  ##[Trivia]
+  - Prior to the Phone Overhaul, this used to cost [15 Passenger Reputation](reputation) during its debut. 
 
   !!GALLERY [/assets/bussim/images/items/gas-station-gravity-coil.webp]

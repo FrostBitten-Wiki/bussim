@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Compass
-  description: The Compass is a tool obtainable by purchasing it for for 100 Coins, or originally 4 Passenger Reputation during the Goat Station Event, or for free by stealing it. Stealing the item will always be temporary.
+  description: The Compass is a tool obtainable by purchasing it for for 100 Coins during the Goat Station Event, or for free by stealing it. Stealing the item will always be temporary.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -23,7 +23,7 @@ content: |
   "Points towards North... I think." -"Compass"
 
   ##[Info]
-  The Compass is a tool obtainable by purchasing it for 100 [Coins](coins), or originally [4 Passenger Reputation](reputation) during the [Goat Station Event](goat-station), or for free by stealing it. Stealing the item will always be temporary.
+  The Compass is a tool obtainable by purchasing it for 100 [Coins](coins) during the [Goat Station Event](goat-station), or for free by stealing it. Stealing the item will always be temporary.
   \n\n 
   The tool doesn't seem to do much, as all it does is always point to north, however, if paired with the [Exit Explorer Map](exit-explorer-map) from the [Backwalls Bloxdonalds](bloxdonalds-backwalls), you'll be able to find your own character's direction and position.
   ##[Trivia]
@@ -31,5 +31,6 @@ content: |
     - This is very likely just an oversight though.
   - Assuming it actually does point North, then The Bus has been going South throughout the entire journey.
   - This was the first two items that were given the ability to cooperate with each other, being the [Exit Explorer Map](exit-explorer-map) and the Compass.
+  - Prior to the Phone Overhaul, this used to cost [4 Passenger Reputation](reputation) during its debut. 
 
   !!GALLERY [/assets/bussim/images/items/compass.webp]

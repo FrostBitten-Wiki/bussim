@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Gas Station Ice Cream
-  description: The Gas Station Ice Cream is a tool obtainable by purchasing it for 135 Coins, or originally 8 Passenger Reputation during the Goat Station Event, or for free by stealing it. Stealing the item will always be temporary.
+  description: The Gas Station Ice Cream is a tool obtainable by purchasing it for 135 Coins during the Goat Station Event, or for free by stealing it. Stealing the item will always be temporary.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -23,8 +23,10 @@ content: |
   "It tastes a little bit artifical." -"Gas Station Ice Cream"
 
   ##[Info]
-  The Gas Station Ice Cream is a tool obtainable by purchasing it for 135 [Coins](coins), or originally [8 Passenger Reputation](reputation) during the [Goat Station Event](goat-station), or for free by stealing it. Stealing the item will always be temporary.
+  The Gas Station Ice Cream is a tool obtainable by purchasing it for 135 [Coins](coins) during the [Goat Station Event](goat-station), or for free by stealing it. Stealing the item will always be temporary.
   \n\n 
   The item works the same as the Ice Cream tool and other ice creams, except it plays a flangey 'Yummy' sound. It doesn't heal very well either.
-
+  
+  ##[Trivia]
+  - Prior to the Phone Overhaul, this used to cost [8 Passenger Reputation](reputation) during its debut. 
   !!GALLERY [/assets/bussim/images/items/gas-station-ice-cream.webp]
