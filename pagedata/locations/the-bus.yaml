@@ -12,7 +12,7 @@ page:
       Category: [Locations](locations)
 
     image: ""
-    imageBanner: /assets/bussim/images/locations/the-bus.webp
+    imageBanner: /assets/bussim/images/locations/the-bus2.webp
   
 attributions: []
 
@@ -22,7 +22,9 @@ content: |
   It also serves as an effective shelter for events that can kill players if outside, like [Blizzard](blizzard), [Acid Rain](acid-rain), [Flash Flood](flash-flood), etc.
 
   ##[Bus Design]
-  The bus has a sleek design, with a Navy Blue coat of paint that can be modified, and has 3 floors to explore / chill out on.
+  The bus has a sleek design, with a primary accent of Navy Blue coat of paint that can be modified and a secondary accent of Black, and has 3 floors to explore / chill out on with many windows throughout the initial two floors.
+  \n\n 
+  The tires, headlights, and backlights all have a lime outline, and the tires in specific have light gray rims.
   
   ##[1st Floor]
   The first floor is the spawn area and where the bus driver's seat is located. It consists of 12 seats, 2 seats per row, with the left front seat being the bus driver's seat. In the front there is a built-in FM radio, a steering wheel, pinned documents, and a PaRappa the Rapper plush.
@@ -50,7 +52,7 @@ content: |
   \n\n
   On the front, you'll be able to find both The Bus' headlights, and a sign that displays its next destination. The Bus' headlights possess a strange feature in which it has a sense of conscience by display emotions and blinking, while the sign forever shows Stevensville, MT. as its next destination.
   \n\n
-  On the right side of the bus is a miniature, bench that can seat 5 people who have used the cramped cola. If you sit on the miniature bench when your avatar's size is normal, it will result in you getting killed. 
+  On the right side of the bus is a miniature bus stop that can be visited for those who used [Cramped Cola](cramped-cola).
   \n\n
   And lastly, on the back of the Bus is a volatile cable which can be sat on. It also serves as a link cable to the Cloned Bus during its respective event. Also located on the back is a license plate which says RBLX2952 which flashes into THE BUS ISN'T STOPPING whenever the Bus blinks. 
   \n\n
@@ -97,9 +99,11 @@ content: |
    - It is theorized that Bus Stop Simulator takes place in Montana as well.
   - Stevensville is a real location in Montana.
   - The Bus looks similar to the NB4L Bus on London, also called the New Routemaster or Borismaster. However with the roof as the 3rd Deck, only having 1 front door, And The steering wheel is on the left instead of the right like its London counterpart.
+    - It is unknown if its still confirmed to be the same model with the new overhauled exterior / interior.
   - The Birthday flag was made by Pixel_N3ko.
   - For some reason, The Bus does not have a brake pedal.
   - The Bus originally had a much more simpler design, but has been reworked with the help of both Inr_o and Pear, with Inr_o making the new bus and Pear making the new seats.
+    - Inr_o later than overhauled the design again, with Tazer being involved throughout the process.
   - The [No Dough](no-dough) event revealed that the bus is a hybrid, not actually needing gas.
     - This is later coincidentally proven furthermore, with the [No Gas](no-gas) event's inactivity condition, where the event ends even if nobody actually collected the gas canisters.
 
@@ -144,5 +148,10 @@ content: |
   \n
   hg[(August 17, 2023)]
   - The Marker is now accessible, allowing you to draw around The Bus and various other surfaces.
+  \n
+  hg[(Feburary 21, 2025)]
+  - The Bus' exterior has been overhauled, courtesy of @lnro and @TazerTricity, featuring a much cleaner and slimmer exterior. The small benches now also have a mini bus stop and a grass platform, but is no longer usable, including its kill function.
+    - The tires also are now much more visible in its rotation / movement.
+  \n 
 
-  !!GALLERY [/assets/bussim/images/locations/the-bus.webp|/assets/bussim/images/locations/fat-bus.webp]
+  !!GALLERY [/assets/bussim/images/locations/the-bus2.webp|/assets/bussim/images/locations/the-bus.webp|/assets/bussim/images/locations/fat-bus.webp]
