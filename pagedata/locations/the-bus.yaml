@@ -22,7 +22,7 @@ content: |
   It also serves as an effective shelter for events that can kill players if outside, like [Blizzard](blizzard), [Acid Rain](acid-rain), [Flash Flood](flash-flood), etc.
 
   ##[Bus Design]
-  The bus has a sleek design, with a primary accent of Navy Blue coat of paint that can be modified and a secondary accent of Black, and has 3 floors to explore / chill out on with many windows throughout the initial two floors.
+  The bus has a sleek design, with a primary accent of Navy Blue coat of paint that can be modified and a secondary accent of Black, and has 3 floors to explore / chill out on, with many windows throughout the initial two floors.
   \n\n 
   The tires, headlights, and backlights all have a lime outline, and the tires in specific have light gray rims.
   
@@ -52,7 +52,7 @@ content: |
   \n\n
   On the front, you'll be able to find both The Bus' headlights, and a sign that displays its next destination. The Bus' headlights possess a strange feature in which it has a sense of conscience by display emotions and blinking, while the sign forever shows Stevensville, MT. as its next destination.
   \n\n
-  On the right side of the bus is a miniature bus stop that can be visited for those who used [Cramped Cola](cramped-cola).
+  On the right side of the bus is a miniature bus stop that can be visited for those who used [Cramped Cola](cramped-cola), it can also be sat on the bench included or on the grass platform on the other side.
   \n\n
   And lastly, on the back of the Bus is a volatile cable which can be sat on. It also serves as a link cable to the Cloned Bus during its respective event. Also located on the back is a license plate which says RBLX2952 which flashes into THE BUS ISN'T STOPPING whenever the Bus blinks. 
   \n\n
@@ -152,6 +152,9 @@ content: |
   hg[(Feburary 21, 2025)]
   - The Bus' exterior has been overhauled, courtesy of @lnro and @TazerTricity, featuring a much cleaner and slimmer exterior. The small benches now also have a mini bus stop and a grass platform, but is no longer usable, including its kill function.
     - The tires also are now much more visible in its rotation / movement.
+  \n
+  hg[(Feburary 22, 2025)]
+  - The mini bus stop area is now both accessible from inside The Bus and is slightly larger, allowing cramped players to sit on them including the grassy platform on the other side of the area. The tires also now rotate much faster in relation to the speed.
   \n 
 
   !!GALLERY [/assets/bussim/images/locations/the-bus2.webp|/assets/bussim/images/locations/the-bus.webp|/assets/bussim/images/locations/fat-bus.webp]
