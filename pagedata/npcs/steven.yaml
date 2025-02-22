@@ -108,6 +108,7 @@ content: |-
   - If Steven_Scripts ride on the Bus and all of the seats on the first floor are filled, Steven_Scripts will instead sit down next to the bathroom, defeated.
   - Steven used to work at [BloxDonalds](bloxdonalds) at one point, but had moved away as evidenced with the Bulletin Board within the [Backwalls version of BloxDonalds](bloxdonalds-backwalls).
   - Steven is the only NPC that is in R6.
-  - Stevens animations, outside of his sitting pose, are used from Bus Stop Simulator
+  - Stevens animations, outside of his sitting pose, are used from Bus Stop Simulator.
+  - If Steven gets off of [The Bus](the-bus) without tripping, mostly due to The Bus being below speeds enough to trip, Steven's username will instead say "Oh. I'm alive.", before shortly vanishing.
 
   !!GALLERY [/assets/bussim/images/npcs/steven.webp|/assets/bussim/images/npcs/steven-instances/stevenbathroom.webp|/assets/bussim/images/npcs/steven-instances/stevenbackwalls.webp]  
