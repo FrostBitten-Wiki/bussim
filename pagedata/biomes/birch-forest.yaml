@@ -12,7 +12,7 @@ page:
       Category: [Biomes](biomes)
     
     image: ""
-    imageBanner: /assets/bussim/images/biomes/birchforest.webp
+    imageBanner: /assets/bussim/images/biomes/birch-forest.webp
 
 attributions: 
   - Created and Ported by FangedWerewolf (@noobbiom) (also made the biome lmao)
@@ -29,4 +29,4 @@ content: |
   ##[Trivia]
   - This is one of the first biomes to be submitted in Bus Simulator by a community member.
   
-  !!GALLERY [/assets/bussim/images/biomes/birchforest.webp]
+  !!GALLERY [/assets/bussim/images/biomes/birch-forest.webp]
