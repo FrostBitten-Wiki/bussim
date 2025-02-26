@@ -23,7 +23,7 @@ content: |
   "get, pranked noob. - Admin" -"FakeBuildTools"
   *Not to be confused with [Edit](edit), the actual building tools.*
   ##[Info]
-  FakeBuildTools is an item obtained from the [Btools](btools-event) Event or from [Pear's Place](pears-place) for 5 [Coins] once unlocked / obtained once, where it simply changes color upon interacting, attempting to mimic actual building tools.
+  FakeBuildTools is an item obtained from the [Btools](btools-event) Event or from [Pear's Place](pears-place) for 5 [Coins](coins) once unlocked / obtained once, where it simply changes color upon interacting, attempting to mimic actual building tools.
   \n\n
   The tool cannot have brighter colors (i.e. Shades of White), to prevent the labels on the cube from being unreadable.
 
