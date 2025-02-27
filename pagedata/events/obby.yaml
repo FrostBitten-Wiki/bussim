@@ -13,7 +13,7 @@ page:
       Event Runtime: h[55 Seconds (0:55)]
     
     image: ""
-    imageBanner: /assets/bussim/images/events/obby.webp
+    imageBanner: /assets/bussim/images/events/obby2.webp
 
 attributions: []
 
@@ -27,4 +27,4 @@ content: |
       - hg[You]: "I should complete it!"
         - h[After 40 seconds have passed...]
           - hg[Event]: "We are leaving soon."
-  !!GALLERY [/assets/bussim/images/events/obby.webp]
+  !!GALLERY [/assets/bussim/images/events/obby2.webp|/assets/bussim/images/events/obby.webp]
