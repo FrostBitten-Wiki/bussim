@@ -247,6 +247,7 @@ content: |-
       - Due to a time bug, when the queue length reaches 24 hours, it overflows back to 0 seconds. However, because the queue length is still over 50 minutes, the text will still be red when the timer overflows and shows the queue length as under 50 minutes.
   - In the [Repaint Event](repaint), this is the only interior prop in The Bus that can be painted.
   - Assuming that each song actually costs 10 Robux each, it means that those who've bought the Bus Driver gamepass will receive a payment of 50 Robux every day, paying itself after just 3 days. It can't be converted back to Robux though.
+  - Flourish can be found in your desktop, assuming you have windows 10. It can be found in This PC > Local Disk (C:) > Windows > Media, or by typing "C:\Windows\Media" into the Directory.
   \n 
   ##[Credits]
   - **Tazer**, for voicing and providing source audios for his intermissions specifically. (might be a bit loud though!)
