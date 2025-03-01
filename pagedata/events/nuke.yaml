@@ -81,6 +81,7 @@ content: |
               - hg[Variant 8 : Event]: "WE NEED TO ESCAPE FROM THE BOOM!"
               - hg[Variant 9 : Event]: "I DONT WAMT TO END UP LIKE BILL IN LEFT4DEAD2"
               - hg[Variant 10 : Event]: "BINGO BANGO BONGO BISH BASH BOSH."
+              - hg[Variant 11 : Event]: "WORLD WAR 3 INCOMING!!!"
                 - hg[Variant 1 : Event]: "MOMMY!!!"
                 - hg[Variant 2 : Event]: "WE WILL HAVE A BLAST!!"
                 - hg[Variant 3 : Event]: "I JUST WANTED BLOXDONALDS!"
@@ -93,7 +94,7 @@ content: |
                 - hg[Variant 10 : Event]: "THIS IS NOT EPIC!!" 
                 - hg[Variant 11 : Event]: "WHY IS THERE A NUKE ALL THE WAY OUT HERE?!" 
                 - hg[Variant 12 : Event]: "LETS GET OUT OF HERE NOW" 
-                - hg[Variant 13 : Event]: "LTIME TO GO FULL THROTTLE" 
+                - hg[Variant 13 : Event]: "TIME TO GO FULL THROTTLE" 
                   - h[After the nuke disappears...]
                      - hg[Variant 1 : Event]: "Huh.. That was close."
                      - hg[Variant 2 : Event]: "Oh my god, I'm so glad to live another day."
@@ -108,6 +109,6 @@ content: |
   ##[Trivia]
   - Before March 22, 2022, the music used to be [Screech](https://www.youtube.com/watch?v=LUT-GjQXdOI), from PAYDAY 2.
     - You can also do an Advanced Force Event specifically for this, but you *definitely* shouldn't pick this event. (120 R$ down the drain!)
-  - This event has undeniably the most amount of dialogue combinations in the entire game, totalling at 1,783,600 dialogue options.
+  - This event has undeniably the most amount of dialogue combinations in the entire game, totalling at 1,783,600 dialogue options. (AS of prior to 3/1/2025)
   - This event icon was actually helped by Enthalpy (@axioenth), adapting from FangedWerewolf's original submission of the icon to improve the lighting and visceral of the event.
   !!GALLERY [/assets/bussim/images/events/nuke2.webp|/assets/bussim/images/events/nuke.webp]
