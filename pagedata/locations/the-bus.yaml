@@ -41,9 +41,11 @@ content: |
   At the front of the floor, there'll be extra seats ontop of the compartments alongside two buttons, the left forces a specific event at the cost of 120R$, whilst the right force a random event for 60R$.
     
   ##[3rd Floor / Roof]
-  The third floor, or the roof, is the uppermost floor of the bus. It has 8 seats, 2 seats per row, which are unusually spaced out.
+  The third floor, or the roof, is the uppermost floor of the bus. It has 12 seats, 2 seats per row, which are equally spaced out. The floor also includes two white bean bags, for a total of 14 seats. 
+  \n\n 
+  The floor also comprises of a patterned carpet with diamond plate running straight down the middle with soft lime safety light strips running across it. These cannot be disabled when disabling indoor lights. 
   \n\n
-  Stuck in-between the middle right seat and the wall is a Sign which can be held. Near the back is a wooden table with a functional Simon Says toy paired with a Marker, and a freezer containing Cold Colas. Lastly, in the back there's a ladder that brings you down to the 2nd Floor.
+  Stuck in-between the middle right seat and the wall is a Sign which can be held. Near the back within the right side lies a wooden table with a functional Simon Says toy paired with a Marker, and a freezer containing Cold Colas. Lastly, in the far back is a ladder that brings you down to the 2nd Floor.
   \n\n
   There's also a rare chance whenever the server starts that a platform at the front will appear; with three mini-houses containing from left to right, Steven_Scripts, MiroCev, 4J3K, and NobleReign. 
     
@@ -156,5 +158,8 @@ content: |
   hg[(Feburary 22, 2025)]
   - The mini bus stop area is now both accessible from inside The Bus and is slightly larger, allowing cramped players to sit on them including the grassy platform on the other side of the area. The tires also now rotate much faster in relation to the speed.
   \n 
+  hg[(March 2, 2025)]
+  - The 3rd floor's interior has been overhauled, now including two bean bags, well-designed seats, soft lime safety light strips, a patterned carpet, and re-organized props.
+  \n
 
   !!GALLERY [/assets/bussim/images/locations/the-bus2.webp|/assets/bussim/images/locations/the-bus-christmas.webp|/assets/bussim/images/locations/the-bus-rare.webp|/assets/bussim/images/locations/the-bus.webp|/assets/bussim/images/locations/fat-bus.webp]
