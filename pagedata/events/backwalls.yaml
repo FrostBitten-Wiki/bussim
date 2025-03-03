@@ -68,7 +68,7 @@ content: |
   Occassionally, you may find areas that you don't expect to find in the Backwalls, namely locations that seem oddly familiar, yet not at the same time. You may even find a familiar face!.. A tired face that is.
   \n
   ###[The Ballpit]
-  The Ballpit is a single room that contains a pit, with balls. Jumping into the pit will move any balls in contact and makes a sound. Despite this, it does create immense lag. It is recommended you avoid this room unless you have to hide from [Entities](entity) if you want to spare your low-end devices. 
+  The Ballpit is a single room that contains a pit, with balls. Jumping into the pit will move any balls in contact and makes a sound while also rapidly decreasing entity detection. hinted by a flashing blue in your health bar, akin of that to having forcefield. Despite this, it does create immense lag. It is recommended you avoid this room unless you have to hide from [Entities](entity) if you want to spare your low-end devices. 
   \n\n 
   Do note that hiding from Entities will not work if you aggrovate them while inside the pit. They can get in too.
   \n 
