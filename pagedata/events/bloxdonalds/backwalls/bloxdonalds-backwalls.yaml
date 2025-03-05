@@ -25,15 +25,15 @@ content: |
   ##[Info]
   The Backwalls Bloxdonalds is an area found within the [Backwalls](backwalls), handled by [Red](red) once again. 
   \n\n 
-  In this area, you'll be able to buy various items from the Backwalls in exchange for [Passenger Reputation](reputation). You can also ask Red various things and explore the kitchen, in which you can find various interactables that provides self-dialogue. [Pear](pear) will also often arrive here, standing by. 
+  In this area, you'll be able to buy various items from the Backwalls in exchange for [Coins](coins). You can also ask Red various things and explore the kitchen, in which you can find various interactables that provides self-dialogue. [Pear](pear) will also often arrive here, standing by. 
   \n\n 
   There's currently 4 items that you can buy, with half of them being temporary; but useful.
-  |Item|Passenger Reputation Cost|
+  |Item|Coin Cost|
   |----|-------------------------|
-  |[Exit Explorer Map](exit-explorer-map)|5|
-  |[Almond Water](almond-water)|8|
-  |[Void Burger](void-burger)|2 / Free (If you have 0 passenger reputation)|
-  |[Liquid Void](liquid-void)|24|
+  |[Exit Explorer Map](exit-explorer-map)|500|
+  |[Almond Water](almond-water)|200|
+  |[Void Burger](void-burger)|80 / Free (If you have 0 Coins)|
+  |[Liquid Void](liquid-void)|800|
   \n\n 
   Aside from the items being sold here, there's also a lot of interactable props within the kitchen, all of them are as follows:
   |Props / Furniture|Description|Dialogue|
@@ -53,7 +53,7 @@ content: |
     - It's a corporation that attempts to serve "the universe and beyond" with access to technologies to teleport into areas even out of reality. This means it may not be the second time we see Bloxdonalds running in business.
     - [efeuc](efeuc) is wanted within Bloxdonalds for making it lose an "irrecoverable h[12c] in losses". He is also meant to be detained on sight. 
     - Both [Steven](steven) and [MLG](mlg) used to work at Bloxdonalds, but one [vanished](steven-ride), while the other [moved away](goat-station).
-  - It is the only event that allows you to spend [Passenger Reputation](reputation) on non-permanent items / special-condition permanent items. 
+  - It is the only event that allows you to spend [Coins](coins) on non-permanent items / special-condition permanent items. 
   - It is possible to purchase an item while already having one in your inventory, allowing you to save up multiple [Almond Waters](almond-water) or [Void Burgers](void-burger) for the remainder of your trip.
 
   !!GALLERY [/assets/bussim/images/banners/backwalls/bloxdonalds-backwalls.webp]

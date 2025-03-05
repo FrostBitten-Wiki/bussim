@@ -80,7 +80,12 @@ content: |-
                                     - "I'd tell you where the [wiki](home) is, but that's against the rules."
                         - hg[Option 2]: Show me the exit. 
                             - "Brah, what makes you think I know where the exit is?!"
-                                - hg[Option 1]: [Bribe with 5 rep]
+                                - hg[Option 1]: [Bribe with 500 coins]
+                                    - "..."
+                                    - "Fine brah. 500 coins is 500 coins."
+                                    - "What, you expect me to lead you there? I'm still on the clock brah. Take this map and go figure it out yourself."
+                                    - "Thanks for choosing Bloxdonalds."
+                                - hg[Option 1]: [Bribe with 5 rep] [Archived]
                                     - "..."
                                     - "Fine brah. 5 rep is 5 rep."
                                     - "What, you expect me to lead you there? I'm still on the clock brah. Take this map and go figure it out yourself."
@@ -90,31 +95,42 @@ content: |-
                         - hg[Option 3]: True, nevermind.
                             - "Pick something *actually* on the menu next time."
                 - hg[Option 2]: Almond Water
-                    - hg[Variant 1]: "An Almond Water for 8 rep, yeah?"
-                    - hg[Variant 2]: "One Almond Water for 8 rep, you sure?"
+                    - hg[Variant 1]: "An Almond Water for 200 coins, yeah?"
+                    - hg[Variant 2]: "One Almond Water for 200 coins, you sure?"
+                    - hg[Variant 1]: "An Almond Water for 8 rep, yeah?" [Archived]
+                    - hg[Variant 2]: "One Almond Water for 8 rep, you sure?" [Archived]
                     - hg[Variant 3]: "An Almond Water's gonna set you back 24 rep."
                         - hg[Option 1]: Actually, nah. 
                             - "Okay brah, why bother asking then?"
                         - hg[Option 2]: Yeah.
-                            - "One Almond Water for 8 rep, it's done."
+                            - "One Almond Water for 200 coins, it's done."
+                            - "One Almond Water for 8 rep, it's done." [Archived]
                 - hg[Option 3]: Void Burger
-                    - hg[Variant 1]: "A Void Burger for 2 rep, yeah?"
-                    - hg[Variant 2]: "One Void Burger for 2 rep, you sure?"
-                    - hg[Variant 3]: "A Void Burger's gonna set you back 2 rep."
+                    - hg[Variant 1]: "A Void Burger for 80 coins, yeah?"
+                    - hg[Variant 2]: "One Void Burger for 80 coins, you sure?"
+                    - hg[Variant 3]: "A Void Burger's gonna set you back 80 coins."
+                    - hg[Variant 1]: "A Void Burger for 2 rep, yeah?" [Archived]
+                    - hg[Variant 2]: "One Void Burger for 2 rep, you sure?" [Archived]
+                    - hg[Variant 3]: "A Void Burger's gonna set you back 2 rep." [Archived]
                         - hg[Option 1]: Actually, nah. 
                             - "Okay brah, why bother asking then?"
                         - hg[Option 2]: Yeah.
                             - hg[Variant 1]: "Done. Enjoy your Void Burger, brah."
                             - hg[Variant 2]: "Here. Huh, first sale in ages..."
-                            - hg[Variant 3]: "One Void Burger for 2 rep, it's done."
+                            - hg[Variant 3]: "One Void Burger for 80 coins, it's done."
+                            - hg[Variant 3]: "One Void Burger for 2 rep, it's done." [Archived]
                 - hg[Option 4]: Liquid Void
-                    - hg[Variant 1]: "A Liquid Void for 24 rep, yeah?"
-                    - hg[Variant 2]: "One Liquid Void for 24 rep, you sure?"
-                    - hg[Variant 3]: "A Liquid Void's gonna set you back 24 rep."
+                    - hg[Variant 1]: "A Liquid Void for 800 coins, yeah?"
+                    - hg[Variant 2]: "One Liquid Void for 800 coins, you sure?"
+                    - hg[Variant 3]: "A Liquid Void's gonna set you back 800 coins."
+                    - hg[Variant 1]: "A Liquid Void for 24 rep, yeah?" [Archived]
+                    - hg[Variant 2]: "One Liquid Void for 24 rep, you sure?" [Archived]
+                    - hg[Variant 3]: "A Liquid Void's gonna set you back 24 rep." [Archived]
                         - hg[Option 1]: Actually, nah. 
                             - "Okay brah, why bother asking then?"
                         - hg[Option 2]: Yeah.
-                            - "One Liquid Void for 24 rep, it's done."
+                            - "One Liquid Void for 800 coins, it's done."
+                            - "One Liquid Void for 24 rep, it's done." [Archived]
                 - hg[Option 5]: Nevermind.
         - hg[Option 2]: Let's talk!
             - "Nothing much better to do."
