@@ -27,9 +27,11 @@ content: |
   The tires, headlights, and backlights all have a lime outline, and the tires in specific have light gray rims.
   
   ##[1st Floor]
-  The first floor is the spawn area and where the bus driver's seat is located. It consists of 12 seats, 2 seats per row, with the left front seat being the bus driver's seat. In the front there is a built-in FM radio, a steering wheel, pinned documents, and a PaRappa the Rapper plush.
+  The first floor is the spawn area and where the bus driver's seat is located. It consists of 13 seats, 2 seats per row, with the left front seat being both the additional seat, and the bus driver's seat. In the front there is a built-in FM radio, a steering wheel, two pedals, one of which has an interactable Cinderblock with a note attached saying "DO NOT MOVE", pinned notes on a corkboard, an overhead mirror, and a PaRappa the Rapper plush.
   \n\n
   The sides contain multiple overhead compartments, which can be opened by clicking on them, showcasing several interesting scenes alongside a Gameboy Advance in the back left compartment, with the front right compartment allowing you to sit inside. In the back there is a set of stairs leading upwards to the 2nd level and a bathroom built into the stairs, with a mirror and toilet, flushing yourself down the toilet doesn't seem to do much though.
+  \n\n
+  The floor also comprises of a hexagonal patterned carpet with diamond plate running straight down the middle with soft lime safety light strips running across it. These cannot be disabled when disabling indoor lights. 
   \n\n
   In the corner of the stairs is a hidden entrance to a small room only accessible by being small yourself. Within it features a couch, TV of Family Guy, and various other furniture. There's also a door that leads you further into the small room, with arcade machines and beanbags.
     
@@ -161,5 +163,7 @@ content: |
   hg[(March 2, 2025)]
   - The 3rd floor's interior has been overhauled, now including two bean bags, well-designed seats, soft lime safety light strips, a patterned carpet, and re-organized props.
   \n
+  hg[(March 5, 2025)]
+  - The 1st floor's interior has been overhauled. It now includes a corkboard for the notes, overhauled seats including the driver, two new driver seat animations, overhauled overhead drawers, soft lime safety light strips, curtains, and a gray hexagonal patterned carpet.
 
   !!GALLERY [/assets/bussim/images/locations/the-bus2.webp|/assets/bussim/images/locations/the-bus-christmas.webp|/assets/bussim/images/locations/the-bus-rare.webp|/assets/bussim/images/locations/the-bus.webp|/assets/bussim/images/locations/fat-bus.webp]
