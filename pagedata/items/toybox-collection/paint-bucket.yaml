@@ -1,7 +1,7 @@
 editable: true
 page:
   title: Paint Bucket
-  description: The Paint Bucket is an item as part of ComeOutTheCloset_1's Toybox Collection, obtained from the [Shack](shack) event. When used, the paint bucket's lid will be peeled off, and can be thrown to splatter paint according to the contents within that bucket.
+  description: The Paint Bucket is an item obtained from the [Shack](shack) event. When used, the paint bucket's lid will be peeled off, and can be thrown to splatter paint according to the contents within that bucket.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
@@ -20,6 +20,6 @@ content: |
   "Why are there paint buckets in a scary shack anyways..?" -"Paint Bucket"
 
   ##[Info]
-  The Paint Bucket is an item as part of ComeOutTheCloset_1's Toybox Collection, obtained from the [Shack](shack) event. When used, the paint bucket's lid will be peeled off, and can be thrown to splatter paint according to the contents within that bucket.
+  The Paint Bucket is an item obtained from the [Shack](shack) event. When used, the paint bucket's lid will be peeled off, and can be thrown to splatter paint according to the contents within that bucket.
 
   !!GALLERY [/assets/bussim/images/items/paint-bucket.webp]

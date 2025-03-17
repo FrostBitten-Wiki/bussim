@@ -1,0 +1,25 @@
+editable: true
+page:
+  title: Mini Beach Volleyball
+  description: The Mini Beach Volleyball is an obtainable item purchased from the Goat Station's gumball machine at a rare chance. When used, it releases a volleyball in the same size as a gumball.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+
+  tags: placeholder, item
+
+  header:
+    description: |
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Temporary]
+
+    image: ''
+    imageBanner: /assets/bussim/images/items/mini-beach-volleyball.webp
+
+content: |
+  !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Still striking iron while it's hot.\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update a whole lot easier! Really convienient, don't ya think?)"
+  "Oops! All ball!" -"Mini Beach Volleyball"
+
+  ##[Info]
+  The Mini Beach Volleyball is an obtainable item purchased from the [Goat Station](goat-station)'s gumball machine at a rare chance. When used, it releases a volleyball in the same size as a gumball.
+
+  !!GALLERY [/assets/bussim/images/items/mini-beach-volleyball.webp]

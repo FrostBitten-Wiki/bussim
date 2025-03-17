@@ -1,7 +1,7 @@
 editable: true
 page:
-  title: Gumstick
-  description: The Gumstick is an item as part of ComeOutTheCloset_1's Toybox Collection, purchased from the [Goat Station](goat-station) event. When used, a piece of gum will be consumed, allowing the player to chew and blow out bubbles of gum. 
+  title: Plastic Bubble Gum
+  description: The Plastic Bubble Gum is an obtainable item purchased from the Goat Station event. When used, a piece of gum will be consumed, allowing the player to chew and blow out bubbles of gum. 
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
@@ -13,13 +13,13 @@ page:
       Tags: h[Obtainable Item, Temporary]
 
     image: ''
-    imageBanner: /assets/bussim/images/items/gumstick.webp
+    imageBanner: /assets/bussim/images/items/plastic-bubble-gum.webp
 
 content: |
   !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Still striking iron while it's hot.\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update a whole lot easier! Really convienient, don't ya think?)"
   "The packaging did not lie. Those were actual bubble gums." -"Gumstick"
 
   ##[Info]
-  The Gumstick is an item as part of ComeOutTheCloset_1's Toybox Collection, purchased from the [Goat Station](goat-station) event. When used, a piece of gum will be consumed, allowing the player to chew and blow out bubbles of gum. 
+  The Plastic Bubble Gum is an obtainable item purchased from the [Goat Station](goat-station) event. When used, a piece of gum will be consumed, allowing the player to chew and blow out bubbles of gum. 
 
-  !!GALLERY [/assets/bussim/images/items/gumstick.webp]
+  !!GALLERY [/assets/bussim/images/items/plastic-bubble-gum.webp]
