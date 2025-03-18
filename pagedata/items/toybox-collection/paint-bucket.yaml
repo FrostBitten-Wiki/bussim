@@ -17,9 +17,9 @@ page:
 
 content: |
   !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Still striking iron while it's hot.\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update a whole lot easier! Really convienient, don't ya think?)"
-  "Why are there paint buckets in a scary shack anyways..?" -"Paint Bucket"
+  "Despite being almost dried out, the paint can spill if disturbed by a MASSIVE amount of force and a bus." -"Paint Bucket"
 
   ##[Info]
-  The Paint Bucket is an item obtained from the [Shack](shack) event. When used, the paint bucket's lid will be peeled off, and can be thrown to splatter paint according to the contents within that bucket.
+  The Paint Bucket is an item obtained from the [Shack](shack) event. When used, the paint bucket's lid will be peeled off, and can be thrown to splatter paint according to the contents within that bucket. The tossing arc will also be in the direction of your cursor, taking around a second or two to charge up the paint bucket before it is thrown.
 
   !!GALLERY [/assets/bussim/images/items/paint-bucket.webp]

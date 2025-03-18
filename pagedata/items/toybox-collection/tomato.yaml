@@ -1,7 +1,7 @@
 editable: true
 page:
   title: Tomato
-  description: The Tomato is a consumable throwing item obtained from a garden in the Cafe event.
+  description: The Tomato is a consumable throwing item obtained from on top of a bench next to the entrance of Sparkplug Cafe.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
@@ -17,11 +17,11 @@ page:
 
 content: |
   !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Still striking iron while it's hot.\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update a whole lot easier! Really convienient, don't ya think?)"
-  "Tomato potato..." -"Tomato"
+  "Tasty insult." -"Tomato"
 
   ##[Info]
-  The Tomato is a consumable throwing item obtained from a garden in the [Cafe](cafe) event.
+  The Tomato is a consumable throwing item obtained from on top of a bench next to the entrance of [Sparkplug Cafe](cafe).
   \n\n 
-  When used, you throw the tomato within an arc, splattering whatever and whoever it collides with.
+  When used, you throw the tomato within an arc in the direction of your cursor, splattering whatever and whoever it collides with. 
 
   !!GALLERY [/assets/bussim/images/items/tomato.webp]

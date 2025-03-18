@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Shack
-  description: The Shack is an event in Bus Simulator, where the Bus stops at an abandoned shack, within the shack contains a Fake Rocket Launcher that will explode the holder on use. Soon after the driver mentions their unease and promptly leaves the shack, ending the event. 
+  description: The Shack is an event in Bus Simulator, where the Bus stops at an abandoned shack, within the shack contains a 'Rocket Launcher' that will explode the holder on use. Soon after the driver mentions their unease and promptly leaves the shack, ending the event. 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
   tags: some,tags,here,that is used by the search api
@@ -19,7 +19,9 @@ attributions: []
 
 content: |
   ##[Info]
-  The Shack is an event in Bus Simulator, where the Bus stops at an abandoned shack, within the shack contains a [Fake Rocket Launcher](fake-rocket-launcher) that will explode the holder on use. 
+  The Shack is an event in Bus Simulator, where the Bus stops at an abandoned shack, within the shack contains a ['Rocket Launcher'](fake-rocket-launcher) that will explode the holder on use, a [Gun](gun-in-bus-simulator) just above it, and [Paint Buckets](paint-bucket) collected into the left corner of the shack.
+  \n\n 
+  The shack also has scattered trash everywhere, lots and lots of it, in fact.
   \n\n
   Soon after the driver mentions their unease and promptly leaves the shack, ending the event. 
   ##[Dialogue]

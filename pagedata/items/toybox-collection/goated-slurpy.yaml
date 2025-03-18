@@ -1,7 +1,7 @@
 editable: true
 page:
   title: GOATed Slurpy
-  description: The GOATed Slurpy are a collection of items obtained from the [Goat Station](goat-station) event. Each slurpy can come in 4 different flavors, but all equally share the same effects. 
+  description: The GOATed Slurpy are a collection of items obtained from the [Goat Station](goat-station) event and cannot be purchased. Each slurpy can come in 4 different flavors, but all equally share the same effects. 
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
@@ -17,9 +17,16 @@ page:
 
 content: |
   !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Still striking iron while it's hot.\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update a whole lot easier! Really convienient, don't ya think?)"
-  "Don't get brain freeze!" -"GOATed Slurpy"
+  
+  "A carbonated slushie from GOATed Gas. Comes in many flavors, and despite its chilly properties, drinking one leaves you with a warm, nostalgic feeling in your heart." -"GOATed Slurpy (Rider Almanac)"
+  "The incredbile taste of Blended Grass Syrup mixed with ice slush makes this a good treat... for farm animals." -"Grassy Blast Original (GOATed Slurpy)"
+  "Hey! It's hay! And you're drinking it!" -"Hey Hay! (GOATed Slurpy)"
+  "Surprisingly good flavor out of the 4 flavors..." -"Tomato Tornado (GOATed Slurpy)"
+  "BLUE." - "BLUE. (GOATed Slurpy)"
 
   ##[Info]
-  The GOATed Slurpy are a collection of items obtained from the [Goat Station](goat-station) event. Each slurpy can come in 4 different flavors, but all equally share the same effects. 
+  The GOATed Slurpy are a collection of items obtained from the [Goat Station](goat-station) event and cannot be purchased. Each slurpy can come in 4 different flavors, but all equally share the same effects. 
+
+  ##[Appearance]
 
   !!GALLERY [/assets/bussim/images/items/goated-slurpy.webp]

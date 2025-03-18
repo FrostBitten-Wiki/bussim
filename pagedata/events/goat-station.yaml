@@ -33,24 +33,39 @@ content: |
 
   ##[GOATed Gas Station]
   "We're in the convenience store of GOATed Gas! If you want, you can buy stuff from the shelves using Passenger Rep! You'll keep it forever." -"Disc"
-  GOATed Gas is a gas station next to the Bus and Zeon & MLG's house. The station contains 8 items which is free to take, with 5 of them being permanent assuming you buy them using [Coins](coins). The table of cost is as follows: 
+  GOATed Gas is a gas station next to the Bus and Zeon & MLG's house. The station contains 9 items which is free to take, with 6 of them being permanent assuming you buy them using [Coins](coins). The table of cost is as follows: 
   \n\n
   |Item|Coin Cost|Status After Purchase|
   |----|-------------------------|---------------------|
   |[Goala Cola](goala-cola)|Free|Not Permanent|
   |[Redblox](redblox)|Free|Not Permanent|
   |[Cola](cola)|Free|Not Permanent|
+  |[GOATed Slurpy](goated-slurpy)|Free|Not Permanent|
+  |[Plastic Bubble Gum](plastic-bubble-gum)|Free|Not Permanent|
   |[Compass](compass)|100|Permanent|
   |[Gas Station Ice Cream](gas-station-ice-cream)|135|Permanent|
-  |[Gas Station Gravity Coil](gas-station-gravity-coil)|415|Permanent|
   |[Kernels](kernels)|300|Permanent|
+  |[UV Glowstick](uv-glowstick)|400|Permanent|
+  |[Gas Station Gravity Coil](gas-station-gravity-coil)|415|Permanent|
   |[Flying Skillbook](flying-skillbook)\n[(Helicopter)](helicopter)|4,500|Permanent\n<12px>([You'll recieve the Helicopter instead after purchase.])|
   \n\n
-  Although you can take them for free just by walking out, any item you haven't purchased yet will not be permanent*. Goala Colas, Colas and Redbloxes are always never permanent.
+  Although you can take them for free just by walking out, any item you haven't purchased yet will not be permanent*. Any item that has the cost of Free will always be temporary and is disregarded during checkout to [Disc](disc), the cashier.
   \n\n 
   *One particular item though is the Flying Skillbook, which when at its book form will do nothing, that is however until you purchase it, in which you will instead get the [Helicopter](helicopter), a permanent item. 
   \n\n 
-  Outside of that, you can see car marks in the entrance as well as gas pumps, if given the right conditions the pumps can also explode. You may also fight a massive wall of stickers in the back and left side featuring [D6](d6) on top of a garbage dump. You can also find a sign that has smaller sticks plastered all over the back. 
+  You may also find a Gumball Machine located next to its doors. Interacting with it provides the following dialogue:
+  - You: "A machine full of gumballs."
+    - hg[Option 1]: [Inspect.]
+      - You: "Looks like a single gumball costs <clr:#FFE669>(25 coins). Is that really worth it for a single gumball..?"
+        - hg[Option 1]: [Sounds good to me.] 
+          - You: "*Wait -- There's actually a disclaimer written in really small text here... ''<clr:#ff7777>(DISCLAIMER: GUMBALL OR ''Gum'' IS NOT A PERMANENT ITEM, RATHER A TEMPORARY ITEM TO ENJOY FOR A SHORT TIME. BY AGREEING TO ACKNOWLEDGE THIS DISCLAIMER, YOU WILL FORFEIT ANY ABILITY TO REFUND OR RE-OBTAIN THE LOST PRODUCT.)''*"
+            - hg[Option 1]: [Alright. [Pay 25 coins]]
+              - You: "*You insert a coin...\n...and out pops a gumball. As you'd expect.\nYour business with this machine has concluded.*"
+            - hg[Optionm 2]: [Sounds scary, I'm out.]
+              - You: "Not really worth it after all."
+        - hg[Option 2]: [Absolutely not.]
+    - hg[Option 2]: [Ignore.]
+  Outside of that, you can see car marks in the entrance as well as gas pumps, if given the right conditions the pumps can also explode. You may also find a massive wall of stickers in the back and left side featuring [D6](d6) on top of a garbage dump with a package of [Plastic Bubble Gum](plastic-bubble-gum) next to them. You can also find a sign that has smaller stickers plastered all over the back. 
   ##[Zeon and MLG's House]
   "WHY ARE YOU IN MY HOUSE?!?!?!?!?!?!" -"Zeon"
   Zeon and MLG's house is located next to the bus as well, being that it is a large house with an RGB of (199, 172, 120) or peach. You can find an empty garage, a kitchen stocked with appliances, and much more. 
