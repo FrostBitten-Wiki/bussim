@@ -24,7 +24,7 @@ content: |
   ##[Info]
   The Exit Explorer Map is an item that is used within the [Backwalls](backwalls) to draw out areas you have already explored and marking the escape room with a large X. 
   \n\n 
-  To obtain this, you must talk to [Red](red) within the [Backwalls Bloxdonalds](bloxdonalds-backwalls), and ask for Something Else. After asking him for an exit plus a cost of [5 Passenger Reputation](reputation), he will then give you the map.
+  To obtain this, you must talk to [Red](red) within the [Backwalls Bloxdonalds](bloxdonalds-backwalls), and ask for Something Else. After asking him for an exit plus a cost of 500 [Coins](coins), he will then give you the map.
   \n\n 
   Its appearance and function is similarly as the [Buried Treasure Map](https://minecraft.wiki/w/Explorer_Map#Buried_Treasure), with a large cross and a player locator for whoever holds the map, however it also marks areas like Bloxdonalds if found.
   \n 
@@ -35,5 +35,6 @@ content: |
   - Using the map may cause your character to trip or clip outside of bounds within the area since your animation changes.
   - This is perhaps the first two items that cooperates with each other, namely with the [Compass](compass).
   - Attempting to click while holding the map will allow you to punch similarlly in Minecraft, it won't harm anyone though.
+  - Prior to the Phone Overhaul, this used to cost [5 Passenger Reputation](reputation) during its debut.
 
   !!GALLERY [/assets/bussim/images/items/map.webp|/assets/bussim/images/items/galleries/map-usage.webp]

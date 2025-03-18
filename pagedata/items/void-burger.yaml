@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Void Burger
-  description: The Void Burger is an item that can be bought from Red in the Backwalls Bloxdonalds for 2 Passenger Reputation or for free if you have no Passenger Reputation.
+  description: The Void Burger is an item that can be bought from Red in the Backwalls Bloxdonalds for 80 Coins or for free if you are bankrupt.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -22,10 +22,11 @@ content: |
   "This is the most upsetting burger you have ever had the displeasure of holding." -"Void Burger"
 
   ##[Info] 
-  The Void Burger is an item that can be bought from [Red](red) in the [Backwalls Bloxdonalds](bloxdonalds-backwalls) for [2 Passenger Reputation](reputation) or for free if you have no Coins (or originally Passenger Reputation). it can also be bought from [Pear's Place](pears-place) for 650 [Coins](coins) once unlocked / obtained once
+  The Void Burger is an item that can be bought from [Red](red) in the [Backwalls Bloxdonalds](bloxdonalds-backwalls) for 80 [Coins](coins) or for free if you have no Coins. it can also be bought from [Pear's Place](pears-place) for 650 [Coins](coins) once unlocked / obtained once.
   \n
   When eaten, you recieve the same effects as one would when drinking [Liquid Void](liquid-void), but with it being only a one-time use. It also takes away 33 of your health but without inflicting nausea. This makes it effective for quick getaways if you cannot afford the liquid variant.
 
   ##[Trivia]
   - This item unlike its [liquid version](liquid-void) is not permanent and will not carry over outside of the [Backwalls](backwalls).
+  - Prior to the Phone Overhaul, this used to cost [2 Passenger Reputation](reputation) during its debut, and also had the same feature where being bankrupt in reputation would allow [Red](red) to give you the burger for free.
   !!GALLERY [/assets/bussim/images/items/void-burger.webp]

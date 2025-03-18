@@ -23,7 +23,7 @@ content: |
   "The sensation of holding this cola makes you uneasy.. It'd be best to be careful with this.. 'soda'..." -"Liquid Void"
 
   ##[Info]
-  Liquid Void is an item obtainable from random floor spawns in the [Backwalls Event](backwalls), bought from [Red](red) in the [Backwalls Bloxdonalds](bloxdonalds-backwalls) for [24 Passenger Reputation](reputation) or from [Pear's Place](pears-place) for 1750 [Coins](coins) once unlocked / obtained once. When used you will turn invisible for 20 seconds, then start flashing in an out until finally turning opaque again.
+  Liquid Void is an item obtainable from random floor spawns in the [Backwalls Event](backwalls), bought from [Red](red) in the [Backwalls Bloxdonalds](bloxdonalds-backwalls) for 800 [Coins](coins) or from [Pear's Place](pears-place) for 1750 [Coins](coins) once unlocked / obtained once. When used you will turn invisible for 20 seconds, then start flashing in an out until finally turning opaque again.
   \n
   However, if used less than 20 seconds after the effects are over, you will instead be killed. 
   \n\n
@@ -42,4 +42,5 @@ content: |
     - This was then later changed to 20% after a mini-update following Bus Simulator's 5th Birthday.
   - Despite the Liquid Void being a very helpful tool especially in events related to the stealth mechanic with its invisibility, you cannot carry it to both [No Dough](no-dough) and [Santa's Gone](santas-gone), making its usage only limited in a few events. 
     - It is however, applicable to the Billies in the [Billy Event](billy), oddly enough.
+  - Prior to the Phone Overhaul, this used to cost [24 Passenger Reputation](reputation) during its debut.
   !!GALLERY [/assets/bussim/images/items/liquid-void.webp]
