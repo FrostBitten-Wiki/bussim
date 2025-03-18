@@ -26,5 +26,6 @@ content: |
 
   ##[Technical Trivia]
   - Despite it being a really obscure feature unless you buy gumballs in bulk, purchased gumballs always avoid the color of one that already exists within the player's inventory, allowing each gumball to be completely different in terms of color.
-
+    - If all 208 BrickColors are exhausted, in the form of 208 purchased gumballs, future gumballs will instead use a random color off of the RGB system. You'll need to purchase over 208 gumballs if you want the colors to be outside of BrickColor.
+      - This equals to <clr:#FFE669>(5,200 Coins) spent in total. 
   !!GALLERY [/assets/bussim/images/items/gumball.webp]
