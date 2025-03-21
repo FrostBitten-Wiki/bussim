@@ -1,7 +1,7 @@
 editable: true
 page:
   title: Timmy
-  description: The Timmy Event is a short yet simple event in Bus Simulator, in which various parts of the game act strangely, with gravity being reduced, the bus moving backwards, among perhaps a few other things.
+  description: The Timmy Event is a short yet simple event in Bus Simulator. When this event happens, the Bus will move backwards rather than forwards, and the gravity being significantly reduced.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
@@ -20,7 +20,7 @@ attributions: []
 
 content: |-
   ##[Info]
-  The Timmy Event is a short yet simple event in Bus Simulator, in which various parts of the game act strangely, with gravity being reduced, the bus moving backwards, among perhaps a few other things.
+  The Timmy Event is a short yet simple event in Bus Simulator. When this event happens, the Bus will move backwards rather than forwards, and the gravity being significantly reduced.
 
   ##[Dialogue]
     - hg[Player]: "Timmy broke the laws of physics again."
