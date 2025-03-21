@@ -14,7 +14,7 @@ page:
       Event Runtime: h[Unknown]   
 
     image: ''
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/timmy.webp
 
 attributions: []
 
@@ -32,3 +32,5 @@ content: |-
   - The 30-second runtime for this event makes it really similar to the [Passengers](passengers) event's runtime.
   - Timmy used to have a theme that would play [Frolic](https://www.youtube.com/watch?v=c-fUGBfJHCY) that was produced by h[Luciano Michelini], it was used in the sitcom [Curb Your Enthusiasm](https://en.wikipedia.org/wiki/Curb_Your_Enthusiasm).
     - It no longer plays because of the h[March 22, 2022] audio update.
+
+  !!GALLERY [/assets/bussim/images/events/timmy.webp]

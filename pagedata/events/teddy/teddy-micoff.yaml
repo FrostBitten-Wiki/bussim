@@ -13,7 +13,7 @@ page:
       Event Runtime: h[37 Seconds (0:37)]
     
     image: ""
-    imageBanner: /assets/bussim/images/events/TeddyDead.webp
+    imageBanner: /assets/bussim/images/events/teddydead2.webp
 
 attributions: []
 
@@ -29,4 +29,4 @@ content: |
   ##[Trivia]
   - This is the one of the only events in the game to feature two identical versions but with slight alterations, similar to [No Dough](no-dough) and its inaccessible version, [Santas Gone](santas-gone).
   - While it is heavily implied that MicOff is the outcome after MicSpam, It's possible to roll MicOff first before MicSpam.
-  !!GALLERY [/assets/bussim/images/events/TeddyDead.webp]
+  !!GALLERY [/assets/bussim/images/events/teddydead2.webp|/assets/bussim/images/events/teddydead.webp]
