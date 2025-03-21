@@ -22,6 +22,8 @@ attributions: []
 content: |
   ##[Info]
   The Mountain is a pretty basic event in Bus Simulator, where the bus stops at a nearby mountain with a lake and some ducks that occassionally quack. After a while the driver tells everyone to get back to the bus, and the event ends.
+  \n\n 
+  You can also take some of [the larger ducks](mountain-duck), and will stay inside your inventory until your untimely demise. Apparently they like busses too.
 
   ##[Dialogue]
   - hg[Event]: "Hey look at those mountains!"
