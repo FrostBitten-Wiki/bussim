@@ -1,7 +1,7 @@
 editable: true
 page:
   title: GOATed Slurpy
-  description: The GOATed Slurpy are a collection of items obtained from the [Goat Station](goat-station) event and cannot be purchased. Each slurpy can come in 4 different flavors, but all equally share the same effects. 
+  description: The GOATed Slurpy are a collection of items obtained from the [Goat Station](goat-station) event and cannot be purchased in GOATed Gas, but is purchasable in Pear's Place for 50 Coins. Each slurpy can come in 5 different flavors, but all equally share the same effects, all healing the player around 15 in a moderately fast rate.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
@@ -23,10 +23,11 @@ content: |
   "Hey! It's hay! And you're drinking it!" -"Hey Hay! (GOATed Slurpy)"
   "Surprisingly good flavor out of the 4 flavors..." -"Tomato Tornado (GOATed Slurpy)"
   "BLUE." - "BLUE. (GOATed Slurpy)"
+  "Tastes like console commands, mmm!" -"GOATed Slurpy"
 
   ##[Info]
-  The GOATed Slurpy are a collection of items obtained from the [Goat Station](goat-station) event and cannot be purchased. Each slurpy can come in 4 different flavors, but all equally share the same effects. 
-
-  ##[Appearance]
-
+  The GOATed Slurpy are a collection of items obtained from the [Goat Station](goat-station) event aand cannot be purchased in GOATed Gas, but is purchasable in [Pear's Place](pears-place) for 50 [Coins](coins). Each slurpy can come in 5 different flavors, but all equally share the same effects, all healing the player around 15 in a moderately fast rate.
+  \n\n 
+  The slurpy can be consumed three times before running out, healing up to an effective 45 health before being discarded on its fourth use. 
+  
   !!GALLERY [/assets/bussim/images/items/goated-slurpy.webp]

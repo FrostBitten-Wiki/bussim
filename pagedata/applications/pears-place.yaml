@@ -111,30 +111,38 @@ content: |-
   "items from events you've experienced" -"The Event Collection"
   | Image | Item | Cost | Description | Origin / Requirement |
   |-------|------|------|-------------|----------------------|
+  |![120x120](/bussim-assets/images/items/fake-rocket-launcher.webp)|['Rocket Launcher'](fake-rocket-launcher)|<clr:#FFE669>(10 Coins) | Manufacted by ACME. | [Shack](shack) |
+  |![120x120](/bussim-assets/images/items/almond-water.webp)|[Almond Water](almond-water)|<clr:#FFE669>(500 Coins) | Refreshing and rejuvenating water-like liquid. Heals injuries almost immediately. | [Backwalls](backwalls) |
+  |![120x120](/bussim-assets/images/items/bucket.webp)|[Bucket?](bucket)|<clr:#FFE669>(100 Coins) | A bucket commonly used to hold popcorn. | [Goat Station](goat-station) / [Picnic](picnic) |
   |![120x120](/bussim-assets/images/items/burger.webp)|[Burger](burger)|<clr:#FFE669>(10 Coins) | Cheeseburger of dubious quality. | [BloxDonalds](bloxdonalds) |
   |![120x120](/bussim-assets/images/items/coffee.webp)|[Coffee](coffee)|<clr:#FFE669>(20 Coins) | Coffee from BloxDonalds, found in a pool for some reason. | [Pool](pool) |
   |![120x120](/bussim-assets/images/items/expired-taco.webp)|[Expired Taco](expired-taco)|<clr:#FFE669>(10 Coins) | Egregiously out of date, dangerous to consume. | [Time Travel](time-travel) |
   |![120x120](/bussim-assets/images/items/fakebuildtools.webp)|[Fake BTools](fake-btools)|<clr:#FFE669>(5 Coins) | Useless colorful cube. | [BTools](btools-event) |
-  |![120x120](/bussim-assets/images/items/fake-rocket-launcher.webp)|['Rocket Launcher'](fake-rocket-launcher)|<clr:#FFE669>(10 Coins) | Manufacted by ACME. | [Shack](shack) |
   |![120x120](/bussim-assets/images/items/free-modelled-cake.webp)|[Free-modelled Cake](free-modelled-cake)|<clr:#FFE669>(20 Coins) | Plastic cake handed out to birthday participants. | [Birthday](birthday) |
   |![120x120](/bussim-assets/images/items/goala-cola.webp)|[Goala Cola](goala-cola)|<clr:#FFE669>(50 Coins) | GOOOOOOOAAAALL!!! | [Goat Station](goat-station) |
+  |![120x120](/bussim-assets/images/items/goated-slurpy.webp)|[GOATed Slurpy](goated-slurpy)|<clr:#FFE669>(50 Coins) | Carboned slushy. Comes in many flavors. | [Goat Station](goat-station) |
+  |![120x120](/bussim-assets/images/items/gun-in-bus-simulator.webp)|[Gun](gun-in-bus-simulator)|<clr:#FFE669>(10 Coins) | Visually threatening. Harmless in practice. | [Shack](shack) |
   |![120x120](/bussim-assets/images/items/homemade-coffee.webp)|[Homemade Coffee](homemade-coffee)|<clr:#FFE669>(20 Coins) | Would buying it from here still count as 'homemade'? | [Goat Station](goat-station) |
   |![120x120](/bussim-assets/images/items/hyper-soda.webp)|[Hyper Soda](hyper-soda)|<clr:#FFE669>(30 Coins) | A reward for beating a classic obby. This is pay-to-win... | [Obby](obby) |
   |![120x120](/bussim-assets/images/items/intern-mug.webp)|[Intern Mug](intern-mug)|<clr:#FFE669>(50 Coins) | Somebody forgot to patch this one out. | [Cafe](cafe) |
   |![120x120](/bussim-assets/images/items/kernels.webp)|[Kernels](kernels)|<clr:#FFE669>(100 Coins) | Popcorn pre-pop. | [Goat Station](goat-station) |
-  |![120x120](/bussim-assets/images/items/bucket.webp)|[Bucket?](bucket)|<clr:#FFE669>(100 Coins) | A bucket commonly used to hold popcorn. | [Goat Station](goat-station) / [Picnic](picnic) |
   |![120x120](/bussim-assets/images/items/lemon-soda.webp)|[Lemon Soda](lemon-soda)|<clr:#FFE669>(10 Coins) | Extremely sour soda, given out for free on the side of the road. | [Soda Stand](soda-stand) |
+  |![120x120](/bussim-assets/images/items/liquid-void.webp)|[Liquid Void](liquid-void)|<clr:#FFE669>(1750 Coins) | Indecipherable liquid substance. Makes you invisible when consumed in moderation. | [Backwalls](backwalls) |
+  |![120x120](/bussim-assets/images/items/mountain-duck.webp)|[Mountain Duck](mountain-duck)|<clr:#FFE669>(30 Coins) | Quack. | [Mountain](mountain) |
+  |![120x120](/bussim-assets/images/items/paint-bucket.webp)|[Paint Bucket](paint-bucket)|<clr:#FFE669>(50 Coins) | Half dried, but still usable. | [Shack](shack) |
+  |![120x120](/bussim-assets/images/items/plastic-bubble-gum.webp)|[Plastic Bubble Gum](plastic-bubble-gum)|<clr:#FFE669>(50 Coins) | Reject gum, manufactured with the wrong kind of gum in mind. | [Goat Station](goat-station) |
   |![120x120](/bussim-assets/images/items/redblox.webp)|[Redblox](redblox)|<clr:#FFE669>(80 Coins) | Average gas station energy drink. | [Goat Station](goat-station) |
   |![120x120](/bussim-assets/images/items/sandwich.webp)|[Sandwich](sandwich)|<clr:#FFE669>(10 Coins) | A simple sandwich to snack on. | [Picnic](picnic) |
   |![120x120](/bussim-assets/images/items/toast.webp)|[Toast](toast)|<clr:#FFE669>(10 Coins) | Cooked bread. | [Goat Station](goat-station) |
-  |![120x120](/bussim-assets/images/items/liquid-void.webp)|[Liquid Void](liquid-void)|<clr:#FFE669>(1750 Coins) | Indecipherable liquid substance. Makes you invisible when consumed in moderation. | [Backwalls](backwalls) |
-  |![120x120](/bussim-assets/images/items/almond-water.webp)|[Almond Water](almond-water)|<clr:#FFE669>(500 Coins) | Refreshing and rejuvenating water-like liquid. Heals injuries almost immediately. | [Backwalls](backwalls) |
+  |![120x120](/bussim-assets/images/items/uv-glowstick.webp)|[UV Glowstick](uv-glowstick)|<clr:#FFE669>(175 Coins) | Plastic stick full of UV-emitting liquid. | [Goat Station](goat-station) |
   |![120x120](/bussim-assets/images/items/void-burger.webp)|[Void Burger](void-burger)|<clr:#FFE669>(650 Coins) | Burger with a void-based patty. Makes you invisible when consumed in moderation. | [Backwalls](backwalls) |
   ###[__Nook of Knowledge__]
   "select items discovered outside of events" -"Nook of Knowledge"
   | Image | Item | Cost | Description | Origin / Requirement |
   |-------|------|------|-------------|----------------------|
-   |![120x120](/bussim-assets/images/items/ice-cream.webp)|[Ice Cream](ice-cream)|<clr:#FFE669>(20 Coins) | Simple vanilla cone. | [Ice Cream Truck](vehicles) |
+  |![120x120](/bussim-assets/images/items/frozen-chocolate.webp)|[Frozen Chocolate](frozen-chocolate)|<clr:#FFE669>(100 Coins) | Ice cold 'beverage' made by an wolf. | [Frostbite](frostbite) |
+  |![120x120](/bussim-assets/images/items/hot-chocolate.webp)|[Hot Chocolate](hot-chocolate)|<clr:#FFE669>(100 Coins) | Heartwarming beverage made by a cat. | [Pear](pear) |
+  |![120x120](/bussim-assets/images/items/ice-cream.webp)|[Ice Cream](ice-cream)|<clr:#FFE669>(20 Coins) | Simple vanilla cone. | [Ice Cream Truck](vehicles) |
   ###[__Miscellaneous__]
   "other things you might need" -"Miscellaneous"
   | Image | Item | Cost | Description |

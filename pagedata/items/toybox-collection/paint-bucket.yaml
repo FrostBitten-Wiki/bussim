@@ -1,7 +1,7 @@
 editable: true
 page:
   title: Paint Bucket
-  description: The Paint Bucket is an item obtained from the [Shack](shack) event. When used, the paint bucket's lid will be peeled off, and can be thrown to splatter paint according to the contents within that bucket.
+  description: The Paint Bucket is an item obtained from the Shack event and can be purchased later at Pear's Place for 50 Coins. When used, the paint bucket's will be thrown in the direction of your cursor, taking around a second or two to charge up the paint bucket before launching, splattering surfaces with colored paint according to the contents within that bucket.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
@@ -20,6 +20,6 @@ content: |
   "Despite being almost dried out, the paint can spill if disturbed by a MASSIVE amount of force and a bus." -"Paint Bucket"
 
   ##[Info]
-  The Paint Bucket is an item obtained from the [Shack](shack) event. When used, the paint bucket's lid will be peeled off, and can be thrown to splatter paint according to the contents within that bucket. The tossing arc will also be in the direction of your cursor, taking around a second or two to charge up the paint bucket before it is thrown.
+  The Paint Bucket is an item obtained from the [Shack](shack) event and can be purchased later at [Pear's Place](pears-place) for 50 [Coins](coins). When used, the paint bucket's will be thrown in the direction of your cursor, taking around a second or two to charge up the paint bucket before launching, splattering surfaces with colored paint according to the contents within that bucket.
 
   !!GALLERY [/assets/bussim/images/items/paint-bucket.webp]
