@@ -29,7 +29,7 @@ content: |
   ##[1st Floor]
   The first floor is the spawn area and where the bus driver's seat is located. It consists of 13 seats, 2 seats per row, with the left front seat being both the additional seat, and the bus driver's seat. In the front there is a built-in FM radio, a steering wheel, two pedals, one of which has an interactable Cinderblock with a note attached saying "DO NOT MOVE", pinned notes on a corkboard, an overhead mirror, and a PaRappa the Rapper plush.
   \n\n
-  The sides contain multiple overhead compartments, which can be opened by clicking on them, showcasing several interesting scenes alongside a Gameboy Advance in the back left compartment, with the front right compartment allowing you to sit inside. In the back there is a set of stairs leading upwards to the 2nd level and a bathroom built into the stairs, with a mirror and toilet, flushing yourself down the toilet doesn't seem to do much though.
+  The sides contain multiple overhead compartments, which can be opened by clicking on them, showcasing several interesting scenes, with the front right compartment allowing you to sit inside. In the back there is a set of stairs leading upwards to the 2nd level and a bathroom built into the stairs, with a mirror and toilet, flushing yourself down the toilet doesn't seem to do much though.
   \n\n
   The floor also comprises of a hexagonal patterned carpet with diamond plate running straight down the middle with soft lime safety light strips running across it. These cannot be disabled when disabling indoor lights. 
   \n\n
@@ -38,18 +38,18 @@ content: |
   Lastly, interacting the sticky note attached to the Cinderblock will give the following dialogue. "Well, it says not to move it, so..."
     
   ##[2nd Floor]
-  The second floor is an intermediate floor between the roof and the first floor, consisting of 12 seats, 2 seats per row, and 2 compartments you can sit on at the front and items scattered about.
+  The second floor is an intermediate floor between the roof and the first floor, consisting of 7 seats with items scattered about.
   \n
-  Within the floor consists of the Cola Crate, the Pizza Box, Cramped Cola stash, and Pear, with the first three giving you items and Pear being an NPC you can talk to with various topics.
+  Within the floor consists of a [Cold Cola](cold-cola) Cooler, a [Cola](cola) Cooler, a couch, two bean bags under a rug, a TV set with a [Gameboy Advance](gameboy-advance) with some uninteracable consoles, a marble table containing both a [Marker](marker) and Simon Says gamepad, and a glass table that includes the Force Event Button, [Hot Cola](hot-cola), and [Pizza](pizza), with [Cramped Cola](cramped-cola) underneath. 
   \n
-  At the front of the floor, there'll be extra seats ontop of the compartments alongside two buttons, the left forces a specific event at the cost of 120R$, whilst the right force a random event for 60R$.
+  [Pear](pear) also sits in his own chair, and the floor is of a party-like aesthetic. There's also a simple force event button on the right side above the couch too. 
     
   ##[3rd Floor / Roof]
   The third floor, or the roof, is the uppermost floor of the bus. It has 12 seats, 2 seats per row, which are equally spaced out. The floor also includes two white bean bags, for a total of 14 seats. 
   \n\n 
   The floor also comprises of a patterned carpet with diamond plate running straight down the middle with soft lime safety light strips running across it. These cannot be disabled when disabling indoor lights. 
   \n\n
-  Stuck in-between the middle right seat and the wall is a Sign which can be held. Near the back within the right side lies a wooden table with a functional Simon Says toy paired with a Marker, and a freezer containing Cold Colas. Lastly, in the far back is a ladder that brings you down to the 2nd Floor.
+  Stuck in-between the middle right seat and the wall is a Sign which can be held. Lastly, in the far back is a ladder that brings you down to the 2nd Floor.
   \n\n
   There's also a rare chance whenever the server starts that a platform at the front will appear; with three mini-houses containing from left to right, Steven_Scripts, MiroCev, 4J3K, and NobleReign. 
     
@@ -167,5 +167,7 @@ content: |
   \n
   hg[(March 5, 2025)]
   - The 1st floor's interior has been overhauled. It now includes a corkboard for the notes, overhauled seats including the driver, two new driver seat animations, overhauled overhead drawers, soft lime safety light strips, curtains, and a gray hexagonal patterned carpet.
+   hg[(March 29, 2025)]
+  - The 2nd floor's interior has mostly been overhauled. It now includes the Cold Cola Cooler, a new Cola Cooler, a couch, two bean bags under a rug, a TV set with a Gameboy Advance and some uninteracable consoles, a marble table containing both marker and Simon Says gamepad, and a glass table that includes the Force Event Button, Hot Cola, and Pizza, with Cramped Cola underneath. Pear also sits in his own chair, and the floor is of a party-like aesthetic.
 
   !!GALLERY [/assets/bussim/images/locations/the-bus2.webp|/assets/bussim/images/locations/the-bus-christmas.webp|/assets/bussim/images/locations/the-bus-rare.webp|/assets/bussim/images/locations/the-bus.webp|/assets/bussim/images/locations/fat-bus.webp]
