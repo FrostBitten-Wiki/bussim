@@ -2,7 +2,7 @@ editable: true
 page:
   title: Rider
   description: Rider is a free external application that tracks various things throughout
-    your entire bus journey, from events, currently playing radio songs, badges, items,
+    your entire bus journey, from events, currently playing radio songs, current bus driver, badges, items,
     to even some of the most bizzare things you didn't anticipate would be on here.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
@@ -25,13 +25,17 @@ content: |-
   !!INFOBOX TITLE:"Early Access Content / Beta Content" COLOR:"#23358C" TEXT:"*\"Careful now...\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update easier. Most of the info shown are with the discretion that it can and will change.)"
   "Keep track of your bus-related affairs with Rider!\nPersonal achivements, ride statistics, anything you've ever seen and experienced, all in one place.\nIf you're riding in a compatible vehicle, you can also request songs on the radio, right from your device.\n\nMay you reach your destination soon, friend." -"enlightened"
   ##[Info]
-  Rider is a free external application that tracks various things throughout your entire bus journey, from events, currently playing radio songs, badges, items, and various stats within the game.
+  Rider is a free external application that tracks various things throughout your entire bus journey, from events, currently playing radio songs, current bus driver, badges, items, and various stats within the game.
   \n\n
   The app is composed of 4 main sections, En Route, Badges, Statistics, and Almanac.
   ##[En Route]
   En Route is the home of Rider, composed of what song is currently being placed on the [Bus Radio](bus-radio), the time elapsed since you started boarding the bus (your current session time), and patch notes.
   \n\n 
   You can also remotely request for songs without needing to physically go to the Radio, assuming you either have enough Robux or songs to fill in. Furthermore, it also shows your estimated arrival (N/A), where you are headed (Stevensville, MT), and the vehicle system software.
+  ##[Driver]
+  The Driver shows who is currently the Bus Driver, showing their Driver Reputation, avatar, note, hours of time they drove, and their status / role. You can also check if said driver has already been thanked or not.
+  \n\n 
+  If you view this **as** the Bus Driver however, the thank button will be replaced with the quote "Why are you on your phone?!".
   ##[Badges]
   The Badges is your main collection of badges, all visible in-game. It shows you your most recently unlocked badges, and other locked badges that are normally obtainable alongside a timestamp of when you unlocked them. 
   \n\n 
