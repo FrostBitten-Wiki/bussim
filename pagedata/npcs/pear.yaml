@@ -227,7 +227,13 @@ content: |-
                 - "Do you play.. err, that rhythm game that has a racing game, survival game, and battle royale game attached to it? I do.. sometimes. I think."
               - hg[Variant 18]:
                 - "Honestly, could go for a graham cracker right now..."
-      - hg[Option 3]: Invites...
+              - hg[Variant 19]:
+                - "Are you wondering why my seat looks different from the rest?"
+                  - hg[Option 1]: Yeah, what's with that?
+                    - "Well, I was sitting in my usual spot, when all of a sudden some people came aboard, talking about renovations... And well, that's cool and all, but what about my seat? I didn't want to change my seat... We've made so many memories together... So I straight up just asked if I could keep it, and funnily enough they actually let me. They moved me to the corner to clear out some space but whatever. As long as I got to keep the seat, it's all *purr*fect to me! But yeah, I guess the moral of the story is to not be afraid to ask about stuff? The worst they could say is no, after all..."
+                  - hg[Option 2]: No, not really.
+                    - "Oh, then I'll spare you the details."
+   - hg[Option 3]: Invites...
         - "Oh? What about them?" 
           - hg[Option 1]: Let's send some! 
             - "Quite the social butterfly~ Sure, I can do that for you!"
@@ -353,7 +359,7 @@ content: |-
     - You: "<You grab the object he tosses at you. Looks like a handheld mirror of some sort.>"
       - "If ya ever feel lonely, or just want a safe space to chill, feel free to come back anytime."
       - "Alright, see ya on the flip side."
-  
+
   ###[Drink Responses (The Bus)]
   - If you give Pear the wrong drink:
     - "Oh, is that drink for me? Thanks!"
@@ -548,7 +554,7 @@ content: |-
               - hg[Option 2]: Yeah, I'm sure.
                   - "Well then... *ahem*... You feelin generous? I can give everyone in the server some songs~ Trust me, it's worth it!"
                       - (You are then prompted to buy two songs for everyone in the server for 80 Robux.)
-  
+
   ###[Drink Responses (Pear Takes The Wheel)]
   - If you give Pear the wrong drink:
     - "No thanks, I'm driving."
