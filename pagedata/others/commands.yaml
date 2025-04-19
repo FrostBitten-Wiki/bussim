@@ -131,7 +131,7 @@ content: |
   **!lcolor & !rcolor** - Changes your airpod color according to each side, requires having the [Colored Airpods](https://www.roblox.com/game-pass/10596401/Colored-Airpods) gamepass.
   \n
   ###[Nameplates & Tags]
-  **!togglepd & !setheart** are the two commands that currently alter chat tags, and **!region** is the only command that can customize your nameplate.
+  **!togglepd, !setrole & !setheart** are the three commands that currently alter chat tags, and **!region** is the only command that can customize your nameplate.
   \n\n 
   **!setrole** - Allows you to set any of your role tags. Goes from highest ranking to lowest and allows highest available to be selected. Does not let you select tags that you haven't unlocked but have surpassed.
   \n\n
