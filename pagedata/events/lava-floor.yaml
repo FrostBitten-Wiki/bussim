@@ -14,7 +14,7 @@ page:
       Event Runtime: h[32 Seconds (0:32)]
     
     image: ""
-    imageBanner: /assets/bussim/images/events/lavafloor.webp
+    imageBanner: /assets/bussim/images/events/lava-floor.webp
 
 attributions: []
 
@@ -34,4 +34,4 @@ content: |
   - Back then, this event used to count seats and props as lava and had a silent, yet deadly system, giving itself its infamy for being the most deadliest event in the game. This was later changed by Red (@RedNoob5050) to make it only count floors, and deal swift but noticable damage.
   ##[Technical Trivia] 
   - This event similar to others is exempted when it comes to h[Height Immunity], which is to say that at above 5,000 studs from the origin, events like this won't apply. Areas that are above or around this level are the [Void Room](void-box), [Glacier Cave](glacier-cave), and the [Backwalls](backwalls), thus giving them their event immunity traits.
-  !!GALLERY [/assets/bussim/images/events/lavafloor.webp]
+  !!GALLERY [/assets/bussim/images/events/lava-floor.webp]
