@@ -12,7 +12,6 @@ page:
 
   header:
     description: |
-      !!INFOBOX TITLE:"Early Access Content / Beta Content on or with Existing Content" COLOR:"#33D6FF" TEXT:"*\"Don't mind the mess!\"* - Fang\nv(This category has slightly new content reserved for a future update, which includes a whole bunch of new stuff, and is here to make editing post-update easier. Most of the info shown are with the discretion that it may not hold up to the base game.)"\n
       Events are a main staple in Bus Simulator, happening every 5 minutes after
       the last, or 4 if the server just started.
 
@@ -87,8 +86,7 @@ content: |-
   !!LISTITEM IMAGE:"/bussim-assets/images/events/time-travel.webp" TITLE:"Time Travel" DESCRIPTION:"The Time Travel event is an event in Bus Simulator, where the bus momentarily stops only to speed up to time travel 50 years into the future, ending up in Bus Stop Simulator.. or at least.. what remains of it." REDIRECT:"time-travel"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/timmy.webp" TITLE:"Timmy" DESCRIPTION:"The Timmy Event is a short yet simple event in Bus Simulator. When this event happens, the Bus will move backwards rather than forwards, and the gravity being significantly reduced." REDIRECT:"timmy"
   !!LISTITEM IMAGE:"/bussim-assets/images/events/traffic-light.webp" TITLE:"Traffic Light" DESCRIPTION:"The Traffic Light event is a rather simple and straight-forward, when this event is rolled, the bus will stop and waits until the traffic light turns back to green because they are a good driver... unless..." REDIRECT:"traffic-light"
-
   \n\n
 
   !!INFOBOX TITLE:"Disabled Events" COLOR:"#9e9e9e" TEXT:"These events can't be forced, and are no longer available in the game."
-  !!LISTITEM IMAGE:"/bussim-assets/images/events/santas-gone.webp" TITLE:"Santa's Gone" DESCRIPTION:"Santa's Gone was a limited time event that was the predecessor of NoDough, and made its appearance in both h[December 2021] and h[2022]." REDIRECT:"santas-gone"
+  !!LISTITEM IMAGE:"/bussim-assets/images/events/santas-gone.webp" TITLE:"Santa's Gone" DESCRIPTION:"Santa's Gone was a limited time event that was the predecessor of No Dough, and made its appearance in both h[December 2021] and h[2022]." REDIRECT:"santas-gone"

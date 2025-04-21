@@ -16,7 +16,6 @@ page:
     imageBanner: /assets/bussim/images/items/tomato.webp
 
 content: |
-  !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Still striking iron while it's hot.\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update a whole lot easier! Really convienient, don't ya think?)"
   "Tasty insult." -"Tomato"
 
   ##[Info]

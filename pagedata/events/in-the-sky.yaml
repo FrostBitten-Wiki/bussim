@@ -14,7 +14,7 @@ page:
       Event Runtime: h[45 Seconds (0:45)]
     
     image: ""
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/events/in-the-sky.webp
 
 attributions: []
 
@@ -34,4 +34,4 @@ content: |
   - This event is the fastest event in the game, with 80 mph during the early-mid stages and 185 mph (both shown in the speedometer) in the last stage, this is theoretically enough to [time travel](time-travel), but it can be noted that most of it is likely vertical movement.
   - This event actually uses both names, being EVENT and Event, with the latter interchangeable with the bus driver's name.
 
-  !!GALLERY [/assets/bussim/images/banners/bus-banner.webp]
+  !!GALLERY [/assets/bussim/images/events/in-the-sky.webp|/assets/bussim/images/events/in-the-sky2.webp]

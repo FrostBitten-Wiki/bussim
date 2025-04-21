@@ -13,7 +13,6 @@ page:
 
   header:
     description: |
-      !!INFOBOX TITLE:"Early Access Content / Beta Content" COLOR:"#23358C" TEXT:"*\"Careful now...\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update easier. Most of the info shown are with the discretion that it can and will change.)"
        Applications are software within the game that can be downloaded using the Synchronized Transferable App Repository, or STAR App. Each application serves their own unique purpose, affecting more than just your phone. Some of these range from statistics, to ordering already experienced events, among other things.
        \n\n
        Existing apps that are already pre-packaged within your phone however, are instead within the [Phone's](phone-overhauled) own page. External applications will only be displayed here.
