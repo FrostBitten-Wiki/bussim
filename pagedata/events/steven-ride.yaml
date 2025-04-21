@@ -12,7 +12,7 @@ page:
     description: |
       Category: [Events](events)\n
       Event Name: h[StevenRide]\n
-      Event Runtime: h[25 seconds (Pickup) + Event being \*truly\* over: Random Seconds]
+      Event Runtime: h[25 seconds (Pickup) + Random Seconds of Runtime]
     
     image: ""
     imageBanner: /assets/bussim/images/events/steven-rides.webp
