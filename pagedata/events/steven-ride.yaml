@@ -44,14 +44,14 @@ content: |
   ###[Exit Dialogue]
   - Steven_Scripts: "Hey! You just drove past my stop, you friggin-"
   - Steven_Scripts: "Agh, Max is gonna be so mad if I din't catch it. Gotta go!"
-  - EVENT: "The event is \*truly\* over!"
+  - EVENT: "The event is *truly* over!"
 
   ###[If Steven_Scripts doesn't die...]
   - Steven_Scripts: "Oh, I'm alive."
   - Steven_Scripts: "Well bye"
 
   ###[If Steven_Scripts was sent to the Backwalls before leaving...]
-  - Steven_Scripts: \*violent sobbing\*
+  - Steven_Scripts: *violent sobbing*
 
   ###[If the Steven Ride is chosen again before Steven_Scripts can leave...]
   - EVENT: "Oh god, not anothe--"
