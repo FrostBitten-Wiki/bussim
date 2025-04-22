@@ -36,7 +36,8 @@ content: |
                - hg[Player]: "Who programmed this game? A child?"
 
   ##[Trivia]
-  - This is one of the few events that forcibly changes biome, without the need of a tunnel.
+  - This is one of the few events that forcibly changes the biome without the need of a tunnel.
+  - All the biomes present during this event don't count towards your [Rider](rider)'s biome completion, otherwise this event would easily sweep most if not almost all of the biomes that can be unlocked. 
   - The Glitches event icon is referenced by a frame of Pandora from [MINDWAVE's kickstarter trailer](https://www.kickstarter.com/projects/holohammer/mindwave).
 
   !!GALLERY [/assets/bussim/images/events/glitches.webp]
