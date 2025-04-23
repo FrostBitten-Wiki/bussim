@@ -27,7 +27,7 @@ content: |-
   \n\n 
   In the event that two or more colors are voted the most however, the paint will instead be roughly distributed around the bus, with a two-way tie being 50/50, to an impossible eight-way tie. You'll also get the [Colorful Chaos](https://www.roblox.com/badges/2130114796/Colorful-Chaos) if you get a four-way or higher tie. 
   ##[Dialogue]
-  ###[Intro DIalogue]
+  ###[Intro Dialogue]
     - hg[Variant 1 : Player]: "Y'know, this bus is gettng kinda bland.. why don't we spice it up a little?"
     - hg[Variant 2 : Player]: "I'm kinda tired of staring out of the window. Can we watch paint dry instead?"
       - hg[Variant 1 : Player]: "Yeah sure, let's repaint the bus."
