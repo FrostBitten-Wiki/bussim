@@ -25,4 +25,4 @@ content: |
       - hg[You]: "Oh, nice." 
         - h[After 40 seconds...]
           - hg[Event]: "It's going to disappear!" 
-  !!GALLERY [/assets/bussim/images/events/pool.webp]
+  !!GALLERY [/assets/bussim/images/events/pool.webp|/assets/bussim/images/events/pool2.webp]
