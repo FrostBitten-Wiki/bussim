@@ -64,9 +64,9 @@ content: |-
         - hg[Player]: "I think we'd have to let the owner handle that.. this is a private bus, after all."
   ##[Trivia]
   - If the event occurs on a private server, it'll instead mention about the server owner changing it themselves, this is to prevent getting the Colorful Chaos so easily. <12px>([and it prevents it from recoloring what the server owner may have already recolored])
+  - The event icon for Repaint has Cyan as its available options, but isn't available during the actual event.
+    - Originally, the submission of that icon was also paired with an alt, replacing the cyan paint with white paint instead. Both FangedWerewolf and Noble decided to use the Cyan paint instead.
   ##[Technical Trivia]
   - If one tries to copy a part of the Bus using [Edit](edit) while the paint is still wearing off, it'll retain that color and is also given another coat on top of the previous paint during another Repaint. 
     - Similarly, parts of the Bus that are colored manually will be the new default color, with paints only being layered on top of it. This can be seen outside of using Edit by doing the event during Halloween.
-  - The event icon for Repaint has Cyan as its available options, but isn't available during the actual event.
-    - Originally, the submission of that icon was also paired with an alt, replacing the cyan paint with white paint instead. Both FangedWerewolf and Noble decided to use the Cyan paint instead.
   !!GALLERY [/assets/bussim/images/events/repaint.webp|/assets/bussim/images/events/repaint2.webp]
