@@ -1,7 +1,7 @@
 editable: True
 page:
-  title: Fake Bus Stop
-  description: Fake Events is a collection of two events, being NoGas and Stop. Both of these events are very similar in that it leads to the bus driver tricking passengers off the bus, before leaving them right after.
+  title: Stop
+  description: Fake Events is a collection of two events, being Fake No Gas and Stop. Both of these events are very similar in that it leads to the bus driver tricking passengers off the bus, before leaving them right after.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -19,9 +19,9 @@ page:
 attributions: []
 
 content: |
-  !!BUTTONS [<highlight>Fake Bus Stop</highlight>,location.href=''|Fake Gas Stop,location.href='fake-gas']
+  !!BUTTONS [<highlight>Stop</highlight>,location.href=''|Fake No Gas,location.href='fake-no-gas']
   ##[Info]
-  The Fake Bus Stop event is an event where the bus driver distracts players by acting like they made it to the bus stop, and then drives off, making players respawn on the bus. \n
+  The Stop event is an event where the bus driver distracts players by acting like they made it to the bus stop, and then drives off, making players respawn on the bus. \n
   The event has a similar appearance to the Passengers event, where it also stops at a bus stop, but it has no passengers waiting for the bus. 
 
   ##[Dialogue]
@@ -32,4 +32,4 @@ content: |
   ##[Trivia]
   - This is the shortest event in the game, if you don't count the [Backwalls'](backwalls) 12 second delay before its teleportation. 
 
-  !!GALLERY [/assets/bussim/images/events/fake-events.webp|/assets/bussim/images/events/fake-stop.webp]
+  !!GALLERY [/assets/bussim/images/events/fake-events.webp|/assets/bussim/images/events/stop.webp]

@@ -19,7 +19,7 @@ attributions: []
 
 content: |-
   !!LISTITEM IMAGE:"/bussim-assets/images/npcs/banana.webp" TITLE:"Banana" DESCRIPTION:"Banana is an NPC that can be found in the h[Backwalls]. They can be rarely found in the event." REDIRECT:"banana"
-  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/civilian.webp" TITLE:"Civilian" DESCRIPTION:"The Civilians are minor NPCs that appear in h[No Dough] and h[Passengers]. They have no dialogue and don't do anything important in the game." REDIRECT:"civilian"
+  !!LISTITEM IMAGE:"/bussim-assets/images/npcs/civilian.webp" TITLE:"Civilian" DESCRIPTION:"The Civilians are minor NPCs that appear in h[No Dough] and h[Bus Stop Riders]. They have no dialogue and don't do anything important in the game." REDIRECT:"civilian"
   !!LISTITEM IMAGE:"/bussim-assets/images/npcs/customers.webp" TITLE:"Customers" DESCRIPTION:"The Customers are minor NPCs that appear in the h[Cafe]. They act similarly to h[Civilians]." REDIRECT:"customers"
   !!LISTITEM IMAGE:"/bussim-assets/images/npcs/charlotte.webp" TITLE:"Charlotte" DESCRIPTION:"Charlotte is a NPC that can be found in the h[Cafe] and was originally a worker in the h[GOATed Gas Station].. until she blew it up." REDIRECT:"charlotte"
   !!LISTITEM IMAGE:"/bussim-assets/images/npcs/d6.webp" TITLE:"D6" DESCRIPTION:"D6 is an NPC that can be found in both the h[Goat Station] and in the h[Cafe]. They're also an artist. " REDIRECT:"d6"

@@ -22,11 +22,11 @@ attributions:
 
 content: |
   ##[Info]
-  The Civilians are minor NPCs that appear in three events, [No Dough](no-dough), [Passengers](passengers), and [Cafe](cafe). 
+  The Civilians are minor NPCs that appear in three events, [No Dough](no-dough), [Bus Stop Riders](bus-stop-riders), and [Cafe](cafe). 
   They have no dialogue and don't do anything important in the game, excluding the Cafe event.
 
   ##[Appearance]
-  In [No Dough](no-dough) and [Passengers](passengers) their appearance is based off of random player IDs. The script copies the outfit of the player with the ID chosen by the script.\n
+  In [No Dough](no-dough) and [Bus Stop Riders](bus-stop-riders) their appearance is based off of random player IDs. The script copies the outfit of the player with the ID chosen by the script.\n
   Due to the amount of players on Roblox who don't change their appearance, the NPCs will commonly be wearing the default "Bacon Hair" outfit.
   \n\n
   However, there are also IDs for NobleReign's friends that have a rare chance of appearing in the events,
@@ -38,8 +38,8 @@ content: |
   The Civilians don't do much in events, but are still notable in some way,
   mostly in the [No Dough](no-dough) event where Civilians act as security.
 
-  ###[Passengers]
-  *Main article: [Passengers](passengers)*\n\n
+  ###[Bus Stop Riders]
+  *Main article: [Bus Stop Riders](bus-stop-riders)*\n\n
   In the Passengers event, three random Civilians from a Bus Stop will board the bus and take the nearest available seat,
   and will ride the bus for a random amount of time. After some time, the Civilians will get off the seat, wave for a couple of seconds,
   then jump off the bus.

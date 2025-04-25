@@ -1,7 +1,7 @@
 editable: True
 page:
-  title: No Gas
-  description:  The No Gas event, or internally known as Gas Up, is the true version of the Fake No Gas, where instead of the bus driver fooling their passengers again, the bus actually runs out of gas and the players will have to collect 6 gas cans near the road. 
+  title: Gas Up
+  description:  The Gas Up event is the true version of the Fake No Gas, where instead of the bus driver fooling their passengers again, the bus actually runs out of gas and the players will have to collect 6 gas cans near the road. 
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -19,9 +19,9 @@ page:
 attributions: []
 
 content: |
-  Are you looking for the [fake version](fake-gas) of this event, perhaps?
+  Are you looking for the [fake version](fake-no-gas) of this event, perhaps?
   ##[Info]
-  The No Gas event, or internally known as Gas Up, is the true version of the Fake No Gas, where instead of the bus driver fooling their passengers again, the bus actually runs out of gas and the players will have to collect 6 gas cans near the road. 
+  The Gas Up event is the true version of the Fake No Gas, where instead of the bus driver fooling their passengers again, the bus actually runs out of gas and the players will have to collect 6 gas cans near the road. 
   \n\n 
   While an event such as this may be harmless, it can be obstructed by generating terrain, spawn in the skies, or happen during a biome unsuitable for such event. <12px>([Examples being, Overseas & Lava]) Which can make getting the gas cans harder, if not inaccessible without proper equipment like [Helicopter](helicopter), [Gas Station Gravity Coil](gas-station-gravity-coil) [Hoverboots](hoverboots), and others. 
   \n\n 

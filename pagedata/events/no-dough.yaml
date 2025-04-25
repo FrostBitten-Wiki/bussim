@@ -60,7 +60,7 @@ content: |
   \n\n 
   *An exception is made for [Snowglobe](snowglobe), with it creating a sound but not audible for anyone to hear. 
   \n\n 
-  There are several NPCs in the house, which shares the same ID generation as the [Passengers Event](passengers) (so you can see some "special characters", like NobleReigns friends), and will spot you if you are in their line of sight for a little while, killing you. You cannot be spotted while ragdolled. 
+  There are several NPCs in the house, which shares the same ID generation as the [Bus Stop Riders Event](bus-stop-riders) (so you can see some "special characters", like NobleReigns friends), and will spot you if you are in their line of sight for a little while, killing you. You cannot be spotted while ragdolled. 
   ##[Dialogue]
   ###[Intro Dialogue]
   - hg[Variant 1 : Event]: "Oh, we need more gas! That's not good."
@@ -148,7 +148,7 @@ content: |
     - Its effects also don't work on [Civilians](civilian).
   - It is possible to unexpectedly meet any of NobleReign's friends as there is a rare chance a Civilian will be replaced by one of his friends. 
     - This also includes those that already exist in other events such as [Cafe](cafe), [Goat Station](goat-station), and more. 
-  - Just like other events such as [No Gas](no-gas) and [Obby](obby), it is completely possible for the house to be situated atop the [Overseas](overseas) biome if you are extremely unlucky.
+  - Just like other events such as [Gas Up](gas-up) and [Obby](obby), it is completely possible for the house to be situated atop the [Overseas](overseas) biome if you are extremely unlucky.
   - NoDough can be considered as the longest event in the game if excluding [Broken Down](broken-down), since you can postpone entering the house until h[0:59], then postpone getting the cash until h[9:59], and postpone escaping until h[4:59], essentially getting h[15 Minutes and 57 Seconds] of event runtime, making this the longest event in the game without disregarding its intent.
 
   !!GALLERY [/assets/bussim/images/events/no-dough.webp|/assets/bussim/images/events/no-dough2.webp]

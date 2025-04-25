@@ -1,7 +1,7 @@
 editable: True
 page:
-  title: Cloned Bus
-  description: The Clone Event is an event in Bus Simulator, where the bus gets cloned. Eventually it turns out it's unstable and disappears shortly after.
+  title: Clone
+  description: The Clone Event is an event in Bus Simulator where the bus gets cloned out of nowhere. Soon enough though, it turns out to be unstable and disappears shortly after.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim cloned bus event
   
@@ -20,7 +20,7 @@ attributions: []
 
 content: |
   ##[Info]
-  The Clone Event is an event in Bus Simulator, where the bus gets cloned. Eventually it turns out it's unstable and disappears shortly after.
+  The Clone Event is an event in Bus Simulator where the bus gets cloned out of nowhere. Soon enough though, it turns out to be unstable and disappears shortly after.
   \n\n 
   In the cloned bus you may find everything relatively normal from the normal bus, but the driver seat isn't working properly, the radio and driver seat are broken, the Simon Says gamepad is missing with an unknown note in its place, the [Cold Cola] cooler is spilled, and more off-putting changes. Rarely, you might even find an older generation of [The Bus](the-bus) instead of the normal one.
 

@@ -1,7 +1,7 @@
 editable: True
 page:
-  title: EA Sellout 
-  description: Placeholder
+  title: Bought Out 
+  description: The Bought Out is an event where everyone gets forcibly teleported back to the first floor of [The Bus](the-bus) after having been bought out by Economic Arcs, a parody of Electronic Arts. 
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -14,13 +14,13 @@ page:
       Event Runtime: h[1 Minute and 50 Seconds (1:50)]
     
     image: ""
-    imageBanner: /assets/bussim/images/events/ea-sellout.webp
+    imageBanner: /assets/bussim/images/events/bought-out.webp
 
 attributions: []
 
 content: |
   ##[Info]
-  The EA Sellout or its more technical name, Bought Out is an event where everyone will be forcibly teleported back to the first floor of [The Bus](the-bus) after having been bought out by Economic Arcs, a parody of Electronic Arts. 
+  The Bought Out is an event where everyone gets forcibly teleported back to the first floor of [The Bus](the-bus) after having been bought out by Economic Arcs, a parody of Electronic Arts. 
   \n\n 
   The bathroom, the second floor and the roof are all blocked by the black wall with the price on it. It cannot be accessed by players unless they own the Microtransaction Overreaction gamepass, and attempting to bypass it *often* results in death.
   \n 
@@ -36,7 +36,7 @@ content: |
   - This is the only event where there's a gamepass tied to it.
   - While it is possible to bypass restricted areas using items like [Hoverboots](hoverboots) and / or [Helicopter](helicopter), you'll die the moment you make contact, unless you ragdoll before colliding. In this case, you won't die unless you stop ragdolling.
   - Despite the chances being rather arbitrary, it is completely possible to die when the event starts if you are currently using a seat within a restricted area. 
-  - This event is the one of the only events, with the other being the [Backwalls] that is capable of teleporting players by force. Unlike the latter though, one can simply use a [Mini-Bus](mini-bus) to bypass EA Sellout's forced teleporation.
+  - This event is the one of the only events, with the other being the [Backwalls] that is capable of teleporting players by force. Unlike the latter though, one can simply use a [Mini-Bus](mini-bus) to bypass Bought Out's forced teleporation.
     - Likewise, this also means that the bus driver will be kicked out of their seat, allowing others to take the seat.
   
-  !!GALLERY [/assets/bussim/images/events/ea-sellout.webp]
+  !!GALLERY [/assets/bussim/images/events/bought-out.webp]
