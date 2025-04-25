@@ -27,4 +27,4 @@ content: |
       - hg[You]: "OH NO!!!"
         - h[After a while...]
           - hg[Event]: "We're losing em'! Let's speed up!"
-  !!GALLERY [/assets/bussim/images/events/police.webp]
+  !!GALLERY [/assets/bussim/images/events/police.webp|/assets/bussim/images/events/police2.webp]
