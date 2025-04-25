@@ -1,6 +1,6 @@
 page:
   title: The Bus
-  description: The Bus is the main part and theme of this entire game, it is composed of 3 different floors with about more than 40 seats distributed all over the floors including items and props.
+  description: The Bus is the main part and theme of this entire game, it is composed of 3 different floors with about more than 30 seats distributed all over the floors including items and props.
   
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim bus
   
@@ -17,7 +17,7 @@ page:
 attributions: []
 
 content: |
-  The Bus is the main part and theme of this entire game, it is composed of 3 different floors with about more than 40 seats distributed all over the floors including items and props. \n\n
+  The Bus is the main part and theme of this entire game, it is composed of 3 different floors with about more than 30 seats distributed all over the floors including items and props. \n\n
   This is where everyone hangs out for most if not almost all of their entire time playing this game, with parts of it from [Events](events). \n 
   It also serves as an effective shelter for events that can kill players if outside, like [Blizzard](blizzard), [Acid Rain](acid-rain), [Flash Flood](flash-flood), etc.
 
@@ -112,6 +112,7 @@ content: |
     - Inr_o later than overhauled the design again, with Tazer being involved throughout the process.
   - The [No Dough](no-dough) event revealed that the bus is a hybrid, not actually needing gas.
     - This is later coincidentally proven furthermore, with the [No Gas](no-gas) event's inactivity condition, where the event ends even if nobody actually collected the gas canisters.
+  - The Bus prior to its overhaul (before 2025 Overhaul), The Bus used to have up to more than 40 seats. Following the overhaul, it has been decreased to more than 30.
 
   ##[History]
   Note: The following history with ~ are approximations gathered via anecdotal evidence from the Bus Simulator Updates server, from when it was suggested and to when it was evident. Contributions relating to this is greatly appreciated!
