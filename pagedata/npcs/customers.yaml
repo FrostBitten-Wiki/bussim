@@ -43,7 +43,7 @@ content: |-
   - "oooh, that looks good. wait, that one looks better... hmmm.."
   - "Please give me caffeine, I'll pay you in exposure"
   - "Wait, when did I get to the front of the line?"
-  - "Cafe 2952..? What kind of name is that..?"
+  - "Sparkplug..? What kind of name is that..?"
   - "Ey! Cashier! Take my order why dont'cha?"
   - "Maybe I should try something new today?"
   - "OH GOD I FORGOT ABOUT MY SOCIAL ANXIETY"
@@ -62,7 +62,7 @@ content: |-
   ###[Choices]
   The available choices for responding to the customer. You are only able to choose One Positive choice and Two Negative Choices.
   These choices are all random. although the count of choices stays the same.
-  - <clr:#45ff45>(Positive): "Welcome to Cafe 2952, how may I help you?"
+  - <clr:#45ff45>(Positive): "Welcome to Sparkplug, how may I help you?"
   - <clr:#45ff45>(Positive): "Cool, but can I take your order?"
   - <clr:#45ff45>(Positive): "Please tell me what you want."
   - <clr:#45ff45>(Positive): "Right then, what'd you like?"

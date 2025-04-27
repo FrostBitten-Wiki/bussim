@@ -1,8 +1,7 @@
 editable: true
 page:
   title: Events
-  description: Events are a main staple in Bus Simulator, happening every 5 minutes
-    after the last, or 4 if the server just started.
+  description: Events are a main staple in Bus Simulator, happening every 4 to 7 minutes, indicated by a flashing red warning to every players' screen.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim evebrs. roblox
     vus sim events, events
@@ -12,8 +11,7 @@ page:
 
   header:
     description: |
-      Events are a main staple in Bus Simulator, happening every 5 minutes after
-      the last, or 4 if the server just started.
+      Events are a main staple in Bus Simulator, happening every 4 to 7 minutes, indicated by a flashing red warning to every players' screen.
 
       <br><br>
 

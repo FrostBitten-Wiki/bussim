@@ -30,8 +30,8 @@ content: |
 
   Pear Takes The Wheel is an unique event to where [Pear](npcs/pear) overthrows the current bus driver, and starts driving instead.
   This event is a great way to gain [Reputation](others/reputation) if you have a very low amount, and is also a great way to get to other events quickly, 
-  a couple including the [Backwalls](events/backwalls), the [Glacier Cave](events/glacier-cave), 
-  the [Cafe](events/cafe), [Bloxdonalds](events/bloxdonalds), [Noble's House](events/nobles-house) and many more.
+  a couple including the [Backwalls](backwalls), the [Glacier Cave](glacier-cave), 
+  the [Cafe](cafe), [Bloxdonalds](bloxdonalds), [Noble's House](nobles-house) and many more.
 
   \n\n
 
@@ -187,7 +187,7 @@ content: |
 
   ##[No Dough's Dialogue]
 
-  All Dialogue Not Listed Here Defaults To [No Dough's](events/no-dough) Default Dialogue.
+  All Dialogue Not Listed Here Defaults To [No Dough's](no-dough) Default Dialogue.
 
   ###[Stopping at the House Dialogue]
 
@@ -222,7 +222,7 @@ content: |
   - When Pear stands up, a image of [roblox's maintanence screen](https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/4X/4/9/4/494401c7173da32a036658a6014e4ac7ea1d972f.jpeg) will show up on the seat where they are typically.
   - This event had a bug where Pear would never leave the drivers seat, eventually leading to soft-locking the server.
   - This is one of the more longer events, lasting a total of around 4 and a half minutes.
-  - This event is one of the very small instances where players will vote to determine an outcome, simillar to the [Repaint Event](events/repaint).
+  - This event is one of the very small instances where players will vote to determine an outcome, simillar to the [Repaint Event](repaint).
   - The channel name for the exclusive TV channel is "CH &#128049;"
     - The channel also plays [Funk In My Bedroom](https://www.youtube.com/watch?v=sfnYcT0YZyc) for its music.
   - Pear will also activate the windshield wipers if necessary, that is; if someone ends up in the windshield.

@@ -85,7 +85,7 @@ content: |
   The Fake Exits is a room similar of that to the actual exit, only that the top lights are White instead of green, and the exit panel is Yellow instead of White. Entering this will teleport you to any spot similar to the Void Pits and the Void Walls.
   \n 
   ###[The Button]
-  The Button is a rare room that spawns a simple button on a pedestal in the middle of the room with a sticky note attached saying "DO NOT PRESS". Pressing it will turn all of the lights red. However, doing so despite it reducing void puddle visibility, will increase the odds of items being permanent after a successful escape.
+  The Button is a rare room that spawns a simple button on a pedestal in the middle of the room with a sticky note attached saying "DO NOT PRESS". Pressing it will turn all of the lights red. However, despite it reducing void puddle visibility, the Redwalls will increase the odds of items being permanent after a successful escape.
   \n\n 
   There's also a very rare chance that pressing it will remove all danger within the current generation.
   \n 

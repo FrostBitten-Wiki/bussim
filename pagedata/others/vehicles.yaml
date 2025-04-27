@@ -47,7 +47,7 @@ content: |
   - It has collided onto another vehicle.
   - Too early to reach with just walking.
   ##[Trivia]
-  - The vehicles will not follow any traffic laws as mentioned with the collision, and it doesn't also follow any rule that the bus does during the [Traffic Light](events/traffic-light) event.
+  - The vehicles will not follow any traffic laws as mentioned with the collision, and it doesn't also follow any rule that the bus does during the [Traffic Light](traffic-light) event.
   - The vehicles also don't seem to spawn in the same lane as the bus. It could be a bus lane, but there isn't any proof to confirm this.
   - Despite the [Mini Bus](items/mini-bus) being and acting like a vehicle, it doesn't share similar properties to the other vehicles mentioned.
   - Since Ice Cream Trucks can spawn at the very start of the road when the bus has stopped, you might need to use the [Mini Bus](items/mini-bus) or anything fast to get past the invisible barrier.

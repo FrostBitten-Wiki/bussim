@@ -21,7 +21,7 @@ attributions:
 content: |
  "A barista's empty canvas." -"Empty Cup"
  ##[Info]
- The Coffee from the [Cafe](events/cafe) Event is a customizable drink used with ingredients given to the player at any moment when interacting with the Coffee Machine, and is used to either give to NPCs or to drink from.
+ The Coffee from the [Cafe](cafe) Event is a customizable drink used with ingredients given to the player at any moment when interacting with the Coffee Machine, and is used to either give to NPCs or to drink from.
  \n\n
  When making one, the player will go into a focus-mode state, being able to pick any ingredients and measure them out carefully. Recipes are also provided on the left, with all of the specific ingredients needed to make a drink.
  \n\n
