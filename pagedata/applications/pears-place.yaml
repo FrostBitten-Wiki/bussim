@@ -102,9 +102,9 @@ content: |-
   "convert coins into various tokens" -"Token Trade"
   | Image | Item | Cost | Description |
   |-------|------|------|-------------|
-  |![120x120](/bussim-assets/images/items/phone/pears-place/basic-event-token.webp)|Basic Event Token| <clr:#FFE669>(1600 Coins) | Allows you to force a random event. |
-  |![120x120](/bussim-assets/images/items/phone/pears-place/advanced-event-token.webp)|Advanced Event Token| <clr:#FFE669>(4500 Coins) | Allows you to force an event of your choosing. |
-  |![120x120](/bussim-assets/images/items/phone/pears-place/song-token.webp)|Song Token| <clr:#FFE669>(500 Coins) | Allows you to request a song on the radio. |
+  |![120x120](/bussim-assets/images/applications/pears-place/basic-event-token.webp)|Basic Event Token| <clr:#FFE669>(1600 Coins) | Allows you to force a random event. |
+  |![120x120](/bussim-assets/images/applications/pears-place/advanced-event-token.webp)|Advanced Event Token| <clr:#FFE669>(4500 Coins) | Allows you to force an event of your choosing. |
+  |![120x120](/bussim-assets/images/applications/pears-place/song-token.webp)|Song Token| <clr:#FFE669>(500 Coins) | Allows you to request a song on the radio. |
   \n 
   ###[__The Event Collection__]
   "items from events you've experienced" -"The Event Collection"
