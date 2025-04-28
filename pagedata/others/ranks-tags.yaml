@@ -78,6 +78,14 @@ content: |-
   | <clr:#00bb7d>([money waster])  | why. stop it.                | 10,000 R$    |
   | <clr:#bb0e10>([good lord])     | you're insane. in a bad way. | 100,000 R$   |
 
+  ##[Extra Tags]
+  These tags are available, but only under special circumstances. 
+  \n 
+  | Extra Tag                   | Description                  |
+  |-----------------------------|------------------------------|
+  | <clr:#984c25>([VR])         | Applicable to players who are using their VR headsets. |
+  | <clr:#53d027>([Console])    | Applicable to players who are on Consoles. |
+
   ##[Question Time Tags]
   You can also get tags, albeit temporarily by based off of the answers you choose during Question Time, all of the tags so far can be found over [here](question-time).
 

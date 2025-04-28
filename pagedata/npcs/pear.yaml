@@ -73,7 +73,8 @@ content: |-
           - hg[Variant 2] (If there's one other player in the server): "You done talking to [Other Player]? Well, uhh..."
           - hg[Variant 3] (If there's one other player in the server): "You finally tired of talking to [Other Player]? Then, uhhhh..."
           - hg[Variant 4] (otherwise): "There's like [x Players in Current Server] on the bus and you wanna talk to me? Okay, uh..."
-          - hg[Variant 5]: "That's gonna cost you 5 rep... Just kidding! So..."
+          - hg[Variant 5]: "That's gonna cost you 5 coins... Just kidding! So..."
+          - hg[Variant 5]: "That's gonna cost you 5 rep... Just kidding! So..." (Archived)
           - hg[Variant 6]: "You want to talk? Hmm uhh..."
           - hg[Variant 7]: "Well I'm not sure what to talk about but uh..."
           - Continuation (after any variant):
