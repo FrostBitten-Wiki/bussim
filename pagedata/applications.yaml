@@ -18,6 +18,10 @@ page:
        Existing apps that are already pre-packaged within your phone however, are instead within the [Phone's](phone-overhauled) own page. External applications will only be displayed here.
        \n\n 
        Do note that the main currency used in these transactions are <clr:#FFE669>(Coins) and / or <clr:#45ff45>(Robux), with some either being needed to download an app, or to purchase goods.
+       \n\n 
+       Another thing to note is that there's an h[anti-cheat system] when you use [VIP Commands](commands) within a private server, disbaling progress on h[Pear's Place, Rider, and more]. If you play normally as if the Private Server is Public, progress will still be enabled.
+       \n 
+       Anti-cheat will also fade out if the owner of the private server has not used any commands for a good while.
 
     image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
