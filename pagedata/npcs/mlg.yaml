@@ -215,6 +215,7 @@ content: |-
     - "Mmmmm, that's soo gooooood. I love this place's Pumpkin Mochas, how'd you know? Thank you so much, buddy."
       (If you haven't unlocked the MLG Host yet...)
         - "Don't worry, I'm not gonna break it. I'm just gonna install something real quick, you might find it handy."
+          - This then unlocks the MLG host for [Pear's Place](pears-place).
       - This dialogue repeats even with another favorite drink.
 
   ###[Airhorn Responses (Cafe)]
