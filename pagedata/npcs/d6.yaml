@@ -225,6 +225,22 @@ content: |-
                   - Variant 2 (otherwise): "hey there again"
               - hg[Option 6]: You're stinky.
                  - (The player explodes.)
+              - hg[Option 7]: Can you upgrade my phone? (D6 Hostless-Exclusive)
+                - "do i look like an engineer to you"
+                    - hg[Yes, now upgrade my phone.]
+                        - "well ok then, *pushy". i'll do you one better."
+                            - You: (You see a phone materialize in D6's palm.)
+                            - You: (A very familiar phone... *your* phone.)
+                                - "reeeeeeal nice phone you got here"
+                                    - You: (You hear a crack... then a crackle... then a *snap*.)
+                                    - You: (Both halves of what used to be your phone clatter to the ground before your feet.)
+                                        - "it will be there to see you in the next life."
+                                            - The [Phone](phone-overhauled) is then gone from the player's inventory until they respawn / rejoin, and D6 now appears as a [Pear's Place](pears-place) host for 6 Coins.
+                    - hg[...No?]
+                        - "well good because i'm not"
+                        - "i have a couple of lithium batteries i could give you though"
+                        - "problem is they are all very bloated."\n"they look like pillows except they are small and explosive"
+                            - I'll pass.
       - hg[Option 3]: Nevermind.
           - hg[Variant 1]: "7577234764 Dont forget it. It's the only way out."
           - hg[Variant 2]: "ok"
