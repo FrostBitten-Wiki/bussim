@@ -17,15 +17,16 @@ page:
 
 content: |
   "A carbonated slushie from GOATed Gas. Comes in many flavors, and despite its chilly properties, drinking one leaves you with a warm, nostalgic feeling in your heart." -"GOATed Slurpy (Rider Almanac)"
-  "The incredbile taste of Blended Grass Syrup mixed with ice slush makes this a good treat... for farm animals." -"Grassy Blast Original (GOATed Slurpy)"
-  "Hey! It's hay! And you're drinking it!" -"Hey Hay! (GOATed Slurpy)"
-  "Surprisingly good flavor out of the 4 flavors..." -"Tomato Tornado (GOATed Slurpy)"
-  "BLUE." - "BLUE. (GOATed Slurpy)"
-  "Tastes like console commands, mmm!" -"GOATed Slurpy"
-
+  #!["The incredbile taste of Blended Grass Syrup mixed with ice slush makes this a good treat... for farm animals." -"Grassy Blast Original (GOATed Slurpy)"]
+  #!["Hey! It's hay! And you're drinking it!" -"Hey Hay! (GOATed Slurpy)"]
+  #!["Surprisingly good flavor out of the 4 flavors..." -"Tomato Tornado (GOATed Slurpy)"]
+  #!["BLUE." -"BLUE. (GOATed Slurpy)"]
+  #!["Tastes like console commands, mmm!" -"GOATed Slurpy"]
   ##[Info]
   The GOATed Slurpy are a collection of items obtained from the [Goat Station](goat-station) event aand cannot be purchased in GOATed Gas, but is purchasable in [Pear's Place](pears-place) for 50 [Coins](coins). Each slurpy can come in 5 different flavors, but all equally share the same effects, all healing the player around 15 in a moderately fast rate.
   \n\n 
   The slurpy can be consumed three times before running out, healing up to an effective 45 health before being discarded on its fourth use. 
+  \n\n 
+  If thrown onto the trash can within GOATed Gas, you'll also get the badge [Tidy & Respectful](badges).
   
   !!GALLERY [/assets/bussim/images/items/goated-slurpy.webp]
