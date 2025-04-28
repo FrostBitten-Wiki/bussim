@@ -83,7 +83,7 @@ content: |-
   \n 
   | Extra Tag                   | Description                  |
   |-----------------------------|------------------------------|
-  | <clr:#984c25>([VR])         | Applicable to players who are using their VR headsets. |
+  | <clr:#e18204>([VR])         | Applicable to players who are using their VR headsets. |
   | <clr:#53d027>([Console])    | Applicable to players who are on Consoles. |
 
   ##[Question Time Tags]
