@@ -231,7 +231,10 @@ content: |-
               - hg[Variant 19]:
                 - "Are you wondering why my seat looks different from the rest?"
                   - hg[Option 1]: Yeah, what's with that?
-                    - "Well, I was sitting in my usual spot, when all of a sudden some people came aboard, talking about renovations... And well, that's cool and all, but what about my seat? I didn't want to change my seat... We've made so many memories together... So I straight up just asked if I could keep it, and funnily enough they actually let me. They moved me to the corner to clear out some space but whatever. As long as I got to keep the seat, it's all *purr*fect to me! But yeah, I guess the moral of the story is to not be afraid to ask about stuff? The worst they could say is no, after all..."
+                    - "Well, I was sitting in my usual spot, when all of a sudden some people came aboard, talking about renovations..."
+                    - "And well, that's cool and all, but what about my seat? I didn't want to change my seat... We've made so many memories together..."
+                    - "So I straight up just asked if I could keep it, and funnily enough they actually let me. They moved me to the corner to clear out some space but whatever. As long as I got to keep the seat, it's all *purr*fect to me!"
+                    - "But yeah, I guess the moral of the story is to not be afraid to ask about stuff? The worst they could say is no, after all..."
                   - hg[Option 2]: No, not really.
                     - "Oh, then I'll spare you the details."
    - hg[Option 3]: Invites...
