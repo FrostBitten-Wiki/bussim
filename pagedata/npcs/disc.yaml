@@ -214,11 +214,11 @@ content: |-
   - If you give Disc <clr:#FFFAF5>(***Vanilla Iced Coffee***):
     - "Oh hello! Do I smell Vanilla Iced Coffee?"
     - "Just in time, I'm still a bit sleepy from yesterday's all-nighter..."
-    - "Thank you!! Baaa!"
+    - "Thank you!! Baaa! You can have some of the coins in the cash register as payment!!"
       - If you given him another <clr:#FFFAF5>(***Vanilla Iced Coffee***):
         - "Oh hello! Do I smell Vanilla Iced Coffee?"
         - "Just in time, I'm still a bit sleepy from yesterday's all-nighter..."
-        - "Thank you!! Baaa!"
+        - "Thank you!! Baaa! You can have some of the coins in the cash register as payment!!"
 
   ###[AFK-Related Dialogue]
   - If the player has been idle for too long
