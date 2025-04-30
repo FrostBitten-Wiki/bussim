@@ -21,7 +21,7 @@ attributions:
 
 content: |-
   ##[Info]
-  MLGBudderCD (Also known as MLG) is an NPC in the [GOATed Gas Station](goat-station) and [Coffee Shop](coffee-shop) event.
+  MLGBudderCD (Also known as MLG) is an NPC in the [GOATed Gas Station](goat-station) and [Sparkplug Cafe][cafe] event.
 
   ##[Favourite Drink]
   MLG's favourite drink is [Pumpkin Spice Mocha](cafe-coffee-recipes). This gives you either 1 Passenger Rep or 1 Driver Rep.
@@ -68,7 +68,7 @@ content: |-
       - The entire response is then repeated afterwards, with further defenstrations dealing no damage.
 
   ###[**Cafe**]
-  There is currently no available emulator for MLG's Coffee Shop dialogue.
+  There is currently no available emulator for MLG's Cafe dialogue.
   ###[**Cafe (Intro / Post-Idle)**]
   - hg[Variant 1]: "Uh, who're you? [Player]? Do I know you?"
   - hg[Variant 2]: "Oh, hey. What's up, whoever you are?"

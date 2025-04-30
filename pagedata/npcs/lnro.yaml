@@ -1,7 +1,7 @@
 editable: true
 page:
   title: lnro
-  description: lnro is an NPC that appears in the Coffee Shop event. They are also
+  description: lnro is an NPC that appears in the Sparkplug Cafe event. They are also
     a developer of Bus Simulator.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npc
@@ -22,7 +22,7 @@ attributions:
 
 content: |-
   ##[Info]
-  lnro is an NPC that appears in the [Cafe](cafe) event. They are also a developer for Bus Simulator.
+  lnro is an NPC that appears in the [Sparkplug Cafe](cafe) event. They are also a developer for Bus Simulator.
 
   ##[Dialogue]
   There is currently no available emulator for lnro.

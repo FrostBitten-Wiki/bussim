@@ -1,7 +1,7 @@
 editable: true
 page:
   title: Charlotte
-  description: Charlotte is a NPC that can be found on the Coffee Shop event.
+  description: Charlotte is a NPC that can be found on the Sparkplug Cafe event.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim npc
 
@@ -21,7 +21,7 @@ attributions:
 
 content: |-
   ##[Info]
-  Charlotte is a NPC that can be found on the Coffee Shop event.
+  Charlotte is a NPC that can be found on the [Sparkplug Cafe](cafe) event.
   They also used to work on the [GOATed Gas Station](goat-station), although they immediately got fired since they blew up the station.
 
   ##[Appearance]
