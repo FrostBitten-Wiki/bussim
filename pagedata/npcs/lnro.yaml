@@ -62,7 +62,7 @@ content: |-
     - MLG: "Nice job. She put the cafe in good hands, I guess. You'll probably get some compensation for your time."
       - "Whew! That bus should be up and running again." 
       - "Before you go, I just wanted to say thanks. Fixing that bus felt like a break for me, I'm feeling ready to take the next day head-on!"
-      - "Oh, and since you were kind of an employee, I might as well pay you something. Take **6-8** passenger rep as compensation."
+      - "Oh, and since you were kind of an employee, I might as well pay you something. Take **120** coins and **6-8** passenger rep as compensation."
       - "I hope to see you again soon! Hopefully without being stranded."
   - If the players have <clr:#ff0000>(failed) to provide almost all of the customers with the correct order:
     - MLG: "Wow. That was pretty lousy."
