@@ -61,7 +61,10 @@ content: |
           - You: "*Wait -- There's actually a disclaimer written in really small text here... ''<clr:#ff7777>(DISCLAIMER: GUMBALL OR ''Gum'' IS NOT A PERMANENT ITEM, RATHER A TEMPORARY ITEM TO ENJOY FOR A SHORT TIME. BY AGREEING TO ACKNOWLEDGE THIS DISCLAIMER, YOU WILL FORFEIT ANY ABILITY TO REFUND OR RE-OBTAIN THE LOST PRODUCT.)''*"
             - hg[Option 1]: [Alright. [Pay 25 coins]]
               - You: "*You insert a coin...\n...and out pops a gumball. As you'd expect.\nYour business with this machine has concluded.*"
-            - hg[Optionm 2]: [Sounds scary, I'm out.]
+                - (The player then recieves a [Gumball](gumball).)
+              - You: "*You insert a coin...\n...and pops out a* -- wait, what?? What is that??\nIs that a beach volleyball??? Uh, okay then..."
+                - (The player then recieves a [Mini Beach Volleyball](mini-beach-volleyball) at a rare chance.)
+            - hg[Option 2]: [Sounds scary, I'm out.]
               - You: "Not really worth it after all."
         - hg[Option 2]: [Absolutely not.]
     - hg[Option 2]: [Ignore.]

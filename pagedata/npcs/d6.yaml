@@ -235,7 +235,7 @@ content: |-
                                     - You: (You hear a crack... then a crackle... then a *snap*.)
                                     - You: (Both halves of what used to be your phone clatter to the ground before your feet.)
                                         - "it will be there to see you in the next life."
-                                            - The [Phone](phone-overhauled) is then gone from the player's inventory until they respawn / rejoin, and D6 now appears as a [Pear's Place](pears-place) host for 6 Coins.
+                                            - (The [Phone](phone-overhauled) is then gone from the player's inventory until they respawn / rejoin, and D6 now appears as a [Pear's Place](pears-place) host for 6 Coins.)
                     - hg[...No?]
                         - "well good because i'm not"
                         - "i have a couple of lithium batteries i could give you though"
