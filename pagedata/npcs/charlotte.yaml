@@ -28,7 +28,7 @@ content: |-
   Charlotte is a white-furred sheep with a long pair of horns and fluffy white hair. She wears plaid pants, a jacket, scarf, and a beanie, all of which are in various shades of green. Her jacket contains a variety of pins, and she also wears a crossbody strap with a potion stored.
 
   ##[Favourite Drink]
-  Charlotte's favourite drink is [Hot Chocolate](cafe-coffee-recipes). This gives you either 1 Passenger Rep or 1 Driver Rep.
+  Charlotte's favourite drink is [Hot Chocolate](cafe-coffee-recipes). This gives you either 1 Passenger Rep or 1 Driver Rep and 70 Coins.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"charlotteemulator" SID:"start" URL:"/assets/bussim/emulatorData/charlotte.json"

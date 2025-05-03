@@ -28,7 +28,7 @@ content: |
   \n<12px>(hg[- Ported from Fandom Wiki])
 
   ##[Favourite Drink]
-  Foxman's favourite drink is [Apple Juice](cafe-coffee-recipes). This gives you either 2 Passenger Rep or 2 Driver Rep.
+  Foxman's favourite drink is [Apple Juice](cafe-coffee-recipes). This gives you either 2 Passenger Rep or 2 Driver Rep and 140 Coins.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"foxmanemulator" SID:"start" URL:"/assets/bussim/emulatorData/foxman.json"
