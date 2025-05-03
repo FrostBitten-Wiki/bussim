@@ -58,6 +58,7 @@ content: |-
                   - hg[Option 2]: F
               - hg[Variant 4]: "I saw some dude jumping around with some sort of rocket launcher made of cones a while ago. Not sure how it works, but if I were you, I wouldn't make them angry."
               - hg[Variant 5]: "I'm a bit hungry. How about if you can find a stick of RAM and bring it back to me, I can give you... How about **2 Driver Rep** and **200 Coins** in return?"
+              - hg[Variant 6]: "I'm a bit hungry. How about if you can find a stick of RAM and bring it back to me, I can give you... How about **4 Passenger Rep** and **200 Coins** in return?" [Private Server Exclusive]
               - hg[Variant 5]: "I'm a bit hungry. How about if you can find a stick of RAM and bring it back to me, I can give you... How about **2 Driver Rep** in return?" [Archived]
                   - hg[Option 1]: There's no way you said it unironically.
                       - "Yeah, what's it to you? Do you want the reward or not?"
@@ -75,8 +76,10 @@ content: |-
           - hg[Variant 1]: "Thanks! Here's that reward I promised."
           - hg[Variant 1]: "Thanks! Here's that rep I promised." [Archived]
           - hg[Variant 2]: "Here's your stuff, now get lost!" 
-          - hg[Variant 2]: "Here's your rep, now get lost! Haha just kidding! Feel free to talk to me again sometime." [Archived]
-            - (The player then receives 2 Driver Reputation and 200 Coins.)
+            - (The player then receives 2 Driver Reputation / 4 Passenger Reputation and 200 Coins.)
+          - hg[Variant 3]: "Here's your stuff, now get lost! Haha just kidding! Feel free to talk to me again sometime." 
+            - (The player then receives 2 Driver Reputation / 4 Passenger Reputation and 200 Coins.)
+          - hg[Variant 3]: "Here's your rep, now get lost! Haha just kidding! Feel free to talk to me again sometime." [Archived]
           - hg[Variant 3] (Illegal RAM): "Hey, wait a second.. This RAM is unmarked! Bootleg! Are you trying to scam me? Well, this'll be the last scam you'll ever pull."
             - (The player then explodes.)
           - hg[Variant 4] (Missing RAM, extremely rare): "Hey, wait a second.. you lied to me! There's no ram here! This'll teach you for being such a trickster..."
