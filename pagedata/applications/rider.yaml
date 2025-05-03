@@ -52,13 +52,16 @@ content: |-
   | Friends invited | Friends you have invited to this game. |
   | Been invited | Likewise, times you were invited to this game. |
   | Thanked the driver | The amount of times you've thanked someone within the driver's seat. Here's some [key phrases](reputation) in thanking one. |
+  | Thanked the cat | The amount of times you have thanked [Pear](pear) during its [hyjacking](pear-takes-the-wheel) event. |
   | Been thanked | Likewise, times you were the one being thanked. |
-  | Sessions on Desktop |A mount of times you played on Desktop devices. |
+  | Sessions on Desktop | Amount of times you played on Desktop devices. |
+  | Sessions on Console | Amount of times you played on a console. |
   | Sessions on Mobile | Amount of times you played on a phone. |
   | Sessions in VR | Amount of times you played using a VR Headset. |
   | Overall playtime | Your total playtime throughout your journey. Doesn't sync between Main and Beta. |
   | Time sitting done | Total time spent sitting at a chair. |
   | Time in driver's seat | Total time spent sitting in the driver's seat. |
+  | Shouts sent | Amount of shout messages you have sent. |
   | Shouts heard | Amount of shout messages you have recieved throughout your journey. |
   | Messages sent | Messages sent through the Messages app. |
   | Messages read | Messages you have read through the Messages app. |
@@ -81,11 +84,14 @@ content: |-
   | Tunnel bonks | Amount of times you slammed your body into the tunnel entrance. |
   | Drinks made | Amount of drinks you have made. Doesn't include eldritch abominations. |
   | Horrors created | Said eldritch abominations. (Amount of times you have made The Sludge.) |
+  | Drinks served to players | Drinks you have given to others. |
+  | Drinks given to you | Drinks given to you. |
   | Drinks served to NPCs | The amount of times you gave drinks to NPCs. Includes horrors created too! |
   | Favorite drinks served | Amount of times you gave an NPC their favorite drink. |
   | Horrors unleashed onto NPCs | Drinks served to NPCs but specifically for The Sludge. Joyous! |
   | Sips taken | Amount of times you have used a drink consumable. |
   | Bites taken | Amount of times you have used a food consumable. |
+  | Fed Tazer | Amount of times you have fed [Tazer](tazer) [RAM](ram). |
   | Defenestrations | Times you have been thrown off a window by someone. |
   | Conversations struck | Times you have made conversation with an NPC. |
   | Things inspected | Amount of times you've interacted with an object, often props that are player-monologues when interacted with. |
@@ -96,6 +102,7 @@ content: |-
   | Played Battle Wagons | Times you have played Battle Wagons with someone. | 
   | Played Rock Gun Knife | Times you have played Rock Gun Knife with someone. |
   | Rap battled | Amount of times you have rap battle or played Friday Night with someone / an NPC. |
+  | Rap battled against Pear | Amount of times you rap battled to specifically [Pear](pear).|
   | Won / Tied / Lost Tic Tac Toe | Self-explanatory. |
   | Won / Lost Connnect Four | Self-explanatory. |
   | Tied Connect Four | A rare one! But also self-explanatory. |
@@ -103,6 +110,7 @@ content: |-
   | Won / Lost Rock Gun Knife | Self-explanatory. |
   | Won / Lost a rap battle | Whether you have the most / least score within a song. |
   | Messages translated | Times you have translated a message using Roblox's experimental feature. Right-click any message in attempt to translate it to your language. |
+  | Put presents under the tree | Amount of times you placed down presents under the christmas tree during [Santa's Gone](santas-gone). |
   ##[Almanac]
   The Almanac is a journal log of all of the events, biomes, and items you have experienced throughout your journey. All three of which has a bar that shows how many you have seen and ones you have not seen. 
   \n\n 
