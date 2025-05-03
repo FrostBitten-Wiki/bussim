@@ -65,23 +65,24 @@ content: |-
   ##[NPC Interactions]
   "That cafe does delivery? I don't remember ordering this.. but thanks." -"Zeon (Goat Station)"
   You're also able to give any type of coffee to the majority of the NPCs in the game, and it's also crucial to the Cafe's main mechanic where you give them to your [Customers](customers), with multiple interactions and even rewards as a result.
-  The following are NPCs that can be gifted outside of [Customers](customers) and their favorite drinks. Do note, that the rewards are randomized to either [Passenger or Driver Reputation](reputation). And are claimable once every eight hours.
+  The following are NPCs that can be gifted outside of [Customers](customers) and their favorite drinks. Do note, that the rewards are randomized to either [Passenger or Driver Reputation](reputation) and coins, with the Rep-Coin ratio being 1:70. And are claimable once every eight hours.
   \n\n
   | Name | Location | Favorite Drink | Rewards |
   |------|-------------|--------|
-  |[Charlotte](charlotte)|Cafe|Hot Chocolate|1| 
-  |[D6](d6)|Goat Station / Cafe|***The Sludge.*** |4|
-  |[Disc](disc)|Goat Station|Vanilla Iced Coffee|4|
-  |[Ectta](ectta)|Question Time|Communion Coffee|6|
-  |[Efeuc](efeuc)|The Void Room|'Decaf'|1| 
-  |[Frost](frostbite)|Glacier Cave|The Blizzard|4| 
-  |[MLG](mlg)|Goat Station / Cafe|Pumpkin Spice Mocha|1| 
-  |[Pear](pear)|The Bus|Vanilla Almond Milk|1| 
-  |[Red](red)|Bloxdonalds|Strawberry Smoothie|1| 
-  |[Steven_Scripts](steven)|Steven Ride|Mango Juice|8| 
-  |[Tazer](tazer)|Cafe|Cup of Glowstick Fluid|3| 
-  |[Zeon](zeon)|Goat Station / Cafe|Strawberry Smoothie|1|
-  |[Foxman](foxman)|Cafe|Apple Juice|1|
+  |[Steven_Scripts](steven)|Steven Ride|Mango Juice|8 Reputation / 560 Coins| 
+  |[Ectta](ectta)|Question Time|Communion Coffee|6 Reputation / 420 Coins|
+  |[D6](d6)|Goat Station / Cafe|***The Sludge.*** |4 Reputation / 280 Coins|
+  |[Disc](disc)|Goat Station|Vanilla Iced Coffee|4 Reputation / 280 Coins|
+  |[Frost](frostbite)|Glacier Cave|The Blizzard|4 Reputation / 280 Coins| 
+  |[Tazer](tazer)|Cafe|Cup of Glowstick Fluid|3 Reputation / 210 Coins| 
+  |[Charlotte](charlotte)|Cafe|Hot Chocolate|1 Reputation / 70 Coins| 
+  |[Efeuc](efeuc)|The Void Room|'Decaf'|1 Reputation / 70 Coins| 
+  |[Foxman](foxman)|Cafe|Apple Juice|1 Reputation / 70 Coins|
+  |[MLG](mlg)|Goat Station / Cafe|Pumpkin Spice Mocha|1 Reputation / 70 Coins| 
+  |[Pear](pear)|The Bus|Vanilla Almond Milk|1 Reputation / 70 Coins| 
+  |[Red](red)|Bloxdonalds|Strawberry Smoothie|1 Reputation / 70 Coins| 
+  |[Zeon](zeon)|Goat Station / Cafe|Strawberry Smoothie|1 Reputation / 70 Coins|
+  
   \n
   You can also give the NPCs other drinks outside of their favored drink, however will either deny or try it out; taking it from your inventory.
   \n 
