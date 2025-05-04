@@ -1,2 +1,2 @@
-This folder contains the spritesheet of all NPC and Contributor Images. Please notify me ( Nyx (@nyxical) ) on discord if you want to import new images.
+This folder contains the spritesheet of all NPC and Contributor Images. Please notify me ( Wesker (@weskerbun) ) on discord if you want to import new images.
 Send me a full list of image of all character images with the format: [characterName]_[poseName].png so i can compile it to a spritesheet.

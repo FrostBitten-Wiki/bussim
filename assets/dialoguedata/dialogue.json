@@ -229,7 +229,7 @@
         "nyx001": {
             "rarity": 50,
             "dialogue": [
-                [[2000, 25], "Nyx", "", "You should kill people with hammers."]
+                [[2000, 25], "Wesker", "", "You should kill people with hammers."]
             ]
         },
 
@@ -664,7 +664,7 @@
 
         "Contributors": "Character Data for Contributors",
 
-        "Nyx": {
+        "Wesker": {
             "dialogueSfx": ["nyx", 0.5, 250],
             "dialogueColors": ["#802d25", "#c73c38", "#ff4545"],
             "dialogueEmoteName": "nyx"
