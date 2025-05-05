@@ -126,6 +126,7 @@ content: |
         - Pear and the Entities also inflict an effect when you get near them that is similar to the effect you get when you enter the Backwalls normally.
       - Each of the rooms may also have different colored parts that are hidden normally, and may suggest a purpose in each of the colors.
     - The map generates by branching itself from a "Start" model, with the base of it residing at x: -6000, y: 4500, and z: 1500.
-  - If you enter the Backwalls using abnormal methods <small>(Teleporting using [Edit](editQQ) or with the help of an admin, or getting spotted by Pear or an Entity)</small>, you'll be able to keep all of your items, however will still be inflicted with the same effect one would have.
-
+  - If you enter the Backwalls using abnormal methods <small>(Teleporting using [Edit](edit) or with the help of an admin, or getting spotted by Pear or an Entity)</small>, you'll be able to keep all of your items, however will still be inflicted with the same effect one would have.
+  - If you attempt to exit the Backwalls using [Edit](edit), there exists a **Boundary** that when crossed beyond, will instantly kill whoever is under the Backwalls' effects. 
+    - Specifically, it only affects those that entered the Backwalls using the conventional Event method, using items such as the [Bus Birthday Cake](bus-birthday-cake) / [Pie](bus-birthday-pie) will not have that same effect, allowing players who used those items to safely exit the Backwalls abnormally.
   !!GALLERY [/assets/bussim/images/events/backwalls2.webp|/assets/bussim/images/events/backwalls.webp|/assets/bussim/images/banners/backwalls/void-pits-backwalls.webp|/assets/bussim/images/banners/backwalls/ballpit-backwalls.webp|/assets/bussim/images/banners/backwalls/fake-exit-backwalls.webp|/assets/bussim/images/banners/backwalls/the-red-backwalls.webp]
