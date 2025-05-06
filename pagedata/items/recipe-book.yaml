@@ -41,7 +41,7 @@ content: |
   \n\n
   Abandoning your recipe will delete it to the owner only, and those who have the recipe will have it be completely disassociated with your identity, showing a blank name and avatar. Even then, it is still possible to recover with the aid of others who have it, but it will still be disassociated from you.
   \n\n 
-  Renaming the name and / or the description of your recipe won't instantly apply to everyone who has your recipe, but is rather provided with updated info alongside the old info for when they first recieved the recipe.
+  Renaming the name and / or the description of your recipe won't instantly apply to everyone who has your recipe, but is rather provided with updated info alongside the old info for when they first recieved the recipe. You can also rename the name / description of recipes made by others, adding a Personal tag next to it, however the naming only applies to you. Attempting to share it with others only yields the original name and description of said recipe.
   \n\n 
   Lastly, you can also decide whether the recipe can be shared from those who have your recipe. This won't affect your ability to share your recipe with others, but prevent said others from sharing it further. 
   \n\n
