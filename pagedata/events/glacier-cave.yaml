@@ -1,7 +1,7 @@
 editable: true
 page:
   title: Glacier Cave
-  description: Glacier Cave is a rare event in Bus Simulator where the Bus stops next
+  description: Glacier Cave is an event in Bus Simulator where the Bus stops next
     to a cave, players are able to enter through the cave through any means of traversal
     until they are teleported to the interior of the cave.
 
@@ -23,7 +23,7 @@ page:
 attributions: []
 content: |
   ##[Info]
-  Glacier Cave is a rare event in Bus Simulator where the Bus stops next to a cave, players are able to enter through the cave through any means of traversal until they are teleported to the interior of the cave. The event ends shortly afterwards. 
+  Glacier Cave is an event in Bus Simulator where the Bus stops next to a cave, players are able to enter through the cave through any means of traversal until they are teleported to the interior of the cave. The event ends shortly afterwards. 
   \n\n 
   While the event is rather short, the inside of the Glacier Cave will always remain present regardless of how many players are inside or the event status. 
   ##[Dialogue]
@@ -61,6 +61,7 @@ content: |
     - It does however require the other two badges that can be unlocked in this cave: Part of the Pack and Animal Messenger.
   - This is one of the two events in the game that contain more than one badge (if any actually), the other one being both [Santa's Gone](santas-gone) and [No Dough](no-dough).
   - If you try and use the GPS in this area, it'll say NO SIGNAL, since you are inside of an underground cave.
+    - However, if you hold out your [Phone](phone-overhauled), it will instead show a weak signal, which allows you to still interact with all of its apps that need celluar connection.
   - Despite the area meant to be somewhere underground, using BTools or such; it is actually extremely high above the ground. 
     - This is because underneath the bus is an endless pool of water and the void, putting the cave in there will simply make it extremely hard to traverse.
     - Both the GPS and this will be explained within the Technical Trivia. 

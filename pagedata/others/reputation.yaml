@@ -51,7 +51,7 @@ content: |-
   \n 
   This only works if you have both the Bus Driver Gamepass and higher Driver Reputation than the current driver, doing so otherwise will fail unless the current driver lacks the gamepass.
   \n\n
-  Driver Reputation can also give you heart tags depending on how much you have, with the last heart at 50,000. You can change which one you want to use with the **!setheart** command.
+  Driver Reputation can also give you heart tags depending on how much you have, with the last heart at 10,000 and the last "heart" at 50,000. You can change which one you want to use with the **!setheart** command.
   \n 
   ##[Trivia]
   - There originally was meant to be a Broken Heart for getting 10 Driver Rep, but this has been replaced with the Beating Heart.
