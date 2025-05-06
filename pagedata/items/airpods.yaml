@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Airpods
-  description: Placeholder
+  description: The Airpods is a gamepass item based off of of Apple's AirPods which are their own TWS (True Wireless Stereo) headphones that were introduced back in 2016. Their function in the game allows you to listen to Roblox Audio IDs locally, via the handy interface on the left of the screen with them selected in your hotbar, at a cost of spatial awareness.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -21,8 +21,9 @@ attributions:
 
 content: |
   ##[Info]
-  The AirPods are based off of Apple's AirPods, which are their own TWS (True Wireless Stereo) headphones that were introduced back in 2016. Their function in the game allows you to listen to Roblox Audio IDs locally, via the handy interface on the left of the screen with them selected in your hotbar.
+  The Airpods is a gamepass item based off of of Apple's AirPods which are their own TWS (True Wireless Stereo) headphones that were introduced back in 2016. Their function in the game allows you to listen to Roblox Audio IDs locally, via the handy interface on the left of the screen with them selected in your hotbar.
   \n\n
+  The side effect with using Airpods however, is a drastically reduced awareness to your surroundings, more specifically, other people. While you have Airpods fully equipped, the chat will be almost transparent, as if muted. This also includes your own messages until you unequip, in which case will your spatial awareness fully return.
   They are available for purchase as a gamepass, for 8 R$, along with the Colored AirPods gamepass for 32 R$, which allows you to color both Pods respectively with !lcolor and !rcolor.
 
   ##[Technical Details]
@@ -32,5 +33,6 @@ content: |
   - The Airpods locations for where they sit will change depending on if you're wearing animal ears or not.
   - Despite the [Phone](phone) being an Android, the Airpods are still paired to it.
   - On the release of the Airpods, it was rather barebones, and you could only change the volume and put in an audio ID.
-
+    - Furthermore Airpods used to entirely mute chat when equipped, and was the case for many years until it was changed following the deprecation of LegacyChatService in May 1st, 2025.
+      - Now, following the May 6th 2025 update, Airpods have been changed to now drastically reduce spatial awareness instead of completely eliminating it.
   !!GALLERY [/assets/bussim/images/items/airpods.webp]
