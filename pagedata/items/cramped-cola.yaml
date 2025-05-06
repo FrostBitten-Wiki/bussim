@@ -1,21 +1,22 @@
-editable: True
+editable: true
 page:
   title: Cramped Cola
-  description: The Cramped Cola is a variant of the Cola series, that is located on the 2nd floor of the bus. It's inside of a cupboard next to the pizza box. 
-    
+  description: The Cramped Cola is a variant of the Cola series, that is located on
+    the 2nd floor of the bus. It's inside of a cupboard next to the pizza box.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
+
   tags: cramped cola, shrink item, purple cola, how do i shrink myself, shrink
 
   header:
     description: |
       Category: [Items](items)\n
       Tags: h[Obtainable Item, Temporary, Special Consumable, Soda]
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/items/cramped-cola.webp
 
-attributions: 
+attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Wesker (@weskerbun) and FangedWerewolf (@noobbiom)
 
@@ -34,6 +35,7 @@ content: |
   ##[Trivia]
   - At some point, Cramped Cola was reworked to have more realistic physics than before, as a result a lot of its internal mechanics were changed alongside different ways to go around issues. This also patched existing issues with the item beforehand. 
     - Despite this though, there now exists an item only given via Admin Commands called Cramped Cola_Old, which as stated in its title, works just like the Cramped Cola prior to it being reworked.
+  - If you use Voice Chat while under the effects of Cramped Cola, your voice becomes higher pitched. This can only be heard to others who also have Voice Chat, and with Voice Chat Effects enabled.
 
   ##[Technical Trivia]
   - It is currently possible to utilize this item as a form of teleportation, first use any item with collisions such as: [Candied Cane](candied-cane), [Snowcone](snowcone), and / or [Popsicle](popsicle) and then unequip it at the first spot. Secondly, go to any spot outside of your first spot and drink the Cramped Cola, and lastly: equip the item you used previously again. This will force you to teleport back to your first spot at any point in the game. 
