@@ -34,5 +34,6 @@ content: |
   - If you attempt to buy the book again even after buying it for the first time, Disc will mention that you had already paid for this, and will refund you back the same amount of reputation that would've required to buy this.
   - Another item also shares a slightly similar function to the Helicopter, being the [Hoverboots](hoverboots) which was a limited tool only obtainable during the 10 Million Event. It has much better mobility overall, however still suffers from a timer-based system.
   - Prior to the Phone Overhaul, this used to cost [100 Passenger Reputation](reputation) during its debut. 
+  - While it exists within the code of [Rider](rider)'s Item Almanac, it is hidden using comments because Helicopter does not have any visual aside from dubious anatomy and physics of the player using it. 
 
   !!GALLERY [/assets/bussim/images/items/helicopter.webp]

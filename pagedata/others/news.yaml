@@ -329,29 +329,33 @@ content: |-
   -  Play Bus Stop Simulator 2! Coming out in 25 years.
    -  This news appears rapidly 10 times in the first two minutes of the server, then never appears again.
   -  [BREAKING NEWS]: [Player] found a strange cola, more at 7...
-   -  This happens if a player gets a [Bad Cola](bad-cola) instead of a Normal [Cola](cola). This has a 10% chance of occurring and gives you the [Something seems.. off...](https://www.roblox.com/badges/2124425352/Something-seems-off) badge.
+    -  This happens if a player gets a [Bad Cola](bad-cola) instead of a Normal [Cola](cola). This has a 10% chance of occurring and gives you the [Something seems.. off...](https://www.roblox.com/badges/2124425352/Something-seems-off) badge.
   -  [BREAKING NEWS]: [Player] has been playing for a whole hour!
-   -  This happens only when a player has stayed in a server for at least 1 hour. This also gives you the [Pretty Fun](https://www.roblox.com/badges/2124472162/Pretty-Fun) badge.
+    -  This happens only when a player has stayed in a server for at least 1 hour. This also gives you the [Pretty Fun](https://www.roblox.com/badges/2124472162/Pretty-Fun) badge.
   -  [BREAKING NEWS]: [Player] has an addiction to this game, they've been playing for half a day!
-   -  This happens only when a player has stayed in a server for 12 hours without disconnecting or the server crashing. This also gives you the [Addicted](https://www.roblox.com/badges/2124472163/Addicted) badge.
+    -  This happens only when a player has stayed in a server for 12 hours without disconnecting or the server crashing. This also gives you the [Addicted](https://www.roblox.com/badges/2124472163/Addicted) badge.
   -  [BREAKING NEWS]: Okay can you guys seriously help [Player] they've been playing for 24 hours please get them off the game.
-   -  This happens only when a player has stayed in a server for 24 hours without disconnecting or the server crashing. This also gives you the [No Sleep](https://www.roblox.com/badges/2124472164/No-Sleep) badge.
+    -  This happens only when a player has stayed in a server for 24 hours without disconnecting or the server crashing. This also gives you the [No Sleep](https://www.roblox.com/badges/2124472164/No-Sleep) badge.
   -  [BREAKING NEWS]: [Player] is a friend of a driver.
-   -  This happens if the player has thanked one driver, and gives the [Thanks!](https://www.roblox.com/badges/2124426073/Thanks) badge.
+    -  This happens if the player has thanked one driver, and gives the [Thanks!](https://www.roblox.com/badges/2124426073/Thanks) badge.
   -  [BREAKING NEWS]: [Player] is the friend of.. many drivers!
-   -  This happens if the player has thanked over 100 drivers. Giving the [Thankful](https://www.roblox.com/badges/2124534871/Thankful) badge.
+    -  This happens if the player has thanked over 100 drivers. Giving the [Thankful](https://www.roblox.com/badges/2124534871/Thankful) badge.
   -  [BREAKING NEWS]: [Player] is a friend of the wolves!
-   -  This happens if the player became friends with [Frostbite](frostbite), earning the [Part of the Pack](https://www.roblox.com/badges/2130010648/Part-of-the-Pack) badge.
+    -  This happens if the player became friends with [Frostbite](frostbite), earning the [Part of the Pack](https://www.roblox.com/badges/2130010648/Part-of-the-Pack) badge.
   -  [BREAKING NEWS]: [Player] was auto-ranked to Driver! Congratulations!
-   -  This happens when someone gets ranked to Driver from Passenger after auto-verification.
+    -  This happens when someone gets ranked to Driver from Passenger after auto-verification.
   -  [BREAKING NEWS]: [New Champion] is now the WORLD RECORD HOLDER for Simon Says with [Rounds Done] wins!!!
     -  [BREAKING NEWS]: The previous record holder was [Old Chamption] with [Rounds Done].
       -  Both of these are broadcasted everywhere regardless of server.
-    - [BREAKING NEWS]: (player) has been to every biome in the game!
-      - This happens when a player gets the [Worldwide Passenger](https://www.roblox.com/badges/2589101138535417/Worldwide-Passenger) badge, where you have been in every biome in the game.
-    - [BREAKING NEWS]: (player) survived every single danger thrown their way!
-      - This happens when a player survived every event that can kill you (Excluding NoblesHouse, Backwalls, Cafe, GoatStation, an NoDough), and gets the [Survivor](https://www.roblox.com/badges/3408555492434090/Survivor) badge.
-    - [BREAKING NEWS]: Congratulations. You have no friends!
-      - Seen if the player has been alone in a server for 30 minutes. Can be seen every 30 minutes, but resets if another player joins until they leave. This likey also plays when the player gets the [Melancholy](https://www.roblox.com/badges/682951209544927/Melancholy) badge.
+  - [BREAKING NEWS]: (player) has been to every biome in the game!
+    - This happens when a player gets the [Worldwide Passenger](https://www.roblox.com/badges/2589101138535417/Worldwide-Passenger) badge, where you have been in every biome in the game.
+  - [BREAKING NEWS]: (player) survived every single danger thrown their way!
+    - This happens when a player survived every event that can kill you (Excluding NoblesHouse (Fridge), Lemon Soda, Time Travel (Expired Taco) Backwalls, Cafe (D6 / Stanley), GoatStation (D6 / Tazer), BoughtOut and NoDough), and gets the [Survivor](https://www.roblox.com/badges/3408555492434090/Survivor) badge.
+    - Specifically, the following dangerous events are: [Acid Rain](acid-rain), [Bacon Hair](bacon-hair), [Billy](billy), [Blizzard](blizzard), [Flash Flood](flash-flood) & [Lava Floor](lava-floor).
+      - No, mental / psychological attacks such as MicSpam / MicOff do not count towards this.
+  - [BREAKING NEWS]: (player) has collected every item in the game!
+    - This happens when a player obtains every obtainable, non-gamepass or RNG-heavy item within the game. This also gives the player the [Loot Goblin](https://www.roblox.com/badges/3768246501892075/Loot-Goblin) badge.
+  - [BREAKING NEWS]: (player) just completed their ENTIRE Almanac! That takes dedication, congratulations!!
+    - This happens when the player has visited all biomes, faced every event, and obtained every reasonably-obtainable item in the game, or in other words, when the player fully completes their [Rider](rider) almanac. This also rewards the player the [Sagacious Passenger](https://www.roblox.com/badges/4223567827136739/Sagacious-Passenger) badge.
   !!GALLERY [/bussim-assets/images/others/news.webp]
     
