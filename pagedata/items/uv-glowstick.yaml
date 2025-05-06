@@ -1,7 +1,7 @@
 editable: true
 page:
   title: UV Glowstick
-  description: The Glowstick is an obtainable item purchased from the Goat Station event for 400 Coins permanently, or can be stolen but remains temporary. It can also be purchased at Pear's Place for 175 Coins, if you so happen to steal it. When held, it emits a soft lavender light around you that slowly fades, but it can be shaken by clicking anywhere while it's equipped, returning it back to full brightness.
+  description: The Glowstick is an obtainable item purchased from the Goat Station event for 400 Coins permanently, or can be stolen but remains temporary. It can also be purchased at Pear's Place for 175 Coins, if you so happen to steal it. When held, it emits a soft violet light around you that slowly fades, but it can be shaken by clicking anywhere while it's equipped, returning it back to full brightness.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
@@ -19,7 +19,7 @@ content: |
   "Ultraviolet light for ghost hunting on the go." -"UV Glowstick"
 
   ##[Info]
-  The Glowstick is an obtainable item purchased from the [Goat Station](goat-station) event for 400 [Coins](coins) permanently, or can be stolen but remains temporary. It can also be purchased at [Pear's Place](pears-place) for 175 [Coins](coins), if you so happen to steal it. When held, it emits a soft lavender light around you that slowly fades, but it can be shaken by clicking anywhere while it's equipped, returning it back to full brightness.
+  The Glowstick is an obtainable item purchased from the [Goat Station](goat-station) event for 400 [Coins](coins) permanently, or can be stolen but remains temporary. It can also be purchased at [Pear's Place](pears-place) for 175 [Coins](coins), if you so happen to steal it. When held, it emits a soft violet light around you that slowly fades, but it can be shaken by clicking anywhere while it's equipped, returning it back to full brightness.
   \n\n 
   It can also be thrown by pressing Q, the item respawns in 15 seconds but stays for 30 seconds. The tossing arc will also be in the direction of your cursor, including gravity as well. This action can't happen for around 5 seconds if the glowstick had been shaken before.
 
