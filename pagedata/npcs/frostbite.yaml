@@ -359,8 +359,8 @@ content: |-
   - Frost is referenced by multiple news shouts about stealing [Spronkbib Popsicles](spronkbib-popsicle), rendering the popsicles a rarity now. This is alluded to the fact that the chances of getting one from an Ice Cream Truck is extremely rare.
   - If you bought pearcoin^(TM) in the server without rejoining, you need to rejoin to be able to use it however [Pear's](pear) dialogue will change without rejoin needed.
   - If you offered Frost a [Spronkbib Popsicle](spronkbib-popsicle) instead of the [Ice Cream](ice-cream) + [PearcoinTM](pearcoin) duo, he will still mention about receiving a PearcoinTM from you, despite not possibly even owning one nor showing it to Frost in the first place.
-  - If you really don't want to spend any Robux, the best way to get Frost's trust is to get the legendary [Spronkbib Popsicle](spronkbib-popsicle), which has a 1/800 chance of getting, or by giving him multiple [Ice Creams](ice-cream).
-      - The latter is still not confirmed yet.
+  - If you really don't want to spend any Robux, the best way to get Frost's trust is to get the legendary [Spronkbib Popsicle](spronkbib-popsicle), which has a 1/800 chance of being obtained from an Ice Cream Truck.
+      - Note that you may not give the Spronkbib Popsicle if you had already given him one Ice Cream.
 
   ##[Technical Trivia]
   - Frostbite has a unique folder inside called TrustLevels which determines what dialogue he uses to the player depending on the player's trust. It comes with 4 levels, Acquainted (1), Friends (2), Stranger (0), and Intruder (First Introductions)
