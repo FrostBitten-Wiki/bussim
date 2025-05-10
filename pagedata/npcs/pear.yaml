@@ -2,9 +2,9 @@ editable: true
 page:
   title: Pear
   description: |
-    Pear is both a Knitter and a NPC in the second floor. If you interact with him, you can have a conversation of many things,
-    invite a friend to gain rewards, or buy two songs for everyone in the server for 80 robux, although he recommends not to after "the incident".
-    He is also necessary to obtain one of the badges in Bus Simulator.
+    Pear is an NPC sitting at the end of the second floor. If you interact with him, you can have a conversation involving many things,
+    invite a friend to gain rewards, or buy two songs for everyone in the server for 80 robux, although he recommends not to after "the incident" (Roblox March 22nd audio update).
+    Talking to him is also necessary to obtain one of the badges in Bus Simulator, Animal Messenger.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim pear npc
 
@@ -24,20 +24,20 @@ attributions:
 
 content: |-
   ##[Info]
-  Pear is both a Knitter and a NPC in the second floor. If you interact with him, you can have a conversation of many things,
-  invite a friend to gain rewards, or buy two songs for everyone in the server for 80 robux, although he recommends not to after "the incident".
-  He is also necessary to obtain one of the badges in Bus Simulator.
+  Pear is an NPC sitting at the end of the second floor. If you interact with him, you can have a conversation involving many things,
+  invite a friend to gain rewards, or buy two songs for everyone in the server for 80 robux, although he recommends not to after "the incident" (the 3/22/22 audio update).
+  He is necessary to obtain one of the badges in Bus Simulator, that being [Animal Messenger](https://www.roblox.com/badges/2130010649/Animal-Messenger).
 
   ##[Appearance]
-  Pear is a grey tuxedo cat that is wearing a Green Domino Crown, a collar, a cat facemask, a pair of pastel vintage glasses, a pair green and yellow arm warmers, and a small backpack.
+  Pear is a grey tuxedo cat that wears a Green Domino Crown, a collar, a cat facemask, a pair of pastel vintage glasses, a pair green and yellow arm warmers, and a small backpack.
 
   ##[Favourite Drink]
-  Pear's favourite drink is [Vanilla Almond Milk](cafe-coffee-recipes). This gives you either 1 Passenger Rep or 1 Driver Rep and 70 Coins.
+  Pear's favourite drink is [Vanilla Almond Milk](cafe-coffee-recipes). This gives you either 1 Passenger Rep or 1 Driver Rep, and 70 Coins.
 
   ##[Inviting Friends]
   One of the new features added within the 2/04/2023 Update, following the 20 Million Update. When you talk to Pear, 
   you can invite your friends to join you, and if you and your invited friend stays within the same server for an hour, 
-  you both get 10 Driver Rep & Passenger Rep, as well as 500 coins for the invitee and 300 coins for the invited, and you can invite up to 2 more friends granting 5 Driver Rep & 300 Coins for each one, 
+  you both get 10 Driver Rep & Passenger Rep, as well as 500 coins for the invitee and 300 coins for the invited. You can invite up to 2 more friends, granting 5 Driver Rep & 300 Coins for each one, 
   but 10 Passenger Rep for each one too, everyday. You'll also get badges for either being the one invited, or inviting someone.
   \n\n
   You can also invite someone, and then be invited by the same person afterwards to get 2 out of 3 friends with only 1 friend.
@@ -691,7 +691,7 @@ content: |-
   - hg[Variant 5]: "Don't need to worry about me, I'm too powerful for the entities. You aren't, though."
 
   ###[**The Backwalls (Entity Encounter)**]
-  - hg[Variant 1]: "Hello, I'm currently leading someone awa y from you. If you'd be so kind as to keep them alive, that'd be great."
+  - hg[Variant 1]: "Hello, I'm currently leading someone away from you. If you'd be so kind as to keep them alive, that'd be great."
   - hg[Variant 2]: "Pardon me, I'm just attempting to bring this player with me to the exit. Remain calm, I do not wish to disturb you."
   - hg[Variant 3]: "Hi, my name is Pear Paw. I'm crossing paths with you on business terms. Please keep me and my client in one piece."
   - hg[Variant 4]: "Excuse me, I have a client with me. It'd be nice of you to hold your aggro for a lil bit."
@@ -761,12 +761,11 @@ content: |-
   ##[Trivia]
   - He is the only NPC that offers you something in exchange for Robux.\n\n
   - Pear can also be seen in the Backwalls event, wandering around.\n\n
-  - When Pear mentions "The Incident", they're referring to the removal of most copyrighted audios on March 22nd, 2022.\n\n
   - Pear will still get annoyed at you (and afterwards, kills you) if you use the Airhorn while not on the same floor as him, but at a similar horizontal area, such as the seat directly below and above him.\n\n
   - If the private server owner uses the !seats command, Pear will stand in place instead.\n\n
   - Pear's calculations with the invite system is partially accurate, as you actually gain up to 1,100 Coins, 20 Driver Reputation and 30 Passenger Reputation per day, up to 7,700 Coins, 140 Driver Reputation and 210 Passenger Reputation every week, for a total of 350 Reputation. This is only including inviting your friends, and not the other way around.\n\n
-  - If Pear were to somehow be involved with gears that would normally kill him, he would retaliate by activating his counter, instantly killing anyone near him.
-    - This was done to prevent [Pear Takes The Wheel](pear-takes-the-wheel) from being softlocked.\n\n
+  - Using a Gear that causes fatality on Pear will cause him to 'counter', instakilling everyone near him.
+    - This is an anticheat made to prevent [Pear Takes The Wheel](pear-takes-the-wheel) from being softlocked.\n\n
   - Pear's fourth variant in arriving at the exit is a direct reference to [Pure Imagination](https://www.youtube.com/watch?v=SVi3-PrQ0pY), a song composed by Gene Wilder for Willy Wonka & The Chocolate Factory.\n\n 
   - Pear's 5th dialogue if it takes an absurdly long time to reach to the exit is a direct reference to [Second Life](https://secondlife.com/).
 
