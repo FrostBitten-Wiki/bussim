@@ -212,10 +212,11 @@ content: |-
   - If you give MLG <clr:#E39254>(***Pumpkin Spice Mocha***):
     - "Oh, for me? Thanks!"
     - "..."
-    - "Mmmmm, that's soo gooooood. I love this place's Pumpkin Mochas, how'd you know? Thank you so much, buddy."
-      (If you haven't unlocked the MLG Host yet...)
+    (If you haven't unlocked the MLG Host yet...)
+      - "Mmm, Pumpkin Spice Mocha, my favorite! Here, as thanks, hand me your phone for a sec!"
         - "Don't worry, I'm not gonna break it. I'm just gonna install something real quick, you might find it handy."
           - This then unlocks the MLG host for [Pear's Place](pears-place).
+    - "Mmmmm, that's soo gooooood. I love this place's Pumpkin Mochas, how'd you know? Thank you so much, buddy."
       - This dialogue repeats even with another favorite drink.
 
   ###[Airhorn Responses (Cafe)]

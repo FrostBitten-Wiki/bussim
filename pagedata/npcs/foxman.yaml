@@ -68,7 +68,8 @@ content: |
   - If you give Foxman <clr:#FFFAAD>(***Apple Juice***):
     - "Apple juice? How'd ya know? Apple is my favorite!"
       - If you given him another <clr:#FFFAAD>(***Apple Juice***):
-        - "Ya know, I like apples more than any other fruit... Sure it's basic, but I appreciate the simple flavors..."
+        - "Apple juice? How'd ya know? Apple is my favorite!" [Variant 1]
+        - "Ya know, I like apples more than any other fruit... Sure it's basic, but I appreciate the simple flavors..." [Variant 2]
   
   ###[Airhorn Responses]
   - If the airhorn is used repeatedly in proximity to Foxman :
