@@ -89,9 +89,7 @@ content: |-
       - "Oh, this isn't what I was thinking. I remembered it- it's lychee. I like mango too, though. Thanks."
 
   ###[Drink Responses (Steven Ride)]
-  - If you give Steven the wrong drink:
-    - "I appreciate it, but I think I'll pass on that one."
-  - If you give Steven <clr:#151812>(***The Sludge.***):
+  - If you give Steven the wrong drink (Including <clr:#151812>(***The Sludge.***)):
     - "I appreciate it, but I think I'll pass on that one."
   - If you give Steven <clr:#FFD4B3>(***Mango Juice***):
     - "Oh, you actually brought me mango juice. Thanks."
