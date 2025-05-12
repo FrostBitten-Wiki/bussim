@@ -30,7 +30,7 @@ content: |-
   | Heart                               | Driver Reputation |
   |-------------------------------------|-------------------|
   | <clr:#86512b>([💗] Beating Heart)  | 10                 |
-  | <clr:#fca542>([🧡] Orange Heart)    | 25                 |
+  | <clr:#fca542>([🧡] Orange Heart)   | 25                 |
   | <clr:red>([❤️] Red Heart)          | 50                 |
   | <clr:#4069e5>([💙] Blue Heart)     | 75                 |
   | <clr:green>([💚] Green Heart)      | 100                |
@@ -46,7 +46,7 @@ content: |-
   | <clr:#000000>([🖤+] Black Heart+)  | 1,000              |
   | [🤍] White Heart                   | 5,000              |
   | [🤍+] White Heart+                 | 10,000             |
-  | [???] Numbers                       | 50,000+             |
+  | [???] Numbers                      | 50,000+             |
 
   ##[Group Ranks]
   \n
@@ -56,9 +56,9 @@ content: |-
   | <clr:#001793>([Passenger])     | The lowest obtainable rank in the group. Obtained simply by getting verified. |
   | <clr:#e771a1>([Verifier])      | A currently unused rank that is used to rank Unverified players up to Passenger. This rank is largely redundant compared to what Authenticator can do. |
   | <clr:#00bd2f>([Driver])        | The most commonly obtained rank, as it's incredibly easy to get. You need to meet the vague requirements to get the Driver rank, which requires the following to get:\n\n> Be verified in the group\n> Certain amount of messages sent in-game in total\n> Certain amount of Driver Reputation (mostly 10 rep at minimum)\n\nOwning the [Driver Gamepass](https://www.roblox.com/game-pass/4894984/Bus-Driver) also helps with the process, but is not required to own, nor does it give you the Driver rank automatically. Drivers get "+14" additional driver rep, which gives you more Kick Off priority but doesn't contribute to Heart progression. |
-  | <clr:#e1a200>([OG Driver])     | An unobtainable rank that was given to as many people with the Driver rank as possible before Driver was made obtainable again. OG Driver gets a free [Mini-Bus](mini-bus) <small>(if the player doesn't own one)</small>, and it's sparkly. You also get "+16" additional driver rep. |
+  | <clr:#e1a200>([OG Driver])     | An unobtainable rank that was given to as many people with the Driver rank as possible before Driver was made obtainable again following the Auto-Rank's implementation. OG Driver gets a free [Mini-Bus](mini-bus) <small>(if the player doesn't own one)</small>, and it's sparkly. You also get "+16" additional driver rep. |
   | <clr:#30ee53>([Best Driver])   | A rank that only efeuc can have. It's mainly a cosmetic tag, like Group Bot and Noble. He also has "+18" additional driver rep. |
-  | <clr:#f43f08>([Contributor])   | You can obtain the rank by contributing to the game in some way, like making a seat anim, clothing, etc. Contributors get a free [Balloon](balloon) and [Mini-Bus](mini-bus) <small>(if the player doesn't own one)</small> which is sparkly. Those in the Contributor rank also get "+20" additional driver rep.  |
+  | <clr:#f43f08>([Contributor])   | You can obtain the rank by contributing to the game in some way, like making a seat anim, clothing, etc. Contributors get a free [Balloon](balloon) and [Mini-Bus](mini-bus) <small>(if the player doesn't own one)</small> which is sparkly. Those in the Contributor rank also get "+20" additional driver rep. |
   | <clr:#8e40ed>([Knitter])       | This rank is for people who are trusted with managing the group's store due to their vast and/or unique contributions. There may be some vague requirements aside from that. This role is currently held by Pear (for his many shirts) Ocublox and Brew4U (for creating the Bus Sim UGC). |
   | <clr:#8729b1>([Authenticator]) | A rank similar to Verifier, but has more powers, like exiling people, deleting messages, etc. The rank is very rare, and only has two members, Ectta and Zeon. They also have admin powers by default. |
   | <clr:#9100c1>([Developer])     | A co-owner like rank that shows people who is a main developer of the game. Currently only Steven has this rank. |
