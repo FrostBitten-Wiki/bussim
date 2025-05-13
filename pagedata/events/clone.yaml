@@ -1,10 +1,13 @@
-editable: True
+editable: true
 page:
   title: Clone
-  description: The Clone Event is an event in Bus Simulator where the bus gets cloned out of nowhere. Soon enough though, it turns out to be unstable and disappears shortly after.
-    
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim cloned bus event
-  
+  description: The Clone Event is an event in Bus Simulator where the bus gets cloned
+    out of nowhere. Soon enough though, it turns out to be unstable and disappears
+    shortly after.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim cloned bus
+    event
+
   tags: some,tags,here,that is used by the search api
 
   header:
@@ -12,8 +15,8 @@ page:
       Category: [Events](events)\n
       Event Name: h[Clone]\n
       Event Runtime h[1 Minute and 25 Seconds (1:25)]
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/events/clone2.webp
 
 attributions: []
@@ -33,9 +36,10 @@ content: |
 
   ##[Trivia]
   - It isn't recommended to jump to the cloned bus and vice versa while inside a tunnel, as you can very much fall inbetween the gap. And while it's a bit unnecessary as it is, you can use either [Hoverboots](hoverboots) or [Helicopter](helicopter) to easily travel between the two busses.
-  - This is one of the more earlier events in this game, which is also why the cloned bus has less features as it's an older version of [The Bus](the-bus).
+  - This is one of the more earlier events in this game, and also has a chance to include the older version of the bus.
   - Despite the name suggesting it being a clone, it doesn't clone any modifications to the Bus like Seasonal Changes nor Edits.
   - Attempting to flush yourself down the toilet in the cloned bus will not send you to the [Art Gallery](art-gallery), but instead the afterlife. Or, in other words, you just explode and die.
   - Even in the cloned bus, there still lies a cinderblock on the gas pedal, with the dialogue played being the following "Even this scuffed up cloned bus comes with a cinder block...".
+  - The cloned bus has hexidecimal code where the "update note" usually is. When translated, the top text simply says "easter egg", whilst the bottom text says "was all that typing worth it?". poking fun at the player for decoding said paper.
 
   !!GALLERY [/assets/bussim/images/events/clone2.webp|/assets/bussim/images/events/clone.webp]
