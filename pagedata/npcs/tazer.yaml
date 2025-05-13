@@ -155,7 +155,6 @@ content: |-
                 - If the player doesn't have enough coins:
                   - "Woahh, hold up a second bud..." 
                   - "You ain't got the coins for this. No can do, sorry. Come back once ya got enough coins to pay me."
-                  - "Just in case you forgot, you can get more passenger rep by thanking your Driver."
                 - If the player doesn't have enough reputation: [Archived]
                   - "Woahh, hold up a second bud..." 
                   - "You ain't got the rep for this. No can do, sorry. Come back once ya got enough rep to pay me."
