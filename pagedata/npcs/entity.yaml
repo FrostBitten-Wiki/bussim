@@ -38,5 +38,6 @@ content: |
   - Their line of sight also breaks at any obstacle, especially [Pear](pear). If you are his client and got detected first before Pear could pacify it, hiding behind him can significantly reduce your speed of detection.
   - If Pear encounters it with his client first before it could to the player, their AI will temporarily be pacified, allowing Pear's client to get away without being detected no matter what circumstances would trigger its detection. 
     - This doesn't work if the Entity finds the client first before Pear could intervene, or if other players had tagged along with the client.
+  - Entities can also teleport using Void Walls much like players can, and in very-rare instances, could end up appearing right next to another player.
 
   !!GALLERY [/assets/bussim/images/npcs/entity.webp]  
