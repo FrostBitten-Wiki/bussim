@@ -23,13 +23,17 @@ content: |
   "They can't lock down your creativity. (Only visible to friends.)" -"Marker"
 
   ##[Info]
-  The Marker is an item that allows you to draw lines almost anywhere in the game, it currently has 3 tools, Export, Draw, and Erase. 
+  The Marker is an item that allows you to draw lines almost anywhere in the game, it currently has 3 tools, Export, Draw, and Erase.
   \n\n 
-  All of your drawings will also be visible to your friends in Public Servers, and to everyone in Private Servers. 
+  When held, a pop-up will appear, providing an explanation as to what can be shown and what cannot be shown based on your account's age. If your account is under the age of 13, only you'll be able to see your drawings, otherwise you and your friends (whom are also aged above 13) can view these drawings.
+  \n\n 
+  Marker drawings are also visible to everyone (whom are over the age of 13) in Private Servers too, but exclusively for friends in Public Servers.
   \n 
-  It will also load for others even if they join after you've drawn something. 
+  In the event that your friends (whom are over the age of 13) join after you've drawn something with the marker, any drawings made beforehand will automatically load for them.
   \n\n 
   Do note however that as of now, rejoining will purge all your drawings. 
+  \n\n 
+  Lastly, all marker drawings are completely unmoderated; however, make sure you and everyone (whom are over the age of 13) consent with drawings that may be considered rule-breaking for Roblox. If you see a friend drawing these types of content, don't be afraid to confront them if you aren't cool with it.
   ##[Export Tool]
   The export tool allows you to export all of your drawings (dots or art) by clicking the 1st button when holding the Marker. It'll export all of the lines you have made in the game and exports them as a Model & Packages in your desktop / browser inventory. All of which is still subjected via moderation. 
   \n\n 
