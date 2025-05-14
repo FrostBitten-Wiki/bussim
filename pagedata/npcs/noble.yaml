@@ -21,7 +21,7 @@ attributions:
 
 content: |-
   ##[Info]
-  NobleReign is an NPC in Bus Simulator. He is also the creator of Bus Simulator.
+  NobleReign is an NPC in Bus Simulator, designed after the developer of the same name who created Bus Simulator.
 
   ##[Dialogue]
   There is currently no available emulator for NobleReign.
@@ -31,9 +31,9 @@ content: |-
       - "Just.. feel free to go through the other wall.. *long, defeated sigh*"
 
   ##[Trivia]
-  - Although NobleReign has a fursona called [Frostbite](frostbite), within the game Noble doesn't acknowledge the existence of [Frostbite](frostbite), and neither does [Frostbite](frostbite).\n\n
-  - Unlike other NPCs, you can't annoy NobleReign with an airhorn.\n\n
-  - This is one of the only NPCs in the game that still uses the Event Textbox instead of the new NPC Dialouge system that other NPCs use. (ex. [Frostbite](frostbite), [MLG](mlg), [Disc](disc), [Tazer](tazer), etc.)
-  - If NobleReign had a favorite drink, it'd be Sprite.
+  - Although NobleReign has a fursona called [Frostbite](frostbite), within the game Noble doesn't acknowledge the existence of [Frostbite](frostbite), and vice versa, as Noble and Frostbite are considered two seperate characters that reflect different parts of NobleReign's online presence.
+  - Unlike most other NPCs, Noble isn't annoyed when blasted with an airhorn.\n\n
+  - This is one of the only NPCs in the game that still uses the default ROBLOX NPC dialogue system instead of the custom Bus Simulator dialogue system. 
+  -- This is likely because the only times that Noble says something are dialogue addressed to the entire server, and not one specific person.
 
   !!GALLERY [/assets/bussim/images/npcs/noble.webp]  
