@@ -21,7 +21,7 @@ attributions:
   - made by fang
 
 content: |
-  "Runs something or other!" -"Phone"
+  "Runs on Android!" -"Phone"
   ##[Info]
   The Phone, or more specifically; Lnro Corp's Vali A, is the first tool added in Bus Simulator and similarly is the first tool you spawn off with, recieving a full overhaul throughout the end of August 2024. It serves a multitude of functions, from being a flashlight to communicating with others privately; all with customizations to your desire.
   \n\n
@@ -99,4 +99,5 @@ content: |
   - Clicking, typing, and using the flashlight all have their own unique animations for the player.
   - The original [phone](phone), one that has been prevalent throughout the majority of Bus Simulator's life was a drastically simpler version, being a simple-handheld that allows you to activate a flashlight and also displayed the in-game time.
   - VR players hold their phone in their left hand. This is so they can use their cursor, which can only be used on the right hand.
+  - The phone used to have another tooltip being "Runs something or other!", but was unknowingly altered.
   !!GALLERY [/assets/bussim/images/items/phone-new.webp|/assets/bussim/images/items/phone.webp]
