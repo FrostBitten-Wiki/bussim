@@ -143,3 +143,4 @@ content: |
  - Having too much Dry ingredients within your drink can be almost fatal, as it'll always deal 99 damage and leave an audible gasp instead of the usual effects. 
   - Originally it was going to be a way to instantly die, but it's reserved for a future ingredient.
  - Having too much Glowstick Fluid within a cup will make it glow out of the cup hole.
+ - Both the Empty Cup and its drinks will cause the player's gravity to be reset back to normal under the effects of the [Cramped Cola](cramped-cola), sinking the player quickly.
