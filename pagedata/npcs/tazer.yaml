@@ -79,7 +79,7 @@ content: |-
           - hg[Variant 3]: "Here's your stuff, now get lost! Haha just kidding! Feel free to talk to me again sometime." 
             - (The player then receives 2 Driver Reputation and 200 Coins.)
           - hg[Variant 3]: "Here's your rep, now get lost! Haha just kidding! Feel free to talk to me again sometime." [Archived]
-          - hg[Variant 4] (Illegal RAM): "Hey, wait a second.. This RAM is unmarked! Bootleg! Are you trying to scam me? Well, this'll be the last scam you'll ever pull."
+          - hg[Variant 4] (Illegal RAM, obtained using Admin / Unnatural Means): "Hey, wait a second.. This RAM is unmarked! Bootleg! Are you trying to scam me? Well, this'll be the last scam you'll ever pull."
             - (The player then explodes.)
           - hg[Variant 5] (Missing RAM, extremely rare): "Hey, wait a second.. you lied to me! There's no ram here! This'll teach you for being such a trickster..."
             - (The player then explodes.)
@@ -287,5 +287,6 @@ content: |-
   - It is entirely possible to get the Illegal RAM dialogue without assistance of an Admin by double-clicking Tazer to where he has two versions of himself, and swiftly double-clicking the RAM option.\n\n
   - Tazer, [D6](d6), and [MLG](mlg) are fully capable of killing the player by their normal dialogue options, however doesn't actually kill them when annoyed via an Airhorn, compared to other more passive NPCs like [Frostbite](frostbite).
   - You can also give Tazer, the actual player; a <clr:#7300fe>(***Cup of Glowstick Fluid***), and he will be able to drink it perfectly fine. 
+  - It is also possible to pre-fire his completion dialogue when giving him [RAM](ram), if you picked up RAM from the same event you fed it to him again, and then give it to him in the next event.
 
   !!GALLERY [/assets/bussim/images/npcs/tazer.webp]  
