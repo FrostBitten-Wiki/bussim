@@ -118,4 +118,4 @@ content: |
   !!LISTITEM IMAGE:"/bussim-assets/images/items/starter-box.webp" TITLE:"Starter Box (👁️‍🗨️)" DESCRIPTION:"The Starter Box is an obtainable item from the 10 Million Visits Wheel.\n\nWhen used, it'll provide all of the items obtainable from The Bus, instantly." REDIRECT:"starter-box"
 
   !!INFOBOX TITLE:"Outdated / Archived Items" COLOR:"#e958b6" TEXT:"The following items were once existing or older yet obtainable items, but simply no longer exist in the latest version of the game. The following items therefore are for archival purposes."
-  !!LISTITEM IMAGE:"/bussim-assets/images/items/phone.webp" TITLE:"Phone" DESCRIPTION:"Phone is one of the first tools in the game you obtain.\n\nWhen used, it'll illuminate light out of its back." REDIRECT:"phone"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/phone.webp" TITLE:"Phone (❌)" DESCRIPTION:"Phone is one of the first tools in the game you obtain.\n\nWhen used, it'll illuminate light out of its back." REDIRECT:"phone"
