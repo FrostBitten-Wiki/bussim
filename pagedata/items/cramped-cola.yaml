@@ -24,11 +24,11 @@ content: |
   "Feels like there's a lot of pressure inside." -"Cramped Cola"
 
   ##[Info]
-  The Cramped Cola is a variant of the [Cola](cola) series, that is located on the 2nd floor of the bus. It's inside of a cupboard next to the pizza box. 
+  The Cramped Cola is a variant of the [Cola](cola) series, that is located on the 2nd floor of the bus underneath the table with the [Pizza](pizza) on top.
   \n\n 
   Upon drinking, it will begin to shrink your avatar, possibly giving access to some areas that require being small. Drinking again will result in becoming normal sized again. 
   \n
-  Keep in mind each drink deals 30 (28 w/ health regen) damage, making it only consumable 4 times in quick succession. 
+  Keep in mind each drink deals 30 (28 effective, when including health regeneration) damage, making it only consumable 4 times in quick succession. 
   \n\n 
   It also will disable you from using any items in your inventory while shrinking or expanding, mainly to prevent exploits and both your movement speed and jump power gets decreased significantly. 
 
