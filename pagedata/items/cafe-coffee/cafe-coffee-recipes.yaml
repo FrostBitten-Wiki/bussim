@@ -27,7 +27,7 @@ content: |-
   \n\n
   When making one, the player will go into a focus-mode state, being able to pick any ingredients and measure them out carefully. Recipes are also provided on the left, with all of the specific ingredients needed to make a drink.
   \n\n
-  While you do not need to be extremely accurate, as long as you have the appropriate ingredients; it'll blend into the drink that you want, but do note that some recipes have stricter ranges because already existing recipes can overlap. (Example being Mango / Apple Juice being stricter because the recipe also works as a Water, therefore unless its even more specified, it will yield Wwater.)
+  While you do not need to be extremely accurate, as long as you have the appropriate ingredients; it'll blend into the drink that you want, but do note that some recipes have stricter ranges because already existing recipes can overlap. (Example being Mango / Apple Juice being stricter because the recipe also works as a Water, therefore unless its even more specified, it will yield Water.)
   ##[Controls]
   ###[__Desktop / PC__]
   For Desktop / PC, making drinks only uses the keyboard. The keys are as follows:
