@@ -23,7 +23,7 @@ content: |
   "ToolTip" -"Tool"
 
   ##[Info]
-  Tool is a temporary item that can be obtained after giving D6 a food or drink item after denying the first deal (Permanent items, such as the Snowcone, also count).
+  Tool is a temporary item that can be obtained after giving D6 within [Goat Station](goat-station) a food or drink item after denying the first deal (Permanent items, such as the Snowcone, also count).
   \n\n
   When triggering his dialogue asking for food, you have to deny it, where he barters to give you the tool, then accept it.
 
