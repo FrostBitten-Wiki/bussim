@@ -85,7 +85,7 @@ content: |-
             - (The player then explodes.)
           - hg[Variant 6] (If already completed within multiple events): "Uhh.. I kinda feel like I've done this before.. I don't really feel that hungry anymore.."
           - hg[Variant 7] (If already completed within multiple events): "Ehhhh... I'm kind of feeling a bit spooked right now. I have a big sense of like, deja vu.. Maybe next time.."
-          - hg[Variant 8] (If already completed in the same event through re-joining): "Ehhhh, I'm pretty full, but thanks anyway."
+          - hg[Variant 8] (If already completed in the same event): "Ehhhh, I'm pretty full, but thanks anyway."
       - hg[Option 6]: Nevermind.
           - hg[Variant 1]: "Then stop wasting my time."
           - hg[Variant 2]: "Cya then."
