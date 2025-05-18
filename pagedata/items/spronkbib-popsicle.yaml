@@ -11,7 +11,7 @@ page:
   header:
     description: |
       Category: [Items](items)\n
-      Tags: h[Obtainable Item, Permanent, Healing Consumable]
+      Tags: h[Obtainable Item, Hidden Item, Permanent, Healing Consumable]
 
     image: ''
     imageBanner: /assets/bussim/images/items/spronkbib-popsicle.webp

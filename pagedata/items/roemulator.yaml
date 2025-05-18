@@ -10,7 +10,7 @@ page:
   header:
     description: |
       Category: [Items](items)\n
-      Tags: h[Gamepass Item, Permanent]
+      Tags: h[Gamepass Item, Hidden Item, Permanent]
     
     image: ""
     imageBanner: /assets/bussim/images/items/roemulator.webp

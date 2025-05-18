@@ -10,7 +10,7 @@ page:
   header:
     description: |
       Category: [Items](items)\n
-      Tags: h[Unobtainable Item, Permanent on Special Conditions, "Healing" / Special Consumable, Pairable Item]
+      Tags: h[Unobtainable Item, Hidden Item, Permanent on Special Conditions, "Healing" / Special Consumable, Pairable Item]
     
     image: ""
     imageBanner: /assets/bussim/images/items/bus-birthday-pie.webp

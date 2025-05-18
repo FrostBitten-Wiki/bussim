@@ -10,7 +10,7 @@ page:
   header:
     description: |
       Category: [Items](items)\n
-      Tags: h[Obtainable Item, Temporary]
+      Tags: h[Obtainable Item, Hidden Item, Temporary]
 
     image: ''
     imageBanner: /assets/bussim/images/items/mini-beach-volleyball.webp

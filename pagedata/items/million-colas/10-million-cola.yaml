@@ -10,7 +10,7 @@ page:
   header:
     description: |
       Category: [Items](items)\n
-      Tags: h[Unobtainable Item, Permanent]
+      Tags: h[Unobtainable Item, Hidden Item, Permanent]
     
     image: ""
     imageBanner: /assets/bussim/images/items/10-million-cola.webp

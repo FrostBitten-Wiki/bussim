@@ -11,7 +11,7 @@ page:
     title: New Years Chocolate
     description: |
       Category: [Items](items)\n
-      Tags: h[Unobtainable Item, Permanent, Healing Consumable]
+      Tags: h[Unobtainable Item, Hidden Item, Permanent, Healing Consumable]
     image: "/bussim-assets/images/banner.jpg"
     imageBanner: /assets/bussim/images/items/new-years-chocolate.webp
     

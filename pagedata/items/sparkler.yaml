@@ -10,7 +10,7 @@ page:
   header:
     description: |
       Category: [Items](items)\n
-      Tags: h[Annually Obtainable Item, Permanent on Special Conditions]
+      Tags: h[Annually Obtainable Item, Hidden Item, Permanent on Special Conditions]
     
     image: ""
     imageBanner: /assets/bussim/images/items/sparkler.webp

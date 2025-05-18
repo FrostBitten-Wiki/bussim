@@ -10,7 +10,7 @@ page:
   header:
     description: |
       Category: [Items](items)\n
-      Tags: h[VR-Only Item, Permanent on Special Conditions]
+      Tags: h[VR-Only Item, Hidden Item, Permanent on Special Conditions]
     
     image: ""
     imageBanner: /assets/bussim/images/items/sparkler-candle.webp

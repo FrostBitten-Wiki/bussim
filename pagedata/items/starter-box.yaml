@@ -10,7 +10,7 @@ page:
   header:
     description: |
       Category: [Items](items)\n
-      Tags: h[Unobtainable Item, Permanent, Special Consumable]
+      Tags: h[Unobtainable Item, Hidden Item, Permanent, Special Consumable]
     
     image: ""
     imageBanner: /assets/bussim/images/items/starter-box.webp
