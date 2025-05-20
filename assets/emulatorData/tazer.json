@@ -657,7 +657,7 @@
                 ["ramA1"]
             ],
             [
-                "If the player has Illegal RAM Stick",
+                ["If the player has Illegal RAM Stick","Only happens if the RAM stick was obtained illegitimately, through admin or other means."],
                 ["ramA2"]
             ],
             [
