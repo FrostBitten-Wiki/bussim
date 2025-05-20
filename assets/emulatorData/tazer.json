@@ -477,7 +477,7 @@
             ],
             [
                 ["<font color='#ff00af'>I have your RAM.</font>","Only appears if the player has the ram stick"],
-                ["varA3a"]
+                ["varA2a"]
             ]
         ],
         "controls": [
