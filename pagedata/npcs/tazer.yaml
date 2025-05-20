@@ -31,7 +31,7 @@ content: |-
 
   ##[Dialogue]
   ###[**Goat Station**]
-  [!!DLEMULATOR EID:"tazeremulator" SID:"start" URL:"/assets/bussim/emulatorData/tazer.json"]
+  !!DLEMULATOR EID:"tazeremulator" SID:"start" URL:"/assets/bussim/emulatorData/tazer.json"
 
   - hg[Variant 1]: "Beep boop?"
   - hg[Variant 2]: "zzzzz.... Wha?... Oh, what's up?"
