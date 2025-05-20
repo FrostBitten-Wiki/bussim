@@ -441,7 +441,7 @@
         "name": "Tazer",
         
         "text": [
-            ["With kind regards, from Tazer.","The player is then flung"]
+            ["With kind regards, from Tazer.","The player is then flung."]
         ],
 
         "choices": [
@@ -707,8 +707,8 @@
         "name": "Tazer",
         
         "text": [
-            ["Uhh.. I kinda feel like I've done this before.. I don't really feel that hungry anymore.."],
-            ["Ehhhh... I'm kind of feeling a bit spooked right now. I have a big sense of like, deja vu.. Maybe next time.."]
+            "Uhh.. I kinda feel like I've done this before.. I don't really feel that hungry anymore..",
+            "Ehhhh... I'm kind of feeling a bit spooked right now. I have a big sense of like, deja vu.. Maybe next time.."
         ],
 
         "choices": [
@@ -730,7 +730,7 @@
         "name": "Tazer",
         
         "text": [
-            ["Ehhhh, I'm pretty full, but thanks anyway."]
+            "Ehhhh, I'm pretty full, but thanks anyway."
         ],
 
         "choices": [
