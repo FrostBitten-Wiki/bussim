@@ -24,9 +24,8 @@ content: |
   Most commands use the ! prefix, excluding the default emote command, which requires /e instead. This page will list all of the commands you can do both in public and private servers.
 
   ##[Commands - All Servers]
-  ###[Emotes]
+  ###[__Emotes__]
   Emotes can be used in all servers and are mostly meant for fun, some emotes like /e smug have special effects only visible with certain settings, and others like /e honda can be used while walking. The following are all of the emotes you can currently do.
-
   \n\n
 
   | Command | Description | Special Effects | GIFs / Images |
@@ -65,7 +64,7 @@ content: |
   | /e tpose |A standstill emote of your character T-posing, with the arms perfectly horizontal.\n Often used for both rigging as well as character designing.   | <0px>(.) | ![128xauto](/bussim-assets/images/others/emotes/TPoseEmote.webp) |
   | /e wave |An emote that makes your character wave. It is similar to the Hello emote, however is less intensified. | <0px>(.) | ![128xauto](/bussim-assets/images/others/emotes/WaveEmote.webp) |
   \n
-  ###[Seat Animations]
+  ###[__Seat Animations__]
   You can change your seat animation using !anim, however you can only do this while you are out of a seat. The command will show a menu containing a large array of emotes, made by both the creator and the community. Beta content animations will have the tag , and won't be available in the base game for now.
   \n\n 
 
@@ -120,7 +119,7 @@ content: |
   | Voxel          | NobleReign                                    | Modded Block Game                                                                                        | A static seat animation where you sit with your hands and legs on top of the seat. This is a reference to other voxel-like games.                                          | ![128xauto](/bussim-assets/images/others/emotes/sitting/Voxel.webp)|
   | Wall Rest      | F1reRabb1t                                    | "Glass panes just feel better than seat cushions."                                                       | A seat animation where you sit with your body leaned towards the left side of the seat. If done on the left row, you lean on glass panes, otherwise, you lean on air.      | ![128xauto](/bussim-assets/images/others/emotes/sitting/Wall-Rest.webp)|
   \n 
-  ###[Colors]
+  ###[__Colors__]
   You can change the color of a few items, all of which are related to gamepasses. The ones you can currently customize are the [Mini-Bus](mini-bus), [D.I.Y. Mini-Bus](diy-mini-bus), [Megaphone EX](megaphone-ex) and [Airpods](airpods).
   \n\n 
   **!color** - Changes your Mini-Bus and D.I.Y. Mini-Bus' color, largely changing the main parts of the bus.
@@ -132,7 +131,7 @@ content: |
   \n\n 
   **!lcolor & !rcolor** - Changes your airpod color according to each side, requires having the [Colored Airpods](https://www.roblox.com/game-pass/10596401/Colored-Airpods) gamepass.
   \n
-  ###[Nameplates & Tags]
+  ###[__Nameplates & Tags__]
   **!togglepd, !setrole & !setheart** are the three commands that currently alter chat tags, and **!region** is the only command that can customize your nameplate.
   \n\n 
   **!setrole** - Allows you to set any of your role tags. Goes from highest ranking to lowest and allows highest available to be selected. Does not let you select tags that you haven't unlocked but have surpassed.
@@ -143,14 +142,14 @@ content: |
   \n\n 
   **!region [emoji]** - Allows you to customize your regional tag outside of Hidden. Requires you to have the [Custom Regional Emoji](https://www.roblox.com/game-pass/678185670/Custom-Region-Emoji) gamepass and have Regional Indicators in Social Settings to Hidden.
   \n 
-  ###[Notes]
+  ###[__Notes__]
   You can change a couple of notes in the game, being your **Driver Note** and your **Simon Says Note**.
   \n\n 
   **!note [message]** - Allows you to change the upper note while on the driver seat, provided you have the [Bus Driver](https://www.roblox.com/game-pass/4894984/Bus-Driver) gamepass.
   \n\n
   **!quote [message]** - Allows you to change the quote displayed on the Simon Says game.
   \n 
-  ###[Ragdoll]
+  ###[__Ragdoll__]
   If you own the [Ragdoll](https://www.roblox.com/game-pass/5923462/Ragdoll) gamepass, you can press R to ragdoll on the spot. There isn't much you're intended to do with it, besides purely for comedic effect. However, there are bugs and other unintended stuff you can do with it.
   \n 
   ##[Commands - VIP / Private Server Owners]
@@ -162,11 +161,11 @@ content: |
   |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
   | !cmds               | Allows you to view a list of commands you can do as a Private Server Owner.                                                                                                     |
   | !rename [1-5]       | Allows you to rename any save slot currently being used,                                                                                                                        |
-  | !emotion [emotion]  | Allows you to set an emotion for the Bus, being: - Happy\n- Sad\n- Glitching\n- Surprised\n- Neutral\nGets overriden if an event causes the Bus to have an emotion.             |
+  | !emotion [emotion]  | Allows you to set an emotion for the Bus, being:\n- Happy\n- Sad\n- Glitching\n- Surprised\n- Neutral\nGets overriden if an event causes the Bus to have an emotion.             |
   | !btools [player]    | Gives the player(s) [[Edit]]. Using btools without any player username will give btools to yourself.                                                                            |
   | !rngevents          | Enables / Disables random events happening every 5 minutes. \n (Default: True)                                                                                                  |
   | !rngweather         | Enables / Disables random weather happening on occasion. \n (Default: True)                                                                                                     |
-  | !weather [weather]  | Forces a list of weathers, being: - Sunny\n- Cloudy\n- Rainy\n- Stormy\nWeathers can also be affected based on biome.                                                           |
+  | !weather [weather]  | Forces a list of weathers, being:\n- Sunny\n- Cloudy\n- Rainy\n- Stormy\nWeathers can also be affected based on biome.                                                           |
   | !seats              | Enables / Disables seats on the Bus. \n (Default: True)                                                                                                                         |
   | !speed [number]     | Forces the Bus to move on a specific speed. Can also accept decimals and negatives. Gets overridden however if a secret button is pressed or an event overrides it. \n (Default: 1) |
   | !datainfo           | Gathers all the data from saved builds and compiles them to a list.                                                                                                             |

@@ -75,7 +75,7 @@ content: |
  |Energy|Determines the speed boost you recieve within each sip. Overconsuming this will also kill you.|Increases speed drastically.|Reduces speed significantly.|
  
 
- ###[Sweets]
+ ###[__Sweets__]
  | Name | Class | Description | Effects | Image |
  |--------------|--------------|--------------|
  | Cookies | Solid | It's actually from a cereal, but it's close enough. | - Quenchiness\n+ Sweetness |![120x120](/bussim-assets/images/items/ingredients/cookies.webp)|
@@ -84,7 +84,7 @@ content: |
  | Sugar | Dry | The sweetest of crystals | ++ Sweetness|![120x120](/bussim-assets/images/items/ingredients/sugar.webp)|
  \n
 
- ###[Syrups]
+ ###[__Syrups__]
  | Name | Class | Description | Effects | Image |
  |--------------|--------------|--------------|
  | Caramel Syrup | Liquid | Melted sugar. | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/caramel.webp)|
@@ -93,7 +93,7 @@ content: |
  | Vanilla Syrup | Liquid | A sweet vanilla flavor. | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/vanilla.webp)|
 
  \n 
- ###[Water and Ice]
+ ###[__Water and Ice__]
  | Name | Class | Description | Effects | Image |
  |--------------|--------------|--------------|
  | Cold Water | Liquid | The polar opposite of coffee. | ++ Quenchiness\n+ Temperature|![120x120](/bussim-assets/images/items/ingredients/coldwater.webp)|
@@ -103,7 +103,7 @@ content: |
  | Ice | Solid | Like water, but with a crunch. | + Quenchiness\n+ Temperature|![120x120](/bussim-assets/images/items/ingredients/ice.webp)|
 
  \n 
- ###[Fruits]
+ ###[__Fruits__]
  | Name | Class | Description | Effects | Image |
  |--------------|--------------|--------------|
  | Apples | Solid | The classic crunchy tree fruit. | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/apple.webp)|
@@ -113,7 +113,7 @@ content: |
  | Strawberries | Solid | These aren't even really berries. | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/strawberry.webp)|
 
  \n 
- ###[Spices]
+ ###[__Spices__]
  | Name | Class | Description | Effects | Image |
  |--------------|--------------|--------------|
  | Cinnamon | Dry | Not for use in a challenge. | -- Quenchiness|![120x120](/bussim-assets/images/items/ingredients/cinnamon.webp)|
@@ -121,7 +121,7 @@ content: |
  | Pumpkin Spice | Dry | Default Description | - Quenchiness|![120x120](/bussim-assets/images/items/ingredients/pumpkin.webp)|
  | Salt | Dry | Freshly sourced from the Rifts. | --- Quenchiness|![120x120](/bussim-assets/images/items/ingredients/salt.webp)|
  \n 
- ###[Dairy]
+ ###[__Dairy__]
  | Name | Class | Description | Effects | Image |
  |--------------|--------------|--------------|
  | Almond Milk | Liquid | How'd they milk an almond? | + Quenchiness\n + Sweetness|![120x120](/bussim-assets/images/items/ingredients/almondmilk.webp)|
@@ -130,7 +130,7 @@ content: |
  | Soft Serve | Liquid | Close enough to be ice cream, close enough to a liquid.| + Quenchiness\n + Sweetness\n + Temperature|![120x120](/bussim-assets/images/items/ingredients/softserve.webp)|
  | Steamed Milk | Liquid | Smooth and creamy. | + Quenchiness\n + Sweetness\n - Temperature|![120x120](/bussim-assets/images/items/ingredients/steamedmilk.webp)|
  \n 
- ###[Caffiene]
+ ###[__Caffiene__]
  | Name | Class | Description | Effects | Image |
  |--------------|--------------|--------------|
  | Cultivator's Communion | Liquid | More milk than coffee, honestly. |+ Energy\n + Sweetness|![120x120](/bussim-assets/images/items/ingredients/cultivatorcommunion.webp)|

@@ -67,29 +67,29 @@ content: |
   ##[The Areas of the Backwalls]
   Occassionally, you may find areas that you don't expect to find in the Backwalls, namely locations that seem oddly familiar, yet not at the same time. You may even find a familiar face!.. A tired face that is.
   \n
-  ###[The Ballpit]
+  ###[__The Ballpit__]
   The Ballpit is a single room that contains a pit, with balls. Jumping into the pit will move any balls in contact and makes a sound while also rapidly decreasing entity detection. hinted by a flashing blue in your health bar, akin of that to having forcefield. Despite this, it does create immense lag. It is recommended you avoid this room unless you have to hide from [Entities](entity) if you want to spare your low-end devices. 
   \n\n 
   Do note that hiding from Entities will not work if you aggrovate them while inside the pit. They can get in too.
   \n 
-  ###[The Void Pits]
+  ###[__The Void Pits__]
   The Void Pits is a large room that is mainly composed of holes arranged in a pattern. Each of them works the same as the void walls you encounter throughout your journey, teleporting you into a random spot once you go in. Beware though that some will kill you.
   \n 
-  ###[Broken Elevator]
+  ###[__Broken Elevator__]
   The Broken Elevator is a small room that is about an elevator broken down within the walls of the Backwalls. It can't be interacted with. 
   \n 
-  ###[The Maze]
+  ###[__The Maze__]
   The Maze is a very large room that is composed of walls with varying heights, twists, turns and offsets, potentially confusing players and steering them off track. It is best to carry a [Marker](marker) for this scenario.
   \n
-  ###[Fake Exit]
+  ###[__Fake Exit__]
   The Fake Exits is a room similar of that to the actual exit, only that the top lights are White instead of green, and the exit panel is Yellow instead of White. Entering this will teleport you to any spot similar to the Void Pits and the Void Walls.
   \n 
-  ###[The Button]
+  ###[__The Button__]
   The Button is a rare room that spawns a simple button on a pedestal in the middle of the room with a sticky note attached saying "DO NOT PRESS". Pressing it will turn all of the lights red. However, despite it reducing void puddle visibility, the Redwalls will increase the odds of items being permanent after a successful escape.
   \n\n 
   There's also a very rare chance that pressing it will remove all danger within the current generation.
   \n 
-  ###[BloxDonalds]
+  ###[__BloxDonalds__]
   Main Article: [Backwalls Bloxdonalds](bloxdonalds-backwalls)
   \n\n
   The Bloxdonalds is an that appears as a large room, with [Red](red) managing the area again. You can order various items in exchange for [Coins](coins) and more. [Pear](pear) will also often arrive here, standing by. 

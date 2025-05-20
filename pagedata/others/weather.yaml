@@ -25,16 +25,16 @@ content: |
   \n
   You can also change the weather namely in a private server by using the !weather [weather type] and also completely disable it via !rngweather.
   ##[Weather Types]
-  ###[Sunny]
+  ###[__Sunny__]
   Often the most default weather type while playing the game, has clear skies and no occasional visual obstruction.
   \n
-  ###[Cloudy]
+  ###[__Cloudy__]
   Causes the skies to be more opaque but doesn't obstruct much of it.
   \n
-  ###[Rainy]
+  ###[__Rainy__]
   Causes the skies to slightly be more opaque as rain falls from the skies.
   \n
-  ###[Stormy]
+  ###[__Stormy__]
   Similar to Rainy, this weather type intensifies it with darker clouds, more coverage, and occasionally thunder strikes far away.
   \n
   ##[Special Effects]
@@ -49,7 +49,7 @@ content: |
   Whenever the weather is changed, assuming you have the Weather Bot enabled; it'll display an announcement if the weather had changed. 
   \n\n
   The following are lines related to it are of the following:
-  ###[Transition Announcements]
+  ###[__Transition Announcements__]
   -  The weather transitioned into [Weather].
   -  The weather changed to [Weather].
   -  Looks like it's now [Weather].
@@ -57,7 +57,7 @@ content: |
   -  I like it when it's [Weather].
   -  It's pretty [Weather] outside!
   -  The weather is now [Weather].
-  ###[Repeat Announcements]
+  ###[__Repeat Announcements__]
   -  Why is it still [Weather]?
   -  [Weather]... again.
   -  The weather is still [Weather].
