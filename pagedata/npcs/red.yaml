@@ -58,7 +58,7 @@ content: |-
         - "Y'know what, let's just say that I move here when you're here, and I move elsewhere when you're elsewhere."
 
   ###[**BloxDonalds (Backwalls)**]
-  !!DLEMULATOR EID:"redemulator" SID:"start" URL:"/assets/bussim/emulatorData/red-backwalls.json"
+  #![!!DLEMULATOR EID:"redemulator" SID:"start" URL:"/assets/bussim/emulatorData/red-backwalls.json"]
 
     - hg[Variant 1]: "Welcome to BloxDonalds, it's not what you are expecting."
     - hg[Variant 2]: "Welcome to BloxDonalds, if you thought it was bad normally, you haven't seen this."
