@@ -625,7 +625,7 @@
         "choices": [
             [
                 "Random Condition",
-                ["ramA1","ramA2","ramA3"]
+                ["ramA1","ramA2","ramA3","ramA4"]
             ],
             [
                 "Select a Condition",
