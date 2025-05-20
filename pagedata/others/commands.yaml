@@ -186,11 +186,9 @@ content: |
   | !wash-marker        | Cleans any and every drawing made with the [Marker](marker) from the server.                                                                                                    |
   \n 
   ##[Commands - Admins]
-  These commands are used by the Bus Simulator Moderator / Admin team to moderate the game. They have more power than Private Server commands. 
-  \n 
-  You can also have a similar power by joining your Private Server, assuming somebody else is already in it. 
+  These commands are used by the Bus Simulator Moderator / Admin team to moderate or affect the game. They have more power than Private Server commands, allowing admins to spawn gears, refresh, among other things.
   \n\n 
-  The only command available is **cmdbar/**, the other admin commands will not be listed as to make sure that it is only limited to the game's admins, but we will include useful ones for private servers.
+  The only command available is **cmdbar/**, the other admin commands will not be listed as to make sure that it is only limited to the game's admins, but a couple of these will be included, mainly since they are more known.
   \n\n 
   | Commands              | Effects                                                                                                                                                                         |
   |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
