@@ -35,7 +35,7 @@ content: |
   - At some point, Cramped Cola was reworked to have more realistic physics than before, as a result a lot of its internal mechanics were changed alongside different ways to go around issues. This also patched existing issues with the item beforehand. 
     - Despite this though, there now exists an item only given via Admin Commands called Cramped Cola_Old, which as stated in its title, works just like the Cramped Cola prior to it being reworked.
   - If you use Voice Chat while under the effects of Cramped Cola, your voice becomes higher pitched. This can only be heard to others who also have Voice Chat, and with Voice Chat Effects enabled.
-  - The Nutrition Facts Label when it comes to Cramped cola are composed of: 100% sugar, 100% fat, 100% grape, 0% dietary fiber, 0% vitamin a, 0% vitamin c, 0% vitamin d, 4% tears of pain, 0% vitamin e, and 99% chance of death.
+  - The Nutrition Facts Label when it comes to Cramped Cola are composed of: 100% sugar, 100% fat, 100% grape, 0% dietary fiber, 0% vitamin a, 0% vitamin c, 0% vitamin d, 4% tears of pain, 0% vitamin e, and 99% chance of death.
     - Safe to say, it's likely misleading due to the last part.
   ##[Technical Trivia]
   - It is currently possible to utilize this item as a form of teleportation, first use any item with collisions such as: [Candied Cane](candied-cane), [Snowcone](snowcone), and / or [Popsicle](popsicle) and then unequip it at the first spot. Secondly, go to any spot outside of your first spot and drink the Cramped Cola, and lastly: equip the item you used previously again. This will force you to teleport back to your first spot at any point in the game. 
