@@ -1,21 +1,21 @@
 page:
+ title: Coffee (Cafe)
+ description: This page is about the various types of coffee and ingredients you can make and use during the Cafe event.
+
+ keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, cafe
+
+ tags: cafe coffee, coffee, the sludge, what the fuck is *the sludge.*
+ ignore: ignore
+
+ header:
   title: Coffee (Cafe)
-  description: This page is about the various types of coffee and ingredients you can make and use during the Cafe event.
-
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, cafe
-
-  tags: cafe coffee, coffee, the sludge, what the fuck is *the sludge.*
-  ignore: ignore
-
-  header:
-    title: Coffee (Cafe)
-    description: |
-      Category: [Items](items)
-    image: "/bussim-assets/images/items/cafecoffee.webp"
-    imageBanner: /assets/bussim/images/items/cafecoffee.webp
-    
+  description: |
+   Category: [Items](items)
+  image: "/bussim-assets/images/items/cafecoffee.webp"
+  imageBanner: /assets/bussim/images/items/cafecoffee.webp
+  
 attributions:
-  - Created by FangedWerewolf (@noobbiom)
+ - Created by FangedWerewolf (@noobbiom)
 
 content: |
  "A barista's empty canvas." -"Empty Cup"
@@ -136,130 +136,130 @@ content: |
  | Plain Coffee | Liquid | Basic energizing liquid. |++ Energy|![120x120](/bussim-assets/images/items/ingredients/plaincoffee.webp)|
  \n 
  ##[Recipes and Mixtures]
-  "This tastes so good. Trust." -"Mixture / Abomination"
-  Recipes and Mixtures are one of the main mechanics when making coffee. Each recipe contains a list of ingredients and getting around that point (With varying strictness based on recipe overlap) will blend into the recipe that is closest. If otherwise, it'll instead be your personal concoction, with varying effects based on the ingredients you used.
-  \n\n 
-  All recipes (excluding ones involving absurd amounts of Dry Ingredients / The Sludge), all have uses of 3. When in the [Backwalls](backwalls), however, all unmentioned drinks are changed on a range of 1-6 based on its h[Sweetness] factor, making regenerative drinks scarce, while making other drinks but sweet more usable.
-  \n\n 
-  Lastly, the aforementioned drinks will have a use of 10 outside and inside of the [Backwalls](backwalls).
-  ##[Recipes]
-  \n
-  The coffee types you can make are in the following:
-  \n
-  | Name | Description | Recipe |
-  |------|-------------|--------|
-  |'Decaf'|Sometimes you just have to make do.|- 38ml Plain Coffee\n- 9.5 Sugar\n- 114 Hot Water|
-  |Apple Juice|It's like breakfast at school!|- 133ml Cold Water\n- 28.5 Sugar\n- At least 10x Apples|
-  |Boiling Water|Not pleasant. At all.|- 133ml Hot Water|
-  |Budget Chocolate Drink|Still tastes good, so who cares?|- 66.5ml Chocolate Syrup\n- 95ml Hot Water|
-  |Caramel Apple Mix|The good ol' taste of fall.|- 57ml Steamed Milk\n- 22.8ml Cinnamon\n- At least 7x Apples\n- 57ml Caramel Syrup|
-  |Caramel Snow-cup|A mellow sweetness with blended ice for a sharp contrast in flavor.|- 95ml Caramel Syrup\n- At least 24x Ice|
-  |Caramel-Chocolate Shake|Why are they drinking these out of coffee cups anyway?|- 123.5ml Soft Serve\n- 19ml Chcoolate Syrup\n- 28.5 Caramel Syrup|
-  |Chocolate Milk|A classic.|- 68.4ml Chocolate Syrup\n- 85.5ml Milk|
-  |Chocolate Snow-cup|An uncommon flavor combo as is, but just as good as it is cold.|- 95ml Chocolate Syrup\n- At least 24x Ice|
-  |Coffee|It's just coffee. Nothing special.|- 95ml Plain Coffee|
-  |Communion Coffee|An instant coffee-milk drink.|- 95ml Cultivator's Communion|
-  |Hot Chocolate|Perfect for those rainy days.|- 66.5ml Steamed Milk\n- 85.5ml Chocolate Syrup|
-  |House Coffee|It makes you feel right at home.|- 19ml Steamed Milk\n- 133ml House Blend\n- 9.5ml Cinnamon|
-  |Ice Water|For those hot summer days.|- 133ml Cold Water\n- At least 5x Ice|
-  |Iced Coffee|The classic, but colder.|- 95ml Plain Coffee\n- At least 6x Ice|
-  |Mango Juice|Tropical goodness.|- At least 10x Mangoes\n- 28.5ml Sugar\n- 133ml Cold Water|
-  |Mango Smoothie|Ice cream coated in yellow fruit.|- At least 9x Mangoes\n- 152ml Soft Serve|
-  |Mint Snow-cup|A nice and minty sensation, paired with cold blended ice.|- 95ml Mint Syrup\n- At least 24x Ice|
-  |Orange Juice|With pulp.|- 142.5ml Cold Water\n- At least 10x Oranges|
-  |Pumpkin Spice Mocha|October's finest.|- 104.5ml Plain Coffee\n- 28.5 Chocolate Syrup\n- 19ml Pumpkin Spice|
-  |Quick Cereal|For when you don't have time for spoons.|- At least 20x Cookies\n- 152ml Milk|
-  |S'more Mocha|A cozy reminder of the outdoors.|- At least 6x Cookies\n- 76ml Chocolate Syrup\n- 57ml House Blend\n- At least 12x Marshmallows|
-  |Spice in a Cup|Ouggh,.,. It's got a little kick,...|- At least 32x Peppers|
-  |Strawberry Smoothie|Ice cream coated in red berries.|- At least 9x Strawberries\n- 152ml Soft Serve|
-  |The Blizzard|Turns your stomach into a tundra.|- 57ml Mint Syrup\n- At least 3x Dry Ice\n- 114ml Soft Serve|
-  |The Busy Bee|A sweet iced coffee that raises morale.|- 95ml Plain Coffee\n- At least 6x Ice\n- 28.5ml Cinnamon\n- 47.5ml Honey|
-  |The Cinnamon Challenge|DO *NOT* TRY THIS AT HOME. DON'T.|- 190ml Cinnamon|
-  |The Morning Routine|A light but flavorful pick-me-up.|- At least 8x Strawberries\n- 38ml House Blend\n- 95ml Oat Milk|
-  |The Pink Dragon|Doesn't really sound all that threatening...|- 57ml Hot Water\n- 19ml Sugar\n- 76ml Steamed Milk\n- At least 10x Dragonfruit|
-  |Vanilla Almond Milk|It's self-explanatory.|- 19ml Sugar\n- 38ml Vanilla Syrup\n- 114 Almond Milk|
-  |Vanilla Iced Coffee|Soothes and wakes up the soul.|- 114ml Plain Coffee\n- 38ml Vanilla Syrup\n- At least 8x Ice|
-  |Vanilla Snow-cup|Vanilla Syrup in blended ice, it's a snow-come, but in a cup.|- 95ml Vanilla Syrup|
-  |Warm Water|Water but more pleasant.|- 66.5ml Hot Water\n- 66.5ml Cold Water|
-  |Water|The basis for all life.|- 133ml Cold Water|
-  \n
-  ##[Mixtures]
-  If the blend that you made is far from any of the preset recipes, it'll be a Mixture. Usually comprised of ingredients with weaker effects, but is customizable to your heart's desire.
-  \n 
-  The maximum for a Mixture is 4 ingredients.
-  \n\n
-  If the ingredients used are more than or equal to 5, it'll instead be ''A _, _, _, and _ abomination'', with the _ being the characteristics of the ingredients used. 
-  \n\n
-  The following goes by order from left to right and depends on the ingredients: 
-  \n\n
-  | Order | Tags | Requirements |
-  |-------|------|-------------|
-  |1|Cold|Cold Ingredients|
-  |1|Warm|Hot Ingredients|
-  |2|Sweet|High Sweetness|
-  |2|Bitter|Low Sweetness|
-  |3|Refreshing|High Quenchiness|
-  |3|Torturous|Low Quenchiness|
-  |4|Energizing|High Energy|
-  |4|Tiring|Low Energy|
-  \n
-  Afterwards, the description and tooltip changes to any of the following between both the mixture and abomination:
-  \n\n
-  | Tooltip | Description |
-  |---------|-------------|
-  |Do you dare take a sip?| A [Display Name] Exclusive!|
-  |It's part of a secret menu. Maybe.|Personal recipe!|
-  |An unconventional combination...|This tastes so good. Trust.|
-  |Even if others can't enjoy it, you still can.|You made it yourself!|
-  |Probably tastes good maybe!|Yay!!!!!|
-  \n\n
-  If the ingredients used are more than or equal to 16, it'll become **The Sludge**. A drink so foul, that it invokes negative reactions all around. Still, maybe someone favors that sort of thing?
-  \n 
-  The tooltip and description changes as follows:
-  \n\n
-  | Tooltip | Description |
-  |---------|-------------|
-  |Knowing what's inside of this is... disconcerting, to say the least.|What the..? Nobody will like this.|
-  \n\n 
-  "Again???" -"The Sludge (Backwalls)"
-  You can also arrive into the [Backwalls](backwalls) if paired with the [Bus Birthday Pie](bus-birthday-pie) during Bus Simulator's 6th birthday event. The effects of The Sludge still remains though even out of reality.
-  \n
-  ##[NPC Interactions]
-  "That cafe does delivery? I don't remember ordering this.. but thanks." -"Zeon (Goat Station)"
-  You're also able to give any type of coffee to the majority of the NPCs in the game, and it's also crucial to the Cafe's main mechanic where you give them to your [Customers](customers), with multiple interactions and even rewards as a result.
-  The following are NPCs that can be gifted outside of [Customers](customers) and their favorite drinks, giving you Coins and Reputation as a reward with the Rep-Coin ratio being 1:70. Do note, that the reputation rewards are randomized to either [Passenger or Driver Reputation](reputation), and are claimable once every eight hours.
-  \n\n
-  | Name | Location | Favorite Drink | Rewards |
-  |------|-------------|--------|
-  |[Steven_Scripts](steven)|Steven Ride|Mango Juice|8 Reputation / 560 Coins| 
-  |[Ectta](ectta)|Question Time|Communion Coffee|6 Reputation / 420 Coins|
-  |[D6](d6)|Goat Station / Cafe|***The Sludge.*** |4 Reputation / 280 Coins|
-  |[Frost](frostbite)|Glacier Cave|The Blizzard|4 Reputation / 280 Coins|
-  |[Tazer](tazer)|Cafe|Cup of Glowstick Fluid|3 Reputation / 210 Coins|
-  |[Disc](disc)|Goat Station|Vanilla Iced Coffee|2 Reputation / 140 Coins| 
-  |[Foxman](foxman)|Cafe|Apple Juice|2 Reputation / 140 Coins| 
-  |[Charlotte](charlotte)|Cafe|Hot Chocolate|1 Reputation / 70 Coins| 
-  |[Efeuc](efeuc)|The Void Room|'Decaf'|1 Reputation / 70 Coins| 
-  |[MLG](mlg)|Goat Station / Cafe|Pumpkin Spice Mocha|1 Reputation / 70 Coins| 
-  |[Pear](pear)|The Bus|Vanilla Almond Milk|1 Reputation / 70 Coins| 
-  |[Red](red)|Bloxdonalds|Strawberry Smoothie|1 Reputation / 70 Coins| 
-  |[Zeon](zeon)|Goat Station / Cafe|Strawberry Smoothie|1 Reputation / 70 Coins|
-  \n
-  You can also give the NPCs other drinks outside of their favored drink, however will either deny or try it out; taking it from your inventory.
-  \n 
-  You can also give them ***The Sludge.*** Although most would deny it, someone who is unfortunate enough might disregard it...
-  ##[Trivia]
+ "This tastes so good. Trust." -"Mixture / Abomination"
+ Recipes and Mixtures are one of the main mechanics when making coffee. Each recipe contains a list of ingredients and getting around that point (With varying strictness based on recipe overlap) will blend into the recipe that is closest. If otherwise, it'll instead be your personal concoction, with varying effects based on the ingredients you used.
+ \n\n 
+ All recipes (excluding ones involving absurd amounts of Dry Ingredients / The Sludge), all have uses of 3. When in the [Backwalls](backwalls), however, all unmentioned drinks are changed on a range of 1-6 based on its h[Sweetness] factor, making regenerative drinks scarce, while making other drinks but sweet more usable.
+ \n\n 
+ Lastly, the aforementioned drinks will have a use of 10 outside and inside of the [Backwalls](backwalls).
+ ##[Recipes]
+ \n
+ The coffee types you can make are in the following:
+ \n
+ | Name | Description | Recipe |
+ |------|-------------|--------|
+ |'Decaf'|Sometimes you just have to make do.|- 38ml Plain Coffee\n- 9.5 Sugar\n- 114 Hot Water|
+ |Apple Juice|It's like breakfast at school!|- 133ml Cold Water\n- 28.5 Sugar\n- At least 10x Apples|
+ |Boiling Water|Not pleasant. At all.|- 133ml Hot Water|
+ |Budget Chocolate Drink|Still tastes good, so who cares?|- 66.5ml Chocolate Syrup\n- 95ml Hot Water|
+ |Caramel Apple Mix|The good ol' taste of fall.|- 57ml Steamed Milk\n- 22.8ml Cinnamon\n- At least 7x Apples\n- 57ml Caramel Syrup|
+ |Caramel Snow-cup|A mellow sweetness with blended ice for a sharp contrast in flavor.|- 95ml Caramel Syrup\n- At least 24x Ice|
+ |Caramel-Chocolate Shake|Why are they drinking these out of coffee cups anyway?|- 123.5ml Soft Serve\n- 19ml Chcoolate Syrup\n- 28.5 Caramel Syrup|
+ |Chocolate Milk|A classic.|- 68.4ml Chocolate Syrup\n- 85.5ml Milk|
+ |Chocolate Snow-cup|An uncommon flavor combo as is, but just as good as it is cold.|- 95ml Chocolate Syrup\n- At least 24x Ice|
+ |Coffee|It's just coffee. Nothing special.|- 95ml Plain Coffee|
+ |Communion Coffee|An instant coffee-milk drink.|- 95ml Cultivator's Communion|
+ |Hot Chocolate|Perfect for those rainy days.|- 66.5ml Steamed Milk\n- 85.5ml Chocolate Syrup|
+ |House Coffee|It makes you feel right at home.|- 19ml Steamed Milk\n- 133ml House Blend\n- 9.5ml Cinnamon|
+ |Ice Water|For those hot summer days.|- 133ml Cold Water\n- At least 5x Ice|
+ |Iced Coffee|The classic, but colder.|- 95ml Plain Coffee\n- At least 6x Ice|
+ |Mango Juice|Tropical goodness.|- At least 10x Mangoes\n- 28.5ml Sugar\n- 133ml Cold Water|
+ |Mango Smoothie|Ice cream coated in yellow fruit.|- At least 9x Mangoes\n- 152ml Soft Serve|
+ |Mint Snow-cup|A nice and minty sensation, paired with cold blended ice.|- 95ml Mint Syrup\n- At least 24x Ice|
+ |Orange Juice|With pulp.|- 142.5ml Cold Water\n- At least 10x Oranges|
+ |Pumpkin Spice Mocha|October's finest.|- 104.5ml Plain Coffee\n- 28.5 Chocolate Syrup\n- 19ml Pumpkin Spice|
+ |Quick Cereal|For when you don't have time for spoons.|- At least 20x Cookies\n- 152ml Milk|
+ |S'more Mocha|A cozy reminder of the outdoors.|- At least 6x Cookies\n- 76ml Chocolate Syrup\n- 57ml House Blend\n- At least 12x Marshmallows|
+ |Spice in a Cup|Ouggh,.,. It's got a little kick,...|- At least 32x Peppers|
+ |Strawberry Smoothie|Ice cream coated in red berries.|- At least 9x Strawberries\n- 152ml Soft Serve|
+ |The Blizzard|Turns your stomach into a tundra.|- 57ml Mint Syrup\n- At least 3x Dry Ice\n- 114ml Soft Serve|
+ |The Busy Bee|A sweet iced coffee that raises morale.|- 95ml Plain Coffee\n- At least 6x Ice\n- 28.5ml Cinnamon\n- 47.5ml Honey|
+ |The Cinnamon Challenge|DO *NOT* TRY THIS AT HOME. DON'T.|- 190ml Cinnamon|
+ |The Morning Routine|A light but flavorful pick-me-up.|- At least 8x Strawberries\n- 38ml House Blend\n- 95ml Oat Milk|
+ |The Pink Dragon|Doesn't really sound all that threatening...|- 57ml Hot Water\n- 19ml Sugar\n- 76ml Steamed Milk\n- At least 10x Dragonfruit|
+ |Vanilla Almond Milk|It's self-explanatory.|- 19ml Sugar\n- 38ml Vanilla Syrup\n- 114 Almond Milk|
+ |Vanilla Iced Coffee|Soothes and wakes up the soul.|- 114ml Plain Coffee\n- 38ml Vanilla Syrup\n- At least 8x Ice|
+ |Vanilla Snow-cup|Vanilla Syrup in blended ice, it's a snow-come, but in a cup.|- 95ml Vanilla Syrup|
+ |Warm Water|Water but more pleasant.|- 66.5ml Hot Water\n- 66.5ml Cold Water|
+ |Water|The basis for all life.|- 133ml Cold Water|
+ \n
+ ##[Mixtures]
+ If the blend that you made is far from any of the preset recipes, it'll be a Mixture. Usually comprised of ingredients with weaker effects, but is customizable to your heart's desire.
+ \n 
+ The maximum for a Mixture is 4 ingredients.
+ \n\n
+ If the ingredients used are more than or equal to 5, it'll instead be ''A _, _, _, and _ abomination'', with the _ being the characteristics of the ingredients used. 
+ \n\n
+ The following goes by order from left to right and depends on the ingredients: 
+ \n\n
+ | Order | Tags | Requirements |
+ |-------|------|-------------|
+ |1|Cold|Cold Ingredients|
+ |1|Warm|Hot Ingredients|
+ |2|Sweet|High Sweetness|
+ |2|Bitter|Low Sweetness|
+ |3|Refreshing|High Quenchiness|
+ |3|Torturous|Low Quenchiness|
+ |4|Energizing|High Energy|
+ |4|Tiring|Low Energy|
+ \n
+ Afterwards, the description and tooltip changes to any of the following between both the mixture and abomination:
+ \n\n
+ | Tooltip | Description |
+ |---------|-------------|
+ |Do you dare take a sip?| A [Display Name] Exclusive!|
+ |It's part of a secret menu. Maybe.|Personal recipe!|
+ |An unconventional combination...|This tastes so good. Trust.|
+ |Even if others can't enjoy it, you still can.|You made it yourself!|
+ |Probably tastes good maybe!|Yay!!!!!|
+ \n\n
+ If the ingredients used are more than or equal to 16, it'll become **The Sludge**. A drink so foul, that it invokes negative reactions all around. Still, maybe someone favors that sort of thing?
+ \n 
+ The tooltip and description changes as follows:
+ \n\n
+ | Tooltip | Description |
+ |---------|-------------|
+ |Knowing what's inside of this is... disconcerting, to say the least.|What the..? Nobody will like this.|
+ \n\n 
+ "Again???" -"The Sludge (Backwalls)"
+ You can also arrive into the [Backwalls](backwalls) if paired with the [Bus Birthday Pie](bus-birthday-pie) during Bus Simulator's 6th birthday event. The effects of The Sludge still remains though even out of reality.
+ \n
+ ##[NPC Interactions]
+ "That cafe does delivery? I don't remember ordering this.. but thanks." -"Zeon (Goat Station)"
+ You're also able to give any type of coffee to the majority of the NPCs in the game, and it's also crucial to the Cafe's main mechanic where you give them to your [Customers](customers), with multiple interactions and even rewards as a result.
+ The following are NPCs that can be gifted outside of [Customers](customers) and their favorite drinks, giving you Coins and Reputation as a reward with the Rep-Coin ratio being 1:70. Do note, that the reputation rewards are randomized to either [Passenger or Driver Reputation](reputation), and are claimable once every eight hours.
+ \n\n
+ | Name | Location | Favorite Drink | Rewards |
+ |------|-------------|--------|
+ |[Steven_Scripts](steven)|Steven Ride|Mango Juice|8 Reputation / 560 Coins| 
+ |[Ectta](ectta)|Question Time|Communion Coffee|6 Reputation / 420 Coins|
+ |[D6](d6)|Goat Station / Cafe|***The Sludge.*** |4 Reputation / 280 Coins|
+ |[Frost](frostbite)|Glacier Cave|The Blizzard|4 Reputation / 280 Coins|
+ |[Tazer](tazer)|Cafe|Cup of Glowstick Fluid|3 Reputation / 210 Coins|
+ |[Disc](disc)|Goat Station|Vanilla Iced Coffee|2 Reputation / 140 Coins| 
+ |[Foxman](foxman)|Cafe|Apple Juice|2 Reputation / 140 Coins| 
+ |[Charlotte](charlotte)|Cafe|Hot Chocolate|1 Reputation / 70 Coins| 
+ |[Efeuc](efeuc)|The Void Room|'Decaf'|1 Reputation / 70 Coins| 
+ |[MLG](mlg)|Goat Station / Cafe|Pumpkin Spice Mocha|1 Reputation / 70 Coins| 
+ |[Pear](pear)|The Bus|Vanilla Almond Milk|1 Reputation / 70 Coins| 
+ |[Red](red)|Bloxdonalds|Strawberry Smoothie|1 Reputation / 70 Coins| 
+ |[Zeon](zeon)|Goat Station / Cafe|Strawberry Smoothie|1 Reputation / 70 Coins|
+ \n
+ You can also give the NPCs other drinks outside of their favored drink, however will either deny or try it out; taking it from your inventory.
+ \n 
+ You can also give them ***The Sludge.*** Although most would deny it, someone who is unfortunate enough might disregard it...
+ ##[Trivia]
  - If you drink too much caffeine, you'll end up receiving a heart attack and die on the spot, text will also appear with the caption "drink caffeine responsibly".
-   - This does not apply if you drink too much sugar.  
+   - This does not apply if you drink too much sugar. 
  - Having too much Dry ingredients within your drink can be almost fatal, as it'll always deal 99 damage and leave an audible gasp instead of the usual effects. 
-  - Originally it was going to be a way to instantly die, but it's reserved for a future ingredient.
+ - Originally it was going to be a way to instantly die, but it's reserved for a future ingredient.
  - Having too much Glowstick Fluid within a cup will make it glow out of the cup hole.
  - Both the Empty Cup and its drinks will cause the player's gravity to be reset back to normal under the effects of the [Cramped Cola](cramped-cola), sinking the player quickly.
  - The Cup of Glowstick Fluid and the Glowstick Fluid ingredient are normally inaccessible, but become unlocked after you give Tazer the wrong drink and receiving his riddle.
-  - Foxman is the only NPC that dies throughout the event of its appearance if fed the Sludge.
-    - efeuc similarly dies as well if fed the Sludge, however respawns once nobody is in the [Void Box](void-box).
-  - Ectta, unlike other NPCs, strangely is able to be given Coffee much earlier than the rest, allowing players to instantly give Ectta a drink once the lid has been placed.
+ - Foxman is the only NPC that dies throughout the event of its appearance if fed the Sludge.
+   - efeuc similarly dies as well if fed the Sludge, however respawns once nobody is in the [Void Box](void-box).
+ - Ectta, unlike other NPCs, strangely is able to be given Coffee much earlier than the rest, allowing players to instantly give Ectta a drink once the lid has been placed.
  - There used to be a leaked recipe, although isn't present in the game due to the ingredients being far from accessible. The recipe in question is:
-  | Name | Description | Recipe |
-  |------|-------------|--------|
-  |Catpurrcino|Gives that warm, fuzzy feeling to your stomach.|- 10ml cat\n- 10ml cat\n- 10ml cat|
+ | Name | Description | Recipe |
+ |------|-------------|--------|
+ |Catpurrcino|Gives that warm, fuzzy feeling to your stomach.|- 10ml cat\n- 10ml cat\n- 10ml cat|
