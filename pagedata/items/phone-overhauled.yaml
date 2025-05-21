@@ -91,6 +91,15 @@ content: |
   ##[Get Help]
   An application meant to be a tutorial for new players. Contains a variety of tutorials and sub-tutorials
 
+  ##[Controls (VR)]
+  The phone can mostly be used within your left hand, and has support for roomscale interactions. You can use your right hand to touch the screen and volume/power button. You can also press buttons on your left hand to interact with the phone within one hand.
+  | Button Combo | Interaction |
+  |---------|-------------|
+  | B/Top Button | Powers the phone on/off |
+  | A/Bottom Button/Left Trigger | Go to the home screen/all apps page |
+  | Left Analog Click | Open/Close Notification Screen |
+  | Right Trigger + A/Top Button | Turns volume up |
+  | Right Trigger + B/Bottom Button | Turns volume down |
   ##[Trivia]
   - The boot-up screen of Nulltech can tell if your data has been saved and loaded properly. If there are sparkles around Nulltech when booting up, then your data was both successfully saved and loaded.
   - The time system doesn't display AM / PM within the 12-hour format.
