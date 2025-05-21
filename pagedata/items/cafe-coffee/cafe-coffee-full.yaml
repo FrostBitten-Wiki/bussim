@@ -59,7 +59,7 @@ content: |
  |Try Again / Cancel|Circle / B|Allows you to clear all of the ingredients within a cup, perferrably if you wanted to restart or to reset over a softlock.\n\nPressing it again while the cup is empty will manually end Focus Mode.|
  |Finish|Triangle / Y|Finishes the drink you have made, assuming it's valid for a recipe. Automatically ends Focus Mode after blending.|
  |Recipes Toggle|L3 / LA|Toggles the recipe sidebar.|
-
+ !!BUTTONS [Ingredients,location.href='cafe-coffee'|Recipes / Mixtures,location.href='cafe-coffee-recipes'|NPC Interactions,location.href='cafe-coffee-npcs'|<highlight>Full Overview</highlight>,location.href='']
  ##[Ingredients]
  \n
  Ingredients are the main component in making coffee, with all of them boosting a stat or decreasing them. You can add as many as 32 of a solid ingredient, and 190 ml of a liquid / dry ingredient.
