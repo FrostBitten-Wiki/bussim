@@ -61,7 +61,7 @@ content: |-
   |Finish|Triangle / Y|Finishes the drink you have made, assuming it's valid for a recipe. Automatically ends Focus Mode after blending.|
   |Recipes Toggle|L3 / LA|Toggles the recipe sidebar.|
   
-  !!BUTTONS [Ingredients,location.href='cafe-coffee'|Recipes / Mixtures,location.href='cafe-coffee-recipes'|<highlight>NPC Interactions</highlight>,location.href='']
+  !!BUTTONS [Ingredients,location.href='cafe-coffee'|Recipes / Mixtures,location.href='cafe-coffee-recipes'|<highlight>NPC Interactions</highlight>,location.href=''|Full Overview,location.href='cafe-coffee-full']
   ##[NPC Interactions]
   "That cafe does delivery? I don't remember ordering this.. but thanks." -"Zeon (Goat Station)"
   You're also able to give any type of coffee to the majority of the NPCs in the game, and it's also crucial to the Cafe's main mechanic where you give them to your [Customers](customers), with multiple interactions and even rewards as a result.

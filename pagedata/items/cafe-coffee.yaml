@@ -61,7 +61,7 @@ content: |
  |Finish|Triangle / Y|Finishes the drink you have made, assuming it's valid for a recipe. Automatically ends Focus Mode after blending.|
  |Recipes Toggle|L3 / LA|Toggles the recipe sidebar.|
 
- !!BUTTONS [<highlight>Ingredients</highlight>,location.href=''|Recipes / Mixtures,location.href='cafe-coffee-recipes'|NPC Interactions,location.href='cafe-coffee-npcs']
+ !!BUTTONS [<highlight>Ingredients</highlight>,location.href=''|Recipes / Mixtures,location.href='cafe-coffee-recipes'|NPC Interactions,location.href='cafe-coffee-npcs'|Full Overview,location.href='cafe-coffee-full']
  ##[Ingredients]
  \n
  Ingredients are the main component in making coffee, with all of them boosting a stat or decreasing them. You can add as many as 32 of a solid ingredient, and 190 ml of a liquid / dry ingredient.
@@ -144,4 +144,3 @@ content: |
   - Originally it was going to be a way to instantly die, but it's reserved for a future ingredient.
  - Having too much Glowstick Fluid within a cup will make it glow out of the cup hole.
  - Both the Empty Cup and its drinks will cause the player's gravity to be reset back to normal under the effects of the [Cramped Cola](cramped-cola), sinking the player quickly.
-  - For drinks that causes the player to spit out, such as The Sludge, The Cinnamon Challenge, or any drinks containing an absurd amount of Dry Ingredients, the amount of uses is raised to 10. Following the tenth "sip", will the drink be automatically disposed.
