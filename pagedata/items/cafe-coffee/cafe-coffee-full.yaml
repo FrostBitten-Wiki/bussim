@@ -139,7 +139,7 @@ content: |
  "This tastes so good. Trust." -"Mixture / Abomination"
  Recipes and Mixtures are one of the main mechanics when making coffee. Each recipe contains a list of ingredients and getting around that point (With varying strictness based on recipe overlap) will blend into the recipe that is closest. If otherwise, it'll instead be your personal concoction, with varying effects based on the ingredients you used.
  \n\n 
- All recipes (excluding ones involving absurd amounts of Dry Ingredients / The Sludge), all have uses of 3. When in the [Backwalls](backwalls) however, all unmentioned drinks are changed on a range of 1-6 based on its h[Sweetness] factor, making regenerative drinks scarce, while making other drinks but sweet more usable.
+ All recipes (excluding ones involving absurd amounts of Dry Ingredients / The Sludge), all have uses of 3. When in the [Backwalls](backwalls) however, all unmentioned drinks are changed on a range of 1-6 based on its h[Quenchiness] factor, making regenerative drinks scarce, while making other drinks but sweet more usable.
  \n\n 
  Lastly, the aforementioned drinks will have a use of 10 outside and inside of the [Backwalls](backwalls).
  ##[Recipes]
