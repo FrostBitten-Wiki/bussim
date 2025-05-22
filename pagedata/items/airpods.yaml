@@ -1,21 +1,25 @@
-editable: True
+editable: true
 page:
   title: Airpods
-  description: The Airpods is a gamepass item based off of of Apple's AirPods which are their own TWS (True Wireless Stereo) headphones that were introduced back in 2016. Their function in the game allows you to listen to Roblox Audio IDs locally, via the handy interface on the left of the screen with them selected in your hotbar, at a cost of spatial awareness.
-    
+  description: The Airpods is a gamepass item based off of of Apple's AirPods which
+    are their own TWS (True Wireless Stereo) headphones that were introduced back
+    in 2016. Their function in the game allows you to listen to Roblox Audio IDs locally,
+    via the handy interface on the left of the screen with them selected in your hotbar,
+    at a cost of spatial awareness.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
+
   tags: placeholder, item
 
   header:
     description: |
       Category: [Items](items)\n
       Tags: h[Gamepass Item, Hidden Item, Permanent, Equippable]
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/items/airpods.webp
 
-attributions: 
+attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Wesker (@weskerbun)
 
@@ -24,7 +28,7 @@ content: |
   The Airpods is a gamepass item based off of of Apple's AirPods which are their own TWS (True Wireless Stereo) headphones that were introduced back in 2016. Their function in the game allows you to listen to Roblox Audio IDs locally, via the handy interface on the left of the screen with them selected in your hotbar.
   \n\n
   The side effect with using Airpods however, is a drastically reduced awareness to your surroundings, more specifically, other people. While you have Airpods fully equipped, the chat will be almost transparent, as if muted. This also includes your own messages until you unequip, in which case will your spatial awareness fully return.
-  They are available for purchase as a gamepass, for 8 R$, along with the Colored AirPods gamepass for 32 R$, which allows you to color both Pods respectively with !lcolor and !rcolor.
+  They are available for purchase as a gamepass, for 55 R$, and lets you change the airpods color with !lcolor and !rcolor.
 
   ##[Technical Details]
   If you take one airpod out, you can still listen to the music that's playing through them. This works by mounting a part with a sound object to the player's camera to the right or left, and follows it as you zoom, pan, and move around the world in the game. This can lead to some interference and stutter in the audio, because the game has to track your camera and move those parts to your camera's position. Using both will instead have a locally playing sound object irrespective of where your camera sits.
@@ -35,4 +39,5 @@ content: |
   - On the release of the Airpods, it was rather barebones, and you could only change the volume and put in an audio ID.
     - Furthermore Airpods used to entirely mute chat when equipped, and was the case for many years until it was changed following the deprecation of LegacyChatService in May 1st, 2025.
       - Now, following the May 6th 2025 update, Airpods have been changed to now drastically reduce spatial awareness instead of completely eliminating it.
+  - If you bought the Colored Airpods before the gamepass merge, you get sparkly Airpods for free.
   !!GALLERY [/assets/bussim/images/items/airpods.webp]
