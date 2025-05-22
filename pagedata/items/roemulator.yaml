@@ -1,21 +1,22 @@
-editable: True
+editable: true
 page:
   title: RoEmulator
-  description: The RoEmulator is a gamepass item that lets you play games on your own. 
-    
+  description: The RoEmulator is a gamepass item that lets you play games on your
+    own.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
+
   tags: roemulator, emulate these games, booyah
 
   header:
     description: |
       Category: [Items](items)\n
       Tags: h[Gamepass Item, Hidden Item, Permanent]
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/items/roemulator.webp
 
-attributions: 
+attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Wesker (@weskerbun) and FangedWerewolf (@noobbiom)
 
@@ -23,7 +24,7 @@ content: |
   "Emulate a Classic Game!" -"RoEmulator
 
   ##[Info]
-  The RoEmulator is a gamepass item that lets you play games on your own. 
+  The RoEmulator is a gamepass item that costs 60 R$, and lets you play games on your own. 
   \n\n
   It has options of three games: Adventure Island, Race The Sunset, and Lunar Lander. More details of the games can be seen [here](games). 
 
