@@ -1,21 +1,23 @@
-editable: True
+editable: true
 page:
   title: Mini-Bus
-  description: The Mini-Bus is a miniature vehicle which resembles the bus used in the game. It can only fit 1 player, but drives faster than the bus. The Mini-Bus costs 125 R$ to obtain. 
-    
+  description: The Mini-Bus is a miniature vehicle which resembles the bus used in
+    the game. It can only fit 1 player, but drives faster than the bus. The Mini-Bus
+    costs 125 R$ to obtain.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
-  tags: mini-bus, bus but smaller, rideable bus, car 
-  
+
+  tags: mini-bus, bus but smaller, rideable bus, car
+
   header:
     description: |
       Category: [Items](items)\n
       Tags: h[Gamepass Item, Hidden Item, Permanent]
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/items/mini-bus.webp
 
-attributions: 
+attributions:
   - Ported by PolyframeX (@polyframex)
   - Converted to Jinki Markdown by Wesker (@weskerbun) and FangedWerewolf (@noobbiom)
 
@@ -24,7 +26,7 @@ content: |
   "Drive your own miniature version of the Bus now!" -"Mini-Bus' Gamepass Description"
 
   ##[Info]
-  The Mini-Bus is a miniature vehicle which resembles the bus used in the game. It can only fit 1 player, but drives faster than the bus. The Mini-Bus costs 125 R$ to obtain. 
+  The Mini-Bus is a miniature vehicle which resembles the bus used in the game. It can only fit 1 player, but drives faster than the bus. The Mini-Bus costs 175 R$ (Varies based on region) to obtain. 
   \n\n 
   The Mini-Bus is a common gamepass, and you can start various activites with it like racing against others.
   \n\n 
