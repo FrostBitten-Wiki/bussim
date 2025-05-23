@@ -1,10 +1,11 @@
-editable: True
+editable: true
 page:
   title: Goat Station
-  description: The Goat Station is a rare event similar to the Backwalls, filled with various items, npcs, quests, and locations.
-    
+  description: The Goat Station is a rare event similar to the Backwalls, filled with
+    various items, npcs, quests, and locations.
+
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
+
   tags: some,tags,here,that is used by the search api
   ignore: ignore
 
@@ -12,10 +13,10 @@ page:
     title: Goat Station
     description: |
       Category: [Events](events)\n
-      Event Name: h[GoatedGas]\n
+      Event Name: h[GoatStation]\n
       Event Runtime: h[9 Minutes and 26 Seconds (9:26)]
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/events/goat-station2.webp
 
 attributions: []
@@ -78,7 +79,7 @@ content: |
   You can also find a piano that when sat on will produce music, do note though that you don't actually control what keys you press. 
   \n
   On the right door in the hallway, you can find MLG's bedroom where you can talk to him. On the left door and top right door, you have empty bedrooms which aren't particularly useful and lastly, on the top left you have Zeon's bedroom which has [RAM](ram) on her desk, and on the middle you have the bathroom.  
-  
+
   ##[Empty House]
   "sorry we ran out of budget, no npcs here." -"Note"
   The empty house is as self-explanatory as it sounds, it is a green house next to Zeon and MLG's house but contains zero NPCs inside. It does have some functional furniture but overall it lacks interior design. 
@@ -86,7 +87,7 @@ content: |
   The dialogue is as it says: 
   - Note: "sorry we ran out of budget, no npcs here."
     - You: "What a ripoff."
-  
+
   ##[School]
   "Am I finally out of detention? Oh, you're not the principal. What do you want?" -"Tazer"
   The school is the fourth and last part of Goat Station. It contains multiple rooms such as Room 101, Room 102, Library, Bathrooms, Janitor Room, and the Principal's Office. 
@@ -98,13 +99,13 @@ content: |
   ##[Quests]
   Despite everything, there's more that meets the eye in this event which are quests. There are currently two quests in this event that gives you a reward for completing. 
   <12px>([(Do note though that these quest names are not official, but are generally named simply because it is much easier to refer to one specific quest.)])
-  
+
   ###[__A Simple Snack__]
   This request simply involves you giving Tazer a stick of RAM, this is done by first talking to Tazer using "Let's Talk!" until you get him talking about being hungry, accept the quest then head over to Zeon's House and go to her bedroom. Here you will find a stick of RAM, take it and then head back to Tazer and he will reward you 2 driver reputation every time this quest is completed except for if you already did this quest today where he says he feels Deja vu and dosent give you any rep. 
-  
+
   ###[__Haggling with D6 / An Exchange__]
   This other quest simply involves you talking to D6 until he mentions being hungry, afterwards, reject the first offer and then D6 will let you trade with another item, only then you can give him any food / drink item (permanent or otherwise), and he will give you the [Tool](tool), which does practically nothing. 
-  
+
   ##[Trivia]
   - Even though the school has Room 101 and Room 102, there is no rooms prior to these numbers. 
     - Secondly, it seems as though as the principal isn't present nor any staffs throughout the entire premises of the event.
