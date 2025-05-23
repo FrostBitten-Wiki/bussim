@@ -11,7 +11,8 @@ page:
 
   header:
     description: |
-      Items are tools that have their own special functions and abilities, mostly obtained by Events. \n\n
+      Items are tools that have their own special functions and abilities, mostly obtained by Events, and some by Gamepasses. The gamepass items notably will also be affected by h[Regional Pricing], for products over <clr:#45ff45>(R$100), so prices beyond or around that will vary based on your country.
+      \n\n
       All the items here have been listed in an Alphabetical order, similar to [Rider's Almanac](rider), use it as reference!
       \n 
       (Items under 👁️‍🗨️ are items that are considered h[Hidden], either because said-items don't have an icon, require heavy-RNG, or are simply unobtainable. For admin-related items, an (❌) will appear, showing that they won't be unlocked.)
