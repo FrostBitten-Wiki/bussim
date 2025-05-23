@@ -35,4 +35,5 @@ content: |
   - Despite [Glacier Cave](glacier-cave) being a Neutral Charge location listed within the [Phone](phone-overhauled), the Battery Pack will still drain overtime so long as it is active.
   - While the changelog says that it can support up to 16 minutes on a single charge, the [Rider](rider)'s Almanac used to mention it being 30 minutes instead. 
     - Both of these however are often invalid measurements simply because of the amount of factors involved when it comes to charging / discharging.
+  - The Battery Pack has a faint humming sound when it is active.
   !!GALLERY [/assets/bussim/images/items/battery-pack.webp]
