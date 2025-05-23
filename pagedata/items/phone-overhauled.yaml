@@ -59,6 +59,8 @@ content: |
   | Activating Flashlight | <clr:#ff4545>(Negative\nMildly increases battery drainage.)\n- By itself, it drains 1% every 7 seconds.\n- If combined with No Airplane Mode under a no cell recepted area, decrease the time to drain by 1% every 2 seconds.\n- If combined with Battery Saver and Airplane mode, decrease the total time to drain by 1% every 7 seconds. |
   | Staying at [The Backwalls](backwalls) or [The Void](void-box)\n...with Airplane Mode Off | <clr:#ff4545>(Negative\nMassively increases battery drainage. Your phone will try as *much* as it can to connect, creating extreme battery load without Airplane Mode on.)\n- When the phone is doesn't have any modes on, decrease the time to train by 1% every 3 seconds.\n- If combined with Flashlight, decrease the time to drain by 1% every 2 seconds. |
   By default, the phone will stay active for 800 seconds, or 13 minutes and 20 seconds before it has to shut off. Use your phone wisely while outside!
+  \n\n 
+  You can also invest in a [Battery Pack](battery-pack) gamepass to effectively double the lifespan of your phone or others too.
   ##[Home]
   Much like any phone, you can customize your home screen by adding widgets or apps allowing easy access. Over the course of your usage, you'll be able to sort and create new pages for your homescreen. You can also swipe up slightly away from the bottom edge to view all of your apps, both within and not within your home screen.
   \n\n 
@@ -109,4 +111,7 @@ content: |
   - The original [phone](phone), one that has been prevalent throughout the majority of Bus Simulator's life was a drastically simpler version, being a simple-handheld that allows you to activate a flashlight and also displayed the in-game time.
   - VR players hold their phone in their left hand. This is so they can use their cursor, which can only be used on the right hand.
   - The phone used to have another tooltip being "Runs something or other!", but was unknowingly altered.
+  ##[Technical Trivia]
+  - If you managed to escape outside of the [Backwalls](backwalls) through unconventional means, the Phone will still be under its effects, and surprisingly won't be able to charge nor have any network connection even as you're idling on [The Bus](the-bus).
+    - The power part however, can be circumvented using a [Battery Pack](battery-pack).
   !!GALLERY [/assets/bussim/images/items/phone-new.webp|/assets/bussim/images/items/phone.webp]
