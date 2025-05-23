@@ -22,7 +22,7 @@ content: |
   "A portable wireless battery pack, designed by NULLTECH" -"Battery Pack"
 
   ##[Info]
-  The Battery Pack is a gamepass item costing <clr:#45ff45>(R$110). When held, you can toggle who gets to charge, either by yourself, your friends, or everyone nearby, all shown by an off, green, and blue color on each side of the center respectively, and can be activated to start supplying charge to any NULLTECH phone, indicated by how many connected devices there are.
+  The Battery Pack is a gamepass item costing <clr:#45ff45>(R$275). When held, you can toggle who gets to charge, either by yourself, your friends, or everyone nearby, all shown by an off, green, and blue color on each side of the center respectively, and can be activated to start supplying charge to any NULLTECH phone, indicated by how many connected devices there are.
   \n\n
   Much like the [Phone](phone-overhauled), the Battery Pack can only charge at [The Bus](the-bus), and has the a slightly longer lifetime than the phone.
   \n\n 
