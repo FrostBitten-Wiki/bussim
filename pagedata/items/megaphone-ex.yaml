@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Megaphone EX
-  description: The Megaphone EX is a gamepass item costing 320 R$.
+  description: The Megaphone EX is a now unlisted gamepass item that used to cost <clr:#45ff45>(R$320). It was taken off of the gamepass store following the merge into the new TextChatService since April 30th, 2025, and has since not returned.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -10,7 +10,7 @@ page:
   header:
     description: |
       Category: [Items](items)\n
-      Tags: h[Gamepass Item, Hidden Item, Permanent]
+      Tags: h[Unobtainable Item, Gamepass Item, Hidden Item, Permanent]
     
     image: ""
     imageBanner: /assets/bussim/images/items/megaphone-ex.webp
@@ -24,7 +24,7 @@ content: |
   "Yell across the time-space continnum-- with InroOS!" -"Megaphone EX"
 
   ##[Info]
-  The Megaphone EX is a gamepass item costing 320 R$.
+  The Megaphone EX is a now unlisted gamepass item that used to cost <clr:#45ff45>(R$320). It was taken off of the gamepass store following the merge into the new TextChatService since April 30th, 2025, and has since not returned.
   \n\n 
    It is an upgraded version of the original Megaphone, as your shout message is 22.22..% larger than normal messages, and your cooldown varies upon your message size. 
   \n\n 

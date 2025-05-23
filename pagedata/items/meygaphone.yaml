@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Meygaphone~
-  description: Meygaphone~ is similar to the Megaphone. The only difference is that there's an emoji of 2 paws when doing a shout, and some words are 'furryified'. Costing around 62 R$.
+  description: Meygaphone~ is similar to the Megaphone, both in terms of its function and that it's also unlisted. It used to cost <clr:#45ff45>(R$62) before it was pulled off of the gamepass store. The only difference is that there's an emoji of 2 paws when doing a shout, and some words are 'furryified'.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -10,7 +10,7 @@ page:
   header:
     description: |
       Category: [Items](items)\n
-      Tags: h[Gamepass Item, Hidden Item, Permanent]
+      Tags: h[Unobtainable Item, Gamepass Item, Hidden Item, Permanent]
     
     image: ""
     imageBanner: /assets/bussim/images/items/meygaphone.webp
@@ -24,7 +24,7 @@ content: |
   "Purr across the time-space continnum!" -"Meygaphone~"
 
   ##[Info]
-  Meygaphone~ is similar to the Megaphone. The only difference is that there's an emoji of 2 paws when doing a shout, and some words are 'furryified'. Costing around 62 R$.
+  Meygaphone~ is similar to the Megaphone, both in terms of its function and that it's also unlisted. It used to cost <clr:#45ff45>(R$62) before it was pulled off of the gamepass store. The only difference is that there's an emoji of 2 paws when doing a shout, and some words are 'furryified'.
   \n
   'Oofs' are also replaced with 'meows'.
   

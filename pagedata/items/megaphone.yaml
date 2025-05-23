@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Megaphone
-  description: The Megaphone is a gamepass item in Bus Simulator. It costs 45 R$, with its variants costing more. 
+  description: The Megaphone is a now unlisted gamepass item in Bus Simulator. It used to cost <clr:#45ff45>(R$45), with its variants costing more. It was taken off of the gamepass store following the merge into the new TextChatService since April 30th, 2025, and has since not returned.
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -10,7 +10,7 @@ page:
   header:
     description: |
       Category: [Items](items)\n
-      Tags: h[Gamepass Item, Hidden Item, Permanent]
+      Tags: h[Unobtainable Item, Gamepass Item, Hidden Item, Permanent]
     
     image: ""
     imageBanner: /assets/bussim/images/items/megaphone.webp
@@ -24,7 +24,7 @@ content: |
   "Yell across the time-space continnum!" -"Megaphone"
 
   ##[Info]
-  The Megaphone is a gamepass item in Bus Simulator. It costs 45 R$, with its variants costing more. 
+  The Megaphone is a now unlisted gamepass item in Bus Simulator. It used to cost <clr:#45ff45>(R$45), with its variants costing more. It was taken off of the gamepass store following the merge into the new TextChatService since April 30th, 2025, and has since not returned.
   \n\n 
   To use, simply hold the item and then talk using the Roblox chat, once you entered your message it will automatically shout to all servers except those who have !shouts turned off. It also has a 30 second cooldown, with it being partially noticeable by the transparency of the megaphone. 
   \n\n 

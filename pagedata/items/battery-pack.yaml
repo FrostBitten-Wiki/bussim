@@ -1,0 +1,38 @@
+editable: True
+page:
+  title: Battery Pack
+  description: The Battery Pack is a gamepass item costing R$110. When held, you can toggle who gets to charge, either by yourself, your friends, or everyone nearby, and can be activated to start supplying charge to any NULLTECH phone, indicated by how many connected devices there are. Much like the Phone, the Battery Pack can only charge at The Bus, and has the a slightly longer lifetime than the phone.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: birthday ice cream, item
+
+  header:
+    description: |
+      Category: [Items](items)\n
+      Tags: h[Gamepass Item, Hidden Item, Permanent]
+    
+    image: ""
+    imageBanner: /assets/bussim/images/items/battery-pack.webp
+
+attributions: 
+  - made by the big woofer (not the subwoofer)
+
+content: |
+  "A portable wireless battery pack, designed by NULLTECH" -"Battery Pack"
+
+  ##[Info]
+  The Battery Pack is a gamepass item costing <clr:#45ff45>(R$110). When held, you can toggle who gets to charge, either by yourself, your friends, or everyone nearby, all shown by an off, green, and blue color on each side of the center respectively, and can be activated to start supplying charge to any NULLTECH phone, indicated by how many connected devices there are.
+  \n\n
+  Much like the [Phone](phone-overhauled), the Battery Pack can only charge at [The Bus](the-bus), and has the a slightly longer lifetime than the phone.
+  \n\n 
+  The best use case of this would be to use it whenever your phone (or someone else's) phone gets incredibly low, and then activate it, since the phone charges faster than how fast the Battery Pack would drain. 
+  \n 
+  This is especially helpful in long de-tours, but not so much in the [Backwalls](backwalls), given the lack of utility (aside from [Pear's Place](pears-place)) without any source of connection currently, alongside better means to conserve such as shutting down your phone.
+  \n\n 
+  Lastly, Battery Packs can stack in terms of charging power, always charging any phone it finds, this can allow groups to mass-charge each other or a specific person.
+  ##[Trivia]
+  - Despite [Glacier Cave](glacier-cave) being a Neutral Charge location listed within the [Phone](phone-overhauled), the Battery Pack will still drain overtime so long as it is active.
+  - While the changelog says that it can support up to 16 minutes on a single charge, the [Rider](rider)'s Almanac used to mention it being 30 minutes instead. 
+    - Both of these however are often invalid measurements simply because of the amount of factors involved when it comes to charging / discharging.
+  !!GALLERY [/assets/bussim/images/items/battery-pack.webp]
