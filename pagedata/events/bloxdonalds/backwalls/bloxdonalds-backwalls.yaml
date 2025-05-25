@@ -38,7 +38,7 @@ content: |
   Aside from the items being sold here, there's also a lot of interactable props within the kitchen, all of them are as follows:
   |Props / Furniture|Description|Dialogue|
   |-----------------|-----------|--------|
-  |Liquid Dispenser|A liquid dispenser with a strange, dark liquid inside. A sticky note next to it says "secret stock! DO NOT TOUCH -D". Interacting with it says the following.|"What is this stuff? And who is ''D''??|
+  |Liquid Dispenser|A liquid dispenser with a strange, dark liquid inside. A sticky note next to it says "secret stock! DO NOT TOUCH -D". Interacting with it says the following.|Note - "What is this stuff? And who is ''D''??\n\nContainer\n\n- "The more you look at it, the more unsettling it gets."\n\n"And yet, it feels vaguely familiar..."|
   |The Bulletin Board|A bulletin board that contains various materials, showing the Employee of the Month, a Do Not Serve, work schedule filled with missing staff, and a normal calendar that simply says "October 2007". Interacting with the Employee of the Month photos or the DO NOT SERVE says the following.|Employee of the Month\n\n"Uh... Who took the photo?"\n\nDo Not Serve\n\n"Twelve whole cents... Outrageous."|
   |A "Sandwich"|A sandwich that's colored darker than normal, sitting next to another burger. Interacting with it says the following.|"Uh... *some* kind of sandwich..."\n\n"Yeah no, I'm not touching that. Who knows how long it's been out here for?"|
   |Red's Diary|A diary made by [Red](red) himself. Interacting with it says the following.|"It's Red's diary. Peek inside?"\n\n - hg[Option 1]: Just a little peek...\n\n"*You pick it up and take a look inside...*"\n\n-"*...and discover nothing. There's not a single page inside of this thing - it's just an empty cover.*" (Unlocks [Red](red)'s 6th Dialogue Option) \n\n- hg[Option 2]: Leave it alone.|
@@ -47,6 +47,7 @@ content: |
   |Entity Limb|A limb from an [Entity](entity), resting on top of a package of canned sweet potatoes. Touching it will damage you over time, similar to normal Void Puddles.|<0px>(.)|
   |Cutting Board|A cutting board with ingredients that resemeble something... But most of it seems to be [lost](https://knowyourmeme.com/memes/loss). Interacting with it provides the following.|"..."|
   |Microwave|A microwave that is inactive, with the timer being set to 12:00. Interacting with it says the following.|"The clock isn't set..."|
+  |Soap Dispenser|A soap dispenser seemingly attached above a... fryer. Interacting with it says the following.|"This is a soap dispenser."\n\n"It dispenses soap into the fryer."|
   \n\n
 
   ##[Trivia]
@@ -56,5 +57,5 @@ content: |
     - Both [Steven](steven) and [MLG](mlg) used to work at Bloxdonalds, but one [vanished](steven-ride), while the other [moved away](goat-station).
   - It is the only event that allows you to spend [Coins](coins) on non-permanent items / special-condition permanent items. 
   - It is possible to purchase an item while already having one in your inventory, allowing you to save up multiple [Almond Waters](almond-water) or [Void Burgers](void-burger) for the remainder of your trip.
-
+  - The Ice Bucket and rubbish on the floor aren't anchored.
   !!GALLERY [/assets/bussim/images/banners/backwalls/bloxdonalds-backwalls.webp]
