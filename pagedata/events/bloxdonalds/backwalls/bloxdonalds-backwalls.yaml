@@ -46,6 +46,7 @@ content: |
   |"Self Service Kiosk"|A kiosk that's meant to self-serve, but is entirely just a cardboard box with a drawing of a kiosk.|<0px>(.)|
   |Entity Limb|A limb from an [Entity](entity), resting on top of a package of canned sweet potatoes. Touching it will damage you over time, similar to normal Void Puddles.|<0px>(.)|
   |Cutting Board|A cutting board with ingredients that resemeble something... But most of it seems to be [lost](https://knowyourmeme.com/memes/loss). Interacting with it provides the following.|"..."|
+  |Microwave|A microwave that is inactive, with the timer being set to 12:00. Interacting with it says the following.|"The clock isn't set..."|
   \n\n
 
   ##[Trivia]
