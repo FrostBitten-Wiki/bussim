@@ -1,7 +1,7 @@
 editable: true
 page:
   title: Fang
-  description: Fang or known as FangedWerewolf is a contributor in Bus Simulator that has worked on the many wikis relating of this game, he is also a digital artist.
+  description: Fang or known as FangedWerewolf is a contributor in Bus Simulator that has worked on the many wikis related to this game, he is also a digital artist.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim contributor
 
@@ -14,7 +14,7 @@ page:
       Category: [NPCs](npcs)
 
     image: ''
-    imageBanner: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/banners/strip-mall-library.webp
 
 attributions:
   - Made by FangedWerewolf (@noobbiom)
@@ -23,31 +23,133 @@ content: |-
   !!INFOBOX TITLE:"Easter Egg Content" COLOR:"#A1FFEF" TEXT:"*\"How did you find this? ..I'm impressed!\"* - Fang\nv(This page is mainly easter egg content and is *never* found in the game. This is also where Wiki Contributors mess around.)"
 
   ##[Info]
-  Fang or known as FangedWerewolf is a contributor in Bus Simulator that has worked on the many wikis relating of this game, alongside contributing the [Birch Forest](birch-forest) biome, and the [Shivering](commands) emote. He is also a digital artist.
+  Fang or known as FangedWerewolf is a contributor in Bus Simulator that has worked on the many wikis related to this game, alongside contributing the [Birch](birch-forest) and [Dark](dark-forest) biome, all 51 event icons + 4 badge icons, and the [Shivering](commands) emote. He is also a digital artist and has also appeared as a host in [Pear's Place](pears-place).
+  \n\n 
+  His main appearance is a librarian within the [Strip Mall](strip-mall) event.
   
   ##[Appearance]
-  Fang wears the Werewolf Set alongside Wolf Aviators from JohnDrinkIn, he pairs it with shirts that he has made himself; and wears a black pair of jeans. He also has the Big Blocky Bundle equipped, which generally increases his size.
+  Fang wears the Werewolf Set alongside Wolf Aviators from JohnDrinkIn, he pairs it with a short-sleeve blue plaid custom-tailored to him; and wears a black pair of jeans. He also has the Huge Blocky Bundle equipped, which generally increases his size. 
+  \n\n 
+  He also has a small tuft off of his hair, using an adjusted black side hair tuft, a broken spiked collar, and black neck fur.
 
   ##[Favourite Drink]
-  Fang's favourite drink is the [Blueberry Milkshake](cafe-coffee-recipes). This gives you either 6 passenger or driver rep.
+  Fang's favourite drink is the [Blueberry Milkshake](cafe-coffee-recipes). This gives you either 3 Passenger Rep or Driver Rep and 210 Coins.
 
   ##[Dialogue]
-  - hg[Variant 1]: "Hm? What's up?"
-  - hg[Variant 2]: "Do you need anything?"
-  - hg[Variant 3]: "Oh, hey there friend! Didn't expect to see you here." (Friend-Exclusive)
-    - What's with the uh... lack of dialogue? 
-      - "Oh, I'm just wiping the slate clean so I can write new stuff in here, I think I could do more I guess."
+  - hg[Variant 1]: "Hm? Oh, hey there."
+  - hg[Variant 2]: "Need something?"
+  - hg[Variant 3]: "What's the matter?"
+  - hg[Variant 4]: "Oh! Hey there friend! Wasn't expecting to see you around here!" (Friend-Exclusive)
+  - hg[Variant 5]: "Hey oomphie!!! How are you doing!! :D" (Zeon-Exclusive)
+  - hg[Variant 6]: "Oh hey there Disc! Done with your shift I see!" (Disc-Exclusive)
+  - hg[Variant 7]: "I have strapped a bomb and yo- Pfft-! Just kidding! Hey Inro!" (Lnro-Exclusive)
+  - hg[Variant 8]: "Woah! Wasn't expecting you here! Hey there!" (Noble / Frost Exclusive)
+  - hg[Variant 9]: "Done with your questions I see, hey there bud!" (Ectta-Exclusive)
+  - hg[Variant 10]: "Didn't expect to see you here from the Cafe, hey there!" (Tazer / MLG Exclusive)
+  - hg[Variant 11]: "you... -pfft! Hey there!" (D6-Exclusive)
+    - hg[Option 1]: [Actions...]
+      - You: "What action will I take?"
+        - hg[Option 1]: [Proceed to check-out.]
+          - "Oh sure! Let me see here..."
+            - If the player has no items:
+              - "...uh, I don't see anything there, bud. You sure you have it..?"
+                - hg[Whoops.]
+            - If the player has no items from the library but has other items from the Plaza:
+              - "...I think you have better luck checking-out at their respective cashiers. No thanks."
+                - hg[Dang.]
+            - If the player has not enough Coins:
+              - hg[Variant 1]: "Hey uh, are you sure you're okay with this? This price is gonna leave you in debt..."
+              - hg[Variant 2]: "Sorry but uh, your wallet doesn't account for this I'm afraid."
+                - hg[Option 1]: Dang. 
+                - hg[Option 2]: [Clear all books.]
+                  - "Alright, all the books you had are now back to their spots."
+                  - (All of the player's buyable books are then cleared.)
+            - If the player has enough Coins: 
+              - "Alright! Are you sure you want this? It costs <total price> coins!"
+                - hg[Option 1]: "Actually, no thanks."
+                  - "Fair enough. Let me know if you want to!"
+                - hg[Option 2]: "It's a good deal."
+                  - "And sold! Now there's something I need to do first..."
+                    - If it's an unclaimed [Flying Skillbook](flying-skillbook): 
+                      - You: "Fang inspects the Flying Skillbook in question."
+                      - You: "After waiting a few seconds, he begins to pull away a drawer next to him, pulling a small knife, as he meticulously cuts away each strand of glue with precision."
+                      - You: "..." (This lasts for 3 seconds.)
+                      - You: "Looks like he's done. He sighs in relief as he hands you the book, receipt on top."
+                        - "There you go! It's way slower than how my goat friend does it but, but does the job just fine."
+                    - If it's an unclaimed [Dash Skillbook](dash-skillbook):
+                      - You: "Fang inspects the Dash Skillbook in question."
+                        - "Ah, this one! Wasn't expecting anyone to buy it, but since you paid your part, it's only fair to do mine too!"
+                          - You: "Fang begins to grab both ends of the skillbook and..."
+                          - You: "..!" (A cracking sound is played.)
+                          - You: "You look back, and find that the book's anti-thief seal broke out of sheer strength, as Fang then promptly gives it to you."
+                            - "Tada! Here you go! My knowledge is now shared with yours!"
+                            - "Just make sure to not overestimate your body, you can dash but remember that you probably can't break walls unless your body already can."
+                            - <clr:#555555>("*I mean, it's not like anyone intends to do so...*")
+                              - hg[Did you just break the seal?]
+                                - "Yeah... Normally you need some sort of magic thingy majigy to break it, but turns out brute force also works."
+                                - "Not to say that you can break it with feeble hands though! Each time I have to break one it does require a hefty lot of superhuman strength..."
+                                - <clr:#555555>("*I wonder if machinery could also work...*")
+                    - If it's both and they're unclaimed: 
+                      - You: "Fang inspects both the Flying and Dash Skillbooks in question."
+                        - "Well dang, I wasn't expecting someone to buy these two in specific but... I'll make this quick!"
+                          - You: "Fang begins to grab both ends of the skillbook and..."
+                          - You: "..!" (A cracking sound is played.)
+                          - You: "You look back, and find that the book's anti-thief seal broke out of sheer strength."
+                          - You: "Without a moment's notice, Fang already then begins to open up a drawer next to him, picking up a small knife."
+                          - You: "He then precisely and carefully cuts every strand of glue within the Flying Skillbook, despite what happened with the other one."
+                          - You: "..." (This lasts for 3 seconds.)
+                          - You: "Soon after the other, both of the books have been dealt with, he then slides both of them, now unsealed on your side."
+                            - "And here you go! These two books are now in your possession!"
+                            - <clr:#555555>("*Sorta hope you're able to digest the info from those two just fine... they aren't heavy for a reason.*")
+                    - If the player attempts to buy a claimed skillbook: 
+                      - "...Oh! Nevermind, looks like you already claimed it before, so you saved yourself some money!"
+        - hg[Option 2]: [Ask for coffee.] (Friend-Exclusive)
+          - "Oh? Sure!"
+            - If the player hasn't been given coffee yet within the same event: 
+              - You: "You recieved a <random safe coffee drink>."
+                - "It gets a bit boring working here, so it's always nice to brew up a coffee here and there!"
+                - The player then recieves a random safe coffee drink. 
+            - If the player already has been given coffee within the same event: 
+              - "Ah... I wish I could give you another but I'd rather not risk accidentally making a mess 'round here."
+              - "Maybe next time though!"
+            - If the player is [Zeon](zeon) in question: 
+              - You: "You recieved a Strawberry Smoothie."
+                - " I couldn't find ya some bananas unfortunately, but I'll let you know if I can find 'em!"
+                - The player recieves a Strawberry Smoothie. 
+            - If the player is [D6](d6) in question:
+              - You: "You recieved The Sludge."
+                - "Not the most aromatic drink personally, but here you go!"
+                - The player recieves The Sludge. 
+            - If the player is [Disc](disc) in question: 
+              - You: "You recieved a Vanilla Iced Coffee." 
+                - "Here you go pal! Hope your gas station thing has been going well for you!"
+                - The player recieves a Vanilla Iced Coffee. 
+            - If the player is [NobleReign](noble) in question:
+              - You: "You recieved The Blizzard."
+                - "Here, have a cold one specifically for you!"
+                - The player recieves The Blizzard.
+            - If the player is [MLG](mlg) in question: 
+              - You: "You recieved a Pumpkin Spice Mocha."
+                - "It might not be better than the ones at the Sparkplug Cafe you work at, but it still hits the same tones!"
+                - The player recieves a Pumpkin Spice Mocha. 
+        - hg[Option 3]: [Check.]
+          - You: "Fang definitely seems to be a lot more reasonable than the stories that represented them, although it is still strange seeing them work in a more... menial task if anything."
+          - You: "Wait- why are you even checking him? You aren't friends with this guy." (Stranger-Exclusive)
+          - You: "Aside from that though, he's a friend of yours so, he probably has his interests in mind." (Friend-Exclusive)
+        - hg[Option 4]: [Leave.]
 
   ###[Drink Responses]
   - If you give Fang the wrong drink:
-    - "Oh, is this for me?"
-    - "I'll take it, thanks!"
+    - "Oh, a drink? Thank you!"
   - If you give Fang <clr:#151812>(***The Sludge.***):
-    - "Oh, uhm... thanks..?" 
+    - "Oh a drink? Thank you!"
     - "..."
-    - "<7px>(cough cough-)<12px>(oh dear g-)<18px>(COUGH-)"
-    - "ough... that one had a strong <7px>(cough) kick <7px>(cough) to it...."
-    - "Uh.. thanks a lot again.. definitely was something..."
+    - "..." (A crackling fire sound plays in for five seconds.)
+    - "...That was pretty nice."
+      - hg[You didn't die?]
+        - "Well duh, had my super-regen kick in full time there!"
+        - "You really thought I'd fall following the other two didn't you?"
+        - "Well, it's alright. Tasted oddly like Bloxy Cola if anything."
   - If you give Fang <clr:#000099>(***Blueberry Milkshake***):
     - "Is that a blueberry milkshake?"
     - "..." 
@@ -57,6 +159,6 @@ content: |-
         - "Nah, I'm just kidding. Thanks a bunch again!"
       
   ##[Trivia] 
-  - Fang's scale 1.15x larger than the other NPCs in the game.
+  - he is the woofer.
 
   <script>randomDialogueEvent(true, "fang003")</script>
