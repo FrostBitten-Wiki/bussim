@@ -31,14 +31,14 @@ content: |
 
   ##[Dialogue]
   - hg[Player]: "It's a bit chilly right now..."
-    - hg[Player]: "You're right. In fact it is getting TOO cold..."
-      - hg[Player]: "Guys, I think we're going straight into.."
-        - hg[Everyone]: "A BLIZZARD!!!"
-          - hg[Player]: "Everyone get inside and huddle for warmth!"
-            - h[After some time has passed...]
-              - hg[Player]: "Finally, the blizzard is calming down."
-                - h[After even more time has passed...]
-                  - hg[You]: "We made it!"
+  - hg[Player]: "You're right. In fact it is getting TOO cold..."
+  - hg[Player]: "Guys, I think we're going straight into.."
+    - hg[Everyone]: "A BLIZZARD!!!"
+      - hg[Player]: "Everyone get inside and huddle for warmth!"
+        - h[After some time has passed...]
+          - hg[Player]: "Finally, the blizzard is calming down."
+            - h[After even more time has passed...]
+              - hg[You]: "We made it!"
 
   ##[Tips]
   - One of the many ways to survive this event is to huddle up with other players based off of the dialogue, with each player nearby reducing the damage taken. If you are alone, you can instead huddle up with [Pear](pear) to completely be immune to the blizzard,

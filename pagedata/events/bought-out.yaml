@@ -29,7 +29,8 @@ content: |
   ##[Dialogue]
   - hg[Event]: "We just got bought out by EA. You have to buy the other rooms now." 
     - hg[You]: "Fantastic..."
-      - hg[Event]: "EA lost interest, not enough money being made. They're restoring the license to Noble shortly."
+      - h[After a while...]
+        - hg[Event]: "EA lost interest, not enough money being made. They're restoring the license to Noble shortly."
         - hg[Event]: "Okay, it should be back now. Just wait for Noble to update the game."
 
   ##[Trivia]

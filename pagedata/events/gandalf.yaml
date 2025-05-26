@@ -28,7 +28,8 @@ content: |
     - hg[Event]: "What the?"
       - h[After a while...]
         - hg[Event]: "I am losing patience."
-          - hg[EVENT]: "He teleported out of here.. Lets keep riding!"
+          - h[After a little more...]
+            - hg[EVENT]: "He teleported out of here.. Lets keep riding!"
 
   ##[Trivia]
   - This event is a good opportunity to get some [Ice Cream](ice-cream) from the Ice Cream truck if its near the bus.

@@ -26,16 +26,16 @@ content: |
   \n\n 
   Despite this, it ends rather short. After the Bus Driver comments on the situation, Noble gives the permission for the bus to drive through his house one more time to continue their journey. The event soon ends afterwards.
   ###[Interacting with the hidden sparkle behind the desktop says the following]:
-    - hg[You]: "[You can see something sparkling behind Noble's PC. Investigate?]"
-      - hg[Option 1]: Sure.
-       - hg[You]: "[You decide to take a look...]"
-        - h[If the player already has a Gameboy Cartridge...]
-          - hg[You]: "[...and found a cartridge for the GBA... you already have one, though.]"
-        - h[If the player already had interacted with it before...]
-          - hg[You]: "[...and found nothing of value.]"
-        - h[If the player doesn't have a Gameboy Cartridge...]
-          - hg[You]: "[...and found a cartridge for the GBA! You'll be able to use it until you die.]"
-      - hg[Option 2]: Nah.
+  - hg[You]: "[You can see something sparkling behind Noble's PC. Investigate?]"
+    - hg[Option 1]: Sure.
+      - hg[You]: "[You decide to take a look...]"
+      - h[If the player already has a Gameboy Cartridge...]
+        - hg[You]: "[...and found a cartridge for the GBA... you already have one, though.]"
+      - h[If the player already had interacted with it before...]
+        - hg[You]: "[...and found nothing of value.]"
+      - h[If the player doesn't have a Gameboy Cartridge...]
+        - hg[You]: "[...and found a cartridge for the GBA! You'll be able to use it until you die.]"
+    - hg[Option 2]: Nah.
 
   ##[Dialogue]
   - hg[NobleReign]: "WOAH! . . . . . *sigh* this happens every Wednesday, it's not my fault that they built this house on a highway..."

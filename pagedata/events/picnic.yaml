@@ -21,10 +21,10 @@ content: |
   ##[Info]
   Picnic is an event that would randomly happen after 4 minutes. It is a short and simple event where the bus stops to have a simple picnic. During the event, you'll be able to obtain both the [Sandwich](sandwich) and the [Bucket?](bucket). After a short while, the bus leaves and the event would end. 
   ##[Dialogue]
-    - hg[Event]: "Hm, we've been driving for a while. Let's take a break and have a picnic!"
-      - h[After a while...]
-        - hg[Event]: "Alright, I think that's enough. Come on, let's go."
-          - hg[Event]: "That was nice."
+  - hg[Event]: "Hm, we've been driving for a while. Let's take a break and have a picnic!"
+    - h[After a while...]
+      - hg[Event]: "Alright, I think that's enough. Come on, let's go."
+      - hg[Event]: "That was nice."
   ##[Trivia]
   - It was one of the first events to be worked on in Bus Simulator.
   !!GALLERY [/assets/bussim/images/events/picnic.webp|/assets/bussim/images/events/picnic2.webp]

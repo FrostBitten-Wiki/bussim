@@ -24,10 +24,11 @@ content: |
   \n\n
   The event ends after a while.
   ##[Dialogue]
-    - hg[Event]: "A traffic light?! All the way out here? Nobody's even following it!"
-    - hg[Event]: "Sadly, I have to be a good driver and wait."
+  - hg[Event]: "A traffic light?! All the way out here? Nobody's even following it!"
+  - hg[Event]: "Sadly, I have to be a good driver and wait."
+    - h[After a while...]
       - hg[Event]: "I have a feeling that this'll take a while.."
-      - hg[You]: "Yup."
+        - hg[You]: "Yup."
 
   ##[Trivia]
   - Although the bus stops once the traffic light hits red, no other vehicle except the Ice Cream Truck obeys the traffic light.

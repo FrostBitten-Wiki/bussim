@@ -23,8 +23,8 @@ content: |
   \n\n
   During this event, all players' gravity will be drastically reduced, with gravity-related items like the [Gas Station Gravity Coil](gas-station-gravity-coil) being able to make players shoot up into outer space. Eventually though, the event soon ends as gravity resumes back to normal.
   ##[Dialogue]
-    - hg[EVENT]: "Houston, we have a big problem."
-      - hg[Houston]: "fix it yourself im on break"
+  - hg[EVENT]: "Houston, we have a big problem."
+    - hg[Houston]: "fix it yourself im on break"
   ##[Trivia]
   - The map used during the event is almost the same as the [Void (Biome)](void), however the time is set to night instead. 
     - Another event, called [In The Sky](in-the-sky) also uses the same event too.

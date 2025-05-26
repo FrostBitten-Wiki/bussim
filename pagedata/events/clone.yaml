@@ -32,7 +32,7 @@ content: |
     - hg[You]: "Intriguing."
       - h[After some time has passed...]
         - hg[Event]: "The clone seems to be unstable..."
-          - hg[Event]: "it's gonna disappear!"
+        - hg[Event]: "It's gonna disappear!"
 
   ##[Trivia]
   - It isn't recommended to jump to the cloned bus and vice versa while inside a tunnel, as you can very much fall inbetween the gap. And while it's a bit unnecessary as it is, you can use either [Hoverboots](hoverboots) or [Helicopter](helicopter) to easily travel between the two busses.

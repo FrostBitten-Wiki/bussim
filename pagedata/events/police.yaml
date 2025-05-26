@@ -23,8 +23,8 @@ content: |
   \n\n 
   Eventually though, the Bus manages to drive fast enough for the police to drop the pursuit, as the event ends thereafter.
   ##[Dialogue]
-    - hg[Event]: "W-Wh?! It's the police!"
-      - hg[You]: "OH NO!!!"
-        - h[After a while...]
-          - hg[Event]: "We're losing em'! Let's speed up!"
+  - hg[Event]: "W-Wh?! It's the police!"
+    - hg[You]: "OH NO!!!"
+      - h[After a while...]
+        - hg[Event]: "We're losing em'! Let's speed up!"
   !!GALLERY [/assets/bussim/images/events/police.webp|/assets/bussim/images/events/police2.webp]

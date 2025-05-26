@@ -21,8 +21,8 @@ content: |
   ##[Info]
   The Pool is a short and simple event, where a pool will magically spawn next to the edge of the third floor in [The Bus](the-bus), within this pool will contain a few ducks and [Coffee](coffee), which acts similarly in function to [Cola](cola). 
   ##[Dialogue]
-    - hg[Event]: "A pool spawned on top of the bus!"
-      - hg[You]: "Oh, nice." 
-        - h[After 40 seconds...]
-          - hg[Event]: "It's going to disappear!" 
+  - hg[Event]: "A pool spawned on top of the bus!"
+    - hg[You]: "Oh, nice." 
+       - h[After 40 seconds...]
+         - hg[Event]: "It's going to disappear!" 
   !!GALLERY [/assets/bussim/images/events/pool.webp|/assets/bussim/images/events/pool2.webp]

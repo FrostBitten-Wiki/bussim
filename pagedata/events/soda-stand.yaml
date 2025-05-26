@@ -23,10 +23,10 @@ content: |
   \n\n
   Within less than a minute, the driver mentions the soda killed their dog and that they have to evacuate to the bus. This is referenced in a news article. 
   ##[Dialogue]
-    - hg[Player]: "Hey, someone's giving free soda on the side of the road!"
-      - hg[You]: "Oh, cool."
-        - h[After some time <12px>(and some spitting...)]
-          - hg[Event]: "That soda killed my dog. Let's go, twenty seconds." 
+  - hg[Player]: "Hey, someone's giving free soda on the side of the road!"
+    - hg[You]: "Oh, cool."
+      - h[After some time <12px>(and some spitting...)]
+        - hg[Event]: "That soda killed my dog. Let's go, twenty seconds." 
   ##[Trivia]
   - The Lemon Soda, along with the [Bloxdonalds Burger](burger) and [Expired Taco](expired-taco), are the only items known to cause the players screen to become green and also cause a distorted sound to be heard.
   !!GALLERY [/assets/bussim/images/events/soda-stand.webp|/assets/bussim/images/events/soda-stand2.webp]

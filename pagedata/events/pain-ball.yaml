@@ -24,9 +24,9 @@ content: |-
   \n\n 
   The ball is also collidable both inside and outside of the bus, providing a temporary platform. 
   ##[Dialogue]
-    - hg[Event]: "I think I-- OH GOD WHAT IS THAT?!"
-      - h[After 70 seconds have passed...]
-        - hg[Event]: "It looks like the ball is falling off of the windshield."
+  - hg[Event]: "I think I-- OH GOD WHAT IS THAT?!"
+    - h[After 70 seconds have passed...]
+      - hg[Event]: "It looks like the ball is falling off of the windshield."
   ##[Trivia]
   - This is a reference to a roblox game Steven_Scripts has made called [balls of pain](https://www.roblox.com/games/2179700750/balls-of-pain).
   - The screams are actually from Sr Pelos "Underpants" mini-series. Specifically using Sans, and two from Asgore.

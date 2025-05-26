@@ -30,10 +30,11 @@ content: |
   - hg[Event]: "Driving down the road is pretty relaxing."
     - h[After a while...]
       - hg[Event]: "Hm, looks like we got some glitches here, folks."
-        - hg[Event]: "Yep, we're in a video game."
-          - hg[You]: "*sigh*"
+      - hg[Event]: "Yep, we're in a video game."
+        - hg[You]: "*sigh*"
+          - h[After a little more...]
             - hg[Event]: "Ah, that's better."
-               - hg[Player]: "Who programmed this game? A child?"
+              - hg[Player]: "Who programmed this game? A child?"
 
   ##[Trivia]
   - This is one of the few events that forcibly changes the biome without the need of a tunnel.

@@ -25,7 +25,7 @@ content: |
   \n\n
   Soon after the driver mentions their unease and promptly leaves the shack, ending the event. 
   ##[Dialogue]
-    - hg[EVENT]: "We found an abandoned shack..."
-      - h[After a while...]
-        - hg[Event]: "This place is a little too spooky for me. We're leaving now, get back on." 
+  - hg[EVENT]: "We found an abandoned shack..."
+    - h[After a while...]
+      - hg[Event]: "This place is a little too spooky for me. We're leaving now, get back on." 
   !!GALLERY [/assets/bussim/images/events/shack.webp|/assets/bussim/images/events/shack2.webp]
