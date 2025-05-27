@@ -1,0 +1,79 @@
+editable: true
+page:
+  title: Guby
+  description: Guby 
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim contributor
+
+  tags: guby
+  ignore: ignore
+
+  header:
+    title: Guby
+    description: |
+      Category: [NPCs](npcs)
+
+    image: ''
+    imageBanner: /assets/bussim/images/banners/strip-mall-candle.webp
+
+attributions:
+  - Made by FangedWerewolf (@noobbiom)
+
+content: |-
+  !!INFOBOX TITLE:"Early Access Content" COLOR:"#FF5E24" TEXT:"*\"Still striking iron while it's hot.\"* - Fang\nv(This page is content reserved for a future update, and is here to make editing post-update a whole lot easier! Really convienient, don't ya think?)"
+  ##[Info]
+  Guby is the cashier of *Le Candelle Shoppe*, a candle shop within the [Strip Mall](strip-mall) event. They're an OC of Zeon.
+  
+  ##[Appearance]
+  Guby has no definitive species, but is likely presumed to be a white deer. They don headphones around their neck, square glasses, a black jacket with a gray sweater underneath, and black pants too.
+
+  ##[Favourite Drink]
+  Guby's favourite drink is [The Morning Routine](cafe-coffee-recipes). This gives you either X Passenger Rep or Driver Rep and Y Coins.
+
+  ##[Dialogue]
+  - hg[Variant 1]: "oh hello!! how may i help you?"
+  - hg[Variant 2]: "welcome to le candelle shoppe!"
+  - hg[Variant 3]: "need assistance with anything?"
+  - hg[Variant 4]: "you ready to checkout?")
+    - hg[Option 1]: Checkout
+      - "all set to checkout? let me calculate the prices..."
+      - "your total will be <total price> coins..."
+        - (action is supposed to be given to the player to confirm their deal)
+          - If the player uses PearcoinTM:
+            - "a... pearcoin...?"
+            - "sorry, we only take coins here..."
+          - If the player has not enough Coins:
+            - "oh dear, it looks like this isn't enough..."
+            - "sorry, i'm afraid i can't let you have this."
+          - If the player has enough Coins:
+            - "all set to go! thank you very much! please come again!"
+    - hg[Option 2]: Who're you?
+      - "oh! wasn't expecting to get asked this..."
+      - "my name's guby! I just like operating this little candle store :)"
+      - "im not much of a person to talk about themselves... more about the stuff im into..."
+        - hg[Option 1]: What's with the glasses? They look goofy.
+          - "..i thought they looked cute... :("
+        - hg[Option 2]: You look tired. 
+          - "oh, i'm always kind of tired, admittedly. Thank you for your concern, though!"
+          - "could always go for The Morning Routine to pick me up, though..."
+        - hg[Option 3]: Cool.
+    - hg[Option 3]: Questions...
+      - "oh? about what?"
+        - hg[Option 1]: "About the sales..."
+          - "oh, are you curious about the 5% off, or the $2 off?"
+            - hg[Option 1]: "The 5% off expired back in 2021."
+              - "oh dear! i don't know how that slipped by. sorry to disappoint you about that...!"
+            - hg[Option 2]: "Why are they only 5% or $2?"
+              - "oh, my manager just told me to put these up..."
+              - "unfortunately, i can't give you a better discount at the moment, even if i wanted to..."
+            - hg[Option 3]: "Why is the $2 off discount only effective 6 days of the year?"
+              - "wish i knew... i was only told to put them up. didn't think much about it."
+        - hg[Option 2]: "Are you the only person who works here?"
+          - "oh, no. but it is just me and the manager. only two people work here."
+          - "although, the manager rarely ever shows up, so it may as well be just me..."
+        - hg[Option 3]: "Actually, nevermind."
+          - "okay! i'll be here whenever you have any questions to ask...!"
+    - hg[Option 4]: Nevermind.
+  
+  ##[Trivia] 
+  - the guby
