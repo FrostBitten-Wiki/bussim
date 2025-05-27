@@ -29,13 +29,13 @@ content: |
 
   If any of those eight vehicles collide either by speed and such, it'll cause an explosion and eventually the two collided vehicles despawn momentarily. 
   \n\n
-  When you also attempt to jump onto any of the six vehicles, you may also be subjected into being flinged in extreme velocity unless if you are holding or using the [Mini Bus](items/mini-bus), in this case; you won't be tripped nor flung.
+  When you also attempt to jump onto any of the six vehicles, you may also be subjected into being flinged in extreme velocity unless if you are holding or using the [Mini Bus](mini-bus), in this case; you won't be tripped nor flung.
   \n\n 
   One thing to note within the Beta Build of Bus Simulator, is that if you crash into any vehicle, then your [Phone](phone-overhauled) will crack, requiring you to repair it at [Pear's Place](pears-place).
   ##[Ice Cream Truck]
   The ice cream truck is a special vehicle, only stopping when the bus stops (even after it spawns) and being faster than The Bus while moving.
   \n
-  When you click on the window the Ice Cream Man will give you an Ice Cream or very rarely, the [Last One](items/spronkbib-popsicle). (1/800, used to be 1/1000.)
+  When you click on the window the Ice Cream Man will give you an Ice Cream or very rarely, the [Last One](spronkbib-popsicle). (1/800, used to be 1/1000.)
   \n\n
   If you try to talk to it while the bus is still moving, it says that it can't give you an ice cream at that speed. 
   \n
@@ -49,7 +49,7 @@ content: |
   ##[Trivia]
   - The vehicles will not follow any traffic laws as mentioned with the collision, and it doesn't also follow any rule that the bus does during the [Traffic Light](traffic-light) event.
   - The vehicles also don't seem to spawn in the same lane as the bus. It could be a bus lane, but there isn't any proof to confirm this.
-  - Despite the [Mini Bus](items/mini-bus) being and acting like a vehicle, it doesn't share similar properties to the other vehicles mentioned.
-  - Since Ice Cream Trucks can spawn at the very start of the road when the bus has stopped, you might need to use the [Mini Bus](items/mini-bus) or anything fast to get past the invisible barrier.
-  - In very rare cases, ramming vehicles with the [Mini Bus](items/mini-bus) at high speeds (such as getting a large Mini-Boost prior to drifting) can cause vehicles to verge off course. This could be leveraged to intentionally make vehicles crash.
+  - Despite the [Mini Bus](mini-bus) being and acting like a vehicle, it doesn't share similar properties to the other vehicles mentioned.
+  - Since Ice Cream Trucks can spawn at the very start of the road when the bus has stopped, you might need to use the [Mini Bus](mini-bus) or anything fast to get past the invisible barrier.
+  - In very rare cases, ramming vehicles with the [Mini Bus](mini-bus) at high speeds (such as getting a large Mini-Boost prior to drifting) can cause vehicles to verge off course. This could be leveraged to intentionally make vehicles crash.
   !!GALLERY [/bussim-assets/images/others/vehicles.webp]

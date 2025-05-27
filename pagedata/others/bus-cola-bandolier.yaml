@@ -25,7 +25,7 @@ content: |-
   This accessory currently has no functional usage yet and can be worn anywhere even outside of Bus Simulator.
   \n\n
   ##[Appearance]
-  The Bandolier seems to be a torso strap-on made with a sky-blue fabric. Within the bandolier contains the following colas; from left to right being: [Cold Cola](items/cold-cola), [Bad Cola](items/bad-cola), [Hot Cola](items/hot-cola), and [Cramped Cola](items/cramped-cola). 
+  The Bandolier seems to be a torso strap-on made with a sky-blue fabric. Within the bandolier contains the following colas; from left to right being: [Cold Cola](cold-cola), [Bad Cola](bad-cola), [Hot Cola](hot-cola), and [Cramped Cola](cramped-cola). 
   \n\n
   The cola texture themselves also seem to be in much lower resolution and scale than their official game counterparts.
   \n\n
