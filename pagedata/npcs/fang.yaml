@@ -137,7 +137,85 @@ content: |-
           - You: "Wait- why are you even checking him? You aren't friends with this guy." (Stranger-Exclusive)
           - You: "Aside from that though, he's a friend of yours so, he probably has his interests in mind." (Friend-Exclusive)
         - hg[Option 4]: [Leave.]
-
+    - hg[Option 2]: Let's Talk!
+      - [Variant 1]: "Sure!"
+      - [Variant 2]: "Why not?"
+      - [Variant 3]: "Anything on your mind?" (Stranger-Exclusive)
+      - [Variant 4]: "Anything on your mind, friend?" (Friend-Exclusive)
+        - hg[Option 1]: About you...
+          - "What about me?"
+            - hg[Option 1]: Are you (actually) a werewolf?
+              - "Well, yeah. Got bit with some sort of strain that prevents me from ever being a human again, but..."
+              - "I think it's better off I leave that past behind."
+                - hg[Option 1]: What happened to you when you were a human? 
+                  - "Private details, I think it's better you don't know."
+                    - hg[Ouch, alright.]
+                      - "Thanks."
+                - hg[Option 2]: How's being a werewolf holding up for you? 
+                  - "Honestly not as bad as I thought. The only problem is fitting in small places and needin' to eat a steak more."
+                  - "Plus, there's also the strength, regeneration, and more, it's quite awesome I'd say!"
+                    - hg[Are you weak to silver?]
+                      - "Ouch, yeah… It doesn't sting me… but it just prevents me from healing it quickly."
+                      - "I still have to spend on medical supplies in those cases..."
+            - hg[Option 2]: What happened to you and those statues?
+              - "All I remember was being on that bus one day until I got teleported into this snazzy podium back during... Christmas?"
+              - "I stared around and noticed how everyone looked like they weren't even there. It was scary to say the least."
+              - "Didn't help that there was always music playing and looping. It was nice for the first hour but became sort of annoying."
+              - "It was only until like eight hours had gone by did I kick whatever field was preventing me from leaving, let alone making me stay stagnant like a statue, and found a ticket outta there."
+              - "...It was a puddle, I was trying to run onto the button but slipped and got knocked out."
+              - "Next thing I knew? I was out on the road. Free from that bus but had nowhere to go. It's at least a start."
+                - hg[Option 1]: How did you become a host? (Activates a condition for a hidden option.)
+                  - "Oh, that?"
+                  - "Yeah, some guy I think who went by the name of Pear led me into this… building thing and I had to record lines for this new application he was working on. That's where I also met Zeon and a few others!"
+                  - "It was sort of an office in a way, which was why my lines were as if I was actually there. Well, until Pear called it a day and sent everyone back to their homes, except I, since I had nowhere to go."
+                  - "As I was walking my way down within the nearest town I could find though, I found a flyer for some worker in a library, and that's where I am now!"
+                    - hg[Option 1]: Have you found a home yet or..?
+                      - "Found one. Got enough funds to rent an apartment so I actually have a place to live now."
+                      - "The economy there is surprisingly way better than the one I had in my human life so, honestly? Not all that bad. That and I get a talking mini-me on my phone."
+                    - hg[Option 2]: My brain hurts. 
+                      - "Pfft, take all the time you need to digest that."
+                - hg[Option 2]: Oh, alright.
+            - hg[Option 3]: Zeon told me to say hi to you. (If the player has talked to Zeon in the [Cafe](cafe) and recieved the black wolf dialogue)
+              - "Oh, her! Well, I'll be damned!"
+              - "Glad to know she's doing fine on her end, if you ever see her, tell her I said hello, alright?"
+        - hg[Option 2]: About this library...
+          - "What about it?"
+            - hg[Option 1]: Why are there only two skillbooks?
+              - "Oh that? Well..."
+              - "Honestly, the manager told me they needed something to fill that empty bookshelf outside of supplies since ''the other store 1k studs from here has them''. So I found this Flying Skillbook thing from Disc over at a cafe."
+              - "Surprisingly, it's a pretty dang good seller all this considered, so I wrote my own too!"
+              - "I'll see if i can find some more, but for now it's just those two."
+            - hg[Option 2]: Why is the Flying Skillbook more expensive?
+              - "Expensive? That's its base price."
+              - "Oh wait- unless you specifically mean the ones at GOATed Gas, then yeah, it's cheaper there."
+                - hg[Option 1]: Why is that?
+                  - "Something about regional pricing, the products over there are surprisingly cheaper as a result than over here."
+                - hg[Option 2]: Dang.
+            - hg[Option 3]: Where's the bathroom?
+              - "Somewhere in the plaza. The door next to me just leads into the storage of this library."
+            - hg[Option 4]: What's that laptop doing there?
+              - "Oh, that's from a patreon of mine. Just don't touch whatever they're doing and you should be fine."
+                - hg[Option 1]: Ah, okay.
+                - hg[Option 2]: What if I do?
+                  - "..."
+                    - hg[...Okay then, no touching.]
+            - hg[Option 5]: Where's the more... normal books?
+              - "Oh those? Unfortunately they're apparently not considered ''bestsellers'' in recent times. They were once the bomb many years ago though!"
+              - "Well, not like I'd know. I wasn't there during those times."
+          - hg[Option 3]: About the bus...
+            - "Oh wait, you mean *that* bus? What about that?"
+              - hg[Option 1]: Didn't you write a wiki about it?
+                - "Yup, I did. Took a good while, especially since it was also a collaborative effort all around including Zeon, Wesker, and a few others, but we finished it!"
+                - "That also meant I was once a passenger like you before, until I got sent into that art gallery thing."
+                - "How do I know you're a passenger? Well, I think it's pretty obvious *who* you're playing as, am I correct?"
+                  - hg[Uhm-]
+                    - "Pfft! Just your facial and body expressions tell me you aren't the regular folk who'd take the time to sit down and read some random book."
+                    - "If I were to suggest to you though, those skillbooks definitely will be of interest to you guys, so I hope I can do my part by helping the rest of y'all, both wiki and literally."
+              - hg[Option 2]: Found any way to escape?
+                - "..."
+                - "..." 
+                - "Honestly, it's sort of just a wild guess. But so long as you contribute to this world and befriend folks like I, then maybe through some sliver of luck, you might end up being free like I, but even then that's debatable."
+                - "In the meantime though... Let me know how your journey goes. I'd still be down to document whatever strange new discoveries lie within that still!"
   ###[Drink Responses]
   - If you give Fang the wrong drink:
     - "Oh, a drink? Thank you!"
