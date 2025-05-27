@@ -1,7 +1,7 @@
 editable: true
 page:
   title: Tomato
-  description: The Tomato is a consumable throwing item obtained from on top of a bench next to the entrance of Sparkplug Cafe.
+  description: The Tomato is a consumable throwing item obtained from on top of a bench next to the entrance of Sparkplug Cafe. If you instead press Q, you will instead eat the tomato, restoring up to 20 effective health.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
 
@@ -22,5 +22,7 @@ content: |
   The Tomato is a consumable throwing item obtained from on top of a bench next to the entrance of [Sparkplug Cafe](cafe).
   \n\n 
   When used, you throw the tomato within an arc in the direction of your cursor, splattering whatever and whoever it collides with. It also possesses a stronger force in throwing compared to other throwables like the [UV Glowstick](uv-glowstick).
+  \n\n 
+  If you instead press Q, you will instead eat the tomato, restoring up to 20 effective health.
 
   !!GALLERY [/assets/bussim/images/items/tomato.webp]
