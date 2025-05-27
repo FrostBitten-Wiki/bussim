@@ -33,7 +33,7 @@ content: |-
   He also has a small tuft off of his hair, using an adjusted black side hair tuft, a broken spiked collar, and black neck fur.
 
   ##[Favourite Drink]
-  Fang's favourite drink is the [Blueberry Milkshake](cafe-coffee-recipes). This gives you either 3 Passenger Rep or Driver Rep and 210 Coins.
+  Fang's favourite drink is the [Vanilla Iced Coffee](cafe-coffee-recipes). This gives you either 3 Passenger Rep or Driver Rep and 210 Coins.
 
   ##[Dialogue]
   - hg[Variant 1]: "Hm? Oh, hey there."
@@ -108,30 +108,30 @@ content: |-
             - If the player hasn't been given coffee yet within the same event: 
               - You: "You recieved a <random safe coffee drink>."
                 - "It gets a bit boring working here, so it's always nice to brew up a coffee here and there!"
-                - The player then recieves a random safe coffee drink. 
+                - (The player then recieves a random safe coffee drink.)
             - If the player already has been given coffee within the same event: 
               - "Ah... I wish I could give you another but I'd rather not risk accidentally making a mess 'round here."
               - "Maybe next time though!"
             - If the player is [Zeon](zeon) in question: 
               - You: "You recieved a Strawberry Smoothie."
                 - " I couldn't find ya some bananas unfortunately, but I'll let you know if I can find 'em!"
-                - The player recieves a Strawberry Smoothie. 
+                - (The player recieves a Strawberry Smoothie.)
             - If the player is [D6](d6) in question:
               - You: "You recieved The Sludge."
                 - "Not the most aromatic drink personally, but here you go!"
-                - The player recieves The Sludge. 
+                - (The player recieves The Sludge.)
             - If the player is [Disc](disc) in question: 
               - You: "You recieved a Vanilla Iced Coffee." 
                 - "Here you go pal! Hope your gas station thing has been going well for you!"
-                - The player recieves a Vanilla Iced Coffee. 
+                - (The player recieves a Vanilla Iced Coffee.)
             - If the player is [NobleReign](noble) in question:
               - You: "You recieved The Blizzard."
                 - "Here, have a cold one specifically for you!"
-                - The player recieves The Blizzard.
+                - (The player recieves The Blizzard.)
             - If the player is [MLG](mlg) in question: 
               - You: "You recieved a Pumpkin Spice Mocha."
                 - "It might not be better than the ones at the Sparkplug Cafe you work at, but it still hits the same tones!"
-                - The player recieves a Pumpkin Spice Mocha. 
+                - (The player recieves a Pumpkin Spice Mocha.)
         - hg[Option 3]: [Check.]
           - You: "Fang definitely seems to be a lot more reasonable than the stories that represented them, although it is still strange seeing them work in a more... menial task if anything."
           - You: "Wait- why are you even checking him? You aren't friends with this guy." (Stranger-Exclusive)
@@ -155,7 +155,7 @@ content: |-
                   - "Honestly not as bad as I thought. The only problem is fitting in small places and needin' to eat a steak more."
                   - "Plus, there's also the strength, regeneration, and more, it's quite awesome I'd say!"
                     - hg[Are you weak to silver?]
-                      - "Ouch, yeah… It doesn't sting me… but it just prevents me from healing it quickly."
+                      - "Ouch, yeah... It doesn't sting me... but it just prevents me from healing it quickly."
                       - "I still have to spend on medical supplies in those cases..."
             - hg[Option 2]: What happened to you and those statues?
               - "All I remember was being on that bus one day until I got teleported into this snazzy podium back during... Christmas?"
@@ -166,7 +166,7 @@ content: |-
               - "Next thing I knew? I was out on the road. Free from that bus but had nowhere to go. It's at least a start."
                 - hg[Option 1]: How did you become a host? (Activates a condition for a hidden option.)
                   - "Oh, that?"
-                  - "Yeah, some guy I think who went by the name of Pear led me into this… building thing and I had to record lines for this new application he was working on. That's where I also met Zeon and a few others!"
+                  - "Yeah, some guy I think who went by the name of Pear led me into this... building thing and I had to record lines for this new application he was working on. That's where I also met Zeon and a few others!"
                   - "It was sort of an office in a way, which was why my lines were as if I was actually there. Well, until Pear called it a day and sent everyone back to their homes, except I, since I had nowhere to go."
                   - "As I was walking my way down within the nearest town I could find though, I found a flyer for some worker in a library, and that's where I am now!"
                     - hg[Option 1]: Have you found a home yet or..?
@@ -217,8 +217,10 @@ content: |-
                 - "Honestly, it's sort of just a wild guess. But so long as you contribute to this world and befriend folks like I, then maybe through some sliver of luck, you might end up being free like I, but even then that's debatable."
                 - "In the meantime though... Let me know how your journey goes. I'd still be down to document whatever strange new discoveries lie within that still!"
   ###[Drink Responses]
-  - If you give Fang the wrong drink:
+  - If you give Fang the wrong (safe) drink:
     - "Oh, a drink? Thank you!"
+  - If you give Fang the wrong (dangerous) drink:
+    - "Uh... no thanks."
   - If you give Fang <clr:#151812>(***The Sludge.***):
     - "Oh a drink? Thank you!"
     - "..."
@@ -228,15 +230,33 @@ content: |-
         - "Well duh, had my super-regen kick in full time there!"
         - "You really thought I'd fall following the other two didn't you?"
         - "Well, it's alright. Tasted oddly like Bloxy Cola if anything."
-  - If you give Fang <clr:#000099>(***Blueberry Milkshake***):
-    - "Is that a blueberry milkshake?"
-    - "..." 
-    - "Yep! It definitely is, has been a good while since I last tried it. Thanks a lot!"
-      - If you given him another <clr:#000099>(***Blueberry Milkshake***):
-        - "Oh, another one? Really?"
-        - "Nah, I'm just kidding. Thanks a bunch again!"
-      
+  - If you give Fang <clr:#FFFAF5>(***Vanilla Iced Coffee***):
+    - "Hey! Vanilla iced coffee! Thanks!"
+    - "No idea where you learned what's my favorite drink but, thanks!"
+    - <clr:#555555>("*It's either that wiki of yours or you thought I was goat guy, huh? Well, not that I mind, heh.")
+      - If you give him another <clr:#FFFAF5>(***Vanilla Iced Coffee***):
+        - "Another one, huh?"
+        - "Nice."
+
+  ###[AFK Responses]
+  - [Variant 1]: "Hello? You seem kind of tranced there for a moment."
+  - [Variant 2]: "Pfft, documenting something on the wiki perhaps? You don't need to, you know."
+  - [Variant 3]: "Say hi to the Philippines for me"
+  - [Variant 4]: "And there goes another poor soul..."
+
+  ###[Airhorn Responses]
+  - If the airhorn is used repeatedly in close proximity to Fang: 
+    - "Oww... forgot they exist..."
+    - "Don't forget that this is still a library!"
+  - If the airhorn is used repeatedly in proximity to Fang a second time:
+    - "Awh man... are you trying to get a reaction out of me?"
+    - "Fine, I will warn you though, third strike isn't pretty."
+  - If the airhorn is used repeatedly in proximity to Fang a third time and so on:
+    - "Well, I guess you did ask for it..."
+      - The player's head is then selected using [Edit](edit) and is promptly deleted, killing the player.
+  
   ##[Trivia] 
+  - Fang canonically knows a large extent towards the game, still retaining his role as the main wiki manager.
   - he is the woofer.
 
   <script>randomDialogueEvent(true, "fang003")</script>

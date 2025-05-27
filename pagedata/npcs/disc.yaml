@@ -29,7 +29,7 @@ content: |-
   Disc is a white goat wearing a Day Light Top Hat, Floating White Crown, Blue Reflective Visor Glasses, Golden Antlers of Honor, and a custom made Discord-branded shirt.
 
   ##[Favourite Drink]
-  Disc's favourite drink is [Vanilla Iced Coffee](cafecoffee-recipes). This gives you 140 Coins and either 2 Passenger Rep or 2 Driver Rep and 140 Coins, however this may only be done at the Goat Station event.
+  Disc's favourite drink is [Vanilla Iced Coffee](cafe-coffee-recipes). This gives you 140 Coins and either 2 Passenger Rep or 2 Driver Rep and 140 Coins, however this may only be done at the Goat Station event.
 
   ##[Dialogue]
   !!DLEMULATOR EID:"discemulator" SID:"start" URL:"/assets/bussim/emulatorData/disc.json"
@@ -215,19 +215,18 @@ content: |-
     - "Oh hello! Do I smell Vanilla Iced Coffee?"
     - "Just in time, I'm still a bit sleepy from yesterday's all-nighter..."
     - "Thank you!! Baaa! You can have some of the coins in the cash register as payment!!"
-      - If you given him another <clr:#FFFAF5>(***Vanilla Iced Coffee***):
+      - If you give him another <clr:#FFFAF5>(***Vanilla Iced Coffee***):
         - "Oh hello! Do I smell Vanilla Iced Coffee?"
         - "Just in time, I'm still a bit sleepy from yesterday's all-nighter..."
         - "Thank you!! Baaa! You can have some of the coins in the cash register as payment!!"
 
-  ###[AFK-Related Dialogue]
-  - If the player has been idle for too long
-    - "Guess we're starting a staring contest.."
+  ###[AFK Responses]
+  - "Guess we're starting a staring contest.."
 
-  ###[Airhorn-Related Dialogue]
-  - If the airhorn is used repeatedly in close proximity to Disc
+  ###[Airhorn Responses]
+  - If the airhorn is used repeatedly in close proximity to Disc:
     - "Owwwww... That's not very nice, you knowww..."
-  - If the airhorn is used repeatedly in proximity to Disc for a second time and so on
+  - If the airhorn is used repeatedly in proximity to Disc for a second time and so on:
     - "Why are you so meaannnn??? baaaaa???! :'("
 
 

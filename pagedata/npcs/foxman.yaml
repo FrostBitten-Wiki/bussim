@@ -64,15 +64,21 @@ content: |
     - hg[Variant 2]: "Oh? What's this? Free for lil ole' me, eh? Well, thank ya kindly!"
   - If you give Foxman <clr:#151812>(***The Sludge.***):
     - "..."
-      - Foxman's head then explodes.
+      - (Foxman's head then explodes.)
   - If you give Foxman <clr:#FFFAAD>(***Apple Juice***):
     - "Apple juice? How'd ya know? Apple is my favorite!"
-      - If you given him another <clr:#FFFAAD>(***Apple Juice***):
+      - If you give him another <clr:#FFFAAD>(***Apple Juice***):
         - "Apple juice? How'd ya know? Apple is my favorite!" [Variant 1]
         - "Ya know, I like apples more than any other fruit... Sure it's basic, but I appreciate the simple flavors..." [Variant 2]
   
+  ###[AFK Responses]
+  - "Um... You there?"
+  - "Somebody leave the lights on up there?"
+  - "Whatever..."
+  - "Like are you in there..?"
+
   ###[Airhorn Responses]
-  - If the airhorn is used repeatedly in proximity to Foxman :
+  - If the airhorn is used repeatedly in proximity to Foxman:
      - "Ow... You're gonna have not to do that..."
   - If the airhorn is used repeatedly in proximity to Foxman a second time:
     - "Ack! Cut it dork, dork!"
@@ -80,11 +86,7 @@ content: |
     - "That's it! Try honkin' at me now!"
       - (The player's arms are removed from the body.)
 
-  ###[AFK Responses]
-  - "Um... You there?"
-  - "Somebody leave the lights on up there?"
-  - "Whatever..."
-  - "Like are you in there..?"
+  
 
   ##[Trivia]
   - He is one of the only few people who can actually die if fed the [Sludge](cafe-coffee). Having his head explode after consuming it.
