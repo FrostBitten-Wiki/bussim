@@ -219,6 +219,7 @@ content: |-
   ###[Drink Responses]
   - If you give Fang the wrong (safe) drink:
     - "Oh, a drink? Thank you!"
+    - (The drink is then taken away from the player.)
   - If you give Fang the wrong (dangerous) drink:
     - "Uh... no thanks."
   - If you give Fang <clr:#151812>(***The Sludge.***):
