@@ -233,7 +233,7 @@ content: |-
   - If you give Fang <clr:#FFFAF5>(***Vanilla Iced Coffee***):
     - "Hey! Vanilla iced coffee! Thanks!"
     - "No idea where you learned what's my favorite drink but, thanks!"
-    - <clr:#555555>("*It's either that wiki of yours or you thought I was goat guy, huh? Well, not that I mind, heh.")
+    - <clr:#555555>("*It's either that wiki of yours or you thought I was goat guy, huh? Well, not that I mind, heh.*")
       - If you give him another <clr:#FFFAF5>(***Vanilla Iced Coffee***):
         - "Another one, huh?"
         - "Nice."
