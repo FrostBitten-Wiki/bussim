@@ -138,10 +138,10 @@ content: |-
           - You: "Aside from that though, he's a friend of yours so, he probably has his interests in mind." (Friend-Exclusive)
         - hg[Option 4]: [Leave.]
     - hg[Option 2]: Let's Talk!
-      - [Variant 1]: "Sure!"
-      - [Variant 2]: "Why not?"
-      - [Variant 3]: "Anything on your mind?" (Stranger-Exclusive)
-      - [Variant 4]: "Anything on your mind, friend?" (Friend-Exclusive)
+      - hg[Variant 1]: "Sure!"
+      - hg[Variant 2]: "Why not?"
+      - hg[Variant 3]: "Anything on your mind?" (Stranger-Exclusive)
+      - hg[Variant 4]: "Anything on your mind, friend?" (Friend-Exclusive)
         - hg[Option 1]: About you...
           - "What about me?"
             - hg[Option 1]: Are you (actually) a werewolf?
@@ -239,10 +239,10 @@ content: |-
         - "Nice."
 
   ###[AFK Responses]
-  - [Variant 1]: "Hello? You seem kind of tranced there for a moment."
-  - [Variant 2]: "Pfft, documenting something on the wiki perhaps? You don't need to, you know."
-  - [Variant 3]: "Say hi to the Philippines for me"
-  - [Variant 4]: "And there goes another poor soul..."
+  - hg[Variant 1]: "Hello? You seem kind of tranced there for a moment."
+  - hg[Variant 2]: "Pfft, documenting something on the wiki perhaps? You don't need to, you know."
+  - hg[Variant 3]: "Say hi to the Philippines for me"
+  - hg[Variant 4]: "And there goes another poor soul..."
 
   ###[Airhorn Responses]
   - If the airhorn is used repeatedly in close proximity to Fang: 
