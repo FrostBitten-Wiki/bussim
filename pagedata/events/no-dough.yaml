@@ -136,9 +136,10 @@ content: |
     - hg[Variant 4 : Player]: "Wow, that really sucked."
 
   ##[Tips]
-  - Use the [Airhorn](airhorn) to your advantage, by using it in tight mostly areas then escaping before the [Civilians](civilian) go towards it; you'll be able to clear paths that otherwise would be extremely difficult without [Candied Cane](candied-cane). 
+  - Use the [Airhorn](airhorn) or any sound items to your advantage, by using it in tight mostly areas then escaping before the [Civilians](civilian) go towards it; you'll be able to clear paths that otherwise would be extremely difficult without [Candied Cane](candied-cane). 
     - Do note though that if you get eye-contact with an NPC that's being lured, they will immediately stop getting lured.
-  - Don't be too scared over the stealth mechanic, [Civilians](civilian) are very short-sighted and often times won't see you in less than 10 studs away, and your Alert decreases over time.
+  - Don't be too scared over the stealth mechanic, [Civilians](civilian) are very short-sighted and often times won't see you in less than 10 studs away, and your Alert decreases over time
+    - But don't overestimate them, you might get caught at the worst moments!
   - By using shift-lock on PC devices on the walls, you'll be able to see the entire layout of the house, and this can sometimes include the targetted room, displayed by a room double the height than normal.
   - If you manage to get the [Candied Cane](candied-cane), most of the event is practically trivialized as the slight boost in speed and range of attractness can make some of the toughest piles much more easier.
   
@@ -153,4 +154,13 @@ content: |
     - Thankfully however, clouds will now magically spawn as platforms in the event that it happens without any suitable ground.
   - NoDough can be considered as the longest event in the game if excluding [Broken Down](broken-down), since you can postpone entering the house until h[0:59], then postpone getting the cash until h[9:59], and postpone escaping until h[4:59], essentially getting h[15 Minutes and 57 Seconds] of event runtime, making this the longest event in the game without disregarding its intent.
 
+  ##[Technical Trivia]
+  - Using [Edit](edit), two models spawn the moment the event starts, this being the house that is used to enter called VictimHouse, and the dungeon (where the players enter and escape) being called ChristmasHouseDungeon.
+    - The latter still uses the same internal name ever since its original debut as [Santa's Gone](santas-gone), and has not been changed ever since.
+      - Similarly, the internal name for the cash room is still called TreeRoom(X). (X being the last room number to be used in the dungeon.)
+    - If one were to ungroup the entire ChristmasHouseDungeon by doing Shift + U, players will be denied from entering the dungeon when entering through the chimney. Despite this, all functions remain as they were within the dungeon, including getting the cash and escaping.
+    - Much like the [Backwalls](backwalls), No Dough starts off with a "Start" room and branches off from there, with the base (under a variety of names), starting at x: 8096, y: 24.25, and z: -2066.5.
+    - The Start and Tree room both have an internal hitbox called "IsSomeoneHere", which is the hitbox used to both gather the cash and escape. 
+      - If one were to overlap the two using [Edit](edit), then the player will both get the cash and instantly "escape" upon entering the overlap.
+    - The TreeRoom has a model called Goods which contains a bunch of parts called "dollah", that gets removed once it has been collected.
   !!GALLERY [/assets/bussim/images/events/no-dough.webp|/assets/bussim/images/events/no-dough2.webp]
