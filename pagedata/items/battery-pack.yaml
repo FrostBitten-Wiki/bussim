@@ -37,6 +37,7 @@ content: |
   - While the changelog says that it can support up to 16 minutes on a single charge, the [Rider](rider)'s Almanac used to mention it being 30 minutes instead. 
     - Both of these however are often invalid measurements simply because of the amount of factors involved when it comes to charging / discharging.
   - The Battery Pack has a faint humming sound when it is active, and is still audible even when unequipped.
+  - The Battery Pack weighs a tid bit heavier than the [Phone](phone-overhauled) if held within an event that forces [The Bus](the-bus) to accelerate beyond its normal speed under a [cramped state](cramped-cola).
   ##[Technical Trivia]
   - The Battery Pack, unlike the [Phone](phone-overhauled), actually can charge under the [Backwalls](backwalls)' effects. This allows players who somehow got back to [The Bus](the-bus) to still have their phone fully charged through the pack, so long as they have Airplane Mode on.
   !!GALLERY [/assets/bussim/images/items/battery-pack.webp]
