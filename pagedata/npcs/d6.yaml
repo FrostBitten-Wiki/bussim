@@ -199,6 +199,9 @@ content: |-
               - "do not allow guilt to consume you; if you recognized a flaw within yoruself, addressed it, then took the necessary steps to make a positive change, this speaks much louder volumes of your character than the mistakes you have made when you didn't know any better."
               - "you are no longer that person, so let the shame go"
                   - hg[Ok.]
+          - hg[Variant 36]:
+              - "her name is caroline. remember that"
+                  - hg[Ok.]
       - hg[Option 2]: Let's talk!
           - "what"
               - hg[Option 1]: Why are you in a dumpster?
