@@ -1,7 +1,7 @@
 editable: true
 page:
   title: Pear's Place
-  description: Pear's Place is a free external application developed by Pear Paw in
+  description: Pear's Place is a free pre-installed application developed by Pear Paw in
     Bus Simulator. The app allows you to gain Coins as a form of currency and has
     an array of various hosts and quests to choose from. It also features a totally-not
     shady shop, allowing you to purchase items that you have experienced within events
@@ -25,7 +25,7 @@ attributions:
 content: |-
   "Do you feel lost? Directionless? Like your life is going nowhere?\nMaybe you should try doing some quests!\n\n<10px>(Welcome to my place! Were you surprised to see me here? Did you think that I should've been too preoccupied with knitting to learn app development? :3)\n<10px>(Anyway, the premise is simple! I give you silly little things to do, and in return, you get COINS!!! Easy peasy~)\n<10px>(I also set up a shop for you to use those coins in, with free instant shipping!! *Don't ask how many strings I had to pull for that one...*)\n<10px>(But yeah, I think that's enough rambling... Give the app a try please! I promise it'll be worth it~!)" -"Pear Paw"
   ##[Info]
-  Pear's Place is a free external application developed by Pear Paw in Bus Simulator. The app allows you to gain Coins as a form of currency, and has an array of various hosts and quests to choose from.
+  Pear's Place is a free pre-installed application developed by Pear Paw in Bus Simulator. The app allows you to gain Coins as a form of currency, and has an array of various hosts and quests to choose from.
   \nIt also features a totally-not shady shop, allowing you to purchase items that you have experienced within events previously... with a fee, of course.
   ##[Hosts]
   "Wesker found dead in a ditch at 2:24 am, I wonder who could do such an unfortunate act?!" -"Fang"

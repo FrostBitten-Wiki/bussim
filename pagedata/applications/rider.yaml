@@ -1,7 +1,7 @@
 editable: true
 page:
   title: Rider
-  description: Rider is a free external application that tracks various things throughout
+  description: Rider is a free pre-installed application that tracks various things throughout
     your entire bus journey, from events, currently playing radio songs, current bus driver, badges, items,
     to even some of the most bizzare things you didn't anticipate would be on here.
 
@@ -24,7 +24,7 @@ attributions:
 content: |-
   "Keep track of your bus-related affairs with Rider!\nPersonal achivements, ride statistics, anything you've ever seen and experienced, all in one place.\nIf you're riding in a compatible vehicle, you can also request songs on the radio, right from your device.\n\nMay you reach your destination soon, friend." -"enlightened"
   ##[Info]
-  Rider is a free external application that tracks various things throughout your entire bus journey, from events, currently playing radio songs, current bus driver, badges, items, and various stats within the game. The UI will also be tinted according to your name color.
+  Rider is a free pre-installed application that tracks various things throughout your entire bus journey, from events, currently playing radio songs, current bus driver, badges, items, and various stats within the game. The UI will also be tinted according to your name color.
   \n\n
   The app is composed of 4 main sections, En Route, Badges, Statistics, and Almanac.
   ##[En Route]
