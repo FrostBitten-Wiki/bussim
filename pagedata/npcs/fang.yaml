@@ -252,9 +252,45 @@ content: |-
   - If the airhorn is used repeatedly in proximity to Fang a second time:
     - "Awh man... are you trying to get a reaction out of me?"
     - "Fine, I will warn you though, third strike isn't pretty."
-  - If the airhorn is used repeatedly in proximity to Fang a third time and so on:
+  - If the airhorn is used repeatedly in proximity to Fang a third time:
     - "Well, I guess you did ask for it..."
       - The player's head is then selected using [Edit](edit) and is promptly deleted, killing the player.
+  - If the airhorn is used repeatedly in proximity to Fang a fourth time and so on:
+    - "Again? Well, I suppose it seems like nothing is going to get through that skull of yours, huh?"
+    - "But it's fine honestly, I could keep going like this on and on, but I know at some point you're going to stop using that airhorn."
+    - "Now I could just go ahead and turn off my Tools volume through my Audio settings, but that would end up making me lose Airpods privileges, and I spent a hefty lot on that."
+    - "Well, a hefty lot, more like, not actually a lot."
+    - "In fact, there's a lot of stuff I've bought that is heaps more expensive than two pieces of electronics bundled as one, but I'm pretty sure you get the idea."
+    - "Still though, that Airhorn of yours? Honestly isn't the worst thing you can do to someone."
+    - "That horn back from that bus over there will annoy a lot of people, mainly because they forgot they can turn off their Environment audio settings, or queuing up hundreds of songs, often being the most ear-jarring ones you thought wouldn't be bad."
+    - "In fact, it pisses me off whenever someone queues up a bunch of that one song between a dad and a son, it's gotten to the point where I **actively** avoid that song outside of that bus! That's how bad it is!"
+    - "Now I know that they'd be usually spending a month's worth of their songs on just one session, but come on! The more you do that stuff the more I appreciate the specifically-curated tracks from MEME RADIO, and it's outside of biases like my friends being the ones handling the intermissions!"
+    - "Like I know you don't have many options, but **for** goodness **sake**, just have some variety."
+    - "Speaking of variety, there's been a lot of songs that I've been listening to outside of MEME RADIO, and honestly? I wasn't expecting to come back to those types of songs."
+    - "Like one of them was about uh, eating people, while the other is about rotting for popularity... yeah- I know these aren't really songs with good messages, but they still are personally some of my favorites."
+    -  "Anyways, going back..."
+    - "I suppose you weren't really expecting me to go on a long tirade the moment you attempted to pull out another one on me, right?"
+    - "In fact, I don't even think you have any choice of the matter, you're stuck in this very spot until either I'm done talking or you reset."
+    - "But I'm not like that fox that used to go rampage on people like you on that bus, no, I won't just simply type ‘'blah blah blah'' and be done with it. You know why?"
+    - "It's because you made me talk about something interesting. That's all."
+    - "Oh, and if you were wondering, don't expect the stuff I say here to be actually canon. I'm just trying to avoid having to place meta-stuff onto that loremap that I made. I made this character so, I guess I also get to decide if it's canon or not."
+    - "Specifically this though, all the other dialogue outside of this? They're all canon. Well, not like it's worth trying to bother taking not-serious lore seriously."
+    - "In fact, the last time I tried to make a loremap, my head got all woozy because it turned out that Fang from Pear's Place canonically knows everyone and everything! Because he works for the wiki!"
+    - "And then there's also the fact that nobody but Zeon and Guby (hey Zeon! :3) even knows that I exist when you talk to them yourself! It's a mess of a mess that I accidentally made but it isn't supposed to be my problem because the lore from the beginning was built to be not that serious aside from a few here and there."
+    - "Honestly. I really now understand why stuff like this shouldn't be taken too seriously. But on the bright side, it at least all forms a sort of cohesive lore, no?"
+    - "When I finished that loremap, there wasn't any conflict to be seen which... honestly is sort of to be expected when people are aware of each other and stuff."
+    - "Actually, I don't even think the others but the select few not knowing Fang exists is a conflict, since they never really mention their other friends too aside from the ones involved / related."
+    - "Well, at least I solved that dilemma. But continuing off of that, it's at the very least nice seeing each NPC and event here and there contributing towards something greater, something grander, usually by accident."
+    - "And honestly? It makes me pleased to know that even if some guy were to take all of this seriously, at the very least it all makes sense."
+    - "Anyways, where was I? Oh right, it's like... your fourth or moreth strike with the Airhorn right?"
+    - "Well, I should probably get back to being in character again since I'm running out of things to say."
+    - "Don't forget, I still gotta kill you for being a disturbance. But at the very least you wasted a lot of your time reading this."
+    - "Unless you're like one of my friends though, which you aren't."  (Stranger-Exclusive)
+    - "So...ha la vista." (Stranger-Exclusive)
+      - The player's head is then selected using [Edit](edit) and is promptly deleted, killing the player.
+    - "Unless you're one of my friends though, which you are! You probably just read this to see me yap or something since you have to do something pretty specific to achieve this, so... I hope it was worth it! Which I'm sure probably did." (Friend-Exclusive)
+    - "And for that, I'm.. actually just gonna let you off scot-free! Stay safe out there, friend." (Friend-Exclusive)
+      - Fang does nothing. You're spared.
   
   ##[Trivia] 
   - Fang canonically knows a large extent towards the game, still retaining his role as the main wiki manager.
