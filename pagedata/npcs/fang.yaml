@@ -286,7 +286,7 @@ content: |-
     - "Well, I should probably get back to being in character again since I'm running out of things to say."
     - "Don't forget, I still gotta kill you for being a disturbance. But at the very least you wasted a lot of your time reading this."
     - "Unless you're like one of my friends though, which you aren't."  (Stranger-Exclusive)
-    - "So...ha la vista." (Stranger-Exclusive)
+    - "So...hasta la vista." (Stranger-Exclusive)
       - The player's head is then selected using [Edit](edit) and is promptly deleted, killing the player.
     - "Unless you're one of my friends though, which you are! You probably just read this to see me yap or something since you have to do something pretty specific to achieve this, so... I hope it was worth it! Which I'm sure probably did." (Friend-Exclusive)
     - "And for that, I'm.. actually just gonna let you off scot-free! Stay safe out there, friend." (Friend-Exclusive)
@@ -294,6 +294,7 @@ content: |-
   
   ##[Trivia] 
   - Fang canonically knows a large extent towards the game, still retaining his role as the main wiki manager.
+  - The song that he mentions about having to actively avoid in his 4th Airhorn Strike is [Plead](https://www.youtube.com/watch?v=JQfKatNaKSQ) from Forsaken.
   - he is the woofer.
 
   <script>randomDialogueEvent(true, "fang003")</script>
