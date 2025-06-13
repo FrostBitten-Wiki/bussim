@@ -159,7 +159,7 @@ content: |
     - The latter still uses the same internal name ever since its original debut as [Santa's Gone](santas-gone), and has not been changed ever since.
       - Similarly, the internal name for the cash room is still called TreeRoom(X). (X being the last room number to be used in the dungeon.)
     - If one were to ungroup the entire ChristmasHouseDungeon by doing Shift + U, players will be denied from entering the dungeon when entering through the chimney. Despite this, all functions remain as they were within the dungeon, including getting the cash and escaping.
-    - Much like the [Backwalls](backwalls), No Dough starts off with a "Start" room and branches off from there, with the base (under a variety of names), starting at x: 8096, y: 24.25, and z: -2066.5.
+    - Much like the [Backwalls](backwalls), No Dough starts off with a "Start" room and branches off from there, with the base (under a variety of names), starting at x: -8096, y: 24.25, and z: -2066.5.
     - The Start and Tree room both have an internal hitbox called "IsSomeoneHere", which is the hitbox used to both gather the cash and escape. 
       - If one were to overlap the two using [Edit](edit), then the player will both get the cash and instantly "escape" upon entering the overlap.
     - The TreeRoom has a model called Goods which contains a bunch of parts called "dollah", that gets removed once it has been collected.
