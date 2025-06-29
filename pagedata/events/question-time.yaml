@@ -26,7 +26,7 @@ attributions: []
 
 content: |
   #[Info]
-  <ref id="ref1">Question Time is an event where Ectta runs up to the bus, making it stop, and asks you a question. You will get a custom chat tag based off of what you answer for 7 minutes. If you do not answer the question on time, you will get an [abstained] tag[(1)](#lref1).</ref>
+  <ref id="ref1">Question Time is an event where Ectta runs up to the bus, making it stop, and asks you a question. You will get a custom chat tag based off of what you answer for 7 minutes. If you do not answer the question on time, you will get an [abstained] tag.[(1)](#lref1)</ref>[(2)](#2ref2)</ref>
   \n\n
   After the question has expired for everyone; answered or not, Ectta will then walk onto the sidewalk and dance as the bus moves onwards, ending the event.
   \n\n
@@ -91,5 +91,6 @@ content: |
 
   ##[References]
   - <ref id="lref1">[An exception is made in the 40th variation, where you instead get the patient tag for abstaining.](#ref1)</ref>
+  - <ref id="2ref2">[Another exception is made in the 34th variation, where you instead get the crumbled tag for abstaining.](#ref2)</ref>
 
   !!GALLERY [/assets/bussim/images/events/questiontime.webp|/assets/bussim/images/banners/question-time-banner.webp]
