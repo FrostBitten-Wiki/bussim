@@ -29,7 +29,7 @@ content: |-
   \n\n
   When you find one, you have to pour the kernels into the machine by clicking on it, and then wait two minutes for the machine to stop making noise, which indicates that it's done. Click on it again, and you'll receive the Popcorn Bucket. Now, you have to escape with it to receive the item permanently.
   \n\n
-  You can also try to used a cursed popcorn machine too, but it may have some [**serious implications**](daryl), nonetheless you can interact with it once it's done to receive your popcorn. 
+  You can also try to used a cursed popcorn machine too (Popcorn machines that are rusted in its corners and have broken lights in the lettering are considered Cursed), but it may have some [**serious implications**](daryl), nonetheless you can interact with it once it's done to receive your popcorn. 
   \n\n 
   To eat the popcorn, simply click, tap, or press RT/R2 on console and it'll restore your health by a small but rapid margin (+10 HP). And to throw, press Q or X/Square on console and attempting to throw it at someone will heal them drastically (+15 HP), allowing it to be an effective (and only) cooperative healing item in the game. 
   \n\n 
@@ -39,4 +39,4 @@ content: |-
   ##[Technical Trivia]
   - The popcorn is actually buttered, as hinted in the internal parts of the Popcorn Maker in the Backwalls, with the part name being: "itcomeswithbutter".
 
-  !!GALLERY [/assets/bussim/images/items/popcorn-bucket.webp]
+  !!GALLERY [/assets/bussim/images/items/popcorn-bucket.webp|/assets/bussim/images/events/backwalls/popcorn-machine-safe.webp|/assets/bussim/images/events/backwalls/popcorn-machine-cursed.webp]
