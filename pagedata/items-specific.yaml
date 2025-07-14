@@ -25,7 +25,7 @@ attributions: []
 content: |
   !!BUTTONS [Items (Main Categories),location.href='items'|<highlight>Items (Subcategories)</highlight>,location.href='']
   !!INFOBOX TITLE:"Event Permanent-Obtainable Items" COLOR:"#bbff34" TEXT:"The following items are obtainable as of currently, but will be unavailable soon, get them while you can!"
-  !!LISTITEM IMAGE:"/bussim-assets/images/items/iou-note.webp" TITLE:"I-O-U" DESCRIPTION:"The I-O-U note (or simply called I-O-U within the inventory) is a permanent placeholder item, added to celebrate Bus Simulator's 7th Birthday. Its appearance is a simple note with the text being randomized by a list." REDIRECT:"iou-note"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/iou-note.webp" TITLE:"I-O-U (👁️‍🗨️)" DESCRIPTION:"The I-O-U note (or simply called I-O-U within the inventory) is a permanent placeholder item, added to celebrate Bus Simulator's 7th Birthday. Its appearance is a simple note with the text being randomized by a list." REDIRECT:"iou-note"
 
   !!INFOBOX TITLE:"Obtainable Items" COLOR:"#eb4034" TEXT:"The following items are obtainable at any point of the game."
   !!INFOBOX TITLE:"Temporary Items" COLOR:"#bde958" TEXT:"The following items are only temporary and will be lost when respawning or rejoining."

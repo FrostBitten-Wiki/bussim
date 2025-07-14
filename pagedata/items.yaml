@@ -25,7 +25,7 @@ attributions: []
 content: |
   !!BUTTONS [<highlight>Items (Main Categories)</highlight>,location.href=''|Items (Subcategories),location.href='items-specific']
   !!INFOBOX TITLE:"Event Obtainable Items" COLOR:"#bbff34" TEXT:"The following items are obtainable as of currently, but will be unavailable soon, get them while you can!"
-  !!LISTITEM IMAGE:"/bussim-assets/images/items/iou-note.webp" TITLE:"I-O-U" DESCRIPTION:"The I-O-U note (or simply called I-O-U within the inventory) is a permanent placeholder item, added to celebrate Bus Simulator's 7th Birthday. Its appearance is a simple note with the text being randomized by a list." REDIRECT:"iou-note"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/iou-note.webp" TITLE:"I-O-U (👁️‍🗨️)" DESCRIPTION:"The I-O-U note (or simply called I-O-U within the inventory) is a permanent placeholder item, added to celebrate Bus Simulator's 7th Birthday. Its appearance is a simple note with the text being randomized by a list." REDIRECT:"iou-note"
 
   !!INFOBOX TITLE:"Obtainable Items" COLOR:"#eb4034" TEXT:"The following items are obtainable at any point of the game."
   !!LISTITEM IMAGE:"/bussim-assets/images/items/fake-rocket-launcher.webp" TITLE:"'Rocket Launcher'" DESCRIPTION:"The Fake Rocket Launcher or now known as the 'Rocket Launcher' is an item obtained in the [Shack](shack) event or from [Pear's Place](pears-place) for <clr:#FFE669>(10 Coins) once unlocked / obtained once.\n\nWhen used, it'll shoot out a blue brick and explode the player using it." REDIRECT:"fake-rocket-launcher"
