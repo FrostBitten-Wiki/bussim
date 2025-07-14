@@ -123,9 +123,9 @@ content: |
   - 
 
   ##[History]
-  Note: The following history with ~ are approximations gathered via anecdotal evidence from the Bus Simulator Updates server, from when it was suggested and to when it was evident. Contributions relating to this is greatly appreciated!
+  hg[Note]: The following history with ~ are approximations gathered via anecdotal evidence from the Bus Simulator Updates server, from when it was suggested and to when it was evident. Contributions relating to this is greatly appreciated!
   \n
-  Addendum: Most of these dates are 1 day ahead due to timezone differences, and is best to assume it's either between those days.
+  hg[Addendum]: Most of these dates are 1 day ahead due to timezone differences, and is best to assume it's either between those days.
   \n\n
   hg[(July 18, 2018)]
   - The Bus had a simple design, featuring only a few seats, no double or third floor, and was on a single lane road.
