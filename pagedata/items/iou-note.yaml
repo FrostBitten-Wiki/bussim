@@ -1,0 +1,45 @@
+editable: True
+page:
+  title: I-O-U
+  description: The I-O-U note (or simply called I-O-U within the inventory) is a permanent placeholder item, added to celebrate Bus Simulator's 7th Birthday.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: i owe you 20 bucks
+
+  header:
+    description: |
+      Category: [Items](items)\n
+      Tags: h[Unobtainable Item, Hidden Item, Permanent, Placeholder]
+    
+    image: ""
+    imageBanner: /assets/bussim/images/items/iou-note.webp
+
+content: |
+  "the most permanent piece of paper in the game. make sure to read it!" -"I-O-U"
+  ##[Info]
+  The I-O-U note (or simply called I-O-U within the inventory) is a permanent placeholder item, added to celebrate Bus Simulator's 7th Birthday. Its appearance is a simple note with the text being randomized by a list.
+  \n
+  From June 14 to 18th 2025, spanning a total of four days, players automatically recieve the item permanently, unlike previous birthdays were it was permanent under special conditions. (Eg. Bus Birthday [Cake](bus-birthday-cake) / [Pie]](bus-birthday-pie))
+  \n\n 
+  Upon using it, the following dialogue appears:
+  - hg[Note from Noble (the developer)]: "thank you for logging in on the bus simulator birthday"
+  - hg[Note from Noble (the developer)]: "i couldn't really do anything for this year cause of a bunch of different factors. still i thought something would be better than nothing"
+  - hg[Note from Noble (the developer)]: "thank you for still playing despite that, i couldn't ever imagine that i'd be developing the game for this long"
+  - hg[Note from Noble (the developer)]: "i'm still working on a new update, although it'll be a while. i have a lot of stuff planned for it"
+  - hg[Note from Noble (the developer)]: "once that comes out, this little note should have changed into something cooler. keep an eye out for that."
+  - hg[Note from Noble (the developer)]: "thanks and i hope to see you around soon"
+    - The player then recieves 3,500 Coins.
+
+  ##[Trivia]
+  - This item is of course, a placeholder item, and will likely be replaced with something better to fit with the anniversary.
+    - But there is a chance that you will still keep the note.
+  - The note's text is different everytime the player resets / joins, the following are what's possible to have on your note:
+    - "lazy developer??>"
+    - "patience is key"
+    - "this will be something cooler later"
+    - "my bad"
+    - "happy birthday???"
+    - "i-o-u"
+
+  !!GALLERY [/assets/bussim/images/items/iou-note.webp]
