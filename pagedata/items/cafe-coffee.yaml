@@ -1,7 +1,8 @@
-editable: True
+editable: true
 page:
   title: Coffee (Cafe)
-  description: This page is about the various types of coffee and ingredients you can make and use during the Cafe event.
+  description: This page is about the various types of coffee and ingredients you
+    can make and use during the Cafe event.
 
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, cafe
 
@@ -12,135 +13,135 @@ page:
     description: |
       Category: [Items](items)\n
       Tags: h[Obtainable Item, Temporary, Wildcard Consumable, Pairable Item]
-    image: "/bussim-assets/images/items/cafecoffee.webp"
+    image: /bussim-assets/images/items/cafecoffee.webp
     imageBanner: /assets/bussim/images/items/cafecoffee.webp
-    
+
 attributions:
   - Created by FangedWerewolf (@noobbiom)
 
-content: |
- "A barista's empty canvas." -"Empty Cup"
- ##[Info]
- The Coffee from the [Cafe](cafe) Event is a customizable drink used with ingredients given to the player at any moment when interacting with the Coffee Machine, and is used to either give to NPCs or to drink from.
- \n\n
- When making one, the player will go into a focus-mode state, being able to pick any ingredients and measure them out carefully. Recipes are also provided on the left, with all of the specific ingredients needed to make a drink.
- \n\n
- While you do not need to be extremely accurate, as long as you have the appropriate ingredients; it'll blend into the drink that you want. 
- \n\n 
- You can also carry the drinks into the [Backwalls](backwalls), and the amount of usage depends entirely on how useful it can be within the [Backwalls](backwalls).
- ##[Controls]
- ###[__Desktop / PC__]
- For Desktop / PC, making drinks only uses the keyboard. The keys are as follows:
- | Controls | Keys | Description |
- |----------|------|-------------|
- |Category Select|W / S|Allows you to shift between the previous and next category of ingredients.|
- |Ingredient Select|A / D|Allows you to select between the previous and next ingredient within the same category.|
- |Dispense|Space|Dispenses the ingredient. Holding it down will repeat this action until it is released.\n\nYou can also do short bursts for more precise dispensing.|
- |Try Again / Cancel|L|Allows you to clear all of the ingredients within a cup, perferrably if you wanted to restart or to reset over a softlock.\n\nPressing it again while the cup is empty will manually end Focus Mode.|
- |Finish|Enter|Finishes the drink you have made, assuming it's valid for a recipe. Automatically ends Focus Mode after blending.|
- |Recipes Toggle|R|Toggles the recipe sidebar.|
- ###[__Mobile__]
- Unlike Desktop, Mobile has buttons you can click on the bottom to do various actions, and requires you to finger-swipe within the ingredients UI in order to select categories and ingredients. 
- | Controls | Actions | Description |
- |----------|------|-------------|
- |Category Select|Up-Swipe / Down-Swipe|Allows you to shift between the previous and next category of ingredients.|
- |Ingredient Select|Left-Swipe / Right-Swipe|Allows you to select between the previous and next ingredient within the same category.|
- |Dispense|Button|Dispenses the ingredient. Holding it down will repeat this action until it is released.\n\nYou can also do short bursts for more precise dispensing.|
- |Try Again|Button|Allows you to clear all of the ingredients within a cup, perferrably if you wanted to restart or to reset over a softlock.|
- |Cancel|Button|Allows you to manually end Focus Mode.|
- |Finish|Button|Finishes the drink you have made, assuming it's valid for a recipe. Automatically ends Focus Mode after blending.|
- |Recipes Toggle|Button|Toggles the recipe sidebar.|
- ###[__Console__]
- Lastly, Console uses buttons around the controller when making drinks. The following buttons are as follows:
- | Controls | Buttons | Description |
- |----------|------|-------------|
- |Category Select|D-Pad Up / D-Pad Down|Allows you to shift between the previous and next category of ingredients.|
- |Ingredient Select|D-Pad Left / D-Pad Right|Allows you to select between the previous and next ingredient within the same category.|
- |Dispense|Square / X|Dispenses the ingredient. Holding it down will repeat this action until it is released.\n\nYou can also do short bursts for more precise dispensing.|
- |Try Again / Cancel|Circle / B|Allows you to clear all of the ingredients within a cup, perferrably if you wanted to restart or to reset over a softlock.\n\nPressing it again while the cup is empty will manually end Focus Mode.|
- |Finish|Triangle / Y|Finishes the drink you have made, assuming it's valid for a recipe. Automatically ends Focus Mode after blending.|
- |Recipes Toggle|L3 / LA|Toggles the recipe sidebar.|
+content: |-
+  "A barista's empty canvas." -"Empty Cup"
+  ##[Info]
+  The Coffee from the [Cafe](cafe) Event is a customizable drink used with ingredients given to the player at any moment when interacting with the Coffee Machine, and is used to either give to NPCs or to drink from.
+  \n\n
+  When making one, the player will go into a focus-mode state, being able to pick any ingredients and measure them out carefully. Recipes are also provided on the left, with all of the specific ingredients needed to make a drink.
+  \n\n
+  While you do not need to be extremely accurate, as long as you have the appropriate ingredients; it'll blend into the drink that you want. 
+  \n\n 
+  You can also carry the drinks into the [Backwalls](backwalls), and the amount of usage depends entirely on how useful it can be within the [Backwalls](backwalls).
+  ##[Controls]
+  ###[__Desktop / PC__]
+  For Desktop / PC, making drinks only uses the keyboard. The keys are as follows:
+  | Controls | Keys | Description |
+  |----------|------|-------------|
+  |Category Select|W / S|Allows you to shift between the previous and next category of ingredients.|
+  |Ingredient Select|A / D [Or scroll up/down with mouse hovered over the ingredients]|Allows you to select between the previous and next ingredient within the same category.|
+  |Dispense|Space|Dispenses the ingredient. Holding it down will repeat this action until it is released.\n\nYou can also do short bursts for more precise dispensing.|
+  |Try Again / Cancel|L|Allows you to clear all of the ingredients within a cup, perferrably if you wanted to restart or to reset over a softlock.\n\nPressing it again while the cup is empty will manually end Focus Mode.|
+  |Finish|Enter|Finishes the drink you have made, assuming it's valid for a recipe. Automatically ends Focus Mode after blending.|
+  |Recipes Toggle|R|Toggles the recipe sidebar.|
+  ###[__Mobile__]
+  Unlike Desktop, Mobile has buttons you can click on the bottom to do various actions, and requires you to finger-swipe within the ingredients UI in order to select categories and ingredients. 
+  | Controls | Actions | Description |
+  |----------|------|-------------|
+  |Category Select|Up-Swipe / Down-Swipe|Allows you to shift between the previous and next category of ingredients.|
+  |Ingredient Select|Left-Swipe / Right-Swipe|Allows you to select between the previous and next ingredient within the same category.|
+  |Dispense|Button|Dispenses the ingredient. Holding it down will repeat this action until it is released.\n\nYou can also do short bursts for more precise dispensing.|
+  |Try Again|Button|Allows you to clear all of the ingredients within a cup, perferrably if you wanted to restart or to reset over a softlock.|
+  |Cancel|Button|Allows you to manually end Focus Mode.|
+  |Finish|Button|Finishes the drink you have made, assuming it's valid for a recipe. Automatically ends Focus Mode after blending.|
+  |Recipes Toggle|Button|Toggles the recipe sidebar.|
+  ###[__Console__]
+  Lastly, Console uses buttons around the controller when making drinks. The following buttons are as follows:
+  | Controls | Buttons | Description |
+  |----------|------|-------------|
+  |Category Select|D-Pad Up / D-Pad Down|Allows you to shift between the previous and next category of ingredients.|
+  |Ingredient Select|D-Pad Left / D-Pad Right|Allows you to select between the previous and next ingredient within the same category.|
+  |Dispense|Square / X|Dispenses the ingredient. Holding it down will repeat this action until it is released.\n\nYou can also do short bursts for more precise dispensing.|
+  |Try Again / Cancel|Circle / B|Allows you to clear all of the ingredients within a cup, perferrably if you wanted to restart or to reset over a softlock.\n\nPressing it again while the cup is empty will manually end Focus Mode.|
+  |Finish|Triangle / Y|Finishes the drink you have made, assuming it's valid for a recipe. Automatically ends Focus Mode after blending.|
+  |Recipes Toggle|L3 / LA|Toggles the recipe sidebar.|
 
- !!BUTTONS [<highlight>Ingredients</highlight>,location.href=''|Recipes / Mixtures,location.href='cafe-coffee-recipes'|NPC Interactions,location.href='cafe-coffee-npcs'|Full Overview,location.href='cafe-coffee-full']
- ##[Ingredients]
- \n
- Ingredients are the main component in making coffee, with all of them boosting a stat or decreasing them. You can add as many as 32 of a solid ingredient, and 190 ml of a liquid / dry ingredient.
- Depending on the ingredients that you use will also depend on the stats that the coffee will recieve after making it. The stats are of the following:
- \n\n
- | Stats | Description | Positive Stat Effects (+) | Negative Stat Effects (-)|
- |-------|-------------|--------------------------|-------------------------|
- |Temperature|Determines how hot or cold the drink is.|Freezes you in place instantly.\n\nHolding a drink at very high Temperaturess will have mist effects around the drink. | Sets you ablaze.\n\nHolding a drink at very low Temperatures will have the drink unleash a barrage of smoke and fire from within.\n\nAlso emanates a fizzing sound.|
- |Quenchiness|Determines how fast you regenerate upon consumption.|Regenerates health quickly.\n\nHolding a drink at very high Quenchiness will have stars around it.|Drains health quickly.\n\nHolding a drink at very low Quenchiness will have purple effects falling off of it.|
- |Sweetness|Determines the cooldown between each sip.|Very fast cooldown.|Very slow cooldown.|
- |Energy|Determines the speed boost you recieve within each sip. Overconsuming this will also kill you.|Increases speed drastically.|Reduces speed significantly.|
- 
+  !!BUTTONS [<highlight>Ingredients</highlight>,location.href=''|Recipes / Mixtures,location.href='cafe-coffee-recipes'|NPC Interactions,location.href='cafe-coffee-npcs'|Full Overview,location.href='cafe-coffee-full']
+  ##[Ingredients]
+  \n
+  Ingredients are the main component in making coffee, with all of them boosting a stat or decreasing them. You can add as many as 32 of a solid ingredient, and 190 ml of a liquid / dry ingredient.
+  Depending on the ingredients that you use will also depend on the stats that the coffee will recieve after making it. The stats are of the following:
+  \n\n
+  | Stats | Description | Positive Stat Effects (+) | Negative Stat Effects (-)|
+  |-------|-------------|--------------------------|-------------------------|
+  |Temperature|Determines how hot or cold the drink is.|Freezes you in place instantly.\n\nHolding a drink at very high Temperaturess will have mist effects around the drink. | Sets you ablaze.\n\nHolding a drink at very low Temperatures will have the drink unleash a barrage of smoke and fire from within.\n\nAlso emanates a fizzing sound.|
+  |Quenchiness|Determines how fast you regenerate upon consumption.|Regenerates health quickly.\n\nHolding a drink at very high Quenchiness will have stars around it.|Drains health quickly.\n\nHolding a drink at very low Quenchiness will have purple effects falling off of it.|
+  |Sweetness|Determines the cooldown between each sip.|Very fast cooldown.|Very slow cooldown.|
+  |Energy|Determines the speed boost you recieve within each sip. Overconsuming this will also kill you.|Increases speed drastically.|Reduces speed significantly.|
 
- ###[__Sweets__]
- | Name | Class | Description | Effects | Image |
- |--------------|--------------|--------------|
- | Cookies | Solid | It's actually from a cereal, but it's close enough. | - Quenchiness\n+ Sweetness |![120x120](/bussim-assets/images/items/ingredients/cookies.webp)|
- | Honey | Liquid | Jazzy. | + Sweetness\n + Quenchiness |![120x120](/bussim-assets/images/items/ingredients/honey.webp)|
- | Marshmallows | Solid | They made sugar soft, no way! | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/marshmallows.webp)|
- | Sugar | Dry | The sweetest of crystals | ++ Sweetness|![120x120](/bussim-assets/images/items/ingredients/sugar.webp)|
- \n
 
- ###[__Syrups__]
- | Name | Class | Description | Effects | Image |
- |--------------|--------------|--------------|
- | Caramel Syrup | Liquid | Melted sugar. | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/caramel.webp)|
- | Chocolate Syrup | Liquid | Sweet, sweet chocolate. | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/chocolate.webp)|
- | Mint Syrup | Liquid |A refreshing minty flavor. | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/mint.webp)|
- | Vanilla Syrup | Liquid | A sweet vanilla flavor. | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/vanilla.webp)|
+  ###[__Sweets__]
+  | Name | Class | Description | Effects | Image |
+  |--------------|--------------|--------------|
+  | Cookies | Solid | It's actually from a cereal, but it's close enough. | - Quenchiness\n+ Sweetness |![120x120](/bussim-assets/images/items/ingredients/cookies.webp)|
+  | Honey | Liquid | Jazzy. | + Sweetness\n + Quenchiness |![120x120](/bussim-assets/images/items/ingredients/honey.webp)|
+  | Marshmallows | Solid | They made sugar soft, no way! | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/marshmallows.webp)|
+  | Sugar | Dry | The sweetest of crystals | ++ Sweetness|![120x120](/bussim-assets/images/items/ingredients/sugar.webp)|
+  \n
 
- \n 
- ###[__Water and Ice__]
- | Name | Class | Description | Effects | Image |
- |--------------|--------------|--------------|
- | Cold Water | Liquid | The polar opposite of coffee. | ++ Quenchiness\n+ Temperature|![120x120](/bussim-assets/images/items/ingredients/coldwater.webp)|
- | Dry Ice | Solid | You removed the wet from the water? | - Quenchiness\n++ Temperature|![120x120](/bussim-assets/images/items/ingredients/dryice.webp)|
- | Glowstick Fluid | Liquid | UV-enriched protogen water. Not for human consumption.\n- Only unlockable after recieving Tazer's riddle. | --- Quenchiness |![120x120](/bussim-assets/images/items/ingredients/glowstickfluid.webp)|
- | Hot Water | Liquid | Water but it hurts. | + Quenchiness\n- Temperature|![120x120](/bussim-assets/images/items/ingredients/hotwater.webp)|
- | Ice | Solid | Like water, but with a crunch. | + Quenchiness\n+ Temperature|![120x120](/bussim-assets/images/items/ingredients/ice.webp)|
+  ###[__Syrups__]
+  | Name | Class | Description | Effects | Image |
+  |--------------|--------------|--------------|
+  | Caramel Syrup | Liquid | Melted sugar. | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/caramel.webp)|
+  | Chocolate Syrup | Liquid | Sweet, sweet chocolate. | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/chocolate.webp)|
+  | Mint Syrup | Liquid |A refreshing minty flavor. | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/mint.webp)|
+  | Vanilla Syrup | Liquid | A sweet vanilla flavor. | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/vanilla.webp)|
 
- \n 
- ###[__Fruits__]
- | Name | Class | Description | Effects | Image |
- |--------------|--------------|--------------|
- | Apples | Solid | The classic crunchy tree fruit. | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/apple.webp)|
- | Dragonfruit | Solid | A dragon made this fruit? | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/dragonfruit.webp)|
- | Mangoes | Solid | Free rocks inside! | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/mango.webp)|
- | Oranges | Solid | Citrus, in usual form. | + Sweetness|![120x120](/bussim-assets/images/items/ingredients/orange.webp)|
- | Strawberries | Solid | These aren't even really berries. | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/strawberry.webp)|
+  \n 
+  ###[__Water and Ice__]
+  | Name | Class | Description | Effects | Image |
+  |--------------|--------------|--------------|
+  | Cold Water | Liquid | The polar opposite of coffee. | ++ Quenchiness\n+ Temperature|![120x120](/bussim-assets/images/items/ingredients/coldwater.webp)|
+  | Dry Ice | Solid | You removed the wet from the water? | - Quenchiness\n++ Temperature|![120x120](/bussim-assets/images/items/ingredients/dryice.webp)|
+  | Glowstick Fluid | Liquid | UV-enriched protogen water. Not for human consumption.\n- Only unlockable after recieving Tazer's riddle. | --- Quenchiness |![120x120](/bussim-assets/images/items/ingredients/glowstickfluid.webp)|
+  | Hot Water | Liquid | Water but it hurts. | + Quenchiness\n- Temperature|![120x120](/bussim-assets/images/items/ingredients/hotwater.webp)|
+  | Ice | Solid | Like water, but with a crunch. | + Quenchiness\n+ Temperature|![120x120](/bussim-assets/images/items/ingredients/ice.webp)|
 
- \n 
- ###[__Spices__]
- | Name | Class | Description | Effects | Image |
- |--------------|--------------|--------------|
- | Cinnamon | Dry | Not for use in a challenge. | -- Quenchiness|![120x120](/bussim-assets/images/items/ingredients/cinnamon.webp)|
- | Peppers | Solid | A literal chili pepper. What. | - Quenchiness\n++ Temperature|![120x120](/bussim-assets/images/items/ingredients/pepper.webp)|
- | Pumpkin Spice | Dry | Default Description | - Quenchiness|![120x120](/bussim-assets/images/items/ingredients/pumpkin.webp)|
- | Salt | Dry | Freshly sourced from the Rifts. | --- Quenchiness|![120x120](/bussim-assets/images/items/ingredients/salt.webp)|
- \n 
- ###[__Dairy__]
- | Name | Class | Description | Effects | Image |
- |--------------|--------------|--------------|
- | Almond Milk | Liquid | How'd they milk an almond? | + Quenchiness\n + Sweetness|![120x120](/bussim-assets/images/items/ingredients/almondmilk.webp)|
- | Milk | Liquid | Cow liquid | + Quenchiness\n + Sweetness|![120x120](/bussim-assets/images/items/ingredients/milk.webp)|
- | Oat Milk | Liquid | Oatmeal as a liquid? | + Quenchiness\n + Sweetness|![120x120](/bussim-assets/images/items/ingredients/oatmilk.webp)|
- | Soft Serve | Liquid | Close enough to be ice cream, close enough to a liquid.| + Quenchiness\n + Sweetness\n + Temperature|![120x120](/bussim-assets/images/items/ingredients/softserve.webp)|
- | Steamed Milk | Liquid | Smooth and creamy. | + Quenchiness\n + Sweetness\n - Temperature|![120x120](/bussim-assets/images/items/ingredients/steamedmilk.webp)|
- \n 
- ###[__Caffiene__]
- | Name | Class | Description | Effects | Image |
- |--------------|--------------|--------------|
- | Cultivator's Communion | Liquid | More milk than coffee, honestly. |+ Energy\n + Sweetness|![120x120](/bussim-assets/images/items/ingredients/cultivatorcommunion.webp)|
- | House Blend | Liquid | Gives off a hint of cocoa. |+ Energy|![120x120](/bussim-assets/images/items/ingredients/houseblend.webp)|
- | Plain Coffee | Liquid | Basic energizing liquid. |++ Energy|![120x120](/bussim-assets/images/items/ingredients/plaincoffee.webp)|
- \n 
- ##[Trivia]
- - If you drink too much caffeine, you'll end up receiving a heart attack and die on the spot, text will also appear with the caption "drink caffeine responsibly".
-   - This does not apply if you drink too much sugar.  
- - Having too much Dry ingredients within your drink can be almost fatal, as it'll always deal 99 damage and leave an audible gasp instead of the usual effects. 
-  - Originally it was going to be a way to instantly die, but it's reserved for a future ingredient.
- - Having too much Glowstick Fluid within a cup will make it glow out of the cup hole.
- - Both the Empty Cup and its drinks will cause the player's gravity to be reset back to normal under the effects of the [Cramped Cola](cramped-cola), sinking the player quickly.
+  \n 
+  ###[__Fruits__]
+  | Name | Class | Description | Effects | Image |
+  |--------------|--------------|--------------|
+  | Apples | Solid | The classic crunchy tree fruit. | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/apple.webp)|
+  | Dragonfruit | Solid | A dragon made this fruit? | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/dragonfruit.webp)|
+  | Mangoes | Solid | Free rocks inside! | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/mango.webp)|
+  | Oranges | Solid | Citrus, in usual form. | + Sweetness|![120x120](/bussim-assets/images/items/ingredients/orange.webp)|
+  | Strawberries | Solid | These aren't even really berries. | + Sweetness |![120x120](/bussim-assets/images/items/ingredients/strawberry.webp)|
+
+  \n 
+  ###[__Spices__]
+  | Name | Class | Description | Effects | Image |
+  |--------------|--------------|--------------|
+  | Cinnamon | Dry | Not for use in a challenge. | -- Quenchiness|![120x120](/bussim-assets/images/items/ingredients/cinnamon.webp)|
+  | Peppers | Solid | A literal chili pepper. What. | - Quenchiness\n++ Temperature|![120x120](/bussim-assets/images/items/ingredients/pepper.webp)|
+  | Pumpkin Spice | Dry | Default Description | - Quenchiness|![120x120](/bussim-assets/images/items/ingredients/pumpkin.webp)|
+  | Salt | Dry | Freshly sourced from the Rifts. | --- Quenchiness|![120x120](/bussim-assets/images/items/ingredients/salt.webp)|
+  \n 
+  ###[__Dairy__]
+  | Name | Class | Description | Effects | Image |
+  |--------------|--------------|--------------|
+  | Almond Milk | Liquid | How'd they milk an almond? | + Quenchiness\n + Sweetness|![120x120](/bussim-assets/images/items/ingredients/almondmilk.webp)|
+  | Milk | Liquid | Cow liquid | + Quenchiness\n + Sweetness|![120x120](/bussim-assets/images/items/ingredients/milk.webp)|
+  | Oat Milk | Liquid | Oatmeal as a liquid? | + Quenchiness\n + Sweetness|![120x120](/bussim-assets/images/items/ingredients/oatmilk.webp)|
+  | Soft Serve | Liquid | Close enough to be ice cream, close enough to a liquid.| + Quenchiness\n + Sweetness\n + Temperature|![120x120](/bussim-assets/images/items/ingredients/softserve.webp)|
+  | Steamed Milk | Liquid | Smooth and creamy. | + Quenchiness\n + Sweetness\n - Temperature|![120x120](/bussim-assets/images/items/ingredients/steamedmilk.webp)|
+  \n 
+  ###[__Caffiene__]
+  | Name | Class | Description | Effects | Image |
+  |--------------|--------------|--------------|
+  | Cultivator's Communion | Liquid | More milk than coffee, honestly. |+ Energy\n + Sweetness|![120x120](/bussim-assets/images/items/ingredients/cultivatorcommunion.webp)|
+  | House Blend | Liquid | Gives off a hint of cocoa. |+ Energy|![120x120](/bussim-assets/images/items/ingredients/houseblend.webp)|
+  | Plain Coffee | Liquid | Basic energizing liquid. |++ Energy|![120x120](/bussim-assets/images/items/ingredients/plaincoffee.webp)|
+  \n 
+  ##[Trivia]
+  - If you drink too much caffeine, you'll end up receiving a heart attack and die on the spot, text will also appear with the caption "drink caffeine responsibly".
+    - This does not apply if you drink too much sugar.  
+  - Having too much Dry ingredients within your drink can be almost fatal, as it'll always deal 99 damage and leave an audible gasp instead of the usual effects. 
+   - Originally it was going to be a way to instantly die, but it's reserved for a future ingredient.
+  - Having too much Glowstick Fluid within a cup will make it glow out of the cup hole.
+  - Both the Empty Cup and its drinks will cause the player's gravity to be reset back to normal under the effects of the [Cramped Cola](cramped-cola), sinking the player quickly.
