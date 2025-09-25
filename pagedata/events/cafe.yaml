@@ -40,6 +40,8 @@ content: |-
   At the end, depending on your team's performance, [MLG](npcs/mlg) will talk to you the results of it, from being very poor to being excellent. At the same time [Inro](npcs/lnro) fixes up [The Bus](locations/the-bus) and also pays you 120 Coins and 5-6 Passenger Reputation if you had done a good job. Soon after, the event ends following the interaction.
   \n\n
   If nobody has initiated the mini-game, the event will still end after a certain point.
+  \n\n 
+  Outside of the mini-game, the cafe's a nice place to lounge in, with reactive music to boot!
   \n\n
   ##[Coffee]
   Main Article: [Cafe Coffee](cafe-coffee)
