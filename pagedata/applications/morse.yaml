@@ -25,7 +25,7 @@ content: |-
   \n\n
   Outside of transmitting, you can acknowledge / like other people's transmits, you can even get notified about who transmits or acknowledges you through your settings! Alongside other common features, most of which are transmit features enabled as default.
   \n\n 
-  Lastly, you can check your relay status. Not much is known into the exact details in how it works, but you can disconnect and reconnect to it anytime, but it is binded to the server's job id.
+  Lastly, you can check your relay status. Not much is known into the exact details in how it works, but you can disconnect and reconnect to it anytime, but it is binded to the server's job id. It also is dependent on your cellular network, be in an area without any cell reception, and functionality is halted.
   ##[Megaphone Perks]
   Due to the shout system being the predecessor of this, those who bought the megaphone gamepasses will recieve special perks as compensation.
   \n\n 
