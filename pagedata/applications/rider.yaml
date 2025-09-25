@@ -65,6 +65,9 @@ content: |-
   | Shouts heard | Amount of shout messages you have recieved throughout your journey. |
   | Messages sent | Messages sent through the Messages app. |
   | Messages read | Messages you have read through the Messages app. |
+  | Transmitted to MORSE | Messages you transmitted through MORSE. |
+  | Acknowledged posts on MORSE | Messages you acknowledged through MORSE. |
+  | Acknowledged by others on MORSE | Messages you transmitted that were acknowledged by others through MORSE. |
   | Notifications recieved | How many notifications you have recieved in total. |
   | Screen time | You. (How much time you've spent holding your phone.) |
   | Coins earned | Total amount of coins you have earned throughout your journey. |
