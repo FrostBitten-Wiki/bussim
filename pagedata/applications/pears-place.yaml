@@ -26,7 +26,7 @@ content: |-
   "Do you feel lost? Directionless? Like your life is going nowhere?\nMaybe you should try doing some quests!\n\n<10px>(Welcome to my place! Were you surprised to see me here? Did you think that I should've been too preoccupied with knitting to learn app development? :3)\n<10px>(Anyway, the premise is simple! I give you silly little things to do, and in return, you get COINS!!! Easy peasy~)\n<10px>(I also set up a shop for you to use those coins in, with free instant shipping!! *Don't ask how many strings I had to pull for that one...*)\n<10px>(But yeah, I think that's enough rambling... Give the app a try please! I promise it'll be worth it~!)" -"Pear Paw"
   ##[Info]
   Pear's Place is a free pre-installed application developed by Pear Paw in Bus Simulator. The app allows you to gain Coins as a form of currency, and has an array of various hosts and quests to choose from.
-  \nIt also features a totally-not shady shop, allowing you to purchase items that you have experienced within events previously... with a fee, of course.
+  \nIt also features a totally-not shady shop, allowing you to purchase items that you have experienced within events previously... with a fee, of course. Comes with free music too!
   ##[Hosts]
   "Wesker found dead in a ditch at 2:24 am, I wonder who could do such an unfortunate act?!" -"Fang"
   Hosts allows you to change the person being shown in the Quests section, assuming you buy / unlock them. It also changes the theme to be associated with each of them. 
@@ -58,6 +58,8 @@ content: |-
   ##[Quests]
   "Another quest bites the dust!" -"Pear"
   The app features 4 daily quests, one of which is locked behind Premium, and gives you <clr:#FFE669>(Coins) if you complete them. Some of these range from simply sitting at your seat for a few minutes to appreciating a biome.
+  \n 
+  Depending on your (and everyone else's) quests, events and biomes related to them may occur more often in favor of them, so just sit back and relax!
   \n\n 
   The quests are as follows, do know with discretion that it can and will change! 
   | Quest | Reward | Description | Notes |

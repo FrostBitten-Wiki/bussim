@@ -1,0 +1,42 @@
+editable: true
+page:
+  title: Morse
+  description: The Morse app is a freemium app that allows you to see and transmit messages from you and other players across servers, akin to that of the now deprecated Megaphones. Viewing is free, but transmitting your own is a paid feature, one-time though, thankfully.
+
+  tags: phone, starter item, android, android nougat, is nougat a real thing?
+
+  header:
+    description: |
+      Category: [Applications](applications)\n  
+      Tags: h[Utility / Personal / Customization]
+      
+    image: ''
+    imageBanner: /assets/bussim/images/applications/caser.webp
+
+attributions:
+  - made by fang
+
+content: |-
+  "**Your interdimensional bulletin board**\n\nMORSE is a reliable text sharing application by NULLTECH designed to work within your world and beyond.\nShare your thoughts and questions across space-time, and get real-time reactions back.\nAll data is transmitted via NULLTECH's comprehensive fleet of relays, which use special networking enhancements to minimize packet loss across realities.\nDownload now for FREE to be able to view and acknowledge your favorite transmissions!\n\n**NOTE: Text-based participation requires a small fee.\nThis fee helps pay for the continued operation and maintenance of NULLTECH interdimensional Relays.*"" -"NULLTECH"
+  ##[Info]
+  The Morse app is a freemium app that allows you to see and transmit messages from you and other players across servers, akin to that of the now deprecated [Megaphones](megaphone). Viewing is free, but transmitting your own is a paid feature, one-time though, thankfully.
+  \n\n 
+  Once you're done paying the fee, you can transmit your own messages with the ability to mention other players! They can also be amplified (larger text), **bolded**, *italicized*, __underlined__, strikethrough, and creature speak, but only if you have owned a special set of long-discontinued megaphones...
+  \n\n
+  Outside of transmitting, you can acknowledge / like other people's transmits, you can even get notified about who transmits or acknowledges you through your settings! Alongside other common features, most of which are transmit features enabled as default.
+  \n\n 
+  Lastly, you can check your relay status. Not much is known into the exact details in how it works, but you can disconnect and reconnect to it anytime, but it is binded to the server's job id.
+  ##[Megaphone Perks]
+  Due to the shout system being the predecessor of this, those who bought the megaphone gamepasses will recieve special perks as compensation.
+  \n\n 
+  | Tier | Perk |
+  |------|------|
+  |[Megaphone](megaphone)|+ Free Access to MORSE's transmit\n+ Markup Access\n+ 5 Second Cooldown|
+  |[Meygaphone](meygaphone)|+ Free Access to MORSE's transmit\n+ Markup Access\n+ Creature Speak Access\n+ 3 Second Cooldown|
+  |[Megaphone EX](megaphone-EX)|+ Free Access to MORSE's transmit\n+ Markup Access\n+ Amplify Access\n+ 3 Second Cooldown|
+
+  ##[Trivia]
+  - This as mentioned, is a 1-1 recreation of the whole shout system prior to Roblox's new TextChatService and policies.
+    - The previous system had to go down due to it being potentially against Roblox's TOS, but now under a bulletin board system which doesn't use TextChatService, it's a more approvable system.
+  
+  !!GALLERY [/assets/bussim/images/applications/morse.webp|/assets/bussim/images/applications/morse/transmit-example.webp|/assets/bussim/images/applications/morse/acknowledge-example.webp|/assets/bussim/images/applications/morse/widget.webp]  

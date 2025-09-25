@@ -11,7 +11,8 @@ page:
 
   header:
     description: |
-      Biomes appear randomly after driving through a tunnel, and they don't have any relation to events most of the time, unless if a specific event forces it (i.e. Blizzard).
+      Biomes appear randomly after driving through a tunnel, and they don't have any relation to events most of the time, unless if a specific event forces it (i.e. Blizzard).\n\n
+      Biomes aren't also entirely random, as depending on what the players' [quests](pears-place) they currently have, they will greatly increase the chance of a specific biome related to them appearing.
 
     image: ''
     imageBanner: /assets/bussim/images/banners/bus-banner.webp
