@@ -36,9 +36,10 @@ content: |-
 
   ###[First-Time Dialogue]
   - This only appears when you meet Ectta for the first time ever in the [Question Time](question-time) event.
-    - "Oh, hey. I don't think I've seen you before?"
-    - "I'm Ectta, and my whole thing is that I ask you random questions or whatever. Feel free to debate amongst yourselves afterward."
-    - "Yes, I do mean debate. You get a chat tag for 7 minutes after answering the question. So yeah, time for a question."
+    - hg[Variant 1]: "Oh, hey. I don't think I've seen you before?" 
+    - hg[Variant 2]: "I see this bus has some new passengers. Hellooooo~" 
+      - "I'm Ectta, and my whole thing is that I ask you random questions or whatever. Feel free to debate amongst yourselves afterward."
+      - "Yes, I do mean debate. You get a chat tag for 7 minutes after answering the question. So yeah, time for a question."
 
   ###[Intro Dialogue]
   - hg[Variant 1]: "Do you know how I keep appearing in front of the bus? No, that wasn't me about to tell you, I literally don't know myself. Help me."
