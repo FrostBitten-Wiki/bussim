@@ -138,7 +138,7 @@ content: |-
   |![120x120](/bussim-assets/images/items/toast.webp)|[Toast](toast)|<clr:#FFE669>(10 Coins) | Cooked bread. | [Goat Station](goat-station) |
   |![120x120](/bussim-assets/images/items/uv-glowstick.webp)|[UV Glowstick](uv-glowstick)|<clr:#FFE669>(175 Coins) | Plastic stick full of UV-emitting liquid. | [Goat Station](goat-station) |
   |![120x120](/bussim-assets/images/items/void-burger.webp)|[Void Burger](void-burger)|<clr:#FFE669>(650 Coins) | Burger with a void-based patty. Makes you invisible when consumed in moderation. | [Backwalls](backwalls) |
-  ###[__Nook of Knowledge__]
+  ###[__Nook of Knowledge__] 
   "select items discovered outside of events" -"Nook of Knowledge"
   | Image | Item | Cost | Description | Origin / Requirement |
   |-------|------|------|-------------|----------------------|
