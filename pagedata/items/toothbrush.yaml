@@ -1,0 +1,31 @@
+editable: True
+page:
+  title: Toothbrush
+  description: The Toothbrush is an item within the Roleplay set, given to all players. When used, the user will automatically brush their teeth, or their mouth area of most faces. You don't have toothpaste, by the way.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: toothbrush, what the phone couldve been, item
+
+  header:
+    description: |
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Permanent, Roleplay Item]
+    
+    image: ""
+    imageBanner: /assets/bussim/images/items/toothbrush.webp
+
+attributions: 
+  - you know who
+
+content: |
+  "Dental hygiene is important, no matter where you are." -"Toothbrush"
+
+  ##[Info]
+  The Toothbrush is an item as part of the Roleplay / Filler set. Like all the other items within this set, these don't possess any practical functionality.
+  \n\n
+  When used, the user will automatically brush their teeth, or their mouth area of most faces. You don't have toothpaste, by the way.
+
+  ##[Trivia]
+  - The toothbrush was supposed to give your mouth sparkles during or after usage, but Noble didn't feel like adding it in.
+  !!GALLERY [/assets/bussim/images/items/toothbrush.webp]

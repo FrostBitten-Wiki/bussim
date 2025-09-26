@@ -1,0 +1,31 @@
+editable: True
+page:
+  title: Keys
+  description: The Keys are an item within the Roleplay set, given to all players. When used, the player will shake the keys, producing a jingling sound.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: key jingle asmr, item
+
+  header:
+    description: |
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Permanent, Roleplay Item]
+    
+    image: ""
+    imageBanner: /assets/bussim/images/items/keys.webp
+
+attributions: 
+  - you know who
+
+content: |
+  "Can't leave the house without 'em." -"Keys"
+
+  ##[Info]
+  The Keys are an item as part of the Roleplay / Filler set. Like all the other items within this set, these don't possess any practical functionality.
+  \n\n
+  When used, the player will shake the keys, producing a jingling sound.
+
+  ##[Trivia]
+  - Back before the release, the original animation of the Keys would have the player rapidly move their arm up and down to jingle it. Which was later changed.
+  !!GALLERY [/assets/bussim/images/items/keys.webp]

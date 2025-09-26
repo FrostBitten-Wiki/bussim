@@ -1,0 +1,33 @@
+editable: True
+page:
+  title: Laptop
+  description: The Laptop is an item within the Roleplay set, given to all players.  When used, the laptop will boot, but due to there being no operating system, it just instead glows. Re-using it will close the laptop.
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: laptop, what the phone couldve been, item
+
+  header:
+    description: |
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Permanent, Roleplay Item]
+    
+    image: ""
+    imageBanner: /assets/bussim/images/items/laptop.webp
+
+attributions: 
+  - you know who
+
+content: |
+  "It's missing the operating system, so all it does is glow." -"Laptop"
+
+  ##[Info]
+  The Laptop is an item as part of the Roleplay / Filler set. Like all the other items within this set, these don't possess any practical functionality.
+  \n\n
+  When used, the laptop will boot, but due to there being no operating system, it just instead glows. Re-using it will close the laptop.
+
+  ##[Trivia]
+  - Typically if a desktop / laptop boots without an operating system, then it runs fine and instead either goes into the BIOS (which is pre-installed in motherboards), or displays an error indicating no OS found, which makes the white glow unrealistic.
+    - But since when was this game ever realistic?
+  - When closing the laptop, the player gently slams on the touchpad, which makes the laptop shutdown and collapse soon after.
+  !!GALLERY [/assets/bussim/images/items/laptop.webp]

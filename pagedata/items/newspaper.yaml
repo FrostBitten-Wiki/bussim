@@ -1,0 +1,31 @@
+editable: True
+page:
+  title: Newspaper
+  description: The Newspaper is an item within the Roleplay set, given to all players. When held, it shows a messy collection of pages dating back to... May 5th 2009. It is surprisingly in pristine condition still.
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: newspaper, im old!, item
+
+  header:
+    description: |
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Permanent, Roleplay Item]
+    
+    image: ""
+    imageBanner: /assets/bussim/images/items/newspaper.webp
+
+attributions: 
+  - you know who
+
+content: |
+  "Woefully outdated, but what else do you have to read?" -"Newspaper"
+
+  ##[Info]
+  The Newspaper is an item as part of the Roleplay / Filler set. Like all the other items within this set, these don't possess any practical functionality.
+  \n\n
+  When held, it shows a messy collection of pages dating back to... May 5th 2009. It is surprisingly in pristine condition still.
+
+  ##[Trivia]
+  - Due to some of the pages being in the same position as the others, Z-fighting can occur.
+    - Z-fighting is basically two textures fighting to be at the top because both textures from two parts conflict with each other on the same plane.
+  !!GALLERY [/assets/bussim/images/items/newspaper.webp]
