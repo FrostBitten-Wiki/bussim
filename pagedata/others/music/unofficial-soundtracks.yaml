@@ -1,68 +1,75 @@
 editable: true
 page:
-  title: Bus Radio
-  description: The Radio is a functional prop in The Bus in Bus Simulator. It plays
-    a large variety of songs and intermissions around the bus, and can be listened
-    to via Airpods.
+  title: Music
+  description: Bus Simulator has a lot of music, almost all unofficial, yet there's official ones too! This page lists all of them down for your convinience.
 
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Bus-Cola
-    Bandolier
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, MUSIC
 
-  tags: bus radio, radio, radio bus, radio on the bus, this is an absolute nightmare
-    - fang, a werewolf's bane, music, tracks
+  tags: musci music mussi
 
   header:
-    title: Bus Radio
+    title: Music - Unofficial Soundtracks
     description: |
       Category: [Others](others)
     image: /bussim-assets/images/banner.jpg
-    imageBanner: /assets/bussim/images/others/bus-radio.webp
+    imageBanner: /bussim-assets/images/banner.jpg
 
 attributions:
-  - Ported By PolyframeX (@polyframex)
+  - meeeeeeeeeee (fang)
 content: |-
-  "This is like.. the third time I'm making this again? Either way this page makes me want to laydown and.. ponder about my life choices so far." -"Fang"
+  !!BUTTONS [Official Soundtracks,location.href='official-soundtracks'|<highlight>Unofficial Soundtracks</highlight>,location.href='']
+  "the NOT original" -"Fang"
   ##[Info]
-  The Radio is a functional prop in The Bus in Bus Simulator. It plays a large variety of songs and intermissions around the bus, and can be listened to via Airpods. 
+  This set is composed of music / songs made by many different artists / producers without Bus Simulator in mind. Some of these are stock music.
   \n\n
-  On display you'll be able to see the player who queued the song as well as what song in particular that's being played.
-  \n 
-  You can also either bass boost the next song in queue, or replace the next default song in queue with a manually selected song using the audio ID or by searching it up. 
-  \n\n
-  Intermissions also appear at most every 5 songs, manually queued or not and cannot be replaced by queued songs. It also often appears whenever the server starts. 
-  \n\n
-  There's also a couple of minor details such as the radio having a visualizer as well as having the in-game time more accurate compared to the Phone. 
-  \n\n 
-  The visualizer also comes in two different styles, being both found in Performance Settings and be disabled as an option. It goes as follows: 
-  - Classic - Uses the old radio visualizer where hard beats often light up the screen from the bottom.
-  - Spectrum - Uses a new radio visualizer made by Roblox and completely visualizes the music being played. Automatically turns on at graphics level 8+ by default. 
-    - If the song has no audio, it'll instead do an ocean's wave.
-  - Off - Completely disables the visualizer.
-  \n\n
-  You can also search up using either the name of the song, or with advanced filters like song length, authors, etc, with the maximum song length being 15 minutes, consuming a single song that you have **(with the exception being Private Servers)**. 
-  \n\n 
-  You can get more songs by: 
-  - Buying the Bus Driver gamepass and joining every day.
-  - Receive it as special rewards during an event like [New Years](new-years) or on other happy occassions.
-  - Receive it when someone buys 2 free songs for everyone, including themselves via Pear.
-  - Purchase a single song yourself for only 10 R$, if you don't have any free songs.
-  \n\n 
-  Currently there is no way to change the radio channel, as it is locked in 295.2 or MEME RADIO, hosted by Teddy, Tazer, Mineboom, MLGBudderCD, Pear, Starfall, Green, and Pixel_Neko. *(not to be confused by their NPC versions!)*
-  \n\n
-  ##[Intercom]
-  Aside from forcing songs on the radio, you can also spend a song for 30 seconds of intercom, allowing you to speak through the bus speakers.
-  \n 
-  Do note however, that this is only accessible if you have Voice Chat enabled on Roblox, and is only hearable to others who have access to it.
-  \n\n
-  ##[Tracks]
-  The total amount of tracks that has been documented thus far is currently **137+, with 123 being Normal, 6 being Halloween, and 8 being Christmas**. please add in case you find a new track, thank you! 
-  \n\n 
-  Also most audio IDs that are present may not work following March 22nd of 2022, but those that do work will be bolded, mainly Roblox Marketplce tracks. 
-  \n\n 
-  **(Has to be a natural song, check if it's MEME RADIO or anyone as long as the player that submitted it isn't in the server.)**
-  \n\n 
-  ##[Normal / All Season Tracks]
-  These tracks are playable throughout the entire year, anytime, anyday. 
+  ##[Unofficial Soundtracks]
+  ###[__Locational Soundtracks__]
+  These tracks play at specific locations, unbound by events.
+  |Track Name|Origin / Author|Location / Source|Notes|Links|
+  |----------|---------------|-----------------|-----|-----|
+  |Diamanten (2022 Remastered Version)|ORF Orchestra|[Art Gallery](art-gallery)|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=dlTcxGq4klk)|
+  ###[__Event Soundtracks__]
+  These tracks play during [Events](events).
+  |Track Name|Origin / Author|Location / Source|Notes|Links|
+  |----------|---------------|-----------------|-----|-----|
+  |Following Stanley|The Blake Robinson Synthetic Orchestra|[Adventure Line](adventure-line)|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=guIaCocnNaw)|
+  |Happy Birthday KaZoo.|tidlfqp ahn|[Birthday](birthday)|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=N63GSop8Xz4)|
+  |Running in the 90's|Delta Queens|[Hyperspeed](hyperspeed)|<0px>(.)|[Youtube](https://youtu.be/8WEe-MmC4ag)|
+  |???|???|[In The Sky](in-the-sky)|Unknown music currently.|Youtube|
+  |???|???|[GOATed Gas](goat-station)|Unknown music currently, plays in GOATED Gas.|Youtube|
+  |???|???|[No Dough](no-dough) / [Santa's Gone](santas-gone)|Unknown music currently. Takes place while raiding.|Youtube|
+  |???|???|[Nuke](nuke)|Unknown music currently. Takes place while raiding.|Youtube|
+  |Alvin and the Chimpmunks - All the Small Things|[Alvin and the Chimpmunks|Micspam](micspam) / [Micoff](micoff)|Also found in Bus Radio's tracks.|[Youtube](https://www.youtube.com/watch?v=FPJP6E-osPg)|
+  |Funk In My Bedroom|AXS Music|[Pear Takes The Wheel](pear-takes-the-wheel}|Also counts as a TV soundtrack.|[Youtube](https://www.youtube.com/watch?v=sfnYcT0YZyc)|
+  |Eternally Us - Bargaining|Infinite Grace Games|[Time Travel](time-travel)|Also found in Bus Radio's tracks.|[Youtube](https://www.youtube.com/watch?v=q-T8u7RJii0]|
+  ###[__TV Soundtracks__]
+  These tracks play from the [TV](tv).
+  |Track Name|Origin / Author|Location / Source|Notes|Links|
+  |----------|---------------|-----------------|-----|-----|
+  |???|???|2 - Danger Tick|Unknown music.|Youtube|
+  |LittleBigPlanet Vita Pod|Alastair Lindsay|3 - Most Robux Wasted|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=sL8mOg7omoM)|
+  |The Furry Song|Kurrel The Raven|4 - Furries|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=RXHncd9h7HY)|
+  |Waltz of the Forest|Yoko Shimomura, XBrav, Martin Hagwell, Kirbopher (now Christopher Niosi), ShadyVox, MusicalMike, Psyguy & Final Boss|6 - Super Mario RPG|Also found in Bus Radio's tracks as the original OST.|[Youtube](https://www.youtube.com/watch?v=k_q9y5vSIrw)|
+  |Palmtree Panic Past (Salad Plain Past)|Sonic CD & Mastered Realm|8 - Thanksgiving|Also found in Bus Radio's tracks.|[Youtube](https://www.youtube.com/watch?v=eQzrfwBFwQA)|
+  |8-bit Remix of the Roblox Anthem|Roblox & anchoviman|9 - Bighead|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=8f6Fk5EVDh4)
+  |???|???|11 - Roblox World Headquarters|Unknown music currently.|Youtube|
+  |???|???|12 - The Epic Fight|Unknown music currently.|Youtube|
+
+  ###[__Friday Night Soundtracks__]
+  These tracks are played from the [Friday Night](games) game from the [Gameboy Advance](gameboy-advance). These are also just, Friday Night Funkin' songs.
+  |Track Name|Origin / Author|Location / Source|Notes|Links|
+  |----------|---------------|-----------------|-----|-----|
+  |Booyah|???|???|Unknown music currently.|Youtube|
+  |Metal Face|Shocky_Pink|Vs. Allany|Unfortunately ear-grating.|[Youtube](https://www.youtube.com/watch?v=d3yIndZxwzk)|
+  |Necromancer Theme|RealFaction, MakrSoaps|Vs. Necromancer Mod (Friday Night Crashin')|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=VK_mZFdo-hY)|
+  |Pajamas|???|???|Unknown music cucrrently.|Youtube|
+  |Sky|bfswifeforever, bbpanzu & KadeDeveloper|Vs. Sky|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=70rLl7xt56A)|
+  |Expurgation|JADS|Vs. Tricky|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=WmXn3L5bQy4)|
+  |Test|Kawai Sprite & MtH|Friday Night Funkin'|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=p-qo-2AmA4M)|
+  |Zipper|wxlfcat|[One-Shot]The author has since deleted all of their socials alongside any remaining proof or link to the mentioned song.|<0px>(.)|
+
+  ###[__Bus Radio: Normal / All Season Tracks__]
+  These tracks are playable throughout the entire year, anytime, anyday from the [Bus Radio](bus-radio). 
   \n\n
   |Track Name|Reference / Parody|Origin / Author|Notes|Links|Audio ID|
   |----------|------------------|---------------|-----|-----|--------|
@@ -87,7 +94,7 @@ content: |-
   |Weapons Factory|<0px>(.)|Super Plumber Man (Super Mario) RPG / Yoko Shimomura|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=dll0opu5D6g&pp=ygUfc3VwZXIgbWFyaW8gcnBnIHdlYXBvbnMgZmFjdG9yeQ%3D%3D)|<0px>(.)|
   |Chill Mellow Loop w/ Ambience Nature Noises|<0px>(.)|OverlordGhs|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=x0FiNRtXWkE&pp=ygUfY2hpbGwgbWVsbG93IGxvb3Agd2l0aCBhbWJlaWNuZQ%3D%3D)|145485235|
   |Battle for an Underwater City (Goo Lagoon)|<0px>(.)|Spongebob: Battle for Bikini Bottom / Jimmy Levine, Robert Crew, & Alex Wilkinson|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=toe0Gog8Z3o)|<0px>(.)|
-  |Waltz of the Forest| <0px>(.)|Super Plumber Man (Super Mario) RPG / Yoko Shimomura|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=k_q9y5vSIrw&pp=ygUTd2FsdHogb2YgdGhlIGZvcmVzdA%3D%3D)|<0px>(.)|
+  |Beware the Forest's Mushrooms| <0px>(.)|Super Plumber Man (Super Mario) RPG / Yoko Shimomura|A lyrical remixed version of this is part of the TV's tracks.|[Youtube](https://www.youtube.com/watch?v=iudB3TreJfM)|<0px>(.)|
   |Doki Doki Literature Club Theme [Moonbase Alpha TTS Singing]|Doki Doki Literature Club (Your Reality)|Oasty (Cover) / Doki Doki Literature Club (Original)|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=C7M12GQ1_jE)|<0px>(.)|
   |The Mine Song But the song is 16-bit|Lazy Town|FreakingJames (Remix) / Lazy Town (Original) |Despite the track saying it is 16-bit, the music is actually 8-bits.|[Youtube](https://www.youtube.com/watch?v=BYwpnvJGd7Q&list=PLofOM1ZBmJRMakmKMQYa60f9ul0qrj7Xc&index=1)|<0px>(.)|
   |Gucci Gucci Literature Club's Not Hot (ft. Monika) [Miraie Mashup]|- Doki Doki Literature Club (Your Reality)\n- Gucci Gang\n- Mans Not Hot | Miraie (Mashup) / Doki Doki Literature Club & Lil Pump & BIG SHAQ (Originals)|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=GsgrCaJ14KU&pp=ygUaZ3VjY2lndWNjaSBsaXRlcmF0dXJlIGNsdWI%3D)|<0px>(.)|
@@ -140,7 +147,7 @@ content: |-
   |November Waltz|<0px>(.)|Work at a Pizza Place / Basspartout|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=3hckt3DEX9k&pp=ygUObm92ZW1iZXIgd2FsdHo%3D)|<0px>(.)|
   |Food Court|<0px>(.)|PaRappa the Rapper 2 / Masava Matsuura & Yoshihisa Suzuki|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=V5gczSgwcY0)|<0px>(.)|
   |Oof Star|All Star|Enova(?) (Parody) / All Star & SMASH MOUTH (Original)|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=8AwJln552LU)|<0px>(.)|
-  |Palm Tree Panic Past (Palm Tree Panic Past (Salad Plain Past))|<0px>(.)|Sonic CD|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=eQzrfwBFwQA)|<0px>(.)|
+  |Palm Tree Panic Past (Salad Plain Past)|<0px>(.)|Sonic CD|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=eQzrfwBFwQA)|<0px>(.)|
   |Stephen Walking - JC-08|<0px>(.)|Monstercat & Stephen Walking|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=KWS47fdeiGk&pp=ygUUc3RlcGVobiB3YWxraW5nIGpjMDg%3D)|**7028970358**
   |1 2 Oatmeal|Kirby Super Star (Gourmet Race)|mariofan888 (Parody) / Kirby Super Star & Jun Ishikawa (Original)|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=0Dpw0VvH4m0)|<0px>(.)|
   |Pegboard Nerds - Shaku|<0px>(.)|Monstercat & Pegboard Nerds|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=7A2NtfPjkD0)|<0px>(.)|
@@ -160,45 +167,8 @@ content: |-
   |Notaker - From Dust & Ashes|<0px>(.)|Monstercat & Notaker|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=kHqjIPWJxMg)|<0px>(.)|
   |Revenger|<0px>(.)|F.O.O.L|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=uF8HSChpvCs)|<0px>(.)|
   |California Beach|<0px>(.)|APMOfficial|<0px>(.)|[Marketplace Link](https://create.roblox.com/store/asset/9043854439/California-Beach)|**9043854439**|
-  \n
-  ##[Intermission Tracks]
-  These tracks are playable inbetween 3-5 songs, acting as intermissions. All of them are also voiced by NobleReign's friends. 
-  \n\n 
-  |Track Name|Origin / Author|Files|Notes|
-  |----------|---------------|-----|-----|
-  |ANOTHER SONG COMING RIGHT UP|MEME RADIO|<0px>(.)|<0px>(.)|
-  |Basement Radio Was A Better Name|MEME RADIO / Tazer|<0px>(.)|<0px>(.)|
-  |BEEP BO BAA BEEP|MEME RADIO|<0px>(.)|<0px>(.)|
-  |Blue-Haired Nuiscance|MEME RADIO|<0px>(.)|This is the second in a series of Intermissions where the DJ is again, interrupted by Boyfriend, an FNF character and likely destroys the studio.|
-  |Bro What Is This Dollar Store Beat???|MEME RADIO|<0px>(.)|<0px>(.)|
-  |Didn't Mean To Go So Hard..|MEME RADIO|<0px>(.)|This is likely the last part in the series of Intermissions where the DJ recovers after destroying the studio, ending the interruptions from Boyfriend once and for all.|
-  |DJ Sakura's corporate-approved news!|MEME RADIO / Sakura|<0px>(.)|<0px>(.)|
-  |Do The... Uh.. Copyright-Free Plumber|MEME RADIO / Teddy|<0px>(.)|<0px>(.)|
-  |i didn't know this?..|MEME RADIO|<0px>(.)|<0px>(.)|
-  |I HATE HOLOGRAMMER I HATE HOLOGRAMMER I HA-|MEME RADIO|<0px>(.)|<0px>(.)|
-  |I Might Need A Babysitter|MEME RADIO|<0px>(.)|<0px>(.)|
-  |I Think Doing That's A Felony?|MEME RADIO|<0px>(.)|<0px>(.)|
-  |I Thought I Was Safe..|MEME RADIO|<0px>(.)|<0px>(.)|
-  |I Understand Why, I Tricked Mine Out The Second I Got It|MEME RADIO / Tazer|<0px>(.)|<0px>(.)|
-  |InrOS + your toaster, your car, your watch, your phone, your brain, yo-|MEME RADIO|<0px>(.)|<0px>(.)|
-  |Intermission...|MEME RADIO / MLGBudderCD|<0px>(.)|<0px>(.)|
-  |It Wasn't Me, I Swear!|MEME RADIO / Tazer|<0px>(.)|<0px>(.)|
-  |March 22nd, 1984|MEME RADIO / Mineboom|<0px>(.)|<0px>(.)|
-  |Not Very Sanitary Either??|MEME RADIO / Tazer|<0px>(.)|<0px>(.)|
-  |oh my goodness gracious is that a Kit Battle reference|MEME RADIO / Tazer|<0px>(.)|<0px>(.)|
-  |OH NO!!!! OUR TABLE!!!!! ITS BROKEN!!!!!!!|MEME RADIO|<0px>(.)|<0px>(.)|
-  |oops|MEME RADIO / Tazer|<0px>(.)|<0px>(.)|
-  |Rest In Piece..|MEME RADIO|<0px>(.)|<0px>(.)|
-  |The Best Radio on the Radio|MEME RADIO|<0px>(.)|<0px>(.)|
-  |The Clock Is Tokking..|MEME RADIO|<0px>(.)|<0px>(.)|
-  |This Announcer Was Employed by Meme Radio|MEME RADIO|<0px>(.)|<0px>(.)|
-  |This Is Why We Take The Bus|MEME RADIO|<0px>(.)|<0px>(.)|
-  |THIS STATION IS RATED M FOR MEME|MEME RADIO|<0px>(.)|This is a reference to a meme trend where voice actors would voice a meme related to a greentext showing a generic radio transition.\n\n[Example Video](https://www.youtube.com/watch?v=28HkXoCghm8)|
-  |We're Trying Our Best!|MEME RADIO|<0px>(.)|This is the first in a series of Intermissions where a DJ is interrupted by a character in Friday Night Funkin' named Boyfriend.|
-  |Welcome to ROBLOX!|MEME RADIO|<0px>(.)|<0px>(.)|
-  |where am i??? enter what is this????|MEME RADIO|<0px>(.)|<0px>(.)|
-  \n
-  ##[Halloween Tracks]
+  |lightsong|<0px>(.)|Unknown|Not much information is known, as that is basically the title.|<0px>(.)|<0px>(.)|
+  ###[__Bus Radio: Halloween Tracks__]
   These tracks are playable only during October of any year.
   \n\n
   |Track Name|Reference / Parody|Origin / Author|Notes|Links|Audio ID|
@@ -210,7 +180,7 @@ content: |-
   |Zero Project - Gothic (Full)|<0px>(.)|Zero Project|This was submitted by DTrainsMan123 instead of NobleReign.|[Zero Project Website](https://www.zero-project.gr/music/singles/darkness-falls/)|<0px>(.)|
   |(Removed for Copyright) (Nezzera [Full])|<0px>(.)|Jeremy Phillip Holt |Submitted by 888min3, this used to be a music called Pull Me Out, or commonly Nezzera for its popularity around Roblox following its usage.|[Youtube](https://www.youtube.com/watch?v=PJK0o4AMo9U&list=PLWrf5r9izG5b9X8OexPAzFRrotGXVvurR&index=1)|146322017 |
   \n 
-  ##[Christmas Tracks]
+  ###[__Bus Radio: Christmas Tracks__]
   These tracks are playable only during December of any year.
   \n\n
   |Track Name|Reference / Parody|Origin / Author|Notes|Links|Audio ID|
@@ -223,45 +193,18 @@ content: |-
   |Jingle Bells (EDM)|<0px>(.)|Roblox|<0px>(.)|[Marketplace Link](https://create.roblox.com/marketplace/asset/1842987882/Jingle-Bells-EDM)|**1842987882**|
   |we'll go to the beach|<0px>(.)|aimless|This was submitted by a[e]sthetics, which isn't a real Roblox user.|[Youtube](https://www.youtube.com/watch?v=qpZZsETxopE)|<0px>(.)|
   \n 
-  ##[Removed Tracks]
+  ###[__Bus Radio: Removed Tracks__]
   These tracks, after being brought to light by community members, have been removed. So far, all of these are tracks that were already broken after the March 22nd update.
   |Track Name|Reference / Parody|Origin / Author|Notes|Links|Audio ID|
   |----------|------------------|---------------|-----|-----|--------|
   |Ice|<0px>(.)|Terraria / Scott Lloyd Shelly |This was submitted by Zedreadr instead of NobleReign. It's also broken. Used to be in the Christmas Tracks.|[Youtube](https://www.youtube.com/watch?v=WvrciA9TTTw&pp=ygUTaWNlIGJpb21lIHRlcnJhcmlvYQ%3D%3D)|161912036|
   ##[Trivia]
   - There is an official Bus Simulator Radio playlist on [Spotify](https://open.spotify.com/playlist/2QjfdDi2R24qg75CtxP7C5?si=2b4F_GM0RdKnnZWBz1S3Hw), albeit: it has a largely different playlist compared to the one in-game and some music may be missing.
-  - It was first introduced along with the main release of Bus Simulator as a function-less prop, but later gained songs at July 27th, 2018, 13 days following the release.
-  - There was also other channels that would've won based off of a poll in Bus Simulator Updates, the channel name and frequencies are the following:
-    - Basement Records - 220.3
-      - The story behind this is that the radio station shut down and had to swap to another channel.
-    - Meme Radio - 295.2
-      - The radio station got bought out by a soulless company, same number as originally before but more authoritarian. This is the current radio channel up till now.
-    - The Meme 220.3 - 220.3
-      - The radio station had to move to a different number, due to the FCC not approving their setup.
-  - There used to be a ridiculously expensive gamepass that allowed you to host songs up to **2 hours**, but after a few updates it got removed. Only a few people have bought it.
-  - The current radio channel is actually the same as the license plate on the back of [The Bus](the-bus), being 295.2 and RBLX2952.
-    - The number is also the same as the [Sparkplug Cafe, or formerly and more importantnly known as Cafe 2952](cafe) in its titular event.
-  - There's a [news line](news) that very likely references this, with the title: "Local radio station station gets bought out for 50 Robux on March 22nd, more on this story later."
-    - Given how both the MEME RADIO was bought out and how the revamped playlist happened following March 22nd, it isn't hard to believe that it's referenced by this line.
-  - There is an estimated wait time below the textbox.
-    - If songs are queued and the length in total is under 15 minutes, the text will be white.
-    - <clr:#ff8c19>(If songs are queued and the length in total is between 15 and 30 minutes, the text will be orange.)
-    - <clr:#ff1919>(If songs are queued and the length in total is over 50 minutes, the text will be red.)
-      - Due to a time bug, when the queue length reaches 24 hours, it overflows back to 0 seconds. However, because the queue length is still over 50 minutes, the text will still be red when the timer overflows and shows the queue length as under 50 minutes.
-  - In the [Repaint Event](repaint), this is the only interior prop in The Bus that can be painted.
-  - Assuming that each song actually costs 10 Robux each, it means that those who've bought the Bus Driver gamepass will receive a payment of 50 Robux every day, paying itself after just 3 days. It can't be converted back to Robux though.
   - Flourish can be found in your desktop, assuming you have windows 10. It can be found in This PC > Local Disk (C:) > Windows > Media, or by typing "C:\Windows\Media" into the Directory.
   \n 
   ##[Credits]
-  - **Tazer**, for voicing and providing source audios for his intermissions specifically. (might be a bit loud though!)
-  - **Pixel_Neko**, for all voicing the other intermissions!
-  - **Mineboom**, for all voicing the other intermissions!
-  - **MLG**, for all voicing the other intermissions!
-  - **Stardust**, for all voicing the other intermissions!
-  - **Green**, for all voicing the other intermissions!
-  - **Pear,** for all voicing the other intermissions!
   - **NobleReign**, for providing info for missing tracks as well as making the radio.
   - **Zeon**, for providing info about the other missing tracks.
   - **9n25** for also providing info and helping.**
   - **RedNoob5050** for providing the Blox Don't Lie video.
-  - **FangedWerewolf** for spending his sanity making this entire thing and recreating it twice.
+  - **FangedWerewolf** for documenting this.
