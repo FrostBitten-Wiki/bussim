@@ -11,8 +11,8 @@ page:
     title: Music - Unofficial Soundtracks
     description: |
       Category: [Others](others)
-    image: /assets/bussim/images/locations/the-bus3.webp
-    imageBanner: /assets/bussim/images/locations/the-bus3.webp
+    image: /assets/bussim/images/banners/bus-banner.webp
+    imageBanner: /assets/bussim/images/banners/bus-banner.webp
 
 attributions:
   - meeeeeeeeeee (fang)

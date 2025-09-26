@@ -11,8 +11,8 @@ page:
     title: Music - Official Soundtracks
     description: |
       Category: [Others](others)
-    image: /bussim-assets/images/events/cafe2.webp
-    imageBanner: /bussim-assets/images/events/cafe2.webp
+    image: /assets/bussim/images/banners/coffee-shop.webp
+    imageBanner: /assets/bussim/images/banners/coffee-shop.webp
 
 attributions:
   - meeeeeeeeeee (fang)
