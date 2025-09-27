@@ -126,6 +126,11 @@ content: |-
               - "-snf- -snf-"
               - "Oh! So you're a friend of Pear's, hm? Well, any friend of Pear is a friend of mine!"
               - You: "(+1 trust)"
+          - hg[Option 4]: [Offer gift: ]
+                  - [Spronkbib Popsicle](spronkbib-popsicle)
+                      - "..! Oh, one of those! Those are so rare nowadays..!"
+                      - "...!!!"
+                          - You: "Frost's tail starts to kick up dust from how hard it's wagging... (+2 trust)"
       - hg[Option 2]: Let's talk!
           - hg[Variant 1]: "Alright."
           - hg[Variant 2]: "Talk?"
@@ -361,7 +366,8 @@ content: |-
   - If you bought pearcoin^(TM) in the server without rejoining, you need to rejoin to be able to use it however [Pear's](pear) dialogue will change without rejoin needed.
   - If you offered Frost a [Spronkbib Popsicle](spronkbib-popsicle) instead of the [Ice Cream](ice-cream) + [PearcoinTM](pearcoin) duo, he will still mention about receiving a PearcoinTM from you, despite not possibly even owning one nor showing it to Frost in the first place.
   - If you really don't want to spend any Robux, the best way to get Frost's trust is to get the legendary [Spronkbib Popsicle](spronkbib-popsicle), which has a 1/800 chance of being obtained from an Ice Cream Truck.
-      - Note that you may not give the Spronkbib Popsicle if you had already given him one Ice Cream.
+      - Note that you can still give Frost the Spronkbib Popsicle after you have given him an Ice Cream.
+        - This used to not be possible back then, but following the Locker update, you can still give Frost the popsicle.
   - Based off of the Eggnog Ice Cream recipe within his [den](glacier-cave), Frostbite has the power to lower his body temperature manually, allowing him to chill things just by touch, however in some conditions, it has to be done using appliances like freezers.
 
   ##[Technical Trivia]
