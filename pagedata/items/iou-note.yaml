@@ -37,6 +37,7 @@ content: |
     - But there is a chance that you will still keep the note, which it has as of current. (September 25, 2025)
   - The note used to somehow give players who read it already another 3.5k when rejoining, and another, and another. 
     - It was patch swiftly after, and now takes away 1 Coin instead.
+      - Coincidentally enough, because this unconditionally takes away 1 Coin; you <clr:#a20202>(can go into debt) legitimately on Bus Simulator.
   - The note's text is different everytime the player resets / joins, the following are what's possible to have on your note:
     - "lazy developer??>"
     - "patience is key"
