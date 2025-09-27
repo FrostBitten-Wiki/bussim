@@ -1,0 +1,106 @@
+editable: True
+page:
+  title: Locker
+  description: The Locker is an interactable prop found within the second floor of The Bus. 
+    
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
+  
+  tags: lock and roll
+
+  header:
+    description: |
+      Category: [Items](items)\n
+      Tags: h[Obtainable Item, Permanent, Roleplay Item]
+    
+    image: ""
+    imageBanner: /assets/bussim/images/items/bag.webp
+
+attributions: 
+  - you know who
+
+content: |
+  "Tired of your inventory being filled with items? Struggle to remember archaic chat commands just to change your tags? **The locker is here to save your headaches!**" -"Rider"
+
+  ##[Info]
+  The Locker is an interactable prop found within the second floor of [The Bus](the-bus). It allows players to customize:
+  - What items they can bring (from a collection of all the unlocked permanent items throughout your journey),
+  - Their starting hotbar, takes a reset to take full effect,
+  - Their [chat presence / tags](ranks-tags), and
+  - Their avatar, albeit very scuffed than official means. 
+    - Things like accessory modification don't exist in the current scuffed avatar editor.
+  When you open the locker, you'll be transported into a blue space, with music commonly from the [Bus Radio](bus-radio) echoing throughout. You can always return back to The Bus once you are done, returning back to the front of the locker.
+  ##[Item Locker]
+  The following are permanent items based on Category:
+  !!INFOBOX TITLE:"Your Pockets" COLOR:"#2596be" TEXT:"It's just your phone. Color also changes based on your username's color!"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/phone-new.webp" TITLE:"Phone" DESCRIPTION:"" REDIRECT:"phone-overhauled"
+  !!INFOBOX TITLE:"Gamepass Items" COLOR:"#ffc32c" TEXT:"Items obtained from gamepasses, both deprecated and current."
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/airpods.webp" TITLE:"Airpods" DESCRIPTION:"" REDIRECT:"airpods"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/megaphone-ex.webp" TITLE:"Megaphone EX" DESCRIPTION:"" REDIRECT:"megaphone-ex"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/megaphone.webp" TITLE:"Megaphone" DESCRIPTION:"" REDIRECT:"megaphone"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/meygaphone.webp" TITLE:"Meygaphone~" DESCRIPTION:"" REDIRECT:"meygaphone"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/cup-dispenser.webp" TITLE:"Cup Dispenser" DESCRIPTION:"" REDIRECT:"cup-dispenser"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/recipe-book.webp" TITLE:"Recipe Book" DESCRIPTION:"" REDIRECT:"recipe-book"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/airhorn.webp" TITLE:"Airhorn" DESCRIPTION:"" REDIRECT:"airhorn"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/roemulator.webp" TITLE:"RoEmulator" DESCRIPTION:"" REDIRECT:"roemulator"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/gps.webp" TITLE:"GPS" DESCRIPTION:"" REDIRECT:"gps"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/battery-pack.webp" TITLE:"Battery Pack" DESCRIPTION:"" REDIRECT:"battery-pack"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/mini-bus.webp" TITLE:"Mini-Bus" DESCRIPTION:"" REDIRECT:"mini-bus"
+  !!INFOBOX TITLE:"Bus Sim's 5th Birthda (2023)" COLOR:"#7176d6" TEXT:"Happy birthday!"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/bus-birthday-cake.webp" TITLE:"Bus Birthday Cake" DESCRIPTION:"" REDIRECT:"bus-birthday-cake"
+  !!INFOBOX TITLE:"Bus Sim's 6th Birthday (2024)" COLOR:"#927ed7" TEXT:"Happy birthday (again)!"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/bus-birthday-pie.webp" TITLE:"Bus Birthday Pie" DESCRIPTION:"" REDIRECT:"bus-birthday-pie"
+  !!INFOBOX TITLE:"Bus Sim's 7th Birthday (2025)" COLOR:"#5b648c" TEXT:"Happy birthday (yet again)!"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/iou-note.webp" TITLE:"I-O-U" DESCRIPTION:"" REDIRECT:"iou-note"
+  !!INFOBOX TITLE:"Christmas 2022" COLOR:"#ff3336" TEXT:"Items obtained during Christmas of 2022."
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/snowcone.webp" TITLE:"Snowcone" DESCRIPTION:"" REDIRECT:"snowcone"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/snowglobe.webp" TITLE:"Snowglobe" DESCRIPTION:"" REDIRECT:"snowglobe"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/candied-cane.webp" TITLE:"Candied Cane" DESCRIPTION:"" REDIRECT:"candied-cane"
+  !!INFOBOX TITLE:"Filler / Roleplay" COLOR:"#307177" TEXT:"Items obtained at the start that do well... nothing practical, really."
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/bag.webp" TITLE:"Bag" DESCRIPTION:"" REDIRECT:"bag"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/keys.webp" TITLE:"Keys" DESCRIPTION:"" REDIRECT:"keys"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/laptop.webp" TITLE:"Laptop" DESCRIPTION:"" REDIRECT:"laptop"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/newspaper.webp" TITLE:"Newspaper" DESCRIPTION:"" REDIRECT:"newspaper"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/teddy-bloxpin.webp" TITLE:"Teddy Bloxpin" DESCRIPTION:"" REDIRECT:"teddy-bloxpin"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/toothbrush.webp" TITLE:"Toothbrush" DESCRIPTION:"" REDIRECT:"toothbrush"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/water-bottle.webp" TITLE:"Water Bottle" DESCRIPTION:"" REDIRECT:"water-bottle"
+  !!INFOBOX TITLE:"Backwalls" COLOR:"#adaa51" TEXT:"Items obtained in the [Backwalls](backwalls)"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/almond-water.webp" TITLE:"Almond Water" DESCRIPTION:"" REDIRECT:"almond-water"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/liquid-void.webp" TITLE:"Liquid Void" DESCRIPTION:"" REDIRECT:"liquid-void"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/popcorn-bucket.webp" TITLE:"Popcorn Bucket" DESCRIPTION:"" REDIRECT:"popcorn-bucket"
+  !!INFOBOX TITLE:"Crystal Caverns" COLOR:"#3988ff" TEXT:"Items obtained in the [Crystal Caverns](glacier-cave)"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/magic-mirror.webp" TITLE:"Magic Mirror" DESCRIPTION:"" REDIRECT:"magic-mirror"
+  !!INFOBOX TITLE:"For Your Contributions" COLOR:"#ff62c0" TEXT:"Items obtained for contributing towards the game." 
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/balloon.webp" TITLE:"Balloon" DESCRIPTION:"" REDIRECT:"balloon"
+  !!INFOBOX TITLE:"GOATed Gas" COLOR:"#61ff6e" TEXT:"Items bought from [GOATed Gas](goat-station)."
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/uv-glowstick.webp" TITLE:"UV Glowstick" DESCRIPTION:"" REDIRECT:"uv-glowstick"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/helicopter.webp" TITLE:"Helicopter" DESCRIPTION:"" REDIRECT:"helicopter"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/compass.webp" TITLE:"Compass" DESCRIPTION:"" REDIRECT:"compass"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/kernels.webp" TITLE:"Kernels" DESCRIPTION:"" REDIRECT:"kernels"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/gas-station-ice-cream.webp" TITLE:"Gas Station Ice Cream" DESCRIPTION:"" REDIRECT:"gas-station-ice-cream"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/gas-station-gravity-coil.webp" TITLE:"Gas Station Gravity Coil" DESCRIPTION:"" REDIRECT:"gas-station-gravity-coil"
+  !!INFOBOX TITLE:"Ice Cream Truck" COLOR:"#2f6dcb" TEXT:"The legendary."
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/spronkbib-popsicle.webp" TITLE:"Spronkbib Popsicle" DESCRIPTION:"" REDIRECT:"spronkbib-popsicle"
+  !!INFOBOX TITLE:"New Year's Day" COLOR:"#d6972b" TEXT:"Happy new years!"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/new-years-chocolate.webp" TITLE:"New Years Chocolate" DESCRIPTION:"" REDIRECT:"new-years-chocolate"
+  !!LISTITEM IMAGE:"/bussim-assets/images/items/p15-maisto.webp" TITLE:"P15-Maisto" DESCRIPTION:"" REDIRECT:"p15-maisto"
+  \n
+  ###[__Hotbar Layout__]
+  You can customize the layout of your hotbar with all of the currently active items within your inventory by clicking on the item you want to select, and the slot in specific. Changes take effect on the next reset / rejoin.
+  \n\n 
+  You can also have slots empty, allowing more space for any newly obtained items. 
+  ##[Chat Presence]
+  Main Article: [Ranks & Tags](ranks-tags)
+  \n\n
+  You can also customize how you present yourself in chat, with three categories!
+  !!INFOBOX TITLE:"Heart Tags" COLOR:"#ff4346" TEXT:"Earned by accumulating [Driver Rep](reputation)"
+  !!INFOBOX TITLE:"Donation Tag" COLOR:"#ffb742" TEXT:"Thanks, but you only did it for the tag, didn't you"
+  !!INFOBOX TITLE:"Rank Tags" COLOR:"#5c6cff" TEXT:"Earned by being in the Bus Simulator Fan Group!"
+  ##[Avatar Editor]
+  No, unlike a certain few games, this editor only allows you to use the accessories and outfits you have within your inventory. But it makes it for seamless editing!
+  \n\n 
+  ...so long as you don't mind the scuffness.
+
+  ##[Trivia]
+  - Only the Rank Tags in Chat Presence ends off with a proper punctuation.
+  - You can get stuck in the locker if you remain falling when entering, creating a loop that prevents you from actually leaving.
+  !!GALLERY [/assets/bussim/images/items/bag.webp]

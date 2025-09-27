@@ -22,10 +22,9 @@ content: |-
   ##[Info]
   There's a small handful of chat tags in the game that you can obtain by simple means, with some either being permanent or temporary. This page will go over them, and give short explanations of them.
   \n\n
-  Do note that as of now, the only tags you can change is your heart tags, but other tags like group / donation tags can't be changed without having to leave the group / delete the gamepass associated with it. This is subjected to change soon.
-
+  You can change all of them through the [Locker](locker), found on the second floor of [The Bus](the-bus)!
   ##[Heart Tags]
-  This category already has [its own page](reputation), but for convenience purposes, here's a quick list on all of the hearts you can get. You can also change them anytime using !setheart.
+  These tags are obtained by having enough [Driver Reputation](reputation), they appear as the forefront of every tag combination.
   \n\n
   | Heart                               | Driver Reputation |
   |-------------------------------------|-------------------|
@@ -47,9 +46,9 @@ content: |-
   | [🤍] White Heart                   | 5,000              |
   | [🤍+] White Heart+                 | 10,000             |
   | [???] Numbers                      | 50,000+             |
-
   ##[Group Ranks]
-  \n
+  These tags are obtained by being inside of the Bus Simulator group, with other ranks only obtainable if you reach the appropriate or greater rank.
+  \n\n
   | Role                           | Description |
   |--------------------------------|-------------|
   | Unverified                     | A 'non-rank', assigned to those whose ranks weren't verified manually or via the Verification place on the Bus Simulator group. You don't get a tag in-game for being unverified. |
@@ -66,9 +65,9 @@ content: |-
   | <clr:#5902c9>([Noble])         | It's NobleReign. He also gets "+30" additional driver rep. |
 
   ##[Donation Tags]
-  Donation tags are usable in [Bus Simulator](https://www.roblox.com/games/2091563160/Bus-Simulator) and [Bus Simulator Beta Test](https://www.roblox.com/games/5269977437/Bus-Simulator-Beta-Test), and give you a tag based off of how much you donate. The cent tags are based off of how much NobleReign makes in DevEx. You can also turn them off by doing !togglepd.
+  Donation tags are usable in [Bus Simulator](https://www.roblox.com/games/2091563160/Bus-Simulator) and [Bus Simulator Beta Test](https://www.roblox.com/games/5269977437/Bus-Simulator-Beta-Test), and give you a tag based off of how much you donate. The cent tags are based off of how much NobleReign makes in DevEx.
   \n\n
-  You can obtain them by purchasing donation gamepasses within NobleReign's unlisted game, [Donation](https://www.roblox.com/games/10825424098/Donation).
+  You can obtain them by purchasing donation gamepasses within NobleReign's unlisted game, [Donation](https://www.roblox.com/games/10825424098/Donation), or by donating to Noble in PLS DONATE's offline mechanic.
   \n\n
   | Donation Tag                   | Description                  | Amount       |
   |--------------------------------|------------------------------|--------------|
@@ -87,10 +86,12 @@ content: |-
   | <clr:#53d027>([Console])    | Applicable to players who are on Consoles. |
 
   ##[Question Time Tags]
-  You can also get tags, albeit temporarily by based off of the answers you choose during Question Time, all of the tags so far can be found over [here](question-time).
+  You can also get tags, albeit temporarily by based off of the answers you choose during Question Time, all of the tags so far can be found over [here](question-time). They can't be edited due to their temporary status.
 
   ##[Trivia]
   - Despite Verifier being a tag that is normally exclusive similar to Contributors, Authenticators and such; it's currently possible for Verifiers to get auto-ranked to Drivers accidentally due to the current system.
   - There used to be a Broken Heart [💔] tag, that was for the 10 Driver rep milestone. This was shortly replaced with the Beating Heart [💗]
   - Around mid-late 2023, the Knitter rank was temporarily given to those who submitted a lot of shirts to the group store, due to many clothing items being submitted during that time. Those in the rank also got a commission of the group's earnings. This was later changed to everyone being assigned to Contributor with decreased commissions, until commissions as a whole for the rank were removed after community feedback.
   - The <clr:#001793>([Passenger]) role used to be under <clr:#001793>(this particular color) when it was first released. It was later changed sometime after the Phone Overhaul Update to <clr:#285eb6>(a much brighter shade.)
+  - Back then, tags, heart tags, and donation tags had commands each, but it wasn't so apparent and some lacked full functionality. 
+    - With the introduction of the [Locker](locker), it's now fixed.
