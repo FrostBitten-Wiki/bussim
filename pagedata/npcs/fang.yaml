@@ -64,6 +64,21 @@ content: |-
                 - hg[Option 2]: [Clear all books.]
                   - "Alright, all the books you had are now back to their spots."
                   - (All of the player's buyable books are then cleared.)
+            - If the player is in <clr:#aa0202>(Debt) / has negative Coins:
+              - "... uh."
+              - "Have you... checked your wallet lately? Those coins you got there... they're flashing <clr:#aa0202>(red)."
+                - hg[Option 1]: Oh, these are special coins.
+                  - "Uh huh... sure."
+                  - "I definitely have seen those before back then with that patreon of mine."
+                  - "Are you like, okay? You're struggling extremely bad if you're in that zone."
+                  - "Well, regardless of the case, I won't let you purchase them until you have enough."
+                  - "Heard a [certain cafe's](cafe) handled by a [single employee](lnro). Maybe you should give them a hand."
+                  - "Also."
+                  - (All of the player's buyable books are then cleared.)
+                - hg[Option 2]: Uhm.
+                  - "Well, regardless of the case, I won't let you purchase them until you have enough."
+                  - "Heard a [certain cafe's](cafe) handled by a [single employee](lnro). Maybe you should give them a hand."
+                  - (All of the player's buyable books are then cleared.)
             - If the player has enough Coins: 
               - "Alright! Are you sure you want this? It costs <total price> coins!"
                 - hg[Option 1]: "Actually, no thanks."
