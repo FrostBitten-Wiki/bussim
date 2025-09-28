@@ -34,5 +34,8 @@ content: |-
   "<clr:#aa0202>(HOW ARE YOU IN DEBT???)" -"Coins"
   It's possible to go into <clr:#aa0202>(debt) through means that unconditionally take away coins. This is not intended at all, as most would-be common means will simply end your purchase before it goes through, but with the [I-O-U](iou-note), it's possible to go even more than broke.
   \n\n 
-  Outside of being unable to purchase anything with Coins, you're also unable to download [apps](applications), including Free applications because they cost <clr:#FFE669>(0 Coins) internally.
+  Outside of being unable to purchase anything with Coins, you're also unable to download [apps](applications), including Free applications because they cost <clr:#FFE669>(0 Coins) internally, [Disc](disc) reclaims your purchased items if you attempt to check out, and more. 
+  \n\n 
+  Generally nothing within the game ever expects you to be in debt (hence all the strange interactions), so whatever happens is the result of system fallback that never expected negatives.
+
   !!GALLERY [/bussim-assets/images/others/coin.webp|/bussim-assets/images/others/coin-debt.webp]
