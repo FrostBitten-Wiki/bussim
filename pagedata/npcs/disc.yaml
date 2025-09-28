@@ -189,7 +189,8 @@ content: |-
                           - "Oh.. well, if you change your mind, let me know!"
               - If the player's [total price] exceeds their current Coins (or if they have any purchased / purchaseable items while in <clr:#aa0202>(debt).):
                   - hg[Variant 1]: "Sorry, but you don't have enough coins to purchase that!"
-                  - hg[Variant 2]: "Hey [Player], if you look to the top of your screen, you'll see that you don't have enough coins to purchase this..."
+                  - hg[Variant 2]: "Hey [Player], if you look to the top-right corner of your screen, you'll see that you don't have enough coins to purchase this..."
+                  - hg[Variant 3]: "You need more coins to purchase this! And no, [Current Coins] and a piece of lint won't do..."
                       - hg[Option 1] (if the player has a PearcoinTM): Really? How about a shiny PearcoinTMTM instead?
                           - "A PearcoinTM? I've never heard of that before, but it sounds fun..! Let's do it! One PearcoinTM for..-"
                               - Green: "Disc, no... That's just another one of those.. crypto, scam things... For your information, we only take coins. None of that digital currency garbage. Get lost."
