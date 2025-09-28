@@ -24,7 +24,7 @@ content: |
   ##[Info]
   <Loading> is a placeholder "item" that is found in place of the Empty Slots within the [Locker](locker).
   \n\n 
-  This "item" can't be equipped (unless given through commands) and disappears once any item takes place in the sme slot. It also does nothing.
+  This "item" can't be equipped (unless given through commands) and disappears once any item takes place in the same slot. It also does nothing.
 
   ##[Trivia]
   - <Loading>
