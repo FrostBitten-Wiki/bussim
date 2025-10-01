@@ -1,23 +1,27 @@
-editable: True
+editable: true
 page:
   title: Cola
-  description: The Cola is an item that is obtainable at the Second floor, or from the Starter if you got that from the 10 Million Visits event. Using it will heal you.
-    
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
-  
+  description: The Cola is an item that is obtainable at the Second floor, or 
+    from the Starter if you got that from the 10 Million Visits event. Using it 
+    will heal you.
+
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim 
+    <categoryname>
+
   tags: Cola, item
 
   header:
     description: |
       Category: [Items](items)\n
       Tags: h[Obtainable Item, Temporary, Healing Consumable, Soda]
-    
-    image: ""
+
+    image: ''
     imageBanner: /assets/bussim/images/items/cola.webp
 
-attributions: 
+attributions:
   - Ported by PolyframeX (@polyframex)
-  - Converted to Jinki Markdown by Wesker (@weskerbun) and FangedWerewolf (@noobbiom)
+  - Converted to Jinki Markdown by Wesker (@weskerbun) and FangedWerewolf 
+  (@noobbiom)
 
 content: |
   "It's only been out for what, 20 days? " -"Cola"
@@ -27,7 +31,7 @@ content: |
   \n\n 
   It is located inside of a crate, with several other colas. Upon clicking on it, there's a 10%(?) chance you will get the [Bad Cola](bad-cola). You can also find it within a cooler during the [Goat Station](goat-station) event.
   \n\n 
-  If the current month is October however, all instances of the normal Cola are replaced by Witches' Brew instead.
+  If the current month is October however, all instances of the normal Cola are replaced by Witches' Brew instead, and the drink inside would be green instead of the usual brown.
 
   ##[Info (Backwalls)]
   "Well that was uncanny." -"Cola (Backwalls)"
