@@ -34,5 +34,6 @@ content: |
   - It is currently possible to utilize this item as a form of teleportation, first use the item multiple times then unequip it at the first spot. Secondly, go to any spot outside of your first spot and drink the [Cramped Cola](cramped-cola), and lastly: equip the Candied Cane again. This will force you to teleport back to your first spot at any point in the game. 
     - The same applies for [Snowcone](snowcone) and likely [Popsicle](popsicle), with the former being most precise, and the latter being likely inaccurate.
     - Do note though, that it occasionally slows you down for one-life per teleport. So it's recommend to use it wisely.
+  - Currently, it is possible to have slower movement speed than usual if you kept holding the Candied Cane during the effects of a [caffienated coffee](cafe-coffee) or [Almond Water](almond-water). This resets every time you trip, but re-applies when holding it again.
 
   !!GALLERY [/assets/bussim/images/items/candied-cane.webp]
