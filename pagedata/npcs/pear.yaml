@@ -177,21 +177,21 @@ content: |-
                       - "You definitely should play Kit Battle though..."
                   - hg[Option 3]: Did you just-?
                       - ...no?
-                      - (If the player's account age is 12 or younger \[<12\], this dialogue plays instead.)
-                          - "Hey, you should pl-- Oh, uhm..."
-                              - hg[Option 1]: I'll just go.
-                              - hg[Option 2]: ...? What's up?
-                                  - "S-Sorry, looks like I'm getting a call! Please hold..."
-                                  - "Meowdy, Pear speaking~!"
-                                  - "Uh-huh... uh-huh...oh, excuse me, could you repeat that..?"
-                                  - "oh, shoot... on god? they're a...?"
-                                  - "okay, thank you so much for letting me know... talk to you later, meow~!"
-                                  - "Um, uh, heeeey, you!"
-                                      - hg[Option 1]: What was that about?
-                                          - "Um, nothing! I've gotta go now, see ya!!!"
-                                      - hg[Option 2]: Um.. hi..?
-                                          - "Yooo, you're talkin' to me? Brand new conversation, with me?! That's crazy! We should talk about how..."
-                                              - (Pear then chooses a random dialogue line.)
+                  - (If the player's account age is 12 or younger \[<12\], this dialogue plays instead.) [Archived]
+                    - "Hey, you should pl-- Oh, uhm..."
+                     - hg[Option 1]: I'll just go.
+                     - hg[Option 2]: ...? What's up?
+                       - "S-Sorry, looks like I'm getting a call! Please hold..."
+                       - "Meowdy, Pear speaking~!"
+                       - "Uh-huh... uh-huh...oh, excuse me, could you repeat that..?"
+                       - "oh, shoot... on god? they're a...?"
+                       - "okay, thank you so much for letting me know... talk to you later, meow~!"
+                       - "Um, uh, heeeey, you!"
+                         - hg[Option 1]: What was that about?
+                           - "Um, nothing! I've gotta go now, see ya!!!"
+                         - hg[Option 2]: Um.. hi..?
+                           - "Yooo, you're talkin' to me? Brand new conversation, with me?! That's crazy! We should talk about how..."
+                             - (Pear then chooses a random dialogue line.)
               - hg[Variant 12]
                   - "It's pretty nice out today, wouldn't you agree?"
                       - hg[Option 1]: Yeah. 
@@ -768,5 +768,6 @@ content: |-
     - This is an anticheat made to prevent [Pear Takes The Wheel](pear-takes-the-wheel) from being softlocked.\n\n
   - Pear's fourth variant in arriving at the exit is a direct reference to [Pure Imagination](https://www.youtube.com/watch?v=SVi3-PrQ0pY), a song composed by Gene Wilder for Willy Wonka & The Chocolate Factory.\n\n 
   - Pear's 5th dialogue if it takes an absurdly long time to reach to the exit is a direct reference to [Second Life](https://secondlife.com/).
+  - Pear's dialogue for when the player is under 13 is now archived due to the game permanently remaining as 13+.
 
   !!GALLERY [/assets/bussim/images/npcs/pear.webp|/assets/bussim/images/npcs/pear-counter.webp]  
