@@ -76,13 +76,13 @@ content: |-
   \n
   | Name | Description | Recipe |
   |------|-------------|--------|
-  |'Decaf'|Sometimes you just have to make do.|- 38ml Plain Coffee\n- 9.5 Sugar\n- 114 Hot Water|
-  |Apple Juice|It's like breakfast at school!|- 133ml Cold Water\n- 28.5 Sugar\n- At least 10x Apples|
+  |'Decaf'|Sometimes you just have to make do.|- 38ml Plain Coffee\n- 9.5ml Sugar\n- 114ml Hot Water|
+  |Apple Juice|It's like breakfast at school!|- 133ml Cold Water\n- 28.5ml Sugar\n- At least 10x Apples|
   |Boiling Water|Not pleasant. At all.|- 133ml Hot Water|
   |Budget Chocolate Drink|Still tastes good, so who cares?|- 66.5ml Chocolate Syrup\n- 95ml Hot Water|
   |Caramel Apple Mix|The good ol' taste of fall.|- 57ml Steamed Milk\n- 22.8ml Cinnamon\n- At least 7x Apples\n- 57ml Caramel Syrup|
   |Caramel Snow-cup|A mellow sweetness with blended ice for a sharp contrast in flavor.|- 95ml Caramel Syrup\n- At least 24x Ice|
-  |Caramel-Chocolate Shake|Why are they drinking these out of coffee cups anyway?|- 123.5ml Soft Serve\n- 19ml Chcoolate Syrup\n- 28.5 Caramel Syrup|
+  |Caramel-Chocolate Shake|Why are they drinking these out of coffee cups anyway?|- 123.5ml Soft Serve\n- 19ml Chcoolate Syrup\n- 28.5ml Caramel Syrup|
   |Chocolate Milk|A classic.|- 68.4ml Chocolate Syrup\n- 85.5ml Milk|
   |Chocolate Snow-cup|An uncommon flavor combo as is, but just as good as it is cold.|- 95ml Chocolate Syrup\n- At least 24x Ice|
   |Coffee|It's just coffee. Nothing special.|- 95ml Plain Coffee|
@@ -95,7 +95,7 @@ content: |-
   |Mango Smoothie|Ice cream coated in yellow fruit.|- At least 9x Mangoes\n- 152ml Soft Serve|
   |Mint Snow-cup|A nice and minty sensation, paired with cold blended ice.|- 95ml Mint Syrup\n- At least 24x Ice|
   |Orange Juice|With pulp.|- 142.5ml Cold Water\n- At least 10x Oranges|
-  |Pumpkin Spice Mocha|October's finest.|- 104.5ml Plain Coffee\n- 28.5 Chocolate Syrup\n- 19ml Pumpkin Spice|
+  |Pumpkin Spice Mocha|October's finest.|- 104.5ml Plain Coffee\n- 28.5ml Chocolate Syrup\n- 19ml Pumpkin Spice|
   |Quick Cereal|For when you don't have time for spoons.|- At least 20x Cookies\n- 152ml Milk|
   |S'more Mocha|A cozy reminder of the outdoors.|- At least 6x Cookies\n- 76ml Chocolate Syrup\n- 57ml House Blend\n- At least 12x Marshmallows|
   |Spice in a Cup|Ouggh,.,. It's got a little kick,...|- At least 32x Peppers|
@@ -105,7 +105,7 @@ content: |-
   |The Cinnamon Challenge|DO *NOT* TRY THIS AT HOME. DON'T.|- 190ml Cinnamon|
   |The Morning Routine|A light but flavorful pick-me-up.|- At least 8x Strawberries\n- 38ml House Blend\n- 95ml Oat Milk|
   |The Pink Dragon|Doesn't really sound all that threatening...|- 57ml Hot Water\n- 19ml Sugar\n- 76ml Steamed Milk\n- At least 10x Dragonfruit|
-  |Vanilla Almond Milk|It's self-explanatory.|- 19ml Sugar\n- 38ml Vanilla Syrup\n- 114 Almond Milk|
+  |Vanilla Almond Milk|It's self-explanatory.|- 19ml Sugar\n- 38ml Vanilla Syrup\n- 114ml Almond Milk|
   |Vanilla Iced Coffee|Soothes and wakes up the soul.|- 114ml Plain Coffee\n- 38ml Vanilla Syrup\n- At least 8x Ice|
   |Vanilla Snow-cup|Vanilla Syrup in blended ice, it's a snow-cone, but in a cup.|- 95ml Vanilla Syrup|
   |Warm Water|Water but more pleasant.|- 66.5ml Hot Water\n- 66.5ml Cold Water|
