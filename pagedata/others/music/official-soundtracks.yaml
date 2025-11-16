@@ -18,7 +18,7 @@ attributions:
   - meeeeeeeeeee (fang)
 content: |-
   !!BUTTONS [<highlight>Official Soundtracks</highlight>,location.href=''|Unofficial Soundtracks,location.href='unofficial-soundtracks']
-  "holy #### official music" -"Fang"
+  "like the song?" -"Artemis (Pear's Place)"
   ##[Info]
   This set of music is unlike others, as they are entirely composed specifically for this game! There's currently four tracks (excluding intermissions), but more may and will be added here!
   \n\n
@@ -35,8 +35,7 @@ content: |-
   \n\n
   |Track Name|Origin / Author|Location / Source|Notes|Links|
   |----------|---------------|-----------------|-----|-----|
-  |Sparkplug Cafe (Passive)|gorplight|[Sparkplug Cafe](cafe)|This plays while the Cafe hasn't opened or has just closed.|[Youtube](https://www.youtube.com/watch?v=ACo4W-OP4ew)|
-  |Sparkplug Cafe (Active)|gorplight|[Sparkplug Cafe](cafe)|This plays during the Cafe minigame.|[Youtube](https://youtu.be/ACo4W-OP4ew?si=6Gd0TEI2rUs5hNYe&t=60)|
+  |cafe|gorplight|[Sparkplug Cafe](cafe)|This plays dynamically within the Sparkplug Cafe.\n Plays in passive while the minigame is inactive / completed; active if otherwise.|- [Youtube (Passive)](https://www.youtube.com/watch?v=ACo4W-OP4ew)\n- [Youtube (Active)](https://youtu.be/ACo4W-OP4ew?si=6Gd0TEI2rUs5hNYe&t=60)|
 
   ###[__Friday Night Soundtracks__]
   These tracks are played from the [Friday Night](games) game from the [Gameboy Advance](gameboy-advance).
@@ -51,7 +50,7 @@ content: |-
   |Track Name|Origin / Author|Location / Source|Notes|Links|
   |----------|---------------|-----------------|-----|-----|
   |Bossa Purrva|gorplight|[Pear's Place](pears-place)|Also plays in Pear's Place.|Youtube|
-  |Sparkplug Cafe / cafe|gorplight|[Sparkplug Cafe](cafe)|Also plays in Sparkplug Cafe. Has a jingle at the end unlike the OST.|[Youtube](https://www.youtube.com/watch?v=ACo4W-OP4ew)|
+  |cafe|gorplight|[Sparkplug Cafe](cafe)|Also plays in Sparkplug Cafe. Has a jingle at the end unlike the OST.|[Youtube](https://www.youtube.com/watch?v=ACo4W-OP4ew)|
 
   ###[__Bus Radio: Intermission Soundtracks__]
   These tracks are playable inbetween 3-5 songs, acting as intermissions for the [Bus Radio](bus-radio). All of them are also voiced by NobleReign's friends. 

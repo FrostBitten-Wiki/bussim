@@ -18,17 +18,18 @@ attributions:
   - meeeeeeeeeee (fang)
 content: |-
   !!BUTTONS [Official Soundtracks,location.href='official-soundtracks'|<highlight>Unofficial Soundtracks</highlight>,location.href='']
-  "the NOT original" -"Fang"
+  "the still not original" -"Fang"
   ##[Info]
-  This set is composed of music / songs made by many different artists / producers without Bus Simulator in mind. Some of these are stock music.
+  This set is composed of music / songs made by many different artists / producers without Bus Simulator in mind. Some of these are stock music. Music with bolded Marketplace ID
   \n\n
   ##[Unofficial Soundtracks]
   ###[__Locational Soundtracks__]
   These tracks play at specific locations, unbound by events.
   \n\n
-  |Track Name|Origin / Author|Location / Source|Notes|Links|
-  |----------|---------------|-----------------|-----|-----|
-  |Diamanten (2022 Remastered Version)|ORF Orchestra|[Art Gallery](art-gallery)|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=dlTcxGq4klk)|
+  |Track Name|Origin / Author|Location / Source|Notes|Links|Audio ID|
+  |----------|---------------|-----------------|-----|-----|--------|
+  |Diamonds|ORF Orchestra / Friedrich Kruntorad|[Art Gallery](art-gallery)|<0px>(.)|- [Marketplace Link](https://create.roblox.com/store/asset/1846575559/)\n- [Youtube](https://www.youtube.com/watch?v=DATL89ghlFg)|**1846575559**|
+  |Light Dreamer|Afro Dizzy|[Small Room - Vibe](small-rooms-vibe)|<0px>(.)|- [Marketplace Link](https://create.roblox.com/store/asset/9047105702/)|**9047105702**|
   ###[__Event Soundtracks__]
   These tracks play during [Events](events).
   \n\n
@@ -47,16 +48,16 @@ content: |-
   ###[__TV Soundtracks__]
   These tracks play from the [TV](tv).
   \n\n
-  |Track Name|Origin / Author|Location / Source|Notes|Links|
-  |----------|---------------|-----------------|-----|-----|
-  |???|???|2 - Danger Tick|Unknown music.|Youtube|
-  |LittleBigPlanet Vita Pod|Alastair Lindsay|3 - Most Robux Wasted|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=sL8mOg7omoM)|
-  |The Furry Song|Kurrel The Raven|4 - Furries|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=RXHncd9h7HY)|
-  |Waltz of the Forest|Yoko Shimomura, XBrav, Martin Hagwell, Kirbopher (now Christopher Niosi), ShadyVox, MusicalMike, Psyguy & Final Boss|6 - Super Mario RPG|Also found in Bus Radio's tracks as the original OST.|[Youtube](https://www.youtube.com/watch?v=k_q9y5vSIrw)|
-  |Palmtree Panic Past (Salad Plain Past)|Sonic CD & Mastered Realm|8 - Thanksgiving|Also found in Bus Radio's tracks.|[Youtube](https://www.youtube.com/watch?v=eQzrfwBFwQA)|
-  |8-bit Remix of the Roblox Anthem|Roblox & anchoviman|9 - Bighead|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=8f6Fk5EVDh4)
-  |???|???|11 - Roblox World Headquarters|Unknown music currently.|Youtube|
-  |???|???|12 - The Epic Fight|Unknown music currently.|Youtube|
+  |Track Name|Origin / Author|Location / Source|Notes|Links|Audio ID|
+  |----------|---------------|-----------------|-----|-----|--------|
+  |Badtime Ragtime|Paul Cuddeford|2 - Danger Tick|<0px>(.)|[Marketplace Link](https://create.roblox.com/store/asset/1838464252/)|**1838464252**|
+  |LittleBigPlanet Vita Pod|Alastair Lindsay|3 - Most Robux Wasted|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=sL8mOg7omoM)|<0px>(.)|
+  |The Furry Song|Kurrel The Raven|4 - Furries|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=RXHncd9h7HY)|<0px>(.)|
+  |Waltz of the Forest|Yoko Shimomura, XBrav, Martin Hagwell, Kirbopher (now Christopher Niosi), ShadyVox, MusicalMike, Psyguy & Final Boss|6 - Super Mario RPG|Also found in Bus Radio's tracks as the original OST.|[Youtube](https://www.youtube.com/watch?v=k_q9y5vSIrw)|<0px>(.)|
+  |Palmtree Panic Past (Salad Plain Past)|Sonic CD & Mastered Realm|8 - Thanksgiving|Also found in Bus Radio's tracks.|[Youtube](https://www.youtube.com/watch?v=eQzrfwBFwQA)|<0px>(.)|
+  |8-bit Remix of the Roblox Anthem|Roblox & anchoviman|9 - Bighead|<0px>(.)|[Youtube](https://www.youtube.com/watch?v=8f6Fk5EVDh4)<0px>(.)|
+  |Magic & Mischief|Bruton TV Series|11 - Roblox World Headquarters|<0px>(.)|[Marketplace Link](https://create.roblox.com/store/asset/9043237789/)|**9043237789**|
+  |Stay Busy|Sonoton Music|12 - The Epic Fight|<0px>(.)|[Marketplace Link](https://create.roblox.com/store/asset/1847000038/)|**1847000038**|
 
   ###[__Friday Night Soundtracks__]
   These tracks are played from the [Friday Night](games) game from the [Gameboy Advance](gameboy-advance). These are also just, Friday Night Funkin' songs.
