@@ -38,12 +38,12 @@ content: |
   Similar to Rainy, this weather type intensifies it with darker clouds, more coverage, and occasionally thunder strikes far away.
   \n
   ##[Special Effects]
-  In certain biomes, some weather can be changed to fit accordingly and so often have their own special effects:
-  - For [Snowy](biomes/snowy), during Rainy, it is replaced by snow particles around the player. This is then intensified during Stormy.
-  - For [Frozen](biomes/frozen), hail will begin to occur during Rainy, with it intensifying during Stormy.
+  In certain [biomes](biomes), some weather can be changed to fit accordingly and so often have their own special effects:
+  - For Snowy, during Rainy, it is replaced by snow particles around the player. This is then intensified during Stormy.
+  - For Frozen, hail will begin to occur during Rainy, with it intensifying during Stormy.
   On the contrary:
-  - For [Desert](biomes/desert), no effects happen during Rainy, however a sandstorm begins if the weather is Stormy, with dust particles flying to the North.
-  - For [Lava](biomes/lava), rain is practically non-existent for both Rainy and Stormy.
+  - For Desert, no effects happen during Rainy, however a sandstorm begins if the weather is Stormy, with dust particles flying to the North.
+  - For Lava, rain is practically non-existent for both Rainy and Stormy.
   \n\n
   ##[Weather Announcements]
   Whenever the weather is changed, assuming you have the Weather Bot enabled; it'll display an announcement if the weather had changed. 

@@ -1,7 +1,7 @@
 editable: True
 page:
   title: Blizzard
-  description: The Blizzard is an event that can happen every 5 minutes and affects everywhere in the game until you go extremely high. During the event, players would notice a blizzard forming as the biome forcibly changes to [Snowy](snowy) then [Frozen](frozen), and would have to start huddling in order to prevent taking damage. 
+  description: The Blizzard is an event that can happen every 5 minutes and affects everywhere in the game until you go extremely high. During the event, players would notice a blizzard forming as the biome forcibly changes to Snowy] then Frozen, and would have to start huddling in order to prevent taking damage. 
     
   keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim <categoryname>
   
@@ -22,7 +22,7 @@ content: |
   ##[Info]
   The Blizzard is an event that can happen every 5 minutes and affects everywhere in the game until you go extremely high.
   \n\n
-  During the event, players would notice a blizzard forming as the biome forcibly changes to [Snowy](snowy) then [Frozen](frozen), 
+  During the event, players would notice a blizzard forming as the biome forcibly changes to Snowy then Frozen, 
   and would have to start huddling in order to prevent taking damage. 
   The damage can vary based on where you are, with the most exposure dealing the most damage such as Beter Box or the third floor on The Bus, 
   to the least exposure dealing minimal damage like the first floor. This then decreases afterwards at some point in the event.
@@ -50,7 +50,7 @@ content: |
     - This is very much unintentional, however it is an effective way to be immune to other events like [Acid Rain](acid-rain), [Lava Floor](lava-floor), etc.
 
   ##[Trivia]
-  - This event can forcibly change the biome, at the start of the event it shifts from [Snowy](snowy) to [Frozen](frozen), then after the event it changes back to [Snowy](snowy).
+  - This event can forcibly change the biome, at the start of the event it shifts from Snowy to Frozen, then after the event it changes back to Snowy.
   - It is possible to heal more than take damage if you are completely exposed during the peak of the event by using more than 3 effective healing items.
   - The wind sound that plays is similar of that to Natural Disaster Survival's wind sound effects, with similar mechanics as well.
 

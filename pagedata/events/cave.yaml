@@ -25,7 +25,7 @@ content: |
   ##[Info]
   Cave event is an event that takes place in a cave. When this happens, the Driver mentions there is a Cave ahead. Then, within seconds, the map becomes dark and changes to a cave. Then eventually the bus begins to drive through the cave. Then within 50 seconds, the driver mentions they are halfway out and then tells the passengers to hang on tight and then the map becomes darker. And then after that, the map changes to the region the bus was driving on before.
   \n\n
-  This event is a great way to show off the Futuristic lighting that is used in the game, via the Headlights, [Phone](phone)'s flashlight, etc.
+  This event is a great way to show off the Futuristic lighting that is used in the game, via the Headlights, [Phone](phone-overhauled)'s flashlight, etc.
 
   ##[Dialogue]
   - hg[Event]: "Hm, I see a cave in the distance."

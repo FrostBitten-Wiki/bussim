@@ -33,8 +33,8 @@ content: |
 
   ##[Trivia]
   - The models for the mountains are always kept constant due to when the mountains was first released, being before biomes existed. Therefore regardless of biome the model won't change.
-  - If this event rolls in the [Lava](lava) biome, its water is non-collidable. As a result, you will end up being burnt just by stepping on it.
-    - Likewise, if it happens on an [Overseas](overseas) biome, jumping into the lake will make you fall onto the ocean. Oops!
+  - If this event rolls in the Lava biome, its water is non-collidable. As a result, you will end up being burnt just by stepping on it.
+    - Likewise, if it happens on an Overseas biome, jumping into the lake will make you fall onto the ocean. Oops!
   - This was one of the events added in the poll for the next events, despite it being placed 2nd, it still got added later on.
   - After this event's debut, many people wanted this event to be removed due to the inaccuracy to actual mountains and the lack of anything special to it, however after following a poll in the Bus Simulator Updates discord server, it was decided to keep it in. 
     - It still has not been updated ever since, but never removed.

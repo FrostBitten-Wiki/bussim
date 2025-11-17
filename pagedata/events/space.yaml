@@ -26,6 +26,6 @@ content: |
   - hg[EVENT]: "Houston, we have a big problem."
     - hg[Houston]: "fix it yourself im on break"
   ##[Trivia]
-  - The map used during the event is almost the same as the [Void (Biome)](void), however the time is set to night instead. 
+  - The map used during the event is almost the same as the Void, however the time is set to night instead. 
     - Another event, called [In The Sky](in-the-sky) also uses the same event too.
   !!GALLERY [/assets/bussim/images/events/space2.webp|/assets/bussim/images/events/space.webp]
