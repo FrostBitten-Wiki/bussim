@@ -22,7 +22,7 @@ attributions:
 content: |
   "A simple biome with a layer of snow coating the grass and trees." -"Rider (Almanac)"
   ##[Info]
-  Snowy is a biome that will spawn randomly after driving through a tunnel. The biome is based on winter, having the ground and trees covered in snow.
+  Snowy is a biome based on winter, having the ground and trees covered in snow. In rainy / stormy conditions, snow will begin to appear, increasing in conjuction with the severity.\n\nThis biome also appears in the [Blizzard](blizzard) event, before and after the actual blizzard.
 
   ##[Trivia]
   -  After the event blizzard, Snowy will appear until the next biome appears.

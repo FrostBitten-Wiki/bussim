@@ -21,8 +21,7 @@ attributions:
 content: |
   "Travelling incredibly close to hot, hot lava! Best to stay on the bus, or be very cautious on where you step." -"Rider (Almanac)"
   ##[Info]
-  Lava is a biome that will spawn randomly after driving through a tunnel, having a more intense atmosphere and contains hazards to the players.
-  It comprises of lava surrounding the entire street with a potent orange haze for its fog, and any attempt to walk onto the lava will send you up in the skies, taking away your health in the process.
+  Lava is a biome comprised of lava surrounding the entire street with a potent orange haze for its fog. Any attempt to walk onto the lava will send you up in the skies, taking away your health in the process.
 
   - If any player touches the lava in this biome, it will cause them to jump and deal significant damage. It won't however trip them.
     - However, if a Mini-Bus were to drive on it, or assuming the player holds it; you won't take damage from it.
