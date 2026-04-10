@@ -1,9 +1,11 @@
 editable: true
 page:
   title: D6
-  description: D6 is an NPC in the GOATed Gas Station event, as well as an artist.
+  description: D6 is an NPC in the GOATed Gas Station event, as well as an 
+    artist.
 
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim banana npc
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim banana 
+    npc
 
   tags: d6, station npc, npc
 
@@ -13,7 +15,7 @@ page:
       Category: [NPCs](npcs)
 
     image: ''
-    imageBanner: /bussim-assets/images/banners/d6-station.webp
+    imageBanner: /bussim-assets/images/banners/d6-banner.webp
 
 attributions:
   - Ported by PolyframeX (@polyframex)
