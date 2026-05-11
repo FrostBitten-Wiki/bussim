@@ -3,7 +3,8 @@ page:
   title: Frostbite
   description: NPCDescription
 
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim frostbite npc
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim frostbite
+    npc
 
   tags: frostbite, glacier cave npc, npc
 
@@ -35,8 +36,6 @@ content: |-
   where he has different dialogue based on his trust level which goes from 0 to 2 at max.
   In order to fully gain Frost's trust, you can give him an [Ice Cream](ice-cream) and [Pearcoin^(TM)](pearcoin) to make him trust you 
   or by giving him the Spronkbib Popsicle.
-  \n\n
-  The latter choice is locked if you decide to give him Ice Cream instead.
   \n\n
   Maxing out his trust by offering the [Spronkbib Popsicle](spronkbib-popsicle) (or showing [pearcoin^(TM)](pearcoin) following the [Ice Cream](ice-cream)) will give you a badge [Part of the Pack](https://www.roblox.com/badges/2130010648/Part-of-the-Pack), 
   and is necessary to unlock the second one. His dialogue and choices also change afterwards.
