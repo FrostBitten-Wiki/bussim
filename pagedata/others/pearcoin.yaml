@@ -1,15 +1,17 @@
 editable: true
 page:
   title: PearcoinTM
-  description: The Pearcoin is a gamepass that is only obtainable through Pear, which
-    does almost nothing.
+  description: The Pearcoin is a gamepass that is only obtainable through Pear, 
+    which does almost nothing.
 
-  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, Pearcoin
+  keywords: wiki, roblox bus simulator, roblox bus sim, roblox bus sim biomes, 
+    Pearcoin
 
   tags: Pearcoin, others, pear scam
 
   header:
-    title: <highlight type="rainbow"><float>Pearcoin<sup>TM</sup></float></highlight>
+    title: <highlight 
+      type="rainbow"><float>Pearcoin<sup>TM</sup></float></highlight>
     description: >-
       Category: [Others](others)
     image: ''
@@ -21,7 +23,8 @@ attributions:
 content: |-
   "no way, you're rich now!!!!!" -"<float>hr[Pearcoin^(TM)]</float>"
   ##[Info]
-  The <float>hr[Pearcoin^(TM)]</float> is a gamepass that is only obtainable through [Pear](npcs/pear),  or through somebody's inventory and costs 2 R$ to purchase. 
+  **NOTE: As of May 29, 2026, the Pearcoin will no longer be obtainable due to Cross-Game Sales getting disabled.**
+  \n The <float>hr[Pearcoin^(TM)]</float> is a gamepass that is only obtainable through [Pear](npcs/pear),  or through somebody's inventory and costs 2 R$ to purchase. 
   \n
   The item doesn't appear in your in-game inventory, but is instead inside your Roblox inventory.
   \n\n
