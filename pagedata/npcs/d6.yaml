@@ -420,7 +420,7 @@ content: |-
                         - "sure"
                         - "it would be impolite of me to leave a visitor bloxy cola-less"
                             - hg[Thanks.]
-                            - (The player then recieves a [Bloxy Cola](cola).)
+                            - (The player then receives a [Bloxy Cola](cola).)
                     - hg[Option 4]: Want another? (If the player has Cola in their inventory) 
                         - hg[Variant 1]: "absolutely" (If the Cola originated from The Bus)
                         - hg[Variant 2]: "say, this one looks rather familiar..." (If the Cola originated from D6)

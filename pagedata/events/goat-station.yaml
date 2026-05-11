@@ -65,10 +65,10 @@ content: |
                 - You: "You check both pockets for some change, but can't scrounge up enough to satisfy the machine. Maybe next time."
               - If the player has enough...
                 - You: "*You insert a coin...\n...and out pops a gumball. As you'd expect.\nYour business with this machine has concluded.*"
-                  - (The player then recieves a [Gumball](gumball).)
+                  - (The player then receives a [Gumball](gumball).)
               - If the player has enough at a rare chance...
                - You: "*You insert a coin...\n...and pops out a* -- wait, what?? What is that??\nIs that a beach volleyball??? Uh, okay then..."
-                  - (The player then recieves a [Mini Beach Volleyball](mini-beach-volleyball))
+                  - (The player then receives a [Mini Beach Volleyball](mini-beach-volleyball))
             - hg[Option 2]: [Sounds scary, I'm out.]
               - You: "Not really worth it after all."
         - hg[Option 2]: [Absolutely not.]

@@ -121,32 +121,32 @@ content: |-
         - hg[Option 2]: [Ask for coffee.] (Friend-Exclusive)
           - "Oh? Sure!"
             - If the player hasn't been given coffee yet within the same event: 
-              - You: "You recieved a <random safe coffee drink>."
+              - You: "You received a <random safe coffee drink>."
                 - "It gets a bit boring working here, so it's always nice to brew up a coffee here and there!"
-                - (The player then recieves a random safe coffee drink.)
+                - (The player then receives a random safe coffee drink.)
             - If the player already has been given coffee within the same event: 
               - "Ah... I wish I could give you another but I'd rather not risk accidentally making a mess 'round here."
               - "Maybe next time though!"
             - If the player is [Zeon](zeon) in question: 
-              - You: "You recieved a Strawberry Smoothie."
+              - You: "You received a Strawberry Smoothie."
                 - " I couldn't find ya some bananas unfortunately, but I'll let you know if I can find 'em!"
-                - (The player recieves a Strawberry Smoothie.)
+                - (The player receives a Strawberry Smoothie.)
             - If the player is [D6](d6) in question:
-              - You: "You recieved The Sludge."
+              - You: "You received The Sludge."
                 - "Not the most aromatic drink personally, but here you go!"
-                - (The player recieves The Sludge.)
+                - (The player receives The Sludge.)
             - If the player is [Disc](disc) in question: 
-              - You: "You recieved a Vanilla Iced Coffee." 
+              - You: "You received a Vanilla Iced Coffee." 
                 - "Here you go pal! Hope your gas station thing has been going well for you!"
-                - (The player recieves a Vanilla Iced Coffee.)
+                - (The player receives a Vanilla Iced Coffee.)
             - If the player is [NobleReign](noble) in question:
-              - You: "You recieved The Blizzard."
+              - You: "You received The Blizzard."
                 - "Here, have a cold one specifically for you!"
-                - (The player recieves The Blizzard.)
+                - (The player receives The Blizzard.)
             - If the player is [MLG](mlg) in question: 
-              - You: "You recieved a Pumpkin Spice Mocha."
+              - You: "You received a Pumpkin Spice Mocha."
                 - "It might not be better than the ones at the Sparkplug Cafe you work at, but it still hits the same tones!"
-                - (The player recieves a Pumpkin Spice Mocha.)
+                - (The player receives a Pumpkin Spice Mocha.)
         - hg[Option 3]: [Check.]
           - You: "Fang definitely seems to be a lot more reasonable than the stories that represented them, although it is still strange seeing them work in a more... menial task if anything."
           - You: "Wait- why are you even checking him? You aren't friends with this guy." (Stranger-Exclusive)
@@ -190,7 +190,7 @@ content: |-
                     - hg[Option 2]: My brain hurts. 
                       - "Pfft, take all the time you need to digest that."
                 - hg[Option 2]: Oh, alright.
-            - hg[Option 3]: Zeon told me to say hi to you. (If the player has talked to Zeon in the [Cafe](cafe) and recieved the black wolf dialogue)
+            - hg[Option 3]: Zeon told me to say hi to you. (If the player has talked to Zeon in the [Cafe](cafe) and received the black wolf dialogue)
               - "Oh, her! Well, I'll be damned!"
               - "Glad to know she's doing fine on her end, if you ever see her, tell her I said hello, alright?"
         - hg[Option 2]: About this library...
@@ -261,7 +261,7 @@ content: |-
   - hg[Variant 4]: "And there goes another poor soul..."
 
   ###[Airhorn Responses]
-  - If the airhorn is used repeatedly in close proximity to Fang: 
+  - If the airhorn is used repeatedly in close proximity to Fang: (50% chance)
     - "Oww... forgot they exist..."
     - "Don't forget that this is still a library!"
   - If the airhorn is used repeatedly in proximity to Fang a second time:
@@ -271,49 +271,58 @@ content: |-
     - "Well, I guess you did ask for it..."
       - The player's head is then selected using [Edit](edit) and is promptly deleted, killing the player.
   - If the airhorn is used repeatedly in proximity to Fang a fourth time and so on:
-    - "Again? Well, I suppose it seems like nothing is going to get through that skull of yours, huh?"
-    - "But it's fine honestly, I could keep going like this on and on, but I know at some point you're going to stop using that airhorn."
-    - "Now I could just go ahead and turn off my Tools volume through my Audio settings, but that would end up making me lose Airpods privileges, and I spent a hefty lot on that."
-    - "Well, a hefty lot, more like, not actually a lot."
-    - "In fact, there's a lot of stuff I've bought that is heaps more expensive than two pieces of electronics bundled as one, but I'm pretty sure you get the idea."
-    - "Still though, that Airhorn of yours? Honestly isn't the worst thing you can do to someone."
-    - "That horn back from that bus over there will annoy a lot of people, mainly because they forgot they can turn off their Environment audio settings, or queuing up hundreds of songs, often being the most ear-jarring ones you thought wouldn't be bad."
-    - "In fact, it pisses me off whenever someone queues up a bunch of that one song between a dad and a son, it's gotten to the point where I **actively** avoid that song outside of that bus! That's how bad it is!"
-    - "Now I know that they'd be usually spending a month's worth of their songs on just one session, but come on! The more you do that stuff the more I appreciate the specifically-curated tracks from MEME RADIO, and it's outside of biases like my friends being the ones handling the intermissions!"
-    - "Like I know you don't have many options, but **for** goodness **sake**, just have some variety."
-    - "Speaking of variety, there's been a lot of songs that I've been listening to outside of MEME RADIO, and honestly? I wasn't expecting to come back to those types of songs."
-    - "Like one of them was about uh, eating people, while the other is about rotting for popularity... yeah- I know these aren't really songs with good messages, but they still are personally some of my favorites."
-    - "Anyways, going back..."
-    - "I suppose you weren't really expecting me to go on a long tirade the moment you attempted to pull out another one on me, right?"
-    - "In fact, I don't even think you have any choice of the matter, you're stuck in this very spot until either I'm done talking or you reset."
-    - "But I'm not like that fox that used to go rampage on people like you on that bus, no, I won't just simply type ''blah blah blah'' and be done with it. You know why?"
-    - "It's because you made me talk about something interesting. That's all."
-    - "Oh, and if you were wondering, don't expect the stuff I say here to be actually canon. I'm just trying to avoid having to place meta-stuff onto that loremap that I made. I made this character so, I guess I also get to decide if it's canon or not."
-    - "Specifically this though, all the other dialogue outside of this? They're all canon. Well, not like it's worth trying to bother taking not-serious lore seriously."
-    - "In fact, the last time I tried to make a loremap, my head got all woozy because it turned out that Fang from Pear's Place canonically knows everyone and everything! Because he works for the wiki!"
-    - "And then there's also the fact that nobody but Zeon and Guby (hey Zeon! :3) even knows that I exist when you talk to them yourself! It's a mess of a mess that I accidentally made but it isn't supposed to be my problem because the lore from the beginning was built to be not that serious aside from a few here and there."
-    - "Honestly. I really now understand why stuff like this shouldn't be taken too seriously. But on the bright side, it at least all forms a sort of cohesive lore, no?"
-    - "When I finished that loremap, there wasn't any conflict to be seen which... honestly is sort of to be expected when people are aware of each other and stuff."
-    - "Actually, I don't even think the others but the select few not knowing Fang exists is a conflict, since they never really mention their other friends too aside from the ones involved / related."
-    - "Well, at least I solved that dilemma. But continuing off of that, it's at the very least nice seeing each NPC and event here and there contributing towards something greater, something grander, usually by accident."
-    - "And honestly? It makes me pleased to know that even if some guy were to take all of this seriously, at the very least it all makes sense."
-    - "Anyways, where was I? Oh right, it's like... your fourth or moreth strike with the Airhorn right?"
-    - "Well, I should probably get back to being in character again since I'm running out of things to say."
-    - "Don't forget, I still gotta kill you for being a disturbance. But at the very least you wasted a lot of your time reading this."
-    - "Unless you're like one of my friends though, which you aren't."  (Stranger-Exclusive)
-    - "So...hasta la vista." (Stranger-Exclusive)
-      - The player's head is then selected using [Edit](edit) and is promptly deleted, killing the player.
-    - "Unless you're one of my friends though, which you are! You probably just read this to see me yap or something since you have to do something pretty specific to achieve this, so... I hope it was worth it! Which I'm sure probably did." (Friend-Exclusive)
-    - "And for that, I'm.. actually just gonna let you off scot-free! Stay safe out there, friend." (Friend-Exclusive)
-      - Fang does nothing. You're spared.
+    - "Honestly... I'm quite impressed at both your stubbornness and your curiosity, not to say that I'm no better."
+    - "Traits like those are good to have at times, although curiosity I find the most."
+    - "After all, what information is there that is just brimming to be found?"
+    - "Haah, apologies. It really befits those who work on the wiki especially like I. To be curious, even if it leads to some consequences."
+    - "There's also a certain charm of how both the journey and its destination can both be consequential. Although I feel like as of late the latter has been more notable."
+    - "Stuff like knowledge you aren't supposed to learn, knowledge that's best forgotten. Knowledge that you'd rather just not archive."
+    - "Hell, even now, there used to be dialogue here that's now being replaced. And if so, what's the point of archiving to begin with if I can't even follow my own example, or with all the others?"
+    - "I suppose though, you can make an arguement that even the text that I'm writing / speaking is constantly in revision. Do and be damned, don't and be damned."
+    - "Still, I can't help but find joy in still archiving and documenting it all. It's still very much important to learn following history, even if it's raw and disturbing at times."
+    - "Even if I know it's an imperfect pursuit, it's a job better than doing nothing at all."
+    - "I'm still of the belief that knowledge can be horrifying. It can be disturbing, and sometimes you wish you didn't learn it. But it's also a tool that can either lead to ruin, or guidance."
+    - "Y'know, this reminds me of this one game that I used to play. A certain spaceship game. I believe it was called h[Innovation Inc. Spaceship]?"
+    - "It's one of those core games. Stuff that I used to enjoy a lot, and still do if not for a certain company effectively killing any remaining flame for this platform."
+    - "Going back to the topic, I wasn't into any of the roleplay stuff, the security, the medics, nor the conflict between the two."
+    - "What I was interested in was the chemistry! You had the option to mix colors, infuse gas, or heat them up and they all had different effects."
+    - "I remember making a notepad file that was all about its effects, and I even had hold on..."
+    - "..."
+    - "...Yes! I still have a copy of it!"
+    - "The vial system changed eventually though the last time I went back, and I'm quite saddened, but it wasn't like I was expecting it to last forever like that." 
+    - "Well, maybe, but still."
+    - "Either way, my dedication was honestly impressive. I went for a hundred trials boiling, infusing, with all different combinations just to see all of its effects." 
+    - "It all came to a benefit since I'd use them to gain some really great powers... that didn't really matter much but still." 
+    - "And then following that were those dummy testing games. The ones where you use a virus and inject it."
+    - "...honestly? I'm surprised they even existed to begin with, but there's been worse so I suppose it's on the par." 
+    - "I remember there was this sort of custom / random virus generator or a mixer of sorts, and I remember documenting each and every virus like as though as I'd recreate some of the worst eventually."
+    - "Quite a contrast to the previous, but I didn't get that far anyways."
+    - "And you may be asking, where does all of this lead to the Bus Simulator wiki and my pursuit of documenting at its greatest?"
+    - "Well, it all began before even I existed. Found it on some random homepage and played it for a good while but it was one of those nostalgic games."
+    - "Years later, I was reminiscing those very group of games, and I stumbled again onto Bus Simulator. And perhaps my greatest fortune was to keep engaging."
+    - "I found the wiki that was in a rather crude state, owned by some guy with Noble as admin, but it was mainly monitored by [Zeon](zeon) I believe. I did a few works, checked recent, griefed and all that."
+    - "It was until a now-contributor reached out and me and Zeon agreed to create a new wiki, with better UI, organization, and actually proper permissions. It wasn't endorsed by Noble yet but it was a great start." 
+    - "Then came the whole shenanigans with the service that was hosting the wiki, one beyond our control. At least, until a certain bunny walked up and told us that there was another way to keep the wiki going."
+    - "And that one is perhaps the one you're reading right now! Although if you're hearing the same dialogue sound playing over and over, I'm not referring to you in specific. Nothing personal."
+    - "Following that, well. Honestly I wouldn't even know where I'd be at if not for that one moment where I decided to stick along for the endless ride." 
+    - "My life would've changed entirely, I wouldn't have met Zeon, nor Noble, nor anyone related to this had I just lived past it." 
+    - "But, I'm glad I did. And who knows, maybe it can apply to you as well." 
+    - "We will never know what the paths will lead us to. It may be a single random decision that turns out to completely drive your life in a new direction."
+    - "So, I guess my takeaway here is... even the smallest nudges can lead to the biggest differences."
+    - "Take the steps you want to do and pursue, or even ones accidentally, and who knows?"
+    - "I for one, am no longer binded to that bus. But when I look back at it and think back of all of the times."
+    - "Maybe..."
+    - "Maybe it isn't so bad to be back in the bus again."
+    - "So, live on. [player name]."
+      - The player is then teleported back into [The Bus](the-bus).
+    - If the airhorn is used repeatedly in close proximity to Fang: (50% chance)
+      - "begone"
+      - The player dies immediately.
   
   ##[Trivia] 
   - Fang canonically knows a large extent towards the game, still retaining his role as the main wiki manager.
-  - Fang, obviously has the longest airhorn response out of any NPC, totalling to 31 consecutive lines of dialogue on his 4th+ strike (If you're a friend or not with Fang).
-    - The intent behind this was simply to waste the player's time, as the player is provided no options aside from resetting, as they have to endure Fang talk about many things before they die.
-  - The song that he mentions about having to actively avoid in his 4th Airhorn Strike is [Plead](https://www.youtube.com/watch?v=JQfKatNaKSQ) from Forsaken.
-    - While the [Bus Radio](bus-radio) can be easily disabled by turning off the Music category in Audio Settings, Fang prefers having it on.
-    - The other two songs that he also mentions following it are [Butcher Vanity](https://www.youtube.com/watch?v=vjBFftpQxxM) and [Rot For Clout](https://www.youtube.com/watch?v=_AjJZEcMdww), both Vocaloid songs.
+  - Fang, obviously has the longest airhorn response out of any NPC, totalling to 42 consecutive lines of dialogue on his 4th+ strike.
+    - The intent behind this was simply to waste the player's time, as the player is provided no options aside from resetting, as they have to endure Fang talk about many things before being teleported away.
   - he is the woofer.
 
   <script>randomDialogueEvent(true, "fang003")</script>

@@ -47,5 +47,5 @@ content: |-
   #![!!LISTITEM IMAGE:"/bussim-assets/images/npcs/wafflewiz.webp" TITLE:"WaffleWiz" DESCRIPTION:"Wafflewiz is an NPC found in the Cafe, and is also one of the makers for Bus Simulator's official UGC accessories; being the DIY Mini-Bus." REDIRECT:"wafflewiz"]
   !!LISTITEM IMAGE:"/bussim-assets/images/npcs/zeon.webp" TITLE:"Zeon" DESCRIPTION:"Zeon is an NPC that appears in the h[GOATed Gas Station] and h[Cafe] event. She is also a moderator for h[Bus Simulator]." REDIRECT:"zeon"
 
-  !!INFOBOX TITLE:"Archived NPCs" COLOR:"#5555ff" TEXT:"These NPCs have been removed from the game. They're listed here for archival purposes."
+  !!INFOBOX TITLE:"Archived NPCs" COLOR:"#5555FF" TEXT:"The following have been removed from the game. They're listed here for archival purposes."
   !!LISTITEM IMAGE:"/bussim-assets/images/npcs/fizzy.webp" TITLE:"Fizzy" DESCRIPTION:"Fizzy was a very minor NPC, only seen in front of h[BloxDonalds]." REDIRECT:"fizzy"
